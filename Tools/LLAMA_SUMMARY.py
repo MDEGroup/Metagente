@@ -248,7 +248,6 @@ def generate_summary(prompt_text):
 
 from tqdm import tqdm
 tqdm.pandas()
-print("juri")
 
 result_list = []
 for x in result_df['prompt_text']:
@@ -259,7 +258,6 @@ for x in result_df['prompt_text']:
         print(x)
     result_list.append(answer)
 
-print ("JURI2 : RESULT COMPUTED")
 # result_df['generated_summary'] = result_df['prompt_text'].progress_map(lambda x: generate_summary(x))
 result_df['generated_summary'] = result_list
 result_df.to_csv(f"{OUTPUT_DIR}/compared_results.csv")
