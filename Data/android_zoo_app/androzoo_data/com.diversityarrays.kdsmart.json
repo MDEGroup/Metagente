@@ -1,0 +1,1345 @@
+[
+  {
+    "aggregateRating": {
+      "commentCount": "10",
+      "fiveStarRatings": "20",
+      "fourStarRatings": "4",
+      "oneStarRatings": "0",
+      "ratingsCount": "24",
+      "starRating": 4.8333335,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-06-04 11:32:39.035610",
+    "backendDocid": "com.diversityarrays.kdsmart",
+    "backendId": 3,
+    "creator": "Diversity Arrays Technology Pty Ltd",
+    "descriptionHtml": "For more <i>KDSmart</i> information, visit http://www.kddart.org/kdsmart.html or the <i>User Guide</i> at http://www.kddart.org/help/<br><br><i>KDSmart</i> lets you perform phenotypic data scoring in the field. <br><b>Concepts</b><br>\u2022 <i>Trial</i>: also known as <i>Experiment</i> or <i>Study</i>, multiple Trials may be loaded into KDSmart<br>\u2022 <i>Plot</i>: a Trial contains multiple Plots in rows and columns<br>\u2022 <i>Sub-Plot</i>: if desired, you may decide to score multiple Sub-Plots within each Plot<br>\u2022 <i>Trait</i>: a phenotype to score for each Plot or Sub-Plot<br>\u2022 <i>Trait Instance</i>: you may score multiple instances of each Trait<br><br>A <i>Trait</i> may have a predefined range of values to allow single-touch scoring using a &quot;pick-from-list&quot; approach. You can associate many <i>Trait</i>s for the <i>Plots/Sub-Plots</i> in a <i>Trial</i> but select a subset of these to be scored during a specific field scoring visit.<br><br>Other attributes of <i>Plot</i>s and <i>Sub-Plot</i>s are:<br>\u2022 <i>Note</i>: a text string<br>\u2022 <i>Quick Tags</i>: for quick annotation of a Plot/Sub-Plot<br>\u2022 <i>Attachments</i>: Photos and Video or Audio recordings<br><br><i>Quick Tags</i> may be created while in the field or pre-defined and loaded into <i>KDSmart</i> by using the companion desktop application <i>KDXplore</i>. You may apply zero, one or more <i>Quick Tags</i> to each Plot/Sub-Plot.<br><br>We use the term <i>Sub-Plot</i> as KDSmart may be used for any type of flora/fauna relevant to your trial or experiment. Similarly, a <i>Plot</i> may be any partitioning of the Trial (in this version we support Plot-Id, Row and Column, Block partitioning) and not all rows and columns need to be present.<br><br>When required, data recorded by <i>KDSmart</i> may be exported for transfer to other computer systems where it may be analysed or stored in a database. While this can be done by uploading or file transfer, it is more readily and seamlessly done using the <i>KDXplore</i> desktop application. <br><br><b>Other Products</b><br><i>KDSmart</i> is part of a suite of <i>Diversity Arrays</i> software supporting phenotypic, genetic and environmental data collection, storage and analysis. These products are aimed at breeding and pre-breeding applications but may also be used in multidisciplinary agro-ecological and environmental research undertakings. <br><br>Please see http://www.kddart.org for further details.",
+    "descriptionShort": "Phenotypic data scoring",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown1": 2,
+          "unknown2": "13995508",
+          "unknown3": 28
+        },
+        "developerAddress": "Diversity Arrays Technology<br/>Building 3, Kirinari Street<br/>BRUCE  ACT  2617<br/>Australia<br/>",
+        "developerEmail": "kdsmart@diversityarrays.com",
+        "developerName": "Diversity Arrays Technology Pty Ltd",
+        "developerWebsite": "http://www.kddart.org",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "13995508",
+            "versionCode": 3150
+          }
+        ],
+        "installationSize": "13995508",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "com.diversityarrays.kdsmart",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.CAMERA",
+          "android.permission.GET_ACCOUNTS",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECORD_AUDIO",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+        ],
+        "recentChangesHtml": "\u2022 Resolved an issue with Spreadsheet View causing crashes.<br>\u2022 Various improvements to UI including standardisation of icons and UI writing.<br>\u2022 Inclusion of a target box when scanning barcodes.<br>\u2022 Fixed categorical trait creation so that categories are not split when a comma is included in the category name.<br>\u2022 A Run Length option was included in the Create Trials Screen.<br>\u2022 Scored traits now display the time that they were scored.<br>\u2022 Various minor stability and usability fixes.",
+        "unstable": true,
+        "uploadDate": "10 May 2020",
+        "versionCode": 3150,
+        "versionString": "3.2.2"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.diversityarrays.kdsmart",
+    "docType": 1,
+    "docid": "com.diversityarrays.kdsmart",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://lh3.googleusercontent.com/YoBeEbYhMVar6AROEc51l-IT6724hcrImY1TYj850vQy-v93Y0YKPTgpzrjMqqroPuU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 4,
+        "imageUrl": "https://lh3.googleusercontent.com/e3xJ6ZQUE_YEPSpCa4lUT06i-6bS6ZJ_zozvEawOBhCzPfIqM9pdN772YR5TGjHM7QY",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1138,
+          "width": 684
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/DUxdGMXdrS-CHPE1fdE2XbgF4xnZun-NrfbDq71cxhu0lgTp1abLL-IW9Lp9tbjHSQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1144,
+          "width": 688
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/ZnFPm0fdYmucMT2s5bKbooAXwHc1c5_PtksilLK50APKaAJZ5no_kut6mt3jnZ4oNQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/lJ5k_eaAyVhvDehgfwFNB-Dq5g7NU6FPCSJIRwEvgGkF5jZjk14tBmopUZaAZY0KAbQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/c04U50ZYHtQrS5qRn5BhmcMaV4r0b9WI6JCCFiJfi-7iRocacwttptIhCOZVK9GDrqnX",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1088,
+          "width": 686
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/SA691dLsWP1zXmZ1Yjs_B-M2CEtZ7rGEoCdoS9_ZADVi4P85hzN9GeBq-XjtGMsh0g",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1092,
+          "width": 688
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/1HhbMQVMmUBOK9_2MwcVK6n2zHr3fxHuve42D625B3DAwbIsPiJ69Z_62pUIxum2n5I",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3012,
+          "width": 1591
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/cIgtEs17ee0VhCiiM1ZMqFedUh76QjEB7cI8iPvUimErJ_ohkMzwMv6_InFJgDqGAPE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1591,
+          "width": 3012
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/J89WF-O3bQMyGHwbMB0f3Qzaug9a1SarTT4o-MewfB8nXwPWTlnYT-Po6Umvek5D4aE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1166,
+          "width": 686
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/iYSuc2i4GniiRZer0ZR-F0nJr13NoYs3OqLdz2g8e-8cvdeO_I_N8NrteeruHrpW9gE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1166,
+          "width": 686
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/HGjYXIKP6bjliZpcuCPuo0rQ80i5VytJVplaF-yiZqj1GVoBuvDoJyYDPQUkoM63Ko8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1200,
+          "width": 1920
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/i4X3TrjuVj30sXif0hPKy4Cfe65Q2ECw5BTq_SaFP1zCSd_ERPgEjEkd4rr_wmqm5A",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1176,
+          "width": 686
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/g8Z5HtkbD-nVbiZILgGtW5svg2DMtJ2InQw3Zh5dHxIvN4rWUOuhMDFqZbus5eEDHw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1158,
+          "width": 690
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/xfffx0TA_V48hRWJJ9JeEAyjseRfMXRGeFKLuWGqBoEW0S3_iI5ylIFI1LOQPYF23A",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1600,
+          "width": 2560
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/3DLWlo9XQOC6stOjUu3R-s_I1jAQCtBT4xzHq6l31DP7w4bIzIcvLJDYuSgyeBRnZSs",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1600,
+          "width": 2560
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/cuJbzyKNuwx5Ni-RdM3lGkTtFyEnf48ulAjF6HBMipbtC_1ODvN5-yRt8i93lHJo1P8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 672,
+          "width": 1282
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/dIaAzs1hkpa13stH24-cOBOrTgvAtuSVwlxl_jILoesOp9Vz7karypeV9TgNqjq4Tjg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 680,
+          "width": 1282
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/J94j56yjXnzp5suwRpAKqEfJsidHq6DDsAlkcwv44HdYe5T4EbzjjfNSq0tP2FX3cw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 682,
+          "width": 1282
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/9T54f7_eBTUK9ndvznm8vnFQBY6P57q9oBWLRSPxqp15qt7jtatojZ9KYY5H8kFMvKQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 672,
+          "width": 1282
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/C-xYdinfvVkja3ZyoCN3royXdkTOTxYK9thAKW4J_78eOgd1F3GbnkHqSgb4hrE8OHo",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 672,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/sGee7vIm-T32e7SeVA8T9kKdt9X1GR8rgkit9DJNbvSGUDb-HDy65zDyJzPzWoxlbQ",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://www.kddart.org/help/kdsmart/html/privacy.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://lh3.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.diversityarrays.kdsmart",
+    "reviewsUrl": "rev?doc=com.diversityarrays.kdsmart&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.diversityarrays.kdsmart",
+    "title": "KDSmart",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "kdsmart@diversityarrays.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Diversity Arrays Technology<br/>Building 3, Kirinari Street<br/>BRUCE  ACT  2617<br/>Australia<br/>"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "16 Nov 2015"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "10",
+      "fiveStarRatings": "20",
+      "fourStarRatings": "4",
+      "oneStarRatings": "0",
+      "ratingsCount": "24",
+      "starRating": 4.8333335,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-07-24 10:42:50.604485",
+    "backendDocid": "com.diversityarrays.kdsmart",
+    "backendId": 3,
+    "creator": "Diversity Arrays Technology Pty Ltd",
+    "descriptionHtml": "For more <i>KDSmart</i> information, visit http://www.kddart.org/kdsmart.html or the <i>User Guide</i> at http://www.kddart.org/help/<br><br><i>KDSmart</i> lets you perform phenotypic data scoring in the field. <br><b>Concepts</b><br>\u2022 <i>Trial</i>: also known as <i>Experiment</i> or <i>Study</i>, multiple Trials may be loaded into KDSmart<br>\u2022 <i>Plot</i>: a Trial contains multiple Plots in rows and columns<br>\u2022 <i>Sub-Plot</i>: if desired, you may decide to score multiple Sub-Plots within each Plot<br>\u2022 <i>Trait</i>: a phenotype to score for each Plot or Sub-Plot<br>\u2022 <i>Trait Instance</i>: you may score multiple instances of each Trait<br><br>A <i>Trait</i> may have a predefined range of values to allow single-touch scoring using a &quot;pick-from-list&quot; approach. You can associate many <i>Trait</i>s for the <i>Plots/Sub-Plots</i> in a <i>Trial</i> but select a subset of these to be scored during a specific field scoring visit.<br><br>Other attributes of <i>Plot</i>s and <i>Sub-Plot</i>s are:<br>\u2022 <i>Note</i>: a text string<br>\u2022 <i>Quick Tags</i>: for quick annotation of a Plot/Sub-Plot<br>\u2022 <i>Attachments</i>: Photos and Video or Audio recordings<br><br><i>Quick Tags</i> may be created while in the field or pre-defined and loaded into <i>KDSmart</i> by using the companion desktop application <i>KDXplore</i>. You may apply zero, one or more <i>Quick Tags</i> to each Plot/Sub-Plot.<br><br>We use the term <i>Sub-Plot</i> as KDSmart may be used for any type of flora/fauna relevant to your trial or experiment. Similarly, a <i>Plot</i> may be any partitioning of the Trial (in this version we support Plot-Id, Row and Column, Block partitioning) and not all rows and columns need to be present.<br><br>When required, data recorded by <i>KDSmart</i> may be exported for transfer to other computer systems where it may be analysed or stored in a database. While this can be done by uploading or file transfer, it is more readily and seamlessly done using the <i>KDXplore</i> desktop application. <br><br><b>Other Products</b><br><i>KDSmart</i> is part of a suite of <i>Diversity Arrays</i> software supporting phenotypic, genetic and environmental data collection, storage and analysis. These products are aimed at breeding and pre-breeding applications but may also be used in multidisciplinary agro-ecological and environmental research undertakings. <br><br>Please see http://www.kddart.org for further details.",
+    "descriptionShort": "Phenotypic data scoring",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown1": 2,
+          "unknown2": "14435227",
+          "unknown3": 28
+        },
+        "developerAddress": "Diversity Arrays Technology<br/>Building 3, Kirinari Street<br/>BRUCE  ACT  2617<br/>Australia<br/>",
+        "developerEmail": "kdsmart@diversityarrays.com",
+        "developerName": "Diversity Arrays Technology Pty Ltd",
+        "developerWebsite": "http://www.kddart.org",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "14435227",
+            "versionCode": 3156
+          }
+        ],
+        "installationSize": "14435227",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "com.diversityarrays.kdsmart",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.CAMERA",
+          "android.permission.GET_ACCOUNTS",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECORD_AUDIO",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+        ],
+        "recentChangesHtml": "\u2022 Resolved various issues with importing and exporting data.<br>\u2022 Fixed a bug with scanning barcodes when scoring a trial. <br>\u2022 Removed the Add Traits Screen as the same functionality can now be found in the Add Trait Bundles Screen. <br>\u2022 Various UI improvements including indenting trait lists in the Add Trait Bundles Screen. <br>\u2022 Fixed multiple bugs found when bulk scoring.<br>\u2022 Resolved an issue with creating a connection to KDXchange. <br>\u2022 Work to prepare for a future connection to KDDart.",
+        "unstable": true,
+        "versionCode": 3156,
+        "versionString": "3.2.3"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.diversityarrays.kdsmart",
+    "docType": 1,
+    "docid": "com.diversityarrays.kdsmart",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://lh3.googleusercontent.com/YoBeEbYhMVar6AROEc51l-IT6724hcrImY1TYj850vQy-v93Y0YKPTgpzrjMqqroPuU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 4,
+        "imageUrl": "https://lh3.googleusercontent.com/e3xJ6ZQUE_YEPSpCa4lUT06i-6bS6ZJ_zozvEawOBhCzPfIqM9pdN772YR5TGjHM7QY",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1138,
+          "width": 684
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/DUxdGMXdrS-CHPE1fdE2XbgF4xnZun-NrfbDq71cxhu0lgTp1abLL-IW9Lp9tbjHSQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1144,
+          "width": 688
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/ZnFPm0fdYmucMT2s5bKbooAXwHc1c5_PtksilLK50APKaAJZ5no_kut6mt3jnZ4oNQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/lJ5k_eaAyVhvDehgfwFNB-Dq5g7NU6FPCSJIRwEvgGkF5jZjk14tBmopUZaAZY0KAbQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/c04U50ZYHtQrS5qRn5BhmcMaV4r0b9WI6JCCFiJfi-7iRocacwttptIhCOZVK9GDrqnX",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1088,
+          "width": 686
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/SA691dLsWP1zXmZ1Yjs_B-M2CEtZ7rGEoCdoS9_ZADVi4P85hzN9GeBq-XjtGMsh0g",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1092,
+          "width": 688
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/1HhbMQVMmUBOK9_2MwcVK6n2zHr3fxHuve42D625B3DAwbIsPiJ69Z_62pUIxum2n5I",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3012,
+          "width": 1591
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/cIgtEs17ee0VhCiiM1ZMqFedUh76QjEB7cI8iPvUimErJ_ohkMzwMv6_InFJgDqGAPE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1591,
+          "width": 3012
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/J89WF-O3bQMyGHwbMB0f3Qzaug9a1SarTT4o-MewfB8nXwPWTlnYT-Po6Umvek5D4aE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1166,
+          "width": 686
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/iYSuc2i4GniiRZer0ZR-F0nJr13NoYs3OqLdz2g8e-8cvdeO_I_N8NrteeruHrpW9gE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1166,
+          "width": 686
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/HGjYXIKP6bjliZpcuCPuo0rQ80i5VytJVplaF-yiZqj1GVoBuvDoJyYDPQUkoM63Ko8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1200,
+          "width": 1920
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/i4X3TrjuVj30sXif0hPKy4Cfe65Q2ECw5BTq_SaFP1zCSd_ERPgEjEkd4rr_wmqm5A",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1176,
+          "width": 686
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/g8Z5HtkbD-nVbiZILgGtW5svg2DMtJ2InQw3Zh5dHxIvN4rWUOuhMDFqZbus5eEDHw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1158,
+          "width": 690
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/xfffx0TA_V48hRWJJ9JeEAyjseRfMXRGeFKLuWGqBoEW0S3_iI5ylIFI1LOQPYF23A",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1600,
+          "width": 2560
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/3DLWlo9XQOC6stOjUu3R-s_I1jAQCtBT4xzHq6l31DP7w4bIzIcvLJDYuSgyeBRnZSs",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1600,
+          "width": 2560
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/cuJbzyKNuwx5Ni-RdM3lGkTtFyEnf48ulAjF6HBMipbtC_1ODvN5-yRt8i93lHJo1P8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 672,
+          "width": 1282
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/dIaAzs1hkpa13stH24-cOBOrTgvAtuSVwlxl_jILoesOp9Vz7karypeV9TgNqjq4Tjg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 680,
+          "width": 1282
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/J94j56yjXnzp5suwRpAKqEfJsidHq6DDsAlkcwv44HdYe5T4EbzjjfNSq0tP2FX3cw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 682,
+          "width": 1282
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/9T54f7_eBTUK9ndvznm8vnFQBY6P57q9oBWLRSPxqp15qt7jtatojZ9KYY5H8kFMvKQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 672,
+          "width": 1282
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/C-xYdinfvVkja3ZyoCN3royXdkTOTxYK9thAKW4J_78eOgd1F3GbnkHqSgb4hrE8OHo",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 672,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/sGee7vIm-T32e7SeVA8T9kKdt9X1GR8rgkit9DJNbvSGUDb-HDy65zDyJzPzWoxlbQ",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://www.kddart.org/help/kdsmart/html/privacy.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://lh3.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.diversityarrays.kdsmart",
+    "reviewsUrl": "rev?doc=com.diversityarrays.kdsmart&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.diversityarrays.kdsmart",
+    "title": "KDSmart",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "kdsmart@diversityarrays.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Diversity Arrays Technology<br/>Building 3, Kirinari Street<br/>BRUCE  ACT  2617<br/>Australia<br/>"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "16 Nov 2015"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "10",
+      "fiveStarRatings": "20",
+      "fourStarRatings": "4",
+      "oneStarRatings": "0",
+      "ratingsCount": "24",
+      "starRating": 4.8333335,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-08-10 21:25:43.221906",
+    "backendDocid": "com.diversityarrays.kdsmart",
+    "backendId": 3,
+    "creator": "Diversity Arrays Technology Pty Ltd",
+    "descriptionHtml": "For more <i>KDSmart</i> information, visit http://www.kddart.org/kdsmart.html or the <i>User Guide</i> at http://www.kddart.org/help/<br><br><i>KDSmart</i> lets you perform phenotypic data scoring in the field. <br><b>Concepts</b><br>\u2022 <i>Trial</i>: also known as <i>Experiment</i> or <i>Study</i>, multiple Trials may be loaded into KDSmart<br>\u2022 <i>Plot</i>: a Trial contains multiple Plots in rows and columns<br>\u2022 <i>Sub-Plot</i>: if desired, you may decide to score multiple Sub-Plots within each Plot<br>\u2022 <i>Trait</i>: a phenotype to score for each Plot or Sub-Plot<br>\u2022 <i>Trait Instance</i>: you may score multiple instances of each Trait<br><br>A <i>Trait</i> may have a predefined range of values to allow single-touch scoring using a &quot;pick-from-list&quot; approach. You can associate many <i>Trait</i>s for the <i>Plots/Sub-Plots</i> in a <i>Trial</i> but select a subset of these to be scored during a specific field scoring visit.<br><br>Other attributes of <i>Plot</i>s and <i>Sub-Plot</i>s are:<br>\u2022 <i>Note</i>: a text string<br>\u2022 <i>Quick Tags</i>: for quick annotation of a Plot/Sub-Plot<br>\u2022 <i>Attachments</i>: Photos and Video or Audio recordings<br><br><i>Quick Tags</i> may be created while in the field or pre-defined and loaded into <i>KDSmart</i> by using the companion desktop application <i>KDXplore</i>. You may apply zero, one or more <i>Quick Tags</i> to each Plot/Sub-Plot.<br><br>We use the term <i>Sub-Plot</i> as KDSmart may be used for any type of flora/fauna relevant to your trial or experiment. Similarly, a <i>Plot</i> may be any partitioning of the Trial (in this version we support Plot-Id, Row and Column, Block partitioning) and not all rows and columns need to be present.<br><br>When required, data recorded by <i>KDSmart</i> may be exported for transfer to other computer systems where it may be analysed or stored in a database. While this can be done by uploading or file transfer, it is more readily and seamlessly done using the <i>KDXplore</i> desktop application. <br><br><b>Other Products</b><br><i>KDSmart</i> is part of a suite of <i>Diversity Arrays</i> software supporting phenotypic, genetic and environmental data collection, storage and analysis. These products are aimed at breeding and pre-breeding applications but may also be used in multidisciplinary agro-ecological and environmental research undertakings. <br><br>Please see http://www.kddart.org for further details.",
+    "descriptionShort": "Phenotypic data scoring",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown1": 2,
+          "unknown2": "14346671",
+          "unknown3": 28
+        },
+        "developerAddress": "Diversity Arrays Technology<br/>Building 3, Kirinari Street<br/>BRUCE  ACT  2617<br/>Australia<br/>",
+        "developerEmail": "kdsmart@diversityarrays.com",
+        "developerName": "Diversity Arrays Technology Pty Ltd",
+        "developerWebsite": "http://www.kddart.org",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "14346671",
+            "versionCode": 3157
+          }
+        ],
+        "installationSize": "14346671",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "com.diversityarrays.kdsmart",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.CAMERA",
+          "android.permission.GET_ACCOUNTS",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECORD_AUDIO",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+        ],
+        "recentChangesHtml": "Bug fixes for block trial",
+        "unstable": true,
+        "versionCode": 3157,
+        "versionString": "3.2.4"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.diversityarrays.kdsmart",
+    "docType": 1,
+    "docid": "com.diversityarrays.kdsmart",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://lh3.googleusercontent.com/YoBeEbYhMVar6AROEc51l-IT6724hcrImY1TYj850vQy-v93Y0YKPTgpzrjMqqroPuU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 4,
+        "imageUrl": "https://lh3.googleusercontent.com/e3xJ6ZQUE_YEPSpCa4lUT06i-6bS6ZJ_zozvEawOBhCzPfIqM9pdN772YR5TGjHM7QY",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1138,
+          "width": 684
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/DUxdGMXdrS-CHPE1fdE2XbgF4xnZun-NrfbDq71cxhu0lgTp1abLL-IW9Lp9tbjHSQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1144,
+          "width": 688
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/ZnFPm0fdYmucMT2s5bKbooAXwHc1c5_PtksilLK50APKaAJZ5no_kut6mt3jnZ4oNQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/lJ5k_eaAyVhvDehgfwFNB-Dq5g7NU6FPCSJIRwEvgGkF5jZjk14tBmopUZaAZY0KAbQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/c04U50ZYHtQrS5qRn5BhmcMaV4r0b9WI6JCCFiJfi-7iRocacwttptIhCOZVK9GDrqnX",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1088,
+          "width": 686
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/SA691dLsWP1zXmZ1Yjs_B-M2CEtZ7rGEoCdoS9_ZADVi4P85hzN9GeBq-XjtGMsh0g",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1092,
+          "width": 688
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/1HhbMQVMmUBOK9_2MwcVK6n2zHr3fxHuve42D625B3DAwbIsPiJ69Z_62pUIxum2n5I",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3012,
+          "width": 1591
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/cIgtEs17ee0VhCiiM1ZMqFedUh76QjEB7cI8iPvUimErJ_ohkMzwMv6_InFJgDqGAPE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1591,
+          "width": 3012
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/J89WF-O3bQMyGHwbMB0f3Qzaug9a1SarTT4o-MewfB8nXwPWTlnYT-Po6Umvek5D4aE",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://www.kddart.org/help/kdsmart/html/privacy.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://lh3.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.diversityarrays.kdsmart",
+    "reviewsUrl": "rev?doc=com.diversityarrays.kdsmart&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.diversityarrays.kdsmart",
+    "title": "KDSmart",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Diversity Arrays Technology Pty Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "kdsmart@diversityarrays.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Diversity Arrays Technology<br/>Building 3, Kirinari Street<br/>BRUCE  ACT  2617<br/>Australia<br/>"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "16 Nov 2015"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-11-05 12:12:01.625540",
+    "backendDocid": "com.diversityarrays.kdsmart",
+    "backendId": 3,
+    "creator": "Diversity Arrays Technology Pty Ltd",
+    "descriptionHtml": "For more <i>KDSmart</i> information, visit http://www.kddart.org/kdsmart.html or the <i>User Guide</i> at http://www.kddart.org/help/<br><br><i>KDSmart</i> lets you perform phenotypic data scoring in the field. <br><b>Concepts</b><br>\u2022 <i>Trial</i>: also known as <i>Experiment</i> or <i>Study</i>, multiple Trials may be loaded into KDSmart<br>\u2022 <i>Plot</i>: a Trial contains multiple Plots in rows and columns<br>\u2022 <i>Sub-Plot</i>: if desired, you may decide to score multiple Sub-Plots within each Plot<br>\u2022 <i>Trait</i>: a phenotype to score for each Plot or Sub-Plot<br>\u2022 <i>Trait Instance</i>: you may score multiple instances of each Trait<br><br>A <i>Trait</i> may have a predefined range of values to allow single-touch scoring using a &quot;pick-from-list&quot; approach. You can associate many <i>Trait</i>s for the <i>Plots/Sub-Plots</i> in a <i>Trial</i> but select a subset of these to be scored during a specific field scoring visit.<br><br>Other attributes of <i>Plot</i>s and <i>Sub-Plot</i>s are:<br>\u2022 <i>Note</i>: a text string<br>\u2022 <i>Quick Tags</i>: for quick annotation of a Plot/Sub-Plot<br>\u2022 <i>Attachments</i>: Photos and Video or Audio recordings<br><br><i>Quick Tags</i> may be created while in the field or pre-defined and loaded into <i>KDSmart</i> by using the companion desktop application <i>KDXplore</i>. You may apply zero, one or more <i>Quick Tags</i> to each Plot/Sub-Plot.<br><br>We use the term <i>Sub-Plot</i> as KDSmart may be used for any type of flora/fauna relevant to your trial or experiment. Similarly, a <i>Plot</i> may be any partitioning of the Trial (in this version we support Plot-Id, Row and Column, Block partitioning) and not all rows and columns need to be present.<br><br>When required, data recorded by <i>KDSmart</i> may be exported for transfer to other computer systems where it may be analysed or stored in a database. While this can be done by uploading or file transfer, it is more readily and seamlessly done using the <i>KDXplore</i> desktop application. <br><br><b>Other Products</b><br><i>KDSmart</i> is part of a suite of <i>Diversity Arrays</i> software supporting phenotypic, genetic and environmental data collection, storage and analysis. These products are aimed at breeding and pre-breeding applications but may also be used in multidisciplinary agro-ecological and environmental research undertakings. <br><br>Please see http://www.kddart.org for further details.",
+    "descriptionShort": "Phenotypic data scoring",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "version": 12451000
+            }
+          ],
+          "unknown1": 2,
+          "unknown2": "18332274",
+          "unknown3": 33
+        },
+        "developerAddress": "Diversity Arrays Technology<br/>Building 3, Kirinari Street<br/>BRUCE  ACT  2617<br/>Australia<br/>",
+        "developerEmail": "kdsmart@diversityarrays.com",
+        "developerName": "Diversity Arrays Technology Pty Ltd",
+        "developerWebsite": "http://www.kddart.org",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "18332274",
+            "versionCode": 6577
+          }
+        ],
+        "installationSize": "18332274",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "com.diversityarrays.kdsmart",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.BLUETOOTH_ADVERTISE",
+          "android.permission.BLUETOOTH_CONNECT",
+          "android.permission.BLUETOOTH_SCAN",
+          "android.permission.CAMERA",
+          "android.permission.GET_ACCOUNTS",
+          "android.permission.INTERNET",
+          "android.permission.POST_NOTIFICATIONS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECORD_AUDIO",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.diversityarrays.kdsmart.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": "\u2022 We\u2019ve implemented measures to comply with Android\u2019s new storage requirement. Users need to migrate their database for continued functionality of KDSmart. For more information: https://source.android.com/docs/core/storage/scoped<br>\u2022 Added a Database Migration Guide within the app.<br>\u2022 Resolved multiple app crashes and improved general stability.<br>\u2022 Improved compatibility for API 24.<br>\u2022 Resolved an issue in trial creation where users couldn&#39;t select plot options.",
+        "unstable": true,
+        "uploadDate": "Oct 5, 2023",
+        "versionCode": 6577,
+        "versionString": "3.3.5"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.diversityarrays.kdsmart&vc=6577",
+    "docType": 1,
+    "docid": "com.diversityarrays.kdsmart",
+    "image": [
+      {
+        "color": "#022B5D",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/YoBeEbYhMVar6AROEc51l-IT6724hcrImY1TYj850vQy-v93Y0YKPTgpzrjMqqroPuU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/e3xJ6ZQUE_YEPSpCa4lUT06i-6bS6ZJ_zozvEawOBhCzPfIqM9pdN772YR5TGjHM7QY",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1138,
+          "width": 684
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/DUxdGMXdrS-CHPE1fdE2XbgF4xnZun-NrfbDq71cxhu0lgTp1abLL-IW9Lp9tbjHSQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1144,
+          "width": 688
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ZnFPm0fdYmucMT2s5bKbooAXwHc1c5_PtksilLK50APKaAJZ5no_kut6mt3jnZ4oNQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/lJ5k_eaAyVhvDehgfwFNB-Dq5g7NU6FPCSJIRwEvgGkF5jZjk14tBmopUZaAZY0KAbQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/c04U50ZYHtQrS5qRn5BhmcMaV4r0b9WI6JCCFiJfi-7iRocacwttptIhCOZVK9GDrqnX",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1088,
+          "width": 686
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/SA691dLsWP1zXmZ1Yjs_B-M2CEtZ7rGEoCdoS9_ZADVi4P85hzN9GeBq-XjtGMsh0g",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1092,
+          "width": 688
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/1HhbMQVMmUBOK9_2MwcVK6n2zHr3fxHuve42D625B3DAwbIsPiJ69Z_62pUIxum2n5I",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3012,
+          "width": 1591
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/cIgtEs17ee0VhCiiM1ZMqFedUh76QjEB7cI8iPvUimErJ_ohkMzwMv6_InFJgDqGAPE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1591,
+          "width": 3012
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/J89WF-O3bQMyGHwbMB0f3Qzaug9a1SarTT4o-MewfB8nXwPWTlnYT-Po6Umvek5D4aE",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "CAD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://www.kddart.org/help/kdsmart/html/privacy.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.diversityarrays.kdsmart",
+    "reviewsUrl": "rev?doc=com.diversityarrays.kdsmart&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.diversityarrays.kdsmart",
+    "title": "KDSmart\n3.3.5",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Diversity Arrays Technology Pty Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "kdsmart@diversityarrays.com"
+          },
+          "label": "Developer e-mail"
+        },
+        {
+          "container": {
+            "value": "Diversity Arrays Technology<br/>Building 3, Kirinari Street<br/>BRUCE  ACT  2617<br/>Australia<br/>"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "Nov 16, 2015"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "1",
+      "fiveStarRatings": "6",
+      "fourStarRatings": "1",
+      "oneStarRatings": "0",
+      "ratingsCount": "7",
+      "starRating": 4.857143,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2025-05-27 07:22:47.852271",
+    "backendDocid": "com.diversityarrays.kdsmart",
+    "backendId": 3,
+    "creator": "Diversity Arrays Technology Pty Ltd",
+    "descriptionHtml": "For more <i>KDSmart</i> information, visit https://www.kddart.org/kdsmart.html or the <i>User Guide</i> at https://www.kddart.org/help/<br><br><i>KDSmart</i> lets you perform phenotypic data scoring in the field. <br><b>Concepts</b><br>\u2022 <i>Trial</i>: also known as <i>Experiment</i> or <i>Study</i>, multiple Trials may be loaded into KDSmart<br>\u2022 <i>Plot</i>: a Trial contains multiple Plots in rows and columns<br>\u2022 <i>Sub-Plot</i>: if desired, you may decide to score multiple Sub-Plots within each Plot<br>\u2022 <i>Trait</i>: a phenotype to score for each Plot or Sub-Plot<br>\u2022 <i>Trait Instance</i>: you may score multiple instances of each Trait<br><br>A <i>Trait</i> may have a predefined range of values to allow single-touch scoring using a &quot;pick-from-list&quot; approach. You can associate many <i>Trait</i>s for the <i>Plots/Sub-Plots</i> in a <i>Trial</i> but select a subset of these to be scored during a specific field scoring visit.<br><br>Other attributes of <i>Plot</i>s and <i>Sub-Plot</i>s are:<br>\u2022 <i>Note</i>: a text string<br>\u2022 <i>Quick Tags</i>: for quick annotation of a Plot/Sub-Plot<br>\u2022 <i>Attachments</i>: Photos and Video or Audio recordings<br><br><i>Quick Tags</i> may be created while in the field or pre-defined and loaded into <i>KDSmart</i> by using the companion desktop application <i>KDXplore</i>. You may apply zero, one or more <i>Quick Tags</i> to each Plot/Sub-Plot.<br><br>We use the term <i>Sub-Plot</i> as KDSmart may be used for any type of flora/fauna relevant to your trial or experiment. Similarly, a <i>Plot</i> may be any partitioning of the Trial (in this version we support Plot-Id, Row and Column, Block partitioning) and not all rows and columns need to be present.<br><br>When required, data recorded by <i>KDSmart</i> may be exported for transfer to other computer systems where it may be analysed or stored in a database. While this can be done by uploading or file transfer, it is more readily and seamlessly done using the <i>KDXplore</i> desktop application. <br><br><b>Other Products</b><br><i>KDSmart</i> is part of a suite of <i>Diversity Arrays</i> software supporting phenotypic, genetic and environmental data collection, storage and analysis. These products are aimed at breeding and pre-breeding applications but may also be used in multidisciplinary agro-ecological and environmental research undertakings. <br><br>A privacy policy for KDSmat can be found at https://www.kddart.org/help/kdsmart/html/privacy.html<br><br>Please see https://www.kddart.org for further details.",
+    "descriptionShort": "Phenotypic data scoring",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "version": 12451000
+            }
+          ],
+          "unknown1": 2,
+          "unknown2": "29506957",
+          "unknown3": 34
+        },
+        "developerAddress": "Diversity Arrays Technology<br/>Building 3, Kirinari Street<br/>BRUCE  ACT  2617<br/>Australia<br/>",
+        "developerEmail": "kdsmart@diversityarrays.com",
+        "developerName": "Diversity Arrays Technology Pty Ltd",
+        "developerWebsite": "http://www.kddart.org",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "28685185",
+            "versionCode": 6712
+          },
+          {
+            "fileType": 0,
+            "size": "743539",
+            "versionCode": 6712
+          },
+          {
+            "fileType": 0,
+            "size": "78233",
+            "versionCode": 6712
+          }
+        ],
+        "installationSize": "29506957",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "com.diversityarrays.kdsmart",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.BLUETOOTH_ADVERTISE",
+          "android.permission.BLUETOOTH_CONNECT",
+          "android.permission.BLUETOOTH_SCAN",
+          "android.permission.CAMERA",
+          "android.permission.GET_ACCOUNTS",
+          "android.permission.INTERNET",
+          "android.permission.POST_NOTIFICATIONS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECORD_AUDIO",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.diversityarrays.kdsmart.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": "Bug Fixes<br>Added the Privacy Policy to the About page<br>Updated Strings<br>Fix icons crash.",
+        "unstable": true,
+        "uploadDate": "14 Nov 2024",
+        "versionCode": 6712,
+        "versionString": "3.4.8"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.diversityarrays.kdsmart&vc=6712",
+    "docType": 1,
+    "docid": "com.diversityarrays.kdsmart",
+    "image": [
+      {
+        "color": "#022B5D",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/YoBeEbYhMVar6AROEc51l-IT6724hcrImY1TYj850vQy-v93Y0YKPTgpzrjMqqroPuU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 0,
+          "width": 0
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/e3xJ6ZQUE_YEPSpCa4lUT06i-6bS6ZJ_zozvEawOBhCzPfIqM9pdN772YR5TGjHM7QY",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 672,
+          "width": 1282
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/dIaAzs1hkpa13stH24-cOBOrTgvAtuSVwlxl_jILoesOp9Vz7karypeV9TgNqjq4Tjg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 680,
+          "width": 1282
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/J94j56yjXnzp5suwRpAKqEfJsidHq6DDsAlkcwv44HdYe5T4EbzjjfNSq0tP2FX3cw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 682,
+          "width": 1282
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/9T54f7_eBTUK9ndvznm8vnFQBY6P57q9oBWLRSPxqp15qt7jtatojZ9KYY5H8kFMvKQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 672,
+          "width": 1282
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/C-xYdinfvVkja3ZyoCN3royXdkTOTxYK9thAKW4J_78eOgd1F3GbnkHqSgb4hrE8OHo",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 672,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/sGee7vIm-T32e7SeVA8T9kKdt9X1GR8rgkit9DJNbvSGUDb-HDy65zDyJzPzWoxlbQ",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "KRW",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://www.kddart.org/help/kdsmart/html/privacy.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/vCeRgub6Ax20hcW3NhXX4y1oVqufgH13eTJny2srnhcJsONsiHOKXwl2ovrxLP9ivmHNKUe0Tbc0-1WUNw",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Rated for 3+",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.diversityarrays.kdsmart",
+    "reviewsUrl": "rev?doc=com.diversityarrays.kdsmart&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.diversityarrays.kdsmart",
+    "title": "KDSmart\n3.4.8",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Diversity Arrays Technology Pty Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "kdsmart@diversityarrays.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Diversity Arrays Technology<br/>Building 3, Kirinari Street<br/>BRUCE  ACT  2617<br/>Australia<br/>"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "16 Nov 2015"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  }
+]

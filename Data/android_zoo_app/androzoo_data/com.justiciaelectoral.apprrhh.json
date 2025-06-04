@@ -1,0 +1,976 @@
+[
+  {
+    "aggregateRating": {
+      "commentCount": "5",
+      "fiveStarRatings": "9",
+      "fourStarRatings": "1",
+      "oneStarRatings": "2",
+      "ratingsCount": "12",
+      "starRating": 4.25,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 2
+    },
+    "az_metadata_date": "2021-07-28 00:22:13.231230",
+    "backendDocid": "com.justiciaelectoral.apprrhh",
+    "backendId": 3,
+    "creator": "RA - UIA - TSJE",
+    "descriptionHtml": "Aplicaci\u00f3n para uso de los funcionarios de la Justicia Electoral de Paraguay. Desarrollada por la UNIDAD DE INFORMATICA ADMINISTRATIVA<br><br>Funcionalidades b\u00e1sicas de la aplicaci\u00f3n:<br><br>\ud83d\udd38 Marcaci\u00f3n de Asistencia.<br>\ud83d\udd38 Consulta de Marcaciones.<br>\ud83d\udd38 Permite revisar las ubicaciones de las marcaciones en el mapa.<br>\ud83d\udd38 Si el usuario no tiene conexi\u00f3n a internet permite realizar marcaci\u00f3n sin restricciones.<br>\ud83d\udd38 Sincronizaci\u00f3n autom\u00e1tica de marcaciones (cuando el m\u00f3vil est\u00e1 conectado a una red m\u00f3vil o wifi con acceso a internet)<br>\ud83d\udd38 Permite mantener la sesi\u00f3n abierta.<br>\ud83d\udd38 Restringe el acceso solo al usuario registrado en el m\u00f3vil.<br><br>Soporte: (021) 6180781<br>Sugerencias: uia@tsje.gov.py",
+    "descriptionShort": "Application for use by Electoral Justice officials",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "52724151",
+          "unknown3": 30
+        },
+        "developerEmail": "uia@tsje.gov.py",
+        "developerName": "RA - UIA - TSJE",
+        "developerWebsite": "https://www.tsje.gov.py",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "24917951",
+            "versionCode": 9
+          },
+          {
+            "fileType": 0,
+            "size": "438043",
+            "versionCode": 9
+          },
+          {
+            "fileType": 0,
+            "size": "74137",
+            "versionCode": 9
+          },
+          {
+            "fileType": 0,
+            "size": "27294020",
+            "versionCode": 9
+          }
+        ],
+        "installationSize": "52724151",
+        "numDownloads": "5,000+ downloads",
+        "packageName": "com.justiciaelectoral.apprrhh",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.CAMERA",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.MANAGE_DOCUMENTS",
+          "android.permission.MODIFY_AUDIO_SETTINGS",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_CALENDAR",
+          "android.permission.READ_CONTACTS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_INTERNAL_STORAGE",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.RECORD_AUDIO",
+          "android.permission.SYSTEM_ALERT_WINDOW",
+          "android.permission.USE_BIOMETRIC",
+          "android.permission.USE_FINGERPRINT",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_CALENDAR",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "android.permission.WRITE_SETTINGS",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.android.launcher.permission.INSTALL_SHORTCUT",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.ACTIVITY_RECOGNITION",
+          "com.google.android.providers.gsf.permission.READ_GSERVICES",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.justiciaelectoral.apprrhh.permission.C2D_MESSAGE",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "host.exp.exponent.permission.C2D_MESSAGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE"
+        ],
+        "recentChangesHtml": "Mejoras en verificaci\u00f3n de conectividad.<br>Verificaci\u00f3n de estado de servidor.<br>Entre otras mejoras.",
+        "unstable": false,
+        "uploadDate": "27 Jul 2021",
+        "versionCode": 9,
+        "versionString": "0.4.5"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.justiciaelectoral.apprrhh",
+    "docType": 1,
+    "docid": "com.justiciaelectoral.apprrhh",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/nPZHPbCagNVDQcNSbas_3SSjxNUKaBwliiMg5zS7qY1V9q7cJpcHD66YOnTP8LkM5WIe",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/DwKSWpBLwy5lR6cCfTKhIID5WyYhxNSDbldqYZXxcx-Z32tOln6a7cYeOGgQ9DBqQj0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/K4Fv9ZHDhLKi1Fty7Gx2Cmo12gTVNiMpNoj43tOzDykOYgQPd5AirCYAGyPM7PBXMs0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/hwTPwiRu6cgDWJ7u4PDKsBWz9fjY4EVjMewmEJIVoayUhOFmYRzptIO8Wg84woqh74k",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/FyIOhtvN5KqsstiTQ9acqVKGhrVoKkdgHfsJctWJ3NgI861sBhiAn85Y2_MG2RWL3g",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/3siABSuD6wi4EziS1cL00ypLVbi4BP10V4v7sgjp4BcBmGji5kw_Sz6ShTcx5Va2a8w",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/i-bqt4QksneiYbIeo4WgkVGaHcb106KE1g0PA7tOdFF1es8w7M3nrern0q0DyMO-Rg",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://tsje.gov.py/politica-de-privacidad.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.justiciaelectoral.apprrhh",
+    "reviewsUrl": "rev?doc=com.justiciaelectoral.apprrhh&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.justiciaelectoral.apprrhh",
+    "title": "TSJE/RRHH - Justicia Electoral",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "uia@tsje.gov.py"
+          },
+          "label": "Developer email"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "7",
+      "fiveStarRatings": "14",
+      "fourStarRatings": "1",
+      "oneStarRatings": "3",
+      "ratingsCount": "18",
+      "starRating": 4.2777777,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 2
+    },
+    "az_metadata_date": "2021-08-06 18:26:16.356687",
+    "backendDocid": "com.justiciaelectoral.apprrhh",
+    "backendId": 3,
+    "creator": "RA - UIA - TSJE",
+    "descriptionHtml": "Aplicaci\u00f3n para uso de los funcionarios de la Justicia Electoral de Paraguay. Desarrollada por la UNIDAD DE INFORMATICA ADMINISTRATIVA<br><br>Funcionalidades b\u00e1sicas de la aplicaci\u00f3n:<br><br>\ud83d\udd38 Marcaci\u00f3n de Asistencia.<br>\ud83d\udd38 Consulta de Marcaciones.<br>\ud83d\udd38 Permite revisar las ubicaciones de las marcaciones en el mapa.<br>\ud83d\udd38 Si el usuario no tiene conexi\u00f3n a internet permite realizar marcaci\u00f3n sin restricciones.<br>\ud83d\udd38 Sincronizaci\u00f3n autom\u00e1tica de marcaciones (cuando el m\u00f3vil est\u00e1 conectado a una red m\u00f3vil o wifi con acceso a internet)<br>\ud83d\udd38 Permite mantener la sesi\u00f3n abierta.<br>\ud83d\udd38 Restringe el acceso solo al usuario registrado en el m\u00f3vil.<br><br>Soporte: (021) 6180781<br>Sugerencias: uia@tsje.gov.py",
+    "descriptionShort": "Application for use by Electoral Justice officials",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "52736439",
+          "unknown3": 30
+        },
+        "developerEmail": "uia@tsje.gov.py",
+        "developerName": "RA - UIA - TSJE",
+        "developerWebsite": "https://www.tsje.gov.py",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "24926143",
+            "versionCode": 20
+          },
+          {
+            "fileType": 0,
+            "size": "442139",
+            "versionCode": 20
+          },
+          {
+            "fileType": 0,
+            "size": "74137",
+            "versionCode": 20
+          },
+          {
+            "fileType": 0,
+            "size": "27294020",
+            "versionCode": 20
+          }
+        ],
+        "installationSize": "52736439",
+        "numDownloads": "5,000+ downloads",
+        "packageName": "com.justiciaelectoral.apprrhh",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.CAMERA",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.MANAGE_DOCUMENTS",
+          "android.permission.MODIFY_AUDIO_SETTINGS",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_CALENDAR",
+          "android.permission.READ_CONTACTS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_INTERNAL_STORAGE",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.RECORD_AUDIO",
+          "android.permission.SYSTEM_ALERT_WINDOW",
+          "android.permission.USE_BIOMETRIC",
+          "android.permission.USE_FINGERPRINT",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_CALENDAR",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "android.permission.WRITE_SETTINGS",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.android.launcher.permission.INSTALL_SHORTCUT",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.ACTIVITY_RECOGNITION",
+          "com.google.android.providers.gsf.permission.READ_GSERVICES",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.justiciaelectoral.apprrhh.permission.C2D_MESSAGE",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "host.exp.exponent.permission.C2D_MESSAGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE"
+        ],
+        "recentChangesHtml": "Agregado mapa para verificaci\u00f3n de ubicaci\u00f3n.",
+        "unstable": false,
+        "uploadDate": "5 Aug 2021",
+        "versionCode": 20,
+        "versionString": "0.5.1"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.justiciaelectoral.apprrhh",
+    "docType": 1,
+    "docid": "com.justiciaelectoral.apprrhh",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/nPZHPbCagNVDQcNSbas_3SSjxNUKaBwliiMg5zS7qY1V9q7cJpcHD66YOnTP8LkM5WIe",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/DwKSWpBLwy5lR6cCfTKhIID5WyYhxNSDbldqYZXxcx-Z32tOln6a7cYeOGgQ9DBqQj0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/K4Fv9ZHDhLKi1Fty7Gx2Cmo12gTVNiMpNoj43tOzDykOYgQPd5AirCYAGyPM7PBXMs0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/hwTPwiRu6cgDWJ7u4PDKsBWz9fjY4EVjMewmEJIVoayUhOFmYRzptIO8Wg84woqh74k",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/FyIOhtvN5KqsstiTQ9acqVKGhrVoKkdgHfsJctWJ3NgI861sBhiAn85Y2_MG2RWL3g",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/3siABSuD6wi4EziS1cL00ypLVbi4BP10V4v7sgjp4BcBmGji5kw_Sz6ShTcx5Va2a8w",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/i-bqt4QksneiYbIeo4WgkVGaHcb106KE1g0PA7tOdFF1es8w7M3nrern0q0DyMO-Rg",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://tsje.gov.py/politica-de-privacidad.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.justiciaelectoral.apprrhh",
+    "reviewsUrl": "rev?doc=com.justiciaelectoral.apprrhh&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.justiciaelectoral.apprrhh",
+    "title": "TSJE/RRHH - Justicia Electoral",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "uia@tsje.gov.py"
+          },
+          "label": "Developer email"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "1",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "45",
+      "ratingsCount": "45",
+      "starRating": 1.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-11-20 11:43:04.968085",
+    "backendDocid": "com.justiciaelectoral.apprrhh",
+    "backendId": 3,
+    "creator": "TRIBUNAL SUPERIOR DE JUSTICIA ELECTORAL",
+    "descriptionHtml": "Aplicaci\u00f3n para uso de los funcionarios de la Justicia Electoral de Paraguay. Desarrollada por la UNIDAD DE INFORMATICA ADMINISTRATIVA<br><br>Funcionalidades b\u00e1sicas de la aplicaci\u00f3n:<br><br>\ud83d\udd38 Marcaci\u00f3n de Asistencia.<br>\ud83d\udd38 Consulta de Marcaciones.<br>\ud83d\udd38 Permite revisar las ubicaciones de las marcaciones en el mapa.<br>\ud83d\udd38 Si el usuario no tiene conexi\u00f3n a internet permite realizar marcaci\u00f3n sin restricciones.<br>\ud83d\udd38 Sincronizaci\u00f3n autom\u00e1tica de marcaciones (cuando el m\u00f3vil est\u00e1 conectado a una red m\u00f3vil o wifi con acceso a internet)<br>\ud83d\udd38 Permite mantener la sesi\u00f3n abierta.<br>\ud83d\udd38 Restringe el acceso solo al usuario registrado en el m\u00f3vil.<br><br>Soporte: (021) 6180781<br>Sugerencias: uia@tsje.gov.py",
+    "descriptionShort": "Application for use by Electoral Justice officials",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "52851887",
+          "unknown3": 30
+        },
+        "developerEmail": "uia@tsje.gov.py",
+        "developerName": "TRIBUNAL SUPERIOR DE JUSTICIA ELECTORAL",
+        "developerWebsite": "https://www.tsje.gov.py",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "25041591",
+            "versionCode": 26
+          },
+          {
+            "fileType": 0,
+            "size": "442139",
+            "versionCode": 26
+          },
+          {
+            "fileType": 0,
+            "size": "74137",
+            "versionCode": 26
+          },
+          {
+            "fileType": 0,
+            "size": "27294020",
+            "versionCode": 26
+          }
+        ],
+        "installationSize": "52851887",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "com.justiciaelectoral.apprrhh",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.CAMERA",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.MANAGE_DOCUMENTS",
+          "android.permission.MODIFY_AUDIO_SETTINGS",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_CALENDAR",
+          "android.permission.READ_CONTACTS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_INTERNAL_STORAGE",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.RECORD_AUDIO",
+          "android.permission.SYSTEM_ALERT_WINDOW",
+          "android.permission.USE_BIOMETRIC",
+          "android.permission.USE_FINGERPRINT",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_CALENDAR",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "android.permission.WRITE_SETTINGS",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.android.launcher.permission.INSTALL_SHORTCUT",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.ACTIVITY_RECOGNITION",
+          "com.google.android.providers.gsf.permission.READ_GSERVICES",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.justiciaelectoral.apprrhh.permission.C2D_MESSAGE",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "host.exp.exponent.permission.C2D_MESSAGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE"
+        ],
+        "recentChangesHtml": "Se agrego consulta de extractos salariales",
+        "unstable": false,
+        "uploadDate": "17 Nov 2021",
+        "versionCode": 26,
+        "versionString": "0.5.7"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.justiciaelectoral.apprrhh",
+    "docType": 1,
+    "docid": "com.justiciaelectoral.apprrhh",
+    "image": [
+      {
+        "color": "#FBFBFB",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/AaqsgBTUBj9yaOL9CWU0n86VqRpxr_qdQsR5DVRs8OsCUU6vAso6w-zH_xUcP_ir5vp5",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FDFDFD",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/8vgmxKv3UGdiEj310z_QlT9AzkmHdWvQXJgmZNqfLU_AWZ5wNP1sawri9Soxe2RtPRvC",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/-U4ofC8yUv4o0ho2XO6LXrXK3xAV5XYyJMTp6xdqGIVBRkwnpouT8oIv_r8ZNymSAuU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/hwTPwiRu6cgDWJ7u4PDKsBWz9fjY4EVjMewmEJIVoayUhOFmYRzptIO8Wg84woqh74k",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/MZpc6QU7AJ89KD73OG5iBCJDeLsszYcLlCuCs1UH2JgUOuQVFqwvEjclmKZx_yiOtkw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/x_tKM2QwSRb-0OIjKwcqG_AedCbWkh8PSir3QX0XrBcwolusM3c9C1V9HZTfJB2MFypm",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/3siABSuD6wi4EziS1cL00ypLVbi4BP10V4v7sgjp4BcBmGji5kw_Sz6ShTcx5Va2a8w",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/i-bqt4QksneiYbIeo4WgkVGaHcb106KE1g0PA7tOdFF1es8w7M3nrern0q0DyMO-Rg",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://tsje.gov.py/politica-de-privacidad.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.justiciaelectoral.apprrhh",
+    "reviewsUrl": "rev?doc=com.justiciaelectoral.apprrhh&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.justiciaelectoral.apprrhh",
+    "title": "TSJE/RRHH - Justicia Electoral",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "TRIBUNAL SUPERIOR DE JUSTICIA ELECTORAL"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "uia@tsje.gov.py"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "27 May 2021"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-03-20 06:09:58.217298",
+    "backendDocid": "com.justiciaelectoral.apprrhh",
+    "backendId": 3,
+    "creator": "TRIBUNAL SUPERIOR DE JUSTICIA ELECTORAL",
+    "descriptionHtml": "Aplicaci\u00f3n para uso de los funcionarios de la Justicia Electoral de Paraguay. Desarrollada por la UNIDAD DE INFORMATICA ADMINISTRATIVA<br><br>Funcionalidades b\u00e1sicas de la aplicaci\u00f3n:<br><br>\ud83d\udd38 Marcaci\u00f3n de Asistencia.<br>\ud83d\udd38 Consulta de Marcaciones.<br>\ud83d\udd38 Permite revisar las ubicaciones de las marcaciones en el mapa.<br>\ud83d\udd38 Si el usuario no tiene conexi\u00f3n a internet permite realizar marcaci\u00f3n sin restricciones.<br>\ud83d\udd38 Sincronizaci\u00f3n autom\u00e1tica de marcaciones (cuando el m\u00f3vil est\u00e1 conectado a una red m\u00f3vil o wifi con acceso a internet)<br>\ud83d\udd38 Permite mantener la sesi\u00f3n abierta.<br>\ud83d\udd38 Restringe el acceso solo al usuario registrado en el m\u00f3vil.<br><br>Soporte: (021) 6180781<br>Sugerencias: uia@tsje.gov.py",
+    "descriptionShort": "Application for use by Electoral Justice officials",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "52851959",
+          "unknown3": 30
+        },
+        "developerEmail": "uia@tsje.gov.py",
+        "developerName": "TRIBUNAL SUPERIOR DE JUSTICIA ELECTORAL",
+        "developerWebsite": "https://www.tsje.gov.py",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "25041663",
+            "versionCode": 27
+          },
+          {
+            "fileType": 0,
+            "size": "442139",
+            "versionCode": 27
+          },
+          {
+            "fileType": 0,
+            "size": "74137",
+            "versionCode": 27
+          },
+          {
+            "fileType": 0,
+            "size": "27294020",
+            "versionCode": 27
+          }
+        ],
+        "installationSize": "52851959",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "com.justiciaelectoral.apprrhh",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.CAMERA",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.MANAGE_DOCUMENTS",
+          "android.permission.MODIFY_AUDIO_SETTINGS",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_CALENDAR",
+          "android.permission.READ_CONTACTS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_INTERNAL_STORAGE",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.RECORD_AUDIO",
+          "android.permission.SYSTEM_ALERT_WINDOW",
+          "android.permission.USE_BIOMETRIC",
+          "android.permission.USE_FINGERPRINT",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_CALENDAR",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "android.permission.WRITE_SETTINGS",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.android.launcher.permission.INSTALL_SHORTCUT",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.ACTIVITY_RECOGNITION",
+          "com.google.android.providers.gsf.permission.READ_GSERVICES",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.justiciaelectoral.apprrhh.permission.C2D_MESSAGE",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "host.exp.exponent.permission.C2D_MESSAGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE"
+        ],
+        "recentChangesHtml": "Ajustes de funcionamiento y de rendimiento",
+        "unstable": false,
+        "uploadDate": "16 Feb 2022",
+        "versionCode": 27,
+        "versionString": "0.5.8"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.justiciaelectoral.apprrhh",
+    "docType": 1,
+    "docid": "com.justiciaelectoral.apprrhh",
+    "image": [
+      {
+        "color": "#FBFBFB",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/AaqsgBTUBj9yaOL9CWU0n86VqRpxr_qdQsR5DVRs8OsCUU6vAso6w-zH_xUcP_ir5vp5",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FDFDFD",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/8vgmxKv3UGdiEj310z_QlT9AzkmHdWvQXJgmZNqfLU_AWZ5wNP1sawri9Soxe2RtPRvC",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/-U4ofC8yUv4o0ho2XO6LXrXK3xAV5XYyJMTp6xdqGIVBRkwnpouT8oIv_r8ZNymSAuU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/hwTPwiRu6cgDWJ7u4PDKsBWz9fjY4EVjMewmEJIVoayUhOFmYRzptIO8Wg84woqh74k",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/MZpc6QU7AJ89KD73OG5iBCJDeLsszYcLlCuCs1UH2JgUOuQVFqwvEjclmKZx_yiOtkw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/x_tKM2QwSRb-0OIjKwcqG_AedCbWkh8PSir3QX0XrBcwolusM3c9C1V9HZTfJB2MFypm",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/3siABSuD6wi4EziS1cL00ypLVbi4BP10V4v7sgjp4BcBmGji5kw_Sz6ShTcx5Va2a8w",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/i-bqt4QksneiYbIeo4WgkVGaHcb106KE1g0PA7tOdFF1es8w7M3nrern0q0DyMO-Rg",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://tsje.gov.py/politica-de-privacidad.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.justiciaelectoral.apprrhh",
+    "reviewsUrl": "rev?doc=com.justiciaelectoral.apprrhh&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.justiciaelectoral.apprrhh",
+    "title": "TSJE/RRHH - Justicia Electoral",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "TRIBUNAL SUPERIOR DE JUSTICIA ELECTORAL"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "uia@tsje.gov.py"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "27 May 2021"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  }
+]

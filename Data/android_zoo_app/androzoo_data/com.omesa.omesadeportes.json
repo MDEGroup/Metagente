@@ -1,0 +1,2366 @@
+[
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-06-02 21:13:16.191395",
+    "backendDocid": "com.omesa.omesadeportes",
+    "backendId": 3,
+    "creator": "Omesa Inform\u00e1tica s.l.u.",
+    "descriptionHtml": "Sus principales funciones son:<br>\t<br>a) Men\u00fa p\u00fablico. La App puede funcionar, sin necesidad de logarse, para (seg\u00fan configuraci\u00f3n):<br>-\tConsultar noticias y algunas p\u00e1ginas informativas de la web.<br>-\tRegistrarse y hacerse socio (alta en cualquier cuota) <br>-\tConsultar la oferta deportivo de cursos, actividades,\u2026<br>-\tConsultar la ocupaci\u00f3n de instalaciones y aforo (necesario control de accesos)<br>-\tConsultar la oferta de sesiones de grupo libre<br>-\tComprar (de forma an\u00f3nima) bonos de acceso, de sesiones, de alquiles de pistas, de servicios.<br>-\tConsultar la oferta y ocupaci\u00f3n (agenda) de servicios de masaje, entrenador personal.<br>-\tConsultar los eventos, carreras populares, cross,\u2026 y sus resultados, gestionados por la entidad.<br>-\tRegistrar sugerencias<br><br> <br>b) Usuarios logados. Una vez descargada la App en el smartphone o tablet, es posible logarse (con el mismo usuario y contrase\u00f1a que en la Web) y dejar as\u00ed la App personalizada de forma indefinida (no son necesarios posteriores logeos). Esto abre un segundo men\u00fa con las siguientes funciones (seg\u00fan configuraci\u00f3n):<br> <br>b.1) Consultas:<br>-\tDatos Personales (con posibilidad de edici\u00f3n)<br>-\tMis comunicados (con posibilidad de editar tipos de comunicados aceptados y  el idioma)<br>-\tPagos y Recibos pendientes (con posibilidad de pago con tarjeta de cr\u00e9dito, tarjeta prepago, bono) <br>-\tTarjetas prepago: su estado, consumos y con posibilidad de recarga.<br>-\tCursos y actividades en los que est\u00e1 inscrito (con posibilidad de consulta de situaci\u00f3n de pagos y posibilidad de darse de baja).<br>-\tCuotas de abonado o socio (con posibilidad de consulta de situaci\u00f3n de pagos)<br>-\tListas de espera y posici\u00f3n (con posibilidad de darse de baja)<br>-\tSesiones de grupo libre reservadas (con posibilidad de darse de baja)<br>-\tBonos adquiridos, con consulta de su estado y detalle de usos<br>-\tReservas:<br>o\tPista alquiladas<br>o\tServicios (masajes, entrenador personal,..) reservados<br>o\tGreen Fee <br>-\tEventos, carreras populares, cross, en los que est\u00e1 inscrito<br>-\tSorteos de pistas en los que ha participado<br>-\tSorteos de cursos y actividades en los que ha participado<br>-\tDocumentos que tiene registrados<br><br> b.2) Acciones:<br>-\tCuotas:<br>o\tAlta en Cuota de socio/abonado.<br>o\tRenovaci\u00f3n (facturaci\u00f3n siguiente periodo)<br>o\tCambio de cuota<br>o\tBaja en cuota<br>-\tEscuelas/Cursos/Actividades<br>o\tInscripci\u00f3n o alta<br>o\tRenovaci\u00f3n (confirmaci\u00f3n y pago del siguiente periodo)<br>o\tBaja en cursos y actividades<br>o\tContinuaci\u00f3n: alta en curso de continuaci\u00f3n de la pr\u00f3xima temporada.<br>-\tReservas:<br>o\tAlquiler de pistas<br>o\tServicios (masajes, entrenador personal,..) reservado<br>o\tSesiones de grupo libre<br><br>-\tCompra de bonos <br><br><br>Las formas de pago (disponibles en la App seg\u00fan configuraci\u00f3n) son las mismas que las de la Web:<br>-\tPago con tarjeta de cr\u00e9dito (se necesita TPV virtual de su entidad financiera)<br>-\tDomiciliaci\u00f3n bancaria<br>-\tPago con tarjeta prepago<br>-\tPago con bono (reservas, servicios, sesiones grupo libre)<br>-\tRecibo C57 (pago entidades de cr\u00e9dito colaboradoras)",
+    "descriptionShort": "Reservations, registration, your data and more on the app Omesa Sports",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "38637480",
+          "unknown3": 29
+        },
+        "developerAddress": "Paseo de la Alameda de Osuna, 78 bajo D<br/>28042 Madrid<br/>MADRID",
+        "developerEmail": "android@omesa.es",
+        "developerName": "Omesa Inform\u00e1tica s.l.u.",
+        "developerWebsite": "http://www.omesa.es",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "38637480",
+            "versionCode": 100001431
+          }
+        ],
+        "installationSize": "38637480",
+        "numDownloads": "100+ downloads",
+        "packageName": "com.omesa.omesadeportes",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.INTERNET",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.omesa.omesadeportes.permission.C2D_MESSAGE",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE"
+        ],
+        "recentChangesHtml": "Notificaciones Push",
+        "unstable": false,
+        "uploadDate": "7 May 2020",
+        "versionCode": 100001431,
+        "versionString": "1.0.1431"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.omesa.omesadeportes",
+    "docType": 1,
+    "docid": "com.omesa.omesadeportes",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://lh3.googleusercontent.com/zcwX5edu_XI_p7XJymH4W0m1xYecpWMUf0Z0Q0Baiy_o7TO-8q-r32W9SA1NTeB644I",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://lh3.googleusercontent.com/IMhtjS9gmx2fwe32GEqr1tJAN-8KW_WT685AmuE7l5VgBow8-wY4MDySHpFBnbiSJiw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/Yfjf5AfpUpiPPOe---l5bB9ll5ieroINYiNVcpZC6hPPQjTcucoeruCx5bc1XQLwI-Q",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/DMqI8Iydw_7QFeP8E9fmAFcPMnjbVa7oRB2phPXBs4Vh350vfQxNWZ_NPYlTEbCsIv0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/JZtmumfThB2RTYqWA7ATQWVdDyccC2nvuEzEcXdCPX-n2WlE4AdI0tjhdIwQCMgA7s8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/Y99FC8i0yv8pbZeGbw1I1Ny8EOeCNDOkvA0GKdlYPb6rNsiP-PCBAHtce75vOtbavbw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/0wAVOzTZYCbqi68Zh_Wp9AJkxfdgPI-YDgo3xXg4MufrTHDQxscvEgJOdxPeO3LTiLaG",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/wkNTssgJCvUF-BW-Py1a3gyUTjKlVdK7cXVqk4m8y0gc2qO9jFTjkbOXSHepL8VfWB7h",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/II8MpWu51QnMBSrx14_3oRaRJkylEOy1MDog9jdnQx2cPcJfmHzZ4HiQoqqmOn3Enlw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/v1z3qvI8sb0UUHW2wKNQCUJ3bXSInx2RFh5EHfNhy29GtJmo5wRI_ohDDfjxXRowGbtR",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://lh3.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.omesa.omesadeportes",
+    "reviewsUrl": "rev?doc=com.omesa.omesadeportes&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.omesa.omesadeportes",
+    "title": "Omesa Deportes",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "android@omesa.es"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Paseo de la Alameda de Osuna, 78 bajo D<br/>28042 Madrid<br/>MADRID"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "20 Jan 2016"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-09-11 02:29:11.226987",
+    "backendDocid": "com.omesa.omesadeportes",
+    "backendId": 3,
+    "creator": "Omesa Inform\u00e1tica s.l.u.",
+    "descriptionHtml": "Sus principales funciones son:<br>\t<br>a) Men\u00fa p\u00fablico. La App puede funcionar, sin necesidad de logarse, para (seg\u00fan configuraci\u00f3n):<br>-\tConsultar noticias y algunas p\u00e1ginas informativas de la web.<br>-\tRegistrarse y hacerse socio (alta en cualquier cuota) <br>-\tConsultar la oferta deportivo de cursos, actividades,\u2026<br>-\tConsultar la ocupaci\u00f3n de instalaciones y aforo (necesario control de accesos)<br>-\tConsultar la oferta de sesiones de grupo libre<br>-\tComprar (de forma an\u00f3nima) bonos de acceso, de sesiones, de alquiles de pistas, de servicios.<br>-\tConsultar la oferta y ocupaci\u00f3n (agenda) de servicios de masaje, entrenador personal.<br>-\tConsultar los eventos, carreras populares, cross,\u2026 y sus resultados, gestionados por la entidad.<br>-\tRegistrar sugerencias<br><br> <br>b) Usuarios logados. Una vez descargada la App en el smartphone o tablet, es posible logarse (con el mismo usuario y contrase\u00f1a que en la Web) y dejar as\u00ed la App personalizada de forma indefinida (no son necesarios posteriores logeos). Esto abre un segundo men\u00fa con las siguientes funciones (seg\u00fan configuraci\u00f3n):<br> <br>b.1) Consultas:<br>-\tDatos Personales (con posibilidad de edici\u00f3n)<br>-\tMis comunicados (con posibilidad de editar tipos de comunicados aceptados y  el idioma)<br>-\tPagos y Recibos pendientes (con posibilidad de pago con tarjeta de cr\u00e9dito, tarjeta prepago, bono) <br>-\tTarjetas prepago: su estado, consumos y con posibilidad de recarga.<br>-\tCursos y actividades en los que est\u00e1 inscrito (con posibilidad de consulta de situaci\u00f3n de pagos y posibilidad de darse de baja).<br>-\tCuotas de abonado o socio (con posibilidad de consulta de situaci\u00f3n de pagos)<br>-\tListas de espera y posici\u00f3n (con posibilidad de darse de baja)<br>-\tSesiones de grupo libre reservadas (con posibilidad de darse de baja)<br>-\tBonos adquiridos, con consulta de su estado y detalle de usos<br>-\tReservas:<br>o\tPista alquiladas<br>o\tServicios (masajes, entrenador personal,..) reservados<br>o\tGreen Fee <br>-\tEventos, carreras populares, cross, en los que est\u00e1 inscrito<br>-\tSorteos de pistas en los que ha participado<br>-\tSorteos de cursos y actividades en los que ha participado<br>-\tDocumentos que tiene registrados<br><br> b.2) Acciones:<br>-\tCuotas:<br>o\tAlta en Cuota de socio/abonado.<br>o\tRenovaci\u00f3n (facturaci\u00f3n siguiente periodo)<br>o\tCambio de cuota<br>o\tBaja en cuota<br>-\tEscuelas/Cursos/Actividades<br>o\tInscripci\u00f3n o alta<br>o\tRenovaci\u00f3n (confirmaci\u00f3n y pago del siguiente periodo)<br>o\tBaja en cursos y actividades<br>o\tContinuaci\u00f3n: alta en curso de continuaci\u00f3n de la pr\u00f3xima temporada.<br>-\tReservas:<br>o\tAlquiler de pistas<br>o\tServicios (masajes, entrenador personal,..) reservado<br>o\tSesiones de grupo libre<br><br>-\tCompra de bonos <br><br><br>Las formas de pago (disponibles en la App seg\u00fan configuraci\u00f3n) son las mismas que las de la Web:<br>-\tPago con tarjeta de cr\u00e9dito (se necesita TPV virtual de su entidad financiera)<br>-\tDomiciliaci\u00f3n bancaria<br>-\tPago con tarjeta prepago<br>-\tPago con bono (reservas, servicios, sesiones grupo libre)<br>-\tRecibo C57 (pago entidades de cr\u00e9dito colaboradoras)",
+    "descriptionShort": "Reservations, registration, your data and more on the app Omesa Sports",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "39255806",
+          "unknown3": 29
+        },
+        "developerAddress": "Paseo de la Alameda de Osuna, 78 bajo D<br/>28042 Madrid<br/>MADRID",
+        "developerEmail": "android@omesa.es",
+        "developerName": "Omesa Inform\u00e1tica s.l.u.",
+        "developerWebsite": "http://www.omesa.es",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "39255806",
+            "versionCode": 100001436
+          }
+        ],
+        "installationSize": "39255806",
+        "numDownloads": "100+ downloads",
+        "packageName": "com.omesa.omesadeportes",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.INTERNET",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.omesa.omesadeportes.permission.C2D_MESSAGE",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE"
+        ],
+        "recentChangesHtml": "Notificaciones y mejoras varias.",
+        "unstable": false,
+        "versionCode": 100001436,
+        "versionString": "1.0.1436"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.omesa.omesadeportes",
+    "docType": 1,
+    "docid": "com.omesa.omesadeportes",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://lh3.googleusercontent.com/zcwX5edu_XI_p7XJymH4W0m1xYecpWMUf0Z0Q0Baiy_o7TO-8q-r32W9SA1NTeB644I",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://lh3.googleusercontent.com/IMhtjS9gmx2fwe32GEqr1tJAN-8KW_WT685AmuE7l5VgBow8-wY4MDySHpFBnbiSJiw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/Yfjf5AfpUpiPPOe---l5bB9ll5ieroINYiNVcpZC6hPPQjTcucoeruCx5bc1XQLwI-Q",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/DMqI8Iydw_7QFeP8E9fmAFcPMnjbVa7oRB2phPXBs4Vh350vfQxNWZ_NPYlTEbCsIv0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/JZtmumfThB2RTYqWA7ATQWVdDyccC2nvuEzEcXdCPX-n2WlE4AdI0tjhdIwQCMgA7s8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/Y99FC8i0yv8pbZeGbw1I1Ny8EOeCNDOkvA0GKdlYPb6rNsiP-PCBAHtce75vOtbavbw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/0wAVOzTZYCbqi68Zh_Wp9AJkxfdgPI-YDgo3xXg4MufrTHDQxscvEgJOdxPeO3LTiLaG",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/wkNTssgJCvUF-BW-Py1a3gyUTjKlVdK7cXVqk4m8y0gc2qO9jFTjkbOXSHepL8VfWB7h",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/II8MpWu51QnMBSrx14_3oRaRJkylEOy1MDog9jdnQx2cPcJfmHzZ4HiQoqqmOn3Enlw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/v1z3qvI8sb0UUHW2wKNQCUJ3bXSInx2RFh5EHfNhy29GtJmo5wRI_ohDDfjxXRowGbtR",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.omesa.omesadeportes",
+    "reviewsUrl": "rev?doc=com.omesa.omesadeportes&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.omesa.omesadeportes",
+    "title": "Omesa Deportes",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Omesa Inform\u00e1tica s.l.u."
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "android@omesa.es"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Paseo de la Alameda de Osuna, 78 bajo D<br/>28042 Madrid<br/>MADRID"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "20 Jan 2016"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-10-23 01:23:26.722837",
+    "backendDocid": "com.omesa.omesadeportes",
+    "backendId": 3,
+    "creator": "Omesa Inform\u00e1tica s.l.u.",
+    "descriptionHtml": "Sus principales funciones son:<br>\t<br>a) Men\u00fa p\u00fablico. La App puede funcionar, sin necesidad de logarse, para (seg\u00fan configuraci\u00f3n):<br>-\tConsultar noticias y algunas p\u00e1ginas informativas de la web.<br>-\tRegistrarse y hacerse socio (alta en cualquier cuota) <br>-\tConsultar la oferta deportivo de cursos, actividades,\u2026<br>-\tConsultar la ocupaci\u00f3n de instalaciones y aforo (necesario control de accesos)<br>-\tConsultar la oferta de sesiones de grupo libre<br>-\tComprar (de forma an\u00f3nima) bonos de acceso, de sesiones, de alquiles de pistas, de servicios.<br>-\tConsultar la oferta y ocupaci\u00f3n (agenda) de servicios de masaje, entrenador personal.<br>-\tConsultar los eventos, carreras populares, cross,\u2026 y sus resultados, gestionados por la entidad.<br>-\tRegistrar sugerencias<br><br> <br>b) Usuarios logados. Una vez descargada la App en el smartphone o tablet, es posible logarse (con el mismo usuario y contrase\u00f1a que en la Web) y dejar as\u00ed la App personalizada de forma indefinida (no son necesarios posteriores logeos). Esto abre un segundo men\u00fa con las siguientes funciones (seg\u00fan configuraci\u00f3n):<br> <br>b.1) Consultas:<br>-\tDatos Personales (con posibilidad de edici\u00f3n)<br>-\tMis comunicados (con posibilidad de editar tipos de comunicados aceptados y  el idioma)<br>-\tPagos y Recibos pendientes (con posibilidad de pago con tarjeta de cr\u00e9dito, tarjeta prepago, bono) <br>-\tTarjetas prepago: su estado, consumos y con posibilidad de recarga.<br>-\tCursos y actividades en los que est\u00e1 inscrito (con posibilidad de consulta de situaci\u00f3n de pagos y posibilidad de darse de baja).<br>-\tCuotas de abonado o socio (con posibilidad de consulta de situaci\u00f3n de pagos)<br>-\tListas de espera y posici\u00f3n (con posibilidad de darse de baja)<br>-\tSesiones de grupo libre reservadas (con posibilidad de darse de baja)<br>-\tBonos adquiridos, con consulta de su estado y detalle de usos<br>-\tReservas:<br>o\tPista alquiladas<br>o\tServicios (masajes, entrenador personal,..) reservados<br>o\tGreen Fee <br>-\tEventos, carreras populares, cross, en los que est\u00e1 inscrito<br>-\tSorteos de pistas en los que ha participado<br>-\tSorteos de cursos y actividades en los que ha participado<br>-\tDocumentos que tiene registrados<br><br> b.2) Acciones:<br>-\tCuotas:<br>o\tAlta en Cuota de socio/abonado.<br>o\tRenovaci\u00f3n (facturaci\u00f3n siguiente periodo)<br>o\tCambio de cuota<br>o\tBaja en cuota<br>-\tEscuelas/Cursos/Actividades<br>o\tInscripci\u00f3n o alta<br>o\tRenovaci\u00f3n (confirmaci\u00f3n y pago del siguiente periodo)<br>o\tBaja en cursos y actividades<br>o\tContinuaci\u00f3n: alta en curso de continuaci\u00f3n de la pr\u00f3xima temporada.<br>-\tReservas:<br>o\tAlquiler de pistas<br>o\tServicios (masajes, entrenador personal,..) reservado<br>o\tSesiones de grupo libre<br><br>-\tCompra de bonos <br><br><br>Las formas de pago (disponibles en la App seg\u00fan configuraci\u00f3n) son las mismas que las de la Web:<br>-\tPago con tarjeta de cr\u00e9dito (se necesita TPV virtual de su entidad financiera)<br>-\tDomiciliaci\u00f3n bancaria<br>-\tPago con tarjeta prepago<br>-\tPago con bono (reservas, servicios, sesiones grupo libre)<br>-\tRecibo C57 (pago entidades de cr\u00e9dito colaboradoras)",
+    "descriptionShort": "Reservations, registration, your data and more on the app Omesa Sports",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "39257255",
+          "unknown3": 29
+        },
+        "developerAddress": "Paseo de la Alameda de Osuna, 78 bajo D<br/>28042 Madrid<br/>MADRID",
+        "developerEmail": "android@omesa.es",
+        "developerName": "Omesa Inform\u00e1tica s.l.u.",
+        "developerWebsite": "http://www.omesa.es",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "39257255",
+            "versionCode": 100001446
+          }
+        ],
+        "installationSize": "39257255",
+        "numDownloads": "100+ downloads",
+        "packageName": "com.omesa.omesadeportes",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.INTERNET",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.omesa.omesadeportes.permission.C2D_MESSAGE",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE"
+        ],
+        "recentChangesHtml": "Notificaciones y mejoras varias.",
+        "unstable": false,
+        "uploadDate": "8 Oct 2020",
+        "versionCode": 100001446,
+        "versionString": "1.0.1446"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.omesa.omesadeportes",
+    "docType": 1,
+    "docid": "com.omesa.omesadeportes",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/zcwX5edu_XI_p7XJymH4W0m1xYecpWMUf0Z0Q0Baiy_o7TO-8q-r32W9SA1NTeB644I",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/IMhtjS9gmx2fwe32GEqr1tJAN-8KW_WT685AmuE7l5VgBow8-wY4MDySHpFBnbiSJiw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Yfjf5AfpUpiPPOe---l5bB9ll5ieroINYiNVcpZC6hPPQjTcucoeruCx5bc1XQLwI-Q",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/DMqI8Iydw_7QFeP8E9fmAFcPMnjbVa7oRB2phPXBs4Vh350vfQxNWZ_NPYlTEbCsIv0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/JZtmumfThB2RTYqWA7ATQWVdDyccC2nvuEzEcXdCPX-n2WlE4AdI0tjhdIwQCMgA7s8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Y99FC8i0yv8pbZeGbw1I1Ny8EOeCNDOkvA0GKdlYPb6rNsiP-PCBAHtce75vOtbavbw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/0wAVOzTZYCbqi68Zh_Wp9AJkxfdgPI-YDgo3xXg4MufrTHDQxscvEgJOdxPeO3LTiLaG",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/wkNTssgJCvUF-BW-Py1a3gyUTjKlVdK7cXVqk4m8y0gc2qO9jFTjkbOXSHepL8VfWB7h",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/II8MpWu51QnMBSrx14_3oRaRJkylEOy1MDog9jdnQx2cPcJfmHzZ4HiQoqqmOn3Enlw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/v1z3qvI8sb0UUHW2wKNQCUJ3bXSInx2RFh5EHfNhy29GtJmo5wRI_ohDDfjxXRowGbtR",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.omesa.omesadeportes",
+    "reviewsUrl": "rev?doc=com.omesa.omesadeportes&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.omesa.omesadeportes",
+    "title": "Omesa Deportes",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "android@omesa.es"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Paseo de la Alameda de Osuna, 78 bajo D<br/>28042 Madrid<br/>MADRID"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "20 Jan 2016"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-11-05 01:42:31.433485",
+    "backendDocid": "com.omesa.omesadeportes",
+    "backendId": 3,
+    "creator": "Omesa Inform\u00e1tica s.l.u.",
+    "descriptionHtml": "Sus principales funciones son:<br>\t<br>a) Men\u00fa p\u00fablico. La App puede funcionar, sin necesidad de logarse, para (seg\u00fan configuraci\u00f3n):<br>-\tConsultar noticias y algunas p\u00e1ginas informativas de la web.<br>-\tRegistrarse y hacerse socio (alta en cualquier cuota) <br>-\tConsultar la oferta deportivo de cursos, actividades,\u2026<br>-\tConsultar la ocupaci\u00f3n de instalaciones y aforo (necesario control de accesos)<br>-\tConsultar la oferta de sesiones de grupo libre<br>-\tComprar (de forma an\u00f3nima) bonos de acceso, de sesiones, de alquiles de pistas, de servicios.<br>-\tConsultar la oferta y ocupaci\u00f3n (agenda) de servicios de masaje, entrenador personal.<br>-\tConsultar los eventos, carreras populares, cross,\u2026 y sus resultados, gestionados por la entidad.<br>-\tRegistrar sugerencias<br><br> <br>b) Usuarios logados. Una vez descargada la App en el smartphone o tablet, es posible logarse (con el mismo usuario y contrase\u00f1a que en la Web) y dejar as\u00ed la App personalizada de forma indefinida (no son necesarios posteriores logeos). Esto abre un segundo men\u00fa con las siguientes funciones (seg\u00fan configuraci\u00f3n):<br> <br>b.1) Consultas:<br>-\tDatos Personales (con posibilidad de edici\u00f3n)<br>-\tMis comunicados (con posibilidad de editar tipos de comunicados aceptados y  el idioma)<br>-\tPagos y Recibos pendientes (con posibilidad de pago con tarjeta de cr\u00e9dito, tarjeta prepago, bono) <br>-\tTarjetas prepago: su estado, consumos y con posibilidad de recarga.<br>-\tCursos y actividades en los que est\u00e1 inscrito (con posibilidad de consulta de situaci\u00f3n de pagos y posibilidad de darse de baja).<br>-\tCuotas de abonado o socio (con posibilidad de consulta de situaci\u00f3n de pagos)<br>-\tListas de espera y posici\u00f3n (con posibilidad de darse de baja)<br>-\tSesiones de grupo libre reservadas (con posibilidad de darse de baja)<br>-\tBonos adquiridos, con consulta de su estado y detalle de usos<br>-\tReservas:<br>o\tPista alquiladas<br>o\tServicios (masajes, entrenador personal,..) reservados<br>o\tGreen Fee <br>-\tEventos, carreras populares, cross, en los que est\u00e1 inscrito<br>-\tSorteos de pistas en los que ha participado<br>-\tSorteos de cursos y actividades en los que ha participado<br>-\tDocumentos que tiene registrados<br><br> b.2) Acciones:<br>-\tCuotas:<br>o\tAlta en Cuota de socio/abonado.<br>o\tRenovaci\u00f3n (facturaci\u00f3n siguiente periodo)<br>o\tCambio de cuota<br>o\tBaja en cuota<br>-\tEscuelas/Cursos/Actividades<br>o\tInscripci\u00f3n o alta<br>o\tRenovaci\u00f3n (confirmaci\u00f3n y pago del siguiente periodo)<br>o\tBaja en cursos y actividades<br>o\tContinuaci\u00f3n: alta en curso de continuaci\u00f3n de la pr\u00f3xima temporada.<br>-\tReservas:<br>o\tAlquiler de pistas<br>o\tServicios (masajes, entrenador personal,..) reservado<br>o\tSesiones de grupo libre<br><br>-\tCompra de bonos <br><br><br>Las formas de pago (disponibles en la App seg\u00fan configuraci\u00f3n) son las mismas que las de la Web:<br>-\tPago con tarjeta de cr\u00e9dito (se necesita TPV virtual de su entidad financiera)<br>-\tDomiciliaci\u00f3n bancaria<br>-\tPago con tarjeta prepago<br>-\tPago con bono (reservas, servicios, sesiones grupo libre)<br>-\tRecibo C57 (pago entidades de cr\u00e9dito colaboradoras)",
+    "descriptionShort": "Reservations, registration, your data and more on the app Omesa Sports",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "39260907",
+          "unknown3": 29
+        },
+        "developerAddress": "Paseo de la Alameda de Osuna, 78 bajo D<br/>28042 Madrid<br/>MADRID",
+        "developerEmail": "android@omesa.es",
+        "developerName": "Omesa Inform\u00e1tica s.l.u.",
+        "developerWebsite": "http://www.omesa.es",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "39260907",
+            "versionCode": 100001447
+          }
+        ],
+        "installationSize": "39260907",
+        "numDownloads": "100+ downloads",
+        "packageName": "com.omesa.omesadeportes",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.INTERNET",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.omesa.omesadeportes.permission.C2D_MESSAGE",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE"
+        ],
+        "recentChangesHtml": "Ajustes y optimizaciones",
+        "unstable": false,
+        "uploadDate": "28 Oct 2020",
+        "versionCode": 100001447,
+        "versionString": "1.0.1447"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.omesa.omesadeportes",
+    "docType": 1,
+    "docid": "com.omesa.omesadeportes",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/zcwX5edu_XI_p7XJymH4W0m1xYecpWMUf0Z0Q0Baiy_o7TO-8q-r32W9SA1NTeB644I",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/IMhtjS9gmx2fwe32GEqr1tJAN-8KW_WT685AmuE7l5VgBow8-wY4MDySHpFBnbiSJiw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Yfjf5AfpUpiPPOe---l5bB9ll5ieroINYiNVcpZC6hPPQjTcucoeruCx5bc1XQLwI-Q",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/DMqI8Iydw_7QFeP8E9fmAFcPMnjbVa7oRB2phPXBs4Vh350vfQxNWZ_NPYlTEbCsIv0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/JZtmumfThB2RTYqWA7ATQWVdDyccC2nvuEzEcXdCPX-n2WlE4AdI0tjhdIwQCMgA7s8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Y99FC8i0yv8pbZeGbw1I1Ny8EOeCNDOkvA0GKdlYPb6rNsiP-PCBAHtce75vOtbavbw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/0wAVOzTZYCbqi68Zh_Wp9AJkxfdgPI-YDgo3xXg4MufrTHDQxscvEgJOdxPeO3LTiLaG",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/wkNTssgJCvUF-BW-Py1a3gyUTjKlVdK7cXVqk4m8y0gc2qO9jFTjkbOXSHepL8VfWB7h",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/II8MpWu51QnMBSrx14_3oRaRJkylEOy1MDog9jdnQx2cPcJfmHzZ4HiQoqqmOn3Enlw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/v1z3qvI8sb0UUHW2wKNQCUJ3bXSInx2RFh5EHfNhy29GtJmo5wRI_ohDDfjxXRowGbtR",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.omesa.omesadeportes",
+    "reviewsUrl": "rev?doc=com.omesa.omesadeportes&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.omesa.omesadeportes",
+    "title": "Omesa Deportes",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "android@omesa.es"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Paseo de la Alameda de Osuna, 78 bajo D<br/>28042 Madrid<br/>MADRID"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "20 Jan 2016"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-08-21 16:35:11.821584",
+    "backendDocid": "com.omesa.omesadeportes",
+    "backendId": 3,
+    "creator": "Omesa Inform\u00e1tica s.l.u.",
+    "descriptionHtml": "Sus principales funciones son:<br>\t<br>a) Men\u00fa p\u00fablico. La App puede funcionar, sin necesidad de logarse, para (seg\u00fan configuraci\u00f3n):<br>-\tConsultar noticias y algunas p\u00e1ginas informativas de la web.<br>-\tRegistrarse y hacerse socio (alta en cualquier cuota) <br>-\tConsultar la oferta deportivo de cursos, actividades,\u2026<br>-\tConsultar la ocupaci\u00f3n de instalaciones y aforo (necesario control de accesos)<br>-\tConsultar la oferta de sesiones de grupo libre<br>-\tComprar (de forma an\u00f3nima) bonos de acceso, de sesiones, de alquiles de pistas, de servicios.<br>-\tConsultar la oferta y ocupaci\u00f3n (agenda) de servicios de masaje, entrenador personal.<br>-\tConsultar los eventos, carreras populares, cross,\u2026 y sus resultados, gestionados por la entidad.<br>-\tRegistrar sugerencias<br><br> <br>b) Usuarios logados. Una vez descargada la App en el smartphone o tablet, es posible logarse (con el mismo usuario y contrase\u00f1a que en la Web) y dejar as\u00ed la App personalizada de forma indefinida (no son necesarios posteriores logeos). Esto abre un segundo men\u00fa con las siguientes funciones (seg\u00fan configuraci\u00f3n):<br> <br>b.1) Consultas:<br>-\tDatos Personales (con posibilidad de edici\u00f3n)<br>-\tMis comunicados (con posibilidad de editar tipos de comunicados aceptados y  el idioma)<br>-\tPagos y Recibos pendientes (con posibilidad de pago con tarjeta de cr\u00e9dito, tarjeta prepago, bono) <br>-\tTarjetas prepago: su estado, consumos y con posibilidad de recarga.<br>-\tCursos y actividades en los que est\u00e1 inscrito (con posibilidad de consulta de situaci\u00f3n de pagos y posibilidad de darse de baja).<br>-\tCuotas de abonado o socio (con posibilidad de consulta de situaci\u00f3n de pagos)<br>-\tListas de espera y posici\u00f3n (con posibilidad de darse de baja)<br>-\tSesiones de grupo libre reservadas (con posibilidad de darse de baja)<br>-\tBonos adquiridos, con consulta de su estado y detalle de usos<br>-\tReservas:<br>o\tPista alquiladas<br>o\tServicios (masajes, entrenador personal,..) reservados<br>o\tGreen Fee <br>-\tEventos, carreras populares, cross, en los que est\u00e1 inscrito<br>-\tSorteos de pistas en los que ha participado<br>-\tSorteos de cursos y actividades en los que ha participado<br>-\tDocumentos que tiene registrados<br><br> b.2) Acciones:<br>-\tCuotas:<br>o\tAlta en Cuota de socio/abonado.<br>o\tRenovaci\u00f3n (facturaci\u00f3n siguiente periodo)<br>o\tCambio de cuota<br>o\tBaja en cuota<br>-\tEscuelas/Cursos/Actividades<br>o\tInscripci\u00f3n o alta<br>o\tRenovaci\u00f3n (confirmaci\u00f3n y pago del siguiente periodo)<br>o\tBaja en cursos y actividades<br>o\tContinuaci\u00f3n: alta en curso de continuaci\u00f3n de la pr\u00f3xima temporada.<br>-\tReservas:<br>o\tAlquiler de pistas<br>o\tServicios (masajes, entrenador personal,..) reservado<br>o\tSesiones de grupo libre<br><br>-\tCompra de bonos <br><br><br>Las formas de pago (disponibles en la App seg\u00fan configuraci\u00f3n) son las mismas que las de la Web:<br>-\tPago con tarjeta de cr\u00e9dito (se necesita TPV virtual de su entidad financiera)<br>-\tDomiciliaci\u00f3n bancaria<br>-\tPago con tarjeta prepago<br>-\tPago con bono (reservas, servicios, sesiones grupo libre)<br>-\tRecibo C57 (pago entidades de cr\u00e9dito colaboradoras)",
+    "descriptionShort": "Reservations, registration, your data and more on the app Omesa Sports",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "38971262",
+          "unknown3": 29
+        },
+        "developerAddress": "Paseo de la Alameda de Osuna, 78 bajo D<br/>28042 Madrid<br/>MADRID",
+        "developerEmail": "android@omesa.es",
+        "developerName": "Omesa Inform\u00e1tica s.l.u.",
+        "developerWebsite": "http://www.omesa.es",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "38971262",
+            "versionCode": 100001465
+          }
+        ],
+        "installationSize": "38971262",
+        "numDownloads": "100+ downloads",
+        "packageName": "com.omesa.omesadeportes",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.INTERNET",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.omesa.omesadeportes.permission.C2D_MESSAGE",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE"
+        ],
+        "recentChangesHtml": "Control de conexi\u00f3n a internet al arrancar la app",
+        "unstable": false,
+        "uploadDate": "20 Jul 2021",
+        "versionCode": 100001465,
+        "versionString": "1.0.1465"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.omesa.omesadeportes",
+    "docType": 1,
+    "docid": "com.omesa.omesadeportes",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/zcwX5edu_XI_p7XJymH4W0m1xYecpWMUf0Z0Q0Baiy_o7TO-8q-r32W9SA1NTeB644I",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/IMhtjS9gmx2fwe32GEqr1tJAN-8KW_WT685AmuE7l5VgBow8-wY4MDySHpFBnbiSJiw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Yfjf5AfpUpiPPOe---l5bB9ll5ieroINYiNVcpZC6hPPQjTcucoeruCx5bc1XQLwI-Q",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/DMqI8Iydw_7QFeP8E9fmAFcPMnjbVa7oRB2phPXBs4Vh350vfQxNWZ_NPYlTEbCsIv0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/JZtmumfThB2RTYqWA7ATQWVdDyccC2nvuEzEcXdCPX-n2WlE4AdI0tjhdIwQCMgA7s8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Y99FC8i0yv8pbZeGbw1I1Ny8EOeCNDOkvA0GKdlYPb6rNsiP-PCBAHtce75vOtbavbw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/0wAVOzTZYCbqi68Zh_Wp9AJkxfdgPI-YDgo3xXg4MufrTHDQxscvEgJOdxPeO3LTiLaG",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/wkNTssgJCvUF-BW-Py1a3gyUTjKlVdK7cXVqk4m8y0gc2qO9jFTjkbOXSHepL8VfWB7h",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/II8MpWu51QnMBSrx14_3oRaRJkylEOy1MDog9jdnQx2cPcJfmHzZ4HiQoqqmOn3Enlw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/v1z3qvI8sb0UUHW2wKNQCUJ3bXSInx2RFh5EHfNhy29GtJmo5wRI_ohDDfjxXRowGbtR",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.omesa.omesadeportes",
+    "reviewsUrl": "rev?doc=com.omesa.omesadeportes&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.omesa.omesadeportes",
+    "title": "Omesa Deportes",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Omesa Inform\u00e1tica s.l.u."
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "android@omesa.es"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Paseo de la Alameda de Osuna, 78 bajo D<br/>28042 Madrid<br/>MADRID"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "20 Jan 2016"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-09-07 03:34:58.942415",
+    "backendDocid": "com.omesa.omesadeportes",
+    "backendId": 3,
+    "creator": "Omesa Inform\u00e1tica s.l.u.",
+    "descriptionHtml": "Sus principales funciones son:<br>\t<br>a) Men\u00fa p\u00fablico. La App puede funcionar, sin necesidad de logarse, para (seg\u00fan configuraci\u00f3n):<br>-\tConsultar noticias y algunas p\u00e1ginas informativas de la web.<br>-\tRegistrarse y hacerse socio (alta en cualquier cuota) <br>-\tConsultar la oferta deportivo de cursos, actividades,\u2026<br>-\tConsultar la ocupaci\u00f3n de instalaciones y aforo (necesario control de accesos)<br>-\tConsultar la oferta de sesiones de grupo libre<br>-\tComprar (de forma an\u00f3nima) bonos de acceso, de sesiones, de alquiles de pistas, de servicios.<br>-\tConsultar la oferta y ocupaci\u00f3n (agenda) de servicios de masaje, entrenador personal.<br>-\tConsultar los eventos, carreras populares, cross,\u2026 y sus resultados, gestionados por la entidad.<br>-\tRegistrar sugerencias<br><br> <br>b) Usuarios logados. Una vez descargada la App en el smartphone o tablet, es posible logarse (con el mismo usuario y contrase\u00f1a que en la Web) y dejar as\u00ed la App personalizada de forma indefinida (no son necesarios posteriores logeos). Esto abre un segundo men\u00fa con las siguientes funciones (seg\u00fan configuraci\u00f3n):<br> <br>b.1) Consultas:<br>-\tDatos Personales (con posibilidad de edici\u00f3n)<br>-\tMis comunicados (con posibilidad de editar tipos de comunicados aceptados y  el idioma)<br>-\tPagos y Recibos pendientes (con posibilidad de pago con tarjeta de cr\u00e9dito, tarjeta prepago, bono) <br>-\tTarjetas prepago: su estado, consumos y con posibilidad de recarga.<br>-\tCursos y actividades en los que est\u00e1 inscrito (con posibilidad de consulta de situaci\u00f3n de pagos y posibilidad de darse de baja).<br>-\tCuotas de abonado o socio (con posibilidad de consulta de situaci\u00f3n de pagos)<br>-\tListas de espera y posici\u00f3n (con posibilidad de darse de baja)<br>-\tSesiones de grupo libre reservadas (con posibilidad de darse de baja)<br>-\tBonos adquiridos, con consulta de su estado y detalle de usos<br>-\tReservas:<br>o\tPista alquiladas<br>o\tServicios (masajes, entrenador personal,..) reservados<br>o\tGreen Fee <br>-\tEventos, carreras populares, cross, en los que est\u00e1 inscrito<br>-\tSorteos de pistas en los que ha participado<br>-\tSorteos de cursos y actividades en los que ha participado<br>-\tDocumentos que tiene registrados<br><br> b.2) Acciones:<br>-\tCuotas:<br>o\tAlta en Cuota de socio/abonado.<br>o\tRenovaci\u00f3n (facturaci\u00f3n siguiente periodo)<br>o\tCambio de cuota<br>o\tBaja en cuota<br>-\tEscuelas/Cursos/Actividades<br>o\tInscripci\u00f3n o alta<br>o\tRenovaci\u00f3n (confirmaci\u00f3n y pago del siguiente periodo)<br>o\tBaja en cursos y actividades<br>o\tContinuaci\u00f3n: alta en curso de continuaci\u00f3n de la pr\u00f3xima temporada.<br>-\tReservas:<br>o\tAlquiler de pistas<br>o\tServicios (masajes, entrenador personal,..) reservado<br>o\tSesiones de grupo libre<br><br>-\tCompra de bonos <br><br><br>Las formas de pago (disponibles en la App seg\u00fan configuraci\u00f3n) son las mismas que las de la Web:<br>-\tPago con tarjeta de cr\u00e9dito (se necesita TPV virtual de su entidad financiera)<br>-\tDomiciliaci\u00f3n bancaria<br>-\tPago con tarjeta prepago<br>-\tPago con bono (reservas, servicios, sesiones grupo libre)<br>-\tRecibo C57 (pago entidades de cr\u00e9dito colaboradoras)",
+    "descriptionShort": "Reservations, registration, your data and more on the app Omesa Sports",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "38972075",
+          "unknown3": 30
+        },
+        "developerAddress": "Paseo de la Alameda de Osuna, 78 bajo D<br/>28042 Madrid<br/>MADRID",
+        "developerEmail": "android@omesa.es",
+        "developerName": "Omesa Inform\u00e1tica s.l.u.",
+        "developerWebsite": "http://www.omesa.es",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "38972075",
+            "versionCode": 100001492
+          }
+        ],
+        "installationSize": "38972075",
+        "numDownloads": "100+ downloads",
+        "packageName": "com.omesa.omesadeportes",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.INTERNET",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.omesa.omesadeportes.permission.C2D_MESSAGE",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE"
+        ],
+        "recentChangesHtml": "Correcci\u00f3n de error alta en curso",
+        "unstable": false,
+        "uploadDate": "6 Sept 2021",
+        "versionCode": 100001492,
+        "versionString": "1.0.1492"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.omesa.omesadeportes",
+    "docType": 1,
+    "docid": "com.omesa.omesadeportes",
+    "image": [
+      {
+        "color": "#153354",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/zcwX5edu_XI_p7XJymH4W0m1xYecpWMUf0Z0Q0Baiy_o7TO-8q-r32W9SA1NTeB644I",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/IMhtjS9gmx2fwe32GEqr1tJAN-8KW_WT685AmuE7l5VgBow8-wY4MDySHpFBnbiSJiw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Yfjf5AfpUpiPPOe---l5bB9ll5ieroINYiNVcpZC6hPPQjTcucoeruCx5bc1XQLwI-Q",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/DMqI8Iydw_7QFeP8E9fmAFcPMnjbVa7oRB2phPXBs4Vh350vfQxNWZ_NPYlTEbCsIv0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/JZtmumfThB2RTYqWA7ATQWVdDyccC2nvuEzEcXdCPX-n2WlE4AdI0tjhdIwQCMgA7s8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Y99FC8i0yv8pbZeGbw1I1Ny8EOeCNDOkvA0GKdlYPb6rNsiP-PCBAHtce75vOtbavbw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/0wAVOzTZYCbqi68Zh_Wp9AJkxfdgPI-YDgo3xXg4MufrTHDQxscvEgJOdxPeO3LTiLaG",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/wkNTssgJCvUF-BW-Py1a3gyUTjKlVdK7cXVqk4m8y0gc2qO9jFTjkbOXSHepL8VfWB7h",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/II8MpWu51QnMBSrx14_3oRaRJkylEOy1MDog9jdnQx2cPcJfmHzZ4HiQoqqmOn3Enlw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/v1z3qvI8sb0UUHW2wKNQCUJ3bXSInx2RFh5EHfNhy29GtJmo5wRI_ohDDfjxXRowGbtR",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.omesa.omesadeportes",
+    "reviewsUrl": "rev?doc=com.omesa.omesadeportes&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.omesa.omesadeportes",
+    "title": "Omesa Deportes",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "android@omesa.es"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Paseo de la Alameda de Osuna, 78 bajo D<br/>28042 Madrid<br/>MADRID"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "20 Jan 2016"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-11-02 01:42:56.726837",
+    "backendDocid": "com.omesa.omesadeportes",
+    "backendId": 3,
+    "creator": "Omesa Inform\u00e1tica s.l.u.",
+    "descriptionHtml": "Sus principales funciones son:<br>\t<br>a) Men\u00fa p\u00fablico. La App puede funcionar, sin necesidad de logarse, para (seg\u00fan configuraci\u00f3n):<br>-\tConsultar noticias y algunas p\u00e1ginas informativas de la web.<br>-\tRegistrarse y hacerse socio (alta en cualquier cuota) <br>-\tConsultar la oferta deportivo de cursos, actividades,\u2026<br>-\tConsultar la ocupaci\u00f3n de instalaciones y aforo (necesario control de accesos)<br>-\tConsultar la oferta de sesiones de grupo libre<br>-\tComprar (de forma an\u00f3nima) bonos de acceso, de sesiones, de alquiles de pistas, de servicios.<br>-\tConsultar la oferta y ocupaci\u00f3n (agenda) de servicios de masaje, entrenador personal.<br>-\tConsultar los eventos, carreras populares, cross,\u2026 y sus resultados, gestionados por la entidad.<br>-\tRegistrar sugerencias<br><br> <br>b) Usuarios logados. Una vez descargada la App en el smartphone o tablet, es posible logarse (con el mismo usuario y contrase\u00f1a que en la Web) y dejar as\u00ed la App personalizada de forma indefinida (no son necesarios posteriores logeos). Esto abre un segundo men\u00fa con las siguientes funciones (seg\u00fan configuraci\u00f3n):<br> <br>b.1) Consultas:<br>-\tDatos Personales (con posibilidad de edici\u00f3n)<br>-\tMis comunicados (con posibilidad de editar tipos de comunicados aceptados y  el idioma)<br>-\tPagos y Recibos pendientes (con posibilidad de pago con tarjeta de cr\u00e9dito, tarjeta prepago, bono) <br>-\tTarjetas prepago: su estado, consumos y con posibilidad de recarga.<br>-\tCursos y actividades en los que est\u00e1 inscrito (con posibilidad de consulta de situaci\u00f3n de pagos y posibilidad de darse de baja).<br>-\tCuotas de abonado o socio (con posibilidad de consulta de situaci\u00f3n de pagos)<br>-\tListas de espera y posici\u00f3n (con posibilidad de darse de baja)<br>-\tSesiones de grupo libre reservadas (con posibilidad de darse de baja)<br>-\tBonos adquiridos, con consulta de su estado y detalle de usos<br>-\tReservas:<br>o\tPista alquiladas<br>o\tServicios (masajes, entrenador personal,..) reservados<br>o\tGreen Fee <br>-\tEventos, carreras populares, cross, en los que est\u00e1 inscrito<br>-\tSorteos de pistas en los que ha participado<br>-\tSorteos de cursos y actividades en los que ha participado<br>-\tDocumentos que tiene registrados<br><br> b.2) Acciones:<br>-\tCuotas:<br>o\tAlta en Cuota de socio/abonado.<br>o\tRenovaci\u00f3n (facturaci\u00f3n siguiente periodo)<br>o\tCambio de cuota<br>o\tBaja en cuota<br>-\tEscuelas/Cursos/Actividades<br>o\tInscripci\u00f3n o alta<br>o\tRenovaci\u00f3n (confirmaci\u00f3n y pago del siguiente periodo)<br>o\tBaja en cursos y actividades<br>o\tContinuaci\u00f3n: alta en curso de continuaci\u00f3n de la pr\u00f3xima temporada.<br>-\tReservas:<br>o\tAlquiler de pistas<br>o\tServicios (masajes, entrenador personal,..) reservado<br>o\tSesiones de grupo libre<br><br>-\tCompra de bonos <br><br><br>Las formas de pago (disponibles en la App seg\u00fan configuraci\u00f3n) son las mismas que las de la Web:<br>-\tPago con tarjeta de cr\u00e9dito (se necesita TPV virtual de su entidad financiera)<br>-\tDomiciliaci\u00f3n bancaria<br>-\tPago con tarjeta prepago<br>-\tPago con bono (reservas, servicios, sesiones grupo libre)<br>-\tRecibo C57 (pago entidades de cr\u00e9dito colaboradoras)",
+    "descriptionShort": "Reservations, registration, your data and more on the app Omesa Sports",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "38979932",
+          "unknown3": 30
+        },
+        "developerAddress": "Paseo de la Alameda de Osuna, 78 bajo D<br/>28042 Madrid<br/>MADRID",
+        "developerEmail": "android@omesa.es",
+        "developerName": "Omesa Inform\u00e1tica s.l.u.",
+        "developerWebsite": "http://www.omesa.es",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "38979932",
+            "versionCode": 100001493
+          }
+        ],
+        "installationSize": "38979932",
+        "numDownloads": "100+ downloads",
+        "packageName": "com.omesa.omesadeportes",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.INTERNET",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.omesa.omesadeportes.permission.C2D_MESSAGE",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE"
+        ],
+        "recentChangesHtml": "Correcci\u00f3n de error reserva de pista con horario variable",
+        "unstable": false,
+        "uploadDate": "1 Nov 2021",
+        "versionCode": 100001493,
+        "versionString": "1.0.1493"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.omesa.omesadeportes",
+    "docType": 1,
+    "docid": "com.omesa.omesadeportes",
+    "image": [
+      {
+        "color": "#153354",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/zcwX5edu_XI_p7XJymH4W0m1xYecpWMUf0Z0Q0Baiy_o7TO-8q-r32W9SA1NTeB644I",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/IMhtjS9gmx2fwe32GEqr1tJAN-8KW_WT685AmuE7l5VgBow8-wY4MDySHpFBnbiSJiw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Yfjf5AfpUpiPPOe---l5bB9ll5ieroINYiNVcpZC6hPPQjTcucoeruCx5bc1XQLwI-Q",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/DMqI8Iydw_7QFeP8E9fmAFcPMnjbVa7oRB2phPXBs4Vh350vfQxNWZ_NPYlTEbCsIv0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/JZtmumfThB2RTYqWA7ATQWVdDyccC2nvuEzEcXdCPX-n2WlE4AdI0tjhdIwQCMgA7s8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Y99FC8i0yv8pbZeGbw1I1Ny8EOeCNDOkvA0GKdlYPb6rNsiP-PCBAHtce75vOtbavbw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/0wAVOzTZYCbqi68Zh_Wp9AJkxfdgPI-YDgo3xXg4MufrTHDQxscvEgJOdxPeO3LTiLaG",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/wkNTssgJCvUF-BW-Py1a3gyUTjKlVdK7cXVqk4m8y0gc2qO9jFTjkbOXSHepL8VfWB7h",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/II8MpWu51QnMBSrx14_3oRaRJkylEOy1MDog9jdnQx2cPcJfmHzZ4HiQoqqmOn3Enlw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/v1z3qvI8sb0UUHW2wKNQCUJ3bXSInx2RFh5EHfNhy29GtJmo5wRI_ohDDfjxXRowGbtR",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.omesa.omesadeportes",
+    "reviewsUrl": "rev?doc=com.omesa.omesadeportes&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.omesa.omesadeportes",
+    "title": "Omesa Deportes",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Omesa Inform\u00e1tica s.l.u."
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "android@omesa.es"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Paseo de la Alameda de Osuna, 78 bajo D<br/>28042 Madrid<br/>MADRID"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "20 Jan 2016"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-12-04 17:51:39.824453",
+    "backendDocid": "com.omesa.omesadeportes",
+    "backendId": 3,
+    "creator": "Omesa Inform\u00e1tica s.l.u.",
+    "descriptionHtml": "Sus principales funciones son:<br>\t<br>a) Men\u00fa p\u00fablico. La App puede funcionar, sin necesidad de logarse, para (seg\u00fan configuraci\u00f3n):<br>-\tConsultar noticias y algunas p\u00e1ginas informativas de la web.<br>-\tRegistrarse y hacerse socio (alta en cualquier cuota) <br>-\tConsultar la oferta deportivo de cursos, actividades,\u2026<br>-\tConsultar la ocupaci\u00f3n de instalaciones y aforo (necesario control de accesos)<br>-\tConsultar la oferta de sesiones de grupo libre<br>-\tComprar (de forma an\u00f3nima) bonos de acceso, de sesiones, de alquiles de pistas, de servicios.<br>-\tConsultar la oferta y ocupaci\u00f3n (agenda) de servicios de masaje, entrenador personal.<br>-\tConsultar los eventos, carreras populares, cross,\u2026 y sus resultados, gestionados por la entidad.<br>-\tRegistrar sugerencias<br><br> <br>b) Usuarios logados. Una vez descargada la App en el smartphone o tablet, es posible logarse (con el mismo usuario y contrase\u00f1a que en la Web) y dejar as\u00ed la App personalizada de forma indefinida (no son necesarios posteriores logeos). Esto abre un segundo men\u00fa con las siguientes funciones (seg\u00fan configuraci\u00f3n):<br> <br>b.1) Consultas:<br>-\tDatos Personales (con posibilidad de edici\u00f3n)<br>-\tMis comunicados (con posibilidad de editar tipos de comunicados aceptados y  el idioma)<br>-\tPagos y Recibos pendientes (con posibilidad de pago con tarjeta de cr\u00e9dito, tarjeta prepago, bono) <br>-\tTarjetas prepago: su estado, consumos y con posibilidad de recarga.<br>-\tCursos y actividades en los que est\u00e1 inscrito (con posibilidad de consulta de situaci\u00f3n de pagos y posibilidad de darse de baja).<br>-\tCuotas de abonado o socio (con posibilidad de consulta de situaci\u00f3n de pagos)<br>-\tListas de espera y posici\u00f3n (con posibilidad de darse de baja)<br>-\tSesiones de grupo libre reservadas (con posibilidad de darse de baja)<br>-\tBonos adquiridos, con consulta de su estado y detalle de usos<br>-\tReservas:<br>o\tPista alquiladas<br>o\tServicios (masajes, entrenador personal,..) reservados<br>o\tGreen Fee <br>-\tEventos, carreras populares, cross, en los que est\u00e1 inscrito<br>-\tSorteos de pistas en los que ha participado<br>-\tSorteos de cursos y actividades en los que ha participado<br>-\tDocumentos que tiene registrados<br><br> b.2) Acciones:<br>-\tCuotas:<br>o\tAlta en Cuota de socio/abonado.<br>o\tRenovaci\u00f3n (facturaci\u00f3n siguiente periodo)<br>o\tCambio de cuota<br>o\tBaja en cuota<br>-\tEscuelas/Cursos/Actividades<br>o\tInscripci\u00f3n o alta<br>o\tRenovaci\u00f3n (confirmaci\u00f3n y pago del siguiente periodo)<br>o\tBaja en cursos y actividades<br>o\tContinuaci\u00f3n: alta en curso de continuaci\u00f3n de la pr\u00f3xima temporada.<br>-\tReservas:<br>o\tAlquiler de pistas<br>o\tServicios (masajes, entrenador personal,..) reservado<br>o\tSesiones de grupo libre<br><br>-\tCompra de bonos <br><br><br>Las formas de pago (disponibles en la App seg\u00fan configuraci\u00f3n) son las mismas que las de la Web:<br>-\tPago con tarjeta de cr\u00e9dito (se necesita TPV virtual de su entidad financiera)<br>-\tDomiciliaci\u00f3n bancaria<br>-\tPago con tarjeta prepago<br>-\tPago con bono (reservas, servicios, sesiones grupo libre)<br>-\tRecibo C57 (pago entidades de cr\u00e9dito colaboradoras)",
+    "descriptionShort": "Reservations, registration, your data and more on the app Omesa Sports",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "39008398",
+          "unknown3": 30
+        },
+        "developerAddress": "Paseo de la Alameda de Osuna, 78 bajo D<br/>28042 Madrid<br/>MADRID",
+        "developerEmail": "android@omesa.es",
+        "developerName": "Omesa Inform\u00e1tica s.l.u.",
+        "developerWebsite": "http://www.omesa.es",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "39008398",
+            "versionCode": 100001494
+          }
+        ],
+        "installationSize": "39008398",
+        "numDownloads": "100+ downloads",
+        "packageName": "com.omesa.omesadeportes",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.INTERNET",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.omesa.omesadeportes.permission.C2D_MESSAGE",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE"
+        ],
+        "recentChangesHtml": "Correcci\u00f3n inscripci\u00f3n en cursos",
+        "unstable": false,
+        "uploadDate": "3 Dec 2021",
+        "versionCode": 100001494,
+        "versionString": "1.0.1494"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.omesa.omesadeportes",
+    "docType": 1,
+    "docid": "com.omesa.omesadeportes",
+    "image": [
+      {
+        "color": "#153354",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/zcwX5edu_XI_p7XJymH4W0m1xYecpWMUf0Z0Q0Baiy_o7TO-8q-r32W9SA1NTeB644I",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/IMhtjS9gmx2fwe32GEqr1tJAN-8KW_WT685AmuE7l5VgBow8-wY4MDySHpFBnbiSJiw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Yfjf5AfpUpiPPOe---l5bB9ll5ieroINYiNVcpZC6hPPQjTcucoeruCx5bc1XQLwI-Q",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/DMqI8Iydw_7QFeP8E9fmAFcPMnjbVa7oRB2phPXBs4Vh350vfQxNWZ_NPYlTEbCsIv0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/JZtmumfThB2RTYqWA7ATQWVdDyccC2nvuEzEcXdCPX-n2WlE4AdI0tjhdIwQCMgA7s8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Y99FC8i0yv8pbZeGbw1I1Ny8EOeCNDOkvA0GKdlYPb6rNsiP-PCBAHtce75vOtbavbw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/0wAVOzTZYCbqi68Zh_Wp9AJkxfdgPI-YDgo3xXg4MufrTHDQxscvEgJOdxPeO3LTiLaG",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/wkNTssgJCvUF-BW-Py1a3gyUTjKlVdK7cXVqk4m8y0gc2qO9jFTjkbOXSHepL8VfWB7h",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/II8MpWu51QnMBSrx14_3oRaRJkylEOy1MDog9jdnQx2cPcJfmHzZ4HiQoqqmOn3Enlw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/v1z3qvI8sb0UUHW2wKNQCUJ3bXSInx2RFh5EHfNhy29GtJmo5wRI_ohDDfjxXRowGbtR",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.omesa.omesadeportes",
+    "reviewsUrl": "rev?doc=com.omesa.omesadeportes&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.omesa.omesadeportes",
+    "title": "Omesa Deportes",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "android@omesa.es"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Paseo de la Alameda de Osuna, 78 bajo D<br/>28042 Madrid<br/>MADRID"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "20 Jan 2016"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-05-08 20:46:54.906379",
+    "backendDocid": "com.omesa.omesadeportes",
+    "backendId": 3,
+    "creator": "Omesa Inform\u00e1tica s.l.u.",
+    "descriptionHtml": "Sus principales funciones son:<br>\t<br>a) Men\u00fa p\u00fablico. La App puede funcionar, sin necesidad de logarse, para (seg\u00fan configuraci\u00f3n):<br>-\tConsultar noticias y algunas p\u00e1ginas informativas de la web.<br>-\tRegistrarse y hacerse socio (alta en cualquier cuota) <br>-\tConsultar la oferta deportivo de cursos, actividades,\u2026<br>-\tConsultar la ocupaci\u00f3n de instalaciones y aforo (necesario control de accesos)<br>-\tConsultar la oferta de sesiones de grupo libre<br>-\tComprar (de forma an\u00f3nima) bonos de acceso, de sesiones, de alquiles de pistas, de servicios.<br>-\tConsultar la oferta y ocupaci\u00f3n (agenda) de servicios de masaje, entrenador personal.<br>-\tConsultar los eventos, carreras populares, cross,\u2026 y sus resultados, gestionados por la entidad.<br>-\tRegistrar sugerencias<br><br> <br>b) Usuarios logados. Una vez descargada la App en el smartphone o tablet, es posible logarse (con el mismo usuario y contrase\u00f1a que en la Web) y dejar as\u00ed la App personalizada de forma indefinida (no son necesarios posteriores logeos). Esto abre un segundo men\u00fa con las siguientes funciones (seg\u00fan configuraci\u00f3n):<br> <br>b.1) Consultas:<br>-\tDatos Personales (con posibilidad de edici\u00f3n)<br>-\tMis comunicados (con posibilidad de editar tipos de comunicados aceptados y  el idioma)<br>-\tPagos y Recibos pendientes (con posibilidad de pago con tarjeta de cr\u00e9dito, tarjeta prepago, bono) <br>-\tTarjetas prepago: su estado, consumos y con posibilidad de recarga.<br>-\tCursos y actividades en los que est\u00e1 inscrito (con posibilidad de consulta de situaci\u00f3n de pagos y posibilidad de darse de baja).<br>-\tCuotas de abonado o socio (con posibilidad de consulta de situaci\u00f3n de pagos)<br>-\tListas de espera y posici\u00f3n (con posibilidad de darse de baja)<br>-\tSesiones de grupo libre reservadas (con posibilidad de darse de baja)<br>-\tBonos adquiridos, con consulta de su estado y detalle de usos<br>-\tReservas:<br>o\tPista alquiladas<br>o\tServicios (masajes, entrenador personal,..) reservados<br>o\tGreen Fee <br>-\tEventos, carreras populares, cross, en los que est\u00e1 inscrito<br>-\tSorteos de pistas en los que ha participado<br>-\tSorteos de cursos y actividades en los que ha participado<br>-\tDocumentos que tiene registrados<br><br> b.2) Acciones:<br>-\tCuotas:<br>o\tAlta en Cuota de socio/abonado.<br>o\tRenovaci\u00f3n (facturaci\u00f3n siguiente periodo)<br>o\tCambio de cuota<br>o\tBaja en cuota<br>-\tEscuelas/Cursos/Actividades<br>o\tInscripci\u00f3n o alta<br>o\tRenovaci\u00f3n (confirmaci\u00f3n y pago del siguiente periodo)<br>o\tBaja en cursos y actividades<br>o\tContinuaci\u00f3n: alta en curso de continuaci\u00f3n de la pr\u00f3xima temporada.<br>-\tReservas:<br>o\tAlquiler de pistas<br>o\tServicios (masajes, entrenador personal,..) reservado<br>o\tSesiones de grupo libre<br><br>-\tCompra de bonos <br><br><br>Las formas de pago (disponibles en la App seg\u00fan configuraci\u00f3n) son las mismas que las de la Web:<br>-\tPago con tarjeta de cr\u00e9dito (se necesita TPV virtual de su entidad financiera)<br>-\tDomiciliaci\u00f3n bancaria<br>-\tPago con tarjeta prepago<br>-\tPago con bono (reservas, servicios, sesiones grupo libre)<br>-\tRecibo C57 (pago entidades de cr\u00e9dito colaboradoras)",
+    "descriptionShort": "Reservations, registration, your data and more on the app Omesa Sports",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "39018756",
+          "unknown3": 30
+        },
+        "developerAddress": "Paseo de la Alameda de Osuna, 78 bajo D<br/>28042 Madrid<br/>MADRID",
+        "developerEmail": "android@omesa.es",
+        "developerName": "Omesa Inform\u00e1tica s.l.u.",
+        "developerWebsite": "http://www.omesa.es",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "39018756",
+            "versionCode": 100001495
+          }
+        ],
+        "installationSize": "39018756",
+        "numDownloads": "100+ downloads",
+        "packageName": "com.omesa.omesadeportes",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.INTERNET",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.omesa.omesadeportes.permission.C2D_MESSAGE",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE"
+        ],
+        "recentChangesHtml": "Correcci\u00f3n inscripci\u00f3n en cursos",
+        "unstable": false,
+        "uploadDate": "5 May 2022",
+        "versionCode": 100001495,
+        "versionString": "1.0.1495"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.omesa.omesadeportes",
+    "docType": 1,
+    "docid": "com.omesa.omesadeportes",
+    "image": [
+      {
+        "color": "#153354",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/zcwX5edu_XI_p7XJymH4W0m1xYecpWMUf0Z0Q0Baiy_o7TO-8q-r32W9SA1NTeB644I",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/IMhtjS9gmx2fwe32GEqr1tJAN-8KW_WT685AmuE7l5VgBow8-wY4MDySHpFBnbiSJiw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Yfjf5AfpUpiPPOe---l5bB9ll5ieroINYiNVcpZC6hPPQjTcucoeruCx5bc1XQLwI-Q",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/DMqI8Iydw_7QFeP8E9fmAFcPMnjbVa7oRB2phPXBs4Vh350vfQxNWZ_NPYlTEbCsIv0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/JZtmumfThB2RTYqWA7ATQWVdDyccC2nvuEzEcXdCPX-n2WlE4AdI0tjhdIwQCMgA7s8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Y99FC8i0yv8pbZeGbw1I1Ny8EOeCNDOkvA0GKdlYPb6rNsiP-PCBAHtce75vOtbavbw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/0wAVOzTZYCbqi68Zh_Wp9AJkxfdgPI-YDgo3xXg4MufrTHDQxscvEgJOdxPeO3LTiLaG",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/wkNTssgJCvUF-BW-Py1a3gyUTjKlVdK7cXVqk4m8y0gc2qO9jFTjkbOXSHepL8VfWB7h",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/II8MpWu51QnMBSrx14_3oRaRJkylEOy1MDog9jdnQx2cPcJfmHzZ4HiQoqqmOn3Enlw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/v1z3qvI8sb0UUHW2wKNQCUJ3bXSInx2RFh5EHfNhy29GtJmo5wRI_ohDDfjxXRowGbtR",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.omesa.omesadeportes",
+    "reviewsUrl": "rev?doc=com.omesa.omesadeportes&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.omesa.omesadeportes",
+    "title": "Omesa Deportes",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Omesa Inform\u00e1tica s.l.u."
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "android@omesa.es"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Paseo de la Alameda de Osuna, 78 bajo D<br/>28042 Madrid<br/>MADRID"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "20 Jan 2016"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-07-05 23:51:09.602190",
+    "backendDocid": "com.omesa.omesadeportes",
+    "backendId": 3,
+    "creator": "Omesa Inform\u00e1tica s.l.u.",
+    "descriptionHtml": "Sus principales funciones son:<br>\t<br>a) Men\u00fa p\u00fablico. La App puede funcionar, sin necesidad de logarse, para (seg\u00fan configuraci\u00f3n):<br>-\tConsultar noticias y algunas p\u00e1ginas informativas de la web.<br>-\tRegistrarse y hacerse socio (alta en cualquier cuota) <br>-\tConsultar la oferta deportivo de cursos, actividades,\u2026<br>-\tConsultar la ocupaci\u00f3n de instalaciones y aforo (necesario control de accesos)<br>-\tConsultar la oferta de sesiones de grupo libre<br>-\tComprar (de forma an\u00f3nima) bonos de acceso, de sesiones, de alquiles de pistas, de servicios.<br>-\tConsultar la oferta y ocupaci\u00f3n (agenda) de servicios de masaje, entrenador personal.<br>-\tConsultar los eventos, carreras populares, cross,\u2026 y sus resultados, gestionados por la entidad.<br>-\tRegistrar sugerencias<br><br> <br>b) Usuarios logados. Una vez descargada la App en el smartphone o tablet, es posible logarse (con el mismo usuario y contrase\u00f1a que en la Web) y dejar as\u00ed la App personalizada de forma indefinida (no son necesarios posteriores logeos). Esto abre un segundo men\u00fa con las siguientes funciones (seg\u00fan configuraci\u00f3n):<br> <br>b.1) Consultas:<br>-\tDatos Personales (con posibilidad de edici\u00f3n)<br>-\tMis comunicados (con posibilidad de editar tipos de comunicados aceptados y  el idioma)<br>-\tPagos y Recibos pendientes (con posibilidad de pago con tarjeta de cr\u00e9dito, tarjeta prepago, bono) <br>-\tTarjetas prepago: su estado, consumos y con posibilidad de recarga.<br>-\tCursos y actividades en los que est\u00e1 inscrito (con posibilidad de consulta de situaci\u00f3n de pagos y posibilidad de darse de baja).<br>-\tCuotas de abonado o socio (con posibilidad de consulta de situaci\u00f3n de pagos)<br>-\tListas de espera y posici\u00f3n (con posibilidad de darse de baja)<br>-\tSesiones de grupo libre reservadas (con posibilidad de darse de baja)<br>-\tBonos adquiridos, con consulta de su estado y detalle de usos<br>-\tReservas:<br>o\tPista alquiladas<br>o\tServicios (masajes, entrenador personal,..) reservados<br>o\tGreen Fee <br>-\tEventos, carreras populares, cross, en los que est\u00e1 inscrito<br>-\tSorteos de pistas en los que ha participado<br>-\tSorteos de cursos y actividades en los que ha participado<br>-\tDocumentos que tiene registrados<br><br> b.2) Acciones:<br>-\tCuotas:<br>o\tAlta en Cuota de socio/abonado.<br>o\tRenovaci\u00f3n (facturaci\u00f3n siguiente periodo)<br>o\tCambio de cuota<br>o\tBaja en cuota<br>-\tEscuelas/Cursos/Actividades<br>o\tInscripci\u00f3n o alta<br>o\tRenovaci\u00f3n (confirmaci\u00f3n y pago del siguiente periodo)<br>o\tBaja en cursos y actividades<br>o\tContinuaci\u00f3n: alta en curso de continuaci\u00f3n de la pr\u00f3xima temporada.<br>-\tReservas:<br>o\tAlquiler de pistas<br>o\tServicios (masajes, entrenador personal,..) reservado<br>o\tSesiones de grupo libre<br><br>-\tCompra de bonos <br><br><br>Las formas de pago (disponibles en la App seg\u00fan configuraci\u00f3n) son las mismas que las de la Web:<br>-\tPago con tarjeta de cr\u00e9dito (se necesita TPV virtual de su entidad financiera)<br>-\tDomiciliaci\u00f3n bancaria<br>-\tPago con tarjeta prepago<br>-\tPago con bono (reservas, servicios, sesiones grupo libre)<br>-\tRecibo C57 (pago entidades de cr\u00e9dito colaboradoras)",
+    "descriptionShort": "Reservations, registration, your data and more on the app Omesa Sports",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "38632580",
+          "unknown3": 30
+        },
+        "developerAddress": "Paseo de la Alameda de Osuna, 78 bajo D<br/>28042 Madrid<br/>MADRID",
+        "developerEmail": "android@omesa.es",
+        "developerName": "Omesa Inform\u00e1tica s.l.u.",
+        "developerWebsite": "http://www.omesa.es",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "38632580",
+            "versionCode": 100001500
+          }
+        ],
+        "installationSize": "38632580",
+        "numDownloads": "100+ downloads",
+        "packageName": "com.omesa.omesadeportes",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.INTERNET",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.omesa.omesadeportes.permission.C2D_MESSAGE",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE"
+        ],
+        "recentChangesHtml": "Correcci\u00f3n error buz\u00f3n sugerencias.<br>Correcci\u00f3n error consulta de noticias<br>Mejora visualizaci\u00f3n de textos en formularios entrada datos",
+        "unstable": false,
+        "uploadDate": "2 Jul 2022",
+        "versionCode": 100001500,
+        "versionString": "1.0.1500"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.omesa.omesadeportes",
+    "docType": 1,
+    "docid": "com.omesa.omesadeportes",
+    "image": [
+      {
+        "color": "#153354",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/zcwX5edu_XI_p7XJymH4W0m1xYecpWMUf0Z0Q0Baiy_o7TO-8q-r32W9SA1NTeB644I",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/IMhtjS9gmx2fwe32GEqr1tJAN-8KW_WT685AmuE7l5VgBow8-wY4MDySHpFBnbiSJiw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Yfjf5AfpUpiPPOe---l5bB9ll5ieroINYiNVcpZC6hPPQjTcucoeruCx5bc1XQLwI-Q",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/DMqI8Iydw_7QFeP8E9fmAFcPMnjbVa7oRB2phPXBs4Vh350vfQxNWZ_NPYlTEbCsIv0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/JZtmumfThB2RTYqWA7ATQWVdDyccC2nvuEzEcXdCPX-n2WlE4AdI0tjhdIwQCMgA7s8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Y99FC8i0yv8pbZeGbw1I1Ny8EOeCNDOkvA0GKdlYPb6rNsiP-PCBAHtce75vOtbavbw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/0wAVOzTZYCbqi68Zh_Wp9AJkxfdgPI-YDgo3xXg4MufrTHDQxscvEgJOdxPeO3LTiLaG",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/wkNTssgJCvUF-BW-Py1a3gyUTjKlVdK7cXVqk4m8y0gc2qO9jFTjkbOXSHepL8VfWB7h",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/II8MpWu51QnMBSrx14_3oRaRJkylEOy1MDog9jdnQx2cPcJfmHzZ4HiQoqqmOn3Enlw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/v1z3qvI8sb0UUHW2wKNQCUJ3bXSInx2RFh5EHfNhy29GtJmo5wRI_ohDDfjxXRowGbtR",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.omesa.omesadeportes",
+    "reviewsUrl": "rev?doc=com.omesa.omesadeportes&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.omesa.omesadeportes",
+    "title": "Omesa Deportes",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "android@omesa.es"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Paseo de la Alameda de Osuna, 78 bajo D<br/>28042 Madrid<br/>MADRID"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "20 Jan 2016"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  }
+]

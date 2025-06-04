@@ -1,0 +1,3883 @@
+[
+  {
+    "aggregateRating": {
+      "commentCount": "20",
+      "fiveStarRatings": "47",
+      "fourStarRatings": "7",
+      "oneStarRatings": "0",
+      "ratingsCount": "59",
+      "starRating": 4.677966,
+      "threeStarRatings": "3",
+      "twoStarRatings": "2",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-06-10 02:39:21.062022",
+    "backendDocid": "de.fsrfb4.fb4",
+    "backendId": 3,
+    "creator": "Fachschaftsrat Informatik",
+    "descriptionHtml": "This app gives you the possibility to access to the most important services in your student life at the Fachhochschule Dortmund easily and on the go.<br><br>Timetable<br>-Official timetables of the FB4 (if desired, filtered by groupletter)<br>-Add or edit official (and custom) events<br>-Share your timetable via NFC<br><br>News<br>-New messages of the faculties IT and economy<br>-Search for specific messages<br>-Share messages<br><br>Menu<br>-Menus and opening times of all restaurants of the Studentenwerk Dortmund<br>-Sort menus or hide them if not relevant<br><br>Links/Downloads<br>-Links to pages like Ilias, ODS and SmartAssign<br>-Download of audit plan, semester schedule and locationplan<br><br>NRWTicket<br>-Download your ticket directly from the ODS<br>-Display it in the app",
+    "descriptionShort": "Timetable-App for the FB4 of the Fachhochschule Dortmund.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "10373534",
+          "unknown3": 28
+        },
+        "developerEmail": "app@fsrfb4.de",
+        "developerName": "Fachschaftsrat Informatik",
+        "developerWebsite": "http://www.fsrfb4.de/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "10373534",
+            "versionCode": 41
+          }
+        ],
+        "installationSize": "10373534",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "de.fsrfb4.fb4",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.AUTHENTICATE_ACCOUNTS",
+          "android.permission.GET_ACCOUNTS",
+          "android.permission.INTERNET",
+          "android.permission.NFC",
+          "android.permission.READ_CALENDAR",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_CALENDAR",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "de.fsrfb4.fb4.permission.C2D_MESSAGE"
+        ],
+        "recentChangesHtml": "Fixed displaying the semester ticket",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false,
+          "testingProgramEmail": "app@fsrfb4.de"
+        },
+        "unstable": false,
+        "uploadDate": "1 Mar 2020",
+        "versionCode": 41,
+        "versionString": "1.3.3"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=de.fsrfb4.fb4",
+    "docType": 1,
+    "docid": "de.fsrfb4.fb4",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://lh3.googleusercontent.com/nG3O_u65lLO4wK4gFVp8WQR1beJ4eWn28Kwk9qtFBWTN1I52nuDRdmNcxKj6NnoBN5vT",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://lh3.googleusercontent.com/ysxma1aST914CQ7NjdpomxefE_XX94sGHL2Pz1Sw_XavWQBPAIVlQsol69l__Lclpg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/qryXvgbrVDRHFRR1USiZYCQauHxuqrkW9ShTkX5a1v8P4hpBHW41HHT151oGKc2DOCU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/LwAEnmkMaEpgL6mRelDcvIakT1-wNn9EfWvKvnXWT9Z793WZ9ubz10qQjJkL3Vt9o6o",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/KWHwWMsY7WAmW0H9rd8yBgYr_3fud8ycdqv51jTTWLp5Y0mBV5j__sKQjdWHVlWj1w",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/zP-iHnuVKOBNDnobxsOIdA-BRsCntd-MRJ0kEb9XJnehtlyg3C7IJYNt4eCNWEIWIQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/6_jYqR6B-Afou5n3sKKTVZBXAFhHfmmBYm-JwBnvDs15L-8m32-neP7KqkSWS02K_ILg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2560,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/zWmF6QSmUsZWSvLamOKOSnyTb2-v35NRvb8TwWu4ZxxAGyq3j-JIxVvguTnM9uOM5Ww",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/CppUZWTMRscDWFRqslXy-sBbA77E80Hdy3qPoTzO3rOG0SHoCF_GcuqTYyZfi9LXtmcj",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://www.fsrfb4.de/impressum",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://lh3.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=de.fsrfb4.fb4",
+    "reviewsUrl": "rev?doc=de.fsrfb4.fb4&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=de.fsrfb4.fb4",
+    "title": "FH Dortmund FB4",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Fachschaftsrat Informatik"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "app@fsrfb4.de"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "1 Sep 2016"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "21",
+      "fiveStarRatings": "53",
+      "fourStarRatings": "7",
+      "oneStarRatings": "0",
+      "ratingsCount": "65",
+      "starRating": 4.707692,
+      "threeStarRatings": "3",
+      "twoStarRatings": "2",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-04-21 05:42:34.392408",
+    "backendDocid": "de.fsrfb4.fb4",
+    "backendId": 3,
+    "creator": "Fachschaftsrat Informatik",
+    "descriptionHtml": "This app gives you the possibility to access to the most important services in your student life at the Fachhochschule Dortmund easily and on the go.<br><br>Timetable<br>-Official timetables of the FB4 (if desired, filtered by groupletter)<br>-Add or edit official (and custom) events<br>-Share your timetable via NFC<br><br>News<br>-New messages of the faculties IT and economy<br>-Search for specific messages<br>-Share messages<br><br>Menu<br>-Menus and opening times of all restaurants of the Studentenwerk Dortmund<br>-Sort menus or hide them if not relevant<br><br>Links/Downloads<br>-Links to pages like Ilias, ODS and SmartAssign<br>-Download of audit plan, semester schedule and locationplan<br><br>NRWTicket<br>-Download your ticket directly from the ODS<br>-Display it in the app",
+    "descriptionShort": "Timetable-App for the FB4 of the Fachhochschule Dortmund.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "10949091",
+          "unknown3": 29
+        },
+        "developerEmail": "app@fsrfb4.de",
+        "developerName": "Fachschaftsrat Informatik",
+        "developerWebsite": "http://www.fsrfb4.de/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "10949091",
+            "versionCode": 43
+          }
+        ],
+        "installationSize": "10949091",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "de.fsrfb4.fb4",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.AUTHENTICATE_ACCOUNTS",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.GET_ACCOUNTS",
+          "android.permission.INTERNET",
+          "android.permission.NFC",
+          "android.permission.READ_CALENDAR",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_CALENDAR",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+        ],
+        "recentChangesHtml": "- News has been revised and adapted to the changes on the FH website<br>- Fixed crash when downloading the semester ticket<br>- More bugfixes",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": false,
+        "uploadDate": "19 Apr 2021",
+        "versionCode": 43,
+        "versionString": "1.3.5"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=de.fsrfb4.fb4",
+    "docType": 1,
+    "docid": "de.fsrfb4.fb4",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/nG3O_u65lLO4wK4gFVp8WQR1beJ4eWn28Kwk9qtFBWTN1I52nuDRdmNcxKj6NnoBN5vT",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/GmxlR7XMNislRY7anTQw4A-267XvpOSzJcDaQTZmhIWb4lQ_ILPnXEvFSFNi5OCzP_Q",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qryXvgbrVDRHFRR1USiZYCQauHxuqrkW9ShTkX5a1v8P4hpBHW41HHT151oGKc2DOCU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/LwAEnmkMaEpgL6mRelDcvIakT1-wNn9EfWvKvnXWT9Z793WZ9ubz10qQjJkL3Vt9o6o",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/KWHwWMsY7WAmW0H9rd8yBgYr_3fud8ycdqv51jTTWLp5Y0mBV5j__sKQjdWHVlWj1w",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/zP-iHnuVKOBNDnobxsOIdA-BRsCntd-MRJ0kEb9XJnehtlyg3C7IJYNt4eCNWEIWIQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/6_jYqR6B-Afou5n3sKKTVZBXAFhHfmmBYm-JwBnvDs15L-8m32-neP7KqkSWS02K_ILg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2560,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/zWmF6QSmUsZWSvLamOKOSnyTb2-v35NRvb8TwWu4ZxxAGyq3j-JIxVvguTnM9uOM5Ww",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/CppUZWTMRscDWFRqslXy-sBbA77E80Hdy3qPoTzO3rOG0SHoCF_GcuqTYyZfi9LXtmcj",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://www.fsrfb4.de/impressum",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=de.fsrfb4.fb4",
+    "reviewsUrl": "rev?doc=de.fsrfb4.fb4&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=de.fsrfb4.fb4",
+    "title": "FH Dortmund FB4",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "app@fsrfb4.de"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "1 Sept 2016"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "21",
+      "fiveStarRatings": "53",
+      "fourStarRatings": "7",
+      "oneStarRatings": "0",
+      "ratingsCount": "65",
+      "starRating": 4.707692,
+      "threeStarRatings": "3",
+      "twoStarRatings": "2",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-04-23 02:15:43.753597",
+    "backendDocid": "de.fsrfb4.fb4",
+    "backendId": 3,
+    "creator": "Fachschaftsrat Informatik",
+    "descriptionHtml": "This app gives you the possibility to access to the most important services in your student life at the Fachhochschule Dortmund easily and on the go.<br><br>Timetable<br>-Official timetables of the FB4 (if desired, filtered by groupletter)<br>-Add or edit official (and custom) events<br>-Share your timetable via NFC<br><br>News<br>-New messages of the faculties IT and economy<br>-Search for specific messages<br>-Share messages<br><br>Menu<br>-Menus and opening times of all restaurants of the Studentenwerk Dortmund<br>-Sort menus or hide them if not relevant<br><br>Links/Downloads<br>-Links to pages like Ilias, ODS and SmartAssign<br>-Download of audit plan, semester schedule and locationplan<br><br>NRWTicket<br>-Download your ticket directly from the ODS<br>-Display it in the app",
+    "descriptionShort": "Timetable-App for the FB4 of the Fachhochschule Dortmund.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "10949105",
+          "unknown3": 29
+        },
+        "developerEmail": "app@fsrfb4.de",
+        "developerName": "Fachschaftsrat Informatik",
+        "developerWebsite": "http://www.fsrfb4.de/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "10949105",
+            "versionCode": 44
+          }
+        ],
+        "installationSize": "10949105",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "de.fsrfb4.fb4",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.AUTHENTICATE_ACCOUNTS",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.GET_ACCOUNTS",
+          "android.permission.INTERNET",
+          "android.permission.NFC",
+          "android.permission.READ_CALENDAR",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_CALENDAR",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+        ],
+        "recentChangesHtml": "- News has been revised and adapted to the changes on the FH website<br>- Fixed crash when downloading the semester ticket<br>- More bugfixes",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": false,
+        "uploadDate": "22 Apr 2021",
+        "versionCode": 44,
+        "versionString": "1.3.6"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=de.fsrfb4.fb4",
+    "docType": 1,
+    "docid": "de.fsrfb4.fb4",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/nG3O_u65lLO4wK4gFVp8WQR1beJ4eWn28Kwk9qtFBWTN1I52nuDRdmNcxKj6NnoBN5vT",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/GmxlR7XMNislRY7anTQw4A-267XvpOSzJcDaQTZmhIWb4lQ_ILPnXEvFSFNi5OCzP_Q",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qryXvgbrVDRHFRR1USiZYCQauHxuqrkW9ShTkX5a1v8P4hpBHW41HHT151oGKc2DOCU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/LwAEnmkMaEpgL6mRelDcvIakT1-wNn9EfWvKvnXWT9Z793WZ9ubz10qQjJkL3Vt9o6o",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/KWHwWMsY7WAmW0H9rd8yBgYr_3fud8ycdqv51jTTWLp5Y0mBV5j__sKQjdWHVlWj1w",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/zP-iHnuVKOBNDnobxsOIdA-BRsCntd-MRJ0kEb9XJnehtlyg3C7IJYNt4eCNWEIWIQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/6_jYqR6B-Afou5n3sKKTVZBXAFhHfmmBYm-JwBnvDs15L-8m32-neP7KqkSWS02K_ILg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2560,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/zWmF6QSmUsZWSvLamOKOSnyTb2-v35NRvb8TwWu4ZxxAGyq3j-JIxVvguTnM9uOM5Ww",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/CppUZWTMRscDWFRqslXy-sBbA77E80Hdy3qPoTzO3rOG0SHoCF_GcuqTYyZfi9LXtmcj",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://www.fsrfb4.de/impressum",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=de.fsrfb4.fb4",
+    "reviewsUrl": "rev?doc=de.fsrfb4.fb4&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=de.fsrfb4.fb4",
+    "title": "FH Dortmund FB4",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "app@fsrfb4.de"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "1 Sept 2016"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "21",
+      "fiveStarRatings": "53",
+      "fourStarRatings": "7",
+      "oneStarRatings": "0",
+      "ratingsCount": "65",
+      "starRating": 4.707692,
+      "threeStarRatings": "3",
+      "twoStarRatings": "2",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-05-07 21:42:11.187995",
+    "backendDocid": "de.fsrfb4.fb4",
+    "backendId": 3,
+    "creator": "Fachschaftsrat Informatik",
+    "descriptionHtml": "This app gives you the possibility to access to the most important services in your student life at the Fachhochschule Dortmund easily and on the go.<br><br>Timetable<br>-Official timetables of the FB4 (if desired, filtered by groupletter)<br>-Add or edit official (and custom) events<br>-Share your timetable via NFC<br><br>News<br>-New messages of the faculties IT and economy<br>-Search for specific messages<br>-Share messages<br><br>Menu<br>-Menus and opening times of all restaurants of the Studentenwerk Dortmund<br>-Sort menus or hide them if not relevant<br><br>Links/Downloads<br>-Links to pages like Ilias, ODS and SmartAssign<br>-Download of audit plan, semester schedule and locationplan<br><br>NRWTicket<br>-Download your ticket directly from the ODS<br>-Display it in the app",
+    "descriptionShort": "Timetable-App for the FB4 of the Fachhochschule Dortmund.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "10949241",
+          "unknown3": 29
+        },
+        "developerEmail": "app@fsrfb4.de",
+        "developerName": "Fachschaftsrat Informatik",
+        "developerWebsite": "http://www.fsrfb4.de/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "10949241",
+            "versionCode": 45
+          }
+        ],
+        "installationSize": "10949241",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "de.fsrfb4.fb4",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.AUTHENTICATE_ACCOUNTS",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.GET_ACCOUNTS",
+          "android.permission.INTERNET",
+          "android.permission.NFC",
+          "android.permission.READ_CALENDAR",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_CALENDAR",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+        ],
+        "recentChangesHtml": "- News has been revised and adapted to the changes on the FH website<br>- Fixed crash when downloading the semester ticket<br>- More bugfixes",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": false,
+        "uploadDate": "6 May 2021",
+        "versionCode": 45,
+        "versionString": "1.3.7"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=de.fsrfb4.fb4",
+    "docType": 1,
+    "docid": "de.fsrfb4.fb4",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/nG3O_u65lLO4wK4gFVp8WQR1beJ4eWn28Kwk9qtFBWTN1I52nuDRdmNcxKj6NnoBN5vT",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/GmxlR7XMNislRY7anTQw4A-267XvpOSzJcDaQTZmhIWb4lQ_ILPnXEvFSFNi5OCzP_Q",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qryXvgbrVDRHFRR1USiZYCQauHxuqrkW9ShTkX5a1v8P4hpBHW41HHT151oGKc2DOCU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/LwAEnmkMaEpgL6mRelDcvIakT1-wNn9EfWvKvnXWT9Z793WZ9ubz10qQjJkL3Vt9o6o",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/KWHwWMsY7WAmW0H9rd8yBgYr_3fud8ycdqv51jTTWLp5Y0mBV5j__sKQjdWHVlWj1w",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/zP-iHnuVKOBNDnobxsOIdA-BRsCntd-MRJ0kEb9XJnehtlyg3C7IJYNt4eCNWEIWIQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/6_jYqR6B-Afou5n3sKKTVZBXAFhHfmmBYm-JwBnvDs15L-8m32-neP7KqkSWS02K_ILg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2560,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/zWmF6QSmUsZWSvLamOKOSnyTb2-v35NRvb8TwWu4ZxxAGyq3j-JIxVvguTnM9uOM5Ww",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/CppUZWTMRscDWFRqslXy-sBbA77E80Hdy3qPoTzO3rOG0SHoCF_GcuqTYyZfi9LXtmcj",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://www.fsrfb4.de/impressum",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=de.fsrfb4.fb4",
+    "reviewsUrl": "rev?doc=de.fsrfb4.fb4&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=de.fsrfb4.fb4",
+    "title": "FH Dortmund FB4",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "app@fsrfb4.de"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "1 Sept 2016"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "22",
+      "fiveStarRatings": "53",
+      "fourStarRatings": "7",
+      "oneStarRatings": "0",
+      "ratingsCount": "66",
+      "starRating": 4.6666665,
+      "threeStarRatings": "3",
+      "twoStarRatings": "3",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-06-24 15:33:35.960657",
+    "backendDocid": "de.fsrfb4.fb4",
+    "backendId": 3,
+    "creator": "Fachschaftsrat Informatik",
+    "descriptionHtml": "This app gives you the possibility to access to the most important services in your student life at the Fachhochschule Dortmund easily and on the go.<br><br>Timetable<br>-Official timetables of the FB4 (if desired, filtered by groupletter)<br>-Add or edit official (and custom) events<br>-Share your timetable via NFC<br><br>News<br>-New messages of the faculties IT and economy<br>-Search for specific messages<br>-Share messages<br><br>Menu<br>-Menus and opening times of all restaurants of the Studentenwerk Dortmund<br>-Sort menus or hide them if not relevant<br><br>Links/Downloads<br>-Links to pages like Ilias, ODS and SmartAssign<br>-Download of audit plan, semester schedule and locationplan<br><br>NRWTicket<br>-Download your ticket directly from the ODS<br>-Display it in the app",
+    "descriptionShort": "Timetable-App for the FB4 of the Fachhochschule Dortmund.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "10949241",
+          "unknown3": 29
+        },
+        "developerEmail": "app@fsrfb4.de",
+        "developerName": "Fachschaftsrat Informatik",
+        "developerWebsite": "http://www.fsrfb4.de/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "10949241",
+            "versionCode": 45
+          }
+        ],
+        "installationSize": "10949241",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "de.fsrfb4.fb4",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.AUTHENTICATE_ACCOUNTS",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.GET_ACCOUNTS",
+          "android.permission.INTERNET",
+          "android.permission.NFC",
+          "android.permission.READ_CALENDAR",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_CALENDAR",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+        ],
+        "recentChangesHtml": "- News has been revised and adapted to the changes on the FH website<br>- Fixed crash when downloading the semester ticket<br>- More bugfixes",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "6 May 2021",
+        "versionCode": 45,
+        "versionString": "1.3.7"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=de.fsrfb4.fb4",
+    "docType": 1,
+    "docid": "de.fsrfb4.fb4",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/nG3O_u65lLO4wK4gFVp8WQR1beJ4eWn28Kwk9qtFBWTN1I52nuDRdmNcxKj6NnoBN5vT",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/GmxlR7XMNislRY7anTQw4A-267XvpOSzJcDaQTZmhIWb4lQ_ILPnXEvFSFNi5OCzP_Q",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qryXvgbrVDRHFRR1USiZYCQauHxuqrkW9ShTkX5a1v8P4hpBHW41HHT151oGKc2DOCU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/LwAEnmkMaEpgL6mRelDcvIakT1-wNn9EfWvKvnXWT9Z793WZ9ubz10qQjJkL3Vt9o6o",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/KWHwWMsY7WAmW0H9rd8yBgYr_3fud8ycdqv51jTTWLp5Y0mBV5j__sKQjdWHVlWj1w",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/zP-iHnuVKOBNDnobxsOIdA-BRsCntd-MRJ0kEb9XJnehtlyg3C7IJYNt4eCNWEIWIQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/6_jYqR6B-Afou5n3sKKTVZBXAFhHfmmBYm-JwBnvDs15L-8m32-neP7KqkSWS02K_ILg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2560,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/zWmF6QSmUsZWSvLamOKOSnyTb2-v35NRvb8TwWu4ZxxAGyq3j-JIxVvguTnM9uOM5Ww",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/CppUZWTMRscDWFRqslXy-sBbA77E80Hdy3qPoTzO3rOG0SHoCF_GcuqTYyZfi9LXtmcj",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://www.fsrfb4.de/impressum",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=de.fsrfb4.fb4",
+    "reviewsUrl": "rev?doc=de.fsrfb4.fb4&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=de.fsrfb4.fb4",
+    "title": "FH Dortmund FB4",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "app@fsrfb4.de"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "1 Sept 2016"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "22",
+      "fiveStarRatings": "53",
+      "fourStarRatings": "7",
+      "oneStarRatings": "0",
+      "ratingsCount": "66",
+      "starRating": 4.6666665,
+      "threeStarRatings": "3",
+      "twoStarRatings": "3",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-06-30 18:48:22.530275",
+    "backendDocid": "de.fsrfb4.fb4",
+    "backendId": 3,
+    "creator": "Fachschaftsrat Informatik",
+    "descriptionHtml": "This app gives you the possibility to access to the most important services in your student life at the Fachhochschule Dortmund easily and on the go.<br><br>Timetable<br>-Official timetables of the FB4 (if desired, filtered by groupletter)<br>-Add or edit official (and custom) events<br>-Share your timetable via NFC<br><br>News<br>-New messages of the faculties IT and economy<br>-Search for specific messages<br>-Share messages<br><br>Menu<br>-Menus and opening times of all restaurants of the Studentenwerk Dortmund<br>-Sort menus or hide them if not relevant<br><br>Links/Downloads<br>-Links to pages like Ilias, ODS and SmartAssign<br>-Download of audit plan, semester schedule and locationplan<br><br>NRWTicket<br>-Download your ticket directly from the ODS<br>-Display it in the app",
+    "descriptionShort": "Timetable-App for the FB4 of the Fachhochschule Dortmund.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "10949241",
+          "unknown3": 29
+        },
+        "developerEmail": "app@fsrfb4.de",
+        "developerName": "Fachschaftsrat Informatik",
+        "developerWebsite": "http://www.fsrfb4.de/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "10949241",
+            "versionCode": 45
+          }
+        ],
+        "installationSize": "10949241",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "de.fsrfb4.fb4",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.AUTHENTICATE_ACCOUNTS",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.GET_ACCOUNTS",
+          "android.permission.INTERNET",
+          "android.permission.NFC",
+          "android.permission.READ_CALENDAR",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_CALENDAR",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+        ],
+        "recentChangesHtml": "- News has been revised and adapted to the changes on the FH website<br>- Fixed crash when downloading the semester ticket<br>- More bugfixes",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "6 May 2021",
+        "versionCode": 45,
+        "versionString": "1.3.7"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=de.fsrfb4.fb4",
+    "docType": 1,
+    "docid": "de.fsrfb4.fb4",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/nG3O_u65lLO4wK4gFVp8WQR1beJ4eWn28Kwk9qtFBWTN1I52nuDRdmNcxKj6NnoBN5vT",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/GmxlR7XMNislRY7anTQw4A-267XvpOSzJcDaQTZmhIWb4lQ_ILPnXEvFSFNi5OCzP_Q",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qryXvgbrVDRHFRR1USiZYCQauHxuqrkW9ShTkX5a1v8P4hpBHW41HHT151oGKc2DOCU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/LwAEnmkMaEpgL6mRelDcvIakT1-wNn9EfWvKvnXWT9Z793WZ9ubz10qQjJkL3Vt9o6o",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/KWHwWMsY7WAmW0H9rd8yBgYr_3fud8ycdqv51jTTWLp5Y0mBV5j__sKQjdWHVlWj1w",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/zP-iHnuVKOBNDnobxsOIdA-BRsCntd-MRJ0kEb9XJnehtlyg3C7IJYNt4eCNWEIWIQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/6_jYqR6B-Afou5n3sKKTVZBXAFhHfmmBYm-JwBnvDs15L-8m32-neP7KqkSWS02K_ILg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2560,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/zWmF6QSmUsZWSvLamOKOSnyTb2-v35NRvb8TwWu4ZxxAGyq3j-JIxVvguTnM9uOM5Ww",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/CppUZWTMRscDWFRqslXy-sBbA77E80Hdy3qPoTzO3rOG0SHoCF_GcuqTYyZfi9LXtmcj",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://www.fsrfb4.de/impressum",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=de.fsrfb4.fb4",
+    "reviewsUrl": "rev?doc=de.fsrfb4.fb4&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=de.fsrfb4.fb4",
+    "title": "FH Dortmund FB4",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "app@fsrfb4.de"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "1 Sept 2016"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "22",
+      "fiveStarRatings": "53",
+      "fourStarRatings": "7",
+      "oneStarRatings": "0",
+      "ratingsCount": "66",
+      "starRating": 4.6666665,
+      "threeStarRatings": "3",
+      "twoStarRatings": "3",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-07-05 05:07:47.544893",
+    "backendDocid": "de.fsrfb4.fb4",
+    "backendId": 3,
+    "creator": "Fachschaftsrat Informatik",
+    "descriptionHtml": "This app gives you the possibility to access to the most important services in your student life at the Fachhochschule Dortmund easily and on the go.<br><br>Timetable<br>-Official timetables of the FB4 (if desired, filtered by groupletter)<br>-Add or edit official (and custom) events<br>-Share your timetable via NFC<br><br>News<br>-New messages of the faculties IT and economy<br>-Search for specific messages<br>-Share messages<br><br>Menu<br>-Menus and opening times of all restaurants of the Studentenwerk Dortmund<br>-Sort menus or hide them if not relevant<br><br>Links/Downloads<br>-Links to pages like Ilias, ODS and SmartAssign<br>-Download of audit plan, semester schedule and locationplan<br><br>NRWTicket<br>-Download your ticket directly from the ODS<br>-Display it in the app",
+    "descriptionShort": "Timetable-App for the FB4 of the Fachhochschule Dortmund.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "11430648",
+          "unknown3": 29
+        },
+        "developerEmail": "app@fsrfb4.de",
+        "developerName": "Fachschaftsrat Informatik",
+        "developerWebsite": "http://www.fsrfb4.de/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "11430648",
+            "versionCode": 47
+          }
+        ],
+        "installationSize": "11430648",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "de.fsrfb4.fb4",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.AUTHENTICATE_ACCOUNTS",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.GET_ACCOUNTS",
+          "android.permission.INTERNET",
+          "android.permission.NFC",
+          "android.permission.READ_CALENDAR",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_CALENDAR",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+        ],
+        "recentChangesHtml": "The download of the NRW ticket has been improved. You can now save your credentials so that the ticket is automatically updated at the beginning of a new semester.",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "23 Jun 2021",
+        "versionCode": 47,
+        "versionString": "1.4"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=de.fsrfb4.fb4",
+    "docType": 1,
+    "docid": "de.fsrfb4.fb4",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/nG3O_u65lLO4wK4gFVp8WQR1beJ4eWn28Kwk9qtFBWTN1I52nuDRdmNcxKj6NnoBN5vT",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/GmxlR7XMNislRY7anTQw4A-267XvpOSzJcDaQTZmhIWb4lQ_ILPnXEvFSFNi5OCzP_Q",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qryXvgbrVDRHFRR1USiZYCQauHxuqrkW9ShTkX5a1v8P4hpBHW41HHT151oGKc2DOCU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/LwAEnmkMaEpgL6mRelDcvIakT1-wNn9EfWvKvnXWT9Z793WZ9ubz10qQjJkL3Vt9o6o",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/KWHwWMsY7WAmW0H9rd8yBgYr_3fud8ycdqv51jTTWLp5Y0mBV5j__sKQjdWHVlWj1w",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/zP-iHnuVKOBNDnobxsOIdA-BRsCntd-MRJ0kEb9XJnehtlyg3C7IJYNt4eCNWEIWIQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/6_jYqR6B-Afou5n3sKKTVZBXAFhHfmmBYm-JwBnvDs15L-8m32-neP7KqkSWS02K_ILg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2560,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/zWmF6QSmUsZWSvLamOKOSnyTb2-v35NRvb8TwWu4ZxxAGyq3j-JIxVvguTnM9uOM5Ww",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/CppUZWTMRscDWFRqslXy-sBbA77E80Hdy3qPoTzO3rOG0SHoCF_GcuqTYyZfi9LXtmcj",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://www.fsrfb4.de/impressum",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=de.fsrfb4.fb4",
+    "reviewsUrl": "rev?doc=de.fsrfb4.fb4&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=de.fsrfb4.fb4",
+    "title": "FH Dortmund FB4",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "app@fsrfb4.de"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "1 Sept 2016"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "22",
+      "fiveStarRatings": "53",
+      "fourStarRatings": "7",
+      "oneStarRatings": "0",
+      "ratingsCount": "66",
+      "starRating": 4.6666665,
+      "threeStarRatings": "3",
+      "twoStarRatings": "3",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-08-26 22:15:07.390668",
+    "backendDocid": "de.fsrfb4.fb4",
+    "backendId": 3,
+    "creator": "Fachschaftsrat Informatik",
+    "descriptionHtml": "This app gives you the possibility to access to the most important services in your student life at the Fachhochschule Dortmund easily and on the go.<br><br>Timetable<br>-Official timetables of the FB4 (if desired, filtered by groupletter)<br>-Add or edit official (and custom) events<br>-Share your timetable via NFC<br><br>News<br>-New messages of the faculties IT and economy<br>-Search for specific messages<br>-Share messages<br><br>Menu<br>-Menus and opening times of all restaurants of the Studentenwerk Dortmund<br>-Sort menus or hide them if not relevant<br><br>Links/Downloads<br>-Links to pages like Ilias, ODS and SmartAssign<br>-Download of audit plan, semester schedule and locationplan<br><br>NRWTicket<br>-Download your ticket directly from the ODS<br>-Display it in the app",
+    "descriptionShort": "Timetable-App for the FB4 of the Fachhochschule Dortmund.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "11430722",
+          "unknown3": 29
+        },
+        "developerEmail": "app@fsrfb4.de",
+        "developerName": "Fachschaftsrat Informatik",
+        "developerWebsite": "http://www.fsrfb4.de/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "11430722",
+            "versionCode": 48
+          }
+        ],
+        "installationSize": "11430722",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "de.fsrfb4.fb4",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.AUTHENTICATE_ACCOUNTS",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.GET_ACCOUNTS",
+          "android.permission.INTERNET",
+          "android.permission.NFC",
+          "android.permission.READ_CALENDAR",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_CALENDAR",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+        ],
+        "recentChangesHtml": "Bugfixes",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "25 Aug 2021",
+        "versionCode": 48,
+        "versionString": "1.4.1"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=de.fsrfb4.fb4",
+    "docType": 1,
+    "docid": "de.fsrfb4.fb4",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/nG3O_u65lLO4wK4gFVp8WQR1beJ4eWn28Kwk9qtFBWTN1I52nuDRdmNcxKj6NnoBN5vT",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/GmxlR7XMNislRY7anTQw4A-267XvpOSzJcDaQTZmhIWb4lQ_ILPnXEvFSFNi5OCzP_Q",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qryXvgbrVDRHFRR1USiZYCQauHxuqrkW9ShTkX5a1v8P4hpBHW41HHT151oGKc2DOCU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/LwAEnmkMaEpgL6mRelDcvIakT1-wNn9EfWvKvnXWT9Z793WZ9ubz10qQjJkL3Vt9o6o",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/KWHwWMsY7WAmW0H9rd8yBgYr_3fud8ycdqv51jTTWLp5Y0mBV5j__sKQjdWHVlWj1w",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/zP-iHnuVKOBNDnobxsOIdA-BRsCntd-MRJ0kEb9XJnehtlyg3C7IJYNt4eCNWEIWIQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/6_jYqR6B-Afou5n3sKKTVZBXAFhHfmmBYm-JwBnvDs15L-8m32-neP7KqkSWS02K_ILg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2560,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/zWmF6QSmUsZWSvLamOKOSnyTb2-v35NRvb8TwWu4ZxxAGyq3j-JIxVvguTnM9uOM5Ww",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/CppUZWTMRscDWFRqslXy-sBbA77E80Hdy3qPoTzO3rOG0SHoCF_GcuqTYyZfi9LXtmcj",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://www.fsrfb4.de/impressum",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=de.fsrfb4.fb4",
+    "reviewsUrl": "rev?doc=de.fsrfb4.fb4&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=de.fsrfb4.fb4",
+    "title": "FH Dortmund FB4",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "app@fsrfb4.de"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "1 Sept 2016"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "22",
+      "fiveStarRatings": "54",
+      "fourStarRatings": "7",
+      "oneStarRatings": "0",
+      "ratingsCount": "67",
+      "starRating": 4.671642,
+      "threeStarRatings": "3",
+      "twoStarRatings": "3",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-10-06 21:29:06.315015",
+    "backendDocid": "de.fsrfb4.fb4",
+    "backendId": 3,
+    "creator": "Fachschaftsrat Informatik",
+    "descriptionHtml": "This app gives you the possibility to access to the most important services in your student life at the Fachhochschule Dortmund easily and on the go.<br><br>Timetable<br>-Official timetables of the FB4 (if desired, filtered by groupletter)<br>-Add or edit official (and custom) events<br>-Share your timetable via NFC<br><br>News<br>-New messages of the faculties IT and economy<br>-Search for specific messages<br>-Share messages<br><br>Menu<br>-Menus and opening times of all restaurants of the Studentenwerk Dortmund<br>-Sort menus or hide them if not relevant<br><br>Links/Downloads<br>-Links to pages like Ilias, ODS and SmartAssign<br>-Download of audit plan, semester schedule and locationplan<br><br>NRWTicket<br>-Download your ticket directly from the ODS<br>-Display it in the app",
+    "descriptionShort": "Timetable-App for the FB4 of the Fachhochschule Dortmund.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "11442981",
+          "unknown3": 29
+        },
+        "developerEmail": "app@fsrfb4.de",
+        "developerName": "Fachschaftsrat Informatik",
+        "developerWebsite": "http://www.fsrfb4.de/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "11442981",
+            "versionCode": 49
+          }
+        ],
+        "installationSize": "11442981",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "de.fsrfb4.fb4",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.AUTHENTICATE_ACCOUNTS",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.GET_ACCOUNTS",
+          "android.permission.INTERNET",
+          "android.permission.NFC",
+          "android.permission.READ_CALENDAR",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_CALENDAR",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+        ],
+        "recentChangesHtml": "Bugfixes",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "Oct. 5, 2021",
+        "versionCode": 49,
+        "versionString": "1.4.2"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=de.fsrfb4.fb4",
+    "docType": 1,
+    "docid": "de.fsrfb4.fb4",
+    "image": [
+      {
+        "color": "#FF6700",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/nG3O_u65lLO4wK4gFVp8WQR1beJ4eWn28Kwk9qtFBWTN1I52nuDRdmNcxKj6NnoBN5vT",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/GmxlR7XMNislRY7anTQw4A-267XvpOSzJcDaQTZmhIWb4lQ_ILPnXEvFSFNi5OCzP_Q",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qryXvgbrVDRHFRR1USiZYCQauHxuqrkW9ShTkX5a1v8P4hpBHW41HHT151oGKc2DOCU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/LwAEnmkMaEpgL6mRelDcvIakT1-wNn9EfWvKvnXWT9Z793WZ9ubz10qQjJkL3Vt9o6o",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/KWHwWMsY7WAmW0H9rd8yBgYr_3fud8ycdqv51jTTWLp5Y0mBV5j__sKQjdWHVlWj1w",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/zP-iHnuVKOBNDnobxsOIdA-BRsCntd-MRJ0kEb9XJnehtlyg3C7IJYNt4eCNWEIWIQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/6_jYqR6B-Afou5n3sKKTVZBXAFhHfmmBYm-JwBnvDs15L-8m32-neP7KqkSWS02K_ILg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2560,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/zWmF6QSmUsZWSvLamOKOSnyTb2-v35NRvb8TwWu4ZxxAGyq3j-JIxVvguTnM9uOM5Ww",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/CppUZWTMRscDWFRqslXy-sBbA77E80Hdy3qPoTzO3rOG0SHoCF_GcuqTYyZfi9LXtmcj",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "CAD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://www.fsrfb4.de/impressum",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=de.fsrfb4.fb4",
+    "reviewsUrl": "rev?doc=de.fsrfb4.fb4&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=de.fsrfb4.fb4",
+    "title": "FH Dortmund FB4",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Fachschaftsrat Informatik"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "app@fsrfb4.de"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Sep. 1, 2016"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "22",
+      "fiveStarRatings": "55",
+      "fourStarRatings": "7",
+      "oneStarRatings": "0",
+      "ratingsCount": "68",
+      "starRating": 4.6764708,
+      "threeStarRatings": "3",
+      "twoStarRatings": "3",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-11-01 06:41:41.668568",
+    "backendDocid": "de.fsrfb4.fb4",
+    "backendId": 3,
+    "creator": "Fachschaftsrat Informatik",
+    "descriptionHtml": "This app gives you the possibility to access to the most important services in your student life at the Fachhochschule Dortmund easily and on the go.<br><br>Timetable<br>-Official timetables of the FB4 (if desired, filtered by groupletter)<br>-Add or edit official (and custom) events<br>-Share your timetable via NFC<br><br>News<br>-New messages of the faculties IT and economy<br>-Search for specific messages<br>-Share messages<br><br>Menu<br>-Menus and opening times of all restaurants of the Studentenwerk Dortmund<br>-Sort menus or hide them if not relevant<br><br>Links/Downloads<br>-Links to pages like Ilias, ODS and SmartAssign<br>-Download of audit plan, semester schedule and locationplan<br><br>NRWTicket<br>-Download your ticket directly from the ODS<br>-Display it in the app",
+    "descriptionShort": "Timetable-App for the FB4 of the Fachhochschule Dortmund.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "11443824",
+          "unknown3": 29
+        },
+        "developerEmail": "app@fsrfb4.de",
+        "developerName": "Fachschaftsrat Informatik",
+        "developerWebsite": "http://www.fsrfb4.de/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "11443824",
+            "versionCode": 50
+          }
+        ],
+        "installationSize": "11443824",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "de.fsrfb4.fb4",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.AUTHENTICATE_ACCOUNTS",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.GET_ACCOUNTS",
+          "android.permission.INTERNET",
+          "android.permission.NFC",
+          "android.permission.READ_CALENDAR",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_CALENDAR",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+        ],
+        "recentChangesHtml": "Bugfixes",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "31 Oct 2021",
+        "versionCode": 50,
+        "versionString": "1.4.3"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=de.fsrfb4.fb4",
+    "docType": 1,
+    "docid": "de.fsrfb4.fb4",
+    "image": [
+      {
+        "color": "#FF6700",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/nG3O_u65lLO4wK4gFVp8WQR1beJ4eWn28Kwk9qtFBWTN1I52nuDRdmNcxKj6NnoBN5vT",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/GmxlR7XMNislRY7anTQw4A-267XvpOSzJcDaQTZmhIWb4lQ_ILPnXEvFSFNi5OCzP_Q",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qryXvgbrVDRHFRR1USiZYCQauHxuqrkW9ShTkX5a1v8P4hpBHW41HHT151oGKc2DOCU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/LwAEnmkMaEpgL6mRelDcvIakT1-wNn9EfWvKvnXWT9Z793WZ9ubz10qQjJkL3Vt9o6o",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/KWHwWMsY7WAmW0H9rd8yBgYr_3fud8ycdqv51jTTWLp5Y0mBV5j__sKQjdWHVlWj1w",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/zP-iHnuVKOBNDnobxsOIdA-BRsCntd-MRJ0kEb9XJnehtlyg3C7IJYNt4eCNWEIWIQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/6_jYqR6B-Afou5n3sKKTVZBXAFhHfmmBYm-JwBnvDs15L-8m32-neP7KqkSWS02K_ILg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2560,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/zWmF6QSmUsZWSvLamOKOSnyTb2-v35NRvb8TwWu4ZxxAGyq3j-JIxVvguTnM9uOM5Ww",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/CppUZWTMRscDWFRqslXy-sBbA77E80Hdy3qPoTzO3rOG0SHoCF_GcuqTYyZfi9LXtmcj",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://www.fsrfb4.de/impressum",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=de.fsrfb4.fb4",
+    "reviewsUrl": "rev?doc=de.fsrfb4.fb4&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=de.fsrfb4.fb4",
+    "title": "FH Dortmund FB4",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "app@fsrfb4.de"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "1 Sept 2016"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "68",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "68",
+      "starRating": 5.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-11-25 13:36:53.216273",
+    "backendDocid": "de.fsrfb4.fb4",
+    "backendId": 3,
+    "creator": "Fachschaftsrat Informatik",
+    "descriptionHtml": "This app gives you the possibility to access to the most important services in your student life at the Fachhochschule Dortmund easily and on the go.<br><br>Timetable<br>-Official timetables of the FB4 (if desired, filtered by groupletter)<br>-Add or edit official (and custom) events<br>-Share your timetable via NFC<br><br>News<br>-New messages of the faculties IT and economy<br>-Search for specific messages<br>-Share messages<br><br>Menu<br>-Menus and opening times of all restaurants of the Studentenwerk Dortmund<br>-Sort menus or hide them if not relevant<br><br>Links/Downloads<br>-Links to pages like Ilias, ODS and SmartAssign<br>-Download of audit plan, semester schedule and locationplan<br><br>NRWTicket<br>-Download your ticket directly from the ODS<br>-Display it in the app",
+    "descriptionShort": "Timetable-App for the FB4 of the Fachhochschule Dortmund.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "11929746",
+          "unknown3": 30
+        },
+        "developerEmail": "app@fsrfb4.de",
+        "developerName": "Fachschaftsrat Informatik",
+        "developerWebsite": "http://www.fsrfb4.de/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "11929746",
+            "versionCode": 51
+          }
+        ],
+        "installationSize": "11929746",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "de.fsrfb4.fb4",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.AUTHENTICATE_ACCOUNTS",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.GET_ACCOUNTS",
+          "android.permission.INTERNET",
+          "android.permission.READ_CALENDAR",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_CALENDAR",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+        ],
+        "recentChangesHtml": "Prices are now displayed in the menu.",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "24 Nov 2021",
+        "versionCode": 51,
+        "versionString": "1.4.4"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=de.fsrfb4.fb4",
+    "docType": 1,
+    "docid": "de.fsrfb4.fb4",
+    "image": [
+      {
+        "color": "#FF6700",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/nG3O_u65lLO4wK4gFVp8WQR1beJ4eWn28Kwk9qtFBWTN1I52nuDRdmNcxKj6NnoBN5vT",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FA6400",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/GmxlR7XMNislRY7anTQw4A-267XvpOSzJcDaQTZmhIWb4lQ_ILPnXEvFSFNi5OCzP_Q",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qryXvgbrVDRHFRR1USiZYCQauHxuqrkW9ShTkX5a1v8P4hpBHW41HHT151oGKc2DOCU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/LwAEnmkMaEpgL6mRelDcvIakT1-wNn9EfWvKvnXWT9Z793WZ9ubz10qQjJkL3Vt9o6o",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/KWHwWMsY7WAmW0H9rd8yBgYr_3fud8ycdqv51jTTWLp5Y0mBV5j__sKQjdWHVlWj1w",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/zP-iHnuVKOBNDnobxsOIdA-BRsCntd-MRJ0kEb9XJnehtlyg3C7IJYNt4eCNWEIWIQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/6_jYqR6B-Afou5n3sKKTVZBXAFhHfmmBYm-JwBnvDs15L-8m32-neP7KqkSWS02K_ILg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2560,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/zWmF6QSmUsZWSvLamOKOSnyTb2-v35NRvb8TwWu4ZxxAGyq3j-JIxVvguTnM9uOM5Ww",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/CppUZWTMRscDWFRqslXy-sBbA77E80Hdy3qPoTzO3rOG0SHoCF_GcuqTYyZfi9LXtmcj",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://www.fsrfb4.de/impressum",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=de.fsrfb4.fb4",
+    "reviewsUrl": "rev?doc=de.fsrfb4.fb4&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=de.fsrfb4.fb4",
+    "title": "FH Dortmund FB4",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Fachschaftsrat Informatik"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "app@fsrfb4.de"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "1 Sept 2016"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-11-30 01:39:01.009539",
+    "backendDocid": "de.fsrfb4.fb4",
+    "backendId": 3,
+    "creator": "Fachschaftsrat Informatik",
+    "descriptionHtml": "This app gives you the possibility to access to the most important services in your student life at the Fachhochschule Dortmund easily and on the go.<br><br>Timetable<br>-Official timetables of the FB4 (if desired, filtered by groupletter)<br>-Add or edit official (and custom) events<br>-Share your timetable via NFC<br><br>News<br>-New messages of the faculties IT and economy<br>-Search for specific messages<br>-Share messages<br><br>Menu<br>-Menus and opening times of all restaurants of the Studentenwerk Dortmund<br>-Sort menus or hide them if not relevant<br><br>Links/Downloads<br>-Links to pages like Ilias, ODS and SmartAssign<br>-Download of audit plan, semester schedule and locationplan<br><br>NRWTicket<br>-Download your ticket directly from the ODS<br>-Display it in the app",
+    "descriptionShort": "Timetable-App for the FB4 of the Fachhochschule Dortmund.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "11920304",
+          "unknown3": 30
+        },
+        "developerEmail": "app@fsrfb4.de",
+        "developerName": "Fachschaftsrat Informatik",
+        "developerWebsite": "http://www.fsrfb4.de/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "11920304",
+            "versionCode": 52
+          }
+        ],
+        "installationSize": "11920304",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "de.fsrfb4.fb4",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_CALENDAR",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_CALENDAR",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+        ],
+        "recentChangesHtml": "Bugfixes",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "29 Nov 2021",
+        "versionCode": 52,
+        "versionString": "1.4.5"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=de.fsrfb4.fb4",
+    "docType": 1,
+    "docid": "de.fsrfb4.fb4",
+    "image": [
+      {
+        "color": "#FF6700",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/nG3O_u65lLO4wK4gFVp8WQR1beJ4eWn28Kwk9qtFBWTN1I52nuDRdmNcxKj6NnoBN5vT",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FA6400",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/GmxlR7XMNislRY7anTQw4A-267XvpOSzJcDaQTZmhIWb4lQ_ILPnXEvFSFNi5OCzP_Q",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qryXvgbrVDRHFRR1USiZYCQauHxuqrkW9ShTkX5a1v8P4hpBHW41HHT151oGKc2DOCU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/LwAEnmkMaEpgL6mRelDcvIakT1-wNn9EfWvKvnXWT9Z793WZ9ubz10qQjJkL3Vt9o6o",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/KWHwWMsY7WAmW0H9rd8yBgYr_3fud8ycdqv51jTTWLp5Y0mBV5j__sKQjdWHVlWj1w",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/zP-iHnuVKOBNDnobxsOIdA-BRsCntd-MRJ0kEb9XJnehtlyg3C7IJYNt4eCNWEIWIQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/6_jYqR6B-Afou5n3sKKTVZBXAFhHfmmBYm-JwBnvDs15L-8m32-neP7KqkSWS02K_ILg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2560,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/zWmF6QSmUsZWSvLamOKOSnyTb2-v35NRvb8TwWu4ZxxAGyq3j-JIxVvguTnM9uOM5Ww",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/CppUZWTMRscDWFRqslXy-sBbA77E80Hdy3qPoTzO3rOG0SHoCF_GcuqTYyZfi9LXtmcj",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://www.fsrfb4.de/impressum",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=de.fsrfb4.fb4",
+    "reviewsUrl": "rev?doc=de.fsrfb4.fb4&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=de.fsrfb4.fb4",
+    "title": "FH Dortmund FB4",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "app@fsrfb4.de"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "1 Sept 2016"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "22",
+      "fiveStarRatings": "55",
+      "fourStarRatings": "7",
+      "oneStarRatings": "0",
+      "ratingsCount": "68",
+      "starRating": 4.6764708,
+      "threeStarRatings": "3",
+      "twoStarRatings": "3",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-02-14 20:26:34.381188",
+    "backendDocid": "de.fsrfb4.fb4",
+    "backendId": 3,
+    "creator": "Fachschaftsrat Informatik",
+    "descriptionHtml": "This app gives you the possibility to access to the most important services in your student life at the Fachhochschule Dortmund easily and on the go.<br><br>Timetable<br>-Official timetables of the FB4 (if desired, filtered by groupletter)<br>-Add or edit official (and custom) events<br>-Share your timetable via NFC<br><br>News<br>-New messages of the faculties IT and economy<br>-Search for specific messages<br>-Share messages<br><br>Menu<br>-Menus and opening times of all restaurants of the Studentenwerk Dortmund<br>-Sort menus or hide them if not relevant<br><br>Links/Downloads<br>-Links to pages like Ilias, ODS and SmartAssign<br>-Download of audit plan, semester schedule and locationplan<br><br>NRWTicket<br>-Download your ticket directly from the ODS<br>-Display it in the app",
+    "descriptionShort": "Timetable-App for the FB4 of the Fachhochschule Dortmund.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "11055022",
+          "unknown3": 30
+        },
+        "developerEmail": "app@fsrfb4.de",
+        "developerName": "Fachschaftsrat Informatik",
+        "developerWebsite": "http://www.fsrfb4.de/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "11055022",
+            "versionCode": 53
+          }
+        ],
+        "installationSize": "11055022",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "de.fsrfb4.fb4",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_CALENDAR",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_CALENDAR",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+        ],
+        "recentChangesHtml": "Improved download and display of the NRW ticket",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "6 Feb 2022",
+        "versionCode": 53,
+        "versionString": "1.4.6"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=de.fsrfb4.fb4",
+    "docType": 1,
+    "docid": "de.fsrfb4.fb4",
+    "image": [
+      {
+        "color": "#FF6700",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/nG3O_u65lLO4wK4gFVp8WQR1beJ4eWn28Kwk9qtFBWTN1I52nuDRdmNcxKj6NnoBN5vT",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FA6400",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/GmxlR7XMNislRY7anTQw4A-267XvpOSzJcDaQTZmhIWb4lQ_ILPnXEvFSFNi5OCzP_Q",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qryXvgbrVDRHFRR1USiZYCQauHxuqrkW9ShTkX5a1v8P4hpBHW41HHT151oGKc2DOCU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/LwAEnmkMaEpgL6mRelDcvIakT1-wNn9EfWvKvnXWT9Z793WZ9ubz10qQjJkL3Vt9o6o",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/KWHwWMsY7WAmW0H9rd8yBgYr_3fud8ycdqv51jTTWLp5Y0mBV5j__sKQjdWHVlWj1w",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/zP-iHnuVKOBNDnobxsOIdA-BRsCntd-MRJ0kEb9XJnehtlyg3C7IJYNt4eCNWEIWIQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/6_jYqR6B-Afou5n3sKKTVZBXAFhHfmmBYm-JwBnvDs15L-8m32-neP7KqkSWS02K_ILg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2560,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/zWmF6QSmUsZWSvLamOKOSnyTb2-v35NRvb8TwWu4ZxxAGyq3j-JIxVvguTnM9uOM5Ww",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/CppUZWTMRscDWFRqslXy-sBbA77E80Hdy3qPoTzO3rOG0SHoCF_GcuqTYyZfi9LXtmcj",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://www.fsrfb4.de/impressum",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=de.fsrfb4.fb4",
+    "reviewsUrl": "rev?doc=de.fsrfb4.fb4&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=de.fsrfb4.fb4",
+    "title": "FH Dortmund FB4",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "app@fsrfb4.de"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "1 Sept 2016"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-09-10 01:55:11.537363",
+    "backendDocid": "de.fsrfb4.fb4",
+    "backendId": 3,
+    "creator": "Fachschaftsrat Informatik",
+    "descriptionHtml": "This app gives you the possibility to access to the most important services in your student life at the Fachhochschule Dortmund easily and on the go.<br><br>Timetable<br>-Official timetables of the FB4 (if desired, filtered by groupletter)<br>-Add or edit official (and custom) events<br>-Share your timetable via NFC<br><br>News<br>-New messages of the faculties IT and economy<br>-Search for specific messages<br>-Share messages<br><br>Menu<br>-Menus and opening times of all restaurants of the Studentenwerk Dortmund<br>-Sort menus or hide them if not relevant<br><br>Links/Downloads<br>-Links to pages like Ilias, ODS and SmartAssign<br>-Download of audit plan, semester schedule and locationplan<br><br>NRWTicket<br>-Download your ticket directly from the ODS<br>-Display it in the app",
+    "descriptionShort": "Timetable-App for the FB4 of the Fachhochschule Dortmund.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "11056480",
+          "unknown3": 30
+        },
+        "developerEmail": "app@fsrfb4.de",
+        "developerName": "Fachschaftsrat Informatik",
+        "developerWebsite": "http://www.fsrfb4.de/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "11056480",
+            "versionCode": 54
+          }
+        ],
+        "installationSize": "11056480",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "de.fsrfb4.fb4",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_CALENDAR",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_CALENDAR",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+        ],
+        "recentChangesHtml": "The download of the NRW ticket has been deactivated for the time being and will be revised soon.",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "8 Sept 2022",
+        "versionCode": 54,
+        "versionString": "1.4.7"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=de.fsrfb4.fb4",
+    "docType": 1,
+    "docid": "de.fsrfb4.fb4",
+    "image": [
+      {
+        "color": "#FF6700",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/nG3O_u65lLO4wK4gFVp8WQR1beJ4eWn28Kwk9qtFBWTN1I52nuDRdmNcxKj6NnoBN5vT",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FA6400",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/GmxlR7XMNislRY7anTQw4A-267XvpOSzJcDaQTZmhIWb4lQ_ILPnXEvFSFNi5OCzP_Q",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qryXvgbrVDRHFRR1USiZYCQauHxuqrkW9ShTkX5a1v8P4hpBHW41HHT151oGKc2DOCU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/LwAEnmkMaEpgL6mRelDcvIakT1-wNn9EfWvKvnXWT9Z793WZ9ubz10qQjJkL3Vt9o6o",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/KWHwWMsY7WAmW0H9rd8yBgYr_3fud8ycdqv51jTTWLp5Y0mBV5j__sKQjdWHVlWj1w",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/zP-iHnuVKOBNDnobxsOIdA-BRsCntd-MRJ0kEb9XJnehtlyg3C7IJYNt4eCNWEIWIQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/6_jYqR6B-Afou5n3sKKTVZBXAFhHfmmBYm-JwBnvDs15L-8m32-neP7KqkSWS02K_ILg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2560,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/zWmF6QSmUsZWSvLamOKOSnyTb2-v35NRvb8TwWu4ZxxAGyq3j-JIxVvguTnM9uOM5Ww",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/CppUZWTMRscDWFRqslXy-sBbA77E80Hdy3qPoTzO3rOG0SHoCF_GcuqTYyZfi9LXtmcj",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://www.fsrfb4.de/impressum",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=de.fsrfb4.fb4",
+    "reviewsUrl": "rev?doc=de.fsrfb4.fb4&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=de.fsrfb4.fb4",
+    "title": "FH Dortmund FB4",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Fachschaftsrat Informatik"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "app@fsrfb4.de"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "1 Sept 2016"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "23",
+      "fiveStarRatings": "58",
+      "fourStarRatings": "7",
+      "oneStarRatings": "0",
+      "ratingsCount": "71",
+      "starRating": 4.6901407,
+      "threeStarRatings": "3",
+      "twoStarRatings": "3",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-12-28 12:48:04.289727",
+    "backendDocid": "de.fsrfb4.fb4",
+    "backendId": 3,
+    "creator": "Fachschaftsrat Informatik",
+    "descriptionHtml": "This app gives you the possibility to access to the most important services in your student life at the Fachhochschule Dortmund easily and on the go.<br><br>Timetable<br>-Official timetables of the FB4 (if desired, filtered by groupletter)<br>-Add or edit official (and custom) events<br>-Share your timetable via NFC<br><br>News<br>-New messages of the faculties IT and economy<br>-Search for specific messages<br>-Share messages<br><br>Menu<br>-Menus and opening times of all restaurants of the Studentenwerk Dortmund<br>-Sort menus or hide them if not relevant<br><br>Links/Downloads<br>-Links to pages like Ilias, ODS and SmartAssign<br>-Download of audit plan, semester schedule and locationplan<br><br>NRWTicket<br>-Download your ticket directly from the ODS<br>-Display it in the app",
+    "descriptionShort": "Timetable-App for the FB4 of the Fachhochschule Dortmund.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "11056480",
+          "unknown3": 30
+        },
+        "developerEmail": "app@fsrfb4.de",
+        "developerName": "Fachschaftsrat Informatik",
+        "developerWebsite": "http://www.fsrfb4.de/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "11056480",
+            "versionCode": 54
+          }
+        ],
+        "installationSize": "11056480",
+        "numDownloads": "5,000+ downloads",
+        "packageName": "de.fsrfb4.fb4",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_CALENDAR",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_CALENDAR",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+        ],
+        "recentChangesHtml": "The download of the NRW ticket has been deactivated for the time being and will be revised soon.",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "8 Sept 2022",
+        "versionCode": 54,
+        "versionString": "1.4.7"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=de.fsrfb4.fb4",
+    "docType": 1,
+    "docid": "de.fsrfb4.fb4",
+    "image": [
+      {
+        "color": "#FF6700",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/nG3O_u65lLO4wK4gFVp8WQR1beJ4eWn28Kwk9qtFBWTN1I52nuDRdmNcxKj6NnoBN5vT",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FA6400",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/GmxlR7XMNislRY7anTQw4A-267XvpOSzJcDaQTZmhIWb4lQ_ILPnXEvFSFNi5OCzP_Q",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qryXvgbrVDRHFRR1USiZYCQauHxuqrkW9ShTkX5a1v8P4hpBHW41HHT151oGKc2DOCU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/LwAEnmkMaEpgL6mRelDcvIakT1-wNn9EfWvKvnXWT9Z793WZ9ubz10qQjJkL3Vt9o6o",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/KWHwWMsY7WAmW0H9rd8yBgYr_3fud8ycdqv51jTTWLp5Y0mBV5j__sKQjdWHVlWj1w",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/zP-iHnuVKOBNDnobxsOIdA-BRsCntd-MRJ0kEb9XJnehtlyg3C7IJYNt4eCNWEIWIQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/6_jYqR6B-Afou5n3sKKTVZBXAFhHfmmBYm-JwBnvDs15L-8m32-neP7KqkSWS02K_ILg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2560,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/zWmF6QSmUsZWSvLamOKOSnyTb2-v35NRvb8TwWu4ZxxAGyq3j-JIxVvguTnM9uOM5Ww",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/CppUZWTMRscDWFRqslXy-sBbA77E80Hdy3qPoTzO3rOG0SHoCF_GcuqTYyZfi9LXtmcj",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "HRK",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://www.fsrfb4.de/impressum",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=de.fsrfb4.fb4",
+    "reviewsUrl": "rev?doc=de.fsrfb4.fb4&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=de.fsrfb4.fb4",
+    "title": "FH Dortmund FB4",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "app@fsrfb4.de"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "1 Sept 2016"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "23",
+      "fiveStarRatings": "58",
+      "fourStarRatings": "7",
+      "oneStarRatings": "0",
+      "ratingsCount": "71",
+      "starRating": 4.6901407,
+      "threeStarRatings": "3",
+      "twoStarRatings": "3",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-12-28 17:44:28.351039",
+    "backendDocid": "de.fsrfb4.fb4",
+    "backendId": 3,
+    "creator": "Fachschaftsrat Informatik",
+    "descriptionHtml": "This app gives you the possibility to access to the most important services in your student life at the Fachhochschule Dortmund easily and on the go.<br><br>Timetable<br>-Official timetables of the FB4 (if desired, filtered by groupletter)<br>-Add or edit official (and custom) events<br>-Share your timetable via NFC<br><br>News<br>-New messages of the faculties IT and economy<br>-Search for specific messages<br>-Share messages<br><br>Menu<br>-Menus and opening times of all restaurants of the Studentenwerk Dortmund<br>-Sort menus or hide them if not relevant<br><br>Links/Downloads<br>-Links to pages like Ilias, ODS and SmartAssign<br>-Download of audit plan, semester schedule and locationplan<br><br>NRWTicket<br>-Download your ticket directly from the ODS<br>-Display it in the app",
+    "descriptionShort": "Timetable-App for the FB4 of the Fachhochschule Dortmund.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "10955391",
+          "unknown3": 33
+        },
+        "developerEmail": "app@fsrfb4.de",
+        "developerName": "Fachschaftsrat Informatik",
+        "developerWebsite": "http://www.fsrfb4.de/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "10955391",
+            "versionCode": 55
+          }
+        ],
+        "installationSize": "10955391",
+        "numDownloads": "5,000+ downloads",
+        "packageName": "de.fsrfb4.fb4",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.POST_NOTIFICATIONS",
+          "android.permission.READ_CALENDAR",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_CALENDAR",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+        ],
+        "recentChangesHtml": "The download of the NRW ticket has been revised and activated again.",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "22 Dec 2022",
+        "versionCode": 55,
+        "versionString": "1.4.8"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=de.fsrfb4.fb4",
+    "docType": 1,
+    "docid": "de.fsrfb4.fb4",
+    "image": [
+      {
+        "color": "#FF6700",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/nG3O_u65lLO4wK4gFVp8WQR1beJ4eWn28Kwk9qtFBWTN1I52nuDRdmNcxKj6NnoBN5vT",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FA6400",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/GmxlR7XMNislRY7anTQw4A-267XvpOSzJcDaQTZmhIWb4lQ_ILPnXEvFSFNi5OCzP_Q",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qryXvgbrVDRHFRR1USiZYCQauHxuqrkW9ShTkX5a1v8P4hpBHW41HHT151oGKc2DOCU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/LwAEnmkMaEpgL6mRelDcvIakT1-wNn9EfWvKvnXWT9Z793WZ9ubz10qQjJkL3Vt9o6o",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/KWHwWMsY7WAmW0H9rd8yBgYr_3fud8ycdqv51jTTWLp5Y0mBV5j__sKQjdWHVlWj1w",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/zP-iHnuVKOBNDnobxsOIdA-BRsCntd-MRJ0kEb9XJnehtlyg3C7IJYNt4eCNWEIWIQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/6_jYqR6B-Afou5n3sKKTVZBXAFhHfmmBYm-JwBnvDs15L-8m32-neP7KqkSWS02K_ILg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2560,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/zWmF6QSmUsZWSvLamOKOSnyTb2-v35NRvb8TwWu4ZxxAGyq3j-JIxVvguTnM9uOM5Ww",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/CppUZWTMRscDWFRqslXy-sBbA77E80Hdy3qPoTzO3rOG0SHoCF_GcuqTYyZfi9LXtmcj",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://www.fsrfb4.de/impressum",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=de.fsrfb4.fb4",
+    "reviewsUrl": "rev?doc=de.fsrfb4.fb4&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=de.fsrfb4.fb4",
+    "title": "FH Dortmund FB4",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "app@fsrfb4.de"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "1 Sept 2016"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "24",
+      "fiveStarRatings": "58",
+      "fourStarRatings": "6",
+      "oneStarRatings": "2",
+      "ratingsCount": "72",
+      "starRating": 4.5972223,
+      "threeStarRatings": "3",
+      "twoStarRatings": "3",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-09-26 05:34:17.383360",
+    "backendDocid": "de.fsrfb4.fb4",
+    "backendId": 3,
+    "creator": "Fachschaftsrat Informatik",
+    "descriptionHtml": "This app gives you the possibility to access to the most important services in your student life at the Fachhochschule Dortmund easily and on the go.<br><br>Timetable<br>-Official timetables of the FB4 (if desired, filtered by groupletter)<br>-Add or edit official (and custom) events<br>-Share your timetable via NFC<br><br>News<br>-New messages of the faculties IT and economy<br>-Search for specific messages<br>-Share messages<br><br>Menu<br>-Menus and opening times of all restaurants of the Studentenwerk Dortmund<br>-Sort menus or hide them if not relevant<br><br>Links/Downloads<br>-Links to pages like Ilias, ODS and SmartAssign<br>-Download of audit plan, semester schedule and locationplan<br><br>NRWTicket<br>-Download your ticket directly from the ODS<br>-Display it in the app",
+    "descriptionShort": "Timetable-App for the FB4 of the Fachhochschule Dortmund.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "version": 12451000
+            }
+          ],
+          "unknown2": "10960674",
+          "unknown3": 33
+        },
+        "developerEmail": "app@fsrfb4.de",
+        "developerName": "Fachschaftsrat Informatik",
+        "developerWebsite": "http://www.fsrfb4.de/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "10960674",
+            "versionCode": 56
+          }
+        ],
+        "installationSize": "10960674",
+        "numDownloads": "5,000+ downloads",
+        "packageName": "de.fsrfb4.fb4",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.POST_NOTIFICATIONS",
+          "android.permission.READ_CALENDAR",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_CALENDAR",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+        ],
+        "recentChangesHtml": "- Improved Dark Mode<br>- The timetable has been extended to include the weekend<br>- The event type in the timetable is now editable<br>- The Links &amp; Downloads section has been revised<br>- News (Economy) has been removed because the news is no longer displayed on the FH website",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "18 Sept 2023",
+        "versionCode": 56,
+        "versionString": "1.4.9"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=de.fsrfb4.fb4",
+    "docType": 1,
+    "docid": "de.fsrfb4.fb4",
+    "image": [
+      {
+        "color": "#FF6700",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/nG3O_u65lLO4wK4gFVp8WQR1beJ4eWn28Kwk9qtFBWTN1I52nuDRdmNcxKj6NnoBN5vT",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FA6400",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/GmxlR7XMNislRY7anTQw4A-267XvpOSzJcDaQTZmhIWb4lQ_ILPnXEvFSFNi5OCzP_Q",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qryXvgbrVDRHFRR1USiZYCQauHxuqrkW9ShTkX5a1v8P4hpBHW41HHT151oGKc2DOCU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/LwAEnmkMaEpgL6mRelDcvIakT1-wNn9EfWvKvnXWT9Z793WZ9ubz10qQjJkL3Vt9o6o",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/KWHwWMsY7WAmW0H9rd8yBgYr_3fud8ycdqv51jTTWLp5Y0mBV5j__sKQjdWHVlWj1w",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/zP-iHnuVKOBNDnobxsOIdA-BRsCntd-MRJ0kEb9XJnehtlyg3C7IJYNt4eCNWEIWIQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/6_jYqR6B-Afou5n3sKKTVZBXAFhHfmmBYm-JwBnvDs15L-8m32-neP7KqkSWS02K_ILg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2560,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/zWmF6QSmUsZWSvLamOKOSnyTb2-v35NRvb8TwWu4ZxxAGyq3j-JIxVvguTnM9uOM5Ww",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/CppUZWTMRscDWFRqslXy-sBbA77E80Hdy3qPoTzO3rOG0SHoCF_GcuqTYyZfi9LXtmcj",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://www.fsrfb4.de/impressum",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=de.fsrfb4.fb4",
+    "reviewsUrl": "rev?doc=de.fsrfb4.fb4&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=de.fsrfb4.fb4",
+    "title": "FH Dortmund FB4",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "app@fsrfb4.de"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "1 Sept 2016"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "23",
+      "fiveStarRatings": "58",
+      "fourStarRatings": "5",
+      "oneStarRatings": "2",
+      "ratingsCount": "71",
+      "starRating": 4.6056337,
+      "threeStarRatings": "3",
+      "twoStarRatings": "3",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2024-06-20 09:01:01.479370",
+    "backendDocid": "de.fsrfb4.fb4",
+    "backendId": 3,
+    "creator": "Fachschaftsrat Informatik",
+    "descriptionHtml": "This app gives you the possibility to access to the most important services in your student life at the Fachhochschule Dortmund easily and on the go.<br><br>Timetable<br>-Official timetables of the FB4 (if desired, filtered by groupletter)<br>-Add or edit official (and custom) events<br>-Share your timetable via NFC<br><br>News<br>-New messages of the faculties IT and economy<br>-Search for specific messages<br>-Share messages<br><br>Menu<br>-Menus and opening times of all restaurants of the Studentenwerk Dortmund<br>-Sort menus or hide them if not relevant<br><br>Links/Downloads<br>-Links to pages like Ilias, ODS and SmartAssign<br>-Download of audit plan, semester schedule and locationplan<br><br>NRWTicket<br>-Download your ticket directly from the ODS<br>-Display it in the app",
+    "descriptionShort": "Timetable-App for the FB4 of the Fachhochschule Dortmund.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "version": 12451000
+            }
+          ],
+          "unknown2": "10960865",
+          "unknown3": 33
+        },
+        "developerEmail": "app@fsrfb4.de",
+        "developerName": "Fachschaftsrat Informatik",
+        "developerWebsite": "http://www.fsrfb4.de/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "10960865",
+            "versionCode": 57
+          }
+        ],
+        "installationSize": "10960865",
+        "numDownloads": "5,000+ downloads",
+        "packageName": "de.fsrfb4.fb4",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.POST_NOTIFICATIONS",
+          "android.permission.READ_CALENDAR",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_CALENDAR",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+        ],
+        "recentChangesHtml": "Fixed News not loading",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "6 Jun 2024",
+        "versionCode": 57,
+        "versionString": "1.4.10"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=de.fsrfb4.fb4&vc=57",
+    "docType": 1,
+    "docid": "de.fsrfb4.fb4",
+    "image": [
+      {
+        "color": "#FF6700",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/nG3O_u65lLO4wK4gFVp8WQR1beJ4eWn28Kwk9qtFBWTN1I52nuDRdmNcxKj6NnoBN5vT",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FA6400",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/GmxlR7XMNislRY7anTQw4A-267XvpOSzJcDaQTZmhIWb4lQ_ILPnXEvFSFNi5OCzP_Q",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qryXvgbrVDRHFRR1USiZYCQauHxuqrkW9ShTkX5a1v8P4hpBHW41HHT151oGKc2DOCU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/LwAEnmkMaEpgL6mRelDcvIakT1-wNn9EfWvKvnXWT9Z793WZ9ubz10qQjJkL3Vt9o6o",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/KWHwWMsY7WAmW0H9rd8yBgYr_3fud8ycdqv51jTTWLp5Y0mBV5j__sKQjdWHVlWj1w",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/zP-iHnuVKOBNDnobxsOIdA-BRsCntd-MRJ0kEb9XJnehtlyg3C7IJYNt4eCNWEIWIQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/6_jYqR6B-Afou5n3sKKTVZBXAFhHfmmBYm-JwBnvDs15L-8m32-neP7KqkSWS02K_ILg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2560,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/zWmF6QSmUsZWSvLamOKOSnyTb2-v35NRvb8TwWu4ZxxAGyq3j-JIxVvguTnM9uOM5Ww",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/CppUZWTMRscDWFRqslXy-sBbA77E80Hdy3qPoTzO3rOG0SHoCF_GcuqTYyZfi9LXtmcj",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://www.fsrfb4.de/impressum",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=de.fsrfb4.fb4",
+    "reviewsUrl": "rev?doc=de.fsrfb4.fb4&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=de.fsrfb4.fb4",
+    "title": "FH Dortmund FB4\n1.4.10",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "app@fsrfb4.de"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "1 Sept 2016"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  }
+]

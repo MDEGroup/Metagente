@@ -1,0 +1,4930 @@
+[
+  {
+    "aggregateRating": {
+      "commentCount": "5",
+      "fiveStarRatings": "17",
+      "fourStarRatings": "2",
+      "oneStarRatings": "1",
+      "ratingsCount": "21",
+      "starRating": 4.61904764175415,
+      "threeStarRatings": "1",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-05-30 09:19:31.437271",
+    "backendDocid": "ccc71.kt",
+    "backendId": 3,
+    "creator": "3c",
+    "descriptionHtml": "A simple app to tweak various kernel settings on your rooted Android device. Requires technical knowledge of Linux and Android.<br><br>\u2605 <b>Highly Configurable UI</b> allows you to transform the app into something you really like.<br><br>\u2605 Editing all kernel sysctl settings<br>\u2605 Configuring entropy (random generator, please be careful as it uses CPU)<br>\u2605 Setting SD read cache size, IO scheduler and syncing, when available<br>\u2605 Configuring OOM memory limits, when available<br>\u2605 Benchmark different SD read cache size for optimum performance<br><br>On Android 6 or below, you may be able to link internal storage to your SD card (actual support may vary, please test)<br><br>On custom kernels supporting it, you can configure:<br>\u2605 Screen gamma settings<br>\u2605 Sound output<br>\u2605 Double-tap-to-wake<br>\u2605 Fast-charge<br>\u2605 Sweep-to-sleep<br>\u2605 Battery level eXtender (maximum charging %)<br>\u2605 Intelliplug<br><br>In-app purchase can be made to remove ads or unlock features.",
+    "descriptionShort": "Tweak stock and custom kernels",
+    "details": {
+      "appDetails": {
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "5911734",
+          "unknown3": 28
+        },
+        "developerAddress": "721 Av G\u00e9n\u00e9ral de Gaulle<br/>06700 Saint Laurent du Var<br/>FRANCE",
+        "developerEmail": "3c@3c71.com",
+        "developerName": "3c",
+        "developerWebsite": "https://3c71.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "4864406",
+            "versionCode": 19
+          },
+          {
+            "fileType": 0,
+            "size": "854459",
+            "versionCode": 19
+          },
+          {
+            "fileType": 0,
+            "size": "192869",
+            "versionCode": 19
+          }
+        ],
+        "hasInstantLink": true,
+        "installationSize": "5911734",
+        "numDownloads": "5,000+ downloads",
+        "packageName": "ccc71.kt",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.WAKE_LOCK",
+          "com.android.vending.BILLING"
+        ],
+        "recentChangesHtml": "3C Companion app compatibility<br>Show advanced sysctl on non-rooted devices",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false,
+          "testingProgramEmail": "3c@3c71.com"
+        },
+        "unstable": false,
+        "uploadDate": "13 May 2020",
+        "versionCode": 19,
+        "versionString": "1.0.6"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=ccc71.kt",
+    "docType": 1,
+    "docid": "ccc71.kt",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://lh3.googleusercontent.com/tDSZBpDGXKArnz_Bhyh8onK2bZy0jwHWLbdcEZqborCVt-3ch0R6mJVAa-bHcnm0I1s",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://lh3.googleusercontent.com/6vqTFZ_JAkB0LcG0lkkceLXLBU6hFkf7Eg2FVGmk9XuOIEm8Rh6XjCv4YClg0_ivIdU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2405,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/rXpyOc8kSfp5stU8yS6WDGhNrdNqepHE5176hiiRruFKFugeI1GAcGMo3EXziW2q6us",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2484,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/ccQcPNFK0tTSvkQFFW6nt9CblhVyMM6PVp0WH0GHFydI0xxAz38hL_rN9FON9_k4xQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2152,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/2x3cp0JgKccSyEP17X1PSCpXSyrkMPG3ZuMx2NGtaKmKfj_DtAbIhLtOWQJqZyXkBQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1055,
+          "width": 1920
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/CHMvF38bY3SaE2rNpHAKf4bUZKxUPuTK0Gs1e8aWx_QhiVVfaDd1GBIpDwBFvbtLzZE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1054,
+          "width": 1920
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/GQAst0LEhQs7t--xxuMN9L7Ai0vqaQZBrdx5OzRJ9NsF7RgAgB1NMwSJ0pTQHXPU74M",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1058,
+          "width": 1920
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/hrHfrPdyaXHYMWun14MCklpf9H4UgFJSzNt_w5ol3nCaeHO9zBKBUIA-0y9KHirnLOE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1051,
+          "width": 1920
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/FNJBlP1v6M8JoM663BnY46l23c1GBxRahNqW0bTKbSjuvVnoLkqPquV4AvGkG0NRqV0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1054,
+          "width": 1920
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/Ob565bSORn6qb2f_XwqSP_rRAE9eKFQAlOTGzuMM-lGCtVUEcFc-E7eSVuP77LggGKvh",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1057,
+          "width": 1920
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/TF8FiRidVQNgbSdfvDr28z4tZ40IGD-WHJWRmWqeCcyYJSyEOuwoKmVXxr78qCg3uV0",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://3c71.com/policy",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://lh3.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "In-app purchases<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=ccc71.kt",
+    "reviewsUrl": "rev?doc=ccc71.kt&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=ccc71.kt",
+    "title": "3C Kernel Tweaker (root)",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "\u20ac0.59 \u2013 \u20ac4.99 per item"
+          },
+          "label": "In-app purchases"
+        },
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "3c@3c71.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "721 Av G\u00e9n\u00e9ral de Gaulle<br/>06700 Saint Laurent du Var<br/>FRANCE"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "19 Jul 2019"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "9",
+      "fiveStarRatings": "21",
+      "fourStarRatings": "4",
+      "oneStarRatings": "1",
+      "ratingsCount": "27",
+      "starRating": 4.6296296,
+      "threeStarRatings": "1",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-07-10 14:38:21.946685",
+    "backendDocid": "ccc71.kt",
+    "backendId": 3,
+    "creator": "3c",
+    "descriptionHtml": "A simple app to tweak various kernel settings on your rooted Android device. Requires technical knowledge of Linux and Android.<br><br>\u2605 <b>Highly Configurable UI</b> allows you to transform the app into something you really like.<br><br>\u2605 Editing all kernel sysctl settings<br>\u2605 Configuring entropy (random generator, please be careful as it uses CPU)<br>\u2605 Setting SD read cache size, IO scheduler and syncing, when available<br>\u2605 Configuring OOM memory limits, when available<br>\u2605 Benchmark different SD read cache size for optimum performance<br><br>On Android 6 or below, you may be able to link internal storage to your SD card (actual support may vary, please test)<br><br>On custom kernels supporting it, you can configure:<br>\u2605 Screen gamma settings<br>\u2605 Sound output<br>\u2605 Double-tap-to-wake<br>\u2605 Fast-charge<br>\u2605 Sweep-to-sleep<br>\u2605 Battery level eXtender (maximum charging %)<br>\u2605 Intelliplug<br><br>In-app purchase can be made to remove ads or unlock features.",
+    "descriptionShort": "Tweak stock and custom kernels",
+    "details": {
+      "appDetails": {
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "6101245",
+          "unknown3": 28
+        },
+        "developerAddress": "721 Av G\u00e9n\u00e9ral de Gaulle<br/>06700 Saint Laurent du Var<br/>FRANCE",
+        "developerEmail": "3c@3c71.com",
+        "developerName": "3c",
+        "developerWebsite": "https://3c71.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "4996241",
+            "versionCode": 22
+          },
+          {
+            "fileType": 0,
+            "size": "912135",
+            "versionCode": 22
+          },
+          {
+            "fileType": 0,
+            "size": "192869",
+            "versionCode": 22
+          }
+        ],
+        "hasInstantLink": true,
+        "installationSize": "6101245",
+        "numDownloads": "5,000+ downloads",
+        "packageName": "ccc71.kt",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.WAKE_LOCK",
+          "com.android.vending.BILLING"
+        ],
+        "recentChangesHtml": "Improve 3C Companion stability and compatibility",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false,
+          "testingProgramEmail": "3c@3c71.com"
+        },
+        "unstable": false,
+        "uploadDate": "8 Jul 2020",
+        "versionCode": 22,
+        "versionString": "1.0.8"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=ccc71.kt",
+    "docType": 1,
+    "docid": "ccc71.kt",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://lh3.googleusercontent.com/tDSZBpDGXKArnz_Bhyh8onK2bZy0jwHWLbdcEZqborCVt-3ch0R6mJVAa-bHcnm0I1s",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://lh3.googleusercontent.com/6vqTFZ_JAkB0LcG0lkkceLXLBU6hFkf7Eg2FVGmk9XuOIEm8Rh6XjCv4YClg0_ivIdU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2405,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/rXpyOc8kSfp5stU8yS6WDGhNrdNqepHE5176hiiRruFKFugeI1GAcGMo3EXziW2q6us",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2484,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/ccQcPNFK0tTSvkQFFW6nt9CblhVyMM6PVp0WH0GHFydI0xxAz38hL_rN9FON9_k4xQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2152,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/2x3cp0JgKccSyEP17X1PSCpXSyrkMPG3ZuMx2NGtaKmKfj_DtAbIhLtOWQJqZyXkBQ",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://3c71.com/policy",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://lh3.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "In-app purchases<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=ccc71.kt",
+    "reviewsUrl": "rev?doc=ccc71.kt&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=ccc71.kt",
+    "title": "3C Kernel Tweaker (root)",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "\u20ac0.59 \u2013 \u20ac4.99 per item"
+          },
+          "label": "In-app purchases"
+        },
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "3c@3c71.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "721 Av G\u00e9n\u00e9ral de Gaulle<br/>06700 Saint Laurent du Var<br/>FRANCE"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "19 Jul 2019"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "10",
+      "fiveStarRatings": "22",
+      "fourStarRatings": "4",
+      "oneStarRatings": "1",
+      "ratingsCount": "29",
+      "starRating": 4.551724,
+      "threeStarRatings": "1",
+      "twoStarRatings": "1",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-07-16 21:47:41.398885",
+    "backendDocid": "ccc71.kt",
+    "backendId": 3,
+    "creator": "3c",
+    "descriptionHtml": "A simple app to tweak various kernel settings on your rooted Android device. Requires technical knowledge of Linux and Android.<br><br>\u2605 <b>Highly Configurable UI</b> allows you to transform the app into something you really like.<br><br>\u2605 Editing all kernel sysctl settings<br>\u2605 Configuring entropy (random generator, please be careful as it uses CPU)<br>\u2605 Setting SD read cache size, IO scheduler and syncing, when available<br>\u2605 Configuring OOM memory limits, when available<br>\u2605 Benchmark different SD read cache size for optimum performance<br><br>On Android 6 or below, you may be able to link internal storage to your SD card (actual support may vary, please test)<br><br>On custom kernels supporting it, you can configure:<br>\u2605 Screen gamma settings<br>\u2605 Sound output<br>\u2605 Double-tap-to-wake<br>\u2605 Fast-charge<br>\u2605 Sweep-to-sleep<br>\u2605 Battery level eXtender (maximum charging %)<br>\u2605 Intelliplug<br><br>In-app purchase can be made to remove ads or unlock features.",
+    "descriptionShort": "Tweak stock and custom kernels",
+    "details": {
+      "appDetails": {
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "6101245",
+          "unknown3": 28
+        },
+        "developerAddress": "721 Av G\u00e9n\u00e9ral de Gaulle<br/>06700 Saint Laurent du Var<br/>FRANCE",
+        "developerEmail": "3c@3c71.com",
+        "developerName": "3c",
+        "developerWebsite": "https://3c71.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "4996241",
+            "versionCode": 23
+          },
+          {
+            "fileType": 0,
+            "size": "912135",
+            "versionCode": 23
+          },
+          {
+            "fileType": 0,
+            "size": "192869",
+            "versionCode": 23
+          }
+        ],
+        "hasInstantLink": true,
+        "installationSize": "6101245",
+        "numDownloads": "5,000+ downloads",
+        "packageName": "ccc71.kt",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.WAKE_LOCK",
+          "com.android.vending.BILLING"
+        ],
+        "recentChangesHtml": "Fix missing text in translation screen",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false,
+          "testingProgramEmail": "3c@3c71.com"
+        },
+        "unstable": false,
+        "uploadDate": "14 Jul 2020",
+        "versionCode": 23,
+        "versionString": "1.0.9"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=ccc71.kt",
+    "docType": 1,
+    "docid": "ccc71.kt",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://lh3.googleusercontent.com/tDSZBpDGXKArnz_Bhyh8onK2bZy0jwHWLbdcEZqborCVt-3ch0R6mJVAa-bHcnm0I1s",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://lh3.googleusercontent.com/6vqTFZ_JAkB0LcG0lkkceLXLBU6hFkf7Eg2FVGmk9XuOIEm8Rh6XjCv4YClg0_ivIdU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2405,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/rXpyOc8kSfp5stU8yS6WDGhNrdNqepHE5176hiiRruFKFugeI1GAcGMo3EXziW2q6us",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2484,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/ccQcPNFK0tTSvkQFFW6nt9CblhVyMM6PVp0WH0GHFydI0xxAz38hL_rN9FON9_k4xQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2152,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/2x3cp0JgKccSyEP17X1PSCpXSyrkMPG3ZuMx2NGtaKmKfj_DtAbIhLtOWQJqZyXkBQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1055,
+          "width": 1920
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/CHMvF38bY3SaE2rNpHAKf4bUZKxUPuTK0Gs1e8aWx_QhiVVfaDd1GBIpDwBFvbtLzZE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1054,
+          "width": 1920
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/GQAst0LEhQs7t--xxuMN9L7Ai0vqaQZBrdx5OzRJ9NsF7RgAgB1NMwSJ0pTQHXPU74M",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1058,
+          "width": 1920
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/hrHfrPdyaXHYMWun14MCklpf9H4UgFJSzNt_w5ol3nCaeHO9zBKBUIA-0y9KHirnLOE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1051,
+          "width": 1920
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/FNJBlP1v6M8JoM663BnY46l23c1GBxRahNqW0bTKbSjuvVnoLkqPquV4AvGkG0NRqV0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1054,
+          "width": 1920
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/Ob565bSORn6qb2f_XwqSP_rRAE9eKFQAlOTGzuMM-lGCtVUEcFc-E7eSVuP77LggGKvh",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1057,
+          "width": 1920
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/TF8FiRidVQNgbSdfvDr28z4tZ40IGD-WHJWRmWqeCcyYJSyEOuwoKmVXxr78qCg3uV0",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://3c71.com/policy",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://lh3.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "In-app purchases<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=ccc71.kt",
+    "reviewsUrl": "rev?doc=ccc71.kt&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=ccc71.kt",
+    "title": "3C Kernel Tweaker (root)",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "\u20ac0.59 \u2013 \u20ac4.99 per item"
+          },
+          "label": "In-app purchases"
+        },
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "3c@3c71.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "721 Av G\u00e9n\u00e9ral de Gaulle<br/>06700 Saint Laurent du Var<br/>FRANCE"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "19 Jul 2019"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "11",
+      "fiveStarRatings": "23",
+      "fourStarRatings": "4",
+      "oneStarRatings": "1",
+      "ratingsCount": "29",
+      "starRating": 4.6551723,
+      "threeStarRatings": "1",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-07-28 15:50:22.295357",
+    "backendDocid": "ccc71.kt",
+    "backendId": 3,
+    "creator": "3c",
+    "descriptionHtml": "A simple app to tweak various kernel settings on your rooted Android device. Requires technical knowledge of Linux and Android.<br><br>\u2605 <b>Highly Configurable UI</b> allows you to transform the app into something you really like.<br><br>\u2605 Editing all kernel sysctl settings<br>\u2605 Configuring entropy (random generator, please be careful as it uses CPU)<br>\u2605 Setting SD read cache size, IO scheduler and syncing, when available<br>\u2605 Configuring OOM memory limits, when available<br>\u2605 Benchmark different SD read cache size for optimum performance<br><br><br>On custom kernels supporting it, you can configure:<br>\u2605 Screen gamma settings<br>\u2605 Sound output<br>\u2605 Double-tap-to-wake<br>\u2605 Fast-charge<br>\u2605 Sweep-to-sleep<br>\u2605 Battery level eXtender (maximum charging %)<br>\u2605 Intelliplug<br><br>In-app purchase can be made to remove ads or unlock features.",
+    "descriptionShort": "Tweak stock and custom kernels",
+    "details": {
+      "appDetails": {
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "5928665",
+          "unknown3": 29
+        },
+        "developerAddress": "721 Av G\u00e9n\u00e9ral de Gaulle<br/>06700 Saint Laurent du Var<br/>FRANCE",
+        "developerEmail": "3c@3c71.com",
+        "developerName": "3c",
+        "developerWebsite": "https://3c71.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "4806932",
+            "versionCode": 25
+          },
+          {
+            "fileType": 0,
+            "size": "928864",
+            "versionCode": 25
+          },
+          {
+            "fileType": 0,
+            "size": "192869",
+            "versionCode": 25
+          }
+        ],
+        "hasInstantLink": true,
+        "installationSize": "5928665",
+        "numDownloads": "5,000+ downloads",
+        "packageName": "ccc71.kt",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.WAKE_LOCK",
+          "com.android.vending.BILLING"
+        ],
+        "recentChangesHtml": "Rename to 3C System Manager<br>Reorganize tabs, remove obsolete SD Mover",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false,
+          "testingProgramEmail": "3c@3c71.com"
+        },
+        "unstable": false,
+        "uploadDate": "27 Jul 2020",
+        "versionCode": 25,
+        "versionString": "1.1.0a"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=ccc71.kt",
+    "docType": 1,
+    "docid": "ccc71.kt",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://lh3.googleusercontent.com/tDSZBpDGXKArnz_Bhyh8onK2bZy0jwHWLbdcEZqborCVt-3ch0R6mJVAa-bHcnm0I1s",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://lh3.googleusercontent.com/6vqTFZ_JAkB0LcG0lkkceLXLBU6hFkf7Eg2FVGmk9XuOIEm8Rh6XjCv4YClg0_ivIdU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2405,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/rXpyOc8kSfp5stU8yS6WDGhNrdNqepHE5176hiiRruFKFugeI1GAcGMo3EXziW2q6us",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2484,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/ccQcPNFK0tTSvkQFFW6nt9CblhVyMM6PVp0WH0GHFydI0xxAz38hL_rN9FON9_k4xQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2152,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/2x3cp0JgKccSyEP17X1PSCpXSyrkMPG3ZuMx2NGtaKmKfj_DtAbIhLtOWQJqZyXkBQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1055,
+          "width": 1920
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/CHMvF38bY3SaE2rNpHAKf4bUZKxUPuTK0Gs1e8aWx_QhiVVfaDd1GBIpDwBFvbtLzZE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1054,
+          "width": 1920
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/GQAst0LEhQs7t--xxuMN9L7Ai0vqaQZBrdx5OzRJ9NsF7RgAgB1NMwSJ0pTQHXPU74M",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1058,
+          "width": 1920
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/hrHfrPdyaXHYMWun14MCklpf9H4UgFJSzNt_w5ol3nCaeHO9zBKBUIA-0y9KHirnLOE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1051,
+          "width": 1920
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/FNJBlP1v6M8JoM663BnY46l23c1GBxRahNqW0bTKbSjuvVnoLkqPquV4AvGkG0NRqV0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1054,
+          "width": 1920
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/Ob565bSORn6qb2f_XwqSP_rRAE9eKFQAlOTGzuMM-lGCtVUEcFc-E7eSVuP77LggGKvh",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1057,
+          "width": 1920
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/TF8FiRidVQNgbSdfvDr28z4tZ40IGD-WHJWRmWqeCcyYJSyEOuwoKmVXxr78qCg3uV0",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://3c71.com/policy",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://lh3.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "In-app purchases<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=ccc71.kt",
+    "reviewsUrl": "rev?doc=ccc71.kt&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=ccc71.kt",
+    "title": "3C System Manager (root)",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "\u20ac0.59 \u2013 \u20ac4.99 per item"
+          },
+          "label": "In-app purchases"
+        },
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "3c@3c71.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "721 Av G\u00e9n\u00e9ral de Gaulle<br/>06700 Saint Laurent du Var<br/>FRANCE"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "19 Jul 2019"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "12",
+      "fiveStarRatings": "23",
+      "fourStarRatings": "5",
+      "oneStarRatings": "1",
+      "ratingsCount": "31",
+      "starRating": 4.548387,
+      "threeStarRatings": "1",
+      "twoStarRatings": "1",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-08-27 09:03:55.506532",
+    "backendDocid": "ccc71.kt",
+    "backendId": 3,
+    "creator": "3c",
+    "descriptionHtml": "A simple app to tweak various kernel settings on your rooted Android device. Requires technical knowledge of Linux and Android.<br><br>\u2605 <b>Highly Configurable UI</b> allows you to transform the app into something you really like.<br><br>\u2605 Editing all kernel sysctl settings<br>\u2605 Configuring entropy (random generator, please be careful as it uses CPU)<br>\u2605 Setting SD read cache size, IO scheduler and syncing, when available<br>\u2605 Configuring OOM memory limits, when available<br>\u2605 Benchmark different SD read cache size for optimum performance<br><br><br>On custom kernels supporting it, you can configure:<br>\u2605 Screen gamma settings<br>\u2605 Sound output<br>\u2605 Double-tap-to-wake<br>\u2605 Fast-charge<br>\u2605 Sweep-to-sleep<br>\u2605 Battery level eXtender (maximum charging %)<br>\u2605 Intelliplug<br><br>In-app purchase can be made to remove ads or unlock features.",
+    "descriptionShort": "Tweak stock and custom kernels",
+    "details": {
+      "appDetails": {
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "6165017",
+          "unknown3": 29
+        },
+        "developerAddress": "721 Av G\u00e9n\u00e9ral de Gaulle<br/>06700 Saint Laurent du Var<br/>FRANCE",
+        "developerEmail": "3c@3c71.com",
+        "developerName": "3c",
+        "developerWebsite": "https://3c71.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "5043284",
+            "versionCode": 27
+          },
+          {
+            "fileType": 0,
+            "size": "928864",
+            "versionCode": 27
+          },
+          {
+            "fileType": 0,
+            "size": "192869",
+            "versionCode": 27
+          }
+        ],
+        "hasInstantLink": true,
+        "installationSize": "6165017",
+        "numDownloads": "5,000+ downloads",
+        "packageName": "ccc71.kt",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.WAKE_LOCK",
+          "com.android.vending.BILLING"
+        ],
+        "recentChangesHtml": "Fix storage access and import/export on Android 10+ (required to support new Play Store restrictions)",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false,
+          "testingProgramEmail": "3c@3c71.com"
+        },
+        "unstable": false,
+        "uploadDate": "22 Aug 2020",
+        "versionCode": 27,
+        "versionString": "1.1.1"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=ccc71.kt",
+    "docType": 1,
+    "docid": "ccc71.kt",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/tDSZBpDGXKArnz_Bhyh8onK2bZy0jwHWLbdcEZqborCVt-3ch0R6mJVAa-bHcnm0I1s",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/6vqTFZ_JAkB0LcG0lkkceLXLBU6hFkf7Eg2FVGmk9XuOIEm8Rh6XjCv4YClg0_ivIdU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2405,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/rXpyOc8kSfp5stU8yS6WDGhNrdNqepHE5176hiiRruFKFugeI1GAcGMo3EXziW2q6us",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2484,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ccQcPNFK0tTSvkQFFW6nt9CblhVyMM6PVp0WH0GHFydI0xxAz38hL_rN9FON9_k4xQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2152,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/2x3cp0JgKccSyEP17X1PSCpXSyrkMPG3ZuMx2NGtaKmKfj_DtAbIhLtOWQJqZyXkBQ",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://3c71.com/policy",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "In-app purchases<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=ccc71.kt",
+    "reviewsUrl": "rev?doc=ccc71.kt&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=ccc71.kt",
+    "title": "3C System Manager (root)",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "\u20ac0.59 \u2013 \u20ac4.99 per item"
+          },
+          "label": "In-app purchases"
+        },
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "3c@3c71.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "721 Av G\u00e9n\u00e9ral de Gaulle<br/>06700 Saint Laurent du Var<br/>FRANCE"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "19 Jul 2019"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "18",
+      "fiveStarRatings": "29",
+      "fourStarRatings": "6",
+      "oneStarRatings": "2",
+      "ratingsCount": "40",
+      "starRating": 4.5,
+      "threeStarRatings": "3",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-10-04 09:20:29.297856",
+    "backendDocid": "ccc71.kt",
+    "backendId": 3,
+    "creator": "3c",
+    "descriptionHtml": "A simple app to tweak various kernel settings on your rooted Android device. Requires technical knowledge of Linux and Android.<br><br>\u2605 <b>Highly Configurable UI</b> allows you to transform the app into something you really like.<br><br>\u2605 Editing all kernel sysctl settings<br>\u2605 Configuring entropy (random generator, please be careful as it uses CPU)<br>\u2605 Setting SD read cache size, IO scheduler and syncing, when available<br>\u2605 Configuring OOM memory limits, when available<br>\u2605 Benchmark different SD read cache size for optimum performance<br><br><br>On custom kernels supporting it, you can configure:<br>\u2605 Screen gamma settings<br>\u2605 Sound output<br>\u2605 Double-tap-to-wake<br>\u2605 Fast-charge<br>\u2605 Sweep-to-sleep<br>\u2605 Battery level eXtender (maximum charging %)<br>\u2605 Intelliplug<br><br>In-app purchase can be made to remove ads or unlock features.",
+    "descriptionShort": "Tweak stock and custom kernels",
+    "details": {
+      "appDetails": {
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "6222778",
+          "unknown3": 29
+        },
+        "developerAddress": "721 Av G\u00e9n\u00e9ral de Gaulle<br/>06700 Saint Laurent du Var<br/>FRANCE",
+        "developerEmail": "3c@3c71.com",
+        "developerName": "3c",
+        "developerWebsite": "https://3c71.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "5072197",
+            "versionCode": 29
+          },
+          {
+            "fileType": 0,
+            "size": "957712",
+            "versionCode": 29
+          },
+          {
+            "fileType": 0,
+            "size": "192869",
+            "versionCode": 29
+          }
+        ],
+        "hasInstantLink": true,
+        "installationSize": "6222778",
+        "numDownloads": "5,000+ downloads",
+        "packageName": "ccc71.kt",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.WAKE_LOCK",
+          "com.android.vending.BILLING"
+        ],
+        "recentChangesHtml": "Various enhancements to improve user experience",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false,
+          "testingProgramEmail": "3c@3c71.com"
+        },
+        "unstable": false,
+        "uploadDate": "2 Oct 2020",
+        "versionCode": 29,
+        "versionString": "1.1.2a"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=ccc71.kt",
+    "docType": 1,
+    "docid": "ccc71.kt",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://lh3.googleusercontent.com/tDSZBpDGXKArnz_Bhyh8onK2bZy0jwHWLbdcEZqborCVt-3ch0R6mJVAa-bHcnm0I1s",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://lh3.googleusercontent.com/6vqTFZ_JAkB0LcG0lkkceLXLBU6hFkf7Eg2FVGmk9XuOIEm8Rh6XjCv4YClg0_ivIdU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2405,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/rXpyOc8kSfp5stU8yS6WDGhNrdNqepHE5176hiiRruFKFugeI1GAcGMo3EXziW2q6us",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2484,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/ccQcPNFK0tTSvkQFFW6nt9CblhVyMM6PVp0WH0GHFydI0xxAz38hL_rN9FON9_k4xQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2152,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/2x3cp0JgKccSyEP17X1PSCpXSyrkMPG3ZuMx2NGtaKmKfj_DtAbIhLtOWQJqZyXkBQ",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://3c71.com/policy",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "In-app purchases<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=ccc71.kt",
+    "reviewsUrl": "rev?doc=ccc71.kt&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=ccc71.kt",
+    "title": "3C System Manager (root)",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "\u20ac0.59 \u2013 \u20ac4.99 per item"
+          },
+          "label": "In-app purchases"
+        },
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "3c@3c71.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "721 Av G\u00e9n\u00e9ral de Gaulle<br/>06700 Saint Laurent du Var<br/>FRANCE"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "19 Jul 2019"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "18",
+      "fiveStarRatings": "29",
+      "fourStarRatings": "6",
+      "oneStarRatings": "2",
+      "ratingsCount": "40",
+      "starRating": 4.5,
+      "threeStarRatings": "3",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-10-16 06:17:32.761840",
+    "backendDocid": "ccc71.kt",
+    "backendId": 3,
+    "creator": "3c",
+    "descriptionHtml": "A simple app to tweak various kernel settings on your rooted Android device. Requires technical knowledge of Linux and Android.<br><br>\u2605 <b>Highly Configurable UI</b> allows you to transform the app into something you really like.<br><br>\u2605 Editing all kernel sysctl settings<br>\u2605 Configuring entropy (random generator, please be careful as it uses CPU)<br>\u2605 Setting SD read cache size, IO scheduler and syncing, when available<br>\u2605 Configuring OOM memory limits, when available<br>\u2605 Benchmark different SD read cache size for optimum performance<br><br><br>On custom kernels supporting it, you can configure:<br>\u2605 Screen gamma settings<br>\u2605 Sound output<br>\u2605 Double-tap-to-wake<br>\u2605 Fast-charge<br>\u2605 Sweep-to-sleep<br>\u2605 Battery level eXtender (maximum charging %)<br>\u2605 Intelliplug<br><br>In-app purchase can be made to remove ads or unlock features.",
+    "descriptionShort": "Tweak stock and custom kernels",
+    "details": {
+      "appDetails": {
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "6173926",
+          "unknown3": 29
+        },
+        "developerAddress": "721 Av G\u00e9n\u00e9ral de Gaulle<br/>06700 Saint Laurent du Var<br/>FRANCE",
+        "developerEmail": "3c@3c71.com",
+        "developerName": "3c",
+        "developerWebsite": "https://3c71.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "5023345",
+            "versionCode": 30
+          },
+          {
+            "fileType": 0,
+            "size": "957712",
+            "versionCode": 30
+          },
+          {
+            "fileType": 0,
+            "size": "192869",
+            "versionCode": 30
+          }
+        ],
+        "hasInstantLink": true,
+        "installationSize": "6173926",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "ccc71.kt",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.WAKE_LOCK",
+          "com.android.vending.BILLING"
+        ],
+        "recentChangesHtml": "Improve OOM tab stopping individual app groups",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false,
+          "testingProgramEmail": "3c@3c71.com"
+        },
+        "unstable": false,
+        "uploadDate": "14 Oct 2020",
+        "versionCode": 30,
+        "versionString": "1.1.3"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=ccc71.kt",
+    "docType": 1,
+    "docid": "ccc71.kt",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://lh3.googleusercontent.com/tDSZBpDGXKArnz_Bhyh8onK2bZy0jwHWLbdcEZqborCVt-3ch0R6mJVAa-bHcnm0I1s",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://lh3.googleusercontent.com/6vqTFZ_JAkB0LcG0lkkceLXLBU6hFkf7Eg2FVGmk9XuOIEm8Rh6XjCv4YClg0_ivIdU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2405,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/rXpyOc8kSfp5stU8yS6WDGhNrdNqepHE5176hiiRruFKFugeI1GAcGMo3EXziW2q6us",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2484,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/ccQcPNFK0tTSvkQFFW6nt9CblhVyMM6PVp0WH0GHFydI0xxAz38hL_rN9FON9_k4xQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2152,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/2x3cp0JgKccSyEP17X1PSCpXSyrkMPG3ZuMx2NGtaKmKfj_DtAbIhLtOWQJqZyXkBQ",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://3c71.com/policy",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "In-app purchases<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=ccc71.kt",
+    "reviewsUrl": "rev?doc=ccc71.kt&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=ccc71.kt",
+    "title": "3C System Manager (root)",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "\u20ac0.59 \u2013 \u20ac4.99 per item"
+          },
+          "label": "In-app purchases"
+        },
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "3c@3c71.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "721 Av G\u00e9n\u00e9ral de Gaulle<br/>06700 Saint Laurent du Var<br/>FRANCE"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "19 Jul 2019"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "20",
+      "fiveStarRatings": "35",
+      "fourStarRatings": "6",
+      "oneStarRatings": "4",
+      "ratingsCount": "49",
+      "starRating": 4.387755,
+      "threeStarRatings": "4",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-11-19 01:59:18.923023",
+    "backendDocid": "ccc71.kt",
+    "backendId": 3,
+    "creator": "3c",
+    "descriptionHtml": "A simple app to tweak various kernel settings on your rooted Android device. Requires technical knowledge of Linux and Android.<br><br>\u2605 <b>Highly Configurable UI</b> allows you to transform the app into something you really like.<br><br>\u2605 Editing all kernel sysctl settings<br>\u2605 Configuring entropy (random generator, please be careful as it uses CPU)<br>\u2605 Setting SD read cache size, IO scheduler and syncing, when available<br>\u2605 Configuring OOM memory limits, when available<br>\u2605 Benchmark different SD read cache size for optimum performance<br><br><br>On custom kernels supporting it, you can configure:<br>\u2605 Screen gamma settings<br>\u2605 Sound output<br>\u2605 Double-tap-to-wake<br>\u2605 Fast-charge<br>\u2605 Sweep-to-sleep<br>\u2605 Battery level eXtender (maximum charging %)<br>\u2605 Intelliplug<br><br>In-app purchase can be made to remove ads or unlock features.",
+    "descriptionShort": "Tweak stock and custom kernels",
+    "details": {
+      "appDetails": {
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "unknown2": "4879847",
+          "unknown3": 29
+        },
+        "developerAddress": "721 Av G\u00e9n\u00e9ral de Gaulle<br/>06700 Saint Laurent du Var<br/>FRANCE",
+        "developerEmail": "3c@3c71.com",
+        "developerName": "3c",
+        "developerWebsite": "https://3c71.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "3724878",
+            "versionCode": 31
+          },
+          {
+            "fileType": 0,
+            "size": "957941",
+            "versionCode": 31
+          },
+          {
+            "fileType": 0,
+            "size": "197028",
+            "versionCode": 31
+          }
+        ],
+        "hasInstantLink": true,
+        "installationSize": "4879847",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "ccc71.kt",
+        "permission": [
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "com.android.vending.BILLING"
+        ],
+        "recentChangesHtml": "Remove all ads possibly causing CPU drain<br>New notification packs to display memory and storage information",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false,
+          "testingProgramEmail": "3c@3c71.com"
+        },
+        "unstable": false,
+        "uploadDate": "13 Nov 2020",
+        "versionCode": 31,
+        "versionString": "1.1.4"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=ccc71.kt",
+    "docType": 1,
+    "docid": "ccc71.kt",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/tDSZBpDGXKArnz_Bhyh8onK2bZy0jwHWLbdcEZqborCVt-3ch0R6mJVAa-bHcnm0I1s",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/6vqTFZ_JAkB0LcG0lkkceLXLBU6hFkf7Eg2FVGmk9XuOIEm8Rh6XjCv4YClg0_ivIdU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2405,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/rXpyOc8kSfp5stU8yS6WDGhNrdNqepHE5176hiiRruFKFugeI1GAcGMo3EXziW2q6us",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2484,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ccQcPNFK0tTSvkQFFW6nt9CblhVyMM6PVp0WH0GHFydI0xxAz38hL_rN9FON9_k4xQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2152,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/2x3cp0JgKccSyEP17X1PSCpXSyrkMPG3ZuMx2NGtaKmKfj_DtAbIhLtOWQJqZyXkBQ",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://3c71.com/policy",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "In-app purchases<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=ccc71.kt",
+    "reviewsUrl": "rev?doc=ccc71.kt&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=ccc71.kt",
+    "title": "3C System Manager (root)",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "\u20ac0.59 \u2013 \u20ac4.99 per item"
+          },
+          "label": "In-app purchases"
+        },
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "3c@3c71.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "721 Av G\u00e9n\u00e9ral de Gaulle<br/>06700 Saint Laurent du Var<br/>FRANCE"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "19 Jul 2019"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "21",
+      "fiveStarRatings": "38",
+      "fourStarRatings": "8",
+      "oneStarRatings": "4",
+      "ratingsCount": "54",
+      "starRating": 4.4074073,
+      "threeStarRatings": "4",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-01-02 22:07:15.925547",
+    "backendDocid": "ccc71.kt",
+    "backendId": 3,
+    "creator": "3c",
+    "descriptionHtml": "A simple app to tweak various kernel settings on your rooted Android device. Requires technical knowledge of Linux and Android.<br><br>\u2605 <b>Highly Configurable UI</b> allows you to transform the app into something you really like.<br><br>\u2605 Editing all kernel sysctl settings<br>\u2605 Configuring entropy (random generator, please be careful as it uses CPU)<br>\u2605 Setting SD read cache size, IO scheduler and syncing, when available<br>\u2605 Configuring OOM memory limits, when available<br>\u2605 Benchmark different SD read cache size for optimum performance<br><br><br>On custom kernels supporting it, you can configure:<br>\u2605 Screen gamma settings<br>\u2605 Sound output<br>\u2605 Double-tap-to-wake<br>\u2605 Fast-charge<br>\u2605 Sweep-to-sleep<br>\u2605 Battery level eXtender (maximum charging %)<br>\u2605 Intelliplug<br><br>In-app purchase can be made to remove ads or unlock features.",
+    "descriptionShort": "Tweak stock and custom kernels",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown2": "4879934",
+          "unknown3": 29
+        },
+        "developerAddress": "721 Av G\u00e9n\u00e9ral de Gaulle<br/>06700 Saint Laurent du Var<br/>FRANCE",
+        "developerEmail": "3c@3c71.com",
+        "developerName": "3c",
+        "developerWebsite": "https://3c71.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "3724965",
+            "versionCode": 32
+          },
+          {
+            "fileType": 0,
+            "size": "957941",
+            "versionCode": 32
+          },
+          {
+            "fileType": 0,
+            "size": "197028",
+            "versionCode": 32
+          }
+        ],
+        "hasInstantLink": true,
+        "installationSize": "4879934",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "ccc71.kt",
+        "permission": [
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "com.android.vending.BILLING"
+        ],
+        "recentChangesHtml": "Various enhancements to improve user experience",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false,
+          "testingProgramEmail": "3c@3c71.com"
+        },
+        "unstable": false,
+        "uploadDate": "1 Jan 2021",
+        "versionCode": 32,
+        "versionString": "1.1.5"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=ccc71.kt",
+    "docType": 1,
+    "docid": "ccc71.kt",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/tDSZBpDGXKArnz_Bhyh8onK2bZy0jwHWLbdcEZqborCVt-3ch0R6mJVAa-bHcnm0I1s",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/6vqTFZ_JAkB0LcG0lkkceLXLBU6hFkf7Eg2FVGmk9XuOIEm8Rh6XjCv4YClg0_ivIdU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2405,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/rXpyOc8kSfp5stU8yS6WDGhNrdNqepHE5176hiiRruFKFugeI1GAcGMo3EXziW2q6us",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2484,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ccQcPNFK0tTSvkQFFW6nt9CblhVyMM6PVp0WH0GHFydI0xxAz38hL_rN9FON9_k4xQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2152,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/2x3cp0JgKccSyEP17X1PSCpXSyrkMPG3ZuMx2NGtaKmKfj_DtAbIhLtOWQJqZyXkBQ",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://3c71.com/policy",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "In-app purchases<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=ccc71.kt",
+    "reviewsUrl": "rev?doc=ccc71.kt&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=ccc71.kt",
+    "title": "3C System Manager (root)",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "\u20ac0.59 \u2013 \u20ac4.99 per item"
+          },
+          "label": "In-app purchases"
+        },
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "3c@3c71.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "721 Av G\u00e9n\u00e9ral de Gaulle<br/>06700 Saint Laurent du Var<br/>FRANCE"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "19 Jul 2019"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "24",
+      "fiveStarRatings": "44",
+      "fourStarRatings": "11",
+      "oneStarRatings": "5",
+      "ratingsCount": "65",
+      "starRating": 4.3692307,
+      "threeStarRatings": "5",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-02-03 11:52:35.529041",
+    "backendDocid": "ccc71.kt",
+    "backendId": 3,
+    "creator": "3c",
+    "descriptionHtml": "A simple app to tweak various kernel settings on your rooted Android device. Requires technical knowledge of Linux and Android.<br><br>\u2605 <b>Highly Configurable UI</b> allows you to transform the app into something you really like.<br><br>\u2605 Editing all kernel sysctl settings<br>\u2605 Configuring entropy (random generator, please be careful as it uses CPU)<br>\u2605 Setting SD read cache size, IO scheduler and syncing, when available<br>\u2605 Configuring OOM memory limits, when available<br>\u2605 Benchmark different SD read cache size for optimum performance<br><br><br>On custom kernels supporting it, you can configure:<br>\u2605 Screen gamma settings<br>\u2605 Sound output<br>\u2605 Double-tap-to-wake<br>\u2605 Fast-charge<br>\u2605 Sweep-to-sleep<br>\u2605 Battery level eXtender (maximum charging %)<br>\u2605 Intelliplug<br><br>In-app purchase can be made to remove ads or unlock features.",
+    "descriptionShort": "Tweak stock and custom kernels",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown2": "4892965",
+          "unknown3": 29
+        },
+        "developerAddress": "721 Av G\u00e9n\u00e9ral de Gaulle<br/>06700 Saint Laurent du Var<br/>FRANCE",
+        "developerEmail": "3c@3c71.com",
+        "developerName": "3c",
+        "developerWebsite": "https://3c71.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "3737749",
+            "versionCode": 34
+          },
+          {
+            "fileType": 0,
+            "size": "958188",
+            "versionCode": 34
+          },
+          {
+            "fileType": 0,
+            "size": "197028",
+            "versionCode": 34
+          }
+        ],
+        "hasInstantLink": true,
+        "installationSize": "4892965",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "ccc71.kt",
+        "permission": [
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.QUERY_ALL_PACKAGES",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "com.android.vending.BILLING"
+        ],
+        "recentChangesHtml": "Add new sysctl presets for Android 11<br>Hides OOM tab if not rooted nor using 3C Companion",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false,
+          "testingProgramEmail": "3c@3c71.com"
+        },
+        "unstable": false,
+        "uploadDate": "1 Feb 2021",
+        "versionCode": 34,
+        "versionString": "1.1.6a"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=ccc71.kt",
+    "docType": 1,
+    "docid": "ccc71.kt",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/tDSZBpDGXKArnz_Bhyh8onK2bZy0jwHWLbdcEZqborCVt-3ch0R6mJVAa-bHcnm0I1s",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/6vqTFZ_JAkB0LcG0lkkceLXLBU6hFkf7Eg2FVGmk9XuOIEm8Rh6XjCv4YClg0_ivIdU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2405,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/rXpyOc8kSfp5stU8yS6WDGhNrdNqepHE5176hiiRruFKFugeI1GAcGMo3EXziW2q6us",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2484,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ccQcPNFK0tTSvkQFFW6nt9CblhVyMM6PVp0WH0GHFydI0xxAz38hL_rN9FON9_k4xQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2152,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/2x3cp0JgKccSyEP17X1PSCpXSyrkMPG3ZuMx2NGtaKmKfj_DtAbIhLtOWQJqZyXkBQ",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://3c71.com/policy",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "In-app purchases<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=ccc71.kt",
+    "reviewsUrl": "rev?doc=ccc71.kt&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=ccc71.kt",
+    "title": "3C System Manager (root)",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "$0.99 \u2013 $5.49 per item"
+          },
+          "label": "In-app purchases"
+        },
+        {
+          "container": {
+            "value": "3c"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "3c@3c71.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "721 Av G\u00e9n\u00e9ral de Gaulle<br/>06700 Saint Laurent du Var<br/>FRANCE"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "19 Jul 2019"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "27",
+      "fiveStarRatings": "58",
+      "fourStarRatings": "12",
+      "oneStarRatings": "7",
+      "ratingsCount": "82",
+      "starRating": 4.390244,
+      "threeStarRatings": "5",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-04-12 11:36:12.070440",
+    "backendDocid": "ccc71.kt",
+    "backendId": 3,
+    "creator": "3c",
+    "descriptionHtml": "A simple app to tweak various kernel settings on your rooted Android device. Requires technical knowledge of Linux and Android.<br><br>\u2605 <b>Highly Configurable UI</b> allows you to transform the app into something you really like.<br><br>\u2605 Editing all kernel sysctl settings<br>\u2605 Configuring entropy (random generator, please be careful as it uses CPU)<br>\u2605 Setting SD read cache size, IO scheduler and syncing, when available<br>\u2605 Configuring OOM memory limits, when available<br>\u2605 Benchmark different SD read cache size for optimum performance<br><br><br>On custom kernels supporting it, you can configure:<br>\u2605 Screen gamma settings<br>\u2605 Sound output<br>\u2605 Double-tap-to-wake<br>\u2605 Fast-charge<br>\u2605 Sweep-to-sleep<br>\u2605 Battery level eXtender (maximum charging %)<br>\u2605 Intelliplug<br><br>In-app purchase can be made to remove ads or unlock features.",
+    "descriptionShort": "Tweak stock and custom kernels",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown2": "5008087",
+          "unknown3": 29
+        },
+        "developerAddress": "721 Av G\u00e9n\u00e9ral de Gaulle<br/>06700 Saint Laurent du Var<br/>FRANCE",
+        "developerEmail": "3c@3c71.com",
+        "developerName": "3c",
+        "developerWebsite": "https://3c71.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "3852871",
+            "versionCode": 35
+          },
+          {
+            "fileType": 0,
+            "size": "958188",
+            "versionCode": 35
+          },
+          {
+            "fileType": 0,
+            "size": "197028",
+            "versionCode": 35
+          }
+        ],
+        "hasInstantLink": true,
+        "installationSize": "5008087",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "ccc71.kt",
+        "permission": [
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.QUERY_ALL_PACKAGES",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "com.android.vending.BILLING"
+        ],
+        "recentChangesHtml": "Refactor all settings<br>Fix downloading some languages on Play Store",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": false,
+        "uploadDate": "11 Apr 2021",
+        "versionCode": 35,
+        "versionString": "1.1.7"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=ccc71.kt",
+    "docType": 1,
+    "docid": "ccc71.kt",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/tDSZBpDGXKArnz_Bhyh8onK2bZy0jwHWLbdcEZqborCVt-3ch0R6mJVAa-bHcnm0I1s",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/6vqTFZ_JAkB0LcG0lkkceLXLBU6hFkf7Eg2FVGmk9XuOIEm8Rh6XjCv4YClg0_ivIdU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2405,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/rXpyOc8kSfp5stU8yS6WDGhNrdNqepHE5176hiiRruFKFugeI1GAcGMo3EXziW2q6us",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2484,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ccQcPNFK0tTSvkQFFW6nt9CblhVyMM6PVp0WH0GHFydI0xxAz38hL_rN9FON9_k4xQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2152,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/2x3cp0JgKccSyEP17X1PSCpXSyrkMPG3ZuMx2NGtaKmKfj_DtAbIhLtOWQJqZyXkBQ",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://3c71.com/policy",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "In-app purchases<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=ccc71.kt",
+    "reviewsUrl": "rev?doc=ccc71.kt&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=ccc71.kt",
+    "title": "3C System Manager (root)",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "\u20ac0.59 \u2013 \u20ac4.99 per item"
+          },
+          "label": "In-app purchases"
+        },
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "3c@3c71.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "721 Av G\u00e9n\u00e9ral de Gaulle<br/>06700 Saint Laurent du Var<br/>FRANCE"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "19 Jul 2019"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "31",
+      "fiveStarRatings": "74",
+      "fourStarRatings": "17",
+      "oneStarRatings": "8",
+      "ratingsCount": "110",
+      "starRating": 4.35,
+      "threeStarRatings": "7",
+      "twoStarRatings": "1",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-08-25 00:55:56.492820",
+    "backendDocid": "ccc71.kt",
+    "backendId": 3,
+    "creator": "3c",
+    "descriptionHtml": "A simple app to tweak various kernel settings on your rooted Android device. Requires technical knowledge of Linux and Android.<br><br>\u2605 <b>Highly Configurable UI</b> allows you to transform the app into something you really like.<br><br>\u2605 Editing all kernel sysctl settings<br>\u2605 Configuring entropy (random generator, please be careful as it uses CPU)<br>\u2605 Setting SD read cache size, IO scheduler and syncing, when available<br>\u2605 Configuring OOM memory limits, when available<br>\u2605 Benchmark different SD read cache size for optimum performance<br><br><br>On custom kernels supporting it, you can configure:<br>\u2605 Screen gamma settings<br>\u2605 Sound output<br>\u2605 Double-tap-to-wake<br>\u2605 Fast-charge<br>\u2605 Sweep-to-sleep<br>\u2605 Battery level eXtender (maximum charging %)<br>\u2605 Intelliplug<br><br>In-app purchase can be made to remove ads or unlock features.",
+    "descriptionShort": "Tweak stock and custom kernels",
+    "details": {
+      "appDetails": {
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "7118692",
+          "unknown3": 29
+        },
+        "developerAddress": "721 Av G\u00e9n\u00e9ral de Gaulle<br/>06700 Saint Laurent du Var<br/>FRANCE",
+        "developerEmail": "3c@3c71.com",
+        "developerName": "3c",
+        "developerWebsite": "https://3c71.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "5969236",
+            "versionCode": 36
+          },
+          {
+            "fileType": 0,
+            "size": "952428",
+            "versionCode": 36
+          },
+          {
+            "fileType": 0,
+            "size": "197028",
+            "versionCode": 36
+          }
+        ],
+        "hasInstantLink": true,
+        "installationSize": "7118692",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "ccc71.kt",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.QUERY_ALL_PACKAGES",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.WAKE_LOCK",
+          "com.android.vending.BILLING"
+        ],
+        "recentChangesHtml": "Because of very low support, ads are back (unless previously removed)",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": false,
+        "uploadDate": "21 Aug 2021",
+        "versionCode": 36,
+        "versionString": "1.1.8"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=ccc71.kt",
+    "docType": 1,
+    "docid": "ccc71.kt",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/tDSZBpDGXKArnz_Bhyh8onK2bZy0jwHWLbdcEZqborCVt-3ch0R6mJVAa-bHcnm0I1s",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/6vqTFZ_JAkB0LcG0lkkceLXLBU6hFkf7Eg2FVGmk9XuOIEm8Rh6XjCv4YClg0_ivIdU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2405,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/rXpyOc8kSfp5stU8yS6WDGhNrdNqepHE5176hiiRruFKFugeI1GAcGMo3EXziW2q6us",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2484,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ccQcPNFK0tTSvkQFFW6nt9CblhVyMM6PVp0WH0GHFydI0xxAz38hL_rN9FON9_k4xQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2152,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/2x3cp0JgKccSyEP17X1PSCpXSyrkMPG3ZuMx2NGtaKmKfj_DtAbIhLtOWQJqZyXkBQ",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://3c71.com/policy",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "In-app purchases<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=ccc71.kt",
+    "reviewsUrl": "rev?doc=ccc71.kt&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=ccc71.kt",
+    "title": "3C System Manager (root)",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "\u20ac0.59 \u2013 \u20ac4.99 per item"
+          },
+          "label": "In-app purchases"
+        },
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "3c@3c71.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "721 Av G\u00e9n\u00e9ral de Gaulle<br/>06700 Saint Laurent du Var<br/>FRANCE"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "19 Jul 2019"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-05-04 02:11:36.755545",
+    "backendDocid": "ccc71.kt",
+    "backendId": 3,
+    "creator": "3c",
+    "descriptionHtml": "A simple app to tweak various kernel settings on your rooted Android device. Requires technical knowledge of Linux and Android.<br><br>\u2605 <b>Highly Configurable UI</b> allows you to transform the app into something you really like.<br><br>\u2605 Editing all kernel sysctl settings<br>\u2605 Configuring entropy (random generator, please be careful as it uses CPU)<br>\u2605 Setting SD read cache size, IO scheduler and syncing, when available<br>\u2605 Configuring OOM memory limits, when available<br>\u2605 Benchmark different SD read cache size for optimum performance<br><br>On custom kernels supporting it, you can configure:<br>\u2605 Screen gamma settings<br>\u2605 Sound output<br>\u2605 Double-tap-to-wake<br>\u2605 Fast-charge<br>\u2605 Sweep-to-sleep<br>\u2605 Battery level eXtender (maximum charging %)<br>\u2605 Intelliplug<br><br>In-app purchase can be made to remove ads or unlock features.",
+    "descriptionShort": "Tweak stock and custom kernels",
+    "details": {
+      "appDetails": {
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "6921588",
+          "unknown3": 30
+        },
+        "developerAddress": "721 Av G\u00e9n\u00e9ral de Gaulle<br/>06700 Saint Laurent du Var<br/>FRANCE",
+        "developerEmail": "3c@3c71.com",
+        "developerName": "3c",
+        "developerWebsite": "https://3c71.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "6175595",
+            "versionCode": 37
+          },
+          {
+            "fileType": 0,
+            "size": "548965",
+            "versionCode": 37
+          },
+          {
+            "fileType": 0,
+            "size": "197028",
+            "versionCode": 37
+          }
+        ],
+        "hasInstantLink": true,
+        "installationSize": "6921588",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "ccc71.kt",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.QUERY_ALL_PACKAGES",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.WAKE_LOCK",
+          "com.android.vending.BILLING",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": "Improves in-app purchases and donations mechanisms",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": false,
+        "uploadDate": "Apr 8, 2022",
+        "versionCode": 37,
+        "versionString": "1.1.9"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=ccc71.kt",
+    "docType": 1,
+    "docid": "ccc71.kt",
+    "image": [
+      {
+        "color": "#FDFDFD",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/tDSZBpDGXKArnz_Bhyh8onK2bZy0jwHWLbdcEZqborCVt-3ch0R6mJVAa-bHcnm0I1s",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#0588FE",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/6vqTFZ_JAkB0LcG0lkkceLXLBU6hFkf7Eg2FVGmk9XuOIEm8Rh6XjCv4YClg0_ivIdU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2405,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/rXpyOc8kSfp5stU8yS6WDGhNrdNqepHE5176hiiRruFKFugeI1GAcGMo3EXziW2q6us",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2484,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ccQcPNFK0tTSvkQFFW6nt9CblhVyMM6PVp0WH0GHFydI0xxAz38hL_rN9FON9_k4xQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2152,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/2x3cp0JgKccSyEP17X1PSCpXSyrkMPG3ZuMx2NGtaKmKfj_DtAbIhLtOWQJqZyXkBQ",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "CAD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://3c71.com/policy",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "In-app purchases<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=ccc71.kt",
+    "reviewsUrl": "rev?doc=ccc71.kt&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=ccc71.kt",
+    "title": "3C System Manager (root)",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "$0.99 \u2013 $7.49 per item"
+          },
+          "label": "In-app purchases"
+        },
+        {
+          "container": {
+            "value": "3c"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "3c@3c71.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "721 Av G\u00e9n\u00e9ral de Gaulle<br/>06700 Saint Laurent du Var<br/>FRANCE"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "Jul 19, 2019"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "6",
+      "fiveStarRatings": "81",
+      "fourStarRatings": "24",
+      "oneStarRatings": "12",
+      "ratingsCount": "130",
+      "starRating": 4.25,
+      "threeStarRatings": "12",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-06-14 08:22:45.423043",
+    "backendDocid": "ccc71.kt",
+    "backendId": 3,
+    "creator": "3c",
+    "descriptionHtml": "A simple app to tweak various kernel settings on your rooted Android device. Requires technical knowledge of Linux and Android.<br><br>\u2605 <b>Highly Configurable UI</b> allows you to transform the app into something you really like.<br><br>\u2605 Editing all kernel sysctl settings<br>\u2605 Configuring entropy (random generator, please be careful as it uses CPU)<br>\u2605 Setting SD read cache size, IO scheduler and syncing, when available<br>\u2605 Configuring OOM memory limits, when available<br>\u2605 Benchmark different SD read cache size for optimum performance<br><br>On custom kernels supporting it, you can configure:<br>\u2605 Screen gamma settings<br>\u2605 Sound output<br>\u2605 Double-tap-to-wake<br>\u2605 Fast-charge<br>\u2605 Sweep-to-sleep<br>\u2605 Battery level eXtender (maximum charging %)<br>\u2605 Intelliplug<br><br>In-app purchase can be made to remove ads or unlock features.",
+    "descriptionShort": "Tweak stock and custom kernels",
+    "details": {
+      "appDetails": {
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "6904292",
+          "unknown3": 30
+        },
+        "developerAddress": "721 Av G\u00e9n\u00e9ral de Gaulle<br/>06700 Saint Laurent du Var<br/>FRANCE",
+        "developerEmail": "3c@3c71.com",
+        "developerName": "3c",
+        "developerWebsite": "https://3c71.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "6158299",
+            "versionCode": 38
+          },
+          {
+            "fileType": 0,
+            "size": "548965",
+            "versionCode": 38
+          },
+          {
+            "fileType": 0,
+            "size": "197028",
+            "versionCode": 38
+          }
+        ],
+        "hasInstantLink": true,
+        "installationSize": "6904292",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "ccc71.kt",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.QUERY_ALL_PACKAGES",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.WAKE_LOCK",
+          "com.android.vending.BILLING",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": "Fix OOM cleaning on non rooted devices",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": false,
+        "uploadDate": "5 Jun 2022",
+        "versionCode": 38,
+        "versionString": "1.2.0"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=ccc71.kt",
+    "docType": 1,
+    "docid": "ccc71.kt",
+    "image": [
+      {
+        "color": "#FDFDFD",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/tDSZBpDGXKArnz_Bhyh8onK2bZy0jwHWLbdcEZqborCVt-3ch0R6mJVAa-bHcnm0I1s",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#0588FE",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/6vqTFZ_JAkB0LcG0lkkceLXLBU6hFkf7Eg2FVGmk9XuOIEm8Rh6XjCv4YClg0_ivIdU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2405,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/rXpyOc8kSfp5stU8yS6WDGhNrdNqepHE5176hiiRruFKFugeI1GAcGMo3EXziW2q6us",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2484,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ccQcPNFK0tTSvkQFFW6nt9CblhVyMM6PVp0WH0GHFydI0xxAz38hL_rN9FON9_k4xQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2152,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/2x3cp0JgKccSyEP17X1PSCpXSyrkMPG3ZuMx2NGtaKmKfj_DtAbIhLtOWQJqZyXkBQ",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://3c71.com/policy",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "In-app purchases<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=ccc71.kt",
+    "reviewsUrl": "rev?doc=ccc71.kt&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=ccc71.kt",
+    "title": "3C System Manager (root)",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "$0.99 \u2013 $5.49 per item"
+          },
+          "label": "In-app purchases"
+        },
+        {
+          "container": {
+            "value": "3c"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "3c@3c71.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "721 Av G\u00e9n\u00e9ral de Gaulle<br/>06700 Saint Laurent du Var<br/>FRANCE"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "19 Jul 2019"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-05-24 11:42:32.518186",
+    "backendDocid": "ccc71.kt",
+    "backendId": 3,
+    "creator": "3c",
+    "descriptionHtml": "A simple app to tweak various kernel settings on your rooted Android device. Requires technical knowledge of Linux and Android.<br><br>\u2605 <b>Highly Configurable UI</b> allows you to transform the app into something you really like.<br><br>\u2605 Editing all kernel sysctl settings<br>\u2605 Configuring entropy (random generator, please be careful as it uses CPU)<br>\u2605 Setting SD read cache size, IO scheduler and syncing, when available<br>\u2605 Configuring OOM memory limits, when available<br>\u2605 Benchmark different SD read cache size for optimum performance<br><br>On custom kernels supporting it, you can configure:<br>\u2605 Screen gamma settings<br>\u2605 Sound output<br>\u2605 Double-tap-to-wake<br>\u2605 Fast-charge<br>\u2605 Sweep-to-sleep<br>\u2605 Battery level eXtender (maximum charging %)<br>\u2605 Intelliplug<br><br>In-app purchase can be made to remove ads or unlock features.",
+    "descriptionShort": "Tweak stock and custom kernels",
+    "details": {
+      "appDetails": {
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "7247729",
+          "unknown3": 31
+        },
+        "developerAddress": "721 Av G\u00e9n\u00e9ral de Gaulle<br/>06700 Saint Laurent du Var<br/>FRANCE",
+        "developerEmail": "3c@3c71.com",
+        "developerName": "3c",
+        "developerWebsite": "https://3c71.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "6521445",
+            "versionCode": 39
+          },
+          {
+            "fileType": 0,
+            "size": "561888",
+            "versionCode": 39
+          },
+          {
+            "fileType": 0,
+            "size": "164396",
+            "versionCode": 39
+          }
+        ],
+        "hasInstantLink": true,
+        "installationSize": "7247729",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "ccc71.kt",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.QUERY_ALL_PACKAGES",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.WAKE_LOCK",
+          "ccc71.kt.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+          "com.android.vending.BILLING",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": "Various changes to improve user experience<br>Fix app settings export/import on Android 12+",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "20 May 2023",
+        "versionCode": 39,
+        "versionString": "1.2.1"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=ccc71.kt",
+    "docType": 1,
+    "docid": "ccc71.kt",
+    "image": [
+      {
+        "color": "#FDFDFD",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/tDSZBpDGXKArnz_Bhyh8onK2bZy0jwHWLbdcEZqborCVt-3ch0R6mJVAa-bHcnm0I1s",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#0588FE",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/6vqTFZ_JAkB0LcG0lkkceLXLBU6hFkf7Eg2FVGmk9XuOIEm8Rh6XjCv4YClg0_ivIdU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2405,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/rXpyOc8kSfp5stU8yS6WDGhNrdNqepHE5176hiiRruFKFugeI1GAcGMo3EXziW2q6us",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2484,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ccQcPNFK0tTSvkQFFW6nt9CblhVyMM6PVp0WH0GHFydI0xxAz38hL_rN9FON9_k4xQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2152,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/2x3cp0JgKccSyEP17X1PSCpXSyrkMPG3ZuMx2NGtaKmKfj_DtAbIhLtOWQJqZyXkBQ",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "GBP",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://3c71.com/policy",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "In-app purchases<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=ccc71.kt",
+    "reviewsUrl": "rev?doc=ccc71.kt&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=ccc71.kt",
+    "title": "3C System Manager (root)",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "\u00a30.59 \u2013 \u00a34.19 per item"
+          },
+          "label": "In-app purchases"
+        },
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "3c@3c71.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "721 Av G\u00e9n\u00e9ral de Gaulle<br/>06700 Saint Laurent du Var<br/>FRANCE"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "19 Jul 2019"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "10",
+      "fiveStarRatings": "91",
+      "fourStarRatings": "25",
+      "oneStarRatings": "7",
+      "ratingsCount": "135",
+      "starRating": 4.4324327,
+      "threeStarRatings": "10",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-07-03 02:45:29.858972",
+    "backendDocid": "ccc71.kt",
+    "backendId": 3,
+    "creator": "3c",
+    "descriptionHtml": "A simple app to tweak various kernel settings on your rooted Android device. Requires technical knowledge of Linux and Android.<br><br>\u2605 <b>Highly Configurable UI</b> allows you to transform the app into something you really like.<br><br>\u2605 Editing all kernel sysctl settings<br>\u2605 Configuring entropy (random generator, please be careful as it uses CPU)<br>\u2605 Setting SD read cache size, IO scheduler and syncing, when available<br>\u2605 Configuring OOM memory limits, when available<br>\u2605 Benchmark different SD read cache size for optimum performance<br><br>On custom kernels supporting it, you can configure:<br>\u2605 Screen gamma settings<br>\u2605 Sound output<br>\u2605 Double-tap-to-wake<br>\u2605 Fast-charge<br>\u2605 Sweep-to-sleep<br>\u2605 Battery level eXtender (maximum charging %)<br>\u2605 Intelliplug<br><br>In-app purchase can be made to remove ads or unlock features.",
+    "descriptionShort": "Tweak stock and custom kernels",
+    "details": {
+      "appDetails": {
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "version": 12451000
+            }
+          ],
+          "unknown2": "7174539",
+          "unknown3": 31
+        },
+        "developerAddress": "721 Av G\u00e9n\u00e9ral de Gaulle<br/>06700 Saint Laurent du Var<br/>FRANCE",
+        "developerEmail": "3c@3c71.com",
+        "developerName": "3c",
+        "developerWebsite": "https://3c71.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "6444159",
+            "versionCode": 41
+          },
+          {
+            "fileType": 0,
+            "size": "561888",
+            "versionCode": 41
+          },
+          {
+            "fileType": 0,
+            "size": "168492",
+            "versionCode": 41
+          }
+        ],
+        "hasInstantLink": true,
+        "installationSize": "7174539",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "ccc71.kt",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.QUERY_ALL_PACKAGES",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.WAKE_LOCK",
+          "ccc71.kt.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+          "com.android.vending.BILLING",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": "Update to handle upcoming mandatory icon packs<br>Implement mandatory Google-certified Consent Management Platform for EEA/UK users",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "2 Jul 2023",
+        "versionCode": 41,
+        "versionString": "1.2.2"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=ccc71.kt",
+    "docType": 1,
+    "docid": "ccc71.kt",
+    "image": [
+      {
+        "color": "#FDFDFD",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/tDSZBpDGXKArnz_Bhyh8onK2bZy0jwHWLbdcEZqborCVt-3ch0R6mJVAa-bHcnm0I1s",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#0588FE",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/6vqTFZ_JAkB0LcG0lkkceLXLBU6hFkf7Eg2FVGmk9XuOIEm8Rh6XjCv4YClg0_ivIdU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2405,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/rXpyOc8kSfp5stU8yS6WDGhNrdNqepHE5176hiiRruFKFugeI1GAcGMo3EXziW2q6us",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2484,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ccQcPNFK0tTSvkQFFW6nt9CblhVyMM6PVp0WH0GHFydI0xxAz38hL_rN9FON9_k4xQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2152,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/2x3cp0JgKccSyEP17X1PSCpXSyrkMPG3ZuMx2NGtaKmKfj_DtAbIhLtOWQJqZyXkBQ",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://3c71.com/policy",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "In-app purchases<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=ccc71.kt",
+    "reviewsUrl": "rev?doc=ccc71.kt&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=ccc71.kt",
+    "title": "3C System Manager (root)",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "$0.99 \u2013 $5.49 per item"
+          },
+          "label": "In-app purchases"
+        },
+        {
+          "container": {
+            "value": "3c"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "3c@3c71.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "721 Av G\u00e9n\u00e9ral de Gaulle<br/>06700 Saint Laurent du Var<br/>FRANCE"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "19 Jul 2019"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "40",
+      "fiveStarRatings": "104",
+      "fourStarRatings": "16",
+      "oneStarRatings": "9",
+      "ratingsCount": "139",
+      "starRating": 4.47,
+      "threeStarRatings": "6",
+      "twoStarRatings": "1",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-09-10 17:06:06.223789",
+    "backendDocid": "ccc71.kt",
+    "backendId": 3,
+    "creator": "3c",
+    "descriptionHtml": "A simple app to tweak various kernel settings on your rooted Android device. Requires technical knowledge of Linux and Android.<br><br>\u2605 <b>Highly Configurable UI</b> allows you to transform the app into something you really like.<br><br>\u2605 Editing all kernel sysctl settings<br>\u2605 Configuring entropy (random generator, please be careful as it uses CPU)<br>\u2605 Setting SD read cache size, IO scheduler and syncing, when available<br>\u2605 Configuring OOM memory limits, when available<br>\u2605 Benchmark different SD read cache size for optimum performance<br><br>On custom kernels supporting it, you can configure:<br>\u2605 Screen gamma settings<br>\u2605 Sound output<br>\u2605 Double-tap-to-wake<br>\u2605 Fast-charge<br>\u2605 Sweep-to-sleep<br>\u2605 Battery level eXtender (maximum charging %)<br>\u2605 Intelliplug<br><br>In-app purchase can be made to remove ads or unlock features.",
+    "descriptionShort": "Tweak stock and custom kernels",
+    "details": {
+      "appDetails": {
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "version": 12451000
+            }
+          ],
+          "unknown2": "7207388",
+          "unknown3": 33
+        },
+        "developerAddress": "721 Av G\u00e9n\u00e9ral de Gaulle<br/>06700 Saint Laurent du Var<br/>FRANCE",
+        "developerEmail": "3c@3c71.com",
+        "developerName": "3c",
+        "developerWebsite": "https://3c71.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "6444240",
+            "versionCode": 45
+          },
+          {
+            "fileType": 0,
+            "size": "561888",
+            "versionCode": 45
+          },
+          {
+            "fileType": 0,
+            "size": "201260",
+            "versionCode": 45
+          }
+        ],
+        "hasInstantLink": true,
+        "installationSize": "7207388",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "ccc71.kt",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.POST_NOTIFICATIONS",
+          "android.permission.QUERY_ALL_PACKAGES",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.WAKE_LOCK",
+          "ccc71.kt.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+          "com.android.vending.BILLING",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": "Mandatory Play Store update (target SDK)",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "20 Aug 2023",
+        "versionCode": 45,
+        "versionString": "1.2.4b"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=ccc71.kt",
+    "docType": 1,
+    "docid": "ccc71.kt",
+    "image": [
+      {
+        "color": "#FDFDFD",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/tDSZBpDGXKArnz_Bhyh8onK2bZy0jwHWLbdcEZqborCVt-3ch0R6mJVAa-bHcnm0I1s",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#0588FE",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/6vqTFZ_JAkB0LcG0lkkceLXLBU6hFkf7Eg2FVGmk9XuOIEm8Rh6XjCv4YClg0_ivIdU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2405,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/rXpyOc8kSfp5stU8yS6WDGhNrdNqepHE5176hiiRruFKFugeI1GAcGMo3EXziW2q6us",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2484,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ccQcPNFK0tTSvkQFFW6nt9CblhVyMM6PVp0WH0GHFydI0xxAz38hL_rN9FON9_k4xQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2152,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/2x3cp0JgKccSyEP17X1PSCpXSyrkMPG3ZuMx2NGtaKmKfj_DtAbIhLtOWQJqZyXkBQ",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://3c71.com/policy",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "In-app purchases<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=ccc71.kt",
+    "reviewsUrl": "rev?doc=ccc71.kt&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=ccc71.kt",
+    "title": "3C System Manager (root)",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "\u20ac0.59 \u2013 \u20ac4.99 per item"
+          },
+          "label": "In-app purchases"
+        },
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "3c@3c71.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "721 Av G\u00e9n\u00e9ral de Gaulle<br/>06700 Saint Laurent du Var<br/>FRANCE"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "19 Jul 2019"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-12-08 20:20:27.565888",
+    "backendDocid": "ccc71.kt",
+    "backendId": 3,
+    "creator": "3c",
+    "descriptionHtml": "A simple app to tweak various kernel settings on your rooted Android device. Requires technical knowledge of Linux and Android.<br><br>\u2605 <b>Highly Configurable UI</b> allows you to transform the app into something you really like.<br><br>\u2605 Editing all kernel sysctl settings<br>\u2605 Configuring entropy (random generator, please be careful as it uses CPU)<br>\u2605 Setting SD read cache size, IO scheduler and syncing, when available<br>\u2605 Configuring OOM memory limits, when available<br>\u2605 Benchmark different SD read cache size for optimum performance<br><br>On custom kernels supporting it, you can configure:<br>\u2605 Screen gamma settings<br>\u2605 Sound output<br>\u2605 Double-tap-to-wake<br>\u2605 Fast-charge<br>\u2605 Sweep-to-sleep<br>\u2605 Battery level eXtender (maximum charging %)<br>\u2605 Intelliplug<br><br>In-app purchase can be made to remove ads or unlock features.",
+    "descriptionShort": "Tweak stock and custom kernels",
+    "details": {
+      "appDetails": {
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "version": 12451000
+            }
+          ],
+          "unknown2": "9570886",
+          "unknown3": 33
+        },
+        "developerAddress": "721 Av G\u00e9n\u00e9ral de Gaulle<br/>06700 Saint Laurent du Var<br/>FRANCE",
+        "developerEmail": "3c@3c71.com",
+        "developerName": "3c",
+        "developerWebsite": "https://3c71.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "9570886",
+            "versionCode": 47
+          }
+        ],
+        "hasInstantLink": true,
+        "installationSize": "9570886",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "ccc71.kt",
+        "permission": [
+          "android.permission.ACCESS_ADSERVICES_AD_ID",
+          "android.permission.ACCESS_ADSERVICES_ATTRIBUTION",
+          "android.permission.ACCESS_ADSERVICES_TOPICS",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.POST_NOTIFICATIONS",
+          "android.permission.QUERY_ALL_PACKAGES",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.SCHEDULE_EXACT_ALARM",
+          "android.permission.WAKE_LOCK",
+          "ccc71.kt.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+          "com.android.vending.BILLING",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": "Improves background (if any) service restarts on Android 14",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "19 Nov 2023",
+        "versionCode": 47,
+        "versionString": "1.2.5a"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=ccc71.kt&vc=47",
+    "docType": 1,
+    "docid": "ccc71.kt",
+    "image": [
+      {
+        "color": "#FDFDFD",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/tDSZBpDGXKArnz_Bhyh8onK2bZy0jwHWLbdcEZqborCVt-3ch0R6mJVAa-bHcnm0I1s",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#0588FE",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/6vqTFZ_JAkB0LcG0lkkceLXLBU6hFkf7Eg2FVGmk9XuOIEm8Rh6XjCv4YClg0_ivIdU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2405,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/rXpyOc8kSfp5stU8yS6WDGhNrdNqepHE5176hiiRruFKFugeI1GAcGMo3EXziW2q6us",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2484,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ccQcPNFK0tTSvkQFFW6nt9CblhVyMM6PVp0WH0GHFydI0xxAz38hL_rN9FON9_k4xQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2152,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/2x3cp0JgKccSyEP17X1PSCpXSyrkMPG3ZuMx2NGtaKmKfj_DtAbIhLtOWQJqZyXkBQ",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://3c71.com/policy",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "In-app purchases<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=ccc71.kt",
+    "reviewsUrl": "rev?doc=ccc71.kt&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=ccc71.kt",
+    "title": "3C System Manager (root)\n1.2.5a",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "\u20ac0.59 \u2013 \u20ac4.99 if billed through Play"
+          },
+          "label": "In-app purchases"
+        },
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "3c@3c71.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "721 Av G\u00e9n\u00e9ral de Gaulle<br/>06700 Saint Laurent du Var<br/>FRANCE"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "19 Jul 2019"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-12-10 21:28:22.674306",
+    "backendDocid": "ccc71.kt",
+    "backendId": 3,
+    "creator": "3c",
+    "descriptionHtml": "A simple app to tweak various kernel settings on your rooted Android device. Requires technical knowledge of Linux and Android.<br><br>\u2605 <b>Highly Configurable UI</b> allows you to transform the app into something you really like.<br><br>\u2605 Editing all kernel sysctl settings<br>\u2605 Configuring entropy (random generator, please be careful as it uses CPU)<br>\u2605 Setting SD read cache size, IO scheduler and syncing, when available<br>\u2605 Configuring OOM memory limits, when available<br>\u2605 Benchmark different SD read cache size for optimum performance<br><br>On custom kernels supporting it, you can configure:<br>\u2605 Screen gamma settings<br>\u2605 Sound output<br>\u2605 Double-tap-to-wake<br>\u2605 Fast-charge<br>\u2605 Sweep-to-sleep<br>\u2605 Battery level eXtender (maximum charging %)<br>\u2605 Intelliplug<br><br>In-app purchase can be made to remove ads or unlock features.",
+    "descriptionShort": "Tweak stock and custom kernels",
+    "details": {
+      "appDetails": {
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "version": 12451000
+            }
+          ],
+          "unknown2": "7697315",
+          "unknown3": 28
+        },
+        "developerAddress": "721 Av G\u00e9n\u00e9ral de Gaulle<br/>06700 Saint Laurent du Var<br/>FRANCE",
+        "developerEmail": "3c@3c71.com",
+        "developerName": "3c",
+        "developerWebsite": "https://3c71.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "7697315",
+            "versionCode": 1
+          }
+        ],
+        "hasInstantLink": true,
+        "installationSize": "7697315",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "ccc71.kt",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.KILL_BACKGROUND_PROCESSES",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.RESTART_PACKAGES",
+          "android.permission.WAKE_LOCK",
+          "com.android.vending.BILLING"
+        ],
+        "recentChangesHtml": "Improves background (if any) service restarts on Android 14",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": true
+        },
+        "unstable": true,
+        "uploadDate": "30 Jun 2019",
+        "versionCode": 1,
+        "versionString": "0.1"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=ccc71.kt&vc=1",
+    "docType": 1,
+    "docid": "ccc71.kt",
+    "image": [
+      {
+        "color": "#FDFDFD",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/tDSZBpDGXKArnz_Bhyh8onK2bZy0jwHWLbdcEZqborCVt-3ch0R6mJVAa-bHcnm0I1s",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#0588FE",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/6vqTFZ_JAkB0LcG0lkkceLXLBU6hFkf7Eg2FVGmk9XuOIEm8Rh6XjCv4YClg0_ivIdU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2405,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/rXpyOc8kSfp5stU8yS6WDGhNrdNqepHE5176hiiRruFKFugeI1GAcGMo3EXziW2q6us",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2484,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ccQcPNFK0tTSvkQFFW6nt9CblhVyMM6PVp0WH0GHFydI0xxAz38hL_rN9FON9_k4xQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2152,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/2x3cp0JgKccSyEP17X1PSCpXSyrkMPG3ZuMx2NGtaKmKfj_DtAbIhLtOWQJqZyXkBQ",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://3c71.com/policy",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "In-app purchases<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=ccc71.kt",
+    "reviewsUrl": "rev?doc=ccc71.kt&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=ccc71.kt",
+    "title": "3C System Manager (root)\n0.1",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "\u20ac0.59 \u2013 \u20ac4.99 if billed through Play"
+          },
+          "label": "In-app purchases"
+        },
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "3c@3c71.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "721 Av G\u00e9n\u00e9ral de Gaulle<br/>06700 Saint Laurent du Var<br/>FRANCE"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "19 Jul 2019"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "46",
+      "fiveStarRatings": "116",
+      "fourStarRatings": "16",
+      "oneStarRatings": "7",
+      "ratingsCount": "153",
+      "starRating": 4.5247526,
+      "threeStarRatings": "10",
+      "twoStarRatings": "1",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2024-03-08 06:11:42.256431",
+    "backendDocid": "ccc71.kt",
+    "backendId": 3,
+    "creator": "3c",
+    "descriptionHtml": "A simple app to tweak various kernel settings on your rooted Android device. Requires technical knowledge of Linux and Android.<br><br>\u2605 <b>Highly Configurable UI</b> allows you to transform the app into something you really like.<br><br>\u2605 Editing all kernel sysctl settings<br>\u2605 Configuring entropy (random generator, please be careful as it uses CPU)<br>\u2605 Setting SD read cache size, IO scheduler and syncing, when available<br>\u2605 Configuring OOM memory limits, when available<br>\u2605 Benchmark different SD read cache size for optimum performance<br><br>On custom kernels supporting it, you can configure:<br>\u2605 Screen gamma settings<br>\u2605 Sound output<br>\u2605 Double-tap-to-wake<br>\u2605 Fast-charge<br>\u2605 Sweep-to-sleep<br>\u2605 Battery level eXtender (maximum charging %)<br>\u2605 Intelliplug<br><br>In-app purchase can be made to remove ads or unlock features.",
+    "descriptionShort": "Tweak stock and custom kernels",
+    "details": {
+      "appDetails": {
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "version": 12451000
+            }
+          ],
+          "unknown2": "7897646",
+          "unknown3": 33
+        },
+        "developerAddress": "721 Av G\u00e9n\u00e9ral de Gaulle<br/>06700 Saint Laurent du Var<br/>FRANCE",
+        "developerEmail": "3c@3c71.com",
+        "developerName": "3c",
+        "developerWebsite": "https://3c71.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "7122131",
+            "versionCode": 48
+          },
+          {
+            "fileType": 0,
+            "size": "574255",
+            "versionCode": 48
+          },
+          {
+            "fileType": 0,
+            "size": "201260",
+            "versionCode": 48
+          }
+        ],
+        "hasInstantLink": true,
+        "installationSize": "7897646",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "ccc71.kt",
+        "permission": [
+          "android.permission.ACCESS_ADSERVICES_AD_ID",
+          "android.permission.ACCESS_ADSERVICES_ATTRIBUTION",
+          "android.permission.ACCESS_ADSERVICES_TOPICS",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.POST_NOTIFICATIONS",
+          "android.permission.QUERY_ALL_PACKAGES",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.SCHEDULE_EXACT_ALARM",
+          "android.permission.WAKE_LOCK",
+          "ccc71.kt.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+          "com.android.vending.BILLING",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": "Rounded usage bars to improve look&#39;n&#39;feel<br>Add supports for themed app icon on Android 13+<br>You can now either unlock individual features permanently and/or support future developments through subscriptions, it&#39;s up-to-you!",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "3 Mar 2024",
+        "versionCode": 48,
+        "versionString": "1.2.6"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=ccc71.kt&vc=48",
+    "docType": 1,
+    "docid": "ccc71.kt",
+    "image": [
+      {
+        "color": "#FDFDFD",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/tDSZBpDGXKArnz_Bhyh8onK2bZy0jwHWLbdcEZqborCVt-3ch0R6mJVAa-bHcnm0I1s",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#0588FE",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/6vqTFZ_JAkB0LcG0lkkceLXLBU6hFkf7Eg2FVGmk9XuOIEm8Rh6XjCv4YClg0_ivIdU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2405,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/rXpyOc8kSfp5stU8yS6WDGhNrdNqepHE5176hiiRruFKFugeI1GAcGMo3EXziW2q6us",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2484,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ccQcPNFK0tTSvkQFFW6nt9CblhVyMM6PVp0WH0GHFydI0xxAz38hL_rN9FON9_k4xQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2152,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/2x3cp0JgKccSyEP17X1PSCpXSyrkMPG3ZuMx2NGtaKmKfj_DtAbIhLtOWQJqZyXkBQ",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://3c71.com/policy",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "In-app purchases<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=ccc71.kt",
+    "reviewsUrl": "rev?doc=ccc71.kt&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=ccc71.kt",
+    "title": "3C System Manager (root)\n1.2.6",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "\u20ac0.59 \u2013 \u20ac3.49 if billed through Play"
+          },
+          "label": "In-app purchases"
+        },
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "3c@3c71.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "721 Av G\u00e9n\u00e9ral de Gaulle<br/>06700 Saint Laurent du Var<br/>FRANCE"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "19 Jul 2019"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "48",
+      "fiveStarRatings": "118",
+      "fourStarRatings": "17",
+      "oneStarRatings": "11",
+      "ratingsCount": "158",
+      "starRating": 4.46,
+      "threeStarRatings": "9",
+      "twoStarRatings": "1",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2024-04-01 16:59:29.737946",
+    "backendDocid": "ccc71.kt",
+    "backendId": 3,
+    "creator": "3c",
+    "descriptionHtml": "A simple app to tweak various kernel settings on your rooted Android device. Requires technical knowledge of Linux and Android.<br><br>\u2605 <b>Highly Configurable UI</b> allows you to transform the app into something you really like.<br><br>\u2605 Editing all kernel sysctl settings<br>\u2605 Configuring entropy (random generator, please be careful as it uses CPU)<br>\u2605 Setting SD read cache size, IO scheduler and syncing, when available<br>\u2605 Configuring OOM memory limits, when available<br>\u2605 Benchmark different SD read cache size for optimum performance<br><br>On custom kernels supporting it, you can configure:<br>\u2605 Screen gamma settings<br>\u2605 Sound output<br>\u2605 Double-tap-to-wake<br>\u2605 Fast-charge<br>\u2605 Sweep-to-sleep<br>\u2605 Battery level eXtender (maximum charging %)<br>\u2605 Intelliplug<br><br>In-app purchase can be made to remove ads or unlock features.",
+    "descriptionShort": "Tweak stock and custom kernels",
+    "details": {
+      "appDetails": {
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "version": 12451000
+            }
+          ],
+          "unknown2": "7901661",
+          "unknown3": 33
+        },
+        "developerAddress": "721 Av G\u00e9n\u00e9ral de Gaulle<br/>06700 Saint Laurent du Var<br/>FRANCE",
+        "developerEmail": "3c@3c71.com",
+        "developerName": "3c",
+        "developerWebsite": "https://3c71.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "7126146",
+            "versionCode": 51
+          },
+          {
+            "fileType": 0,
+            "size": "574255",
+            "versionCode": 51
+          },
+          {
+            "fileType": 0,
+            "size": "201260",
+            "versionCode": 51
+          }
+        ],
+        "hasInstantLink": true,
+        "installationSize": "7901661",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "ccc71.kt",
+        "permission": [
+          "android.permission.ACCESS_ADSERVICES_AD_ID",
+          "android.permission.ACCESS_ADSERVICES_ATTRIBUTION",
+          "android.permission.ACCESS_ADSERVICES_TOPICS",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.POST_NOTIFICATIONS",
+          "android.permission.QUERY_ALL_PACKAGES",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.SCHEDULE_EXACT_ALARM",
+          "android.permission.WAKE_LOCK",
+          "ccc71.kt.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+          "com.android.vending.BILLING",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": "Ability to swipe down OOM list to refresh<br>Fix font possibly changing to very large if not set<br>Reorganize memory/oom/storage tabs into memory/storage/system<br>Fix loop if ads consent is not given and in-app purchase is made to remove ads",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "31 Mar 2024",
+        "versionCode": 51,
+        "versionString": "1.2.7a"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=ccc71.kt&vc=51",
+    "docType": 1,
+    "docid": "ccc71.kt",
+    "image": [
+      {
+        "color": "#FDFDFD",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/tDSZBpDGXKArnz_Bhyh8onK2bZy0jwHWLbdcEZqborCVt-3ch0R6mJVAa-bHcnm0I1s",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#0588FE",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/6vqTFZ_JAkB0LcG0lkkceLXLBU6hFkf7Eg2FVGmk9XuOIEm8Rh6XjCv4YClg0_ivIdU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2405,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/rXpyOc8kSfp5stU8yS6WDGhNrdNqepHE5176hiiRruFKFugeI1GAcGMo3EXziW2q6us",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2484,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ccQcPNFK0tTSvkQFFW6nt9CblhVyMM6PVp0WH0GHFydI0xxAz38hL_rN9FON9_k4xQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2152,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/2x3cp0JgKccSyEP17X1PSCpXSyrkMPG3ZuMx2NGtaKmKfj_DtAbIhLtOWQJqZyXkBQ",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://3c71.com/policy",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "In-app purchases<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=ccc71.kt",
+    "reviewsUrl": "rev?doc=ccc71.kt&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=ccc71.kt",
+    "title": "3C System Manager (root)\n1.2.7a",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "\u20ac0.59 \u2013 \u20ac3.49 if billed through Play"
+          },
+          "label": "In-app purchases"
+        },
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "3c@3c71.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "721 Av G\u00e9n\u00e9ral de Gaulle<br/>06700 Saint Laurent du Var<br/>FRANCE"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "19 Jul 2019"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "14",
+      "fiveStarRatings": "107",
+      "fourStarRatings": "25",
+      "oneStarRatings": "10",
+      "ratingsCount": "161",
+      "starRating": 4.3555555,
+      "threeStarRatings": "17",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2024-04-20 11:01:19.290618",
+    "backendDocid": "ccc71.kt",
+    "backendId": 3,
+    "creator": "3c",
+    "descriptionHtml": "A simple app to tweak various kernel settings on your rooted Android device. Requires technical knowledge of Linux and Android.<br><br>\u2605 <b>Highly Configurable UI</b> allows you to transform the app into something you really like.<br><br>\u2605 Editing all kernel sysctl settings<br>\u2605 Configuring entropy (random generator, please be careful as it uses CPU)<br>\u2605 Setting SD read cache size, IO scheduler and syncing, when available<br>\u2605 Configuring OOM memory limits, when available<br>\u2605 Benchmark different SD read cache size for optimum performance<br><br>On custom kernels supporting it, you can configure:<br>\u2605 Screen gamma settings<br>\u2605 Sound output<br>\u2605 Double-tap-to-wake<br>\u2605 Fast-charge<br>\u2605 Sweep-to-sleep<br>\u2605 Battery level eXtender (maximum charging %)<br>\u2605 Intelliplug<br><br>In-app purchase can be made to remove ads or unlock features.",
+    "descriptionShort": "Tweak stock and custom kernels",
+    "details": {
+      "appDetails": {
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "version": 12451000
+            }
+          ],
+          "unknown2": "7919027",
+          "unknown3": 33
+        },
+        "developerAddress": "721 Av G\u00e9n\u00e9ral de Gaulle<br/>06700 Saint Laurent du Var<br/>FRANCE",
+        "developerEmail": "3c@3c71.com",
+        "developerName": "3c",
+        "developerWebsite": "https://3c71.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "7131224",
+            "versionCode": 54
+          },
+          {
+            "fileType": 0,
+            "size": "586543",
+            "versionCode": 54
+          },
+          {
+            "fileType": 0,
+            "size": "201260",
+            "versionCode": 54
+          }
+        ],
+        "hasInstantLink": true,
+        "installationSize": "7919027",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "ccc71.kt",
+        "permission": [
+          "android.permission.ACCESS_ADSERVICES_AD_ID",
+          "android.permission.ACCESS_ADSERVICES_ATTRIBUTION",
+          "android.permission.ACCESS_ADSERVICES_TOPICS",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.POST_NOTIFICATIONS",
+          "android.permission.QUERY_ALL_PACKAGES",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.SCHEDULE_EXACT_ALARM",
+          "android.permission.WAKE_LOCK",
+          "ccc71.kt.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+          "com.android.vending.BILLING",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": "Add settings online help<br>Add storage cleaner (please read help pages)<br>Add WiFi Factory MAC editor in network manager",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "10 Apr 2024",
+        "versionCode": 54,
+        "versionString": "1.2.8"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=ccc71.kt&vc=54",
+    "docType": 1,
+    "docid": "ccc71.kt",
+    "image": [
+      {
+        "color": "#FDFDFD",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/tDSZBpDGXKArnz_Bhyh8onK2bZy0jwHWLbdcEZqborCVt-3ch0R6mJVAa-bHcnm0I1s",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#0588FE",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/6vqTFZ_JAkB0LcG0lkkceLXLBU6hFkf7Eg2FVGmk9XuOIEm8Rh6XjCv4YClg0_ivIdU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2405,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/rXpyOc8kSfp5stU8yS6WDGhNrdNqepHE5176hiiRruFKFugeI1GAcGMo3EXziW2q6us",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2484,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ccQcPNFK0tTSvkQFFW6nt9CblhVyMM6PVp0WH0GHFydI0xxAz38hL_rN9FON9_k4xQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2152,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/2x3cp0JgKccSyEP17X1PSCpXSyrkMPG3ZuMx2NGtaKmKfj_DtAbIhLtOWQJqZyXkBQ",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://3c71.com/policy",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "In-app purchases<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=ccc71.kt",
+    "reviewsUrl": "rev?doc=ccc71.kt&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=ccc71.kt",
+    "title": "3C System Manager (root)\n1.2.8",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "$0.49 \u2013 $2.99 per item"
+          },
+          "label": "In-app purchases"
+        },
+        {
+          "container": {
+            "value": "3c"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "3c@3c71.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "721 Av G\u00e9n\u00e9ral de Gaulle<br/>06700 Saint Laurent du Var<br/>FRANCE"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "19 Jul 2019"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2025-03-15 07:42:38.348308",
+    "backendDocid": "ccc71.kt",
+    "backendId": 3,
+    "creator": "3c",
+    "descriptionHtml": "A simple app to tweak various kernel settings on your rooted Android device. Requires technical knowledge of Linux and Android.<br><br>\u2605 <b>Highly Configurable UI</b> allows you to transform the app into something you really like.<br><br>\u2605 Editing all kernel sysctl settings<br>\u2605 Configuring entropy (random generator, please be careful as it uses CPU)<br>\u2605 Setting SD read cache size, IO scheduler and syncing, when available<br>\u2605 Configuring OOM memory limits, when available<br>\u2605 Benchmark different SD read cache size for optimum performance<br><br>On custom kernels supporting it, you can configure:<br>\u2605 Screen gamma settings<br>\u2605 Sound output<br>\u2605 Double-tap-to-wake<br>\u2605 Fast-charge<br>\u2605 Sweep-to-sleep<br>\u2605 Battery level eXtender (maximum charging %)<br>\u2605 Intelliplug<br><br>In-app purchase can be made to remove ads or unlock features.",
+    "descriptionShort": "Tweak stock and custom kernels",
+    "details": {
+      "appDetails": {
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "version": 12451000
+            }
+          ],
+          "unknown2": "7801070",
+          "unknown3": 34
+        },
+        "developerAddress": "721 Av G\u00e9n\u00e9ral de Gaulle<br/>06700 Saint Laurent du Var<br/>FRANCE",
+        "developerEmail": "3c@3c71.com",
+        "developerName": "3c",
+        "developerWebsite": "https://3c71.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "7021043",
+            "versionCode": 59
+          },
+          {
+            "fileType": 0,
+            "size": "582999",
+            "versionCode": 59
+          },
+          {
+            "fileType": 0,
+            "size": "197028",
+            "versionCode": 59
+          }
+        ],
+        "hasInstantLink": true,
+        "installationSize": "7801070",
+        "numDownloads": "50,000+ downloads",
+        "packageName": "ccc71.kt",
+        "permission": [
+          "android.permission.ACCESS_ADSERVICES_AD_ID",
+          "android.permission.ACCESS_ADSERVICES_ATTRIBUTION",
+          "android.permission.ACCESS_ADSERVICES_TOPICS",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
+          "android.permission.FOREGROUND_SERVICE_SPECIAL_USE",
+          "android.permission.INTERNET",
+          "android.permission.POST_NOTIFICATIONS",
+          "android.permission.QUERY_ALL_PACKAGES",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.SCHEDULE_EXACT_ALARM",
+          "android.permission.WAKE_LOCK",
+          "ccc71.kt.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+          "com.android.launcher.permission.INSTALL_SHORTCUT",
+          "com.android.vending.BILLING",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": "Fix color picker UI glitch showing n/a instead of 100<br>Fix memory details not showing on non-rooted devices running 3C Companion",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "27 Feb 2025",
+        "versionCode": 59,
+        "versionString": "1.3.2"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=ccc71.kt&vc=59",
+    "docType": 1,
+    "docid": "ccc71.kt",
+    "image": [
+      {
+        "color": "#FDFDFD",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/tDSZBpDGXKArnz_Bhyh8onK2bZy0jwHWLbdcEZqborCVt-3ch0R6mJVAa-bHcnm0I1s",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#0588FE",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/6vqTFZ_JAkB0LcG0lkkceLXLBU6hFkf7Eg2FVGmk9XuOIEm8Rh6XjCv4YClg0_ivIdU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2405,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/rXpyOc8kSfp5stU8yS6WDGhNrdNqepHE5176hiiRruFKFugeI1GAcGMo3EXziW2q6us",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2484,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ccQcPNFK0tTSvkQFFW6nt9CblhVyMM6PVp0WH0GHFydI0xxAz38hL_rN9FON9_k4xQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2152,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/2x3cp0JgKccSyEP17X1PSCpXSyrkMPG3ZuMx2NGtaKmKfj_DtAbIhLtOWQJqZyXkBQ",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "JPY",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://3c71.com/policy",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 487,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/EbEX3AN4FC4pu3lsElAHCiksluOVU8OgkgtWC43-wmm_aHVq2D65FmEM97bPexilUAvlAY5_4ARH8Tb3RxQ",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Rated for 3+",
+        "learnMoreHtmlLink": "In-app purchases<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=ccc71.kt",
+    "reviewsUrl": "rev?doc=ccc71.kt&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=ccc71.kt",
+    "title": "3C System Manager (root)\n1.3.2",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "\u00a580 \u2013 \u00a5490 per item"
+          },
+          "label": "In-app purchases"
+        },
+        {
+          "container": {
+            "value": "3c"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "3c@3c71.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "721 Av G\u00e9n\u00e9ral de Gaulle<br/>06700 Saint Laurent du Var<br/>FRANCE"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "19 Jul 2019"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "2",
+      "fiveStarRatings": "10",
+      "fourStarRatings": "2",
+      "oneStarRatings": "0",
+      "ratingsCount": "13",
+      "starRating": 4.6923075,
+      "threeStarRatings": "1",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2025-05-06 11:49:33.668775",
+    "backendDocid": "ccc71.kt",
+    "backendId": 3,
+    "creator": "3c",
+    "descriptionHtml": "A simple app to tweak various kernel settings on your rooted Android device. Requires technical knowledge of Linux and Android.<br><br>\u2605 <b>Highly Configurable UI</b> allows you to transform the app into something you really like.<br><br>\u2605 Editing all kernel sysctl settings<br>\u2605 Configuring entropy (random generator, please be careful as it uses CPU)<br>\u2605 Setting SD read cache size, IO scheduler and syncing, when available<br>\u2605 Configuring OOM memory limits, when available<br>\u2605 Benchmark different SD read cache size for optimum performance<br><br>On custom kernels supporting it, you can configure:<br>\u2605 Screen gamma settings<br>\u2605 Sound output<br>\u2605 Double-tap-to-wake<br>\u2605 Fast-charge<br>\u2605 Sweep-to-sleep<br>\u2605 Battery level eXtender (maximum charging %)<br>\u2605 Intelliplug<br><br>In-app purchase can be made to remove ads or unlock features.",
+    "descriptionShort": "Tweak stock and custom kernels",
+    "details": {
+      "appDetails": {
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "version": 12451000
+            }
+          ],
+          "unknown2": "9980904",
+          "unknown3": 34
+        },
+        "developerAddress": "721 Av G\u00e9n\u00e9ral de Gaulle<br/>06700 Saint Laurent du Var<br/>FRANCE",
+        "developerEmail": "3c@3c71.com",
+        "developerName": "3c",
+        "developerWebsite": "https://3c71.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "8500380",
+            "versionCode": 60
+          },
+          {
+            "fileType": 0,
+            "size": "447761",
+            "versionCode": 60
+          },
+          {
+            "fileType": 0,
+            "size": "1032763",
+            "versionCode": 60
+          }
+        ],
+        "hasInstantLink": true,
+        "installationSize": "9980904",
+        "numDownloads": "50,000+ downloads",
+        "packageName": "ccc71.kt",
+        "permission": [
+          "android.permission.ACCESS_ADSERVICES_AD_ID",
+          "android.permission.ACCESS_ADSERVICES_ATTRIBUTION",
+          "android.permission.ACCESS_ADSERVICES_TOPICS",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
+          "android.permission.FOREGROUND_SERVICE_SPECIAL_USE",
+          "android.permission.INTERNET",
+          "android.permission.POST_NOTIFICATIONS",
+          "android.permission.QUERY_ALL_PACKAGES",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.SCHEDULE_EXACT_ALARM",
+          "android.permission.WAKE_LOCK",
+          "ccc71.kt.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+          "com.android.vending.BILLING",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": "Modernize online help entirely, less ads, easier to read and translatable",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "31 Mar 2025",
+        "versionCode": 60,
+        "versionString": "1.3.3"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=ccc71.kt&vc=60",
+    "docType": 1,
+    "docid": "ccc71.kt",
+    "image": [
+      {
+        "color": "#FDFDFD",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/tDSZBpDGXKArnz_Bhyh8onK2bZy0jwHWLbdcEZqborCVt-3ch0R6mJVAa-bHcnm0I1s",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#0588FE",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/6vqTFZ_JAkB0LcG0lkkceLXLBU6hFkf7Eg2FVGmk9XuOIEm8Rh6XjCv4YClg0_ivIdU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1051,
+          "width": 1920
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/FNJBlP1v6M8JoM663BnY46l23c1GBxRahNqW0bTKbSjuvVnoLkqPquV4AvGkG0NRqV0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1054,
+          "width": 1920
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Ob565bSORn6qb2f_XwqSP_rRAE9eKFQAlOTGzuMM-lGCtVUEcFc-E7eSVuP77LggGKvh",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1057,
+          "width": 1920
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/TF8FiRidVQNgbSdfvDr28z4tZ40IGD-WHJWRmWqeCcyYJSyEOuwoKmVXxr78qCg3uV0",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://3c71.com/policy",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "In-app purchases<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=ccc71.kt",
+    "reviewsUrl": "rev?doc=ccc71.kt&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=ccc71.kt",
+    "title": "3C System Manager (root)\n1.3.3",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "\u20ac0.59 \u2013 \u20ac3.49 if billed through Play"
+          },
+          "label": "In-app purchases"
+        },
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "3c@3c71.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "721 Av G\u00e9n\u00e9ral de Gaulle<br/>06700 Saint Laurent du Var<br/>FRANCE"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "19 Jul 2019"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  }
+]

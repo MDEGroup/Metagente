@@ -1,0 +1,4906 @@
+[
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-06-02 22:15:09.284627",
+    "backendDocid": "com.ARtStudio.BavARt",
+    "backendId": 3,
+    "creator": "AR[t] Studio",
+    "descriptionHtml": "BavAR[t] is an augmented reality platform dedicated to art and culture. BavAR[t] offers a map of augmented reality experiences to be experienced near you. For each creation viewed, the player collects virtual artworks. This allows the player to collect points exchangeable for vouchers for cultural products, such as tickets to a museum or a concert.",
+    "descriptionShort": "BavAR[t] a game for art and culture! View artworks in augmented reality near you",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.ar.core",
+              "version": 210910000
+            }
+          ],
+          "unknown1": 3,
+          "unknown2": "58317598",
+          "unknown3": 30
+        },
+        "developerEmail": "welcome@bavart.io",
+        "developerName": "AR[t] Studio",
+        "developerWebsite": "http://bavart.io/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "27866825",
+            "versionCode": 5
+          },
+          {
+            "fileType": 0,
+            "size": "30450773",
+            "versionCode": 5
+          }
+        ],
+        "installationSize": "58317598",
+        "numDownloads": "10+ downloads",
+        "packageName": "com.ARtStudio.BavARt",
+        "permission": [
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.CAMERA",
+          "android.permission.GET_ACCOUNTS",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.amazonaws.unity.permission.C2D_MESSAGE"
+        ],
+        "recentChangesHtml": "Fix various UI bugs / translations missing.<br>Fix missing username after Sign Up.<br>Optimize map navigation.<br>Fix memory leak on map.",
+        "unstable": true,
+        "uploadDate": "22 May 2022",
+        "versionCode": 5,
+        "versionString": "5.0"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.ARtStudio.BavARt",
+    "docType": 1,
+    "docid": "com.ARtStudio.BavARt",
+    "image": [
+      {
+        "color": "#F0EFE6",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/ZN65nrmeRpB0kkskMA3yxPLzPcjOTRT-LywvYEkbE9Ca0CyRol2xxC5ggoaNDAtzfTw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#141414",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/qjjLrc1cz1tHF9qTQWH0Ohh-5i3DLmrd8RDF6xEtWk66CPx2BbfvPSIP7jv8KWPswHo",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 3,
+        "imageUrl": "https://www.youtube.com/watch?v=4Q5-yHc5c3M"
+      },
+      {
+        "imageType": 13,
+        "imageUrl": "https://i.ytimg.com/vi/4Q5-yHc5c3M/hqdefault.jpg",
+        "supportsFifeUrlOptions": false
+      },
+      {
+        "dimension": {
+          "height": 2688,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/et8BUHBE5wuNc7UGaM18P0flRD-m1FUrbiHYlGgG2EcmwDzCxX1yjrLej3EOpHnWyn7S",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2688,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qfWy9cIkpYo3mESNoG2m5TB7I1eERDq62-OaQ_tQkOCTkjImgrpQxOm_ej5vbP2QsYc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2688,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/EiOlg5yZuecorP-CvSy2COmUd9yiUowDcNTw0ly4_iyPyR9D3Qmv-HvHLPVXeYOe7vE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2688,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/DjjcIyimBhoL3WgQinB4OyodnAelHt8gJcGn2LvQLw3TxmPOeU0qm9NMMaQg1i0F88E",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2688,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/PzTO4e7yFJ9Nu39kG2sq8xejdwp9rd6BI8UnQvy22y53uNCoSCYTRHVLNS_MolsTPA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2688,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/y3j8wCpNwb_1GwAleJipCDt8A9md-_QqYz3GB8gxl676chZYXtGKf61dq5GMdnokXw0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2688,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/XHYHP8IpLVkVG5hM_b-XybpWZeIf2w5JEZTvibA_BMKzDJo0xMamrBwV2DcA5PDNaL8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2688,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/XVlIp73hi7AFpNlO3EuqrSwCWpEuQWEQ2wx1XAi8IbulpRZYHvEV9vla6VEDpgm3i3Y",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://bavart-public.s3.eu-west-3.amazonaws.com/legal/Politique_confidentialite_BavARt_FR.pdf",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "Users interact<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.ARtStudio.BavARt",
+    "reviewsUrl": "rev?doc=com.ARtStudio.BavARt&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.ARtStudio.BavARt",
+    "title": "BavAR[t]",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "welcome@bavart.io"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "5 May 2022"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-10-04 19:44:08.993490",
+    "backendDocid": "com.ARtStudio.BavARt",
+    "backendId": 3,
+    "creator": "AR[t] Studio",
+    "descriptionHtml": "BavAR[t] is an augmented reality platform dedicated to art and culture. BavAR[t] offers a map of augmented reality experiences to be experienced near you. For each creation viewed, the player collects virtual artworks. This allows the player to collect points exchangeable for vouchers for cultural products, such as tickets to a museum or a concert.",
+    "descriptionShort": "BavAR[t] a game for art and culture! View artworks in augmented reality near you",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.ar.core",
+              "version": 210910000
+            }
+          ],
+          "unknown1": 3,
+          "unknown2": "60509039",
+          "unknown3": 30
+        },
+        "developerEmail": "welcome@bavart.io",
+        "developerName": "AR[t] Studio",
+        "developerWebsite": "http://bavart.io/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "29570842",
+            "versionCode": 15
+          },
+          {
+            "fileType": 0,
+            "size": "30938197",
+            "versionCode": 15
+          }
+        ],
+        "installationSize": "60509039",
+        "numDownloads": "100+ downloads",
+        "packageName": "com.ARtStudio.BavARt",
+        "permission": [
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.CAMERA",
+          "android.permission.GET_ACCOUNTS",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.amazonaws.unity.permission.C2D_MESSAGE"
+        ],
+        "recentChangesHtml": "- Third party Sign In<br>- Simplify sign in process<br>- Bug Fix trending screen<br>- Remove profile type<br>- Bug Fix Follow / Unfollow<br>- Hyperlink to Term of use and privacy policy<br>- Deep links<br>- Fix bug memory destroy placeholder images<br>- Fix various layout bugs<br>- Offer to download and install packages if not-installed.",
+        "unstable": true,
+        "uploadDate": "28 Aug 2022",
+        "versionCode": 15,
+        "versionString": "15.0"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.ARtStudio.BavARt",
+    "docType": 1,
+    "docid": "com.ARtStudio.BavARt",
+    "image": [
+      {
+        "color": "#545458",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/2OWkFfOJrFPE9sgEWEchC9j0r6hEJdMQXMuMqSKOjdiyxy3qYOcVH5p3LGn3DlBFq_4",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#141414",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/qjjLrc1cz1tHF9qTQWH0Ohh-5i3DLmrd8RDF6xEtWk66CPx2BbfvPSIP7jv8KWPswHo",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 3,
+        "imageUrl": "https://www.youtube.com/watch?v=4Q5-yHc5c3M"
+      },
+      {
+        "imageType": 13,
+        "imageUrl": "https://i.ytimg.com/vi/4Q5-yHc5c3M/hqdefault.jpg",
+        "supportsFifeUrlOptions": false
+      },
+      {
+        "dimension": {
+          "height": 2688,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/et8BUHBE5wuNc7UGaM18P0flRD-m1FUrbiHYlGgG2EcmwDzCxX1yjrLej3EOpHnWyn7S",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2688,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qfWy9cIkpYo3mESNoG2m5TB7I1eERDq62-OaQ_tQkOCTkjImgrpQxOm_ej5vbP2QsYc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2688,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/EiOlg5yZuecorP-CvSy2COmUd9yiUowDcNTw0ly4_iyPyR9D3Qmv-HvHLPVXeYOe7vE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2688,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/DjjcIyimBhoL3WgQinB4OyodnAelHt8gJcGn2LvQLw3TxmPOeU0qm9NMMaQg1i0F88E",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2688,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/PzTO4e7yFJ9Nu39kG2sq8xejdwp9rd6BI8UnQvy22y53uNCoSCYTRHVLNS_MolsTPA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2688,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/y3j8wCpNwb_1GwAleJipCDt8A9md-_QqYz3GB8gxl676chZYXtGKf61dq5GMdnokXw0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2688,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/XHYHP8IpLVkVG5hM_b-XybpWZeIf2w5JEZTvibA_BMKzDJo0xMamrBwV2DcA5PDNaL8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2688,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/XVlIp73hi7AFpNlO3EuqrSwCWpEuQWEQ2wx1XAi8IbulpRZYHvEV9vla6VEDpgm3i3Y",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://www.bavart.io/politique-confidentialite-bavart.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "Users interact<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.ARtStudio.BavARt",
+    "reviewsUrl": "rev?doc=com.ARtStudio.BavARt&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.ARtStudio.BavARt",
+    "title": "BavAR[t]",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "welcome@bavart.io"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "5 May 2022"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-10-25 19:49:32.306597",
+    "backendDocid": "com.ARtStudio.BavARt",
+    "backendId": 3,
+    "creator": "AR[t] Studio",
+    "descriptionHtml": "BavAR[t] is an augmented reality platform dedicated to art and culture. BavAR[t] offers a map of augmented reality experiences to be experienced near you. For each creation viewed, the player collects virtual artworks. This allows the player to collect points exchangeable for vouchers for cultural products, such as tickets to a museum or a concert.",
+    "descriptionShort": "BavAR[t] a game for art and culture! View artworks in augmented reality near you",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.ar.core",
+              "version": 210910000
+            }
+          ],
+          "unknown1": 3,
+          "unknown2": "60726127",
+          "unknown3": 30
+        },
+        "developerEmail": "welcome@bavart.io",
+        "developerName": "AR[t] Studio",
+        "developerWebsite": "http://bavart.io/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "29751066",
+            "versionCode": 17
+          },
+          {
+            "fileType": 0,
+            "size": "30975061",
+            "versionCode": 17
+          }
+        ],
+        "installationSize": "60726127",
+        "numDownloads": "100+ downloads",
+        "packageName": "com.ARtStudio.BavARt",
+        "permission": [
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.CAMERA",
+          "android.permission.GET_ACCOUNTS",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.amazonaws.unity.permission.C2D_MESSAGE"
+        ],
+        "recentChangesHtml": "Trending: international ranking now available<br>Map as main support for app<br>See whenever et wherever you want the creation captured!<br>Artwork hunt in a given area<br>Exclusive creations to discover<br>Bug fix",
+        "unstable": true,
+        "uploadDate": "6 Oct 2022",
+        "versionCode": 17,
+        "versionString": "17"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.ARtStudio.BavARt",
+    "docType": 1,
+    "docid": "com.ARtStudio.BavARt",
+    "image": [
+      {
+        "color": "#545458",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/2OWkFfOJrFPE9sgEWEchC9j0r6hEJdMQXMuMqSKOjdiyxy3qYOcVH5p3LGn3DlBFq_4",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#141414",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/qjjLrc1cz1tHF9qTQWH0Ohh-5i3DLmrd8RDF6xEtWk66CPx2BbfvPSIP7jv8KWPswHo",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 3,
+        "imageUrl": "https://www.youtube.com/watch?v=4Q5-yHc5c3M"
+      },
+      {
+        "imageType": 13,
+        "imageUrl": "https://i.ytimg.com/vi/4Q5-yHc5c3M/hqdefault.jpg",
+        "supportsFifeUrlOptions": false
+      },
+      {
+        "dimension": {
+          "height": 2688,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/et8BUHBE5wuNc7UGaM18P0flRD-m1FUrbiHYlGgG2EcmwDzCxX1yjrLej3EOpHnWyn7S",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2688,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qfWy9cIkpYo3mESNoG2m5TB7I1eERDq62-OaQ_tQkOCTkjImgrpQxOm_ej5vbP2QsYc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2688,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/EiOlg5yZuecorP-CvSy2COmUd9yiUowDcNTw0ly4_iyPyR9D3Qmv-HvHLPVXeYOe7vE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2688,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/DjjcIyimBhoL3WgQinB4OyodnAelHt8gJcGn2LvQLw3TxmPOeU0qm9NMMaQg1i0F88E",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2688,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/PzTO4e7yFJ9Nu39kG2sq8xejdwp9rd6BI8UnQvy22y53uNCoSCYTRHVLNS_MolsTPA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2688,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/y3j8wCpNwb_1GwAleJipCDt8A9md-_QqYz3GB8gxl676chZYXtGKf61dq5GMdnokXw0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2688,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/XHYHP8IpLVkVG5hM_b-XybpWZeIf2w5JEZTvibA_BMKzDJo0xMamrBwV2DcA5PDNaL8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2688,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/XVlIp73hi7AFpNlO3EuqrSwCWpEuQWEQ2wx1XAi8IbulpRZYHvEV9vla6VEDpgm3i3Y",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://www.bavart.io/politique-confidentialite-bavart.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "Users interact<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.ARtStudio.BavARt",
+    "reviewsUrl": "rev?doc=com.ARtStudio.BavARt&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.ARtStudio.BavARt",
+    "title": "BavAR[t]",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "welcome@bavart.io"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "5 May 2022"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 2
+    },
+    "az_metadata_date": "2022-12-22 18:38:32.354772",
+    "backendDocid": "com.ARtStudio.BavARt",
+    "backendId": 3,
+    "creator": "AR[t] Studio",
+    "descriptionHtml": "BavAR[t] is an augmented reality platform dedicated to art and culture. BavAR[t] offers a map of augmented reality experiences to be experienced near you. For each creation viewed, the player collects virtual artworks. This allows the player to collect points exchangeable for vouchers for cultural products, such as tickets to a museum or a concert.",
+    "descriptionShort": "BavAR[t] a game for art and culture! View artworks in augmented reality near you",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.ar.core",
+              "version": 210910000
+            }
+          ],
+          "unknown1": 3,
+          "unknown2": "66993007",
+          "unknown3": 31
+        },
+        "developerEmail": "welcome@bavart.io",
+        "developerName": "AR[t] Studio",
+        "developerWebsite": "http://bavart.io/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "35940122",
+            "versionCode": 18
+          },
+          {
+            "fileType": 0,
+            "size": "31052885",
+            "versionCode": 18
+          }
+        ],
+        "installationSize": "66993007",
+        "numDownloads": "100+ downloads",
+        "packageName": "com.ARtStudio.BavARt",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.CAMERA",
+          "android.permission.GET_ACCOUNTS",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.amazonaws.unity.permission.C2D_MESSAGE"
+        ],
+        "unstable": true,
+        "uploadDate": "21 Dec 2022",
+        "versionCode": 18,
+        "versionString": "18"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.ARtStudio.BavARt",
+    "docType": 1,
+    "docid": "com.ARtStudio.BavARt",
+    "image": [
+      {
+        "color": "#545458",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/2OWkFfOJrFPE9sgEWEchC9j0r6hEJdMQXMuMqSKOjdiyxy3qYOcVH5p3LGn3DlBFq_4",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#141414",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/qjjLrc1cz1tHF9qTQWH0Ohh-5i3DLmrd8RDF6xEtWk66CPx2BbfvPSIP7jv8KWPswHo",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 3,
+        "imageUrl": "https://www.youtube.com/watch?v=4Q5-yHc5c3M"
+      },
+      {
+        "imageType": 13,
+        "imageUrl": "https://i.ytimg.com/vi/4Q5-yHc5c3M/hqdefault.jpg",
+        "supportsFifeUrlOptions": false
+      },
+      {
+        "dimension": {
+          "height": 2688,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/et8BUHBE5wuNc7UGaM18P0flRD-m1FUrbiHYlGgG2EcmwDzCxX1yjrLej3EOpHnWyn7S",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2688,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qfWy9cIkpYo3mESNoG2m5TB7I1eERDq62-OaQ_tQkOCTkjImgrpQxOm_ej5vbP2QsYc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2688,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/EiOlg5yZuecorP-CvSy2COmUd9yiUowDcNTw0ly4_iyPyR9D3Qmv-HvHLPVXeYOe7vE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2688,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/DjjcIyimBhoL3WgQinB4OyodnAelHt8gJcGn2LvQLw3TxmPOeU0qm9NMMaQg1i0F88E",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2688,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/PzTO4e7yFJ9Nu39kG2sq8xejdwp9rd6BI8UnQvy22y53uNCoSCYTRHVLNS_MolsTPA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2688,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/y3j8wCpNwb_1GwAleJipCDt8A9md-_QqYz3GB8gxl676chZYXtGKf61dq5GMdnokXw0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2688,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/XHYHP8IpLVkVG5hM_b-XybpWZeIf2w5JEZTvibA_BMKzDJo0xMamrBwV2DcA5PDNaL8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2688,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/XVlIp73hi7AFpNlO3EuqrSwCWpEuQWEQ2wx1XAi8IbulpRZYHvEV9vla6VEDpgm3i3Y",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "HRK",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://www.bavart.io/politique-confidentialite-bavart.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "Users interact<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.ARtStudio.BavARt",
+    "reviewsUrl": "rev?doc=com.ARtStudio.BavARt&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.ARtStudio.BavARt",
+    "title": "BavAR[t]",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "welcome@bavart.io"
+          },
+          "label": "Developer email"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "5",
+      "fiveStarRatings": "6",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "7",
+      "starRating": 4.714286,
+      "threeStarRatings": "1",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-01-08 17:59:29.584135",
+    "backendDocid": "com.ARtStudio.BavARt",
+    "backendId": 3,
+    "creator": "AR[t] Studio",
+    "descriptionHtml": "BavAR[t] is an augmented reality platform dedicated to art and culture. BavAR[t] offers a map of augmented reality experiences to be experienced near you. For each creation viewed, the player collects virtual artworks. This allows the player to collect points exchangeable for vouchers for cultural products, such as tickets to a museum or a concert.",
+    "descriptionShort": "BavAR[t] a game for art and culture! View artworks in augmented reality near you",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.ar.core",
+              "version": 210910000
+            }
+          ],
+          "unknown1": 3,
+          "unknown2": "61668207",
+          "unknown3": 31
+        },
+        "developerEmail": "welcome@bavart.io",
+        "developerName": "AR[t] Studio",
+        "developerWebsite": "http://bavart.io/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "30881562",
+            "versionCode": 19
+          },
+          {
+            "fileType": 0,
+            "size": "30786645",
+            "versionCode": 19
+          }
+        ],
+        "installationSize": "61668207",
+        "numDownloads": "100+ downloads",
+        "packageName": "com.ARtStudio.BavARt",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.CAMERA",
+          "android.permission.GET_ACCOUNTS",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.amazonaws.unity.permission.C2D_MESSAGE"
+        ],
+        "recentChangesHtml": "We are pleased to share with you the latest version of BavAR[t], offering even more flexibility and possibilities! <br>- A simplified and more educational user experience<br>- More and more artworks to capture in augmented reality!<br>- A collaborative mode even easier to use!",
+        "unstable": true,
+        "uploadDate": "8 Jan 2023",
+        "versionCode": 19,
+        "versionString": "19"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.ARtStudio.BavARt",
+    "docType": 1,
+    "docid": "com.ARtStudio.BavARt",
+    "image": [
+      {
+        "color": "#EFF2F4",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/8VsbfQok9vPT9mx9NlonaPsxpjJHvLNL4_Yj2kqx8kZZnZLmWrd0caCpOEcDni3J7OID",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#141414",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/qjjLrc1cz1tHF9qTQWH0Ohh-5i3DLmrd8RDF6xEtWk66CPx2BbfvPSIP7jv8KWPswHo",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 3,
+        "imageUrl": "https://www.youtube.com/watch?v=4Q5-yHc5c3M"
+      },
+      {
+        "imageType": 13,
+        "imageUrl": "https://i.ytimg.com/vi/4Q5-yHc5c3M/hqdefault.jpg",
+        "supportsFifeUrlOptions": false
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Q13rEiEKherYMRrbORCrYYIDV3GHnKUghU5afo47P4ypuo6kETHvTT4AMoQqp9J8UF4A",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/q8u4UwNQJaK-i96e7l4Edr2DKVDSMGO3L-koUncoP5EPU2B7RkT07wmkq1EH7VBasRtt",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/agYv9Udkat2llLV7_y7WTHJ3-QvvHL-oejJowHt0maf9usW2dxJdriJP7PT24uEeeGwt",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/3k0_rV-EcHHs7SwusTU2vNQcVzoiacERXwKusxwEvMKtaUxziFufh7oN-aw3sUS40bo9",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/UM2KiFEo3edh5mTbIVCcubSExNMyp2A74r2kEY7G1q5GGWBtiblJMKGLfEvSyTSlHaGp",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/dOF1OaL6gTNii6HwWAswB9Yz63zEJiwaePGx9gaApG6WAJ0LvQoVzj4tm3pZEcVwMwU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/r_0ScVp_RU464qMuIvzgn5G_o147SOaUES6YDLIUEkg9bkxmvDzMijhTRPy6S20VjJ8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/7HDB8mGs6n3VJOLaZ35NUnoMm_ut_-e9dlJ0e2_4FavYiIosSC7m70vwRm4H5cwMdnc",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://www.bavart.io/politique-confidentialite-bavart.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "Users interact<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.ARtStudio.BavARt",
+    "reviewsUrl": "rev?doc=com.ARtStudio.BavARt&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.ARtStudio.BavARt",
+    "title": "BavAR[t]",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "welcome@bavart.io"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "8 Jan 2023"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-01-21 20:47:52.165134",
+    "backendDocid": "com.ARtStudio.BavARt",
+    "backendId": 3,
+    "creator": "AR[t] Studio",
+    "descriptionHtml": "BavAR[t] is an augmented reality platform dedicated to art and culture. BavAR[t] offers a map of augmented reality experiences to be experienced near you. For each creation viewed, the player collects virtual artworks. This allows the player to collect points exchangeable for vouchers for cultural products, such as tickets to a museum or a concert.",
+    "descriptionShort": "BavAR[t] a game for art and culture! View artworks in augmented reality near you",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.ar.core",
+              "version": 210910000
+            }
+          ],
+          "unknown1": 3,
+          "unknown2": "60885871",
+          "unknown3": 31
+        },
+        "developerEmail": "welcome@bavart.io",
+        "developerName": "AR[t] Studio",
+        "developerWebsite": "http://bavart.io/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "30279450",
+            "versionCode": 20
+          },
+          {
+            "fileType": 0,
+            "size": "30606421",
+            "versionCode": 20
+          }
+        ],
+        "installationSize": "60885871",
+        "numDownloads": "100+ downloads",
+        "packageName": "com.ARtStudio.BavARt",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.CAMERA",
+          "android.permission.GET_ACCOUNTS",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.amazonaws.unity.permission.C2D_MESSAGE"
+        ],
+        "recentChangesHtml": "We are pleased to share with you the latest version of BavAR[t], offering even more flexibility and possibilities! <br>- A simplified and more educational user experience<br>- More and more artworks to capture in augmented reality!<br>- A collaborative mode even easier to use!",
+        "unstable": true,
+        "uploadDate": "21 Jan 2023",
+        "versionCode": 20,
+        "versionString": "20"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.ARtStudio.BavARt",
+    "docType": 1,
+    "docid": "com.ARtStudio.BavARt",
+    "image": [
+      {
+        "color": "#EFF2F4",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/8VsbfQok9vPT9mx9NlonaPsxpjJHvLNL4_Yj2kqx8kZZnZLmWrd0caCpOEcDni3J7OID",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#141414",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/qjjLrc1cz1tHF9qTQWH0Ohh-5i3DLmrd8RDF6xEtWk66CPx2BbfvPSIP7jv8KWPswHo",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 3,
+        "imageUrl": "https://www.youtube.com/watch?v=4Q5-yHc5c3M"
+      },
+      {
+        "imageType": 13,
+        "imageUrl": "https://i.ytimg.com/vi/4Q5-yHc5c3M/hqdefault.jpg",
+        "supportsFifeUrlOptions": false
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Q13rEiEKherYMRrbORCrYYIDV3GHnKUghU5afo47P4ypuo6kETHvTT4AMoQqp9J8UF4A",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/q8u4UwNQJaK-i96e7l4Edr2DKVDSMGO3L-koUncoP5EPU2B7RkT07wmkq1EH7VBasRtt",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/agYv9Udkat2llLV7_y7WTHJ3-QvvHL-oejJowHt0maf9usW2dxJdriJP7PT24uEeeGwt",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/3k0_rV-EcHHs7SwusTU2vNQcVzoiacERXwKusxwEvMKtaUxziFufh7oN-aw3sUS40bo9",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/UM2KiFEo3edh5mTbIVCcubSExNMyp2A74r2kEY7G1q5GGWBtiblJMKGLfEvSyTSlHaGp",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/dOF1OaL6gTNii6HwWAswB9Yz63zEJiwaePGx9gaApG6WAJ0LvQoVzj4tm3pZEcVwMwU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/r_0ScVp_RU464qMuIvzgn5G_o147SOaUES6YDLIUEkg9bkxmvDzMijhTRPy6S20VjJ8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/7HDB8mGs6n3VJOLaZ35NUnoMm_ut_-e9dlJ0e2_4FavYiIosSC7m70vwRm4H5cwMdnc",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://www.bavart.io/politique-confidentialite-bavart.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "Users interact<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.ARtStudio.BavARt",
+    "reviewsUrl": "rev?doc=com.ARtStudio.BavARt&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.ARtStudio.BavARt",
+    "title": "BavAR[t]",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "welcome@bavart.io"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "5 May 2022"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-02-06 22:40:22.156389",
+    "backendDocid": "com.ARtStudio.BavARt",
+    "backendId": 3,
+    "creator": "AR[t] Studio",
+    "descriptionHtml": "BavAR[t] is an augmented reality platform dedicated to art and culture. BavAR[t] offers a map of augmented reality experiences to be experienced near you. For each creation viewed, the player collects virtual artworks. This allows the player to collect points exchangeable for vouchers for cultural products, such as tickets to a museum or a concert.",
+    "descriptionShort": "BavAR[t] a game for art and culture! View artworks in augmented reality near you",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.ar.core",
+              "version": 220920000
+            }
+          ],
+          "unknown1": 3,
+          "unknown2": "61656010",
+          "unknown3": 31
+        },
+        "developerEmail": "welcome@bavart.io",
+        "developerName": "AR[t] Studio",
+        "developerWebsite": "http://bavart.io/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "30267253",
+            "versionCode": 22
+          },
+          {
+            "fileType": 0,
+            "size": "31388757",
+            "versionCode": 22
+          }
+        ],
+        "installationSize": "61656010",
+        "numDownloads": "100+ downloads",
+        "packageName": "com.ARtStudio.BavARt",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.CAMERA",
+          "android.permission.GET_ACCOUNTS",
+          "android.permission.INTERNET",
+          "android.permission.POST_NOTIFICATIONS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.amazonaws.unity.permission.C2D_MESSAGE"
+        ],
+        "recentChangesHtml": "We are pleased to share with you the latest version of BavAR[t], offering even more flexibility and possibilities! <br>- A simplified and more educational user experience<br>- More and more artworks to capture in augmented reality!<br>- A collaborative mode even easier to use!",
+        "unstable": true,
+        "uploadDate": "4 Feb 2023",
+        "versionCode": 22,
+        "versionString": "22"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.ARtStudio.BavARt",
+    "docType": 1,
+    "docid": "com.ARtStudio.BavARt",
+    "image": [
+      {
+        "color": "#EFF2F4",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/8VsbfQok9vPT9mx9NlonaPsxpjJHvLNL4_Yj2kqx8kZZnZLmWrd0caCpOEcDni3J7OID",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#141414",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/qjjLrc1cz1tHF9qTQWH0Ohh-5i3DLmrd8RDF6xEtWk66CPx2BbfvPSIP7jv8KWPswHo",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 3,
+        "imageUrl": "https://www.youtube.com/watch?v=4Q5-yHc5c3M"
+      },
+      {
+        "imageType": 13,
+        "imageUrl": "https://i.ytimg.com/vi/4Q5-yHc5c3M/hqdefault.jpg",
+        "supportsFifeUrlOptions": false
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Q13rEiEKherYMRrbORCrYYIDV3GHnKUghU5afo47P4ypuo6kETHvTT4AMoQqp9J8UF4A",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/q8u4UwNQJaK-i96e7l4Edr2DKVDSMGO3L-koUncoP5EPU2B7RkT07wmkq1EH7VBasRtt",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/agYv9Udkat2llLV7_y7WTHJ3-QvvHL-oejJowHt0maf9usW2dxJdriJP7PT24uEeeGwt",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/3k0_rV-EcHHs7SwusTU2vNQcVzoiacERXwKusxwEvMKtaUxziFufh7oN-aw3sUS40bo9",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/UM2KiFEo3edh5mTbIVCcubSExNMyp2A74r2kEY7G1q5GGWBtiblJMKGLfEvSyTSlHaGp",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/dOF1OaL6gTNii6HwWAswB9Yz63zEJiwaePGx9gaApG6WAJ0LvQoVzj4tm3pZEcVwMwU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/r_0ScVp_RU464qMuIvzgn5G_o147SOaUES6YDLIUEkg9bkxmvDzMijhTRPy6S20VjJ8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/7HDB8mGs6n3VJOLaZ35NUnoMm_ut_-e9dlJ0e2_4FavYiIosSC7m70vwRm4H5cwMdnc",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://www.bavart.io/politique-confidentialite-bavart.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "Users interact<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.ARtStudio.BavARt",
+    "reviewsUrl": "rev?doc=com.ARtStudio.BavARt&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.ARtStudio.BavARt",
+    "title": "BavAR[t]",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "AR[t] Studio"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "welcome@bavart.io"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "21 Dec 2022"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "5",
+      "fiveStarRatings": "8",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "9",
+      "starRating": 4.7777777,
+      "threeStarRatings": "1",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-03-12 09:15:02.102303",
+    "backendDocid": "com.ARtStudio.BavARt",
+    "backendId": 3,
+    "creator": "AR[t] Studio",
+    "descriptionHtml": "BavAR[t] is an augmented reality platform dedicated to art and culture. BavAR[t] offers a map of augmented reality experiences to be experienced near you. For each creation viewed, the player collects virtual artworks. This allows the player to collect points exchangeable for vouchers for cultural products, such as tickets to a museum or a concert.",
+    "descriptionShort": "BavAR[t] a game for art and culture! View artworks in augmented reality near you",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.ar.core",
+              "version": 220920000
+            }
+          ],
+          "unknown1": 3,
+          "unknown2": "61906209",
+          "unknown3": 31
+        },
+        "developerEmail": "welcome@bavart.io",
+        "developerName": "AR[t] Studio",
+        "developerWebsite": "http://bavart.io/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "30394572",
+            "versionCode": 23
+          },
+          {
+            "fileType": 0,
+            "size": "31511637",
+            "versionCode": 23
+          }
+        ],
+        "installationSize": "61906209",
+        "numDownloads": "100+ downloads",
+        "packageName": "com.ARtStudio.BavARt",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.CAMERA",
+          "android.permission.GET_ACCOUNTS",
+          "android.permission.INTERNET",
+          "android.permission.POST_NOTIFICATIONS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.amazonaws.unity.permission.C2D_MESSAGE"
+        ],
+        "recentChangesHtml": "We are pleased to share with you the latest version of BavAR[t], offering even more flexibility and possibilities! <br>- A simplified and more educational user experience<br>- More and more artworks to capture in augmented reality!<br>- A collaborative mode even easier to use!",
+        "unstable": true,
+        "uploadDate": "11 Mar 2023",
+        "versionCode": 23,
+        "versionString": "23"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.ARtStudio.BavARt",
+    "docType": 1,
+    "docid": "com.ARtStudio.BavARt",
+    "image": [
+      {
+        "color": "#EFF2F4",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/8VsbfQok9vPT9mx9NlonaPsxpjJHvLNL4_Yj2kqx8kZZnZLmWrd0caCpOEcDni3J7OID",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#141414",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/qjjLrc1cz1tHF9qTQWH0Ohh-5i3DLmrd8RDF6xEtWk66CPx2BbfvPSIP7jv8KWPswHo",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 3,
+        "imageUrl": "https://www.youtube.com/watch?v=4Q5-yHc5c3M"
+      },
+      {
+        "imageType": 13,
+        "imageUrl": "https://i.ytimg.com/vi/4Q5-yHc5c3M/hqdefault.jpg",
+        "supportsFifeUrlOptions": false
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Q13rEiEKherYMRrbORCrYYIDV3GHnKUghU5afo47P4ypuo6kETHvTT4AMoQqp9J8UF4A",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/q8u4UwNQJaK-i96e7l4Edr2DKVDSMGO3L-koUncoP5EPU2B7RkT07wmkq1EH7VBasRtt",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/agYv9Udkat2llLV7_y7WTHJ3-QvvHL-oejJowHt0maf9usW2dxJdriJP7PT24uEeeGwt",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/3k0_rV-EcHHs7SwusTU2vNQcVzoiacERXwKusxwEvMKtaUxziFufh7oN-aw3sUS40bo9",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/UM2KiFEo3edh5mTbIVCcubSExNMyp2A74r2kEY7G1q5GGWBtiblJMKGLfEvSyTSlHaGp",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/dOF1OaL6gTNii6HwWAswB9Yz63zEJiwaePGx9gaApG6WAJ0LvQoVzj4tm3pZEcVwMwU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/r_0ScVp_RU464qMuIvzgn5G_o147SOaUES6YDLIUEkg9bkxmvDzMijhTRPy6S20VjJ8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/7HDB8mGs6n3VJOLaZ35NUnoMm_ut_-e9dlJ0e2_4FavYiIosSC7m70vwRm4H5cwMdnc",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://www.bavart.io/politique-confidentialite-bavart.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "Users interact<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.ARtStudio.BavARt",
+    "reviewsUrl": "rev?doc=com.ARtStudio.BavARt&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.ARtStudio.BavARt",
+    "title": "BavAR[t]",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "welcome@bavart.io"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "5 May 2022"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-04-06 11:54:50.773143",
+    "backendDocid": "com.ARtStudio.BavARt",
+    "backendId": 3,
+    "creator": "AR[t] Studio",
+    "descriptionHtml": "BavAR[t] is an augmented reality platform dedicated to art and culture. BavAR[t] offers a map of augmented reality experiences to be experienced near you. For each creation viewed, the player collects virtual artworks. This allows the player to collect points exchangeable for vouchers for cultural products, such as tickets to a museum or a concert.",
+    "descriptionShort": "BavAR[t] a game for art and culture! View artworks in augmented reality near you",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.ar.core",
+              "version": 220920000
+            }
+          ],
+          "unknown1": 3,
+          "unknown2": "61926750",
+          "unknown3": 31
+        },
+        "developerEmail": "welcome@bavart.io",
+        "developerName": "AR[t] Studio",
+        "developerWebsite": "http://bavart.io/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "30398729",
+            "versionCode": 24
+          },
+          {
+            "fileType": 0,
+            "size": "31528021",
+            "versionCode": 24
+          }
+        ],
+        "installationSize": "61926750",
+        "numDownloads": "100+ downloads",
+        "packageName": "com.ARtStudio.BavARt",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.CAMERA",
+          "android.permission.GET_ACCOUNTS",
+          "android.permission.INTERNET",
+          "android.permission.POST_NOTIFICATIONS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.amazonaws.unity.permission.C2D_MESSAGE"
+        ],
+        "recentChangesHtml": "We are pleased to share with you the latest version of BavAR[t], offering even more flexibility and possibilities! <br>- A simplified and more educational user experience<br>- More and more artworks to capture in augmented reality!<br>- A collaborative mode even easier to use!",
+        "unstable": true,
+        "uploadDate": "30 Mar 2023",
+        "versionCode": 24,
+        "versionString": "24"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.ARtStudio.BavARt",
+    "docType": 1,
+    "docid": "com.ARtStudio.BavARt",
+    "image": [
+      {
+        "color": "#EFF2F4",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/8VsbfQok9vPT9mx9NlonaPsxpjJHvLNL4_Yj2kqx8kZZnZLmWrd0caCpOEcDni3J7OID",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#141414",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/qjjLrc1cz1tHF9qTQWH0Ohh-5i3DLmrd8RDF6xEtWk66CPx2BbfvPSIP7jv8KWPswHo",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 3,
+        "imageUrl": "https://www.youtube.com/watch?v=4Q5-yHc5c3M"
+      },
+      {
+        "imageType": 13,
+        "imageUrl": "https://i.ytimg.com/vi/4Q5-yHc5c3M/hqdefault.jpg",
+        "supportsFifeUrlOptions": false
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Q13rEiEKherYMRrbORCrYYIDV3GHnKUghU5afo47P4ypuo6kETHvTT4AMoQqp9J8UF4A",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/q8u4UwNQJaK-i96e7l4Edr2DKVDSMGO3L-koUncoP5EPU2B7RkT07wmkq1EH7VBasRtt",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/agYv9Udkat2llLV7_y7WTHJ3-QvvHL-oejJowHt0maf9usW2dxJdriJP7PT24uEeeGwt",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/3k0_rV-EcHHs7SwusTU2vNQcVzoiacERXwKusxwEvMKtaUxziFufh7oN-aw3sUS40bo9",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/UM2KiFEo3edh5mTbIVCcubSExNMyp2A74r2kEY7G1q5GGWBtiblJMKGLfEvSyTSlHaGp",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/dOF1OaL6gTNii6HwWAswB9Yz63zEJiwaePGx9gaApG6WAJ0LvQoVzj4tm3pZEcVwMwU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/r_0ScVp_RU464qMuIvzgn5G_o147SOaUES6YDLIUEkg9bkxmvDzMijhTRPy6S20VjJ8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/7HDB8mGs6n3VJOLaZ35NUnoMm_ut_-e9dlJ0e2_4FavYiIosSC7m70vwRm4H5cwMdnc",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "GBP",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://www.bavart.io/politique-confidentialite-bavart.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "Users interact<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.ARtStudio.BavARt",
+    "reviewsUrl": "rev?doc=com.ARtStudio.BavARt&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.ARtStudio.BavARt",
+    "title": "BavAR[t]",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "welcome@bavart.io"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "5 May 2022"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "5",
+      "fiveStarRatings": "7",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "8",
+      "starRating": 4.75,
+      "threeStarRatings": "1",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-04-12 07:38:03.669796",
+    "backendDocid": "com.ARtStudio.BavARt",
+    "backendId": 3,
+    "creator": "AR[t] Studio",
+    "descriptionHtml": "BavAR[t] is an augmented reality platform dedicated to art and culture. BavAR[t] offers a map of augmented reality experiences to be experienced near you. For each creation viewed, the player collects virtual artworks. This allows the player to collect points exchangeable for vouchers for cultural products, such as tickets to a museum or a concert.",
+    "descriptionShort": "BavAR[t] a game for art and culture! View artworks in augmented reality near you",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.ar.core",
+              "version": 220920000
+            }
+          ],
+          "unknown1": 3,
+          "unknown2": "62897502",
+          "unknown3": 31
+        },
+        "developerEmail": "welcome@bavart.io",
+        "developerName": "AR[t] Studio",
+        "developerWebsite": "http://bavart.io/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "31377673",
+            "versionCode": 25
+          },
+          {
+            "fileType": 0,
+            "size": "31519829",
+            "versionCode": 25
+          }
+        ],
+        "installationSize": "62897502",
+        "numDownloads": "100+ downloads",
+        "packageName": "com.ARtStudio.BavARt",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.CAMERA",
+          "android.permission.GET_ACCOUNTS",
+          "android.permission.INTERNET",
+          "android.permission.POST_NOTIFICATIONS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.amazonaws.unity.permission.C2D_MESSAGE"
+        ],
+        "recentChangesHtml": "We are pleased to share with you the latest version of BavAR[t], offering even more flexibility and possibilities! <br>- A simplified and more educational user experience<br>- More and more artworks to capture in augmented reality!<br>- A collaborative mode even easier to use!",
+        "unstable": true,
+        "uploadDate": "10 Apr 2023",
+        "versionCode": 25,
+        "versionString": "25"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.ARtStudio.BavARt",
+    "docType": 1,
+    "docid": "com.ARtStudio.BavARt",
+    "image": [
+      {
+        "color": "#EFF2F4",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/8VsbfQok9vPT9mx9NlonaPsxpjJHvLNL4_Yj2kqx8kZZnZLmWrd0caCpOEcDni3J7OID",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#141414",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/qjjLrc1cz1tHF9qTQWH0Ohh-5i3DLmrd8RDF6xEtWk66CPx2BbfvPSIP7jv8KWPswHo",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 3,
+        "imageUrl": "https://www.youtube.com/watch?v=4Q5-yHc5c3M"
+      },
+      {
+        "imageType": 13,
+        "imageUrl": "https://i.ytimg.com/vi/4Q5-yHc5c3M/hqdefault.jpg",
+        "supportsFifeUrlOptions": false
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Q13rEiEKherYMRrbORCrYYIDV3GHnKUghU5afo47P4ypuo6kETHvTT4AMoQqp9J8UF4A",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/q8u4UwNQJaK-i96e7l4Edr2DKVDSMGO3L-koUncoP5EPU2B7RkT07wmkq1EH7VBasRtt",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/agYv9Udkat2llLV7_y7WTHJ3-QvvHL-oejJowHt0maf9usW2dxJdriJP7PT24uEeeGwt",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/3k0_rV-EcHHs7SwusTU2vNQcVzoiacERXwKusxwEvMKtaUxziFufh7oN-aw3sUS40bo9",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/UM2KiFEo3edh5mTbIVCcubSExNMyp2A74r2kEY7G1q5GGWBtiblJMKGLfEvSyTSlHaGp",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/dOF1OaL6gTNii6HwWAswB9Yz63zEJiwaePGx9gaApG6WAJ0LvQoVzj4tm3pZEcVwMwU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/r_0ScVp_RU464qMuIvzgn5G_o147SOaUES6YDLIUEkg9bkxmvDzMijhTRPy6S20VjJ8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/7HDB8mGs6n3VJOLaZ35NUnoMm_ut_-e9dlJ0e2_4FavYiIosSC7m70vwRm4H5cwMdnc",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://www.bavart.io/politique-confidentialite-bavart.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "Users interact<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.ARtStudio.BavARt",
+    "reviewsUrl": "rev?doc=com.ARtStudio.BavARt&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.ARtStudio.BavARt",
+    "title": "BavAR[t]",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "welcome@bavart.io"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "5 May 2022"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "5",
+      "fiveStarRatings": "7",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "8",
+      "starRating": 4.75,
+      "threeStarRatings": "1",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-05-08 14:52:11.637465",
+    "backendDocid": "com.ARtStudio.BavARt",
+    "backendId": 3,
+    "creator": "AR[t] Studio",
+    "descriptionHtml": "BavAR[t] is an augmented reality platform dedicated to art and culture. BavAR[t] offers a map of augmented reality experiences to be experienced near you. For each creation viewed, the player collects virtual artworks. This allows the player to collect points exchangeable for vouchers for cultural products, such as tickets to a museum or a concert.",
+    "descriptionShort": "BavAR[t] a game for art and culture! View artworks in augmented reality near you",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.ar.core",
+              "version": 220920000
+            }
+          ],
+          "unknown1": 3,
+          "unknown2": "62889310",
+          "unknown3": 31
+        },
+        "developerEmail": "welcome@bavart.io",
+        "developerName": "AR[t] Studio",
+        "developerWebsite": "http://bavart.io/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "31369481",
+            "versionCode": 26
+          },
+          {
+            "fileType": 0,
+            "size": "31519829",
+            "versionCode": 26
+          }
+        ],
+        "installationSize": "62889310",
+        "numDownloads": "500+ downloads",
+        "packageName": "com.ARtStudio.BavARt",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.CAMERA",
+          "android.permission.GET_ACCOUNTS",
+          "android.permission.INTERNET",
+          "android.permission.POST_NOTIFICATIONS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.amazonaws.unity.permission.C2D_MESSAGE"
+        ],
+        "recentChangesHtml": "We are pleased to share with you the latest version of BavAR[t], offering even more flexibility and possibilities! <br>- A simplified and more educational user experience<br>- More and more artworks to capture in augmented reality!<br>- A collaborative mode even easier to use!",
+        "unstable": true,
+        "uploadDate": "27 Apr 2023",
+        "versionCode": 26,
+        "versionString": "26"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.ARtStudio.BavARt",
+    "docType": 1,
+    "docid": "com.ARtStudio.BavARt",
+    "image": [
+      {
+        "color": "#EFF2F4",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/8VsbfQok9vPT9mx9NlonaPsxpjJHvLNL4_Yj2kqx8kZZnZLmWrd0caCpOEcDni3J7OID",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#141414",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/qjjLrc1cz1tHF9qTQWH0Ohh-5i3DLmrd8RDF6xEtWk66CPx2BbfvPSIP7jv8KWPswHo",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 3,
+        "imageUrl": "https://www.youtube.com/watch?v=4Q5-yHc5c3M"
+      },
+      {
+        "imageType": 13,
+        "imageUrl": "https://i.ytimg.com/vi/4Q5-yHc5c3M/hqdefault.jpg",
+        "supportsFifeUrlOptions": false
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Q13rEiEKherYMRrbORCrYYIDV3GHnKUghU5afo47P4ypuo6kETHvTT4AMoQqp9J8UF4A",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/q8u4UwNQJaK-i96e7l4Edr2DKVDSMGO3L-koUncoP5EPU2B7RkT07wmkq1EH7VBasRtt",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/agYv9Udkat2llLV7_y7WTHJ3-QvvHL-oejJowHt0maf9usW2dxJdriJP7PT24uEeeGwt",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/3k0_rV-EcHHs7SwusTU2vNQcVzoiacERXwKusxwEvMKtaUxziFufh7oN-aw3sUS40bo9",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/UM2KiFEo3edh5mTbIVCcubSExNMyp2A74r2kEY7G1q5GGWBtiblJMKGLfEvSyTSlHaGp",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/dOF1OaL6gTNii6HwWAswB9Yz63zEJiwaePGx9gaApG6WAJ0LvQoVzj4tm3pZEcVwMwU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/r_0ScVp_RU464qMuIvzgn5G_o147SOaUES6YDLIUEkg9bkxmvDzMijhTRPy6S20VjJ8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/7HDB8mGs6n3VJOLaZ35NUnoMm_ut_-e9dlJ0e2_4FavYiIosSC7m70vwRm4H5cwMdnc",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://www.bavart.io/politique-confidentialite-bavart.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "Users interact<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.ARtStudio.BavARt",
+    "reviewsUrl": "rev?doc=com.ARtStudio.BavARt&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.ARtStudio.BavARt",
+    "title": "BavAR[t]",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "welcome@bavart.io"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "5 May 2022"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "5",
+      "fiveStarRatings": "7",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "8",
+      "starRating": 4.75,
+      "threeStarRatings": "1",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-06-18 07:21:37.317033",
+    "backendDocid": "com.ARtStudio.BavARt",
+    "backendId": 3,
+    "creator": "AR[t] Studio",
+    "descriptionHtml": "BavAR[t] is an augmented reality platform dedicated to art and culture. BavAR[t] offers a map of augmented reality experiences to be experienced near you. For each creation viewed, the player collects virtual artworks. This allows the player to collect points exchangeable for vouchers for cultural products, such as tickets to a museum or a concert.",
+    "descriptionShort": "BavAR[t] a game for art and culture! View artworks in augmented reality near you",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.ar.core",
+              "version": 220920000
+            }
+          ],
+          "unknown1": 3,
+          "unknown2": "84930576",
+          "unknown3": 31
+        },
+        "developerEmail": "welcome@bavart.io",
+        "developerName": "AR[t] Studio",
+        "developerWebsite": "http://bavart.io/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "33327819",
+            "versionCode": 31
+          },
+          {
+            "fileType": 0,
+            "size": "51602757",
+            "versionCode": 31
+          }
+        ],
+        "hasInstantLink": true,
+        "installationSize": "84930576",
+        "numDownloads": "500+ downloads",
+        "packageName": "com.ARtStudio.BavARt",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.CAMERA",
+          "android.permission.GET_ACCOUNTS",
+          "android.permission.HIGH_SAMPLING_RATE_SENSORS",
+          "android.permission.INTERNET",
+          "android.permission.POST_NOTIFICATIONS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.amazonaws.unity.permission.C2D_MESSAGE",
+          "com.android.vending.BILLING",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": "We are pleased to share with you the latest version of BavAR[t], offering even more flexibility and possibilities! <br>- A simplified and more educational user experience<br>- More and more artworks to capture in augmented reality!<br>- A collaborative mode even easier to use!",
+        "unstable": true,
+        "uploadDate": "11 Jun 2023",
+        "versionCode": 31,
+        "versionString": "31"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.ARtStudio.BavARt",
+    "docType": 1,
+    "docid": "com.ARtStudio.BavARt",
+    "image": [
+      {
+        "color": "#EFF2F4",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/8VsbfQok9vPT9mx9NlonaPsxpjJHvLNL4_Yj2kqx8kZZnZLmWrd0caCpOEcDni3J7OID",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#141414",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/qjjLrc1cz1tHF9qTQWH0Ohh-5i3DLmrd8RDF6xEtWk66CPx2BbfvPSIP7jv8KWPswHo",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 3,
+        "imageUrl": "https://www.youtube.com/watch?v=4Q5-yHc5c3M"
+      },
+      {
+        "imageType": 13,
+        "imageUrl": "https://i.ytimg.com/vi/4Q5-yHc5c3M/hqdefault.jpg",
+        "supportsFifeUrlOptions": false
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Q13rEiEKherYMRrbORCrYYIDV3GHnKUghU5afo47P4ypuo6kETHvTT4AMoQqp9J8UF4A",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/q8u4UwNQJaK-i96e7l4Edr2DKVDSMGO3L-koUncoP5EPU2B7RkT07wmkq1EH7VBasRtt",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/agYv9Udkat2llLV7_y7WTHJ3-QvvHL-oejJowHt0maf9usW2dxJdriJP7PT24uEeeGwt",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/3k0_rV-EcHHs7SwusTU2vNQcVzoiacERXwKusxwEvMKtaUxziFufh7oN-aw3sUS40bo9",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/UM2KiFEo3edh5mTbIVCcubSExNMyp2A74r2kEY7G1q5GGWBtiblJMKGLfEvSyTSlHaGp",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/dOF1OaL6gTNii6HwWAswB9Yz63zEJiwaePGx9gaApG6WAJ0LvQoVzj4tm3pZEcVwMwU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/r_0ScVp_RU464qMuIvzgn5G_o147SOaUES6YDLIUEkg9bkxmvDzMijhTRPy6S20VjJ8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/7HDB8mGs6n3VJOLaZ35NUnoMm_ut_-e9dlJ0e2_4FavYiIosSC7m70vwRm4H5cwMdnc",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://www.bavart.io/politique-confidentialite-bavart.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "Users interact<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.ARtStudio.BavARt",
+    "reviewsUrl": "rev?doc=com.ARtStudio.BavARt&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.ARtStudio.BavARt",
+    "title": "BavAR[t]",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "welcome@bavart.io"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "5 May 2022"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-07-19 03:00:44.890865",
+    "backendDocid": "com.ARtStudio.BavARt",
+    "backendId": 3,
+    "creator": "AR[t] Studio",
+    "descriptionHtml": "BavAR[t] is an augmented reality platform dedicated to art and culture. BavAR[t] offers a map of augmented reality experiences to be experienced near you. For each creation viewed, the player collects virtual artworks. This allows the player to collect points exchangeable for vouchers for cultural products, such as tickets to a museum or a concert.",
+    "descriptionShort": "BavAR[t] a game for art and culture! View artworks in augmented reality near you",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.ar.core",
+              "version": 220920000
+            }
+          ],
+          "unknown1": 3,
+          "unknown2": "96739344",
+          "unknown3": 31
+        },
+        "developerEmail": "welcome@bavart.io",
+        "developerName": "AR[t] Studio",
+        "developerWebsite": "http://bavart.io/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "45005515",
+            "versionCode": 33
+          },
+          {
+            "fileType": 0,
+            "size": "51733829",
+            "versionCode": 33
+          }
+        ],
+        "hasInstantLink": true,
+        "installationSize": "96739344",
+        "numDownloads": "500+ downloads",
+        "packageName": "com.ARtStudio.BavARt",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.CAMERA",
+          "android.permission.GET_ACCOUNTS",
+          "android.permission.HIGH_SAMPLING_RATE_SENSORS",
+          "android.permission.INTERNET",
+          "android.permission.POST_NOTIFICATIONS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.amazonaws.unity.permission.C2D_MESSAGE",
+          "com.android.vending.BILLING",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": "We are pleased to share with you the latest version of BavAR[t], offering even more flexibility and possibilities! <br>- A simplified and more educational user experience<br>- More and more artworks to capture in augmented reality!<br>- A collaborative mode even easier to use!",
+        "unstable": true,
+        "uploadDate": "17 Jul 2023",
+        "versionCode": 33,
+        "versionString": "33"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.ARtStudio.BavARt",
+    "docType": 1,
+    "docid": "com.ARtStudio.BavARt",
+    "image": [
+      {
+        "color": "#F7B27D",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/SwqNInquHIGrEi84JUlB-20Y1M5fgdzcup-x1eN98ghrgp65_szw_aa2ghuPcMMA87BL",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#141414",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/qjjLrc1cz1tHF9qTQWH0Ohh-5i3DLmrd8RDF6xEtWk66CPx2BbfvPSIP7jv8KWPswHo",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 3,
+        "imageUrl": "https://www.youtube.com/watch?v=4Q5-yHc5c3M"
+      },
+      {
+        "imageType": 13,
+        "imageUrl": "https://i.ytimg.com/vi/4Q5-yHc5c3M/hqdefault.jpg",
+        "supportsFifeUrlOptions": false
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/6E32cA070rAUksxyabKgSOshh5PzF0RGw9G761vYWTkGSOo68xHt-Kw7dadMRHwIezQj",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/2wrmtmneH1fYQpnN6gOBG2wRkPdZHUwaAYHq5Xc8IHtS-XLOOJwuHl8-qKDfwLANico",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/OJgKSzmgajMKGJ0XwJYdxrCXsdKov_u8TTNMGFX6Jxxts_mgbpzFX9STKPjyPYKTpUo",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/4z7IahWMUkCyL7ZIshybgaa58_lmXXxzESU_sBM_KH_OujdwEn9mx0OtEKjQ6E2GPw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/a08gj6sobVN1NphKE_wDucIG8KL9mkCu6cURCr0vWukSFGrU0NPa255Jm6HQvr8DLw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/9BBdAPQLVM0lEy-3BhlXgc7tFYTVrQbgAIdQQIPIKpgdt70T9WrDq7syVbPx6N-4blg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/sI3mvBuwiXbnUqi7edU_ZP85mQgES4OReDH0530CGkSIp-khGDejP-_sId8rKrShWvg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/X2yg7xZBMer7wCKTz7ekoZagHzJ74hvm3zsq53MvA5KrFWXu4muGd3dsVO9UxfhJMg",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://www.bavart.io/politique-confidentialite-bavart.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "Users interact<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.ARtStudio.BavARt",
+    "reviewsUrl": "rev?doc=com.ARtStudio.BavARt&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.ARtStudio.BavARt",
+    "title": "BavAR[t]",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "AR[t] Studio"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "welcome@bavart.io"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "21 Dec 2022"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "5",
+      "fiveStarRatings": "8",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "9",
+      "starRating": 4.7777777,
+      "threeStarRatings": "1",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-07-21 10:01:18.053964",
+    "backendDocid": "com.ARtStudio.BavARt",
+    "backendId": 3,
+    "creator": "AR[t] Studio",
+    "descriptionHtml": "BavAR[t] is an augmented reality platform dedicated to art and culture. BavAR[t] offers a map of augmented reality experiences to be experienced near you. For each creation viewed, the player collects virtual artworks. This allows the player to collect points exchangeable for vouchers for cultural products, such as tickets to a museum or a concert.",
+    "descriptionShort": "BavAR[t] a game for art and culture! View artworks in augmented reality near you",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.ar.core",
+              "version": 220920000
+            }
+          ],
+          "unknown1": 3,
+          "unknown2": "96739344",
+          "unknown3": 31
+        },
+        "developerEmail": "welcome@bavart.io",
+        "developerName": "AR[t] Studio",
+        "developerWebsite": "http://bavart.io/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "45005515",
+            "versionCode": 34
+          },
+          {
+            "fileType": 0,
+            "size": "51733829",
+            "versionCode": 34
+          }
+        ],
+        "hasInstantLink": true,
+        "installationSize": "96739344",
+        "numDownloads": "500+ downloads",
+        "packageName": "com.ARtStudio.BavARt",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.CAMERA",
+          "android.permission.GET_ACCOUNTS",
+          "android.permission.HIGH_SAMPLING_RATE_SENSORS",
+          "android.permission.INTERNET",
+          "android.permission.POST_NOTIFICATIONS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.amazonaws.unity.permission.C2D_MESSAGE",
+          "com.android.vending.BILLING",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": "We are pleased to share with you the latest version of BavAR[t], offering even more flexibility and possibilities! <br>- A simplified and more educational user experience<br>- More and more artworks to capture in augmented reality!<br>- A collaborative mode even easier to use!",
+        "unstable": true,
+        "uploadDate": "19 Jul 2023",
+        "versionCode": 34,
+        "versionString": "34"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.ARtStudio.BavARt",
+    "docType": 1,
+    "docid": "com.ARtStudio.BavARt",
+    "image": [
+      {
+        "color": "#F7B27D",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/SwqNInquHIGrEi84JUlB-20Y1M5fgdzcup-x1eN98ghrgp65_szw_aa2ghuPcMMA87BL",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#141414",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/qjjLrc1cz1tHF9qTQWH0Ohh-5i3DLmrd8RDF6xEtWk66CPx2BbfvPSIP7jv8KWPswHo",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 3,
+        "imageUrl": "https://www.youtube.com/watch?v=4Q5-yHc5c3M"
+      },
+      {
+        "imageType": 13,
+        "imageUrl": "https://i.ytimg.com/vi/4Q5-yHc5c3M/hqdefault.jpg",
+        "supportsFifeUrlOptions": false
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/6E32cA070rAUksxyabKgSOshh5PzF0RGw9G761vYWTkGSOo68xHt-Kw7dadMRHwIezQj",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/2wrmtmneH1fYQpnN6gOBG2wRkPdZHUwaAYHq5Xc8IHtS-XLOOJwuHl8-qKDfwLANico",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/OJgKSzmgajMKGJ0XwJYdxrCXsdKov_u8TTNMGFX6Jxxts_mgbpzFX9STKPjyPYKTpUo",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/4z7IahWMUkCyL7ZIshybgaa58_lmXXxzESU_sBM_KH_OujdwEn9mx0OtEKjQ6E2GPw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/a08gj6sobVN1NphKE_wDucIG8KL9mkCu6cURCr0vWukSFGrU0NPa255Jm6HQvr8DLw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/9BBdAPQLVM0lEy-3BhlXgc7tFYTVrQbgAIdQQIPIKpgdt70T9WrDq7syVbPx6N-4blg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/sI3mvBuwiXbnUqi7edU_ZP85mQgES4OReDH0530CGkSIp-khGDejP-_sId8rKrShWvg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/X2yg7xZBMer7wCKTz7ekoZagHzJ74hvm3zsq53MvA5KrFWXu4muGd3dsVO9UxfhJMg",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://www.bavart.io/politique-confidentialite-bavart.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "Users interact<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.ARtStudio.BavARt",
+    "reviewsUrl": "rev?doc=com.ARtStudio.BavARt&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.ARtStudio.BavARt",
+    "title": "BavAR[t]",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "welcome@bavart.io"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "5 May 2022"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "6",
+      "fiveStarRatings": "9",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "10",
+      "starRating": 4.8,
+      "threeStarRatings": "1",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-11-05 20:23:58.039388",
+    "backendDocid": "com.ARtStudio.BavARt",
+    "backendId": 3,
+    "creator": "AR[t] Studio",
+    "descriptionHtml": "BavAR[t] is an augmented reality platform dedicated to art and culture. BavAR[t] offers a map of augmented reality experiences to be experienced near you. For each creation viewed, the player collects virtual artworks. This allows the player to collect points exchangeable for vouchers for cultural products, such as tickets to a museum or a concert.",
+    "descriptionShort": "BavAR[t] a game for art and culture! View artworks in augmented reality near you",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.ar.core",
+              "version": 220920000
+            }
+          ],
+          "unknown1": 2,
+          "unknown2": "143844012",
+          "unknown3": 33
+        },
+        "developerAddress": "3, impasse des Bluiniers<br/>29910 Tr\u00e9gunc<br/>France",
+        "developerEmail": "welcome@bavart.io",
+        "developerName": "AR[t] Studio",
+        "developerWebsite": "http://bavart.io/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "143844012",
+            "versionCode": 37
+          }
+        ],
+        "hasInstantLink": true,
+        "installationSize": "143844012",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "com.ARtStudio.BavARt",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.CAMERA",
+          "android.permission.GET_ACCOUNTS",
+          "android.permission.HIGH_SAMPLING_RATE_SENSORS",
+          "android.permission.INTERNET",
+          "android.permission.POST_NOTIFICATIONS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.amazonaws.unity.permission.C2D_MESSAGE",
+          "com.android.vending.BILLING"
+        ],
+        "recentChangesHtml": "We are pleased to share with you the latest version of BavAR[t], offering even more flexibility and possibilities! <br>- A simplified and more educational user experience<br>- More and more artworks to capture in augmented reality!<br>- A collaborative mode even easier to use!",
+        "unstable": true,
+        "uploadDate": "23 Oct 2023",
+        "versionCode": 37,
+        "versionString": "37"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.ARtStudio.BavARt&vc=37",
+    "docType": 1,
+    "docid": "com.ARtStudio.BavARt",
+    "image": [
+      {
+        "color": "#F7B27D",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/SwqNInquHIGrEi84JUlB-20Y1M5fgdzcup-x1eN98ghrgp65_szw_aa2ghuPcMMA87BL",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#141414",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/qjjLrc1cz1tHF9qTQWH0Ohh-5i3DLmrd8RDF6xEtWk66CPx2BbfvPSIP7jv8KWPswHo",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 3,
+        "imageUrl": "https://www.youtube.com/watch?v=4Q5-yHc5c3M"
+      },
+      {
+        "imageType": 13,
+        "imageUrl": "https://i.ytimg.com/vi/4Q5-yHc5c3M/hqdefault.jpg",
+        "supportsFifeUrlOptions": false
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/6E32cA070rAUksxyabKgSOshh5PzF0RGw9G761vYWTkGSOo68xHt-Kw7dadMRHwIezQj",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/2wrmtmneH1fYQpnN6gOBG2wRkPdZHUwaAYHq5Xc8IHtS-XLOOJwuHl8-qKDfwLANico",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/OJgKSzmgajMKGJ0XwJYdxrCXsdKov_u8TTNMGFX6Jxxts_mgbpzFX9STKPjyPYKTpUo",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/4z7IahWMUkCyL7ZIshybgaa58_lmXXxzESU_sBM_KH_OujdwEn9mx0OtEKjQ6E2GPw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/a08gj6sobVN1NphKE_wDucIG8KL9mkCu6cURCr0vWukSFGrU0NPa255Jm6HQvr8DLw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/9BBdAPQLVM0lEy-3BhlXgc7tFYTVrQbgAIdQQIPIKpgdt70T9WrDq7syVbPx6N-4blg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/sI3mvBuwiXbnUqi7edU_ZP85mQgES4OReDH0530CGkSIp-khGDejP-_sId8rKrShWvg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/X2yg7xZBMer7wCKTz7ekoZagHzJ74hvm3zsq53MvA5KrFWXu4muGd3dsVO9UxfhJMg",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://www.bavart.io/politique-confidentialite-bavart.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "Users interact<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.ARtStudio.BavARt",
+    "reviewsUrl": "rev?doc=com.ARtStudio.BavARt&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.ARtStudio.BavARt",
+    "title": "BavAR[t]\n37",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "welcome@bavart.io"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "3, impasse des Bluiniers<br/>29910 Tr\u00e9gunc<br/>France"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "8 Jan 2023"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-12-15 07:35:05.765455",
+    "backendDocid": "com.ARtStudio.BavARt",
+    "backendId": 3,
+    "creator": "AR[t] Studio",
+    "descriptionHtml": "BavAR[t] is an augmented reality platform dedicated to art and culture. BavAR[t] offers a map of augmented reality experiences to be experienced near you. For each creation viewed, the player collects virtual artworks. This allows the player to collect points exchangeable for vouchers for cultural products, such as tickets to a museum or a concert.",
+    "descriptionShort": "BavAR[t] a game for art and culture! View artworks in augmented reality near you",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.ar.core",
+              "version": 220920000
+            }
+          ],
+          "unknown1": 2,
+          "unknown2": "159364436",
+          "unknown3": 33
+        },
+        "developerAddress": "3, impasse des Bluiniers<br/>29910 Tr\u00e9gunc<br/>France",
+        "developerEmail": "welcome@bavart.io",
+        "developerName": "AR[t] Studio",
+        "developerWebsite": "http://bavart.io/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "159364436",
+            "versionCode": 38
+          }
+        ],
+        "installationSize": "159364436",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "com.ARtStudio.BavARt",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.CAMERA",
+          "android.permission.GET_ACCOUNTS",
+          "android.permission.HIGH_SAMPLING_RATE_SENSORS",
+          "android.permission.INTERNET",
+          "android.permission.POST_NOTIFICATIONS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.SCHEDULE_EXACT_ALARM",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.amazonaws.unity.permission.C2D_MESSAGE"
+        ],
+        "recentChangesHtml": "We are pleased to share with you the latest version of BavAR[t], offering even more flexibility and possibilities! <br>- A simplified and more educational user experience<br>- More and more artworks to capture in augmented reality!<br>- A collaborative mode even easier to use!",
+        "unstable": true,
+        "uploadDate": "13 Dec 2023",
+        "versionCode": 38,
+        "versionString": "38"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.ARtStudio.BavARt&vc=38",
+    "docType": 1,
+    "docid": "com.ARtStudio.BavARt",
+    "image": [
+      {
+        "color": "#F7B27D",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/SwqNInquHIGrEi84JUlB-20Y1M5fgdzcup-x1eN98ghrgp65_szw_aa2ghuPcMMA87BL",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/kFavQn3wVmsEEDjHdlgKVICH6q8MpJ73LLiZQAfn0-LK9qJkLGMNncTVStAEUrrI4DI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 3,
+        "imageUrl": "https://www.youtube.com/watch?v=4Q5-yHc5c3M"
+      },
+      {
+        "imageType": 13,
+        "imageUrl": "https://i.ytimg.com/vi/4Q5-yHc5c3M/hqdefault.jpg",
+        "supportsFifeUrlOptions": false
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/6E32cA070rAUksxyabKgSOshh5PzF0RGw9G761vYWTkGSOo68xHt-Kw7dadMRHwIezQj",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/2wrmtmneH1fYQpnN6gOBG2wRkPdZHUwaAYHq5Xc8IHtS-XLOOJwuHl8-qKDfwLANico",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/OJgKSzmgajMKGJ0XwJYdxrCXsdKov_u8TTNMGFX6Jxxts_mgbpzFX9STKPjyPYKTpUo",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/4z7IahWMUkCyL7ZIshybgaa58_lmXXxzESU_sBM_KH_OujdwEn9mx0OtEKjQ6E2GPw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/a08gj6sobVN1NphKE_wDucIG8KL9mkCu6cURCr0vWukSFGrU0NPa255Jm6HQvr8DLw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/9BBdAPQLVM0lEy-3BhlXgc7tFYTVrQbgAIdQQIPIKpgdt70T9WrDq7syVbPx6N-4blg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/sI3mvBuwiXbnUqi7edU_ZP85mQgES4OReDH0530CGkSIp-khGDejP-_sId8rKrShWvg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/X2yg7xZBMer7wCKTz7ekoZagHzJ74hvm3zsq53MvA5KrFWXu4muGd3dsVO9UxfhJMg",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://www.bavart.io/politique-confidentialite-bavart.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "Users interact<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.ARtStudio.BavARt",
+    "reviewsUrl": "rev?doc=com.ARtStudio.BavARt&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.ARtStudio.BavARt",
+    "title": "BavAR[t]\n38",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "welcome@bavart.io"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "3, impasse des Bluiniers<br/>29910 Tr\u00e9gunc<br/>France"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "5 May 2022"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "10",
+      "fourStarRatings": "0",
+      "oneStarRatings": "1",
+      "ratingsCount": "12",
+      "starRating": 4.5,
+      "threeStarRatings": "1",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2024-04-20 16:38:31.966692",
+    "backendDocid": "com.ARtStudio.BavARt",
+    "backendId": 3,
+    "creator": "AR[t] Studio",
+    "descriptionHtml": "BavAR[t] is an augmented reality platform dedicated to art and culture. BavAR[t] offers a map of augmented reality experiences to be experienced near you. For each creation viewed, the player collects virtual artworks. This allows the player to collect points exchangeable for vouchers for cultural products, such as tickets to a museum or a concert.",
+    "descriptionShort": "BavAR[t] a game for art and culture! View artworks in augmented reality near you",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.ar.core",
+              "version": 220920000
+            }
+          ],
+          "unknown1": 2,
+          "unknown2": "111444505",
+          "unknown3": 33
+        },
+        "developerAddress": "3, impasse des Bluiniers<br/>29910 Tr\u00e9gunc<br/>France",
+        "developerEmail": "welcome@bavart.io",
+        "developerName": "AR[t] Studio",
+        "developerWebsite": "http://bavart.io/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "54471737",
+            "versionCode": 43
+          },
+          {
+            "fileType": 0,
+            "size": "56972768",
+            "versionCode": 43
+          }
+        ],
+        "installationSize": "111444505",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "com.ARtStudio.BavARt",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.CAMERA",
+          "android.permission.GET_ACCOUNTS",
+          "android.permission.HIGH_SAMPLING_RATE_SENSORS",
+          "android.permission.INTERNET",
+          "android.permission.POST_NOTIFICATIONS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.SCHEDULE_EXACT_ALARM",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.ARtStudio.BavARt.amazonaws.unity.permission.C2D_MESSAGE"
+        ],
+        "recentChangesHtml": "We are pleased to share with you the latest version of BavAR[t], offering even more flexibility and possibilities! <br>- A simplified and more educational user experience<br>- More and more artworks to capture in augmented reality!<br>- A collaborative mode even easier to use!",
+        "unstable": true,
+        "uploadDate": "11 Apr 2024",
+        "versionCode": 43,
+        "versionString": "43"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.ARtStudio.BavARt&vc=43",
+    "docType": 1,
+    "docid": "com.ARtStudio.BavARt",
+    "image": [
+      {
+        "color": "#F7B27D",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/SwqNInquHIGrEi84JUlB-20Y1M5fgdzcup-x1eN98ghrgp65_szw_aa2ghuPcMMA87BL",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/kFavQn3wVmsEEDjHdlgKVICH6q8MpJ73LLiZQAfn0-LK9qJkLGMNncTVStAEUrrI4DI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 3,
+        "imageUrl": "https://www.youtube.com/watch?v=4Q5-yHc5c3M"
+      },
+      {
+        "imageType": 13,
+        "imageUrl": "https://i.ytimg.com/vi/4Q5-yHc5c3M/hqdefault.jpg",
+        "supportsFifeUrlOptions": false
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/6E32cA070rAUksxyabKgSOshh5PzF0RGw9G761vYWTkGSOo68xHt-Kw7dadMRHwIezQj",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/2wrmtmneH1fYQpnN6gOBG2wRkPdZHUwaAYHq5Xc8IHtS-XLOOJwuHl8-qKDfwLANico",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/OJgKSzmgajMKGJ0XwJYdxrCXsdKov_u8TTNMGFX6Jxxts_mgbpzFX9STKPjyPYKTpUo",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/4z7IahWMUkCyL7ZIshybgaa58_lmXXxzESU_sBM_KH_OujdwEn9mx0OtEKjQ6E2GPw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/a08gj6sobVN1NphKE_wDucIG8KL9mkCu6cURCr0vWukSFGrU0NPa255Jm6HQvr8DLw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/9BBdAPQLVM0lEy-3BhlXgc7tFYTVrQbgAIdQQIPIKpgdt70T9WrDq7syVbPx6N-4blg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/sI3mvBuwiXbnUqi7edU_ZP85mQgES4OReDH0530CGkSIp-khGDejP-_sId8rKrShWvg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/X2yg7xZBMer7wCKTz7ekoZagHzJ74hvm3zsq53MvA5KrFWXu4muGd3dsVO9UxfhJMg",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://www.bavart.io/politique-confidentialite-bavart.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "Users interact<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.ARtStudio.BavARt",
+    "reviewsUrl": "rev?doc=com.ARtStudio.BavARt&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.ARtStudio.BavARt",
+    "title": "BavAR[t]\n43",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "AR[t] Studio"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "welcome@bavart.io"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "3, impasse des Bluiniers<br/>29910 Tr\u00e9gunc<br/>France"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "21 Dec 2022"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "8",
+      "fiveStarRatings": "11",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "13",
+      "starRating": 4.6153846,
+      "threeStarRatings": "1",
+      "twoStarRatings": "1",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2024-09-16 13:01:17.846549",
+    "backendDocid": "com.ARtStudio.BavARt",
+    "backendId": 3,
+    "creator": "AR[t] Studio",
+    "descriptionHtml": "BavAR[t] is an augmented reality platform dedicated to art and culture. BavAR[t] offers a map of augmented reality experiences to be experienced near you. For each creation viewed, the player collects virtual artworks. This allows the player to collect points exchangeable for vouchers for cultural products, such as tickets to a museum or a concert.",
+    "descriptionShort": "BavAR[t] a game for art and culture! View artworks in augmented reality near you",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.ar.core",
+              "version": 240220000
+            }
+          ],
+          "unknown1": 2,
+          "unknown2": "92164693",
+          "unknown3": 34
+        },
+        "developerAddress": "117 avenue de la gare<br/>29900 Concarneau<br/>France",
+        "developerEmail": "welcome@bavart.io",
+        "developerName": "AR[t] Studio",
+        "developerWebsite": "http://bavart.io/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "34557045",
+            "versionCode": 46
+          },
+          {
+            "fileType": 0,
+            "size": "57607648",
+            "versionCode": 46
+          }
+        ],
+        "installationSize": "92164693",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "com.ARtStudio.BavARt",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.CAMERA",
+          "android.permission.GET_ACCOUNTS",
+          "android.permission.HIGH_SAMPLING_RATE_SENSORS",
+          "android.permission.INTERNET",
+          "android.permission.POST_NOTIFICATIONS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.ARtStudio.BavARt.amazonaws.unity.permission.C2D_MESSAGE"
+        ],
+        "recentChangesHtml": "We are pleased to share with you the latest version of BavAR[t], offering even more flexibility and possibilities! <br>- A simplified and more educational user experience<br>- More and more artworks to capture in augmented reality!<br>- A collaborative mode even easier to use!",
+        "unstable": true,
+        "uploadDate": "20 Aug 2024",
+        "versionCode": 46,
+        "versionString": "46"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.ARtStudio.BavARt&vc=46",
+    "docType": 1,
+    "docid": "com.ARtStudio.BavARt",
+    "image": [
+      {
+        "color": "#F7B27D",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/SwqNInquHIGrEi84JUlB-20Y1M5fgdzcup-x1eN98ghrgp65_szw_aa2ghuPcMMA87BL",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/kFavQn3wVmsEEDjHdlgKVICH6q8MpJ73LLiZQAfn0-LK9qJkLGMNncTVStAEUrrI4DI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/6E32cA070rAUksxyabKgSOshh5PzF0RGw9G761vYWTkGSOo68xHt-Kw7dadMRHwIezQj",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/2wrmtmneH1fYQpnN6gOBG2wRkPdZHUwaAYHq5Xc8IHtS-XLOOJwuHl8-qKDfwLANico",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/OJgKSzmgajMKGJ0XwJYdxrCXsdKov_u8TTNMGFX6Jxxts_mgbpzFX9STKPjyPYKTpUo",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/4z7IahWMUkCyL7ZIshybgaa58_lmXXxzESU_sBM_KH_OujdwEn9mx0OtEKjQ6E2GPw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/a08gj6sobVN1NphKE_wDucIG8KL9mkCu6cURCr0vWukSFGrU0NPa255Jm6HQvr8DLw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/9BBdAPQLVM0lEy-3BhlXgc7tFYTVrQbgAIdQQIPIKpgdt70T9WrDq7syVbPx6N-4blg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/sI3mvBuwiXbnUqi7edU_ZP85mQgES4OReDH0530CGkSIp-khGDejP-_sId8rKrShWvg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/X2yg7xZBMer7wCKTz7ekoZagHzJ74hvm3zsq53MvA5KrFWXu4muGd3dsVO9UxfhJMg",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://www.bavart.io/politique-confidentialite-bavart.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "Users interact<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.ARtStudio.BavARt",
+    "reviewsUrl": "rev?doc=com.ARtStudio.BavARt&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.ARtStudio.BavARt",
+    "title": "BavAR[t]\n46",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "welcome@bavart.io"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "117 avenue de la gare<br/>29900 Concarneau<br/>France"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "8 Jan 2023"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "8",
+      "fiveStarRatings": "11",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "13",
+      "starRating": 4.6153846,
+      "threeStarRatings": "1",
+      "twoStarRatings": "1",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2024-09-17 15:16:38.322919",
+    "backendDocid": "com.ARtStudio.BavARt",
+    "backendId": 3,
+    "creator": "AR[t] Studio",
+    "descriptionHtml": "BavAR[t] is an augmented reality platform dedicated to art and culture. BavAR[t] offers a map of augmented reality experiences to be experienced near you. For each creation viewed, the player collects virtual artworks. This allows the player to collect points exchangeable for vouchers for cultural products, such as tickets to a museum or a concert.",
+    "descriptionShort": "BavAR[t] a game for art and culture! View artworks in augmented reality near you",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.ar.core",
+              "version": 240220000
+            }
+          ],
+          "unknown1": 2,
+          "unknown2": "92389973",
+          "unknown3": 34
+        },
+        "developerAddress": "117 avenue de la gare<br/>29900 Concarneau<br/>France",
+        "developerEmail": "welcome@bavart.io",
+        "developerName": "AR[t] Studio",
+        "developerWebsite": "http://bavart.io/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "34761845",
+            "versionCode": 48
+          },
+          {
+            "fileType": 0,
+            "size": "57628128",
+            "versionCode": 48
+          }
+        ],
+        "installationSize": "92389973",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "com.ARtStudio.BavARt",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.CAMERA",
+          "android.permission.GET_ACCOUNTS",
+          "android.permission.HIGH_SAMPLING_RATE_SENSORS",
+          "android.permission.INTERNET",
+          "android.permission.POST_NOTIFICATIONS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.ARtStudio.BavARt.amazonaws.unity.permission.C2D_MESSAGE"
+        ],
+        "recentChangesHtml": "We are pleased to share with you the latest version of BavAR[t], offering even more flexibility and possibilities! <br>- A simplified and more educational user experience<br>- More and more artworks to capture in augmented reality!<br>- A collaborative mode even easier to use!",
+        "unstable": true,
+        "uploadDate": "16 Sept 2024",
+        "versionCode": 48,
+        "versionString": "48"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.ARtStudio.BavARt&vc=48",
+    "docType": 1,
+    "docid": "com.ARtStudio.BavARt",
+    "image": [
+      {
+        "color": "#F7B27D",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/SwqNInquHIGrEi84JUlB-20Y1M5fgdzcup-x1eN98ghrgp65_szw_aa2ghuPcMMA87BL",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/kFavQn3wVmsEEDjHdlgKVICH6q8MpJ73LLiZQAfn0-LK9qJkLGMNncTVStAEUrrI4DI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/6E32cA070rAUksxyabKgSOshh5PzF0RGw9G761vYWTkGSOo68xHt-Kw7dadMRHwIezQj",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/2wrmtmneH1fYQpnN6gOBG2wRkPdZHUwaAYHq5Xc8IHtS-XLOOJwuHl8-qKDfwLANico",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/OJgKSzmgajMKGJ0XwJYdxrCXsdKov_u8TTNMGFX6Jxxts_mgbpzFX9STKPjyPYKTpUo",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/4z7IahWMUkCyL7ZIshybgaa58_lmXXxzESU_sBM_KH_OujdwEn9mx0OtEKjQ6E2GPw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/a08gj6sobVN1NphKE_wDucIG8KL9mkCu6cURCr0vWukSFGrU0NPa255Jm6HQvr8DLw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/9BBdAPQLVM0lEy-3BhlXgc7tFYTVrQbgAIdQQIPIKpgdt70T9WrDq7syVbPx6N-4blg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/sI3mvBuwiXbnUqi7edU_ZP85mQgES4OReDH0530CGkSIp-khGDejP-_sId8rKrShWvg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/X2yg7xZBMer7wCKTz7ekoZagHzJ74hvm3zsq53MvA5KrFWXu4muGd3dsVO9UxfhJMg",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://www.bavart.io/politique-confidentialite-bavart.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "Users interact<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.ARtStudio.BavARt",
+    "reviewsUrl": "rev?doc=com.ARtStudio.BavARt&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.ARtStudio.BavARt",
+    "title": "BavAR[t]\n48",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "welcome@bavart.io"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "117 avenue de la gare<br/>29900 Concarneau<br/>France"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "8 Jan 2023"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "8",
+      "fiveStarRatings": "11",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "13",
+      "starRating": 4.6153846,
+      "threeStarRatings": "1",
+      "twoStarRatings": "1",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2025-03-21 11:33:11.585019",
+    "backendDocid": "com.ARtStudio.BavARt",
+    "backendId": 3,
+    "creator": "AR[t] Studio",
+    "descriptionHtml": "BavAR[t] is an augmented reality platform dedicated to art and culture. BavAR[t] offers a map of augmented reality experiences to be experienced near you. For each creation viewed, the player collects virtual artworks. This allows the player to collect points exchangeable for vouchers for cultural products, such as tickets to a museum or a concert.",
+    "descriptionShort": "BavAR[t] a game for art and culture! View artworks in augmented reality near you",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.ar.core",
+              "version": 240220000
+            }
+          ],
+          "unknown1": 2,
+          "unknown2": "92406357",
+          "unknown3": 34
+        },
+        "developerAddress": "117 avenue de la gare<br/>29900 Concarneau<br/>France",
+        "developerEmail": "welcome@bavart.io",
+        "developerName": "AR[t] Studio",
+        "developerWebsite": "http://bavart.io/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "34770037",
+            "versionCode": 52
+          },
+          {
+            "fileType": 0,
+            "size": "57636320",
+            "versionCode": 52
+          }
+        ],
+        "installationSize": "92406357",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "com.ARtStudio.BavARt",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.CAMERA",
+          "android.permission.GET_ACCOUNTS",
+          "android.permission.HIGH_SAMPLING_RATE_SENSORS",
+          "android.permission.INTERNET",
+          "android.permission.POST_NOTIFICATIONS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.ARtStudio.BavARt.amazonaws.unity.permission.C2D_MESSAGE"
+        ],
+        "recentChangesHtml": "We are pleased to share with you the latest version of BavAR[t], offering even more flexibility and possibilities! <br>- A simplified and more educational user experience<br>- More and more artworks to capture in augmented reality!<br>- A collaborative mode even easier to use!",
+        "unstable": true,
+        "uploadDate": "31 Oct 2024",
+        "versionCode": 52,
+        "versionString": "52"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.ARtStudio.BavARt&vc=52",
+    "docType": 1,
+    "docid": "com.ARtStudio.BavARt",
+    "image": [
+      {
+        "color": "#F7B27D",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/SwqNInquHIGrEi84JUlB-20Y1M5fgdzcup-x1eN98ghrgp65_szw_aa2ghuPcMMA87BL",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/kFavQn3wVmsEEDjHdlgKVICH6q8MpJ73LLiZQAfn0-LK9qJkLGMNncTVStAEUrrI4DI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/6E32cA070rAUksxyabKgSOshh5PzF0RGw9G761vYWTkGSOo68xHt-Kw7dadMRHwIezQj",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/2wrmtmneH1fYQpnN6gOBG2wRkPdZHUwaAYHq5Xc8IHtS-XLOOJwuHl8-qKDfwLANico",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/OJgKSzmgajMKGJ0XwJYdxrCXsdKov_u8TTNMGFX6Jxxts_mgbpzFX9STKPjyPYKTpUo",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/4z7IahWMUkCyL7ZIshybgaa58_lmXXxzESU_sBM_KH_OujdwEn9mx0OtEKjQ6E2GPw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/a08gj6sobVN1NphKE_wDucIG8KL9mkCu6cURCr0vWukSFGrU0NPa255Jm6HQvr8DLw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/9BBdAPQLVM0lEy-3BhlXgc7tFYTVrQbgAIdQQIPIKpgdt70T9WrDq7syVbPx6N-4blg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/sI3mvBuwiXbnUqi7edU_ZP85mQgES4OReDH0530CGkSIp-khGDejP-_sId8rKrShWvg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/X2yg7xZBMer7wCKTz7ekoZagHzJ74hvm3zsq53MvA5KrFWXu4muGd3dsVO9UxfhJMg",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://www.bavart.io/politique-confidentialite-bavart.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "Users interact<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.ARtStudio.BavARt",
+    "reviewsUrl": "rev?doc=com.ARtStudio.BavARt&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.ARtStudio.BavARt",
+    "title": "BavAR[t]\n52",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "welcome@bavart.io"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "117 avenue de la gare<br/>29900 Concarneau<br/>France"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "8 Jan 2023"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "10",
+      "fiveStarRatings": "12",
+      "fourStarRatings": "0",
+      "oneStarRatings": "2",
+      "ratingsCount": "16",
+      "starRating": 4.1875,
+      "threeStarRatings": "1",
+      "twoStarRatings": "1",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2025-05-18 21:26:32.634201",
+    "backendDocid": "com.ARtStudio.BavARt",
+    "backendId": 3,
+    "creator": "AR[t] Studio",
+    "descriptionHtml": "BavAR[t] is an augmented reality platform dedicated to art and culture. BavAR[t] offers a map of augmented reality experiences to be experienced near you. For each creation viewed, the player collects virtual artworks. This allows the player to collect points exchangeable for vouchers for cultural products, such as tickets to a museum or a concert.",
+    "descriptionShort": "BavAR[t] a game for art and culture! View artworks in augmented reality near you",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.ar.core",
+              "version": 240220000
+            }
+          ],
+          "unknown1": 2,
+          "unknown2": "96906605",
+          "unknown3": 35
+        },
+        "developerAddress": "117 avenue de la gare<br/>29900 Concarneau<br/>France",
+        "developerEmail": "welcome@bavart.io",
+        "developerName": "AR[t] Studio",
+        "developerWebsite": "http://bavart.io/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "44091429",
+            "versionCode": 53
+          },
+          {
+            "fileType": 0,
+            "size": "52815176",
+            "versionCode": 53
+          }
+        ],
+        "installationSize": "96906605",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "com.ARtStudio.BavARt",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.CAMERA",
+          "android.permission.GET_ACCOUNTS",
+          "android.permission.HIGH_SAMPLING_RATE_SENSORS",
+          "android.permission.INTERNET",
+          "android.permission.POST_NOTIFICATIONS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.ARtStudio.BavARt.amazonaws.unity.permission.C2D_MESSAGE"
+        ],
+        "recentChangesHtml": "We are pleased to share with you the latest version of BavAR[t], offering even more flexibility and possibilities! <br>- A simplified and more educational user experience<br>- More and more artworks to capture in augmented reality!<br>- A collaborative mode even easier to use!",
+        "unstable": true,
+        "uploadDate": "15 Apr 2025",
+        "versionCode": 53,
+        "versionString": "53"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.ARtStudio.BavARt&vc=53",
+    "docType": 1,
+    "docid": "com.ARtStudio.BavARt",
+    "image": [
+      {
+        "color": "#F7B27D",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/SwqNInquHIGrEi84JUlB-20Y1M5fgdzcup-x1eN98ghrgp65_szw_aa2ghuPcMMA87BL",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/kFavQn3wVmsEEDjHdlgKVICH6q8MpJ73LLiZQAfn0-LK9qJkLGMNncTVStAEUrrI4DI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/6E32cA070rAUksxyabKgSOshh5PzF0RGw9G761vYWTkGSOo68xHt-Kw7dadMRHwIezQj",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/2wrmtmneH1fYQpnN6gOBG2wRkPdZHUwaAYHq5Xc8IHtS-XLOOJwuHl8-qKDfwLANico",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/OJgKSzmgajMKGJ0XwJYdxrCXsdKov_u8TTNMGFX6Jxxts_mgbpzFX9STKPjyPYKTpUo",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/4z7IahWMUkCyL7ZIshybgaa58_lmXXxzESU_sBM_KH_OujdwEn9mx0OtEKjQ6E2GPw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/a08gj6sobVN1NphKE_wDucIG8KL9mkCu6cURCr0vWukSFGrU0NPa255Jm6HQvr8DLw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/9BBdAPQLVM0lEy-3BhlXgc7tFYTVrQbgAIdQQIPIKpgdt70T9WrDq7syVbPx6N-4blg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/sI3mvBuwiXbnUqi7edU_ZP85mQgES4OReDH0530CGkSIp-khGDejP-_sId8rKrShWvg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/X2yg7xZBMer7wCKTz7ekoZagHzJ74hvm3zsq53MvA5KrFWXu4muGd3dsVO9UxfhJMg",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://bavart.io/politique-confidentialite-bavart/",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "Users interact<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.ARtStudio.BavARt",
+    "reviewsUrl": "rev?doc=com.ARtStudio.BavARt&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.ARtStudio.BavARt",
+    "title": "BavAR[t]\n53",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "welcome@bavart.io"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "117 avenue de la gare<br/>29900 Concarneau<br/>France"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "8 Jan 2023"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  }
+]

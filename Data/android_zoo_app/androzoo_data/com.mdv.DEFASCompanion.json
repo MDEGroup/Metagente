@@ -1,0 +1,2822 @@
+[
+  {
+    "aggregateRating": {
+      "commentCount": "276",
+      "fiveStarRatings": "307",
+      "fourStarRatings": "67",
+      "oneStarRatings": "209",
+      "ratingsCount": "749",
+      "starRating": 3.2200000286102295,
+      "threeStarRatings": "67",
+      "twoStarRatings": "97",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-06-03 02:35:31.001831",
+    "backendDocid": "com.mdv.DEFASCompanion",
+    "backendId": 3,
+    "creator": "Bayerische Staatsregierung",
+    "descriptionHtml": "Die kostenlose Bayern-Fahrplan- App der Bayerischen Eisenbahngesellschaft mbH (BEG) ist ein hilfreicher Reisebegleiter im \u00f6ffentlichen Verkehr f\u00fcr ganz Bayern und dar\u00fcber hinaus.<br><br>Neben T\u00fcr-zu- T\u00fcr-Verbindungen informiert die mobile Fahrplanauskunft f\u00fcr Bus und Bahn \u00fcber Abfahrten und Ank\u00fcnfte vom Standort des Nutzers, von Haltestellen oder aus der Karte, auch direkt vom Startbildschirm per Widget.<br><br>F\u00fcr die meisten Verkehrsmittel in Bayern stehen dabei Echtzeitdaten z. B. zu Versp\u00e4tungen und Ausf\u00e4llen zur Verf\u00fcgung. Zus\u00e4tzlich k\u00f6nnen die Positionen von Verkehrsmitteln live auf der Karte mitverfolgt werden.<br><br>Die Anlage von Favoriten erm\u00f6glicht den bequemen Abruf von Fahrtinformationen f\u00fcr Ihre h\u00e4ufig genutzten Verbindungen.<br><br>Ihre komplette Reisekette kann auf der Karte oder im Luftbild inklusive der Fu\u00dfwege nachvollzogen werden.<br><br>F\u00fcr die Offline-Informationsversorgung besteht die M\u00f6glichkeit, sich sowohl die bayernweite Streckennetzkarte f\u00fcr den Eisenbahnverkehr als auch die Liniennetzkarten bayerischer Verb\u00fcnde herunterzuladen.<br><br><br>Bitte beachten Sie, dass f\u00fcr die Nutzung aller Funktionen der App Internet- und GPS-Zugriff notwendig ist.<br>Bei Fragen, Problemen oder Verbesserungsvorschl\u00e4gen wenden Sie sich bitte direkt per E-Mail an die Bayerische Eisenbahngesellschaft.<br>Alle Angaben und Ausk\u00fcnfte ohne Gew\u00e4hr.",
+    "descriptionShort": "The free timetable app, the Bavarian Railroad Company, Inc. (BEG)",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown1": 2,
+          "unknown2": "45934285",
+          "unknown3": 28
+        },
+        "developerEmail": "fahrgastinfo@bahnland-bayern.de",
+        "developerName": "Bayerische Staatsregierung",
+        "developerWebsite": "http://bayern-fahrplan.de/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "45934285",
+            "versionCode": 530014370
+          }
+        ],
+        "installationSize": "45934285",
+        "numDownloads": "100,000+ downloads",
+        "packageName": "com.mdv.DEFASCompanion",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+        ],
+        "recentChangesHtml": "Mit dem aktuellen Update wurde nicht nur das Hintergrundsystem f\u00fcr die Bayern-Fahrplan-App \u00fcberarbeitet, es gibt auch neue Funktionen und Verbesserungen:<br>- M\u00f6glichkeit zur Darstellung ausfallender Verbindungen<br>- neu gestaltete interaktive Karte mit stufenlosem Zoomen<br>- neue Eingabemaske f\u00fcr Fahrtauskunft und Abfahrt/Ankunft<br>- Suchen-Button zum Starten einer Routenberechnung<br>- erweiterter pers\u00f6nlicher Abfahrtsmonitorbereich",
+        "unstable": false,
+        "uploadDate": "30 Mar 2020",
+        "versionCode": 530014370,
+        "versionString": "5.39.14370"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.mdv.DEFASCompanion",
+    "docType": 1,
+    "docid": "com.mdv.DEFASCompanion",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://lh3.googleusercontent.com/NyQaoKHhry5dkW5xj7o610egT2K2eD4rGhcV6EqVJtb9zjYtnRqHVI9RjQuzE5nZVbMd",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://lh3.googleusercontent.com/iALveD4SHlcD3XwJ7QnjJ5codZu1SIwF4jUUIpwHtJ618566lWZRiLrtgfvA_eKRubVJ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/qM672MFyA6UU145KnC8EBlqaK6vnmNxwVsgC3jodgcXssqpC1OLDBJT36Tx8ZbqAVDE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/8XUtbmLQqt5djU_WrXwHaXRyg1y-jXZ-2FRRkyr8WGxgS69gVs-v4ZTBONEH-gCdzK4",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/dWVX_ipv5I5SOQ2UOjdndpDv4GG9T6cpqCyimLmcYoaSmchjV2iWZVLa7Au_Fk26rrY",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/-PAfWhMYvI5uj8m8HsrxPOXdEM_KJAmQPOkIeUSzHBUXW6GwhIVavoNZWHuxans2Nw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/aIjAbLUI2XfqxLYm5Aed8NUvK4lUXS_GjSpSAhDfJkEHOOR1tdAUwrme90v_zI0bb-w",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/XOPUVxgX1TZDGuOEynduPT4qsJbSq5rFGOM-fDjwLIT_zKQlnTJJa3ZHGyFRmj65nEk",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://www.bayern-fahrplan.de/de/datenschutz",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://lh3.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.mdv.DEFASCompanion",
+    "reviewsUrl": "rev?doc=com.mdv.DEFASCompanion&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.mdv.DEFASCompanion",
+    "title": "Bayern-Fahrplan",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "fahrgastinfo@bahnland-bayern.de"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "14 Mar 2013"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "289",
+      "fiveStarRatings": "351",
+      "fourStarRatings": "117",
+      "oneStarRatings": "203",
+      "ratingsCount": "781",
+      "starRating": 3.46,
+      "threeStarRatings": "54",
+      "twoStarRatings": "54",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-12-16 21:35:57.189408",
+    "backendDocid": "com.mdv.DEFASCompanion",
+    "backendId": 3,
+    "creator": "Bayerische Staatsregierung",
+    "descriptionHtml": "Die kostenlose Bayern-Fahrplan- App der Bayerischen Eisenbahngesellschaft mbH (BEG) ist ein hilfreicher Reisebegleiter im \u00f6ffentlichen Verkehr f\u00fcr ganz Bayern und dar\u00fcber hinaus.<br><br>Neben T\u00fcr-zu- T\u00fcr-Verbindungen informiert die mobile Fahrplanauskunft f\u00fcr Bus und Bahn \u00fcber Abfahrten und Ank\u00fcnfte vom Standort des Nutzers, von Haltestellen oder aus der Karte, auch direkt vom Startbildschirm per Widget.<br><br>F\u00fcr die meisten Verkehrsmittel in Bayern stehen dabei Echtzeitdaten z. B. zu Versp\u00e4tungen und Ausf\u00e4llen zur Verf\u00fcgung. Zus\u00e4tzlich k\u00f6nnen die Positionen von Verkehrsmitteln live auf der Karte mitverfolgt werden.<br><br>Die Anlage von Favoriten erm\u00f6glicht den bequemen Abruf von Fahrtinformationen f\u00fcr Ihre h\u00e4ufig genutzten Verbindungen.<br><br>Ihre komplette Reisekette kann auf der Karte oder im Luftbild inklusive der Fu\u00dfwege nachvollzogen werden.<br><br>F\u00fcr die Offline-Informationsversorgung besteht die M\u00f6glichkeit, sich sowohl die bayernweite Streckennetzkarte f\u00fcr den Eisenbahnverkehr als auch die Liniennetzkarten bayerischer Verb\u00fcnde herunterzuladen.<br><br><br>Bitte beachten Sie, dass f\u00fcr die Nutzung aller Funktionen der App Internet- und GPS-Zugriff notwendig ist.<br>Bei Fragen, Problemen oder Verbesserungsvorschl\u00e4gen wenden Sie sich bitte direkt per E-Mail an die Bayerische Eisenbahngesellschaft.<br>Alle Angaben und Ausk\u00fcnfte ohne Gew\u00e4hr.",
+    "descriptionShort": "The free timetable app, the Bavarian Railroad Company, Inc. (BEG)",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown1": 2,
+          "unknown2": "48785013",
+          "unknown3": 29
+        },
+        "developerEmail": "fahrgastinfo@bahnland-bayern.de",
+        "developerName": "Bayerische Staatsregierung",
+        "developerWebsite": "http://bayern-fahrplan.de/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "48785013",
+            "versionCode": 530017588
+          }
+        ],
+        "installationSize": "48785013",
+        "numDownloads": "100,000+ downloads",
+        "packageName": "com.mdv.DEFASCompanion",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.CAMERA",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+        ],
+        "recentChangesHtml": "- Erweiterung der Men\u00fc\u00fcbersicht um die Live Map der S-Bahn M\u00fcnchen<br>- Angaben der letzten Suche jetzt gleich im Suchfeld<br>- M\u00f6glichkeit zur Angabe der Fahrradmitnahme<br>- Darstellung der bayerischen Liniennummern auf der Karte",
+        "unstable": false,
+        "uploadDate": "15 Dec 2020",
+        "versionCode": 530017588,
+        "versionString": "5.59.17588"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.mdv.DEFASCompanion",
+    "docType": 1,
+    "docid": "com.mdv.DEFASCompanion",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/NyQaoKHhry5dkW5xj7o610egT2K2eD4rGhcV6EqVJtb9zjYtnRqHVI9RjQuzE5nZVbMd",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/iALveD4SHlcD3XwJ7QnjJ5codZu1SIwF4jUUIpwHtJ618566lWZRiLrtgfvA_eKRubVJ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/-nGfPhmQYB9KPZjjsfiLcNA_uM0rHwObWAZGe6FSDGWeJxh8an7f54zoatJn7lb3PA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/lWFAhPV2Sxy5lSb0d-l9qP0vzSGIImxYFyQFacJqqSK9fe8OcXdJwtPWhvz7st1ZgbM",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/5dzFIOE2DTEh43BlSngAihfxd8Issrj4GrL4VlhBATKBEtbK9kccbsIoKujeY45aeTaY",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/VAehrtq_oVJHHOG3qHqIYmcAzcvuAbK7CxfQ-1GVuuHek2pyoEjZAxGeAg935xGnS3Q",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/O3WAWueHaiY-m0ZB7N266uYokPMVgfYg1kRE4bHPW0mESuYHaUnPrVWi7Y2TMAyXbq0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/1OJ5GWSmBBlP-_mPVd549KxwYmviPC7_293nIt_RjLsSQfs3t5biTUPWFbRVNSXz8g",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ZbXE3Opq6kGFz8aC5cMIquuwFqfmzJ8bdxzdZsxDLqhtt8OJjnzH68xZkcatJpsg1fM",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://www.bayern-fahrplan.de/de/datenschutz",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.mdv.DEFASCompanion",
+    "reviewsUrl": "rev?doc=com.mdv.DEFASCompanion&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.mdv.DEFASCompanion",
+    "title": "Bayern-Fahrplan",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "fahrgastinfo@bahnland-bayern.de"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "14 Mar 2013"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "311",
+      "fiveStarRatings": "396",
+      "fourStarRatings": "132",
+      "oneStarRatings": "173",
+      "ratingsCount": "827",
+      "starRating": 3.65,
+      "threeStarRatings": "82",
+      "twoStarRatings": "41",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-01-31 17:55:57.881973",
+    "backendDocid": "com.mdv.DEFASCompanion",
+    "backendId": 3,
+    "creator": "Bayerische Staatsregierung",
+    "descriptionHtml": "Die kostenlose Bayern-Fahrplan- App der Bayerischen Eisenbahngesellschaft mbH (BEG) ist ein hilfreicher Reisebegleiter im \u00f6ffentlichen Verkehr f\u00fcr ganz Bayern und dar\u00fcber hinaus.<br><br>Neben T\u00fcr-zu- T\u00fcr-Verbindungen informiert die mobile Fahrplanauskunft f\u00fcr Bus und Bahn \u00fcber Abfahrten und Ank\u00fcnfte vom Standort des Nutzers, von Haltestellen oder aus der Karte, auch direkt vom Startbildschirm per Widget.<br><br>F\u00fcr die meisten Verkehrsmittel in Bayern stehen dabei Echtzeitdaten z. B. zu Versp\u00e4tungen und Ausf\u00e4llen zur Verf\u00fcgung. Zus\u00e4tzlich k\u00f6nnen die Positionen von Verkehrsmitteln live auf der Karte mitverfolgt werden.<br><br>Die Anlage von Favoriten erm\u00f6glicht den bequemen Abruf von Fahrtinformationen f\u00fcr Ihre h\u00e4ufig genutzten Verbindungen.<br><br>Ihre komplette Reisekette kann auf der Karte oder im Luftbild inklusive der Fu\u00dfwege nachvollzogen werden.<br><br>F\u00fcr die Offline-Informationsversorgung besteht die M\u00f6glichkeit, sich sowohl die bayernweite Streckennetzkarte f\u00fcr den Eisenbahnverkehr als auch die Liniennetzkarten bayerischer Verb\u00fcnde herunterzuladen.<br><br><br>Bitte beachten Sie, dass f\u00fcr die Nutzung aller Funktionen der App Internet- und GPS-Zugriff notwendig ist.<br>Bei Fragen, Problemen oder Verbesserungsvorschl\u00e4gen wenden Sie sich bitte direkt per E-Mail an die Bayerische Eisenbahngesellschaft.<br>Alle Angaben und Ausk\u00fcnfte ohne Gew\u00e4hr.",
+    "descriptionShort": "The free timetable app, the Bavarian Railroad Company, Inc. (BEG)",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown1": 2,
+          "unknown2": "37560143",
+          "unknown3": 30
+        },
+        "developerEmail": "fahrgastinfo@bahnland-bayern.de",
+        "developerName": "Bayerische Staatsregierung",
+        "developerWebsite": "http://bayern-fahrplan.de/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "37560143",
+            "versionCode": 530020598
+          }
+        ],
+        "installationSize": "37560143",
+        "numDownloads": "100,000+ downloads",
+        "packageName": "com.mdv.DEFASCompanion",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+        ],
+        "recentChangesHtml": "- Optimierungen f\u00fcr VoiceOver",
+        "unstable": false,
+        "uploadDate": "27 Jan 2022",
+        "versionCode": 530020598,
+        "versionString": "5.98.20598"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.mdv.DEFASCompanion",
+    "docType": 1,
+    "docid": "com.mdv.DEFASCompanion",
+    "image": [
+      {
+        "color": "#1368B1",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/NyQaoKHhry5dkW5xj7o610egT2K2eD4rGhcV6EqVJtb9zjYtnRqHVI9RjQuzE5nZVbMd",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#000000",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/opUvnMAMfc1gxMmQHhdPZ6T4duxvy8aLCumLNSw5t1hMcu_1LOIVU2mgdjJR-raqvg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/g0ZWaWDnq0dujcIBvmySVMCHsZIwUcrFDcDCADfw5i_ksB6S7PRvdyQybntO56dbEKM",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/i0X0ts0Arq2eSJG6F4R4_INiLyLKQvyeNIGThVycAL1_m7TncJMqsOU-aQ4ulMf3zA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/y9AsMGXGosGx5f52MTqpT3iTzaQ9pDQGPF4LyBoy6AQKEGq9YrMCLu8kg2b3F9OUkEc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/lUVAlVscjIT2GPMXn3uBpgX_FA7V7Q8xpsffIXRrCgMJ10v4Ixhe4YO2oQD5FBoa5Vg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/fEWCI93Z3d1-IBuDpIO60sAwtIBAJUwMmNTMEsjI6hOxsmGc7Zg7Ro2dCl_6PcEY3w",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/f_5ssrSbUyoj_9pMiaDoqoXFTM9ukE8bNmRDC252PgCmdyXLa44EKSyCHl9KhSa5ac0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/r03QXBVfVFoKhPD-JANxATq-2ZRBkYsCdsBDQOWsFBQt40ujF-tj_s609lVtzHg83qkS",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://www.bayern-fahrplan.de/de/datenschutz",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.mdv.DEFASCompanion",
+    "reviewsUrl": "rev?doc=com.mdv.DEFASCompanion&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.mdv.DEFASCompanion",
+    "title": "Bayern-Fahrplan",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "fahrgastinfo@bahnland-bayern.de"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "14 Mar 2013"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "312",
+      "fiveStarRatings": "401",
+      "fourStarRatings": "122",
+      "oneStarRatings": "172",
+      "ratingsCount": "828",
+      "starRating": 3.6534653,
+      "threeStarRatings": "90",
+      "twoStarRatings": "40",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-02-16 03:41:40.906088",
+    "backendDocid": "com.mdv.DEFASCompanion",
+    "backendId": 3,
+    "creator": "Bayerische Staatsregierung",
+    "descriptionHtml": "Die kostenlose Bayern-Fahrplan- App der Bayerischen Eisenbahngesellschaft mbH (BEG) ist ein hilfreicher Reisebegleiter im \u00f6ffentlichen Verkehr f\u00fcr ganz Bayern und dar\u00fcber hinaus.<br><br>Neben T\u00fcr-zu- T\u00fcr-Verbindungen informiert die mobile Fahrplanauskunft f\u00fcr Bus und Bahn \u00fcber Abfahrten und Ank\u00fcnfte vom Standort des Nutzers, von Haltestellen oder aus der Karte, auch direkt vom Startbildschirm per Widget.<br><br>F\u00fcr die meisten Verkehrsmittel in Bayern stehen dabei Echtzeitdaten z. B. zu Versp\u00e4tungen und Ausf\u00e4llen zur Verf\u00fcgung. Zus\u00e4tzlich k\u00f6nnen die Positionen von Verkehrsmitteln live auf der Karte mitverfolgt werden.<br><br>Die Anlage von Favoriten erm\u00f6glicht den bequemen Abruf von Fahrtinformationen f\u00fcr Ihre h\u00e4ufig genutzten Verbindungen.<br><br>Ihre komplette Reisekette kann auf der Karte oder im Luftbild inklusive der Fu\u00dfwege nachvollzogen werden.<br><br>F\u00fcr die Offline-Informationsversorgung besteht die M\u00f6glichkeit, sich sowohl die bayernweite Streckennetzkarte f\u00fcr den Eisenbahnverkehr als auch die Liniennetzkarten bayerischer Verb\u00fcnde herunterzuladen.<br><br><br>Bitte beachten Sie, dass f\u00fcr die Nutzung aller Funktionen der App Internet- und GPS-Zugriff notwendig ist.<br>Bei Fragen, Problemen oder Verbesserungsvorschl\u00e4gen wenden Sie sich bitte direkt per E-Mail an die Bayerische Eisenbahngesellschaft.<br>Alle Angaben und Ausk\u00fcnfte ohne Gew\u00e4hr.",
+    "descriptionShort": "The free timetable app, the Bavarian Railroad Company, Inc. (BEG)",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown1": 2,
+          "unknown2": "37605199",
+          "unknown3": 30
+        },
+        "developerEmail": "fahrgastinfo@bahnland-bayern.de",
+        "developerName": "Bayerische Staatsregierung",
+        "developerWebsite": "http://bayern-fahrplan.de/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "37605199",
+            "versionCode": 530020863
+          }
+        ],
+        "installationSize": "37605199",
+        "numDownloads": "100,000+ downloads",
+        "packageName": "com.mdv.DEFASCompanion",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+        ],
+        "recentChangesHtml": "- Optimierungen f\u00fcr VoiceOver",
+        "unstable": false,
+        "uploadDate": "13 Feb 2022",
+        "versionCode": 530020863,
+        "versionString": "5.112.20863"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.mdv.DEFASCompanion",
+    "docType": 1,
+    "docid": "com.mdv.DEFASCompanion",
+    "image": [
+      {
+        "color": "#1368B1",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/NyQaoKHhry5dkW5xj7o610egT2K2eD4rGhcV6EqVJtb9zjYtnRqHVI9RjQuzE5nZVbMd",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#017CC0",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/dKxvHDtq9YqTOILlGlOT_dxsliUsapvb-HaD-6gCMhLSDF7lRqWARjA5dfIFHaCrIIE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/g0ZWaWDnq0dujcIBvmySVMCHsZIwUcrFDcDCADfw5i_ksB6S7PRvdyQybntO56dbEKM",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/i0X0ts0Arq2eSJG6F4R4_INiLyLKQvyeNIGThVycAL1_m7TncJMqsOU-aQ4ulMf3zA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/y9AsMGXGosGx5f52MTqpT3iTzaQ9pDQGPF4LyBoy6AQKEGq9YrMCLu8kg2b3F9OUkEc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/lUVAlVscjIT2GPMXn3uBpgX_FA7V7Q8xpsffIXRrCgMJ10v4Ixhe4YO2oQD5FBoa5Vg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/fEWCI93Z3d1-IBuDpIO60sAwtIBAJUwMmNTMEsjI6hOxsmGc7Zg7Ro2dCl_6PcEY3w",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/f_5ssrSbUyoj_9pMiaDoqoXFTM9ukE8bNmRDC252PgCmdyXLa44EKSyCHl9KhSa5ac0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/r03QXBVfVFoKhPD-JANxATq-2ZRBkYsCdsBDQOWsFBQt40ujF-tj_s609lVtzHg83qkS",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://www.bayern-fahrplan.de/de/datenschutz",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.mdv.DEFASCompanion",
+    "reviewsUrl": "rev?doc=com.mdv.DEFASCompanion&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.mdv.DEFASCompanion",
+    "title": "Bayern-Fahrplan",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "fahrgastinfo@bahnland-bayern.de"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "14 Mar 2013"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-01-22 02:00:32.172662",
+    "backendDocid": "com.mdv.DEFASCompanion",
+    "backendId": 3,
+    "creator": "Bayerische Staatsregierung",
+    "descriptionHtml": "Die kostenlose Bayern-Fahrplan-App der Bayerischen Eisenbahngesellschaft mbH (BEG) ist ein hilfreicher Reisebegleiter im \u00f6ffentlichen Verkehr f\u00fcr ganz Bayern und dar\u00fcber hinaus.<br>Neben T\u00fcr-zu-T\u00fcr-Verbindungen informiert die mobile Fahrplanauskunft f\u00fcr Bus und Bahn sowie alternative Mobilit\u00e4tsangebote \u00fcber Abfahrten und Ank\u00fcnfte vom Standort des Nutzers, von Haltestellen oder aus der Karte. F\u00fcr zahlreiche Verkehrsmittel in Bayern stehen dabei Echtzeitdaten z. B. zu Versp\u00e4tungen und Ausf\u00e4llen zur Verf\u00fcgung. Zus\u00e4tzlich k\u00f6nnen die Positionen von Verkehrsmitteln live auf der Karte mitverfolgt werden. Die Anlage von Favoriten erm\u00f6glicht den bequemen Abruf von Fahrtinformationen f\u00fcr Ihre h\u00e4ufig genutzten Verbindungen. Ihre komplette Reisekette kann auf der Karte inklusive der Fu\u00dfwege nachvollzogen werden. F\u00fcr die Offline-Informationsversorgung besteht die M\u00f6glichkeit, sich sowohl den bayernweiten Liniennetzplan f\u00fcr den Eisenbahnverkehr als auch die Liniennetzpl\u00e4ne bayerischer Verb\u00fcnde herunterzuladen. Weiterhin besteht direkt \u00fcber die App die M\u00f6glichkeit der Anschlussvoranmeldung bei Reiseverbindungen mit Regionalz\u00fcgen. Infos zur Anschlussvoranmeldung und G\u00fcltigkeit der Funktion unter www.bahnland-bayern.de/anschluss",
+    "descriptionShort": "The free timetable app, the Bavarian Railroad Company, Inc. (BEG)",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "29852705",
+          "unknown3": 33
+        },
+        "developerEmail": "fahrgastinfo@bahnland-bayern.de",
+        "developerName": "Bayerische Staatsregierung",
+        "developerWebsite": "http://bayern-fahrplan.de/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "7858978",
+            "versionCode": 603078013
+          },
+          {
+            "fileType": 0,
+            "size": "75131",
+            "versionCode": 603078013
+          },
+          {
+            "fileType": 0,
+            "size": "33177",
+            "versionCode": 603078013
+          },
+          {
+            "fileType": 0,
+            "size": "21885419",
+            "versionCode": 603078013
+          }
+        ],
+        "installationSize": "29852705",
+        "numDownloads": "100,000+ downloads",
+        "packageName": "com.mdv.DEFASCompanion",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.BLUETOOTH_CONNECT",
+          "android.permission.BLUETOOTH_SCAN",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.POST_NOTIFICATIONS",
+          "android.permission.READ_CALENDAR",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.SCHEDULE_EXACT_ALARM",
+          "android.permission.USE_FULL_SCREEN_INTENT",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_CALENDAR",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.mdv.DEFASCompanion.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        ],
+        "recentChangesHtml": "-        Aktualisiertes App-Design<br><br>-        Integration von ausgew\u00e4hlten Sharing-Anbietern<br><br>-        Anschlussvoranmeldung f\u00fcr Regionalz\u00fcge<br><br>-        Icon Anpassung",
+        "unstable": true,
+        "uploadDate": "19 Jan 2023",
+        "versionCode": 603078013,
+        "versionString": "6.47.1"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.mdv.DEFASCompanion",
+    "docType": 1,
+    "docid": "com.mdv.DEFASCompanion",
+    "image": [
+      {
+        "color": "#1368B1",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/NyQaoKHhry5dkW5xj7o610egT2K2eD4rGhcV6EqVJtb9zjYtnRqHVI9RjQuzE5nZVbMd",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#017CC0",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/caDb7Vgkn8VLlpblId_GiYsTNm9RVgeOMOd6Ixsicav0_bn3MFQ-LM_3VGbZZ2XbtQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2194,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/j10Fugbc8vmOK0jBv9nvGh49aB6oKaHvLwhgTEqx4KX2NF_Vsxsq4ludhBKWtIbRUg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2194,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Mk0bPN1Zb4eUC0aGmdQHpHGObY8AlBE9Kj0yWkIqtcfn8pEcnd54nNuTSLjJNRY22pI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2194,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/52gWNLH5xzVisVJlGKbAftfmoULPcpRR0L561CAle7llN3kSVy938xXeGU49GsrFlQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2194,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/FyGKkahfVI_DqFJRNJ201KPaB_-wrvamCFgAPYDjoE2Snd9aRp2stPvKWJuXqhMLX0k",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2194,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/9Y6ZZlT2--5J4RRw8kdN93PxnwcxN4jbN_mafNwNGgYlFHZXM5pCHYPXY-M8W77VCcs",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2194,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/7FIotvMbYtGU37jn9vkh1wuQVC0TG_UAOlNU2Ey_xiYylddb7iTbJlgkQ7D9vKUx9A",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2194,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/h7eXY3BOfFLLRMGTAtTSEVqhSJcZfEY_8QDiLG25gn4sybKUjerZq3ZVUc1Y4BTG4N4",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "GBP",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://www.bayern-fahrplan.de/de/datenschutz",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.mdv.DEFASCompanion",
+    "reviewsUrl": "rev?doc=com.mdv.DEFASCompanion&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.mdv.DEFASCompanion",
+    "title": "Bayern-Fahrplan",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "fahrgastinfo@bahnland-bayern.de"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "14 Mar 2013"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-02-07 15:34:46.886488",
+    "backendDocid": "com.mdv.DEFASCompanion",
+    "backendId": 3,
+    "creator": "Bayerische Staatsregierung",
+    "descriptionHtml": "Die kostenlose Bayern-Fahrplan-App der Bayerischen Eisenbahngesellschaft mbH (BEG) ist ein hilfreicher Reisebegleiter im \u00f6ffentlichen Verkehr f\u00fcr ganz Bayern und dar\u00fcber hinaus.<br>Neben T\u00fcr-zu-T\u00fcr-Verbindungen informiert die mobile Fahrplanauskunft f\u00fcr Bus und Bahn sowie alternative Mobilit\u00e4tsangebote \u00fcber Abfahrten und Ank\u00fcnfte vom Standort des Nutzers, von Haltestellen oder aus der Karte. F\u00fcr zahlreiche Verkehrsmittel in Bayern stehen dabei Echtzeitdaten z. B. zu Versp\u00e4tungen und Ausf\u00e4llen zur Verf\u00fcgung. Zus\u00e4tzlich k\u00f6nnen die Positionen von Verkehrsmitteln live auf der Karte mitverfolgt werden. Die Anlage von Favoriten erm\u00f6glicht den bequemen Abruf von Fahrtinformationen f\u00fcr Ihre h\u00e4ufig genutzten Verbindungen. Ihre komplette Reisekette kann auf der Karte inklusive der Fu\u00dfwege nachvollzogen werden. F\u00fcr die Offline-Informationsversorgung besteht die M\u00f6glichkeit, sich sowohl den bayernweiten Liniennetzplan f\u00fcr den Eisenbahnverkehr als auch die Liniennetzpl\u00e4ne bayerischer Verb\u00fcnde herunterzuladen. Weiterhin besteht direkt \u00fcber die App die M\u00f6glichkeit der Anschlussvoranmeldung bei Reiseverbindungen mit Regionalz\u00fcgen. Infos zur Anschlussvoranmeldung und G\u00fcltigkeit der Funktion unter www.bahnland-bayern.de/anschluss",
+    "descriptionShort": "The free timetable app, the Bavarian Railroad Company, Inc. (BEG)",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "30183142",
+          "unknown3": 33
+        },
+        "developerEmail": "fahrgastinfo@bahnland-bayern.de",
+        "developerName": "Bayerische Staatsregierung",
+        "developerWebsite": "http://bayern-fahrplan.de/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "8008782",
+            "versionCode": 603096832
+          },
+          {
+            "fileType": 0,
+            "size": "75131",
+            "versionCode": 603096832
+          },
+          {
+            "fileType": 0,
+            "size": "16793",
+            "versionCode": 603096832
+          },
+          {
+            "fileType": 0,
+            "size": "33177",
+            "versionCode": 603096832
+          },
+          {
+            "fileType": 0,
+            "size": "22049259",
+            "versionCode": 603096832
+          }
+        ],
+        "installationSize": "30183142",
+        "numDownloads": "100,000+ downloads",
+        "packageName": "com.mdv.DEFASCompanion",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.BLUETOOTH_CONNECT",
+          "android.permission.BLUETOOTH_SCAN",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.POST_NOTIFICATIONS",
+          "android.permission.READ_CALENDAR",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.SCHEDULE_EXACT_ALARM",
+          "android.permission.USE_FULL_SCREEN_INTENT",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_CALENDAR",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.mdv.DEFASCompanion.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        ],
+        "recentChangesHtml": "-          Aktualisierung der gefundenen Verbindungen durch Herunterziehen<br>-          Verbindung in Kalender \u00fcbertragen<br>-          Punktauswahl auf Karte \u00fcber langes Dr\u00fccken<br>-          Kleinere Layout-Anpassungen und Fehlerbehebungen",
+        "unstable": true,
+        "uploadDate": "1 Feb 2023",
+        "versionCode": 603096832,
+        "versionString": "6.53.0"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.mdv.DEFASCompanion",
+    "docType": 1,
+    "docid": "com.mdv.DEFASCompanion",
+    "image": [
+      {
+        "color": "#1368B1",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/NyQaoKHhry5dkW5xj7o610egT2K2eD4rGhcV6EqVJtb9zjYtnRqHVI9RjQuzE5nZVbMd",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#017CC0",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/caDb7Vgkn8VLlpblId_GiYsTNm9RVgeOMOd6Ixsicav0_bn3MFQ-LM_3VGbZZ2XbtQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2194,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/j10Fugbc8vmOK0jBv9nvGh49aB6oKaHvLwhgTEqx4KX2NF_Vsxsq4ludhBKWtIbRUg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2194,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Mk0bPN1Zb4eUC0aGmdQHpHGObY8AlBE9Kj0yWkIqtcfn8pEcnd54nNuTSLjJNRY22pI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2194,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/52gWNLH5xzVisVJlGKbAftfmoULPcpRR0L561CAle7llN3kSVy938xXeGU49GsrFlQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2194,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/FyGKkahfVI_DqFJRNJ201KPaB_-wrvamCFgAPYDjoE2Snd9aRp2stPvKWJuXqhMLX0k",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2194,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/9Y6ZZlT2--5J4RRw8kdN93PxnwcxN4jbN_mafNwNGgYlFHZXM5pCHYPXY-M8W77VCcs",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2194,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/7FIotvMbYtGU37jn9vkh1wuQVC0TG_UAOlNU2Ey_xiYylddb7iTbJlgkQ7D9vKUx9A",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2194,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/h7eXY3BOfFLLRMGTAtTSEVqhSJcZfEY_8QDiLG25gn4sybKUjerZq3ZVUc1Y4BTG4N4",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://www.bayern-fahrplan.de/de/datenschutz",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.mdv.DEFASCompanion",
+    "reviewsUrl": "rev?doc=com.mdv.DEFASCompanion&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.mdv.DEFASCompanion",
+    "title": "Bayern-Fahrplan",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "fahrgastinfo@bahnland-bayern.de"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "14 Mar 2013"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-05-02 16:23:52.863606",
+    "backendDocid": "com.mdv.DEFASCompanion",
+    "backendId": 3,
+    "creator": "Bayerische Eisenbahngesellschaft mbH (BEG)",
+    "descriptionHtml": "Die kostenlose Bayern-Fahrplan-App der Bayerischen Eisenbahngesellschaft mbH (BEG) ist ein hilfreicher Reisebegleiter im \u00f6ffentlichen Verkehr f\u00fcr ganz Bayern und dar\u00fcber hinaus. Die mobile Fahrplanauskunft wird von der BEG im Auftrag des Bayerischen Staatsministeriums f\u00fcr Wohnen, Bau und Verkehr angeboten und laufend weiterentwickelt.<br>Neben T\u00fcr-zu-T\u00fcr-Verbindungen informiert der Bayern-Fahrplan f\u00fcr Bus und Bahn sowie alternative Mobilit\u00e4tsangebote \u00fcber Abfahrten und Ank\u00fcnfte vom Standort des Nutzers, von Haltestellen oder aus der Karte. F\u00fcr zahlreiche Verkehrsmittel in Bayern stehen dabei Echtzeitdaten z. B. zu Versp\u00e4tungen und Ausf\u00e4llen zur Verf\u00fcgung. Zus\u00e4tzlich k\u00f6nnen die Positionen von Verkehrsmitteln live auf der Karte mitverfolgt werden. Angelegte Favoriten erm\u00f6glicht den bequemen Abruf von Fahrtinformationen f\u00fcr h\u00e4ufig genutzte Verbindungen. Die komplette Reisekette kann auf der Karte inklusive der Fu\u00dfwege nachvollzogen werden. Dar\u00fcber hinaus besteht ab Mai 2023 im Bayern-Fahrplan erstmalig die M\u00f6glichkeit des Fahrscheinkaufs, beginnend mit dem Deutschland-Ticket. F\u00fcr einen schnellen \u00dcberblick \u00fcber verschiedene Verkehrsnetze k\u00f6nnen u.a. der bayernweite Liniennetzplan f\u00fcr Regionalz\u00fcge und Netzpl\u00e4ne von Verkehrsverb\u00fcnden heruntergeladen und auch offline genutzt werden. Weiterhin besteht direkt \u00fcber die App die M\u00f6glichkeit der Anschlussvoranmeldung bei Reiseverbindungen mit Regionalz\u00fcgen. Infos zur Anschlussvoranmeldung und G\u00fcltigkeit der Funktion unter www.bahnland-bayern.de/anschluss",
+    "descriptionShort": "The free timetable app, the Bavarian Railroad Company, Inc. (BEG)",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown1": 2,
+          "unknown2": "32159885",
+          "unknown3": 33
+        },
+        "developerAddress": "Bochetsrieder Str. 69<br/>81379 M\u00fcnchen",
+        "developerEmail": "fahrgastinfo@bahnland-bayern.de",
+        "developerName": "Bayerische Eisenbahngesellschaft mbH (BEG)",
+        "developerWebsite": "http://bayern-fahrplan.de/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "8146421",
+            "versionCode": 603218869
+          },
+          {
+            "fileType": 0,
+            "size": "75131",
+            "versionCode": 603218869
+          },
+          {
+            "fileType": 0,
+            "size": "20889",
+            "versionCode": 603218869
+          },
+          {
+            "fileType": 0,
+            "size": "33177",
+            "versionCode": 603218869
+          },
+          {
+            "fileType": 0,
+            "size": "23884267",
+            "versionCode": 603218869
+          }
+        ],
+        "installationSize": "32159885",
+        "numDownloads": "100,000+ downloads",
+        "packageName": "com.mdv.DEFASCompanion",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.BLUETOOTH_CONNECT",
+          "android.permission.BLUETOOTH_SCAN",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.POST_NOTIFICATIONS",
+          "android.permission.READ_CALENDAR",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.SCHEDULE_EXACT_ALARM",
+          "android.permission.USE_FULL_SCREEN_INTENT",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_CALENDAR",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.mdv.DEFASCompanion.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        ],
+        "recentChangesHtml": "\u00b7 Kaufm\u00f6glichkeit f\u00fcr das Deutschland-Ticket<br>\u00b7 Kleinere Anpassungen am Layout",
+        "unstable": true,
+        "uploadDate": "27 Apr 2023",
+        "versionCode": 603218869,
+        "versionString": "6.61.0.1218869"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.mdv.DEFASCompanion",
+    "docType": 1,
+    "docid": "com.mdv.DEFASCompanion",
+    "image": [
+      {
+        "color": "#047DBD",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/KkmanO2VYbYEfgN_mSJotd2oJZ4btpY-ADc-apK8LFpo7V5CROiakv02EkRKoGHzYF8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#017CC0",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/caDb7Vgkn8VLlpblId_GiYsTNm9RVgeOMOd6Ixsicav0_bn3MFQ-LM_3VGbZZ2XbtQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 3,
+        "imageUrl": "https://www.youtube.com/watch?v=n3kuYbIAbsk"
+      },
+      {
+        "imageType": 13,
+        "imageUrl": "https://i.ytimg.com/vi/n3kuYbIAbsk/hqdefault.jpg",
+        "supportsFifeUrlOptions": false
+      },
+      {
+        "dimension": {
+          "height": 2194,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/j10Fugbc8vmOK0jBv9nvGh49aB6oKaHvLwhgTEqx4KX2NF_Vsxsq4ludhBKWtIbRUg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2194,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Mk0bPN1Zb4eUC0aGmdQHpHGObY8AlBE9Kj0yWkIqtcfn8pEcnd54nNuTSLjJNRY22pI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2194,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/52gWNLH5xzVisVJlGKbAftfmoULPcpRR0L561CAle7llN3kSVy938xXeGU49GsrFlQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2194,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/FyGKkahfVI_DqFJRNJ201KPaB_-wrvamCFgAPYDjoE2Snd9aRp2stPvKWJuXqhMLX0k",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2194,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/9Y6ZZlT2--5J4RRw8kdN93PxnwcxN4jbN_mafNwNGgYlFHZXM5pCHYPXY-M8W77VCcs",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2194,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/7FIotvMbYtGU37jn9vkh1wuQVC0TG_UAOlNU2Ey_xiYylddb7iTbJlgkQ7D9vKUx9A",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2194,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/h7eXY3BOfFLLRMGTAtTSEVqhSJcZfEY_8QDiLG25gn4sybKUjerZq3ZVUc1Y4BTG4N4",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://www.bayern-fahrplan.de/de/datenschutz",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.mdv.DEFASCompanion",
+    "reviewsUrl": "rev?doc=com.mdv.DEFASCompanion&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.mdv.DEFASCompanion",
+    "title": "Bayern-Fahrplan",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "fahrgastinfo@bahnland-bayern.de"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Bochetsrieder Str. 69<br/>81379 M\u00fcnchen"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "14 Mar 2013"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-06-08 22:44:43.768409",
+    "backendDocid": "com.mdv.DEFASCompanion",
+    "backendId": 3,
+    "creator": "Bayerische Eisenbahngesellschaft mbH (BEG)",
+    "descriptionHtml": "Die kostenlose Bayern-Fahrplan-App der Bayerischen Eisenbahngesellschaft mbH (BEG) ist ein hilfreicher Reisebegleiter im \u00f6ffentlichen Verkehr f\u00fcr ganz Bayern und dar\u00fcber hinaus. Die mobile Fahrplanauskunft wird von der BEG im Auftrag des Bayerischen Staatsministeriums f\u00fcr Wohnen, Bau und Verkehr angeboten und laufend weiterentwickelt.<br>Neben T\u00fcr-zu-T\u00fcr-Verbindungen informiert der Bayern-Fahrplan f\u00fcr Bus und Bahn sowie alternative Mobilit\u00e4tsangebote \u00fcber Abfahrten und Ank\u00fcnfte vom Standort des Nutzers, von Haltestellen oder aus der Karte. F\u00fcr zahlreiche Verkehrsmittel in Bayern stehen dabei Echtzeitdaten z. B. zu Versp\u00e4tungen und Ausf\u00e4llen zur Verf\u00fcgung. Zus\u00e4tzlich k\u00f6nnen die Positionen von Verkehrsmitteln live auf der Karte mitverfolgt werden. Angelegte Favoriten erm\u00f6glicht den bequemen Abruf von Fahrtinformationen f\u00fcr h\u00e4ufig genutzte Verbindungen. Die komplette Reisekette kann auf der Karte inklusive der Fu\u00dfwege nachvollzogen werden. Dar\u00fcber hinaus besteht ab Mai 2023 im Bayern-Fahrplan erstmalig die M\u00f6glichkeit des Fahrscheinkaufs, beginnend mit dem Deutschland-Ticket. F\u00fcr einen schnellen \u00dcberblick \u00fcber verschiedene Verkehrsnetze k\u00f6nnen u.a. der bayernweite Liniennetzplan f\u00fcr Regionalz\u00fcge und Netzpl\u00e4ne von Verkehrsverb\u00fcnden heruntergeladen und auch offline genutzt werden. Weiterhin besteht direkt \u00fcber die App die M\u00f6glichkeit der Anschlussvoranmeldung bei Reiseverbindungen mit Regionalz\u00fcgen. Infos zur Anschlussvoranmeldung und G\u00fcltigkeit der Funktion unter www.bahnland-bayern.de/anschluss",
+    "descriptionShort": "The free timetable app, the Bavarian Railroad Company, Inc. (BEG)",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "version": 12451000
+            }
+          ],
+          "unknown1": 2,
+          "unknown2": "32159853",
+          "unknown3": 33
+        },
+        "developerAddress": "Bochetsrieder Str. 69<br/>81379 M\u00fcnchen",
+        "developerEmail": "fahrgastinfo@bahnland-bayern.de",
+        "developerName": "Bayerische Eisenbahngesellschaft mbH (BEG)",
+        "developerWebsite": "http://bayern-fahrplan.de/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "8150894",
+            "versionCode": 603237649
+          },
+          {
+            "fileType": 0,
+            "size": "75131",
+            "versionCode": 603237649
+          },
+          {
+            "fileType": 0,
+            "size": "33177",
+            "versionCode": 603237649
+          },
+          {
+            "fileType": 0,
+            "size": "23900651",
+            "versionCode": 603237649
+          }
+        ],
+        "installationSize": "32159853",
+        "numDownloads": "100,000+ downloads",
+        "packageName": "com.mdv.DEFASCompanion",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.BLUETOOTH_CONNECT",
+          "android.permission.BLUETOOTH_SCAN",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.POST_NOTIFICATIONS",
+          "android.permission.READ_CALENDAR",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.SCHEDULE_EXACT_ALARM",
+          "android.permission.USE_FULL_SCREEN_INTENT",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_CALENDAR",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.mdv.DEFASCompanion.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        ],
+        "recentChangesHtml": "\u00b7 Diverse Optimierungen bei Registrierung und Kauf Deutschland-Ticket<br>\u00b7 Fahrzeugpositionen auf der Karte wieder abrufbar",
+        "unstable": true,
+        "uploadDate": "10 May 2023",
+        "versionCode": 603237649,
+        "versionString": "6.63.0.1237649"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.mdv.DEFASCompanion",
+    "docType": 1,
+    "docid": "com.mdv.DEFASCompanion",
+    "image": [
+      {
+        "color": "#047DBD",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/KkmanO2VYbYEfgN_mSJotd2oJZ4btpY-ADc-apK8LFpo7V5CROiakv02EkRKoGHzYF8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#017CC0",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/caDb7Vgkn8VLlpblId_GiYsTNm9RVgeOMOd6Ixsicav0_bn3MFQ-LM_3VGbZZ2XbtQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 3,
+        "imageUrl": "https://www.youtube.com/watch?v=n3kuYbIAbsk"
+      },
+      {
+        "imageType": 13,
+        "imageUrl": "https://i.ytimg.com/vi/n3kuYbIAbsk/hqdefault.jpg",
+        "supportsFifeUrlOptions": false
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/2t0QWXPXakPPyisfSad1F9yqbCS6rD94Lde4yOgLkd5EDOWyYektLBdciKcZa3JY33U",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/gTGrQ412pd43qMt2A01_dYK8eeOD2sQ015gV-VXuOHVXo-yli5w5_uqE-vqGVar1J-Y",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/9ImLd1mRjY4FrBf_kAM7sgxPVN90Mhx8pmW1fLR_MyXPF1FP5uHgIhXVh9k6cLnUOA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/fsmPaR-vFHSG9H3hZ__khfUNDJupRn0EzmPmgiPTH7o6SYCtKJ8ZW_wsICzdddYWTm0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/TKw_xbw6o3n91J59OwYuPj2sZ_YZwg77XK2Sbi1w55E2t8_KixPnsKg-0xkUneja6nQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/F0XxQIkM5QJa-9aJtSYVcMRgp2yTyHXsBUhVTqCP4PTrkRpRNZ0u7v1loni6h_1yQNFr",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/NKNDLZxCuCRJJP6aDapXmeAXtfJJt9QGg2K0EDpTGH6Td0EZ-y45dZKXJJDP3YTJbAg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/2gZq8UHTvGMb0ko4tCsrJjpBpVxt38YFySZslenz04_UZbwuhgy_bmKtQfWTlZI4ClEu",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "GBP",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://www.bayern-fahrplan.de/de/datenschutz",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.mdv.DEFASCompanion",
+    "reviewsUrl": "rev?doc=com.mdv.DEFASCompanion&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.mdv.DEFASCompanion",
+    "title": "Bayern-Fahrplan",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "fahrgastinfo@bahnland-bayern.de"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Bochetsrieder Str. 69<br/>81379 M\u00fcnchen"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "14 Mar 2013"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-09-05 14:05:13.984708",
+    "backendDocid": "com.mdv.DEFASCompanion",
+    "backendId": 3,
+    "creator": "Bayerische Eisenbahngesellschaft mbH (BEG)",
+    "descriptionHtml": "MoBY ist die kostenlose Mobilit\u00e4tsapp f\u00fcr ganz Bayern. Sie ist der pers\u00f6nliche Reisebegleiter f\u00fcr alle Nut-zer \u00f6ffentlicher Verkehrsmittel. Fahrten planen, Tickets buchen, sich \u00fcber Versp\u00e4tungen informieren, An-schlussw\u00fcnsche melden: MoBY kennt nahezu alle Verbindungen in Bayern und dar\u00fcber hinaus, ob in der Stadt oder auf dem Land, ob mit dem Zug, mit U- oder S-Bahn, Bus, Tram und Sharing-Anbietern (E-Scooter, Leihr\u00e4der und Co.) oder auch mit dem Rufbus.  <br>Die App wird von der Bayerischen Eisenbahngesellschaft (BEG) im Auftrag des Bayerischen Staatsminis-teriums f\u00fcr Wohnen, Bau und Verkehr betrieben. Der Funktionsumfang von MoBY entwickelt sich stetig weiter, laufend kommen neue digitale Services hinzu. F\u00fcr den Fahrgast bedeutet das: Informieren, planen, buchen und bezahlen \u2013 alles in einer App und immer up to date. <br><br>Wesentlicher Leistungsumfang<br><br>Fahrplanauskunft: MoBY liefert adressgenaue T\u00fcr-zu-T\u00fcr-Verbindungen mit Bahn, Bus und erg\u00e4nzenden Mobilit\u00e4tsangeboten wie Sharing- und On-Demand-Diensten. Die App kennt die \u00fcber 40.000 bayerischen Bahn- und Bushaltestellen und informiert \u00fcber Abfahrten und Ank\u00fcnfte an der vom Nutzer ausgew\u00e4hlten Haltestelle oder in seiner Umgebung \u2013 in der Regel auf Basis von Echtzeitdaten, die potenzielle Ver-sp\u00e4tungen oder Ausf\u00e4lle ber\u00fccksichtigen. \u00dcber eine Karte lassen sich die aktuellen Positionen der meisten Verkehrsmittel live mitverfolgen. H\u00e4ufig genutzte Verbindungen lassen sich als Favoriten speichern und mit einem Klick abrufen. <br>Tickets: MoBY-Nutzer k\u00f6nnen derzeit \u00fcber die App das Deutschlandticket und das bayerische Erm\u00e4\u00dfi-gungsticket f\u00fcr Auszubildende, Studierende und Freiwilligendienstleistende buchen und bezahlen. Schritt f\u00fcr Schritt kommen viele weitere Ticketangebote hinzu. <br>Anschlussvoranmeldung: Reisende k\u00f6nnen \u00fcber MoBY bei Reiseverbindungen mit Regionalz\u00fcgen An-schlussw\u00fcnsche voranmelden. F\u00fcr Fahrg\u00e4ste gen\u00fcgt ein Klick in der App, um den Anschlusswunsch an-zusto\u00dfen. Wenige Minuten sp\u00e4ter erhalten sie eine R\u00fcckmeldung auf ihr Handy, ob der Zug am Umstei-gebahnhof warten kann.",
+    "descriptionShort": "The free timetable app, the Bavarian Railroad Company, Inc. (BEG)",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "version": 12451000
+            }
+          ],
+          "unknown1": 2,
+          "unknown2": "32960899",
+          "unknown3": 33
+        },
+        "developerAddress": "Bochetsrieder Str. 69<br/>81379 M\u00fcnchen",
+        "developerEmail": "fahrgastinfo@bahnland-bayern.de",
+        "developerName": "Bayerische Eisenbahngesellschaft mbH (BEG)",
+        "developerWebsite": "http://bayern-fahrplan.de/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "8484033",
+            "versionCode": 603386301
+          },
+          {
+            "fileType": 0,
+            "size": "79781",
+            "versionCode": 603386301
+          },
+          {
+            "fileType": 0,
+            "size": "16793",
+            "versionCode": 603386301
+          },
+          {
+            "fileType": 0,
+            "size": "37273",
+            "versionCode": 603386301
+          },
+          {
+            "fileType": 0,
+            "size": "24343019",
+            "versionCode": 603386301
+          }
+        ],
+        "installationSize": "32960899",
+        "numDownloads": "100,000+ downloads",
+        "packageName": "com.mdv.DEFASCompanion",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.BLUETOOTH_CONNECT",
+          "android.permission.BLUETOOTH_SCAN",
+          "android.permission.CAMERA",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.POST_NOTIFICATIONS",
+          "android.permission.READ_CALENDAR",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_MEDIA_IMAGES",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.SCHEDULE_EXACT_ALARM",
+          "android.permission.USE_FULL_SCREEN_INTENT",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_CALENDAR",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.mdv.DEFASCompanion.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        ],
+        "recentChangesHtml": "-\tNamenswechsel der ehemals Bayern-Fahrplan App zu MoBY<br>-\tBuchung des bayerischen Erm\u00e4\u00dfigungstickets <br>-\tAnpassung des K\u00fcndigungsprozesses",
+        "unstable": true,
+        "uploadDate": "21 Aug 2023",
+        "versionCode": 603386301,
+        "versionString": "6.74.0.1386301"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.mdv.DEFASCompanion",
+    "docType": 1,
+    "docid": "com.mdv.DEFASCompanion",
+    "image": [
+      {
+        "color": "#077DBD",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/btP7-CVN_XI11OeTix__XoramtzaRCXWQTGYiVvNR3LtewSwEXV8ftnSActzfxDicThc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#0C7BBB",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/7vjsnSWFCEZshpRYrdb0SQtKjDsS-Q-QrkWzhuVeVBZ1238I_1nU43kyK1TD2lMRJZs",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2194,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/-bcLNYNcymtYCpH9-iEM1XMpn1pxiQhQMm6D4zHSsHkibQZz5TMIJ-eoM38yfSigpa0w",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2194,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/1vYCr7YYUnaSe44RF6quGtvabp-LU-Q6Ub2pQYqgSkhF7k8kcv4vSreQpGEgV9h8ZQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2194,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/AWtX2JwbMW84W4-_brzwv8HFAv02Ouc34J4K8jiPOkb-J4GL-eEydtgo4MKOaX8YGBM",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2194,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/S_NP0cVdoJx7YEJoacCl_w5FEo50rR1VicwOfKfpe16M5eO0P3_jYzrlh4GBjdpw7g",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2194,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/zTFkEX8Z4wAogwuoyyHo5mZrGGRTAJudvR2zWQ9wvJp4GFHK1EHcpvz6uU1yY0lqOw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2194,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/PhBI1GIkIsykaQsYNPTqBn6xGTj1cNuRJtF11ws30MUGud-2gG3FjjAmj2opL4Y2FNA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2194,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/MJLgPtWrSaBypq1zliamveuLwMYDb0latZbISshnKb4utUViF3nMS0cmMVLAhKJuX7oN",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2194,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/eUJn8Orh06WVKbUnhtsLb1OX5CwoMxD85cjrZc4Hcho5xFiBwJ1TjvLeEghZuoZrsn6L",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "PLN",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://www.bayern-fahrplan.de/de/datenschutz",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.mdv.DEFASCompanion",
+    "reviewsUrl": "rev?doc=com.mdv.DEFASCompanion&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.mdv.DEFASCompanion",
+    "title": "MoBY",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "fahrgastinfo@bahnland-bayern.de"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Bochetsrieder Str. 69<br/>81379 M\u00fcnchen"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "14 Mar 2013"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-12-21 16:05:29.064662",
+    "backendDocid": "com.mdv.DEFASCompanion",
+    "backendId": 3,
+    "creator": "Bayerische Eisenbahngesellschaft mbH (BEG)",
+    "descriptionHtml": "MoBY ist die kostenlose Mobilit\u00e4tsapp f\u00fcr ganz Bayern. Sie ist der pers\u00f6nliche Reisebegleiter f\u00fcr alle Nut-zer \u00f6ffentlicher Verkehrsmittel. Fahrten planen, Tickets buchen, sich \u00fcber Versp\u00e4tungen informieren, An-schlussw\u00fcnsche melden: MoBY kennt nahezu alle Verbindungen in Bayern und dar\u00fcber hinaus, ob in der Stadt oder auf dem Land, ob mit dem Zug, mit U- oder S-Bahn, Bus, Tram und Sharing-Anbietern (E-Scooter, Leihr\u00e4der und Co.) oder auch mit dem Rufbus.  <br>Die App wird von der Bayerischen Eisenbahngesellschaft (BEG) im Auftrag des Bayerischen Staatsminis-teriums f\u00fcr Wohnen, Bau und Verkehr betrieben. Der Funktionsumfang von MoBY entwickelt sich stetig weiter, laufend kommen neue digitale Services hinzu. F\u00fcr den Fahrgast bedeutet das: Informieren, planen, buchen und bezahlen \u2013 alles in einer App und immer up to date. <br><br>Wesentlicher Leistungsumfang<br><br>Fahrplanauskunft: MoBY liefert adressgenaue T\u00fcr-zu-T\u00fcr-Verbindungen mit Bahn, Bus und erg\u00e4nzenden Mobilit\u00e4tsangeboten wie Sharing- und On-Demand-Diensten. Die App kennt die \u00fcber 40.000 bayerischen Bahn- und Bushaltestellen und informiert \u00fcber Abfahrten und Ank\u00fcnfte an der vom Nutzer ausgew\u00e4hlten Haltestelle oder in seiner Umgebung \u2013 in der Regel auf Basis von Echtzeitdaten, die potenzielle Ver-sp\u00e4tungen oder Ausf\u00e4lle ber\u00fccksichtigen. \u00dcber eine Karte lassen sich die aktuellen Positionen der meisten Verkehrsmittel live mitverfolgen. H\u00e4ufig genutzte Verbindungen lassen sich als Favoriten speichern und mit einem Klick abrufen. <br>Tickets: MoBY-Nutzer k\u00f6nnen derzeit \u00fcber die App das Deutschlandticket und das bayerische Erm\u00e4\u00dfi-gungsticket f\u00fcr Auszubildende, Studierende und Freiwilligendienstleistende buchen und bezahlen. Schritt f\u00fcr Schritt kommen viele weitere Ticketangebote hinzu. <br>Anschlussvoranmeldung: Reisende k\u00f6nnen \u00fcber MoBY bei Reiseverbindungen mit Regionalz\u00fcgen An-schlussw\u00fcnsche voranmelden. F\u00fcr Fahrg\u00e4ste gen\u00fcgt ein Klick in der App, um den Anschlusswunsch an-zusto\u00dfen. Wenige Minuten sp\u00e4ter erhalten sie eine R\u00fcckmeldung auf ihr Handy, ob der Zug am Umstei-gebahnhof warten kann.",
+    "descriptionShort": "The free timetable app of the Bavarian railway mbH (BEG)",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "version": 12451000
+            }
+          ],
+          "unknown1": 2,
+          "unknown2": "81611459",
+          "unknown3": 33
+        },
+        "developerAddress": "Bochetsrieder Str. 69<br/>81379 M\u00fcnchen",
+        "developerEmail": "fahrgastinfo@bahnland-bayern.de",
+        "developerName": "Bayerische Eisenbahngesellschaft mbH (BEG)",
+        "developerWebsite": "http://bayern-fahrplan.de/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "81611459",
+            "versionCode": 603532013
+          }
+        ],
+        "installationSize": "81611459",
+        "numDownloads": "100,000+ downloads",
+        "packageName": "com.mdv.DEFASCompanion",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.BLUETOOTH_CONNECT",
+          "android.permission.BLUETOOTH_SCAN",
+          "android.permission.CAMERA",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.POST_NOTIFICATIONS",
+          "android.permission.READ_CALENDAR",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_MEDIA_IMAGES",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.SCHEDULE_EXACT_ALARM",
+          "android.permission.USE_FULL_SCREEN_INTENT",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_CALENDAR",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.mdv.DEFASCompanion.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        ],
+        "recentChangesHtml": "- Angabe des Verkehrsunternehmens in der Verbindungsauskunft (soweit vorliegend)<br>- Allgemeine Optimierungen an Optik und Bedienung",
+        "unstable": true,
+        "uploadDate": "Nov 30, 2023",
+        "versionCode": 603532013,
+        "versionString": "6.83.0.1532013"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.mdv.DEFASCompanion&vc=603532013",
+    "docType": 1,
+    "docid": "com.mdv.DEFASCompanion",
+    "image": [
+      {
+        "color": "#077DBD",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/btP7-CVN_XI11OeTix__XoramtzaRCXWQTGYiVvNR3LtewSwEXV8ftnSActzfxDicThc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#0C7BBB",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/7vjsnSWFCEZshpRYrdb0SQtKjDsS-Q-QrkWzhuVeVBZ1238I_1nU43kyK1TD2lMRJZs",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2400,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/e_uymJOCKTD8vQiM1_jn-ono2ET_GO_aVdlatWGMC9jKCInTgipjuq3MpS-GAIcVkCry",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2400,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/DMjLs4ZzWh8JwKpe5ez9KYxu3AF0iuj9cTu7v2DN6UGwNXU3DO1bGCqcUyPAAUHopn7G",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2400,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/UOdyYu9V5Jaa2WGIv1tCYf58VOTRzBWwCSs_7KbYRiAXvys2yFs4P4Ch3cgRqfQW",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2400,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/3pnXGS4WbfFz5i6AexWh903dCR9wbPEKX3B4ZaxTWC8DxxU-IWH_-WpTWKxo63Q6Dg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2400,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/GE0stVNDszlADLOcwxITVbCV1D_PNoq3vc653ThdiuR3kuWr7O5aWJCZEuq-3Vex4Hh6",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2400,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/6TJ_Ym0_WwVOYNdgU5ICjhfyGqg5nfPfVDCSwWr0dCX1jbrUTZGW6H9OSckE0FqDpjbv",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1050,
+          "width": 558
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/0NVcuzudUZK2Yk2ZdCLfzKTRuiZIWTaGB1Y95kZPO73XF7dsWEVanUp3I02_a3C8AQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2400,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/KLdoKxytwLs2DvaPXo-tmJvkEH4YLTg_n4pB8fDdLfaP1b-Z3np5rKx5UTmmJeS_ILk",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "CAD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://www.bayern-fahrplan.de/de/datenschutz",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.mdv.DEFASCompanion",
+    "reviewsUrl": "rev?doc=com.mdv.DEFASCompanion&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.mdv.DEFASCompanion",
+    "title": "MoBY\n6.83.0.1532013",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Bayerische Eisenbahngesellschaft mbH (BEG)"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "fahrgastinfo@bahnland-bayern.de"
+          },
+          "label": "Developer e-mail"
+        },
+        {
+          "container": {
+            "value": "Bochetsrieder Str. 69<br/>81379 M\u00fcnchen"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "Mar 14, 2013"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "25",
+      "fiveStarRatings": "31",
+      "fourStarRatings": "10",
+      "oneStarRatings": "13",
+      "ratingsCount": "68",
+      "starRating": 3.542373,
+      "threeStarRatings": "4",
+      "twoStarRatings": "8",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2024-04-26 15:19:45.177840",
+    "backendDocid": "com.mdv.DEFASCompanion",
+    "backendId": 3,
+    "creator": "Bayerische Eisenbahngesellschaft mbH (BEG)",
+    "descriptionHtml": "MoBY ist die kostenlose Mobilit\u00e4tsapp f\u00fcr ganz Bayern. Sie ist der pers\u00f6nliche Reisebegleiter f\u00fcr alle Nut-zer \u00f6ffentlicher Verkehrsmittel. Fahrten planen, Tickets buchen, sich \u00fcber Versp\u00e4tungen informieren, An-schlussw\u00fcnsche melden: MoBY kennt nahezu alle Verbindungen in Bayern und dar\u00fcber hinaus, ob in der Stadt oder auf dem Land, ob mit dem Zug, mit U- oder S-Bahn, Bus, Tram und Sharing-Anbietern (E-Scooter, Leihr\u00e4der und Co.) oder auch mit dem Rufbus.  <br>Die App wird von der Bayerischen Eisenbahngesellschaft (BEG) im Auftrag des Bayerischen Staatsminis-teriums f\u00fcr Wohnen, Bau und Verkehr betrieben. Der Funktionsumfang von MoBY entwickelt sich stetig weiter, laufend kommen neue digitale Services hinzu. F\u00fcr den Fahrgast bedeutet das: Informieren, planen, buchen und bezahlen \u2013 alles in einer App und immer up to date. <br><br>Wesentlicher Leistungsumfang<br><br>Fahrplanauskunft: MoBY liefert adressgenaue T\u00fcr-zu-T\u00fcr-Verbindungen mit Bahn, Bus und erg\u00e4nzenden Mobilit\u00e4tsangeboten wie Sharing- und On-Demand-Diensten. Die App kennt die \u00fcber 40.000 bayerischen Bahn- und Bushaltestellen und informiert \u00fcber Abfahrten und Ank\u00fcnfte an der vom Nutzer ausgew\u00e4hlten Haltestelle oder in seiner Umgebung \u2013 in der Regel auf Basis von Echtzeitdaten, die potenzielle Ver-sp\u00e4tungen oder Ausf\u00e4lle ber\u00fccksichtigen. \u00dcber eine Karte lassen sich die aktuellen Positionen der meisten Verkehrsmittel live mitverfolgen. H\u00e4ufig genutzte Verbindungen lassen sich als Favoriten speichern und mit einem Klick abrufen. <br>Tickets: MoBY-Nutzer k\u00f6nnen derzeit \u00fcber die App das Deutschlandticket und das bayerische Erm\u00e4\u00dfi-gungsticket f\u00fcr Auszubildende, Studierende und Freiwilligendienstleistende buchen und bezahlen. Schritt f\u00fcr Schritt kommen viele weitere Ticketangebote hinzu. <br>Anschlussvoranmeldung: Reisende k\u00f6nnen \u00fcber MoBY bei Reiseverbindungen mit Regionalz\u00fcgen An-schlussw\u00fcnsche voranmelden. F\u00fcr Fahrg\u00e4ste gen\u00fcgt ein Klick in der App, um den Anschlusswunsch an-zusto\u00dfen. Wenige Minuten sp\u00e4ter erhalten sie eine R\u00fcckmeldung auf ihr Handy, ob der Zug am Umstei-gebahnhof warten kann.",
+    "descriptionShort": "The free timetable app, the Bavarian Railroad Company, Inc. (BEG)",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "version": 12451000
+            }
+          ],
+          "unknown1": 2,
+          "unknown2": "33348891",
+          "unknown3": 34
+        },
+        "developerAddress": "Bochetsrieder Str. 69<br/>81379 M\u00fcnchen",
+        "developerEmail": "fahrgastinfo@bahnland-bayern.de",
+        "developerName": "Bayerische Eisenbahngesellschaft mbH (BEG)",
+        "developerWebsite": "http://bayern-fahrplan.de/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "8396113",
+            "versionCode": 603724438
+          },
+          {
+            "fileType": 0,
+            "size": "67451",
+            "versionCode": 603724438
+          },
+          {
+            "fileType": 0,
+            "size": "16793",
+            "versionCode": 603724438
+          },
+          {
+            "fileType": 0,
+            "size": "20889",
+            "versionCode": 603724438
+          },
+          {
+            "fileType": 0,
+            "size": "20889",
+            "versionCode": 603724438
+          },
+          {
+            "fileType": 0,
+            "size": "33177",
+            "versionCode": 603724438
+          },
+          {
+            "fileType": 0,
+            "size": "24793579",
+            "versionCode": 603724438
+          }
+        ],
+        "installationSize": "33348891",
+        "numDownloads": "100,000+ downloads",
+        "packageName": "com.mdv.DEFASCompanion",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.BLUETOOTH_SCAN",
+          "android.permission.CAMERA",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.POST_NOTIFICATIONS",
+          "android.permission.READ_CALENDAR",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_MEDIA_IMAGES",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_CALENDAR",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.mdv.DEFASCompanion.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        ],
+        "unstable": true,
+        "uploadDate": "12 Apr 2024",
+        "versionCode": 603724438,
+        "versionString": "6.93.0.1724438"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.mdv.DEFASCompanion&vc=603724438",
+    "docType": 1,
+    "docid": "com.mdv.DEFASCompanion",
+    "image": [
+      {
+        "color": "#077DBD",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/btP7-CVN_XI11OeTix__XoramtzaRCXWQTGYiVvNR3LtewSwEXV8ftnSActzfxDicThc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#0C7BBB",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/7vjsnSWFCEZshpRYrdb0SQtKjDsS-Q-QrkWzhuVeVBZ1238I_1nU43kyK1TD2lMRJZs",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2400,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/1s53PamlHKAlQDbtKKm7uW-8ocuXHJCSAon1rTsHhZGT0OafswVHgRPYnrBeaw_21g",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2400,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/HyUAcgan_Kwp2ZhoV7pQR9aK04tuh7ELvj-9qqSgIW4ILMS4nQkzTFgrO9c2vVxnQY8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2400,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/iCy0X6j0OP73Kwp0VR8o_olQOpL1X_meteyysdfUnP7rUyFPTkoWd3SKCeE_hLfIew",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2400,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/vfYoII3vcf-w5TFZSc6X9-M2lQrS3nbVQgQp7BXZqZO4LZCnVs-HFgelGH3LYuuKoEo",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2400,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/N6p2oN50Iqll_rBnsiCr2mFkaunkPcRYTqGtMDYwWnRFFHAdYZ3xQMEN8LeWI-Vb0BE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2400,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/iGO7x6rfpTbGr5YJIeSBbTuQfpsdUPxBm2wQXnNBeBE3Kkgl3RXprPOlRVmHIweQDRc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2400,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Px98aYOnMk3smG5exh8H7eqWclPS8c_WbVBPgww-UtMzvx4QqoSQS1ns90D-mFli14GI",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://bayfp.defas-fgi.de/root/appressources/DatenschutzDE.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.mdv.DEFASCompanion",
+    "reviewsUrl": "rev?doc=com.mdv.DEFASCompanion&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.mdv.DEFASCompanion",
+    "title": "MoBY\n6.93.0.1724438",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "fahrgastinfo@bahnland-bayern.de"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Bochetsrieder Str. 69<br/>81379 M\u00fcnchen"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "14 Mar 2013"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "457",
+      "fiveStarRatings": "1030",
+      "fourStarRatings": "322",
+      "oneStarRatings": "149",
+      "ratingsCount": "1639",
+      "starRating": 4.25,
+      "threeStarRatings": "99",
+      "twoStarRatings": "37",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2025-02-06 00:03:59.584420",
+    "backendDocid": "com.mdv.DEFASCompanion",
+    "backendId": 3,
+    "creator": "Bayerische Eisenbahngesellschaft mbH (BEG)",
+    "descriptionHtml": "MoBY ist die kostenlose Mobilit\u00e4tsapp f\u00fcr ganz Bayern. Sie ist der pers\u00f6nliche Reisebegleiter f\u00fcr alle Nutzer \u00f6ffentlicher Verkehrsmittel. Fahrten planen, Tickets buchen, sich \u00fcber Versp\u00e4tungen informieren, Anschlussw\u00fcnsche melden: MoBY kennt nahezu alle Verbindungen in Bayern und dar\u00fcber hinaus, ob in der Stadt oder auf dem Land, ob mit dem Zug, mit U- oder S-Bahn, Bus, Tram und Sharing-Anbietern (E-Scooter, Leihr\u00e4der und Co.) oder auch mit dem Rufbus.  <br>Die App wird von der Bayerischen Eisenbahngesellschaft (BEG) im Auftrag des Bayerischen Staatsministeriums f\u00fcr Wohnen, Bau und Verkehr betrieben. Der Funktionsumfang von MoBY entwickelt sich stetig weiter, laufend kommen neue digitale Services hinzu. F\u00fcr den Fahrgast bedeutet das: Informieren, planen, buchen und bezahlen \u2013 alles in einer App und immer up to date. <br><br>Wesentlicher Leistungsumfang<br><br>Fahrplanauskunft: MoBY liefert adressgenaue T\u00fcr-zu-T\u00fcr-Verbindungen mit Bahn, Bus und erg\u00e4nzenden Mobilit\u00e4tsangeboten wie Sharing- und On-Demand-Diensten. Die App kennt die rund 45.000 bayerischen Bahn- und Bushaltestellen und informiert \u00fcber Abfahrten und Ank\u00fcnfte an der vom Nutzer ausgew\u00e4hlten Haltestelle oder in seiner Umgebung \u2013 in der Regel auf Basis von Echtzeitdaten, die potentielle Versp\u00e4tungen oder Ausf\u00e4lle ber\u00fccksichtigen. \u00dcber eine Karte lassen sich die aktuellen Positionen der meisten Verkehrsmittel live mitverfolgen. H\u00e4ufig genutzte Verbindungen lassen sich als Favoriten speichern und mit einem Klick abrufen. <br>Tickets: MoBY-Nutzer k\u00f6nnen \u00fcber die App das Deutschlandticket und das bayerische Erm\u00e4\u00dfigungsticket f\u00fcr Auszubildende, Studierende und Freiwilligendienstleistende buchen und bezahlen. Schritt f\u00fcr Schritt kommen viele weitere Ticketangebote hinzu, im aktuellen Update etwa das beliebte Bayern-Ticket Tag/Nacht sowie ein Gro\u00dfteil des MVV-Ticketsortiments. <br>Anschlussvoranmeldung: Reisende k\u00f6nnen \u00fcber MoBY bei Reiseverbindungen mit Regionalz\u00fcgen Anschlussw\u00fcnsche voranmelden. F\u00fcr Fahrg\u00e4ste gen\u00fcgt ein Klick in der App, um den Anschlusswunsch anzusto\u00dfen. Wenige Minuten sp\u00e4ter erhalten sie eine R\u00fcckmeldung auf ihr Handy, ob der Zug am Umsteigebahnhof warten kann.",
+    "descriptionShort": "The free timetable app, the Bavarian Railroad Company, Inc. (BEG)",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "version": 12451000
+            }
+          ],
+          "unknown1": 2,
+          "unknown2": "29490645",
+          "unknown3": 34
+        },
+        "developerAddress": "Bochetsrieder Str. 69<br/>81379 M\u00fcnchen",
+        "developerEmail": "fahrgastinfo@bahnland-bayern.de",
+        "developerName": "Bayerische Eisenbahngesellschaft mbH (BEG)",
+        "developerWebsite": "http://bayern-fahrplan.de/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "4279777",
+            "versionCode": 603924516
+          },
+          {
+            "fileType": 0,
+            "size": "79781",
+            "versionCode": 603924516
+          },
+          {
+            "fileType": 0,
+            "size": "16793",
+            "versionCode": 603924516
+          },
+          {
+            "fileType": 0,
+            "size": "20889",
+            "versionCode": 603924516
+          },
+          {
+            "fileType": 0,
+            "size": "20889",
+            "versionCode": 603924516
+          },
+          {
+            "fileType": 0,
+            "size": "33177",
+            "versionCode": 603924516
+          },
+          {
+            "fileType": 0,
+            "size": "25039339",
+            "versionCode": 603924516
+          }
+        ],
+        "installationSize": "29490645",
+        "numDownloads": "100,000+ downloads",
+        "packageName": "com.mdv.DEFASCompanion",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.BLUETOOTH_SCAN",
+          "android.permission.CAMERA",
+          "android.permission.INTERNET",
+          "android.permission.POST_NOTIFICATIONS",
+          "android.permission.READ_CALENDAR",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_MEDIA_IMAGES",
+          "android.permission.RECORD_AUDIO",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_CALENDAR",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.mdv.DEFASCompanion.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        ],
+        "recentChangesHtml": "- Neue MVV-Tickets: Jetzt kannst du ausgew\u00e4hlte MVV-Tickets (Einzelticket Erwachsene/Kind, Kurzstrecke, Tageskarte Erwachsene/Gruppe/Kind/Fahrrad; Zonen M bis 12) kaufen<br>- Bayern-Ticket f\u00fcr Tag und Nacht: Kaufe dir das Bayern-Ticket f\u00fcr 1-5 Personen<br>- Barrierefreiheit: Verschaffe dir einen \u00dcberblick \u00fcber die jeweiligen Bedingungen und Ausstattungen an den bayerischen Haltestellen<br>- Neue Sharing-Dienste: Ab jetzt Sharinganbieter Isarflitzer, Donkey Republic Straubing und Donau Donkeys verf\u00fcgbar",
+        "unstable": true,
+        "uploadDate": "29 Aug 2024",
+        "versionCode": 603924516,
+        "versionString": "6.104.0.1924516"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.mdv.DEFASCompanion&vc=603924516",
+    "docType": 1,
+    "docid": "com.mdv.DEFASCompanion",
+    "image": [
+      {
+        "color": "#077DBD",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/btP7-CVN_XI11OeTix__XoramtzaRCXWQTGYiVvNR3LtewSwEXV8ftnSActzfxDicThc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#0C7BBB",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/7vjsnSWFCEZshpRYrdb0SQtKjDsS-Q-QrkWzhuVeVBZ1238I_1nU43kyK1TD2lMRJZs",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ZnBM2TYq_Je9WyBLjkBu0FyPXjQSTm589Bjpxl-edInnRt3WePs6VFOL3ySp2NW40eID",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/guWxtAZ6YNnRTwT6ocJooiEeMjIVD44jXikTOqF_d92LTuM4tFo3JrCPj_McfUnrPA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/PRcyEbbU0gjQjpSywfjQ0EhnboLXUOCMUAvOdzDpKswObktiPu6RbCtx3ZyI5ZlOOSmQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/CbwgnbybwOkIJ1ls6Nfok-JF5XZ13RVYR7LUpuGkzZajeqpDfP-8wp4o8jJkFTNuWQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/J8msEQvAIcTBJupxwNtvpyW_qsLd95bsNpc_NY97kPKiVcXXsr-sGu_ca2D_yOSCREb8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/31FeqF2YFWH54NQVRwcBw2yIdEO5IHKczNuzQNcpWUlWGWqbRbeq87vVf8hheyn3c0g",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/TTvtMGC4J9eixo0vi4NTw3LICPtXVJGOuXQMHQZkMfNNRPNYwaQGX4DWW-9U0GotsFs",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/PW3gwFZajVMkBGLCIDnv6-4PvFmyn8sNUV2kyiX-T7jiEl5hwQ0ZQS--R6cVixi5s1I",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://bayfp.defas-fgi.de/root/appressources/DatenschutzDE.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.mdv.DEFASCompanion",
+    "reviewsUrl": "rev?doc=com.mdv.DEFASCompanion&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.mdv.DEFASCompanion",
+    "title": "MoBY\n6.104.0.1924516",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "fahrgastinfo@bahnland-bayern.de"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Bochetsrieder Str. 69<br/>81379 M\u00fcnchen"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "14 Mar 2013"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  }
+]

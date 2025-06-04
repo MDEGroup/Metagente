@@ -1,0 +1,3662 @@
+[
+  {
+    "aggregateRating": {
+      "commentCount": "501",
+      "fiveStarRatings": "692",
+      "fourStarRatings": "31",
+      "oneStarRatings": "124",
+      "ratingsCount": "1096",
+      "starRating": 3.971698045730591,
+      "threeStarRatings": "144",
+      "twoStarRatings": "103",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-06-05 22:59:24.531731",
+    "backendDocid": "com.mobiistar.launchergo",
+    "backendId": 3,
+    "creator": "Mobile Star Corp",
+    "descriptionHtml": "Star Launcher is developed by Mobiistar Vietnam software engineer, based on AOSP Launcher.<br><br>User can have latest Android\u2122 Oreo(Android\u2122 8.1) launcher features.<br><br>1. Base Oreo launcher features<br>- Swipe down to access all apps<br>- Vertical drawer<br>- A-Z fast scroll bar.<br>- Android\u2122 Oreo style animation; round icon support like Pixel style.<br><br>2. Support many themes, icon packs, and wallpapers<br>3. Hide apps and lock apps<br>4. Gestures support<br>5. Double tap to lock phone<br>6. Quick action popup menu when long press icon in launcher desktop<br>7. Support lock desktop<br>8. Search apps or web right away from launcher<br>9. Various search style: pixel launcher style, native style, enhanced style<br>10. Build-in circle/round icon pack<br>11. Many options to make launcher as you like, such as: <br>- Grid size, icon size selection<br>- Show/hide search bar, dock, status bar<br>- Ability to edit icon and icon name individually<br>- Fixed/float wallpaper<br><br>This app uses the Device Administrator permission<br>force-lock is used to screen off device when double tap on the home screen.<br><br>Note:<br>- Android is a registered trademark of Google, LLC.<br>- Oreo is a registered trademark of Nabisco, LLC.",
+    "descriptionShort": "Go version for low configuration devices",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "4675241",
+          "unknown3": 27
+        },
+        "developerAddress": "40 Ph\u1ea1m Ng\u1ecdc Th\u1ea1ch, Ph\u01b0\u1eddng 6, Qu\u1eadn 3",
+        "developerEmail": "hotrostaros@mobistar.vn",
+        "developerName": "Mobile Star Corp",
+        "developerWebsite": "http://mobiistar.vn",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "4675241",
+            "versionCode": 18
+          }
+        ],
+        "installationSize": "4675241",
+        "numDownloads": "500,000+ downloads",
+        "packageName": "com.mobiistar.launchergo",
+        "permission": [
+          "android.permission.ACCESS_ALL_DOWNLOADS",
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_DOWNLOAD_MANAGER",
+          "android.permission.ACCESS_DOWNLOAD_MANAGER_ADVANCED",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.ACCOUNT_MANAGER",
+          "android.permission.ADVANCED_WIDGET_API",
+          "android.permission.BIND_APPWIDGET",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.CALL_PHONE",
+          "android.permission.CHANGE_NETWORK_STATE",
+          "android.permission.CHANGE_WIFI_STATE",
+          "android.permission.CONNECTIVITY_INTERNAL",
+          "android.permission.DEVICE_POWER",
+          "android.permission.DISABLE_KEYGUARD",
+          "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION",
+          "android.permission.EXPAND_STATUS_BAR",
+          "android.permission.FORCE_STOP_PACKAGES",
+          "android.permission.GET_PACKAGE_SIZE",
+          "android.permission.GET_TASKS",
+          "android.permission.INTERACT_ACROSS_USERS_FULL",
+          "android.permission.INTERNET",
+          "android.permission.KILL_BACKGROUND_PROCESSES",
+          "android.permission.MANAGE_ACCOUNTS",
+          "android.permission.MOUNT_UNMOUNT_FILESYSTEMS",
+          "android.permission.PACKAGE_USAGE_STATS",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.REQUEST_INSTALL_PACKAGES",
+          "android.permission.SEND_DOWNLOAD_COMPLETED_INTENTS",
+          "android.permission.SET_WALLPAPER",
+          "android.permission.SET_WALLPAPER_HINTS",
+          "android.permission.START_ANY_ACTIVITY",
+          "android.permission.SYSTEM_ALERT_WINDOW",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "android.permission.WRITE_SECURE_SETTINGS",
+          "android.permission.WRITE_SETTINGS",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.mobiistar.launchergo.permission.C2D_MESSAGE",
+          "com.mobiistar.launchergo.permission.QSB",
+          "com.mobiistar.launchergo.permission.READ_SETTINGS",
+          "com.mobiistar.launchergo.permission.WRITE_SETTINGS",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE"
+        ],
+        "recentChangesHtml": "Bug fixes",
+        "unstable": true,
+        "uploadDate": "2 Apr 2019",
+        "versionCode": 18,
+        "versionString": "1.1.8"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.mobiistar.launchergo",
+    "docType": 1,
+    "docid": "com.mobiistar.launchergo",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://lh3.googleusercontent.com/m0S54frAz7Qy9C9RqvUTs3Pb7fRDofLsN5oaXSPh3KJ12gsvsZQ5Nrz2d0lPdlAFlU8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://lh3.googleusercontent.com/00XBSZ6JJzRV5TLtVGPPj4CW5uJkQ1qDW3W_bj_6UOdaSCoWOWVqD5I35thgMTtctQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/6US6EcXsiVtpzLujEDtyaQJjQse_R3mV_stq9Soqehan91-PnOV7RHDh-vnPMrGRPzIS",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/o-gK3qXlYmpmTy_ghDU_JdY6HJcjTDwSTm9T-_Xk21Er4MhXXgROiP5xi-nv73PVLM4",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/SsIbOKv7_po_60LmGm0ymv2uy_fq2Ili3tlA-aacudnkrTNMCbfRJASuJmOcBvomOjG0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/nZOiBtq-OmAGi6S-6iL_FvBVxHQLH1E-YrjO3j6Wkvc_3N9FL52svrJHfYMfN3Y9Xg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/nWr7W312TKwo7Z7K_0Fmk4BeYD4U9Ldrg2DhSOu3XsH08jhixovrkVjEhA-8FCZ1Jsk",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/8Pq5Xs8Kn5kEzcXxlEsa-ly4Z3-QggTIOiemKJedHuWOEwgLR8a3NMGJ3wDTO89IpQ",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://allmobile.vn/",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://lh3.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.mobiistar.launchergo",
+    "reviewsUrl": "rev?doc=com.mobiistar.launchergo&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.mobiistar.launchergo",
+    "title": "Star Launcher Go",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "hotrostaros@mobistar.vn"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "40 Ph\u1ea1m Ng\u1ecdc Th\u1ea1ch, Ph\u01b0\u1eddng 6, Qu\u1eadn 3"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "2 Apr 2019"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "510",
+      "fiveStarRatings": "630",
+      "fourStarRatings": "82",
+      "oneStarRatings": "155",
+      "ratingsCount": "1116",
+      "starRating": 3.8333333,
+      "threeStarRatings": "144",
+      "twoStarRatings": "103",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-06-14 17:16:42.217005",
+    "backendDocid": "com.mobiistar.launchergo",
+    "backendId": 3,
+    "creator": "Mobile Star Corp",
+    "descriptionHtml": "Star Launcher is developed by Mobiistar Vietnam software engineer, based on AOSP Launcher.<br><br>User can have latest Android\u2122 Oreo(Android\u2122 8.1) launcher features.<br><br>1. Base Oreo launcher features<br>- Swipe down to access all apps<br>- Vertical drawer<br>- A-Z fast scroll bar.<br>- Android\u2122 Oreo style animation; round icon support like Pixel style.<br><br>2. Support many themes, icon packs, and wallpapers<br>3. Hide apps and lock apps<br>4. Gestures support<br>5. Double tap to lock phone<br>6. Quick action popup menu when long press icon in launcher desktop<br>7. Support lock desktop<br>8. Search apps or web right away from launcher<br>9. Various search style: pixel launcher style, native style, enhanced style<br>10. Build-in circle/round icon pack<br>11. Many options to make launcher as you like, such as: <br>- Grid size, icon size selection<br>- Show/hide search bar, dock, status bar<br>- Ability to edit icon and icon name individually<br>- Fixed/float wallpaper<br><br>This app uses the Device Administrator permission<br>force-lock is used to screen off device when double tap on the home screen.<br><br>Note:<br>- Android is a registered trademark of Google, LLC.<br>- Oreo is a registered trademark of Nabisco, LLC.",
+    "descriptionShort": "Go version for low configuration devices",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "4675241",
+          "unknown3": 27
+        },
+        "developerAddress": "40 Ph\u1ea1m Ng\u1ecdc Th\u1ea1ch, Ph\u01b0\u1eddng 6, Qu\u1eadn 3",
+        "developerEmail": "hotrostaros@mobistar.vn",
+        "developerName": "Mobile Star Corp",
+        "developerWebsite": "http://mobiistar.vn",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "4675241",
+            "versionCode": 18
+          }
+        ],
+        "installationSize": "4675241",
+        "numDownloads": "500,000+ downloads",
+        "packageName": "com.mobiistar.launchergo",
+        "permission": [
+          "android.permission.ACCESS_ALL_DOWNLOADS",
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_DOWNLOAD_MANAGER",
+          "android.permission.ACCESS_DOWNLOAD_MANAGER_ADVANCED",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.ACCOUNT_MANAGER",
+          "android.permission.ADVANCED_WIDGET_API",
+          "android.permission.BIND_APPWIDGET",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.CALL_PHONE",
+          "android.permission.CHANGE_NETWORK_STATE",
+          "android.permission.CHANGE_WIFI_STATE",
+          "android.permission.CONNECTIVITY_INTERNAL",
+          "android.permission.DEVICE_POWER",
+          "android.permission.DISABLE_KEYGUARD",
+          "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION",
+          "android.permission.EXPAND_STATUS_BAR",
+          "android.permission.FORCE_STOP_PACKAGES",
+          "android.permission.GET_PACKAGE_SIZE",
+          "android.permission.GET_TASKS",
+          "android.permission.INTERACT_ACROSS_USERS_FULL",
+          "android.permission.INTERNET",
+          "android.permission.KILL_BACKGROUND_PROCESSES",
+          "android.permission.MANAGE_ACCOUNTS",
+          "android.permission.MOUNT_UNMOUNT_FILESYSTEMS",
+          "android.permission.PACKAGE_USAGE_STATS",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.REQUEST_INSTALL_PACKAGES",
+          "android.permission.SEND_DOWNLOAD_COMPLETED_INTENTS",
+          "android.permission.SET_WALLPAPER",
+          "android.permission.SET_WALLPAPER_HINTS",
+          "android.permission.START_ANY_ACTIVITY",
+          "android.permission.SYSTEM_ALERT_WINDOW",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "android.permission.WRITE_SECURE_SETTINGS",
+          "android.permission.WRITE_SETTINGS",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.mobiistar.launchergo.permission.C2D_MESSAGE",
+          "com.mobiistar.launchergo.permission.QSB",
+          "com.mobiistar.launchergo.permission.READ_SETTINGS",
+          "com.mobiistar.launchergo.permission.WRITE_SETTINGS",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE"
+        ],
+        "recentChangesHtml": "Bug fixes",
+        "unstable": true,
+        "uploadDate": "2 Apr 2019",
+        "versionCode": 18,
+        "versionString": "1.1.8"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.mobiistar.launchergo",
+    "docType": 1,
+    "docid": "com.mobiistar.launchergo",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://lh3.googleusercontent.com/m0S54frAz7Qy9C9RqvUTs3Pb7fRDofLsN5oaXSPh3KJ12gsvsZQ5Nrz2d0lPdlAFlU8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://lh3.googleusercontent.com/00XBSZ6JJzRV5TLtVGPPj4CW5uJkQ1qDW3W_bj_6UOdaSCoWOWVqD5I35thgMTtctQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/6US6EcXsiVtpzLujEDtyaQJjQse_R3mV_stq9Soqehan91-PnOV7RHDh-vnPMrGRPzIS",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/o-gK3qXlYmpmTy_ghDU_JdY6HJcjTDwSTm9T-_Xk21Er4MhXXgROiP5xi-nv73PVLM4",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/SsIbOKv7_po_60LmGm0ymv2uy_fq2Ili3tlA-aacudnkrTNMCbfRJASuJmOcBvomOjG0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/nZOiBtq-OmAGi6S-6iL_FvBVxHQLH1E-YrjO3j6Wkvc_3N9FL52svrJHfYMfN3Y9Xg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/nWr7W312TKwo7Z7K_0Fmk4BeYD4U9Ldrg2DhSOu3XsH08jhixovrkVjEhA-8FCZ1Jsk",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/8Pq5Xs8Kn5kEzcXxlEsa-ly4Z3-QggTIOiemKJedHuWOEwgLR8a3NMGJ3wDTO89IpQ",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://allmobile.vn/",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://lh3.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.mobiistar.launchergo",
+    "reviewsUrl": "rev?doc=com.mobiistar.launchergo&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.mobiistar.launchergo",
+    "title": "Star Launcher Go",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "hotrostaros@mobistar.vn"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "40 Ph\u1ea1m Ng\u1ecdc Th\u1ea1ch, Ph\u01b0\u1eddng 6, Qu\u1eadn 3"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "2 Apr 2019"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "512",
+      "fiveStarRatings": "649",
+      "fourStarRatings": "92",
+      "oneStarRatings": "154",
+      "ratingsCount": "1123",
+      "starRating": 3.880734,
+      "threeStarRatings": "133",
+      "twoStarRatings": "92",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-06-19 08:06:08.035908",
+    "backendDocid": "com.mobiistar.launchergo",
+    "backendId": 3,
+    "creator": "Mobile Star Corp",
+    "descriptionHtml": "Star Launcher is developed by Mobiistar Vietnam software engineer, based on AOSP Launcher.<br><br>User can have latest Android\u2122 Oreo(Android\u2122 8.1) launcher features.<br><br>1. Base Oreo launcher features<br>- Swipe down to access all apps<br>- Vertical drawer<br>- A-Z fast scroll bar.<br>- Android\u2122 Oreo style animation; round icon support like Pixel style.<br><br>2. Support many themes, icon packs, and wallpapers<br>3. Hide apps and lock apps<br>4. Gestures support<br>5. Double tap to lock phone<br>6. Quick action popup menu when long press icon in launcher desktop<br>7. Support lock desktop<br>8. Search apps or web right away from launcher<br>9. Various search style: pixel launcher style, native style, enhanced style<br>10. Build-in circle/round icon pack<br>11. Many options to make launcher as you like, such as: <br>- Grid size, icon size selection<br>- Show/hide search bar, dock, status bar<br>- Ability to edit icon and icon name individually<br>- Fixed/float wallpaper<br><br>This app uses the Device Administrator permission<br>force-lock is used to screen off device when double tap on the home screen.<br><br>Note:<br>- Android is a registered trademark of Google, LLC.<br>- Oreo is a registered trademark of Nabisco, LLC.",
+    "descriptionShort": "Go version for low configuration devices",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "4675241",
+          "unknown3": 27
+        },
+        "developerAddress": "40 Ph\u1ea1m Ng\u1ecdc Th\u1ea1ch, Ph\u01b0\u1eddng 6, Qu\u1eadn 3",
+        "developerEmail": "hotrostaros@mobistar.vn",
+        "developerName": "Mobile Star Corp",
+        "developerWebsite": "http://mobiistar.vn",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "4675241",
+            "versionCode": 18
+          }
+        ],
+        "installationSize": "4675241",
+        "numDownloads": "500,000+ downloads",
+        "packageName": "com.mobiistar.launchergo",
+        "permission": [
+          "android.permission.ACCESS_ALL_DOWNLOADS",
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_DOWNLOAD_MANAGER",
+          "android.permission.ACCESS_DOWNLOAD_MANAGER_ADVANCED",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.ACCOUNT_MANAGER",
+          "android.permission.ADVANCED_WIDGET_API",
+          "android.permission.BIND_APPWIDGET",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.CALL_PHONE",
+          "android.permission.CHANGE_NETWORK_STATE",
+          "android.permission.CHANGE_WIFI_STATE",
+          "android.permission.CONNECTIVITY_INTERNAL",
+          "android.permission.DEVICE_POWER",
+          "android.permission.DISABLE_KEYGUARD",
+          "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION",
+          "android.permission.EXPAND_STATUS_BAR",
+          "android.permission.FORCE_STOP_PACKAGES",
+          "android.permission.GET_PACKAGE_SIZE",
+          "android.permission.GET_TASKS",
+          "android.permission.INTERACT_ACROSS_USERS_FULL",
+          "android.permission.INTERNET",
+          "android.permission.KILL_BACKGROUND_PROCESSES",
+          "android.permission.MANAGE_ACCOUNTS",
+          "android.permission.MOUNT_UNMOUNT_FILESYSTEMS",
+          "android.permission.PACKAGE_USAGE_STATS",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.REQUEST_INSTALL_PACKAGES",
+          "android.permission.SEND_DOWNLOAD_COMPLETED_INTENTS",
+          "android.permission.SET_WALLPAPER",
+          "android.permission.SET_WALLPAPER_HINTS",
+          "android.permission.START_ANY_ACTIVITY",
+          "android.permission.SYSTEM_ALERT_WINDOW",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "android.permission.WRITE_SECURE_SETTINGS",
+          "android.permission.WRITE_SETTINGS",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.mobiistar.launchergo.permission.C2D_MESSAGE",
+          "com.mobiistar.launchergo.permission.QSB",
+          "com.mobiistar.launchergo.permission.READ_SETTINGS",
+          "com.mobiistar.launchergo.permission.WRITE_SETTINGS",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE"
+        ],
+        "recentChangesHtml": "Bug fixes",
+        "unstable": true,
+        "uploadDate": "2 Apr 2019",
+        "versionCode": 18,
+        "versionString": "1.1.8"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.mobiistar.launchergo",
+    "docType": 1,
+    "docid": "com.mobiistar.launchergo",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://lh3.googleusercontent.com/m0S54frAz7Qy9C9RqvUTs3Pb7fRDofLsN5oaXSPh3KJ12gsvsZQ5Nrz2d0lPdlAFlU8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://lh3.googleusercontent.com/00XBSZ6JJzRV5TLtVGPPj4CW5uJkQ1qDW3W_bj_6UOdaSCoWOWVqD5I35thgMTtctQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/6US6EcXsiVtpzLujEDtyaQJjQse_R3mV_stq9Soqehan91-PnOV7RHDh-vnPMrGRPzIS",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/o-gK3qXlYmpmTy_ghDU_JdY6HJcjTDwSTm9T-_Xk21Er4MhXXgROiP5xi-nv73PVLM4",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/SsIbOKv7_po_60LmGm0ymv2uy_fq2Ili3tlA-aacudnkrTNMCbfRJASuJmOcBvomOjG0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/nZOiBtq-OmAGi6S-6iL_FvBVxHQLH1E-YrjO3j6Wkvc_3N9FL52svrJHfYMfN3Y9Xg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/nWr7W312TKwo7Z7K_0Fmk4BeYD4U9Ldrg2DhSOu3XsH08jhixovrkVjEhA-8FCZ1Jsk",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/8Pq5Xs8Kn5kEzcXxlEsa-ly4Z3-QggTIOiemKJedHuWOEwgLR8a3NMGJ3wDTO89IpQ",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://allmobile.vn/",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://lh3.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.mobiistar.launchergo",
+    "reviewsUrl": "rev?doc=com.mobiistar.launchergo&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.mobiistar.launchergo",
+    "title": "Star Launcher Go",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "hotrostaros@mobistar.vn"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "40 Ph\u1ea1m Ng\u1ecdc Th\u1ea1ch, Ph\u01b0\u1eddng 6, Qu\u1eadn 3"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "2 Apr 2019"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "512",
+      "fiveStarRatings": "649",
+      "fourStarRatings": "92",
+      "oneStarRatings": "154",
+      "ratingsCount": "1123",
+      "starRating": 3.880734,
+      "threeStarRatings": "133",
+      "twoStarRatings": "92",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-06-19 11:14:49.390701",
+    "backendDocid": "com.mobiistar.launchergo",
+    "backendId": 3,
+    "creator": "Mobile Star Corp",
+    "descriptionHtml": "Star Launcher is developed by Mobiistar Vietnam software engineer, based on AOSP Launcher.<br><br>User can have latest Android\u2122 Oreo(Android\u2122 8.1) launcher features.<br><br>1. Base Oreo launcher features<br>- Swipe down to access all apps<br>- Vertical drawer<br>- A-Z fast scroll bar.<br>- Android\u2122 Oreo style animation; round icon support like Pixel style.<br><br>2. Support many themes, icon packs, and wallpapers<br>3. Hide apps and lock apps<br>4. Gestures support<br>5. Double tap to lock phone<br>6. Quick action popup menu when long press icon in launcher desktop<br>7. Support lock desktop<br>8. Search apps or web right away from launcher<br>9. Various search style: pixel launcher style, native style, enhanced style<br>10. Build-in circle/round icon pack<br>11. Many options to make launcher as you like, such as: <br>- Grid size, icon size selection<br>- Show/hide search bar, dock, status bar<br>- Ability to edit icon and icon name individually<br>- Fixed/float wallpaper<br><br>This app uses the Device Administrator permission<br>force-lock is used to screen off device when double tap on the home screen.<br><br>Note:<br>- Android is a registered trademark of Google, LLC.<br>- Oreo is a registered trademark of Nabisco, LLC.",
+    "descriptionShort": "Go version for low configuration devices",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "5339060",
+          "unknown3": 27
+        },
+        "developerAddress": "40 Ph\u1ea1m Ng\u1ecdc Th\u1ea1ch, Ph\u01b0\u1eddng 6, Qu\u1eadn 3",
+        "developerEmail": "hotrostaros@mobistar.vn",
+        "developerName": "Mobile Star Corp",
+        "developerWebsite": "http://mobiistar.vn",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "5339060",
+            "versionCode": 19
+          }
+        ],
+        "installationSize": "5339060",
+        "numDownloads": "500,000+ downloads",
+        "packageName": "com.mobiistar.launchergo",
+        "permission": [
+          "android.permission.ACCESS_ALL_DOWNLOADS",
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_DOWNLOAD_MANAGER",
+          "android.permission.ACCESS_DOWNLOAD_MANAGER_ADVANCED",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.ACCOUNT_MANAGER",
+          "android.permission.ADVANCED_WIDGET_API",
+          "android.permission.BIND_APPWIDGET",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.CALL_PHONE",
+          "android.permission.CHANGE_NETWORK_STATE",
+          "android.permission.CHANGE_WIFI_STATE",
+          "android.permission.CONNECTIVITY_INTERNAL",
+          "android.permission.DEVICE_POWER",
+          "android.permission.DISABLE_KEYGUARD",
+          "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION",
+          "android.permission.EXPAND_STATUS_BAR",
+          "android.permission.FORCE_STOP_PACKAGES",
+          "android.permission.GET_PACKAGE_SIZE",
+          "android.permission.GET_TASKS",
+          "android.permission.INTERACT_ACROSS_USERS_FULL",
+          "android.permission.INTERNET",
+          "android.permission.KILL_BACKGROUND_PROCESSES",
+          "android.permission.MANAGE_ACCOUNTS",
+          "android.permission.MOUNT_UNMOUNT_FILESYSTEMS",
+          "android.permission.PACKAGE_USAGE_STATS",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.REQUEST_INSTALL_PACKAGES",
+          "android.permission.SEND_DOWNLOAD_COMPLETED_INTENTS",
+          "android.permission.SET_WALLPAPER",
+          "android.permission.SET_WALLPAPER_HINTS",
+          "android.permission.START_ANY_ACTIVITY",
+          "android.permission.SYSTEM_ALERT_WINDOW",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "android.permission.WRITE_SECURE_SETTINGS",
+          "android.permission.WRITE_SETTINGS",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.mobiistar.launchergo.permission.C2D_MESSAGE",
+          "com.mobiistar.launchergo.permission.QSB",
+          "com.mobiistar.launchergo.permission.READ_SETTINGS",
+          "com.mobiistar.launchergo.permission.WRITE_SETTINGS",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE"
+        ],
+        "recentChangesHtml": "Bug fixes and performance improments",
+        "unstable": true,
+        "uploadDate": "11 Jul 2019",
+        "versionCode": 19,
+        "versionString": "1.1.9"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.mobiistar.launchergo",
+    "docType": 1,
+    "docid": "com.mobiistar.launchergo",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://lh3.googleusercontent.com/m0S54frAz7Qy9C9RqvUTs3Pb7fRDofLsN5oaXSPh3KJ12gsvsZQ5Nrz2d0lPdlAFlU8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://lh3.googleusercontent.com/00XBSZ6JJzRV5TLtVGPPj4CW5uJkQ1qDW3W_bj_6UOdaSCoWOWVqD5I35thgMTtctQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/6US6EcXsiVtpzLujEDtyaQJjQse_R3mV_stq9Soqehan91-PnOV7RHDh-vnPMrGRPzIS",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/o-gK3qXlYmpmTy_ghDU_JdY6HJcjTDwSTm9T-_Xk21Er4MhXXgROiP5xi-nv73PVLM4",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/SsIbOKv7_po_60LmGm0ymv2uy_fq2Ili3tlA-aacudnkrTNMCbfRJASuJmOcBvomOjG0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/nZOiBtq-OmAGi6S-6iL_FvBVxHQLH1E-YrjO3j6Wkvc_3N9FL52svrJHfYMfN3Y9Xg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/nWr7W312TKwo7Z7K_0Fmk4BeYD4U9Ldrg2DhSOu3XsH08jhixovrkVjEhA-8FCZ1Jsk",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/8Pq5Xs8Kn5kEzcXxlEsa-ly4Z3-QggTIOiemKJedHuWOEwgLR8a3NMGJ3wDTO89IpQ",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://allmobile.vn/",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://lh3.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.mobiistar.launchergo",
+    "reviewsUrl": "rev?doc=com.mobiistar.launchergo&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.mobiistar.launchergo",
+    "title": "Star Launcher Go",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "hotrostaros@mobistar.vn"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "40 Ph\u1ea1m Ng\u1ecdc Th\u1ea1ch, Ph\u01b0\u1eddng 6, Qu\u1eadn 3"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "2 Apr 2019"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "6",
+      "fiveStarRatings": "1107",
+      "fourStarRatings": "170",
+      "oneStarRatings": "340",
+      "ratingsCount": "1789",
+      "starRating": 3.9047618,
+      "threeStarRatings": "85",
+      "twoStarRatings": "85",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-03-12 07:05:57.611024",
+    "backendDocid": "com.mobiistar.launchergo",
+    "backendId": 3,
+    "creator": "Mobile Star Corp",
+    "descriptionHtml": "Star Launcher is developed by Mobiistar Vietnam software engineer, based on AOSP Launcher.<br><br>User can have latest Android\u2122 Oreo(Android\u2122 8.1) launcher features.<br><br>1. Base Oreo launcher features<br>- Swipe down to access all apps<br>- Vertical drawer<br>- A-Z fast scroll bar.<br>- Android\u2122 Oreo style animation; round icon support like Pixel style.<br><br>2. Support many themes, icon packs, and wallpapers<br>3. Hide apps and lock apps<br>4. Gestures support<br>5. Double tap to lock phone<br>6. Quick action popup menu when long press icon in launcher desktop<br>7. Support lock desktop<br>8. Search apps or web right away from launcher<br>9. Various search style: pixel launcher style, native style, enhanced style<br>10. Build-in circle/round icon pack<br>11. Many options to make launcher as you like, such as: <br>- Grid size, icon size selection<br>- Show/hide search bar, dock, status bar<br>- Ability to edit icon and icon name individually<br>- Fixed/float wallpaper<br><br>This app uses the Device Administrator permission<br>force-lock is used to screen off device when double tap on the home screen.<br><br>Note:<br>- Android is a registered trademark of Google, LLC.<br>- Oreo is a registered trademark of Nabisco, LLC.",
+    "descriptionShort": "Go version for low configuration devices",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "4675242",
+          "unknown3": 27
+        },
+        "developerAddress": "40 Ph\u1ea1m Ng\u1ecdc Th\u1ea1ch, Ph\u01b0\u1eddng 6, Qu\u1eadn 3",
+        "developerEmail": "hotrostaros@mobistar.vn",
+        "developerName": "Mobile Star Corp",
+        "developerWebsite": "http://mobiistar.vn",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "4675242",
+            "versionCode": 18
+          }
+        ],
+        "installationSize": "4675242",
+        "numDownloads": "1,000,000+ downloads",
+        "packageName": "com.mobiistar.launchergo",
+        "permission": [
+          "android.permission.ACCESS_ALL_DOWNLOADS",
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_DOWNLOAD_MANAGER",
+          "android.permission.ACCESS_DOWNLOAD_MANAGER_ADVANCED",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.ACCOUNT_MANAGER",
+          "android.permission.ADVANCED_WIDGET_API",
+          "android.permission.BIND_APPWIDGET",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.CALL_PHONE",
+          "android.permission.CHANGE_NETWORK_STATE",
+          "android.permission.CHANGE_WIFI_STATE",
+          "android.permission.CONNECTIVITY_INTERNAL",
+          "android.permission.DEVICE_POWER",
+          "android.permission.DISABLE_KEYGUARD",
+          "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION",
+          "android.permission.EXPAND_STATUS_BAR",
+          "android.permission.FORCE_STOP_PACKAGES",
+          "android.permission.GET_PACKAGE_SIZE",
+          "android.permission.GET_TASKS",
+          "android.permission.INTERACT_ACROSS_USERS_FULL",
+          "android.permission.INTERNET",
+          "android.permission.KILL_BACKGROUND_PROCESSES",
+          "android.permission.MANAGE_ACCOUNTS",
+          "android.permission.MOUNT_UNMOUNT_FILESYSTEMS",
+          "android.permission.PACKAGE_USAGE_STATS",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.REQUEST_INSTALL_PACKAGES",
+          "android.permission.SEND_DOWNLOAD_COMPLETED_INTENTS",
+          "android.permission.SET_WALLPAPER",
+          "android.permission.SET_WALLPAPER_HINTS",
+          "android.permission.START_ANY_ACTIVITY",
+          "android.permission.SYSTEM_ALERT_WINDOW",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "android.permission.WRITE_SECURE_SETTINGS",
+          "android.permission.WRITE_SETTINGS",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.mobiistar.launchergo.permission.C2D_MESSAGE",
+          "com.mobiistar.launchergo.permission.QSB",
+          "com.mobiistar.launchergo.permission.READ_SETTINGS",
+          "com.mobiistar.launchergo.permission.WRITE_SETTINGS",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE"
+        ],
+        "recentChangesHtml": "Bug fixes",
+        "unstable": true,
+        "uploadDate": "2 Apr 2019",
+        "versionCode": 18,
+        "versionString": "1.1.8"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.mobiistar.launchergo",
+    "docType": 1,
+    "docid": "com.mobiistar.launchergo",
+    "image": [
+      {
+        "color": "#1F3F4E",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/m0S54frAz7Qy9C9RqvUTs3Pb7fRDofLsN5oaXSPh3KJ12gsvsZQ5Nrz2d0lPdlAFlU8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#2196F3",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/00XBSZ6JJzRV5TLtVGPPj4CW5uJkQ1qDW3W_bj_6UOdaSCoWOWVqD5I35thgMTtctQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/6US6EcXsiVtpzLujEDtyaQJjQse_R3mV_stq9Soqehan91-PnOV7RHDh-vnPMrGRPzIS",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/o-gK3qXlYmpmTy_ghDU_JdY6HJcjTDwSTm9T-_Xk21Er4MhXXgROiP5xi-nv73PVLM4",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/SsIbOKv7_po_60LmGm0ymv2uy_fq2Ili3tlA-aacudnkrTNMCbfRJASuJmOcBvomOjG0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/nZOiBtq-OmAGi6S-6iL_FvBVxHQLH1E-YrjO3j6Wkvc_3N9FL52svrJHfYMfN3Y9Xg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/nWr7W312TKwo7Z7K_0Fmk4BeYD4U9Ldrg2DhSOu3XsH08jhixovrkVjEhA-8FCZ1Jsk",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/8Pq5Xs8Kn5kEzcXxlEsa-ly4Z3-QggTIOiemKJedHuWOEwgLR8a3NMGJ3wDTO89IpQ",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://starposvietnam.vn/privacy-policy/",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.mobiistar.launchergo",
+    "reviewsUrl": "rev?doc=com.mobiistar.launchergo&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.mobiistar.launchergo",
+    "title": "Star Launcher Go",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Mobile Star Corp"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "hotrostaros@mobistar.vn"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "40 Ph\u1ea1m Ng\u1ecdc Th\u1ea1ch, Ph\u01b0\u1eddng 6, Qu\u1eadn 3"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "2 Apr 2019"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "6",
+      "fiveStarRatings": "1114",
+      "fourStarRatings": "171",
+      "oneStarRatings": "342",
+      "ratingsCount": "1800",
+      "starRating": 3.9047618,
+      "threeStarRatings": "85",
+      "twoStarRatings": "85",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-03-24 05:29:07.416659",
+    "backendDocid": "com.mobiistar.launchergo",
+    "backendId": 3,
+    "creator": "Mobile Star Corp",
+    "descriptionHtml": "Star Launcher is developed by Mobiistar Vietnam software engineer, based on AOSP Launcher.<br><br>User can have latest Android\u2122 Oreo(Android\u2122 8.1) launcher features.<br><br>1. Base Oreo launcher features<br>- Swipe down to access all apps<br>- Vertical drawer<br>- A-Z fast scroll bar.<br>- Android\u2122 Oreo style animation; round icon support like Pixel style.<br><br>2. Support many themes, icon packs, and wallpapers<br>3. Hide apps and lock apps<br>4. Gestures support<br>5. Double tap to lock phone<br>6. Quick action popup menu when long press icon in launcher desktop<br>7. Support lock desktop<br>8. Search apps or web right away from launcher<br>9. Various search style: pixel launcher style, native style, enhanced style<br>10. Build-in circle/round icon pack<br>11. Many options to make launcher as you like, such as: <br>- Grid size, icon size selection<br>- Show/hide search bar, dock, status bar<br>- Ability to edit icon and icon name individually<br>- Fixed/float wallpaper<br><br>This app uses the Device Administrator permission<br>force-lock is used to screen off device when double tap on the home screen.<br><br>Note:<br>- Android is a registered trademark of Google, LLC.<br>- Oreo is a registered trademark of Nabisco, LLC.",
+    "descriptionShort": "Go version for low configuration devices",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "4675242",
+          "unknown3": 27
+        },
+        "developerAddress": "40 Ph\u1ea1m Ng\u1ecdc Th\u1ea1ch, Ph\u01b0\u1eddng 6, Qu\u1eadn 3",
+        "developerEmail": "hotrostaros@mobistar.vn",
+        "developerName": "Mobile Star Corp",
+        "developerWebsite": "http://mobiistar.vn",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "4675242",
+            "versionCode": 18
+          }
+        ],
+        "installationSize": "4675242",
+        "numDownloads": "1,000,000+ downloads",
+        "packageName": "com.mobiistar.launchergo",
+        "permission": [
+          "android.permission.ACCESS_ALL_DOWNLOADS",
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_DOWNLOAD_MANAGER",
+          "android.permission.ACCESS_DOWNLOAD_MANAGER_ADVANCED",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.ACCOUNT_MANAGER",
+          "android.permission.ADVANCED_WIDGET_API",
+          "android.permission.BIND_APPWIDGET",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.CALL_PHONE",
+          "android.permission.CHANGE_NETWORK_STATE",
+          "android.permission.CHANGE_WIFI_STATE",
+          "android.permission.CONNECTIVITY_INTERNAL",
+          "android.permission.DEVICE_POWER",
+          "android.permission.DISABLE_KEYGUARD",
+          "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION",
+          "android.permission.EXPAND_STATUS_BAR",
+          "android.permission.FORCE_STOP_PACKAGES",
+          "android.permission.GET_PACKAGE_SIZE",
+          "android.permission.GET_TASKS",
+          "android.permission.INTERACT_ACROSS_USERS_FULL",
+          "android.permission.INTERNET",
+          "android.permission.KILL_BACKGROUND_PROCESSES",
+          "android.permission.MANAGE_ACCOUNTS",
+          "android.permission.MOUNT_UNMOUNT_FILESYSTEMS",
+          "android.permission.PACKAGE_USAGE_STATS",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.REQUEST_INSTALL_PACKAGES",
+          "android.permission.SEND_DOWNLOAD_COMPLETED_INTENTS",
+          "android.permission.SET_WALLPAPER",
+          "android.permission.SET_WALLPAPER_HINTS",
+          "android.permission.START_ANY_ACTIVITY",
+          "android.permission.SYSTEM_ALERT_WINDOW",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "android.permission.WRITE_SECURE_SETTINGS",
+          "android.permission.WRITE_SETTINGS",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.mobiistar.launchergo.permission.C2D_MESSAGE",
+          "com.mobiistar.launchergo.permission.QSB",
+          "com.mobiistar.launchergo.permission.READ_SETTINGS",
+          "com.mobiistar.launchergo.permission.WRITE_SETTINGS",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE"
+        ],
+        "recentChangesHtml": "Bug fixes",
+        "unstable": true,
+        "uploadDate": "2 Apr 2019",
+        "versionCode": 18,
+        "versionString": "1.1.8"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.mobiistar.launchergo",
+    "docType": 1,
+    "docid": "com.mobiistar.launchergo",
+    "image": [
+      {
+        "color": "#1F3F4E",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/m0S54frAz7Qy9C9RqvUTs3Pb7fRDofLsN5oaXSPh3KJ12gsvsZQ5Nrz2d0lPdlAFlU8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#2196F3",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/00XBSZ6JJzRV5TLtVGPPj4CW5uJkQ1qDW3W_bj_6UOdaSCoWOWVqD5I35thgMTtctQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/6US6EcXsiVtpzLujEDtyaQJjQse_R3mV_stq9Soqehan91-PnOV7RHDh-vnPMrGRPzIS",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/o-gK3qXlYmpmTy_ghDU_JdY6HJcjTDwSTm9T-_Xk21Er4MhXXgROiP5xi-nv73PVLM4",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/SsIbOKv7_po_60LmGm0ymv2uy_fq2Ili3tlA-aacudnkrTNMCbfRJASuJmOcBvomOjG0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/nZOiBtq-OmAGi6S-6iL_FvBVxHQLH1E-YrjO3j6Wkvc_3N9FL52svrJHfYMfN3Y9Xg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/nWr7W312TKwo7Z7K_0Fmk4BeYD4U9Ldrg2DhSOu3XsH08jhixovrkVjEhA-8FCZ1Jsk",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/8Pq5Xs8Kn5kEzcXxlEsa-ly4Z3-QggTIOiemKJedHuWOEwgLR8a3NMGJ3wDTO89IpQ",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://starposvietnam.vn/privacy-policy/",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.mobiistar.launchergo",
+    "reviewsUrl": "rev?doc=com.mobiistar.launchergo&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.mobiistar.launchergo",
+    "title": "Star Launcher Go",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Mobile Star Corp"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "hotrostaros@mobistar.vn"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "40 Ph\u1ea1m Ng\u1ecdc Th\u1ea1ch, Ph\u01b0\u1eddng 6, Qu\u1eadn 3"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "2 Apr 2019"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-05-27 22:22:26.383016",
+    "backendDocid": "com.mobiistar.launchergo",
+    "backendId": 3,
+    "creator": "Mobile Star Corp",
+    "descriptionHtml": "Star Launcher is developed by Mobiistar Vietnam software engineer, based on AOSP Launcher.<br><br>User can have latest Android\u2122 Oreo(Android\u2122 8.1) launcher features.<br><br>1. Base Oreo launcher features<br>- Swipe down to access all apps<br>- Vertical drawer<br>- A-Z fast scroll bar.<br>- Android\u2122 Oreo style animation; round icon support like Pixel style.<br><br>2. Support many themes, icon packs, and wallpapers<br>3. Hide apps and lock apps<br>4. Gestures support<br>5. Double tap to lock phone<br>6. Quick action popup menu when long press icon in launcher desktop<br>7. Support lock desktop<br>8. Search apps or web right away from launcher<br>9. Various search style: pixel launcher style, native style, enhanced style<br>10. Build-in circle/round icon pack<br>11. Many options to make launcher as you like, such as: <br>- Grid size, icon size selection<br>- Show/hide search bar, dock, status bar<br>- Ability to edit icon and icon name individually<br>- Fixed/float wallpaper<br><br>This app uses the Device Administrator permission<br>force-lock is used to screen off device when double tap on the home screen.<br><br>Note:<br>- Android is a registered trademark of Google, LLC.<br>- Oreo is a registered trademark of Nabisco, LLC.",
+    "descriptionShort": "Go version for low configuration devices",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "4675238",
+          "unknown3": 27
+        },
+        "developerAddress": "40 Ph\u1ea1m Ng\u1ecdc Th\u1ea1ch, Ph\u01b0\u1eddng 6, Qu\u1eadn 3",
+        "developerEmail": "hotrostaros@mobistar.vn",
+        "developerName": "Mobile Star Corp",
+        "developerWebsite": "http://mobiistar.vn",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "4675238",
+            "versionCode": 18
+          }
+        ],
+        "installationSize": "4675238",
+        "numDownloads": "1,000,000+ downloads",
+        "packageName": "com.mobiistar.launchergo",
+        "permission": [
+          "android.permission.ACCESS_ALL_DOWNLOADS",
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_DOWNLOAD_MANAGER",
+          "android.permission.ACCESS_DOWNLOAD_MANAGER_ADVANCED",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.ACCOUNT_MANAGER",
+          "android.permission.ADVANCED_WIDGET_API",
+          "android.permission.BIND_APPWIDGET",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.CALL_PHONE",
+          "android.permission.CHANGE_NETWORK_STATE",
+          "android.permission.CHANGE_WIFI_STATE",
+          "android.permission.CONNECTIVITY_INTERNAL",
+          "android.permission.DEVICE_POWER",
+          "android.permission.DISABLE_KEYGUARD",
+          "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION",
+          "android.permission.EXPAND_STATUS_BAR",
+          "android.permission.FORCE_STOP_PACKAGES",
+          "android.permission.GET_PACKAGE_SIZE",
+          "android.permission.GET_TASKS",
+          "android.permission.INTERACT_ACROSS_USERS_FULL",
+          "android.permission.INTERNET",
+          "android.permission.KILL_BACKGROUND_PROCESSES",
+          "android.permission.MANAGE_ACCOUNTS",
+          "android.permission.MOUNT_UNMOUNT_FILESYSTEMS",
+          "android.permission.PACKAGE_USAGE_STATS",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.REQUEST_INSTALL_PACKAGES",
+          "android.permission.SEND_DOWNLOAD_COMPLETED_INTENTS",
+          "android.permission.SET_WALLPAPER",
+          "android.permission.SET_WALLPAPER_HINTS",
+          "android.permission.START_ANY_ACTIVITY",
+          "android.permission.SYSTEM_ALERT_WINDOW",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "android.permission.WRITE_SECURE_SETTINGS",
+          "android.permission.WRITE_SETTINGS",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.mobiistar.launchergo.permission.C2D_MESSAGE",
+          "com.mobiistar.launchergo.permission.QSB",
+          "com.mobiistar.launchergo.permission.READ_SETTINGS",
+          "com.mobiistar.launchergo.permission.WRITE_SETTINGS",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE"
+        ],
+        "recentChangesHtml": "Bug fixes",
+        "unstable": true,
+        "uploadDate": "2 Apr 2019",
+        "versionCode": 18,
+        "versionString": "1.1.8"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.mobiistar.launchergo",
+    "docType": 1,
+    "docid": "com.mobiistar.launchergo",
+    "image": [
+      {
+        "color": "#1F3F4E",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/m0S54frAz7Qy9C9RqvUTs3Pb7fRDofLsN5oaXSPh3KJ12gsvsZQ5Nrz2d0lPdlAFlU8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#2196F3",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/00XBSZ6JJzRV5TLtVGPPj4CW5uJkQ1qDW3W_bj_6UOdaSCoWOWVqD5I35thgMTtctQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/6US6EcXsiVtpzLujEDtyaQJjQse_R3mV_stq9Soqehan91-PnOV7RHDh-vnPMrGRPzIS",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/o-gK3qXlYmpmTy_ghDU_JdY6HJcjTDwSTm9T-_Xk21Er4MhXXgROiP5xi-nv73PVLM4",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/SsIbOKv7_po_60LmGm0ymv2uy_fq2Ili3tlA-aacudnkrTNMCbfRJASuJmOcBvomOjG0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/nZOiBtq-OmAGi6S-6iL_FvBVxHQLH1E-YrjO3j6Wkvc_3N9FL52svrJHfYMfN3Y9Xg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/nWr7W312TKwo7Z7K_0Fmk4BeYD4U9Ldrg2DhSOu3XsH08jhixovrkVjEhA-8FCZ1Jsk",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/8Pq5Xs8Kn5kEzcXxlEsa-ly4Z3-QggTIOiemKJedHuWOEwgLR8a3NMGJ3wDTO89IpQ",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://starposvietnam.vn/privacy-policy/",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.mobiistar.launchergo",
+    "reviewsUrl": "rev?doc=com.mobiistar.launchergo&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.mobiistar.launchergo",
+    "title": "Star Launcher Go",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "hotrostaros@mobistar.vn"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "40 Ph\u1ea1m Ng\u1ecdc Th\u1ea1ch, Ph\u01b0\u1eddng 6, Qu\u1eadn 3"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "2 Apr 2019"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "814",
+      "fiveStarRatings": "860",
+      "fourStarRatings": "190",
+      "oneStarRatings": "300",
+      "ratingsCount": "1842",
+      "starRating": 3.6086957,
+      "threeStarRatings": "300",
+      "twoStarRatings": "190",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-07-14 01:54:53.375154",
+    "backendDocid": "com.mobiistar.launchergo",
+    "backendId": 3,
+    "creator": "Mobile Star Corp",
+    "descriptionHtml": "Star Launcher is developed by Mobiistar Vietnam software engineer, based on AOSP Launcher.<br><br>User can have latest Android\u2122 Oreo(Android\u2122 8.1) launcher features.<br><br>1. Base Oreo launcher features<br>- Swipe down to access all apps<br>- Vertical drawer<br>- A-Z fast scroll bar.<br>- Android\u2122 Oreo style animation; round icon support like Pixel style.<br><br>2. Support many themes, icon packs, and wallpapers<br>3. Hide apps and lock apps<br>4. Gestures support<br>5. Double tap to lock phone<br>6. Quick action popup menu when long press icon in launcher desktop<br>7. Support lock desktop<br>8. Search apps or web right away from launcher<br>9. Various search style: pixel launcher style, native style, enhanced style<br>10. Build-in circle/round icon pack<br>11. Many options to make launcher as you like, such as: <br>- Grid size, icon size selection<br>- Show/hide search bar, dock, status bar<br>- Ability to edit icon and icon name individually<br>- Fixed/float wallpaper<br><br>This app uses the Device Administrator permission<br>force-lock is used to screen off device when double tap on the home screen.<br><br>Note:<br>- Android is a registered trademark of Google, LLC.<br>- Oreo is a registered trademark of Nabisco, LLC.",
+    "descriptionShort": "Go version for low configuration devices",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "4675238",
+          "unknown3": 27
+        },
+        "developerAddress": "40 Ph\u1ea1m Ng\u1ecdc Th\u1ea1ch, Ph\u01b0\u1eddng 6, Qu\u1eadn 3",
+        "developerEmail": "hotrostaros@mobistar.vn",
+        "developerName": "Mobile Star Corp",
+        "developerWebsite": "http://mobiistar.vn",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "4675238",
+            "versionCode": 18
+          }
+        ],
+        "installationSize": "4675238",
+        "numDownloads": "1,000,000+ downloads",
+        "packageName": "com.mobiistar.launchergo",
+        "permission": [
+          "android.permission.ACCESS_ALL_DOWNLOADS",
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_DOWNLOAD_MANAGER",
+          "android.permission.ACCESS_DOWNLOAD_MANAGER_ADVANCED",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.ACCOUNT_MANAGER",
+          "android.permission.ADVANCED_WIDGET_API",
+          "android.permission.BIND_APPWIDGET",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.CALL_PHONE",
+          "android.permission.CHANGE_NETWORK_STATE",
+          "android.permission.CHANGE_WIFI_STATE",
+          "android.permission.CONNECTIVITY_INTERNAL",
+          "android.permission.DEVICE_POWER",
+          "android.permission.DISABLE_KEYGUARD",
+          "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION",
+          "android.permission.EXPAND_STATUS_BAR",
+          "android.permission.FORCE_STOP_PACKAGES",
+          "android.permission.GET_PACKAGE_SIZE",
+          "android.permission.GET_TASKS",
+          "android.permission.INTERACT_ACROSS_USERS_FULL",
+          "android.permission.INTERNET",
+          "android.permission.KILL_BACKGROUND_PROCESSES",
+          "android.permission.MANAGE_ACCOUNTS",
+          "android.permission.MOUNT_UNMOUNT_FILESYSTEMS",
+          "android.permission.PACKAGE_USAGE_STATS",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.REQUEST_INSTALL_PACKAGES",
+          "android.permission.SEND_DOWNLOAD_COMPLETED_INTENTS",
+          "android.permission.SET_WALLPAPER",
+          "android.permission.SET_WALLPAPER_HINTS",
+          "android.permission.START_ANY_ACTIVITY",
+          "android.permission.SYSTEM_ALERT_WINDOW",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "android.permission.WRITE_SECURE_SETTINGS",
+          "android.permission.WRITE_SETTINGS",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.mobiistar.launchergo.permission.C2D_MESSAGE",
+          "com.mobiistar.launchergo.permission.QSB",
+          "com.mobiistar.launchergo.permission.READ_SETTINGS",
+          "com.mobiistar.launchergo.permission.WRITE_SETTINGS",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE"
+        ],
+        "recentChangesHtml": "Bug fixes",
+        "unstable": true,
+        "uploadDate": "2 Apr 2019",
+        "versionCode": 18,
+        "versionString": "1.1.8"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.mobiistar.launchergo",
+    "docType": 1,
+    "docid": "com.mobiistar.launchergo",
+    "image": [
+      {
+        "color": "#1F3F4E",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/m0S54frAz7Qy9C9RqvUTs3Pb7fRDofLsN5oaXSPh3KJ12gsvsZQ5Nrz2d0lPdlAFlU8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#2196F3",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/00XBSZ6JJzRV5TLtVGPPj4CW5uJkQ1qDW3W_bj_6UOdaSCoWOWVqD5I35thgMTtctQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/6US6EcXsiVtpzLujEDtyaQJjQse_R3mV_stq9Soqehan91-PnOV7RHDh-vnPMrGRPzIS",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/o-gK3qXlYmpmTy_ghDU_JdY6HJcjTDwSTm9T-_Xk21Er4MhXXgROiP5xi-nv73PVLM4",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/SsIbOKv7_po_60LmGm0ymv2uy_fq2Ili3tlA-aacudnkrTNMCbfRJASuJmOcBvomOjG0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/nZOiBtq-OmAGi6S-6iL_FvBVxHQLH1E-YrjO3j6Wkvc_3N9FL52svrJHfYMfN3Y9Xg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/nWr7W312TKwo7Z7K_0Fmk4BeYD4U9Ldrg2DhSOu3XsH08jhixovrkVjEhA-8FCZ1Jsk",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/8Pq5Xs8Kn5kEzcXxlEsa-ly4Z3-QggTIOiemKJedHuWOEwgLR8a3NMGJ3wDTO89IpQ",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://starposvietnam.vn/privacy-policy/",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.mobiistar.launchergo",
+    "reviewsUrl": "rev?doc=com.mobiistar.launchergo&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.mobiistar.launchergo",
+    "title": "Star Launcher Go",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "hotrostaros@mobistar.vn"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "40 Ph\u1ea1m Ng\u1ecdc Th\u1ea1ch, Ph\u01b0\u1eddng 6, Qu\u1eadn 3"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "2 Apr 2019"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "658",
+      "fiveStarRatings": "774",
+      "fourStarRatings": "228",
+      "oneStarRatings": "292",
+      "ratingsCount": "1842",
+      "starRating": 3.537931,
+      "threeStarRatings": "342",
+      "twoStarRatings": "203",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-07-19 10:28:50.053625",
+    "backendDocid": "com.mobiistar.launchergo",
+    "backendId": 3,
+    "creator": "Mobile Star Corp",
+    "descriptionHtml": "Star Launcher is developed by Mobiistar Vietnam software engineer, based on AOSP Launcher.<br><br>User can have latest Android\u2122 Oreo(Android\u2122 8.1) launcher features.<br><br>1. Base Oreo launcher features<br>- Swipe down to access all apps<br>- Vertical drawer<br>- A-Z fast scroll bar.<br>- Android\u2122 Oreo style animation; round icon support like Pixel style.<br><br>2. Support many themes, icon packs, and wallpapers<br>3. Hide apps and lock apps<br>4. Gestures support<br>5. Double tap to lock phone<br>6. Quick action popup menu when long press icon in launcher desktop<br>7. Support lock desktop<br>8. Search apps or web right away from launcher<br>9. Various search style: pixel launcher style, native style, enhanced style<br>10. Build-in circle/round icon pack<br>11. Many options to make launcher as you like, such as: <br>- Grid size, icon size selection<br>- Show/hide search bar, dock, status bar<br>- Ability to edit icon and icon name individually<br>- Fixed/float wallpaper<br><br>This app uses the Device Administrator permission<br>force-lock is used to screen off device when double tap on the home screen.<br><br>Note:<br>- Android is a registered trademark of Google, LLC.<br>- Oreo is a registered trademark of Nabisco, LLC.",
+    "descriptionShort": "Go version for low configuration devices",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "4675238",
+          "unknown3": 27
+        },
+        "developerAddress": "40 Ph\u1ea1m Ng\u1ecdc Th\u1ea1ch, Ph\u01b0\u1eddng 6, Qu\u1eadn 3",
+        "developerEmail": "hotrostaros@mobistar.vn",
+        "developerName": "Mobile Star Corp",
+        "developerWebsite": "http://mobiistar.vn",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "4675238",
+            "versionCode": 18
+          }
+        ],
+        "installationSize": "4675238",
+        "numDownloads": "1,000,000+ downloads",
+        "packageName": "com.mobiistar.launchergo",
+        "permission": [
+          "android.permission.ACCESS_ALL_DOWNLOADS",
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_DOWNLOAD_MANAGER",
+          "android.permission.ACCESS_DOWNLOAD_MANAGER_ADVANCED",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.ACCOUNT_MANAGER",
+          "android.permission.ADVANCED_WIDGET_API",
+          "android.permission.BIND_APPWIDGET",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.CALL_PHONE",
+          "android.permission.CHANGE_NETWORK_STATE",
+          "android.permission.CHANGE_WIFI_STATE",
+          "android.permission.CONNECTIVITY_INTERNAL",
+          "android.permission.DEVICE_POWER",
+          "android.permission.DISABLE_KEYGUARD",
+          "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION",
+          "android.permission.EXPAND_STATUS_BAR",
+          "android.permission.FORCE_STOP_PACKAGES",
+          "android.permission.GET_PACKAGE_SIZE",
+          "android.permission.GET_TASKS",
+          "android.permission.INTERACT_ACROSS_USERS_FULL",
+          "android.permission.INTERNET",
+          "android.permission.KILL_BACKGROUND_PROCESSES",
+          "android.permission.MANAGE_ACCOUNTS",
+          "android.permission.MOUNT_UNMOUNT_FILESYSTEMS",
+          "android.permission.PACKAGE_USAGE_STATS",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.REQUEST_INSTALL_PACKAGES",
+          "android.permission.SEND_DOWNLOAD_COMPLETED_INTENTS",
+          "android.permission.SET_WALLPAPER",
+          "android.permission.SET_WALLPAPER_HINTS",
+          "android.permission.START_ANY_ACTIVITY",
+          "android.permission.SYSTEM_ALERT_WINDOW",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "android.permission.WRITE_SECURE_SETTINGS",
+          "android.permission.WRITE_SETTINGS",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.mobiistar.launchergo.permission.C2D_MESSAGE",
+          "com.mobiistar.launchergo.permission.QSB",
+          "com.mobiistar.launchergo.permission.READ_SETTINGS",
+          "com.mobiistar.launchergo.permission.WRITE_SETTINGS",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE"
+        ],
+        "recentChangesHtml": "Bug fixes",
+        "unstable": true,
+        "uploadDate": "Apr 2, 2019",
+        "versionCode": 18,
+        "versionString": "1.1.8"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.mobiistar.launchergo",
+    "docType": 1,
+    "docid": "com.mobiistar.launchergo",
+    "image": [
+      {
+        "color": "#1F3F4E",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/m0S54frAz7Qy9C9RqvUTs3Pb7fRDofLsN5oaXSPh3KJ12gsvsZQ5Nrz2d0lPdlAFlU8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#2196F3",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/00XBSZ6JJzRV5TLtVGPPj4CW5uJkQ1qDW3W_bj_6UOdaSCoWOWVqD5I35thgMTtctQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/6US6EcXsiVtpzLujEDtyaQJjQse_R3mV_stq9Soqehan91-PnOV7RHDh-vnPMrGRPzIS",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/o-gK3qXlYmpmTy_ghDU_JdY6HJcjTDwSTm9T-_Xk21Er4MhXXgROiP5xi-nv73PVLM4",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/SsIbOKv7_po_60LmGm0ymv2uy_fq2Ili3tlA-aacudnkrTNMCbfRJASuJmOcBvomOjG0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/nZOiBtq-OmAGi6S-6iL_FvBVxHQLH1E-YrjO3j6Wkvc_3N9FL52svrJHfYMfN3Y9Xg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/nWr7W312TKwo7Z7K_0Fmk4BeYD4U9Ldrg2DhSOu3XsH08jhixovrkVjEhA-8FCZ1Jsk",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/8Pq5Xs8Kn5kEzcXxlEsa-ly4Z3-QggTIOiemKJedHuWOEwgLR8a3NMGJ3wDTO89IpQ",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "INR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://starposvietnam.vn/privacy-policy/",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 487,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/EbEX3AN4FC4pu3lsElAHCiksluOVU8OgkgtWC43-wmm_aHVq2D65FmEM97bPexilUAvlAY5_4ARH8Tb3RxQ",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Rated for 3+",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.mobiistar.launchergo",
+    "reviewsUrl": "rev?doc=com.mobiistar.launchergo&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.mobiistar.launchergo",
+    "title": "Star Launcher Go",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Mobile Star Corp"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "hotrostaros@mobistar.vn"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "40 Ph\u1ea1m Ng\u1ecdc Th\u1ea1ch, Ph\u01b0\u1eddng 6, Qu\u1eadn 3"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "Apr 2, 2019"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "6",
+      "fiveStarRatings": "1158",
+      "fourStarRatings": "178",
+      "oneStarRatings": "356",
+      "ratingsCount": "1872",
+      "starRating": 3.9047618,
+      "threeStarRatings": "89",
+      "twoStarRatings": "89",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-10-28 13:17:36.157716",
+    "backendDocid": "com.mobiistar.launchergo",
+    "backendId": 3,
+    "creator": "Mobile Star Corp",
+    "descriptionHtml": "Star Launcher is developed by Mobiistar Vietnam software engineer, based on AOSP Launcher.<br><br>User can have latest Android\u2122 Oreo(Android\u2122 8.1) launcher features.<br><br>1. Base Oreo launcher features<br>- Swipe down to access all apps<br>- Vertical drawer<br>- A-Z fast scroll bar.<br>- Android\u2122 Oreo style animation; round icon support like Pixel style.<br><br>2. Support many themes, icon packs, and wallpapers<br>3. Hide apps and lock apps<br>4. Gestures support<br>5. Double tap to lock phone<br>6. Quick action popup menu when long press icon in launcher desktop<br>7. Support lock desktop<br>8. Search apps or web right away from launcher<br>9. Various search style: pixel launcher style, native style, enhanced style<br>10. Build-in circle/round icon pack<br>11. Many options to make launcher as you like, such as: <br>- Grid size, icon size selection<br>- Show/hide search bar, dock, status bar<br>- Ability to edit icon and icon name individually<br>- Fixed/float wallpaper<br><br>This app uses the Device Administrator permission<br>force-lock is used to screen off device when double tap on the home screen.<br><br>Note:<br>- Android is a registered trademark of Google, LLC.<br>- Oreo is a registered trademark of Nabisco, LLC.",
+    "descriptionShort": "Go version for low configuration devices",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "4675238",
+          "unknown3": 27
+        },
+        "developerAddress": "40 Ph\u1ea1m Ng\u1ecdc Th\u1ea1ch, Ph\u01b0\u1eddng 6, Qu\u1eadn 3",
+        "developerEmail": "hotrostaros@mobistar.vn",
+        "developerName": "Mobile Star Corp",
+        "developerWebsite": "http://mobiistar.vn",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "4675238",
+            "versionCode": 18
+          }
+        ],
+        "installationSize": "4675238",
+        "numDownloads": "1,000,000+ downloads",
+        "packageName": "com.mobiistar.launchergo",
+        "permission": [
+          "android.permission.ACCESS_ALL_DOWNLOADS",
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_DOWNLOAD_MANAGER",
+          "android.permission.ACCESS_DOWNLOAD_MANAGER_ADVANCED",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.ACCOUNT_MANAGER",
+          "android.permission.ADVANCED_WIDGET_API",
+          "android.permission.BIND_APPWIDGET",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.CALL_PHONE",
+          "android.permission.CHANGE_NETWORK_STATE",
+          "android.permission.CHANGE_WIFI_STATE",
+          "android.permission.CONNECTIVITY_INTERNAL",
+          "android.permission.DEVICE_POWER",
+          "android.permission.DISABLE_KEYGUARD",
+          "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION",
+          "android.permission.EXPAND_STATUS_BAR",
+          "android.permission.FORCE_STOP_PACKAGES",
+          "android.permission.GET_PACKAGE_SIZE",
+          "android.permission.GET_TASKS",
+          "android.permission.INTERACT_ACROSS_USERS_FULL",
+          "android.permission.INTERNET",
+          "android.permission.KILL_BACKGROUND_PROCESSES",
+          "android.permission.MANAGE_ACCOUNTS",
+          "android.permission.MOUNT_UNMOUNT_FILESYSTEMS",
+          "android.permission.PACKAGE_USAGE_STATS",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.REQUEST_INSTALL_PACKAGES",
+          "android.permission.SEND_DOWNLOAD_COMPLETED_INTENTS",
+          "android.permission.SET_WALLPAPER",
+          "android.permission.SET_WALLPAPER_HINTS",
+          "android.permission.START_ANY_ACTIVITY",
+          "android.permission.SYSTEM_ALERT_WINDOW",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "android.permission.WRITE_SECURE_SETTINGS",
+          "android.permission.WRITE_SETTINGS",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.mobiistar.launchergo.permission.C2D_MESSAGE",
+          "com.mobiistar.launchergo.permission.QSB",
+          "com.mobiistar.launchergo.permission.READ_SETTINGS",
+          "com.mobiistar.launchergo.permission.WRITE_SETTINGS",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE"
+        ],
+        "recentChangesHtml": "Bug fixes",
+        "unstable": true,
+        "uploadDate": "2 Apr 2019",
+        "versionCode": 18,
+        "versionString": "1.1.8"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.mobiistar.launchergo",
+    "docType": 1,
+    "docid": "com.mobiistar.launchergo",
+    "image": [
+      {
+        "color": "#1F3F4E",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/m0S54frAz7Qy9C9RqvUTs3Pb7fRDofLsN5oaXSPh3KJ12gsvsZQ5Nrz2d0lPdlAFlU8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#2196F3",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/00XBSZ6JJzRV5TLtVGPPj4CW5uJkQ1qDW3W_bj_6UOdaSCoWOWVqD5I35thgMTtctQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/6US6EcXsiVtpzLujEDtyaQJjQse_R3mV_stq9Soqehan91-PnOV7RHDh-vnPMrGRPzIS",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/o-gK3qXlYmpmTy_ghDU_JdY6HJcjTDwSTm9T-_Xk21Er4MhXXgROiP5xi-nv73PVLM4",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/SsIbOKv7_po_60LmGm0ymv2uy_fq2Ili3tlA-aacudnkrTNMCbfRJASuJmOcBvomOjG0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/nZOiBtq-OmAGi6S-6iL_FvBVxHQLH1E-YrjO3j6Wkvc_3N9FL52svrJHfYMfN3Y9Xg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/nWr7W312TKwo7Z7K_0Fmk4BeYD4U9Ldrg2DhSOu3XsH08jhixovrkVjEhA-8FCZ1Jsk",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/8Pq5Xs8Kn5kEzcXxlEsa-ly4Z3-QggTIOiemKJedHuWOEwgLR8a3NMGJ3wDTO89IpQ",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://starposvietnam.vn/privacy-policy/",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.mobiistar.launchergo",
+    "reviewsUrl": "rev?doc=com.mobiistar.launchergo&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.mobiistar.launchergo",
+    "title": "Star Launcher Go",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Mobile Star Corp"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "hotrostaros@mobistar.vn"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "40 Ph\u1ea1m Ng\u1ecdc Th\u1ea1ch, Ph\u01b0\u1eddng 6, Qu\u1eadn 3"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "2 Apr 2019"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "833",
+      "fiveStarRatings": "857",
+      "fourStarRatings": "189",
+      "oneStarRatings": "259",
+      "ratingsCount": "1885",
+      "starRating": 3.6084657,
+      "threeStarRatings": "339",
+      "twoStarRatings": "239",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-01-08 15:41:58.862587",
+    "backendDocid": "com.mobiistar.launchergo",
+    "backendId": 3,
+    "creator": "Mobile Star Corp",
+    "descriptionHtml": "Star Launcher is developed by Mobiistar Vietnam software engineer, based on AOSP Launcher.<br><br>User can have latest Android\u2122 Oreo(Android\u2122 8.1) launcher features.<br><br>1. Base Oreo launcher features<br>- Swipe down to access all apps<br>- Vertical drawer<br>- A-Z fast scroll bar.<br>- Android\u2122 Oreo style animation; round icon support like Pixel style.<br><br>2. Support many themes, icon packs, and wallpapers<br>3. Hide apps and lock apps<br>4. Gestures support<br>5. Double tap to lock phone<br>6. Quick action popup menu when long press icon in launcher desktop<br>7. Support lock desktop<br>8. Search apps or web right away from launcher<br>9. Various search style: pixel launcher style, native style, enhanced style<br>10. Build-in circle/round icon pack<br>11. Many options to make launcher as you like, such as: <br>- Grid size, icon size selection<br>- Show/hide search bar, dock, status bar<br>- Ability to edit icon and icon name individually<br>- Fixed/float wallpaper<br><br>This app uses the Device Administrator permission<br>force-lock is used to screen off device when double tap on the home screen.<br><br>Note:<br>- Android is a registered trademark of Google, LLC.<br>- Oreo is a registered trademark of Nabisco, LLC.",
+    "descriptionShort": "Go version for low configuration devices",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "4675238",
+          "unknown3": 27
+        },
+        "developerAddress": "40 Ph\u1ea1m Ng\u1ecdc Th\u1ea1ch, Ph\u01b0\u1eddng 6, Qu\u1eadn 3",
+        "developerEmail": "hotrostaros@mobistar.vn",
+        "developerName": "Mobile Star Corp",
+        "developerWebsite": "http://mobiistar.vn",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "4675238",
+            "versionCode": 18
+          }
+        ],
+        "installationSize": "4675238",
+        "numDownloads": "1,000,000+ downloads",
+        "packageName": "com.mobiistar.launchergo",
+        "permission": [
+          "android.permission.ACCESS_ALL_DOWNLOADS",
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_DOWNLOAD_MANAGER",
+          "android.permission.ACCESS_DOWNLOAD_MANAGER_ADVANCED",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.ACCOUNT_MANAGER",
+          "android.permission.ADVANCED_WIDGET_API",
+          "android.permission.BIND_APPWIDGET",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.CALL_PHONE",
+          "android.permission.CHANGE_NETWORK_STATE",
+          "android.permission.CHANGE_WIFI_STATE",
+          "android.permission.CONNECTIVITY_INTERNAL",
+          "android.permission.DEVICE_POWER",
+          "android.permission.DISABLE_KEYGUARD",
+          "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION",
+          "android.permission.EXPAND_STATUS_BAR",
+          "android.permission.FORCE_STOP_PACKAGES",
+          "android.permission.GET_PACKAGE_SIZE",
+          "android.permission.GET_TASKS",
+          "android.permission.INTERACT_ACROSS_USERS_FULL",
+          "android.permission.INTERNET",
+          "android.permission.KILL_BACKGROUND_PROCESSES",
+          "android.permission.MANAGE_ACCOUNTS",
+          "android.permission.MOUNT_UNMOUNT_FILESYSTEMS",
+          "android.permission.PACKAGE_USAGE_STATS",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.REQUEST_INSTALL_PACKAGES",
+          "android.permission.SEND_DOWNLOAD_COMPLETED_INTENTS",
+          "android.permission.SET_WALLPAPER",
+          "android.permission.SET_WALLPAPER_HINTS",
+          "android.permission.START_ANY_ACTIVITY",
+          "android.permission.SYSTEM_ALERT_WINDOW",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "android.permission.WRITE_SECURE_SETTINGS",
+          "android.permission.WRITE_SETTINGS",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.mobiistar.launchergo.permission.C2D_MESSAGE",
+          "com.mobiistar.launchergo.permission.QSB",
+          "com.mobiistar.launchergo.permission.READ_SETTINGS",
+          "com.mobiistar.launchergo.permission.WRITE_SETTINGS",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE"
+        ],
+        "recentChangesHtml": "Bug fixes",
+        "unstable": true,
+        "uploadDate": "2 Apr 2019",
+        "versionCode": 18,
+        "versionString": "1.1.8"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.mobiistar.launchergo",
+    "docType": 1,
+    "docid": "com.mobiistar.launchergo",
+    "image": [
+      {
+        "color": "#1F3F4E",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/m0S54frAz7Qy9C9RqvUTs3Pb7fRDofLsN5oaXSPh3KJ12gsvsZQ5Nrz2d0lPdlAFlU8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#2196F3",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/00XBSZ6JJzRV5TLtVGPPj4CW5uJkQ1qDW3W_bj_6UOdaSCoWOWVqD5I35thgMTtctQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/6US6EcXsiVtpzLujEDtyaQJjQse_R3mV_stq9Soqehan91-PnOV7RHDh-vnPMrGRPzIS",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/o-gK3qXlYmpmTy_ghDU_JdY6HJcjTDwSTm9T-_Xk21Er4MhXXgROiP5xi-nv73PVLM4",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/SsIbOKv7_po_60LmGm0ymv2uy_fq2Ili3tlA-aacudnkrTNMCbfRJASuJmOcBvomOjG0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/nZOiBtq-OmAGi6S-6iL_FvBVxHQLH1E-YrjO3j6Wkvc_3N9FL52svrJHfYMfN3Y9Xg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/nWr7W312TKwo7Z7K_0Fmk4BeYD4U9Ldrg2DhSOu3XsH08jhixovrkVjEhA-8FCZ1Jsk",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/8Pq5Xs8Kn5kEzcXxlEsa-ly4Z3-QggTIOiemKJedHuWOEwgLR8a3NMGJ3wDTO89IpQ",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://starposvietnam.vn/privacy-policy/",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.mobiistar.launchergo",
+    "reviewsUrl": "rev?doc=com.mobiistar.launchergo&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.mobiistar.launchergo",
+    "title": "Star Launcher Go",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "hotrostaros@mobistar.vn"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "40 Ph\u1ea1m Ng\u1ecdc Th\u1ea1ch, Ph\u01b0\u1eddng 6, Qu\u1eadn 3"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "2 Apr 2019"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-01-23 03:20:16.894225",
+    "backendDocid": "com.mobiistar.launchergo",
+    "backendId": 3,
+    "creator": "Mobile Star Corp",
+    "descriptionHtml": "Star Launcher is developed by Mobiistar Vietnam software engineer, based on AOSP Launcher.<br><br>User can have latest Android\u2122 Oreo(Android\u2122 8.1) launcher features.<br><br>1. Base Oreo launcher features<br>- Swipe down to access all apps<br>- Vertical drawer<br>- A-Z fast scroll bar.<br>- Android\u2122 Oreo style animation; round icon support like Pixel style.<br><br>2. Support many themes, icon packs, and wallpapers<br>3. Hide apps and lock apps<br>4. Gestures support<br>5. Double tap to lock phone<br>6. Quick action popup menu when long press icon in launcher desktop<br>7. Support lock desktop<br>8. Search apps or web right away from launcher<br>9. Various search style: pixel launcher style, native style, enhanced style<br>10. Build-in circle/round icon pack<br>11. Many options to make launcher as you like, such as: <br>- Grid size, icon size selection<br>- Show/hide search bar, dock, status bar<br>- Ability to edit icon and icon name individually<br>- Fixed/float wallpaper<br><br>This app uses the Device Administrator permission<br>force-lock is used to screen off device when double tap on the home screen.<br><br>Note:<br>- Android is a registered trademark of Google, LLC.<br>- Oreo is a registered trademark of Nabisco, LLC.",
+    "descriptionShort": "Go version for low configuration devices",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "4675238",
+          "unknown3": 27
+        },
+        "developerAddress": "40 Ph\u1ea1m Ng\u1ecdc Th\u1ea1ch, Ph\u01b0\u1eddng 6, Qu\u1eadn 3",
+        "developerEmail": "hotrostaros@mobistar.vn",
+        "developerName": "Mobile Star Corp",
+        "developerWebsite": "http://mobiistar.vn",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "4675238",
+            "versionCode": 18
+          }
+        ],
+        "installationSize": "4675238",
+        "numDownloads": "1,000,000+ downloads",
+        "packageName": "com.mobiistar.launchergo",
+        "permission": [
+          "android.permission.ACCESS_ALL_DOWNLOADS",
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_DOWNLOAD_MANAGER",
+          "android.permission.ACCESS_DOWNLOAD_MANAGER_ADVANCED",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.ACCOUNT_MANAGER",
+          "android.permission.ADVANCED_WIDGET_API",
+          "android.permission.BIND_APPWIDGET",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.CALL_PHONE",
+          "android.permission.CHANGE_NETWORK_STATE",
+          "android.permission.CHANGE_WIFI_STATE",
+          "android.permission.CONNECTIVITY_INTERNAL",
+          "android.permission.DEVICE_POWER",
+          "android.permission.DISABLE_KEYGUARD",
+          "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION",
+          "android.permission.EXPAND_STATUS_BAR",
+          "android.permission.FORCE_STOP_PACKAGES",
+          "android.permission.GET_PACKAGE_SIZE",
+          "android.permission.GET_TASKS",
+          "android.permission.INTERACT_ACROSS_USERS_FULL",
+          "android.permission.INTERNET",
+          "android.permission.KILL_BACKGROUND_PROCESSES",
+          "android.permission.MANAGE_ACCOUNTS",
+          "android.permission.MOUNT_UNMOUNT_FILESYSTEMS",
+          "android.permission.PACKAGE_USAGE_STATS",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.REQUEST_INSTALL_PACKAGES",
+          "android.permission.SEND_DOWNLOAD_COMPLETED_INTENTS",
+          "android.permission.SET_WALLPAPER",
+          "android.permission.SET_WALLPAPER_HINTS",
+          "android.permission.START_ANY_ACTIVITY",
+          "android.permission.SYSTEM_ALERT_WINDOW",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "android.permission.WRITE_SECURE_SETTINGS",
+          "android.permission.WRITE_SETTINGS",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.mobiistar.launchergo.permission.C2D_MESSAGE",
+          "com.mobiistar.launchergo.permission.QSB",
+          "com.mobiistar.launchergo.permission.READ_SETTINGS",
+          "com.mobiistar.launchergo.permission.WRITE_SETTINGS",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE"
+        ],
+        "recentChangesHtml": "Bug fixes",
+        "unstable": true,
+        "uploadDate": "2 Apr 2019",
+        "versionCode": 18,
+        "versionString": "1.1.8"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.mobiistar.launchergo",
+    "docType": 1,
+    "docid": "com.mobiistar.launchergo",
+    "image": [
+      {
+        "color": "#1F3F4E",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/m0S54frAz7Qy9C9RqvUTs3Pb7fRDofLsN5oaXSPh3KJ12gsvsZQ5Nrz2d0lPdlAFlU8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#2196F3",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/00XBSZ6JJzRV5TLtVGPPj4CW5uJkQ1qDW3W_bj_6UOdaSCoWOWVqD5I35thgMTtctQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/6US6EcXsiVtpzLujEDtyaQJjQse_R3mV_stq9Soqehan91-PnOV7RHDh-vnPMrGRPzIS",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/o-gK3qXlYmpmTy_ghDU_JdY6HJcjTDwSTm9T-_Xk21Er4MhXXgROiP5xi-nv73PVLM4",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/SsIbOKv7_po_60LmGm0ymv2uy_fq2Ili3tlA-aacudnkrTNMCbfRJASuJmOcBvomOjG0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/nZOiBtq-OmAGi6S-6iL_FvBVxHQLH1E-YrjO3j6Wkvc_3N9FL52svrJHfYMfN3Y9Xg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/nWr7W312TKwo7Z7K_0Fmk4BeYD4U9Ldrg2DhSOu3XsH08jhixovrkVjEhA-8FCZ1Jsk",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/8Pq5Xs8Kn5kEzcXxlEsa-ly4Z3-QggTIOiemKJedHuWOEwgLR8a3NMGJ3wDTO89IpQ",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "GBP",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://starposvietnam.vn/privacy-policy/",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.mobiistar.launchergo",
+    "reviewsUrl": "rev?doc=com.mobiistar.launchergo&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.mobiistar.launchergo",
+    "title": "Star Launcher Go",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "hotrostaros@mobistar.vn"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "40 Ph\u1ea1m Ng\u1ecdc Th\u1ea1ch, Ph\u01b0\u1eddng 6, Qu\u1eadn 3"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "2 Apr 2019"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "837",
+      "fiveStarRatings": "822",
+      "fourStarRatings": "220",
+      "oneStarRatings": "270",
+      "ratingsCount": "1896",
+      "starRating": 3.5714285,
+      "threeStarRatings": "341",
+      "twoStarRatings": "240",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-02-22 13:50:48.599310",
+    "backendDocid": "com.mobiistar.launchergo",
+    "backendId": 3,
+    "creator": "Mobile Star Corp",
+    "descriptionHtml": "Star Launcher is developed by Mobiistar Vietnam software engineer, based on AOSP Launcher.<br><br>User can have latest Android\u2122 Oreo(Android\u2122 8.1) launcher features.<br><br>1. Base Oreo launcher features<br>- Swipe down to access all apps<br>- Vertical drawer<br>- A-Z fast scroll bar.<br>- Android\u2122 Oreo style animation; round icon support like Pixel style.<br><br>2. Support many themes, icon packs, and wallpapers<br>3. Hide apps and lock apps<br>4. Gestures support<br>5. Double tap to lock phone<br>6. Quick action popup menu when long press icon in launcher desktop<br>7. Support lock desktop<br>8. Search apps or web right away from launcher<br>9. Various search style: pixel launcher style, native style, enhanced style<br>10. Build-in circle/round icon pack<br>11. Many options to make launcher as you like, such as: <br>- Grid size, icon size selection<br>- Show/hide search bar, dock, status bar<br>- Ability to edit icon and icon name individually<br>- Fixed/float wallpaper<br><br>This app uses the Device Administrator permission<br>force-lock is used to screen off device when double tap on the home screen.<br><br>Note:<br>- Android is a registered trademark of Google, LLC.<br>- Oreo is a registered trademark of Nabisco, LLC.",
+    "descriptionShort": "Go version for low configuration devices",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "4675238",
+          "unknown3": 27
+        },
+        "developerAddress": "40 Ph\u1ea1m Ng\u1ecdc Th\u1ea1ch, Ph\u01b0\u1eddng 6, Qu\u1eadn 3",
+        "developerEmail": "hotrostaros@mobistar.vn",
+        "developerName": "Mobile Star Corp",
+        "developerWebsite": "http://mobiistar.vn",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "4675238",
+            "versionCode": 18
+          }
+        ],
+        "installationSize": "4675238",
+        "numDownloads": "1,000,000+ downloads",
+        "packageName": "com.mobiistar.launchergo",
+        "permission": [
+          "android.permission.ACCESS_ALL_DOWNLOADS",
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_DOWNLOAD_MANAGER",
+          "android.permission.ACCESS_DOWNLOAD_MANAGER_ADVANCED",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.ACCOUNT_MANAGER",
+          "android.permission.ADVANCED_WIDGET_API",
+          "android.permission.BIND_APPWIDGET",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.CALL_PHONE",
+          "android.permission.CHANGE_NETWORK_STATE",
+          "android.permission.CHANGE_WIFI_STATE",
+          "android.permission.CONNECTIVITY_INTERNAL",
+          "android.permission.DEVICE_POWER",
+          "android.permission.DISABLE_KEYGUARD",
+          "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION",
+          "android.permission.EXPAND_STATUS_BAR",
+          "android.permission.FORCE_STOP_PACKAGES",
+          "android.permission.GET_PACKAGE_SIZE",
+          "android.permission.GET_TASKS",
+          "android.permission.INTERACT_ACROSS_USERS_FULL",
+          "android.permission.INTERNET",
+          "android.permission.KILL_BACKGROUND_PROCESSES",
+          "android.permission.MANAGE_ACCOUNTS",
+          "android.permission.MOUNT_UNMOUNT_FILESYSTEMS",
+          "android.permission.PACKAGE_USAGE_STATS",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.REQUEST_INSTALL_PACKAGES",
+          "android.permission.SEND_DOWNLOAD_COMPLETED_INTENTS",
+          "android.permission.SET_WALLPAPER",
+          "android.permission.SET_WALLPAPER_HINTS",
+          "android.permission.START_ANY_ACTIVITY",
+          "android.permission.SYSTEM_ALERT_WINDOW",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "android.permission.WRITE_SECURE_SETTINGS",
+          "android.permission.WRITE_SETTINGS",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.mobiistar.launchergo.permission.C2D_MESSAGE",
+          "com.mobiistar.launchergo.permission.QSB",
+          "com.mobiistar.launchergo.permission.READ_SETTINGS",
+          "com.mobiistar.launchergo.permission.WRITE_SETTINGS",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE"
+        ],
+        "recentChangesHtml": "Bug fixes",
+        "unstable": true,
+        "uploadDate": "2 Apr 2019",
+        "versionCode": 18,
+        "versionString": "1.1.8"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.mobiistar.launchergo",
+    "docType": 1,
+    "docid": "com.mobiistar.launchergo",
+    "image": [
+      {
+        "color": "#1F3F4E",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/m0S54frAz7Qy9C9RqvUTs3Pb7fRDofLsN5oaXSPh3KJ12gsvsZQ5Nrz2d0lPdlAFlU8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#2196F3",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/00XBSZ6JJzRV5TLtVGPPj4CW5uJkQ1qDW3W_bj_6UOdaSCoWOWVqD5I35thgMTtctQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/6US6EcXsiVtpzLujEDtyaQJjQse_R3mV_stq9Soqehan91-PnOV7RHDh-vnPMrGRPzIS",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/o-gK3qXlYmpmTy_ghDU_JdY6HJcjTDwSTm9T-_Xk21Er4MhXXgROiP5xi-nv73PVLM4",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/SsIbOKv7_po_60LmGm0ymv2uy_fq2Ili3tlA-aacudnkrTNMCbfRJASuJmOcBvomOjG0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/nZOiBtq-OmAGi6S-6iL_FvBVxHQLH1E-YrjO3j6Wkvc_3N9FL52svrJHfYMfN3Y9Xg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/nWr7W312TKwo7Z7K_0Fmk4BeYD4U9Ldrg2DhSOu3XsH08jhixovrkVjEhA-8FCZ1Jsk",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/8Pq5Xs8Kn5kEzcXxlEsa-ly4Z3-QggTIOiemKJedHuWOEwgLR8a3NMGJ3wDTO89IpQ",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://starposvietnam.vn/privacy-policy/",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.mobiistar.launchergo",
+    "reviewsUrl": "rev?doc=com.mobiistar.launchergo&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.mobiistar.launchergo",
+    "title": "Star Launcher Go",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "hotrostaros@mobistar.vn"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "40 Ph\u1ea1m Ng\u1ecdc Th\u1ea1ch, Ph\u01b0\u1eddng 6, Qu\u1eadn 3"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "2 Apr 2019"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-02-26 10:28:26.042432",
+    "backendDocid": "com.mobiistar.launchergo",
+    "backendId": 3,
+    "creator": "Mobile Star Corp",
+    "descriptionHtml": "Star Launcher is developed by Mobiistar Vietnam software engineer, based on AOSP Launcher.<br><br>User can have latest Android\u2122 Oreo(Android\u2122 8.1) launcher features.<br><br>1. Base Oreo launcher features<br>- Swipe down to access all apps<br>- Vertical drawer<br>- A-Z fast scroll bar.<br>- Android\u2122 Oreo style animation; round icon support like Pixel style.<br><br>2. Support many themes, icon packs, and wallpapers<br>3. Hide apps and lock apps<br>4. Gestures support<br>5. Double tap to lock phone<br>6. Quick action popup menu when long press icon in launcher desktop<br>7. Support lock desktop<br>8. Search apps or web right away from launcher<br>9. Various search style: pixel launcher style, native style, enhanced style<br>10. Build-in circle/round icon pack<br>11. Many options to make launcher as you like, such as: <br>- Grid size, icon size selection<br>- Show/hide search bar, dock, status bar<br>- Ability to edit icon and icon name individually<br>- Fixed/float wallpaper<br><br>This app uses the Device Administrator permission<br>force-lock is used to screen off device when double tap on the home screen.<br><br>Note:<br>- Android is a registered trademark of Google, LLC.<br>- Oreo is a registered trademark of Nabisco, LLC.",
+    "descriptionShort": "Go version for low configuration devices",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "4675238",
+          "unknown3": 27
+        },
+        "developerAddress": "40 Ph\u1ea1m Ng\u1ecdc Th\u1ea1ch, Ph\u01b0\u1eddng 6, Qu\u1eadn 3",
+        "developerEmail": "hotrostaros@mobistar.vn",
+        "developerName": "Mobile Star Corp",
+        "developerWebsite": "http://mobiistar.vn",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "4675238",
+            "versionCode": 18
+          }
+        ],
+        "installationSize": "4675238",
+        "numDownloads": "1,000,000+ downloads",
+        "packageName": "com.mobiistar.launchergo",
+        "permission": [
+          "android.permission.ACCESS_ALL_DOWNLOADS",
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_DOWNLOAD_MANAGER",
+          "android.permission.ACCESS_DOWNLOAD_MANAGER_ADVANCED",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.ACCOUNT_MANAGER",
+          "android.permission.ADVANCED_WIDGET_API",
+          "android.permission.BIND_APPWIDGET",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.CALL_PHONE",
+          "android.permission.CHANGE_NETWORK_STATE",
+          "android.permission.CHANGE_WIFI_STATE",
+          "android.permission.CONNECTIVITY_INTERNAL",
+          "android.permission.DEVICE_POWER",
+          "android.permission.DISABLE_KEYGUARD",
+          "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION",
+          "android.permission.EXPAND_STATUS_BAR",
+          "android.permission.FORCE_STOP_PACKAGES",
+          "android.permission.GET_PACKAGE_SIZE",
+          "android.permission.GET_TASKS",
+          "android.permission.INTERACT_ACROSS_USERS_FULL",
+          "android.permission.INTERNET",
+          "android.permission.KILL_BACKGROUND_PROCESSES",
+          "android.permission.MANAGE_ACCOUNTS",
+          "android.permission.MOUNT_UNMOUNT_FILESYSTEMS",
+          "android.permission.PACKAGE_USAGE_STATS",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.REQUEST_INSTALL_PACKAGES",
+          "android.permission.SEND_DOWNLOAD_COMPLETED_INTENTS",
+          "android.permission.SET_WALLPAPER",
+          "android.permission.SET_WALLPAPER_HINTS",
+          "android.permission.START_ANY_ACTIVITY",
+          "android.permission.SYSTEM_ALERT_WINDOW",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "android.permission.WRITE_SECURE_SETTINGS",
+          "android.permission.WRITE_SETTINGS",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.mobiistar.launchergo.permission.C2D_MESSAGE",
+          "com.mobiistar.launchergo.permission.QSB",
+          "com.mobiistar.launchergo.permission.READ_SETTINGS",
+          "com.mobiistar.launchergo.permission.WRITE_SETTINGS",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE"
+        ],
+        "recentChangesHtml": "Bug fixes",
+        "unstable": true,
+        "uploadDate": "2 Apr 2019",
+        "versionCode": 18,
+        "versionString": "1.1.8"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.mobiistar.launchergo",
+    "docType": 1,
+    "docid": "com.mobiistar.launchergo",
+    "image": [
+      {
+        "color": "#1F3F4E",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/m0S54frAz7Qy9C9RqvUTs3Pb7fRDofLsN5oaXSPh3KJ12gsvsZQ5Nrz2d0lPdlAFlU8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#2196F3",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/00XBSZ6JJzRV5TLtVGPPj4CW5uJkQ1qDW3W_bj_6UOdaSCoWOWVqD5I35thgMTtctQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/6US6EcXsiVtpzLujEDtyaQJjQse_R3mV_stq9Soqehan91-PnOV7RHDh-vnPMrGRPzIS",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/o-gK3qXlYmpmTy_ghDU_JdY6HJcjTDwSTm9T-_Xk21Er4MhXXgROiP5xi-nv73PVLM4",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/SsIbOKv7_po_60LmGm0ymv2uy_fq2Ili3tlA-aacudnkrTNMCbfRJASuJmOcBvomOjG0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/nZOiBtq-OmAGi6S-6iL_FvBVxHQLH1E-YrjO3j6Wkvc_3N9FL52svrJHfYMfN3Y9Xg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/nWr7W312TKwo7Z7K_0Fmk4BeYD4U9Ldrg2DhSOu3XsH08jhixovrkVjEhA-8FCZ1Jsk",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/8Pq5Xs8Kn5kEzcXxlEsa-ly4Z3-QggTIOiemKJedHuWOEwgLR8a3NMGJ3wDTO89IpQ",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://starposvietnam.vn/privacy-policy/",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.mobiistar.launchergo",
+    "reviewsUrl": "rev?doc=com.mobiistar.launchergo&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.mobiistar.launchergo",
+    "title": "Star Launcher Go",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "hotrostaros@mobistar.vn"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "40 Ph\u1ea1m Ng\u1ecdc Th\u1ea1ch, Ph\u01b0\u1eddng 6, Qu\u1eadn 3"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "2 Apr 2019"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  }
+]

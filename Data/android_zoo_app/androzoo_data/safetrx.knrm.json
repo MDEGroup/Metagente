@@ -1,0 +1,1905 @@
+[
+  {
+    "aggregateRating": {
+      "commentCount": "92",
+      "fiveStarRatings": "121",
+      "fourStarRatings": "30",
+      "oneStarRatings": "18",
+      "ratingsCount": "182",
+      "starRating": 4.28,
+      "threeStarRatings": "5",
+      "twoStarRatings": "5",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-06-19 11:45:19.377312",
+    "backendDocid": "safetrx.knrm",
+    "backendId": 3,
+    "creator": "Koninklijke Nederlandse Redding Maatschappij",
+    "descriptionHtml": "KNRM Helps, the official app of the Royal Netherlands Sea Rescue Institution (KNRM), allows you to register your vessel and Sail Plan and track your trip on your smartphone.<br><br>Follow the registration process to start using the app. You may either plan and file your trip (Sail Plan mode) or just activate the tracking function when starting your trip (Track only mode). <br><br>For filing a planned trip choose your vessel, determine the Estimated Time of Arrival (ETA), enter the number of persons on board and the activity type. After choosing the emergency contact(s), select a start point, an optional waypoint and the end destination in the built-in nautical maps. Once this is completed an optional checklist can be managed and you are ready to set sail. <br>You, your emergency contacts and eventually the SAR authorities will be automatically alerted following a time scheme after the journey exceeds the ETA in Sail Plan mode.<br><br>Pressing Set Sail in Sail Plan mode or Start in Track only mode will register the trip details with KNRM\u2019s server and will activate position reporting in the app. At regular intervals the app will send a position report to the server. <br>At any stage during the trip you can end your trip, revise the ETA, number of people on board or the destination. <br><br>Use the KNRM Helps app to:<br>-\tImprove maritime trip planning with Electronic Navigational Chart (ENC) data.<br>-\tQuickly start tracking your trip using the Track only mode with at a touch of a button. Change the recording interval to save on battery consumption when your tracking is in progress.<br>-\tFind nearby information on VHF channels, ports, KNRM lifeboat stations, waterways and junctions, diving spots, bunker stations, water sport shops, shipyards and repair shops and boat rental companies.<br>-\tGive friends and family peace of mind ashore by sharing your real-time location  on a live map, and allow them to track you while you\u2019re on the water.<br>-\tAccess location-based, real-time weather and water info when planning your trip or when your trip is in progress.<br>-\tCheck valuable maritime safety information when both online and offline.<br>-\tCreate or manage your own personalised checklist to be included as part of your Sail Plan before departing.<br>-\tActivate an Emergency or Assistance call by touching the Call for help button while your trip is in progress.<br>-\tManage your profile, vessel, checklist and emergency contact information.",
+    "descriptionShort": "Official app of the Royal Netherlands Sea Rescue Institution (KNRM)",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "101141524",
+          "unknown3": 29
+        },
+        "developerEmail": "help@knrm.nl",
+        "developerName": "Koninklijke Nederlandse Redding Maatschappij",
+        "developerWebsite": "http://www.knrm.nl/helpt",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "101141524",
+            "versionCode": 1212
+          }
+        ],
+        "installationSize": "101141524",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "safetrx.knrm",
+        "permission": [
+          "android.permission.ACCESS_BACKGROUND_LOCATION",
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.CALL_PHONE",
+          "android.permission.CAMERA",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_CONTACTS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.providers.gsf.permission.READ_GSERVICES",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE",
+          "safetrx.knrm.permission.C2D_MESSAGE",
+          "safetrx.knrm.permission.MAPS_RECEIVE"
+        ],
+        "recentChangesHtml": "The tracking function is now switched on automatically when you set up a \u2018Call for help.\u2019 The frequency interval of position transmission is set to every 5 minutes.<br><br>Warning:<br>-This new function is not a replacement of the tracking functions \u2018Sail Plan\u2019 and \u2018Track Only.\u2019\u00a0 It provides minimal information.<br>-You cannot share your trip with \u2018Emergency contacts\u2019 or friends if you do not use one of the two tracking functions.<br><br>For a full description can be found in KNRM\u2019s website www.knrm.nl/helpt",
+        "unstable": false,
+        "uploadDate": "29 May 2020",
+        "versionCode": 1212,
+        "versionString": "2019.3.6"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=safetrx.knrm",
+    "docType": 1,
+    "docid": "safetrx.knrm",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://lh3.googleusercontent.com/40dJG2JDH8qBDIEejy5AJ5LeQ9p5nr9wFRijypY7Njv-YxRbss7AkGzgLvpXnv-f3aQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 4,
+        "imageUrl": "https://lh3.googleusercontent.com/BerJwKtpctcC1Dmd-bQRogevzWkcbnCDW7pfODC_ZvEe0R7ukWX-xZNtL_JcPwHOf0M",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/zXDVRgpulYg3--2UkOiX13r2NmQ5hipzgKhWsWJc3-KCftdn-BXYtafWioLlR_OHuvM",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2560,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/Kt4dLWWAdS1YfKIfu2yCZIbkWfc-x5V2Au0ZPPphJ45HWTFOBNlTI4cmf8MuvcDTxkc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/BzTS_RE1GI1FHRtABkmF-VPnzWPf9q8Et30oy3CGYa-hon6S0w12RrR6Y8lu2sSZ2Rw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2560,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/te5mI1wbHxtN41sIb2sUmsjztSuWIWiic47Tz8K-1Xc0t-KNmNFfz1VOZRH2_2WGXrk",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2160,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/E86KoK9rmkYX2luyuKPfhBjpPMFpfnTEqy-xEepI4jHLa5s4xvOd-dwJcUid3SWVxHg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/MNOITJl4v7AXUNX8_YlatgqVLE-n51Z8sWgtYJi5DIWB3YrHR5_RWE9bdWFaQbPHyI8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/-yg8UO9BSBQVmE9lpMNcLFLJ30TSbMXD3MnWlSMwUyiysBO3kp4AuNKBfDu9DDdTfUYB",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://www.knrm.nl/privacystatement",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://lh3.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "Users interact<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=safetrx.knrm",
+    "reviewsUrl": "rev?doc=safetrx.knrm&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=safetrx.knrm",
+    "title": "KNRM Helpt",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "help@knrm.nl"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "25 May 2015"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "124",
+      "fiveStarRatings": "168",
+      "fourStarRatings": "60",
+      "oneStarRatings": "7",
+      "ratingsCount": "240",
+      "starRating": 4.58,
+      "threeStarRatings": "2",
+      "twoStarRatings": "2",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-09-24 22:05:41.064444",
+    "backendDocid": "safetrx.knrm",
+    "backendId": 3,
+    "creator": "Koninklijke Nederlandse Redding Maatschappij",
+    "descriptionHtml": "KNRM Helps, the official app of the Royal Netherlands Sea Rescue Institution (KNRM), allows you to register your vessel and Sail Plan and track your trip on your smartphone.<br><br>Follow the registration process to start using the app. You may either plan and file your trip (Sail Plan mode) or just activate the tracking function when starting your trip (Track only mode). <br><br>For filing a planned trip choose your vessel, determine the Estimated Time of Arrival (ETA), enter the number of persons on board and the activity type. After choosing the emergency contact(s), select a start point, an optional waypoint and the end destination in the built-in nautical maps. Once this is completed an optional checklist can be managed and you are ready to set sail. <br>You, your emergency contacts and eventually the SAR authorities will be automatically alerted following a time scheme after the journey exceeds the ETA in Sail Plan mode.<br><br>Pressing Set Sail in Sail Plan mode or Start in Track only mode will register the trip details with KNRM\u2019s server and will activate position reporting in the app. At regular intervals the app will send a position report to the server. <br>At any stage during the trip you can end your trip, revise the ETA, number of people on board or the destination. <br><br>Use the KNRM Helps app to:<br>-\tImprove maritime trip planning with Electronic Navigational Chart (ENC) data.<br>-\tQuickly start tracking your trip using the Track only mode with at a touch of a button. Change the recording interval to save on battery consumption when your tracking is in progress.<br>-\tFind nearby information on VHF channels, ports, KNRM lifeboat stations, waterways and junctions, diving spots, bunker stations, water sport shops, shipyards and repair shops and boat rental companies.<br>-\tGive friends and family peace of mind ashore by sharing your real-time location  on a live map, and allow them to track you while you\u2019re on the water.<br>-\tAccess location-based, real-time weather and water info when planning your trip or when your trip is in progress.<br>-\tCheck valuable maritime safety information when both online and offline.<br>-\tCreate or manage your own personalised checklist to be included as part of your Sail Plan before departing.<br>-\tActivate an Emergency or Assistance call by touching the Call for help button while your trip is in progress.<br>-\tManage your profile, vessel, checklist and emergency contact information.",
+    "descriptionShort": "Official app of the Royal Netherlands Sea Rescue Institution (KNRM)",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "53165315",
+          "unknown3": 29
+        },
+        "developerEmail": "help@knrm.nl",
+        "developerName": "Koninklijke Nederlandse Redding Maatschappij",
+        "developerWebsite": "http://www.knrm.nl/helpt",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "53165315",
+            "versionCode": 1220
+          }
+        ],
+        "installationSize": "53165315",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "safetrx.knrm",
+        "permission": [
+          "android.permission.ACCESS_BACKGROUND_LOCATION",
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.CALL_PHONE",
+          "android.permission.CAMERA",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_CONTACTS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.providers.gsf.permission.READ_GSERVICES",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE",
+          "safetrx.knrm.permission.C2D_MESSAGE",
+          "safetrx.knrm.permission.MAPS_RECEIVE"
+        ],
+        "recentChangesHtml": "- Updated \u2018Nearby Information\u2019 content<br>- Replaced \u2018Busy Waterways and Junctions\u2019 PDFs with URLs<br>- Updated \u2018Maritime Weather Forecasts\u2019 PDFs <br>- Edited label for cancelling an auto-tracking activation<br>- Included \u2018extended address\u2019 field in account registration",
+        "unstable": false,
+        "uploadDate": "24 Sep 2020",
+        "versionCode": 1220,
+        "versionString": "2019.3.10"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=safetrx.knrm",
+    "docType": 1,
+    "docid": "safetrx.knrm",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://lh3.googleusercontent.com/40dJG2JDH8qBDIEejy5AJ5LeQ9p5nr9wFRijypY7Njv-YxRbss7AkGzgLvpXnv-f3aQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 4,
+        "imageUrl": "https://lh3.googleusercontent.com/BerJwKtpctcC1Dmd-bQRogevzWkcbnCDW7pfODC_ZvEe0R7ukWX-xZNtL_JcPwHOf0M",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/zXDVRgpulYg3--2UkOiX13r2NmQ5hipzgKhWsWJc3-KCftdn-BXYtafWioLlR_OHuvM",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2560,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/Kt4dLWWAdS1YfKIfu2yCZIbkWfc-x5V2Au0ZPPphJ45HWTFOBNlTI4cmf8MuvcDTxkc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/BzTS_RE1GI1FHRtABkmF-VPnzWPf9q8Et30oy3CGYa-hon6S0w12RrR6Y8lu2sSZ2Rw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2560,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/te5mI1wbHxtN41sIb2sUmsjztSuWIWiic47Tz8K-1Xc0t-KNmNFfz1VOZRH2_2WGXrk",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2160,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/E86KoK9rmkYX2luyuKPfhBjpPMFpfnTEqy-xEepI4jHLa5s4xvOd-dwJcUid3SWVxHg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/MNOITJl4v7AXUNX8_YlatgqVLE-n51Z8sWgtYJi5DIWB3YrHR5_RWE9bdWFaQbPHyI8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/-yg8UO9BSBQVmE9lpMNcLFLJ30TSbMXD3MnWlSMwUyiysBO3kp4AuNKBfDu9DDdTfUYB",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://www.knrm.nl/privacystatement",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "Users interact<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=safetrx.knrm",
+    "reviewsUrl": "rev?doc=safetrx.knrm&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=safetrx.knrm",
+    "title": "KNRM Helpt",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "help@knrm.nl"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "17 May 2015"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "134",
+      "fiveStarRatings": "191",
+      "fourStarRatings": "57",
+      "oneStarRatings": "7",
+      "ratingsCount": "263",
+      "starRating": 4.61,
+      "threeStarRatings": "2",
+      "twoStarRatings": "2",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-04-16 19:13:30.798475",
+    "backendDocid": "safetrx.knrm",
+    "backendId": 3,
+    "creator": "Koninklijke Nederlandse Redding Maatschappij",
+    "descriptionHtml": "KNRM Helps, the official app of the Royal Netherlands Sea Rescue Institution (KNRM), allows you to register your vessel and Sail Plan and track your trip on your smartphone.<br><br>Follow the registration process to start using the app. You may either plan and file your trip (Sail Plan mode) or just activate the tracking function when starting your trip (Track only mode). <br><br>For filing a planned trip choose your vessel, determine the Estimated Time of Arrival (ETA), enter the number of persons on board and the activity type. After choosing the emergency contact(s), select a start point, an optional waypoint and the end destination in the built-in nautical maps. Once this is completed an optional checklist can be managed and you are ready to set sail. <br>You, your emergency contacts and eventually the SAR authorities will be automatically alerted following a time scheme after the journey exceeds the ETA in Sail Plan mode.<br><br>Pressing Set Sail in Sail Plan mode or Start in Track only mode will register the trip details with KNRM\u2019s server and will activate position reporting in the app. At regular intervals the app will send a position report to the server. <br>At any stage during the trip you can end your trip, revise the ETA, number of people on board or the destination. <br><br>Use the KNRM Helps app to:<br>-\tImprove maritime trip planning with Electronic Navigational Chart (ENC) data.<br>-\tQuickly start tracking your trip using the Track only mode with at a touch of a button. Change the recording interval to save on battery consumption when your tracking is in progress.<br>-\tFind nearby information on VHF channels, ports, KNRM lifeboat stations, waterways and junctions, diving spots, bunker stations, water sport shops, shipyards and repair shops and boat rental companies.<br>-\tGive friends and family peace of mind ashore by sharing your real-time location  on a live map, and allow them to track you while you\u2019re on the water.<br>-\tAccess location-based, real-time weather and water info when planning your trip or when your trip is in progress.<br>-\tCheck valuable maritime safety information when both online and offline.<br>-\tCreate or manage your own personalised checklist to be included as part of your Sail Plan before departing.<br>-\tActivate an Emergency or Assistance call by touching the Call for help button while your trip is in progress.<br>-\tManage your profile, vessel, checklist and emergency contact information.",
+    "descriptionShort": "Official app of the Royal Netherlands Sea Rescue Institution (KNRM)",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "53165081",
+          "unknown3": 29
+        },
+        "developerEmail": "help@knrm.nl",
+        "developerName": "Koninklijke Nederlandse Redding Maatschappij",
+        "developerWebsite": "http://www.knrm.nl/helpt",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "53165081",
+            "versionCode": 1224
+          }
+        ],
+        "installationSize": "53165081",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "safetrx.knrm",
+        "permission": [
+          "android.permission.ACCESS_BACKGROUND_LOCATION",
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.CALL_PHONE",
+          "android.permission.CAMERA",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_CONTACTS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.providers.gsf.permission.READ_GSERVICES",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE",
+          "safetrx.knrm.permission.C2D_MESSAGE",
+          "safetrx.knrm.permission.MAPS_RECEIVE"
+        ],
+        "recentChangesHtml": "\u00b7         Change of telephone number of KNRM Helps Assistance Centre<br>\u00b7         Minor text changes.",
+        "unstable": false,
+        "uploadDate": "9 Apr 2021",
+        "versionCode": 1224,
+        "versionString": "2019.3.12"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=safetrx.knrm",
+    "docType": 1,
+    "docid": "safetrx.knrm",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/40dJG2JDH8qBDIEejy5AJ5LeQ9p5nr9wFRijypY7Njv-YxRbss7AkGzgLvpXnv-f3aQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/BerJwKtpctcC1Dmd-bQRogevzWkcbnCDW7pfODC_ZvEe0R7ukWX-xZNtL_JcPwHOf0M",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/zXDVRgpulYg3--2UkOiX13r2NmQ5hipzgKhWsWJc3-KCftdn-BXYtafWioLlR_OHuvM",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2560,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Kt4dLWWAdS1YfKIfu2yCZIbkWfc-x5V2Au0ZPPphJ45HWTFOBNlTI4cmf8MuvcDTxkc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/BzTS_RE1GI1FHRtABkmF-VPnzWPf9q8Et30oy3CGYa-hon6S0w12RrR6Y8lu2sSZ2Rw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2560,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/te5mI1wbHxtN41sIb2sUmsjztSuWIWiic47Tz8K-1Xc0t-KNmNFfz1VOZRH2_2WGXrk",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2160,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/E86KoK9rmkYX2luyuKPfhBjpPMFpfnTEqy-xEepI4jHLa5s4xvOd-dwJcUid3SWVxHg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/MNOITJl4v7AXUNX8_YlatgqVLE-n51Z8sWgtYJi5DIWB3YrHR5_RWE9bdWFaQbPHyI8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/-yg8UO9BSBQVmE9lpMNcLFLJ30TSbMXD3MnWlSMwUyiysBO3kp4AuNKBfDu9DDdTfUYB",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://www.knrm.nl/privacystatement",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "Users interact<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=safetrx.knrm",
+    "reviewsUrl": "rev?doc=safetrx.knrm&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=safetrx.knrm",
+    "title": "KNRM Helpt",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "help@knrm.nl"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "9 Jul 2015"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "149",
+      "fiveStarRatings": "229",
+      "fourStarRatings": "55",
+      "oneStarRatings": "2",
+      "ratingsCount": "291",
+      "starRating": 4.74,
+      "threeStarRatings": "0",
+      "twoStarRatings": "2",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-07-14 12:02:08.304924",
+    "backendDocid": "safetrx.knrm",
+    "backendId": 3,
+    "creator": "Koninklijke Nederlandse Redding Maatschappij",
+    "descriptionHtml": "KNRM Helps, the official app of the Royal Netherlands Sea Rescue Institution (KNRM), allows you to register your vessel and Sail Plan and track your trip on your smartphone.<br><br>Follow the registration process to start using the app. You may either plan and file your trip (Sail Plan mode) or just activate the tracking function when starting your trip (Track only mode). <br><br>For filing a planned trip choose your vessel, determine the Estimated Time of Arrival (ETA), enter the number of persons on board and the activity type. After choosing the emergency contact(s), select a start point, an optional waypoint and the end destination in the built-in nautical maps. Once this is completed an optional checklist can be managed and you are ready to set sail. <br>You, your emergency contacts and eventually the SAR authorities will be automatically alerted following a time scheme after the journey exceeds the ETA in Sail Plan mode.<br><br>Pressing Set Sail in Sail Plan mode or Start in Track only mode will register the trip details with KNRM\u2019s server and will activate position reporting in the app. At regular intervals the app will send a position report to the server. <br>At any stage during the trip you can end your trip, revise the ETA, number of people on board or the destination. <br><br>Use the KNRM Helps app to:<br>-\tImprove maritime trip planning with Electronic Navigational Chart (ENC) data.<br>-\tQuickly start tracking your trip using the Track only mode with at a touch of a button. Change the recording interval to save on battery consumption when your tracking is in progress.<br>-\tFind nearby information on VHF channels, ports, KNRM lifeboat stations, waterways and junctions, diving spots, bunker stations, water sport shops, shipyards and repair shops and boat rental companies.<br>-\tGive friends and family peace of mind ashore by sharing your real-time location  on a live map, and allow them to track you while you\u2019re on the water.<br>-\tAccess location-based, real-time weather and water info when planning your trip or when your trip is in progress.<br>-\tCheck valuable maritime safety information when both online and offline.<br>-\tCreate or manage your own personalised checklist to be included as part of your Sail Plan before departing.<br>-\tActivate an Emergency or Assistance call by touching the Call for help button while your trip is in progress.<br>-\tManage your profile, vessel, checklist and emergency contact information.",
+    "descriptionShort": "Official app of the Royal Netherlands Sea Rescue Institution (KNRM)",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "53505940",
+          "unknown3": 29
+        },
+        "developerEmail": "help@knrm.nl",
+        "developerName": "Koninklijke Nederlandse Redding Maatschappij",
+        "developerWebsite": "http://www.knrm.nl/helpt",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "53505940",
+            "versionCode": 1296
+          }
+        ],
+        "installationSize": "53505940",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "safetrx.knrm",
+        "permission": [
+          "android.permission.ACCESS_BACKGROUND_LOCATION",
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.CALL_PHONE",
+          "android.permission.CAMERA",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_CONTACTS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.providers.gsf.permission.READ_GSERVICES",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE",
+          "safetrx.knrm.permission.C2D_MESSAGE",
+          "safetrx.knrm.permission.MAPS_RECEIVE"
+        ],
+        "recentChangesHtml": "- Updated User Guide PDFs in both English and Dutch<br>- Removed the link to the Quick Reference Card in both English and Dutch. The updated PDF will be updated in a future version.",
+        "unstable": false,
+        "uploadDate": "13 Jul 2021",
+        "versionCode": 1296,
+        "versionString": "2021.1.8"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=safetrx.knrm",
+    "docType": 1,
+    "docid": "safetrx.knrm",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/40dJG2JDH8qBDIEejy5AJ5LeQ9p5nr9wFRijypY7Njv-YxRbss7AkGzgLvpXnv-f3aQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 0,
+          "width": 0
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/BerJwKtpctcC1Dmd-bQRogevzWkcbnCDW7pfODC_ZvEe0R7ukWX-xZNtL_JcPwHOf0M",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1560,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/pOENO3gOmsmIAywTFJgJOmVSwn30xlS_uqq8lm2kJCNXU7ZcUso05x7-1KYCpDZluw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1560,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/jYfNlHCZa5ycSfno9VU6gqatyAKrxGKZAjqHf9XDrRxSmjVMjiy3t6pRzox_DqXUgks",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1560,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/fI9GAW9pRKs-mIYtxSyeTASXiEdWfYJPVyt2wqOVrt6_0gJDWmjyhFSQtPPf4yFpE74",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1560,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/GnY-oYJ5dW0U170GWPdvC2_NNjd5Gp0G-kxc3choDa1utDUNyoQG2OtVvJEl06dCCA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1560,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/BM9h_sF0AVwHtVe4pwCfCOu2TG2q86_vfYfQMmqiDh7I4sUz4HfllsPW7obVnarBmBU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1560,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/g9o519KHs8HUS46w70UV-SZFbgOADprVDowm8mBKT3IcrQsE_HKDHhBq-25f8OblbJo",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1560,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/hDSrQJn_IKWbA5H9zfZA4YRUg3AaxdRrCdx2q2S3IHxSrcan3vzfgv4VTqelutPEMVYW",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1560,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/TnZlDnQjoLBoY-inQsg_PjberiWLJQENluhWbTZ15r9H49uvTmyG55JPU3tGhd8YdMY",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://www.knrm.nl/privacystatement",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "Users interact<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=safetrx.knrm",
+    "reviewsUrl": "rev?doc=safetrx.knrm&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=safetrx.knrm",
+    "title": "KNRM Helpt",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Koninklijke Nederlandse Redding Maatschappij"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "help@knrm.nl"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "28 Aug 2018"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "157",
+      "fiveStarRatings": "227",
+      "fourStarRatings": "64",
+      "oneStarRatings": "12",
+      "ratingsCount": "307",
+      "starRating": 4.6,
+      "threeStarRatings": "0",
+      "twoStarRatings": "3",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-07-28 11:39:08.321820",
+    "backendDocid": "safetrx.knrm",
+    "backendId": 3,
+    "creator": "Koninklijke Nederlandse Redding Maatschappij",
+    "descriptionHtml": "KNRM Helps, the official app of the Royal Netherlands Sea Rescue Institution (KNRM), allows you to register your vessel and Sail Plan and track your trip on your smartphone.<br><br>Follow the registration process to start using the app. You may either plan and file your trip (Sail Plan mode) or just activate the tracking function when starting your trip (Track only mode). <br><br>For filing a planned trip choose your vessel, determine the Estimated Time of Arrival (ETA), enter the number of persons on board and the activity type. After choosing the emergency contact(s), select a start point, an optional waypoint and the end destination in the built-in nautical maps. Once this is completed an optional checklist can be managed and you are ready to set sail. <br>You, your emergency contacts and eventually the SAR authorities will be automatically alerted following a time scheme after the journey exceeds the ETA in Sail Plan mode.<br><br>Pressing Set Sail in Sail Plan mode or Start in Track only mode will register the trip details with KNRM\u2019s server and will activate position reporting in the app. At regular intervals the app will send a position report to the server. <br>At any stage during the trip you can end your trip, revise the ETA, number of people on board or the destination. <br><br>Use the KNRM Helps app to:<br>-\tImprove maritime trip planning with Electronic Navigational Chart (ENC) data.<br>-\tQuickly start tracking your trip using the Track only mode with at a touch of a button. Change the recording interval to save on battery consumption when your tracking is in progress.<br>-\tFind nearby information on VHF channels, ports, KNRM lifeboat stations, waterways and junctions, diving spots, bunker stations, water sport shops, shipyards and repair shops and boat rental companies.<br>-\tGive friends and family peace of mind ashore by sharing your real-time location  on a live map, and allow them to track you while you\u2019re on the water.<br>-\tAccess location-based, real-time weather and water info when planning your trip or when your trip is in progress.<br>-\tCheck valuable maritime safety information when both online and offline.<br>-\tCreate or manage your own personalised checklist to be included as part of your Sail Plan before departing.<br>-\tActivate an Emergency or Assistance call by touching the Call for help button while your trip is in progress.<br>-\tManage your profile, vessel, checklist and emergency contact information.",
+    "descriptionShort": "Official app of the Royal Netherlands Sea Rescue Institution (KNRM)",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "53512833",
+          "unknown3": 29
+        },
+        "developerEmail": "help@knrm.nl",
+        "developerName": "Koninklijke Nederlandse Redding Maatschappij",
+        "developerWebsite": "http://www.knrm.nl/helpt",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "53512833",
+            "versionCode": 1300
+          }
+        ],
+        "installationSize": "53512833",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "safetrx.knrm",
+        "permission": [
+          "android.permission.ACCESS_BACKGROUND_LOCATION",
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.CALL_PHONE",
+          "android.permission.CAMERA",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_CONTACTS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.providers.gsf.permission.READ_GSERVICES",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE",
+          "safetrx.knrm.permission.C2D_MESSAGE",
+          "safetrx.knrm.permission.MAPS_RECEIVE"
+        ],
+        "recentChangesHtml": "Updated Safety Information PDF under &#39;1.2 Emergency and assistance calls&#39;",
+        "unstable": false,
+        "uploadDate": "27 Jul 2021",
+        "versionCode": 1300,
+        "versionString": "2021.1.10"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=safetrx.knrm",
+    "docType": 1,
+    "docid": "safetrx.knrm",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/40dJG2JDH8qBDIEejy5AJ5LeQ9p5nr9wFRijypY7Njv-YxRbss7AkGzgLvpXnv-f3aQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 0,
+          "width": 0
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/BerJwKtpctcC1Dmd-bQRogevzWkcbnCDW7pfODC_ZvEe0R7ukWX-xZNtL_JcPwHOf0M",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1560,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/pOENO3gOmsmIAywTFJgJOmVSwn30xlS_uqq8lm2kJCNXU7ZcUso05x7-1KYCpDZluw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1560,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/jYfNlHCZa5ycSfno9VU6gqatyAKrxGKZAjqHf9XDrRxSmjVMjiy3t6pRzox_DqXUgks",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1560,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/fI9GAW9pRKs-mIYtxSyeTASXiEdWfYJPVyt2wqOVrt6_0gJDWmjyhFSQtPPf4yFpE74",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1560,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/GnY-oYJ5dW0U170GWPdvC2_NNjd5Gp0G-kxc3choDa1utDUNyoQG2OtVvJEl06dCCA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1560,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/BM9h_sF0AVwHtVe4pwCfCOu2TG2q86_vfYfQMmqiDh7I4sUz4HfllsPW7obVnarBmBU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1560,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/g9o519KHs8HUS46w70UV-SZFbgOADprVDowm8mBKT3IcrQsE_HKDHhBq-25f8OblbJo",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1560,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/hDSrQJn_IKWbA5H9zfZA4YRUg3AaxdRrCdx2q2S3IHxSrcan3vzfgv4VTqelutPEMVYW",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1560,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/TnZlDnQjoLBoY-inQsg_PjberiWLJQENluhWbTZ15r9H49uvTmyG55JPU3tGhd8YdMY",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://www.knrm.nl/privacystatement",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "Users interact<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=safetrx.knrm",
+    "reviewsUrl": "rev?doc=safetrx.knrm&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=safetrx.knrm",
+    "title": "KNRM Helpt",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "help@knrm.nl"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "17 May 2015"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "184",
+      "fiveStarRatings": "250",
+      "fourStarRatings": "85",
+      "oneStarRatings": "17",
+      "ratingsCount": "360",
+      "starRating": 4.5142856,
+      "threeStarRatings": "0",
+      "twoStarRatings": "6",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-07-07 13:02:08.245512",
+    "backendDocid": "safetrx.knrm",
+    "backendId": 3,
+    "creator": "Koninklijke Nederlandse Redding Maatschappij",
+    "descriptionHtml": "KNRM Helps, the official app of the Royal Netherlands Sea Rescue Institution (KNRM), allows you to register your vessel and Sail Plan and track your trip on your smartphone.<br><br>Follow the registration process to start using the app. You may either plan and file your trip (Sail Plan mode) or just activate the tracking function when starting your trip (Track only mode). <br><br>For filing a planned trip choose your vessel, determine the Estimated Time of Arrival (ETA), enter the number of persons on board and the activity type. After choosing the emergency contact(s), select a start point, an optional waypoint and the end destination in the built-in nautical maps. Once this is completed an optional checklist can be managed and you are ready to set sail. <br>You, your emergency contacts and eventually the SAR authorities will be automatically alerted following a time scheme after the journey exceeds the ETA in Sail Plan mode.<br><br>Pressing Set Sail in Sail Plan mode or Start in Track only mode will register the trip details with KNRM\u2019s server and will activate position reporting in the app. At regular intervals the app will send a position report to the server. <br>At any stage during the trip you can end your trip, revise the ETA, number of people on board or the destination. <br><br>Use the KNRM Helps app to:<br>-\tImprove maritime trip planning with Electronic Navigational Chart (ENC) data.<br>-\tQuickly start tracking your trip using the Track only mode with at a touch of a button. Change the recording interval to save on battery consumption when your tracking is in progress.<br>-\tFind nearby information on VHF channels, ports, KNRM lifeboat stations, waterways and junctions, diving spots, bunker stations, water sport shops, shipyards and repair shops and boat rental companies.<br>-\tGive friends and family peace of mind ashore by sharing your real-time location  on a live map, and allow them to track you while you\u2019re on the water.<br>-\tAccess location-based, real-time weather and water info when planning your trip or when your trip is in progress.<br>-\tCheck valuable maritime safety information when both online and offline.<br>-\tCreate or manage your own personalised checklist to be included as part of your Sail Plan before departing.<br>-\tActivate an Emergency or Assistance call by touching the Call for help button while your trip is in progress.<br>-\tManage your profile, vessel, checklist and emergency contact information.",
+    "descriptionShort": "Official app of the Royal Netherlands Sea Rescue Institution (KNRM)",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "58225784",
+          "unknown3": 30
+        },
+        "developerEmail": "help@knrm.nl",
+        "developerName": "Koninklijke Nederlandse Redding Maatschappij",
+        "developerWebsite": "http://www.knrm.nl/helpt",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "58225784",
+            "versionCode": 1332
+          }
+        ],
+        "installationSize": "58225784",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "safetrx.knrm",
+        "permission": [
+          "android.permission.ACCESS_BACKGROUND_LOCATION",
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.CALL_PHONE",
+          "android.permission.CAMERA",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.POST_NOTIFICATIONS",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_CONTACTS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.providers.gsf.permission.READ_GSERVICES",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE",
+          "safetrx.knrm.permission.C2D_MESSAGE",
+          "safetrx.knrm.permission.MAPS_RECEIVE"
+        ],
+        "recentChangesHtml": "This update includes:<br><br>- A new account registration process making it simpler and quicker to create a KNRM Helps account. <br>- Updated the URLs associated with waterways information in the map and \u2018Nearby Information\u2019 sections.<br>- Security updates.<br>- Minor bug fixes.",
+        "unstable": false,
+        "uploadDate": "4 Jul 2022",
+        "versionCode": 1332,
+        "versionString": "2022.1.1"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=safetrx.knrm",
+    "docType": 1,
+    "docid": "safetrx.knrm",
+    "image": [
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/40dJG2JDH8qBDIEejy5AJ5LeQ9p5nr9wFRijypY7Njv-YxRbss7AkGzgLvpXnv-f3aQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 0,
+          "width": 0
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/BerJwKtpctcC1Dmd-bQRogevzWkcbnCDW7pfODC_ZvEe0R7ukWX-xZNtL_JcPwHOf0M",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1560,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/pOENO3gOmsmIAywTFJgJOmVSwn30xlS_uqq8lm2kJCNXU7ZcUso05x7-1KYCpDZluw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1560,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/jYfNlHCZa5ycSfno9VU6gqatyAKrxGKZAjqHf9XDrRxSmjVMjiy3t6pRzox_DqXUgks",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1560,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/fI9GAW9pRKs-mIYtxSyeTASXiEdWfYJPVyt2wqOVrt6_0gJDWmjyhFSQtPPf4yFpE74",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1560,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/GnY-oYJ5dW0U170GWPdvC2_NNjd5Gp0G-kxc3choDa1utDUNyoQG2OtVvJEl06dCCA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1560,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/BM9h_sF0AVwHtVe4pwCfCOu2TG2q86_vfYfQMmqiDh7I4sUz4HfllsPW7obVnarBmBU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1560,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/g9o519KHs8HUS46w70UV-SZFbgOADprVDowm8mBKT3IcrQsE_HKDHhBq-25f8OblbJo",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1560,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/hDSrQJn_IKWbA5H9zfZA4YRUg3AaxdRrCdx2q2S3IHxSrcan3vzfgv4VTqelutPEMVYW",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1560,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/TnZlDnQjoLBoY-inQsg_PjberiWLJQENluhWbTZ15r9H49uvTmyG55JPU3tGhd8YdMY",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://www.knrm.nl/privacystatement",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "Users interact<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=safetrx.knrm",
+    "reviewsUrl": "rev?doc=safetrx.knrm&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=safetrx.knrm",
+    "title": "KNRM Helpt",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "help@knrm.nl"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "9 Jul 2015"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-01-05 04:03:58.153820",
+    "backendDocid": "safetrx.knrm",
+    "backendId": 3,
+    "creator": "Koninklijke Nederlandse Redding Maatschappij",
+    "descriptionHtml": "KNRM Helps, the official app of the Royal Netherlands Sea Rescue Institution (KNRM), allows you to register your vessel and Sail Plan and track your trip on your smartphone.<br><br>Follow the registration process to start using the app. You may either plan and file your trip (Sail Plan mode) or just activate the tracking function when starting your trip (Track only mode). <br><br>For filing a planned trip choose your vessel, determine the Estimated Time of Arrival (ETA), enter the number of persons on board and the activity type. After choosing the emergency contact(s), select a start point, an optional waypoint and the end destination in the built-in nautical maps. Once this is completed an optional checklist can be managed and you are ready to set sail. <br>You, your emergency contacts and eventually the SAR authorities will be automatically alerted following a time scheme after the journey exceeds the ETA in Sail Plan mode.<br><br>Pressing Set Sail in Sail Plan mode or Start in Track only mode will register the trip details with KNRM\u2019s server and will activate position reporting in the app. At regular intervals the app will send a position report to the server. <br>At any stage during the trip you can end your trip, revise the ETA, number of people on board or the destination. <br><br>Use the KNRM Helps app to:<br>-\tImprove maritime trip planning with Electronic Navigational Chart (ENC) data.<br>-\tQuickly start tracking your trip using the Track only mode with at a touch of a button. Change the recording interval to save on battery consumption when your tracking is in progress.<br>-\tFind nearby information on VHF channels, ports, KNRM lifeboat stations, waterways and junctions, diving spots, bunker stations, water sport shops, shipyards and repair shops and boat rental companies.<br>-\tGive friends and family peace of mind ashore by sharing your real-time location  on a live map, and allow them to track you while you\u2019re on the water.<br>-\tAccess location-based, real-time weather and water info when planning your trip or when your trip is in progress.<br>-\tCheck valuable maritime safety information when both online and offline.<br>-\tCreate or manage your own personalised checklist to be included as part of your Sail Plan before departing.<br>-\tActivate an Emergency or Assistance call by touching the Call for help button while your trip is in progress.<br>-\tManage your profile, vessel, checklist and emergency contact information.",
+    "descriptionShort": "Official app of the Royal Netherlands Sea Rescue Institution (KNRM)",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "58228210",
+          "unknown3": 32
+        },
+        "developerEmail": "help@knrm.nl",
+        "developerName": "Koninklijke Nederlandse Redding Maatschappij",
+        "developerWebsite": "http://www.knrm.nl/helpt",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "58228210",
+            "versionCode": 1340
+          }
+        ],
+        "installationSize": "58228210",
+        "numDownloads": "50,000+ downloads",
+        "packageName": "safetrx.knrm",
+        "permission": [
+          "android.permission.ACCESS_BACKGROUND_LOCATION",
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.CALL_PHONE",
+          "android.permission.CAMERA",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.POST_NOTIFICATIONS",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_CONTACTS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.AD_ID",
+          "com.google.android.providers.gsf.permission.READ_GSERVICES",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE",
+          "safetrx.knrm.permission.C2D_MESSAGE",
+          "safetrx.knrm.permission.MAPS_RECEIVE"
+        ],
+        "recentChangesHtml": "This update includes:<br><br>- New Coastguard number<br>- Minor bug fixes.",
+        "unstable": true,
+        "uploadDate": "4 Jan 2023",
+        "versionCode": 1340,
+        "versionString": "2022.1.5"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=safetrx.knrm",
+    "docType": 1,
+    "docid": "safetrx.knrm",
+    "image": [
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/40dJG2JDH8qBDIEejy5AJ5LeQ9p5nr9wFRijypY7Njv-YxRbss7AkGzgLvpXnv-f3aQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 0,
+          "width": 0
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/BerJwKtpctcC1Dmd-bQRogevzWkcbnCDW7pfODC_ZvEe0R7ukWX-xZNtL_JcPwHOf0M",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1560,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/pOENO3gOmsmIAywTFJgJOmVSwn30xlS_uqq8lm2kJCNXU7ZcUso05x7-1KYCpDZluw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1560,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/jYfNlHCZa5ycSfno9VU6gqatyAKrxGKZAjqHf9XDrRxSmjVMjiy3t6pRzox_DqXUgks",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1560,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/fI9GAW9pRKs-mIYtxSyeTASXiEdWfYJPVyt2wqOVrt6_0gJDWmjyhFSQtPPf4yFpE74",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1560,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/GnY-oYJ5dW0U170GWPdvC2_NNjd5Gp0G-kxc3choDa1utDUNyoQG2OtVvJEl06dCCA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1560,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/BM9h_sF0AVwHtVe4pwCfCOu2TG2q86_vfYfQMmqiDh7I4sUz4HfllsPW7obVnarBmBU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1560,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/g9o519KHs8HUS46w70UV-SZFbgOADprVDowm8mBKT3IcrQsE_HKDHhBq-25f8OblbJo",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1560,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/hDSrQJn_IKWbA5H9zfZA4YRUg3AaxdRrCdx2q2S3IHxSrcan3vzfgv4VTqelutPEMVYW",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1560,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/TnZlDnQjoLBoY-inQsg_PjberiWLJQENluhWbTZ15r9H49uvTmyG55JPU3tGhd8YdMY",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "GBP",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://www.knrm.nl/privacystatement",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "Users interact<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=safetrx.knrm",
+    "reviewsUrl": "rev?doc=safetrx.knrm&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=safetrx.knrm",
+    "title": "KNRM Helpt",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "help@knrm.nl"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "25 May 2015"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-05-07 18:35:27.967219",
+    "backendDocid": "safetrx.knrm",
+    "backendId": 3,
+    "creator": "Koninklijke Nederlandse Redding Maatschappij",
+    "descriptionHtml": "KNRM Helps, the official app of the Royal Netherlands Sea Rescue Institution (KNRM), allows you to register your vessel and Sail Plan and track your trip on your smartphone.<br><br>Follow the registration process to start using the app. You may either plan and file your trip (Sail Plan mode) or just activate the tracking function when starting your trip (Track only mode). <br><br>For filing a planned trip choose your vessel, determine the Estimated Time of Arrival (ETA), enter the number of persons on board and the activity type. After choosing the emergency contact(s), select a start point, an optional waypoint and the end destination in the built-in nautical maps. Once this is completed an optional checklist can be managed and you are ready to set sail. <br>You, your emergency contacts and eventually the SAR authorities will be automatically alerted following a time scheme after the journey exceeds the ETA in Sail Plan mode.<br><br>Pressing Set Sail in Sail Plan mode or Start in Track only mode will register the trip details with KNRM\u2019s server and will activate position reporting in the app. At regular intervals the app will send a position report to the server. <br>At any stage during the trip you can end your trip, revise the ETA, number of people on board or the destination. <br><br>Use the KNRM Helps app to:<br>-\tImprove maritime trip planning with Electronic Navigational Chart (ENC) data.<br>-\tQuickly start tracking your trip using the Track only mode with at a touch of a button. Change the recording interval to save on battery consumption when your tracking is in progress.<br>-\tFind nearby information on VHF channels, ports, KNRM lifeboat stations, waterways and junctions, diving spots, bunker stations, water sport shops, shipyards and repair shops and boat rental companies.<br>-\tGive friends and family peace of mind ashore by sharing your real-time location  on a live map, and allow them to track you while you\u2019re on the water.<br>-\tAccess location-based, real-time weather and water info when planning your trip or when your trip is in progress.<br>-\tCheck valuable maritime safety information when both online and offline.<br>-\tCreate or manage your own personalised checklist to be included as part of your Sail Plan before departing.<br>-\tActivate an Emergency or Assistance call by touching the Call for help button while your trip is in progress.<br>-\tManage your profile, vessel, checklist and emergency contact information.",
+    "descriptionShort": "Official app of the Royal Netherlands Sea Rescue Institution (KNRM)",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "58229771",
+          "unknown3": 32
+        },
+        "developerEmail": "help@knrm.nl",
+        "developerName": "Koninklijke Nederlandse Redding Maatschappij",
+        "developerWebsite": "http://www.knrm.nl/helpt",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "58229771",
+            "versionCode": 1362
+          }
+        ],
+        "installationSize": "58229771",
+        "numDownloads": "50,000+ downloads",
+        "packageName": "safetrx.knrm",
+        "permission": [
+          "android.permission.ACCESS_BACKGROUND_LOCATION",
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.CALL_PHONE",
+          "android.permission.CAMERA",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.POST_NOTIFICATIONS",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_CONTACTS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.AD_ID",
+          "com.google.android.providers.gsf.permission.READ_GSERVICES",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE",
+          "safetrx.knrm.permission.C2D_MESSAGE",
+          "safetrx.knrm.permission.MAPS_RECEIVE"
+        ],
+        "recentChangesHtml": "This update includes:<br><br>- Security updates.<br>- Minor bug fixes.",
+        "unstable": true,
+        "uploadDate": "27 Apr 2023",
+        "versionCode": 1362,
+        "versionString": "9.1.1"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=safetrx.knrm",
+    "docType": 1,
+    "docid": "safetrx.knrm",
+    "image": [
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/40dJG2JDH8qBDIEejy5AJ5LeQ9p5nr9wFRijypY7Njv-YxRbss7AkGzgLvpXnv-f3aQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 0,
+          "width": 0
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/BerJwKtpctcC1Dmd-bQRogevzWkcbnCDW7pfODC_ZvEe0R7ukWX-xZNtL_JcPwHOf0M",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1560,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/pOENO3gOmsmIAywTFJgJOmVSwn30xlS_uqq8lm2kJCNXU7ZcUso05x7-1KYCpDZluw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1560,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/jYfNlHCZa5ycSfno9VU6gqatyAKrxGKZAjqHf9XDrRxSmjVMjiy3t6pRzox_DqXUgks",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1560,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/fI9GAW9pRKs-mIYtxSyeTASXiEdWfYJPVyt2wqOVrt6_0gJDWmjyhFSQtPPf4yFpE74",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1560,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/GnY-oYJ5dW0U170GWPdvC2_NNjd5Gp0G-kxc3choDa1utDUNyoQG2OtVvJEl06dCCA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1560,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/BM9h_sF0AVwHtVe4pwCfCOu2TG2q86_vfYfQMmqiDh7I4sUz4HfllsPW7obVnarBmBU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1560,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/g9o519KHs8HUS46w70UV-SZFbgOADprVDowm8mBKT3IcrQsE_HKDHhBq-25f8OblbJo",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1560,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/hDSrQJn_IKWbA5H9zfZA4YRUg3AaxdRrCdx2q2S3IHxSrcan3vzfgv4VTqelutPEMVYW",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1560,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/TnZlDnQjoLBoY-inQsg_PjberiWLJQENluhWbTZ15r9H49uvTmyG55JPU3tGhd8YdMY",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://www.knrm.nl/privacystatement",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "Users interact<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=safetrx.knrm",
+    "reviewsUrl": "rev?doc=safetrx.knrm&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=safetrx.knrm",
+    "title": "KNRM Helpt",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Koninklijke Nederlandse Redding Maatschappij"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "help@knrm.nl"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "28 Aug 2018"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  }
+]

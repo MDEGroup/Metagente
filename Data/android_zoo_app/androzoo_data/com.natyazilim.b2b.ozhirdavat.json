@@ -1,0 +1,825 @@
+[
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-05-23 00:53:30.635405",
+    "backendDocid": "com.natyazilim.b2b.ozhirdavat",
+    "backendId": 3,
+    "creator": "NAT Yaz\u0131l\u0131m",
+    "descriptionHtml": "\u00d6z H\u0131rdavat B2B Sisteminin Mobil Uygulamas\u0131.<br>\u00d6z H\u0131rdavat B2B Sisteminin Web Adresi: http://b2b.ozhirdavat.com<br><br>Mobil uygulama, Web Sisteminde var olan b\u00fct\u00fcn \u00f6zelliklere sahiptir. <br>Bunun yan\u0131nda kolay bir kullan\u0131m, temiz bir aray\u00fcz ve performansl\u0131 kullan\u0131m avantaj\u0131 sa\u011flar.<br><br>Mobil Uygulaman\u0131n Sahip Oldu\u011fu \u00d6zellikler;<br><br>- Vitrin, Kampanya, Ay\u0131n ve Haftan\u0131n \u00dcr\u00fcnleri Listelerine Sahip Anasayfa<br>- Stok Ad\u0131ndan, Stok Kodundan ve Barkoddan \u00dcr\u00fcn Arama<br>- Cihaz Kameras\u0131 ile Barkodu Taratarak \u00dcr\u00fcn Arama<br>- Kategori, Ana Grup ve Alt Grup \u015eeklinde Yap\u0131land\u0131r\u0131lm\u0131\u015f \u00dcr\u00fcn Kategori Sistemi<br>- Finans Mod\u00fcl\u00fc [Raporlamalar] (Ekstre, Ekstre Detay, Fatura Listesi, A\u00e7\u0131k Sipari\u015f Raporu, A\u00e7\u0131k Sipari\u015f Detay Raporu, Al\u0131m Raporlar\u0131 ve \u0130skonto Listesi)<br>- \u00c7oklu \u00d6deme Se\u00e7ene\u011fine Sahip ve Kolay Bir Kullan\u0131m Sunan Sepet<br><br>Hali haz\u0131rda &quot;\u00d6z H\u0131rdavat B2B Sistemi&quot; \u00fcyesi iseniz, uygulamay\u0131 indirmekten ba\u015fka bir \u015fey yapman\u0131za gerek yok, sadece Mail Adresi ve \u015eifrenizi Girerek Giri\u015f yapman\u0131z yeterli.<br><br>&quot;\u00d6z H\u0131rdavat B2B Sistemi&quot; \u00fcyesi de\u011filseniz, giri\u015f ekran\u0131ndaki &quot;Bayi Ba\u015fvurusu&quot; k\u0131sm\u0131ndan sisteme \u00fcye olmak i\u00e7in ba\u015fvurabilirsiniz.",
+    "descriptionShort": "Mobile Application of \u00d6z Hardware B2B System.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown2": "7390811",
+          "unknown3": 29
+        },
+        "developerEmail": "yazilim@natyazilim.com",
+        "developerName": "NAT Yaz\u0131l\u0131m",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "7390811",
+            "versionCode": 10200
+          }
+        ],
+        "installationSize": "7390811",
+        "numDownloads": "50+ downloads",
+        "packageName": "com.natyazilim.b2b.ozhirdavat",
+        "permission": [
+          "android.permission.CAMERA",
+          "android.permission.FLASHLIGHT",
+          "android.permission.INTERNET"
+        ],
+        "recentChangesHtml": "barkod okuyucu guncellendi",
+        "unstable": false,
+        "uploadDate": "28 Mar 2021",
+        "versionCode": 10200,
+        "versionString": "1.2"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.natyazilim.b2b.ozhirdavat",
+    "docType": 1,
+    "docid": "com.natyazilim.b2b.ozhirdavat",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/GEhqJjiPD07xYADgeeMisk4BoJUb7w2AV4k0hi147FTvZqn6umggVcpoJStBEIz89Q",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/g-A-75kRTL2nVjCi8D2Yg2gOjU21qKS7T21v_pMMIU2GnAQwiA-E3rJHWgRZ5roz",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/DGrNnOFvHQZvXPzUDreHgOAuPLR7T4uzujoGrEp2KXL2ZTT4SUpK7wxaCwymWEwkqE0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/bpxfihSKSlALia_o7ZymEboBny0nPCitRMFZp_CpUF4pmrHxBtxKshGcD6_9TOOixzwt",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/clchVtCpgShdhMCQ0a5OjpYLT7BqtJwd6uhPTKm7r50Fev9GTEYexTUzwwC3YUPrvw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/JkQdRB3qY4XBlxh1cypY9PZR0aLus-M6OCpQDMTnDt7qy03JDF3wToQxdWRZ-RViQcE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/fmI2gGSYPhJUaJdTZ9KKzidkN1cWCnC61GFXYWp30t4YHkULeUnBRL6StyTa7jZN19E",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/RiFLlVl_PQsSLeNTiCd_oWcYLOXqW7irEjeZfcE_3F8lQcWMpzSfAEdFbZPxc72ZDbS_",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/lcfRNfST52tGM3TjQ41BFoTDt-eQZDPfbNXpp68fRfw9FC1lYwjtz8IPevKHoupgbozT",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://b2b.ozhirdavat.com/storage/b2b_ozhirdavat.pdf",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.natyazilim.b2b.ozhirdavat",
+    "reviewsUrl": "rev?doc=com.natyazilim.b2b.ozhirdavat&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.natyazilim.b2b.ozhirdavat",
+    "title": "\u00d6z H\u0131rdavat B2B",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "yazilim@natyazilim.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "2 Nov 2020"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-12-08 23:07:32.024008",
+    "backendDocid": "com.natyazilim.b2b.ozhirdavat",
+    "backendId": 3,
+    "creator": "NAT Yaz\u0131l\u0131m",
+    "descriptionHtml": "\u00d6z H\u0131rdavat B2B Sisteminin Mobil Uygulamas\u0131.<br>\u00d6z H\u0131rdavat B2B Sisteminin Web Adresi: http://b2b.ozhirdavat.com<br><br>Mobil uygulama, Web Sisteminde var olan b\u00fct\u00fcn \u00f6zelliklere sahiptir. <br>Bunun yan\u0131nda kolay bir kullan\u0131m, temiz bir aray\u00fcz ve performansl\u0131 kullan\u0131m avantaj\u0131 sa\u011flar.<br><br>Mobil Uygulaman\u0131n Sahip Oldu\u011fu \u00d6zellikler;<br><br>- Vitrin, Kampanya, Ay\u0131n ve Haftan\u0131n \u00dcr\u00fcnleri Listelerine Sahip Anasayfa<br>- Stok Ad\u0131ndan, Stok Kodundan ve Barkoddan \u00dcr\u00fcn Arama<br>- Cihaz Kameras\u0131 ile Barkodu Taratarak \u00dcr\u00fcn Arama<br>- Kategori, Ana Grup ve Alt Grup \u015eeklinde Yap\u0131land\u0131r\u0131lm\u0131\u015f \u00dcr\u00fcn Kategori Sistemi<br>- Finans Mod\u00fcl\u00fc [Raporlamalar] (Ekstre, Ekstre Detay, Fatura Listesi, A\u00e7\u0131k Sipari\u015f Raporu, A\u00e7\u0131k Sipari\u015f Detay Raporu, Al\u0131m Raporlar\u0131 ve \u0130skonto Listesi)<br>- \u00c7oklu \u00d6deme Se\u00e7ene\u011fine Sahip ve Kolay Bir Kullan\u0131m Sunan Sepet<br><br>Hali haz\u0131rda &quot;\u00d6z H\u0131rdavat B2B Sistemi&quot; \u00fcyesi iseniz, uygulamay\u0131 indirmekten ba\u015fka bir \u015fey yapman\u0131za gerek yok, sadece Mail Adresi ve \u015eifrenizi Girerek Giri\u015f yapman\u0131z yeterli.<br><br>&quot;\u00d6z H\u0131rdavat B2B Sistemi&quot; \u00fcyesi de\u011filseniz, giri\u015f ekran\u0131ndaki &quot;Bayi Ba\u015fvurusu&quot; k\u0131sm\u0131ndan sisteme \u00fcye olmak i\u00e7in ba\u015fvurabilirsiniz.",
+    "descriptionShort": "Mobile Application of \u00d6z Hardware B2B System.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown2": "7513852",
+          "unknown3": 29
+        },
+        "developerEmail": "yazilim@natyazilim.com",
+        "developerName": "NAT Yaz\u0131l\u0131m",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "7513852",
+            "versionCode": 10400
+          }
+        ],
+        "installationSize": "7513852",
+        "numDownloads": "500+ downloads",
+        "packageName": "com.natyazilim.b2b.ozhirdavat",
+        "permission": [
+          "android.permission.CAMERA",
+          "android.permission.FLASHLIGHT",
+          "android.permission.INTERNET"
+        ],
+        "recentChangesHtml": "Birinci birim gosterimi eklendi",
+        "unstable": false,
+        "uploadDate": "8 Oct 2021",
+        "versionCode": 10400,
+        "versionString": "1.4"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.natyazilim.b2b.ozhirdavat",
+    "docType": 1,
+    "docid": "com.natyazilim.b2b.ozhirdavat",
+    "image": [
+      {
+        "color": "#FEFEFE",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/GEhqJjiPD07xYADgeeMisk4BoJUb7w2AV4k0hi147FTvZqn6umggVcpoJStBEIz89Q",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#E8E9EA",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/g-A-75kRTL2nVjCi8D2Yg2gOjU21qKS7T21v_pMMIU2GnAQwiA-E3rJHWgRZ5roz",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/DGrNnOFvHQZvXPzUDreHgOAuPLR7T4uzujoGrEp2KXL2ZTT4SUpK7wxaCwymWEwkqE0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/bpxfihSKSlALia_o7ZymEboBny0nPCitRMFZp_CpUF4pmrHxBtxKshGcD6_9TOOixzwt",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/clchVtCpgShdhMCQ0a5OjpYLT7BqtJwd6uhPTKm7r50Fev9GTEYexTUzwwC3YUPrvw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/JkQdRB3qY4XBlxh1cypY9PZR0aLus-M6OCpQDMTnDt7qy03JDF3wToQxdWRZ-RViQcE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/fmI2gGSYPhJUaJdTZ9KKzidkN1cWCnC61GFXYWp30t4YHkULeUnBRL6StyTa7jZN19E",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/RiFLlVl_PQsSLeNTiCd_oWcYLOXqW7irEjeZfcE_3F8lQcWMpzSfAEdFbZPxc72ZDbS_",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/lcfRNfST52tGM3TjQ41BFoTDt-eQZDPfbNXpp68fRfw9FC1lYwjtz8IPevKHoupgbozT",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://b2b.ozhirdavat.com/storage/b2b_ozhirdavat.pdf",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.natyazilim.b2b.ozhirdavat",
+    "reviewsUrl": "rev?doc=com.natyazilim.b2b.ozhirdavat&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.natyazilim.b2b.ozhirdavat",
+    "title": "\u00d6z H\u0131rdavat B2B",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "yazilim@natyazilim.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "2 Nov 2020"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-02-08 18:22:53.170079",
+    "backendDocid": "com.natyazilim.b2b.ozhirdavat",
+    "backendId": 3,
+    "creator": "NAT Yaz\u0131l\u0131m",
+    "descriptionHtml": "\u00d6z H\u0131rdavat B2B Sisteminin Mobil Uygulamas\u0131.<br>\u00d6z H\u0131rdavat B2B Sisteminin Web Adresi: http://b2b.ozhirdavat.com<br><br>Mobil uygulama, Web Sisteminde var olan b\u00fct\u00fcn \u00f6zelliklere sahiptir. <br>Bunun yan\u0131nda kolay bir kullan\u0131m, temiz bir aray\u00fcz ve performansl\u0131 kullan\u0131m avantaj\u0131 sa\u011flar.<br><br>Mobil Uygulaman\u0131n Sahip Oldu\u011fu \u00d6zellikler;<br><br>- Vitrin, Kampanya, Ay\u0131n ve Haftan\u0131n \u00dcr\u00fcnleri Listelerine Sahip Anasayfa<br>- Stok Ad\u0131ndan, Stok Kodundan ve Barkoddan \u00dcr\u00fcn Arama<br>- Cihaz Kameras\u0131 ile Barkodu Taratarak \u00dcr\u00fcn Arama<br>- Kategori, Ana Grup ve Alt Grup \u015eeklinde Yap\u0131land\u0131r\u0131lm\u0131\u015f \u00dcr\u00fcn Kategori Sistemi<br>- Finans Mod\u00fcl\u00fc [Raporlamalar] (Ekstre, Ekstre Detay, Fatura Listesi, A\u00e7\u0131k Sipari\u015f Raporu, A\u00e7\u0131k Sipari\u015f Detay Raporu, Al\u0131m Raporlar\u0131 ve \u0130skonto Listesi)<br>- \u00c7oklu \u00d6deme Se\u00e7ene\u011fine Sahip ve Kolay Bir Kullan\u0131m Sunan Sepet<br><br>Hali haz\u0131rda &quot;\u00d6z H\u0131rdavat B2B Sistemi&quot; \u00fcyesi iseniz, uygulamay\u0131 indirmekten ba\u015fka bir \u015fey yapman\u0131za gerek yok, sadece Mail Adresi ve \u015eifrenizi Girerek Giri\u015f yapman\u0131z yeterli.<br><br>&quot;\u00d6z H\u0131rdavat B2B Sistemi&quot; \u00fcyesi de\u011filseniz, giri\u015f ekran\u0131ndaki &quot;Bayi Ba\u015fvurusu&quot; k\u0131sm\u0131ndan sisteme \u00fcye olmak i\u00e7in ba\u015fvurabilirsiniz.",
+    "descriptionShort": "Mobile Application of \u00d6z Hardware B2B System.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "6511536",
+          "unknown3": 31
+        },
+        "developerEmail": "yazilim@natyazilim.com",
+        "developerName": "NAT Yaz\u0131l\u0131m",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "5665130",
+            "versionCode": 20100
+          },
+          {
+            "fileType": 0,
+            "size": "784148",
+            "versionCode": 20100
+          },
+          {
+            "fileType": 0,
+            "size": "29081",
+            "versionCode": 20100
+          },
+          {
+            "fileType": 0,
+            "size": "33177",
+            "versionCode": 20100
+          }
+        ],
+        "installationSize": "6511536",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "com.natyazilim.b2b.ozhirdavat",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.CAMERA",
+          "android.permission.FLASHLIGHT",
+          "android.permission.INTERNET",
+          "android.permission.WAKE_LOCK",
+          "com.google.android.c2dm.permission.RECEIVE"
+        ],
+        "recentChangesHtml": "Alt toplamlarda ikincil vade kullanilabilir duruma getirilmistir",
+        "unstable": true,
+        "uploadDate": "7 Feb 2023",
+        "versionCode": 20100,
+        "versionString": "2.1"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.natyazilim.b2b.ozhirdavat",
+    "docType": 1,
+    "docid": "com.natyazilim.b2b.ozhirdavat",
+    "image": [
+      {
+        "color": "#FEFEFE",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/GEhqJjiPD07xYADgeeMisk4BoJUb7w2AV4k0hi147FTvZqn6umggVcpoJStBEIz89Q",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#E8E9EA",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/g-A-75kRTL2nVjCi8D2Yg2gOjU21qKS7T21v_pMMIU2GnAQwiA-E3rJHWgRZ5roz",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/DGrNnOFvHQZvXPzUDreHgOAuPLR7T4uzujoGrEp2KXL2ZTT4SUpK7wxaCwymWEwkqE0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/bpxfihSKSlALia_o7ZymEboBny0nPCitRMFZp_CpUF4pmrHxBtxKshGcD6_9TOOixzwt",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/clchVtCpgShdhMCQ0a5OjpYLT7BqtJwd6uhPTKm7r50Fev9GTEYexTUzwwC3YUPrvw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/JkQdRB3qY4XBlxh1cypY9PZR0aLus-M6OCpQDMTnDt7qy03JDF3wToQxdWRZ-RViQcE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/fmI2gGSYPhJUaJdTZ9KKzidkN1cWCnC61GFXYWp30t4YHkULeUnBRL6StyTa7jZN19E",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/RiFLlVl_PQsSLeNTiCd_oWcYLOXqW7irEjeZfcE_3F8lQcWMpzSfAEdFbZPxc72ZDbS_",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/lcfRNfST52tGM3TjQ41BFoTDt-eQZDPfbNXpp68fRfw9FC1lYwjtz8IPevKHoupgbozT",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://b2b.ozhirdavat.com/storage/b2b_ozhirdavat.pdf",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.natyazilim.b2b.ozhirdavat",
+    "reviewsUrl": "rev?doc=com.natyazilim.b2b.ozhirdavat&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.natyazilim.b2b.ozhirdavat",
+    "title": "\u00d6z H\u0131rdavat B2B",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "yazilim@natyazilim.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "2 Nov 2020"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-10-05 22:43:10.906263",
+    "backendDocid": "com.natyazilim.b2b.ozhirdavat",
+    "backendId": 3,
+    "creator": "NAT Yaz\u0131l\u0131m",
+    "descriptionHtml": "\u00d6z H\u0131rdavat B2B Sisteminin Mobil Uygulamas\u0131.<br>\u00d6z H\u0131rdavat B2B Sisteminin Web Adresi: http://b2b.ozhirdavat.com<br><br>Mobil uygulama, Web Sisteminde var olan b\u00fct\u00fcn \u00f6zelliklere sahiptir. <br>Bunun yan\u0131nda kolay bir kullan\u0131m, temiz bir aray\u00fcz ve performansl\u0131 kullan\u0131m avantaj\u0131 sa\u011flar.<br><br>Mobil Uygulaman\u0131n Sahip Oldu\u011fu \u00d6zellikler;<br><br>- Vitrin, Kampanya, Ay\u0131n ve Haftan\u0131n \u00dcr\u00fcnleri Listelerine Sahip Anasayfa<br>- Stok Ad\u0131ndan, Stok Kodundan ve Barkoddan \u00dcr\u00fcn Arama<br>- Cihaz Kameras\u0131 ile Barkodu Taratarak \u00dcr\u00fcn Arama<br>- Kategori, Ana Grup ve Alt Grup \u015eeklinde Yap\u0131land\u0131r\u0131lm\u0131\u015f \u00dcr\u00fcn Kategori Sistemi<br>- Finans Mod\u00fcl\u00fc [Raporlamalar] (Ekstre, Ekstre Detay, Fatura Listesi, A\u00e7\u0131k Sipari\u015f Raporu, A\u00e7\u0131k Sipari\u015f Detay Raporu, Al\u0131m Raporlar\u0131 ve \u0130skonto Listesi)<br>- \u00c7oklu \u00d6deme Se\u00e7ene\u011fine Sahip ve Kolay Bir Kullan\u0131m Sunan Sepet<br><br>Hali haz\u0131rda &quot;\u00d6z H\u0131rdavat B2B Sistemi&quot; \u00fcyesi iseniz, uygulamay\u0131 indirmekten ba\u015fka bir \u015fey yapman\u0131za gerek yok, sadece Mail Adresi ve \u015eifrenizi Girerek Giri\u015f yapman\u0131z yeterli.<br><br>&quot;\u00d6z H\u0131rdavat B2B Sistemi&quot; \u00fcyesi de\u011filseniz, giri\u015f ekran\u0131ndaki &quot;Bayi Ba\u015fvurusu&quot; k\u0131sm\u0131ndan sisteme \u00fcye olmak i\u00e7in ba\u015fvurabilirsiniz.",
+    "descriptionShort": "Mobile Application of \u00d6z Hardware B2B System.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "version": 12451000
+            }
+          ],
+          "unknown2": "6835653",
+          "unknown3": 33
+        },
+        "developerEmail": "yazilim@natyazilim.com",
+        "developerName": "NAT Yaz\u0131l\u0131m",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "5985151",
+            "versionCode": 20400
+          },
+          {
+            "fileType": 0,
+            "size": "784148",
+            "versionCode": 20400
+          },
+          {
+            "fileType": 0,
+            "size": "33177",
+            "versionCode": 20400
+          },
+          {
+            "fileType": 0,
+            "size": "33177",
+            "versionCode": 20400
+          }
+        ],
+        "installationSize": "6835653",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "com.natyazilim.b2b.ozhirdavat",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.CAMERA",
+          "android.permission.FLASHLIGHT",
+          "android.permission.INTERNET",
+          "android.permission.WAKE_LOCK",
+          "com.google.android.c2dm.permission.RECEIVE"
+        ],
+        "recentChangesHtml": "Yaz\u0131 fontlar\u0131 d\u00fczenlendi.",
+        "unstable": true,
+        "uploadDate": "26 Sept 2023",
+        "versionCode": 20400,
+        "versionString": "2.4"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.natyazilim.b2b.ozhirdavat",
+    "docType": 1,
+    "docid": "com.natyazilim.b2b.ozhirdavat",
+    "image": [
+      {
+        "color": "#FEFEFE",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/GEhqJjiPD07xYADgeeMisk4BoJUb7w2AV4k0hi147FTvZqn6umggVcpoJStBEIz89Q",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#E8E9EA",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/g-A-75kRTL2nVjCi8D2Yg2gOjU21qKS7T21v_pMMIU2GnAQwiA-E3rJHWgRZ5roz",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/DGrNnOFvHQZvXPzUDreHgOAuPLR7T4uzujoGrEp2KXL2ZTT4SUpK7wxaCwymWEwkqE0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/bpxfihSKSlALia_o7ZymEboBny0nPCitRMFZp_CpUF4pmrHxBtxKshGcD6_9TOOixzwt",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/clchVtCpgShdhMCQ0a5OjpYLT7BqtJwd6uhPTKm7r50Fev9GTEYexTUzwwC3YUPrvw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/JkQdRB3qY4XBlxh1cypY9PZR0aLus-M6OCpQDMTnDt7qy03JDF3wToQxdWRZ-RViQcE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/fmI2gGSYPhJUaJdTZ9KKzidkN1cWCnC61GFXYWp30t4YHkULeUnBRL6StyTa7jZN19E",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/RiFLlVl_PQsSLeNTiCd_oWcYLOXqW7irEjeZfcE_3F8lQcWMpzSfAEdFbZPxc72ZDbS_",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/lcfRNfST52tGM3TjQ41BFoTDt-eQZDPfbNXpp68fRfw9FC1lYwjtz8IPevKHoupgbozT",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://b2b.ozhirdavat.com/storage/b2b_ozhirdavat.pdf",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.natyazilim.b2b.ozhirdavat",
+    "reviewsUrl": "rev?doc=com.natyazilim.b2b.ozhirdavat&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.natyazilim.b2b.ozhirdavat",
+    "title": "\u00d6z H\u0131rdavat B2B",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "NAT Yaz\u0131l\u0131m"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "yazilim@natyazilim.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "2 Nov 2020"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  }
+]

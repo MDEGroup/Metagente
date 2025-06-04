@@ -1,0 +1,2172 @@
+[
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-06-13 17:51:08.641942",
+    "backendDocid": "com.zonith.staffsafety",
+    "backendId": 3,
+    "creator": "ZONITH A/S",
+    "descriptionHtml": "The ZONITH App is designed exclusively for use with ZONITH&#39;s centralised server solution and does not work as a standalone solution.<br><br>ZONITH App serves several purposes:<br> <br>- Raising panic alarms<br>- Providing Lone-Worker protection <br>- Handling of alarms<br>- Indoor and Outdoor positioning<br> <br>Key Functions: <br> <br>ZONITH App gives users the ability to raise a panic alarm when in distress. This can result from interaction with the main screen of the App, or by pressing a physical panic button on the ZONITH Bluetooth ID Badge (the smart ID cardholder) communicating with the Smartphone. The ZONITH server-based software solution will recognize the panic alarms and dispatch alerts instantly to the relevant parties to help you.<br> <br>Up to two buttons helps to improve alarm communication and to prioritize the alarms with high/low priority. The text and function of the buttons can be configured depending on what your work situation requires. <br> <br>The ZONITH App can be used to handle alarms being dispatched from the server-based software solution. Alarms are pushed from the ZONITH server software solution to the App so assigned users can handle alarms. This includes the ability to accept, decline or cancel alarms while at the same time informing all other users in real-time about the alarm handling status.<br> <br>The App includes a Lone-Worker protection service, where user need to confirm &quot;Are you OK?&quot; message before the timer stops counting. If there is no confirmation, the App will raise the alarm on your behalf and automatically call for assistance to help you at your exact location.<br> <br>Descriptive messages can be added before you start your new task. When you raise the alarm, first responders will receive the descriptive message which will speed up reaction time and be crucial to find/reach you.<br> <br>Creating teams improves communication and cooperation. People working in teams can send messages to the team members, which can enhance the effective workflow and can guide/inform each other. Team members can also respond to alarms, it will save time, and you can avoid extra time and costs for calling additional assistance.<br> <br>To ensure fast and accurate assistance, the App supports GPS positioning when outside and Bluetooth positioning when inside buildings. <br> <br>Please contact ZONITH at sales@zonith.com or visit www.zonith.com for more information about ZONITH&#39;s App, advanced alarm handling, staff safety, and panic alarm solutions.",
+    "descriptionShort": "Panic Alarms|Lone-Worker Protection|Handling Alarms|Indoor/Outdoor Positioning",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "6766232",
+          "unknown3": 28
+        },
+        "developerEmail": "sales@zonith.com",
+        "developerName": "ZONITH A/S",
+        "developerWebsite": "http://www.zonith.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "6766232",
+            "versionCode": 17283
+          }
+        ],
+        "installationSize": "6766232",
+        "numDownloads": "100+ downloads",
+        "packageName": "com.zonith.staffsafety",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.DISABLE_KEYGUARD",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+        ],
+        "recentChangesHtml": "ZONITH APP now supports customizable sound/vibration events for incoming alarms based on alarm priority.",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "15 Apr 2020",
+        "versionCode": 17283,
+        "versionString": "2.22"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.zonith.staffsafety",
+    "docType": 1,
+    "docid": "com.zonith.staffsafety",
+    "image": [
+      {
+        "imageType": 2,
+        "imageUrl": "https://lh3.googleusercontent.com/3cgcwp48-UfQfAwOLPFTfOqha6bHTAcBgwnlMQrOdXb7IA-_6oJMddpeoWVY7SkC_wau",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 4,
+        "imageUrl": "https://lh3.googleusercontent.com/d7kpQjQfc77FHpf7wqBuSagXCN6meYJLnmymEbZpnqIvg0inoWbsToTnMCFt9u4prw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3000,
+          "width": 1500
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/nl800nzelgN9CGH0IxyE0kCHxMiTaQmehg2Kb0fFUI5X-S73k28nxYJKF_nU1XHC4g",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3000,
+          "width": 1500
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/ouXPAjbNwXzuMqzSVerAcMZOEWIWMDc-C153r-Mrf7O2-z0IkG5f847LOnxqq_Pe7pc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3000,
+          "width": 1500
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/4JZfkA2e1hgYE7LZCQm37CrYQXl0xF3E7JDYQXWjKoiy6tZWpuUuU_bLMdmaBYYsjA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3000,
+          "width": 1500
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/CnL4o71C9HuUwr2bmP0qlPsZT3f_U5463Q2aIEsPH8q_YiMQZBcT_Q1wiAtVF5XKxg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3000,
+          "width": 1500
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/JrPA8ayu4HW1msftOmaO7jEPYjhvnsJM2jgWvHS2bhDDMl8-tSAkr6syZgUL38buXr0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3000,
+          "width": 1500
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/-21QKC8RKPYQ_zZymRRUvqyw6zGdXelIuPk-DJMNsAzH0CW7kSIj8jWiDVJlaSXDcw",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://zonith.com/privacy-policy/",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://lh3.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "Shares location<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.zonith.staffsafety",
+    "reviewsUrl": "rev?doc=com.zonith.staffsafety&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.zonith.staffsafety",
+    "title": "ZONITH",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "ZONITH A/S"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "sales@zonith.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "7 Oct 2019"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-09-17 19:21:18.481012",
+    "backendDocid": "com.zonith.staffsafety",
+    "backendId": 3,
+    "creator": "ZONITH A/S",
+    "descriptionHtml": "The ZONITH App is designed exclusively for use with ZONITH&#39;s centralised server solution and does not work as a standalone solution.<br><br>ZONITH App serves several purposes:<br> <br>- Raising panic alarms<br>- Providing Lone-Worker protection <br>- Handling of alarms<br>- Indoor and Outdoor positioning<br> <br>Key Functions: <br> <br>ZONITH App gives users the ability to raise a panic alarm when in distress. This can result from interaction with the main screen of the App, or by pressing a physical panic button (ZONITH Bluetooth ID Badge - the smart ID cardholder or ZONITH Compact Panic Button) communicating with the Smartphone. The ZONITH server-based software solution will recognize the panic alarms and dispatch alerts instantly to the relevant parties to help you.<br> <br>Up to two buttons helps to improve alarm communication and to prioritize the alarms with high/low priority. The text and function of the buttons can be configured depending on what your work situation requires. <br> <br>The ZONITH App can be used to handle alarms being dispatched from the server-based software solution. Alarms are pushed from the ZONITH server software solution to the App so assigned users can handle alarms. This includes the ability to accept, decline or cancel alarms while at the same time informing all other users in real-time about the alarm handling status.<br> <br>The App includes a Lone-Worker protection service, where user need to confirm &quot;Are you OK?&quot; message before the timer stops counting. If there is no confirmation, the App will raise the alarm on your behalf and automatically call for assistance to help you at your exact location.<br> <br>Descriptive messages can be added before you start your new task. When you raise the alarm, first responders will receive the descriptive message which will speed up reaction time and be crucial to find/reach you.<br> <br>Creating teams improves communication and cooperation. People working in teams can send messages to the team members, which can enhance the effective workflow and can guide/inform each other. Team members can also respond to alarms, it will save time, and you can avoid extra time and costs for calling additional assistance.<br> <br>To ensure fast and accurate assistance, the App supports GPS positioning when outside and Bluetooth positioning when inside buildings. <br> <br>Please contact ZONITH at sales@zonith.com or visit www.zonith.com for more information about ZONITH&#39;s App, advanced alarm handling, staff safety, and panic alarm solutions.",
+    "descriptionShort": "Panic Alarms|Lone-Worker Protection|Handling Alarms|Indoor/Outdoor Positioning",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "7048501",
+          "unknown3": 28
+        },
+        "developerEmail": "sales@zonith.com",
+        "developerName": "ZONITH A/S",
+        "developerWebsite": "http://www.zonith.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "7048501",
+            "versionCode": 21060
+          }
+        ],
+        "installationSize": "7048501",
+        "numDownloads": "100+ downloads",
+        "packageName": "com.zonith.staffsafety",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.DISABLE_KEYGUARD",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+        ],
+        "recentChangesHtml": "- renamed &quot;ID Badge&quot; to more generic &quot;Panic Button&quot;<br>- added support for new panic device: ZONITH Compact Panic Button<br>- added support for showing map view in alarm window<br>- added Norwegian translation",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false,
+          "testingProgramEmail": "support@zonith.com"
+        },
+        "unstable": true,
+        "uploadDate": "31 Aug 2020",
+        "versionCode": 21060,
+        "versionString": "2.23"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.zonith.staffsafety",
+    "docType": 1,
+    "docid": "com.zonith.staffsafety",
+    "image": [
+      {
+        "imageType": 2,
+        "imageUrl": "https://lh3.googleusercontent.com/3cgcwp48-UfQfAwOLPFTfOqha6bHTAcBgwnlMQrOdXb7IA-_6oJMddpeoWVY7SkC_wau",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 4,
+        "imageUrl": "https://lh3.googleusercontent.com/d7kpQjQfc77FHpf7wqBuSagXCN6meYJLnmymEbZpnqIvg0inoWbsToTnMCFt9u4prw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3001,
+          "width": 1500
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/DcBWzrDEyTr-ozAjc9d80KLc-83UQGOPo8Fg-mVGy1VfO9GSJp-SP5mAM-bJYNZ0iDVL",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3001,
+          "width": 1500
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/kBWJYpxn5OwmXi8y9z1gGShRvZYHQPN5KfB51QvnDKL0GpbPlIvfL3iPkx-qjaKef8M",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3000,
+          "width": 1500
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/t2sVS1pysmUKUNPPb64p2zaQwg6sPX214W6BZj7_x0hTlcFGqfWwNjPt11BId-5S0Nk",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3000,
+          "width": 1500
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/NbGBdVrLebcu9iTRAK_Fix7cBRLD9kq7RpAKdM3z_EYAUVf9riIApa_VNxsxRSqADLsw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3000,
+          "width": 1500
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/6GBvtlIh5g_JotOF9tYPviRka58M83oiD4ZBJ3Ijn8sv_C-nn-i5h87C51OQzawgaQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3000,
+          "width": 1500
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/bzOdG0zomYmKyz1fvO8tMGPUtVuzAGbTxHvIM2xQjiBcr15qh-f0yRgByi_JJWovYSg",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://zonith.com/privacy-policy/",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "Shares location<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.zonith.staffsafety",
+    "reviewsUrl": "rev?doc=com.zonith.staffsafety&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.zonith.staffsafety",
+    "title": "ZONITH",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "sales@zonith.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "7 Oct 2019"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-10-16 23:17:47.530948",
+    "backendDocid": "com.zonith.staffsafety",
+    "backendId": 3,
+    "creator": "ZONITH A/S",
+    "descriptionHtml": "The ZONITH App is designed exclusively for use with ZONITH&#39;s centralised server solution and does not work as a standalone solution.<br><br>ZONITH App serves several purposes:<br> <br>- Raising panic alarms<br>- Providing Lone-Worker protection <br>- Handling of alarms<br>- Indoor and Outdoor positioning<br> <br>Key Functions: <br> <br>ZONITH App gives users the ability to raise a panic alarm when in distress. This can result from interaction with the main screen of the App, or by pressing a physical panic button (ZONITH Bluetooth ID Badge - the smart ID cardholder or ZONITH Compact Panic Button) communicating with the Smartphone. The ZONITH server-based software solution will recognize the panic alarms and dispatch alerts instantly to the relevant parties to help you.<br> <br>Up to two buttons helps to improve alarm communication and to prioritize the alarms with high/low priority. The text and function of the buttons can be configured depending on what your work situation requires. <br> <br>The ZONITH App can be used to handle alarms being dispatched from the server-based software solution. Alarms are pushed from the ZONITH server software solution to the App so assigned users can handle alarms. This includes the ability to accept, decline or cancel alarms while at the same time informing all other users in real-time about the alarm handling status.<br> <br>The App includes a Lone-Worker protection service, where user need to confirm &quot;Are you OK?&quot; message before the timer stops counting. If there is no confirmation, the App will raise the alarm on your behalf and automatically call for assistance to help you at your exact location.<br> <br>Descriptive messages can be added before you start your new task. When you raise the alarm, first responders will receive the descriptive message which will speed up reaction time and be crucial to find/reach you.<br> <br>Creating teams improves communication and cooperation. People working in teams can send messages to the team members, which can enhance the effective workflow and can guide/inform each other. Team members can also respond to alarms, it will save time, and you can avoid extra time and costs for calling additional assistance.<br> <br>To ensure fast and accurate assistance, the App supports GPS positioning when outside and Bluetooth positioning when inside buildings. <br> <br>Please contact ZONITH at sales@zonith.com or visit www.zonith.com for more information about ZONITH&#39;s App, advanced alarm handling, staff safety, and panic alarm solutions.",
+    "descriptionShort": "Panic Alarms|Lone-Worker Protection|Handling Alarms|Indoor/Outdoor Positioning",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "7048594",
+          "unknown3": 28
+        },
+        "developerEmail": "sales@zonith.com",
+        "developerName": "ZONITH A/S",
+        "developerWebsite": "http://www.zonith.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "7048594",
+            "versionCode": 22053
+          }
+        ],
+        "installationSize": "7048594",
+        "numDownloads": "100+ downloads",
+        "packageName": "com.zonith.staffsafety",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.DISABLE_KEYGUARD",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+        ],
+        "recentChangesHtml": "New in 2.23:<br>- renamed &quot;ID Badge&quot; to more generic &quot;Panic Button&quot;<br>- added support for new panic device: ZONITH Compact Panic Button<br>- added support for showing map view in alarm window<br>- added Norwegian translation<br>New in 2.23.1:<br>- minor bug fixes",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false,
+          "testingProgramEmail": "support@zonith.com"
+        },
+        "unstable": true,
+        "uploadDate": "12 Oct 2020",
+        "versionCode": 22053,
+        "versionString": "2.23.1"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.zonith.staffsafety",
+    "docType": 1,
+    "docid": "com.zonith.staffsafety",
+    "image": [
+      {
+        "imageType": 2,
+        "imageUrl": "https://lh3.googleusercontent.com/3cgcwp48-UfQfAwOLPFTfOqha6bHTAcBgwnlMQrOdXb7IA-_6oJMddpeoWVY7SkC_wau",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 4,
+        "imageUrl": "https://lh3.googleusercontent.com/d7kpQjQfc77FHpf7wqBuSagXCN6meYJLnmymEbZpnqIvg0inoWbsToTnMCFt9u4prw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3001,
+          "width": 1500
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/DcBWzrDEyTr-ozAjc9d80KLc-83UQGOPo8Fg-mVGy1VfO9GSJp-SP5mAM-bJYNZ0iDVL",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3001,
+          "width": 1500
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/kBWJYpxn5OwmXi8y9z1gGShRvZYHQPN5KfB51QvnDKL0GpbPlIvfL3iPkx-qjaKef8M",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3000,
+          "width": 1500
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/t2sVS1pysmUKUNPPb64p2zaQwg6sPX214W6BZj7_x0hTlcFGqfWwNjPt11BId-5S0Nk",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3000,
+          "width": 1500
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/NbGBdVrLebcu9iTRAK_Fix7cBRLD9kq7RpAKdM3z_EYAUVf9riIApa_VNxsxRSqADLsw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3000,
+          "width": 1500
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/6GBvtlIh5g_JotOF9tYPviRka58M83oiD4ZBJ3Ijn8sv_C-nn-i5h87C51OQzawgaQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3000,
+          "width": 1500
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/bzOdG0zomYmKyz1fvO8tMGPUtVuzAGbTxHvIM2xQjiBcr15qh-f0yRgByi_JJWovYSg",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://zonith.com/privacy-policy/",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "Shares location<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.zonith.staffsafety",
+    "reviewsUrl": "rev?doc=com.zonith.staffsafety&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.zonith.staffsafety",
+    "title": "ZONITH",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "sales@zonith.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "7 Oct 2019"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-06-15 05:48:42.864352",
+    "backendDocid": "com.zonith.staffsafety",
+    "backendId": 3,
+    "creator": "ZONITH A/S",
+    "descriptionHtml": "The ZONITH App is designed exclusively for use with ZONITH&#39;s centralised server solution and does not work as a standalone solution.<br><br>ZONITH App serves several purposes:<br> <br>- Raising panic alarms<br>- Providing Lone-Worker protection <br>- Handling of alarms<br>- Indoor and Outdoor positioning<br> <br>Key Functions: <br> <br>ZONITH App gives users the ability to raise a panic alarm when in distress. This can result from interaction with the main screen of the App, or by pressing a physical panic button (ZONITH Bluetooth ID Badge - the smart ID cardholder or ZONITH Compact Panic Button) communicating with the Smartphone. The ZONITH server-based software solution will recognize the panic alarms and dispatch alerts instantly to the relevant parties to help you.<br> <br>Up to two buttons helps to improve alarm communication and to prioritize the alarms with high/low priority. The text and function of the buttons can be configured depending on what your work situation requires. <br> <br>The ZONITH App can be used to handle alarms being dispatched from the server-based software solution. Alarms are pushed from the ZONITH server software solution to the App so assigned users can handle alarms. This includes the ability to accept, decline or cancel alarms while at the same time informing all other users in real-time about the alarm handling status.<br> <br>The App includes a Lone-Worker protection service, where user need to confirm &quot;Are you OK?&quot; message before the timer stops counting. If there is no confirmation, the App will raise the alarm on your behalf and automatically call for assistance to help you at your exact location.<br> <br>Descriptive messages can be added before you start your new task. When you raise the alarm, first responders will receive the descriptive message which will speed up reaction time and be crucial to find/reach you.<br> <br>Creating teams improves communication and cooperation. People working in teams can send messages to the team members, which can enhance the effective workflow and can guide/inform each other. Team members can also respond to alarms, it will save time, and you can avoid extra time and costs for calling additional assistance.<br> <br>To ensure fast and accurate assistance, the App supports GPS positioning when outside and Bluetooth positioning when inside buildings. <br> <br>Please contact ZONITH at sales@zonith.com or visit www.zonith.com for more information about ZONITH&#39;s App, advanced alarm handling, staff safety, and panic alarm solutions.",
+    "descriptionShort": "Panic Alarms|Lone-Worker Protection|Handling Alarms|Indoor/Outdoor Positioning",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "9524420",
+          "unknown3": 29
+        },
+        "developerEmail": "sales@zonith.com",
+        "developerName": "ZONITH A/S",
+        "developerWebsite": "http://www.zonith.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "9524420",
+            "versionCode": 28335
+          }
+        ],
+        "installationSize": "9524420",
+        "numDownloads": "100+ downloads",
+        "packageName": "com.zonith.staffsafety",
+        "permission": [
+          "android.permission.ACCESS_BACKGROUND_LOCATION",
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.DISABLE_KEYGUARD",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+        ],
+        "recentChangesHtml": "Added compatibility with Android 11",
+        "unstable": true,
+        "uploadDate": "18 May 2021",
+        "versionCode": 28335,
+        "versionString": "2.24.1"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.zonith.staffsafety",
+    "docType": 1,
+    "docid": "com.zonith.staffsafety",
+    "image": [
+      {
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/3cgcwp48-UfQfAwOLPFTfOqha6bHTAcBgwnlMQrOdXb7IA-_6oJMddpeoWVY7SkC_wau",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/d7kpQjQfc77FHpf7wqBuSagXCN6meYJLnmymEbZpnqIvg0inoWbsToTnMCFt9u4prw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3001,
+          "width": 1500
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/DcBWzrDEyTr-ozAjc9d80KLc-83UQGOPo8Fg-mVGy1VfO9GSJp-SP5mAM-bJYNZ0iDVL",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3001,
+          "width": 1500
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/kBWJYpxn5OwmXi8y9z1gGShRvZYHQPN5KfB51QvnDKL0GpbPlIvfL3iPkx-qjaKef8M",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3000,
+          "width": 1500
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/t2sVS1pysmUKUNPPb64p2zaQwg6sPX214W6BZj7_x0hTlcFGqfWwNjPt11BId-5S0Nk",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3000,
+          "width": 1500
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/NbGBdVrLebcu9iTRAK_Fix7cBRLD9kq7RpAKdM3z_EYAUVf9riIApa_VNxsxRSqADLsw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3000,
+          "width": 1500
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/6GBvtlIh5g_JotOF9tYPviRka58M83oiD4ZBJ3Ijn8sv_C-nn-i5h87C51OQzawgaQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3000,
+          "width": 1500
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/bzOdG0zomYmKyz1fvO8tMGPUtVuzAGbTxHvIM2xQjiBcr15qh-f0yRgByi_JJWovYSg",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://zonith.com/zonith-app-privacy-policy",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "Shares location<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.zonith.staffsafety",
+    "reviewsUrl": "rev?doc=com.zonith.staffsafety&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.zonith.staffsafety",
+    "title": "ZONITH",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "ZONITH A/S"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "sales@zonith.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "7 Oct 2019"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-10-10 05:43:44.675639",
+    "backendDocid": "com.zonith.staffsafety",
+    "backendId": 3,
+    "creator": "ZONITH A/S",
+    "descriptionHtml": "The ZONITH App is designed exclusively for use with ZONITH&#39;s centralised server solution and does not work as a standalone solution.<br><br>ZONITH App serves several purposes:<br> <br>- Raising panic alarms<br>- Providing Lone-Worker protection <br>- Handling of alarms<br>- Indoor and Outdoor positioning<br> <br>Key Functions: <br> <br>ZONITH App gives users the ability to raise a panic alarm when in distress. This can result from interaction with the main screen of the App, or by pressing a physical panic button (ZONITH Bluetooth ID Badge - the smart ID cardholder or ZONITH Compact Panic Button) communicating with the Smartphone. The ZONITH server-based software solution will recognize the panic alarms and dispatch alerts instantly to the relevant parties to help you.<br> <br>Up to two buttons helps to improve alarm communication and to prioritize the alarms with high/low priority. The text and function of the buttons can be configured depending on what your work situation requires. <br> <br>The ZONITH App can be used to handle alarms being dispatched from the server-based software solution. Alarms are pushed from the ZONITH server software solution to the App so assigned users can handle alarms. This includes the ability to accept, decline or cancel alarms while at the same time informing all other users in real-time about the alarm handling status.<br> <br>The App includes a Lone-Worker protection service, where user need to confirm &quot;Are you OK?&quot; message before the timer stops counting. If there is no confirmation, the App will raise the alarm on your behalf and automatically call for assistance to help you at your exact location.<br> <br>Descriptive messages can be added before you start your new task. When you raise the alarm, first responders will receive the descriptive message which will speed up reaction time and be crucial to find/reach you.<br> <br>Creating teams improves communication and cooperation. People working in teams can send messages to the team members, which can enhance the effective workflow and can guide/inform each other. Team members can also respond to alarms, it will save time, and you can avoid extra time and costs for calling additional assistance.<br> <br>To ensure fast and accurate assistance, the App supports GPS positioning when outside and Bluetooth positioning when inside buildings. <br> <br>Please contact ZONITH at sales@zonith.com or visit www.zonith.com for more information about ZONITH&#39;s App, advanced alarm handling, staff safety, and panic alarm solutions.",
+    "descriptionShort": "Panic Alarms|Lone-Worker Protection|Handling Alarms|Indoor/Outdoor Positioning",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "9896628",
+          "unknown3": 30
+        },
+        "developerEmail": "sales@zonith.com",
+        "developerName": "ZONITH A/S",
+        "developerWebsite": "http://www.zonith.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "9896628",
+            "versionCode": 32010
+          }
+        ],
+        "installationSize": "9896628",
+        "numDownloads": "100+ downloads",
+        "packageName": "com.zonith.staffsafety",
+        "permission": [
+          "android.permission.ACCESS_BACKGROUND_LOCATION",
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.DISABLE_KEYGUARD",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+        ],
+        "recentChangesHtml": "- Added support for new alarm action: Acknowledge<br>- Extended app status info that is sent to RTLS UI (app version, permissions, Android version etc.)<br>- App will now indicate with orange GPS icon when location permissions are limited<br>- Alarm details dialog window will now be updated live as updates arrive from server",
+        "unstable": true,
+        "uploadDate": "Sep. 7, 2021",
+        "versionCode": 32010,
+        "versionString": "2.25"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.zonith.staffsafety",
+    "docType": 1,
+    "docid": "com.zonith.staffsafety",
+    "image": [
+      {
+        "color": "#F1E3D8",
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/3cgcwp48-UfQfAwOLPFTfOqha6bHTAcBgwnlMQrOdXb7IA-_6oJMddpeoWVY7SkC_wau",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/d7kpQjQfc77FHpf7wqBuSagXCN6meYJLnmymEbZpnqIvg0inoWbsToTnMCFt9u4prw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3001,
+          "width": 1500
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/DcBWzrDEyTr-ozAjc9d80KLc-83UQGOPo8Fg-mVGy1VfO9GSJp-SP5mAM-bJYNZ0iDVL",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3001,
+          "width": 1500
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/kBWJYpxn5OwmXi8y9z1gGShRvZYHQPN5KfB51QvnDKL0GpbPlIvfL3iPkx-qjaKef8M",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3000,
+          "width": 1500
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/t2sVS1pysmUKUNPPb64p2zaQwg6sPX214W6BZj7_x0hTlcFGqfWwNjPt11BId-5S0Nk",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3000,
+          "width": 1500
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/NbGBdVrLebcu9iTRAK_Fix7cBRLD9kq7RpAKdM3z_EYAUVf9riIApa_VNxsxRSqADLsw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3000,
+          "width": 1500
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/6GBvtlIh5g_JotOF9tYPviRka58M83oiD4ZBJ3Ijn8sv_C-nn-i5h87C51OQzawgaQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3000,
+          "width": 1500
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/bzOdG0zomYmKyz1fvO8tMGPUtVuzAGbTxHvIM2xQjiBcr15qh-f0yRgByi_JJWovYSg",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "CAD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://zonith.com/zonith-app-privacy-policy",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "Shares location<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.zonith.staffsafety",
+    "reviewsUrl": "rev?doc=com.zonith.staffsafety&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.zonith.staffsafety",
+    "title": "ZONITH",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "ZONITH A/S"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "sales@zonith.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Oct. 7, 2019"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-11-12 15:22:42.325934",
+    "backendDocid": "com.zonith.staffsafety",
+    "backendId": 3,
+    "creator": "ZONITH A/S",
+    "descriptionHtml": "The ZONITH App is designed exclusively for use with ZONITH&#39;s centralised server solution and does not work as a standalone solution.<br><br>ZONITH App serves several purposes:<br> <br>- Raising panic alarms<br>- Providing Lone-Worker protection <br>- Handling of alarms<br>- Indoor and Outdoor positioning<br> <br>Key Functions: <br> <br>ZONITH App gives users the ability to raise a panic alarm when in distress. This can result from interaction with the main screen of the App, or by pressing a physical panic button (ZONITH Bluetooth ID Badge - the smart ID cardholder or ZONITH Compact Panic Button) communicating with the Smartphone. The ZONITH server-based software solution will recognize the panic alarms and dispatch alerts instantly to the relevant parties to help you.<br> <br>Up to two buttons helps to improve alarm communication and to prioritize the alarms with high/low priority. The text and function of the buttons can be configured depending on what your work situation requires. <br> <br>The ZONITH App can be used to handle alarms being dispatched from the server-based software solution. Alarms are pushed from the ZONITH server software solution to the App so assigned users can handle alarms. This includes the ability to accept, decline or cancel alarms while at the same time informing all other users in real-time about the alarm handling status.<br> <br>The App includes a Lone-Worker protection service, where user need to confirm &quot;Are you OK?&quot; message before the timer stops counting. If there is no confirmation, the App will raise the alarm on your behalf and automatically call for assistance to help you at your exact location.<br> <br>Descriptive messages can be added before you start your new task. When you raise the alarm, first responders will receive the descriptive message which will speed up reaction time and be crucial to find/reach you.<br> <br>Creating teams improves communication and cooperation. People working in teams can send messages to the team members, which can enhance the effective workflow and can guide/inform each other. Team members can also respond to alarms, it will save time, and you can avoid extra time and costs for calling additional assistance.<br> <br>To ensure fast and accurate assistance, the App supports GPS positioning when outside and Bluetooth positioning when inside buildings. <br> <br>Please contact ZONITH at sales@zonith.com or visit www.zonith.com for more information about ZONITH&#39;s App, advanced alarm handling, staff safety, and panic alarm solutions.",
+    "descriptionShort": "Panic Alarms|Lone-Worker Protection|Handling Alarms|Indoor/Outdoor Positioning",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "9905694",
+          "unknown3": 30
+        },
+        "developerEmail": "sales@zonith.com",
+        "developerName": "ZONITH A/S",
+        "developerWebsite": "http://www.zonith.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "9905694",
+            "versionCode": 33286
+          }
+        ],
+        "installationSize": "9905694",
+        "numDownloads": "100+ downloads",
+        "packageName": "com.zonith.staffsafety",
+        "permission": [
+          "android.permission.ACCESS_BACKGROUND_LOCATION",
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.DISABLE_KEYGUARD",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+        ],
+        "recentChangesHtml": "- Fixed a bug where tapping on map view would not open Google Maps app on Android 11.<br>- Fixed a bug where some alarms might show label &quot;OK&quot; instead of &quot;Cancel&quot; on alarm action button.",
+        "unstable": true,
+        "uploadDate": "5 Nov 2021",
+        "versionCode": 33286,
+        "versionString": "2.25.1"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.zonith.staffsafety",
+    "docType": 1,
+    "docid": "com.zonith.staffsafety",
+    "image": [
+      {
+        "color": "#F1E3D8",
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/3cgcwp48-UfQfAwOLPFTfOqha6bHTAcBgwnlMQrOdXb7IA-_6oJMddpeoWVY7SkC_wau",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/d7kpQjQfc77FHpf7wqBuSagXCN6meYJLnmymEbZpnqIvg0inoWbsToTnMCFt9u4prw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3001,
+          "width": 1500
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/DcBWzrDEyTr-ozAjc9d80KLc-83UQGOPo8Fg-mVGy1VfO9GSJp-SP5mAM-bJYNZ0iDVL",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3001,
+          "width": 1500
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/kBWJYpxn5OwmXi8y9z1gGShRvZYHQPN5KfB51QvnDKL0GpbPlIvfL3iPkx-qjaKef8M",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3000,
+          "width": 1500
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/t2sVS1pysmUKUNPPb64p2zaQwg6sPX214W6BZj7_x0hTlcFGqfWwNjPt11BId-5S0Nk",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3000,
+          "width": 1500
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/NbGBdVrLebcu9iTRAK_Fix7cBRLD9kq7RpAKdM3z_EYAUVf9riIApa_VNxsxRSqADLsw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3000,
+          "width": 1500
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/6GBvtlIh5g_JotOF9tYPviRka58M83oiD4ZBJ3Ijn8sv_C-nn-i5h87C51OQzawgaQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3000,
+          "width": 1500
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/bzOdG0zomYmKyz1fvO8tMGPUtVuzAGbTxHvIM2xQjiBcr15qh-f0yRgByi_JJWovYSg",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://zonith.com/zonith-app-privacy-policy",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "Shares location<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.zonith.staffsafety",
+    "reviewsUrl": "rev?doc=com.zonith.staffsafety&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.zonith.staffsafety",
+    "title": "ZONITH",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "sales@zonith.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "7 Oct 2019"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-06-16 16:03:54.849077",
+    "backendDocid": "com.zonith.staffsafety",
+    "backendId": 3,
+    "creator": "ZONITH A/S",
+    "descriptionHtml": "The ZONITH App is designed exclusively for use with ZONITH&#39;s centralised server solution and does not work as a standalone solution.<br><br>ZONITH App serves several purposes:<br> <br>- Raising panic alarms<br>- Providing Lone-Worker protection <br>- Handling of alarms<br>- Indoor and Outdoor positioning<br> <br>Key Functions: <br> <br>ZONITH App gives users the ability to raise a panic alarm when in distress. This can result from interaction with the main screen of the App, or by pressing a physical panic button (ZONITH Bluetooth ID Badge - the smart ID cardholder or ZONITH Compact Panic Button) communicating with the Smartphone. The ZONITH server-based software solution will recognize the panic alarms and dispatch alerts instantly to the relevant parties to help you.<br> <br>Up to two buttons helps to improve alarm communication and to prioritize the alarms with high/low priority. The text and function of the buttons can be configured depending on what your work situation requires. <br> <br>The ZONITH App can be used to handle alarms being dispatched from the server-based software solution. Alarms are pushed from the ZONITH server software solution to the App so assigned users can handle alarms. This includes the ability to accept, decline or cancel alarms while at the same time informing all other users in real-time about the alarm handling status.<br> <br>The App includes a Lone-Worker protection service, where user need to confirm &quot;Are you OK?&quot; message before the timer stops counting. If there is no confirmation, the App will raise the alarm on your behalf and automatically call for assistance to help you at your exact location.<br> <br>Descriptive messages can be added before you start your new task. When you raise the alarm, first responders will receive the descriptive message which will speed up reaction time and be crucial to find/reach you.<br> <br>Creating teams improves communication and cooperation. People working in teams can send messages to the team members, which can enhance the effective workflow and can guide/inform each other. Team members can also respond to alarms, it will save time, and you can avoid extra time and costs for calling additional assistance.<br> <br>To ensure fast and accurate assistance, the App supports GPS positioning when outside and Bluetooth positioning when inside buildings. <br> <br>Please contact ZONITH at sales@zonith.com or visit www.zonith.com for more information about ZONITH&#39;s App, advanced alarm handling, staff safety, and panic alarm solutions.",
+    "descriptionShort": "Panic Alarms|Lone-Worker Protection|Handling Alarms|Indoor/Outdoor Positioning",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "9924314",
+          "unknown3": 30
+        },
+        "developerEmail": "sales@zonith.com",
+        "developerName": "ZONITH A/S",
+        "developerWebsite": "http://www.zonith.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "9924314",
+            "versionCode": 38437
+          }
+        ],
+        "installationSize": "9924314",
+        "numDownloads": "100+ downloads",
+        "packageName": "com.zonith.staffsafety",
+        "permission": [
+          "android.permission.ACCESS_BACKGROUND_LOCATION",
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.DISABLE_KEYGUARD",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+        ],
+        "recentChangesHtml": "- New settings tab<br>- Improved push message delivery when app is in background for a long time<br>- Improved external bluetooth panic device connectivity<br>- Minor fixes and improvements",
+        "unstable": true,
+        "uploadDate": "25 Mar 2022",
+        "versionCode": 38437,
+        "versionString": "2.26"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.zonith.staffsafety",
+    "docType": 1,
+    "docid": "com.zonith.staffsafety",
+    "image": [
+      {
+        "color": "#F1E3D8",
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/3cgcwp48-UfQfAwOLPFTfOqha6bHTAcBgwnlMQrOdXb7IA-_6oJMddpeoWVY7SkC_wau",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/d7kpQjQfc77FHpf7wqBuSagXCN6meYJLnmymEbZpnqIvg0inoWbsToTnMCFt9u4prw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3001,
+          "width": 1500
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/DcBWzrDEyTr-ozAjc9d80KLc-83UQGOPo8Fg-mVGy1VfO9GSJp-SP5mAM-bJYNZ0iDVL",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3001,
+          "width": 1500
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/kBWJYpxn5OwmXi8y9z1gGShRvZYHQPN5KfB51QvnDKL0GpbPlIvfL3iPkx-qjaKef8M",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3000,
+          "width": 1500
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/t2sVS1pysmUKUNPPb64p2zaQwg6sPX214W6BZj7_x0hTlcFGqfWwNjPt11BId-5S0Nk",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3000,
+          "width": 1500
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/NbGBdVrLebcu9iTRAK_Fix7cBRLD9kq7RpAKdM3z_EYAUVf9riIApa_VNxsxRSqADLsw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3000,
+          "width": 1500
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/6GBvtlIh5g_JotOF9tYPviRka58M83oiD4ZBJ3Ijn8sv_C-nn-i5h87C51OQzawgaQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3000,
+          "width": 1500
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/bzOdG0zomYmKyz1fvO8tMGPUtVuzAGbTxHvIM2xQjiBcr15qh-f0yRgByi_JJWovYSg",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://zonith.com/zonith-app-privacy-policy",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "Shares location<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.zonith.staffsafety",
+    "reviewsUrl": "rev?doc=com.zonith.staffsafety&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.zonith.staffsafety",
+    "title": "ZONITH",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "sales@zonith.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "7 Oct 2019"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-08-11 02:03:54.973618",
+    "backendDocid": "com.zonith.staffsafety",
+    "backendId": 3,
+    "creator": "ZONITH A/S",
+    "descriptionHtml": "The ZONITH App is designed exclusively for use with ZONITH&#39;s centralised server solution and does not work as a standalone solution.<br><br>ZONITH App serves several purposes:<br> <br>- Raising panic alarms<br>- Providing Lone-Worker protection <br>- Handling of alarms<br>- Indoor and Outdoor positioning<br> <br>Key Functions: <br> <br>ZONITH App gives users the ability to raise a panic alarm when in distress. This can result from interaction with the main screen of the App, or by pressing a physical panic button (ZONITH Bluetooth ID Badge - the smart ID cardholder or ZONITH Compact Panic Button) communicating with the Smartphone. The ZONITH server-based software solution will recognize the panic alarms and dispatch alerts instantly to the relevant parties to help you.<br> <br>Up to two buttons helps to improve alarm communication and to prioritize the alarms with high/low priority. The text and function of the buttons can be configured depending on what your work situation requires. <br> <br>The ZONITH App can be used to handle alarms being dispatched from the server-based software solution. Alarms are pushed from the ZONITH server software solution to the App so assigned users can handle alarms. This includes the ability to accept, decline or cancel alarms while at the same time informing all other users in real-time about the alarm handling status.<br> <br>The App includes a Lone-Worker protection service, where user need to confirm &quot;Are you OK?&quot; message before the timer stops counting. If there is no confirmation, the App will raise the alarm on your behalf and automatically call for assistance to help you at your exact location.<br> <br>Descriptive messages can be added before you start your new task. When you raise the alarm, first responders will receive the descriptive message which will speed up reaction time and be crucial to find/reach you.<br> <br>Creating teams improves communication and cooperation. People working in teams can send messages to the team members, which can enhance the effective workflow and can guide/inform each other. Team members can also respond to alarms, it will save time, and you can avoid extra time and costs for calling additional assistance.<br> <br>To ensure fast and accurate assistance, the App supports GPS positioning when outside and Bluetooth positioning when inside buildings. <br> <br>Please contact ZONITH at sales@zonith.com or visit www.zonith.com for more information about ZONITH&#39;s App, advanced alarm handling, staff safety, and panic alarm solutions.",
+    "descriptionShort": "Panic Alarms|Lone-Worker Protection|Handling Alarms|Indoor/Outdoor Positioning",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "10076971",
+          "unknown3": 30
+        },
+        "developerEmail": "sales@zonith.com",
+        "developerName": "ZONITH A/S",
+        "developerWebsite": "http://www.zonith.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "10076971",
+            "versionCode": 42129
+          }
+        ],
+        "installationSize": "10076971",
+        "numDownloads": "500+ downloads",
+        "packageName": "com.zonith.staffsafety",
+        "permission": [
+          "android.permission.ACCESS_BACKGROUND_LOCATION",
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.DISABLE_KEYGUARD",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.USE_FULL_SCREEN_INTENT",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+        ],
+        "recentChangesHtml": "Modified ZONITH BLE ID Badge connection lost alarm implementation<br> - New setting in settings tab to enable/disable connection lost alarm<br> - New icon on Home screen indicating when connection lost alarms are disabled<br><br>Option to disable connection lost alarm can be hidden using app config profile<br><br>Default sounds for incoming alarm and L-W check are now longer<br><br>GPS will always be enabled when slider is hidden using app config profile.<br>",
+        "unstable": true,
+        "uploadDate": "28 Jul 2022",
+        "versionCode": 42129,
+        "versionString": "2.26.1"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.zonith.staffsafety",
+    "docType": 1,
+    "docid": "com.zonith.staffsafety",
+    "image": [
+      {
+        "color": "#F1E3D8",
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/3cgcwp48-UfQfAwOLPFTfOqha6bHTAcBgwnlMQrOdXb7IA-_6oJMddpeoWVY7SkC_wau",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/d7kpQjQfc77FHpf7wqBuSagXCN6meYJLnmymEbZpnqIvg0inoWbsToTnMCFt9u4prw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3001,
+          "width": 1500
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/DcBWzrDEyTr-ozAjc9d80KLc-83UQGOPo8Fg-mVGy1VfO9GSJp-SP5mAM-bJYNZ0iDVL",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3001,
+          "width": 1500
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/kBWJYpxn5OwmXi8y9z1gGShRvZYHQPN5KfB51QvnDKL0GpbPlIvfL3iPkx-qjaKef8M",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3000,
+          "width": 1500
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/t2sVS1pysmUKUNPPb64p2zaQwg6sPX214W6BZj7_x0hTlcFGqfWwNjPt11BId-5S0Nk",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3000,
+          "width": 1500
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/NbGBdVrLebcu9iTRAK_Fix7cBRLD9kq7RpAKdM3z_EYAUVf9riIApa_VNxsxRSqADLsw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3000,
+          "width": 1500
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/6GBvtlIh5g_JotOF9tYPviRka58M83oiD4ZBJ3Ijn8sv_C-nn-i5h87C51OQzawgaQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3000,
+          "width": 1500
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/bzOdG0zomYmKyz1fvO8tMGPUtVuzAGbTxHvIM2xQjiBcr15qh-f0yRgByi_JJWovYSg",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://zonith.com/zonith-app-privacy-policy",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "Shares location<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.zonith.staffsafety",
+    "reviewsUrl": "rev?doc=com.zonith.staffsafety&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.zonith.staffsafety",
+    "title": "ZONITH",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "sales@zonith.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "7 Oct 2019"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-12-06 17:18:29.213204",
+    "backendDocid": "com.zonith.staffsafety",
+    "backendId": 3,
+    "creator": "ZONITH A/S",
+    "descriptionHtml": "The ZONITH App is designed exclusively for use with ZONITH&#39;s centralised server solution and does not work as a standalone solution.<br><br>ZONITH App serves several purposes:<br> <br>- Raising panic alarms<br>- Providing Lone-Worker protection <br>- Handling of alarms<br>- Indoor and Outdoor positioning<br> <br>Key Functions: <br> <br>ZONITH App gives users the ability to raise a panic alarm when in distress. This can result from interaction with the main screen of the App, or by pressing a physical panic button (ZONITH Bluetooth ID Badge - the smart ID cardholder or ZONITH Compact Panic Button) communicating with the Smartphone. The ZONITH server-based software solution will recognize the panic alarms and dispatch alerts instantly to the relevant parties to help you.<br> <br>Up to two buttons helps to improve alarm communication and to prioritize the alarms with high/low priority. The text and function of the buttons can be configured depending on what your work situation requires. <br> <br>The ZONITH App can be used to handle alarms being dispatched from the server-based software solution. Alarms are pushed from the ZONITH server software solution to the App so assigned users can handle alarms. This includes the ability to accept, decline or cancel alarms while at the same time informing all other users in real-time about the alarm handling status.<br> <br>The App includes a Lone-Worker protection service, where user need to confirm &quot;Are you OK?&quot; message before the timer stops counting. If there is no confirmation, the App will raise the alarm on your behalf and automatically call for assistance to help you at your exact location.<br> <br>Descriptive messages can be added before you start your new task. When you raise the alarm, first responders will receive the descriptive message which will speed up reaction time and be crucial to find/reach you.<br> <br>Creating teams improves communication and cooperation. People working in teams can send messages to the team members, which can enhance the effective workflow and can guide/inform each other. Team members can also respond to alarms, it will save time, and you can avoid extra time and costs for calling additional assistance.<br> <br>To ensure fast and accurate assistance, the App supports GPS positioning when outside and Bluetooth positioning when inside buildings. <br> <br>Please contact ZONITH at sales@zonith.com or visit www.zonith.com for more information about ZONITH&#39;s App, advanced alarm handling, staff safety, and panic alarm solutions.",
+    "descriptionShort": "Panic Alarms|Lone-Worker Protection|Handling Alarms|Indoor/Outdoor Positioning",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "10095539",
+          "unknown3": 30
+        },
+        "developerEmail": "sales@zonith.com",
+        "developerName": "ZONITH A/S",
+        "developerWebsite": "http://www.zonith.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "10095539",
+            "versionCode": 43489
+          }
+        ],
+        "installationSize": "10095539",
+        "numDownloads": "500+ downloads",
+        "packageName": "com.zonith.staffsafety",
+        "permission": [
+          "android.permission.ACCESS_BACKGROUND_LOCATION",
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.DISABLE_KEYGUARD",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.USE_FULL_SCREEN_INTENT",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+        ],
+        "recentChangesHtml": "- Added Swedish translation<br>- Added German translation<br>- Alarm buttons are now locked when waiting for Self-test reply<br>- Self-test and Lone Worker sliders now actively wait for confirmation from server before they show as enabled<br>- App will now send state of &quot;External Device: alarm sound&quot; to RTLS UI",
+        "unstable": true,
+        "uploadDate": "20 Sept 2022",
+        "versionCode": 43489,
+        "versionString": "2.27"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.zonith.staffsafety",
+    "docType": 1,
+    "docid": "com.zonith.staffsafety",
+    "image": [
+      {
+        "color": "#F1E3D8",
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/3cgcwp48-UfQfAwOLPFTfOqha6bHTAcBgwnlMQrOdXb7IA-_6oJMddpeoWVY7SkC_wau",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/d7kpQjQfc77FHpf7wqBuSagXCN6meYJLnmymEbZpnqIvg0inoWbsToTnMCFt9u4prw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3001,
+          "width": 1500
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/DcBWzrDEyTr-ozAjc9d80KLc-83UQGOPo8Fg-mVGy1VfO9GSJp-SP5mAM-bJYNZ0iDVL",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3001,
+          "width": 1500
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/kBWJYpxn5OwmXi8y9z1gGShRvZYHQPN5KfB51QvnDKL0GpbPlIvfL3iPkx-qjaKef8M",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3000,
+          "width": 1500
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/t2sVS1pysmUKUNPPb64p2zaQwg6sPX214W6BZj7_x0hTlcFGqfWwNjPt11BId-5S0Nk",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3000,
+          "width": 1500
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/NbGBdVrLebcu9iTRAK_Fix7cBRLD9kq7RpAKdM3z_EYAUVf9riIApa_VNxsxRSqADLsw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3000,
+          "width": 1500
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/6GBvtlIh5g_JotOF9tYPviRka58M83oiD4ZBJ3Ijn8sv_C-nn-i5h87C51OQzawgaQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3000,
+          "width": 1500
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/bzOdG0zomYmKyz1fvO8tMGPUtVuzAGbTxHvIM2xQjiBcr15qh-f0yRgByi_JJWovYSg",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://zonith.com/zonith-app-privacy-policy",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "Shares location<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.zonith.staffsafety",
+    "reviewsUrl": "rev?doc=com.zonith.staffsafety&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.zonith.staffsafety",
+    "title": "ZONITH",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "ZONITH A/S"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "sales@zonith.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "7 Oct 2019"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-03-03 03:43:33.002595",
+    "backendDocid": "com.zonith.staffsafety",
+    "backendId": 3,
+    "creator": "ZONITH A/S",
+    "descriptionHtml": "The ZONITH App is designed exclusively for use with ZONITH&#39;s centralised server solution and does not work as a standalone solution.<br><br>ZONITH App serves several purposes:<br> <br>- Raising panic alarms<br>- Providing Lone-Worker protection <br>- Handling of alarms<br>- Indoor and Outdoor positioning<br> <br>Key Functions: <br> <br>ZONITH App gives users the ability to raise a panic alarm when in distress. This can result from interaction with the main screen of the App, or by pressing a physical panic button (ZONITH Bluetooth ID Badge - the smart ID cardholder or ZONITH Compact Panic Button) communicating with the Smartphone. The ZONITH server-based software solution will recognize the panic alarms and dispatch alerts instantly to the relevant parties to help you.<br> <br>Up to two buttons helps to improve alarm communication and to prioritize the alarms with high/low priority. The text and function of the buttons can be configured depending on what your work situation requires. <br> <br>The ZONITH App can be used to handle alarms being dispatched from the server-based software solution. Alarms are pushed from the ZONITH server software solution to the App so assigned users can handle alarms. This includes the ability to accept, decline or cancel alarms while at the same time informing all other users in real-time about the alarm handling status.<br> <br>The App includes a Lone-Worker protection service, where user need to confirm &quot;Are you OK?&quot; message before the timer stops counting. If there is no confirmation, the App will raise the alarm on your behalf and automatically call for assistance to help you at your exact location.<br> <br>Descriptive messages can be added before you start your new task. When you raise the alarm, first responders will receive the descriptive message which will speed up reaction time and be crucial to find/reach you.<br> <br>Creating teams improves communication and cooperation. People working in teams can send messages to the team members, which can enhance the effective workflow and can guide/inform each other. Team members can also respond to alarms, it will save time, and you can avoid extra time and costs for calling additional assistance.<br> <br>To ensure fast and accurate assistance, the App supports GPS positioning when outside and Bluetooth positioning when inside buildings. <br> <br>Please contact ZONITH at sales@zonith.com or visit www.zonith.com for more information about ZONITH&#39;s App, advanced alarm handling, staff safety, and panic alarm solutions.",
+    "descriptionShort": "Panic Alarms|Lone-Worker Protection|Handling Alarms|Indoor/Outdoor Positioning",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "10296959",
+          "unknown3": 31
+        },
+        "developerEmail": "sales@zonith.com",
+        "developerName": "ZONITH A/S",
+        "developerWebsite": "http://www.zonith.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "10296959",
+            "versionCode": 47818
+          }
+        ],
+        "installationSize": "10296959",
+        "numDownloads": "500+ downloads",
+        "packageName": "com.zonith.staffsafety",
+        "permission": [
+          "android.permission.ACCESS_BACKGROUND_LOCATION",
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.BLUETOOTH_CONNECT",
+          "android.permission.BLUETOOTH_SCAN",
+          "android.permission.DISABLE_KEYGUARD",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+          "android.permission.USE_FULL_SCREEN_INTENT",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+        ],
+        "recentChangesHtml": "- It is now not possible to logout from the app when Lone-Worker session is active<br>- L-W Acknowledge popup window will now be automatically closed when L-W session is extended using external Panic Button device<br>- Simplified procedure to exclude ZONITH App from battery optimization<br>- Upgraded Panic Button connection library",
+        "unstable": true,
+        "uploadDate": "2 Feb 2023",
+        "versionCode": 47818,
+        "versionString": "2.28"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.zonith.staffsafety",
+    "docType": 1,
+    "docid": "com.zonith.staffsafety",
+    "image": [
+      {
+        "color": "#F1E3D8",
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/3cgcwp48-UfQfAwOLPFTfOqha6bHTAcBgwnlMQrOdXb7IA-_6oJMddpeoWVY7SkC_wau",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/d7kpQjQfc77FHpf7wqBuSagXCN6meYJLnmymEbZpnqIvg0inoWbsToTnMCFt9u4prw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3001,
+          "width": 1500
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/DcBWzrDEyTr-ozAjc9d80KLc-83UQGOPo8Fg-mVGy1VfO9GSJp-SP5mAM-bJYNZ0iDVL",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3001,
+          "width": 1500
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/kBWJYpxn5OwmXi8y9z1gGShRvZYHQPN5KfB51QvnDKL0GpbPlIvfL3iPkx-qjaKef8M",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3000,
+          "width": 1500
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/t2sVS1pysmUKUNPPb64p2zaQwg6sPX214W6BZj7_x0hTlcFGqfWwNjPt11BId-5S0Nk",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3000,
+          "width": 1500
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/NbGBdVrLebcu9iTRAK_Fix7cBRLD9kq7RpAKdM3z_EYAUVf9riIApa_VNxsxRSqADLsw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3000,
+          "width": 1500
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/6GBvtlIh5g_JotOF9tYPviRka58M83oiD4ZBJ3Ijn8sv_C-nn-i5h87C51OQzawgaQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3000,
+          "width": 1500
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/bzOdG0zomYmKyz1fvO8tMGPUtVuzAGbTxHvIM2xQjiBcr15qh-f0yRgByi_JJWovYSg",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://zonith.com/zonith-app-privacy-policy",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "Shares location<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.zonith.staffsafety",
+    "reviewsUrl": "rev?doc=com.zonith.staffsafety&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.zonith.staffsafety",
+    "title": "ZONITH",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "sales@zonith.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "7 Oct 2019"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-10-19 19:33:16.515816",
+    "backendDocid": "com.zonith.staffsafety",
+    "backendId": 3,
+    "creator": "ZONITH A/S",
+    "descriptionHtml": "The ZONITH App is designed exclusively for use with ZONITH&#39;s centralised server solution and does not work as a standalone solution.<br><br>ZONITH App serves several purposes:<br> <br>- Raising panic alarms<br>- Providing Lone-Worker protection <br>- Handling of alarms<br>- Indoor and Outdoor positioning<br> <br>Key Functions: <br> <br>ZONITH App gives users the ability to raise a panic alarm when in distress. This can result from interaction with the main screen of the App, or by pressing a physical panic button (ZONITH Bluetooth ID Badge - the smart ID cardholder or ZONITH Compact Panic Button) communicating with the Smartphone. The ZONITH server-based software solution will recognize the panic alarms and dispatch alerts instantly to the relevant parties to help you.<br> <br>Up to two buttons helps to improve alarm communication and to prioritize the alarms with high/low priority. The text and function of the buttons can be configured depending on what your work situation requires. <br> <br>The ZONITH App can be used to handle alarms being dispatched from the server-based software solution. Alarms are pushed from the ZONITH server software solution to the App so assigned users can handle alarms. This includes the ability to accept, decline or cancel alarms while at the same time informing all other users in real-time about the alarm handling status.<br> <br>The App includes a Lone-Worker protection service, where user need to confirm &quot;Are you OK?&quot; message before the timer stops counting. If there is no confirmation, the App will raise the alarm on your behalf and automatically call for assistance to help you at your exact location.<br> <br>Descriptive messages can be added before you start your new task. When you raise the alarm, first responders will receive the descriptive message which will speed up reaction time and be crucial to find/reach you.<br> <br>Creating teams improves communication and cooperation. People working in teams can send messages to the team members, which can enhance the effective workflow and can guide/inform each other. Team members can also respond to alarms, it will save time, and you can avoid extra time and costs for calling additional assistance.<br> <br>To ensure fast and accurate assistance, the App supports GPS positioning when outside and Bluetooth positioning when inside buildings. <br> <br>Please contact ZONITH at sales@zonith.com or visit www.zonith.com for more information about ZONITH&#39;s App, advanced alarm handling, staff safety, and panic alarm solutions.",
+    "descriptionShort": "Panic Alarms|Lone-Worker Protection|Handling Alarms|Indoor/Outdoor Positioning",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "version": 12451000
+            }
+          ],
+          "unknown2": "11199402",
+          "unknown3": 33
+        },
+        "developerEmail": "sales@zonith.com",
+        "developerName": "ZONITH A/S",
+        "developerWebsite": "http://www.zonith.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "11199402",
+            "versionCode": 52698
+          }
+        ],
+        "installationSize": "11199402",
+        "numDownloads": "500+ downloads",
+        "packageName": "com.zonith.staffsafety",
+        "permission": [
+          "android.permission.ACCESS_BACKGROUND_LOCATION",
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.BLUETOOTH_CONNECT",
+          "android.permission.BLUETOOTH_SCAN",
+          "android.permission.DISABLE_KEYGUARD",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.POST_NOTIFICATIONS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+          "android.permission.USE_FULL_SCREEN_INTENT",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+        ],
+        "recentChangesHtml": "Bug fixes and improvements",
+        "unstable": true,
+        "uploadDate": "22 Aug 2023",
+        "versionCode": 52698,
+        "versionString": "2.29.1"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.zonith.staffsafety",
+    "docType": 1,
+    "docid": "com.zonith.staffsafety",
+    "image": [
+      {
+        "color": "#F1E3D8",
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/3cgcwp48-UfQfAwOLPFTfOqha6bHTAcBgwnlMQrOdXb7IA-_6oJMddpeoWVY7SkC_wau",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/d7kpQjQfc77FHpf7wqBuSagXCN6meYJLnmymEbZpnqIvg0inoWbsToTnMCFt9u4prw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3001,
+          "width": 1500
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/DcBWzrDEyTr-ozAjc9d80KLc-83UQGOPo8Fg-mVGy1VfO9GSJp-SP5mAM-bJYNZ0iDVL",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3001,
+          "width": 1500
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/kBWJYpxn5OwmXi8y9z1gGShRvZYHQPN5KfB51QvnDKL0GpbPlIvfL3iPkx-qjaKef8M",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3000,
+          "width": 1500
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/t2sVS1pysmUKUNPPb64p2zaQwg6sPX214W6BZj7_x0hTlcFGqfWwNjPt11BId-5S0Nk",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3000,
+          "width": 1500
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/NbGBdVrLebcu9iTRAK_Fix7cBRLD9kq7RpAKdM3z_EYAUVf9riIApa_VNxsxRSqADLsw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3000,
+          "width": 1500
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/6GBvtlIh5g_JotOF9tYPviRka58M83oiD4ZBJ3Ijn8sv_C-nn-i5h87C51OQzawgaQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3000,
+          "width": 1500
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/bzOdG0zomYmKyz1fvO8tMGPUtVuzAGbTxHvIM2xQjiBcr15qh-f0yRgByi_JJWovYSg",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://zonith.com/zonith-app-privacy-policy",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "Shares location<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.zonith.staffsafety",
+    "reviewsUrl": "rev?doc=com.zonith.staffsafety&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.zonith.staffsafety",
+    "title": "ZONITH",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "sales@zonith.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "7 Oct 2019"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  }
+]

@@ -1,0 +1,832 @@
+[
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-08-03 05:08:11.382673",
+    "backendDocid": "com.tcgfish",
+    "backendId": 3,
+    "creator": "TCGFish Production",
+    "descriptionHtml": "Welcome to the TCGFish!<br><br>Tcgfish is an application to check the prices of your graded collectible trading cards! You can get the latest price info of your graded card with just a few clicks!<br><br>Features:<br>-Search from over 30k+ trading cards from the TCGFish card database, including various sets (both English and Japanese cards). <br>-Powerful search. Use the card name, variations, or release year to quickly search for your card.<br>-Features the Top 100 trending cards in the collectible market.<br>- Camera feature included. By simply taking or uploading a photo of your graded card, the app can automatically recognize the card and provide the latest price information on the card. It is that simple.<br>-The app provides accurate historical pricing information for your card based on the grade. <br><br>More updates and features are on the way. Thank you very much for your support.<br><br>--------------<br>Disclaimer: The TCGFish website and applications are not produced, endorsed, supported, or in any way affiliated with Nintendo/Creatures Inc./GAME FREAK inc.",
+    "descriptionShort": "Search - Scan - Data - Collect",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "version": 12451000
+            }
+          ],
+          "unknown2": "21899713",
+          "unknown3": 31
+        },
+        "developerEmail": "tcgfishproduction@gmail.com",
+        "developerName": "TCGFish Production",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "7339266",
+            "versionCode": 21
+          },
+          {
+            "fileType": 0,
+            "size": "71340",
+            "versionCode": 21
+          },
+          {
+            "fileType": 0,
+            "size": "20889",
+            "versionCode": 21
+          },
+          {
+            "fileType": 0,
+            "size": "33177",
+            "versionCode": 21
+          },
+          {
+            "fileType": 0,
+            "size": "14435041",
+            "versionCode": 21
+          }
+        ],
+        "installationSize": "21899713",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "com.tcgfish",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.CAMERA",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECORD_AUDIO",
+          "android.permission.SYSTEM_ALERT_WINDOW",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+        ],
+        "recentChangesHtml": "We&#39;re excited to announce the latest release of TCGFish, version 1.3.1!<br><br>In this version, we&#39;ve added several new features to enhance your experience, including:<br>1. Search bar and front page UI adjustments.<br>2. Brand new charts! Now we are able to toggle over the chart and it will show the sales information based on the selected date. This adds an extra dynamic feature to check the card&#39;s sales price.<br>3. Slight Camera scanner improvement.",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "18 Mar 2023",
+        "versionCode": 21,
+        "versionString": "1.3.1"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.tcgfish",
+    "docType": 1,
+    "docid": "com.tcgfish",
+    "image": [
+      {
+        "color": "#010101",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/3sRaubJTt9XlOiG3sWFsaasHEqe6BZ3_Iw7GucKFpAPkbf2_lx1Jvw6MMRhf1kgSJ7U",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#000000",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/PllBZImFbB-bi9s56XBNw-XnsoOBIwi5M-F-aRa7Sc3zARNqa2pzn_5YYkVHYKM5mZA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/dG-9vF_9Gv3cunboE9BwIDzrJlL4nY7X3cT7s3t5wKF5DxUgxZ3m62Ie8xeILtGuQ1g",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/pmqkGYXRj0SdiBPJJpfVbOU3DIGB93XGMt3w4KXOdSLeIVfOplZQZgvYCRhUVIY4f3mR",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/KGFsMLpEa1vNgWYAm1j8Z0xS4d803TT01MLgjGAFYntrQ3A-mSmnjRZW8-_9-KBdOrc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/vmWvLd1aoOMU-O2Km_7Xgf8m9hg3tvbU4ChGPQ2UrJzN0XsZFhvgNpIKDSrCC34cHw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/1O2cmjfCuh773UEhbiTqanb_Ru_5IuUl4gdzDplW8FQdBKnCow0NGHX7kVPHazOBtA",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://www.iubenda.com/privacy-policy/95365083",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.tcgfish",
+    "reviewsUrl": "rev?doc=com.tcgfish&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.tcgfish",
+    "title": "TCGFish",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "TCGFish Production"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "tcgfishproduction@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "24 Feb 2023"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "6",
+      "fiveStarRatings": "5",
+      "fourStarRatings": "2",
+      "oneStarRatings": "0",
+      "ratingsCount": "7",
+      "starRating": 4.714286,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-10-01 16:00:33.120762",
+    "backendDocid": "com.tcgfish",
+    "backendId": 3,
+    "creator": "TCGFish Production",
+    "descriptionHtml": "Welcome to the TCGFish!<br><br>Tcgfish is an application to check the prices of your graded collectible trading cards! You can get the latest price info of your graded card with just a few clicks!<br><br>Features:<br>-Search from over 30k+ trading cards from the TCGFish card database, including various sets (both English and Japanese cards). <br>-Powerful search. Use the card name, variations, or release year to quickly search for your card.<br>-Features the Top 100 trending cards in the collectible market.<br>- Camera feature included. By simply taking or uploading a photo of your graded card, the app can automatically recognize the card and provide the latest price information on the card. It is that simple.<br>-The app provides accurate historical pricing information for your card based on the grade. <br><br>More updates and features are on the way. Thank you very much for your support.<br><br>--------------<br>Disclaimer: The TCGFish website and applications are not produced, endorsed, supported, or in any way affiliated with Nintendo/Creatures Inc./GAME FREAK inc.",
+    "descriptionShort": "Search - Scan - Data - Collect",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "version": 12451000
+            }
+          ],
+          "unknown2": "23295206",
+          "unknown3": 33
+        },
+        "developerEmail": "tcgfishproduction@gmail.com",
+        "developerName": "TCGFish Production",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "7988469",
+            "versionCode": 29
+          },
+          {
+            "fileType": 0,
+            "size": "71340",
+            "versionCode": 29
+          },
+          {
+            "fileType": 0,
+            "size": "20889",
+            "versionCode": 29
+          },
+          {
+            "fileType": 0,
+            "size": "20889",
+            "versionCode": 29
+          },
+          {
+            "fileType": 0,
+            "size": "20889",
+            "versionCode": 29
+          },
+          {
+            "fileType": 0,
+            "size": "33177",
+            "versionCode": 29
+          },
+          {
+            "fileType": 0,
+            "size": "15139553",
+            "versionCode": 29
+          }
+        ],
+        "installationSize": "23295206",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "com.tcgfish",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.CAMERA",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_MEDIA_IMAGES",
+          "android.permission.RECORD_AUDIO",
+          "android.permission.SYSTEM_ALERT_WINDOW",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.AD_ID",
+          "com.tcgfish.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        ],
+        "recentChangesHtml": "We are excited to announce the release of the new TCGFish app.<br><br># Improvements,<br>1. Better and more stable UI.<br>2. Better camera scanner with a high match rate. It now supports more than 40,000 cards.<br>System updates, making it faster and easier to use.<br><br># Bug Fixes<br>1. Fixed a lot of bugs related to the price chart.<br>2. Fixed bugs related to the search bar.<br><br>A huge thank you to everyone who contributed to this release and to all our users who gave us feedback and reported issues.",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "8 Sept 2023",
+        "versionCode": 29,
+        "versionString": "1.3.3"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.tcgfish",
+    "docType": 1,
+    "docid": "com.tcgfish",
+    "image": [
+      {
+        "color": "#010101",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/3sRaubJTt9XlOiG3sWFsaasHEqe6BZ3_Iw7GucKFpAPkbf2_lx1Jvw6MMRhf1kgSJ7U",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#000000",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/PllBZImFbB-bi9s56XBNw-XnsoOBIwi5M-F-aRa7Sc3zARNqa2pzn_5YYkVHYKM5mZA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/dG-9vF_9Gv3cunboE9BwIDzrJlL4nY7X3cT7s3t5wKF5DxUgxZ3m62Ie8xeILtGuQ1g",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/pmqkGYXRj0SdiBPJJpfVbOU3DIGB93XGMt3w4KXOdSLeIVfOplZQZgvYCRhUVIY4f3mR",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/KGFsMLpEa1vNgWYAm1j8Z0xS4d803TT01MLgjGAFYntrQ3A-mSmnjRZW8-_9-KBdOrc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/vmWvLd1aoOMU-O2Km_7Xgf8m9hg3tvbU4ChGPQ2UrJzN0XsZFhvgNpIKDSrCC34cHw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/1O2cmjfCuh773UEhbiTqanb_Ru_5IuUl4gdzDplW8FQdBKnCow0NGHX7kVPHazOBtA",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://www.iubenda.com/privacy-policy/95365083",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.tcgfish",
+    "reviewsUrl": "rev?doc=com.tcgfish&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.tcgfish",
+    "title": "TCGFish",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "tcgfishproduction@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "24 Feb 2023"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "8",
+      "fiveStarRatings": "3",
+      "fourStarRatings": "1",
+      "oneStarRatings": "3",
+      "ratingsCount": "10",
+      "starRating": 3.142857,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-11-21 07:37:26.886438",
+    "backendDocid": "com.tcgfish",
+    "backendId": 3,
+    "creator": "TCGFish Production",
+    "descriptionHtml": "Welcome to the TCGFish!<br><br>Tcgfish is an application to check the prices of your graded collectible trading cards! You can get the latest price info of your graded card with just a few clicks!<br><br>Features:<br>-Search from over 30k+ trading cards from the TCGFish card database, including various sets (both English and Japanese cards). <br>-Powerful search. Use the card name, variations, or release year to quickly search for your card.<br>-Features the Top 100 trending cards in the collectible market.<br>- Camera feature included. By simply taking or uploading a photo of your graded card, the app can automatically recognize the card and provide the latest price information on the card. It is that simple.<br>-The app provides accurate historical pricing information for your card based on the grade. <br><br>More updates and features are on the way. Thank you very much for your support.<br><br>--------------<br>Disclaimer: The TCGFish website and applications are not produced, endorsed, supported, or in any way affiliated with Nintendo/Creatures Inc./GAME FREAK inc.",
+    "descriptionShort": "Search - Scan - Data - Collect",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "version": 12451000
+            }
+          ],
+          "unknown2": "28091559",
+          "unknown3": 33
+        },
+        "developerEmail": "tcgfishproduction@gmail.com",
+        "developerName": "TCGFish Production",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "28091559",
+            "versionCode": 38
+          }
+        ],
+        "installationSize": "28091559",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "com.tcgfish",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.CAMERA",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_MEDIA_IMAGES",
+          "android.permission.RECORD_AUDIO",
+          "android.permission.SYSTEM_ALERT_WINDOW",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.AD_ID",
+          "com.tcgfish.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        ],
+        "recentChangesHtml": "We&#39;re excited to announce the latest release of TCGFish, version 1.3.7!<br><br>In this version, we&#39;ve improved the app speed, error handling and user experience in various scenarios.",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "20 Nov 2023",
+        "versionCode": 38,
+        "versionString": "1.3.7"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.tcgfish&vc=38",
+    "docType": 1,
+    "docid": "com.tcgfish",
+    "image": [
+      {
+        "color": "#010101",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/3sRaubJTt9XlOiG3sWFsaasHEqe6BZ3_Iw7GucKFpAPkbf2_lx1Jvw6MMRhf1kgSJ7U",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#000000",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/PllBZImFbB-bi9s56XBNw-XnsoOBIwi5M-F-aRa7Sc3zARNqa2pzn_5YYkVHYKM5mZA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/dG-9vF_9Gv3cunboE9BwIDzrJlL4nY7X3cT7s3t5wKF5DxUgxZ3m62Ie8xeILtGuQ1g",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/pmqkGYXRj0SdiBPJJpfVbOU3DIGB93XGMt3w4KXOdSLeIVfOplZQZgvYCRhUVIY4f3mR",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/KGFsMLpEa1vNgWYAm1j8Z0xS4d803TT01MLgjGAFYntrQ3A-mSmnjRZW8-_9-KBdOrc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/vmWvLd1aoOMU-O2Km_7Xgf8m9hg3tvbU4ChGPQ2UrJzN0XsZFhvgNpIKDSrCC34cHw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/1O2cmjfCuh773UEhbiTqanb_Ru_5IuUl4gdzDplW8FQdBKnCow0NGHX7kVPHazOBtA",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://www.iubenda.com/privacy-policy/95365083",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.tcgfish",
+    "reviewsUrl": "rev?doc=com.tcgfish&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.tcgfish",
+    "title": "TCGFish\n1.3.7",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "TCGFish Production"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "tcgfishproduction@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "24 Feb 2023"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-12-15 09:46:52.121807",
+    "backendDocid": "com.tcgfish",
+    "backendId": 3,
+    "creator": "TCGFish Production",
+    "descriptionHtml": "Welcome to the TCGFish!<br><br>Tcgfish is an application to check the prices of your graded collectible trading cards! You can get the latest price info of your graded card with just a few clicks!<br><br>Features:<br>-Search from over 30k+ trading cards from the TCGFish card database, including various sets (both English and Japanese cards). <br>-Powerful search. Use the card name, variations, or release year to quickly search for your card.<br>-Features the Top 100 trending cards in the collectible market.<br>- Camera feature included. By simply taking or uploading a photo of your graded card, the app can automatically recognize the card and provide the latest price information on the card. It is that simple.<br>-The app provides accurate historical pricing information for your card based on the grade. <br><br>More updates and features are on the way. Thank you very much for your support.<br><br>--------------<br>Disclaimer: The TCGFish website and applications are not produced, endorsed, supported, or in any way affiliated with Nintendo/Creatures Inc./GAME FREAK inc.",
+    "descriptionShort": "Search - Scan - Data - Collect",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "version": 12451000
+            }
+          ],
+          "unknown2": "28091559",
+          "unknown3": 33
+        },
+        "developerEmail": "tcgfishproduction@gmail.com",
+        "developerName": "TCGFish Production",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "28091559",
+            "versionCode": 40
+          }
+        ],
+        "installationSize": "28091559",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "com.tcgfish",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.CAMERA",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_MEDIA_IMAGES",
+          "android.permission.RECORD_AUDIO",
+          "android.permission.SYSTEM_ALERT_WINDOW",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.AD_ID",
+          "com.tcgfish.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        ],
+        "recentChangesHtml": "Improved stability for better user experience",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "12 Dec 2023",
+        "versionCode": 40,
+        "versionString": "1.3.9"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.tcgfish&vc=40",
+    "docType": 1,
+    "docid": "com.tcgfish",
+    "image": [
+      {
+        "color": "#010101",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/3sRaubJTt9XlOiG3sWFsaasHEqe6BZ3_Iw7GucKFpAPkbf2_lx1Jvw6MMRhf1kgSJ7U",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#000000",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/PllBZImFbB-bi9s56XBNw-XnsoOBIwi5M-F-aRa7Sc3zARNqa2pzn_5YYkVHYKM5mZA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/dG-9vF_9Gv3cunboE9BwIDzrJlL4nY7X3cT7s3t5wKF5DxUgxZ3m62Ie8xeILtGuQ1g",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/pmqkGYXRj0SdiBPJJpfVbOU3DIGB93XGMt3w4KXOdSLeIVfOplZQZgvYCRhUVIY4f3mR",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/KGFsMLpEa1vNgWYAm1j8Z0xS4d803TT01MLgjGAFYntrQ3A-mSmnjRZW8-_9-KBdOrc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/vmWvLd1aoOMU-O2Km_7Xgf8m9hg3tvbU4ChGPQ2UrJzN0XsZFhvgNpIKDSrCC34cHw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/1O2cmjfCuh773UEhbiTqanb_Ru_5IuUl4gdzDplW8FQdBKnCow0NGHX7kVPHazOBtA",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://www.iubenda.com/privacy-policy/95365083",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.tcgfish",
+    "reviewsUrl": "rev?doc=com.tcgfish&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.tcgfish",
+    "title": "TCGFish\n1.3.9",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "tcgfishproduction@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "24 Feb 2023"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  }
+]

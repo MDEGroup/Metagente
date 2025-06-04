@@ -1,0 +1,3934 @@
+[
+  {
+    "aggregateRating": {
+      "commentCount": "253",
+      "fiveStarRatings": "339",
+      "fourStarRatings": "45",
+      "oneStarRatings": "45",
+      "ratingsCount": "459",
+      "starRating": 4.35,
+      "threeStarRatings": "13",
+      "twoStarRatings": "13",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-05-31 23:59:53.667092",
+    "backendDocid": "pl.codever.ecoharmonogram",
+    "backendId": 3,
+    "creator": "EcoHarmonogram",
+    "descriptionHtml": "Eco harmonogram to aplikacja pozwalaj\u0105ca na pobieranie harmonogramu odbior\u00f3w odpad\u00f3w komunalnych dla twojego adresu zamieszkania w gminach, kt\u00f3re przyst\u0105pi\u0142y do programu Eco Harmonogram. <br><br>Aplikacja pobierze harmonogram dla Twojego adresu zamieszkania dzi\u0119ki czemu nie musisz wyszukiwa\u0107 swojego harmonogramu na stronach gminy lub firm odbieraj\u0105cych odpady.<br>Eco harmonogram automatycznie pobierze r\u00f3wnie\u017c nowe harmonogramy jak i na bie\u017c\u0105co b\u0119dzie aktualizowa\u0107 wszelkie zmiany harmonogramu dla Twojego adresu zamieszkania. <br><br>Aplikacja automatycznie powiadomi ci\u0119 o nadchodz\u0105cym terminie wywozu odpad\u00f3w. <br><br>Aplikacja pozwala na \u015bci\u0105gnie harmonogramu tylko dla gmin, kt\u00f3re przyst\u0105pi\u0142y do programu Eco Harmonogram. Sprawd\u017a dost\u0119pno\u015b\u0107 twojego harmonogramu w aplikacji, gminie lub na http://www.ecoharmonogram.pl",
+    "descriptionShort": "Eco schedule of charges for waste disposal schedule for the address.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "2982988",
+          "unknown3": 28
+        },
+        "developerEmail": "kontakt@ecoharmonogram.pl",
+        "developerName": "EcoHarmonogram",
+        "developerWebsite": "http://www.ecoharmonogram.pl/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "2982988",
+            "versionCode": 87
+          }
+        ],
+        "installationSize": "2982988",
+        "numDownloads": "50,000+ downloads",
+        "packageName": "pl.codever.ecoharmonogram",
+        "permission": [
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.INTERNET",
+          "android.permission.MICROPHONE",
+          "android.permission.MODIFY_AUDIO_SETTINGS",
+          "android.permission.READ_CALENDAR",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.RECORD_AUDIO",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_CALENDAR",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "pl.codever.ecoharmonogram.permission.C2D_MESSAGE"
+        ],
+        "recentChangesHtml": "Usprawnienia aplikacji.",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false,
+          "testingProgramEmail": "kontakt@ecoharmonogram.pl"
+        },
+        "unstable": false,
+        "uploadDate": "1 Apr 2020",
+        "versionCode": 87,
+        "versionString": "1.0.87"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=pl.codever.ecoharmonogram",
+    "docType": 1,
+    "docid": "pl.codever.ecoharmonogram",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://lh3.googleusercontent.com/V-9NQ9D6A5JeVXLCXMqGW9zsiiYW6QivofVIfJV0TmqP9idltOfLYdVsikKNAIp2ykeX",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 4,
+        "imageUrl": "https://lh3.googleusercontent.com/guwmZMg7iEQwEPGSxFOpTU_IhSaQnPJA_EaYkaO0-CArJbAgE5HuRWX_w3ZyCUNrAe4",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 854,
+          "width": 480
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/F6cvqrzcCbHHJIWqT1kOowOf8glG45vVD6Jxh1xKQl5gff_CPxSILO7BRu5LX_PveeE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 854,
+          "width": 480
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/e3beMoM32pstmLhwPEQgoVfTDXwHiKqN35zDUhg0wPcnhrFzmzQaWbvP7QFuRTzRSsQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 854,
+          "width": 480
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/ZucL6p5i0JFdKBrfB9SonOz3KejkL3-YN00WQ0pgHLbPeQa7XDVY2flR7MBT-CKrXyN0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 854,
+          "width": 480
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/N_sC2k6_b2x4aKoQDQTthOGK690WriZoPILvGDbojAFu2uA8oUoNzS6LW8kd2gqeLxfP",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://ecoharmonogram.pl/ecopage/polityka-prywatnosci.pdf",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://lh3.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=pl.codever.ecoharmonogram",
+    "reviewsUrl": "rev?doc=pl.codever.ecoharmonogram&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=pl.codever.ecoharmonogram",
+    "title": "Eco Harmonogram",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "kontakt@ecoharmonogram.pl"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "25 Mar 2020"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "269",
+      "fiveStarRatings": "371",
+      "fourStarRatings": "30",
+      "oneStarRatings": "55",
+      "ratingsCount": "509",
+      "starRating": 4.25,
+      "threeStarRatings": "25",
+      "twoStarRatings": "25",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-08-22 05:30:41.172796",
+    "backendDocid": "pl.codever.ecoharmonogram",
+    "backendId": 3,
+    "creator": "EcoHarmonogram",
+    "descriptionHtml": "Eco harmonogram to aplikacja pozwalaj\u0105ca na pobieranie harmonogramu odbior\u00f3w odpad\u00f3w komunalnych dla twojego adresu zamieszkania w gminach, kt\u00f3re przyst\u0105pi\u0142y do programu Eco Harmonogram. <br><br>Aplikacja pobierze harmonogram dla Twojego adresu zamieszkania dzi\u0119ki czemu nie musisz wyszukiwa\u0107 swojego harmonogramu na stronach gminy lub firm odbieraj\u0105cych odpady.<br>Eco harmonogram automatycznie pobierze r\u00f3wnie\u017c nowe harmonogramy jak i na bie\u017c\u0105co b\u0119dzie aktualizowa\u0107 wszelkie zmiany harmonogramu dla Twojego adresu zamieszkania. <br><br>Aplikacja automatycznie powiadomi ci\u0119 o nadchodz\u0105cym terminie wywozu odpad\u00f3w. <br><br>Aplikacja pozwala na \u015bci\u0105gnie harmonogramu tylko dla gmin, kt\u00f3re przyst\u0105pi\u0142y do programu Eco Harmonogram. Sprawd\u017a dost\u0119pno\u015b\u0107 twojego harmonogramu w aplikacji, gminie lub na http://www.ecoharmonogram.pl",
+    "descriptionShort": "Eco schedule of charges for waste disposal schedule for the address.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "2984144",
+          "unknown3": 28
+        },
+        "developerEmail": "kontakt@ecoharmonogram.pl",
+        "developerName": "EcoHarmonogram",
+        "developerWebsite": "http://www.ecoharmonogram.pl/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "2984144",
+            "versionCode": 88
+          }
+        ],
+        "installationSize": "2984144",
+        "numDownloads": "100,000+ downloads",
+        "packageName": "pl.codever.ecoharmonogram",
+        "permission": [
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.INTERNET",
+          "android.permission.MICROPHONE",
+          "android.permission.MODIFY_AUDIO_SETTINGS",
+          "android.permission.READ_CALENDAR",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.RECORD_AUDIO",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_CALENDAR",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "pl.codever.ecoharmonogram.permission.C2D_MESSAGE"
+        ],
+        "recentChangesHtml": "Usprawnienia aplikacji w tym synchronizacji z kalendarzem.",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false,
+          "testingProgramEmail": "kontakt@ecoharmonogram.pl"
+        },
+        "unstable": false,
+        "versionCode": 88,
+        "versionString": "1.0.88"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=pl.codever.ecoharmonogram",
+    "docType": 1,
+    "docid": "pl.codever.ecoharmonogram",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://lh3.googleusercontent.com/V-9NQ9D6A5JeVXLCXMqGW9zsiiYW6QivofVIfJV0TmqP9idltOfLYdVsikKNAIp2ykeX",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 4,
+        "imageUrl": "https://lh3.googleusercontent.com/guwmZMg7iEQwEPGSxFOpTU_IhSaQnPJA_EaYkaO0-CArJbAgE5HuRWX_w3ZyCUNrAe4",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 854,
+          "width": 480
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/F6cvqrzcCbHHJIWqT1kOowOf8glG45vVD6Jxh1xKQl5gff_CPxSILO7BRu5LX_PveeE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 854,
+          "width": 480
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/e3beMoM32pstmLhwPEQgoVfTDXwHiKqN35zDUhg0wPcnhrFzmzQaWbvP7QFuRTzRSsQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 854,
+          "width": 480
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/ZucL6p5i0JFdKBrfB9SonOz3KejkL3-YN00WQ0pgHLbPeQa7XDVY2flR7MBT-CKrXyN0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 854,
+          "width": 480
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/N_sC2k6_b2x4aKoQDQTthOGK690WriZoPILvGDbojAFu2uA8oUoNzS6LW8kd2gqeLxfP",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://ecoharmonogram.pl/ecopage/polityka-prywatnosci.pdf",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://lh3.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=pl.codever.ecoharmonogram",
+    "reviewsUrl": "rev?doc=pl.codever.ecoharmonogram&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=pl.codever.ecoharmonogram",
+    "title": "Eco Harmonogram",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "kontakt@ecoharmonogram.pl"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "3 Jan 2020"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "277",
+      "fiveStarRatings": "341",
+      "fourStarRatings": "42",
+      "oneStarRatings": "73",
+      "ratingsCount": "525",
+      "starRating": 4.04,
+      "threeStarRatings": "36",
+      "twoStarRatings": "31",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-09-17 23:43:25.129511",
+    "backendDocid": "pl.codever.ecoharmonogram",
+    "backendId": 3,
+    "creator": "EcoHarmonogram",
+    "descriptionHtml": "Eco harmonogram to aplikacja pozwalaj\u0105ca na pobieranie harmonogramu odbior\u00f3w odpad\u00f3w komunalnych dla twojego adresu zamieszkania w gminach, kt\u00f3re przyst\u0105pi\u0142y do programu Eco Harmonogram. <br><br>Aplikacja pobierze harmonogram dla Twojego adresu zamieszkania dzi\u0119ki czemu nie musisz wyszukiwa\u0107 swojego harmonogramu na stronach gminy lub firm odbieraj\u0105cych odpady.<br>Eco harmonogram automatycznie pobierze r\u00f3wnie\u017c nowe harmonogramy jak i na bie\u017c\u0105co b\u0119dzie aktualizowa\u0107 wszelkie zmiany harmonogramu dla Twojego adresu zamieszkania. <br><br>Aplikacja automatycznie powiadomi ci\u0119 o nadchodz\u0105cym terminie wywozu odpad\u00f3w. <br><br>Aplikacja pozwala na \u015bci\u0105gnie harmonogramu tylko dla gmin, kt\u00f3re przyst\u0105pi\u0142y do programu Eco Harmonogram. Sprawd\u017a dost\u0119pno\u015b\u0107 twojego harmonogramu w aplikacji, gminie lub na http://www.ecoharmonogram.pl",
+    "descriptionShort": "Eco schedule of charges for waste disposal schedule for the address.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "2983664",
+          "unknown3": 28
+        },
+        "developerEmail": "kontakt@ecoharmonogram.pl",
+        "developerName": "EcoHarmonogram",
+        "developerWebsite": "http://www.ecoharmonogram.pl/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "2983664",
+            "versionCode": 89
+          }
+        ],
+        "installationSize": "2983664",
+        "numDownloads": "100,000+ downloads",
+        "packageName": "pl.codever.ecoharmonogram",
+        "permission": [
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.INTERNET",
+          "android.permission.MICROPHONE",
+          "android.permission.MODIFY_AUDIO_SETTINGS",
+          "android.permission.READ_CALENDAR",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.RECORD_AUDIO",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_CALENDAR",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "pl.codever.ecoharmonogram.permission.C2D_MESSAGE"
+        ],
+        "recentChangesHtml": "Poprawa synchronizacji z kalendarzem google.",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false,
+          "testingProgramEmail": "kontakt@ecoharmonogram.pl"
+        },
+        "unstable": false,
+        "uploadDate": "16 Sep 2020",
+        "versionCode": 89,
+        "versionString": "1.0.89"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=pl.codever.ecoharmonogram",
+    "docType": 1,
+    "docid": "pl.codever.ecoharmonogram",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://lh3.googleusercontent.com/V-9NQ9D6A5JeVXLCXMqGW9zsiiYW6QivofVIfJV0TmqP9idltOfLYdVsikKNAIp2ykeX",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 4,
+        "imageUrl": "https://lh3.googleusercontent.com/guwmZMg7iEQwEPGSxFOpTU_IhSaQnPJA_EaYkaO0-CArJbAgE5HuRWX_w3ZyCUNrAe4",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 854,
+          "width": 480
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/F6cvqrzcCbHHJIWqT1kOowOf8glG45vVD6Jxh1xKQl5gff_CPxSILO7BRu5LX_PveeE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 854,
+          "width": 480
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/e3beMoM32pstmLhwPEQgoVfTDXwHiKqN35zDUhg0wPcnhrFzmzQaWbvP7QFuRTzRSsQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 854,
+          "width": 480
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/ZucL6p5i0JFdKBrfB9SonOz3KejkL3-YN00WQ0pgHLbPeQa7XDVY2flR7MBT-CKrXyN0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 854,
+          "width": 480
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/N_sC2k6_b2x4aKoQDQTthOGK690WriZoPILvGDbojAFu2uA8oUoNzS6LW8kd2gqeLxfP",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://ecoharmonogram.pl/ecopage/polityka-prywatnosci.pdf",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=pl.codever.ecoharmonogram",
+    "reviewsUrl": "rev?doc=pl.codever.ecoharmonogram&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=pl.codever.ecoharmonogram",
+    "title": "Eco Harmonogram",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "kontakt@ecoharmonogram.pl"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "3 Jan 2020"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "304",
+      "fiveStarRatings": "363",
+      "fourStarRatings": "68",
+      "oneStarRatings": "62",
+      "ratingsCount": "574",
+      "starRating": 4.118812,
+      "threeStarRatings": "51",
+      "twoStarRatings": "28",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-12-05 01:53:14.384816",
+    "backendDocid": "pl.codever.ecoharmonogram",
+    "backendId": 3,
+    "creator": "EcoHarmonogram",
+    "descriptionHtml": "Eco harmonogram to aplikacja pozwalaj\u0105ca na pobieranie harmonogramu odbior\u00f3w odpad\u00f3w komunalnych dla twojego adresu zamieszkania w gminach, kt\u00f3re przyst\u0105pi\u0142y do programu Eco Harmonogram. <br><br>Aplikacja pobierze harmonogram dla Twojego adresu zamieszkania dzi\u0119ki czemu nie musisz wyszukiwa\u0107 swojego harmonogramu na stronach gminy lub firm odbieraj\u0105cych odpady.<br>Eco harmonogram automatycznie pobierze r\u00f3wnie\u017c nowe harmonogramy jak i na bie\u017c\u0105co b\u0119dzie aktualizowa\u0107 wszelkie zmiany harmonogramu dla Twojego adresu zamieszkania. <br><br>Aplikacja automatycznie powiadomi ci\u0119 o nadchodz\u0105cym terminie wywozu odpad\u00f3w. <br><br>Aplikacja pozwala na \u015bci\u0105gnie harmonogramu tylko dla gmin, kt\u00f3re przyst\u0105pi\u0142y do programu Eco Harmonogram. Sprawd\u017a dost\u0119pno\u015b\u0107 twojego harmonogramu w aplikacji, gminie lub na http://www.ecoharmonogram.pl",
+    "descriptionShort": "Eco schedule of charges for waste disposal schedule for the address.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "4236898",
+          "unknown3": 30
+        },
+        "developerEmail": "kontakt@ecoharmonogram.pl",
+        "developerName": "EcoHarmonogram",
+        "developerWebsite": "http://www.ecoharmonogram.pl/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "4236898",
+            "versionCode": 90
+          }
+        ],
+        "installationSize": "4236898",
+        "numDownloads": "100,000+ downloads",
+        "packageName": "pl.codever.ecoharmonogram",
+        "permission": [
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.INTERNET",
+          "android.permission.MICROPHONE",
+          "android.permission.MODIFY_AUDIO_SETTINGS",
+          "android.permission.READ_CALENDAR",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.RECORD_AUDIO",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_CALENDAR",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "pl.codever.ecoharmonogram.permission.C2D_MESSAGE"
+        ],
+        "recentChangesHtml": "Uaktualnienie synchronizacji z kalendarzem google.",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false,
+          "testingProgramEmail": "kontakt@ecoharmonogram.pl"
+        },
+        "unstable": false,
+        "uploadDate": "2 Dec 2020",
+        "versionCode": 90,
+        "versionString": "1.0.90"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=pl.codever.ecoharmonogram",
+    "docType": 1,
+    "docid": "pl.codever.ecoharmonogram",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/V-9NQ9D6A5JeVXLCXMqGW9zsiiYW6QivofVIfJV0TmqP9idltOfLYdVsikKNAIp2ykeX",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/guwmZMg7iEQwEPGSxFOpTU_IhSaQnPJA_EaYkaO0-CArJbAgE5HuRWX_w3ZyCUNrAe4",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 854,
+          "width": 480
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/F6cvqrzcCbHHJIWqT1kOowOf8glG45vVD6Jxh1xKQl5gff_CPxSILO7BRu5LX_PveeE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 854,
+          "width": 480
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/e3beMoM32pstmLhwPEQgoVfTDXwHiKqN35zDUhg0wPcnhrFzmzQaWbvP7QFuRTzRSsQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 854,
+          "width": 480
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ZucL6p5i0JFdKBrfB9SonOz3KejkL3-YN00WQ0pgHLbPeQa7XDVY2flR7MBT-CKrXyN0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 854,
+          "width": 480
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/N_sC2k6_b2x4aKoQDQTthOGK690WriZoPILvGDbojAFu2uA8oUoNzS6LW8kd2gqeLxfP",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://ecoharmonogram.pl/ecopage/polityka-prywatnosci.pdf",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=pl.codever.ecoharmonogram",
+    "reviewsUrl": "rev?doc=pl.codever.ecoharmonogram&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=pl.codever.ecoharmonogram",
+    "title": "Eco Harmonogram",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "kontakt@ecoharmonogram.pl"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "25 Mar 2020"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "327",
+      "fiveStarRatings": "348",
+      "fourStarRatings": "91",
+      "oneStarRatings": "103",
+      "ratingsCount": "611",
+      "starRating": 3.89,
+      "threeStarRatings": "30",
+      "twoStarRatings": "36",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-01-12 21:39:39.906501",
+    "backendDocid": "pl.codever.ecoharmonogram",
+    "backendId": 3,
+    "creator": "EcoHarmonogram",
+    "descriptionHtml": "Eco harmonogram to aplikacja pozwalaj\u0105ca na pobieranie harmonogramu odbior\u00f3w odpad\u00f3w komunalnych dla twojego adresu zamieszkania w gminach, kt\u00f3re przyst\u0105pi\u0142y do programu Eco Harmonogram. <br><br>Aplikacja pobierze harmonogram dla Twojego adresu zamieszkania dzi\u0119ki czemu nie musisz wyszukiwa\u0107 swojego harmonogramu na stronach gminy lub firm odbieraj\u0105cych odpady.<br>Eco harmonogram automatycznie pobierze r\u00f3wnie\u017c nowe harmonogramy jak i na bie\u017c\u0105co b\u0119dzie aktualizowa\u0107 wszelkie zmiany harmonogramu dla Twojego adresu zamieszkania. <br><br>Aplikacja automatycznie powiadomi ci\u0119 o nadchodz\u0105cym terminie wywozu odpad\u00f3w. <br><br>Aplikacja pozwala na \u015bci\u0105gnie harmonogramu tylko dla gmin, kt\u00f3re przyst\u0105pi\u0142y do programu Eco Harmonogram. Sprawd\u017a dost\u0119pno\u015b\u0107 twojego harmonogramu w aplikacji, gminie lub na http://www.ecoharmonogram.pl",
+    "descriptionShort": "Eco schedule of charges for waste disposal schedule for the address.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "4286873",
+          "unknown3": 30
+        },
+        "developerEmail": "kontakt@ecoharmonogram.pl",
+        "developerName": "EcoHarmonogram",
+        "developerWebsite": "http://www.ecoharmonogram.pl/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "4286873",
+            "versionCode": 91
+          }
+        ],
+        "installationSize": "4286873",
+        "numDownloads": "100,000+ downloads",
+        "packageName": "pl.codever.ecoharmonogram",
+        "permission": [
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.INTERNET",
+          "android.permission.MICROPHONE",
+          "android.permission.MODIFY_AUDIO_SETTINGS",
+          "android.permission.READ_CALENDAR",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.RECORD_AUDIO",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_CALENDAR",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "pl.codever.ecoharmonogram.permission.C2D_MESSAGE"
+        ],
+        "recentChangesHtml": "Usprawnienia aplikacji.",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false,
+          "testingProgramEmail": "kontakt@ecoharmonogram.pl"
+        },
+        "unstable": false,
+        "uploadDate": "11 Jan 2021",
+        "versionCode": 91,
+        "versionString": "1.0.91"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=pl.codever.ecoharmonogram",
+    "docType": 1,
+    "docid": "pl.codever.ecoharmonogram",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/V-9NQ9D6A5JeVXLCXMqGW9zsiiYW6QivofVIfJV0TmqP9idltOfLYdVsikKNAIp2ykeX",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/guwmZMg7iEQwEPGSxFOpTU_IhSaQnPJA_EaYkaO0-CArJbAgE5HuRWX_w3ZyCUNrAe4",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 854,
+          "width": 480
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/F6cvqrzcCbHHJIWqT1kOowOf8glG45vVD6Jxh1xKQl5gff_CPxSILO7BRu5LX_PveeE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 854,
+          "width": 480
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/e3beMoM32pstmLhwPEQgoVfTDXwHiKqN35zDUhg0wPcnhrFzmzQaWbvP7QFuRTzRSsQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 854,
+          "width": 480
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ZucL6p5i0JFdKBrfB9SonOz3KejkL3-YN00WQ0pgHLbPeQa7XDVY2flR7MBT-CKrXyN0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 854,
+          "width": 480
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/N_sC2k6_b2x4aKoQDQTthOGK690WriZoPILvGDbojAFu2uA8oUoNzS6LW8kd2gqeLxfP",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://ecoharmonogram.pl/ecopage/polityka-prywatnosci.pdf",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=pl.codever.ecoharmonogram",
+    "reviewsUrl": "rev?doc=pl.codever.ecoharmonogram&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=pl.codever.ecoharmonogram",
+    "title": "Eco Harmonogram",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "kontakt@ecoharmonogram.pl"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "3 Jan 2020"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "385",
+      "fiveStarRatings": "306",
+      "fourStarRatings": "54",
+      "oneStarRatings": "299",
+      "ratingsCount": "681",
+      "starRating": 3.08,
+      "threeStarRatings": "6",
+      "twoStarRatings": "13",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-01-20 17:27:05.114200",
+    "backendDocid": "pl.codever.ecoharmonogram",
+    "backendId": 3,
+    "creator": "EcoHarmonogram",
+    "descriptionHtml": "Eco harmonogram to aplikacja pozwalaj\u0105ca na pobieranie harmonogramu odbior\u00f3w odpad\u00f3w komunalnych dla twojego adresu zamieszkania w gminach, kt\u00f3re przyst\u0105pi\u0142y do programu Eco Harmonogram. <br><br>Aplikacja pobierze harmonogram dla Twojego adresu zamieszkania dzi\u0119ki czemu nie musisz wyszukiwa\u0107 swojego harmonogramu na stronach gminy lub firm odbieraj\u0105cych odpady.<br>Eco harmonogram automatycznie pobierze r\u00f3wnie\u017c nowe harmonogramy jak i na bie\u017c\u0105co b\u0119dzie aktualizowa\u0107 wszelkie zmiany harmonogramu dla Twojego adresu zamieszkania. <br><br>Aplikacja automatycznie powiadomi ci\u0119 o nadchodz\u0105cym terminie wywozu odpad\u00f3w. <br><br>Aplikacja pozwala na \u015bci\u0105gnie harmonogramu tylko dla gmin, kt\u00f3re przyst\u0105pi\u0142y do programu Eco Harmonogram. Sprawd\u017a dost\u0119pno\u015b\u0107 twojego harmonogramu w aplikacji, gminie lub na http://www.ecoharmonogram.pl",
+    "descriptionShort": "Eco Schedule downloads the waste collection schedule for your home address.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "4286873",
+          "unknown3": 30
+        },
+        "developerEmail": "kontakt@ecoharmonogram.pl",
+        "developerName": "EcoHarmonogram",
+        "developerWebsite": "http://www.ecoharmonogram.pl/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "4286873",
+            "versionCode": 92
+          }
+        ],
+        "installationSize": "4286873",
+        "numDownloads": "100,000+ downloads",
+        "packageName": "pl.codever.ecoharmonogram",
+        "permission": [
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.INTERNET",
+          "android.permission.MICROPHONE",
+          "android.permission.MODIFY_AUDIO_SETTINGS",
+          "android.permission.READ_CALENDAR",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.RECORD_AUDIO",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_CALENDAR",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "pl.codever.ecoharmonogram.permission.C2D_MESSAGE"
+        ],
+        "recentChangesHtml": "Usprawnienia aplikacji",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false,
+          "testingProgramEmail": "kontakt@ecoharmonogram.pl"
+        },
+        "unstable": false,
+        "uploadDate": "12 Jan 2021",
+        "versionCode": 92,
+        "versionString": "1.0.92"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=pl.codever.ecoharmonogram",
+    "docType": 1,
+    "docid": "pl.codever.ecoharmonogram",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/V-9NQ9D6A5JeVXLCXMqGW9zsiiYW6QivofVIfJV0TmqP9idltOfLYdVsikKNAIp2ykeX",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 0,
+          "width": 0
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/guwmZMg7iEQwEPGSxFOpTU_IhSaQnPJA_EaYkaO0-CArJbAgE5HuRWX_w3ZyCUNrAe4",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 854,
+          "width": 480
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/F6cvqrzcCbHHJIWqT1kOowOf8glG45vVD6Jxh1xKQl5gff_CPxSILO7BRu5LX_PveeE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 854,
+          "width": 480
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/e3beMoM32pstmLhwPEQgoVfTDXwHiKqN35zDUhg0wPcnhrFzmzQaWbvP7QFuRTzRSsQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 854,
+          "width": 480
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ZucL6p5i0JFdKBrfB9SonOz3KejkL3-YN00WQ0pgHLbPeQa7XDVY2flR7MBT-CKrXyN0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 854,
+          "width": 480
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/N_sC2k6_b2x4aKoQDQTthOGK690WriZoPILvGDbojAFu2uA8oUoNzS6LW8kd2gqeLxfP",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://ecoharmonogram.pl/ecopage/polityka-prywatnosci.pdf",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=pl.codever.ecoharmonogram",
+    "reviewsUrl": "rev?doc=pl.codever.ecoharmonogram&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=pl.codever.ecoharmonogram",
+    "title": "Eco Harmonogram",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "kontakt@ecoharmonogram.pl"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "3 Jan 2020"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "429",
+      "fiveStarRatings": "621",
+      "fourStarRatings": "69",
+      "oneStarRatings": "43",
+      "ratingsCount": "760",
+      "starRating": 4.5950413,
+      "threeStarRatings": "12",
+      "twoStarRatings": "12",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-03-08 21:25:29.534595",
+    "backendDocid": "pl.codever.ecoharmonogram",
+    "backendId": 3,
+    "creator": "EcoHarmonogram",
+    "descriptionHtml": "Eco harmonogram to aplikacja pozwalaj\u0105ca na pobieranie harmonogramu odbior\u00f3w odpad\u00f3w komunalnych dla twojego adresu zamieszkania w gminach, kt\u00f3re przyst\u0105pi\u0142y do programu Eco Harmonogram. <br><br>Aplikacja pobierze harmonogram dla Twojego adresu zamieszkania dzi\u0119ki czemu nie musisz wyszukiwa\u0107 swojego harmonogramu na stronach gminy lub firm odbieraj\u0105cych odpady.<br>Eco harmonogram automatycznie pobierze r\u00f3wnie\u017c nowe harmonogramy jak i na bie\u017c\u0105co b\u0119dzie aktualizowa\u0107 wszelkie zmiany harmonogramu dla Twojego adresu zamieszkania. <br><br>Aplikacja automatycznie powiadomi ci\u0119 o nadchodz\u0105cym terminie wywozu odpad\u00f3w. <br><br>Aplikacja pozwala na \u015bci\u0105gnie harmonogramu tylko dla gmin, kt\u00f3re przyst\u0105pi\u0142y do programu Eco Harmonogram. Sprawd\u017a dost\u0119pno\u015b\u0107 twojego harmonogramu w aplikacji, gminie lub na http://www.ecoharmonogram.pl",
+    "descriptionShort": "Eco Schedule downloads the waste collection schedule for your home address.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "4290969",
+          "unknown3": 30
+        },
+        "developerEmail": "kontakt@ecoharmonogram.pl",
+        "developerName": "EcoHarmonogram",
+        "developerWebsite": "http://www.ecoharmonogram.pl/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "4290969",
+            "versionCode": 95
+          }
+        ],
+        "installationSize": "4290969",
+        "numDownloads": "100,000+ downloads",
+        "packageName": "pl.codever.ecoharmonogram",
+        "permission": [
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.CAMERA",
+          "android.permission.INTERNET",
+          "android.permission.MICROPHONE",
+          "android.permission.MODIFY_AUDIO_SETTINGS",
+          "android.permission.READ_CALENDAR",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.RECORD_AUDIO",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_CALENDAR",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "pl.codever.ecoharmonogram.permission.C2D_MESSAGE"
+        ],
+        "recentChangesHtml": "Usprawnienia aplikacji",
+        "unstable": false,
+        "uploadDate": "6 Mar 2021",
+        "versionCode": 95,
+        "versionString": "1.0.95"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=pl.codever.ecoharmonogram",
+    "docType": 1,
+    "docid": "pl.codever.ecoharmonogram",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/V-9NQ9D6A5JeVXLCXMqGW9zsiiYW6QivofVIfJV0TmqP9idltOfLYdVsikKNAIp2ykeX",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 0,
+          "width": 0
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/guwmZMg7iEQwEPGSxFOpTU_IhSaQnPJA_EaYkaO0-CArJbAgE5HuRWX_w3ZyCUNrAe4",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 854,
+          "width": 480
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/F6cvqrzcCbHHJIWqT1kOowOf8glG45vVD6Jxh1xKQl5gff_CPxSILO7BRu5LX_PveeE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 854,
+          "width": 480
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/e3beMoM32pstmLhwPEQgoVfTDXwHiKqN35zDUhg0wPcnhrFzmzQaWbvP7QFuRTzRSsQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 854,
+          "width": 480
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ZucL6p5i0JFdKBrfB9SonOz3KejkL3-YN00WQ0pgHLbPeQa7XDVY2flR7MBT-CKrXyN0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 854,
+          "width": 480
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/N_sC2k6_b2x4aKoQDQTthOGK690WriZoPILvGDbojAFu2uA8oUoNzS6LW8kd2gqeLxfP",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://ecoharmonogram.pl/ecopage/polityka-prywatnosci.pdf",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=pl.codever.ecoharmonogram",
+    "reviewsUrl": "rev?doc=pl.codever.ecoharmonogram&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=pl.codever.ecoharmonogram",
+    "title": "Eco Harmonogram",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "kontakt@ecoharmonogram.pl"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "3 Jan 2020"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "433",
+      "fiveStarRatings": "585",
+      "fourStarRatings": "82",
+      "oneStarRatings": "45",
+      "ratingsCount": "765",
+      "starRating": 4.490196,
+      "threeStarRatings": "30",
+      "twoStarRatings": "22",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-03-31 19:43:03.574315",
+    "backendDocid": "pl.codever.ecoharmonogram",
+    "backendId": 3,
+    "creator": "EcoHarmonogram",
+    "descriptionHtml": "Eco harmonogram to aplikacja pozwalaj\u0105ca na pobieranie harmonogramu odbior\u00f3w odpad\u00f3w komunalnych dla twojego adresu zamieszkania w gminach, kt\u00f3re przyst\u0105pi\u0142y do programu Eco Harmonogram. <br><br>Aplikacja pobierze harmonogram dla Twojego adresu zamieszkania dzi\u0119ki czemu nie musisz wyszukiwa\u0107 swojego harmonogramu na stronach gminy lub firm odbieraj\u0105cych odpady.<br>Eco harmonogram automatycznie pobierze r\u00f3wnie\u017c nowe harmonogramy jak i na bie\u017c\u0105co b\u0119dzie aktualizowa\u0107 wszelkie zmiany harmonogramu dla Twojego adresu zamieszkania. <br><br>Aplikacja automatycznie powiadomi ci\u0119 o nadchodz\u0105cym terminie wywozu odpad\u00f3w. <br><br>Aplikacja pozwala na \u015bci\u0105gnie harmonogramu tylko dla gmin, kt\u00f3re przyst\u0105pi\u0142y do programu Eco Harmonogram. Sprawd\u017a dost\u0119pno\u015b\u0107 twojego harmonogramu w aplikacji, gminie lub na http://www.ecoharmonogram.pl",
+    "descriptionShort": "Eco Schedule downloads the waste collection schedule for your home address.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "4290969",
+          "unknown3": 30
+        },
+        "developerEmail": "kontakt@ecoharmonogram.pl",
+        "developerName": "EcoHarmonogram",
+        "developerWebsite": "http://www.ecoharmonogram.pl/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "4290969",
+            "versionCode": 97
+          }
+        ],
+        "installationSize": "4290969",
+        "numDownloads": "100,000+ downloads",
+        "packageName": "pl.codever.ecoharmonogram",
+        "permission": [
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.CAMERA",
+          "android.permission.INTERNET",
+          "android.permission.MICROPHONE",
+          "android.permission.MODIFY_AUDIO_SETTINGS",
+          "android.permission.READ_CALENDAR",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.RECORD_AUDIO",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_CALENDAR",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "pl.codever.ecoharmonogram.permission.C2D_MESSAGE"
+        ],
+        "recentChangesHtml": "Obs\u0142uga wersji j\u0119zykowych",
+        "unstable": false,
+        "uploadDate": "29 Mar 2021",
+        "versionCode": 97,
+        "versionString": "1.0.97"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=pl.codever.ecoharmonogram",
+    "docType": 1,
+    "docid": "pl.codever.ecoharmonogram",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/V-9NQ9D6A5JeVXLCXMqGW9zsiiYW6QivofVIfJV0TmqP9idltOfLYdVsikKNAIp2ykeX",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 0,
+          "width": 0
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/guwmZMg7iEQwEPGSxFOpTU_IhSaQnPJA_EaYkaO0-CArJbAgE5HuRWX_w3ZyCUNrAe4",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 854,
+          "width": 480
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/F6cvqrzcCbHHJIWqT1kOowOf8glG45vVD6Jxh1xKQl5gff_CPxSILO7BRu5LX_PveeE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 854,
+          "width": 480
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/e3beMoM32pstmLhwPEQgoVfTDXwHiKqN35zDUhg0wPcnhrFzmzQaWbvP7QFuRTzRSsQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 854,
+          "width": 480
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ZucL6p5i0JFdKBrfB9SonOz3KejkL3-YN00WQ0pgHLbPeQa7XDVY2flR7MBT-CKrXyN0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 854,
+          "width": 480
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/N_sC2k6_b2x4aKoQDQTthOGK690WriZoPILvGDbojAFu2uA8oUoNzS6LW8kd2gqeLxfP",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://ecoharmonogram.pl/ecopage/polityka-prywatnosci.pdf",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=pl.codever.ecoharmonogram",
+    "reviewsUrl": "rev?doc=pl.codever.ecoharmonogram&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=pl.codever.ecoharmonogram",
+    "title": "Eco Harmonogram",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "kontakt@ecoharmonogram.pl"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "3 Jan 2020"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "467",
+      "fiveStarRatings": "519",
+      "fourStarRatings": "144",
+      "oneStarRatings": "85",
+      "ratingsCount": "851",
+      "starRating": 4.12,
+      "threeStarRatings": "42",
+      "twoStarRatings": "59",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-09-25 17:18:23.433106",
+    "backendDocid": "pl.codever.ecoharmonogram",
+    "backendId": 3,
+    "creator": "EcoHarmonogram",
+    "descriptionHtml": "Eco harmonogram to aplikacja pozwalaj\u0105ca na pobieranie harmonogramu odbior\u00f3w odpad\u00f3w komunalnych dla twojego adresu zamieszkania w gminach, kt\u00f3re przyst\u0105pi\u0142y do programu Eco Harmonogram. <br><br>Aplikacja pobierze harmonogram dla Twojego adresu zamieszkania dzi\u0119ki czemu nie musisz wyszukiwa\u0107 swojego harmonogramu na stronach gminy lub firm odbieraj\u0105cych odpady.<br>Eco harmonogram automatycznie pobierze r\u00f3wnie\u017c nowe harmonogramy jak i na bie\u017c\u0105co b\u0119dzie aktualizowa\u0107 wszelkie zmiany harmonogramu dla Twojego adresu zamieszkania. <br><br>Aplikacja automatycznie powiadomi ci\u0119 o nadchodz\u0105cym terminie wywozu odpad\u00f3w. <br><br>Aplikacja pozwala na \u015bci\u0105gnie harmonogramu tylko dla gmin, kt\u00f3re przyst\u0105pi\u0142y do programu Eco Harmonogram. Sprawd\u017a dost\u0119pno\u015b\u0107 twojego harmonogramu w aplikacji, gminie lub na http://www.ecoharmonogram.pl",
+    "descriptionShort": "Eco Schedule downloads the waste collection schedule for your home address.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "4290969",
+          "unknown3": 30
+        },
+        "developerEmail": "kontakt@ecoharmonogram.pl",
+        "developerName": "EcoHarmonogram",
+        "developerWebsite": "http://www.ecoharmonogram.pl/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "4290969",
+            "versionCode": 97
+          }
+        ],
+        "installationSize": "4290969",
+        "numDownloads": "100,000+ downloads",
+        "packageName": "pl.codever.ecoharmonogram",
+        "permission": [
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.CAMERA",
+          "android.permission.INTERNET",
+          "android.permission.MICROPHONE",
+          "android.permission.MODIFY_AUDIO_SETTINGS",
+          "android.permission.READ_CALENDAR",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.RECORD_AUDIO",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_CALENDAR",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "pl.codever.ecoharmonogram.permission.C2D_MESSAGE"
+        ],
+        "recentChangesHtml": "Obs\u0142uga wersji j\u0119zykowych",
+        "unstable": true,
+        "uploadDate": "29 Mar 2021",
+        "versionCode": 97,
+        "versionString": "1.0.97"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=pl.codever.ecoharmonogram",
+    "docType": 1,
+    "docid": "pl.codever.ecoharmonogram",
+    "image": [
+      {
+        "color": "#EDF0F3",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/LfIFwG-2q22ZZvnxOSvMAgFQ1P3q-rl9EDbSd0OdjCdxUX9r_FS-FHy2AZG1GPD-lDRF",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/9-Ffq3z6DCJrAuXMiXJlIJgmfP101noKE4kJ7Um3ABFrdN_uzQlUNvk9gHCO14BkdVU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/60pTMekeBz3CE5vNw_siKfG4cuGaM8c8MmWKvoElqPmNZ_OJ3kEI9Mmrspr-0SarmxM",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/G4d8ldjNwHqoyU_13f6Ik2Xxr2CsvIv4Rtaal6f9qMHO0m7Bq7HUUC6or-ssSw3iPCQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/E1xQzrE_D_9KX_IbcdhiqjSYYEhc5cKUVANdty1K3a_V0asgGp4rWJeobEpFVdBFPeBH",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/H4RMwIL9DXQj630izpHe5ZjFGK96ODaqx-5tGYr8gkKrH6mZsWkWJ4WwwOHwepXdww",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://ecoharmonogram.pl/ecopage/polityka-prywatnosci.pdf",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=pl.codever.ecoharmonogram",
+    "reviewsUrl": "rev?doc=pl.codever.ecoharmonogram&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=pl.codever.ecoharmonogram",
+    "title": "Eco Harmonogram",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "kontakt@ecoharmonogram.pl"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "3 Jan 2020"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "474",
+      "fiveStarRatings": "538",
+      "fourStarRatings": "147",
+      "oneStarRatings": "104",
+      "ratingsCount": "869",
+      "starRating": 4.11,
+      "threeStarRatings": "26",
+      "twoStarRatings": "52",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-11-11 07:05:55.490048",
+    "backendDocid": "pl.codever.ecoharmonogram",
+    "backendId": 3,
+    "creator": "EcoHarmonogram",
+    "descriptionHtml": "Eco harmonogram to aplikacja pozwalaj\u0105ca na pobieranie harmonogramu odbior\u00f3w odpad\u00f3w komunalnych dla twojego adresu zamieszkania w gminach, kt\u00f3re przyst\u0105pi\u0142y do programu Eco Harmonogram. <br><br>Aplikacja pobierze harmonogram dla Twojego adresu zamieszkania dzi\u0119ki czemu nie musisz wyszukiwa\u0107 swojego harmonogramu na stronach gminy lub firm odbieraj\u0105cych odpady.<br>Eco harmonogram automatycznie pobierze r\u00f3wnie\u017c nowe harmonogramy jak i na bie\u017c\u0105co b\u0119dzie aktualizowa\u0107 wszelkie zmiany harmonogramu dla Twojego adresu zamieszkania. <br><br>Aplikacja automatycznie powiadomi ci\u0119 o nadchodz\u0105cym terminie wywozu odpad\u00f3w. <br><br>Aplikacja pozwala na \u015bci\u0105gnie harmonogramu tylko dla gmin, kt\u00f3re przyst\u0105pi\u0142y do programu Eco Harmonogram. Sprawd\u017a dost\u0119pno\u015b\u0107 twojego harmonogramu w aplikacji, gminie lub na http://www.ecoharmonogram.pl",
+    "descriptionShort": "Eco Schedule downloads the waste collection schedule for your home address.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "4290969",
+          "unknown3": 30
+        },
+        "developerEmail": "kontakt@ecoharmonogram.pl",
+        "developerName": "EcoHarmonogram",
+        "developerWebsite": "http://www.ecoharmonogram.pl/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "4290969",
+            "versionCode": 97
+          }
+        ],
+        "installationSize": "4290969",
+        "numDownloads": "100,000+ downloads",
+        "packageName": "pl.codever.ecoharmonogram",
+        "permission": [
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.CAMERA",
+          "android.permission.INTERNET",
+          "android.permission.MICROPHONE",
+          "android.permission.MODIFY_AUDIO_SETTINGS",
+          "android.permission.READ_CALENDAR",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.RECORD_AUDIO",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_CALENDAR",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "pl.codever.ecoharmonogram.permission.C2D_MESSAGE"
+        ],
+        "recentChangesHtml": "Obs\u0142uga wersji j\u0119zykowych",
+        "unstable": true,
+        "uploadDate": "29 Mar 2021",
+        "versionCode": 97,
+        "versionString": "1.0.97"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=pl.codever.ecoharmonogram",
+    "docType": 1,
+    "docid": "pl.codever.ecoharmonogram",
+    "image": [
+      {
+        "color": "#EDF0F3",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/LfIFwG-2q22ZZvnxOSvMAgFQ1P3q-rl9EDbSd0OdjCdxUX9r_FS-FHy2AZG1GPD-lDRF",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/9-Ffq3z6DCJrAuXMiXJlIJgmfP101noKE4kJ7Um3ABFrdN_uzQlUNvk9gHCO14BkdVU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/60pTMekeBz3CE5vNw_siKfG4cuGaM8c8MmWKvoElqPmNZ_OJ3kEI9Mmrspr-0SarmxM",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/G4d8ldjNwHqoyU_13f6Ik2Xxr2CsvIv4Rtaal6f9qMHO0m7Bq7HUUC6or-ssSw3iPCQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/E1xQzrE_D_9KX_IbcdhiqjSYYEhc5cKUVANdty1K3a_V0asgGp4rWJeobEpFVdBFPeBH",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/H4RMwIL9DXQj630izpHe5ZjFGK96ODaqx-5tGYr8gkKrH6mZsWkWJ4WwwOHwepXdww",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://ecoharmonogram.pl/ecopage/polityka-prywatnosci.pdf",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=pl.codever.ecoharmonogram",
+    "reviewsUrl": "rev?doc=pl.codever.ecoharmonogram&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=pl.codever.ecoharmonogram",
+    "title": "Eco Harmonogram",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "kontakt@ecoharmonogram.pl"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "25 Mar 2020"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 2
+    },
+    "az_metadata_date": "2021-11-18 11:05:16.589129",
+    "backendDocid": "pl.codever.ecoharmonogram",
+    "backendId": 3,
+    "creator": "EcoHarmonogram",
+    "descriptionHtml": "Eco harmonogram to aplikacja pozwalaj\u0105ca na pobieranie harmonogramu odbior\u00f3w odpad\u00f3w komunalnych dla twojego adresu zamieszkania w gminach, kt\u00f3re przyst\u0105pi\u0142y do programu Eco Harmonogram. <br><br>Aplikacja pobierze harmonogram dla Twojego adresu zamieszkania dzi\u0119ki czemu nie musisz wyszukiwa\u0107 swojego harmonogramu na stronach gminy lub firm odbieraj\u0105cych odpady.<br>Eco harmonogram automatycznie pobierze r\u00f3wnie\u017c nowe harmonogramy jak i na bie\u017c\u0105co b\u0119dzie aktualizowa\u0107 wszelkie zmiany harmonogramu dla Twojego adresu zamieszkania. <br><br>Aplikacja automatycznie powiadomi ci\u0119 o nadchodz\u0105cym terminie wywozu odpad\u00f3w. <br><br>Aplikacja pozwala na \u015bci\u0105gnie harmonogramu tylko dla gmin, kt\u00f3re przyst\u0105pi\u0142y do programu Eco Harmonogram. Sprawd\u017a dost\u0119pno\u015b\u0107 twojego harmonogramu w aplikacji, gminie lub na http://www.ecoharmonogram.pl",
+    "descriptionShort": "Eco Schedule downloads the waste collection schedule for your home address.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "4290969",
+          "unknown3": 30
+        },
+        "developerEmail": "kontakt@ecoharmonogram.pl",
+        "developerName": "EcoHarmonogram",
+        "developerWebsite": "http://www.ecoharmonogram.pl/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "4290969",
+            "versionCode": 97
+          }
+        ],
+        "installationSize": "4290969",
+        "numDownloads": "100,000+ downloads",
+        "packageName": "pl.codever.ecoharmonogram",
+        "permission": [
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.CAMERA",
+          "android.permission.INTERNET",
+          "android.permission.MICROPHONE",
+          "android.permission.MODIFY_AUDIO_SETTINGS",
+          "android.permission.READ_CALENDAR",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.RECORD_AUDIO",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_CALENDAR",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "pl.codever.ecoharmonogram.permission.C2D_MESSAGE"
+        ],
+        "recentChangesHtml": "Obs\u0142uga wersji j\u0119zykowych",
+        "unstable": true,
+        "uploadDate": "Mar. 29, 2021",
+        "versionCode": 97,
+        "versionString": "1.0.97"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=pl.codever.ecoharmonogram",
+    "docType": 1,
+    "docid": "pl.codever.ecoharmonogram",
+    "image": [
+      {
+        "color": "#EDF0F3",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/LfIFwG-2q22ZZvnxOSvMAgFQ1P3q-rl9EDbSd0OdjCdxUX9r_FS-FHy2AZG1GPD-lDRF",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#000000",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/9-Ffq3z6DCJrAuXMiXJlIJgmfP101noKE4kJ7Um3ABFrdN_uzQlUNvk9gHCO14BkdVU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/60pTMekeBz3CE5vNw_siKfG4cuGaM8c8MmWKvoElqPmNZ_OJ3kEI9Mmrspr-0SarmxM",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/G4d8ldjNwHqoyU_13f6Ik2Xxr2CsvIv4Rtaal6f9qMHO0m7Bq7HUUC6or-ssSw3iPCQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/E1xQzrE_D_9KX_IbcdhiqjSYYEhc5cKUVANdty1K3a_V0asgGp4rWJeobEpFVdBFPeBH",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/H4RMwIL9DXQj630izpHe5ZjFGK96ODaqx-5tGYr8gkKrH6mZsWkWJ4WwwOHwepXdww",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "CAD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://ecoharmonogram.pl/ecopage/polityka-prywatnosci.pdf",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=pl.codever.ecoharmonogram",
+    "reviewsUrl": "rev?doc=pl.codever.ecoharmonogram&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=pl.codever.ecoharmonogram",
+    "title": "Eco Harmonogram",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "EcoHarmonogram"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "kontakt@ecoharmonogram.pl"
+          },
+          "label": "Developer email"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "475",
+      "fiveStarRatings": "541",
+      "fourStarRatings": "148",
+      "oneStarRatings": "104",
+      "ratingsCount": "873",
+      "starRating": 4.11,
+      "threeStarRatings": "26",
+      "twoStarRatings": "52",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-11-23 10:30:15.454380",
+    "backendDocid": "pl.codever.ecoharmonogram",
+    "backendId": 3,
+    "creator": "EcoHarmonogram",
+    "descriptionHtml": "Eco harmonogram to aplikacja pozwalaj\u0105ca na pobieranie harmonogramu odbior\u00f3w odpad\u00f3w komunalnych dla twojego adresu zamieszkania w gminach, kt\u00f3re przyst\u0105pi\u0142y do programu Eco Harmonogram. <br><br>Aplikacja pobierze harmonogram dla Twojego adresu zamieszkania dzi\u0119ki czemu nie musisz wyszukiwa\u0107 swojego harmonogramu na stronach gminy lub firm odbieraj\u0105cych odpady.<br>Eco harmonogram automatycznie pobierze r\u00f3wnie\u017c nowe harmonogramy jak i na bie\u017c\u0105co b\u0119dzie aktualizowa\u0107 wszelkie zmiany harmonogramu dla Twojego adresu zamieszkania. <br><br>Aplikacja automatycznie powiadomi ci\u0119 o nadchodz\u0105cym terminie wywozu odpad\u00f3w. <br><br>Aplikacja pozwala na \u015bci\u0105gnie harmonogramu tylko dla gmin, kt\u00f3re przyst\u0105pi\u0142y do programu Eco Harmonogram. Sprawd\u017a dost\u0119pno\u015b\u0107 twojego harmonogramu w aplikacji, gminie lub na http://www.ecoharmonogram.pl",
+    "descriptionShort": "Eco Schedule downloads the waste collection schedule for your home address.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "4290969",
+          "unknown3": 30
+        },
+        "developerEmail": "kontakt@ecoharmonogram.pl",
+        "developerName": "EcoHarmonogram",
+        "developerWebsite": "http://www.ecoharmonogram.pl/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "4290969",
+            "versionCode": 97
+          }
+        ],
+        "installationSize": "4290969",
+        "numDownloads": "100,000+ downloads",
+        "packageName": "pl.codever.ecoharmonogram",
+        "permission": [
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.CAMERA",
+          "android.permission.INTERNET",
+          "android.permission.MICROPHONE",
+          "android.permission.MODIFY_AUDIO_SETTINGS",
+          "android.permission.READ_CALENDAR",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.RECORD_AUDIO",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_CALENDAR",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "pl.codever.ecoharmonogram.permission.C2D_MESSAGE"
+        ],
+        "recentChangesHtml": "Obs\u0142uga wersji j\u0119zykowych",
+        "unstable": true,
+        "uploadDate": "29 Mar 2021",
+        "versionCode": 97,
+        "versionString": "1.0.97"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=pl.codever.ecoharmonogram",
+    "docType": 1,
+    "docid": "pl.codever.ecoharmonogram",
+    "image": [
+      {
+        "color": "#EDF0F3",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/LfIFwG-2q22ZZvnxOSvMAgFQ1P3q-rl9EDbSd0OdjCdxUX9r_FS-FHy2AZG1GPD-lDRF",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#000000",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/9-Ffq3z6DCJrAuXMiXJlIJgmfP101noKE4kJ7Um3ABFrdN_uzQlUNvk9gHCO14BkdVU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/60pTMekeBz3CE5vNw_siKfG4cuGaM8c8MmWKvoElqPmNZ_OJ3kEI9Mmrspr-0SarmxM",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/G4d8ldjNwHqoyU_13f6Ik2Xxr2CsvIv4Rtaal6f9qMHO0m7Bq7HUUC6or-ssSw3iPCQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/E1xQzrE_D_9KX_IbcdhiqjSYYEhc5cKUVANdty1K3a_V0asgGp4rWJeobEpFVdBFPeBH",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/H4RMwIL9DXQj630izpHe5ZjFGK96ODaqx-5tGYr8gkKrH6mZsWkWJ4WwwOHwepXdww",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://ecoharmonogram.pl/ecopage/polityka-prywatnosci.pdf",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=pl.codever.ecoharmonogram",
+    "reviewsUrl": "rev?doc=pl.codever.ecoharmonogram&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=pl.codever.ecoharmonogram",
+    "title": "Eco Harmonogram",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "kontakt@ecoharmonogram.pl"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "3 Jan 2020"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-11-23 13:46:52.521029",
+    "backendDocid": "pl.codever.ecoharmonogram",
+    "backendId": 3,
+    "creator": "EcoHarmonogram",
+    "descriptionHtml": "Eco harmonogram to aplikacja pozwalaj\u0105ca na pobieranie harmonogramu odbior\u00f3w odpad\u00f3w komunalnych dla twojego adresu zamieszkania w gminach, kt\u00f3re przyst\u0105pi\u0142y do programu Eco Harmonogram. <br><br>Aplikacja pobierze harmonogram dla Twojego adresu zamieszkania dzi\u0119ki czemu nie musisz wyszukiwa\u0107 swojego harmonogramu na stronach gminy lub firm odbieraj\u0105cych odpady.<br>Eco harmonogram automatycznie pobierze r\u00f3wnie\u017c nowe harmonogramy jak i na bie\u017c\u0105co b\u0119dzie aktualizowa\u0107 wszelkie zmiany harmonogramu dla Twojego adresu zamieszkania. <br><br>Aplikacja automatycznie powiadomi ci\u0119 o nadchodz\u0105cym terminie wywozu odpad\u00f3w. <br><br>Aplikacja pozwala na \u015bci\u0105gnie harmonogramu tylko dla gmin, kt\u00f3re przyst\u0105pi\u0142y do programu Eco Harmonogram. Sprawd\u017a dost\u0119pno\u015b\u0107 twojego harmonogramu w aplikacji, gminie lub na http://www.ecoharmonogram.pl",
+    "descriptionShort": "Eco Schedule downloads the waste collection schedule for your home address.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "4290969",
+          "unknown3": 30
+        },
+        "developerEmail": "kontakt@ecoharmonogram.pl",
+        "developerName": "EcoHarmonogram",
+        "developerWebsite": "http://www.ecoharmonogram.pl/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "4290969",
+            "versionCode": 99
+          }
+        ],
+        "installationSize": "4290969",
+        "numDownloads": "100,000+ downloads",
+        "packageName": "pl.codever.ecoharmonogram",
+        "permission": [
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.CAMERA",
+          "android.permission.INTERNET",
+          "android.permission.MICROPHONE",
+          "android.permission.MODIFY_AUDIO_SETTINGS",
+          "android.permission.READ_CALENDAR",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.RECORD_AUDIO",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_CALENDAR",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "pl.codever.ecoharmonogram.permission.C2D_MESSAGE"
+        ],
+        "recentChangesHtml": "Usprawnienia aplikacji. Poprawa dzia\u0142ania aplikacji na telefonach Huawei.",
+        "unstable": true,
+        "uploadDate": "21 Sept 2021",
+        "versionCode": 99,
+        "versionString": "1.0.99"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=pl.codever.ecoharmonogram",
+    "docType": 1,
+    "docid": "pl.codever.ecoharmonogram",
+    "image": [
+      {
+        "color": "#EDF0F3",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/LfIFwG-2q22ZZvnxOSvMAgFQ1P3q-rl9EDbSd0OdjCdxUX9r_FS-FHy2AZG1GPD-lDRF",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#000000",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/9-Ffq3z6DCJrAuXMiXJlIJgmfP101noKE4kJ7Um3ABFrdN_uzQlUNvk9gHCO14BkdVU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/60pTMekeBz3CE5vNw_siKfG4cuGaM8c8MmWKvoElqPmNZ_OJ3kEI9Mmrspr-0SarmxM",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/G4d8ldjNwHqoyU_13f6Ik2Xxr2CsvIv4Rtaal6f9qMHO0m7Bq7HUUC6or-ssSw3iPCQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/E1xQzrE_D_9KX_IbcdhiqjSYYEhc5cKUVANdty1K3a_V0asgGp4rWJeobEpFVdBFPeBH",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/H4RMwIL9DXQj630izpHe5ZjFGK96ODaqx-5tGYr8gkKrH6mZsWkWJ4WwwOHwepXdww",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://ecoharmonogram.pl/ecopage/polityka-prywatnosci.pdf",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=pl.codever.ecoharmonogram",
+    "reviewsUrl": "rev?doc=pl.codever.ecoharmonogram&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=pl.codever.ecoharmonogram",
+    "title": "Eco Harmonogram",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "kontakt@ecoharmonogram.pl"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "3 Jan 2020"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-10-27 04:52:44.305982",
+    "backendDocid": "pl.codever.ecoharmonogram",
+    "backendId": 3,
+    "creator": "EcoHarmonogram",
+    "descriptionHtml": "Eco harmonogram to aplikacja pozwalaj\u0105ca na pobieranie harmonogramu odbior\u00f3w odpad\u00f3w komunalnych dla twojego adresu zamieszkania w gminach, kt\u00f3re przyst\u0105pi\u0142y do programu Eco Harmonogram. <br><br>Aplikacja pobierze harmonogram dla Twojego adresu zamieszkania dzi\u0119ki czemu nie musisz wyszukiwa\u0107 swojego harmonogramu na stronach gminy lub firm odbieraj\u0105cych odpady.<br>Eco harmonogram automatycznie pobierze r\u00f3wnie\u017c nowe harmonogramy jak i na bie\u017c\u0105co b\u0119dzie aktualizowa\u0107 wszelkie zmiany harmonogramu dla Twojego adresu zamieszkania. <br><br>Aplikacja automatycznie powiadomi ci\u0119 o nadchodz\u0105cym terminie wywozu odpad\u00f3w. <br><br>Aplikacja pozwala na \u015bci\u0105gnie harmonogramu tylko dla gmin, kt\u00f3re przyst\u0105pi\u0142y do programu Eco Harmonogram. Sprawd\u017a dost\u0119pno\u015b\u0107 twojego harmonogramu w aplikacji, gminie lub na http://www.ecoharmonogram.pl",
+    "descriptionShort": "Eco Schedule downloads the waste collection schedule for your home address.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "4295065",
+          "unknown3": 31
+        },
+        "developerEmail": "kontakt@ecoharmonogram.pl",
+        "developerName": "EcoHarmonogram",
+        "developerWebsite": "http://www.ecoharmonogram.pl/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "4295065",
+            "versionCode": 106
+          }
+        ],
+        "installationSize": "4295065",
+        "numDownloads": "100,000+ downloads",
+        "packageName": "pl.codever.ecoharmonogram",
+        "permission": [
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.CAMERA",
+          "android.permission.INTERNET",
+          "android.permission.MICROPHONE",
+          "android.permission.MODIFY_AUDIO_SETTINGS",
+          "android.permission.READ_CALENDAR",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.RECORD_AUDIO",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_CALENDAR",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "pl.codever.ecoharmonogram.permission.C2D_MESSAGE"
+        ],
+        "recentChangesHtml": "Usprawnienia aplikacji.",
+        "unstable": true,
+        "uploadDate": "26 Oct 2022",
+        "versionCode": 106,
+        "versionString": "1.0.106"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=pl.codever.ecoharmonogram",
+    "docType": 1,
+    "docid": "pl.codever.ecoharmonogram",
+    "image": [
+      {
+        "color": "#EDF0F3",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/LfIFwG-2q22ZZvnxOSvMAgFQ1P3q-rl9EDbSd0OdjCdxUX9r_FS-FHy2AZG1GPD-lDRF",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#000000",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/9-Ffq3z6DCJrAuXMiXJlIJgmfP101noKE4kJ7Um3ABFrdN_uzQlUNvk9gHCO14BkdVU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/60pTMekeBz3CE5vNw_siKfG4cuGaM8c8MmWKvoElqPmNZ_OJ3kEI9Mmrspr-0SarmxM",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/G4d8ldjNwHqoyU_13f6Ik2Xxr2CsvIv4Rtaal6f9qMHO0m7Bq7HUUC6or-ssSw3iPCQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/E1xQzrE_D_9KX_IbcdhiqjSYYEhc5cKUVANdty1K3a_V0asgGp4rWJeobEpFVdBFPeBH",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/H4RMwIL9DXQj630izpHe5ZjFGK96ODaqx-5tGYr8gkKrH6mZsWkWJ4WwwOHwepXdww",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://ecoharmonogram.pl/ecopage/ecoharmonogram_pop_pryw.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=pl.codever.ecoharmonogram",
+    "reviewsUrl": "rev?doc=pl.codever.ecoharmonogram&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=pl.codever.ecoharmonogram",
+    "title": "Eco Harmonogram",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "kontakt@ecoharmonogram.pl"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "25 Mar 2020"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "597",
+      "fiveStarRatings": "770",
+      "fourStarRatings": "104",
+      "oneStarRatings": "104",
+      "ratingsCount": "1113",
+      "starRating": 4.230769,
+      "threeStarRatings": "66",
+      "twoStarRatings": "66",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-11-17 03:40:40.783886",
+    "backendDocid": "pl.codever.ecoharmonogram",
+    "backendId": 3,
+    "creator": "EcoHarmonogram",
+    "descriptionHtml": "Eco harmonogram to aplikacja pozwalaj\u0105ca na pobieranie harmonogramu odbior\u00f3w odpad\u00f3w komunalnych dla twojego adresu zamieszkania w gminach, kt\u00f3re przyst\u0105pi\u0142y do programu Eco Harmonogram. <br><br>Aplikacja pobierze harmonogram dla Twojego adresu zamieszkania dzi\u0119ki czemu nie musisz wyszukiwa\u0107 swojego harmonogramu na stronach gminy lub firm odbieraj\u0105cych odpady.<br>Eco harmonogram automatycznie pobierze r\u00f3wnie\u017c nowe harmonogramy jak i na bie\u017c\u0105co b\u0119dzie aktualizowa\u0107 wszelkie zmiany harmonogramu dla Twojego adresu zamieszkania. <br><br>Aplikacja automatycznie powiadomi ci\u0119 o nadchodz\u0105cym terminie wywozu odpad\u00f3w. <br><br>Aplikacja pozwala na \u015bci\u0105gnie harmonogramu tylko dla gmin, kt\u00f3re przyst\u0105pi\u0142y do programu Eco Harmonogram. Sprawd\u017a dost\u0119pno\u015b\u0107 twojego harmonogramu w aplikacji, gminie lub na http://www.ecoharmonogram.pl",
+    "descriptionShort": "Eco Schedule downloads the waste collection schedule for your home address.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "4295065",
+          "unknown3": 31
+        },
+        "developerEmail": "kontakt@ecoharmonogram.pl",
+        "developerName": "EcoHarmonogram",
+        "developerWebsite": "http://www.ecoharmonogram.pl/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "4295065",
+            "versionCode": 107
+          }
+        ],
+        "installationSize": "4295065",
+        "numDownloads": "100,000+ downloads",
+        "packageName": "pl.codever.ecoharmonogram",
+        "permission": [
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.CAMERA",
+          "android.permission.INTERNET",
+          "android.permission.MICROPHONE",
+          "android.permission.MODIFY_AUDIO_SETTINGS",
+          "android.permission.READ_CALENDAR",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.RECORD_AUDIO",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_CALENDAR",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "pl.codever.ecoharmonogram.permission.C2D_MESSAGE"
+        ],
+        "recentChangesHtml": "Usprawnienia aplikacji. ",
+        "unstable": true,
+        "uploadDate": "8 Nov 2022",
+        "versionCode": 107,
+        "versionString": "1.0.107"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=pl.codever.ecoharmonogram",
+    "docType": 1,
+    "docid": "pl.codever.ecoharmonogram",
+    "image": [
+      {
+        "color": "#EDF0F3",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/LfIFwG-2q22ZZvnxOSvMAgFQ1P3q-rl9EDbSd0OdjCdxUX9r_FS-FHy2AZG1GPD-lDRF",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#000000",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/9-Ffq3z6DCJrAuXMiXJlIJgmfP101noKE4kJ7Um3ABFrdN_uzQlUNvk9gHCO14BkdVU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/60pTMekeBz3CE5vNw_siKfG4cuGaM8c8MmWKvoElqPmNZ_OJ3kEI9Mmrspr-0SarmxM",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/G4d8ldjNwHqoyU_13f6Ik2Xxr2CsvIv4Rtaal6f9qMHO0m7Bq7HUUC6or-ssSw3iPCQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/E1xQzrE_D_9KX_IbcdhiqjSYYEhc5cKUVANdty1K3a_V0asgGp4rWJeobEpFVdBFPeBH",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/H4RMwIL9DXQj630izpHe5ZjFGK96ODaqx-5tGYr8gkKrH6mZsWkWJ4WwwOHwepXdww",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://ecoharmonogram.pl/ecopage/ecoharmonogram_pop_pryw.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=pl.codever.ecoharmonogram",
+    "reviewsUrl": "rev?doc=pl.codever.ecoharmonogram&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=pl.codever.ecoharmonogram",
+    "title": "Eco Harmonogram",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "kontakt@ecoharmonogram.pl"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "3 Jan 2020"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-05-29 10:28:47.740537",
+    "backendDocid": "pl.codever.ecoharmonogram",
+    "backendId": 3,
+    "creator": "EcoHarmonogram",
+    "descriptionHtml": "Eco harmonogram to aplikacja pozwalaj\u0105ca na pobieranie harmonogramu odbior\u00f3w odpad\u00f3w komunalnych dla twojego adresu zamieszkania w gminach, kt\u00f3re przyst\u0105pi\u0142y do programu Eco Harmonogram. <br><br>Aplikacja pobierze harmonogram dla Twojego adresu zamieszkania dzi\u0119ki czemu nie musisz wyszukiwa\u0107 swojego harmonogramu na stronach gminy lub firm odbieraj\u0105cych odpady.<br>Eco harmonogram automatycznie pobierze r\u00f3wnie\u017c nowe harmonogramy jak i na bie\u017c\u0105co b\u0119dzie aktualizowa\u0107 wszelkie zmiany harmonogramu dla Twojego adresu zamieszkania. <br><br>Aplikacja automatycznie powiadomi ci\u0119 o nadchodz\u0105cym terminie wywozu odpad\u00f3w. <br><br>Aplikacja pozwala na \u015bci\u0105gnie harmonogramu tylko dla gmin, kt\u00f3re przyst\u0105pi\u0142y do programu Eco Harmonogram. Sprawd\u017a dost\u0119pno\u015b\u0107 twojego harmonogramu w aplikacji, gminie lub na http://www.ecoharmonogram.pl",
+    "descriptionShort": "Eco Schedule downloads the waste collection schedule for your home address.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "4447270",
+          "unknown3": 31
+        },
+        "developerEmail": "kontakt@ecoharmonogram.pl",
+        "developerName": "EcoHarmonogram",
+        "developerWebsite": "http://www.ecoharmonogram.pl/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "4447270",
+            "versionCode": 108
+          }
+        ],
+        "installationSize": "4447270",
+        "numDownloads": "100,000+ downloads",
+        "packageName": "pl.codever.ecoharmonogram",
+        "permission": [
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.CAMERA",
+          "android.permission.INTERNET",
+          "android.permission.MICROPHONE",
+          "android.permission.MODIFY_AUDIO_SETTINGS",
+          "android.permission.READ_CALENDAR",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.RECORD_AUDIO",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_CALENDAR",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "pl.codever.ecoharmonogram.permission.C2D_MESSAGE"
+        ],
+        "unstable": true,
+        "uploadDate": "23 May 2023",
+        "versionCode": 108,
+        "versionString": "1.0.108"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=pl.codever.ecoharmonogram",
+    "docType": 1,
+    "docid": "pl.codever.ecoharmonogram",
+    "image": [
+      {
+        "color": "#EDF0F3",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/LfIFwG-2q22ZZvnxOSvMAgFQ1P3q-rl9EDbSd0OdjCdxUX9r_FS-FHy2AZG1GPD-lDRF",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#000000",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/9-Ffq3z6DCJrAuXMiXJlIJgmfP101noKE4kJ7Um3ABFrdN_uzQlUNvk9gHCO14BkdVU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/60pTMekeBz3CE5vNw_siKfG4cuGaM8c8MmWKvoElqPmNZ_OJ3kEI9Mmrspr-0SarmxM",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/G4d8ldjNwHqoyU_13f6Ik2Xxr2CsvIv4Rtaal6f9qMHO0m7Bq7HUUC6or-ssSw3iPCQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/E1xQzrE_D_9KX_IbcdhiqjSYYEhc5cKUVANdty1K3a_V0asgGp4rWJeobEpFVdBFPeBH",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/H4RMwIL9DXQj630izpHe5ZjFGK96ODaqx-5tGYr8gkKrH6mZsWkWJ4WwwOHwepXdww",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://ecoharmonogram.pl/ecopage/ecoharmonogram_pop_pryw.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=pl.codever.ecoharmonogram",
+    "reviewsUrl": "rev?doc=pl.codever.ecoharmonogram&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=pl.codever.ecoharmonogram",
+    "title": "Eco Harmonogram",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "kontakt@ecoharmonogram.pl"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "3 Jan 2020"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-06-27 15:42:38.979369",
+    "backendDocid": "pl.codever.ecoharmonogram",
+    "backendId": 3,
+    "creator": "EcoHarmonogram",
+    "descriptionHtml": "Eco harmonogram to aplikacja pozwalaj\u0105ca na pobieranie harmonogramu odbior\u00f3w odpad\u00f3w komunalnych dla twojego adresu zamieszkania w gminach, kt\u00f3re przyst\u0105pi\u0142y do programu Eco Harmonogram. <br><br>Aplikacja pobierze harmonogram dla Twojego adresu zamieszkania dzi\u0119ki czemu nie musisz wyszukiwa\u0107 swojego harmonogramu na stronach gminy lub firm odbieraj\u0105cych odpady.<br>Eco harmonogram automatycznie pobierze r\u00f3wnie\u017c nowe harmonogramy jak i na bie\u017c\u0105co b\u0119dzie aktualizowa\u0107 wszelkie zmiany harmonogramu dla Twojego adresu zamieszkania. <br><br>Aplikacja automatycznie powiadomi ci\u0119 o nadchodz\u0105cym terminie wywozu odpad\u00f3w. <br><br>Aplikacja pozwala na \u015bci\u0105gnie harmonogramu tylko dla gmin, kt\u00f3re przyst\u0105pi\u0142y do programu Eco Harmonogram. Sprawd\u017a dost\u0119pno\u015b\u0107 twojego harmonogramu w aplikacji, gminie lub na http://www.ecoharmonogram.pl",
+    "descriptionShort": "Eco Schedule downloads the waste collection schedule for your home address.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "version": 12451000
+            }
+          ],
+          "unknown2": "4448119",
+          "unknown3": 31
+        },
+        "developerEmail": "kontakt@ecoharmonogram.pl",
+        "developerName": "EcoHarmonogram",
+        "developerWebsite": "http://www.ecoharmonogram.pl/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "4448119",
+            "versionCode": 109
+          }
+        ],
+        "installationSize": "4448119",
+        "numDownloads": "100,000+ downloads",
+        "packageName": "pl.codever.ecoharmonogram",
+        "permission": [
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.CAMERA",
+          "android.permission.INTERNET",
+          "android.permission.MICROPHONE",
+          "android.permission.MODIFY_AUDIO_SETTINGS",
+          "android.permission.READ_CALENDAR",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.RECORD_AUDIO",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_CALENDAR",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "pl.codever.ecoharmonogram.permission.C2D_MESSAGE"
+        ],
+        "recentChangesHtml": "Usprawnienie wersji",
+        "unstable": true,
+        "uploadDate": "3 Jun 2023",
+        "versionCode": 109,
+        "versionString": "1.0.109"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=pl.codever.ecoharmonogram",
+    "docType": 1,
+    "docid": "pl.codever.ecoharmonogram",
+    "image": [
+      {
+        "color": "#EDF0F3",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/LfIFwG-2q22ZZvnxOSvMAgFQ1P3q-rl9EDbSd0OdjCdxUX9r_FS-FHy2AZG1GPD-lDRF",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#000000",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/9-Ffq3z6DCJrAuXMiXJlIJgmfP101noKE4kJ7Um3ABFrdN_uzQlUNvk9gHCO14BkdVU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/60pTMekeBz3CE5vNw_siKfG4cuGaM8c8MmWKvoElqPmNZ_OJ3kEI9Mmrspr-0SarmxM",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/G4d8ldjNwHqoyU_13f6Ik2Xxr2CsvIv4Rtaal6f9qMHO0m7Bq7HUUC6or-ssSw3iPCQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/E1xQzrE_D_9KX_IbcdhiqjSYYEhc5cKUVANdty1K3a_V0asgGp4rWJeobEpFVdBFPeBH",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/H4RMwIL9DXQj630izpHe5ZjFGK96ODaqx-5tGYr8gkKrH6mZsWkWJ4WwwOHwepXdww",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://ecoharmonogram.pl/ecopage/ecoharmonogram_pop_pryw.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=pl.codever.ecoharmonogram",
+    "reviewsUrl": "rev?doc=pl.codever.ecoharmonogram&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=pl.codever.ecoharmonogram",
+    "title": "Eco Harmonogram",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "kontakt@ecoharmonogram.pl"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "3 Jan 2020"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-09-13 20:56:35.408432",
+    "backendDocid": "pl.codever.ecoharmonogram",
+    "backendId": 3,
+    "creator": "EcoHarmonogram",
+    "descriptionHtml": "Eco harmonogram to aplikacja pozwalaj\u0105ca na pobieranie harmonogramu odbior\u00f3w odpad\u00f3w komunalnych dla twojego adresu zamieszkania w gminach, kt\u00f3re przyst\u0105pi\u0142y do programu Eco Harmonogram. <br><br>Aplikacja pobierze harmonogram dla Twojego adresu zamieszkania dzi\u0119ki czemu nie musisz wyszukiwa\u0107 swojego harmonogramu na stronach gminy lub firm odbieraj\u0105cych odpady.<br>Eco harmonogram automatycznie pobierze r\u00f3wnie\u017c nowe harmonogramy jak i na bie\u017c\u0105co b\u0119dzie aktualizowa\u0107 wszelkie zmiany harmonogramu dla Twojego adresu zamieszkania. <br><br>Aplikacja automatycznie powiadomi ci\u0119 o nadchodz\u0105cym terminie wywozu odpad\u00f3w. <br><br>Aplikacja pozwala na \u015bci\u0105gnie harmonogramu tylko dla gmin, kt\u00f3re przyst\u0105pi\u0142y do programu Eco Harmonogram. Sprawd\u017a dost\u0119pno\u015b\u0107 twojego harmonogramu w aplikacji, gminie lub na http://www.ecoharmonogram.pl",
+    "descriptionShort": "Eco Schedule downloads the waste collection schedule for your home address.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "version": 12451000
+            }
+          ],
+          "unknown2": "4428674",
+          "unknown3": 33
+        },
+        "developerEmail": "kontakt@ecoharmonogram.pl",
+        "developerName": "EcoHarmonogram",
+        "developerWebsite": "http://www.ecoharmonogram.pl/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "4428674",
+            "versionCode": 112
+          }
+        ],
+        "installationSize": "4428674",
+        "numDownloads": "100,000+ downloads",
+        "packageName": "pl.codever.ecoharmonogram",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.CAMERA",
+          "android.permission.INTERNET",
+          "android.permission.MICROPHONE",
+          "android.permission.MODIFY_AUDIO_SETTINGS",
+          "android.permission.READ_CALENDAR",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_MEDIA_IMAGES",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.RECORD_AUDIO",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_CALENDAR",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "pl.codever.ecoharmonogram.permission.C2D_MESSAGE"
+        ],
+        "recentChangesHtml": "Usprawnienia aplikacji. ",
+        "unstable": true,
+        "uploadDate": "11 Sept 2023",
+        "versionCode": 112,
+        "versionString": "1.0.112"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=pl.codever.ecoharmonogram",
+    "docType": 1,
+    "docid": "pl.codever.ecoharmonogram",
+    "image": [
+      {
+        "color": "#EDF0F3",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/LfIFwG-2q22ZZvnxOSvMAgFQ1P3q-rl9EDbSd0OdjCdxUX9r_FS-FHy2AZG1GPD-lDRF",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#000000",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/9-Ffq3z6DCJrAuXMiXJlIJgmfP101noKE4kJ7Um3ABFrdN_uzQlUNvk9gHCO14BkdVU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/60pTMekeBz3CE5vNw_siKfG4cuGaM8c8MmWKvoElqPmNZ_OJ3kEI9Mmrspr-0SarmxM",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/G4d8ldjNwHqoyU_13f6Ik2Xxr2CsvIv4Rtaal6f9qMHO0m7Bq7HUUC6or-ssSw3iPCQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/E1xQzrE_D_9KX_IbcdhiqjSYYEhc5cKUVANdty1K3a_V0asgGp4rWJeobEpFVdBFPeBH",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/H4RMwIL9DXQj630izpHe5ZjFGK96ODaqx-5tGYr8gkKrH6mZsWkWJ4WwwOHwepXdww",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://ecoharmonogram.pl/ecopage/ecoharmonogram_pop_pryw.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=pl.codever.ecoharmonogram",
+    "reviewsUrl": "rev?doc=pl.codever.ecoharmonogram&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=pl.codever.ecoharmonogram",
+    "title": "Eco Harmonogram",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "kontakt@ecoharmonogram.pl"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "3 Jan 2020"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "678",
+      "fiveStarRatings": "835",
+      "fourStarRatings": "120",
+      "oneStarRatings": "211",
+      "ratingsCount": "1238",
+      "starRating": 4.0731707,
+      "threeStarRatings": "30",
+      "twoStarRatings": "40",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-09-16 12:36:34.838647",
+    "backendDocid": "pl.codever.ecoharmonogram",
+    "backendId": 3,
+    "creator": "EcoHarmonogram",
+    "descriptionHtml": "Eco harmonogram to aplikacja pozwalaj\u0105ca na pobieranie harmonogramu odbior\u00f3w odpad\u00f3w komunalnych dla twojego adresu zamieszkania w gminach, kt\u00f3re przyst\u0105pi\u0142y do programu Eco Harmonogram. <br><br>Aplikacja pobierze harmonogram dla Twojego adresu zamieszkania dzi\u0119ki czemu nie musisz wyszukiwa\u0107 swojego harmonogramu na stronach gminy lub firm odbieraj\u0105cych odpady.<br>Eco harmonogram automatycznie pobierze r\u00f3wnie\u017c nowe harmonogramy jak i na bie\u017c\u0105co b\u0119dzie aktualizowa\u0107 wszelkie zmiany harmonogramu dla Twojego adresu zamieszkania. <br><br>Aplikacja automatycznie powiadomi ci\u0119 o nadchodz\u0105cym terminie wywozu odpad\u00f3w. <br><br>Aplikacja pozwala na \u015bci\u0105gnie harmonogramu tylko dla gmin, kt\u00f3re przyst\u0105pi\u0142y do programu Eco Harmonogram. Sprawd\u017a dost\u0119pno\u015b\u0107 twojego harmonogramu w aplikacji, gminie lub na http://www.ecoharmonogram.pl",
+    "descriptionShort": "Eco Schedule downloads the waste collection schedule for your home address.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "version": 12451000
+            }
+          ],
+          "unknown2": "5951589",
+          "unknown3": 33
+        },
+        "developerEmail": "kontakt@ecoharmonogram.pl",
+        "developerName": "EcoHarmonogram",
+        "developerWebsite": "http://www.ecoharmonogram.pl/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "5951589",
+            "versionCode": 113
+          }
+        ],
+        "installationSize": "5951589",
+        "numDownloads": "100,000+ downloads",
+        "packageName": "pl.codever.ecoharmonogram",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.CAMERA",
+          "android.permission.INTERNET",
+          "android.permission.MICROPHONE",
+          "android.permission.MODIFY_AUDIO_SETTINGS",
+          "android.permission.POST_NOTIFICATIONS",
+          "android.permission.READ_CALENDAR",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_MEDIA_IMAGES",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.RECORD_AUDIO",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_CALENDAR",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "pl.codever.ecoharmonogram.permission.C2D_MESSAGE"
+        ],
+        "recentChangesHtml": "Usprawnienia wersji.",
+        "unstable": true,
+        "uploadDate": "14 Sept 2023",
+        "versionCode": 113,
+        "versionString": "1.0.113"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=pl.codever.ecoharmonogram",
+    "docType": 1,
+    "docid": "pl.codever.ecoharmonogram",
+    "image": [
+      {
+        "color": "#EDF0F3",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/LfIFwG-2q22ZZvnxOSvMAgFQ1P3q-rl9EDbSd0OdjCdxUX9r_FS-FHy2AZG1GPD-lDRF",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#000000",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/9-Ffq3z6DCJrAuXMiXJlIJgmfP101noKE4kJ7Um3ABFrdN_uzQlUNvk9gHCO14BkdVU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/60pTMekeBz3CE5vNw_siKfG4cuGaM8c8MmWKvoElqPmNZ_OJ3kEI9Mmrspr-0SarmxM",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/G4d8ldjNwHqoyU_13f6Ik2Xxr2CsvIv4Rtaal6f9qMHO0m7Bq7HUUC6or-ssSw3iPCQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/E1xQzrE_D_9KX_IbcdhiqjSYYEhc5cKUVANdty1K3a_V0asgGp4rWJeobEpFVdBFPeBH",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/H4RMwIL9DXQj630izpHe5ZjFGK96ODaqx-5tGYr8gkKrH6mZsWkWJ4WwwOHwepXdww",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://ecoharmonogram.pl/ecopage/ecoharmonogram_pop_pryw.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=pl.codever.ecoharmonogram",
+    "reviewsUrl": "rev?doc=pl.codever.ecoharmonogram&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=pl.codever.ecoharmonogram",
+    "title": "Eco Harmonogram",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "kontakt@ecoharmonogram.pl"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "3 Jan 2020"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-10-18 05:40:00.378551",
+    "backendDocid": "pl.codever.ecoharmonogram",
+    "backendId": 3,
+    "creator": "EcoHarmonogram",
+    "descriptionHtml": "Eco harmonogram to aplikacja pozwalaj\u0105ca na pobieranie harmonogramu odbior\u00f3w odpad\u00f3w komunalnych dla twojego adresu zamieszkania w gminach, kt\u00f3re przyst\u0105pi\u0142y do programu Eco Harmonogram. <br><br>Aplikacja pobierze harmonogram dla Twojego adresu zamieszkania dzi\u0119ki czemu nie musisz wyszukiwa\u0107 swojego harmonogramu na stronach gminy lub firm odbieraj\u0105cych odpady.<br>Eco harmonogram automatycznie pobierze r\u00f3wnie\u017c nowe harmonogramy jak i na bie\u017c\u0105co b\u0119dzie aktualizowa\u0107 wszelkie zmiany harmonogramu dla Twojego adresu zamieszkania. <br><br>Aplikacja automatycznie powiadomi ci\u0119 o nadchodz\u0105cym terminie wywozu odpad\u00f3w. <br><br>Aplikacja pozwala na \u015bci\u0105gnie harmonogramu tylko dla gmin, kt\u00f3re przyst\u0105pi\u0142y do programu Eco Harmonogram. Sprawd\u017a dost\u0119pno\u015b\u0107 twojego harmonogramu w aplikacji, gminie lub na http://www.ecoharmonogram.pl",
+    "descriptionShort": "Eco Schedule downloads the waste collection schedule for your home address.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "version": 12451000
+            }
+          ],
+          "unknown2": "5951352",
+          "unknown3": 33
+        },
+        "developerEmail": "kontakt@ecoharmonogram.pl",
+        "developerName": "EcoHarmonogram",
+        "developerWebsite": "http://www.ecoharmonogram.pl/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "5951352",
+            "versionCode": 114
+          }
+        ],
+        "installationSize": "5951352",
+        "numDownloads": "100,000+ downloads",
+        "packageName": "pl.codever.ecoharmonogram",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.CAMERA",
+          "android.permission.INTERNET",
+          "android.permission.MICROPHONE",
+          "android.permission.MODIFY_AUDIO_SETTINGS",
+          "android.permission.POST_NOTIFICATIONS",
+          "android.permission.READ_CALENDAR",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_MEDIA_IMAGES",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.RECORD_AUDIO",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_CALENDAR",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "pl.codever.ecoharmonogram.permission.C2D_MESSAGE"
+        ],
+        "recentChangesHtml": "Poprawa dzia\u0142ania dla wersji android 7.0",
+        "unstable": true,
+        "uploadDate": "16 Oct 2023",
+        "versionCode": 114,
+        "versionString": "1.0.114"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=pl.codever.ecoharmonogram",
+    "docType": 1,
+    "docid": "pl.codever.ecoharmonogram",
+    "image": [
+      {
+        "color": "#EDF0F3",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/LfIFwG-2q22ZZvnxOSvMAgFQ1P3q-rl9EDbSd0OdjCdxUX9r_FS-FHy2AZG1GPD-lDRF",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#000000",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/9-Ffq3z6DCJrAuXMiXJlIJgmfP101noKE4kJ7Um3ABFrdN_uzQlUNvk9gHCO14BkdVU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/60pTMekeBz3CE5vNw_siKfG4cuGaM8c8MmWKvoElqPmNZ_OJ3kEI9Mmrspr-0SarmxM",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/G4d8ldjNwHqoyU_13f6Ik2Xxr2CsvIv4Rtaal6f9qMHO0m7Bq7HUUC6or-ssSw3iPCQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/E1xQzrE_D_9KX_IbcdhiqjSYYEhc5cKUVANdty1K3a_V0asgGp4rWJeobEpFVdBFPeBH",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/H4RMwIL9DXQj630izpHe5ZjFGK96ODaqx-5tGYr8gkKrH6mZsWkWJ4WwwOHwepXdww",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "GBP",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://ecoharmonogram.pl/ecopage/ecoharmonogram_pop_pryw.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=pl.codever.ecoharmonogram",
+    "reviewsUrl": "rev?doc=pl.codever.ecoharmonogram&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=pl.codever.ecoharmonogram",
+    "title": "Eco Harmonogram",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "kontakt@ecoharmonogram.pl"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "25 Mar 2020"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "737",
+      "fiveStarRatings": "843",
+      "fourStarRatings": "110",
+      "oneStarRatings": "261",
+      "ratingsCount": "1366",
+      "starRating": 3.875,
+      "threeStarRatings": "70",
+      "twoStarRatings": "80",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2024-07-05 11:51:59.718349",
+    "backendDocid": "pl.codever.ecoharmonogram",
+    "backendId": 3,
+    "creator": "EcoHarmonogram",
+    "descriptionHtml": "Eco harmonogram to aplikacja pozwalaj\u0105ca na pobieranie harmonogramu odbior\u00f3w odpad\u00f3w komunalnych dla twojego adresu zamieszkania w gminach, kt\u00f3re przyst\u0105pi\u0142y do programu Eco Harmonogram. <br><br>Aplikacja pobierze harmonogram dla Twojego adresu zamieszkania dzi\u0119ki czemu nie musisz wyszukiwa\u0107 swojego harmonogramu na stronach gminy lub firm odbieraj\u0105cych odpady.<br>Eco harmonogram automatycznie pobierze r\u00f3wnie\u017c nowe harmonogramy jak i na bie\u017c\u0105co b\u0119dzie aktualizowa\u0107 wszelkie zmiany harmonogramu dla Twojego adresu zamieszkania. <br><br>Aplikacja automatycznie powiadomi ci\u0119 o nadchodz\u0105cym terminie wywozu odpad\u00f3w. <br><br>Aplikacja pozwala na \u015bci\u0105gnie harmonogramu tylko dla gmin, kt\u00f3re przyst\u0105pi\u0142y do programu Eco Harmonogram. Sprawd\u017a dost\u0119pno\u015b\u0107 twojego harmonogramu w aplikacji, gminie lub na http://www.ecoharmonogram.pl",
+    "descriptionShort": "Eco Schedule downloads the waste collection schedule for your home address.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "version": 12451000
+            }
+          ],
+          "unknown2": "5707897",
+          "unknown3": 33
+        },
+        "developerEmail": "kontakt@ecoharmonogram.pl",
+        "developerName": "EcoHarmonogram",
+        "developerWebsite": "http://www.ecoharmonogram.pl/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "5707897",
+            "versionCode": 117
+          }
+        ],
+        "installationSize": "5707897",
+        "numDownloads": "100,000+ downloads",
+        "packageName": "pl.codever.ecoharmonogram",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.CAMERA",
+          "android.permission.INTERNET",
+          "android.permission.MICROPHONE",
+          "android.permission.MODIFY_AUDIO_SETTINGS",
+          "android.permission.POST_NOTIFICATIONS",
+          "android.permission.READ_CALENDAR",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_MEDIA_IMAGES",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.RECORD_AUDIO",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_CALENDAR",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "pl.codever.ecoharmonogram.permission.C2D_MESSAGE"
+        ],
+        "recentChangesHtml": "Usprawnienia aplikacji.",
+        "unstable": true,
+        "uploadDate": "21 Jun 2024",
+        "versionCode": 117,
+        "versionString": "1.0.117"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=pl.codever.ecoharmonogram&vc=117",
+    "docType": 1,
+    "docid": "pl.codever.ecoharmonogram",
+    "image": [
+      {
+        "color": "#EDF0F3",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/LfIFwG-2q22ZZvnxOSvMAgFQ1P3q-rl9EDbSd0OdjCdxUX9r_FS-FHy2AZG1GPD-lDRF",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#000000",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/9-Ffq3z6DCJrAuXMiXJlIJgmfP101noKE4kJ7Um3ABFrdN_uzQlUNvk9gHCO14BkdVU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/60pTMekeBz3CE5vNw_siKfG4cuGaM8c8MmWKvoElqPmNZ_OJ3kEI9Mmrspr-0SarmxM",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/G4d8ldjNwHqoyU_13f6Ik2Xxr2CsvIv4Rtaal6f9qMHO0m7Bq7HUUC6or-ssSw3iPCQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/E1xQzrE_D_9KX_IbcdhiqjSYYEhc5cKUVANdty1K3a_V0asgGp4rWJeobEpFVdBFPeBH",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/H4RMwIL9DXQj630izpHe5ZjFGK96ODaqx-5tGYr8gkKrH6mZsWkWJ4WwwOHwepXdww",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://ecoharmonogram.pl/ecopage/ecoharmonogram_pop_pryw.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=pl.codever.ecoharmonogram",
+    "reviewsUrl": "rev?doc=pl.codever.ecoharmonogram&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=pl.codever.ecoharmonogram",
+    "title": "Eco Harmonogram\n1.0.117",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "kontakt@ecoharmonogram.pl"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "3 Jan 2020"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  }
+]

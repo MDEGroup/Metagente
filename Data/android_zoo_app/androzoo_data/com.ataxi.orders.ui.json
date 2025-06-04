@@ -1,0 +1,4577 @@
+[
+  {
+    "aggregateRating": {
+      "commentCount": "164",
+      "fiveStarRatings": "134",
+      "fourStarRatings": "41",
+      "oneStarRatings": "85",
+      "ratingsCount": "373",
+      "starRating": 3.2200000286102295,
+      "threeStarRatings": "55",
+      "twoStarRatings": "55",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-05-31 20:19:18.217737",
+    "backendDocid": "com.ataxi.orders.ui",
+    "backendId": 3,
+    "creator": "Automated National Dispatch",
+    "descriptionHtml": "Taxi Now Taxi Later<br><br>by American Taxi Dispatch, Inc.<br><br>847-253-4411<br>708-424-7878<br>630-920-9480<br>800-244-1177<br><br>Order a Suburban Chicago area taxi from your mobile device anywhere, any time.<br>Your order will go direct to dispatch for the fastest service possible.<br><br>\u2022 GPS locator to verify your pick up location<br>\u2022 Your saved profile will show your common locations<br>\u2022 Order your taxi for immediate pick up or later pick up<br>\u2022 Check, change, and cancel your order any time<br>\u2022 Airport and Chicago pickups going to Suburban locations<br>\u2022 Suburban locations going to Chicago or Milwaukee or airports<br>\u2022 ETA/ taxi number texted to you<br><br>American Taxi Dispatch, Inc. is the largest suburban Chicago, IL taxi dispatch service serving all suburbs, airports and downtown. All rides must begin or end in a suburb. We offer low flat rates to and from airports and downtown locations.<br><br>Our easy and secure online ordering through tablet and smartphone, or any computer, goes direct to dispatch so there is no delay in the order process. When you log in you can order your taxi immediately, or choose a later time or date and the order will remain in the dispatch system until it is completed.<br><br>You can retrieve your order on your mobile device to check for estimated time of arrival to your pick up location, change date, time or any other feature, or cancel your order.<br><br>You can add commonly used travel locations (except airports, which are already shortcuts) to make ordering faster and easier. Save the shortcut name, such as work, dentist, home, or favorite restaurant, and the name and address of the location in your permanent profile and you can scroll to that shortcut to quickly enter that location in your order.<br><br>Save all cell phone, office and home phone numbers in your profile so if you need to call, our automated system will recognize any of those numbers and quickly place your order.<br><br>We accept all major credit cards, coupons and village sponsored senior discount taxi coupon programs. Remember, it&#39;s quicker to click than to call!",
+    "descriptionShort": "Order a Suburban Chicago area taxi from your mobile device anywhere, any time.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "6130348",
+          "unknown3": 28
+        },
+        "developerEmail": "developer@americantaxi.com",
+        "developerName": "Automated National Dispatch",
+        "developerWebsite": "http://www.americantaxi.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "6130348",
+            "versionCode": 113
+          }
+        ],
+        "installationSize": "6130348",
+        "numDownloads": "50,000+ downloads",
+        "packageName": "com.ataxi.orders.ui",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.CALL_PHONE",
+          "android.permission.GET_ACCOUNTS",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.ataxi.orders.ui.permission.C2D_MESSAGE",
+          "com.ataxi.orders.ui.permission.MAPS_RECEIVE",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.providers.gsf.permission.READ_GSERVICES"
+        ],
+        "recentChangesHtml": "1. In addition to Google Pay support added other payment method like Corporate ePayment Account and Corporate ePayment Code",
+        "unstable": false,
+        "uploadDate": "18 May 2020",
+        "versionCode": 113,
+        "versionString": "2.6.40"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.ataxi.orders.ui",
+    "docType": 1,
+    "docid": "com.ataxi.orders.ui",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://lh3.googleusercontent.com/tPJGgznOqG1-NdmHchgD5DDQj4ibFqde3eVNuc7mFVr34T9A3Fad5GMfbESaBF419Uoc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 4,
+        "imageUrl": "https://lh3.googleusercontent.com/Ixyr3NO3oA6YlqkkX__TsjnhFFyegSTkx0ifcCj1wuS3771K-Ae-8lCNPhs5a_2pm4Gb",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/EF77lrleUblwJ-4tuU40ZzlbCZxvdXs2OjyHDFwU5MU52OeLtrN-Zy7bvmFrpPRYQKQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/9t71kx36stfmRzWiCHClfgkZZPs1C95yeuuKtrE7Bj06ZO-IjeNBxkqXyJoZWJcqCF8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/jkhqea5DcUMqRk_GxJ4OZSN1l9dzt7VxIL9ICQRwHXthpVT8Lx0QEEYaiGwjfkLNKm8Q",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/08lYyOyoM4EhCufHUvJJUtSYg_g3iXjadnR6pvKCktP2dwjIFkcwWv4P4caiymygTj8r",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/SaHI9cUeiYhSoA7v_653mVvqmGK_yjfzz28UlCtJy0gMf0qGxqTtVvlBtn472h0OCBE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/TJlGqyH6_baFsaqxhAbxsxaL3mPj69z9a4hI6C644r1hDLYc8uJcje6xRAxAyTrKhps",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/hLLJqzaI_22UeE9q1lGkPDt5TBN4EBMPuMGzxg6yKKcz7KVx0uopzFVmgo7Y0rahFQNH",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/SGBuaFfUa-e6B4chUVHBN6YaPERIru-xa16EJApQZmGctwpT8XvJWUcO19RqQOh-zPg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1024,
+          "width": 600
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/0OJjhkboZ_cwL5Z6hif1bFR7Z819LGp-2XPij4k-t5_w2hn-VFEtNUMxJ78QUC4qr7s",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1024,
+          "width": 600
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/MeKUnx-MYp5F_Gne6508t7aJ3UpN1ob3WOwzn7iQ3_0Rh1O1aNn-9Vv97z0CYnPHnWQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1024,
+          "width": 600
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/T4GmVbQeXWxEGKOOAefI7OvIR7K3XxiJ78hT1JCrZzQRzf4PBTiHeZN9MRSQhDa4uCQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1024,
+          "width": 600
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/Qqk9WheROCwz63b4PQHM_jwB5PoeIe0AUuIcKBOYeucGZwK60A3A8JpUlXCzEwCHEtk",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1024,
+          "width": 600
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/hY_gMJSZ49fNbYoE5GRCD-YxujLuTI_Y49GxjWCaWK4mKaGF3KfPfsoffl36d0zCZ1Iy",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1024,
+          "width": 600
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/Wj-7xAqAoKFZcUqMz40VpDetYG9VzCpej5r9hqeHRZZRzdvmDTIbu0aMKTxQTfACQow",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1024,
+          "width": 600
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/Sx-1TymAjo45TGWameeVmSB7Q23lZ070-2bxIjfXuAlvPRCEqvCaIYTcdBV09v-mBTR4",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://www.americantaxi.com/ATOnlineOrderWeb/privacyStatement.jsp",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://lh3.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.ataxi.orders.ui",
+    "reviewsUrl": "rev?doc=com.ataxi.orders.ui&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.ataxi.orders.ui",
+    "title": "American Taxi Dispatch",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "developer@americantaxi.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "27 Dec 2014"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "165",
+      "fiveStarRatings": "130",
+      "fourStarRatings": "41",
+      "oneStarRatings": "89",
+      "ratingsCount": "374",
+      "starRating": 3.18,
+      "threeStarRatings": "56",
+      "twoStarRatings": "56",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-07-05 04:11:13.766433",
+    "backendDocid": "com.ataxi.orders.ui",
+    "backendId": 3,
+    "creator": "Automated National Dispatch",
+    "descriptionHtml": "Taxi Now Taxi Later<br><br>by American Taxi Dispatch, Inc.<br><br>847-253-4411<br>708-424-7878<br>630-920-9480<br>800-244-1177<br><br>Order a Suburban Chicago area taxi from your mobile device anywhere, any time.<br>Your order will go direct to dispatch for the fastest service possible.<br><br>\u2022 GPS locator to verify your pick up location<br>\u2022 Your saved profile will show your common locations<br>\u2022 Order your taxi for immediate pick up or later pick up<br>\u2022 Check, change, and cancel your order any time<br>\u2022 Airport and Chicago pickups going to Suburban locations<br>\u2022 Suburban locations going to Chicago or Milwaukee or airports<br>\u2022 ETA/ taxi number texted to you<br><br>American Taxi Dispatch, Inc. is the largest suburban Chicago, IL taxi dispatch service serving all suburbs, airports and downtown. All rides must begin or end in a suburb. We offer low flat rates to and from airports and downtown locations.<br><br>Our easy and secure online ordering through tablet and smartphone, or any computer, goes direct to dispatch so there is no delay in the order process. When you log in you can order your taxi immediately, or choose a later time or date and the order will remain in the dispatch system until it is completed.<br><br>You can retrieve your order on your mobile device to check for estimated time of arrival to your pick up location, change date, time or any other feature, or cancel your order.<br><br>You can add commonly used travel locations (except airports, which are already shortcuts) to make ordering faster and easier. Save the shortcut name, such as work, dentist, home, or favorite restaurant, and the name and address of the location in your permanent profile and you can scroll to that shortcut to quickly enter that location in your order.<br><br>Save all cell phone, office and home phone numbers in your profile so if you need to call, our automated system will recognize any of those numbers and quickly place your order.<br><br>We accept all major credit cards, coupons and village sponsored senior discount taxi coupon programs. Remember, it&#39;s quicker to click than to call!",
+    "descriptionShort": "Order a Suburban Chicago area taxi from your mobile device anywhere, any time.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "6338937",
+          "unknown3": 28
+        },
+        "developerEmail": "developer@americantaxi.com",
+        "developerName": "Automated National Dispatch",
+        "developerWebsite": "http://www.americantaxi.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "6338937",
+            "versionCode": 114
+          }
+        ],
+        "installationSize": "6338937",
+        "numDownloads": "50,000+ downloads",
+        "packageName": "com.ataxi.orders.ui",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.CALL_PHONE",
+          "android.permission.GET_ACCOUNTS",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.ataxi.orders.ui.permission.C2D_MESSAGE",
+          "com.ataxi.orders.ui.permission.MAPS_RECEIVE",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.providers.gsf.permission.READ_GSERVICES"
+        ],
+        "recentChangesHtml": "1. In addition to Google Pay support added an other payment method for customer&#39;s ease , Corporate ePayment Account and Corporate ePayment Code",
+        "unstable": false,
+        "uploadDate": "26 Jun 2020",
+        "versionCode": 114,
+        "versionString": "2.6.41"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.ataxi.orders.ui",
+    "docType": 1,
+    "docid": "com.ataxi.orders.ui",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://lh3.googleusercontent.com/tPJGgznOqG1-NdmHchgD5DDQj4ibFqde3eVNuc7mFVr34T9A3Fad5GMfbESaBF419Uoc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 4,
+        "imageUrl": "https://lh3.googleusercontent.com/Ixyr3NO3oA6YlqkkX__TsjnhFFyegSTkx0ifcCj1wuS3771K-Ae-8lCNPhs5a_2pm4Gb",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/EF77lrleUblwJ-4tuU40ZzlbCZxvdXs2OjyHDFwU5MU52OeLtrN-Zy7bvmFrpPRYQKQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/9t71kx36stfmRzWiCHClfgkZZPs1C95yeuuKtrE7Bj06ZO-IjeNBxkqXyJoZWJcqCF8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/jkhqea5DcUMqRk_GxJ4OZSN1l9dzt7VxIL9ICQRwHXthpVT8Lx0QEEYaiGwjfkLNKm8Q",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/08lYyOyoM4EhCufHUvJJUtSYg_g3iXjadnR6pvKCktP2dwjIFkcwWv4P4caiymygTj8r",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/SaHI9cUeiYhSoA7v_653mVvqmGK_yjfzz28UlCtJy0gMf0qGxqTtVvlBtn472h0OCBE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/TJlGqyH6_baFsaqxhAbxsxaL3mPj69z9a4hI6C644r1hDLYc8uJcje6xRAxAyTrKhps",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/hLLJqzaI_22UeE9q1lGkPDt5TBN4EBMPuMGzxg6yKKcz7KVx0uopzFVmgo7Y0rahFQNH",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/SGBuaFfUa-e6B4chUVHBN6YaPERIru-xa16EJApQZmGctwpT8XvJWUcO19RqQOh-zPg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1024,
+          "width": 600
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/0OJjhkboZ_cwL5Z6hif1bFR7Z819LGp-2XPij4k-t5_w2hn-VFEtNUMxJ78QUC4qr7s",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1024,
+          "width": 600
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/MeKUnx-MYp5F_Gne6508t7aJ3UpN1ob3WOwzn7iQ3_0Rh1O1aNn-9Vv97z0CYnPHnWQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1024,
+          "width": 600
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/T4GmVbQeXWxEGKOOAefI7OvIR7K3XxiJ78hT1JCrZzQRzf4PBTiHeZN9MRSQhDa4uCQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1024,
+          "width": 600
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/Qqk9WheROCwz63b4PQHM_jwB5PoeIe0AUuIcKBOYeucGZwK60A3A8JpUlXCzEwCHEtk",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1024,
+          "width": 600
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/hY_gMJSZ49fNbYoE5GRCD-YxujLuTI_Y49GxjWCaWK4mKaGF3KfPfsoffl36d0zCZ1Iy",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1024,
+          "width": 600
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/Wj-7xAqAoKFZcUqMz40VpDetYG9VzCpej5r9hqeHRZZRzdvmDTIbu0aMKTxQTfACQow",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1024,
+          "width": 600
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/Sx-1TymAjo45TGWameeVmSB7Q23lZ070-2bxIjfXuAlvPRCEqvCaIYTcdBV09v-mBTR4",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://www.americantaxi.com/ATOnlineOrderWeb/privacyStatement.jsp",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://lh3.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.ataxi.orders.ui",
+    "reviewsUrl": "rev?doc=com.ataxi.orders.ui&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.ataxi.orders.ui",
+    "title": "American Taxi Dispatch",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "developer@americantaxi.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "27 Dec 2014"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "165",
+      "fiveStarRatings": "130",
+      "fourStarRatings": "41",
+      "oneStarRatings": "89",
+      "ratingsCount": "374",
+      "starRating": 3.18,
+      "threeStarRatings": "56",
+      "twoStarRatings": "56",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-07-16 03:56:40.711077",
+    "backendDocid": "com.ataxi.orders.ui",
+    "backendId": 3,
+    "creator": "Automated National Dispatch",
+    "descriptionHtml": "Taxi Now Taxi Later<br><br>by American Taxi Dispatch, Inc.<br><br>847-253-4411<br>708-424-7878<br>630-920-9480<br>800-244-1177<br><br>Order a Suburban Chicago area taxi from your mobile device anywhere, any time.<br>Your order will go direct to dispatch for the fastest service possible.<br><br>\u2022 GPS locator to verify your pick up location<br>\u2022 Your saved profile will show your common locations<br>\u2022 Order your taxi for immediate pick up or later pick up<br>\u2022 Check, change, and cancel your order any time<br>\u2022 Airport and Chicago pickups going to Suburban locations<br>\u2022 Suburban locations going to Chicago or Milwaukee or airports<br>\u2022 ETA/ taxi number texted to you<br><br>American Taxi Dispatch, Inc. is the largest suburban Chicago, IL taxi dispatch service serving all suburbs, airports and downtown. All rides must begin or end in a suburb. We offer low flat rates to and from airports and downtown locations.<br><br>Our easy and secure online ordering through tablet and smartphone, or any computer, goes direct to dispatch so there is no delay in the order process. When you log in you can order your taxi immediately, or choose a later time or date and the order will remain in the dispatch system until it is completed.<br><br>You can retrieve your order on your mobile device to check for estimated time of arrival to your pick up location, change date, time or any other feature, or cancel your order.<br><br>You can add commonly used travel locations (except airports, which are already shortcuts) to make ordering faster and easier. Save the shortcut name, such as work, dentist, home, or favorite restaurant, and the name and address of the location in your permanent profile and you can scroll to that shortcut to quickly enter that location in your order.<br><br>Save all cell phone, office and home phone numbers in your profile so if you need to call, our automated system will recognize any of those numbers and quickly place your order.<br><br>We accept all major credit cards, coupons and village sponsored senior discount taxi coupon programs. Remember, it&#39;s quicker to click than to call!",
+    "descriptionShort": "Order a Suburban Chicago area taxi from your mobile device anywhere, any time.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "6341117",
+          "unknown3": 28
+        },
+        "developerEmail": "developer@americantaxi.com",
+        "developerName": "Automated National Dispatch",
+        "developerWebsite": "http://www.americantaxi.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "6341117",
+            "versionCode": 115
+          }
+        ],
+        "installationSize": "6341117",
+        "numDownloads": "50,000+ downloads",
+        "packageName": "com.ataxi.orders.ui",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.CALL_PHONE",
+          "android.permission.GET_ACCOUNTS",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.ataxi.orders.ui.permission.C2D_MESSAGE",
+          "com.ataxi.orders.ui.permission.MAPS_RECEIVE",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.providers.gsf.permission.READ_GSERVICES"
+        ],
+        "recentChangesHtml": "1. Minor UI fixes",
+        "unstable": false,
+        "versionCode": 115,
+        "versionString": "2.6.42"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.ataxi.orders.ui",
+    "docType": 1,
+    "docid": "com.ataxi.orders.ui",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://lh3.googleusercontent.com/tPJGgznOqG1-NdmHchgD5DDQj4ibFqde3eVNuc7mFVr34T9A3Fad5GMfbESaBF419Uoc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 4,
+        "imageUrl": "https://lh3.googleusercontent.com/Ixyr3NO3oA6YlqkkX__TsjnhFFyegSTkx0ifcCj1wuS3771K-Ae-8lCNPhs5a_2pm4Gb",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/EF77lrleUblwJ-4tuU40ZzlbCZxvdXs2OjyHDFwU5MU52OeLtrN-Zy7bvmFrpPRYQKQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/9t71kx36stfmRzWiCHClfgkZZPs1C95yeuuKtrE7Bj06ZO-IjeNBxkqXyJoZWJcqCF8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/jkhqea5DcUMqRk_GxJ4OZSN1l9dzt7VxIL9ICQRwHXthpVT8Lx0QEEYaiGwjfkLNKm8Q",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/08lYyOyoM4EhCufHUvJJUtSYg_g3iXjadnR6pvKCktP2dwjIFkcwWv4P4caiymygTj8r",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/SaHI9cUeiYhSoA7v_653mVvqmGK_yjfzz28UlCtJy0gMf0qGxqTtVvlBtn472h0OCBE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/TJlGqyH6_baFsaqxhAbxsxaL3mPj69z9a4hI6C644r1hDLYc8uJcje6xRAxAyTrKhps",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/hLLJqzaI_22UeE9q1lGkPDt5TBN4EBMPuMGzxg6yKKcz7KVx0uopzFVmgo7Y0rahFQNH",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/SGBuaFfUa-e6B4chUVHBN6YaPERIru-xa16EJApQZmGctwpT8XvJWUcO19RqQOh-zPg",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://www.americantaxi.com/ATOnlineOrderWeb/privacyStatement.jsp",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://lh3.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.ataxi.orders.ui",
+    "reviewsUrl": "rev?doc=com.ataxi.orders.ui&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.ataxi.orders.ui",
+    "title": "American Taxi Dispatch",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "developer@americantaxi.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "27 Dec 2014"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "166",
+      "fiveStarRatings": "135",
+      "fourStarRatings": "41",
+      "oneStarRatings": "86",
+      "ratingsCount": "376",
+      "starRating": 3.22,
+      "threeStarRatings": "56",
+      "twoStarRatings": "56",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-08-09 08:34:01.857394",
+    "backendDocid": "com.ataxi.orders.ui",
+    "backendId": 3,
+    "creator": "Automated National Dispatch",
+    "descriptionHtml": "Taxi Now Taxi Later<br><br>by American Taxi Dispatch, Inc.<br><br>847-253-4411<br>708-424-7878<br>630-920-9480<br>800-244-1177<br><br>Order a Suburban Chicago area taxi from your mobile device anywhere, any time.<br>Your order will go direct to dispatch for the fastest service possible.<br><br>\u2022 GPS locator to verify your pick up location<br>\u2022 Your saved profile will show your common locations<br>\u2022 Order your taxi for immediate pick up or later pick up<br>\u2022 Check, change, and cancel your order any time<br>\u2022 Airport and Chicago pickups going to Suburban locations<br>\u2022 Suburban locations going to Chicago or Milwaukee or airports<br>\u2022 ETA/ taxi number texted to you<br><br>American Taxi Dispatch, Inc. is the largest suburban Chicago, IL taxi dispatch service serving all suburbs, airports and downtown. All rides must begin or end in a suburb. We offer low flat rates to and from airports and downtown locations.<br><br>Our easy and secure online ordering through tablet and smartphone, or any computer, goes direct to dispatch so there is no delay in the order process. When you log in you can order your taxi immediately, or choose a later time or date and the order will remain in the dispatch system until it is completed.<br><br>You can retrieve your order on your mobile device to check for estimated time of arrival to your pick up location, change date, time or any other feature, or cancel your order.<br><br>You can add commonly used travel locations (except airports, which are already shortcuts) to make ordering faster and easier. Save the shortcut name, such as work, dentist, home, or favorite restaurant, and the name and address of the location in your permanent profile and you can scroll to that shortcut to quickly enter that location in your order.<br><br>Save all cell phone, office and home phone numbers in your profile so if you need to call, our automated system will recognize any of those numbers and quickly place your order.<br><br>We accept all major credit cards, coupons and village sponsored senior discount taxi coupon programs. Remember, it&#39;s quicker to click than to call!",
+    "descriptionShort": "Order a Suburban Chicago area taxi from your mobile device anywhere, any time.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "6344299",
+          "unknown3": 28
+        },
+        "developerEmail": "developer@americantaxi.com",
+        "developerName": "Automated National Dispatch",
+        "developerWebsite": "http://www.americantaxi.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "6344299",
+            "versionCode": 116
+          }
+        ],
+        "installationSize": "6344299",
+        "numDownloads": "50,000+ downloads",
+        "packageName": "com.ataxi.orders.ui",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.CALL_PHONE",
+          "android.permission.GET_ACCOUNTS",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.ataxi.orders.ui.permission.C2D_MESSAGE",
+          "com.ataxi.orders.ui.permission.MAPS_RECEIVE",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.providers.gsf.permission.READ_GSERVICES"
+        ],
+        "recentChangesHtml": "1. Added tip text field along with tip options",
+        "unstable": false,
+        "versionCode": 116,
+        "versionString": "2.6.43"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.ataxi.orders.ui",
+    "docType": 1,
+    "docid": "com.ataxi.orders.ui",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://lh3.googleusercontent.com/tPJGgznOqG1-NdmHchgD5DDQj4ibFqde3eVNuc7mFVr34T9A3Fad5GMfbESaBF419Uoc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 4,
+        "imageUrl": "https://lh3.googleusercontent.com/Ixyr3NO3oA6YlqkkX__TsjnhFFyegSTkx0ifcCj1wuS3771K-Ae-8lCNPhs5a_2pm4Gb",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/EF77lrleUblwJ-4tuU40ZzlbCZxvdXs2OjyHDFwU5MU52OeLtrN-Zy7bvmFrpPRYQKQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/9t71kx36stfmRzWiCHClfgkZZPs1C95yeuuKtrE7Bj06ZO-IjeNBxkqXyJoZWJcqCF8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/jkhqea5DcUMqRk_GxJ4OZSN1l9dzt7VxIL9ICQRwHXthpVT8Lx0QEEYaiGwjfkLNKm8Q",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/08lYyOyoM4EhCufHUvJJUtSYg_g3iXjadnR6pvKCktP2dwjIFkcwWv4P4caiymygTj8r",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/SaHI9cUeiYhSoA7v_653mVvqmGK_yjfzz28UlCtJy0gMf0qGxqTtVvlBtn472h0OCBE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/TJlGqyH6_baFsaqxhAbxsxaL3mPj69z9a4hI6C644r1hDLYc8uJcje6xRAxAyTrKhps",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/hLLJqzaI_22UeE9q1lGkPDt5TBN4EBMPuMGzxg6yKKcz7KVx0uopzFVmgo7Y0rahFQNH",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/SGBuaFfUa-e6B4chUVHBN6YaPERIru-xa16EJApQZmGctwpT8XvJWUcO19RqQOh-zPg",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://www.americantaxi.com/ATOnlineOrderWeb/privacyStatement.jsp",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://lh3.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.ataxi.orders.ui",
+    "reviewsUrl": "rev?doc=com.ataxi.orders.ui&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.ataxi.orders.ui",
+    "title": "American Taxi Dispatch",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "developer@americantaxi.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "27 Dec 2014"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "166",
+      "fiveStarRatings": "136",
+      "fourStarRatings": "45",
+      "oneStarRatings": "83",
+      "ratingsCount": "379",
+      "starRating": 3.25,
+      "threeStarRatings": "56",
+      "twoStarRatings": "56",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-11-04 23:08:08.040141",
+    "backendDocid": "com.ataxi.orders.ui",
+    "backendId": 3,
+    "creator": "Automated National Dispatch",
+    "descriptionHtml": "Taxi Now Taxi Later<br><br>by American Taxi Dispatch, Inc.<br><br>847-253-4411<br>708-424-7878<br>630-920-9480<br>800-244-1177<br><br>Order a Suburban Chicago area taxi from your mobile device anywhere, any time.<br>Your order will go direct to dispatch for the fastest service possible.<br><br>\u2022 GPS locator to verify your pick up location<br>\u2022 Your saved profile will show your common locations<br>\u2022 Order your taxi for immediate pick up or later pick up<br>\u2022 Check, change, and cancel your order any time<br>\u2022 Airport and Chicago pickups going to Suburban locations<br>\u2022 Suburban locations going to Chicago or Milwaukee or airports<br>\u2022 ETA/ taxi number texted to you<br><br>American Taxi Dispatch, Inc. is the largest suburban Chicago, IL taxi dispatch service serving all suburbs, airports and downtown. All rides must begin or end in a suburb. We offer low flat rates to and from airports and downtown locations.<br><br>Our easy and secure online ordering through tablet and smartphone, or any computer, goes direct to dispatch so there is no delay in the order process. When you log in you can order your taxi immediately, or choose a later time or date and the order will remain in the dispatch system until it is completed.<br><br>You can retrieve your order on your mobile device to check for estimated time of arrival to your pick up location, change date, time or any other feature, or cancel your order.<br><br>You can add commonly used travel locations (except airports, which are already shortcuts) to make ordering faster and easier. Save the shortcut name, such as work, dentist, home, or favorite restaurant, and the name and address of the location in your permanent profile and you can scroll to that shortcut to quickly enter that location in your order.<br><br>Save all cell phone, office and home phone numbers in your profile so if you need to call, our automated system will recognize any of those numbers and quickly place your order.<br><br>We accept all major credit cards, coupons and village sponsored senior discount taxi coupon programs. Remember, it&#39;s quicker to click than to call!",
+    "descriptionShort": "Order a Suburban Chicago area taxi from your mobile device anywhere, any time.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "6373850",
+          "unknown3": 28
+        },
+        "developerEmail": "developer@americantaxi.com",
+        "developerName": "Automated National Dispatch",
+        "developerWebsite": "http://www.americantaxi.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "6373850",
+            "versionCode": 117
+          }
+        ],
+        "installationSize": "6373850",
+        "numDownloads": "50,000+ downloads",
+        "packageName": "com.ataxi.orders.ui",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.CALL_PHONE",
+          "android.permission.GET_ACCOUNTS",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.ataxi.orders.ui.permission.C2D_MESSAGE",
+          "com.ataxi.orders.ui.permission.MAPS_RECEIVE",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.providers.gsf.permission.READ_GSERVICES"
+        ],
+        "recentChangesHtml": "1. Added Food and Grocery delivery for customer ease<br>2. Improved logging in",
+        "unstable": false,
+        "uploadDate": "Nov. 4, 2020",
+        "versionCode": 117,
+        "versionString": "2.6.44"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.ataxi.orders.ui",
+    "docType": 1,
+    "docid": "com.ataxi.orders.ui",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/tPJGgznOqG1-NdmHchgD5DDQj4ibFqde3eVNuc7mFVr34T9A3Fad5GMfbESaBF419Uoc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/Ixyr3NO3oA6YlqkkX__TsjnhFFyegSTkx0ifcCj1wuS3771K-Ae-8lCNPhs5a_2pm4Gb",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/EF77lrleUblwJ-4tuU40ZzlbCZxvdXs2OjyHDFwU5MU52OeLtrN-Zy7bvmFrpPRYQKQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/9t71kx36stfmRzWiCHClfgkZZPs1C95yeuuKtrE7Bj06ZO-IjeNBxkqXyJoZWJcqCF8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/jkhqea5DcUMqRk_GxJ4OZSN1l9dzt7VxIL9ICQRwHXthpVT8Lx0QEEYaiGwjfkLNKm8Q",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/08lYyOyoM4EhCufHUvJJUtSYg_g3iXjadnR6pvKCktP2dwjIFkcwWv4P4caiymygTj8r",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/SaHI9cUeiYhSoA7v_653mVvqmGK_yjfzz28UlCtJy0gMf0qGxqTtVvlBtn472h0OCBE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/TJlGqyH6_baFsaqxhAbxsxaL3mPj69z9a4hI6C644r1hDLYc8uJcje6xRAxAyTrKhps",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/hLLJqzaI_22UeE9q1lGkPDt5TBN4EBMPuMGzxg6yKKcz7KVx0uopzFVmgo7Y0rahFQNH",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/SGBuaFfUa-e6B4chUVHBN6YaPERIru-xa16EJApQZmGctwpT8XvJWUcO19RqQOh-zPg",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://www.americantaxi.com/ATOnlineOrderWeb/privacyStatement.jsp",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.ataxi.orders.ui",
+    "reviewsUrl": "rev?doc=com.ataxi.orders.ui&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.ataxi.orders.ui",
+    "title": "American Taxi Dispatch",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Automated National Dispatch"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "developer@americantaxi.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Dec. 27, 2014"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "167",
+      "fiveStarRatings": "133",
+      "fourStarRatings": "45",
+      "oneStarRatings": "87",
+      "ratingsCount": "381",
+      "starRating": 3.21,
+      "threeStarRatings": "57",
+      "twoStarRatings": "57",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-11-23 02:35:57.511549",
+    "backendDocid": "com.ataxi.orders.ui",
+    "backendId": 3,
+    "creator": "Automated National Dispatch",
+    "descriptionHtml": "Taxi Now Taxi Later<br><br>by American Taxi Dispatch, Inc.<br><br>847-253-4411<br>708-424-7878<br>630-920-9480<br>800-244-1177<br><br>Order a Suburban Chicago area taxi from your mobile device anywhere, any time.<br>Your order will go direct to dispatch for the fastest service possible.<br><br>\u2022 GPS locator to verify your pick up location<br>\u2022 Your saved profile will show your common locations<br>\u2022 Order your taxi for immediate pick up or later pick up<br>\u2022 Check, change, and cancel your order any time<br>\u2022 Airport and Chicago pickups going to Suburban locations<br>\u2022 Suburban locations going to Chicago or Milwaukee or airports<br>\u2022 ETA/ taxi number texted to you<br><br>American Taxi Dispatch, Inc. is the largest suburban Chicago, IL taxi dispatch service serving all suburbs, airports and downtown. All rides must begin or end in a suburb. We offer low flat rates to and from airports and downtown locations.<br><br>Our easy and secure online ordering through tablet and smartphone, or any computer, goes direct to dispatch so there is no delay in the order process. When you log in you can order your taxi immediately, or choose a later time or date and the order will remain in the dispatch system until it is completed.<br><br>You can retrieve your order on your mobile device to check for estimated time of arrival to your pick up location, change date, time or any other feature, or cancel your order.<br><br>You can add commonly used travel locations (except airports, which are already shortcuts) to make ordering faster and easier. Save the shortcut name, such as work, dentist, home, or favorite restaurant, and the name and address of the location in your permanent profile and you can scroll to that shortcut to quickly enter that location in your order.<br><br>Save all cell phone, office and home phone numbers in your profile so if you need to call, our automated system will recognize any of those numbers and quickly place your order.<br><br>We accept all major credit cards, coupons and village sponsored senior discount taxi coupon programs. Remember, it&#39;s quicker to click than to call!",
+    "descriptionShort": "Order a Suburban Chicago area taxi from your mobile device anywhere, any time.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "6386844",
+          "unknown3": 29
+        },
+        "developerEmail": "developer@americantaxi.com",
+        "developerName": "Automated National Dispatch",
+        "developerWebsite": "http://www.americantaxi.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "6386844",
+            "versionCode": 118
+          }
+        ],
+        "installationSize": "6386844",
+        "numDownloads": "50,000+ downloads",
+        "packageName": "com.ataxi.orders.ui",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.CALL_PHONE",
+          "android.permission.GET_ACCOUNTS",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.ataxi.orders.ui.permission.C2D_MESSAGE",
+          "com.ataxi.orders.ui.permission.MAPS_RECEIVE",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.providers.gsf.permission.READ_GSERVICES"
+        ],
+        "recentChangesHtml": "1. Improved signup and login",
+        "unstable": false,
+        "uploadDate": "22 Nov 2020",
+        "versionCode": 118,
+        "versionString": "2.6.45"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.ataxi.orders.ui",
+    "docType": 1,
+    "docid": "com.ataxi.orders.ui",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/tPJGgznOqG1-NdmHchgD5DDQj4ibFqde3eVNuc7mFVr34T9A3Fad5GMfbESaBF419Uoc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/Ixyr3NO3oA6YlqkkX__TsjnhFFyegSTkx0ifcCj1wuS3771K-Ae-8lCNPhs5a_2pm4Gb",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/EF77lrleUblwJ-4tuU40ZzlbCZxvdXs2OjyHDFwU5MU52OeLtrN-Zy7bvmFrpPRYQKQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/9t71kx36stfmRzWiCHClfgkZZPs1C95yeuuKtrE7Bj06ZO-IjeNBxkqXyJoZWJcqCF8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/jkhqea5DcUMqRk_GxJ4OZSN1l9dzt7VxIL9ICQRwHXthpVT8Lx0QEEYaiGwjfkLNKm8Q",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/08lYyOyoM4EhCufHUvJJUtSYg_g3iXjadnR6pvKCktP2dwjIFkcwWv4P4caiymygTj8r",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/SaHI9cUeiYhSoA7v_653mVvqmGK_yjfzz28UlCtJy0gMf0qGxqTtVvlBtn472h0OCBE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/TJlGqyH6_baFsaqxhAbxsxaL3mPj69z9a4hI6C644r1hDLYc8uJcje6xRAxAyTrKhps",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/hLLJqzaI_22UeE9q1lGkPDt5TBN4EBMPuMGzxg6yKKcz7KVx0uopzFVmgo7Y0rahFQNH",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/SGBuaFfUa-e6B4chUVHBN6YaPERIru-xa16EJApQZmGctwpT8XvJWUcO19RqQOh-zPg",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://www.americantaxi.com/ATOnlineOrderWeb/privacyStatement.jsp",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.ataxi.orders.ui",
+    "reviewsUrl": "rev?doc=com.ataxi.orders.ui&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.ataxi.orders.ui",
+    "title": "American Taxi Dispatch",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "developer@americantaxi.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "27 Dec 2014"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "168",
+      "fiveStarRatings": "126",
+      "fourStarRatings": "45",
+      "oneStarRatings": "95",
+      "ratingsCount": "383",
+      "starRating": 3.13,
+      "threeStarRatings": "57",
+      "twoStarRatings": "57",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-03-31 05:12:01.052254",
+    "backendDocid": "com.ataxi.orders.ui",
+    "backendId": 3,
+    "creator": "Automated National Dispatch",
+    "descriptionHtml": "Taxi Now Taxi Later<br><br>by American Taxi Dispatch, Inc.<br><br>847-253-4411<br>708-424-7878<br>630-920-9480<br>800-244-1177<br><br>Order a Suburban Chicago area taxi from your mobile device anywhere, any time.<br>Your order will go direct to dispatch for the fastest service possible.<br><br>\u2022 GPS locator to verify your pick up location<br>\u2022 Your saved profile will show your common locations<br>\u2022 Order your taxi for immediate pick up or later pick up<br>\u2022 Check, change, and cancel your order any time<br>\u2022 Airport and Chicago pickups going to Suburban locations<br>\u2022 Suburban locations going to Chicago or Milwaukee or airports<br>\u2022 ETA/ taxi number texted to you<br><br>American Taxi Dispatch, Inc. is the largest suburban Chicago, IL taxi dispatch service serving all suburbs, airports and downtown. All rides must begin or end in a suburb. We offer low flat rates to and from airports and downtown locations.<br><br>Our easy and secure online ordering through tablet and smartphone, or any computer, goes direct to dispatch so there is no delay in the order process. When you log in you can order your taxi immediately, or choose a later time or date and the order will remain in the dispatch system until it is completed.<br><br>You can retrieve your order on your mobile device to check for estimated time of arrival to your pick up location, change date, time or any other feature, or cancel your order.<br><br>You can add commonly used travel locations (except airports, which are already shortcuts) to make ordering faster and easier. Save the shortcut name, such as work, dentist, home, or favorite restaurant, and the name and address of the location in your permanent profile and you can scroll to that shortcut to quickly enter that location in your order.<br><br>Save all cell phone, office and home phone numbers in your profile so if you need to call, our automated system will recognize any of those numbers and quickly place your order.<br><br>We accept all major credit cards, coupons and village sponsored senior discount taxi coupon programs. Remember, it&#39;s quicker to click than to call!",
+    "descriptionShort": "Order a Suburban Chicago area taxi from your mobile device anywhere, any time.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "4092414",
+          "unknown3": 29
+        },
+        "developerEmail": "developer@americantaxi.com",
+        "developerName": "Automated National Dispatch",
+        "developerWebsite": "http://www.americantaxi.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "4092414",
+            "versionCode": 120
+          }
+        ],
+        "installationSize": "4092414",
+        "numDownloads": "50,000+ downloads",
+        "packageName": "com.ataxi.orders.ui",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.CALL_PHONE",
+          "android.permission.GET_ACCOUNTS",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.USE_BIOMETRIC",
+          "android.permission.USE_FINGERPRINT",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.ataxi.orders.ui.permission.C2D_MESSAGE",
+          "com.ataxi.orders.ui.permission.MAPS_RECEIVE",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.providers.gsf.permission.READ_GSERVICES"
+        ],
+        "recentChangesHtml": "1. Added customer recents for the ease<br>2. Added &#39;Forget Username&#39; separately <br>3. Added &#39;Reset Username&#39; and &#39;Reset Password&#39; in profile<br>4. Flight verification for the better service at airports",
+        "unstable": false,
+        "uploadDate": "30 Mar 2021",
+        "versionCode": 120,
+        "versionString": "2.6.46"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.ataxi.orders.ui",
+    "docType": 1,
+    "docid": "com.ataxi.orders.ui",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/tPJGgznOqG1-NdmHchgD5DDQj4ibFqde3eVNuc7mFVr34T9A3Fad5GMfbESaBF419Uoc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/Ixyr3NO3oA6YlqkkX__TsjnhFFyegSTkx0ifcCj1wuS3771K-Ae-8lCNPhs5a_2pm4Gb",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/EF77lrleUblwJ-4tuU40ZzlbCZxvdXs2OjyHDFwU5MU52OeLtrN-Zy7bvmFrpPRYQKQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/9t71kx36stfmRzWiCHClfgkZZPs1C95yeuuKtrE7Bj06ZO-IjeNBxkqXyJoZWJcqCF8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/jkhqea5DcUMqRk_GxJ4OZSN1l9dzt7VxIL9ICQRwHXthpVT8Lx0QEEYaiGwjfkLNKm8Q",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/08lYyOyoM4EhCufHUvJJUtSYg_g3iXjadnR6pvKCktP2dwjIFkcwWv4P4caiymygTj8r",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/SaHI9cUeiYhSoA7v_653mVvqmGK_yjfzz28UlCtJy0gMf0qGxqTtVvlBtn472h0OCBE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/TJlGqyH6_baFsaqxhAbxsxaL3mPj69z9a4hI6C644r1hDLYc8uJcje6xRAxAyTrKhps",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/hLLJqzaI_22UeE9q1lGkPDt5TBN4EBMPuMGzxg6yKKcz7KVx0uopzFVmgo7Y0rahFQNH",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/SGBuaFfUa-e6B4chUVHBN6YaPERIru-xa16EJApQZmGctwpT8XvJWUcO19RqQOh-zPg",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://www.americantaxi.com/ATOnlineOrderWeb/privacyStatement.jsp",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.ataxi.orders.ui",
+    "reviewsUrl": "rev?doc=com.ataxi.orders.ui&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.ataxi.orders.ui",
+    "title": "American Taxi Dispatch",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "developer@americantaxi.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "27 Dec 2014"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "168",
+      "fiveStarRatings": "126",
+      "fourStarRatings": "45",
+      "oneStarRatings": "95",
+      "ratingsCount": "383",
+      "starRating": 3.13,
+      "threeStarRatings": "57",
+      "twoStarRatings": "57",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-04-06 00:24:50.951283",
+    "backendDocid": "com.ataxi.orders.ui",
+    "backendId": 3,
+    "creator": "Automated National Dispatch",
+    "descriptionHtml": "Taxi Now Taxi Later<br><br>by American Taxi Dispatch, Inc.<br><br>847-253-4411<br>708-424-7878<br>630-920-9480<br>800-244-1177<br><br>Order a Suburban Chicago area taxi from your mobile device anywhere, any time.<br>Your order will go direct to dispatch for the fastest service possible.<br><br>\u2022 GPS locator to verify your pick up location<br>\u2022 Your saved profile will show your common locations<br>\u2022 Order your taxi for immediate pick up or later pick up<br>\u2022 Check, change, and cancel your order any time<br>\u2022 Airport and Chicago pickups going to Suburban locations<br>\u2022 Suburban locations going to Chicago or Milwaukee or airports<br>\u2022 ETA/ taxi number texted to you<br><br>American Taxi Dispatch, Inc. is the largest suburban Chicago, IL taxi dispatch service serving all suburbs, airports and downtown. All rides must begin or end in a suburb. We offer low flat rates to and from airports and downtown locations.<br><br>Our easy and secure online ordering through tablet and smartphone, or any computer, goes direct to dispatch so there is no delay in the order process. When you log in you can order your taxi immediately, or choose a later time or date and the order will remain in the dispatch system until it is completed.<br><br>You can retrieve your order on your mobile device to check for estimated time of arrival to your pick up location, change date, time or any other feature, or cancel your order.<br><br>You can add commonly used travel locations (except airports, which are already shortcuts) to make ordering faster and easier. Save the shortcut name, such as work, dentist, home, or favorite restaurant, and the name and address of the location in your permanent profile and you can scroll to that shortcut to quickly enter that location in your order.<br><br>Save all cell phone, office and home phone numbers in your profile so if you need to call, our automated system will recognize any of those numbers and quickly place your order.<br><br>We accept all major credit cards, coupons and village sponsored senior discount taxi coupon programs. Remember, it&#39;s quicker to click than to call!",
+    "descriptionShort": "Order a Suburban Chicago area taxi from your mobile device anywhere, any time.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "7804878",
+          "unknown3": 29
+        },
+        "developerEmail": "developer@americantaxi.com",
+        "developerName": "Automated National Dispatch",
+        "developerWebsite": "http://www.americantaxi.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "7804878",
+            "versionCode": 121
+          }
+        ],
+        "installationSize": "7804878",
+        "numDownloads": "50,000+ downloads",
+        "packageName": "com.ataxi.orders.ui",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.CALL_PHONE",
+          "android.permission.GET_ACCOUNTS",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.USE_BIOMETRIC",
+          "android.permission.USE_FINGERPRINT",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.ataxi.orders.ui.permission.C2D_MESSAGE",
+          "com.ataxi.orders.ui.permission.MAPS_RECEIVE",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.providers.gsf.permission.READ_GSERVICES"
+        ],
+        "recentChangesHtml": "1. Fixed mobile pay transaction issue.",
+        "unstable": false,
+        "uploadDate": "5 Apr 2021",
+        "versionCode": 121,
+        "versionString": "2.6.47"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.ataxi.orders.ui",
+    "docType": 1,
+    "docid": "com.ataxi.orders.ui",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/tPJGgznOqG1-NdmHchgD5DDQj4ibFqde3eVNuc7mFVr34T9A3Fad5GMfbESaBF419Uoc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/Ixyr3NO3oA6YlqkkX__TsjnhFFyegSTkx0ifcCj1wuS3771K-Ae-8lCNPhs5a_2pm4Gb",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/EF77lrleUblwJ-4tuU40ZzlbCZxvdXs2OjyHDFwU5MU52OeLtrN-Zy7bvmFrpPRYQKQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/9t71kx36stfmRzWiCHClfgkZZPs1C95yeuuKtrE7Bj06ZO-IjeNBxkqXyJoZWJcqCF8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/jkhqea5DcUMqRk_GxJ4OZSN1l9dzt7VxIL9ICQRwHXthpVT8Lx0QEEYaiGwjfkLNKm8Q",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/08lYyOyoM4EhCufHUvJJUtSYg_g3iXjadnR6pvKCktP2dwjIFkcwWv4P4caiymygTj8r",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/SaHI9cUeiYhSoA7v_653mVvqmGK_yjfzz28UlCtJy0gMf0qGxqTtVvlBtn472h0OCBE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/TJlGqyH6_baFsaqxhAbxsxaL3mPj69z9a4hI6C644r1hDLYc8uJcje6xRAxAyTrKhps",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/hLLJqzaI_22UeE9q1lGkPDt5TBN4EBMPuMGzxg6yKKcz7KVx0uopzFVmgo7Y0rahFQNH",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/SGBuaFfUa-e6B4chUVHBN6YaPERIru-xa16EJApQZmGctwpT8XvJWUcO19RqQOh-zPg",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://www.americantaxi.com/ATOnlineOrderWeb/privacyStatement.jsp",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.ataxi.orders.ui",
+    "reviewsUrl": "rev?doc=com.ataxi.orders.ui&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.ataxi.orders.ui",
+    "title": "American Taxi Dispatch",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Automated National Dispatch"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "developer@americantaxi.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "10 Oct 2013"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "169",
+      "fiveStarRatings": "119",
+      "fourStarRatings": "46",
+      "oneStarRatings": "103",
+      "ratingsCount": "384",
+      "starRating": 3.05,
+      "threeStarRatings": "57",
+      "twoStarRatings": "57",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-06-19 11:26:14.718394",
+    "backendDocid": "com.ataxi.orders.ui",
+    "backendId": 3,
+    "creator": "Automated National Dispatch",
+    "descriptionHtml": "Taxi Now Taxi Later<br><br>by American Taxi Dispatch, Inc.<br><br>847-253-4411<br>708-424-7878<br>630-920-9480<br>800-244-1177<br><br>Order a Suburban Chicago area taxi from your mobile device anywhere, any time.<br>Your order will go direct to dispatch for the fastest service possible.<br><br>\u2022 GPS locator to verify your pick up location<br>\u2022 Your saved profile will show your common locations<br>\u2022 Order your taxi for immediate pick up or later pick up<br>\u2022 Check, change, and cancel your order any time<br>\u2022 Airport and Chicago pickups going to Suburban locations<br>\u2022 Suburban locations going to Chicago or Milwaukee or airports<br>\u2022 ETA/ taxi number texted to you<br><br>American Taxi Dispatch, Inc. is the largest suburban Chicago, IL taxi dispatch service serving all suburbs, airports and downtown. All rides must begin or end in a suburb. We offer low flat rates to and from airports and downtown locations.<br><br>Our easy and secure online ordering through tablet and smartphone, or any computer, goes direct to dispatch so there is no delay in the order process. When you log in you can order your taxi immediately, or choose a later time or date and the order will remain in the dispatch system until it is completed.<br><br>You can retrieve your order on your mobile device to check for estimated time of arrival to your pick up location, change date, time or any other feature, or cancel your order.<br><br>You can add commonly used travel locations (except airports, which are already shortcuts) to make ordering faster and easier. Save the shortcut name, such as work, dentist, home, or favorite restaurant, and the name and address of the location in your permanent profile and you can scroll to that shortcut to quickly enter that location in your order.<br><br>Save all cell phone, office and home phone numbers in your profile so if you need to call, our automated system will recognize any of those numbers and quickly place your order.<br><br>We accept all major credit cards, coupons and village sponsored senior discount taxi coupon programs. Remember, it&#39;s quicker to click than to call!",
+    "descriptionShort": "Order a Suburban Chicago area taxi from your mobile device anywhere, any time.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "6789020",
+          "unknown3": 29
+        },
+        "developerEmail": "developer@americantaxi.com",
+        "developerName": "Automated National Dispatch",
+        "developerWebsite": "http://www.americantaxi.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "6789020",
+            "versionCode": 124
+          }
+        ],
+        "installationSize": "6789020",
+        "numDownloads": "50,000+ downloads",
+        "packageName": "com.ataxi.orders.ui",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.CALL_PHONE",
+          "android.permission.GET_ACCOUNTS",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.USE_BIOMETRIC",
+          "android.permission.USE_FINGERPRINT",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.ataxi.orders.ui.permission.C2D_MESSAGE",
+          "com.ataxi.orders.ui.permission.MAPS_RECEIVE",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.providers.gsf.permission.READ_GSERVICES"
+        ],
+        "recentChangesHtml": "1. Customers will now have option to remove recents from the manage profile<br>2. Improved Reset username and password<br>3. Improved Change password<br>4. Improved login<br>5. Better flight verification for customer&#39;s ease",
+        "unstable": false,
+        "uploadDate": "16 Jun 2021",
+        "versionCode": 124,
+        "versionString": "2.6.48"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.ataxi.orders.ui",
+    "docType": 1,
+    "docid": "com.ataxi.orders.ui",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/tPJGgznOqG1-NdmHchgD5DDQj4ibFqde3eVNuc7mFVr34T9A3Fad5GMfbESaBF419Uoc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/Ixyr3NO3oA6YlqkkX__TsjnhFFyegSTkx0ifcCj1wuS3771K-Ae-8lCNPhs5a_2pm4Gb",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/EF77lrleUblwJ-4tuU40ZzlbCZxvdXs2OjyHDFwU5MU52OeLtrN-Zy7bvmFrpPRYQKQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/9t71kx36stfmRzWiCHClfgkZZPs1C95yeuuKtrE7Bj06ZO-IjeNBxkqXyJoZWJcqCF8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/jkhqea5DcUMqRk_GxJ4OZSN1l9dzt7VxIL9ICQRwHXthpVT8Lx0QEEYaiGwjfkLNKm8Q",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/08lYyOyoM4EhCufHUvJJUtSYg_g3iXjadnR6pvKCktP2dwjIFkcwWv4P4caiymygTj8r",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/SaHI9cUeiYhSoA7v_653mVvqmGK_yjfzz28UlCtJy0gMf0qGxqTtVvlBtn472h0OCBE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/TJlGqyH6_baFsaqxhAbxsxaL3mPj69z9a4hI6C644r1hDLYc8uJcje6xRAxAyTrKhps",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/hLLJqzaI_22UeE9q1lGkPDt5TBN4EBMPuMGzxg6yKKcz7KVx0uopzFVmgo7Y0rahFQNH",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/SGBuaFfUa-e6B4chUVHBN6YaPERIru-xa16EJApQZmGctwpT8XvJWUcO19RqQOh-zPg",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://www.americantaxi.com/ATOnlineOrderWeb/privacyStatement.jsp",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.ataxi.orders.ui",
+    "reviewsUrl": "rev?doc=com.ataxi.orders.ui&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.ataxi.orders.ui",
+    "title": "American Taxi Dispatch",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "developer@americantaxi.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "27 Dec 2014"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "171",
+      "fiveStarRatings": "119",
+      "fourStarRatings": "38",
+      "oneStarRatings": "108",
+      "ratingsCount": "386",
+      "starRating": 3.0,
+      "threeStarRatings": "57",
+      "twoStarRatings": "61",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-07-24 20:44:20.304529",
+    "backendDocid": "com.ataxi.orders.ui",
+    "backendId": 3,
+    "creator": "Automated National Dispatch",
+    "descriptionHtml": "Taxi Now Taxi Later<br><br>by American Taxi Dispatch, Inc.<br><br>847-253-4411<br>708-424-7878<br>630-920-9480<br>800-244-1177<br><br>Order a Suburban Chicago area taxi from your mobile device anywhere, any time.<br>Your order will go direct to dispatch for the fastest service possible.<br><br>\u2022 GPS locator to verify your pick up location<br>\u2022 Your saved profile will show your common locations<br>\u2022 Order your taxi for immediate pick up or later pick up<br>\u2022 Check, change, and cancel your order any time<br>\u2022 Airport and Chicago pickups going to Suburban locations<br>\u2022 Suburban locations going to Chicago or Milwaukee or airports<br>\u2022 ETA/ taxi number texted to you<br><br>American Taxi Dispatch, Inc. is the largest suburban Chicago, IL taxi dispatch service serving all suburbs, airports and downtown. All rides must begin or end in a suburb. We offer low flat rates to and from airports and downtown locations.<br><br>Our easy and secure online ordering through tablet and smartphone, or any computer, goes direct to dispatch so there is no delay in the order process. When you log in you can order your taxi immediately, or choose a later time or date and the order will remain in the dispatch system until it is completed.<br><br>You can retrieve your order on your mobile device to check for estimated time of arrival to your pick up location, change date, time or any other feature, or cancel your order.<br><br>You can add commonly used travel locations (except airports, which are already shortcuts) to make ordering faster and easier. Save the shortcut name, such as work, dentist, home, or favorite restaurant, and the name and address of the location in your permanent profile and you can scroll to that shortcut to quickly enter that location in your order.<br><br>Save all cell phone, office and home phone numbers in your profile so if you need to call, our automated system will recognize any of those numbers and quickly place your order.<br><br>We accept all major credit cards, coupons and village sponsored senior discount taxi coupon programs. Remember, it&#39;s quicker to click than to call!",
+    "descriptionShort": "Order a Suburban Chicago area taxi from your mobile device anywhere, any time.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "6792799",
+          "unknown3": 29
+        },
+        "developerEmail": "developer@americantaxi.com",
+        "developerName": "Automated National Dispatch",
+        "developerWebsite": "http://www.americantaxi.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "6792799",
+            "versionCode": 125
+          }
+        ],
+        "installationSize": "6792799",
+        "numDownloads": "50,000+ downloads",
+        "packageName": "com.ataxi.orders.ui",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.CALL_PHONE",
+          "android.permission.GET_ACCOUNTS",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.USE_BIOMETRIC",
+          "android.permission.USE_FINGERPRINT",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.ataxi.orders.ui.permission.C2D_MESSAGE",
+          "com.ataxi.orders.ui.permission.MAPS_RECEIVE",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.providers.gsf.permission.READ_GSERVICES"
+        ],
+        "recentChangesHtml": "1. Now customer&#39;s can order ride from American Blue Private service from the American Taxi app<br>2. Fixed rate calculation",
+        "unstable": false,
+        "uploadDate": "23 Jul 2021",
+        "versionCode": 125,
+        "versionString": "2.6.49"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.ataxi.orders.ui",
+    "docType": 1,
+    "docid": "com.ataxi.orders.ui",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/tPJGgznOqG1-NdmHchgD5DDQj4ibFqde3eVNuc7mFVr34T9A3Fad5GMfbESaBF419Uoc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/Ixyr3NO3oA6YlqkkX__TsjnhFFyegSTkx0ifcCj1wuS3771K-Ae-8lCNPhs5a_2pm4Gb",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/EF77lrleUblwJ-4tuU40ZzlbCZxvdXs2OjyHDFwU5MU52OeLtrN-Zy7bvmFrpPRYQKQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/9t71kx36stfmRzWiCHClfgkZZPs1C95yeuuKtrE7Bj06ZO-IjeNBxkqXyJoZWJcqCF8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/jkhqea5DcUMqRk_GxJ4OZSN1l9dzt7VxIL9ICQRwHXthpVT8Lx0QEEYaiGwjfkLNKm8Q",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/08lYyOyoM4EhCufHUvJJUtSYg_g3iXjadnR6pvKCktP2dwjIFkcwWv4P4caiymygTj8r",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/SaHI9cUeiYhSoA7v_653mVvqmGK_yjfzz28UlCtJy0gMf0qGxqTtVvlBtn472h0OCBE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/TJlGqyH6_baFsaqxhAbxsxaL3mPj69z9a4hI6C644r1hDLYc8uJcje6xRAxAyTrKhps",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/hLLJqzaI_22UeE9q1lGkPDt5TBN4EBMPuMGzxg6yKKcz7KVx0uopzFVmgo7Y0rahFQNH",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/SGBuaFfUa-e6B4chUVHBN6YaPERIru-xa16EJApQZmGctwpT8XvJWUcO19RqQOh-zPg",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://www.americantaxi.com/ATOnlineOrderWeb/privacyStatement.jsp",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.ataxi.orders.ui",
+    "reviewsUrl": "rev?doc=com.ataxi.orders.ui&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.ataxi.orders.ui",
+    "title": "American Taxi Dispatch",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Automated National Dispatch"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "developer@americantaxi.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "10 Oct 2013"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "171",
+      "fiveStarRatings": "119",
+      "fourStarRatings": "38",
+      "oneStarRatings": "108",
+      "ratingsCount": "386",
+      "starRating": 3.0,
+      "threeStarRatings": "57",
+      "twoStarRatings": "61",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-08-06 04:54:46.013950",
+    "backendDocid": "com.ataxi.orders.ui",
+    "backendId": 3,
+    "creator": "Automated National Dispatch",
+    "descriptionHtml": "Taxi Now Taxi Later<br><br>by American Taxi Dispatch, Inc.<br><br>847-253-4411<br>708-424-7878<br>630-920-9480<br>800-244-1177<br><br>Order a Suburban Chicago area taxi from your mobile device anywhere, any time.<br>Your order will go direct to dispatch for the fastest service possible.<br><br>\u2022 GPS locator to verify your pick up location<br>\u2022 Your saved profile will show your common locations<br>\u2022 Order your taxi for immediate pick up or later pick up<br>\u2022 Check, change, and cancel your order any time<br>\u2022 Airport and Chicago pickups going to Suburban locations<br>\u2022 Suburban locations going to Chicago or Milwaukee or airports<br>\u2022 ETA/ taxi number texted to you<br><br>American Taxi Dispatch, Inc. is the largest suburban Chicago, IL taxi dispatch service serving all suburbs, airports and downtown. All rides must begin or end in a suburb. We offer low flat rates to and from airports and downtown locations.<br><br>Our easy and secure online ordering through tablet and smartphone, or any computer, goes direct to dispatch so there is no delay in the order process. When you log in you can order your taxi immediately, or choose a later time or date and the order will remain in the dispatch system until it is completed.<br><br>You can retrieve your order on your mobile device to check for estimated time of arrival to your pick up location, change date, time or any other feature, or cancel your order.<br><br>You can add commonly used travel locations (except airports, which are already shortcuts) to make ordering faster and easier. Save the shortcut name, such as work, dentist, home, or favorite restaurant, and the name and address of the location in your permanent profile and you can scroll to that shortcut to quickly enter that location in your order.<br><br>Save all cell phone, office and home phone numbers in your profile so if you need to call, our automated system will recognize any of those numbers and quickly place your order.<br><br>We accept all major credit cards, coupons and village sponsored senior discount taxi coupon programs. Remember, it&#39;s quicker to click than to call!",
+    "descriptionShort": "Order a Suburban Chicago area taxi from your mobile device anywhere, any time.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "6793809",
+          "unknown3": 29
+        },
+        "developerEmail": "developer@americantaxi.com",
+        "developerName": "Automated National Dispatch",
+        "developerWebsite": "http://www.americantaxi.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "6793809",
+            "versionCode": 126
+          }
+        ],
+        "installationSize": "6793809",
+        "numDownloads": "50,000+ downloads",
+        "packageName": "com.ataxi.orders.ui",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.CALL_PHONE",
+          "android.permission.GET_ACCOUNTS",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.USE_BIOMETRIC",
+          "android.permission.USE_FINGERPRINT",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.ataxi.orders.ui.permission.C2D_MESSAGE",
+          "com.ataxi.orders.ui.permission.MAPS_RECEIVE",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.providers.gsf.permission.READ_GSERVICES"
+        ],
+        "recentChangesHtml": "1. Fixed the credit info message on &#39;Google Pay&#39; payment option",
+        "unstable": false,
+        "uploadDate": "5 Aug 2021",
+        "versionCode": 126,
+        "versionString": "2.6.50"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.ataxi.orders.ui",
+    "docType": 1,
+    "docid": "com.ataxi.orders.ui",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/tPJGgznOqG1-NdmHchgD5DDQj4ibFqde3eVNuc7mFVr34T9A3Fad5GMfbESaBF419Uoc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/Ixyr3NO3oA6YlqkkX__TsjnhFFyegSTkx0ifcCj1wuS3771K-Ae-8lCNPhs5a_2pm4Gb",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/EF77lrleUblwJ-4tuU40ZzlbCZxvdXs2OjyHDFwU5MU52OeLtrN-Zy7bvmFrpPRYQKQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/9t71kx36stfmRzWiCHClfgkZZPs1C95yeuuKtrE7Bj06ZO-IjeNBxkqXyJoZWJcqCF8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/jkhqea5DcUMqRk_GxJ4OZSN1l9dzt7VxIL9ICQRwHXthpVT8Lx0QEEYaiGwjfkLNKm8Q",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/08lYyOyoM4EhCufHUvJJUtSYg_g3iXjadnR6pvKCktP2dwjIFkcwWv4P4caiymygTj8r",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/SaHI9cUeiYhSoA7v_653mVvqmGK_yjfzz28UlCtJy0gMf0qGxqTtVvlBtn472h0OCBE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/TJlGqyH6_baFsaqxhAbxsxaL3mPj69z9a4hI6C644r1hDLYc8uJcje6xRAxAyTrKhps",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/hLLJqzaI_22UeE9q1lGkPDt5TBN4EBMPuMGzxg6yKKcz7KVx0uopzFVmgo7Y0rahFQNH",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/SGBuaFfUa-e6B4chUVHBN6YaPERIru-xa16EJApQZmGctwpT8XvJWUcO19RqQOh-zPg",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://www.americantaxi.com/ATOnlineOrderWeb/privacyStatement.jsp",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.ataxi.orders.ui",
+    "reviewsUrl": "rev?doc=com.ataxi.orders.ui&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.ataxi.orders.ui",
+    "title": "American Taxi Dispatch",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "developer@americantaxi.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "27 Dec 2014"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "173",
+      "fiveStarRatings": "120",
+      "fourStarRatings": "38",
+      "oneStarRatings": "116",
+      "ratingsCount": "388",
+      "starRating": 2.97,
+      "threeStarRatings": "54",
+      "twoStarRatings": "58",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-09-11 01:10:50.469637",
+    "backendDocid": "com.ataxi.orders.ui",
+    "backendId": 3,
+    "creator": "Automated National Dispatch",
+    "descriptionHtml": "Taxi Now Taxi Later<br><br>by American Taxi Dispatch, Inc.<br><br>847-253-4411<br>708-424-7878<br>630-920-9480<br>800-244-1177<br><br>Order a Suburban Chicago area taxi from your mobile device anywhere, any time.<br>Your order will go direct to dispatch for the fastest service possible.<br><br>\u2022 GPS locator to verify your pick up location<br>\u2022 Your saved profile will show your common locations<br>\u2022 Order your taxi for immediate pick up or later pick up<br>\u2022 Check, change, and cancel your order any time<br>\u2022 Airport and Chicago pickups going to Suburban locations<br>\u2022 Suburban locations going to Chicago or Milwaukee or airports<br>\u2022 ETA/ taxi number texted to you<br><br>American Taxi Dispatch, Inc. is the largest suburban Chicago, IL taxi dispatch service serving all suburbs, airports and downtown. All rides must begin or end in a suburb. We offer low flat rates to and from airports and downtown locations.<br><br>Our easy and secure online ordering through tablet and smartphone, or any computer, goes direct to dispatch so there is no delay in the order process. When you log in you can order your taxi immediately, or choose a later time or date and the order will remain in the dispatch system until it is completed.<br><br>You can retrieve your order on your mobile device to check for estimated time of arrival to your pick up location, change date, time or any other feature, or cancel your order.<br><br>You can add commonly used travel locations (except airports, which are already shortcuts) to make ordering faster and easier. Save the shortcut name, such as work, dentist, home, or favorite restaurant, and the name and address of the location in your permanent profile and you can scroll to that shortcut to quickly enter that location in your order.<br><br>Save all cell phone, office and home phone numbers in your profile so if you need to call, our automated system will recognize any of those numbers and quickly place your order.<br><br>We accept all major credit cards, coupons and village sponsored senior discount taxi coupon programs. Remember, it&#39;s quicker to click than to call!",
+    "descriptionShort": "Order a Suburban Chicago area taxi from your mobile device anywhere, any time.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "6694612",
+          "unknown3": 29
+        },
+        "developerEmail": "developer@americantaxi.com",
+        "developerName": "Automated National Dispatch",
+        "developerWebsite": "http://www.americantaxi.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "6694612",
+            "versionCode": 128
+          }
+        ],
+        "installationSize": "6694612",
+        "numDownloads": "50,000+ downloads",
+        "packageName": "com.ataxi.orders.ui",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.CALL_PHONE",
+          "android.permission.GET_ACCOUNTS",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.USE_BIOMETRIC",
+          "android.permission.USE_FINGERPRINT",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.ataxi.orders.ui.permission.C2D_MESSAGE",
+          "com.ataxi.orders.ui.permission.MAPS_RECEIVE",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.providers.gsf.permission.READ_GSERVICES"
+        ],
+        "recentChangesHtml": "1. App flow change for taxi later <br>2. UI fixes  ",
+        "unstable": false,
+        "uploadDate": "10 Sept 2021",
+        "versionCode": 128,
+        "versionString": "2.6.52"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.ataxi.orders.ui",
+    "docType": 1,
+    "docid": "com.ataxi.orders.ui",
+    "image": [
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/tPJGgznOqG1-NdmHchgD5DDQj4ibFqde3eVNuc7mFVr34T9A3Fad5GMfbESaBF419Uoc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/Ixyr3NO3oA6YlqkkX__TsjnhFFyegSTkx0ifcCj1wuS3771K-Ae-8lCNPhs5a_2pm4Gb",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/EF77lrleUblwJ-4tuU40ZzlbCZxvdXs2OjyHDFwU5MU52OeLtrN-Zy7bvmFrpPRYQKQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/9t71kx36stfmRzWiCHClfgkZZPs1C95yeuuKtrE7Bj06ZO-IjeNBxkqXyJoZWJcqCF8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/jkhqea5DcUMqRk_GxJ4OZSN1l9dzt7VxIL9ICQRwHXthpVT8Lx0QEEYaiGwjfkLNKm8Q",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/08lYyOyoM4EhCufHUvJJUtSYg_g3iXjadnR6pvKCktP2dwjIFkcwWv4P4caiymygTj8r",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/SaHI9cUeiYhSoA7v_653mVvqmGK_yjfzz28UlCtJy0gMf0qGxqTtVvlBtn472h0OCBE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/TJlGqyH6_baFsaqxhAbxsxaL3mPj69z9a4hI6C644r1hDLYc8uJcje6xRAxAyTrKhps",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/hLLJqzaI_22UeE9q1lGkPDt5TBN4EBMPuMGzxg6yKKcz7KVx0uopzFVmgo7Y0rahFQNH",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/SGBuaFfUa-e6B4chUVHBN6YaPERIru-xa16EJApQZmGctwpT8XvJWUcO19RqQOh-zPg",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://www.americantaxi.com/ATOnlineOrderWeb/privacyStatement.jsp",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.ataxi.orders.ui",
+    "reviewsUrl": "rev?doc=com.ataxi.orders.ui&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.ataxi.orders.ui",
+    "title": "American Taxi Dispatch",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "developer@americantaxi.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "27 Dec 2014"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "173",
+      "fiveStarRatings": "120",
+      "fourStarRatings": "38",
+      "oneStarRatings": "116",
+      "ratingsCount": "388",
+      "starRating": 2.97,
+      "threeStarRatings": "54",
+      "twoStarRatings": "58",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-09-13 09:57:43.916564",
+    "backendDocid": "com.ataxi.orders.ui",
+    "backendId": 3,
+    "creator": "Automated National Dispatch",
+    "descriptionHtml": "Taxi Now Taxi Later<br><br>by American Taxi Dispatch, Inc.<br><br>847-253-4411<br>708-424-7878<br>630-920-9480<br>800-244-1177<br><br>Order a Suburban Chicago area taxi from your mobile device anywhere, any time.<br>Your order will go direct to dispatch for the fastest service possible.<br><br>\u2022 GPS locator to verify your pick up location<br>\u2022 Your saved profile will show your common locations<br>\u2022 Order your taxi for immediate pick up or later pick up<br>\u2022 Check, change, and cancel your order any time<br>\u2022 Airport and Chicago pickups going to Suburban locations<br>\u2022 Suburban locations going to Chicago or Milwaukee or airports<br>\u2022 ETA/ taxi number texted to you<br><br>American Taxi Dispatch, Inc. is the largest suburban Chicago, IL taxi dispatch service serving all suburbs, airports and downtown. All rides must begin or end in a suburb. We offer low flat rates to and from airports and downtown locations.<br><br>Our easy and secure online ordering through tablet and smartphone, or any computer, goes direct to dispatch so there is no delay in the order process. When you log in you can order your taxi immediately, or choose a later time or date and the order will remain in the dispatch system until it is completed.<br><br>You can retrieve your order on your mobile device to check for estimated time of arrival to your pick up location, change date, time or any other feature, or cancel your order.<br><br>You can add commonly used travel locations (except airports, which are already shortcuts) to make ordering faster and easier. Save the shortcut name, such as work, dentist, home, or favorite restaurant, and the name and address of the location in your permanent profile and you can scroll to that shortcut to quickly enter that location in your order.<br><br>Save all cell phone, office and home phone numbers in your profile so if you need to call, our automated system will recognize any of those numbers and quickly place your order.<br><br>We accept all major credit cards, coupons and village sponsored senior discount taxi coupon programs. Remember, it&#39;s quicker to click than to call!",
+    "descriptionShort": "Order a Suburban Chicago area taxi from your mobile device anywhere, any time.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "6694807",
+          "unknown3": 29
+        },
+        "developerEmail": "developer@americantaxi.com",
+        "developerName": "Automated National Dispatch",
+        "developerWebsite": "http://www.americantaxi.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "6694807",
+            "versionCode": 129
+          }
+        ],
+        "installationSize": "6694807",
+        "numDownloads": "50,000+ downloads",
+        "packageName": "com.ataxi.orders.ui",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.CALL_PHONE",
+          "android.permission.GET_ACCOUNTS",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.USE_BIOMETRIC",
+          "android.permission.USE_FINGERPRINT",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.ataxi.orders.ui.permission.C2D_MESSAGE",
+          "com.ataxi.orders.ui.permission.MAPS_RECEIVE",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.providers.gsf.permission.READ_GSERVICES"
+        ],
+        "recentChangesHtml": "1. App flow change for taxi later <br>2. UI fixes<br>3. Order placing for new customers",
+        "unstable": false,
+        "uploadDate": "12 Sept 2021",
+        "versionCode": 129,
+        "versionString": "2.6.53"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.ataxi.orders.ui",
+    "docType": 1,
+    "docid": "com.ataxi.orders.ui",
+    "image": [
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/tPJGgznOqG1-NdmHchgD5DDQj4ibFqde3eVNuc7mFVr34T9A3Fad5GMfbESaBF419Uoc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/Ixyr3NO3oA6YlqkkX__TsjnhFFyegSTkx0ifcCj1wuS3771K-Ae-8lCNPhs5a_2pm4Gb",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/EF77lrleUblwJ-4tuU40ZzlbCZxvdXs2OjyHDFwU5MU52OeLtrN-Zy7bvmFrpPRYQKQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/9t71kx36stfmRzWiCHClfgkZZPs1C95yeuuKtrE7Bj06ZO-IjeNBxkqXyJoZWJcqCF8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/jkhqea5DcUMqRk_GxJ4OZSN1l9dzt7VxIL9ICQRwHXthpVT8Lx0QEEYaiGwjfkLNKm8Q",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/08lYyOyoM4EhCufHUvJJUtSYg_g3iXjadnR6pvKCktP2dwjIFkcwWv4P4caiymygTj8r",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/SaHI9cUeiYhSoA7v_653mVvqmGK_yjfzz28UlCtJy0gMf0qGxqTtVvlBtn472h0OCBE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/TJlGqyH6_baFsaqxhAbxsxaL3mPj69z9a4hI6C644r1hDLYc8uJcje6xRAxAyTrKhps",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/hLLJqzaI_22UeE9q1lGkPDt5TBN4EBMPuMGzxg6yKKcz7KVx0uopzFVmgo7Y0rahFQNH",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/SGBuaFfUa-e6B4chUVHBN6YaPERIru-xa16EJApQZmGctwpT8XvJWUcO19RqQOh-zPg",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://www.americantaxi.com/ATOnlineOrderWeb/privacyStatement.jsp",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.ataxi.orders.ui",
+    "reviewsUrl": "rev?doc=com.ataxi.orders.ui&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.ataxi.orders.ui",
+    "title": "American Taxi Dispatch",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "developer@americantaxi.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "27 Dec 2014"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "173",
+      "fiveStarRatings": "120",
+      "fourStarRatings": "38",
+      "oneStarRatings": "116",
+      "ratingsCount": "388",
+      "starRating": 2.97,
+      "threeStarRatings": "54",
+      "twoStarRatings": "58",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-09-16 04:15:24.706427",
+    "backendDocid": "com.ataxi.orders.ui",
+    "backendId": 3,
+    "creator": "Automated National Dispatch",
+    "descriptionHtml": "Taxi Now Taxi Later<br><br>by American Taxi Dispatch, Inc.<br><br>847-253-4411<br>708-424-7878<br>630-920-9480<br>800-244-1177<br><br>Order a Suburban Chicago area taxi from your mobile device anywhere, any time.<br>Your order will go direct to dispatch for the fastest service possible.<br><br>\u2022 GPS locator to verify your pick up location<br>\u2022 Your saved profile will show your common locations<br>\u2022 Order your taxi for immediate pick up or later pick up<br>\u2022 Check, change, and cancel your order any time<br>\u2022 Airport and Chicago pickups going to Suburban locations<br>\u2022 Suburban locations going to Chicago or Milwaukee or airports<br>\u2022 ETA/ taxi number texted to you<br><br>American Taxi Dispatch, Inc. is the largest suburban Chicago, IL taxi dispatch service serving all suburbs, airports and downtown. All rides must begin or end in a suburb. We offer low flat rates to and from airports and downtown locations.<br><br>Our easy and secure online ordering through tablet and smartphone, or any computer, goes direct to dispatch so there is no delay in the order process. When you log in you can order your taxi immediately, or choose a later time or date and the order will remain in the dispatch system until it is completed.<br><br>You can retrieve your order on your mobile device to check for estimated time of arrival to your pick up location, change date, time or any other feature, or cancel your order.<br><br>You can add commonly used travel locations (except airports, which are already shortcuts) to make ordering faster and easier. Save the shortcut name, such as work, dentist, home, or favorite restaurant, and the name and address of the location in your permanent profile and you can scroll to that shortcut to quickly enter that location in your order.<br><br>Save all cell phone, office and home phone numbers in your profile so if you need to call, our automated system will recognize any of those numbers and quickly place your order.<br><br>We accept all major credit cards, coupons and village sponsored senior discount taxi coupon programs. Remember, it&#39;s quicker to click than to call!",
+    "descriptionShort": "Order a Suburban Chicago area taxi from your mobile device anywhere, any time.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "6694626",
+          "unknown3": 29
+        },
+        "developerEmail": "developer@americantaxi.com",
+        "developerName": "Automated National Dispatch",
+        "developerWebsite": "http://www.americantaxi.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "6694626",
+            "versionCode": 130
+          }
+        ],
+        "installationSize": "6694626",
+        "numDownloads": "50,000+ downloads",
+        "packageName": "com.ataxi.orders.ui",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.CALL_PHONE",
+          "android.permission.GET_ACCOUNTS",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.USE_BIOMETRIC",
+          "android.permission.USE_FINGERPRINT",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.ataxi.orders.ui.permission.C2D_MESSAGE",
+          "com.ataxi.orders.ui.permission.MAPS_RECEIVE",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.providers.gsf.permission.READ_GSERVICES"
+        ],
+        "recentChangesHtml": "1. App flow change for taxi later <br>2. UI fixes<br>3. Fixed order placing issue for new customers<br>4. Multi-select car types and rate calculation issue fixed in Order Detail",
+        "unstable": false,
+        "uploadDate": "13 Sept 2021",
+        "versionCode": 130,
+        "versionString": "2.6.54"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.ataxi.orders.ui",
+    "docType": 1,
+    "docid": "com.ataxi.orders.ui",
+    "image": [
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/tPJGgznOqG1-NdmHchgD5DDQj4ibFqde3eVNuc7mFVr34T9A3Fad5GMfbESaBF419Uoc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/Ixyr3NO3oA6YlqkkX__TsjnhFFyegSTkx0ifcCj1wuS3771K-Ae-8lCNPhs5a_2pm4Gb",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/EF77lrleUblwJ-4tuU40ZzlbCZxvdXs2OjyHDFwU5MU52OeLtrN-Zy7bvmFrpPRYQKQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/9t71kx36stfmRzWiCHClfgkZZPs1C95yeuuKtrE7Bj06ZO-IjeNBxkqXyJoZWJcqCF8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/jkhqea5DcUMqRk_GxJ4OZSN1l9dzt7VxIL9ICQRwHXthpVT8Lx0QEEYaiGwjfkLNKm8Q",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/08lYyOyoM4EhCufHUvJJUtSYg_g3iXjadnR6pvKCktP2dwjIFkcwWv4P4caiymygTj8r",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/SaHI9cUeiYhSoA7v_653mVvqmGK_yjfzz28UlCtJy0gMf0qGxqTtVvlBtn472h0OCBE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/TJlGqyH6_baFsaqxhAbxsxaL3mPj69z9a4hI6C644r1hDLYc8uJcje6xRAxAyTrKhps",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/hLLJqzaI_22UeE9q1lGkPDt5TBN4EBMPuMGzxg6yKKcz7KVx0uopzFVmgo7Y0rahFQNH",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/SGBuaFfUa-e6B4chUVHBN6YaPERIru-xa16EJApQZmGctwpT8XvJWUcO19RqQOh-zPg",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://www.americantaxi.com/ATOnlineOrderWeb/privacyStatement.jsp",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.ataxi.orders.ui",
+    "reviewsUrl": "rev?doc=com.ataxi.orders.ui&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.ataxi.orders.ui",
+    "title": "American Taxi Dispatch",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "developer@americantaxi.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "27 Dec 2014"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-01-29 06:14:46.816025",
+    "backendDocid": "com.ataxi.orders.ui",
+    "backendId": 3,
+    "creator": "Automated National Dispatch",
+    "descriptionHtml": "Taxi Now Taxi Later<br><br>by American Taxi Dispatch, Inc.<br><br>847-253-4411<br>708-424-7878<br>630-920-9480<br>800-244-1177<br><br>Order a Suburban Chicago area taxi from your mobile device anywhere, any time.<br>Your order will go direct to dispatch for the fastest service possible.<br><br>\u2022 GPS locator to verify your pick up location<br>\u2022 Your saved profile will show your common locations<br>\u2022 Order your taxi for immediate pick up or later pick up<br>\u2022 Check, change, and cancel your order any time<br>\u2022 Airport and Chicago pickups going to Suburban locations<br>\u2022 Suburban locations going to Chicago or Milwaukee or airports<br>\u2022 ETA/ taxi number texted to you<br><br>American Taxi Dispatch, Inc. is the largest suburban Chicago, IL taxi dispatch service serving all suburbs, airports and downtown. All rides must begin or end in a suburb. We offer low flat rates to and from airports and downtown locations.<br><br>Our easy and secure online ordering through tablet and smartphone, or any computer, goes direct to dispatch so there is no delay in the order process. When you log in you can order your taxi immediately, or choose a later time or date and the order will remain in the dispatch system until it is completed.<br><br>You can retrieve your order on your mobile device to check for estimated time of arrival to your pick up location, change date, time or any other feature, or cancel your order.<br><br>You can add commonly used travel locations (except airports, which are already shortcuts) to make ordering faster and easier. Save the shortcut name, such as work, dentist, home, or favorite restaurant, and the name and address of the location in your permanent profile and you can scroll to that shortcut to quickly enter that location in your order.<br><br>Save all cell phone, office and home phone numbers in your profile so if you need to call, our automated system will recognize any of those numbers and quickly place your order.<br><br>We accept all major credit cards, coupons and village sponsored senior discount taxi coupon programs. Remember, it&#39;s quicker to click than to call!",
+    "descriptionShort": "Order a Suburban Chicago area taxi from your mobile device anywhere, any time.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "6768898",
+          "unknown3": 30
+        },
+        "developerEmail": "developer@americantaxi.com",
+        "developerName": "Automated National Dispatch",
+        "developerWebsite": "http://www.americantaxi.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "6768898",
+            "versionCode": 131
+          }
+        ],
+        "installationSize": "6768898",
+        "numDownloads": "50,000+ downloads",
+        "packageName": "com.ataxi.orders.ui",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.CALL_PHONE",
+          "android.permission.GET_ACCOUNTS",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.USE_BIOMETRIC",
+          "android.permission.USE_FINGERPRINT",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.ataxi.orders.ui.permission.C2D_MESSAGE",
+          "com.ataxi.orders.ui.permission.MAPS_RECEIVE",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.providers.gsf.permission.READ_GSERVICES"
+        ],
+        "recentChangesHtml": "1. Added help text for customer&#39;s ease to pay via corporate code",
+        "unstable": false,
+        "uploadDate": "28 Jan 2022",
+        "versionCode": 131,
+        "versionString": "2.6.55"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.ataxi.orders.ui",
+    "docType": 1,
+    "docid": "com.ataxi.orders.ui",
+    "image": [
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/tPJGgznOqG1-NdmHchgD5DDQj4ibFqde3eVNuc7mFVr34T9A3Fad5GMfbESaBF419Uoc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FFFFFF",
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/Ixyr3NO3oA6YlqkkX__TsjnhFFyegSTkx0ifcCj1wuS3771K-Ae-8lCNPhs5a_2pm4Gb",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/EF77lrleUblwJ-4tuU40ZzlbCZxvdXs2OjyHDFwU5MU52OeLtrN-Zy7bvmFrpPRYQKQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/9t71kx36stfmRzWiCHClfgkZZPs1C95yeuuKtrE7Bj06ZO-IjeNBxkqXyJoZWJcqCF8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/jkhqea5DcUMqRk_GxJ4OZSN1l9dzt7VxIL9ICQRwHXthpVT8Lx0QEEYaiGwjfkLNKm8Q",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/08lYyOyoM4EhCufHUvJJUtSYg_g3iXjadnR6pvKCktP2dwjIFkcwWv4P4caiymygTj8r",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/SaHI9cUeiYhSoA7v_653mVvqmGK_yjfzz28UlCtJy0gMf0qGxqTtVvlBtn472h0OCBE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/TJlGqyH6_baFsaqxhAbxsxaL3mPj69z9a4hI6C644r1hDLYc8uJcje6xRAxAyTrKhps",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/hLLJqzaI_22UeE9q1lGkPDt5TBN4EBMPuMGzxg6yKKcz7KVx0uopzFVmgo7Y0rahFQNH",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/SGBuaFfUa-e6B4chUVHBN6YaPERIru-xa16EJApQZmGctwpT8XvJWUcO19RqQOh-zPg",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://www.americantaxi.com/ATOnlineOrderWeb/privacyStatement.jsp",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.ataxi.orders.ui",
+    "reviewsUrl": "rev?doc=com.ataxi.orders.ui&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.ataxi.orders.ui",
+    "title": "American Taxi Dispatch",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "developer@americantaxi.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "27 Dec 2014"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "176",
+      "fiveStarRatings": "114",
+      "fourStarRatings": "35",
+      "oneStarRatings": "133",
+      "ratingsCount": "394",
+      "starRating": 2.85,
+      "threeStarRatings": "55",
+      "twoStarRatings": "55",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-03-16 23:31:33.127780",
+    "backendDocid": "com.ataxi.orders.ui",
+    "backendId": 3,
+    "creator": "Automated National Dispatch",
+    "descriptionHtml": "Taxi Now Taxi Later<br><br>by American Taxi Dispatch, Inc.<br><br>847-253-4411<br>708-424-7878<br>630-920-9480<br>800-244-1177<br><br>Order a Suburban Chicago area taxi from your mobile device anywhere, any time.<br>Your order will go direct to dispatch for the fastest service possible.<br><br>\u2022 GPS locator to verify your pick up location<br>\u2022 Your saved profile will show your common locations<br>\u2022 Order your taxi for immediate pick up or later pick up<br>\u2022 Check, change, and cancel your order any time<br>\u2022 Airport and Chicago pickups going to Suburban locations<br>\u2022 Suburban locations going to Chicago or Milwaukee or airports<br>\u2022 ETA/ taxi number texted to you<br><br>American Taxi Dispatch, Inc. is the largest suburban Chicago, IL taxi dispatch service serving all suburbs, airports and downtown. All rides must begin or end in a suburb. We offer low flat rates to and from airports and downtown locations.<br><br>Our easy and secure online ordering through tablet and smartphone, or any computer, goes direct to dispatch so there is no delay in the order process. When you log in you can order your taxi immediately, or choose a later time or date and the order will remain in the dispatch system until it is completed.<br><br>You can retrieve your order on your mobile device to check for estimated time of arrival to your pick up location, change date, time or any other feature, or cancel your order.<br><br>You can add commonly used travel locations (except airports, which are already shortcuts) to make ordering faster and easier. Save the shortcut name, such as work, dentist, home, or favorite restaurant, and the name and address of the location in your permanent profile and you can scroll to that shortcut to quickly enter that location in your order.<br><br>Save all cell phone, office and home phone numbers in your profile so if you need to call, our automated system will recognize any of those numbers and quickly place your order.<br><br>We accept all major credit cards, coupons and village sponsored senior discount taxi coupon programs. Remember, it&#39;s quicker to click than to call!",
+    "descriptionShort": "Order a Suburban Chicago area taxi from your mobile device anywhere, any time.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "6697942",
+          "unknown3": 30
+        },
+        "developerEmail": "developer@americantaxi.com",
+        "developerName": "Automated National Dispatch",
+        "developerWebsite": "http://www.americantaxi.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "6697942",
+            "versionCode": 132
+          }
+        ],
+        "installationSize": "6697942",
+        "numDownloads": "50,000+ downloads",
+        "packageName": "com.ataxi.orders.ui",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.CALL_PHONE",
+          "android.permission.GET_ACCOUNTS",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.USE_BIOMETRIC",
+          "android.permission.USE_FINGERPRINT",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.ataxi.orders.ui.permission.C2D_MESSAGE",
+          "com.ataxi.orders.ui.permission.MAPS_RECEIVE",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.providers.gsf.permission.READ_GSERVICES"
+        ],
+        "recentChangesHtml": "1. Added desired cab for customer&#39;s ease",
+        "unstable": false,
+        "uploadDate": "16 Mar 2022",
+        "versionCode": 132,
+        "versionString": "2.6.56"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.ataxi.orders.ui",
+    "docType": 1,
+    "docid": "com.ataxi.orders.ui",
+    "image": [
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/tPJGgznOqG1-NdmHchgD5DDQj4ibFqde3eVNuc7mFVr34T9A3Fad5GMfbESaBF419Uoc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FFFFFF",
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/Ixyr3NO3oA6YlqkkX__TsjnhFFyegSTkx0ifcCj1wuS3771K-Ae-8lCNPhs5a_2pm4Gb",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/EF77lrleUblwJ-4tuU40ZzlbCZxvdXs2OjyHDFwU5MU52OeLtrN-Zy7bvmFrpPRYQKQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/9t71kx36stfmRzWiCHClfgkZZPs1C95yeuuKtrE7Bj06ZO-IjeNBxkqXyJoZWJcqCF8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/jkhqea5DcUMqRk_GxJ4OZSN1l9dzt7VxIL9ICQRwHXthpVT8Lx0QEEYaiGwjfkLNKm8Q",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/08lYyOyoM4EhCufHUvJJUtSYg_g3iXjadnR6pvKCktP2dwjIFkcwWv4P4caiymygTj8r",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/SaHI9cUeiYhSoA7v_653mVvqmGK_yjfzz28UlCtJy0gMf0qGxqTtVvlBtn472h0OCBE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/TJlGqyH6_baFsaqxhAbxsxaL3mPj69z9a4hI6C644r1hDLYc8uJcje6xRAxAyTrKhps",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/hLLJqzaI_22UeE9q1lGkPDt5TBN4EBMPuMGzxg6yKKcz7KVx0uopzFVmgo7Y0rahFQNH",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/SGBuaFfUa-e6B4chUVHBN6YaPERIru-xa16EJApQZmGctwpT8XvJWUcO19RqQOh-zPg",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://www.americantaxi.com/ATOnlineOrderWeb/privacyStatement.jsp",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.ataxi.orders.ui",
+    "reviewsUrl": "rev?doc=com.ataxi.orders.ui&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.ataxi.orders.ui",
+    "title": "American Taxi Dispatch",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "developer@americantaxi.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "27 Dec 2014"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "185",
+      "fiveStarRatings": "104",
+      "fourStarRatings": "44",
+      "oneStarRatings": "160",
+      "ratingsCount": "401",
+      "starRating": 2.71,
+      "threeStarRatings": "44",
+      "twoStarRatings": "48",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-10-16 09:20:38.097937",
+    "backendDocid": "com.ataxi.orders.ui",
+    "backendId": 3,
+    "creator": "Automated National Dispatch",
+    "descriptionHtml": "Taxi Now Taxi Later<br><br>by American Taxi Dispatch, Inc.<br><br>847-253-4411<br>708-424-7878<br>630-920-9480<br>800-244-1177<br><br>Order a Suburban Chicago area taxi from your mobile device anywhere, any time.<br>Your order will go direct to dispatch for the fastest service possible.<br><br>\u2022 GPS locator to verify your pick up location<br>\u2022 Your saved profile will show your common locations<br>\u2022 Order your taxi for immediate pick up or later pick up<br>\u2022 Check, change, and cancel your order any time<br>\u2022 Airport and Chicago pickups going to Suburban locations<br>\u2022 Suburban locations going to Chicago or Milwaukee or airports<br>\u2022 ETA/ taxi number texted to you<br><br>American Taxi Dispatch, Inc. is the largest suburban Chicago, IL taxi dispatch service serving all suburbs, airports and downtown. All rides must begin or end in a suburb. We offer low flat rates to and from airports and downtown locations.<br><br>Our easy and secure online ordering through tablet and smartphone, or any computer, goes direct to dispatch so there is no delay in the order process. When you log in you can order your taxi immediately, or choose a later time or date and the order will remain in the dispatch system until it is completed.<br><br>You can retrieve your order on your mobile device to check for estimated time of arrival to your pick up location, change date, time or any other feature, or cancel your order.<br><br>You can add commonly used travel locations (except airports, which are already shortcuts) to make ordering faster and easier. Save the shortcut name, such as work, dentist, home, or favorite restaurant, and the name and address of the location in your permanent profile and you can scroll to that shortcut to quickly enter that location in your order.<br><br>Save all cell phone, office and home phone numbers in your profile so if you need to call, our automated system will recognize any of those numbers and quickly place your order.<br><br>We accept all major credit cards, coupons and village sponsored senior discount taxi coupon programs. Remember, it&#39;s quicker to click than to call!",
+    "descriptionShort": "Order a Suburban Chicago area taxi from your mobile device anywhere, any time.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "version": 12451000
+            }
+          ],
+          "unknown2": "7319625",
+          "unknown3": 33
+        },
+        "developerEmail": "developer@americantaxi.com",
+        "developerName": "Automated National Dispatch",
+        "developerWebsite": "http://www.americantaxi.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "7319625",
+            "versionCode": 135
+          }
+        ],
+        "installationSize": "7319625",
+        "numDownloads": "100,000+ downloads",
+        "packageName": "com.ataxi.orders.ui",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.CALL_PHONE",
+          "android.permission.GET_ACCOUNTS",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.USE_BIOMETRIC",
+          "android.permission.USE_FINGERPRINT",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.ataxi.orders.ui.permission.C2D_MESSAGE",
+          "com.ataxi.orders.ui.permission.MAPS_RECEIVE",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.providers.gsf.permission.READ_GSERVICES"
+        ],
+        "unstable": true,
+        "uploadDate": "12 Oct 2023",
+        "versionCode": 135,
+        "versionString": "2.6.59"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.ataxi.orders.ui",
+    "docType": 1,
+    "docid": "com.ataxi.orders.ui",
+    "image": [
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/tPJGgznOqG1-NdmHchgD5DDQj4ibFqde3eVNuc7mFVr34T9A3Fad5GMfbESaBF419Uoc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FFFFFF",
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/Ixyr3NO3oA6YlqkkX__TsjnhFFyegSTkx0ifcCj1wuS3771K-Ae-8lCNPhs5a_2pm4Gb",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/EF77lrleUblwJ-4tuU40ZzlbCZxvdXs2OjyHDFwU5MU52OeLtrN-Zy7bvmFrpPRYQKQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/9t71kx36stfmRzWiCHClfgkZZPs1C95yeuuKtrE7Bj06ZO-IjeNBxkqXyJoZWJcqCF8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/jkhqea5DcUMqRk_GxJ4OZSN1l9dzt7VxIL9ICQRwHXthpVT8Lx0QEEYaiGwjfkLNKm8Q",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/08lYyOyoM4EhCufHUvJJUtSYg_g3iXjadnR6pvKCktP2dwjIFkcwWv4P4caiymygTj8r",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/SaHI9cUeiYhSoA7v_653mVvqmGK_yjfzz28UlCtJy0gMf0qGxqTtVvlBtn472h0OCBE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/TJlGqyH6_baFsaqxhAbxsxaL3mPj69z9a4hI6C644r1hDLYc8uJcje6xRAxAyTrKhps",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/hLLJqzaI_22UeE9q1lGkPDt5TBN4EBMPuMGzxg6yKKcz7KVx0uopzFVmgo7Y0rahFQNH",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/SGBuaFfUa-e6B4chUVHBN6YaPERIru-xa16EJApQZmGctwpT8XvJWUcO19RqQOh-zPg",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://www.americantaxi.com/ATOnlineOrderWeb/privacyStatement.jsp",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.ataxi.orders.ui",
+    "reviewsUrl": "rev?doc=com.ataxi.orders.ui&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.ataxi.orders.ui",
+    "title": "American Taxi Dispatch",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "developer@americantaxi.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "27 Dec 2014"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "7",
+      "fiveStarRatings": "8",
+      "fourStarRatings": "0",
+      "oneStarRatings": "5",
+      "ratingsCount": "15",
+      "starRating": 3.4166667,
+      "threeStarRatings": "0",
+      "twoStarRatings": "1",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2024-05-02 16:27:08.524033",
+    "backendDocid": "com.ataxi.orders.ui",
+    "backendId": 3,
+    "creator": "Automated National Dispatch",
+    "descriptionHtml": "Taxi Now Taxi Later<br><br>by American Taxi Dispatch, Inc.<br><br>847-253-4411<br>708-424-7878<br>630-920-9480<br>800-244-1177<br><br>Order a Suburban Chicago area taxi from your mobile device anywhere, any time.<br>Your order will go direct to dispatch for the fastest service possible.<br><br>\u2022 GPS locator to verify your pick up location<br>\u2022 Your saved profile will show your common locations<br>\u2022 Order your taxi for immediate pick up or later pick up<br>\u2022 Check, change, and cancel your order any time<br>\u2022 Airport and Chicago pickups going to Suburban locations<br>\u2022 Suburban locations going to Chicago or Milwaukee or airports<br>\u2022 ETA/ taxi number texted to you<br><br>American Taxi Dispatch, Inc. is the largest suburban Chicago, IL taxi dispatch service serving all suburbs, airports and downtown. All rides must begin or end in a suburb. We offer low flat rates to and from airports and downtown locations.<br><br>Our easy and secure online ordering through tablet and smartphone, or any computer, goes direct to dispatch so there is no delay in the order process. When you log in you can order your taxi immediately, or choose a later time or date and the order will remain in the dispatch system until it is completed.<br><br>You can retrieve your order on your mobile device to check for estimated time of arrival to your pick up location, change date, time or any other feature, or cancel your order.<br><br>You can add commonly used travel locations (except airports, which are already shortcuts) to make ordering faster and easier. Save the shortcut name, such as work, dentist, home, or favorite restaurant, and the name and address of the location in your permanent profile and you can scroll to that shortcut to quickly enter that location in your order.<br><br>Save all cell phone, office and home phone numbers in your profile so if you need to call, our automated system will recognize any of those numbers and quickly place your order.<br><br>We accept all major credit cards, coupons and village sponsored senior discount taxi coupon programs. Remember, it&#39;s quicker to click than to call!",
+    "descriptionShort": "Order a Suburban Chicago area taxi from your mobile device anywhere, any time.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "version": 12451000
+            }
+          ],
+          "unknown2": "7331804",
+          "unknown3": 33
+        },
+        "developerEmail": "developer@americantaxi.com",
+        "developerName": "Automated National Dispatch",
+        "developerWebsite": "http://www.americantaxi.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "7331804",
+            "versionCode": 137
+          }
+        ],
+        "installationSize": "7331804",
+        "numDownloads": "100,000+ downloads",
+        "packageName": "com.ataxi.orders.ui",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.CALL_PHONE",
+          "android.permission.GET_ACCOUNTS",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.USE_BIOMETRIC",
+          "android.permission.USE_FINGERPRINT",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.ataxi.orders.ui.permission.C2D_MESSAGE",
+          "com.ataxi.orders.ui.permission.MAPS_RECEIVE",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.providers.gsf.permission.READ_GSERVICES"
+        ],
+        "unstable": true,
+        "uploadDate": "15 Feb 2024",
+        "versionCode": 137,
+        "versionString": "2.6.61"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.ataxi.orders.ui&vc=137",
+    "docType": 1,
+    "docid": "com.ataxi.orders.ui",
+    "image": [
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/tPJGgznOqG1-NdmHchgD5DDQj4ibFqde3eVNuc7mFVr34T9A3Fad5GMfbESaBF419Uoc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FFFFFF",
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/Ixyr3NO3oA6YlqkkX__TsjnhFFyegSTkx0ifcCj1wuS3771K-Ae-8lCNPhs5a_2pm4Gb",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1024,
+          "width": 600
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/0OJjhkboZ_cwL5Z6hif1bFR7Z819LGp-2XPij4k-t5_w2hn-VFEtNUMxJ78QUC4qr7s",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1024,
+          "width": 600
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/MeKUnx-MYp5F_Gne6508t7aJ3UpN1ob3WOwzn7iQ3_0Rh1O1aNn-9Vv97z0CYnPHnWQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1024,
+          "width": 600
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/T4GmVbQeXWxEGKOOAefI7OvIR7K3XxiJ78hT1JCrZzQRzf4PBTiHeZN9MRSQhDa4uCQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1024,
+          "width": 600
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Qqk9WheROCwz63b4PQHM_jwB5PoeIe0AUuIcKBOYeucGZwK60A3A8JpUlXCzEwCHEtk",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1024,
+          "width": 600
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/hY_gMJSZ49fNbYoE5GRCD-YxujLuTI_Y49GxjWCaWK4mKaGF3KfPfsoffl36d0zCZ1Iy",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1024,
+          "width": 600
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Wj-7xAqAoKFZcUqMz40VpDetYG9VzCpej5r9hqeHRZZRzdvmDTIbu0aMKTxQTfACQow",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1024,
+          "width": 600
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Sx-1TymAjo45TGWameeVmSB7Q23lZ070-2bxIjfXuAlvPRCEqvCaIYTcdBV09v-mBTR4",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "JPY",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://www.americantaxi.com/ATOnlineOrderWeb/privacyStatement.jsp",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 487,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/EbEX3AN4FC4pu3lsElAHCiksluOVU8OgkgtWC43-wmm_aHVq2D65FmEM97bPexilUAvlAY5_4ARH8Tb3RxQ",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Rated for 3+",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.ataxi.orders.ui",
+    "reviewsUrl": "rev?doc=com.ataxi.orders.ui&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.ataxi.orders.ui",
+    "title": "American Taxi Dispatch\n2.6.61",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Automated National Dispatch"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "developer@americantaxi.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "27 Dec 2014"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "219",
+      "fiveStarRatings": "128",
+      "fourStarRatings": "26",
+      "oneStarRatings": "247",
+      "ratingsCount": "442",
+      "starRating": 2.49,
+      "threeStarRatings": "26",
+      "twoStarRatings": "13",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2024-09-19 11:48:26.072609",
+    "backendDocid": "com.ataxi.orders.ui",
+    "backendId": 3,
+    "creator": "Automated National Dispatch",
+    "descriptionHtml": "Taxi Now Taxi Later<br><br>by American Taxi Dispatch, Inc.<br><br>847-253-4411<br>708-424-7878<br>630-920-9480<br>800-244-1177<br><br>Order a Suburban Chicago area taxi from your mobile device anywhere, any time.<br>Your order will go direct to dispatch for the fastest service possible.<br><br>\u2022 GPS locator to verify your pick up location<br>\u2022 Your saved profile will show your common locations<br>\u2022 Order your taxi for immediate pick up or later pick up<br>\u2022 Check, change, and cancel your order any time<br>\u2022 Airport and Chicago pickups going to Suburban locations<br>\u2022 Suburban locations going to Chicago or Milwaukee or airports<br>\u2022 ETA/ taxi number texted to you<br><br>American Taxi Dispatch, Inc. is the largest suburban Chicago, IL taxi dispatch service serving all suburbs, airports and downtown. All rides must begin or end in a suburb. We offer low flat rates to and from airports and downtown locations.<br><br>Our easy and secure online ordering through tablet and smartphone, or any computer, goes direct to dispatch so there is no delay in the order process. When you log in you can order your taxi immediately, or choose a later time or date and the order will remain in the dispatch system until it is completed.<br><br>You can retrieve your order on your mobile device to check for estimated time of arrival to your pick up location, change date, time or any other feature, or cancel your order.<br><br>You can add commonly used travel locations (except airports, which are already shortcuts) to make ordering faster and easier. Save the shortcut name, such as work, dentist, home, or favorite restaurant, and the name and address of the location in your permanent profile and you can scroll to that shortcut to quickly enter that location in your order.<br><br>Save all cell phone, office and home phone numbers in your profile so if you need to call, our automated system will recognize any of those numbers and quickly place your order.<br><br>We accept all major credit cards, coupons and village sponsored senior discount taxi coupon programs. Remember, it&#39;s quicker to click than to call!",
+    "descriptionShort": "Order a Suburban Chicago area taxi from your mobile device anywhere, any time.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "version": 12451000
+            }
+          ],
+          "unknown2": "42452521",
+          "unknown3": 34
+        },
+        "developerEmail": "developer@americantaxi.com",
+        "developerName": "Automated National Dispatch",
+        "developerWebsite": "http://www.americantaxi.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "21862999",
+            "versionCode": 169
+          },
+          {
+            "fileType": 0,
+            "size": "88072",
+            "versionCode": 169
+          },
+          {
+            "fileType": 0,
+            "size": "111001",
+            "versionCode": 169
+          },
+          {
+            "fileType": 0,
+            "size": "20390449",
+            "versionCode": 169
+          }
+        ],
+        "installationSize": "42452521",
+        "numDownloads": "100,000+ downloads",
+        "packageName": "com.ataxi.orders.ui",
+        "permission": [
+          "android.permission.ACCESS_ADSERVICES_AD_ID",
+          "android.permission.ACCESS_ADSERVICES_ATTRIBUTION",
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.INTERNET",
+          "android.permission.POST_NOTIFICATIONS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.USE_BIOMETRIC",
+          "android.permission.USE_FINGERPRINT",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.ataxi.orders.ui.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.AD_ID",
+          "com.google.android.providers.gsf.permission.READ_GSERVICES"
+        ],
+        "recentChangesHtml": "Bug fixes and UI improvements.",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "16 Sept 2024",
+        "versionCode": 169,
+        "versionString": "4.2.5"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.ataxi.orders.ui&vc=169",
+    "docType": 1,
+    "docid": "com.ataxi.orders.ui",
+    "image": [
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/tPJGgznOqG1-NdmHchgD5DDQj4ibFqde3eVNuc7mFVr34T9A3Fad5GMfbESaBF419Uoc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FFFEFE",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/h2q76hsp7RN_MKRF5ORad2ItExZnEfA0Y4sAqCNnnnbS19USyYLjE30YAnBPZRYUTFs",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2280,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/BmMWlfs6Douyghj4bJ-yHbScSNVdzRXc-tmPKchcCXO_iAiZHHwAh7KTXMXIVdzkj5M",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2280,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/MfzBF4ICPG6w5_BKoENcEFAZ5v3p_L5y-G6nci484q59UAFznSpnqZASLEx5antwwzLh",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2280,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/0SywQNZp3yxPoDmGrxCTpyxJt6Ljc4aK4zb3QWBcn6u5rTieqhDh8CP7RCyhaNJH298",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2280,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/pbILpGoBFWmjji5zw3lTkeoj-E3AT7JR-ebddIRzcHGfGjWCVy3sL6T8djS2e10s7jY",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2280,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/RZtYDEsJTO_7GvVl7M0a9G__oFthzWshRS6LbwTu0KNJUVmRQLq7v1S0LI9KDPr_cw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2280,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/eaIrWmVI4oLOaCIyOqzogwfAgNwJ9YH0zLTXDfPYIBjwWno-Y8QpN7XHm_A1642DlXWw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2280,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/FmlCLfylRx_25SDE_F_p2cmO4M1EnPUyF9-4j0fy8XER5F3Kv-goZH5P1EcnUO9Uj8k",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2280,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/mJBA1cJchxGzYzUvHUt7U9v2OiMs_Vsqdmu8qzdXksUvG0wKPoer4c_E4OiBvZVbr5I",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://www.americantaxi.com/privacy-statement",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.ataxi.orders.ui",
+    "reviewsUrl": "rev?doc=com.ataxi.orders.ui&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.ataxi.orders.ui",
+    "title": "American Taxi Dispatch\n4.2.5",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "developer@americantaxi.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "27 Dec 2014"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "199",
+      "fiveStarRatings": "132",
+      "fourStarRatings": "21",
+      "oneStarRatings": "252",
+      "ratingsCount": "445",
+      "starRating": 2.49,
+      "threeStarRatings": "25",
+      "twoStarRatings": "8",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2025-01-20 22:11:46.096005",
+    "backendDocid": "com.ataxi.orders.ui",
+    "backendId": 3,
+    "creator": "Automated National Dispatch",
+    "descriptionHtml": "Taxi Now Taxi Later<br><br>by American Taxi Dispatch, Inc.<br><br>847-253-4411<br>708-424-7878<br>630-920-9480<br>800-244-1177<br><br>Order a Suburban Chicago area taxi from your mobile device anywhere, any time.<br>Your order will go direct to dispatch for the fastest service possible.<br><br>\u2022 GPS locator to verify your pick up location<br>\u2022 Your saved profile will show your common locations<br>\u2022 Order your taxi for immediate pick up or later pick up<br>\u2022 Check, change, and cancel your order any time<br>\u2022 Airport and Chicago pickups going to Suburban locations<br>\u2022 Suburban locations going to Chicago or Milwaukee or airports<br>\u2022 ETA/ taxi number texted to you<br><br>American Taxi Dispatch, Inc. is the largest suburban Chicago, IL taxi dispatch service serving all suburbs, airports and downtown. All rides must begin or end in a suburb. We offer low flat rates to and from airports and downtown locations.<br><br>Our easy and secure online ordering through tablet and smartphone, or any computer, goes direct to dispatch so there is no delay in the order process. When you log in you can order your taxi immediately, or choose a later time or date and the order will remain in the dispatch system until it is completed.<br><br>You can retrieve your order on your mobile device to check for estimated time of arrival to your pick up location, change date, time or any other feature, or cancel your order.<br><br>You can add commonly used travel locations (except airports, which are already shortcuts) to make ordering faster and easier. Save the shortcut name, such as work, dentist, home, or favorite restaurant, and the name and address of the location in your permanent profile and you can scroll to that shortcut to quickly enter that location in your order.<br><br>Save all cell phone, office and home phone numbers in your profile so if you need to call, our automated system will recognize any of those numbers and quickly place your order.<br><br>We accept all major credit cards, coupons and village sponsored senior discount taxi coupon programs. Remember, it&#39;s quicker to click than to call!",
+    "descriptionShort": "Order a Suburban Chicago area taxi from your mobile device anywhere, any time.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "version": 12451000
+            }
+          ],
+          "unknown2": "42513961",
+          "unknown3": 34
+        },
+        "developerEmail": "developer@americantaxi.com",
+        "developerName": "Automated National Dispatch",
+        "developerWebsite": "http://www.americantaxi.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "21858903",
+            "versionCode": 172
+          },
+          {
+            "fileType": 0,
+            "size": "88072",
+            "versionCode": 172
+          },
+          {
+            "fileType": 0,
+            "size": "111001",
+            "versionCode": 172
+          },
+          {
+            "fileType": 0,
+            "size": "20455985",
+            "versionCode": 172
+          }
+        ],
+        "installationSize": "42513961",
+        "numDownloads": "100,000+ downloads",
+        "packageName": "com.ataxi.orders.ui",
+        "permission": [
+          "android.permission.ACCESS_ADSERVICES_AD_ID",
+          "android.permission.ACCESS_ADSERVICES_ATTRIBUTION",
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.INTERNET",
+          "android.permission.POST_NOTIFICATIONS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.USE_BIOMETRIC",
+          "android.permission.USE_FINGERPRINT",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.ataxi.orders.ui.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.AD_ID",
+          "com.google.android.providers.gsf.permission.READ_GSERVICES"
+        ],
+        "recentChangesHtml": "Bug fixes and few other updates",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "10 Dec 2024",
+        "versionCode": 172,
+        "versionString": "4.2.8"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.ataxi.orders.ui&vc=172",
+    "docType": 1,
+    "docid": "com.ataxi.orders.ui",
+    "image": [
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/tPJGgznOqG1-NdmHchgD5DDQj4ibFqde3eVNuc7mFVr34T9A3Fad5GMfbESaBF419Uoc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FFFEFE",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/h2q76hsp7RN_MKRF5ORad2ItExZnEfA0Y4sAqCNnnnbS19USyYLjE30YAnBPZRYUTFs",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2280,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/BmMWlfs6Douyghj4bJ-yHbScSNVdzRXc-tmPKchcCXO_iAiZHHwAh7KTXMXIVdzkj5M",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2280,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/MfzBF4ICPG6w5_BKoENcEFAZ5v3p_L5y-G6nci484q59UAFznSpnqZASLEx5antwwzLh",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2280,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/0SywQNZp3yxPoDmGrxCTpyxJt6Ljc4aK4zb3QWBcn6u5rTieqhDh8CP7RCyhaNJH298",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2280,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/pbILpGoBFWmjji5zw3lTkeoj-E3AT7JR-ebddIRzcHGfGjWCVy3sL6T8djS2e10s7jY",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2280,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/RZtYDEsJTO_7GvVl7M0a9G__oFthzWshRS6LbwTu0KNJUVmRQLq7v1S0LI9KDPr_cw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2280,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/eaIrWmVI4oLOaCIyOqzogwfAgNwJ9YH0zLTXDfPYIBjwWno-Y8QpN7XHm_A1642DlXWw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2280,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/FmlCLfylRx_25SDE_F_p2cmO4M1EnPUyF9-4j0fy8XER5F3Kv-goZH5P1EcnUO9Uj8k",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2280,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/mJBA1cJchxGzYzUvHUt7U9v2OiMs_Vsqdmu8qzdXksUvG0wKPoer4c_E4OiBvZVbr5I",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://www.americantaxi.com/privacy-statement",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.ataxi.orders.ui",
+    "reviewsUrl": "rev?doc=com.ataxi.orders.ui&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.ataxi.orders.ui",
+    "title": "American Taxi Dispatch\n4.2.8",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Automated National Dispatch"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "developer@americantaxi.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "10 Oct 2013"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  }
+]

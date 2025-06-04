@@ -1,0 +1,3435 @@
+[
+  {
+    "aggregateRating": {
+      "commentCount": "65",
+      "fiveStarRatings": "85",
+      "fourStarRatings": "31",
+      "oneStarRatings": "2",
+      "ratingsCount": "122",
+      "starRating": 4.62,
+      "threeStarRatings": "2",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 2
+    },
+    "az_metadata_date": "2020-06-10 02:59:14.469081",
+    "backendDocid": "nl.linnaeus.floron.nova",
+    "backendId": 3,
+    "creator": "Oecologica",
+    "descriptionHtml": "NOVA (acroniem voor NatuurObservaties voor de VerspreidingsAtlas) is een vervanging van de papieren streeplijsten voor waaneming-projecten. Ook kun je met NOVA losse waarnemingen melden. Bij elke waarneming worden de soortnaam, locatie en tijd nauwkeurig vastgelegd. Tevens controleert de App bij streeplijsten of je nog binnen het kilometerhok bent. De waarnemingen van een dag of een gebied worden gebundeld in een lijst.<br><br>Ben je klaar met het veldwerk, dan kun je de lijst verzenden naar Verspreidingsatlas.nl. Met een account op Verspreidingsatlas.nl kun je de waarnemingen bekijken, wijzigen en downloaden voor eigen gebruik. <br><br>Waarnemingen komen na validatie direct in de Nationale Databank Flora en Fauna (NDFF). Zo draag je bij aan de kennis over de verspreiding wilde flora en bescherming van soorten in Nederland.",
+    "descriptionShort": "Mobile Entering observations for Foundation ANEMOON, BLWG, FLORON and NMV.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 6171000
+            }
+          ],
+          "unknown2": "13832776",
+          "unknown3": 29
+        },
+        "developerEmail": "support@oecologica.com",
+        "developerName": "Oecologica",
+        "developerWebsite": "http://www.floron.nl/meedoen/nova",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "13832776",
+            "versionCode": 281
+          }
+        ],
+        "installationSize": "13832776",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "nl.linnaeus.floron.nova",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_NOTIFICATION_POLICY",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.providers.gsf.permission.READ_GSERVICES",
+          "nl.linnaeus.floron.nova.googlemapsv2.permission.MAPS_RECEIVE"
+        ],
+        "unstable": true,
+        "uploadDate": "4 May 2020",
+        "versionCode": 281,
+        "versionString": "3.5.2"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=nl.linnaeus.floron.nova",
+    "docType": 1,
+    "docid": "nl.linnaeus.floron.nova",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://lh3.googleusercontent.com/l_u_VPEKwCkhlZqRInrTKMIgk9PqZPe6rm7wVlUvr3ye8YuKknX1doNt6y5sLnHfQA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://lh3.googleusercontent.com/-D0PAYVWkcWT1ddsFpK0vPb78GqFpnHvyEiWklpyRN5H87DEmh0M3-AJnbIBBv1KMA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/Pf3pAuOfimZ1CZFNITY7AEpKIzZRjxt1Eq6dnwKHntIFBd1Tl85YeTygAvwkuuVsCM_m",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/237PinqRuFOlXos_eqGW6k_wnTXVKRaQ4wolgsGrC19CNIEBiiH1crodkhl1KUopK3s",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/qhhQRrBFQ6xztmWgvi7r7fjue4EVz7rCsJ8SSa_4G8j2lPF4V5oYpEt5u88I7foItg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/-aVwCLuooTy7_FjY3nN4P991fO4euILeEFwZpw7avnwDfrFeSFLs4dp-43HPEdN0lu-Y",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/Gj-5ZNAbvwc18TkXMoR7VMgEM6dzpsZMVhamNc6xRLT7-AhG4JFLDcGUdhvUy0oSBp7g",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/CDv7ePdX5G5nxShgN2ZYPbooMEdJR61O9fLn4m3zqbQfaI6frOHHfnBYLz6SaXuMQw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/0YLV6ENNf3BtXwAsC0v3ZBNP-uBDvbqQjcnGC7J67OLFNoE20v7kcy5RsXTVZGUCqNg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/N7zcSxgWL7A17Qg5CpkoBQpatd3ApVyAHdjoQ13gnoOYBjI5jN-Nl8DMssfYkxGDriV8",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://www.oecologica.com/nova/privacy_policy.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://lh3.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=nl.linnaeus.floron.nova",
+    "reviewsUrl": "rev?doc=nl.linnaeus.floron.nova&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=nl.linnaeus.floron.nova",
+    "title": "NOVA Verspreidingsatlas",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Oecologica"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "support@oecologica.com"
+          },
+          "label": "Developer email"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "66",
+      "fiveStarRatings": "84",
+      "fourStarRatings": "33",
+      "oneStarRatings": "2",
+      "ratingsCount": "123",
+      "starRating": 4.61,
+      "threeStarRatings": "2",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 2
+    },
+    "az_metadata_date": "2020-06-15 04:50:58.432917",
+    "backendDocid": "nl.linnaeus.floron.nova",
+    "backendId": 3,
+    "creator": "Oecologica",
+    "descriptionHtml": "NOVA (acroniem voor NatuurObservaties voor de VerspreidingsAtlas) is een vervanging van de papieren streeplijsten voor waaneming-projecten. Ook kun je met NOVA losse waarnemingen melden. Bij elke waarneming worden de soortnaam, locatie en tijd nauwkeurig vastgelegd. Tevens controleert de App bij streeplijsten of je nog binnen het kilometerhok bent. De waarnemingen van een dag of een gebied worden gebundeld in een lijst.<br><br>Ben je klaar met het veldwerk, dan kun je de lijst verzenden naar Verspreidingsatlas.nl. Met een account op Verspreidingsatlas.nl kun je de waarnemingen bekijken, wijzigen en downloaden voor eigen gebruik. <br><br>Waarnemingen komen na validatie direct in de Nationale Databank Flora en Fauna (NDFF). Zo draag je bij aan de kennis over de verspreiding wilde flora en bescherming van soorten in Nederland.",
+    "descriptionShort": "Mobile Entering observations for Foundation ANEMOON, BLWG, FLORON and NMV.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 6171000
+            }
+          ],
+          "unknown2": "13832776",
+          "unknown3": 29
+        },
+        "developerEmail": "support@oecologica.com",
+        "developerName": "Oecologica",
+        "developerWebsite": "http://www.floron.nl/meedoen/nova",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "13832776",
+            "versionCode": 281
+          }
+        ],
+        "installationSize": "13832776",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "nl.linnaeus.floron.nova",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_NOTIFICATION_POLICY",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.providers.gsf.permission.READ_GSERVICES",
+          "nl.linnaeus.floron.nova.googlemapsv2.permission.MAPS_RECEIVE"
+        ],
+        "unstable": true,
+        "uploadDate": "4 May 2020",
+        "versionCode": 281,
+        "versionString": "3.5.2"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=nl.linnaeus.floron.nova",
+    "docType": 1,
+    "docid": "nl.linnaeus.floron.nova",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://lh3.googleusercontent.com/l_u_VPEKwCkhlZqRInrTKMIgk9PqZPe6rm7wVlUvr3ye8YuKknX1doNt6y5sLnHfQA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://lh3.googleusercontent.com/-D0PAYVWkcWT1ddsFpK0vPb78GqFpnHvyEiWklpyRN5H87DEmh0M3-AJnbIBBv1KMA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/Pf3pAuOfimZ1CZFNITY7AEpKIzZRjxt1Eq6dnwKHntIFBd1Tl85YeTygAvwkuuVsCM_m",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/237PinqRuFOlXos_eqGW6k_wnTXVKRaQ4wolgsGrC19CNIEBiiH1crodkhl1KUopK3s",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/qhhQRrBFQ6xztmWgvi7r7fjue4EVz7rCsJ8SSa_4G8j2lPF4V5oYpEt5u88I7foItg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/-aVwCLuooTy7_FjY3nN4P991fO4euILeEFwZpw7avnwDfrFeSFLs4dp-43HPEdN0lu-Y",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/Gj-5ZNAbvwc18TkXMoR7VMgEM6dzpsZMVhamNc6xRLT7-AhG4JFLDcGUdhvUy0oSBp7g",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/CDv7ePdX5G5nxShgN2ZYPbooMEdJR61O9fLn4m3zqbQfaI6frOHHfnBYLz6SaXuMQw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/0YLV6ENNf3BtXwAsC0v3ZBNP-uBDvbqQjcnGC7J67OLFNoE20v7kcy5RsXTVZGUCqNg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/N7zcSxgWL7A17Qg5CpkoBQpatd3ApVyAHdjoQ13gnoOYBjI5jN-Nl8DMssfYkxGDriV8",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://www.oecologica.com/nova/privacy_policy.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://lh3.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=nl.linnaeus.floron.nova",
+    "reviewsUrl": "rev?doc=nl.linnaeus.floron.nova&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=nl.linnaeus.floron.nova",
+    "title": "NOVA Verspreidingsatlas",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "support@oecologica.com"
+          },
+          "label": "Developer email"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "68",
+      "fiveStarRatings": "83",
+      "fourStarRatings": "35",
+      "oneStarRatings": "3",
+      "ratingsCount": "125",
+      "starRating": 4.56,
+      "threeStarRatings": "2",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 2
+    },
+    "az_metadata_date": "2020-06-22 01:44:26.041769",
+    "backendDocid": "nl.linnaeus.floron.nova",
+    "backendId": 3,
+    "creator": "Oecologica",
+    "descriptionHtml": "NOVA (acroniem voor NatuurObservaties voor de VerspreidingsAtlas) is een vervanging van de papieren streeplijsten voor waaneming-projecten. Ook kun je met NOVA losse waarnemingen melden. Bij elke waarneming worden de soortnaam, locatie en tijd nauwkeurig vastgelegd. Tevens controleert de App bij streeplijsten of je nog binnen het kilometerhok bent. De waarnemingen van een dag of een gebied worden gebundeld in een lijst.<br><br>Ben je klaar met het veldwerk, dan kun je de lijst verzenden naar Verspreidingsatlas.nl. Met een account op Verspreidingsatlas.nl kun je de waarnemingen bekijken, wijzigen en downloaden voor eigen gebruik. <br><br>Waarnemingen komen na validatie direct in de Nationale Databank Flora en Fauna (NDFF). Zo draag je bij aan de kennis over de verspreiding wilde flora en bescherming van soorten in Nederland.",
+    "descriptionShort": "Mobile Entering observations for Foundation ANEMOON, BLWG, FLORON and NMV.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 6171000
+            }
+          ],
+          "unknown2": "13832776",
+          "unknown3": 29
+        },
+        "developerEmail": "support@oecologica.com",
+        "developerName": "Oecologica",
+        "developerWebsite": "http://www.floron.nl/meedoen/nova",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "13832776",
+            "versionCode": 281
+          }
+        ],
+        "installationSize": "13832776",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "nl.linnaeus.floron.nova",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_NOTIFICATION_POLICY",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.providers.gsf.permission.READ_GSERVICES",
+          "nl.linnaeus.floron.nova.googlemapsv2.permission.MAPS_RECEIVE"
+        ],
+        "unstable": true,
+        "uploadDate": "4 May 2020",
+        "versionCode": 281,
+        "versionString": "3.5.2"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=nl.linnaeus.floron.nova",
+    "docType": 1,
+    "docid": "nl.linnaeus.floron.nova",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://lh3.googleusercontent.com/l_u_VPEKwCkhlZqRInrTKMIgk9PqZPe6rm7wVlUvr3ye8YuKknX1doNt6y5sLnHfQA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://lh3.googleusercontent.com/-D0PAYVWkcWT1ddsFpK0vPb78GqFpnHvyEiWklpyRN5H87DEmh0M3-AJnbIBBv1KMA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/Pf3pAuOfimZ1CZFNITY7AEpKIzZRjxt1Eq6dnwKHntIFBd1Tl85YeTygAvwkuuVsCM_m",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/237PinqRuFOlXos_eqGW6k_wnTXVKRaQ4wolgsGrC19CNIEBiiH1crodkhl1KUopK3s",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/qhhQRrBFQ6xztmWgvi7r7fjue4EVz7rCsJ8SSa_4G8j2lPF4V5oYpEt5u88I7foItg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/-aVwCLuooTy7_FjY3nN4P991fO4euILeEFwZpw7avnwDfrFeSFLs4dp-43HPEdN0lu-Y",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/Gj-5ZNAbvwc18TkXMoR7VMgEM6dzpsZMVhamNc6xRLT7-AhG4JFLDcGUdhvUy0oSBp7g",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/CDv7ePdX5G5nxShgN2ZYPbooMEdJR61O9fLn4m3zqbQfaI6frOHHfnBYLz6SaXuMQw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/0YLV6ENNf3BtXwAsC0v3ZBNP-uBDvbqQjcnGC7J67OLFNoE20v7kcy5RsXTVZGUCqNg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/N7zcSxgWL7A17Qg5CpkoBQpatd3ApVyAHdjoQ13gnoOYBjI5jN-Nl8DMssfYkxGDriV8",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://www.oecologica.com/nova/privacy_policy.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://lh3.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=nl.linnaeus.floron.nova",
+    "reviewsUrl": "rev?doc=nl.linnaeus.floron.nova&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=nl.linnaeus.floron.nova",
+    "title": "NOVA Verspreidingsatlas",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "support@oecologica.com"
+          },
+          "label": "Developer email"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "68",
+      "fiveStarRatings": "84",
+      "fourStarRatings": "35",
+      "oneStarRatings": "3",
+      "ratingsCount": "126",
+      "starRating": 4.56,
+      "threeStarRatings": "2",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 2
+    },
+    "az_metadata_date": "2020-07-04 11:56:34.032947",
+    "backendDocid": "nl.linnaeus.floron.nova",
+    "backendId": 3,
+    "creator": "Oecologica",
+    "descriptionHtml": "NOVA (acroniem voor NatuurObservaties voor de VerspreidingsAtlas) is een vervanging van de papieren streeplijsten voor waaneming-projecten. Ook kun je met NOVA losse waarnemingen melden. Bij elke waarneming worden de soortnaam, locatie en tijd nauwkeurig vastgelegd. Tevens controleert de App bij streeplijsten of je nog binnen het kilometerhok bent. De waarnemingen van een dag of een gebied worden gebundeld in een lijst.<br><br>Ben je klaar met het veldwerk, dan kun je de lijst verzenden naar Verspreidingsatlas.nl. Met een account op Verspreidingsatlas.nl kun je de waarnemingen bekijken, wijzigen en downloaden voor eigen gebruik. <br><br>Waarnemingen komen na validatie direct in de Nationale Databank Flora en Fauna (NDFF). Zo draag je bij aan de kennis over de verspreiding wilde flora en bescherming van soorten in Nederland.",
+    "descriptionShort": "Mobile Entering observations for Foundation ANEMOON, BLWG, FLORON and NMV.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 6171000
+            }
+          ],
+          "unknown2": "13832776",
+          "unknown3": 29
+        },
+        "developerEmail": "support@oecologica.com",
+        "developerName": "Oecologica",
+        "developerWebsite": "http://www.floron.nl/meedoen/nova",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "13832776",
+            "versionCode": 281
+          }
+        ],
+        "installationSize": "13832776",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "nl.linnaeus.floron.nova",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_NOTIFICATION_POLICY",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.providers.gsf.permission.READ_GSERVICES",
+          "nl.linnaeus.floron.nova.googlemapsv2.permission.MAPS_RECEIVE"
+        ],
+        "unstable": true,
+        "uploadDate": "4 May 2020",
+        "versionCode": 281,
+        "versionString": "3.5.2"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=nl.linnaeus.floron.nova",
+    "docType": 1,
+    "docid": "nl.linnaeus.floron.nova",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://lh3.googleusercontent.com/l_u_VPEKwCkhlZqRInrTKMIgk9PqZPe6rm7wVlUvr3ye8YuKknX1doNt6y5sLnHfQA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://lh3.googleusercontent.com/-D0PAYVWkcWT1ddsFpK0vPb78GqFpnHvyEiWklpyRN5H87DEmh0M3-AJnbIBBv1KMA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/Pf3pAuOfimZ1CZFNITY7AEpKIzZRjxt1Eq6dnwKHntIFBd1Tl85YeTygAvwkuuVsCM_m",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/237PinqRuFOlXos_eqGW6k_wnTXVKRaQ4wolgsGrC19CNIEBiiH1crodkhl1KUopK3s",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/qhhQRrBFQ6xztmWgvi7r7fjue4EVz7rCsJ8SSa_4G8j2lPF4V5oYpEt5u88I7foItg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/-aVwCLuooTy7_FjY3nN4P991fO4euILeEFwZpw7avnwDfrFeSFLs4dp-43HPEdN0lu-Y",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/Gj-5ZNAbvwc18TkXMoR7VMgEM6dzpsZMVhamNc6xRLT7-AhG4JFLDcGUdhvUy0oSBp7g",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/CDv7ePdX5G5nxShgN2ZYPbooMEdJR61O9fLn4m3zqbQfaI6frOHHfnBYLz6SaXuMQw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/0YLV6ENNf3BtXwAsC0v3ZBNP-uBDvbqQjcnGC7J67OLFNoE20v7kcy5RsXTVZGUCqNg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/N7zcSxgWL7A17Qg5CpkoBQpatd3ApVyAHdjoQ13gnoOYBjI5jN-Nl8DMssfYkxGDriV8",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://www.oecologica.com/nova/privacy_policy.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://lh3.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=nl.linnaeus.floron.nova",
+    "reviewsUrl": "rev?doc=nl.linnaeus.floron.nova&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=nl.linnaeus.floron.nova",
+    "title": "NOVA Verspreidingsatlas",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "support@oecologica.com"
+          },
+          "label": "Developer email"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "71",
+      "fiveStarRatings": "86",
+      "fourStarRatings": "36",
+      "oneStarRatings": "5",
+      "ratingsCount": "131",
+      "starRating": 4.52,
+      "threeStarRatings": "2",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 2
+    },
+    "az_metadata_date": "2020-11-15 06:47:47.462516",
+    "backendDocid": "nl.linnaeus.floron.nova",
+    "backendId": 3,
+    "creator": "Oecologica",
+    "descriptionHtml": "NOVA (acroniem voor NatuurObservaties voor de VerspreidingsAtlas) is een vervanging van de papieren streeplijsten voor waaneming-projecten. Ook kun je met NOVA losse waarnemingen melden. Bij elke waarneming worden de soortnaam, locatie en tijd nauwkeurig vastgelegd. Tevens controleert de App bij streeplijsten of je nog binnen het kilometerhok bent. De waarnemingen van een dag of een gebied worden gebundeld in een lijst.<br><br>Ben je klaar met het veldwerk, dan kun je de lijst verzenden naar Verspreidingsatlas.nl. Met een account op Verspreidingsatlas.nl kun je de waarnemingen bekijken, wijzigen en downloaden voor eigen gebruik. <br><br>Waarnemingen komen na validatie direct in de Nationale Databank Flora en Fauna (NDFF). Zo draag je bij aan de kennis over de verspreiding wilde flora en bescherming van soorten in Nederland.",
+    "descriptionShort": "Mobile Entering observations for Foundation ANEMOON, BLWG, FLORON and NMV.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 6171000
+            }
+          ],
+          "unknown2": "13827077",
+          "unknown3": 29
+        },
+        "developerEmail": "support@oecologica.com",
+        "developerName": "Oecologica",
+        "developerWebsite": "http://www.floron.nl/meedoen/nova",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "13827077",
+            "versionCode": 282
+          }
+        ],
+        "installationSize": "13827077",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "nl.linnaeus.floron.nova",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_NOTIFICATION_POLICY",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.providers.gsf.permission.READ_GSERVICES",
+          "nl.linnaeus.floron.nova.googlemapsv2.permission.MAPS_RECEIVE"
+        ],
+        "unstable": true,
+        "uploadDate": "2 Jul 2020",
+        "versionCode": 282,
+        "versionString": "3.5.3"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=nl.linnaeus.floron.nova",
+    "docType": 1,
+    "docid": "nl.linnaeus.floron.nova",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/l_u_VPEKwCkhlZqRInrTKMIgk9PqZPe6rm7wVlUvr3ye8YuKknX1doNt6y5sLnHfQA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/-D0PAYVWkcWT1ddsFpK0vPb78GqFpnHvyEiWklpyRN5H87DEmh0M3-AJnbIBBv1KMA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Pf3pAuOfimZ1CZFNITY7AEpKIzZRjxt1Eq6dnwKHntIFBd1Tl85YeTygAvwkuuVsCM_m",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/237PinqRuFOlXos_eqGW6k_wnTXVKRaQ4wolgsGrC19CNIEBiiH1crodkhl1KUopK3s",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qhhQRrBFQ6xztmWgvi7r7fjue4EVz7rCsJ8SSa_4G8j2lPF4V5oYpEt5u88I7foItg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/-aVwCLuooTy7_FjY3nN4P991fO4euILeEFwZpw7avnwDfrFeSFLs4dp-43HPEdN0lu-Y",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Gj-5ZNAbvwc18TkXMoR7VMgEM6dzpsZMVhamNc6xRLT7-AhG4JFLDcGUdhvUy0oSBp7g",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/CDv7ePdX5G5nxShgN2ZYPbooMEdJR61O9fLn4m3zqbQfaI6frOHHfnBYLz6SaXuMQw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/0YLV6ENNf3BtXwAsC0v3ZBNP-uBDvbqQjcnGC7J67OLFNoE20v7kcy5RsXTVZGUCqNg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/N7zcSxgWL7A17Qg5CpkoBQpatd3ApVyAHdjoQ13gnoOYBjI5jN-Nl8DMssfYkxGDriV8",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://www.oecologica.com/nova/privacy_policy.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=nl.linnaeus.floron.nova",
+    "reviewsUrl": "rev?doc=nl.linnaeus.floron.nova&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=nl.linnaeus.floron.nova",
+    "title": "NOVA Verspreidingsatlas",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "support@oecologica.com"
+          },
+          "label": "Developer email"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "71",
+      "fiveStarRatings": "86",
+      "fourStarRatings": "36",
+      "oneStarRatings": "5",
+      "ratingsCount": "131",
+      "starRating": 4.52,
+      "threeStarRatings": "2",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 2
+    },
+    "az_metadata_date": "2020-12-05 16:13:17.460981",
+    "backendDocid": "nl.linnaeus.floron.nova",
+    "backendId": 3,
+    "creator": "Oecologica",
+    "descriptionHtml": "NOVA (acroniem voor NatuurObservaties voor de VerspreidingsAtlas) is een vervanging van de papieren streeplijsten voor waaneming-projecten. Ook kun je met NOVA losse waarnemingen melden. Bij elke waarneming worden de soortnaam, locatie en tijd nauwkeurig vastgelegd. Tevens controleert de App bij streeplijsten of je nog binnen het kilometerhok bent. De waarnemingen van een dag of een gebied worden gebundeld in een lijst.<br><br>Ben je klaar met het veldwerk, dan kun je de lijst verzenden naar Verspreidingsatlas.nl. Met een account op Verspreidingsatlas.nl kun je de waarnemingen bekijken, wijzigen en downloaden voor eigen gebruik. <br><br>Waarnemingen komen na validatie direct in de Nationale Databank Flora en Fauna (NDFF). Zo draag je bij aan de kennis over de verspreiding wilde flora en bescherming van soorten in Nederland.",
+    "descriptionShort": "Mobile Entering observations for Foundation ANEMOON, BLWG, FLORON and NMV.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 6171000
+            }
+          ],
+          "unknown2": "13827077",
+          "unknown3": 29
+        },
+        "developerEmail": "support@oecologica.com",
+        "developerName": "Oecologica",
+        "developerWebsite": "http://www.floron.nl/meedoen/nova",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "13827077",
+            "versionCode": 282
+          }
+        ],
+        "installationSize": "13827077",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "nl.linnaeus.floron.nova",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_NOTIFICATION_POLICY",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.providers.gsf.permission.READ_GSERVICES",
+          "nl.linnaeus.floron.nova.googlemapsv2.permission.MAPS_RECEIVE"
+        ],
+        "unstable": true,
+        "uploadDate": "2 Jul 2020",
+        "versionCode": 282,
+        "versionString": "3.5.3"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=nl.linnaeus.floron.nova",
+    "docType": 1,
+    "docid": "nl.linnaeus.floron.nova",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/l_u_VPEKwCkhlZqRInrTKMIgk9PqZPe6rm7wVlUvr3ye8YuKknX1doNt6y5sLnHfQA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/-D0PAYVWkcWT1ddsFpK0vPb78GqFpnHvyEiWklpyRN5H87DEmh0M3-AJnbIBBv1KMA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Pf3pAuOfimZ1CZFNITY7AEpKIzZRjxt1Eq6dnwKHntIFBd1Tl85YeTygAvwkuuVsCM_m",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/237PinqRuFOlXos_eqGW6k_wnTXVKRaQ4wolgsGrC19CNIEBiiH1crodkhl1KUopK3s",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qhhQRrBFQ6xztmWgvi7r7fjue4EVz7rCsJ8SSa_4G8j2lPF4V5oYpEt5u88I7foItg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/-aVwCLuooTy7_FjY3nN4P991fO4euILeEFwZpw7avnwDfrFeSFLs4dp-43HPEdN0lu-Y",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Gj-5ZNAbvwc18TkXMoR7VMgEM6dzpsZMVhamNc6xRLT7-AhG4JFLDcGUdhvUy0oSBp7g",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/CDv7ePdX5G5nxShgN2ZYPbooMEdJR61O9fLn4m3zqbQfaI6frOHHfnBYLz6SaXuMQw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/0YLV6ENNf3BtXwAsC0v3ZBNP-uBDvbqQjcnGC7J67OLFNoE20v7kcy5RsXTVZGUCqNg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/N7zcSxgWL7A17Qg5CpkoBQpatd3ApVyAHdjoQ13gnoOYBjI5jN-Nl8DMssfYkxGDriV8",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://www.oecologica.com/nova/privacy_policy.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=nl.linnaeus.floron.nova",
+    "reviewsUrl": "rev?doc=nl.linnaeus.floron.nova&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=nl.linnaeus.floron.nova",
+    "title": "NOVA Verspreidingsatlas",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Oecologica"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "support@oecologica.com"
+          },
+          "label": "Developer email"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "71",
+      "fiveStarRatings": "86",
+      "fourStarRatings": "36",
+      "oneStarRatings": "5",
+      "ratingsCount": "131",
+      "starRating": 4.52,
+      "threeStarRatings": "2",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 2
+    },
+    "az_metadata_date": "2020-12-11 22:49:55.615284",
+    "backendDocid": "nl.linnaeus.floron.nova",
+    "backendId": 3,
+    "creator": "Oecologica",
+    "descriptionHtml": "NOVA (acroniem voor NatuurObservaties voor de VerspreidingsAtlas) is een vervanging van de papieren streeplijsten voor waaneming-projecten. Ook kun je met NOVA losse waarnemingen melden. Bij elke waarneming worden de soortnaam, locatie en tijd nauwkeurig vastgelegd. Tevens controleert de App bij streeplijsten of je nog binnen het kilometerhok bent. De waarnemingen van een dag of een gebied worden gebundeld in een lijst.<br><br>Ben je klaar met het veldwerk, dan kun je de lijst verzenden naar Verspreidingsatlas.nl. Met een account op Verspreidingsatlas.nl kun je de waarnemingen bekijken, wijzigen en downloaden voor eigen gebruik. <br><br>Waarnemingen komen na validatie direct in de Nationale Databank Flora en Fauna (NDFF). Zo draag je bij aan de kennis over de verspreiding wilde flora en bescherming van soorten in Nederland.",
+    "descriptionShort": "Mobile Entering observations for Foundation ANEMOON, BLWG, FLORON and NMV.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 6171000
+            }
+          ],
+          "unknown2": "13827077",
+          "unknown3": 29
+        },
+        "developerEmail": "support@oecologica.com",
+        "developerName": "Oecologica",
+        "developerWebsite": "http://www.floron.nl/meedoen/nova",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "13827077",
+            "versionCode": 282
+          }
+        ],
+        "installationSize": "13827077",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "nl.linnaeus.floron.nova",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_NOTIFICATION_POLICY",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.providers.gsf.permission.READ_GSERVICES",
+          "nl.linnaeus.floron.nova.googlemapsv2.permission.MAPS_RECEIVE"
+        ],
+        "unstable": true,
+        "uploadDate": "2 Jul 2020",
+        "versionCode": 282,
+        "versionString": "3.5.3"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=nl.linnaeus.floron.nova",
+    "docType": 1,
+    "docid": "nl.linnaeus.floron.nova",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/l_u_VPEKwCkhlZqRInrTKMIgk9PqZPe6rm7wVlUvr3ye8YuKknX1doNt6y5sLnHfQA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/-D0PAYVWkcWT1ddsFpK0vPb78GqFpnHvyEiWklpyRN5H87DEmh0M3-AJnbIBBv1KMA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Pf3pAuOfimZ1CZFNITY7AEpKIzZRjxt1Eq6dnwKHntIFBd1Tl85YeTygAvwkuuVsCM_m",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/237PinqRuFOlXos_eqGW6k_wnTXVKRaQ4wolgsGrC19CNIEBiiH1crodkhl1KUopK3s",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qhhQRrBFQ6xztmWgvi7r7fjue4EVz7rCsJ8SSa_4G8j2lPF4V5oYpEt5u88I7foItg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/-aVwCLuooTy7_FjY3nN4P991fO4euILeEFwZpw7avnwDfrFeSFLs4dp-43HPEdN0lu-Y",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Gj-5ZNAbvwc18TkXMoR7VMgEM6dzpsZMVhamNc6xRLT7-AhG4JFLDcGUdhvUy0oSBp7g",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/CDv7ePdX5G5nxShgN2ZYPbooMEdJR61O9fLn4m3zqbQfaI6frOHHfnBYLz6SaXuMQw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/0YLV6ENNf3BtXwAsC0v3ZBNP-uBDvbqQjcnGC7J67OLFNoE20v7kcy5RsXTVZGUCqNg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/N7zcSxgWL7A17Qg5CpkoBQpatd3ApVyAHdjoQ13gnoOYBjI5jN-Nl8DMssfYkxGDriV8",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://www.oecologica.com/nova/privacy_policy.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=nl.linnaeus.floron.nova",
+    "reviewsUrl": "rev?doc=nl.linnaeus.floron.nova&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=nl.linnaeus.floron.nova",
+    "title": "NOVA Verspreidingsatlas",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "support@oecologica.com"
+          },
+          "label": "Developer email"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "71",
+      "fiveStarRatings": "86",
+      "fourStarRatings": "36",
+      "oneStarRatings": "5",
+      "ratingsCount": "131",
+      "starRating": 4.52,
+      "threeStarRatings": "2",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 2
+    },
+    "az_metadata_date": "2020-12-16 16:15:41.917757",
+    "backendDocid": "nl.linnaeus.floron.nova",
+    "backendId": 3,
+    "creator": "Oecologica",
+    "descriptionHtml": "NOVA (acroniem voor NatuurObservaties voor de VerspreidingsAtlas) is een vervanging van de papieren streeplijsten voor waaneming-projecten. Ook kun je met NOVA losse waarnemingen melden. Bij elke waarneming worden de soortnaam, locatie en tijd nauwkeurig vastgelegd. Tevens controleert de App bij streeplijsten of je nog binnen het kilometerhok bent. De waarnemingen van een dag of een gebied worden gebundeld in een lijst.<br><br>Ben je klaar met het veldwerk, dan kun je de lijst verzenden naar Verspreidingsatlas.nl. Met een account op Verspreidingsatlas.nl kun je de waarnemingen bekijken, wijzigen en downloaden voor eigen gebruik. <br><br>Waarnemingen komen na validatie direct in de Nationale Databank Flora en Fauna (NDFF). Zo draag je bij aan de kennis over de verspreiding wilde flora en bescherming van soorten in Nederland.",
+    "descriptionShort": "Mobile Entering observations for Foundation ANEMOON, BLWG, FLORON and NMV.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 6171000
+            }
+          ],
+          "unknown2": "13827077",
+          "unknown3": 29
+        },
+        "developerEmail": "support@oecologica.com",
+        "developerName": "Oecologica",
+        "developerWebsite": "http://www.floron.nl/meedoen/nova",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "13827077",
+            "versionCode": 282
+          }
+        ],
+        "installationSize": "13827077",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "nl.linnaeus.floron.nova",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_NOTIFICATION_POLICY",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.providers.gsf.permission.READ_GSERVICES",
+          "nl.linnaeus.floron.nova.googlemapsv2.permission.MAPS_RECEIVE"
+        ],
+        "unstable": true,
+        "uploadDate": "2 Jul 2020",
+        "versionCode": 282,
+        "versionString": "3.5.3"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=nl.linnaeus.floron.nova",
+    "docType": 1,
+    "docid": "nl.linnaeus.floron.nova",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/l_u_VPEKwCkhlZqRInrTKMIgk9PqZPe6rm7wVlUvr3ye8YuKknX1doNt6y5sLnHfQA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/-D0PAYVWkcWT1ddsFpK0vPb78GqFpnHvyEiWklpyRN5H87DEmh0M3-AJnbIBBv1KMA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Pf3pAuOfimZ1CZFNITY7AEpKIzZRjxt1Eq6dnwKHntIFBd1Tl85YeTygAvwkuuVsCM_m",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/237PinqRuFOlXos_eqGW6k_wnTXVKRaQ4wolgsGrC19CNIEBiiH1crodkhl1KUopK3s",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qhhQRrBFQ6xztmWgvi7r7fjue4EVz7rCsJ8SSa_4G8j2lPF4V5oYpEt5u88I7foItg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/-aVwCLuooTy7_FjY3nN4P991fO4euILeEFwZpw7avnwDfrFeSFLs4dp-43HPEdN0lu-Y",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Gj-5ZNAbvwc18TkXMoR7VMgEM6dzpsZMVhamNc6xRLT7-AhG4JFLDcGUdhvUy0oSBp7g",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/CDv7ePdX5G5nxShgN2ZYPbooMEdJR61O9fLn4m3zqbQfaI6frOHHfnBYLz6SaXuMQw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/0YLV6ENNf3BtXwAsC0v3ZBNP-uBDvbqQjcnGC7J67OLFNoE20v7kcy5RsXTVZGUCqNg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/N7zcSxgWL7A17Qg5CpkoBQpatd3ApVyAHdjoQ13gnoOYBjI5jN-Nl8DMssfYkxGDriV8",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://www.oecologica.com/nova/privacy_policy.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=nl.linnaeus.floron.nova",
+    "reviewsUrl": "rev?doc=nl.linnaeus.floron.nova&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=nl.linnaeus.floron.nova",
+    "title": "NOVA Verspreidingsatlas",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "support@oecologica.com"
+          },
+          "label": "Developer email"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "71",
+      "fiveStarRatings": "86",
+      "fourStarRatings": "36",
+      "oneStarRatings": "5",
+      "ratingsCount": "131",
+      "starRating": 4.52,
+      "threeStarRatings": "2",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 2
+    },
+    "az_metadata_date": "2020-12-26 06:14:45.386940",
+    "backendDocid": "nl.linnaeus.floron.nova",
+    "backendId": 3,
+    "creator": "Oecologica",
+    "descriptionHtml": "NOVA (acroniem voor NatuurObservaties voor de VerspreidingsAtlas) is een vervanging van de papieren streeplijsten voor waaneming-projecten. Ook kun je met NOVA losse waarnemingen melden. Bij elke waarneming worden de soortnaam, locatie en tijd nauwkeurig vastgelegd. Tevens controleert de App bij streeplijsten of je nog binnen het kilometerhok bent. De waarnemingen van een dag of een gebied worden gebundeld in een lijst.<br><br>Ben je klaar met het veldwerk, dan kun je de lijst verzenden naar Verspreidingsatlas.nl. Met een account op Verspreidingsatlas.nl kun je de waarnemingen bekijken, wijzigen en downloaden voor eigen gebruik. <br><br>Waarnemingen komen na validatie direct in de Nationale Databank Flora en Fauna (NDFF). Zo draag je bij aan de kennis over de verspreiding wilde flora en bescherming van soorten in Nederland.",
+    "descriptionShort": "Mobile Entering observations for Foundation ANEMOON, BLWG, FLORON and NMV.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 6171000
+            }
+          ],
+          "unknown2": "13827077",
+          "unknown3": 29
+        },
+        "developerEmail": "support@oecologica.com",
+        "developerName": "Oecologica",
+        "developerWebsite": "http://www.floron.nl/meedoen/nova",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "13827077",
+            "versionCode": 282
+          }
+        ],
+        "installationSize": "13827077",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "nl.linnaeus.floron.nova",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_NOTIFICATION_POLICY",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.providers.gsf.permission.READ_GSERVICES",
+          "nl.linnaeus.floron.nova.googlemapsv2.permission.MAPS_RECEIVE"
+        ],
+        "unstable": true,
+        "uploadDate": "2 Jul 2020",
+        "versionCode": 282,
+        "versionString": "3.5.3"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=nl.linnaeus.floron.nova",
+    "docType": 1,
+    "docid": "nl.linnaeus.floron.nova",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/l_u_VPEKwCkhlZqRInrTKMIgk9PqZPe6rm7wVlUvr3ye8YuKknX1doNt6y5sLnHfQA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/-D0PAYVWkcWT1ddsFpK0vPb78GqFpnHvyEiWklpyRN5H87DEmh0M3-AJnbIBBv1KMA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Pf3pAuOfimZ1CZFNITY7AEpKIzZRjxt1Eq6dnwKHntIFBd1Tl85YeTygAvwkuuVsCM_m",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/237PinqRuFOlXos_eqGW6k_wnTXVKRaQ4wolgsGrC19CNIEBiiH1crodkhl1KUopK3s",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qhhQRrBFQ6xztmWgvi7r7fjue4EVz7rCsJ8SSa_4G8j2lPF4V5oYpEt5u88I7foItg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/-aVwCLuooTy7_FjY3nN4P991fO4euILeEFwZpw7avnwDfrFeSFLs4dp-43HPEdN0lu-Y",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Gj-5ZNAbvwc18TkXMoR7VMgEM6dzpsZMVhamNc6xRLT7-AhG4JFLDcGUdhvUy0oSBp7g",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/CDv7ePdX5G5nxShgN2ZYPbooMEdJR61O9fLn4m3zqbQfaI6frOHHfnBYLz6SaXuMQw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/0YLV6ENNf3BtXwAsC0v3ZBNP-uBDvbqQjcnGC7J67OLFNoE20v7kcy5RsXTVZGUCqNg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/N7zcSxgWL7A17Qg5CpkoBQpatd3ApVyAHdjoQ13gnoOYBjI5jN-Nl8DMssfYkxGDriV8",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://www.oecologica.com/nova/privacy_policy.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=nl.linnaeus.floron.nova",
+    "reviewsUrl": "rev?doc=nl.linnaeus.floron.nova&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=nl.linnaeus.floron.nova",
+    "title": "NOVA Verspreidingsatlas",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "support@oecologica.com"
+          },
+          "label": "Developer email"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "71",
+      "fiveStarRatings": "86",
+      "fourStarRatings": "36",
+      "oneStarRatings": "5",
+      "ratingsCount": "131",
+      "starRating": 4.52,
+      "threeStarRatings": "2",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 2
+    },
+    "az_metadata_date": "2021-02-05 14:26:24.863350",
+    "backendDocid": "nl.linnaeus.floron.nova",
+    "backendId": 3,
+    "creator": "Oecologica",
+    "descriptionHtml": "NOVA (acroniem voor NatuurObservaties voor de VerspreidingsAtlas) is een vervanging van de papieren streeplijsten voor waaneming-projecten. Ook kun je met NOVA losse waarnemingen melden. Bij elke waarneming worden de soortnaam, locatie en tijd nauwkeurig vastgelegd. Tevens controleert de App bij streeplijsten of je nog binnen het kilometerhok bent. De waarnemingen van een dag of een gebied worden gebundeld in een lijst.<br><br>Ben je klaar met het veldwerk, dan kun je de lijst verzenden naar Verspreidingsatlas.nl. Met een account op Verspreidingsatlas.nl kun je de waarnemingen bekijken, wijzigen en downloaden voor eigen gebruik. <br><br>Waarnemingen komen na validatie direct in de Nationale Databank Flora en Fauna (NDFF). Zo draag je bij aan de kennis over de verspreiding wilde flora en bescherming van soorten in Nederland.",
+    "descriptionShort": "Mobile Entering observations for Foundation ANEMOON, BLWG, FLORON and NMV.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 6171000
+            }
+          ],
+          "unknown2": "13828373",
+          "unknown3": 29
+        },
+        "developerEmail": "support@oecologica.com",
+        "developerName": "Oecologica",
+        "developerWebsite": "http://www.floron.nl/meedoen/nova",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "13828373",
+            "versionCode": 286
+          }
+        ],
+        "installationSize": "13828373",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "nl.linnaeus.floron.nova",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_NOTIFICATION_POLICY",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.providers.gsf.permission.READ_GSERVICES",
+          "nl.linnaeus.floron.nova.googlemapsv2.permission.MAPS_RECEIVE"
+        ],
+        "unstable": true,
+        "uploadDate": "27 Nov 2020",
+        "versionCode": 286,
+        "versionString": "3.5.4"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=nl.linnaeus.floron.nova",
+    "docType": 1,
+    "docid": "nl.linnaeus.floron.nova",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/l_u_VPEKwCkhlZqRInrTKMIgk9PqZPe6rm7wVlUvr3ye8YuKknX1doNt6y5sLnHfQA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/-D0PAYVWkcWT1ddsFpK0vPb78GqFpnHvyEiWklpyRN5H87DEmh0M3-AJnbIBBv1KMA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Pf3pAuOfimZ1CZFNITY7AEpKIzZRjxt1Eq6dnwKHntIFBd1Tl85YeTygAvwkuuVsCM_m",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/237PinqRuFOlXos_eqGW6k_wnTXVKRaQ4wolgsGrC19CNIEBiiH1crodkhl1KUopK3s",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qhhQRrBFQ6xztmWgvi7r7fjue4EVz7rCsJ8SSa_4G8j2lPF4V5oYpEt5u88I7foItg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/-aVwCLuooTy7_FjY3nN4P991fO4euILeEFwZpw7avnwDfrFeSFLs4dp-43HPEdN0lu-Y",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Gj-5ZNAbvwc18TkXMoR7VMgEM6dzpsZMVhamNc6xRLT7-AhG4JFLDcGUdhvUy0oSBp7g",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/CDv7ePdX5G5nxShgN2ZYPbooMEdJR61O9fLn4m3zqbQfaI6frOHHfnBYLz6SaXuMQw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/0YLV6ENNf3BtXwAsC0v3ZBNP-uBDvbqQjcnGC7J67OLFNoE20v7kcy5RsXTVZGUCqNg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/N7zcSxgWL7A17Qg5CpkoBQpatd3ApVyAHdjoQ13gnoOYBjI5jN-Nl8DMssfYkxGDriV8",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://www.oecologica.com/nova/privacy_policy.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=nl.linnaeus.floron.nova",
+    "reviewsUrl": "rev?doc=nl.linnaeus.floron.nova&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=nl.linnaeus.floron.nova",
+    "title": "NOVA Verspreidingsatlas",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Oecologica"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "support@oecologica.com"
+          },
+          "label": "Developer email"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "71",
+      "fiveStarRatings": "86",
+      "fourStarRatings": "36",
+      "oneStarRatings": "5",
+      "ratingsCount": "131",
+      "starRating": 4.52,
+      "threeStarRatings": "2",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-02-17 20:50:35.189866",
+    "backendDocid": "nl.linnaeus.floron.nova",
+    "backendId": 3,
+    "creator": "Oecologica",
+    "descriptionHtml": "NOVA (acroniem voor NatuurObservaties voor de VerspreidingsAtlas) is een vervanging van de papieren streeplijsten voor waaneming-projecten. Ook kun je met NOVA losse waarnemingen melden. Bij elke waarneming worden de soortnaam, locatie en tijd nauwkeurig vastgelegd. Tevens controleert de App bij streeplijsten of je nog binnen het kilometerhok bent. De waarnemingen van een dag of een gebied worden gebundeld in een lijst.<br><br>Ben je klaar met het veldwerk, dan kun je de lijst verzenden naar Verspreidingsatlas.nl. Met een account op Verspreidingsatlas.nl kun je de waarnemingen bekijken, wijzigen en downloaden voor eigen gebruik. <br><br>Waarnemingen komen na validatie direct in de Nationale Databank Flora en Fauna (NDFF). Zo draag je bij aan de kennis over de verspreiding wilde flora en bescherming van soorten in Nederland.",
+    "descriptionShort": "Mobile Entering observations for Foundation ANEMOON, BLWG, FLORON and NMV.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 6171000
+            }
+          ],
+          "unknown2": "13828373",
+          "unknown3": 29
+        },
+        "developerEmail": "support@oecologica.com",
+        "developerName": "Oecologica",
+        "developerWebsite": "http://www.floron.nl/meedoen/nova",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "13828373",
+            "versionCode": 286
+          }
+        ],
+        "installationSize": "13828373",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "nl.linnaeus.floron.nova",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_NOTIFICATION_POLICY",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.providers.gsf.permission.READ_GSERVICES",
+          "nl.linnaeus.floron.nova.googlemapsv2.permission.MAPS_RECEIVE"
+        ],
+        "recentChangesHtml": "Herkennen van microscopie eis  en/of gewenst fotobewijs",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "27 Nov 2020",
+        "versionCode": 286,
+        "versionString": "3.5.4"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=nl.linnaeus.floron.nova",
+    "docType": 1,
+    "docid": "nl.linnaeus.floron.nova",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/l_u_VPEKwCkhlZqRInrTKMIgk9PqZPe6rm7wVlUvr3ye8YuKknX1doNt6y5sLnHfQA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/-D0PAYVWkcWT1ddsFpK0vPb78GqFpnHvyEiWklpyRN5H87DEmh0M3-AJnbIBBv1KMA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Pf3pAuOfimZ1CZFNITY7AEpKIzZRjxt1Eq6dnwKHntIFBd1Tl85YeTygAvwkuuVsCM_m",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/237PinqRuFOlXos_eqGW6k_wnTXVKRaQ4wolgsGrC19CNIEBiiH1crodkhl1KUopK3s",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qhhQRrBFQ6xztmWgvi7r7fjue4EVz7rCsJ8SSa_4G8j2lPF4V5oYpEt5u88I7foItg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/-aVwCLuooTy7_FjY3nN4P991fO4euILeEFwZpw7avnwDfrFeSFLs4dp-43HPEdN0lu-Y",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Gj-5ZNAbvwc18TkXMoR7VMgEM6dzpsZMVhamNc6xRLT7-AhG4JFLDcGUdhvUy0oSBp7g",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/CDv7ePdX5G5nxShgN2ZYPbooMEdJR61O9fLn4m3zqbQfaI6frOHHfnBYLz6SaXuMQw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/0YLV6ENNf3BtXwAsC0v3ZBNP-uBDvbqQjcnGC7J67OLFNoE20v7kcy5RsXTVZGUCqNg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/N7zcSxgWL7A17Qg5CpkoBQpatd3ApVyAHdjoQ13gnoOYBjI5jN-Nl8DMssfYkxGDriV8",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://www.oecologica.com/nova/privacy_policy.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=nl.linnaeus.floron.nova",
+    "reviewsUrl": "rev?doc=nl.linnaeus.floron.nova&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=nl.linnaeus.floron.nova",
+    "title": "NOVA Verspreidingsatlas",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "support@oecologica.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "5 Sept 2016"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "77",
+      "fiveStarRatings": "91",
+      "fourStarRatings": "46",
+      "oneStarRatings": "7",
+      "ratingsCount": "146",
+      "starRating": 4.48,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-12-28 22:07:36.242759",
+    "backendDocid": "nl.linnaeus.floron.nova",
+    "backendId": 3,
+    "creator": "REBUSS",
+    "descriptionHtml": "NOVA (acroniem voor NatuurObservaties voor de VerspreidingsAtlas) is een vervanging van de papieren streeplijsten voor waaneming-projecten. Ook kun je met NOVA losse waarnemingen melden. Bij elke waarneming worden de soortnaam, locatie en tijd nauwkeurig vastgelegd. Tevens controleert de App bij streeplijsten of je nog binnen het kilometerhok bent. De waarnemingen van een dag of een gebied worden gebundeld in een lijst.<br><br>Ben je klaar met het veldwerk, dan kun je de lijst verzenden naar Verspreidingsatlas.nl. Met een account op Verspreidingsatlas.nl kun je de waarnemingen bekijken, wijzigen en downloaden voor eigen gebruik. <br><br>Waarnemingen komen na validatie direct in de Nationale Databank Flora en Fauna (NDFF). Zo draag je bij aan de kennis over de verspreiding wilde flora en bescherming van soorten in Nederland.",
+    "descriptionShort": "Mobile Entering observations for Foundation ANEMOON, BLWG, FLORON and NMV.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 6171000
+            }
+          ],
+          "unknown2": "13696622",
+          "unknown3": 30
+        },
+        "developerEmail": "support@oecologica.com",
+        "developerName": "REBUSS",
+        "developerWebsite": "http://www.floron.nl/meedoen/nova",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "13696622",
+            "versionCode": 288
+          }
+        ],
+        "installationSize": "13696622",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "nl.linnaeus.floron.nova",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_NOTIFICATION_POLICY",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.providers.gsf.permission.READ_GSERVICES",
+          "nl.linnaeus.floron.nova.googlemapsv2.permission.MAPS_RECEIVE"
+        ],
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "27 Dec 2021",
+        "versionCode": 288,
+        "versionString": "3.5.6"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=nl.linnaeus.floron.nova",
+    "docType": 1,
+    "docid": "nl.linnaeus.floron.nova",
+    "image": [
+      {
+        "color": "#779732",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/l_u_VPEKwCkhlZqRInrTKMIgk9PqZPe6rm7wVlUvr3ye8YuKknX1doNt6y5sLnHfQA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FEFEFE",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/-D0PAYVWkcWT1ddsFpK0vPb78GqFpnHvyEiWklpyRN5H87DEmh0M3-AJnbIBBv1KMA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Pf3pAuOfimZ1CZFNITY7AEpKIzZRjxt1Eq6dnwKHntIFBd1Tl85YeTygAvwkuuVsCM_m",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/237PinqRuFOlXos_eqGW6k_wnTXVKRaQ4wolgsGrC19CNIEBiiH1crodkhl1KUopK3s",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qhhQRrBFQ6xztmWgvi7r7fjue4EVz7rCsJ8SSa_4G8j2lPF4V5oYpEt5u88I7foItg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/-aVwCLuooTy7_FjY3nN4P991fO4euILeEFwZpw7avnwDfrFeSFLs4dp-43HPEdN0lu-Y",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Gj-5ZNAbvwc18TkXMoR7VMgEM6dzpsZMVhamNc6xRLT7-AhG4JFLDcGUdhvUy0oSBp7g",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/CDv7ePdX5G5nxShgN2ZYPbooMEdJR61O9fLn4m3zqbQfaI6frOHHfnBYLz6SaXuMQw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/0YLV6ENNf3BtXwAsC0v3ZBNP-uBDvbqQjcnGC7J67OLFNoE20v7kcy5RsXTVZGUCqNg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/N7zcSxgWL7A17Qg5CpkoBQpatd3ApVyAHdjoQ13gnoOYBjI5jN-Nl8DMssfYkxGDriV8",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://www.oecologica.com/nova/privacy_policy.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=nl.linnaeus.floron.nova",
+    "reviewsUrl": "rev?doc=nl.linnaeus.floron.nova&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=nl.linnaeus.floron.nova",
+    "title": "NOVA Verspreidingsatlas",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "support@oecologica.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "5 Sept 2016"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "79",
+      "fiveStarRatings": "91",
+      "fourStarRatings": "47",
+      "oneStarRatings": "8",
+      "ratingsCount": "147",
+      "starRating": 4.44,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 2
+    },
+    "az_metadata_date": "2021-12-31 15:12:27.129710",
+    "backendDocid": "nl.linnaeus.floron.nova",
+    "backendId": 3,
+    "creator": "REBUSS",
+    "descriptionHtml": "NOVA (acroniem voor NatuurObservaties voor de VerspreidingsAtlas) is een vervanging van de papieren streeplijsten voor waaneming-projecten. Ook kun je met NOVA losse waarnemingen melden. Bij elke waarneming worden de soortnaam, locatie en tijd nauwkeurig vastgelegd. Tevens controleert de App bij streeplijsten of je nog binnen het kilometerhok bent. De waarnemingen van een dag of een gebied worden gebundeld in een lijst.<br><br>Ben je klaar met het veldwerk, dan kun je de lijst verzenden naar Verspreidingsatlas.nl. Met een account op Verspreidingsatlas.nl kun je de waarnemingen bekijken, wijzigen en downloaden voor eigen gebruik. <br><br>Waarnemingen komen na validatie direct in de Nationale Databank Flora en Fauna (NDFF). Zo draag je bij aan de kennis over de verspreiding wilde flora en bescherming van soorten in Nederland.",
+    "descriptionShort": "Mobile Entering observations for Foundation ANEMOON, BLWG, FLORON and NMV.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 6171000
+            }
+          ],
+          "unknown2": "13799903",
+          "unknown3": 30
+        },
+        "developerEmail": "support@oecologica.com",
+        "developerName": "REBUSS",
+        "developerWebsite": "http://www.floron.nl/meedoen/nova",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "13799903",
+            "versionCode": 292
+          }
+        ],
+        "installationSize": "13799903",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "nl.linnaeus.floron.nova",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_NOTIFICATION_POLICY",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.providers.gsf.permission.READ_GSERVICES",
+          "nl.linnaeus.floron.nova.googlemapsv2.permission.MAPS_RECEIVE"
+        ],
+        "unstable": true,
+        "uploadDate": "30 Dec 2021",
+        "versionCode": 292,
+        "versionString": "3.5.7"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=nl.linnaeus.floron.nova",
+    "docType": 1,
+    "docid": "nl.linnaeus.floron.nova",
+    "image": [
+      {
+        "color": "#779732",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/l_u_VPEKwCkhlZqRInrTKMIgk9PqZPe6rm7wVlUvr3ye8YuKknX1doNt6y5sLnHfQA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FEFEFE",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/-D0PAYVWkcWT1ddsFpK0vPb78GqFpnHvyEiWklpyRN5H87DEmh0M3-AJnbIBBv1KMA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Pf3pAuOfimZ1CZFNITY7AEpKIzZRjxt1Eq6dnwKHntIFBd1Tl85YeTygAvwkuuVsCM_m",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/237PinqRuFOlXos_eqGW6k_wnTXVKRaQ4wolgsGrC19CNIEBiiH1crodkhl1KUopK3s",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qhhQRrBFQ6xztmWgvi7r7fjue4EVz7rCsJ8SSa_4G8j2lPF4V5oYpEt5u88I7foItg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/-aVwCLuooTy7_FjY3nN4P991fO4euILeEFwZpw7avnwDfrFeSFLs4dp-43HPEdN0lu-Y",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Gj-5ZNAbvwc18TkXMoR7VMgEM6dzpsZMVhamNc6xRLT7-AhG4JFLDcGUdhvUy0oSBp7g",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/CDv7ePdX5G5nxShgN2ZYPbooMEdJR61O9fLn4m3zqbQfaI6frOHHfnBYLz6SaXuMQw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/0YLV6ENNf3BtXwAsC0v3ZBNP-uBDvbqQjcnGC7J67OLFNoE20v7kcy5RsXTVZGUCqNg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/N7zcSxgWL7A17Qg5CpkoBQpatd3ApVyAHdjoQ13gnoOYBjI5jN-Nl8DMssfYkxGDriV8",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://www.oecologica.com/nova/privacy_policy.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=nl.linnaeus.floron.nova",
+    "reviewsUrl": "rev?doc=nl.linnaeus.floron.nova&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=nl.linnaeus.floron.nova",
+    "title": "NOVA Verspreidingsatlas",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "support@oecologica.com"
+          },
+          "label": "Developer email"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "79",
+      "fiveStarRatings": "91",
+      "fourStarRatings": "47",
+      "oneStarRatings": "8",
+      "ratingsCount": "147",
+      "starRating": 4.44,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 2
+    },
+    "az_metadata_date": "2022-01-02 23:37:01.730305",
+    "backendDocid": "nl.linnaeus.floron.nova",
+    "backendId": 3,
+    "creator": "REBUSS",
+    "descriptionHtml": "NOVA (acroniem voor NatuurObservaties voor de VerspreidingsAtlas) is een vervanging van de papieren streeplijsten voor waaneming-projecten. Ook kun je met NOVA losse waarnemingen melden. Bij elke waarneming worden de soortnaam, locatie en tijd nauwkeurig vastgelegd. Tevens controleert de App bij streeplijsten of je nog binnen het kilometerhok bent. De waarnemingen van een dag of een gebied worden gebundeld in een lijst.<br><br>Ben je klaar met het veldwerk, dan kun je de lijst verzenden naar Verspreidingsatlas.nl. Met een account op Verspreidingsatlas.nl kun je de waarnemingen bekijken, wijzigen en downloaden voor eigen gebruik. <br><br>Waarnemingen komen na validatie direct in de Nationale Databank Flora en Fauna (NDFF). Zo draag je bij aan de kennis over de verspreiding wilde flora en bescherming van soorten in Nederland.",
+    "descriptionShort": "Mobile Entering observations for Foundation ANEMOON, BLWG, FLORON and NMV.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 6171000
+            }
+          ],
+          "unknown2": "13668499",
+          "unknown3": 30
+        },
+        "developerEmail": "support@oecologica.com",
+        "developerName": "REBUSS",
+        "developerWebsite": "http://www.floron.nl/meedoen/nova",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "13668499",
+            "versionCode": 294
+          }
+        ],
+        "installationSize": "13668499",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "nl.linnaeus.floron.nova",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_NOTIFICATION_POLICY",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.providers.gsf.permission.READ_GSERVICES",
+          "nl.linnaeus.floron.nova.googlemapsv2.permission.MAPS_RECEIVE"
+        ],
+        "unstable": true,
+        "uploadDate": "2 Jan 2022",
+        "versionCode": 294,
+        "versionString": "3.5.7"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=nl.linnaeus.floron.nova",
+    "docType": 1,
+    "docid": "nl.linnaeus.floron.nova",
+    "image": [
+      {
+        "color": "#779732",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/l_u_VPEKwCkhlZqRInrTKMIgk9PqZPe6rm7wVlUvr3ye8YuKknX1doNt6y5sLnHfQA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FEFEFE",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/-D0PAYVWkcWT1ddsFpK0vPb78GqFpnHvyEiWklpyRN5H87DEmh0M3-AJnbIBBv1KMA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Pf3pAuOfimZ1CZFNITY7AEpKIzZRjxt1Eq6dnwKHntIFBd1Tl85YeTygAvwkuuVsCM_m",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/237PinqRuFOlXos_eqGW6k_wnTXVKRaQ4wolgsGrC19CNIEBiiH1crodkhl1KUopK3s",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qhhQRrBFQ6xztmWgvi7r7fjue4EVz7rCsJ8SSa_4G8j2lPF4V5oYpEt5u88I7foItg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/-aVwCLuooTy7_FjY3nN4P991fO4euILeEFwZpw7avnwDfrFeSFLs4dp-43HPEdN0lu-Y",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Gj-5ZNAbvwc18TkXMoR7VMgEM6dzpsZMVhamNc6xRLT7-AhG4JFLDcGUdhvUy0oSBp7g",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/CDv7ePdX5G5nxShgN2ZYPbooMEdJR61O9fLn4m3zqbQfaI6frOHHfnBYLz6SaXuMQw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/0YLV6ENNf3BtXwAsC0v3ZBNP-uBDvbqQjcnGC7J67OLFNoE20v7kcy5RsXTVZGUCqNg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/N7zcSxgWL7A17Qg5CpkoBQpatd3ApVyAHdjoQ13gnoOYBjI5jN-Nl8DMssfYkxGDriV8",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://www.oecologica.com/nova/privacy_policy.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=nl.linnaeus.floron.nova",
+    "reviewsUrl": "rev?doc=nl.linnaeus.floron.nova&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=nl.linnaeus.floron.nova",
+    "title": "NOVA Verspreidingsatlas",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "support@oecologica.com"
+          },
+          "label": "Developer email"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 2
+    },
+    "az_metadata_date": "2022-01-07 11:29:54.869930",
+    "backendDocid": "nl.linnaeus.floron.nova",
+    "backendId": 3,
+    "creator": "REBUSS",
+    "descriptionHtml": "NOVA (acroniem voor NatuurObservaties voor de VerspreidingsAtlas) is een vervanging van de papieren streeplijsten voor waaneming-projecten. Ook kun je met NOVA losse waarnemingen melden. Bij elke waarneming worden de soortnaam, locatie en tijd nauwkeurig vastgelegd. Tevens controleert de App bij streeplijsten of je nog binnen het kilometerhok bent. De waarnemingen van een dag of een gebied worden gebundeld in een lijst.<br><br>Ben je klaar met het veldwerk, dan kun je de lijst verzenden naar Verspreidingsatlas.nl. Met een account op Verspreidingsatlas.nl kun je de waarnemingen bekijken, wijzigen en downloaden voor eigen gebruik. <br><br>Waarnemingen komen na validatie direct in de Nationale Databank Flora en Fauna (NDFF). Zo draag je bij aan de kennis over de verspreiding wilde flora en bescherming van soorten in Nederland.",
+    "descriptionShort": "Mobile Entering observations for Foundation ANEMOON, BLWG, FLORON and NMV.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 6171000
+            }
+          ],
+          "unknown2": "13668499",
+          "unknown3": 30
+        },
+        "developerEmail": "support@oecologica.com",
+        "developerName": "REBUSS",
+        "developerWebsite": "http://www.floron.nl/meedoen/nova",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "13668499",
+            "versionCode": 294
+          }
+        ],
+        "installationSize": "13668499",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "nl.linnaeus.floron.nova",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_NOTIFICATION_POLICY",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.providers.gsf.permission.READ_GSERVICES",
+          "nl.linnaeus.floron.nova.googlemapsv2.permission.MAPS_RECEIVE"
+        ],
+        "unstable": true,
+        "uploadDate": "2 Jan 2022",
+        "versionCode": 294,
+        "versionString": "3.5.7"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=nl.linnaeus.floron.nova",
+    "docType": 1,
+    "docid": "nl.linnaeus.floron.nova",
+    "image": [
+      {
+        "color": "#779732",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/l_u_VPEKwCkhlZqRInrTKMIgk9PqZPe6rm7wVlUvr3ye8YuKknX1doNt6y5sLnHfQA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FEFEFE",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/-D0PAYVWkcWT1ddsFpK0vPb78GqFpnHvyEiWklpyRN5H87DEmh0M3-AJnbIBBv1KMA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Pf3pAuOfimZ1CZFNITY7AEpKIzZRjxt1Eq6dnwKHntIFBd1Tl85YeTygAvwkuuVsCM_m",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/237PinqRuFOlXos_eqGW6k_wnTXVKRaQ4wolgsGrC19CNIEBiiH1crodkhl1KUopK3s",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qhhQRrBFQ6xztmWgvi7r7fjue4EVz7rCsJ8SSa_4G8j2lPF4V5oYpEt5u88I7foItg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/-aVwCLuooTy7_FjY3nN4P991fO4euILeEFwZpw7avnwDfrFeSFLs4dp-43HPEdN0lu-Y",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Gj-5ZNAbvwc18TkXMoR7VMgEM6dzpsZMVhamNc6xRLT7-AhG4JFLDcGUdhvUy0oSBp7g",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/CDv7ePdX5G5nxShgN2ZYPbooMEdJR61O9fLn4m3zqbQfaI6frOHHfnBYLz6SaXuMQw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/0YLV6ENNf3BtXwAsC0v3ZBNP-uBDvbqQjcnGC7J67OLFNoE20v7kcy5RsXTVZGUCqNg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/N7zcSxgWL7A17Qg5CpkoBQpatd3ApVyAHdjoQ13gnoOYBjI5jN-Nl8DMssfYkxGDriV8",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://www.oecologica.com/nova/privacy_policy.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=nl.linnaeus.floron.nova",
+    "reviewsUrl": "rev?doc=nl.linnaeus.floron.nova&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=nl.linnaeus.floron.nova",
+    "title": "NOVA Verspreidingsatlas",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "REBUSS"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "support@oecologica.com"
+          },
+          "label": "Developer email"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "80",
+      "fiveStarRatings": "90",
+      "fourStarRatings": "45",
+      "oneStarRatings": "8",
+      "ratingsCount": "147",
+      "starRating": 4.43,
+      "threeStarRatings": "1",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-01-09 16:11:33.170570",
+    "backendDocid": "nl.linnaeus.floron.nova",
+    "backendId": 3,
+    "creator": "REBUSS",
+    "descriptionHtml": "NOVA (acroniem voor NatuurObservaties voor de VerspreidingsAtlas) is een vervanging van de papieren streeplijsten voor waaneming-projecten. Ook kun je met NOVA losse waarnemingen melden. Bij elke waarneming worden de soortnaam, locatie en tijd nauwkeurig vastgelegd. Tevens controleert de App bij streeplijsten of je nog binnen het kilometerhok bent. De waarnemingen van een dag of een gebied worden gebundeld in een lijst.<br><br>Ben je klaar met het veldwerk, dan kun je de lijst verzenden naar Verspreidingsatlas.nl. Met een account op Verspreidingsatlas.nl kun je de waarnemingen bekijken, wijzigen en downloaden voor eigen gebruik. <br><br>Waarnemingen komen na validatie direct in de Nationale Databank Flora en Fauna (NDFF). Zo draag je bij aan de kennis over de verspreiding wilde flora en bescherming van soorten in Nederland.",
+    "descriptionShort": "Mobile Entering observations for Foundation ANEMOON, BLWG, FLORON and NMV.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 6171000
+            }
+          ],
+          "unknown2": "13668499",
+          "unknown3": 30
+        },
+        "developerEmail": "support@oecologica.com",
+        "developerName": "REBUSS",
+        "developerWebsite": "http://www.floron.nl/meedoen/nova",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "13668499",
+            "versionCode": 294
+          }
+        ],
+        "installationSize": "13668499",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "nl.linnaeus.floron.nova",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_NOTIFICATION_POLICY",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.providers.gsf.permission.READ_GSERVICES",
+          "nl.linnaeus.floron.nova.googlemapsv2.permission.MAPS_RECEIVE"
+        ],
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "2 Jan 2022",
+        "versionCode": 294,
+        "versionString": "3.5.7"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=nl.linnaeus.floron.nova",
+    "docType": 1,
+    "docid": "nl.linnaeus.floron.nova",
+    "image": [
+      {
+        "color": "#779732",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/l_u_VPEKwCkhlZqRInrTKMIgk9PqZPe6rm7wVlUvr3ye8YuKknX1doNt6y5sLnHfQA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FEFEFE",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/-D0PAYVWkcWT1ddsFpK0vPb78GqFpnHvyEiWklpyRN5H87DEmh0M3-AJnbIBBv1KMA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Pf3pAuOfimZ1CZFNITY7AEpKIzZRjxt1Eq6dnwKHntIFBd1Tl85YeTygAvwkuuVsCM_m",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/237PinqRuFOlXos_eqGW6k_wnTXVKRaQ4wolgsGrC19CNIEBiiH1crodkhl1KUopK3s",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qhhQRrBFQ6xztmWgvi7r7fjue4EVz7rCsJ8SSa_4G8j2lPF4V5oYpEt5u88I7foItg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/-aVwCLuooTy7_FjY3nN4P991fO4euILeEFwZpw7avnwDfrFeSFLs4dp-43HPEdN0lu-Y",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Gj-5ZNAbvwc18TkXMoR7VMgEM6dzpsZMVhamNc6xRLT7-AhG4JFLDcGUdhvUy0oSBp7g",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/CDv7ePdX5G5nxShgN2ZYPbooMEdJR61O9fLn4m3zqbQfaI6frOHHfnBYLz6SaXuMQw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/0YLV6ENNf3BtXwAsC0v3ZBNP-uBDvbqQjcnGC7J67OLFNoE20v7kcy5RsXTVZGUCqNg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/N7zcSxgWL7A17Qg5CpkoBQpatd3ApVyAHdjoQ13gnoOYBjI5jN-Nl8DMssfYkxGDriV8",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://www.oecologica.com/nova/privacy_policy.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=nl.linnaeus.floron.nova",
+    "reviewsUrl": "rev?doc=nl.linnaeus.floron.nova&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=nl.linnaeus.floron.nova",
+    "title": "NOVA Verspreidingsatlas",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "support@oecologica.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "5 Sept 2016"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  }
+]

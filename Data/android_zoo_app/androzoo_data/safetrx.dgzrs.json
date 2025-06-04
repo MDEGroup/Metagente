@@ -1,0 +1,1113 @@
+[
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 2
+    },
+    "az_metadata_date": "2023-09-30 10:18:49.776535",
+    "backendDocid": "safetrx.dgzrs",
+    "backendId": 3,
+    "creator": "Deutsche Gesellschaft zur Rettung Schiffbruechiger",
+    "descriptionHtml": "Official app of Deutsche Gesellschaft zur Rettung Schiffbr\u00fcchiger (DGzRS, German Maritime Search and Rescue Service) - the DGzRS SafeTrx app allows you to register your vessel and plan your journey on your smartphone.<br><br>Registering vessel and trip information could not be any easier. Follow the registration process to start using the app. Finalise the registration in the website with the same login codes. Once your registration details have been saved, you can make your choice from the menu in the app. You may either plan and file your trip (Sail plan mode) or just activate the tracking function of the app (Track only mode). <br><br>For filing a planned trip choose your vessel, determine the end destination, calculate the ETA (Estimated Time of Arrival), enter the number of persons on board and the activity type. Then, using the built-in maps, select a starting point, an optional waypoint and the end destination. Once this is completed simply press the \u2018start\u2019 button when you are ready to start your trip.<br><br>Pressing \u2018start\u2019 in Sail plan mode or just pressing the start button in Track only mode will register the journey details with the DGzRS server and will activate position reporting in the app. At regular intervals the app will send a position report to the server and your emergency contacts will be automatically alerted after the journey exceeds the ETA in Sail Plan mode. <br><br>At any stage during the trip you can end your trip, revise the ETA, number of people on board or the destination. <br><br>Use the SafeTrx app to:<br><br>- Improve maritime trip planning with your own personalised checklist to be included as part of your Sail Plan.<br>- Activate an Emergency or an Assistance call. <br>- Quickly start your trip using the \u2018Track only\u2019 mode to begin tracking at a touch of a button. Change the recording interval to save on battery consumption when your track is in progress.<br>- Store up to 20 trips in your Mobile Logbook and replay trips within the app in video playback mode.<br>- Use the \u2018Explorer\u2019 tool to find nearby VHF channels and lifeboat station information.<br>- Access Maritime safety information when both online and offline.<br>- Manage profile, vessel, checklist and emergency contact within the app.<br><br><br>Continued use of GPS running in the background can considerably decrease battery life.<br><br>Please note:<br>This application\u2019s functionality and the information it contains are published on the understanding that end users are to apply their own knowledge and skills in the use of said application. Maritime safety is an extremely serious matter. In an emergency this application\u2019s function and information are not meant to be relied on exclusively. In addition, other reliable information and help from third parties should be looked for and made use of. This application can provide valuable coordinates of the user\u2019s position, as determined by the mobile device used and the GPS system. Mobile devices and their supporting telecommunication networks are, however, not reliable and there is a real chance of loss of connection between the mobile device and the mobile network and / or the GPS system. Nor is there any guarantee that the connection between your mobile device and mobile networks will be uninterrupted. The user hereby agrees to and accepts all risks involved in the use of this application.",
+    "descriptionShort": "Official app of Deutsche Gesellschaft zur Rettung Schiffbr\u00fcchiger.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "version": 12451000
+            }
+          ],
+          "unknown2": "41327470",
+          "unknown3": 32
+        },
+        "developerEmail": "safetrx@seenotretter.de",
+        "developerName": "Deutsche Gesellschaft zur Rettung Schiffbruechiger",
+        "developerWebsite": "http://safetrx.seenotretter.de",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "41327470",
+            "versionCode": 1362
+          }
+        ],
+        "installationSize": "41327470",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "safetrx.dgzrs",
+        "permission": [
+          "android.permission.ACCESS_BACKGROUND_LOCATION",
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.CALL_PHONE",
+          "android.permission.CAMERA",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.POST_NOTIFICATIONS",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_CONTACTS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.AD_ID",
+          "com.google.android.providers.gsf.permission.READ_GSERVICES",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE",
+          "safetrx.dgzrs.permission.C2D_MESSAGE",
+          "safetrx.dgzrs.permission.MAPS_RECEIVE"
+        ],
+        "recentChangesHtml": "This update includes:<br>Security updates.<br>Minor bug fixes.",
+        "unstable": true,
+        "uploadDate": "23 May 2023",
+        "versionCode": 1362,
+        "versionString": "9.1.1"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=safetrx.dgzrs",
+    "docType": 1,
+    "docid": "safetrx.dgzrs",
+    "image": [
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/_CRePZHpZH7BTV4PH36-MBIQS8VoCTZJdBElp3ayoHOjaxr0kLn29ZUfgkX2i4PANC8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/m9xDI21NMJSVgkEEHLgK6Y3a2Mf7mEFtAZHFDYzjJwGuAZPdmep_7lkawanlvrjSsA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/wQhtkyWcvYXn6tw4nC_MlQtSZrU1XiCw-MlElRqE6YS2j7iz9dDz5vImQAE10wxaevs",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/OCJmoGn6vOYLGYqqanOPzbDR8L8FujXThC3swLIRkEULK7RdcJG1q-aGWN8TRDRNCdg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/2WocUZavUGMvHR7AUIeR23mKp6_mNM_hM5ydCgkNxnpYfT4_ohrAiIXULkJWFuwfxQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/-8HB2kcWhVhbnue-JPi4dRO3t-9B-P9qe_ANWo2uvHZsSJjT_xsBXHzIJBtoqXSu2Ik",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/b2fdq5fUaYeZmsjyM_1Ejbr7c2NiJp2Bktowishbgzdf6HR6jIglmmP7N_uSOyibCY4",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2560,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/XuTAQI2oGSh2FXZ7kJVu8qlUBIk9u4QcOhbTjoiBhyOdpPBwah26TR5_fLVhCkSQp5l-",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "GBP",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://safetrx.seenotretter.de/privacy.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "Users interact, Shares info<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=safetrx.dgzrs",
+    "reviewsUrl": "rev?doc=safetrx.dgzrs&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=safetrx.dgzrs",
+    "title": "SafeTrx der Seenotretter",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "safetrx@seenotretter.de"
+          },
+          "label": "Developer email"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "54",
+      "fiveStarRatings": "99",
+      "fourStarRatings": "11",
+      "oneStarRatings": "10",
+      "ratingsCount": "129",
+      "starRating": 4.455446,
+      "threeStarRatings": "5",
+      "twoStarRatings": "2",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 2
+    },
+    "az_metadata_date": "2023-10-10 17:38:41.795123",
+    "backendDocid": "safetrx.dgzrs",
+    "backendId": 3,
+    "creator": "Deutsche Gesellschaft zur Rettung Schiffbruechiger",
+    "descriptionHtml": "Official app of Deutsche Gesellschaft zur Rettung Schiffbr\u00fcchiger (DGzRS, German Maritime Search and Rescue Service) - the DGzRS SafeTrx app allows you to register your vessel and plan your journey on your smartphone.<br><br>Registering vessel and trip information could not be any easier. Follow the registration process to start using the app. Finalise the registration in the website with the same login codes. Once your registration details have been saved, you can make your choice from the menu in the app. You may either plan and file your trip (Sail plan mode) or just activate the tracking function of the app (Track only mode). <br><br>For filing a planned trip choose your vessel, determine the end destination, calculate the ETA (Estimated Time of Arrival), enter the number of persons on board and the activity type. Then, using the built-in maps, select a starting point, an optional waypoint and the end destination. Once this is completed simply press the \u2018start\u2019 button when you are ready to start your trip.<br><br>Pressing \u2018start\u2019 in Sail plan mode or just pressing the start button in Track only mode will register the journey details with the DGzRS server and will activate position reporting in the app. At regular intervals the app will send a position report to the server and your emergency contacts will be automatically alerted after the journey exceeds the ETA in Sail Plan mode. <br><br>At any stage during the trip you can end your trip, revise the ETA, number of people on board or the destination. <br><br>Use the SafeTrx app to:<br><br>- Improve maritime trip planning with your own personalised checklist to be included as part of your Sail Plan.<br>- Activate an Emergency or an Assistance call. <br>- Quickly start your trip using the \u2018Track only\u2019 mode to begin tracking at a touch of a button. Change the recording interval to save on battery consumption when your track is in progress.<br>- Store up to 20 trips in your Mobile Logbook and replay trips within the app in video playback mode.<br>- Use the \u2018Explorer\u2019 tool to find nearby VHF channels and lifeboat station information.<br>- Access Maritime safety information when both online and offline.<br>- Manage profile, vessel, checklist and emergency contact within the app.<br><br><br>Continued use of GPS running in the background can considerably decrease battery life.<br><br>Please note:<br>This application\u2019s functionality and the information it contains are published on the understanding that end users are to apply their own knowledge and skills in the use of said application. Maritime safety is an extremely serious matter. In an emergency this application\u2019s function and information are not meant to be relied on exclusively. In addition, other reliable information and help from third parties should be looked for and made use of. This application can provide valuable coordinates of the user\u2019s position, as determined by the mobile device used and the GPS system. Mobile devices and their supporting telecommunication networks are, however, not reliable and there is a real chance of loss of connection between the mobile device and the mobile network and / or the GPS system. Nor is there any guarantee that the connection between your mobile device and mobile networks will be uninterrupted. The user hereby agrees to and accepts all risks involved in the use of this application.",
+    "descriptionShort": "Official app of Deutsche Gesellschaft zur Rettung Schiffbr\u00fcchiger.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "version": 12451000
+            }
+          ],
+          "unknown2": "41327470",
+          "unknown3": 32
+        },
+        "developerEmail": "safetrx@seenotretter.de",
+        "developerName": "Deutsche Gesellschaft zur Rettung Schiffbruechiger",
+        "developerWebsite": "http://safetrx.seenotretter.de",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "41327470",
+            "versionCode": 1362
+          }
+        ],
+        "installationSize": "41327470",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "safetrx.dgzrs",
+        "permission": [
+          "android.permission.ACCESS_BACKGROUND_LOCATION",
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.CALL_PHONE",
+          "android.permission.CAMERA",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.POST_NOTIFICATIONS",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_CONTACTS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.AD_ID",
+          "com.google.android.providers.gsf.permission.READ_GSERVICES",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE",
+          "safetrx.dgzrs.permission.C2D_MESSAGE",
+          "safetrx.dgzrs.permission.MAPS_RECEIVE"
+        ],
+        "recentChangesHtml": "This update includes:<br>Security updates.<br>Minor bug fixes.",
+        "unstable": true,
+        "uploadDate": "23 May 2023",
+        "versionCode": 1362,
+        "versionString": "9.1.1"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=safetrx.dgzrs",
+    "docType": 1,
+    "docid": "safetrx.dgzrs",
+    "image": [
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/_CRePZHpZH7BTV4PH36-MBIQS8VoCTZJdBElp3ayoHOjaxr0kLn29ZUfgkX2i4PANC8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/m9xDI21NMJSVgkEEHLgK6Y3a2Mf7mEFtAZHFDYzjJwGuAZPdmep_7lkawanlvrjSsA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/wQhtkyWcvYXn6tw4nC_MlQtSZrU1XiCw-MlElRqE6YS2j7iz9dDz5vImQAE10wxaevs",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/OCJmoGn6vOYLGYqqanOPzbDR8L8FujXThC3swLIRkEULK7RdcJG1q-aGWN8TRDRNCdg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/2WocUZavUGMvHR7AUIeR23mKp6_mNM_hM5ydCgkNxnpYfT4_ohrAiIXULkJWFuwfxQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/-8HB2kcWhVhbnue-JPi4dRO3t-9B-P9qe_ANWo2uvHZsSJjT_xsBXHzIJBtoqXSu2Ik",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/b2fdq5fUaYeZmsjyM_1Ejbr7c2NiJp2Bktowishbgzdf6HR6jIglmmP7N_uSOyibCY4",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2560,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/XuTAQI2oGSh2FXZ7kJVu8qlUBIk9u4QcOhbTjoiBhyOdpPBwah26TR5_fLVhCkSQp5l-",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://safetrx.seenotretter.de/privacy.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "Users interact, Shares info<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=safetrx.dgzrs",
+    "reviewsUrl": "rev?doc=safetrx.dgzrs&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=safetrx.dgzrs",
+    "title": "SafeTrx der Seenotretter",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "safetrx@seenotretter.de"
+          },
+          "label": "Developer email"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 2
+    },
+    "az_metadata_date": "2023-10-18 04:19:09.226384",
+    "backendDocid": "safetrx.dgzrs",
+    "backendId": 3,
+    "creator": "Deutsche Gesellschaft zur Rettung Schiffbruechiger",
+    "descriptionHtml": "Official app of Deutsche Gesellschaft zur Rettung Schiffbr\u00fcchiger (DGzRS, German Maritime Search and Rescue Service) - the DGzRS SafeTrx app allows you to register your vessel and plan your journey on your smartphone.<br><br>Registering vessel and trip information could not be any easier. Follow the registration process to start using the app. Finalise the registration in the website with the same login codes. Once your registration details have been saved, you can make your choice from the menu in the app. You may either plan and file your trip (Sail plan mode) or just activate the tracking function of the app (Track only mode). <br><br>For filing a planned trip choose your vessel, determine the end destination, calculate the ETA (Estimated Time of Arrival), enter the number of persons on board and the activity type. Then, using the built-in maps, select a starting point, an optional waypoint and the end destination. Once this is completed simply press the \u2018start\u2019 button when you are ready to start your trip.<br><br>Pressing \u2018start\u2019 in Sail plan mode or just pressing the start button in Track only mode will register the journey details with the DGzRS server and will activate position reporting in the app. At regular intervals the app will send a position report to the server and your emergency contacts will be automatically alerted after the journey exceeds the ETA in Sail Plan mode. <br><br>At any stage during the trip you can end your trip, revise the ETA, number of people on board or the destination. <br><br>Use the SafeTrx app to:<br><br>- Improve maritime trip planning with your own personalised checklist to be included as part of your Sail Plan.<br>- Activate an Emergency or an Assistance call. <br>- Quickly start your trip using the \u2018Track only\u2019 mode to begin tracking at a touch of a button. Change the recording interval to save on battery consumption when your track is in progress.<br>- Store up to 20 trips in your Mobile Logbook and replay trips within the app in video playback mode.<br>- Use the \u2018Explorer\u2019 tool to find nearby VHF channels and lifeboat station information.<br>- Access Maritime safety information when both online and offline.<br>- Manage profile, vessel, checklist and emergency contact within the app.<br><br><br>Continued use of GPS running in the background can considerably decrease battery life.<br><br>Please note:<br>This application\u2019s functionality and the information it contains are published on the understanding that end users are to apply their own knowledge and skills in the use of said application. Maritime safety is an extremely serious matter. In an emergency this application\u2019s function and information are not meant to be relied on exclusively. In addition, other reliable information and help from third parties should be looked for and made use of. This application can provide valuable coordinates of the user\u2019s position, as determined by the mobile device used and the GPS system. Mobile devices and their supporting telecommunication networks are, however, not reliable and there is a real chance of loss of connection between the mobile device and the mobile network and / or the GPS system. Nor is there any guarantee that the connection between your mobile device and mobile networks will be uninterrupted. The user hereby agrees to and accepts all risks involved in the use of this application.",
+    "descriptionShort": "Official app of Deutsche Gesellschaft zur Rettung Schiffbr\u00fcchiger.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "version": 12451000
+            }
+          ],
+          "unknown2": "41327470",
+          "unknown3": 32
+        },
+        "developerEmail": "safetrx@seenotretter.de",
+        "developerName": "Deutsche Gesellschaft zur Rettung Schiffbruechiger",
+        "developerWebsite": "http://safetrx.seenotretter.de",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "41327470",
+            "versionCode": 1362
+          }
+        ],
+        "installationSize": "41327470",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "safetrx.dgzrs",
+        "permission": [
+          "android.permission.ACCESS_BACKGROUND_LOCATION",
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.CALL_PHONE",
+          "android.permission.CAMERA",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.POST_NOTIFICATIONS",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_CONTACTS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.AD_ID",
+          "com.google.android.providers.gsf.permission.READ_GSERVICES",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE",
+          "safetrx.dgzrs.permission.C2D_MESSAGE",
+          "safetrx.dgzrs.permission.MAPS_RECEIVE"
+        ],
+        "recentChangesHtml": "This update includes:<br>Security updates.<br>Minor bug fixes.",
+        "unstable": true,
+        "uploadDate": "23 May 2023",
+        "versionCode": 1362,
+        "versionString": "9.1.1"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=safetrx.dgzrs",
+    "docType": 1,
+    "docid": "safetrx.dgzrs",
+    "image": [
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/_CRePZHpZH7BTV4PH36-MBIQS8VoCTZJdBElp3ayoHOjaxr0kLn29ZUfgkX2i4PANC8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/m9xDI21NMJSVgkEEHLgK6Y3a2Mf7mEFtAZHFDYzjJwGuAZPdmep_7lkawanlvrjSsA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/wQhtkyWcvYXn6tw4nC_MlQtSZrU1XiCw-MlElRqE6YS2j7iz9dDz5vImQAE10wxaevs",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/OCJmoGn6vOYLGYqqanOPzbDR8L8FujXThC3swLIRkEULK7RdcJG1q-aGWN8TRDRNCdg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/2WocUZavUGMvHR7AUIeR23mKp6_mNM_hM5ydCgkNxnpYfT4_ohrAiIXULkJWFuwfxQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/-8HB2kcWhVhbnue-JPi4dRO3t-9B-P9qe_ANWo2uvHZsSJjT_xsBXHzIJBtoqXSu2Ik",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/b2fdq5fUaYeZmsjyM_1Ejbr7c2NiJp2Bktowishbgzdf6HR6jIglmmP7N_uSOyibCY4",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2560,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/XuTAQI2oGSh2FXZ7kJVu8qlUBIk9u4QcOhbTjoiBhyOdpPBwah26TR5_fLVhCkSQp5l-",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "GBP",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://safetrx.seenotretter.de/privacy.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "Users interact, Shares info<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=safetrx.dgzrs",
+    "reviewsUrl": "rev?doc=safetrx.dgzrs&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=safetrx.dgzrs",
+    "title": "SafeTrx der Seenotretter",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "safetrx@seenotretter.de"
+          },
+          "label": "Developer email"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "54",
+      "fiveStarRatings": "99",
+      "fourStarRatings": "11",
+      "oneStarRatings": "10",
+      "ratingsCount": "129",
+      "starRating": 4.455446,
+      "threeStarRatings": "5",
+      "twoStarRatings": "2",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 2
+    },
+    "az_metadata_date": "2023-10-21 06:18:02.715412",
+    "backendDocid": "safetrx.dgzrs",
+    "backendId": 3,
+    "creator": "Deutsche Gesellschaft zur Rettung Schiffbruechiger",
+    "descriptionHtml": "Official app of Deutsche Gesellschaft zur Rettung Schiffbr\u00fcchiger (DGzRS, German Maritime Search and Rescue Service) - the DGzRS SafeTrx app allows you to register your vessel and plan your journey on your smartphone.<br><br>Registering vessel and trip information could not be any easier. Follow the registration process to start using the app. Finalise the registration in the website with the same login codes. Once your registration details have been saved, you can make your choice from the menu in the app. You may either plan and file your trip (Sail plan mode) or just activate the tracking function of the app (Track only mode). <br><br>For filing a planned trip choose your vessel, determine the end destination, calculate the ETA (Estimated Time of Arrival), enter the number of persons on board and the activity type. Then, using the built-in maps, select a starting point, an optional waypoint and the end destination. Once this is completed simply press the \u2018start\u2019 button when you are ready to start your trip.<br><br>Pressing \u2018start\u2019 in Sail plan mode or just pressing the start button in Track only mode will register the journey details with the DGzRS server and will activate position reporting in the app. At regular intervals the app will send a position report to the server and your emergency contacts will be automatically alerted after the journey exceeds the ETA in Sail Plan mode. <br><br>At any stage during the trip you can end your trip, revise the ETA, number of people on board or the destination. <br><br>Use the SafeTrx app to:<br><br>- Improve maritime trip planning with your own personalised checklist to be included as part of your Sail Plan.<br>- Activate an Emergency or an Assistance call. <br>- Quickly start your trip using the \u2018Track only\u2019 mode to begin tracking at a touch of a button. Change the recording interval to save on battery consumption when your track is in progress.<br>- Store up to 20 trips in your Mobile Logbook and replay trips within the app in video playback mode.<br>- Use the \u2018Explorer\u2019 tool to find nearby VHF channels and lifeboat station information.<br>- Access Maritime safety information when both online and offline.<br>- Manage profile, vessel, checklist and emergency contact within the app.<br><br><br>Continued use of GPS running in the background can considerably decrease battery life.<br><br>Please note:<br>This application\u2019s functionality and the information it contains are published on the understanding that end users are to apply their own knowledge and skills in the use of said application. Maritime safety is an extremely serious matter. In an emergency this application\u2019s function and information are not meant to be relied on exclusively. In addition, other reliable information and help from third parties should be looked for and made use of. This application can provide valuable coordinates of the user\u2019s position, as determined by the mobile device used and the GPS system. Mobile devices and their supporting telecommunication networks are, however, not reliable and there is a real chance of loss of connection between the mobile device and the mobile network and / or the GPS system. Nor is there any guarantee that the connection between your mobile device and mobile networks will be uninterrupted. The user hereby agrees to and accepts all risks involved in the use of this application.",
+    "descriptionShort": "Official app of Deutsche Gesellschaft zur Rettung Schiffbr\u00fcchiger.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "version": 12451000
+            }
+          ],
+          "unknown2": "41327470",
+          "unknown3": 32
+        },
+        "developerEmail": "safetrx@seenotretter.de",
+        "developerName": "Deutsche Gesellschaft zur Rettung Schiffbruechiger",
+        "developerWebsite": "http://safetrx.seenotretter.de",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "41327470",
+            "versionCode": 1362
+          }
+        ],
+        "installationSize": "41327470",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "safetrx.dgzrs",
+        "permission": [
+          "android.permission.ACCESS_BACKGROUND_LOCATION",
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.CALL_PHONE",
+          "android.permission.CAMERA",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.POST_NOTIFICATIONS",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_CONTACTS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.AD_ID",
+          "com.google.android.providers.gsf.permission.READ_GSERVICES",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE",
+          "safetrx.dgzrs.permission.C2D_MESSAGE",
+          "safetrx.dgzrs.permission.MAPS_RECEIVE"
+        ],
+        "recentChangesHtml": "This update includes:<br>Security updates.<br>Minor bug fixes.",
+        "unstable": true,
+        "uploadDate": "23 May 2023",
+        "versionCode": 1362,
+        "versionString": "9.1.1"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=safetrx.dgzrs",
+    "docType": 1,
+    "docid": "safetrx.dgzrs",
+    "image": [
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/_CRePZHpZH7BTV4PH36-MBIQS8VoCTZJdBElp3ayoHOjaxr0kLn29ZUfgkX2i4PANC8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/m9xDI21NMJSVgkEEHLgK6Y3a2Mf7mEFtAZHFDYzjJwGuAZPdmep_7lkawanlvrjSsA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/wQhtkyWcvYXn6tw4nC_MlQtSZrU1XiCw-MlElRqE6YS2j7iz9dDz5vImQAE10wxaevs",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/OCJmoGn6vOYLGYqqanOPzbDR8L8FujXThC3swLIRkEULK7RdcJG1q-aGWN8TRDRNCdg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/2WocUZavUGMvHR7AUIeR23mKp6_mNM_hM5ydCgkNxnpYfT4_ohrAiIXULkJWFuwfxQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/-8HB2kcWhVhbnue-JPi4dRO3t-9B-P9qe_ANWo2uvHZsSJjT_xsBXHzIJBtoqXSu2Ik",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/b2fdq5fUaYeZmsjyM_1Ejbr7c2NiJp2Bktowishbgzdf6HR6jIglmmP7N_uSOyibCY4",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2560,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/XuTAQI2oGSh2FXZ7kJVu8qlUBIk9u4QcOhbTjoiBhyOdpPBwah26TR5_fLVhCkSQp5l-",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://safetrx.seenotretter.de/privacy.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "Users interact, Shares info<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=safetrx.dgzrs",
+    "reviewsUrl": "rev?doc=safetrx.dgzrs&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=safetrx.dgzrs",
+    "title": "SafeTrx der Seenotretter",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "safetrx@seenotretter.de"
+          },
+          "label": "Developer email"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "54",
+      "fiveStarRatings": "98",
+      "fourStarRatings": "11",
+      "oneStarRatings": "10",
+      "ratingsCount": "129",
+      "starRating": 4.45,
+      "threeStarRatings": "5",
+      "twoStarRatings": "2",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-11-01 08:56:43.648815",
+    "backendDocid": "safetrx.dgzrs",
+    "backendId": 3,
+    "creator": "Deutsche Gesellschaft zur Rettung Schiffbruechiger",
+    "descriptionHtml": "Official app of Deutsche Gesellschaft zur Rettung Schiffbr\u00fcchiger (DGzRS, German Maritime Search and Rescue Service) - the DGzRS SafeTrx app allows you to register your vessel and plan your journey on your smartphone.<br><br>Registering vessel and trip information could not be any easier. Follow the registration process to start using the app. Finalise the registration in the website with the same login codes. Once your registration details have been saved, you can make your choice from the menu in the app. You may either plan and file your trip (Sail plan mode) or just activate the tracking function of the app (Track only mode). <br><br>For filing a planned trip choose your vessel, determine the end destination, calculate the ETA (Estimated Time of Arrival), enter the number of persons on board and the activity type. Then, using the built-in maps, select a starting point, an optional waypoint and the end destination. Once this is completed simply press the \u2018start\u2019 button when you are ready to start your trip.<br><br>Pressing \u2018start\u2019 in Sail plan mode or just pressing the start button in Track only mode will register the journey details with the DGzRS server and will activate position reporting in the app. At regular intervals the app will send a position report to the server and your emergency contacts will be automatically alerted after the journey exceeds the ETA in Sail Plan mode. <br><br>At any stage during the trip you can end your trip, revise the ETA, number of people on board or the destination. <br><br>Use the SafeTrx app to:<br><br>- Improve maritime trip planning with your own personalised checklist to be included as part of your Sail Plan.<br>- Activate an Emergency or an Assistance call. <br>- Quickly start your trip using the \u2018Track only\u2019 mode to begin tracking at a touch of a button. Change the recording interval to save on battery consumption when your track is in progress.<br>- Store up to 20 trips in your Mobile Logbook and replay trips within the app in video playback mode.<br>- Use the \u2018Explorer\u2019 tool to find nearby VHF channels and lifeboat station information.<br>- Access Maritime safety information when both online and offline.<br>- Manage profile, vessel, checklist and emergency contact within the app.<br><br><br>Continued use of GPS running in the background can considerably decrease battery life.<br><br>Please note:<br>This application\u2019s functionality and the information it contains are published on the understanding that end users are to apply their own knowledge and skills in the use of said application. Maritime safety is an extremely serious matter. In an emergency this application\u2019s function and information are not meant to be relied on exclusively. In addition, other reliable information and help from third parties should be looked for and made use of. This application can provide valuable coordinates of the user\u2019s position, as determined by the mobile device used and the GPS system. Mobile devices and their supporting telecommunication networks are, however, not reliable and there is a real chance of loss of connection between the mobile device and the mobile network and / or the GPS system. Nor is there any guarantee that the connection between your mobile device and mobile networks will be uninterrupted. The user hereby agrees to and accepts all risks involved in the use of this application.",
+    "descriptionShort": "Official app of Deutsche Gesellschaft zur Rettung Schiffbr\u00fcchiger.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "version": 12451000
+            }
+          ],
+          "unknown2": "41327470",
+          "unknown3": 32
+        },
+        "developerEmail": "safetrx@seenotretter.de",
+        "developerName": "Deutsche Gesellschaft zur Rettung Schiffbruechiger",
+        "developerWebsite": "http://safetrx.seenotretter.de",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "41327470",
+            "versionCode": 1362
+          }
+        ],
+        "installationSize": "41327470",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "safetrx.dgzrs",
+        "permission": [
+          "android.permission.ACCESS_BACKGROUND_LOCATION",
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.CALL_PHONE",
+          "android.permission.CAMERA",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.POST_NOTIFICATIONS",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_CONTACTS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.AD_ID",
+          "com.google.android.providers.gsf.permission.READ_GSERVICES",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE",
+          "safetrx.dgzrs.permission.C2D_MESSAGE",
+          "safetrx.dgzrs.permission.MAPS_RECEIVE"
+        ],
+        "recentChangesHtml": "This update includes:<br>Security updates.<br>Minor bug fixes.",
+        "unstable": true,
+        "uploadDate": "23 May 2023",
+        "versionCode": 1362,
+        "versionString": "9.1.1"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=safetrx.dgzrs&vc=1362",
+    "docType": 1,
+    "docid": "safetrx.dgzrs",
+    "image": [
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/_CRePZHpZH7BTV4PH36-MBIQS8VoCTZJdBElp3ayoHOjaxr0kLn29ZUfgkX2i4PANC8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/m9xDI21NMJSVgkEEHLgK6Y3a2Mf7mEFtAZHFDYzjJwGuAZPdmep_7lkawanlvrjSsA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/wQhtkyWcvYXn6tw4nC_MlQtSZrU1XiCw-MlElRqE6YS2j7iz9dDz5vImQAE10wxaevs",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/OCJmoGn6vOYLGYqqanOPzbDR8L8FujXThC3swLIRkEULK7RdcJG1q-aGWN8TRDRNCdg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/2WocUZavUGMvHR7AUIeR23mKp6_mNM_hM5ydCgkNxnpYfT4_ohrAiIXULkJWFuwfxQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/-8HB2kcWhVhbnue-JPi4dRO3t-9B-P9qe_ANWo2uvHZsSJjT_xsBXHzIJBtoqXSu2Ik",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/b2fdq5fUaYeZmsjyM_1Ejbr7c2NiJp2Bktowishbgzdf6HR6jIglmmP7N_uSOyibCY4",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2560,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/XuTAQI2oGSh2FXZ7kJVu8qlUBIk9u4QcOhbTjoiBhyOdpPBwah26TR5_fLVhCkSQp5l-",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://safetrx.seenotretter.de/privacy.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/xjpDpgtSIWZBQ9hBSIaSjrPK90cBDBxcMX5brLAV5SwB0KuVmD_4ajQAzO-v8FhmCZUpOu3j4kWvVXJS9A",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "USK: All ages",
+        "learnMoreHtmlLink": "Users interact, Shares info<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=safetrx.dgzrs",
+    "reviewsUrl": "rev?doc=safetrx.dgzrs&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=safetrx.dgzrs",
+    "title": "SafeTrx der Seenotretter\n9.1.1",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "safetrx@seenotretter.de"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "14 Dec 2016"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  }
+]

@@ -1,0 +1,1091 @@
+[
+  {
+    "aggregateRating": {
+      "commentCount": "10",
+      "fiveStarRatings": "7",
+      "fourStarRatings": "1",
+      "oneStarRatings": "11",
+      "ratingsCount": "20",
+      "starRating": 2.65,
+      "threeStarRatings": "1",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-06-04 01:11:54.380203",
+    "backendDocid": "masar.bb",
+    "backendId": 3,
+    "creator": "Marek Mas\u00e1r",
+    "descriptionHtml": "<b>OVERVIEW</b><br>This app acts like a communication bridge between 2 devices of following types:<br>- SPP (Serial Port Profile) bluetooth devices<br>- TCP server: app can create listening TCP server socket to which you can connect TCP client running on remote device<br>- TCP client: app can connect to listening TCP server<br><br>Pro version further supports:<br>- BLE (Bluetooth Low Energy) devices<br>- USB devices (supported: CP210x, CDC, FTDI, PL2303 and CH34x chips)<br><br>Typical devices are micro-controllers with a bluetooth module (like HC-06),  other Android devices with bluetooth terminal apps, devices running TCP clients/servers, etc.<br><br><b>HOW IT WORKS</b><br>Incoming transmission from one connected device is retransmitted to second connected device and vice versa. You can change this behaviour to one directional transfer, for example only from device A to device B. Bidirectional retransmission is default and can be changed during active transmission.<br><br><b>Connecting to SPP devices</b><br>Click Connect/Listen and select device from the list of paired devices. Make sure other device is listening for incoming connections. You can also initialize connection from remote device. In such case use long click on Connect/Listen button which creates listening SPP port.<br><br><b>Opening TCP Server</b><br>App can create listening TCP Server socket (you can specify port number). You can connect to it from remote device using TCP Client. Make sure your firewall allows such connections. This version allows connection of one TCP client.<br><br><b>TCP Client</b><br>App has also TCP client, which can connect to listening TCP server. As usual, you just need to specify server IP and port number. In case of connecting to PC make sure firewall is set up properly.<br><br><b>Connecting to USB or BLE devices</b><br>This feature is only supported in PRO version. Free version allows to check device compatibility with your phone.<br><br><b>Unsupported</b><br>Unfortunately, devices like headsets and bluetooth speakers are not compatible with this app, since they use different bluetooth profile, neither SPP, nor BLE.<br><br><b>SUPPORT</b><br>Found a bug? Missing feature? Just email the developer. Your feedback is greatly appreciated.<br>masarmarek.fy@gmail.com",
+    "descriptionShort": "Create communication bridge between SPP bluetooth or TCP devices.",
+    "details": {
+      "appDetails": {
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown1": 1,
+          "unknown2": "3226506",
+          "unknown3": 28
+        },
+        "developerAddress": "SNP 39/52<br/>01851 Nov\u00e1 Dubnica<br/>Slovakia",
+        "developerEmail": "masarmarek.fy@gmail.com",
+        "developerName": "Marek Mas\u00e1r",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "3226506",
+            "versionCode": 29
+          }
+        ],
+        "installationSize": "3226506",
+        "numDownloads": "5,000+ downloads",
+        "packageName": "masar.bb",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.INTERNET",
+          "android.permission.WAKE_LOCK",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "masar.bb.permission.C2D_MESSAGE"
+        ],
+        "recentChangesHtml": "v2.9<br>- BLE connection process redesigned<br>- BLE scanning improved, overview of all devices in range available<br>- Data logging improved<br>- Log can now hold larger amount of data (limit is customisable)\t\t<br>- New log formatting functions, with color differentiations \t\t\t\t\t\t<br>- Minor design changes\t\t\t<br>- Bug fixes",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "20 May 2020",
+        "versionCode": 29,
+        "versionString": "2.9"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=masar.bb",
+    "docType": 1,
+    "docid": "masar.bb",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://lh3.googleusercontent.com/OUE8-vMNICY-Q5yuFXgmdm5DP_QhCowOCgvxaRmlCZn-9sUdMlLIMWO6YYCjy_gLyQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://lh3.googleusercontent.com/siIgF1HmgtcC2PmD4dSWYGrMRfFKkYugC31y1FDhyZjZUUAZmqGXs2XCllaVK052BMp9",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 854,
+          "width": 480
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/P-NksvV4uTcXAAdk08Llnvk_G_s8zWsMpuYgI-3-B_DldKlDplF6Mov3-d-oECc5inU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 854,
+          "width": 480
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/O27ak3hn8R4hNKy6GJdCJZxck_akoPg2geFrcqGV01NNAihNHmLSnb2K9cy6WckEjg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 854,
+          "width": 480
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/pq2wNDm8mX7unwPeQ5P6siUVboz1vZmlBUP1TzxuLOug0r5a_PH3e4rhyhwUgLKo9w",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 854,
+          "width": 480
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/pQ4H9Pz5gWc8OA7nXf6OcwBt7EJRVG_BpUkkUfmfrdM-G4duhK7X0xrVUdw7S9b5Hsc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 854,
+          "width": 480
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/sg2i31VZ-9L7UbR2Jlt9XrfQb4aRWkjmcDDCOYeXLZbidXz8y2XHkgBXODvSF_yOGaJz",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 854,
+          "width": 480
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/25DCX5epdy-RlAziFaJQahHiYW1lorkt1VR5kLMhyHPL8o5P5PsqjmIJfCe3MDXAHvI",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://sites.google.com/view/communicationbridge/home",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://lh3.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=masar.bb",
+    "reviewsUrl": "rev?doc=masar.bb&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=masar.bb",
+    "title": "Bluetooth Bridge (+TCP)",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "masarmarek.fy@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "SNP 39/52<br/>01851 Nov\u00e1 Dubnica<br/>Slovakia"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "22 Jan 2019"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "11",
+      "fiveStarRatings": "7",
+      "fourStarRatings": "1",
+      "oneStarRatings": "12",
+      "ratingsCount": "21",
+      "starRating": 2.5714285,
+      "threeStarRatings": "1",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-07-13 21:22:16.010668",
+    "backendDocid": "masar.bb",
+    "backendId": 3,
+    "creator": "Marek Mas\u00e1r",
+    "descriptionHtml": "<b>OVERVIEW</b><br>This app acts like a communication bridge between 2 devices of following types:<br>- SPP (Serial Port Profile) bluetooth devices<br>- TCP server: app can create listening TCP server socket to which you can connect TCP client running on remote device<br>- TCP client: app can connect to listening TCP server<br><br>Pro version further supports:<br>- BLE (Bluetooth Low Energy) devices<br>- USB devices (supported: CP210x, CDC, FTDI, PL2303 and CH34x chips)<br><br>Typical devices are micro-controllers with a bluetooth module (like HC-06),  other Android devices with bluetooth terminal apps, devices running TCP clients/servers, etc.<br><br><b>HOW IT WORKS</b><br>Incoming transmission from one connected device is retransmitted to second connected device and vice versa. You can change this behaviour to one directional transfer, for example only from device A to device B. Bidirectional retransmission is default and can be changed during active transmission.<br><br><b>Connecting to SPP devices</b><br>Click Connect/Listen and select device from the list of paired devices. Make sure other device is listening for incoming connections. You can also initialize connection from remote device. In such case use long click on Connect/Listen button which creates listening SPP port.<br><br><b>Opening TCP Server</b><br>App can create listening TCP Server socket (you can specify port number). You can connect to it from remote device using TCP Client. Make sure your firewall allows such connections. This version allows connection of one TCP client.<br><br><b>TCP Client</b><br>App has also TCP client, which can connect to listening TCP server. As usual, you just need to specify server IP and port number. In case of connecting to PC make sure firewall is set up properly.<br><br><b>Connecting to USB or BLE devices</b><br>This feature is only supported in PRO version. Free version allows to check device compatibility with your phone.<br><br><b>Unsupported</b><br>Unfortunately, devices like headsets and bluetooth speakers are not compatible with this app, since they use different bluetooth profile, neither SPP, nor BLE.<br><br><b>SUPPORT</b><br>Found a bug? Missing feature? Just email the developer. Your feedback is greatly appreciated.<br>masarmarek.fy@gmail.com",
+    "descriptionShort": "Create communication bridge between SPP bluetooth or TCP devices.",
+    "details": {
+      "appDetails": {
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown1": 1,
+          "unknown2": "3209773",
+          "unknown3": 28
+        },
+        "developerAddress": "SNP 39/52<br/>01851 Nov\u00e1 Dubnica<br/>Slovakia",
+        "developerEmail": "masarmarek.fy@gmail.com",
+        "developerName": "Marek Mas\u00e1r",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "3209773",
+            "versionCode": 30
+          }
+        ],
+        "installationSize": "3209773",
+        "numDownloads": "5,000+ downloads",
+        "packageName": "masar.bb",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.WAKE_LOCK",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "masar.bb.permission.C2D_MESSAGE"
+        ],
+        "recentChangesHtml": "v3.0<br>- Runtime permissions required for BLE scanning on newer devices added",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "13 Jul 2020",
+        "versionCode": 30,
+        "versionString": "3.0"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=masar.bb",
+    "docType": 1,
+    "docid": "masar.bb",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://lh3.googleusercontent.com/OUE8-vMNICY-Q5yuFXgmdm5DP_QhCowOCgvxaRmlCZn-9sUdMlLIMWO6YYCjy_gLyQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://lh3.googleusercontent.com/siIgF1HmgtcC2PmD4dSWYGrMRfFKkYugC31y1FDhyZjZUUAZmqGXs2XCllaVK052BMp9",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 854,
+          "width": 480
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/P-NksvV4uTcXAAdk08Llnvk_G_s8zWsMpuYgI-3-B_DldKlDplF6Mov3-d-oECc5inU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 854,
+          "width": 480
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/O27ak3hn8R4hNKy6GJdCJZxck_akoPg2geFrcqGV01NNAihNHmLSnb2K9cy6WckEjg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 854,
+          "width": 480
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/pq2wNDm8mX7unwPeQ5P6siUVboz1vZmlBUP1TzxuLOug0r5a_PH3e4rhyhwUgLKo9w",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 854,
+          "width": 480
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/pQ4H9Pz5gWc8OA7nXf6OcwBt7EJRVG_BpUkkUfmfrdM-G4duhK7X0xrVUdw7S9b5Hsc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 854,
+          "width": 480
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/sg2i31VZ-9L7UbR2Jlt9XrfQb4aRWkjmcDDCOYeXLZbidXz8y2XHkgBXODvSF_yOGaJz",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 854,
+          "width": 480
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/25DCX5epdy-RlAziFaJQahHiYW1lorkt1VR5kLMhyHPL8o5P5PsqjmIJfCe3MDXAHvI",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://sites.google.com/view/communicationbridge/home",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://lh3.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=masar.bb",
+    "reviewsUrl": "rev?doc=masar.bb&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=masar.bb",
+    "title": "Bluetooth Bridge (+TCP)",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "masarmarek.fy@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "SNP 39/52<br/>01851 Nov\u00e1 Dubnica<br/>Slovakia"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "22 Jan 2019"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "17",
+      "fiveStarRatings": "13",
+      "fourStarRatings": "2",
+      "oneStarRatings": "14",
+      "ratingsCount": "30",
+      "starRating": 2.9666667,
+      "threeStarRatings": "0",
+      "twoStarRatings": "1",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-04-03 04:12:22.473815",
+    "backendDocid": "masar.bb",
+    "backendId": 3,
+    "creator": "Marek Mas\u00e1r",
+    "descriptionHtml": "<b>OVERVIEW</b><br>This app acts like a communication bridge between 2 devices of following types:<br>- SPP (Serial Port Profile) bluetooth devices<br>- TCP server: app can create listening TCP server socket to which you can connect TCP client running on remote device<br>- TCP client: app can connect to listening TCP server<br><br>Pro version further supports:<br>- BLE (Bluetooth Low Energy) devices<br>- USB devices (supported: CP210x, CDC, FTDI, PL2303 and CH34x chips)<br><br>Typical devices are micro-controllers with a bluetooth module (like HC-06),  other Android devices with bluetooth terminal apps, devices running TCP clients/servers, etc.<br><br><b><a href=\"https://www.google.com/url?q=https%3A%2F%2Fsites.google.com%2Fview%2Fcommunication-utilities%2Fbridge-user-guide&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNFYURAG57BnR2iJz94mjtvSFwfa2Q\">User guide now available.</a></b><br><br><b>HOW IT WORKS</b><br>Incoming transmission from one connected device is retransmitted to second connected device and vice versa. You can change this behaviour to one directional transfer, for example only from device A to device B. Bidirectional retransmission is default and can be changed during active transmission.<br><br><b>Connecting to SPP devices</b><br>Click Connect/Listen and select device from the list of paired devices. Make sure other device is listening for incoming connections. You can also initialize connection from remote device. In such case use long click on Connect/Listen button which creates listening SPP port.<br><br><b>Opening TCP Server</b><br>App can create listening TCP Server socket (you can specify port number). You can connect to it from remote device using TCP Client. Make sure your firewall allows such connections. This version allows connection of one TCP client.<br><br><b>TCP Client</b><br>App has also TCP client, which can connect to listening TCP server. As usual, you just need to specify server IP and port number. In case of connecting to PC make sure firewall is set up properly.<br><br><b>Connecting to USB or BLE devices</b><br>This feature is only supported in PRO version. Free version allows to check device compatibility with your phone.<br><br><b>Unsupported</b><br>Unfortunately, devices like headsets and bluetooth speakers are not compatible with this app, since they use different bluetooth profile, neither SPP, nor BLE.<br><br><b>SUPPORT</b><br>Found a bug? Missing feature? Just email the developer. Your feedback is greatly appreciated.<br>masarmarek.fy@gmail.com",
+    "descriptionShort": "Create communication bridge between SPP bluetooth or TCP devices.",
+    "details": {
+      "appDetails": {
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown1": 1,
+          "unknown2": "3216840",
+          "unknown3": 29
+        },
+        "developerAddress": "SNP 39/52<br/>01851 Nov\u00e1 Dubnica<br/>Slovakia",
+        "developerEmail": "masarmarek.fy@gmail.com",
+        "developerName": "Marek Mas\u00e1r",
+        "developerWebsite": "https://sites.google.com/view/communication-utilities/home",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "3216840",
+            "versionCode": 34
+          }
+        ],
+        "installationSize": "3216840",
+        "numDownloads": "5,000+ downloads",
+        "packageName": "masar.bb",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.WAKE_LOCK",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "masar.bb.permission.C2D_MESSAGE"
+        ],
+        "recentChangesHtml": "v3.4<br>- BLE scanning process fixed on newer Android devices\t<br>- option for TCP server to overwrite existing connection with new incoming connection added\t\t<br>- quick send data option added to traffic view\t\t<br>- minor design changes ",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "Apr. 2, 2021",
+        "versionCode": 34,
+        "versionString": "3.4"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=masar.bb",
+    "docType": 1,
+    "docid": "masar.bb",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/OUE8-vMNICY-Q5yuFXgmdm5DP_QhCowOCgvxaRmlCZn-9sUdMlLIMWO6YYCjy_gLyQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/siIgF1HmgtcC2PmD4dSWYGrMRfFKkYugC31y1FDhyZjZUUAZmqGXs2XCllaVK052BMp9",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 854,
+          "width": 480
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/P-NksvV4uTcXAAdk08Llnvk_G_s8zWsMpuYgI-3-B_DldKlDplF6Mov3-d-oECc5inU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 854,
+          "width": 480
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/O27ak3hn8R4hNKy6GJdCJZxck_akoPg2geFrcqGV01NNAihNHmLSnb2K9cy6WckEjg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 854,
+          "width": 480
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/pq2wNDm8mX7unwPeQ5P6siUVboz1vZmlBUP1TzxuLOug0r5a_PH3e4rhyhwUgLKo9w",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 854,
+          "width": 480
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/pQ4H9Pz5gWc8OA7nXf6OcwBt7EJRVG_BpUkkUfmfrdM-G4duhK7X0xrVUdw7S9b5Hsc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 854,
+          "width": 480
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/sg2i31VZ-9L7UbR2Jlt9XrfQb4aRWkjmcDDCOYeXLZbidXz8y2XHkgBXODvSF_yOGaJz",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 854,
+          "width": 480
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/25DCX5epdy-RlAziFaJQahHiYW1lorkt1VR5kLMhyHPL8o5P5PsqjmIJfCe3MDXAHvI",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://sites.google.com/view/communicationbridge/home",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=masar.bb",
+    "reviewsUrl": "rev?doc=masar.bb&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=masar.bb",
+    "title": "Bluetooth Bridge (+TCP)",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "masarmarek.fy@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "SNP 39/52<br/>01851 Nov\u00e1 Dubnica<br/>Slovakia"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "Jan. 22, 2019"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "22",
+      "fiveStarRatings": "24",
+      "fourStarRatings": "3",
+      "oneStarRatings": "16",
+      "ratingsCount": "45",
+      "starRating": 3.4,
+      "threeStarRatings": "1",
+      "twoStarRatings": "1",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-08-21 11:13:19.574016",
+    "backendDocid": "masar.bb",
+    "backendId": 3,
+    "creator": "Marek Mas\u00e1r",
+    "descriptionHtml": "<b>OVERVIEW</b><br>App enables communication between  different types of communication technologies (PRO connections are time limited). Smartphone with this app installed acts as a converter device. It connects to remote devices which cannot communicate directly, and it creates communication bridge between them, enabling them to exchange data. Currently supporting:<br><b>- Classic Bluetooth devices</b> : Bluetooth modules (HC-05, HC-06), other smartphone with Bluetooth terminal app, PC or any other device capable of opening Bluetooth port (serial port profile/SPP).(*) App can also create listening port to which remote Bluetooth devices can connect.<br><b>- TCP server</b> : app can create listening TCP server socket to which you can connect up to 3 clients<br><b>- TCP client</b><br><br>Available for testing / fully supported in PRO version:<br><b>- BLE (Bluetooth low energy) / Bluetooth 4.0 devices</b> :  devices such as BLE Bluetooth modules(HM-10, MLT-BT05), smart sensors (heart rate monitors, thermostats, etc.)<br><b>- USB-serial devices</b> : supported: CP210x, CDC, FTDI, PL2303(*) and CH34x chips<br><b>- UDP socket</b><br><b>- MQTT client</b><br><br>UNSUPPORTED:<br><b>- Bluetooth speakers and headphones</b><br><b>- Variants of listed serial devices with suffix in the name (like PL2303G, PL2303A, etc.) might be also unsupported</b><br><br>App has in build terminal, you can view traffic in a log and send data to connected devices directly from the app interface.<br><br><b>Visit user guide for detailed app description, supported protocols and help with connections.</b><br><br><a href=\"https://www.google.com/url?q=https%3A%2F%2Fsites.google.com%2Fview%2Fcommunication-utilities%2Fbridge-user-guide&amp;sa=D&amp;sntz=1&amp;usg=AOvVaw1r9sP5CZ3vHjbDO3-WSHFf\">https://sites.google.com/view/communication-utilities/bridge-user-guide</a><br><br><b>SUPPORT</b><br>Found a bug? Missing feature? Just email the developer. Your feedback is greatly appreciated.<br>masarmarek.fy@gmail.com",
+    "descriptionShort": "Communication bridge between classic Bluetooth and TCP devices.",
+    "details": {
+      "appDetails": {
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "version": 12451000
+            }
+          ],
+          "unknown1": 1,
+          "unknown2": "4437629",
+          "unknown3": 31
+        },
+        "developerAddress": "01835 Horn\u00e1 Poruba, 331<br/>Slovakia",
+        "developerEmail": "masarmarek.fy@gmail.com",
+        "developerName": "Marek Mas\u00e1r",
+        "developerWebsite": "https://sites.google.com/view/communication-utilities/home",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "4437629",
+            "versionCode": 69
+          }
+        ],
+        "installationSize": "4437629",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "masar.bb",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.BLUETOOTH_CONNECT",
+          "android.permission.BLUETOOTH_SCAN",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.WAKE_LOCK",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.AD_ID",
+          "masar.bb.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+          "masar.bb.permission.C2D_MESSAGE"
+        ],
+        "recentChangesHtml": "- Bugfix for UDP socket: wrong port number was used from user configuration",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "18 Jul 2023",
+        "versionCode": 69,
+        "versionString": "6.9"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=masar.bb",
+    "docType": 1,
+    "docid": "masar.bb",
+    "image": [
+      {
+        "color": "#EA7109",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/OUE8-vMNICY-Q5yuFXgmdm5DP_QhCowOCgvxaRmlCZn-9sUdMlLIMWO6YYCjy_gLyQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#E76F0A",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/siIgF1HmgtcC2PmD4dSWYGrMRfFKkYugC31y1FDhyZjZUUAZmqGXs2XCllaVK052BMp9",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1480,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/bOqCHAbTYmX6bRKSy83f_k2aclJ-iHGt2k_ffDXjh1gWI8RW6tF9ls8eKSdjHfrVng",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1480,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/APSs3rQpIjuhkAnRSrfNKU6gw7pDszVPANJiq9UBjvBjiJRgNWqFngzd6ps7tRAP26s",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1480,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/xM6SmFHHYyJ45os7i9Wf2CzaeXZmuyKlii7X5vDw_D4mlNs6qkfQwJK3wjwJZPoyR7QA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1480,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/G985oLOrhP9eHatOiZN3uvZ7htdPbuCwwzocqkgbYjJhHzk2PstLHNrGCQst9qzijCs",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1480,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/GzHcAAkXNuKKBvODm7jFoPGq8_t1iJVCFJqiJIwbYkp8ZnNvKufQ2InLFeFvxgENVvw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1480,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/5oN7p7XgoaVB3IPbyt4tbVklcjnKrplWsdlh23NqYKvSyzUC6p6GhWcdD59iOdulisc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1480,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/-6jZO0yOGnU72FJyqKjq8fOFVvYwV6Z1kc7m8frkPTeb17-aWTIhgpXg_0R8836LEmM",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://sites.google.com/view/communicationbridge/home",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=masar.bb",
+    "reviewsUrl": "rev?doc=masar.bb&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=masar.bb",
+    "title": "Bluetooth TCP Bridge",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "masarmarek.fy@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "01835 Horn\u00e1 Poruba, 331<br/>Slovakia"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "22 Jan 2019"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-11-23 05:52:00.068599",
+    "backendDocid": "masar.bb",
+    "backendId": 3,
+    "creator": "Marek Mas\u00e1r",
+    "descriptionHtml": "<b>OVERVIEW</b><br>App enables communication between  different types of communication technologies (PRO connections are time limited). Smartphone with this app installed acts as a converter device. It connects to remote devices which cannot communicate directly, and it creates communication bridge between them, enabling them to exchange data. Currently supporting:<br><b>- Classic Bluetooth devices</b> : Bluetooth modules (HC-05, HC-06), other smartphone with Bluetooth terminal app, PC or any other device capable of opening Bluetooth port (serial port profile/SPP).(*) App can also create listening port to which remote Bluetooth devices can connect.<br><b>- TCP server</b> : app can create listening TCP server socket to which you can connect up to 3 clients<br><b>- TCP client</b><br><br>Available for testing / fully supported in PRO version:<br><b>- BLE (Bluetooth low energy) / Bluetooth 4.0 devices</b> :  devices such as BLE Bluetooth modules(HM-10, MLT-BT05), smart sensors (heart rate monitors, thermostats, etc.)<br><b>- USB-serial devices</b> : supported: CP210x, CDC, FTDI, PL2303(*) and CH34x chips<br><b>- UDP socket</b><br><b>- MQTT client</b><br><br>UNSUPPORTED:<br><b>- Bluetooth speakers and headphones</b><br><b>- Variants of listed serial devices with suffix in the name (like PL2303G, PL2303A, etc.) might be also unsupported</b><br><br>App has in build terminal, you can view traffic in a log and send data to connected devices directly from the app interface.<br><br><b>Visit user guide for detailed app description, supported protocols and help with connections.</b><br><br><a href=\"https://www.google.com/url?q=https%3A%2F%2Fsites.google.com%2Fview%2Fcommunication-utilities%2Fbridge-user-guide&amp;sa=D&amp;sntz=1&amp;usg=AOvVaw1r9sP5CZ3vHjbDO3-WSHFf\">https://sites.google.com/view/communication-utilities/bridge-user-guide</a><br><br><b>SUPPORT</b><br>Found a bug? Missing feature? Just email the developer. Your feedback is greatly appreciated.<br>masarmarek.fy@gmail.com",
+    "descriptionShort": "Communication bridge between classic Bluetooth and TCP devices.",
+    "details": {
+      "appDetails": {
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "version": 12451000
+            }
+          ],
+          "unknown1": 1,
+          "unknown2": "5260754",
+          "unknown3": 33
+        },
+        "developerAddress": "01835 Horn\u00e1 Poruba, 331<br/>Slovakia",
+        "developerEmail": "masarmarek.fy@gmail.com",
+        "developerName": "Marek Mas\u00e1r",
+        "developerWebsite": "https://sites.google.com/view/communication-utilities/home",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "5260754",
+            "versionCode": 72
+          }
+        ],
+        "installationSize": "5260754",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "masar.bb",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.BLUETOOTH_CONNECT",
+          "android.permission.BLUETOOTH_SCAN",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.WAKE_LOCK",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.AD_ID",
+          "masar.bb.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+          "masar.bb.permission.C2D_MESSAGE"
+        ],
+        "recentChangesHtml": "- Performance improvements.<br>- App can no longer turn ON Bluetooth on Android 13+. User is now prompted to enable Bluetooth when needed.",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "Oct 30, 2023",
+        "versionCode": 72,
+        "versionString": "7.2"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=masar.bb&vc=72",
+    "docType": 1,
+    "docid": "masar.bb",
+    "image": [
+      {
+        "color": "#EA7109",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/OUE8-vMNICY-Q5yuFXgmdm5DP_QhCowOCgvxaRmlCZn-9sUdMlLIMWO6YYCjy_gLyQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#E76F0A",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/siIgF1HmgtcC2PmD4dSWYGrMRfFKkYugC31y1FDhyZjZUUAZmqGXs2XCllaVK052BMp9",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1480,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/bOqCHAbTYmX6bRKSy83f_k2aclJ-iHGt2k_ffDXjh1gWI8RW6tF9ls8eKSdjHfrVng",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1480,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/APSs3rQpIjuhkAnRSrfNKU6gw7pDszVPANJiq9UBjvBjiJRgNWqFngzd6ps7tRAP26s",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1480,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/xM6SmFHHYyJ45os7i9Wf2CzaeXZmuyKlii7X5vDw_D4mlNs6qkfQwJK3wjwJZPoyR7QA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1480,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/G985oLOrhP9eHatOiZN3uvZ7htdPbuCwwzocqkgbYjJhHzk2PstLHNrGCQst9qzijCs",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1480,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/GzHcAAkXNuKKBvODm7jFoPGq8_t1iJVCFJqiJIwbYkp8ZnNvKufQ2InLFeFvxgENVvw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1480,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/5oN7p7XgoaVB3IPbyt4tbVklcjnKrplWsdlh23NqYKvSyzUC6p6GhWcdD59iOdulisc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1480,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/-6jZO0yOGnU72FJyqKjq8fOFVvYwV6Z1kc7m8frkPTeb17-aWTIhgpXg_0R8836LEmM",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "CAD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://sites.google.com/view/communicationbridge/home",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=masar.bb",
+    "reviewsUrl": "rev?doc=masar.bb&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=masar.bb",
+    "title": "Bluetooth TCP Bridge\n7.2",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Marek Mas\u00e1r"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "masarmarek.fy@gmail.com"
+          },
+          "label": "Developer e-mail"
+        },
+        {
+          "container": {
+            "value": "01835 Horn\u00e1 Poruba, 331<br/>Slovakia"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "Jan 22, 2019"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  }
+]

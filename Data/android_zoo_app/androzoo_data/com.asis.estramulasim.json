@@ -1,0 +1,3727 @@
+[
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-12-09 00:03:58.339270",
+    "backendDocid": "com.asis.estramulasim",
+    "backendId": 3,
+    "creator": "Estram Hafif Rayl\u0131 Sistem \u0130\u015fletmesi",
+    "descriptionHtml": "\u0130zin A\u00e7\u0131klamalar\u0131<br>- \u0130nternet izni : Uygulama merkezi sistem ile internet \u00fczerinden haberle\u015fmektedir.<br>- NFC izni : Yolcu Kart ID&#39;sini okumak i\u00e7in istenmektedir.<br>- Titre\u015fim izni : Yolcu Kart ID&#39;si okundu\u011funda(NFC destekli telefonlarda) titre\u015fim olu\u015fturmaktad\u0131r.<br>- Uyku Modu Kontrol izni : Bakiye limiti i\u00e7in uyar\u0131 mesaj\u0131 geldi\u011finde cihaz\u0131 uyku modundan \u00e7\u0131karmak i\u00e7in kullan\u0131lmaktad\u0131r.<br>- Konum izni : Harita \u00fczerinde konum bilgisinin g\u00f6sterilmesi i\u00e7in kullan\u0131lmaktad\u0131r.<br>- Google Bulut Mesajla\u015fma izni : Bakiye kontrol i\u015flemleri google bulut \u00fczerinden yap\u0131lmaktad\u0131r, telefonun \u015farj ve internet kullan\u0131m\u0131n\u0131 minimum seviyede tutmaktad\u0131r.<br><br>Uygulama Fonksiyonlar\u0131 : Nas\u0131l Giderim, Otob\u00fcs\u00fcm Nerede, Bakiye Sorgulama, Bakiye Kontrol, \u00dccret Tarifesi, Hat Hareket Saatleri, Yetkili Bayi ve Kart Merkezleri, Bakiye Y\u00fckleme, \u0130leti\u015fim, Favoriler, \u015eikayetim Var",
+    "descriptionShort": "It is an application that allows you to access the information you need for transportation on mobile.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "17125140",
+          "unknown3": 30
+        },
+        "developerEmail": "akillibiletim@gmail.com",
+        "developerName": "Estram Hafif Rayl\u0131 Sistem \u0130\u015fletmesi",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "12929673",
+            "versionCode": 14
+          },
+          {
+            "fileType": 0,
+            "size": "249701",
+            "versionCode": 14
+          },
+          {
+            "fileType": 0,
+            "size": "29081",
+            "versionCode": 14
+          },
+          {
+            "fileType": 0,
+            "size": "37273",
+            "versionCode": 14
+          },
+          {
+            "fileType": 0,
+            "size": "3879412",
+            "versionCode": 14
+          }
+        ],
+        "installationSize": "17125140",
+        "numDownloads": "10+ downloads",
+        "packageName": "com.asis.estramulasim",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.CAMERA",
+          "android.permission.INTERNET",
+          "android.permission.NFC",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.asis.samulas.permission.MAPS_RECEIVE",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.providers.gsf.permission.READ_GSERVICES"
+        ],
+        "unstable": false,
+        "uploadDate": "30 Nov 2021",
+        "versionCode": 14,
+        "versionString": "1.0.14"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.asis.estramulasim",
+    "docType": 1,
+    "docid": "com.asis.estramulasim",
+    "image": [
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/QZ0m6MLhJGLQVx7HR6aCiybCK3J9_DD-YUDeuz2IaQT0xknU6x4NjE9MgZISe_60Qcc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/9tJnJTp6vHC9IrioYQ0UAzKaxbzTw3iUwSPGxrh2w2aQvKzEd87AJ3NBrKGjcNUkxo2e",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3040,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/sdvHUy-VxLtw5UPbk09xZjbKMimDyN_5hYSgvHeBO31hNPScYo8-bFD-qBjHkMyvkK8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3040,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ZJ0dbaB_yts8ESFGuAZbsUxSL0o7O07rjmCmX7vjfujG5XZTJl8IYmoioXr2lz7gq9c",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://www.akillibiletim.com/_LegalNotices/tGZL_PLT-01.aspx",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.asis.estramulasim",
+    "reviewsUrl": "rev?doc=com.asis.estramulasim&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.asis.estramulasim",
+    "title": "Estram Mobil",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "akillibiletim@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "30 Nov 2021"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-12-30 04:38:48.620043",
+    "backendDocid": "com.asis.estramulasim",
+    "backendId": 3,
+    "creator": "Estram Hafif Rayl\u0131 Sistem \u0130\u015fletmesi",
+    "descriptionHtml": "\u0130zin A\u00e7\u0131klamalar\u0131<br>- \u0130nternet izni : Uygulama merkezi sistem ile internet \u00fczerinden haberle\u015fmektedir.<br>- NFC izni : Yolcu Kart ID&#39;sini okumak i\u00e7in istenmektedir.<br>- Titre\u015fim izni : Yolcu Kart ID&#39;si okundu\u011funda(NFC destekli telefonlarda) titre\u015fim olu\u015fturmaktad\u0131r.<br>- Uyku Modu Kontrol izni : Bakiye limiti i\u00e7in uyar\u0131 mesaj\u0131 geldi\u011finde cihaz\u0131 uyku modundan \u00e7\u0131karmak i\u00e7in kullan\u0131lmaktad\u0131r.<br>- Konum izni : Harita \u00fczerinde konum bilgisinin g\u00f6sterilmesi i\u00e7in kullan\u0131lmaktad\u0131r.<br>- Google Bulut Mesajla\u015fma izni : Bakiye kontrol i\u015flemleri google bulut \u00fczerinden yap\u0131lmaktad\u0131r, telefonun \u015farj ve internet kullan\u0131m\u0131n\u0131 minimum seviyede tutmaktad\u0131r.<br><br>Uygulama Fonksiyonlar\u0131 : Nas\u0131l Giderim, Otob\u00fcs\u00fcm Nerede, Bakiye Sorgulama, Bakiye Kontrol, \u00dccret Tarifesi, Hat Hareket Saatleri, Yetkili Bayi ve Kart Merkezleri, Bakiye Y\u00fckleme, \u0130leti\u015fim, Favoriler, \u015eikayetim Var",
+    "descriptionShort": "It is an application that allows you to access the information you need for transportation on mobile.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "17067328",
+          "unknown3": 30
+        },
+        "developerEmail": "akillibiletim@gmail.com",
+        "developerName": "Estram Hafif Rayl\u0131 Sistem \u0130\u015fletmesi",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "12871858",
+            "versionCode": 15
+          },
+          {
+            "fileType": 0,
+            "size": "249704",
+            "versionCode": 15
+          },
+          {
+            "fileType": 0,
+            "size": "29081",
+            "versionCode": 15
+          },
+          {
+            "fileType": 0,
+            "size": "37273",
+            "versionCode": 15
+          },
+          {
+            "fileType": 0,
+            "size": "3879412",
+            "versionCode": 15
+          }
+        ],
+        "installationSize": "17067328",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "com.asis.estramulasim",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.CAMERA",
+          "android.permission.INTERNET",
+          "android.permission.NFC",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.asis.samulas.permission.MAPS_RECEIVE",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.providers.gsf.permission.READ_GSERVICES"
+        ],
+        "recentChangesHtml": "Hata ve performans iyile\u015ftirmeleri yap\u0131ld\u0131.",
+        "unstable": false,
+        "uploadDate": "28 Dec 2021",
+        "versionCode": 15,
+        "versionString": "1.0.15"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.asis.estramulasim",
+    "docType": 1,
+    "docid": "com.asis.estramulasim",
+    "image": [
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/QZ0m6MLhJGLQVx7HR6aCiybCK3J9_DD-YUDeuz2IaQT0xknU6x4NjE9MgZISe_60Qcc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/9tJnJTp6vHC9IrioYQ0UAzKaxbzTw3iUwSPGxrh2w2aQvKzEd87AJ3NBrKGjcNUkxo2e",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3040,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/sdvHUy-VxLtw5UPbk09xZjbKMimDyN_5hYSgvHeBO31hNPScYo8-bFD-qBjHkMyvkK8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3040,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ZJ0dbaB_yts8ESFGuAZbsUxSL0o7O07rjmCmX7vjfujG5XZTJl8IYmoioXr2lz7gq9c",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://www.akillibiletim.com/_LegalNotices/tGZL_PLT-01.aspx",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.asis.estramulasim",
+    "reviewsUrl": "rev?doc=com.asis.estramulasim&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.asis.estramulasim",
+    "title": "Estram Mobil",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "akillibiletim@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "30 Nov 2021"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "50",
+      "fiveStarRatings": "26",
+      "fourStarRatings": "3",
+      "oneStarRatings": "34",
+      "ratingsCount": "77",
+      "starRating": 2.7272727,
+      "threeStarRatings": "6",
+      "twoStarRatings": "8",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-02-21 12:01:34.141730",
+    "backendDocid": "com.asis.estramulasim",
+    "backendId": 3,
+    "creator": "Estram Hafif Rayl\u0131 Sistem \u0130\u015fletmesi",
+    "descriptionHtml": "\u0130zin A\u00e7\u0131klamalar\u0131<br>- \u0130nternet izni : Uygulama merkezi sistem ile internet \u00fczerinden haberle\u015fmektedir.<br>- NFC izni : Yolcu Kart ID&#39;sini okumak i\u00e7in istenmektedir.<br>- Titre\u015fim izni : Yolcu Kart ID&#39;si okundu\u011funda(NFC destekli telefonlarda) titre\u015fim olu\u015fturmaktad\u0131r.<br>- Uyku Modu Kontrol izni : Bakiye limiti i\u00e7in uyar\u0131 mesaj\u0131 geldi\u011finde cihaz\u0131 uyku modundan \u00e7\u0131karmak i\u00e7in kullan\u0131lmaktad\u0131r.<br>- Konum izni : Harita \u00fczerinde konum bilgisinin g\u00f6sterilmesi i\u00e7in kullan\u0131lmaktad\u0131r.<br>- Google Bulut Mesajla\u015fma izni : Bakiye kontrol i\u015flemleri google bulut \u00fczerinden yap\u0131lmaktad\u0131r, telefonun \u015farj ve internet kullan\u0131m\u0131n\u0131 minimum seviyede tutmaktad\u0131r.<br><br>Uygulama Fonksiyonlar\u0131 : Nas\u0131l Giderim, Otob\u00fcs\u00fcm Nerede, Bakiye Sorgulama, Bakiye Kontrol, \u00dccret Tarifesi, Hat Hareket Saatleri, Yetkili Bayi ve Kart Merkezleri, Bakiye Y\u00fckleme, \u0130leti\u015fim, Favoriler, \u015eikayetim Var",
+    "descriptionShort": "It is an application that allows you to access the information you need for transportation on mobile.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "17121394",
+          "unknown3": 30
+        },
+        "developerEmail": "akillibiletim@gmail.com",
+        "developerName": "Estram Hafif Rayl\u0131 Sistem \u0130\u015fletmesi",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "12871858",
+            "versionCode": 16
+          },
+          {
+            "fileType": 0,
+            "size": "249704",
+            "versionCode": 16
+          },
+          {
+            "fileType": 0,
+            "size": "24985",
+            "versionCode": 16
+          },
+          {
+            "fileType": 0,
+            "size": "29081",
+            "versionCode": 16
+          },
+          {
+            "fileType": 0,
+            "size": "29081",
+            "versionCode": 16
+          },
+          {
+            "fileType": 0,
+            "size": "37273",
+            "versionCode": 16
+          },
+          {
+            "fileType": 0,
+            "size": "3879412",
+            "versionCode": 16
+          }
+        ],
+        "installationSize": "17121394",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "com.asis.estramulasim",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.CAMERA",
+          "android.permission.INTERNET",
+          "android.permission.NFC",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.asis.samulas.permission.MAPS_RECEIVE",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.providers.gsf.permission.READ_GSERVICES"
+        ],
+        "recentChangesHtml": "-Kullan\u0131lmayan men\u00fclere pasif g\u00f6r\u00fcn\u00fcm verildi<br>-Hata ve performans iyile\u015ftirmeleri yap\u0131ld\u0131.",
+        "unstable": false,
+        "uploadDate": "31 Jan 2022",
+        "versionCode": 16,
+        "versionString": "1.0.16"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.asis.estramulasim",
+    "docType": 1,
+    "docid": "com.asis.estramulasim",
+    "image": [
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/QZ0m6MLhJGLQVx7HR6aCiybCK3J9_DD-YUDeuz2IaQT0xknU6x4NjE9MgZISe_60Qcc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/9tJnJTp6vHC9IrioYQ0UAzKaxbzTw3iUwSPGxrh2w2aQvKzEd87AJ3NBrKGjcNUkxo2e",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3040,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/sdvHUy-VxLtw5UPbk09xZjbKMimDyN_5hYSgvHeBO31hNPScYo8-bFD-qBjHkMyvkK8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3040,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ZJ0dbaB_yts8ESFGuAZbsUxSL0o7O07rjmCmX7vjfujG5XZTJl8IYmoioXr2lz7gq9c",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://asiselektronik.com.tr/tr/gizlilik-bildirimi",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.asis.estramulasim",
+    "reviewsUrl": "rev?doc=com.asis.estramulasim&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.asis.estramulasim",
+    "title": "Estram Mobil",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "akillibiletim@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "30 Nov 2021"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-05-10 05:19:58.614555",
+    "backendDocid": "com.asis.estramulasim",
+    "backendId": 3,
+    "creator": "Estram Hafif Rayl\u0131 Sistem \u0130\u015fletmesi",
+    "descriptionHtml": "\u0130zin A\u00e7\u0131klamalar\u0131<br>- \u0130nternet izni : Uygulama merkezi sistem ile internet \u00fczerinden haberle\u015fmektedir.<br>- NFC izni : Yolcu Kart ID&#39;sini okumak i\u00e7in istenmektedir.<br>- Titre\u015fim izni : Yolcu Kart ID&#39;si okundu\u011funda(NFC destekli telefonlarda) titre\u015fim olu\u015fturmaktad\u0131r.<br>- Uyku Modu Kontrol izni : Bakiye limiti i\u00e7in uyar\u0131 mesaj\u0131 geldi\u011finde cihaz\u0131 uyku modundan \u00e7\u0131karmak i\u00e7in kullan\u0131lmaktad\u0131r.<br>- Konum izni : Harita \u00fczerinde konum bilgisinin g\u00f6sterilmesi i\u00e7in kullan\u0131lmaktad\u0131r.<br>- Google Bulut Mesajla\u015fma izni : Bakiye kontrol i\u015flemleri google bulut \u00fczerinden yap\u0131lmaktad\u0131r, telefonun \u015farj ve internet kullan\u0131m\u0131n\u0131 minimum seviyede tutmaktad\u0131r.<br><br>Uygulama Fonksiyonlar\u0131 : Nas\u0131l Giderim, Otob\u00fcs\u00fcm Nerede, Bakiye Sorgulama, Bakiye Kontrol, \u00dccret Tarifesi, Hat Hareket Saatleri, Yetkili Bayi ve Kart Merkezleri, Bakiye Y\u00fckleme, \u0130leti\u015fim, Favoriler, \u015eikayetim Var",
+    "descriptionShort": "It is an application that allows you to access the information you need for transportation on mobile.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "17071496",
+          "unknown3": 30
+        },
+        "developerEmail": "akillibiletim@gmail.com",
+        "developerName": "Estram Hafif Rayl\u0131 Sistem \u0130\u015fletmesi",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "12876026",
+            "versionCode": 18
+          },
+          {
+            "fileType": 0,
+            "size": "249704",
+            "versionCode": 18
+          },
+          {
+            "fileType": 0,
+            "size": "29081",
+            "versionCode": 18
+          },
+          {
+            "fileType": 0,
+            "size": "37273",
+            "versionCode": 18
+          },
+          {
+            "fileType": 0,
+            "size": "3879412",
+            "versionCode": 18
+          }
+        ],
+        "installationSize": "17071496",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "com.asis.estramulasim",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.CAMERA",
+          "android.permission.INTERNET",
+          "android.permission.NFC",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.asis.samulas.permission.MAPS_RECEIVE",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.providers.gsf.permission.READ_GSERVICES"
+        ],
+        "recentChangesHtml": "-Kullan\u0131lmayan men\u00fclere pasif g\u00f6r\u00fcn\u00fcm verildi<br>-Hata ve performans iyile\u015ftirmeleri yap\u0131ld\u0131.",
+        "unstable": true,
+        "uploadDate": "6 May 2022",
+        "versionCode": 18,
+        "versionString": "1.0.18"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.asis.estramulasim",
+    "docType": 1,
+    "docid": "com.asis.estramulasim",
+    "image": [
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/QZ0m6MLhJGLQVx7HR6aCiybCK3J9_DD-YUDeuz2IaQT0xknU6x4NjE9MgZISe_60Qcc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/9tJnJTp6vHC9IrioYQ0UAzKaxbzTw3iUwSPGxrh2w2aQvKzEd87AJ3NBrKGjcNUkxo2e",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3040,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/sdvHUy-VxLtw5UPbk09xZjbKMimDyN_5hYSgvHeBO31hNPScYo8-bFD-qBjHkMyvkK8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3040,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ZJ0dbaB_yts8ESFGuAZbsUxSL0o7O07rjmCmX7vjfujG5XZTJl8IYmoioXr2lz7gq9c",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://asiselektronik.com.tr/tr/gizlilik-bildirimi",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.asis.estramulasim",
+    "reviewsUrl": "rev?doc=com.asis.estramulasim&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.asis.estramulasim",
+    "title": "Estram Mobil",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Estram Hafif Rayl\u0131 Sistem \u0130\u015fletmesi"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "akillibiletim@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "30 Nov 2021"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-11-15 07:19:02.085741",
+    "backendDocid": "com.asis.estramulasim",
+    "backendId": 3,
+    "creator": "Estram Hafif Rayl\u0131 Sistem \u0130\u015fletmesi",
+    "descriptionHtml": "\u0130zin A\u00e7\u0131klamalar\u0131<br>- \u0130nternet izni : Uygulama merkezi sistem ile internet \u00fczerinden haberle\u015fmektedir.<br>- NFC izni : Yolcu Kart ID&#39;sini okumak i\u00e7in istenmektedir.<br>- Titre\u015fim izni : Yolcu Kart ID&#39;si okundu\u011funda(NFC destekli telefonlarda) titre\u015fim olu\u015fturmaktad\u0131r.<br>- Uyku Modu Kontrol izni : Bakiye limiti i\u00e7in uyar\u0131 mesaj\u0131 geldi\u011finde cihaz\u0131 uyku modundan \u00e7\u0131karmak i\u00e7in kullan\u0131lmaktad\u0131r.<br>- Konum izni : Harita \u00fczerinde konum bilgisinin g\u00f6sterilmesi i\u00e7in kullan\u0131lmaktad\u0131r.<br>- Google Bulut Mesajla\u015fma izni : Bakiye kontrol i\u015flemleri google bulut \u00fczerinden yap\u0131lmaktad\u0131r, telefonun \u015farj ve internet kullan\u0131m\u0131n\u0131 minimum seviyede tutmaktad\u0131r.<br><br>Uygulama Fonksiyonlar\u0131 : Nas\u0131l Giderim, Otob\u00fcs\u00fcm Nerede, Bakiye Sorgulama, Bakiye Kontrol, \u00dccret Tarifesi, Hat Hareket Saatleri, Yetkili Bayi ve Kart Merkezleri, Bakiye Y\u00fckleme, \u0130leti\u015fim, Favoriler, \u015eikayetim Var",
+    "descriptionShort": "It is an application that allows you to access the information you need for transportation on mobile.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "43114985",
+          "unknown3": 32
+        },
+        "developerEmail": "akillibiletim@gmail.com",
+        "developerName": "Estram Hafif Rayl\u0131 Sistem \u0130\u015fletmesi",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "35298242",
+            "versionCode": 40
+          },
+          {
+            "fileType": 0,
+            "size": "4739730",
+            "versionCode": 40
+          },
+          {
+            "fileType": 0,
+            "size": "111001",
+            "versionCode": 40
+          },
+          {
+            "fileType": 0,
+            "size": "2966012",
+            "versionCode": 40
+          }
+        ],
+        "installationSize": "43114985",
+        "numDownloads": "50,000+ downloads",
+        "packageName": "com.asis.estramulasim",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.CAMERA",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.NFC",
+          "android.permission.POST_NOTIFICATIONS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": "Uygulamam\u0131z\u0131n bu s\u00fcr\u00fcm\u00fcnde;<br><br>-Yeni aray\u00fcz\u00fcm\u00fcz ile kar\u015f\u0131n\u0131zday\u0131z<br>-Art\u0131k Sanalkart sat\u0131n alabilir, bakiye y\u00fckleyebilir ve ge\u00e7i\u015f yapabilirsiniz.<br>-\u00c7\u00f6kme sorunlar\u0131 giderildi.<br>",
+        "unstable": true,
+        "uploadDate": "14 Nov 2022",
+        "versionCode": 40,
+        "versionString": "4.0.7"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.asis.estramulasim",
+    "docType": 1,
+    "docid": "com.asis.estramulasim",
+    "image": [
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/QZ0m6MLhJGLQVx7HR6aCiybCK3J9_DD-YUDeuz2IaQT0xknU6x4NjE9MgZISe_60Qcc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/9tJnJTp6vHC9IrioYQ0UAzKaxbzTw3iUwSPGxrh2w2aQvKzEd87AJ3NBrKGjcNUkxo2e",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1412,
+          "width": 652
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/EteiuoYPsbtW6zeBI_HEeKhsgQ1Kgwt4moZBgy2Eb4SAtfujmfKr0k4dHTxzdhS8mXSN",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1412,
+          "width": 652
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/rjI5ZxZr9l5JufIl534GWrdPiTHL95R4yXZntLhb6SrnUeat-TG2okHlXgYf_cW0v5E",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1412,
+          "width": 652
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Ax2nqnkV1S0sVZYhjTGT-KgW8v58eJArgFzO5OxKB6YLkmoxjTQ8ruQUQFRAxmTvkmo",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://asiselektronik.com.tr/tr/gizlilik-bildirimi",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.asis.estramulasim",
+    "reviewsUrl": "rev?doc=com.asis.estramulasim&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.asis.estramulasim",
+    "title": "Estram Mobil",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "akillibiletim@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "30 Nov 2021"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-11-17 19:54:25.819574",
+    "backendDocid": "com.asis.estramulasim",
+    "backendId": 3,
+    "creator": "Estram Hafif Rayl\u0131 Sistem \u0130\u015fletmesi",
+    "descriptionHtml": "\u0130zin A\u00e7\u0131klamalar\u0131<br>- \u0130nternet izni : Uygulama merkezi sistem ile internet \u00fczerinden haberle\u015fmektedir.<br>- NFC izni : Yolcu Kart ID&#39;sini okumak i\u00e7in istenmektedir.<br>- Titre\u015fim izni : Yolcu Kart ID&#39;si okundu\u011funda(NFC destekli telefonlarda) titre\u015fim olu\u015fturmaktad\u0131r.<br>- Uyku Modu Kontrol izni : Bakiye limiti i\u00e7in uyar\u0131 mesaj\u0131 geldi\u011finde cihaz\u0131 uyku modundan \u00e7\u0131karmak i\u00e7in kullan\u0131lmaktad\u0131r.<br>- Konum izni : Harita \u00fczerinde konum bilgisinin g\u00f6sterilmesi i\u00e7in kullan\u0131lmaktad\u0131r.<br>- Google Bulut Mesajla\u015fma izni : Bakiye kontrol i\u015flemleri google bulut \u00fczerinden yap\u0131lmaktad\u0131r, telefonun \u015farj ve internet kullan\u0131m\u0131n\u0131 minimum seviyede tutmaktad\u0131r.<br><br>Uygulama Fonksiyonlar\u0131 : Nas\u0131l Giderim, Otob\u00fcs\u00fcm Nerede, Bakiye Sorgulama, Bakiye Kontrol, \u00dccret Tarifesi, Hat Hareket Saatleri, Yetkili Bayi ve Kart Merkezleri, Bakiye Y\u00fckleme, \u0130leti\u015fim, Favoriler, \u015eikayetim Var",
+    "descriptionShort": "It is an application that allows you to access the information you need for transportation on mobile.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "43114985",
+          "unknown3": 32
+        },
+        "developerEmail": "akillibiletim@gmail.com",
+        "developerName": "Estram Hafif Rayl\u0131 Sistem \u0130\u015fletmesi",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "35298242",
+            "versionCode": 41
+          },
+          {
+            "fileType": 0,
+            "size": "4739730",
+            "versionCode": 41
+          },
+          {
+            "fileType": 0,
+            "size": "111001",
+            "versionCode": 41
+          },
+          {
+            "fileType": 0,
+            "size": "2966012",
+            "versionCode": 41
+          }
+        ],
+        "installationSize": "43114985",
+        "numDownloads": "50,000+ downloads",
+        "packageName": "com.asis.estramulasim",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.CAMERA",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.NFC",
+          "android.permission.POST_NOTIFICATIONS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": "Uygulamam\u0131z\u0131n bu s\u00fcr\u00fcm\u00fcnde;<br><br>-Yeni aray\u00fcz\u00fcm\u00fcz ile kar\u015f\u0131n\u0131zday\u0131z<br>-Art\u0131k Sanalkart sat\u0131n alabilir, bakiye y\u00fckleyebilir ve ge\u00e7i\u015f yapabilirsiniz.<br>-\u00c7\u00f6kme sorunlar\u0131 giderildi.<br>",
+        "unstable": true,
+        "uploadDate": "15 Nov 2022",
+        "versionCode": 41,
+        "versionString": "4.0.8"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.asis.estramulasim",
+    "docType": 1,
+    "docid": "com.asis.estramulasim",
+    "image": [
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/QZ0m6MLhJGLQVx7HR6aCiybCK3J9_DD-YUDeuz2IaQT0xknU6x4NjE9MgZISe_60Qcc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/9tJnJTp6vHC9IrioYQ0UAzKaxbzTw3iUwSPGxrh2w2aQvKzEd87AJ3NBrKGjcNUkxo2e",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1412,
+          "width": 652
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/EteiuoYPsbtW6zeBI_HEeKhsgQ1Kgwt4moZBgy2Eb4SAtfujmfKr0k4dHTxzdhS8mXSN",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1412,
+          "width": 652
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/rjI5ZxZr9l5JufIl534GWrdPiTHL95R4yXZntLhb6SrnUeat-TG2okHlXgYf_cW0v5E",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1412,
+          "width": 652
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Ax2nqnkV1S0sVZYhjTGT-KgW8v58eJArgFzO5OxKB6YLkmoxjTQ8ruQUQFRAxmTvkmo",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://asiselektronik.com.tr/tr/gizlilik-bildirimi",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.asis.estramulasim",
+    "reviewsUrl": "rev?doc=com.asis.estramulasim&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.asis.estramulasim",
+    "title": "Estram Mobil",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "akillibiletim@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "30 Nov 2021"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-11-22 21:42:52.087457",
+    "backendDocid": "com.asis.estramulasim",
+    "backendId": 3,
+    "creator": "Estram Hafif Rayl\u0131 Sistem \u0130\u015fletmesi",
+    "descriptionHtml": "\u0130zin A\u00e7\u0131klamalar\u0131<br>- \u0130nternet izni : Uygulama merkezi sistem ile internet \u00fczerinden haberle\u015fmektedir.<br>- NFC izni : Yolcu Kart ID&#39;sini okumak i\u00e7in istenmektedir.<br>- Titre\u015fim izni : Yolcu Kart ID&#39;si okundu\u011funda(NFC destekli telefonlarda) titre\u015fim olu\u015fturmaktad\u0131r.<br>- Uyku Modu Kontrol izni : Bakiye limiti i\u00e7in uyar\u0131 mesaj\u0131 geldi\u011finde cihaz\u0131 uyku modundan \u00e7\u0131karmak i\u00e7in kullan\u0131lmaktad\u0131r.<br>- Konum izni : Harita \u00fczerinde konum bilgisinin g\u00f6sterilmesi i\u00e7in kullan\u0131lmaktad\u0131r.<br>- Google Bulut Mesajla\u015fma izni : Bakiye kontrol i\u015flemleri google bulut \u00fczerinden yap\u0131lmaktad\u0131r, telefonun \u015farj ve internet kullan\u0131m\u0131n\u0131 minimum seviyede tutmaktad\u0131r.<br><br>Uygulama Fonksiyonlar\u0131 : Nas\u0131l Giderim, Otob\u00fcs\u00fcm Nerede, Bakiye Sorgulama, Bakiye Kontrol, \u00dccret Tarifesi, Hat Hareket Saatleri, Yetkili Bayi ve Kart Merkezleri, Bakiye Y\u00fckleme, \u0130leti\u015fim, Favoriler, \u015eikayetim Var",
+    "descriptionShort": "It is an application that allows you to access the information you need for transportation on mobile.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "43169625",
+          "unknown3": 32
+        },
+        "developerEmail": "akillibiletim@gmail.com",
+        "developerName": "Estram Hafif Rayl\u0131 Sistem \u0130\u015fletmesi",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "35348786",
+            "versionCode": 45
+          },
+          {
+            "fileType": 0,
+            "size": "4739730",
+            "versionCode": 45
+          },
+          {
+            "fileType": 0,
+            "size": "115097",
+            "versionCode": 45
+          },
+          {
+            "fileType": 0,
+            "size": "2966012",
+            "versionCode": 45
+          }
+        ],
+        "installationSize": "43169625",
+        "numDownloads": "50,000+ downloads",
+        "packageName": "com.asis.estramulasim",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.CAMERA",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.NFC",
+          "android.permission.POST_NOTIFICATIONS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "unstable": true,
+        "uploadDate": "22 Nov 2022",
+        "versionCode": 45,
+        "versionString": "4.0.10"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.asis.estramulasim",
+    "docType": 1,
+    "docid": "com.asis.estramulasim",
+    "image": [
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/QZ0m6MLhJGLQVx7HR6aCiybCK3J9_DD-YUDeuz2IaQT0xknU6x4NjE9MgZISe_60Qcc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/9tJnJTp6vHC9IrioYQ0UAzKaxbzTw3iUwSPGxrh2w2aQvKzEd87AJ3NBrKGjcNUkxo2e",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1412,
+          "width": 652
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/EteiuoYPsbtW6zeBI_HEeKhsgQ1Kgwt4moZBgy2Eb4SAtfujmfKr0k4dHTxzdhS8mXSN",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1412,
+          "width": 652
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/rjI5ZxZr9l5JufIl534GWrdPiTHL95R4yXZntLhb6SrnUeat-TG2okHlXgYf_cW0v5E",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1412,
+          "width": 652
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Ax2nqnkV1S0sVZYhjTGT-KgW8v58eJArgFzO5OxKB6YLkmoxjTQ8ruQUQFRAxmTvkmo",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://asiselektronik.com.tr/tr/gizlilik-bildirimi",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.asis.estramulasim",
+    "reviewsUrl": "rev?doc=com.asis.estramulasim&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.asis.estramulasim",
+    "title": "Estram Mobil",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "akillibiletim@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "30 Nov 2021"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-11-27 03:32:49.698557",
+    "backendDocid": "com.asis.estramulasim",
+    "backendId": 3,
+    "creator": "Estram Hafif Rayl\u0131 Sistem \u0130\u015fletmesi",
+    "descriptionHtml": "\u0130zin A\u00e7\u0131klamalar\u0131<br>- \u0130nternet izni : Uygulama merkezi sistem ile internet \u00fczerinden haberle\u015fmektedir.<br>- NFC izni : Yolcu Kart ID&#39;sini okumak i\u00e7in istenmektedir.<br>- Titre\u015fim izni : Yolcu Kart ID&#39;si okundu\u011funda(NFC destekli telefonlarda) titre\u015fim olu\u015fturmaktad\u0131r.<br>- Uyku Modu Kontrol izni : Bakiye limiti i\u00e7in uyar\u0131 mesaj\u0131 geldi\u011finde cihaz\u0131 uyku modundan \u00e7\u0131karmak i\u00e7in kullan\u0131lmaktad\u0131r.<br>- Konum izni : Harita \u00fczerinde konum bilgisinin g\u00f6sterilmesi i\u00e7in kullan\u0131lmaktad\u0131r.<br>- Google Bulut Mesajla\u015fma izni : Bakiye kontrol i\u015flemleri google bulut \u00fczerinden yap\u0131lmaktad\u0131r, telefonun \u015farj ve internet kullan\u0131m\u0131n\u0131 minimum seviyede tutmaktad\u0131r.<br><br>Uygulama Fonksiyonlar\u0131 : Nas\u0131l Giderim, Otob\u00fcs\u00fcm Nerede, Bakiye Sorgulama, Bakiye Kontrol, \u00dccret Tarifesi, Hat Hareket Saatleri, Yetkili Bayi ve Kart Merkezleri, Bakiye Y\u00fckleme, \u0130leti\u015fim, Favoriler, \u015eikayetim Var",
+    "descriptionShort": "It is an application that allows you to access the information you need for transportation on mobile.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "36986273",
+          "unknown3": 32
+        },
+        "developerEmail": "akillibiletim@gmail.com",
+        "developerName": "Estram Hafif Rayl\u0131 Sistem \u0130\u015fletmesi",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "33826670",
+            "versionCode": 46
+          },
+          {
+            "fileType": 0,
+            "size": "135838",
+            "versionCode": 46
+          },
+          {
+            "fileType": 0,
+            "size": "57753",
+            "versionCode": 46
+          },
+          {
+            "fileType": 0,
+            "size": "2966012",
+            "versionCode": 46
+          }
+        ],
+        "installationSize": "36986273",
+        "numDownloads": "50,000+ downloads",
+        "packageName": "com.asis.estramulasim",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.CAMERA",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.NFC",
+          "android.permission.POST_NOTIFICATIONS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": "4.0.12 versiyonu ile;<br><br>-Baz\u0131 \u00e7\u00f6kme problemleri giderildi.<br>-Sat\u0131\u015f noktalar\u0131ndaki arama yapamama problemi giderildi.<br>-Durak detaylar\u0131ndaki yanl\u0131\u015f g\u00f6sterimler d\u00fczeltildi.<br>-Performans optimizasyonlar\u0131 yap\u0131ld\u0131.<br>",
+        "unstable": true,
+        "uploadDate": "25 Nov 2022",
+        "versionCode": 46,
+        "versionString": "4.0.12"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.asis.estramulasim",
+    "docType": 1,
+    "docid": "com.asis.estramulasim",
+    "image": [
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/QZ0m6MLhJGLQVx7HR6aCiybCK3J9_DD-YUDeuz2IaQT0xknU6x4NjE9MgZISe_60Qcc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/9tJnJTp6vHC9IrioYQ0UAzKaxbzTw3iUwSPGxrh2w2aQvKzEd87AJ3NBrKGjcNUkxo2e",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1412,
+          "width": 652
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/EteiuoYPsbtW6zeBI_HEeKhsgQ1Kgwt4moZBgy2Eb4SAtfujmfKr0k4dHTxzdhS8mXSN",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1412,
+          "width": 652
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/rjI5ZxZr9l5JufIl534GWrdPiTHL95R4yXZntLhb6SrnUeat-TG2okHlXgYf_cW0v5E",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1412,
+          "width": 652
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Ax2nqnkV1S0sVZYhjTGT-KgW8v58eJArgFzO5OxKB6YLkmoxjTQ8ruQUQFRAxmTvkmo",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://asiselektronik.com.tr/tr/gizlilik-bildirimi",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.asis.estramulasim",
+    "reviewsUrl": "rev?doc=com.asis.estramulasim&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.asis.estramulasim",
+    "title": "Estram Mobil",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "akillibiletim@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "30 Nov 2021"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-12-12 04:24:15.470534",
+    "backendDocid": "com.asis.estramulasim",
+    "backendId": 3,
+    "creator": "Estram Hafif Rayl\u0131 Sistem \u0130\u015fletmesi",
+    "descriptionHtml": "\u0130zin A\u00e7\u0131klamalar\u0131<br>- \u0130nternet izni : Uygulama merkezi sistem ile internet \u00fczerinden haberle\u015fmektedir.<br>- NFC izni : Yolcu Kart ID&#39;sini okumak i\u00e7in istenmektedir.<br>- Titre\u015fim izni : Yolcu Kart ID&#39;si okundu\u011funda(NFC destekli telefonlarda) titre\u015fim olu\u015fturmaktad\u0131r.<br>- Uyku Modu Kontrol izni : Bakiye limiti i\u00e7in uyar\u0131 mesaj\u0131 geldi\u011finde cihaz\u0131 uyku modundan \u00e7\u0131karmak i\u00e7in kullan\u0131lmaktad\u0131r.<br>- Konum izni : Harita \u00fczerinde konum bilgisinin g\u00f6sterilmesi i\u00e7in kullan\u0131lmaktad\u0131r.<br>- Google Bulut Mesajla\u015fma izni : Bakiye kontrol i\u015flemleri google bulut \u00fczerinden yap\u0131lmaktad\u0131r, telefonun \u015farj ve internet kullan\u0131m\u0131n\u0131 minimum seviyede tutmaktad\u0131r.<br><br>Uygulama Fonksiyonlar\u0131 : Nas\u0131l Giderim, Otob\u00fcs\u00fcm Nerede, Bakiye Sorgulama, Bakiye Kontrol, \u00dccret Tarifesi, Hat Hareket Saatleri, Yetkili Bayi ve Kart Merkezleri, Bakiye Y\u00fckleme, \u0130leti\u015fim, Favoriler, \u015eikayetim Var",
+    "descriptionShort": "It is an application that allows you to access the information you need for transportation on mobile.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "20247385",
+          "unknown3": 32
+        },
+        "developerEmail": "akillibiletim@gmail.com",
+        "developerName": "Estram Hafif Rayl\u0131 Sistem \u0130\u015fletmesi",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "13458242",
+            "versionCode": 50
+          },
+          {
+            "fileType": 0,
+            "size": "127646",
+            "versionCode": 50
+          },
+          {
+            "fileType": 0,
+            "size": "37273",
+            "versionCode": 50
+          },
+          {
+            "fileType": 0,
+            "size": "57753",
+            "versionCode": 50
+          },
+          {
+            "fileType": 0,
+            "size": "6566471",
+            "versionCode": 50
+          }
+        ],
+        "installationSize": "20247385",
+        "numDownloads": "50,000+ downloads",
+        "packageName": "com.asis.estramulasim",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.CAMERA",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.NFC",
+          "android.permission.POST_NOTIFICATIONS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": "Uygulamam\u0131z\u0131n bu versiyonunda;<br><br>- \u00d6deme ile ilgili baz\u0131 problemler giderildi<br>- Ula\u015f\u0131m ara\u00e7lar\u0131 ekranlar\u0131 g\u00fcncellendi.",
+        "unstable": true,
+        "uploadDate": "7 Dec 2022",
+        "versionCode": 50,
+        "versionString": "4.0.14"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.asis.estramulasim",
+    "docType": 1,
+    "docid": "com.asis.estramulasim",
+    "image": [
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/QZ0m6MLhJGLQVx7HR6aCiybCK3J9_DD-YUDeuz2IaQT0xknU6x4NjE9MgZISe_60Qcc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/9tJnJTp6vHC9IrioYQ0UAzKaxbzTw3iUwSPGxrh2w2aQvKzEd87AJ3NBrKGjcNUkxo2e",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1412,
+          "width": 652
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/EteiuoYPsbtW6zeBI_HEeKhsgQ1Kgwt4moZBgy2Eb4SAtfujmfKr0k4dHTxzdhS8mXSN",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1412,
+          "width": 652
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/rjI5ZxZr9l5JufIl534GWrdPiTHL95R4yXZntLhb6SrnUeat-TG2okHlXgYf_cW0v5E",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1412,
+          "width": 652
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Ax2nqnkV1S0sVZYhjTGT-KgW8v58eJArgFzO5OxKB6YLkmoxjTQ8ruQUQFRAxmTvkmo",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://asiselektronik.com.tr/tr/gizlilik-bildirimi",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.asis.estramulasim",
+    "reviewsUrl": "rev?doc=com.asis.estramulasim&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.asis.estramulasim",
+    "title": "Estram Mobil",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "akillibiletim@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "30 Nov 2021"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-12-14 05:39:53.501164",
+    "backendDocid": "com.asis.estramulasim",
+    "backendId": 3,
+    "creator": "Estram Hafif Rayl\u0131 Sistem \u0130\u015fletmesi",
+    "descriptionHtml": "\u0130zin A\u00e7\u0131klamalar\u0131<br>- \u0130nternet izni : Uygulama merkezi sistem ile internet \u00fczerinden haberle\u015fmektedir.<br>- NFC izni : Yolcu Kart ID&#39;sini okumak i\u00e7in istenmektedir.<br>- Titre\u015fim izni : Yolcu Kart ID&#39;si okundu\u011funda(NFC destekli telefonlarda) titre\u015fim olu\u015fturmaktad\u0131r.<br>- Uyku Modu Kontrol izni : Bakiye limiti i\u00e7in uyar\u0131 mesaj\u0131 geldi\u011finde cihaz\u0131 uyku modundan \u00e7\u0131karmak i\u00e7in kullan\u0131lmaktad\u0131r.<br>- Konum izni : Harita \u00fczerinde konum bilgisinin g\u00f6sterilmesi i\u00e7in kullan\u0131lmaktad\u0131r.<br>- Google Bulut Mesajla\u015fma izni : Bakiye kontrol i\u015flemleri google bulut \u00fczerinden yap\u0131lmaktad\u0131r, telefonun \u015farj ve internet kullan\u0131m\u0131n\u0131 minimum seviyede tutmaktad\u0131r.<br><br>Uygulama Fonksiyonlar\u0131 : Nas\u0131l Giderim, Otob\u00fcs\u00fcm Nerede, Bakiye Sorgulama, Bakiye Kontrol, \u00dccret Tarifesi, Hat Hareket Saatleri, Yetkili Bayi ve Kart Merkezleri, Bakiye Y\u00fckleme, \u0130leti\u015fim, Favoriler, \u015eikayetim Var",
+    "descriptionShort": "It is an application that allows you to access the information you need for transportation on mobile.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "17033652",
+          "unknown3": 32
+        },
+        "developerEmail": "akillibiletim@gmail.com",
+        "developerName": "Estram Hafif Rayl\u0131 Sistem \u0130\u015fletmesi",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "13238442",
+            "versionCode": 51
+          },
+          {
+            "fileType": 0,
+            "size": "71027",
+            "versionCode": 51
+          },
+          {
+            "fileType": 0,
+            "size": "57753",
+            "versionCode": 51
+          },
+          {
+            "fileType": 0,
+            "size": "3666430",
+            "versionCode": 51
+          }
+        ],
+        "installationSize": "17033652",
+        "numDownloads": "50,000+ downloads",
+        "packageName": "com.asis.estramulasim",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.CAMERA",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.NFC",
+          "android.permission.POST_NOTIFICATIONS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": "Uygulamam\u0131z\u0131n bu s\u00fcr\u00fcm\u00fcnde;<br><br>- QR ve NFC ge\u00e7i\u015flerdeki baz\u0131 problemler giderildi.<br>- \u015eifremi unuttum ekranlar\u0131ndaki baz\u0131 problemler giderildi.<br>- Otob\u00fcs ve durak ikonlar\u0131 g\u00fcncellendi.<br>- Otob\u00fcs ve tramvay i\u00e7in harita \u00fczerine y\u00f6n, h\u0131z ve g\u00fcncellenme tarihi eklendi.<br>- Hat hareket saatlerinde eksik hareket saatleri problemi giderildi.",
+        "unstable": true,
+        "uploadDate": "9 Dec 2022",
+        "versionCode": 51,
+        "versionString": "4.0.15"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.asis.estramulasim",
+    "docType": 1,
+    "docid": "com.asis.estramulasim",
+    "image": [
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/QZ0m6MLhJGLQVx7HR6aCiybCK3J9_DD-YUDeuz2IaQT0xknU6x4NjE9MgZISe_60Qcc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/9tJnJTp6vHC9IrioYQ0UAzKaxbzTw3iUwSPGxrh2w2aQvKzEd87AJ3NBrKGjcNUkxo2e",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1412,
+          "width": 652
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/EteiuoYPsbtW6zeBI_HEeKhsgQ1Kgwt4moZBgy2Eb4SAtfujmfKr0k4dHTxzdhS8mXSN",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1412,
+          "width": 652
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/rjI5ZxZr9l5JufIl534GWrdPiTHL95R4yXZntLhb6SrnUeat-TG2okHlXgYf_cW0v5E",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1412,
+          "width": 652
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Ax2nqnkV1S0sVZYhjTGT-KgW8v58eJArgFzO5OxKB6YLkmoxjTQ8ruQUQFRAxmTvkmo",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "GBP",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://www.eskisehir.bel.tr/sayfalar.php?sayfalar_id=146",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.asis.estramulasim",
+    "reviewsUrl": "rev?doc=com.asis.estramulasim&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.asis.estramulasim",
+    "title": "Estram Mobil",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "akillibiletim@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "30 Nov 2021"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "190",
+      "fiveStarRatings": "88",
+      "fourStarRatings": "17",
+      "oneStarRatings": "153",
+      "ratingsCount": "285",
+      "starRating": 2.55,
+      "threeStarRatings": "11",
+      "twoStarRatings": "14",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-12-17 08:08:05.826006",
+    "backendDocid": "com.asis.estramulasim",
+    "backendId": 3,
+    "creator": "Estram Hafif Rayl\u0131 Sistem \u0130\u015fletmesi",
+    "descriptionHtml": "\u0130zin A\u00e7\u0131klamalar\u0131<br>- \u0130nternet izni : Uygulama merkezi sistem ile internet \u00fczerinden haberle\u015fmektedir.<br>- NFC izni : Yolcu Kart ID&#39;sini okumak i\u00e7in istenmektedir.<br>- Titre\u015fim izni : Yolcu Kart ID&#39;si okundu\u011funda(NFC destekli telefonlarda) titre\u015fim olu\u015fturmaktad\u0131r.<br>- Uyku Modu Kontrol izni : Bakiye limiti i\u00e7in uyar\u0131 mesaj\u0131 geldi\u011finde cihaz\u0131 uyku modundan \u00e7\u0131karmak i\u00e7in kullan\u0131lmaktad\u0131r.<br>- Konum izni : Harita \u00fczerinde konum bilgisinin g\u00f6sterilmesi i\u00e7in kullan\u0131lmaktad\u0131r.<br>- Google Bulut Mesajla\u015fma izni : Bakiye kontrol i\u015flemleri google bulut \u00fczerinden yap\u0131lmaktad\u0131r, telefonun \u015farj ve internet kullan\u0131m\u0131n\u0131 minimum seviyede tutmaktad\u0131r.<br><br>Uygulama Fonksiyonlar\u0131 : Nas\u0131l Giderim, Otob\u00fcs\u00fcm Nerede, Bakiye Sorgulama, Bakiye Kontrol, \u00dccret Tarifesi, Hat Hareket Saatleri, Yetkili Bayi ve Kart Merkezleri, Bakiye Y\u00fckleme, \u0130leti\u015fim, Favoriler, \u015eikayetim Var",
+    "descriptionShort": "It is an application that allows you to access the information you need for transportation on mobile.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "15735816",
+          "unknown3": 32
+        },
+        "developerEmail": "akillibiletim@gmail.com",
+        "developerName": "Estram Hafif Rayl\u0131 Sistem \u0130\u015fletmesi",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "11854088",
+            "versionCode": 53
+          },
+          {
+            "fileType": 0,
+            "size": "124368",
+            "versionCode": 53
+          },
+          {
+            "fileType": 0,
+            "size": "33177",
+            "versionCode": 53
+          },
+          {
+            "fileType": 0,
+            "size": "57753",
+            "versionCode": 53
+          },
+          {
+            "fileType": 0,
+            "size": "3666430",
+            "versionCode": 53
+          }
+        ],
+        "installationSize": "15735816",
+        "numDownloads": "50,000+ downloads",
+        "packageName": "com.asis.estramulasim",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.CAMERA",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.NFC",
+          "android.permission.POST_NOTIFICATIONS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": "Uygulamam\u0131z\u0131n bu s\u00fcr\u00fcm\u00fcnde;<br><br>- Vizeleme ile ilgili problemler giderildi<br>- Otob\u00fcs ekranlar\u0131ndaki konum kapal\u0131 iken \u00e7\u00f6kme problemleri giderildi.",
+        "unstable": true,
+        "uploadDate": "14 Dec 2022",
+        "versionCode": 53,
+        "versionString": "4.0.17"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.asis.estramulasim",
+    "docType": 1,
+    "docid": "com.asis.estramulasim",
+    "image": [
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/QZ0m6MLhJGLQVx7HR6aCiybCK3J9_DD-YUDeuz2IaQT0xknU6x4NjE9MgZISe_60Qcc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/9tJnJTp6vHC9IrioYQ0UAzKaxbzTw3iUwSPGxrh2w2aQvKzEd87AJ3NBrKGjcNUkxo2e",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1412,
+          "width": 652
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/EteiuoYPsbtW6zeBI_HEeKhsgQ1Kgwt4moZBgy2Eb4SAtfujmfKr0k4dHTxzdhS8mXSN",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1412,
+          "width": 652
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/rjI5ZxZr9l5JufIl534GWrdPiTHL95R4yXZntLhb6SrnUeat-TG2okHlXgYf_cW0v5E",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1412,
+          "width": 652
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Ax2nqnkV1S0sVZYhjTGT-KgW8v58eJArgFzO5OxKB6YLkmoxjTQ8ruQUQFRAxmTvkmo",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://www.estram.com.tr/sayfalar.php?sayfalar_id=16",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.asis.estramulasim",
+    "reviewsUrl": "rev?doc=com.asis.estramulasim&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.asis.estramulasim",
+    "title": "Estram Mobil",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "akillibiletim@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "30 Nov 2021"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-02-09 16:32:22.254128",
+    "backendDocid": "com.asis.estramulasim",
+    "backendId": 3,
+    "creator": "Estram Hafif Rayl\u0131 Sistem \u0130\u015fletmesi",
+    "descriptionHtml": "\u0130zin A\u00e7\u0131klamalar\u0131<br>- \u0130nternet izni : Uygulama merkezi sistem ile internet \u00fczerinden haberle\u015fmektedir.<br>- NFC izni : Yolcu Kart ID&#39;sini okumak i\u00e7in istenmektedir.<br>- Titre\u015fim izni : Yolcu Kart ID&#39;si okundu\u011funda(NFC destekli telefonlarda) titre\u015fim olu\u015fturmaktad\u0131r.<br>- Uyku Modu Kontrol izni : Bakiye limiti i\u00e7in uyar\u0131 mesaj\u0131 geldi\u011finde cihaz\u0131 uyku modundan \u00e7\u0131karmak i\u00e7in kullan\u0131lmaktad\u0131r.<br>- Konum izni : Harita \u00fczerinde konum bilgisinin g\u00f6sterilmesi i\u00e7in kullan\u0131lmaktad\u0131r.<br>- Google Bulut Mesajla\u015fma izni : Bakiye kontrol i\u015flemleri google bulut \u00fczerinden yap\u0131lmaktad\u0131r, telefonun \u015farj ve internet kullan\u0131m\u0131n\u0131 minimum seviyede tutmaktad\u0131r.<br><br>Uygulama Fonksiyonlar\u0131 : Nas\u0131l Giderim, Otob\u00fcs\u00fcm Nerede, Bakiye Sorgulama, Bakiye Kontrol, \u00dccret Tarifesi, Hat Hareket Saatleri, Yetkili Bayi ve Kart Merkezleri, Bakiye Y\u00fckleme, \u0130leti\u015fim, Favoriler, \u015eikayetim Var",
+    "descriptionShort": "It is an application that allows you to access the information you need for transportation on mobile.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "16451313",
+          "unknown3": 33
+        },
+        "developerEmail": "akillibiletim@gmail.com",
+        "developerName": "Estram Hafif Rayl\u0131 Sistem \u0130\u015fletmesi",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "12656103",
+            "versionCode": 69
+          },
+          {
+            "fileType": 0,
+            "size": "71027",
+            "versionCode": 69
+          },
+          {
+            "fileType": 0,
+            "size": "57753",
+            "versionCode": 69
+          },
+          {
+            "fileType": 0,
+            "size": "3666430",
+            "versionCode": 69
+          }
+        ],
+        "installationSize": "16451313",
+        "numDownloads": "50,000+ downloads",
+        "packageName": "com.asis.estramulasim",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.CAMERA",
+          "android.permission.CHANGE_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.NFC",
+          "android.permission.POST_NOTIFICATIONS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": "Uygulamam\u0131z\u0131n bu g\u00fcncellemesi ile;<br>-Fiziksel kartlar\u0131n\u0131za bitmeyen kart talimat\u0131 olu\u015fturabilirsiniz.<br>-QR Bilet sat\u0131n alabilirsiniz.<br><br>",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "3 Feb 2023",
+        "versionCode": 69,
+        "versionString": "4.0.9.69"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.asis.estramulasim",
+    "docType": 1,
+    "docid": "com.asis.estramulasim",
+    "image": [
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/QZ0m6MLhJGLQVx7HR6aCiybCK3J9_DD-YUDeuz2IaQT0xknU6x4NjE9MgZISe_60Qcc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/9tJnJTp6vHC9IrioYQ0UAzKaxbzTw3iUwSPGxrh2w2aQvKzEd87AJ3NBrKGjcNUkxo2e",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1412,
+          "width": 652
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/EteiuoYPsbtW6zeBI_HEeKhsgQ1Kgwt4moZBgy2Eb4SAtfujmfKr0k4dHTxzdhS8mXSN",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1412,
+          "width": 652
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/rjI5ZxZr9l5JufIl534GWrdPiTHL95R4yXZntLhb6SrnUeat-TG2okHlXgYf_cW0v5E",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1412,
+          "width": 652
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Ax2nqnkV1S0sVZYhjTGT-KgW8v58eJArgFzO5OxKB6YLkmoxjTQ8ruQUQFRAxmTvkmo",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://www.estram.com.tr/sayfalar.php?sayfalar_id=16",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.asis.estramulasim",
+    "reviewsUrl": "rev?doc=com.asis.estramulasim&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.asis.estramulasim",
+    "title": "Estram Mobil",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "akillibiletim@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "30 Nov 2021"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-02-20 14:59:59.781447",
+    "backendDocid": "com.asis.estramulasim",
+    "backendId": 3,
+    "creator": "Estram Hafif Rayl\u0131 Sistem \u0130\u015fletmesi",
+    "descriptionHtml": "\u0130zin A\u00e7\u0131klamalar\u0131<br>- \u0130nternet izni : Uygulama merkezi sistem ile internet \u00fczerinden haberle\u015fmektedir.<br>- NFC izni : Yolcu Kart ID&#39;sini okumak i\u00e7in istenmektedir.<br>- Titre\u015fim izni : Yolcu Kart ID&#39;si okundu\u011funda(NFC destekli telefonlarda) titre\u015fim olu\u015fturmaktad\u0131r.<br>- Uyku Modu Kontrol izni : Bakiye limiti i\u00e7in uyar\u0131 mesaj\u0131 geldi\u011finde cihaz\u0131 uyku modundan \u00e7\u0131karmak i\u00e7in kullan\u0131lmaktad\u0131r.<br>- Konum izni : Harita \u00fczerinde konum bilgisinin g\u00f6sterilmesi i\u00e7in kullan\u0131lmaktad\u0131r.<br>- Google Bulut Mesajla\u015fma izni : Bakiye kontrol i\u015flemleri google bulut \u00fczerinden yap\u0131lmaktad\u0131r, telefonun \u015farj ve internet kullan\u0131m\u0131n\u0131 minimum seviyede tutmaktad\u0131r.<br><br>Uygulama Fonksiyonlar\u0131 : Nas\u0131l Giderim, Otob\u00fcs\u00fcm Nerede, Bakiye Sorgulama, Bakiye Kontrol, \u00dccret Tarifesi, Hat Hareket Saatleri, Yetkili Bayi ve Kart Merkezleri, Bakiye Y\u00fckleme, \u0130leti\u015fim, Favoriler, \u015eikayetim Var",
+    "descriptionShort": "It is an application that allows you to access the information you need for transportation on mobile.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "16616098",
+          "unknown3": 33
+        },
+        "developerEmail": "akillibiletim@gmail.com",
+        "developerName": "Estram Hafif Rayl\u0131 Sistem \u0130\u015fletmesi",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "12702011",
+            "versionCode": 74
+          },
+          {
+            "fileType": 0,
+            "size": "124368",
+            "versionCode": 74
+          },
+          {
+            "fileType": 0,
+            "size": "123289",
+            "versionCode": 74
+          },
+          {
+            "fileType": 0,
+            "size": "3666430",
+            "versionCode": 74
+          }
+        ],
+        "installationSize": "16616098",
+        "numDownloads": "50,000+ downloads",
+        "packageName": "com.asis.estramulasim",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.CAMERA",
+          "android.permission.CHANGE_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.NFC",
+          "android.permission.POST_NOTIFICATIONS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": "Uygulamam\u0131z\u0131n bu g\u00fcncellemesi ile;<br>-Fiziksel kartlar\u0131n\u0131za bitmeyen kart talimat\u0131 olu\u015fturabilirsiniz.<br>-QR Bilet sat\u0131n alabilirsiniz.<br>-Ayarlar sayfas\u0131nda uygulama g\u00f6r\u00fcn\u00fcm\u00fcn\u00fc se\u00e7ebilirsiniz.<br>",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "Feb 18, 2023",
+        "versionCode": 74,
+        "versionString": "4.0.12.74"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.asis.estramulasim",
+    "docType": 1,
+    "docid": "com.asis.estramulasim",
+    "image": [
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/QZ0m6MLhJGLQVx7HR6aCiybCK3J9_DD-YUDeuz2IaQT0xknU6x4NjE9MgZISe_60Qcc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/9tJnJTp6vHC9IrioYQ0UAzKaxbzTw3iUwSPGxrh2w2aQvKzEd87AJ3NBrKGjcNUkxo2e",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1412,
+          "width": 652
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/EteiuoYPsbtW6zeBI_HEeKhsgQ1Kgwt4moZBgy2Eb4SAtfujmfKr0k4dHTxzdhS8mXSN",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1412,
+          "width": 652
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/rjI5ZxZr9l5JufIl534GWrdPiTHL95R4yXZntLhb6SrnUeat-TG2okHlXgYf_cW0v5E",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1412,
+          "width": 652
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Ax2nqnkV1S0sVZYhjTGT-KgW8v58eJArgFzO5OxKB6YLkmoxjTQ8ruQUQFRAxmTvkmo",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://www.estram.com.tr/sayfalar.php?sayfalar_id=16",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.asis.estramulasim",
+    "reviewsUrl": "rev?doc=com.asis.estramulasim&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.asis.estramulasim",
+    "title": "Estram Mobil",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "akillibiletim@gmail.com"
+          },
+          "label": "Developer e-mail"
+        },
+        {
+          "container": {
+            "value": "Nov 30, 2021"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-03-10 23:18:59.859701",
+    "backendDocid": "com.asis.estramulasim",
+    "backendId": 3,
+    "creator": "Estram Hafif Rayl\u0131 Sistem \u0130\u015fletmesi",
+    "descriptionHtml": "\u0130zin A\u00e7\u0131klamalar\u0131<br>- \u0130nternet izni : Uygulama merkezi sistem ile internet \u00fczerinden haberle\u015fmektedir.<br>- NFC izni : Yolcu Kart ID&#39;sini okumak i\u00e7in istenmektedir.<br>- Titre\u015fim izni : Yolcu Kart ID&#39;si okundu\u011funda(NFC destekli telefonlarda) titre\u015fim olu\u015fturmaktad\u0131r.<br>- Uyku Modu Kontrol izni : Bakiye limiti i\u00e7in uyar\u0131 mesaj\u0131 geldi\u011finde cihaz\u0131 uyku modundan \u00e7\u0131karmak i\u00e7in kullan\u0131lmaktad\u0131r.<br>- Konum izni : Harita \u00fczerinde konum bilgisinin g\u00f6sterilmesi i\u00e7in kullan\u0131lmaktad\u0131r.<br>- Google Bulut Mesajla\u015fma izni : Bakiye kontrol i\u015flemleri google bulut \u00fczerinden yap\u0131lmaktad\u0131r, telefonun \u015farj ve internet kullan\u0131m\u0131n\u0131 minimum seviyede tutmaktad\u0131r.<br><br>Uygulama Fonksiyonlar\u0131 : Nas\u0131l Giderim, Otob\u00fcs\u00fcm Nerede, Bakiye Sorgulama, Bakiye Kontrol, \u00dccret Tarifesi, Hat Hareket Saatleri, Yetkili Bayi ve Kart Merkezleri, Bakiye Y\u00fckleme, \u0130leti\u015fim, Favoriler, \u015eikayetim Var",
+    "descriptionShort": "It is an application that allows you to access the information you need for transportation on mobile.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "16715671",
+          "unknown3": 33
+        },
+        "developerEmail": "akillibiletim@gmail.com",
+        "developerName": "Estram Hafif Rayl\u0131 Sistem \u0130\u015fletmesi",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "12804933",
+            "versionCode": 77
+          },
+          {
+            "fileType": 0,
+            "size": "79650",
+            "versionCode": 77
+          },
+          {
+            "fileType": 0,
+            "size": "37273",
+            "versionCode": 77
+          },
+          {
+            "fileType": 0,
+            "size": "127385",
+            "versionCode": 77
+          },
+          {
+            "fileType": 0,
+            "size": "3666430",
+            "versionCode": 77
+          }
+        ],
+        "installationSize": "16715671",
+        "numDownloads": "50,000+ downloads",
+        "packageName": "com.asis.estramulasim",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.CAMERA",
+          "android.permission.CHANGE_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.NFC",
+          "android.permission.POST_NOTIFICATIONS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": "Uygulamam\u0131z\u0131n bu g\u00fcncellemesi ile;<br>-QR Bilet geli\u015ftirmeleri ve bug fixler<br>-Aray\u00fcz g\u00fcncelle\u015ftirmeleri yap\u0131ld\u0131.<br>-Art\u0131k ge\u00e7mi\u015f banka i\u015flemlerinizi profilinizde g\u00f6rebilirsiniz.<br>-Kart sorgular\u0131 i\u00e7in, son be\u015f ge\u00e7mi\u015f arama \u00f6zelli\u011fi eklendi.<br>",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "8 Mar 2023",
+        "versionCode": 77,
+        "versionString": "4.0.12.77"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.asis.estramulasim",
+    "docType": 1,
+    "docid": "com.asis.estramulasim",
+    "image": [
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/QZ0m6MLhJGLQVx7HR6aCiybCK3J9_DD-YUDeuz2IaQT0xknU6x4NjE9MgZISe_60Qcc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/9tJnJTp6vHC9IrioYQ0UAzKaxbzTw3iUwSPGxrh2w2aQvKzEd87AJ3NBrKGjcNUkxo2e",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1412,
+          "width": 652
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/EteiuoYPsbtW6zeBI_HEeKhsgQ1Kgwt4moZBgy2Eb4SAtfujmfKr0k4dHTxzdhS8mXSN",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1412,
+          "width": 652
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/rjI5ZxZr9l5JufIl534GWrdPiTHL95R4yXZntLhb6SrnUeat-TG2okHlXgYf_cW0v5E",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1412,
+          "width": 652
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Ax2nqnkV1S0sVZYhjTGT-KgW8v58eJArgFzO5OxKB6YLkmoxjTQ8ruQUQFRAxmTvkmo",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://www.estram.com.tr/sayfalar.php?sayfalar_id=16",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.asis.estramulasim",
+    "reviewsUrl": "rev?doc=com.asis.estramulasim&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.asis.estramulasim",
+    "title": "Estram Mobil",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "akillibiletim@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "30 Nov 2021"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "270",
+      "fiveStarRatings": "878",
+      "fourStarRatings": "117",
+      "oneStarRatings": "18",
+      "ratingsCount": "1060",
+      "starRating": 4.7264957,
+      "threeStarRatings": "36",
+      "twoStarRatings": "9",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-03-16 05:26:05.782750",
+    "backendDocid": "com.asis.estramulasim",
+    "backendId": 3,
+    "creator": "Estram Hafif Rayl\u0131 Sistem \u0130\u015fletmesi",
+    "descriptionHtml": "\u0130zin A\u00e7\u0131klamalar\u0131<br>- \u0130nternet izni : Uygulama merkezi sistem ile internet \u00fczerinden haberle\u015fmektedir.<br>- NFC izni : Yolcu Kart ID&#39;sini okumak i\u00e7in istenmektedir.<br>- Titre\u015fim izni : Yolcu Kart ID&#39;si okundu\u011funda(NFC destekli telefonlarda) titre\u015fim olu\u015fturmaktad\u0131r.<br>- Uyku Modu Kontrol izni : Bakiye limiti i\u00e7in uyar\u0131 mesaj\u0131 geldi\u011finde cihaz\u0131 uyku modundan \u00e7\u0131karmak i\u00e7in kullan\u0131lmaktad\u0131r.<br>- Konum izni : Harita \u00fczerinde konum bilgisinin g\u00f6sterilmesi i\u00e7in kullan\u0131lmaktad\u0131r.<br>- Google Bulut Mesajla\u015fma izni : Bakiye kontrol i\u015flemleri google bulut \u00fczerinden yap\u0131lmaktad\u0131r, telefonun \u015farj ve internet kullan\u0131m\u0131n\u0131 minimum seviyede tutmaktad\u0131r.<br><br>Uygulama Fonksiyonlar\u0131 : Nas\u0131l Giderim, Otob\u00fcs\u00fcm Nerede, Bakiye Sorgulama, Bakiye Kontrol, \u00dccret Tarifesi, Hat Hareket Saatleri, Yetkili Bayi ve Kart Merkezleri, Bakiye Y\u00fckleme, \u0130leti\u015fim, Favoriler, \u015eikayetim Var",
+    "descriptionShort": "It is an application that allows you to access the information you need for transportation on mobile.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "16755354",
+          "unknown3": 33
+        },
+        "developerEmail": "akillibiletim@gmail.com",
+        "developerName": "Estram Hafif Rayl\u0131 Sistem \u0130\u015fletmesi",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "12893854",
+            "versionCode": 79
+          },
+          {
+            "fileType": 0,
+            "size": "79650",
+            "versionCode": 79
+          },
+          {
+            "fileType": 0,
+            "size": "33177",
+            "versionCode": 79
+          },
+          {
+            "fileType": 0,
+            "size": "127385",
+            "versionCode": 79
+          },
+          {
+            "fileType": 0,
+            "size": "3621288",
+            "versionCode": 79
+          }
+        ],
+        "installationSize": "16755354",
+        "numDownloads": "50,000+ downloads",
+        "packageName": "com.asis.estramulasim",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.CAMERA",
+          "android.permission.CHANGE_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.NFC",
+          "android.permission.POST_NOTIFICATIONS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": "Uygulamam\u0131z\u0131n bu g\u00fcncellemesi ile;<br>-Aray\u00fcz g\u00fcncelle\u015ftirmeleri yap\u0131ld\u0131.<br>-Bug fixler.<br>",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "14 Mar 2023",
+        "versionCode": 79,
+        "versionString": "4.0.13.79"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.asis.estramulasim",
+    "docType": 1,
+    "docid": "com.asis.estramulasim",
+    "image": [
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/QZ0m6MLhJGLQVx7HR6aCiybCK3J9_DD-YUDeuz2IaQT0xknU6x4NjE9MgZISe_60Qcc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/9tJnJTp6vHC9IrioYQ0UAzKaxbzTw3iUwSPGxrh2w2aQvKzEd87AJ3NBrKGjcNUkxo2e",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1412,
+          "width": 652
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/EteiuoYPsbtW6zeBI_HEeKhsgQ1Kgwt4moZBgy2Eb4SAtfujmfKr0k4dHTxzdhS8mXSN",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1412,
+          "width": 652
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/rjI5ZxZr9l5JufIl534GWrdPiTHL95R4yXZntLhb6SrnUeat-TG2okHlXgYf_cW0v5E",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1412,
+          "width": 652
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Ax2nqnkV1S0sVZYhjTGT-KgW8v58eJArgFzO5OxKB6YLkmoxjTQ8ruQUQFRAxmTvkmo",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://www.estram.com.tr/sayfalar.php?sayfalar_id=16",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.asis.estramulasim",
+    "reviewsUrl": "rev?doc=com.asis.estramulasim&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.asis.estramulasim",
+    "title": "Estram Mobil",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "akillibiletim@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "30 Nov 2021"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-10-03 22:50:06.992320",
+    "backendDocid": "com.asis.estramulasim",
+    "backendId": 3,
+    "creator": "Estram Hafif Rayl\u0131 Sistem \u0130\u015fletmesi",
+    "descriptionHtml": "Estram Mobil art\u0131k Ak\u0131ll\u0131 Saatiniz ( Wear OS ) ile de kullan\u0131labilir, Ak\u0131ll\u0131 Saatiniz ile Estram Mobil \u00fczerinden;<br>- QR G\u00f6ster ile QR \u00f6zelli\u011fi bulunan ula\u015f\u0131m ara\u00e7lar\u0131ndan ge\u00e7i\u015f yapabilirsiniz<br>- Kartlar\u0131n\u0131z\u0131 g\u00f6r\u00fcnt\u00fcleyebilirsiniz<br>- Favori duraklar\u0131n\u0131z\u0131 g\u00f6rebilirsiniz<br>- Dura\u011fa yakla\u015fan hatlar\u0131 g\u00f6r\u00fcnt\u00fcleyebilirsiniz<br><br>\u0130zin A\u00e7\u0131klamalar\u0131<br>- \u0130nternet izni : Uygulama merkezi sistem ile internet \u00fczerinden haberle\u015fmektedir.<br>- NFC izni : Yolcu Kart ID&#39;sini okumak i\u00e7in istenmektedir.<br>- Titre\u015fim izni : Yolcu Kart ID&#39;si okundu\u011funda(NFC destekli telefonlarda) titre\u015fim olu\u015fturmaktad\u0131r.<br>- Uyku Modu Kontrol izni : Bakiye limiti i\u00e7in uyar\u0131 mesaj\u0131 geldi\u011finde cihaz\u0131 uyku modundan \u00e7\u0131karmak i\u00e7in kullan\u0131lmaktad\u0131r.<br>- Konum izni : Harita \u00fczerinde konum bilgisinin g\u00f6sterilmesi i\u00e7in kullan\u0131lmaktad\u0131r.<br>- Google Bulut Mesajla\u015fma izni : Bakiye kontrol i\u015flemleri google bulut \u00fczerinden yap\u0131lmaktad\u0131r, telefonun \u015farj ve internet kullan\u0131m\u0131n\u0131 minimum seviyede tutmaktad\u0131r.<br><br>Uygulama Fonksiyonlar\u0131 : Nas\u0131l Giderim, Otob\u00fcs\u00fcm Nerede, Bakiye Sorgulama, Bakiye Kontrol, \u00dccret Tarifesi, Hat Hareket Saatleri, Yetkili Bayi ve Kart Merkezleri, Bakiye Y\u00fckleme, \u0130leti\u015fim, Favoriler, \u015eikayetim Var",
+    "descriptionShort": "It is an application that allows you to access the information you need for transportation on mobile.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "version": 12451000
+            }
+          ],
+          "unknown2": "19482460",
+          "unknown3": 33
+        },
+        "developerEmail": "akillibiletim@gmail.com",
+        "developerName": "Estram Hafif Rayl\u0131 Sistem \u0130\u015fletmesi",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "15625377",
+            "versionCode": 102
+          },
+          {
+            "fileType": 0,
+            "size": "87930",
+            "versionCode": 102
+          },
+          {
+            "fileType": 0,
+            "size": "147865",
+            "versionCode": 102
+          },
+          {
+            "fileType": 0,
+            "size": "3621288",
+            "versionCode": 102
+          }
+        ],
+        "installationSize": "19482460",
+        "numDownloads": "100,000+ downloads",
+        "packageName": "com.asis.estramulasim",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.CAMERA",
+          "android.permission.CHANGE_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INPUT_METHOD",
+          "android.permission.INTERNET",
+          "android.permission.NFC",
+          "android.permission.POST_NOTIFICATIONS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_MEDIA_IMAGES",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": "Merhaba, uygulamam\u0131z\u0131n bu g\u00fcncellemesi ile;<br><br>- Estram Mobil&#39;i WearOS Ak\u0131ll\u0131 Saatinizde kullanabilirsiniz<br>- Baz\u0131 hatalar giderildi.<br>- Kullan\u0131c\u0131 aray\u00fcz\u00fc geli\u015ftirmeleri yap\u0131ld\u0131.",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "14 Sept 2023",
+        "versionCode": 102,
+        "versionString": "4.0.27.102"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.asis.estramulasim",
+    "docType": 1,
+    "docid": "com.asis.estramulasim",
+    "image": [
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/QZ0m6MLhJGLQVx7HR6aCiybCK3J9_DD-YUDeuz2IaQT0xknU6x4NjE9MgZISe_60Qcc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/9tJnJTp6vHC9IrioYQ0UAzKaxbzTw3iUwSPGxrh2w2aQvKzEd87AJ3NBrKGjcNUkxo2e",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1412,
+          "width": 652
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/EteiuoYPsbtW6zeBI_HEeKhsgQ1Kgwt4moZBgy2Eb4SAtfujmfKr0k4dHTxzdhS8mXSN",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1412,
+          "width": 652
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/rjI5ZxZr9l5JufIl534GWrdPiTHL95R4yXZntLhb6SrnUeat-TG2okHlXgYf_cW0v5E",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1412,
+          "width": 652
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Ax2nqnkV1S0sVZYhjTGT-KgW8v58eJArgFzO5OxKB6YLkmoxjTQ8ruQUQFRAxmTvkmo",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "GBP",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://www.estram.com.tr/sayfalar.php?sayfalar_id=16",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.asis.estramulasim",
+    "reviewsUrl": "rev?doc=com.asis.estramulasim&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.asis.estramulasim",
+    "title": "Estram Mobil",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "akillibiletim@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "30 Nov 2021"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "403",
+      "fiveStarRatings": "1450",
+      "fourStarRatings": "210",
+      "oneStarRatings": "360",
+      "ratingsCount": "2191",
+      "starRating": 4.0593605,
+      "threeStarRatings": "100",
+      "twoStarRatings": "70",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2024-01-21 11:05:08.763946",
+    "backendDocid": "com.asis.estramulasim",
+    "backendId": 3,
+    "creator": "Estram Hafif Rayl\u0131 Sistem \u0130\u015fletmesi",
+    "descriptionHtml": "Estram Mobil art\u0131k Ak\u0131ll\u0131 Saatiniz ( Wear OS ) ile de kullan\u0131labilir, Ak\u0131ll\u0131 Saatiniz ile Estram Mobil \u00fczerinden;<br>- QR G\u00f6ster ile QR \u00f6zelli\u011fi bulunan ula\u015f\u0131m ara\u00e7lar\u0131ndan ge\u00e7i\u015f yapabilirsiniz<br>- Kartlar\u0131n\u0131z\u0131 g\u00f6r\u00fcnt\u00fcleyebilirsiniz<br>- Favori duraklar\u0131n\u0131z\u0131 g\u00f6rebilirsiniz<br>- Dura\u011fa yakla\u015fan hatlar\u0131 g\u00f6r\u00fcnt\u00fcleyebilirsiniz<br><br>\u0130zin A\u00e7\u0131klamalar\u0131<br>- \u0130nternet izni : Uygulama merkezi sistem ile internet \u00fczerinden haberle\u015fmektedir.<br>- NFC izni : Yolcu Kart ID&#39;sini okumak i\u00e7in istenmektedir.<br>- Titre\u015fim izni : Yolcu Kart ID&#39;si okundu\u011funda(NFC destekli telefonlarda) titre\u015fim olu\u015fturmaktad\u0131r.<br>- Uyku Modu Kontrol izni : Bakiye limiti i\u00e7in uyar\u0131 mesaj\u0131 geldi\u011finde cihaz\u0131 uyku modundan \u00e7\u0131karmak i\u00e7in kullan\u0131lmaktad\u0131r.<br>- Konum izni : Harita \u00fczerinde konum bilgisinin g\u00f6sterilmesi i\u00e7in kullan\u0131lmaktad\u0131r.<br>- Google Bulut Mesajla\u015fma izni : Bakiye kontrol i\u015flemleri google bulut \u00fczerinden yap\u0131lmaktad\u0131r, telefonun \u015farj ve internet kullan\u0131m\u0131n\u0131 minimum seviyede tutmaktad\u0131r.<br><br>Uygulama Fonksiyonlar\u0131 : Nas\u0131l Giderim, Otob\u00fcs\u00fcm Nerede, Bakiye Sorgulama, Bakiye Kontrol, \u00dccret Tarifesi, Hat Hareket Saatleri, Yetkili Bayi ve Kart Merkezleri, Bakiye Y\u00fckleme, \u0130leti\u015fim, Favoriler, \u015eikayetim Var",
+    "descriptionShort": "It is an application that allows you to access the information you need for transportation on mobile.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "version": 12451000
+            }
+          ],
+          "unknown2": "26860647",
+          "unknown3": 34
+        },
+        "developerEmail": "akillibiletim@gmail.com",
+        "developerName": "Estram Hafif Rayl\u0131 Sistem \u0130\u015fletmesi",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "22957545",
+            "versionCode": 113
+          },
+          {
+            "fileType": 0,
+            "size": "92580",
+            "versionCode": 113
+          },
+          {
+            "fileType": 0,
+            "size": "151961",
+            "versionCode": 113
+          },
+          {
+            "fileType": 0,
+            "size": "37273",
+            "versionCode": 113
+          },
+          {
+            "fileType": 0,
+            "size": "3621288",
+            "versionCode": 113
+          }
+        ],
+        "installationSize": "26860647",
+        "numDownloads": "100,000+ downloads",
+        "packageName": "com.asis.estramulasim",
+        "permission": [
+          "android.permission.ACCESS_ADSERVICES_AD_ID",
+          "android.permission.ACCESS_ADSERVICES_ATTRIBUTION",
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.CAMERA",
+          "android.permission.CHANGE_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.FOREGROUND_SERVICE_LOCATION",
+          "android.permission.INPUT_METHOD",
+          "android.permission.INTERNET",
+          "android.permission.NFC",
+          "android.permission.POST_NOTIFICATIONS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_MEDIA_IMAGES",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.asis.estramulasim.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": "Uygulamam\u0131z\u0131n bu versiyonunda,<br> - Bakiye y\u00fckleme \u00f6deme alt yap\u0131s\u0131 de\u011fi\u015ftirildi. <br> - Hata bildirim ekran\u0131 eklendi.<br> - Hata d\u00fczeltmeleri ve performans iyile\u015ftirmeleri yap\u0131ld\u0131.<br><br>\u0130yi yolculuklar dileriz.",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "12 Jan 2024",
+        "versionCode": 113,
+        "versionString": "4.0.29.113"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.asis.estramulasim&vc=113",
+    "docType": 1,
+    "docid": "com.asis.estramulasim",
+    "image": [
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/QZ0m6MLhJGLQVx7HR6aCiybCK3J9_DD-YUDeuz2IaQT0xknU6x4NjE9MgZISe_60Qcc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/9tJnJTp6vHC9IrioYQ0UAzKaxbzTw3iUwSPGxrh2w2aQvKzEd87AJ3NBrKGjcNUkxo2e",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1412,
+          "width": 652
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/EteiuoYPsbtW6zeBI_HEeKhsgQ1Kgwt4moZBgy2Eb4SAtfujmfKr0k4dHTxzdhS8mXSN",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1412,
+          "width": 652
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/rjI5ZxZr9l5JufIl534GWrdPiTHL95R4yXZntLhb6SrnUeat-TG2okHlXgYf_cW0v5E",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1412,
+          "width": 652
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Ax2nqnkV1S0sVZYhjTGT-KgW8v58eJArgFzO5OxKB6YLkmoxjTQ8ruQUQFRAxmTvkmo",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://www.estram.com.tr/sayfalar.php?sayfalar_id=16",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.asis.estramulasim",
+    "reviewsUrl": "rev?doc=com.asis.estramulasim&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.asis.estramulasim",
+    "title": "Estram Mobil\n4.0.29.113",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "akillibiletim@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "30 Nov 2021"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "1528",
+      "fourStarRatings": "233",
+      "oneStarRatings": "326",
+      "ratingsCount": "2265",
+      "starRating": 4.1373067,
+      "threeStarRatings": "117",
+      "twoStarRatings": "61",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2024-03-17 14:11:25.398588",
+    "backendDocid": "com.asis.estramulasim",
+    "backendId": 3,
+    "creator": "Estram Hafif Rayl\u0131 Sistem \u0130\u015fletmesi",
+    "descriptionHtml": "Estram Mobil art\u0131k Ak\u0131ll\u0131 Saatiniz ( Wear OS ) ile de kullan\u0131labilir, Ak\u0131ll\u0131 Saatiniz ile Estram Mobil \u00fczerinden;<br>- QR G\u00f6ster ile QR \u00f6zelli\u011fi bulunan ula\u015f\u0131m ara\u00e7lar\u0131ndan ge\u00e7i\u015f yapabilirsiniz<br>- Kartlar\u0131n\u0131z\u0131 g\u00f6r\u00fcnt\u00fcleyebilirsiniz<br>- Favori duraklar\u0131n\u0131z\u0131 g\u00f6rebilirsiniz<br>- Dura\u011fa yakla\u015fan hatlar\u0131 g\u00f6r\u00fcnt\u00fcleyebilirsiniz<br><br>\u0130zin A\u00e7\u0131klamalar\u0131<br>- \u0130nternet izni : Uygulama merkezi sistem ile internet \u00fczerinden haberle\u015fmektedir.<br>- NFC izni : Yolcu Kart ID&#39;sini okumak i\u00e7in istenmektedir.<br>- Titre\u015fim izni : Yolcu Kart ID&#39;si okundu\u011funda(NFC destekli telefonlarda) titre\u015fim olu\u015fturmaktad\u0131r.<br>- Uyku Modu Kontrol izni : Bakiye limiti i\u00e7in uyar\u0131 mesaj\u0131 geldi\u011finde cihaz\u0131 uyku modundan \u00e7\u0131karmak i\u00e7in kullan\u0131lmaktad\u0131r.<br>- Konum izni : Harita \u00fczerinde konum bilgisinin g\u00f6sterilmesi i\u00e7in kullan\u0131lmaktad\u0131r.<br>- Google Bulut Mesajla\u015fma izni : Bakiye kontrol i\u015flemleri google bulut \u00fczerinden yap\u0131lmaktad\u0131r, telefonun \u015farj ve internet kullan\u0131m\u0131n\u0131 minimum seviyede tutmaktad\u0131r.<br><br>Uygulama Fonksiyonlar\u0131 : Nas\u0131l Giderim, Otob\u00fcs\u00fcm Nerede, Bakiye Sorgulama, Bakiye Kontrol, \u00dccret Tarifesi, Hat Hareket Saatleri, Yetkili Bayi ve Kart Merkezleri, Bakiye Y\u00fckleme, \u0130leti\u015fim, Favoriler, \u015eikayetim Var",
+    "descriptionShort": "It is an application that allows you to access the information you need for transportation on mobile.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "version": 12451000
+            }
+          ],
+          "unknown2": "19190608",
+          "unknown3": 34
+        },
+        "developerEmail": "akillibiletim@gmail.com",
+        "developerName": "Estram Hafif Rayl\u0131 Sistem \u0130\u015fletmesi",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "15316587",
+            "versionCode": 118
+          },
+          {
+            "fileType": 0,
+            "size": "92580",
+            "versionCode": 118
+          },
+          {
+            "fileType": 0,
+            "size": "160153",
+            "versionCode": 118
+          },
+          {
+            "fileType": 0,
+            "size": "3621288",
+            "versionCode": 118
+          }
+        ],
+        "installationSize": "19190608",
+        "numDownloads": "100,000+ downloads",
+        "packageName": "com.asis.estramulasim",
+        "permission": [
+          "android.permission.ACCESS_ADSERVICES_AD_ID",
+          "android.permission.ACCESS_ADSERVICES_ATTRIBUTION",
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.CAMERA",
+          "android.permission.CHANGE_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.FOREGROUND_SERVICE_LOCATION",
+          "android.permission.INPUT_METHOD",
+          "android.permission.INTERNET",
+          "android.permission.NFC",
+          "android.permission.POST_NOTIFICATIONS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_MEDIA_IMAGES",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.asis.estramulasim.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": "Uygulamam\u0131z\u0131n bu versiyonunda,<br> Hata d\u00fczeltmeleri ve performans iyile\u015ftirmeleri yap\u0131ld\u0131.<br><br>\u0130yi yolculuklar dileriz.",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "20 Feb 2024",
+        "versionCode": 118,
+        "versionString": "4.0.29.118"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.asis.estramulasim&vc=118",
+    "docType": 1,
+    "docid": "com.asis.estramulasim",
+    "image": [
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/QZ0m6MLhJGLQVx7HR6aCiybCK3J9_DD-YUDeuz2IaQT0xknU6x4NjE9MgZISe_60Qcc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/9tJnJTp6vHC9IrioYQ0UAzKaxbzTw3iUwSPGxrh2w2aQvKzEd87AJ3NBrKGjcNUkxo2e",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1412,
+          "width": 652
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/EteiuoYPsbtW6zeBI_HEeKhsgQ1Kgwt4moZBgy2Eb4SAtfujmfKr0k4dHTxzdhS8mXSN",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1412,
+          "width": 652
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/rjI5ZxZr9l5JufIl534GWrdPiTHL95R4yXZntLhb6SrnUeat-TG2okHlXgYf_cW0v5E",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1412,
+          "width": 652
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Ax2nqnkV1S0sVZYhjTGT-KgW8v58eJArgFzO5OxKB6YLkmoxjTQ8ruQUQFRAxmTvkmo",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "ILS",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://www.estram.com.tr/sayfalar.php?sayfalar_id=22",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.asis.estramulasim",
+    "reviewsUrl": "rev?doc=com.asis.estramulasim&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.asis.estramulasim",
+    "title": "Estram Mobil\n4.0.29.118",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Estram Hafif Rayl\u0131 Sistem \u0130\u015fletmesi"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "akillibiletim@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "30 Nov 2021"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "2",
+      "fiveStarRatings": "4",
+      "fourStarRatings": "0",
+      "oneStarRatings": "1",
+      "ratingsCount": "5",
+      "starRating": 4.2,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2024-09-08 20:57:40.180034",
+    "backendDocid": "com.asis.estramulasim",
+    "backendId": 3,
+    "creator": "Estram Hafif Rayl\u0131 Sistem \u0130\u015fletmesi",
+    "descriptionHtml": "Estram Mobil art\u0131k Ak\u0131ll\u0131 Saatiniz ( Wear OS ) ile de kullan\u0131labilir, Ak\u0131ll\u0131 Saatiniz ile Estram Mobil \u00fczerinden;<br>- QR G\u00f6ster ile QR \u00f6zelli\u011fi bulunan ula\u015f\u0131m ara\u00e7lar\u0131ndan ge\u00e7i\u015f yapabilirsiniz<br>- Kartlar\u0131n\u0131z\u0131 g\u00f6r\u00fcnt\u00fcleyebilirsiniz<br>- Favori duraklar\u0131n\u0131z\u0131 g\u00f6rebilirsiniz<br>- Dura\u011fa yakla\u015fan hatlar\u0131 g\u00f6r\u00fcnt\u00fcleyebilirsiniz<br><br>\u0130zin A\u00e7\u0131klamalar\u0131<br>- \u0130nternet izni : Uygulama merkezi sistem ile internet \u00fczerinden haberle\u015fmektedir.<br>- NFC izni : Yolcu Kart ID&#39;sini okumak i\u00e7in istenmektedir.<br>- Titre\u015fim izni : Yolcu Kart ID&#39;si okundu\u011funda(NFC destekli telefonlarda) titre\u015fim olu\u015fturmaktad\u0131r.<br>- Uyku Modu Kontrol izni : Bakiye limiti i\u00e7in uyar\u0131 mesaj\u0131 geldi\u011finde cihaz\u0131 uyku modundan \u00e7\u0131karmak i\u00e7in kullan\u0131lmaktad\u0131r.<br>- Konum izni : Harita \u00fczerinde konum bilgisinin g\u00f6sterilmesi i\u00e7in kullan\u0131lmaktad\u0131r.<br>- Google Bulut Mesajla\u015fma izni : Bakiye kontrol i\u015flemleri google bulut \u00fczerinden yap\u0131lmaktad\u0131r, telefonun \u015farj ve internet kullan\u0131m\u0131n\u0131 minimum seviyede tutmaktad\u0131r.<br><br>Uygulama Fonksiyonlar\u0131 : Nas\u0131l Giderim, Otob\u00fcs\u00fcm Nerede, Bakiye Sorgulama, Bakiye Kontrol, \u00dccret Tarifesi, Hat Hareket Saatleri, Yetkili Bayi ve Kart Merkezleri, Bakiye Y\u00fckleme, \u0130leti\u015fim, Favoriler, \u015eikayetim Var",
+    "descriptionShort": "It is an application that allows you to access the information you need for transportation on mobile.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "version": 12451000
+            }
+          ],
+          "unknown2": "18958301",
+          "unknown3": 34
+        },
+        "developerEmail": "akillibiletim@gmail.com",
+        "developerName": "Estram Hafif Rayl\u0131 Sistem \u0130\u015fletmesi",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "15088336",
+            "versionCode": 130
+          },
+          {
+            "fileType": 0,
+            "size": "84428",
+            "versionCode": 130
+          },
+          {
+            "fileType": 0,
+            "size": "164249",
+            "versionCode": 130
+          },
+          {
+            "fileType": 0,
+            "size": "3621288",
+            "versionCode": 130
+          }
+        ],
+        "installationSize": "18958301",
+        "numDownloads": "100,000+ downloads",
+        "packageName": "com.asis.estramulasim",
+        "permission": [
+          "android.permission.ACCESS_ADSERVICES_AD_ID",
+          "android.permission.ACCESS_ADSERVICES_ATTRIBUTION",
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.CAMERA",
+          "android.permission.CHANGE_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.FOREGROUND_SERVICE_LOCATION",
+          "android.permission.INPUT_METHOD",
+          "android.permission.INTERNET",
+          "android.permission.NFC",
+          "android.permission.POST_NOTIFICATIONS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_MEDIA_IMAGES",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.asis.estramulasim.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": "Uygulamam\u0131z\u0131n bu versiyonunda,<br>Bitmeyen kart \u00f6deme altyap\u0131s\u0131 g\u00fcncellendi<br>Hata d\u00fczeltmeleri ve performans iyile\u015ftirmeleri yap\u0131ld\u0131.<br><br>\u0130yi yolculuklar dileriz.",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "3 Sept 2024",
+        "versionCode": 130,
+        "versionString": "4.0.30.130"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.asis.estramulasim&vc=130",
+    "docType": 1,
+    "docid": "com.asis.estramulasim",
+    "image": [
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/QZ0m6MLhJGLQVx7HR6aCiybCK3J9_DD-YUDeuz2IaQT0xknU6x4NjE9MgZISe_60Qcc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/9tJnJTp6vHC9IrioYQ0UAzKaxbzTw3iUwSPGxrh2w2aQvKzEd87AJ3NBrKGjcNUkxo2e",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1412,
+          "width": 652
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/EteiuoYPsbtW6zeBI_HEeKhsgQ1Kgwt4moZBgy2Eb4SAtfujmfKr0k4dHTxzdhS8mXSN",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1412,
+          "width": 652
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/rjI5ZxZr9l5JufIl534GWrdPiTHL95R4yXZntLhb6SrnUeat-TG2okHlXgYf_cW0v5E",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1412,
+          "width": 652
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Ax2nqnkV1S0sVZYhjTGT-KgW8v58eJArgFzO5OxKB6YLkmoxjTQ8ruQUQFRAxmTvkmo",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://www.estram.com.tr/sayfalar.php?sayfalar_id=22",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.asis.estramulasim",
+    "reviewsUrl": "rev?doc=com.asis.estramulasim&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.asis.estramulasim",
+    "title": "Estram Mobil\n4.0.30.130",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Estram Hafif Rayl\u0131 Sistem \u0130\u015fletmesi"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "akillibiletim@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "30 Nov 2021"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  }
+]

@@ -1,0 +1,503 @@
+[
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-08-10 08:23:47.888162",
+    "backendDocid": "no.gjensidige.boligblikk",
+    "backendId": 3,
+    "creator": "Gjensidige",
+    "descriptionHtml": "Med Boligblikk kan du ta vare p\u00e5 hjemmet, uansett hvor du er. Appen fungerer sammen med Gjensidige sin smarte husforsikring.<br><br>Boligblikk gir deg raskt og enkelt oversikt over hjemmet p\u00e5 startskjermen. Her kan du skru av og p\u00e5 sikkerhetsfunksjonen og sjekke kameraet om at alt er p\u00e5 stell. Dersom noe viktig skjer hjemme vil du bli varslet. Du kan selv velge om du kun vil bli varslet i appen eller om du \u00f8nsker SMS og/eller E-post varsling. Systemet gir ogs\u00e5 mulighet for at flere i familien kan f\u00e5 tilgang, og du kan enkelt administrere brukerroller.<br><br>Med Boligblikk f\u00e5r du tilgang til en startpakke med smarte komponenter, med mulighet til \u00e5 utvide ditt smarthjem etter behov. Plattformen gir god fleksibilitet til at du kan utvide og kombinere ulike merker og komponenter, som for eksempel lysp\u00e6rer, d\u00f8rl\u00e5s og stikkontakter for smart varmestyring.<br><br>V\u00e5r ambisjon er at du skal f\u00e5 fullt overblikk over ditt hjem og at vi sammen kan hindre at sm\u00e5 skader blir store. Bli med p\u00e5 reisen der vi \u00f8nsker \u00e5 skape den optimale boligplattformen for husets helse.<br><br>N\u00f8kkelfunksjoner:<br>    \u2022 Enkel inngang til smarthus<br>    \u2022 Fungerer med Zigbee, slik at du kan utvide systemet etter eget behov<br>    \u2022 Opprett automatisering for \u00e5 smarte opp hjemmet ditt<br>    \u2022 Gi tilgang til andre og administrer brukertilganger<br>    \u2022 Varsling i app, p\u00e5 SMS og e-mail<br>    \u2022 Alt p\u00e5 ett sted: husforsikring + smarthjem = sant",
+    "descriptionShort": "Boligblikk gives you a quick and easy overview of the home",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "81349901",
+          "unknown3": 30
+        },
+        "developerAddress": "Schweigaardsgate 21, NO-0191 Oslo",
+        "developerEmail": "Gjensidige@heimgard.no",
+        "developerName": "Gjensidige",
+        "developerWebsite": "https://heimgard.com/support",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "39655840",
+            "versionCode": 20220212
+          },
+          {
+            "fileType": 0,
+            "size": "175621",
+            "versionCode": 20220212
+          },
+          {
+            "fileType": 0,
+            "size": "24985",
+            "versionCode": 20220212
+          },
+          {
+            "fileType": 0,
+            "size": "37273",
+            "versionCode": 20220212
+          },
+          {
+            "fileType": 0,
+            "size": "41456182",
+            "versionCode": 20220212
+          }
+        ],
+        "installationSize": "81349901",
+        "numDownloads": "10+ downloads",
+        "packageName": "no.gjensidige.boligblikk",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.CALL_PHONE",
+          "android.permission.CHANGE_NETWORK_STATE",
+          "android.permission.CHANGE_WIFI_STATE",
+          "android.permission.DELETE_CACHE_FILES",
+          "android.permission.GET_ACCOUNTS",
+          "android.permission.INTERNET",
+          "android.permission.MANAGE_DOCUMENTS",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.USE_CREDENTIALS",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE"
+        ],
+        "recentChangesHtml": "- Forbedring p\u00e5 WiFI status<br>- Endringer p\u00e5 &quot;Hjelp og st\u00f8tte&quot;-siden<br>- Bedre informasjon n\u00e5r man s\u00f8ker etter enheter<br>- Enhetlig navngiving mellom menyer og widgets<br>- Endret font i applikasjonen<br>- En rekke mindre feilfikser og forbedringer",
+        "unstable": true,
+        "uploadDate": "1 Aug 2022",
+        "versionCode": 20220212,
+        "versionString": "2022.2.12"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=no.gjensidige.boligblikk",
+    "docType": 1,
+    "docid": "no.gjensidige.boligblikk",
+    "image": [
+      {
+        "color": "#ECECE8",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/A34_3Wcu-xpGY3crCJmmXXa-htE51HmR2KW51yWyYWhhWM__NWU4oHq3n2qQojD71iEn",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#223F53",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/yh7s6mjiKsRRc1hs6ZZTxrG8OBl3gzfVPi9AMp6yBQ_flEhs9Cjw9zSxaJwCw8T5hsza",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1600,
+          "width": 900
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/l0NIvh9RtieGGmao6BRIlUpSF7N7x-eg1XrICc1ruKcBjZXOxkBUtkfamwsgnb_aMIg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1600,
+          "width": 900
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qqbm9v3a4dD5xca4oVpv_Y1slq6UNwyGgxX0R0RAh7h-T4WbllSGOMXEvUIJM5meqQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1600,
+          "width": 900
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/QSDcsnZs9OZ9xwfgUfnrD8ba54UPmplJIbBPb0aGT0op2LrJRNp1XPhnM-PDwqbT-w",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1600,
+          "width": 900
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/eGnQKfG1xXtKvFx_zH3Zut8yjONQm2mJZKGyvdlTeqxkKUB6zpZbBFRjDs4TtTqG-zA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1600,
+          "width": 900
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Emkcwm14_7yGQNc74OQBleqwub459U3MGwsZd1OqaTdesRWSk-i1bCvV_XSOINvAnTr5",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1600,
+          "width": 900
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/6wR0dCj2dB9hs8-3uxtUfINyHEYvXklPulurYqedZbk4GjZbcroh-hqh9Ow4inLkklg",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://www.gjensidige.no/privat/forsikring/bolig-og-innbo/husforsikring/boligblikk-sensor/brukervilkar",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=no.gjensidige.boligblikk",
+    "reviewsUrl": "rev?doc=no.gjensidige.boligblikk&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=no.gjensidige.boligblikk",
+    "title": "Boligblikk",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "Gjensidige@heimgard.no"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Schweigaardsgate 21, NO-0191 Oslo"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "16 May 2022"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-11-08 09:42:41.911825",
+    "backendDocid": "no.gjensidige.boligblikk",
+    "backendId": 3,
+    "creator": "Gjensidige",
+    "descriptionHtml": "Med Boligblikk kan du ta vare p\u00e5 hjemmet, uansett hvor du er. Appen fungerer sammen med Gjensidige sin smarte husforsikring.<br><br>Boligblikk gir deg raskt og enkelt oversikt over hjemmet p\u00e5 startskjermen. Her kan du skru av og p\u00e5 sikkerhetsfunksjonen og sjekke kameraet om at alt er p\u00e5 stell. Dersom noe viktig skjer hjemme vil du bli varslet. Du kan selv velge om du kun vil bli varslet i appen eller om du \u00f8nsker SMS og/eller E-post varsling. Systemet gir ogs\u00e5 mulighet for at flere i familien kan f\u00e5 tilgang, og du kan enkelt administrere brukerroller.<br><br>Med Boligblikk f\u00e5r du tilgang til en startpakke med smarte komponenter, med mulighet til \u00e5 utvide ditt smarthjem etter behov. Plattformen gir god fleksibilitet til at du kan utvide og kombinere ulike merker og komponenter, som for eksempel lysp\u00e6rer, d\u00f8rl\u00e5s og stikkontakter for smart varmestyring.<br><br>V\u00e5r ambisjon er at du skal f\u00e5 fullt overblikk over ditt hjem og at vi sammen kan hindre at sm\u00e5 skader blir store. Bli med p\u00e5 reisen der vi \u00f8nsker \u00e5 skape den optimale boligplattformen for husets helse.<br><br>N\u00f8kkelfunksjoner:<br>    \u2022 Enkel inngang til smarthus<br>    \u2022 Fungerer med Zigbee, slik at du kan utvide systemet etter eget behov<br>    \u2022 Opprett automatisering for \u00e5 smarte opp hjemmet ditt<br>    \u2022 Gi tilgang til andre og administrer brukertilganger<br>    \u2022 Varsling i app, p\u00e5 SMS og e-mail<br>    \u2022 Alt p\u00e5 ett sted: husforsikring + smarthjem = sant",
+    "descriptionShort": "Boligblikk gives you a quick and easy overview of the home",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "82380241",
+          "unknown3": 30
+        },
+        "developerAddress": "Schweigaardsgate 21, NO-0191 Oslo",
+        "developerEmail": "Gjensidige@heimgard.no",
+        "developerName": "Gjensidige",
+        "developerWebsite": "https://heimgard.com/support",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "40686180",
+            "versionCode": 20221004
+          },
+          {
+            "fileType": 0,
+            "size": "175621",
+            "versionCode": 20221004
+          },
+          {
+            "fileType": 0,
+            "size": "24985",
+            "versionCode": 20221004
+          },
+          {
+            "fileType": 0,
+            "size": "37273",
+            "versionCode": 20221004
+          },
+          {
+            "fileType": 0,
+            "size": "41456182",
+            "versionCode": 20221004
+          }
+        ],
+        "installationSize": "82380241",
+        "numDownloads": "100+ downloads",
+        "packageName": "no.gjensidige.boligblikk",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.CALL_PHONE",
+          "android.permission.DELETE_CACHE_FILES",
+          "android.permission.GET_ACCOUNTS",
+          "android.permission.INTERNET",
+          "android.permission.MANAGE_DOCUMENTS",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.USE_CREDENTIALS",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE"
+        ],
+        "recentChangesHtml": "Forbedret app-stabilitet.<br>St\u00f8tte for administrasjon av RFID og biometriske fingeravtrykk for d\u00f8rl\u00e5ser i app.<br>Oppdatert veiledning ved tilkoblingsproblemer.<br>Forbedret varsling n\u00e5r enheter kobles fra nettverket.<br>Mindre UI og UX oppdateringer.",
+        "unstable": true,
+        "uploadDate": "28 Oct 2022",
+        "versionCode": 20221004,
+        "versionString": "2022.10.4"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=no.gjensidige.boligblikk",
+    "docType": 1,
+    "docid": "no.gjensidige.boligblikk",
+    "image": [
+      {
+        "color": "#ECECE8",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/A34_3Wcu-xpGY3crCJmmXXa-htE51HmR2KW51yWyYWhhWM__NWU4oHq3n2qQojD71iEn",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#223F53",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/yh7s6mjiKsRRc1hs6ZZTxrG8OBl3gzfVPi9AMp6yBQ_flEhs9Cjw9zSxaJwCw8T5hsza",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1600,
+          "width": 900
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/l0NIvh9RtieGGmao6BRIlUpSF7N7x-eg1XrICc1ruKcBjZXOxkBUtkfamwsgnb_aMIg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1600,
+          "width": 900
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qqbm9v3a4dD5xca4oVpv_Y1slq6UNwyGgxX0R0RAh7h-T4WbllSGOMXEvUIJM5meqQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1600,
+          "width": 900
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/QSDcsnZs9OZ9xwfgUfnrD8ba54UPmplJIbBPb0aGT0op2LrJRNp1XPhnM-PDwqbT-w",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1600,
+          "width": 900
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/eGnQKfG1xXtKvFx_zH3Zut8yjONQm2mJZKGyvdlTeqxkKUB6zpZbBFRjDs4TtTqG-zA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1600,
+          "width": 900
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Emkcwm14_7yGQNc74OQBleqwub459U3MGwsZd1OqaTdesRWSk-i1bCvV_XSOINvAnTr5",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1600,
+          "width": 900
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/6wR0dCj2dB9hs8-3uxtUfINyHEYvXklPulurYqedZbk4GjZbcroh-hqh9Ow4inLkklg",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://www.gjensidige.no/privat/forsikring/bolig-og-innbo/husforsikring/boligblikk-sensor/brukervilkar",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=no.gjensidige.boligblikk",
+    "reviewsUrl": "rev?doc=no.gjensidige.boligblikk&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=no.gjensidige.boligblikk",
+    "title": "Boligblikk",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Gjensidige"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "Gjensidige@heimgard.no"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Schweigaardsgate 21, NO-0191 Oslo"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "16 May 2022"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  }
+]

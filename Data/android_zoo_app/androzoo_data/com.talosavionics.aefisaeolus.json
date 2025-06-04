@@ -1,0 +1,965 @@
+[
+  {
+    "aggregateRating": {
+      "commentCount": "45",
+      "fiveStarRatings": "65",
+      "fourStarRatings": "17",
+      "oneStarRatings": "6",
+      "ratingsCount": "95",
+      "starRating": 4.3789473,
+      "threeStarRatings": "3",
+      "twoStarRatings": "4",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-05-31 16:33:50.877323",
+    "backendDocid": "com.talosavionics.aefisaeolus",
+    "backendId": 3,
+    "creator": "Charalampos Baltzakis",
+    "descriptionHtml": "A-EFIS is an Electronic Flight Information System for airplanes, which runs right on your smartphone/tablet. A-EFIS works perfectly with the internal sensors of your device and it is an ideal EFIS to always have as a backup.  <br><br>This is the free version of A-EFIS. The free version is fully functional with the exception that the main EFIS display is in black and white only. <br><br>A-EFIS makes use of digital filtering methods and state-of-the-art stochastic models in order to achieve exceptional accuracy and robustness. <br><br>ATTENTION: A-EFIS ONLY WORKS ON FIXED-WING AIRCRAFTS. NOT TO BE USED IN HELICOPTERS OR GROUND VEHICLES OF ANY KIND. USE ONLY IN AN AIRPLANE, OTHERWISE INDICATIONS WILL NOT BE CORRECT! <br><br>Features:<br>- Artificial Horizon (AHRS)<br>- Ground speed (via GPS)<br>- Altimeter (via GPS)<br>- Vertical speed (via GPS)<br>- Turn coordinator<br>- Slip ball<br>- Compass<br>- True course indicator (via GPS)<br>- Deviation from true track indication<br><br>A-EFIS has been extensively tested on ultralights, LSA, general aviation and airliners. Hint: To use A-EFIS in an airliner, just sit close to a window (in order for the device to be able to receive the GPS signal), put the device in a stable position and press &quot;AHRS calibration&quot; when the aircraft is in levelled flight. You will practically have the same flight data as the pilots in the cockpit!<br><br>IMPORTANT NOTICE: A-EFIS is not a certified aviation instrument. Do not rely on A-EFIS as your only navigation aid. Failure to comply to this warning may result in property damage, serious injury or death. You assume total responsibility and risk associated with using this application.",
+    "descriptionShort": "A fully featured EFIS display that uses your smartphone's internal sensors.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown2": "6261376",
+          "unknown3": 28
+        },
+        "developerAddress": "Arch. Makariou 12<br/>GR71202, Heraklion, Crete<br/>Greece",
+        "developerEmail": "info@a-efis.com",
+        "developerName": "Charalampos Baltzakis",
+        "developerWebsite": "http://www.a-efis.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "6261376",
+            "versionCode": 35000
+          }
+        ],
+        "installationSize": "6261376",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "com.talosavionics.aefisaeolus",
+        "permission": [
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.CHANGE_WIFI_MULTICAST_STATE",
+          "android.permission.CHANGE_WIFI_STATE",
+          "android.permission.INTERNET",
+          "android.permission.WAKE_LOCK"
+        ],
+        "recentChangesHtml": "Interface enhancements. Theme support. Magnetometers not more necessary to run app. No external sensors supported in this version.",
+        "unstable": false,
+        "uploadDate": "5 Mar 2020",
+        "versionCode": 35000,
+        "versionString": "3.50.0"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.talosavionics.aefisaeolus",
+    "docType": 1,
+    "docid": "com.talosavionics.aefisaeolus",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://lh3.googleusercontent.com/8laUJg3u0kk0kXLQpuMx-knlcIZZAdBGMFdXGATd1MikMWp5edEK2uqbF441-FRfsQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 4,
+        "imageUrl": "https://lh3.googleusercontent.com/_ukBujy957lfMlkHRTj8Ym97ldlclqXGXRJhM95ECul_TMygMv7Ul1WR8r5juhXB7g",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2446,
+          "width": 1370
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/3PuzdCWHCQqUNHXcD4zaFguYzgmodQsLqNN1Bzms91qa41-QPvZcw0L9ZOX0BSaxzMhS",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2446,
+          "width": 1370
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/HMa7juZINdXL5BpJGXjk-aIT4JWgFlipyWAfNiiRUfDYe6MA5t1LZEQgzONuosWai3w",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2446,
+          "width": 1370
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/Vb2uqK8GSCPI8yOgLFjJ4vzpUqhHYYd-NZh92-xbfsyaM5L0YtsV7NLQ93Kw6tAeWxQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2446,
+          "width": 1370
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/iVTJzB0PhG8AildIDMiRcPek2fYr1H5zaql4PzGUWuPdqlY_EjpvLTeciucZ0-Xapg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2446,
+          "width": 1370
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/8TNnbmEdgm1dfhrLixy_jlVzcXmrbrOp0Pe_8-3cq2No2k5A18UqPFpZtv7REurDZA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2446,
+          "width": 1370
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/SKvbGBPzxUNmIPpf5Na_OyMaRJdfHzeKwMoqSLYjx1W7Hskq4oJD5lPd55WgLue3qQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2446,
+          "width": 1370
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/SoJE186ieFPZgrfyrPHyZnUSBJ5dF7d_AB1tx1ApIqJg4x_9RCwA0VSZO6uO8TR0ptc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1249,
+          "width": 2497
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/lu6mmaf4ysgG0CU62qwSmxYgedy9o_CUbkGnn8XmARYzWHvWo5NUEHITJ63aGcyoXg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2178,
+          "width": 1708
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/Uhd6hGuHf2jX-zX6e7AXEKFV-IW8b2SLKdi_Pt4o9CjOK5i-heAeTZEK91L-ubWkfv8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2178,
+          "width": 1708
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/pVVJ-lMHSYwDAMSCRU-iLnHc23__P6K6f-pIavcWiOYfdLi3j2eoWDJqRyoX7PufhQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2178,
+          "width": 1708
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/WVd18OIbYq4czR8Hh3natmml_CQBPSn_qzOjw5GFagGM_gA5ElNZ2YGz1bwWKjLVs_E",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2178,
+          "width": 1708
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/zD9CWyZ1cgzkdYc_1N1bXyNIy9ePQ9Axi3yEVw9qJfL6sFTzSJQj1QlpYm18Tv60ytU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2178,
+          "width": 1708
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/2TMZFPArsQo-9XipHFmJA-VllimXHDTZ2cpTEGbo7cfyKpnDSauwzHuA9_WRkw0VkDQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2178,
+          "width": 1708
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/TzFP_SIe4L1VFILsHXirf24Ju-zpD1OlQvW4F6WsOxmbuLmOfLW9niPzQyUlQ1vBKd0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2178,
+          "width": 1708
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/dt4S4HwR7IvxFQmjV2tt3TuyTHxNlNwkR4CJZSNfXaFRaVg-z2mUReqoO_a1rPEYiLdy",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1450,
+          "width": 2262
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/52iTzNLKsVReKXOKjG_P63uJiEnWx6KYHAEqEYd0CwY56Hzrs69hY8GxqZaq1qpJjWBh",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1471,
+          "width": 1170
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/tbkt7CZPt_82ujpqYETm4WtKDl6lEsBTPX9CHmdKuWN5ejBozsQbmsA-rNocvY8rqA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1471,
+          "width": 1170
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/LvN91lN9VkHfLl4N2DJVMBIcUUAA6VjEb1Usb2WGf7OvEKKNDp_StvxH6y4CRXEkiLrD",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1471,
+          "width": 1170
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/89GMh0QZI7zVnvLLQPbD27QuOF-H3qEORHwCuHQxntc4hc-V59Honz4thB7DZwOZ9qtQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 998,
+          "width": 1569
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/dtO27eA5-fdJnDMG-tWdWQztUdO6EH45mk1Ahxpy661spLb9tEd1SLEgwNURJ89YxpI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 998,
+          "width": 1569
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/XP9AVkzgT0xtVt0w4enjPv3MMl4TnegSj-oRQ9T9hDkgA2-_c0bprtWqW_ofhJmUBQ",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://a-efis.com/about/privacy-policy",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://lh3.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.talosavionics.aefisaeolus",
+    "reviewsUrl": "rev?doc=com.talosavionics.aefisaeolus&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.talosavionics.aefisaeolus",
+    "title": "A-EFIS black & white",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "info@a-efis.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Arch. Makariou 12<br/>GR71202, Heraklion, Crete<br/>Greece"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "30 May 2015"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "51",
+      "fiveStarRatings": "73",
+      "fourStarRatings": "16",
+      "oneStarRatings": "8",
+      "ratingsCount": "106",
+      "starRating": 4.34,
+      "threeStarRatings": "3",
+      "twoStarRatings": "4",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-01-14 00:29:56.331517",
+    "backendDocid": "com.talosavionics.aefisaeolus",
+    "backendId": 3,
+    "creator": "Charalampos Baltzakis",
+    "descriptionHtml": "A-EFIS is an Electronic Flight Information System for airplanes, which runs right on your smartphone/tablet. A-EFIS works perfectly with the internal sensors of your device and it is an ideal EFIS to always have as a backup.  <br><br>This is the free version of A-EFIS. The free version is fully functional with the exception that the main EFIS display is in black and white only. <br><br>A-EFIS makes use of digital filtering methods and state-of-the-art stochastic models in order to achieve exceptional accuracy and robustness. <br><br>ATTENTION: A-EFIS ONLY WORKS ON FIXED-WING AIRCRAFTS. NOT TO BE USED IN HELICOPTERS OR GROUND VEHICLES OF ANY KIND. USE ONLY IN AN AIRPLANE, OTHERWISE INDICATIONS WILL NOT BE CORRECT! <br><br>Features:<br>- Artificial Horizon (AHRS)<br>- Ground speed (via GPS)<br>- Altimeter (via GPS)<br>- Vertical speed (via GPS)<br>- Turn coordinator<br>- Slip ball<br>- Compass<br>- True course indicator (via GPS)<br>- Deviation from true track indication<br><br>A-EFIS has been extensively tested on ultralights, LSA, general aviation and airliners. Hint: To use A-EFIS in an airliner, just sit close to a window (in order for the device to be able to receive the GPS signal), put the device in a stable position and press &quot;AHRS calibration&quot; when the aircraft is in levelled flight. You will practically have the same flight data as the pilots in the cockpit!<br><br>IMPORTANT NOTICE: A-EFIS is not a certified aviation instrument. Do not rely on A-EFIS as your only navigation aid. Failure to comply to this warning may result in property damage, serious injury or death. You assume total responsibility and risk associated with using this application.",
+    "descriptionShort": "A fully featured EFIS display that uses your smartphone's internal sensors.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown2": "6519993",
+          "unknown3": 30
+        },
+        "developerAddress": "Arch. Makariou 12<br/>GR71202, Heraklion, Crete<br/>Greece",
+        "developerEmail": "info@a-efis.com",
+        "developerName": "Charalampos Baltzakis",
+        "developerWebsite": "http://www.a-efis.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "6519993",
+            "versionCode": 35500
+          }
+        ],
+        "installationSize": "6519993",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "com.talosavionics.aefisaeolus",
+        "permission": [
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.INTERNET",
+          "android.permission.WAKE_LOCK"
+        ],
+        "recentChangesHtml": "New in v3.55<br>Fixes bug with negative coordinate conversion. Interface enhancements. <br>New in v3.52<br>Fixes bug introduced in last update causing frozen screen on some devices. New in v3.51: Added option (under the display layout screen) to enable or disable full screen mode. Minor interface enhancements.",
+        "unstable": false,
+        "uploadDate": "12 Jan 2021",
+        "versionCode": 35500,
+        "versionString": "3.55"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.talosavionics.aefisaeolus",
+    "docType": 1,
+    "docid": "com.talosavionics.aefisaeolus",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/C3sT5DypFXW-JMNhDyij2aBvT8fVFwaGOwMy8pFyIwcqi2MC1TDn6Ih545gDlL44JA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/UrTeJULlCSofLfu-3TLYR1msH_c8dfT9XhgenvHy2CFgioe0OrJwfB_NmAl_pOXz5A",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2446,
+          "width": 1370
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/3PuzdCWHCQqUNHXcD4zaFguYzgmodQsLqNN1Bzms91qa41-QPvZcw0L9ZOX0BSaxzMhS",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2446,
+          "width": 1370
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/HMa7juZINdXL5BpJGXjk-aIT4JWgFlipyWAfNiiRUfDYe6MA5t1LZEQgzONuosWai3w",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2446,
+          "width": 1370
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Vb2uqK8GSCPI8yOgLFjJ4vzpUqhHYYd-NZh92-xbfsyaM5L0YtsV7NLQ93Kw6tAeWxQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2446,
+          "width": 1370
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/iVTJzB0PhG8AildIDMiRcPek2fYr1H5zaql4PzGUWuPdqlY_EjpvLTeciucZ0-Xapg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2446,
+          "width": 1370
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/8TNnbmEdgm1dfhrLixy_jlVzcXmrbrOp0Pe_8-3cq2No2k5A18UqPFpZtv7REurDZA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2446,
+          "width": 1370
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/SKvbGBPzxUNmIPpf5Na_OyMaRJdfHzeKwMoqSLYjx1W7Hskq4oJD5lPd55WgLue3qQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2446,
+          "width": 1370
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/SoJE186ieFPZgrfyrPHyZnUSBJ5dF7d_AB1tx1ApIqJg4x_9RCwA0VSZO6uO8TR0ptc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1249,
+          "width": 2497
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/lu6mmaf4ysgG0CU62qwSmxYgedy9o_CUbkGnn8XmARYzWHvWo5NUEHITJ63aGcyoXg",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://a-efis.com/about/privacy-policy",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.talosavionics.aefisaeolus",
+    "reviewsUrl": "rev?doc=com.talosavionics.aefisaeolus&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.talosavionics.aefisaeolus",
+    "title": "A-EFIS black & white",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Charalampos Baltzakis"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "info@a-efis.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Arch. Makariou 12<br/>GR71202, Heraklion, Crete<br/>Greece"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "30 May 2015"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "54",
+      "fiveStarRatings": "74",
+      "fourStarRatings": "17",
+      "oneStarRatings": "8",
+      "ratingsCount": "108",
+      "starRating": 4.34,
+      "threeStarRatings": "3",
+      "twoStarRatings": "4",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-02-14 01:32:21.139021",
+    "backendDocid": "com.talosavionics.aefisaeolus",
+    "backendId": 3,
+    "creator": "Charalampos Baltzakis",
+    "descriptionHtml": "A-EFIS is an Electronic Flight Information System for airplanes, which runs right on your smartphone/tablet. A-EFIS works perfectly with the internal sensors of your device and it is an ideal EFIS to always have as a backup.  <br><br>This is the free version of A-EFIS. The free version is fully functional with the exception that the main EFIS display is in black and white only. <br><br>A-EFIS makes use of digital filtering methods and state-of-the-art stochastic models in order to achieve exceptional accuracy and robustness. <br><br>ATTENTION: A-EFIS ONLY WORKS ON FIXED-WING AIRCRAFTS. NOT TO BE USED IN HELICOPTERS OR GROUND VEHICLES OF ANY KIND. USE ONLY IN AN AIRPLANE, OTHERWISE INDICATIONS WILL NOT BE CORRECT! <br><br>Features:<br>- Artificial Horizon (AHRS)<br>- Ground speed (via GPS)<br>- Altimeter (via GPS)<br>- Vertical speed (via GPS)<br>- Turn coordinator<br>- Slip ball<br>- Compass<br>- True course indicator (via GPS)<br>- Deviation from true track indication<br><br>A-EFIS has been extensively tested on ultralights, LSA, general aviation and airliners. Hint: To use A-EFIS in an airliner, just sit close to a window (in order for the device to be able to receive the GPS signal), put the device in a stable position and press &quot;AHRS calibration&quot; when the aircraft is in levelled flight. You will practically have the same flight data as the pilots in the cockpit!<br><br>IMPORTANT NOTICE: A-EFIS is not a certified aviation instrument. Do not rely on A-EFIS as your only navigation aid. Failure to comply to this warning may result in property damage, serious injury or death. You assume total responsibility and risk associated with using this application.",
+    "descriptionShort": "A fully featured EFIS display that uses your smartphone's internal sensors.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown2": "4183553",
+          "unknown3": 30
+        },
+        "developerAddress": "Arch. Makariou 12<br/>GR71202, Heraklion, Crete<br/>Greece",
+        "developerEmail": "info@a-efis.com",
+        "developerName": "Charalampos Baltzakis",
+        "developerWebsite": "http://www.a-efis.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "4183553",
+            "versionCode": 35600
+          }
+        ],
+        "installationSize": "4183553",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "com.talosavionics.aefisaeolus",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.INTERNET",
+          "android.permission.WAKE_LOCK"
+        ],
+        "recentChangesHtml": "Adds option for geodetic GPS altitude vs altitude over Mean Sea Level.  The option is located in the &quot;Altimeter settings&quot; screen. ",
+        "unstable": false,
+        "uploadDate": "Feb. 11, 2021",
+        "versionCode": 35600,
+        "versionString": "3.56"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.talosavionics.aefisaeolus",
+    "docType": 1,
+    "docid": "com.talosavionics.aefisaeolus",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/C3sT5DypFXW-JMNhDyij2aBvT8fVFwaGOwMy8pFyIwcqi2MC1TDn6Ih545gDlL44JA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/UrTeJULlCSofLfu-3TLYR1msH_c8dfT9XhgenvHy2CFgioe0OrJwfB_NmAl_pOXz5A",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2446,
+          "width": 1370
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/3PuzdCWHCQqUNHXcD4zaFguYzgmodQsLqNN1Bzms91qa41-QPvZcw0L9ZOX0BSaxzMhS",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2446,
+          "width": 1370
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/HMa7juZINdXL5BpJGXjk-aIT4JWgFlipyWAfNiiRUfDYe6MA5t1LZEQgzONuosWai3w",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2446,
+          "width": 1370
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Vb2uqK8GSCPI8yOgLFjJ4vzpUqhHYYd-NZh92-xbfsyaM5L0YtsV7NLQ93Kw6tAeWxQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2446,
+          "width": 1370
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/iVTJzB0PhG8AildIDMiRcPek2fYr1H5zaql4PzGUWuPdqlY_EjpvLTeciucZ0-Xapg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2446,
+          "width": 1370
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/8TNnbmEdgm1dfhrLixy_jlVzcXmrbrOp0Pe_8-3cq2No2k5A18UqPFpZtv7REurDZA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2446,
+          "width": 1370
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/SKvbGBPzxUNmIPpf5Na_OyMaRJdfHzeKwMoqSLYjx1W7Hskq4oJD5lPd55WgLue3qQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2446,
+          "width": 1370
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/SoJE186ieFPZgrfyrPHyZnUSBJ5dF7d_AB1tx1ApIqJg4x_9RCwA0VSZO6uO8TR0ptc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1249,
+          "width": 2497
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/lu6mmaf4ysgG0CU62qwSmxYgedy9o_CUbkGnn8XmARYzWHvWo5NUEHITJ63aGcyoXg",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://a-efis.com/about/privacy-policy",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.talosavionics.aefisaeolus",
+    "reviewsUrl": "rev?doc=com.talosavionics.aefisaeolus&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.talosavionics.aefisaeolus",
+    "title": "A-EFIS black & white",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Charalampos Baltzakis"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "info@a-efis.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Arch. Makariou 12<br/>GR71202, Heraklion, Crete<br/>Greece"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "May 30, 2015"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "57",
+      "fiveStarRatings": "76",
+      "fourStarRatings": "17",
+      "oneStarRatings": "10",
+      "ratingsCount": "112",
+      "starRating": 4.3,
+      "threeStarRatings": "3",
+      "twoStarRatings": "4",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-05-15 07:23:29.204330",
+    "backendDocid": "com.talosavionics.aefisaeolus",
+    "backendId": 3,
+    "creator": "Charalampos Baltzakis",
+    "descriptionHtml": "A-EFIS is an Electronic Flight Information System for airplanes, which runs right on your smartphone/tablet. A-EFIS works perfectly with the internal sensors of your device and it is an ideal EFIS to always have as a backup.  <br><br>This is the free version of A-EFIS. The free version is fully functional with the exception that the main EFIS display is in black and white only. <br><br>A-EFIS makes use of digital filtering methods and state-of-the-art stochastic models in order to achieve exceptional accuracy and robustness. <br><br>ATTENTION: A-EFIS ONLY WORKS ON FIXED-WING AIRCRAFTS. NOT TO BE USED IN HELICOPTERS OR GROUND VEHICLES OF ANY KIND. USE ONLY IN AN AIRPLANE, OTHERWISE INDICATIONS WILL NOT BE CORRECT! <br><br>Features:<br>- Artificial Horizon (AHRS)<br>- Ground speed (via GPS)<br>- Altimeter (via GPS)<br>- Vertical speed (via GPS)<br>- Turn coordinator<br>- Slip ball<br>- Compass<br>- True course indicator (via GPS)<br>- Deviation from true track indication<br><br>A-EFIS has been extensively tested on ultralights, LSA, general aviation and airliners. Hint: To use A-EFIS in an airliner, just sit close to a window (in order for the device to be able to receive the GPS signal), put the device in a stable position and press &quot;AHRS calibration&quot; when the aircraft is in levelled flight. You will practically have the same flight data as the pilots in the cockpit!<br><br>IMPORTANT NOTICE: A-EFIS is not a certified aviation instrument. Do not rely on A-EFIS as your only navigation aid. Failure to comply to this warning may result in property damage, serious injury or death. You assume total responsibility and risk associated with using this application.",
+    "descriptionShort": "A fully featured EFIS display that uses your smartphone's internal sensors.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown2": "4183852",
+          "unknown3": 30
+        },
+        "developerAddress": "Arch. Makariou 12<br/>GR71202, Heraklion, Crete<br/>Greece",
+        "developerEmail": "info@a-efis.com",
+        "developerName": "Charalampos Baltzakis",
+        "developerWebsite": "http://www.a-efis.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "4183852",
+            "versionCode": 35700
+          }
+        ],
+        "installationSize": "4183852",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "com.talosavionics.aefisaeolus",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.INTERNET",
+          "android.permission.WAKE_LOCK"
+        ],
+        "recentChangesHtml": "Solves bug related to GPS altitude when the &quot;above MSL&quot; option was selected on some devices",
+        "unstable": false,
+        "uploadDate": "13 May 2021",
+        "versionCode": 35700,
+        "versionString": "3.57"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.talosavionics.aefisaeolus",
+    "docType": 1,
+    "docid": "com.talosavionics.aefisaeolus",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/C3sT5DypFXW-JMNhDyij2aBvT8fVFwaGOwMy8pFyIwcqi2MC1TDn6Ih545gDlL44JA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/UrTeJULlCSofLfu-3TLYR1msH_c8dfT9XhgenvHy2CFgioe0OrJwfB_NmAl_pOXz5A",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2446,
+          "width": 1370
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/3PuzdCWHCQqUNHXcD4zaFguYzgmodQsLqNN1Bzms91qa41-QPvZcw0L9ZOX0BSaxzMhS",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2446,
+          "width": 1370
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/HMa7juZINdXL5BpJGXjk-aIT4JWgFlipyWAfNiiRUfDYe6MA5t1LZEQgzONuosWai3w",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2446,
+          "width": 1370
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Vb2uqK8GSCPI8yOgLFjJ4vzpUqhHYYd-NZh92-xbfsyaM5L0YtsV7NLQ93Kw6tAeWxQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2446,
+          "width": 1370
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/iVTJzB0PhG8AildIDMiRcPek2fYr1H5zaql4PzGUWuPdqlY_EjpvLTeciucZ0-Xapg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2446,
+          "width": 1370
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/8TNnbmEdgm1dfhrLixy_jlVzcXmrbrOp0Pe_8-3cq2No2k5A18UqPFpZtv7REurDZA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2446,
+          "width": 1370
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/SKvbGBPzxUNmIPpf5Na_OyMaRJdfHzeKwMoqSLYjx1W7Hskq4oJD5lPd55WgLue3qQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2446,
+          "width": 1370
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/SoJE186ieFPZgrfyrPHyZnUSBJ5dF7d_AB1tx1ApIqJg4x_9RCwA0VSZO6uO8TR0ptc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1249,
+          "width": 2497
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/lu6mmaf4ysgG0CU62qwSmxYgedy9o_CUbkGnn8XmARYzWHvWo5NUEHITJ63aGcyoXg",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://a-efis.com/about/privacy-policy",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.talosavionics.aefisaeolus",
+    "reviewsUrl": "rev?doc=com.talosavionics.aefisaeolus&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.talosavionics.aefisaeolus",
+    "title": "A-EFIS black & white",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "info@a-efis.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Arch. Makariou 12<br/>GR71202, Heraklion, Crete<br/>Greece"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "30 May 2015"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  }
+]

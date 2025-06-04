@@ -1,0 +1,2075 @@
+[
+  {
+    "aggregateRating": {
+      "commentCount": "360",
+      "fiveStarRatings": "504",
+      "fourStarRatings": "76",
+      "oneStarRatings": "48",
+      "ratingsCount": "691",
+      "starRating": 4.4,
+      "threeStarRatings": "41",
+      "twoStarRatings": "20",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-05-22 00:18:46.426812",
+    "backendDocid": "com.paytomat",
+    "backendId": 3,
+    "creator": "Paytomat",
+    "descriptionHtml": "A simple and secure wallet to store, send and receive cryptocurrencies. <br><br>Paytomat wallet supports 14 cryptocurrencies: Bitcoin, Litecoin, Dash, Ethereum, Waves, NEM, EOS, ZCoin, Horizen (formerly ZenCash), Bitcore, BCD, Tron, Tezos, Binance Chain and tokens for 4 platforms (EOS, ERC20, NEM, BNB).<br><br>- Safe and secure<br>The wallet is non-custodial, meaning the private keys never leave the secure storage of your phone. Remember it\u2019s crucial to have a backup of your seed (the 24 words you are given at install) somewhere safe. Until you have them you can restore your funds on any blockchain and using any wallet. <br><br>- Access DApps and games catalogue directly within the wallet - use your EOS account to open the world of decentralized apps.<br><br>- Transfer crypto to fiat<br>In supported countries, you can access third-party services that will let you sell crypto for fiat instantly and transfer directly to your card. <br><br>- ERC20 tokens<br>You can easily add to your wallet and use any of the ERC20 tokens including the most popular like OMG, MKR, ZRX, BAT, REP, GNT, ICX.<br><br>- EOS account management and EOS tokens<br>Using just Paytomat wallet, you can easily open an EOS account paying in any main currency supported by Paytomat wallet, and manage its resources: RAM, CPU, NET. Same goes for EOS tokens - add them and manage as another currency in the list - projects like CET, DICE, Karma, EOSDAC, Everipedia, Horus etc.<br><br>- NEM tokens<br>Paytomat is the only multi-currency wallet to support NEM tokens (mosaics) natively.",
+    "descriptionShort": "A simple and secure wallet to send and receive cryptocurrencies and tokens.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "5648311",
+          "unknown3": 29
+        },
+        "developerAddress": "01133, Levi Ukrainki blvd, 21-201, Kyiv, Ukraine",
+        "developerEmail": "android@paytomat.com",
+        "developerName": "Paytomat",
+        "developerWebsite": "http://www.paytomat.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "5517983",
+            "versionCode": 13411
+          },
+          {
+            "fileType": 0,
+            "size": "84926",
+            "versionCode": 13411
+          },
+          {
+            "fileType": 0,
+            "size": "45402",
+            "versionCode": 13411
+          }
+        ],
+        "hasInstantLink": true,
+        "installationSize": "5648311",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "com.paytomat",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.CAMERA",
+          "android.permission.GET_TASKS",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.USE_BIOMETRIC",
+          "android.permission.USE_FINGERPRINT",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.android.vending.BILLING",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+        ],
+        "recentChangesHtml": "- Transaction confirmation screen<br>- Tron fee improvements<br>- Currency search tuning",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "13 May 2020",
+        "versionCode": 13411,
+        "versionString": "1.34.1"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.paytomat",
+    "docType": 1,
+    "docid": "com.paytomat",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://lh3.googleusercontent.com/8JryhAoLZMjrYoyA5sAj31BDVmZhkHuCKYha_I9MPsVdWKcEkpYAoiB8fRDFPpCaEq8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://lh3.googleusercontent.com/phvu6RkqUuryGC51Q-aCoQ3KWgslHEYQPMuK4I6cLPvBXOB_lQEMFi5okgtdDYg12hK_",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/XXm2B9OLWzlIdSigRy21abPVTJ9-XF2sgok2q4LdNN9zZeCcUTZBLYJ7Whh6RjMivQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/UPGwkQ-ZnoZfsaqaqF2t3y1rjYa9qHmaFsLZY5pvlUNTGRYuCdM6Wx3I3QOliYPtNw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/hf5pjxPDLzKZwY8_kRzijQcoNRWqcPNLgcHUAPwb-2I9TaZg419pHld-UKQtOly747g",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/8LlovGIAp89XMxaCnpKHvufelL17obAOlUFr4ESdNvI6xWxre0nQlpVKHeuX1tRi7KQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/AiR_vWUhw8um7dndY2z6UHaOi8_Bw6mjQGUMjifZMUVkCahRpN1eFEZqxS6bgeOIpLY",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/dyAAUae1yv-7G-OZqp4m73XTSE3cLTloMmC6Wwlze4OyG0mtnbLomnDt-zKQhOU6mMUx",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://paytomat.com/pp",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://lh3.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "Digital purchases<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.paytomat",
+    "reviewsUrl": "rev?doc=com.paytomat&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.paytomat",
+    "title": "Paytomat Wallet: Bitcoin, Ethereum, EOS, tokens",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "$0.99 \u2013 $9.99 per item"
+          },
+          "label": "In-app purchases"
+        },
+        {
+          "container": {
+            "value": "Paytomat"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "android@paytomat.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "01133, Levi Ukrainki blvd, 21-201, Kyiv, Ukraine"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "20 Jun 2018"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "362",
+      "fiveStarRatings": "498",
+      "fourStarRatings": "83",
+      "oneStarRatings": "48",
+      "ratingsCount": "692",
+      "starRating": 4.389999866485596,
+      "threeStarRatings": "41",
+      "twoStarRatings": "20",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-06-02 14:24:51.261588",
+    "backendDocid": "com.paytomat",
+    "backendId": 3,
+    "creator": "Paytomat",
+    "descriptionHtml": "A simple and secure wallet to store, send and receive cryptocurrencies. <br><br>Paytomat wallet by DeepDive supports 14 cryptocurrencies: Bitcoin, Litecoin, Dash, Ethereum, Waves, NEM, EOS, ZCoin, Horizen (formerly ZenCash), Bitcore, BCD, Tron, Tezos, Binance Chain and tokens for 5 platforms (EOS, ERC20, TRC10, NEM, BNB).<br><br>- Safe and secure<br>The wallet is non-custodial, meaning the private keys never leave the secure storage of your phone. Remember it\u2019s crucial to have a backup of your seed (the 24 words you are given at install) somewhere safe. Until you have them you can restore your funds on any blockchain and using any wallet. <br><br>- Access DApps and games catalogue directly within the wallet - use your EOS account to open the world of decentralized apps.<br><br>- Transfer crypto to fiat<br>In supported countries you can access third-party services that will let you sell crypto for fiat instantly and transfer directly to your card. <br><br>- ERC20 tokens<br>You can easily add to your wallet and use any of the ERC20 tokens including the most popular like OMG, MKR, ZRX, BAT, REP, GNT, ICX.<br><br>- EOS account management and EOS tokens<br>Using just Paytomat wallet, you can easily open an EOS account paying in any main currency supported by Paytomat wallet, and manage its resources: RAM, CPU, NET. Same goes for EOS tokens - add them and manage as another currency in the list - projects like CET, DICE, Karma, EOSDAC, Everipedia, Horus etc.<br><br>- NEM tokens<br>Paytomat is the only multi-currency wallet to support NEM tokens (mosaics) natively.",
+    "descriptionShort": "A simple and secure wallet to send and receive cryptocurrencies and tokens.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "5665340",
+          "unknown3": 29
+        },
+        "developerAddress": "01133, Levi Ukrainki blvd, 21-201, Kyiv, Ukraine",
+        "developerEmail": "android@paytomat.com",
+        "developerName": "Paytomat",
+        "developerWebsite": "http://www.paytomat.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "5530916",
+            "versionCode": 13500
+          },
+          {
+            "fileType": 0,
+            "size": "84926",
+            "versionCode": 13500
+          },
+          {
+            "fileType": 0,
+            "size": "49498",
+            "versionCode": 13500
+          }
+        ],
+        "hasInstantLink": true,
+        "installationSize": "5665340",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "com.paytomat",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.CAMERA",
+          "android.permission.GET_TASKS",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.USE_BIOMETRIC",
+          "android.permission.USE_FINGERPRINT",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.android.vending.BILLING",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+        ],
+        "recentChangesHtml": "- Automatic BTC UTXO check via DLTI<br>- DLTI moved to a new tab in the main screen<br>- Token search improvements",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "1 Jun 2020",
+        "versionCode": 13500,
+        "versionString": "1.35.0"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.paytomat",
+    "docType": 1,
+    "docid": "com.paytomat",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://lh3.googleusercontent.com/8JryhAoLZMjrYoyA5sAj31BDVmZhkHuCKYha_I9MPsVdWKcEkpYAoiB8fRDFPpCaEq8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://lh3.googleusercontent.com/phvu6RkqUuryGC51Q-aCoQ3KWgslHEYQPMuK4I6cLPvBXOB_lQEMFi5okgtdDYg12hK_",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/XXm2B9OLWzlIdSigRy21abPVTJ9-XF2sgok2q4LdNN9zZeCcUTZBLYJ7Whh6RjMivQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/UPGwkQ-ZnoZfsaqaqF2t3y1rjYa9qHmaFsLZY5pvlUNTGRYuCdM6Wx3I3QOliYPtNw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/hf5pjxPDLzKZwY8_kRzijQcoNRWqcPNLgcHUAPwb-2I9TaZg419pHld-UKQtOly747g",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/8LlovGIAp89XMxaCnpKHvufelL17obAOlUFr4ESdNvI6xWxre0nQlpVKHeuX1tRi7KQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/AiR_vWUhw8um7dndY2z6UHaOi8_Bw6mjQGUMjifZMUVkCahRpN1eFEZqxS6bgeOIpLY",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/dyAAUae1yv-7G-OZqp4m73XTSE3cLTloMmC6Wwlze4OyG0mtnbLomnDt-zKQhOU6mMUx",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://paytomat.com/pp",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://lh3.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "Digital purchases<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.paytomat",
+    "reviewsUrl": "rev?doc=com.paytomat&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.paytomat",
+    "title": "Paytomat Wallet: Bitcoin, Ethereum, EOS, tokens",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "\u20ac0.59 \u2013 \u20ac10.99 per item"
+          },
+          "label": "In-app purchases"
+        },
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "android@paytomat.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "01133, Levi Ukrainki blvd, 21-201, Kyiv, Ukraine"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "20 Jun 2018"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "364",
+      "fiveStarRatings": "501",
+      "fourStarRatings": "90",
+      "oneStarRatings": "48",
+      "ratingsCount": "696",
+      "starRating": 4.41,
+      "threeStarRatings": "41",
+      "twoStarRatings": "13",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-06-08 14:12:50.980151",
+    "backendDocid": "com.paytomat",
+    "backendId": 3,
+    "creator": "Paytomat",
+    "descriptionHtml": "A simple and secure wallet to store, send and receive cryptocurrencies. <br><br>Paytomat wallet by DeepDive supports 14 cryptocurrencies: Bitcoin, Litecoin, Dash, Ethereum, Waves, NEM, EOS, ZCoin, Horizen (formerly ZenCash), Bitcore, BCD, Tron, Tezos, Binance Chain and tokens for 5 platforms (EOS, ERC20, TRC10, NEM, BNB).<br><br>- Safe and secure<br>The wallet is non-custodial, meaning the private keys never leave the secure storage of your phone. Remember it\u2019s crucial to have a backup of your seed (the 24 words you are given at install) somewhere safe. Until you have them you can restore your funds on any blockchain and using any wallet. <br><br>- Access DApps and games catalogue directly within the wallet - use your EOS account to open the world of decentralized apps.<br><br>- Transfer crypto to fiat<br>In supported countries you can access third-party services that will let you sell crypto for fiat instantly and transfer directly to your card. <br><br>- ERC20 tokens<br>You can easily add to your wallet and use any of the ERC20 tokens including the most popular like OMG, MKR, ZRX, BAT, REP, GNT, ICX.<br><br>- EOS account management and EOS tokens<br>Using just Paytomat wallet, you can easily open an EOS account paying in any main currency supported by Paytomat wallet, and manage its resources: RAM, CPU, NET. Same goes for EOS tokens - add them and manage as another currency in the list - projects like CET, DICE, Karma, EOSDAC, Everipedia, Horus etc.<br><br>- NEM tokens<br>Paytomat is the only multi-currency wallet to support NEM tokens (mosaics) natively.",
+    "descriptionShort": "A simple and secure wallet to send and receive cryptocurrencies and tokens.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "5673754",
+          "unknown3": 29
+        },
+        "developerAddress": "01133, Levi Ukrainki blvd, 21-201, Kyiv, Ukraine",
+        "developerEmail": "android@paytomat.com",
+        "developerName": "Paytomat",
+        "developerWebsite": "http://www.paytomat.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "5539330",
+            "versionCode": 13510
+          },
+          {
+            "fileType": 0,
+            "size": "84926",
+            "versionCode": 13510
+          },
+          {
+            "fileType": 0,
+            "size": "49498",
+            "versionCode": 13510
+          }
+        ],
+        "hasInstantLink": true,
+        "installationSize": "5673754",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "com.paytomat",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.CAMERA",
+          "android.permission.GET_TASKS",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.USE_BIOMETRIC",
+          "android.permission.USE_FINGERPRINT",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.android.vending.BILLING",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+        ],
+        "recentChangesHtml": "- Automatic BTC UTXO check via DLTI<br>- DLTI moved to a new tab in the main screen<br>- Token search improvements",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "Jun. 5, 2020",
+        "versionCode": 13510,
+        "versionString": "1.35.1"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.paytomat",
+    "docType": 1,
+    "docid": "com.paytomat",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://lh3.googleusercontent.com/8JryhAoLZMjrYoyA5sAj31BDVmZhkHuCKYha_I9MPsVdWKcEkpYAoiB8fRDFPpCaEq8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://lh3.googleusercontent.com/phvu6RkqUuryGC51Q-aCoQ3KWgslHEYQPMuK4I6cLPvBXOB_lQEMFi5okgtdDYg12hK_",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/XXm2B9OLWzlIdSigRy21abPVTJ9-XF2sgok2q4LdNN9zZeCcUTZBLYJ7Whh6RjMivQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/UPGwkQ-ZnoZfsaqaqF2t3y1rjYa9qHmaFsLZY5pvlUNTGRYuCdM6Wx3I3QOliYPtNw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/hf5pjxPDLzKZwY8_kRzijQcoNRWqcPNLgcHUAPwb-2I9TaZg419pHld-UKQtOly747g",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/8LlovGIAp89XMxaCnpKHvufelL17obAOlUFr4ESdNvI6xWxre0nQlpVKHeuX1tRi7KQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/AiR_vWUhw8um7dndY2z6UHaOi8_Bw6mjQGUMjifZMUVkCahRpN1eFEZqxS6bgeOIpLY",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/dyAAUae1yv-7G-OZqp4m73XTSE3cLTloMmC6Wwlze4OyG0mtnbLomnDt-zKQhOU6mMUx",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://paytomat.com/pp",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://lh3.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "Digital purchases<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.paytomat",
+    "reviewsUrl": "rev?doc=com.paytomat&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.paytomat",
+    "title": "Paytomat Wallet: Bitcoin, Ethereum, EOS, tokens",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Paytomat"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "android@paytomat.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "01133, Levi Ukrainki blvd, 21-201, Kyiv, Ukraine"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "Jun. 20, 2018"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "363",
+      "fiveStarRatings": "488",
+      "fourStarRatings": "90",
+      "oneStarRatings": "55",
+      "ratingsCount": "698",
+      "starRating": 4.34,
+      "threeStarRatings": "41",
+      "twoStarRatings": "20",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-06-22 05:13:56.156568",
+    "backendDocid": "com.paytomat",
+    "backendId": 3,
+    "creator": "Paytomat",
+    "descriptionHtml": "A simple and secure wallet to store, send and receive cryptocurrencies. <br><br>Paytomat wallet by DeepDive supports 14 cryptocurrencies: Bitcoin, Litecoin, Dash, Ethereum, Waves, NEM, EOS, ZCoin, Horizen (formerly ZenCash), Bitcore, BCD, Tron, Tezos, Binance Chain and tokens for 5 platforms (EOS, ERC20, TRC10, NEM, BNB).<br><br>- Safe and secure<br>The wallet is non-custodial, meaning the private keys never leave the secure storage of your phone. Remember it\u2019s crucial to have a backup of your seed (the 24 words you are given at install) somewhere safe. Until you have them you can restore your funds on any blockchain and using any wallet. <br><br>- Access DApps and games catalogue directly within the wallet - use your EOS account to open the world of decentralized apps.<br><br>- Transfer crypto to fiat<br>In supported countries you can access third-party services that will let you sell crypto for fiat instantly and transfer directly to your card. <br><br>- ERC20 tokens<br>You can easily add to your wallet and use any of the ERC20 tokens including the most popular like OMG, MKR, ZRX, BAT, REP, GNT, ICX.<br><br>- EOS account management and EOS tokens<br>Using just Paytomat wallet, you can easily open an EOS account paying in any main currency supported by Paytomat wallet, and manage its resources: RAM, CPU, NET. Same goes for EOS tokens - add them and manage as another currency in the list - projects like CET, DICE, Karma, EOSDAC, Everipedia, Horus etc.<br><br>- NEM tokens<br>Paytomat is the only multi-currency wallet to support NEM tokens (mosaics) natively.",
+    "descriptionShort": "A simple and secure wallet to send and receive cryptocurrencies and tokens.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "5673754",
+          "unknown3": 29
+        },
+        "developerAddress": "01133, Levi Ukrainki blvd, 21-201, Kyiv, Ukraine",
+        "developerEmail": "android@paytomat.com",
+        "developerName": "Paytomat",
+        "developerWebsite": "http://www.paytomat.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "5539330",
+            "versionCode": 13520
+          },
+          {
+            "fileType": 0,
+            "size": "84926",
+            "versionCode": 13520
+          },
+          {
+            "fileType": 0,
+            "size": "49498",
+            "versionCode": 13520
+          }
+        ],
+        "hasInstantLink": true,
+        "installationSize": "5673754",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "com.paytomat",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.CAMERA",
+          "android.permission.GET_TASKS",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.USE_BIOMETRIC",
+          "android.permission.USE_FINGERPRINT",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.android.vending.BILLING",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+        ],
+        "recentChangesHtml": "- Automatic BTC UTXO check via DLTI<br>- DLTI moved to a new tab in the main screen<br>- Token search improvements",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "19 Jun 2020",
+        "versionCode": 13520,
+        "versionString": "1.35.2"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.paytomat",
+    "docType": 1,
+    "docid": "com.paytomat",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://lh3.googleusercontent.com/8JryhAoLZMjrYoyA5sAj31BDVmZhkHuCKYha_I9MPsVdWKcEkpYAoiB8fRDFPpCaEq8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://lh3.googleusercontent.com/phvu6RkqUuryGC51Q-aCoQ3KWgslHEYQPMuK4I6cLPvBXOB_lQEMFi5okgtdDYg12hK_",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/XXm2B9OLWzlIdSigRy21abPVTJ9-XF2sgok2q4LdNN9zZeCcUTZBLYJ7Whh6RjMivQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/UPGwkQ-ZnoZfsaqaqF2t3y1rjYa9qHmaFsLZY5pvlUNTGRYuCdM6Wx3I3QOliYPtNw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/hf5pjxPDLzKZwY8_kRzijQcoNRWqcPNLgcHUAPwb-2I9TaZg419pHld-UKQtOly747g",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/8LlovGIAp89XMxaCnpKHvufelL17obAOlUFr4ESdNvI6xWxre0nQlpVKHeuX1tRi7KQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/AiR_vWUhw8um7dndY2z6UHaOi8_Bw6mjQGUMjifZMUVkCahRpN1eFEZqxS6bgeOIpLY",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/dyAAUae1yv-7G-OZqp4m73XTSE3cLTloMmC6Wwlze4OyG0mtnbLomnDt-zKQhOU6mMUx",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://paytomat.com/pp",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://lh3.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "Digital purchases<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.paytomat",
+    "reviewsUrl": "rev?doc=com.paytomat&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.paytomat",
+    "title": "Paytomat Wallet: Bitcoin, Ethereum, EOS, tokens",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "\u20ac0.59 \u2013 \u20ac10.99 per item"
+          },
+          "label": "In-app purchases"
+        },
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "android@paytomat.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "01133, Levi Ukrainki blvd, 21-201, Kyiv, Ukraine"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "20 Jun 2018"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "363",
+      "fiveStarRatings": "488",
+      "fourStarRatings": "90",
+      "oneStarRatings": "55",
+      "ratingsCount": "698",
+      "starRating": 4.34,
+      "threeStarRatings": "41",
+      "twoStarRatings": "20",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-06-22 10:31:42.034773",
+    "backendDocid": "com.paytomat",
+    "backendId": 3,
+    "creator": "Paytomat",
+    "descriptionHtml": "A simple and secure wallet to store, send and receive cryptocurrencies. <br><br>Paytomat wallet by DeepDive supports 14 cryptocurrencies: Bitcoin, Litecoin, Dash, Ethereum, Waves, NEM, EOS, ZCoin, Horizen (formerly ZenCash), Bitcore, BCD, Tron, Tezos, Binance Chain and tokens for 5 platforms (EOS, ERC20, TRC10, NEM, BNB).<br><br>- Safe and secure<br>The wallet is non-custodial, meaning the private keys never leave the secure storage of your phone. Remember it\u2019s crucial to have a backup of your seed (the 24 words you are given at install) somewhere safe. Until you have them you can restore your funds on any blockchain and using any wallet. <br><br>- Access DApps and games catalogue directly within the wallet - use your EOS account to open the world of decentralized apps.<br><br>- Transfer crypto to fiat<br>In supported countries you can access third-party services that will let you sell crypto for fiat instantly and transfer directly to your card. <br><br>- ERC20 tokens<br>You can easily add to your wallet and use any of the ERC20 tokens including the most popular like OMG, MKR, ZRX, BAT, REP, GNT, ICX.<br><br>- EOS account management and EOS tokens<br>Using just Paytomat wallet, you can easily open an EOS account paying in any main currency supported by Paytomat wallet, and manage its resources: RAM, CPU, NET. Same goes for EOS tokens - add them and manage as another currency in the list - projects like CET, DICE, Karma, EOSDAC, Everipedia, Horus etc.<br><br>- NEM tokens<br>Paytomat is the only multi-currency wallet to support NEM tokens (mosaics) natively.",
+    "descriptionShort": "A simple and secure wallet to send and receive cryptocurrencies and tokens.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "5711765",
+          "unknown3": 29
+        },
+        "developerAddress": "01133, Levi Ukrainki blvd, 21-201, Kyiv, Ukraine",
+        "developerEmail": "android@paytomat.com",
+        "developerName": "Paytomat",
+        "developerWebsite": "http://www.paytomat.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "5573245",
+            "versionCode": 13601
+          },
+          {
+            "fileType": 0,
+            "size": "89022",
+            "versionCode": 13601
+          },
+          {
+            "fileType": 0,
+            "size": "49498",
+            "versionCode": 13601
+          }
+        ],
+        "hasInstantLink": true,
+        "installationSize": "5711765",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "com.paytomat",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.CAMERA",
+          "android.permission.GET_TASKS",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.USE_BIOMETRIC",
+          "android.permission.USE_FINGERPRINT",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.android.vending.BILLING",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+        ],
+        "recentChangesHtml": "- New custom fee design<br>- Top ERC-20 tokens selection<br>- Bitcore and Bitcoin Diamond deprecation<br>- Improved error handling",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "19 Jun 2020",
+        "versionCode": 13601,
+        "versionString": "1.36.0"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.paytomat",
+    "docType": 1,
+    "docid": "com.paytomat",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://lh3.googleusercontent.com/8JryhAoLZMjrYoyA5sAj31BDVmZhkHuCKYha_I9MPsVdWKcEkpYAoiB8fRDFPpCaEq8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://lh3.googleusercontent.com/phvu6RkqUuryGC51Q-aCoQ3KWgslHEYQPMuK4I6cLPvBXOB_lQEMFi5okgtdDYg12hK_",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/XXm2B9OLWzlIdSigRy21abPVTJ9-XF2sgok2q4LdNN9zZeCcUTZBLYJ7Whh6RjMivQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/UPGwkQ-ZnoZfsaqaqF2t3y1rjYa9qHmaFsLZY5pvlUNTGRYuCdM6Wx3I3QOliYPtNw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/hf5pjxPDLzKZwY8_kRzijQcoNRWqcPNLgcHUAPwb-2I9TaZg419pHld-UKQtOly747g",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/8LlovGIAp89XMxaCnpKHvufelL17obAOlUFr4ESdNvI6xWxre0nQlpVKHeuX1tRi7KQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/AiR_vWUhw8um7dndY2z6UHaOi8_Bw6mjQGUMjifZMUVkCahRpN1eFEZqxS6bgeOIpLY",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/dyAAUae1yv-7G-OZqp4m73XTSE3cLTloMmC6Wwlze4OyG0mtnbLomnDt-zKQhOU6mMUx",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://paytomat.com/pp",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://lh3.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "Digital purchases<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.paytomat",
+    "reviewsUrl": "rev?doc=com.paytomat&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.paytomat",
+    "title": "Paytomat Wallet: Bitcoin, Ethereum, EOS, tokens",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "\u20ac0.59 \u2013 \u20ac10.99 per item"
+          },
+          "label": "In-app purchases"
+        },
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "android@paytomat.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "01133, Levi Ukrainki blvd, 21-201, Kyiv, Ukraine"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "20 Jun 2018"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "364",
+      "fiveStarRatings": "489",
+      "fourStarRatings": "90",
+      "oneStarRatings": "55",
+      "ratingsCount": "699",
+      "starRating": 4.34,
+      "threeStarRatings": "41",
+      "twoStarRatings": "20",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-06-25 19:52:15.154742",
+    "backendDocid": "com.paytomat",
+    "backendId": 3,
+    "creator": "Paytomat",
+    "descriptionHtml": "A simple and secure wallet to store, send and receive cryptocurrencies. <br><br>Paytomat wallet by DeepDive supports 14 cryptocurrencies: Bitcoin, Litecoin, Dash, Ethereum, Waves, NEM, EOS, ZCoin, Horizen (formerly ZenCash), Bitcore, BCD, Tron, Tezos, Binance Chain and tokens for 5 platforms (EOS, ERC20, TRC10, NEM, BNB).<br><br>- Safe and secure<br>The wallet is non-custodial, meaning the private keys never leave the secure storage of your phone. Remember it\u2019s crucial to have a backup of your seed (the 24 words you are given at install) somewhere safe. Until you have them you can restore your funds on any blockchain and using any wallet. <br><br>- Access DApps and games catalogue directly within the wallet - use your EOS account to open the world of decentralized apps.<br><br>- Transfer crypto to fiat<br>In supported countries you can access third-party services that will let you sell crypto for fiat instantly and transfer directly to your card. <br><br>- ERC20 tokens<br>You can easily add to your wallet and use any of the ERC20 tokens including the most popular like OMG, MKR, ZRX, BAT, REP, GNT, ICX.<br><br>- EOS account management and EOS tokens<br>Using just Paytomat wallet, you can easily open an EOS account paying in any main currency supported by Paytomat wallet, and manage its resources: RAM, CPU, NET. Same goes for EOS tokens - add them and manage as another currency in the list - projects like CET, DICE, Karma, EOSDAC, Everipedia, Horus etc.<br><br>- NEM tokens<br>Paytomat is the only multi-currency wallet to support NEM tokens (mosaics) natively.",
+    "descriptionShort": "A simple and secure wallet to send and receive cryptocurrencies and tokens.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "5711765",
+          "unknown3": 29
+        },
+        "developerAddress": "01133, Levi Ukrainki blvd, 21-201, Kyiv, Ukraine",
+        "developerEmail": "android@paytomat.com",
+        "developerName": "Paytomat",
+        "developerWebsite": "http://www.paytomat.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "5573245",
+            "versionCode": 13611
+          },
+          {
+            "fileType": 0,
+            "size": "89022",
+            "versionCode": 13611
+          },
+          {
+            "fileType": 0,
+            "size": "49498",
+            "versionCode": 13611
+          }
+        ],
+        "hasInstantLink": true,
+        "installationSize": "5711765",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "com.paytomat",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.CAMERA",
+          "android.permission.GET_TASKS",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.USE_BIOMETRIC",
+          "android.permission.USE_FINGERPRINT",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.android.vending.BILLING",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+        ],
+        "recentChangesHtml": "- New custom fee design<br>- Top ERC-20 tokens selection<br>- Bitcore and Bitcoin Diamond deprecation<br>- Improved error handling",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "25 Jun 2020",
+        "versionCode": 13611,
+        "versionString": "1.36.1"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.paytomat",
+    "docType": 1,
+    "docid": "com.paytomat",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://lh3.googleusercontent.com/8JryhAoLZMjrYoyA5sAj31BDVmZhkHuCKYha_I9MPsVdWKcEkpYAoiB8fRDFPpCaEq8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://lh3.googleusercontent.com/phvu6RkqUuryGC51Q-aCoQ3KWgslHEYQPMuK4I6cLPvBXOB_lQEMFi5okgtdDYg12hK_",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/XXm2B9OLWzlIdSigRy21abPVTJ9-XF2sgok2q4LdNN9zZeCcUTZBLYJ7Whh6RjMivQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/UPGwkQ-ZnoZfsaqaqF2t3y1rjYa9qHmaFsLZY5pvlUNTGRYuCdM6Wx3I3QOliYPtNw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/hf5pjxPDLzKZwY8_kRzijQcoNRWqcPNLgcHUAPwb-2I9TaZg419pHld-UKQtOly747g",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/8LlovGIAp89XMxaCnpKHvufelL17obAOlUFr4ESdNvI6xWxre0nQlpVKHeuX1tRi7KQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/AiR_vWUhw8um7dndY2z6UHaOi8_Bw6mjQGUMjifZMUVkCahRpN1eFEZqxS6bgeOIpLY",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/dyAAUae1yv-7G-OZqp4m73XTSE3cLTloMmC6Wwlze4OyG0mtnbLomnDt-zKQhOU6mMUx",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://paytomat.com/pp",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://lh3.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "Digital purchases<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.paytomat",
+    "reviewsUrl": "rev?doc=com.paytomat&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.paytomat",
+    "title": "Paytomat Wallet: Bitcoin, Ethereum, EOS, tokens",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "\u20ac0.59 \u2013 \u20ac10.99 per item"
+          },
+          "label": "In-app purchases"
+        },
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "android@paytomat.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "01133, Levi Ukrainki blvd, 21-201, Kyiv, Ukraine"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "20 Jun 2018"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "365",
+      "fiveStarRatings": "483",
+      "fourStarRatings": "98",
+      "oneStarRatings": "56",
+      "ratingsCount": "701",
+      "starRating": 4.33,
+      "threeStarRatings": "42",
+      "twoStarRatings": "21",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-07-07 20:33:26.021215",
+    "backendDocid": "com.paytomat",
+    "backendId": 3,
+    "creator": "Paytomat",
+    "descriptionHtml": "A simple and secure wallet to store, send and receive cryptocurrencies. <br><br>Paytomat wallet by DeepDive supports 14 cryptocurrencies: Bitcoin, Litecoin, Dash, Ethereum, Waves, NEM, EOS, ZCoin, Horizen (formerly ZenCash), Bitcore, BCD, Tron, Tezos, Binance Chain and tokens for 5 platforms (EOS, ERC20, TRC10, NEM, BNB).<br><br>- Safe and secure<br>The wallet is non-custodial, meaning the private keys never leave the secure storage of your phone. Remember it\u2019s crucial to have a backup of your seed (the 24 words you are given at install) somewhere safe. Until you have them you can restore your funds on any blockchain and using any wallet. <br><br>- Access DApps and games catalogue directly within the wallet - use your EOS account to open the world of decentralized apps.<br><br>- Transfer crypto to fiat<br>In supported countries you can access third-party services that will let you sell crypto for fiat instantly and transfer directly to your card. <br><br>- ERC20 tokens<br>You can easily add to your wallet and use any of the ERC20 tokens including the most popular like OMG, MKR, ZRX, BAT, REP, GNT, ICX.<br><br>- EOS account management and EOS tokens<br>Using just Paytomat wallet, you can easily open an EOS account paying in any main currency supported by Paytomat wallet, and manage its resources: RAM, CPU, NET. Same goes for EOS tokens - add them and manage as another currency in the list - projects like CET, DICE, Karma, EOSDAC, Everipedia, Horus etc.<br><br>- NEM tokens<br>Paytomat is the only multi-currency wallet to support NEM tokens (mosaics) natively.",
+    "descriptionShort": "A simple and secure wallet to send and receive cryptocurrencies and tokens.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "5720195",
+          "unknown3": 29
+        },
+        "developerAddress": "01133, Levi Ukrainki blvd, 21-201, Kyiv, Ukraine",
+        "developerEmail": "android@paytomat.com",
+        "developerName": "Paytomat",
+        "developerWebsite": "http://www.paytomat.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "5581675",
+            "versionCode": 13701
+          },
+          {
+            "fileType": 0,
+            "size": "89022",
+            "versionCode": 13701
+          },
+          {
+            "fileType": 0,
+            "size": "49498",
+            "versionCode": 13701
+          }
+        ],
+        "hasInstantLink": true,
+        "installationSize": "5720195",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "com.paytomat",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.CAMERA",
+          "android.permission.GET_TASKS",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.USE_BIOMETRIC",
+          "android.permission.USE_FINGERPRINT",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.android.vending.BILLING",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+        ],
+        "recentChangesHtml": "- Transaction fee amount now also shown in fiat<br>- Fixes and improvements",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "3 Jul 2020",
+        "versionCode": 13701,
+        "versionString": "1.37.0"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.paytomat",
+    "docType": 1,
+    "docid": "com.paytomat",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://lh3.googleusercontent.com/8JryhAoLZMjrYoyA5sAj31BDVmZhkHuCKYha_I9MPsVdWKcEkpYAoiB8fRDFPpCaEq8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://lh3.googleusercontent.com/phvu6RkqUuryGC51Q-aCoQ3KWgslHEYQPMuK4I6cLPvBXOB_lQEMFi5okgtdDYg12hK_",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/XXm2B9OLWzlIdSigRy21abPVTJ9-XF2sgok2q4LdNN9zZeCcUTZBLYJ7Whh6RjMivQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/UPGwkQ-ZnoZfsaqaqF2t3y1rjYa9qHmaFsLZY5pvlUNTGRYuCdM6Wx3I3QOliYPtNw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/hf5pjxPDLzKZwY8_kRzijQcoNRWqcPNLgcHUAPwb-2I9TaZg419pHld-UKQtOly747g",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/8LlovGIAp89XMxaCnpKHvufelL17obAOlUFr4ESdNvI6xWxre0nQlpVKHeuX1tRi7KQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/AiR_vWUhw8um7dndY2z6UHaOi8_Bw6mjQGUMjifZMUVkCahRpN1eFEZqxS6bgeOIpLY",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/dyAAUae1yv-7G-OZqp4m73XTSE3cLTloMmC6Wwlze4OyG0mtnbLomnDt-zKQhOU6mMUx",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://paytomat.com/pp",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://lh3.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "Digital purchases<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.paytomat",
+    "reviewsUrl": "rev?doc=com.paytomat&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.paytomat",
+    "title": "Paytomat Wallet: Bitcoin, Ethereum, EOS, tokens",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "\u20ac0.59 \u2013 \u20ac10.99 per item"
+          },
+          "label": "In-app purchases"
+        },
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "android@paytomat.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "01133, Levi Ukrainki blvd, 21-201, Kyiv, Ukraine"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "20 Jun 2018"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "388",
+      "fiveStarRatings": "459",
+      "fourStarRatings": "96",
+      "oneStarRatings": "125",
+      "ratingsCount": "741",
+      "starRating": 4.0,
+      "threeStarRatings": "37",
+      "twoStarRatings": "22",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-01-14 14:36:26.177172",
+    "backendDocid": "com.paytomat",
+    "backendId": 3,
+    "creator": "Paytomat",
+    "descriptionHtml": "A simple and secure wallet to store, send and receive cryptocurrencies. <br><br>Paytomat wallet by DeepDive supports 14 cryptocurrencies: Bitcoin, Litecoin, Dash, Ethereum, Waves, NEM, EOS, ZCoin, Horizen (formerly ZenCash), Bitcore, BCD, Tron, Tezos, Binance Chain and tokens for 5 platforms (EOS, ERC20, TRC10, NEM, BNB).<br><br>- Safe and secure<br>The wallet is non-custodial, meaning the private keys never leave the secure storage of your phone. Remember it\u2019s crucial to have a backup of your seed (the 24 words you are given at install) somewhere safe. Until you have them you can restore your funds on any blockchain and using any wallet. <br><br>- Access DApps and games catalogue directly within the wallet - use your EOS account to open the world of decentralized apps.<br><br>- Transfer crypto to fiat<br>In supported countries you can access third-party services that will let you sell crypto for fiat instantly and transfer directly to your card. <br><br>- ERC20 tokens<br>You can easily add to your wallet and use any of the ERC20 tokens including the most popular like OMG, MKR, ZRX, BAT, REP, GNT, ICX.<br><br>- EOS account management and EOS tokens<br>Using just Paytomat wallet, you can easily open an EOS account paying in any main currency supported by Paytomat wallet, and manage its resources: RAM, CPU, NET. Same goes for EOS tokens - add them and manage as another currency in the list - projects like CET, DICE, Karma, EOSDAC, Everipedia, Horus etc.<br><br>- NEM tokens<br>Paytomat is the only multi-currency wallet to support NEM tokens (mosaics) natively.",
+    "descriptionShort": "A simple and secure wallet to send and receive cryptocurrencies and tokens.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "5744960",
+          "unknown3": 29
+        },
+        "developerAddress": "01133, Levi Ukrainki blvd, 21-201, Kyiv, Ukraine",
+        "developerEmail": "android@paytomat.com",
+        "developerName": "Paytomat",
+        "developerWebsite": "http://www.paytomat.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "5589930",
+            "versionCode": 13710
+          },
+          {
+            "fileType": 0,
+            "size": "97277",
+            "versionCode": 13710
+          },
+          {
+            "fileType": 0,
+            "size": "57753",
+            "versionCode": 13710
+          }
+        ],
+        "hasInstantLink": true,
+        "installationSize": "5744960",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "com.paytomat",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.CAMERA",
+          "android.permission.GET_TASKS",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.USE_BIOMETRIC",
+          "android.permission.USE_FINGERPRINT",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.android.vending.BILLING",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+        ],
+        "recentChangesHtml": "- Transaction fee amount now also shown in fiat<br>- Fixes and improvements",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "14 Jan 2021",
+        "versionCode": 13710,
+        "versionString": "1.37.1"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.paytomat",
+    "docType": 1,
+    "docid": "com.paytomat",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/8JryhAoLZMjrYoyA5sAj31BDVmZhkHuCKYha_I9MPsVdWKcEkpYAoiB8fRDFPpCaEq8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/phvu6RkqUuryGC51Q-aCoQ3KWgslHEYQPMuK4I6cLPvBXOB_lQEMFi5okgtdDYg12hK_",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/XXm2B9OLWzlIdSigRy21abPVTJ9-XF2sgok2q4LdNN9zZeCcUTZBLYJ7Whh6RjMivQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/UPGwkQ-ZnoZfsaqaqF2t3y1rjYa9qHmaFsLZY5pvlUNTGRYuCdM6Wx3I3QOliYPtNw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/hf5pjxPDLzKZwY8_kRzijQcoNRWqcPNLgcHUAPwb-2I9TaZg419pHld-UKQtOly747g",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/8LlovGIAp89XMxaCnpKHvufelL17obAOlUFr4ESdNvI6xWxre0nQlpVKHeuX1tRi7KQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/AiR_vWUhw8um7dndY2z6UHaOi8_Bw6mjQGUMjifZMUVkCahRpN1eFEZqxS6bgeOIpLY",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/dyAAUae1yv-7G-OZqp4m73XTSE3cLTloMmC6Wwlze4OyG0mtnbLomnDt-zKQhOU6mMUx",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://paytomat.com/pp",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "Digital purchases<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.paytomat",
+    "reviewsUrl": "rev?doc=com.paytomat&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.paytomat",
+    "title": "Paytomat Wallet: Bitcoin, Ethereum, EOS, tokens",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "\u20ac0.59 \u2013 \u20ac10.99 per item"
+          },
+          "label": "In-app purchases"
+        },
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "android@paytomat.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "01133, Levi Ukrainki blvd, 21-201, Kyiv, Ukraine"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "20 Jun 2018"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "391",
+      "fiveStarRatings": "486",
+      "fourStarRatings": "97",
+      "oneStarRatings": "119",
+      "ratingsCount": "748",
+      "starRating": 4.1,
+      "threeStarRatings": "37",
+      "twoStarRatings": "7",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-02-01 15:05:11.943958",
+    "backendDocid": "com.paytomat",
+    "backendId": 3,
+    "creator": "Paytomat",
+    "descriptionHtml": "A simple and secure wallet to store, send and receive cryptocurrencies. <br><br>Paytomat wallet by DeepDive supports 14 cryptocurrencies: Bitcoin, Litecoin, Dash, Ethereum, Waves, NEM, EOS, ZCoin, Horizen (formerly ZenCash), Bitcore, BCD, Tron, Tezos, Binance Chain and tokens for 5 platforms (EOS, ERC20, TRC10, NEM, BNB).<br><br>- Safe and secure<br>The wallet is non-custodial, meaning the private keys never leave the secure storage of your phone. Remember it\u2019s crucial to have a backup of your seed (the 24 words you are given at install) somewhere safe. Until you have them you can restore your funds on any blockchain and using any wallet. <br><br>- Access DApps and games catalogue directly within the wallet - use your EOS account to open the world of decentralized apps.<br><br>- Transfer crypto to fiat<br>In supported countries you can access third-party services that will let you sell crypto for fiat instantly and transfer directly to your card. <br><br>- ERC20 tokens<br>You can easily add to your wallet and use any of the ERC20 tokens including the most popular like OMG, MKR, ZRX, BAT, REP, GNT, ICX.<br><br>- EOS account management and EOS tokens<br>Using just Paytomat wallet, you can easily open an EOS account paying in any main currency supported by Paytomat wallet, and manage its resources: RAM, CPU, NET. Same goes for EOS tokens - add them and manage as another currency in the list - projects like CET, DICE, Karma, EOSDAC, Everipedia, Horus etc.<br><br>- NEM tokens<br>Paytomat is the only multi-currency wallet to support NEM tokens (mosaics) natively.",
+    "descriptionShort": "A simple and secure wallet to send and receive cryptocurrencies and tokens.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "5724154",
+          "unknown3": 29
+        },
+        "developerAddress": "01133, Levi Ukrainki blvd, 21-201, Kyiv, Ukraine",
+        "developerEmail": "android@paytomat.com",
+        "developerName": "Paytomat",
+        "developerWebsite": "http://www.paytomat.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "5569124",
+            "versionCode": 13720
+          },
+          {
+            "fileType": 0,
+            "size": "97277",
+            "versionCode": 13720
+          },
+          {
+            "fileType": 0,
+            "size": "57753",
+            "versionCode": 13720
+          }
+        ],
+        "hasInstantLink": true,
+        "installationSize": "5724154",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "com.paytomat",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.CAMERA",
+          "android.permission.GET_TASKS",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.USE_BIOMETRIC",
+          "android.permission.USE_FINGERPRINT",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.android.vending.BILLING",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+        ],
+        "recentChangesHtml": "- Transaction fee amount now also shown in fiat<br>- Fixes and improvements",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "29 Jan 2021",
+        "versionCode": 13720,
+        "versionString": "1.37.2"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.paytomat",
+    "docType": 1,
+    "docid": "com.paytomat",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/8JryhAoLZMjrYoyA5sAj31BDVmZhkHuCKYha_I9MPsVdWKcEkpYAoiB8fRDFPpCaEq8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/phvu6RkqUuryGC51Q-aCoQ3KWgslHEYQPMuK4I6cLPvBXOB_lQEMFi5okgtdDYg12hK_",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/XXm2B9OLWzlIdSigRy21abPVTJ9-XF2sgok2q4LdNN9zZeCcUTZBLYJ7Whh6RjMivQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/UPGwkQ-ZnoZfsaqaqF2t3y1rjYa9qHmaFsLZY5pvlUNTGRYuCdM6Wx3I3QOliYPtNw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/hf5pjxPDLzKZwY8_kRzijQcoNRWqcPNLgcHUAPwb-2I9TaZg419pHld-UKQtOly747g",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/8LlovGIAp89XMxaCnpKHvufelL17obAOlUFr4ESdNvI6xWxre0nQlpVKHeuX1tRi7KQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/AiR_vWUhw8um7dndY2z6UHaOi8_Bw6mjQGUMjifZMUVkCahRpN1eFEZqxS6bgeOIpLY",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/dyAAUae1yv-7G-OZqp4m73XTSE3cLTloMmC6Wwlze4OyG0mtnbLomnDt-zKQhOU6mMUx",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://paytomat.com/pp",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "Digital purchases<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.paytomat",
+    "reviewsUrl": "rev?doc=com.paytomat&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.paytomat",
+    "title": "Paytomat Wallet: Bitcoin, Ethereum, EOS, tokens",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "\u20ac0.59 \u2013 \u20ac10.99 per item"
+          },
+          "label": "In-app purchases"
+        },
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "android@paytomat.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "01133, Levi Ukrainki blvd, 21-201, Kyiv, Ukraine"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "20 Jun 2018"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  }
+]

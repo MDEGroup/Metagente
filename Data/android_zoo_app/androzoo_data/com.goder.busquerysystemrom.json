@@ -1,0 +1,2169 @@
+[
+  {
+    "aggregateRating": {
+      "commentCount": "4",
+      "fiveStarRatings": "2",
+      "fourStarRatings": "2",
+      "oneStarRatings": "0",
+      "ratingsCount": "6",
+      "starRating": 4.0,
+      "threeStarRatings": "2",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-06-05 19:56:33.807115",
+    "backendDocid": "com.goder.busquerysystemrom",
+    "backendId": 3,
+    "creator": "Goder Hsu",
+    "descriptionHtml": "Provide timetable for Rome Transportation (bus/train/tram) <br><br>1. Nearby Stops<br>- Provid all nearby bus stops sorted by the distance from current location<br>- Click on a specific bus stop to display all bus routes via the stop<br>- Click on a specific route to further display all stop sequence and their estimated arrival times<br>- By clicking on a specific stop, you can further explore the stop nearby POI, such as food, restaurants, attractions and other store information.<br><br>2. Bus Routes Information<br>- Searching specific bus information by using route#, stop#, or partial stop name<br>- Provide frequently used bus route for quickly selection.<br><br>3. Direction planning<br>- Provide the suggested traffic routes (walk, take bus, subway, train, etc.) between the desired departure and destination location<br>- Provide a well-planned route map to indicate the traffic types you need to use<br>- Use speech recognition to speed up the route planning<br>- Click on the destination to explore the nearby attractions around the destination, such as food, restaurants, attractions and other store information<br>- You can share the planned routes to a friend to his(her) LINE chat or EMAIL<br><br>4. Nearby POI Search<br>- Provide nearby POI search<br>- The POI categories include snacks, coffee snacks, restaurants, MRT station, Bike point, train station, attractions, hospitals, supermarkets, beauty salons, hotels, clothing stores, bars, shoe stores, Shopping malls, schools, flower shops, electrical shops, banks, banks, travel agencies, bookstores, post offices, bicycle lines, steam locomotive, furniture, housing agents, pet shops, aquariums, etc.<br>- Use voice input to query specific stores such as McDonald&#39;s, Starbucks, ...<br>- Provide detailed information of a store, such as photos, rating score, address, URL,openning hours, comments, etc.<br>- Searching radius ranging from  500 meters to 7km can be set as your need<br>- Provide POI maps and street views. It also indicates the best route from current location (walking or cycling)<br>- Support search of cities or landmarks all over the world<br>- You can share POI information to a friend to his(her) LINE chat or EMAIL",
+    "descriptionShort": "Realtime Bus/Train Arrival Time in Rome, Nearby POI Search, Direction Planning",
+    "details": {
+      "appDetails": {
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "8081060",
+          "unknown3": 28
+        },
+        "developerEmail": "goder.hsu@gmail.com",
+        "developerName": "Goder Hsu",
+        "developerWebsite": "http://goder.tech/apps",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "8081060",
+            "versionCode": 323
+          }
+        ],
+        "installationSize": "8081060",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "com.goder.busquerysystemrom",
+        "permission": [
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.LOCATION_HARDWARE",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.SYSTEM_ALERT_WINDOW",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE"
+        ],
+        "recentChangesHtml": "Ver1.323 Add user designed route style(color)(4/29)<br>Ver1.297 Fixed bugs for App crash on some devices(11/7)<br>Ver1.295 Update all bus route data(10/28)<br>Ver1.291 Support for Android 9.0(10/16)<br>Ver1.268 Fixed bug for screen sometimes auto scroll up problem when querying bus routes.(6/3)<br>Ver1.253 Fixed bug to reduce loading time on App start<br>Ver1.250 Add map search function for nearby bus stop(2/2)<br>Ver1.247 Add favorite route/stop grouping function(1/11)",
+        "unstable": false,
+        "uploadDate": "29 Apr 2020",
+        "versionCode": 323,
+        "versionString": "1.323"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.goder.busquerysystemrom",
+    "docType": 1,
+    "docid": "com.goder.busquerysystemrom",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://lh3.googleusercontent.com/TuRkpcJkDQZuJvjxxAWpujxoKXlym6JvQl8WZwyWzNx3TE7ycvssXEBp0zK7WSFnEQD0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://lh3.googleusercontent.com/RURX1QiwDdGS4WriimVX5Ez9gvAENPlSKKs5uShxGaGYy8hTuPiwsXEHNexgmqXP7A",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/XfxJESK1TmbE726Tw9R2B2EdT1ecNo-hw_iBvExmxRmgUbsgHxuOQxrXd2JcolL_pWk",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/ZtKIqxNyJ-9Ta3f1FYi2juulN-AREbnkRn3o9Qkxc4pOjaOBO9VRd7wK1lG7Q3IV_A",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/VJtjCZTtBi_vrvrdeIlWPyMJoElXEAJmVddDHbJUuS4cTTAFCMuMswhnZqIYgZ-48YKf",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/AYhw-eJ1tyF2VQgAe55uS5ZjNYhh_7h-wiam92RWHPWgsI9gRKZWM0tnEcS1MmLwyIyJ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/1yXnLEf9jW6nAwvZ54V5KjiObkGn_xg8jQhudCoRRyqHwn_sBtdSEPktN3Ll8TYNsg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/76qQDqJbydLH3i74RfHMkFDPY-U-lSM30OuCBaOC6sSNRzCOUi4F2Tg0ucIU3Pctf3eV",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/M7kKNPz7YEWXCtqxSO84lLxogxShAFqcY2bN2GCuR4j5_RoIdmtHfuE954IjgLUl8PE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/cBLqtgvOA19R4kAiLoz46XGNfJn7tiHVJaiahoao36RYKXhLBEakazNu_Rvs_Qvdkl8",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://lh3.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.goder.busquerysystemrom",
+    "reviewsUrl": "rev?doc=com.goder.busquerysystemrom&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.goder.busquerysystemrom",
+    "title": "Rome Bus Realtime Tracker",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "goder.hsu@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "14 May 2018"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "4",
+      "fiveStarRatings": "3",
+      "fourStarRatings": "2",
+      "oneStarRatings": "0",
+      "ratingsCount": "8",
+      "starRating": 3.875,
+      "threeStarRatings": "2",
+      "twoStarRatings": "1",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-01-21 03:38:04.446419",
+    "backendDocid": "com.goder.busquerysystemrom",
+    "backendId": 3,
+    "creator": "Goder Hsu",
+    "descriptionHtml": "Provide timetable for Rome Transportation (bus/train/tram) <br><br>1. Nearby Stops<br>- Provid all nearby bus stops sorted by the distance from current location<br>- Click on a specific bus stop to display all bus routes via the stop<br>- Click on a specific route to further display all stop sequence and their estimated arrival times<br>- By clicking on a specific stop, you can further explore the stop nearby POI, such as food, restaurants, attractions and other store information.<br><br>2. Bus Routes Information<br>- Searching specific bus information by using route#, stop#, or partial stop name<br>- Provide frequently used bus route for quickly selection.<br><br>3. Direction planning<br>- Provide the suggested traffic routes (walk, take bus, subway, train, etc.) between the desired departure and destination location<br>- Provide a well-planned route map to indicate the traffic types you need to use<br>- Use speech recognition to speed up the route planning<br>- Click on the destination to explore the nearby attractions around the destination, such as food, restaurants, attractions and other store information<br>- You can share the planned routes to a friend to his(her) LINE chat or EMAIL<br><br>4. Nearby POI Search<br>- Provide nearby POI search<br>- The POI categories include snacks, coffee snacks, restaurants, MRT station, Bike point, train station, attractions, hospitals, supermarkets, beauty salons, hotels, clothing stores, bars, shoe stores, Shopping malls, schools, flower shops, electrical shops, banks, travel agencies, bookstores, post offices, bicycle lines, steam locomotive, furniture, housing agents, pet shops, aquariums, etc.<br>- Use voice input to query specific stores such as McDonald&#39;s, Starbucks, ...<br>- Provide detailed information of a store, such as photos, rating score, address, URL,openning hours, comments, etc.<br>- Searching radius ranging from  500 meters to 7km can be set as your need<br>- Provide POI maps and street views. It also indicates the best route from current location (walking or cycling)<br>- Support search of cities or landmarks all over the world<br>- You can share POI information to a friend to his(her) LINE chat or EMAIL",
+    "descriptionShort": "Realtime Bus/Train Arrival Time in Rome, Nearby POI Search, Direction Planning",
+    "details": {
+      "appDetails": {
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "8659042",
+          "unknown3": 29
+        },
+        "developerEmail": "goder.hsu@gmail.com",
+        "developerName": "Goder Hsu",
+        "developerWebsite": "http://goder.tech/apps",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "8659042",
+            "versionCode": 365
+          }
+        ],
+        "installationSize": "8659042",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "com.goder.busquerysystemrom",
+        "permission": [
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.SYSTEM_ALERT_WINDOW",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE"
+        ],
+        "recentChangesHtml": "Ver1.365 Remove some background service to reduce power consumption.(1/18)<br>Ver1.323 Add user designed route style(color)(4/29)<br>Ver1.297 Fixed bugs for App crash on some devices(11/7)<br>Ver1.295 Update all bus route data(10/28)<br>Ver1.291 Support for Android 9.0(10/16)<br>Ver1.268 Fixed bug for screen sometimes auto scroll up problem when querying bus routes.(6/3)<br>Ver1.253 Fixed bug to reduce loading time on App start",
+        "unstable": false,
+        "uploadDate": "19 Jan 2021",
+        "versionCode": 365,
+        "versionString": "1.365"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.goder.busquerysystemrom",
+    "docType": 1,
+    "docid": "com.goder.busquerysystemrom",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/TuRkpcJkDQZuJvjxxAWpujxoKXlym6JvQl8WZwyWzNx3TE7ycvssXEBp0zK7WSFnEQD0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/RURX1QiwDdGS4WriimVX5Ez9gvAENPlSKKs5uShxGaGYy8hTuPiwsXEHNexgmqXP7A",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/XfxJESK1TmbE726Tw9R2B2EdT1ecNo-hw_iBvExmxRmgUbsgHxuOQxrXd2JcolL_pWk",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ZtKIqxNyJ-9Ta3f1FYi2juulN-AREbnkRn3o9Qkxc4pOjaOBO9VRd7wK1lG7Q3IV_A",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/VJtjCZTtBi_vrvrdeIlWPyMJoElXEAJmVddDHbJUuS4cTTAFCMuMswhnZqIYgZ-48YKf",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/AYhw-eJ1tyF2VQgAe55uS5ZjNYhh_7h-wiam92RWHPWgsI9gRKZWM0tnEcS1MmLwyIyJ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/1yXnLEf9jW6nAwvZ54V5KjiObkGn_xg8jQhudCoRRyqHwn_sBtdSEPktN3Ll8TYNsg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/76qQDqJbydLH3i74RfHMkFDPY-U-lSM30OuCBaOC6sSNRzCOUi4F2Tg0ucIU3Pctf3eV",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/M7kKNPz7YEWXCtqxSO84lLxogxShAFqcY2bN2GCuR4j5_RoIdmtHfuE954IjgLUl8PE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/cBLqtgvOA19R4kAiLoz46XGNfJn7tiHVJaiahoao36RYKXhLBEakazNu_Rvs_Qvdkl8",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.goder.busquerysystemrom",
+    "reviewsUrl": "rev?doc=com.goder.busquerysystemrom&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.goder.busquerysystemrom",
+    "title": "Rome Bus Realtime Tracker",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Goder Hsu"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "goder.hsu@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "14 May 2018"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "4",
+      "fiveStarRatings": "4",
+      "fourStarRatings": "2",
+      "oneStarRatings": "0",
+      "ratingsCount": "9",
+      "starRating": 4.0,
+      "threeStarRatings": "2",
+      "twoStarRatings": "1",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-07-07 14:28:03.082932",
+    "backendDocid": "com.goder.busquerysystemrom",
+    "backendId": 3,
+    "creator": "Goder Hsu",
+    "descriptionHtml": "Provide timetable for Rome Transportation (bus/train/tram) <br><br>1. Nearby Stops<br>- Provid all nearby bus stops sorted by the distance from current location<br>- Click on a specific bus stop to display all bus routes via the stop<br>- Click on a specific route to further display all stop sequence and their estimated arrival times<br>- By clicking on a specific stop, you can further explore the stop nearby POI, such as food, restaurants, attractions and other store information.<br><br>2. Bus Routes Information<br>- Searching specific bus information by using route#, stop#, or partial stop name<br>- Provide frequently used bus route for quickly selection.<br><br>3. Direction planning<br>- Provide the suggested traffic routes (walk, take bus, subway, train, etc.) between the desired departure and destination location<br>- Provide a well-planned route map to indicate the traffic types you need to use<br>- Use speech recognition to speed up the route planning<br>- Click on the destination to explore the nearby attractions around the destination, such as food, restaurants, attractions and other store information<br>- You can share the planned routes to a friend to his(her) LINE chat or EMAIL<br><br>4. Nearby POI Search<br>- Provide nearby POI search<br>- The POI categories include snacks, coffee snacks, restaurants, MRT station, Bike point, train station, attractions, hospitals, supermarkets, beauty salons, hotels, clothing stores, bars, shoe stores, Shopping malls, schools, flower shops, electrical shops, banks, travel agencies, bookstores, post offices, bicycle lines, steam locomotive, furniture, housing agents, pet shops, aquariums, etc.<br>- Use voice input to query specific stores such as McDonald&#39;s, Starbucks, ...<br>- Provide detailed information of a store, such as photos, rating score, address, URL,openning hours, comments, etc.<br>- Searching radius ranging from  500 meters to 7km can be set as your need<br>- Provide POI maps and street views. It also indicates the best route from current location (walking or cycling)<br>- Support search of cities or landmarks all over the world<br>- You can share POI information to a friend to his(her) LINE chat or EMAIL",
+    "descriptionShort": "Realtime Bus/Train Arrival Time in Rome, Nearby POI Search, Direction Planning",
+    "details": {
+      "appDetails": {
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "9392159",
+          "unknown3": 29
+        },
+        "developerEmail": "goder.hsu@gmail.com",
+        "developerName": "Goder Hsu",
+        "developerWebsite": "http://goder.tech/apps",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "9392159",
+            "versionCode": 400
+          }
+        ],
+        "installationSize": "9392159",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "com.goder.busquerysystemrom",
+        "permission": [
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.SYSTEM_ALERT_WINDOW",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE"
+        ],
+        "recentChangesHtml": "Ver1.400 Modify bus arrival prediction algorithm(7/6)<br>Ver1.365 Remove some background service to reduce power consumption.(1/18)<br>Ver1.323 Add user designed route style(color)(4/29)<br>Ver1.297 Fixed bugs for App crash on some devices(11/7)<br>Ver1.295 Update all bus route data(10/28)<br>Ver1.291 Support for Android 9.0(10/16)<br>Ver1.268 Fixed bug for screen sometimes auto scroll up problem when querying bus routes.(6/3)<br>Ver1.253 Fixed bug to reduce loading time on App start",
+        "unstable": false,
+        "uploadDate": "5 Jul 2021",
+        "versionCode": 400,
+        "versionString": "1.400"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.goder.busquerysystemrom",
+    "docType": 1,
+    "docid": "com.goder.busquerysystemrom",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/TuRkpcJkDQZuJvjxxAWpujxoKXlym6JvQl8WZwyWzNx3TE7ycvssXEBp0zK7WSFnEQD0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/uR9S65VX2oQSU2kVBMX_y2_3TpnOnfVAsCWrua34Thj_Wsb01Y5n2iWj2-nzA8Ih3_8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/XfxJESK1TmbE726Tw9R2B2EdT1ecNo-hw_iBvExmxRmgUbsgHxuOQxrXd2JcolL_pWk",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ZtKIqxNyJ-9Ta3f1FYi2juulN-AREbnkRn3o9Qkxc4pOjaOBO9VRd7wK1lG7Q3IV_A",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/VJtjCZTtBi_vrvrdeIlWPyMJoElXEAJmVddDHbJUuS4cTTAFCMuMswhnZqIYgZ-48YKf",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/AYhw-eJ1tyF2VQgAe55uS5ZjNYhh_7h-wiam92RWHPWgsI9gRKZWM0tnEcS1MmLwyIyJ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/1yXnLEf9jW6nAwvZ54V5KjiObkGn_xg8jQhudCoRRyqHwn_sBtdSEPktN3Ll8TYNsg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/76qQDqJbydLH3i74RfHMkFDPY-U-lSM30OuCBaOC6sSNRzCOUi4F2Tg0ucIU3Pctf3eV",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/M7kKNPz7YEWXCtqxSO84lLxogxShAFqcY2bN2GCuR4j5_RoIdmtHfuE954IjgLUl8PE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/cBLqtgvOA19R4kAiLoz46XGNfJn7tiHVJaiahoao36RYKXhLBEakazNu_Rvs_Qvdkl8",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.goder.busquerysystemrom",
+    "reviewsUrl": "rev?doc=com.goder.busquerysystemrom&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.goder.busquerysystemrom",
+    "title": "Rome Bus Realtime Tracker",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "goder.hsu@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "14 May 2018"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "4",
+      "fiveStarRatings": "4",
+      "fourStarRatings": "2",
+      "oneStarRatings": "0",
+      "ratingsCount": "9",
+      "starRating": 4.0,
+      "threeStarRatings": "2",
+      "twoStarRatings": "1",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-07-10 17:36:56.334050",
+    "backendDocid": "com.goder.busquerysystemrom",
+    "backendId": 3,
+    "creator": "Goder Hsu",
+    "descriptionHtml": "Provide timetable for Rome Transportation (bus/train/tram) <br><br>1. Nearby Stops<br>- Provid all nearby bus stops sorted by the distance from current location<br>- Click on a specific bus stop to display all bus routes via the stop<br>- Click on a specific route to further display all stop sequence and their estimated arrival times<br>- By clicking on a specific stop, you can further explore the stop nearby POI, such as food, restaurants, attractions and other store information.<br><br>2. Bus Routes Information<br>- Searching specific bus information by using route#, stop#, or partial stop name<br>- Provide frequently used bus route for quickly selection.<br><br>3. Direction planning<br>- Provide the suggested traffic routes (walk, take bus, subway, train, etc.) between the desired departure and destination location<br>- Provide a well-planned route map to indicate the traffic types you need to use<br>- Use speech recognition to speed up the route planning<br>- Click on the destination to explore the nearby attractions around the destination, such as food, restaurants, attractions and other store information<br>- You can share the planned routes to a friend to his(her) LINE chat or EMAIL<br><br>4. Nearby POI Search<br>- Provide nearby POI search<br>- The POI categories include snacks, coffee snacks, restaurants, MRT station, Bike point, train station, attractions, hospitals, supermarkets, beauty salons, hotels, clothing stores, bars, shoe stores, Shopping malls, schools, flower shops, electrical shops, banks, travel agencies, bookstores, post offices, bicycle lines, steam locomotive, furniture, housing agents, pet shops, aquariums, etc.<br>- Use voice input to query specific stores such as McDonald&#39;s, Starbucks, ...<br>- Provide detailed information of a store, such as photos, rating score, address, URL,openning hours, comments, etc.<br>- Searching radius ranging from  500 meters to 7km can be set as your need<br>- Provide POI maps and street views. It also indicates the best route from current location (walking or cycling)<br>- Support search of cities or landmarks all over the world<br>- You can share POI information to a friend to his(her) LINE chat or EMAIL",
+    "descriptionShort": "Realtime Bus/Train Arrival Time in Rome, Nearby POI Search, Direction Planning",
+    "details": {
+      "appDetails": {
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "9396325",
+          "unknown3": 30
+        },
+        "developerEmail": "goder.hsu@gmail.com",
+        "developerName": "Goder Hsu",
+        "developerWebsite": "http://goder.tech/apps",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "9396325",
+            "versionCode": 402
+          }
+        ],
+        "installationSize": "9396325",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "com.goder.busquerysystemrom",
+        "permission": [
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.SYSTEM_ALERT_WINDOW",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE"
+        ],
+        "recentChangesHtml": "Ver1.402 Add bus arrival notification function(7/10)",
+        "unstable": false,
+        "uploadDate": "10 Jul 2021",
+        "versionCode": 402,
+        "versionString": "1.402"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.goder.busquerysystemrom",
+    "docType": 1,
+    "docid": "com.goder.busquerysystemrom",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/TuRkpcJkDQZuJvjxxAWpujxoKXlym6JvQl8WZwyWzNx3TE7ycvssXEBp0zK7WSFnEQD0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/uR9S65VX2oQSU2kVBMX_y2_3TpnOnfVAsCWrua34Thj_Wsb01Y5n2iWj2-nzA8Ih3_8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/XfxJESK1TmbE726Tw9R2B2EdT1ecNo-hw_iBvExmxRmgUbsgHxuOQxrXd2JcolL_pWk",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ZtKIqxNyJ-9Ta3f1FYi2juulN-AREbnkRn3o9Qkxc4pOjaOBO9VRd7wK1lG7Q3IV_A",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/VJtjCZTtBi_vrvrdeIlWPyMJoElXEAJmVddDHbJUuS4cTTAFCMuMswhnZqIYgZ-48YKf",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/AYhw-eJ1tyF2VQgAe55uS5ZjNYhh_7h-wiam92RWHPWgsI9gRKZWM0tnEcS1MmLwyIyJ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/1yXnLEf9jW6nAwvZ54V5KjiObkGn_xg8jQhudCoRRyqHwn_sBtdSEPktN3Ll8TYNsg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/76qQDqJbydLH3i74RfHMkFDPY-U-lSM30OuCBaOC6sSNRzCOUi4F2Tg0ucIU3Pctf3eV",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/M7kKNPz7YEWXCtqxSO84lLxogxShAFqcY2bN2GCuR4j5_RoIdmtHfuE954IjgLUl8PE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/cBLqtgvOA19R4kAiLoz46XGNfJn7tiHVJaiahoao36RYKXhLBEakazNu_Rvs_Qvdkl8",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.goder.busquerysystemrom",
+    "reviewsUrl": "rev?doc=com.goder.busquerysystemrom&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.goder.busquerysystemrom",
+    "title": "Rome Bus Realtime Tracker",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Goder Hsu"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "goder.hsu@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "14 May 2018"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "4",
+      "fiveStarRatings": "4",
+      "fourStarRatings": "2",
+      "oneStarRatings": "0",
+      "ratingsCount": "9",
+      "starRating": 4.0,
+      "threeStarRatings": "2",
+      "twoStarRatings": "1",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-07-18 04:43:07.818787",
+    "backendDocid": "com.goder.busquerysystemrom",
+    "backendId": 3,
+    "creator": "Goder Hsu",
+    "descriptionHtml": "Provide timetable for Rome Transportation (bus/train/tram) <br><br>1. Nearby Stops<br>- Provid all nearby bus stops sorted by the distance from current location<br>- Click on a specific bus stop to display all bus routes via the stop<br>- Click on a specific route to further display all stop sequence and their estimated arrival times<br>- By clicking on a specific stop, you can further explore the stop nearby POI, such as food, restaurants, attractions and other store information.<br><br>2. Bus Routes Information<br>- Searching specific bus information by using route#, stop#, or partial stop name<br>- Provide frequently used bus route for quickly selection.<br><br>3. Direction planning<br>- Provide the suggested traffic routes (walk, take bus, subway, train, etc.) between the desired departure and destination location<br>- Provide a well-planned route map to indicate the traffic types you need to use<br>- Use speech recognition to speed up the route planning<br>- Click on the destination to explore the nearby attractions around the destination, such as food, restaurants, attractions and other store information<br>- You can share the planned routes to a friend to his(her) LINE chat or EMAIL<br><br>4. Nearby POI Search<br>- Provide nearby POI search<br>- The POI categories include snacks, coffee snacks, restaurants, MRT station, Bike point, train station, attractions, hospitals, supermarkets, beauty salons, hotels, clothing stores, bars, shoe stores, Shopping malls, schools, flower shops, electrical shops, banks, travel agencies, bookstores, post offices, bicycle lines, steam locomotive, furniture, housing agents, pet shops, aquariums, etc.<br>- Use voice input to query specific stores such as McDonald&#39;s, Starbucks, ...<br>- Provide detailed information of a store, such as photos, rating score, address, URL,openning hours, comments, etc.<br>- Searching radius ranging from  500 meters to 7km can be set as your need<br>- Provide POI maps and street views. It also indicates the best route from current location (walking or cycling)<br>- Support search of cities or landmarks all over the world<br>- You can share POI information to a friend to his(her) LINE chat or EMAIL",
+    "descriptionShort": "Realtime Bus/Train Arrival Time in Rome, Nearby POI Search, Direction Planning",
+    "details": {
+      "appDetails": {
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "9408999",
+          "unknown3": 30
+        },
+        "developerEmail": "goder.hsu@gmail.com",
+        "developerName": "Goder Hsu",
+        "developerWebsite": "http://goder.tech/apps",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "9408999",
+            "versionCode": 403
+          }
+        ],
+        "installationSize": "9408999",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "com.goder.busquerysystemrom",
+        "permission": [
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.SYSTEM_ALERT_WINDOW",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE"
+        ],
+        "recentChangesHtml": "Ver1.403 Add bus map (location) function(7/15)<br>Ver1.402 Add bus arrival notification function(7/10)",
+        "unstable": false,
+        "uploadDate": "14 Jul 2021",
+        "versionCode": 403,
+        "versionString": "1.403"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.goder.busquerysystemrom",
+    "docType": 1,
+    "docid": "com.goder.busquerysystemrom",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/TuRkpcJkDQZuJvjxxAWpujxoKXlym6JvQl8WZwyWzNx3TE7ycvssXEBp0zK7WSFnEQD0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/uR9S65VX2oQSU2kVBMX_y2_3TpnOnfVAsCWrua34Thj_Wsb01Y5n2iWj2-nzA8Ih3_8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/XfxJESK1TmbE726Tw9R2B2EdT1ecNo-hw_iBvExmxRmgUbsgHxuOQxrXd2JcolL_pWk",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ZtKIqxNyJ-9Ta3f1FYi2juulN-AREbnkRn3o9Qkxc4pOjaOBO9VRd7wK1lG7Q3IV_A",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/VJtjCZTtBi_vrvrdeIlWPyMJoElXEAJmVddDHbJUuS4cTTAFCMuMswhnZqIYgZ-48YKf",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/AYhw-eJ1tyF2VQgAe55uS5ZjNYhh_7h-wiam92RWHPWgsI9gRKZWM0tnEcS1MmLwyIyJ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/1yXnLEf9jW6nAwvZ54V5KjiObkGn_xg8jQhudCoRRyqHwn_sBtdSEPktN3Ll8TYNsg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/76qQDqJbydLH3i74RfHMkFDPY-U-lSM30OuCBaOC6sSNRzCOUi4F2Tg0ucIU3Pctf3eV",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/M7kKNPz7YEWXCtqxSO84lLxogxShAFqcY2bN2GCuR4j5_RoIdmtHfuE954IjgLUl8PE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/cBLqtgvOA19R4kAiLoz46XGNfJn7tiHVJaiahoao36RYKXhLBEakazNu_Rvs_Qvdkl8",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.goder.busquerysystemrom",
+    "reviewsUrl": "rev?doc=com.goder.busquerysystemrom&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.goder.busquerysystemrom",
+    "title": "Rome Bus Realtime Tracker",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "goder.hsu@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "14 May 2018"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "7",
+      "fiveStarRatings": "8",
+      "fourStarRatings": "2",
+      "oneStarRatings": "0",
+      "ratingsCount": "15",
+      "starRating": 4.0666666,
+      "threeStarRatings": "3",
+      "twoStarRatings": "2",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-09-17 06:08:49.436209",
+    "backendDocid": "com.goder.busquerysystemrom",
+    "backendId": 3,
+    "creator": "Goder Hsu",
+    "descriptionHtml": "Provide timetable for Rome Transportation (bus/train/tram) <br><br>1. Nearby Stops<br>- Provid all nearby bus stops sorted by the distance from current location<br>- Click on a specific bus stop to display all bus routes via the stop<br>- Click on a specific route to further display all stop sequence and their estimated arrival times<br>- By clicking on a specific stop, you can further explore the stop nearby POI, such as food, restaurants, attractions and other store information.<br><br>2. Bus Routes Information<br>- Searching specific bus information by using route#, stop#, or partial stop name<br>- Provide frequently used bus route for quickly selection.<br><br>3. Direction planning<br>- Provide the suggested traffic routes (walk, take bus, subway, train, etc.) between the desired departure and destination location<br>- Provide a well-planned route map to indicate the traffic types you need to use<br>- Use speech recognition to speed up the route planning<br>- Click on the destination to explore the nearby attractions around the destination, such as food, restaurants, attractions and other store information<br>- You can share the planned routes to a friend to his(her) LINE chat or EMAIL<br><br>4. Nearby POI Search<br>- Provide nearby POI search<br>- The POI categories include snacks, coffee snacks, restaurants, MRT station, Bike point, train station, attractions, hospitals, supermarkets, beauty salons, hotels, clothing stores, bars, shoe stores, Shopping malls, schools, flower shops, electrical shops, banks, travel agencies, bookstores, post offices, bicycle lines, steam locomotive, furniture, housing agents, pet shops, aquariums, etc.<br>- Use voice input to query specific stores such as McDonald&#39;s, Starbucks, ...<br>- Provide detailed information of a store, such as photos, rating score, address, URL,openning hours, comments, etc.<br>- Searching radius ranging from  500 meters to 7km can be set as your need<br>- Provide POI maps and street views. It also indicates the best route from current location (walking or cycling)<br>- Support search of cities or landmarks all over the world<br>- You can share POI information to a friend to his(her) LINE chat or EMAIL",
+    "descriptionShort": "Realtime Bus/Train Arrival Time in Rome, Nearby POI Search, Direction Planning",
+    "details": {
+      "appDetails": {
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "10433126",
+          "unknown3": 30
+        },
+        "developerEmail": "goder.hsu@gmail.com",
+        "developerName": "Goder Hsu",
+        "developerWebsite": "http://goder.tech/apps",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "10433126",
+            "versionCode": 450
+          }
+        ],
+        "installationSize": "10433126",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "com.goder.busquerysystemrom",
+        "permission": [
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.SYSTEM_ALERT_WINDOW",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": "Ver1.450 Add stop filter function when searching in stop map for finding bus routes via a specific stop.(9/17)<br>Ver1.403 Add bus map (location) function(7/15)<br>Ver1.402 Add bus arrival notification function(7/10)",
+        "unstable": true,
+        "uploadDate": "16 Sept 2022",
+        "versionCode": 450,
+        "versionString": "1.450"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.goder.busquerysystemrom",
+    "docType": 1,
+    "docid": "com.goder.busquerysystemrom",
+    "image": [
+      {
+        "color": "#FEFEFE",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/TuRkpcJkDQZuJvjxxAWpujxoKXlym6JvQl8WZwyWzNx3TE7ycvssXEBp0zK7WSFnEQD0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#000000",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/uR9S65VX2oQSU2kVBMX_y2_3TpnOnfVAsCWrua34Thj_Wsb01Y5n2iWj2-nzA8Ih3_8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/XfxJESK1TmbE726Tw9R2B2EdT1ecNo-hw_iBvExmxRmgUbsgHxuOQxrXd2JcolL_pWk",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ZtKIqxNyJ-9Ta3f1FYi2juulN-AREbnkRn3o9Qkxc4pOjaOBO9VRd7wK1lG7Q3IV_A",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/VJtjCZTtBi_vrvrdeIlWPyMJoElXEAJmVddDHbJUuS4cTTAFCMuMswhnZqIYgZ-48YKf",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/AYhw-eJ1tyF2VQgAe55uS5ZjNYhh_7h-wiam92RWHPWgsI9gRKZWM0tnEcS1MmLwyIyJ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/1yXnLEf9jW6nAwvZ54V5KjiObkGn_xg8jQhudCoRRyqHwn_sBtdSEPktN3Ll8TYNsg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/76qQDqJbydLH3i74RfHMkFDPY-U-lSM30OuCBaOC6sSNRzCOUi4F2Tg0ucIU3Pctf3eV",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/M7kKNPz7YEWXCtqxSO84lLxogxShAFqcY2bN2GCuR4j5_RoIdmtHfuE954IjgLUl8PE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/cBLqtgvOA19R4kAiLoz46XGNfJn7tiHVJaiahoao36RYKXhLBEakazNu_Rvs_Qvdkl8",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://goder.tech/policy/privacypolicy.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.goder.busquerysystemrom",
+    "reviewsUrl": "rev?doc=com.goder.busquerysystemrom&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.goder.busquerysystemrom",
+    "title": "Rome Bus Realtime Tracker",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "goder.hsu@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "14 May 2018"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-10-15 20:59:45.787857",
+    "backendDocid": "com.goder.busquerysystemrom",
+    "backendId": 3,
+    "creator": "Goder Hsu",
+    "descriptionHtml": "Provide timetable for Rome Transportation (bus/train/tram) <br><br>1. Nearby Stops<br>- Provid all nearby bus stops sorted by the distance from current location<br>- Click on a specific bus stop to display all bus routes via the stop<br>- Click on a specific route to further display all stop sequence and their estimated arrival times<br>- By clicking on a specific stop, you can further explore the stop nearby POI, such as food, restaurants, attractions and other store information.<br><br>2. Bus Routes Information<br>- Searching specific bus information by using route#, stop#, or partial stop name<br>- Provide frequently used bus route for quickly selection.<br><br>3. Direction planning<br>- Provide the suggested traffic routes (walk, take bus, subway, train, etc.) between the desired departure and destination location<br>- Provide a well-planned route map to indicate the traffic types you need to use<br>- Use speech recognition to speed up the route planning<br>- Click on the destination to explore the nearby attractions around the destination, such as food, restaurants, attractions and other store information<br>- You can share the planned routes to a friend to his(her) LINE chat or EMAIL<br><br>4. Nearby POI Search<br>- Provide nearby POI search<br>- The POI categories include snacks, coffee snacks, restaurants, MRT station, Bike point, train station, attractions, hospitals, supermarkets, beauty salons, hotels, clothing stores, bars, shoe stores, Shopping malls, schools, flower shops, electrical shops, banks, travel agencies, bookstores, post offices, bicycle lines, steam locomotive, furniture, housing agents, pet shops, aquariums, etc.<br>- Use voice input to query specific stores such as McDonald&#39;s, Starbucks, ...<br>- Provide detailed information of a store, such as photos, rating score, address, URL,openning hours, comments, etc.<br>- Searching radius ranging from  500 meters to 7km can be set as your need<br>- Provide POI maps and street views. It also indicates the best route from current location (walking or cycling)<br>- Support search of cities or landmarks all over the world<br>- You can share POI information to a friend to his(her) LINE chat or EMAIL",
+    "descriptionShort": "Realtime Bus/Train Arrival Time in Rome, Nearby POI Search, Direction Planning",
+    "details": {
+      "appDetails": {
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "10441503",
+          "unknown3": 30
+        },
+        "developerEmail": "goder.hsu@gmail.com",
+        "developerName": "Goder Hsu",
+        "developerWebsite": "http://goder.tech/apps",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "10441503",
+            "versionCode": 452
+          }
+        ],
+        "installationSize": "10441503",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "com.goder.busquerysystemrom",
+        "permission": [
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.SYSTEM_ALERT_WINDOW",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": "Ver1.452 Add static bus schedule menu item in querying bus routes.(10/13)<br>Ver1.450 Add stop filter function when searching in stop map for finding bus routes via a specific stop.(9/17)<br>Ver1.403 Add bus map (location) function(7/15)<br>Ver1.402 Add bus arrival notification function(7/10)",
+        "unstable": true,
+        "uploadDate": "12 Oct 2022",
+        "versionCode": 452,
+        "versionString": "1.452"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.goder.busquerysystemrom",
+    "docType": 1,
+    "docid": "com.goder.busquerysystemrom",
+    "image": [
+      {
+        "color": "#FEFEFE",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/TuRkpcJkDQZuJvjxxAWpujxoKXlym6JvQl8WZwyWzNx3TE7ycvssXEBp0zK7WSFnEQD0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#000000",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/uR9S65VX2oQSU2kVBMX_y2_3TpnOnfVAsCWrua34Thj_Wsb01Y5n2iWj2-nzA8Ih3_8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/XfxJESK1TmbE726Tw9R2B2EdT1ecNo-hw_iBvExmxRmgUbsgHxuOQxrXd2JcolL_pWk",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ZtKIqxNyJ-9Ta3f1FYi2juulN-AREbnkRn3o9Qkxc4pOjaOBO9VRd7wK1lG7Q3IV_A",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/VJtjCZTtBi_vrvrdeIlWPyMJoElXEAJmVddDHbJUuS4cTTAFCMuMswhnZqIYgZ-48YKf",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/AYhw-eJ1tyF2VQgAe55uS5ZjNYhh_7h-wiam92RWHPWgsI9gRKZWM0tnEcS1MmLwyIyJ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/1yXnLEf9jW6nAwvZ54V5KjiObkGn_xg8jQhudCoRRyqHwn_sBtdSEPktN3Ll8TYNsg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/76qQDqJbydLH3i74RfHMkFDPY-U-lSM30OuCBaOC6sSNRzCOUi4F2Tg0ucIU3Pctf3eV",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/M7kKNPz7YEWXCtqxSO84lLxogxShAFqcY2bN2GCuR4j5_RoIdmtHfuE954IjgLUl8PE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/cBLqtgvOA19R4kAiLoz46XGNfJn7tiHVJaiahoao36RYKXhLBEakazNu_Rvs_Qvdkl8",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://goder.tech/policy/privacypolicy.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.goder.busquerysystemrom",
+    "reviewsUrl": "rev?doc=com.goder.busquerysystemrom&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.goder.busquerysystemrom",
+    "title": "Rome Bus Realtime Tracker",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Goder Hsu"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "goder.hsu@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "14 May 2018"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-03-24 18:22:26.549996",
+    "backendDocid": "com.goder.busquerysystemrom",
+    "backendId": 3,
+    "creator": "Goder Hsu",
+    "descriptionHtml": "Provide timetable for Rome Transportation (bus/train/tram) <br><br>1. Nearby Stops<br>- Provid all nearby bus stops sorted by the distance from current location<br>- Click on a specific bus stop to display all bus routes via the stop<br>- Click on a specific route to further display all stop sequence and their estimated arrival times<br>- By clicking on a specific stop, you can further explore the stop nearby POI, such as food, restaurants, attractions and other store information.<br><br>2. Bus Routes Information<br>- Searching specific bus information by using route#, stop#, or partial stop name<br>- Provide frequently used bus route for quickly selection.<br><br>3. Direction planning<br>- Provide the suggested traffic routes (walk, take bus, subway, train, etc.) between the desired departure and destination location<br>- Provide a well-planned route map to indicate the traffic types you need to use<br>- Use speech recognition to speed up the route planning<br>- Click on the destination to explore the nearby attractions around the destination, such as food, restaurants, attractions and other store information<br>- You can share the planned routes to a friend to his(her) LINE chat or EMAIL<br><br>4. Nearby POI Search<br>- Provide nearby POI search<br>- The POI categories include snacks, coffee snacks, restaurants, MRT station, Bike point, train station, attractions, hospitals, supermarkets, beauty salons, hotels, clothing stores, bars, shoe stores, Shopping malls, schools, flower shops, electrical shops, banks, travel agencies, bookstores, post offices, bicycle lines, steam locomotive, furniture, housing agents, pet shops, aquariums, etc.<br>- Use voice input to query specific stores such as McDonald&#39;s, Starbucks, ...<br>- Provide detailed information of a store, such as photos, rating score, address, URL,openning hours, comments, etc.<br>- Searching radius ranging from  500 meters to 7km can be set as your need<br>- Provide POI maps and street views. It also indicates the best route from current location (walking or cycling)<br>- Support search of cities or landmarks all over the world<br>- You can share POI information to a friend to his(her) LINE chat or EMAIL",
+    "descriptionShort": "Realtime Bus/Train Arrival Time in Rome, Nearby POI Search, Direction Planning",
+    "details": {
+      "appDetails": {
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "9900704",
+          "unknown3": 32
+        },
+        "developerEmail": "goder.hsu@gmail.com",
+        "developerName": "Goder Hsu",
+        "developerWebsite": "http://goder.tech/apps",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "9900704",
+            "versionCode": 472
+          }
+        ],
+        "installationSize": "9900704",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "com.goder.busquerysystemrom",
+        "permission": [
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.SYSTEM_ALERT_WINDOW",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": "Ver1.472 Add weather/stop map/bus map functions.(3/24)<br>Ver1.452 Add static bus schedule menu item in querying bus routes.(10/13)<br>Ver1.450 Add stop filter function when searching in stop map for finding bus routes via a specific stop.(9/17)<br>Ver1.403 Add bus map (location) function(7/15)<br>Ver1.402 Add bus arrival notification function(7/10)",
+        "unstable": true,
+        "uploadDate": "23 Mar 2023",
+        "versionCode": 472,
+        "versionString": "1.472"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.goder.busquerysystemrom",
+    "docType": 1,
+    "docid": "com.goder.busquerysystemrom",
+    "image": [
+      {
+        "color": "#FEFEFE",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/TuRkpcJkDQZuJvjxxAWpujxoKXlym6JvQl8WZwyWzNx3TE7ycvssXEBp0zK7WSFnEQD0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#000000",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/uR9S65VX2oQSU2kVBMX_y2_3TpnOnfVAsCWrua34Thj_Wsb01Y5n2iWj2-nzA8Ih3_8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/XfxJESK1TmbE726Tw9R2B2EdT1ecNo-hw_iBvExmxRmgUbsgHxuOQxrXd2JcolL_pWk",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ZtKIqxNyJ-9Ta3f1FYi2juulN-AREbnkRn3o9Qkxc4pOjaOBO9VRd7wK1lG7Q3IV_A",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/VJtjCZTtBi_vrvrdeIlWPyMJoElXEAJmVddDHbJUuS4cTTAFCMuMswhnZqIYgZ-48YKf",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/AYhw-eJ1tyF2VQgAe55uS5ZjNYhh_7h-wiam92RWHPWgsI9gRKZWM0tnEcS1MmLwyIyJ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/1yXnLEf9jW6nAwvZ54V5KjiObkGn_xg8jQhudCoRRyqHwn_sBtdSEPktN3Ll8TYNsg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/76qQDqJbydLH3i74RfHMkFDPY-U-lSM30OuCBaOC6sSNRzCOUi4F2Tg0ucIU3Pctf3eV",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/M7kKNPz7YEWXCtqxSO84lLxogxShAFqcY2bN2GCuR4j5_RoIdmtHfuE954IjgLUl8PE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/cBLqtgvOA19R4kAiLoz46XGNfJn7tiHVJaiahoao36RYKXhLBEakazNu_Rvs_Qvdkl8",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://goder.tech/policy/privacypolicy.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.goder.busquerysystemrom",
+    "reviewsUrl": "rev?doc=com.goder.busquerysystemrom&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.goder.busquerysystemrom",
+    "title": "Rome Bus Realtime Tracker",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "goder.hsu@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "14 May 2018"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "13",
+      "fiveStarRatings": "15",
+      "fourStarRatings": "2",
+      "oneStarRatings": "0",
+      "ratingsCount": "24",
+      "starRating": 4.304348,
+      "threeStarRatings": "4",
+      "twoStarRatings": "2",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-04-16 13:42:52.880799",
+    "backendDocid": "com.goder.busquerysystemrom",
+    "backendId": 3,
+    "creator": "Goder Hsu",
+    "descriptionHtml": "Provide timetable for Rome Transportation (bus/train/tram) <br><br>1. Nearby Stops<br>- Provid all nearby bus stops sorted by the distance from current location<br>- Click on a specific bus stop to display all bus routes via the stop<br>- Click on a specific route to further display all stop sequence and their estimated arrival times<br>- By clicking on a specific stop, you can further explore the stop nearby POI, such as food, restaurants, attractions and other store information.<br><br>2. Bus Routes Information<br>- Searching specific bus information by using route#, stop#, or partial stop name<br>- Provide frequently used bus route for quickly selection.<br><br>3. Direction planning<br>- Provide the suggested traffic routes (walk, take bus, subway, train, etc.) between the desired departure and destination location<br>- Provide a well-planned route map to indicate the traffic types you need to use<br>- Use speech recognition to speed up the route planning<br>- Click on the destination to explore the nearby attractions around the destination, such as food, restaurants, attractions and other store information<br>- You can share the planned routes to a friend to his(her) LINE chat or EMAIL<br><br>4. Nearby POI Search<br>- Provide nearby POI search<br>- The POI categories include snacks, coffee snacks, restaurants, MRT station, Bike point, train station, attractions, hospitals, supermarkets, beauty salons, hotels, clothing stores, bars, shoe stores, Shopping malls, schools, flower shops, electrical shops, banks, travel agencies, bookstores, post offices, bicycle lines, steam locomotive, furniture, housing agents, pet shops, aquariums, etc.<br>- Use voice input to query specific stores such as McDonald&#39;s, Starbucks, ...<br>- Provide detailed information of a store, such as photos, rating score, address, URL,openning hours, comments, etc.<br>- Searching radius ranging from  500 meters to 7km can be set as your need<br>- Provide POI maps and street views. It also indicates the best route from current location (walking or cycling)<br>- Support search of cities or landmarks all over the world<br>- You can share POI information to a friend to his(her) LINE chat or EMAIL",
+    "descriptionShort": "Realtime Bus/Train Arrival Time in Rome, Nearby POI Search, Direction Planning",
+    "details": {
+      "appDetails": {
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "9904424",
+          "unknown3": 32
+        },
+        "developerEmail": "goder.hsu@gmail.com",
+        "developerName": "Goder Hsu",
+        "developerWebsite": "http://goder.tech/apps",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "9904424",
+            "versionCode": 474
+          }
+        ],
+        "installationSize": "9904424",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "com.goder.busquerysystemrom",
+        "permission": [
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.SYSTEM_ALERT_WINDOW",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": "Ver1.474 Add full trip arrival predictions for a specific vehicle(bus). Add route shape on route stop map.(4/15)<br>Ver1.472 Add weather/stop map/bus map functions.(3/24)<br>Ver1.452 Add static bus schedule menu item in querying bus routes.(10/13)<br>Ver1.450 Add stop filter function when searching in stop map for finding bus routes via a specific stop.(9/17)<br>Ver1.403 Add bus map (location) function(7/15)<br>Ver1.402 Add bus arrival notification function(7/10)",
+        "unstable": true,
+        "uploadDate": "15 Apr 2023",
+        "versionCode": 474,
+        "versionString": "1.474"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.goder.busquerysystemrom",
+    "docType": 1,
+    "docid": "com.goder.busquerysystemrom",
+    "image": [
+      {
+        "color": "#FEFEFE",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/TuRkpcJkDQZuJvjxxAWpujxoKXlym6JvQl8WZwyWzNx3TE7ycvssXEBp0zK7WSFnEQD0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#000000",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/uR9S65VX2oQSU2kVBMX_y2_3TpnOnfVAsCWrua34Thj_Wsb01Y5n2iWj2-nzA8Ih3_8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/XfxJESK1TmbE726Tw9R2B2EdT1ecNo-hw_iBvExmxRmgUbsgHxuOQxrXd2JcolL_pWk",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ZtKIqxNyJ-9Ta3f1FYi2juulN-AREbnkRn3o9Qkxc4pOjaOBO9VRd7wK1lG7Q3IV_A",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/VJtjCZTtBi_vrvrdeIlWPyMJoElXEAJmVddDHbJUuS4cTTAFCMuMswhnZqIYgZ-48YKf",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/AYhw-eJ1tyF2VQgAe55uS5ZjNYhh_7h-wiam92RWHPWgsI9gRKZWM0tnEcS1MmLwyIyJ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/1yXnLEf9jW6nAwvZ54V5KjiObkGn_xg8jQhudCoRRyqHwn_sBtdSEPktN3Ll8TYNsg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/76qQDqJbydLH3i74RfHMkFDPY-U-lSM30OuCBaOC6sSNRzCOUi4F2Tg0ucIU3Pctf3eV",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/M7kKNPz7YEWXCtqxSO84lLxogxShAFqcY2bN2GCuR4j5_RoIdmtHfuE954IjgLUl8PE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/cBLqtgvOA19R4kAiLoz46XGNfJn7tiHVJaiahoao36RYKXhLBEakazNu_Rvs_Qvdkl8",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://goder.tech/policy/privacypolicy.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.goder.busquerysystemrom",
+    "reviewsUrl": "rev?doc=com.goder.busquerysystemrom&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.goder.busquerysystemrom",
+    "title": "Rome Bus Realtime Tracker",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "goder.hsu@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "14 May 2018"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-09-06 08:34:59.618271",
+    "backendDocid": "com.goder.busquerysystemrom",
+    "backendId": 3,
+    "creator": "Goder Hsu",
+    "descriptionHtml": "Provide timetable for Rome Transportation (bus/train/tram) <br><br>1. Nearby Stops<br>- Provid all nearby bus stops sorted by the distance from current location<br>- Click on a specific bus stop to display all bus routes via the stop<br>- Click on a specific route to further display all stop sequence and their estimated arrival times<br>- By clicking on a specific stop, you can further explore the stop nearby POI, such as food, restaurants, attractions and other store information.<br><br>2. Bus Routes Information<br>- Searching specific bus information by using route#, stop#, or partial stop name<br>- Provide frequently used bus route for quickly selection.<br><br>3. Direction planning<br>- Provide the suggested traffic routes (walk, take bus, subway, train, etc.) between the desired departure and destination location<br>- Provide a well-planned route map to indicate the traffic types you need to use<br>- Use speech recognition to speed up the route planning<br>- Click on the destination to explore the nearby attractions around the destination, such as food, restaurants, attractions and other store information<br>- You can share the planned routes to a friend to his(her) LINE chat or EMAIL<br><br>4. Nearby POI Search<br>- Provide nearby POI search<br>- The POI categories include snacks, coffee snacks, restaurants, MRT station, Bike point, train station, attractions, hospitals, supermarkets, beauty salons, hotels, clothing stores, bars, shoe stores, Shopping malls, schools, flower shops, electrical shops, banks, travel agencies, bookstores, post offices, bicycle lines, steam locomotive, furniture, housing agents, pet shops, aquariums, etc.<br>- Use voice input to query specific stores such as McDonald&#39;s, Starbucks, ...<br>- Provide detailed information of a store, such as photos, rating score, address, URL,openning hours, comments, etc.<br>- Searching radius ranging from  500 meters to 7km can be set as your need<br>- Provide POI maps and street views. It also indicates the best route from current location (walking or cycling)<br>- Support search of cities or landmarks all over the world<br>- You can share POI information to a friend to his(her) LINE chat or EMAIL",
+    "descriptionShort": "Realtime Bus/Train Arrival Time in Rome, Nearby POI Search, Direction Planning",
+    "details": {
+      "appDetails": {
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "version": 12451000
+            }
+          ],
+          "unknown2": "11215052",
+          "unknown3": 33
+        },
+        "developerEmail": "goder.hsu@gmail.com",
+        "developerName": "Goder Hsu",
+        "developerWebsite": "http://goder.tech/apps",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "11215052",
+            "versionCode": 494
+          }
+        ],
+        "installationSize": "11215052",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "com.goder.busquerysystemrom",
+        "permission": [
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.POST_NOTIFICATIONS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.SYSTEM_ALERT_WINDOW",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.goder.busquerysystemrom.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": "Ver1.494 Fixed bug for bus arrival notification and bus tracking.(8/31)<br>Ver1.493 Update bus route data.(8/27)<br>Ver1.474 Add full trip arrival predictions for a specific vehicle(bus). Add route shape on route stop map.(4/15)<br>Ver1.472 Add weather/stop map/bus map functions.(3/24)<br>Ver1.452 Add static bus schedule menu item in querying bus routes.(10/13)",
+        "unstable": true,
+        "uploadDate": "Aug 30, 2023",
+        "versionCode": 494,
+        "versionString": "1.494"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.goder.busquerysystemrom",
+    "docType": 1,
+    "docid": "com.goder.busquerysystemrom",
+    "image": [
+      {
+        "color": "#FEFEFE",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/TuRkpcJkDQZuJvjxxAWpujxoKXlym6JvQl8WZwyWzNx3TE7ycvssXEBp0zK7WSFnEQD0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#000000",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/uR9S65VX2oQSU2kVBMX_y2_3TpnOnfVAsCWrua34Thj_Wsb01Y5n2iWj2-nzA8Ih3_8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/XfxJESK1TmbE726Tw9R2B2EdT1ecNo-hw_iBvExmxRmgUbsgHxuOQxrXd2JcolL_pWk",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ZtKIqxNyJ-9Ta3f1FYi2juulN-AREbnkRn3o9Qkxc4pOjaOBO9VRd7wK1lG7Q3IV_A",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/VJtjCZTtBi_vrvrdeIlWPyMJoElXEAJmVddDHbJUuS4cTTAFCMuMswhnZqIYgZ-48YKf",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/AYhw-eJ1tyF2VQgAe55uS5ZjNYhh_7h-wiam92RWHPWgsI9gRKZWM0tnEcS1MmLwyIyJ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/1yXnLEf9jW6nAwvZ54V5KjiObkGn_xg8jQhudCoRRyqHwn_sBtdSEPktN3Ll8TYNsg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/76qQDqJbydLH3i74RfHMkFDPY-U-lSM30OuCBaOC6sSNRzCOUi4F2Tg0ucIU3Pctf3eV",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/M7kKNPz7YEWXCtqxSO84lLxogxShAFqcY2bN2GCuR4j5_RoIdmtHfuE954IjgLUl8PE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/cBLqtgvOA19R4kAiLoz46XGNfJn7tiHVJaiahoao36RYKXhLBEakazNu_Rvs_Qvdkl8",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "CAD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://goder.tech/policy/privacypolicy.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.goder.busquerysystemrom",
+    "reviewsUrl": "rev?doc=com.goder.busquerysystemrom&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.goder.busquerysystemrom",
+    "title": "Rome Bus Realtime Tracker",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Goder Hsu"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "goder.hsu@gmail.com"
+          },
+          "label": "Developer e-mail"
+        },
+        {
+          "container": {
+            "value": "May 14, 2018"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  }
+]

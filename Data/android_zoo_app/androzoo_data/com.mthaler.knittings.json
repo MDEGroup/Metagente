@@ -1,0 +1,2431 @@
+[
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-06-26 05:00:57.676602",
+    "backendDocid": "com.mthaler.knittings",
+    "backendId": 3,
+    "creator": "Michael Thaler",
+    "descriptionHtml": "An application to manage knitting projects:<br>- manage a list of knitting projects<br>- filter list using categories<br>- record time needed to create a knitting<br>- take photos of knitting project and store them<br>- Set photo as preview for knitting list<br>- Export all knitting projects including details and photos to Dropbox and import them again on the same phone / a different phone",
+    "descriptionShort": "Manage knitting projects",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown2": "2518344",
+          "unknown3": 28
+        },
+        "developerEmail": "michael.thaler2@googlemail.com",
+        "developerName": "Michael Thaler",
+        "developerWebsite": "https://www.facebook.com/groups/2310406579174324/",
+        "earlyAccessInfo": {},
+        "file": [
+          {
+            "fileType": 0,
+            "size": "2518344",
+            "versionCode": 45
+          }
+        ],
+        "installationSize": "2518344",
+        "numDownloads": "100+ downloads",
+        "packageName": "com.mthaler.knittings",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE"
+        ],
+        "recentChangesHtml": "- Only replace photo with compressed photo if size is actually smaller<br>- Check if photo exists when exporting to Dropbox",
+        "unstable": true,
+        "uploadDate": "12 May 2020",
+        "versionCode": 45,
+        "versionString": "0.9.23"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.mthaler.knittings",
+    "docType": 1,
+    "docid": "com.mthaler.knittings",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://lh3.googleusercontent.com/D0ZZ4CJHT5tSXXcaYYEEe8_r28iDzFcwt_cJR60MD7EwudfOL79F8QDW7tCqE8dCgBe7",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://lh3.googleusercontent.com/IXYbA23XyBdT2WV6pBrGu7koj7GWK8zKTJRqS9Sfev25QMr0Tz3CEZPpVCbg0msxC_Y",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/vQbeaHFnxw6vpOt6kV3Jn2AzFvfdzuTGuvLjdZFSoFAwJ41UMxMtDid1dUDUJ-IbOpU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/SgUXLvKfVUITTD_f8jqY9Tzrp8eWoFu46dgewq94fLPzG9pwPNHHXaL6Vz03L2bTMQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/LHVIQkcTuK08zgS08tTf2y8PliNO_BzMyVcqAvsnDctqI-QEXtge69TLYjMSxIV_QA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/473jP99zmyJjxE4g7YaYodbJZ4zr7GOk4jAG2jg8bEbc7ej1CjBFXCdFcbEBzSk3EO7L",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/st8ZpkmnNT8ksJP7ZdN-nmWHheek_hp4TBqIylN2q-_t_4Xf3qJvsBbmebjPSazAC4k",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/oXEiw8xwrX2HyivJWov88-8WAlJXx8nG2Ag9c_rDk5-_3i9umNsxcv09ovxSTun5Bvc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/e5FgxohrYP54Xtq-tZIjND-NpJzK1M1yUJIOiZlRHYVM5pYMDU_kjzHCyUcA9oKnbQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/5ux_d7zlZ2iIEyrSP5WI7ccCoahMUdlfICDRO0GUmQOFSBiiePmfYxE66fF4wZC6IYI",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://lh3.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.mthaler.knittings",
+    "reviewsUrl": "rev?doc=com.mthaler.knittings&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.mthaler.knittings",
+    "title": "Knittings",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Michael Thaler"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "michael.thaler2@googlemail.com"
+          },
+          "label": "Developer email"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-12-06 18:59:51.738866",
+    "backendDocid": "com.mthaler.knittings",
+    "backendId": 3,
+    "creator": "Michael Thaler",
+    "descriptionHtml": "An application to manage knitting projects:<br>- manage a list of knitting projects<br>- filter list using categories<br>- record time needed to create a knitting<br>- take photos of knitting project and store them<br>- Set photo as preview for knitting list<br>- Export all knitting projects including details and photos to Dropbox and import them again on the same phone / a different phone",
+    "descriptionShort": "Manage knitting projects",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown2": "2359820",
+          "unknown3": 29
+        },
+        "developerEmail": "michael.thaler2@googlemail.com",
+        "developerName": "Michael Thaler",
+        "developerWebsite": "https://www.facebook.com/groups/2310406579174324/",
+        "earlyAccessInfo": {},
+        "file": [
+          {
+            "fileType": 0,
+            "size": "2359820",
+            "versionCode": 50
+          }
+        ],
+        "installationSize": "2359820",
+        "numDownloads": "100+ downloads",
+        "packageName": "com.mthaler.knittings",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE"
+        ],
+        "recentChangesHtml": "- Updated stopwatch activity",
+        "unstable": true,
+        "uploadDate": "6 Dec 2020",
+        "versionCode": 50,
+        "versionString": "0.9.28"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.mthaler.knittings",
+    "docType": 1,
+    "docid": "com.mthaler.knittings",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/D0ZZ4CJHT5tSXXcaYYEEe8_r28iDzFcwt_cJR60MD7EwudfOL79F8QDW7tCqE8dCgBe7",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/IXYbA23XyBdT2WV6pBrGu7koj7GWK8zKTJRqS9Sfev25QMr0Tz3CEZPpVCbg0msxC_Y",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/vQbeaHFnxw6vpOt6kV3Jn2AzFvfdzuTGuvLjdZFSoFAwJ41UMxMtDid1dUDUJ-IbOpU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/SgUXLvKfVUITTD_f8jqY9Tzrp8eWoFu46dgewq94fLPzG9pwPNHHXaL6Vz03L2bTMQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/LHVIQkcTuK08zgS08tTf2y8PliNO_BzMyVcqAvsnDctqI-QEXtge69TLYjMSxIV_QA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/473jP99zmyJjxE4g7YaYodbJZ4zr7GOk4jAG2jg8bEbc7ej1CjBFXCdFcbEBzSk3EO7L",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/st8ZpkmnNT8ksJP7ZdN-nmWHheek_hp4TBqIylN2q-_t_4Xf3qJvsBbmebjPSazAC4k",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/oXEiw8xwrX2HyivJWov88-8WAlJXx8nG2Ag9c_rDk5-_3i9umNsxcv09ovxSTun5Bvc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/S06yDRSDnt09QF6-ip1IRrCnJT8M9uBOdYnvg6Jcpeg8IkgaZLnhREix_O03tH29gT0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/LPtw4-dwzjMUpfDEZ0JXq1zEah5fHhlDbKjCUMG7RMSiM8_i8Mw2Qo3CFsWRDpUDvvXb",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.mthaler.knittings",
+    "reviewsUrl": "rev?doc=com.mthaler.knittings&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.mthaler.knittings",
+    "title": "Knittings",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "michael.thaler2@googlemail.com"
+          },
+          "label": "Developer email"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-12-30 20:49:26.575368",
+    "backendDocid": "com.mthaler.knittings",
+    "backendId": 3,
+    "creator": "Michael Thaler",
+    "descriptionHtml": "An application to manage knitting projects:<br>- manage a list of knitting projects<br>- filter list using categories<br>- record time needed to create a knitting<br>- take photos of knitting project and store them<br>- Set photo as preview for knitting list<br>- Export all knitting projects including details and photos to Dropbox and import them again on the same phone / a different phone",
+    "descriptionShort": "Manage knitting projects",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown2": "2376510",
+          "unknown3": 29
+        },
+        "developerEmail": "michael.thaler2@googlemail.com",
+        "developerName": "Michael Thaler",
+        "developerWebsite": "https://www.facebook.com/groups/2310406579174324/",
+        "earlyAccessInfo": {},
+        "file": [
+          {
+            "fileType": 0,
+            "size": "2376510",
+            "versionCode": 51
+          }
+        ],
+        "installationSize": "2376510",
+        "numDownloads": "100+ downloads",
+        "packageName": "com.mthaler.knittings",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE"
+        ],
+        "recentChangesHtml": "- Improved layout of stopwatch activity<br>- Row counter and project count now work on Android 4.x<br>- Log out from Dropbox works now<br>- Improved Dropbox error handling<br>- Needle list can now be filtered<br>- Dropbox import / export works again on Android 4.x<br>- Category list is now sorted",
+        "unstable": true,
+        "uploadDate": "30 Dec 2020",
+        "versionCode": 51,
+        "versionString": "0.9.29"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.mthaler.knittings",
+    "docType": 1,
+    "docid": "com.mthaler.knittings",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/D0ZZ4CJHT5tSXXcaYYEEe8_r28iDzFcwt_cJR60MD7EwudfOL79F8QDW7tCqE8dCgBe7",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/IXYbA23XyBdT2WV6pBrGu7koj7GWK8zKTJRqS9Sfev25QMr0Tz3CEZPpVCbg0msxC_Y",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/vQbeaHFnxw6vpOt6kV3Jn2AzFvfdzuTGuvLjdZFSoFAwJ41UMxMtDid1dUDUJ-IbOpU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/SgUXLvKfVUITTD_f8jqY9Tzrp8eWoFu46dgewq94fLPzG9pwPNHHXaL6Vz03L2bTMQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/LHVIQkcTuK08zgS08tTf2y8PliNO_BzMyVcqAvsnDctqI-QEXtge69TLYjMSxIV_QA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/473jP99zmyJjxE4g7YaYodbJZ4zr7GOk4jAG2jg8bEbc7ej1CjBFXCdFcbEBzSk3EO7L",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/st8ZpkmnNT8ksJP7ZdN-nmWHheek_hp4TBqIylN2q-_t_4Xf3qJvsBbmebjPSazAC4k",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/oXEiw8xwrX2HyivJWov88-8WAlJXx8nG2Ag9c_rDk5-_3i9umNsxcv09ovxSTun5Bvc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/S06yDRSDnt09QF6-ip1IRrCnJT8M9uBOdYnvg6Jcpeg8IkgaZLnhREix_O03tH29gT0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/LPtw4-dwzjMUpfDEZ0JXq1zEah5fHhlDbKjCUMG7RMSiM8_i8Mw2Qo3CFsWRDpUDvvXb",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.mthaler.knittings",
+    "reviewsUrl": "rev?doc=com.mthaler.knittings&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.mthaler.knittings",
+    "title": "Knittings",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "michael.thaler2@googlemail.com"
+          },
+          "label": "Developer email"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-02-14 01:48:30.163756",
+    "backendDocid": "com.mthaler.knittings",
+    "backendId": 3,
+    "creator": "Michael Thaler",
+    "descriptionHtml": "An application to manage knitting projects:<br>- manage a list of knitting projects<br>- filter list using categories<br>- record time needed to create a knitting<br>- take photos of knitting project and store them<br>- Set photo as preview for knitting list<br>- Export all knitting projects including details and photos to Dropbox and import them again on the same phone / a different phone",
+    "descriptionShort": "Manage knitting projects",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown2": "9113817",
+          "unknown3": 31
+        },
+        "developerEmail": "michael.thaler2@googlemail.com",
+        "developerName": "Michael Thaler",
+        "developerWebsite": "https://www.facebook.com/groups/2310406579174324/",
+        "earlyAccessInfo": {},
+        "file": [
+          {
+            "fileType": 0,
+            "size": "9113817",
+            "versionCode": 53
+          }
+        ],
+        "installationSize": "9113817",
+        "numDownloads": "500+ downloads",
+        "packageName": "com.mthaler.knittings",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE"
+        ],
+        "recentChangesHtml": "- Fixed project count",
+        "unstable": true,
+        "uploadDate": "11 Feb 2022",
+        "versionCode": 53,
+        "versionString": "0.9.31"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.mthaler.knittings",
+    "docType": 1,
+    "docid": "com.mthaler.knittings",
+    "image": [
+      {
+        "color": "#DC9AA8",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/D0ZZ4CJHT5tSXXcaYYEEe8_r28iDzFcwt_cJR60MD7EwudfOL79F8QDW7tCqE8dCgBe7",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#000000",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/IXYbA23XyBdT2WV6pBrGu7koj7GWK8zKTJRqS9Sfev25QMr0Tz3CEZPpVCbg0msxC_Y",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/vQbeaHFnxw6vpOt6kV3Jn2AzFvfdzuTGuvLjdZFSoFAwJ41UMxMtDid1dUDUJ-IbOpU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/SgUXLvKfVUITTD_f8jqY9Tzrp8eWoFu46dgewq94fLPzG9pwPNHHXaL6Vz03L2bTMQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/LHVIQkcTuK08zgS08tTf2y8PliNO_BzMyVcqAvsnDctqI-QEXtge69TLYjMSxIV_QA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/473jP99zmyJjxE4g7YaYodbJZ4zr7GOk4jAG2jg8bEbc7ej1CjBFXCdFcbEBzSk3EO7L",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/st8ZpkmnNT8ksJP7ZdN-nmWHheek_hp4TBqIylN2q-_t_4Xf3qJvsBbmebjPSazAC4k",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/oXEiw8xwrX2HyivJWov88-8WAlJXx8nG2Ag9c_rDk5-_3i9umNsxcv09ovxSTun5Bvc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/S06yDRSDnt09QF6-ip1IRrCnJT8M9uBOdYnvg6Jcpeg8IkgaZLnhREix_O03tH29gT0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/LPtw4-dwzjMUpfDEZ0JXq1zEah5fHhlDbKjCUMG7RMSiM8_i8Mw2Qo3CFsWRDpUDvvXb",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.mthaler.knittings",
+    "reviewsUrl": "rev?doc=com.mthaler.knittings&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.mthaler.knittings",
+    "title": "Knittings",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "michael.thaler2@googlemail.com"
+          },
+          "label": "Developer email"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-02-28 00:11:43.329895",
+    "backendDocid": "com.mthaler.knittings",
+    "backendId": 3,
+    "creator": "Michael Thaler",
+    "descriptionHtml": "An application to manage knitting projects:<br>- manage a list of knitting projects<br>- filter list using categories<br>- record time needed to create a knitting<br>- take photos of knitting project and store them<br>- Set photo as preview for knitting list<br>- Export all knitting projects including details and photos to Dropbox and import them again on the same phone / a different phone",
+    "descriptionShort": "Manage knitting projects",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown2": "9231433",
+          "unknown3": 31
+        },
+        "developerEmail": "michael.thaler2@googlemail.com",
+        "developerName": "Michael Thaler",
+        "developerWebsite": "https://www.facebook.com/groups/2310406579174324/",
+        "earlyAccessInfo": {},
+        "file": [
+          {
+            "fileType": 0,
+            "size": "9231433",
+            "versionCode": 55
+          }
+        ],
+        "installationSize": "9231433",
+        "numDownloads": "500+ downloads",
+        "packageName": "com.mthaler.knittings",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE"
+        ],
+        "unstable": true,
+        "uploadDate": "27 Feb 2022",
+        "versionCode": 55,
+        "versionString": "0.9.33"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.mthaler.knittings",
+    "docType": 1,
+    "docid": "com.mthaler.knittings",
+    "image": [
+      {
+        "color": "#DC9AA8",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/D0ZZ4CJHT5tSXXcaYYEEe8_r28iDzFcwt_cJR60MD7EwudfOL79F8QDW7tCqE8dCgBe7",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#000000",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/IXYbA23XyBdT2WV6pBrGu7koj7GWK8zKTJRqS9Sfev25QMr0Tz3CEZPpVCbg0msxC_Y",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/vQbeaHFnxw6vpOt6kV3Jn2AzFvfdzuTGuvLjdZFSoFAwJ41UMxMtDid1dUDUJ-IbOpU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/SgUXLvKfVUITTD_f8jqY9Tzrp8eWoFu46dgewq94fLPzG9pwPNHHXaL6Vz03L2bTMQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/LHVIQkcTuK08zgS08tTf2y8PliNO_BzMyVcqAvsnDctqI-QEXtge69TLYjMSxIV_QA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/473jP99zmyJjxE4g7YaYodbJZ4zr7GOk4jAG2jg8bEbc7ej1CjBFXCdFcbEBzSk3EO7L",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/st8ZpkmnNT8ksJP7ZdN-nmWHheek_hp4TBqIylN2q-_t_4Xf3qJvsBbmebjPSazAC4k",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/oXEiw8xwrX2HyivJWov88-8WAlJXx8nG2Ag9c_rDk5-_3i9umNsxcv09ovxSTun5Bvc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/S06yDRSDnt09QF6-ip1IRrCnJT8M9uBOdYnvg6Jcpeg8IkgaZLnhREix_O03tH29gT0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/LPtw4-dwzjMUpfDEZ0JXq1zEah5fHhlDbKjCUMG7RMSiM8_i8Mw2Qo3CFsWRDpUDvvXb",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.mthaler.knittings",
+    "reviewsUrl": "rev?doc=com.mthaler.knittings&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.mthaler.knittings",
+    "title": "Knittings",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Michael Thaler"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "michael.thaler2@googlemail.com"
+          },
+          "label": "Developer email"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-03-06 15:26:04.661306",
+    "backendDocid": "com.mthaler.knittings",
+    "backendId": 3,
+    "creator": "Michael Thaler",
+    "descriptionHtml": "An application to manage knitting projects:<br>- manage a list of knitting projects<br>- filter list using categories<br>- record time needed to create a knitting<br>- take photos of knitting project and store them<br>- Set photo as preview for knitting list<br>- Export all knitting projects including details and photos to Dropbox and import them again on the same phone / a different phone",
+    "descriptionShort": "Manage knitting projects",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown2": "9243758",
+          "unknown3": 31
+        },
+        "developerEmail": "michael.thaler2@googlemail.com",
+        "developerName": "Michael Thaler",
+        "developerWebsite": "https://www.facebook.com/groups/2310406579174324/",
+        "earlyAccessInfo": {},
+        "file": [
+          {
+            "fileType": 0,
+            "size": "9243758",
+            "versionCode": 56
+          }
+        ],
+        "installationSize": "9243758",
+        "numDownloads": "500+ downloads",
+        "packageName": "com.mthaler.knittings",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE"
+        ],
+        "recentChangesHtml": "- Added tests<br>- Upgrade Kotlin to 1.6.10<br>- Added dependencies<br>- Stopwatch now uses fragment",
+        "unstable": true,
+        "uploadDate": "5 Mar 2022",
+        "versionCode": 56,
+        "versionString": "0.9.34"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.mthaler.knittings",
+    "docType": 1,
+    "docid": "com.mthaler.knittings",
+    "image": [
+      {
+        "color": "#DC9AA8",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/D0ZZ4CJHT5tSXXcaYYEEe8_r28iDzFcwt_cJR60MD7EwudfOL79F8QDW7tCqE8dCgBe7",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#000000",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/IXYbA23XyBdT2WV6pBrGu7koj7GWK8zKTJRqS9Sfev25QMr0Tz3CEZPpVCbg0msxC_Y",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/vQbeaHFnxw6vpOt6kV3Jn2AzFvfdzuTGuvLjdZFSoFAwJ41UMxMtDid1dUDUJ-IbOpU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/SgUXLvKfVUITTD_f8jqY9Tzrp8eWoFu46dgewq94fLPzG9pwPNHHXaL6Vz03L2bTMQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/LHVIQkcTuK08zgS08tTf2y8PliNO_BzMyVcqAvsnDctqI-QEXtge69TLYjMSxIV_QA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/473jP99zmyJjxE4g7YaYodbJZ4zr7GOk4jAG2jg8bEbc7ej1CjBFXCdFcbEBzSk3EO7L",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/st8ZpkmnNT8ksJP7ZdN-nmWHheek_hp4TBqIylN2q-_t_4Xf3qJvsBbmebjPSazAC4k",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/oXEiw8xwrX2HyivJWov88-8WAlJXx8nG2Ag9c_rDk5-_3i9umNsxcv09ovxSTun5Bvc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/S06yDRSDnt09QF6-ip1IRrCnJT8M9uBOdYnvg6Jcpeg8IkgaZLnhREix_O03tH29gT0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/LPtw4-dwzjMUpfDEZ0JXq1zEah5fHhlDbKjCUMG7RMSiM8_i8Mw2Qo3CFsWRDpUDvvXb",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.mthaler.knittings",
+    "reviewsUrl": "rev?doc=com.mthaler.knittings&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.mthaler.knittings",
+    "title": "Knittings",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "michael.thaler2@googlemail.com"
+          },
+          "label": "Developer email"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-06-16 17:03:54.494948",
+    "backendDocid": "com.mthaler.knittings",
+    "backendId": 3,
+    "creator": "Michael Thaler",
+    "descriptionHtml": "An application to manage knitting projects:<br>- manage a list of knitting projects<br>- filter list using categories<br>- record time needed to create a knitting<br>- take photos of knitting project and store them<br>- Set photo as preview for knitting list<br>- Export all knitting projects including details and photos to Dropbox and import them again on the same phone / a different phone",
+    "descriptionShort": "Manage knitting projects",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown2": "9270858",
+          "unknown3": 31
+        },
+        "developerEmail": "michael.thaler2@googlemail.com",
+        "developerName": "Michael Thaler",
+        "developerWebsite": "https://www.facebook.com/groups/2310406579174324/",
+        "earlyAccessInfo": {},
+        "file": [
+          {
+            "fileType": 0,
+            "size": "9270858",
+            "versionCode": 64
+          }
+        ],
+        "installationSize": "9270858",
+        "numDownloads": "500+ downloads",
+        "packageName": "com.mthaler.knittings",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.WAKE_LOCK"
+        ],
+        "recentChangesHtml": "- Knitting list now is a fragment<br>- Upgrade Kotlin to 1.6.10",
+        "unstable": true,
+        "uploadDate": "6 Jun 2022",
+        "versionCode": 64,
+        "versionString": "0.9.42"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.mthaler.knittings",
+    "docType": 1,
+    "docid": "com.mthaler.knittings",
+    "image": [
+      {
+        "color": "#DC9AA8",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/D0ZZ4CJHT5tSXXcaYYEEe8_r28iDzFcwt_cJR60MD7EwudfOL79F8QDW7tCqE8dCgBe7",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#000000",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/IXYbA23XyBdT2WV6pBrGu7koj7GWK8zKTJRqS9Sfev25QMr0Tz3CEZPpVCbg0msxC_Y",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/vQbeaHFnxw6vpOt6kV3Jn2AzFvfdzuTGuvLjdZFSoFAwJ41UMxMtDid1dUDUJ-IbOpU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/SgUXLvKfVUITTD_f8jqY9Tzrp8eWoFu46dgewq94fLPzG9pwPNHHXaL6Vz03L2bTMQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/LHVIQkcTuK08zgS08tTf2y8PliNO_BzMyVcqAvsnDctqI-QEXtge69TLYjMSxIV_QA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/473jP99zmyJjxE4g7YaYodbJZ4zr7GOk4jAG2jg8bEbc7ej1CjBFXCdFcbEBzSk3EO7L",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/st8ZpkmnNT8ksJP7ZdN-nmWHheek_hp4TBqIylN2q-_t_4Xf3qJvsBbmebjPSazAC4k",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/oXEiw8xwrX2HyivJWov88-8WAlJXx8nG2Ag9c_rDk5-_3i9umNsxcv09ovxSTun5Bvc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/S06yDRSDnt09QF6-ip1IRrCnJT8M9uBOdYnvg6Jcpeg8IkgaZLnhREix_O03tH29gT0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/LPtw4-dwzjMUpfDEZ0JXq1zEah5fHhlDbKjCUMG7RMSiM8_i8Mw2Qo3CFsWRDpUDvvXb",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.mthaler.knittings",
+    "reviewsUrl": "rev?doc=com.mthaler.knittings&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.mthaler.knittings",
+    "title": "Knittings",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "michael.thaler2@googlemail.com"
+          },
+          "label": "Developer email"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-06-20 20:08:05.335893",
+    "backendDocid": "com.mthaler.knittings",
+    "backendId": 3,
+    "creator": "Michael Thaler",
+    "descriptionHtml": "An application to manage knitting projects:<br>- manage a list of knitting projects<br>- filter list using categories<br>- record time needed to create a knitting<br>- take photos of knitting project and store them<br>- Set photo as preview for knitting list<br>- Export all knitting projects including details and photos to Dropbox and import them again on the same phone / a different phone",
+    "descriptionShort": "Manage knitting projects",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown2": "15114878",
+          "unknown3": 32
+        },
+        "developerEmail": "michael.thaler2@googlemail.com",
+        "developerName": "Michael Thaler",
+        "developerWebsite": "https://www.facebook.com/groups/2310406579174324/",
+        "earlyAccessInfo": {},
+        "file": [
+          {
+            "fileType": 0,
+            "size": "15114878",
+            "versionCode": 65
+          }
+        ],
+        "installationSize": "15114878",
+        "numDownloads": "500+ downloads",
+        "packageName": "com.mthaler.knittings",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.CAMERA",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.QUERY_ALL_PACKAGES",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.REORDER_TASKS",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE"
+        ],
+        "recentChangesHtml": "- Fixed all warnings<br>- Fixed non-translated strings<br>- Updated AndroidManifest.xml<br>- Updated KnittingDetailsFragment, PhotoGalleryFragment, PictureUtils and TakePhotoDialog<br>        - Added XML declaration to resources",
+        "unstable": true,
+        "uploadDate": "19 Jun 2022",
+        "versionCode": 65,
+        "versionString": "0.9.43"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.mthaler.knittings",
+    "docType": 1,
+    "docid": "com.mthaler.knittings",
+    "image": [
+      {
+        "color": "#DC9AA8",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/D0ZZ4CJHT5tSXXcaYYEEe8_r28iDzFcwt_cJR60MD7EwudfOL79F8QDW7tCqE8dCgBe7",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#000000",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/IXYbA23XyBdT2WV6pBrGu7koj7GWK8zKTJRqS9Sfev25QMr0Tz3CEZPpVCbg0msxC_Y",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/vQbeaHFnxw6vpOt6kV3Jn2AzFvfdzuTGuvLjdZFSoFAwJ41UMxMtDid1dUDUJ-IbOpU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/SgUXLvKfVUITTD_f8jqY9Tzrp8eWoFu46dgewq94fLPzG9pwPNHHXaL6Vz03L2bTMQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/LHVIQkcTuK08zgS08tTf2y8PliNO_BzMyVcqAvsnDctqI-QEXtge69TLYjMSxIV_QA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/473jP99zmyJjxE4g7YaYodbJZ4zr7GOk4jAG2jg8bEbc7ej1CjBFXCdFcbEBzSk3EO7L",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/st8ZpkmnNT8ksJP7ZdN-nmWHheek_hp4TBqIylN2q-_t_4Xf3qJvsBbmebjPSazAC4k",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/oXEiw8xwrX2HyivJWov88-8WAlJXx8nG2Ag9c_rDk5-_3i9umNsxcv09ovxSTun5Bvc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/S06yDRSDnt09QF6-ip1IRrCnJT8M9uBOdYnvg6Jcpeg8IkgaZLnhREix_O03tH29gT0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/LPtw4-dwzjMUpfDEZ0JXq1zEah5fHhlDbKjCUMG7RMSiM8_i8Mw2Qo3CFsWRDpUDvvXb",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://www.strickereien.com/privacy-policy/",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.mthaler.knittings",
+    "reviewsUrl": "rev?doc=com.mthaler.knittings&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.mthaler.knittings",
+    "title": "Knittings",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Michael Thaler"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "michael.thaler2@googlemail.com"
+          },
+          "label": "Developer email"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-06-22 05:49:28.976602",
+    "backendDocid": "com.mthaler.knittings",
+    "backendId": 3,
+    "creator": "Michael Thaler",
+    "descriptionHtml": "An application to manage knitting projects:<br>- manage a list of knitting projects<br>- filter list using categories<br>- record time needed to create a knitting<br>- take photos of knitting project and store them<br>- Set photo as preview for knitting list<br>- Export all knitting projects including details and photos to Dropbox and import them again on the same phone / a different phone",
+    "descriptionShort": "Manage knitting projects",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown2": "15131319",
+          "unknown3": 32
+        },
+        "developerEmail": "michael.thaler2@googlemail.com",
+        "developerName": "Michael Thaler",
+        "developerWebsite": "https://www.facebook.com/groups/2310406579174324/",
+        "earlyAccessInfo": {},
+        "file": [
+          {
+            "fileType": 0,
+            "size": "15131319",
+            "versionCode": 66
+          }
+        ],
+        "installationSize": "15131319",
+        "numDownloads": "500+ downloads",
+        "packageName": "com.mthaler.knittings",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.CAMERA",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.QUERY_ALL_PACKAGES",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.REORDER_TASKS",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE"
+        ],
+        "recentChangesHtml": "- Removed setting to set theme<br>- Removed CircularProgressBar<br>- Removed CountFrame and CircuarButton<br>- Removed PhotoGalleryActivity",
+        "unstable": true,
+        "uploadDate": "21 Jun 2022",
+        "versionCode": 66,
+        "versionString": "0.9.44"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.mthaler.knittings",
+    "docType": 1,
+    "docid": "com.mthaler.knittings",
+    "image": [
+      {
+        "color": "#DC9AA8",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/D0ZZ4CJHT5tSXXcaYYEEe8_r28iDzFcwt_cJR60MD7EwudfOL79F8QDW7tCqE8dCgBe7",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#000000",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/IXYbA23XyBdT2WV6pBrGu7koj7GWK8zKTJRqS9Sfev25QMr0Tz3CEZPpVCbg0msxC_Y",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/vQbeaHFnxw6vpOt6kV3Jn2AzFvfdzuTGuvLjdZFSoFAwJ41UMxMtDid1dUDUJ-IbOpU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/SgUXLvKfVUITTD_f8jqY9Tzrp8eWoFu46dgewq94fLPzG9pwPNHHXaL6Vz03L2bTMQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/LHVIQkcTuK08zgS08tTf2y8PliNO_BzMyVcqAvsnDctqI-QEXtge69TLYjMSxIV_QA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/473jP99zmyJjxE4g7YaYodbJZ4zr7GOk4jAG2jg8bEbc7ej1CjBFXCdFcbEBzSk3EO7L",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/st8ZpkmnNT8ksJP7ZdN-nmWHheek_hp4TBqIylN2q-_t_4Xf3qJvsBbmebjPSazAC4k",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/oXEiw8xwrX2HyivJWov88-8WAlJXx8nG2Ag9c_rDk5-_3i9umNsxcv09ovxSTun5Bvc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/S06yDRSDnt09QF6-ip1IRrCnJT8M9uBOdYnvg6Jcpeg8IkgaZLnhREix_O03tH29gT0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/LPtw4-dwzjMUpfDEZ0JXq1zEah5fHhlDbKjCUMG7RMSiM8_i8Mw2Qo3CFsWRDpUDvvXb",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "GBP",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://www.strickereien.com/privacy-policy/",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.mthaler.knittings",
+    "reviewsUrl": "rev?doc=com.mthaler.knittings&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.mthaler.knittings",
+    "title": "Knittings",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "michael.thaler2@googlemail.com"
+          },
+          "label": "Developer email"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-06-24 11:53:21.710228",
+    "backendDocid": "com.mthaler.knittings",
+    "backendId": 3,
+    "creator": "Michael Thaler",
+    "descriptionHtml": "An application to manage knitting projects:<br>- manage a list of knitting projects<br>- filter list using categories<br>- record time needed to create a knitting<br>- take photos of knitting project and store them<br>- Set photo as preview for knitting list<br>- Export all knitting projects including details and photos to Dropbox and import them again on the same phone / a different phone",
+    "descriptionShort": "Manage knitting projects",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown2": "15126769",
+          "unknown3": 32
+        },
+        "developerEmail": "michael.thaler2@googlemail.com",
+        "developerName": "Michael Thaler",
+        "developerWebsite": "https://www.facebook.com/groups/2310406579174324/",
+        "earlyAccessInfo": {},
+        "file": [
+          {
+            "fileType": 0,
+            "size": "15126769",
+            "versionCode": 68
+          }
+        ],
+        "installationSize": "15126769",
+        "numDownloads": "500+ downloads",
+        "packageName": "com.mthaler.knittings",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.CAMERA",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.QUERY_ALL_PACKAGES",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.REORDER_TASKS",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE"
+        ],
+        "recentChangesHtml": "- Fixed settings",
+        "unstable": true,
+        "uploadDate": "Jun 21, 2022",
+        "versionCode": 68,
+        "versionString": "0.9.46"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.mthaler.knittings",
+    "docType": 1,
+    "docid": "com.mthaler.knittings",
+    "image": [
+      {
+        "color": "#DC9AA8",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/D0ZZ4CJHT5tSXXcaYYEEe8_r28iDzFcwt_cJR60MD7EwudfOL79F8QDW7tCqE8dCgBe7",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#000000",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/IXYbA23XyBdT2WV6pBrGu7koj7GWK8zKTJRqS9Sfev25QMr0Tz3CEZPpVCbg0msxC_Y",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/vQbeaHFnxw6vpOt6kV3Jn2AzFvfdzuTGuvLjdZFSoFAwJ41UMxMtDid1dUDUJ-IbOpU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/SgUXLvKfVUITTD_f8jqY9Tzrp8eWoFu46dgewq94fLPzG9pwPNHHXaL6Vz03L2bTMQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/LHVIQkcTuK08zgS08tTf2y8PliNO_BzMyVcqAvsnDctqI-QEXtge69TLYjMSxIV_QA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/473jP99zmyJjxE4g7YaYodbJZ4zr7GOk4jAG2jg8bEbc7ej1CjBFXCdFcbEBzSk3EO7L",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/st8ZpkmnNT8ksJP7ZdN-nmWHheek_hp4TBqIylN2q-_t_4Xf3qJvsBbmebjPSazAC4k",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/oXEiw8xwrX2HyivJWov88-8WAlJXx8nG2Ag9c_rDk5-_3i9umNsxcv09ovxSTun5Bvc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/S06yDRSDnt09QF6-ip1IRrCnJT8M9uBOdYnvg6Jcpeg8IkgaZLnhREix_O03tH29gT0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/LPtw4-dwzjMUpfDEZ0JXq1zEah5fHhlDbKjCUMG7RMSiM8_i8Mw2Qo3CFsWRDpUDvvXb",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "INR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://www.strickereien.com/privacy-policy/",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 487,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/EbEX3AN4FC4pu3lsElAHCiksluOVU8OgkgtWC43-wmm_aHVq2D65FmEM97bPexilUAvlAY5_4ARH8Tb3RxQ",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Rated for 3+",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.mthaler.knittings",
+    "reviewsUrl": "rev?doc=com.mthaler.knittings&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.mthaler.knittings",
+    "title": "Knittings",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Michael Thaler"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "michael.thaler2@googlemail.com"
+          },
+          "label": "Developer email"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-07-07 09:51:36.904013",
+    "backendDocid": "com.mthaler.knittings",
+    "backendId": 3,
+    "creator": "Michael Thaler",
+    "descriptionHtml": "An application to manage knitting projects:<br>- manage a list of knitting projects<br>- filter list using categories<br>- record time needed to create a knitting<br>- take photos of knitting project and store them<br>- Set photo as preview for knitting list<br>- Export all knitting projects including details and photos to Dropbox and import them again on the same phone / a different phone",
+    "descriptionShort": "Manage knitting projects",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown2": "15115882",
+          "unknown3": 32
+        },
+        "developerEmail": "michael.thaler2@googlemail.com",
+        "developerName": "Michael Thaler",
+        "developerWebsite": "https://www.facebook.com/groups/2310406579174324/",
+        "earlyAccessInfo": {},
+        "file": [
+          {
+            "fileType": 0,
+            "size": "15115882",
+            "versionCode": 69
+          }
+        ],
+        "installationSize": "15115882",
+        "numDownloads": "500+ downloads",
+        "packageName": "com.mthaler.knittings",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.CAMERA",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.QUERY_ALL_PACKAGES",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.REORDER_TASKS",
+          "android.permission.WAKE_LOCK"
+        ],
+        "recentChangesHtml": "- Fixed dropbox import",
+        "unstable": true,
+        "uploadDate": "5 Jul 2022",
+        "versionCode": 69,
+        "versionString": "0.9.47"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.mthaler.knittings",
+    "docType": 1,
+    "docid": "com.mthaler.knittings",
+    "image": [
+      {
+        "color": "#DC9AA8",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/D0ZZ4CJHT5tSXXcaYYEEe8_r28iDzFcwt_cJR60MD7EwudfOL79F8QDW7tCqE8dCgBe7",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#000000",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/IXYbA23XyBdT2WV6pBrGu7koj7GWK8zKTJRqS9Sfev25QMr0Tz3CEZPpVCbg0msxC_Y",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/vQbeaHFnxw6vpOt6kV3Jn2AzFvfdzuTGuvLjdZFSoFAwJ41UMxMtDid1dUDUJ-IbOpU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/SgUXLvKfVUITTD_f8jqY9Tzrp8eWoFu46dgewq94fLPzG9pwPNHHXaL6Vz03L2bTMQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/LHVIQkcTuK08zgS08tTf2y8PliNO_BzMyVcqAvsnDctqI-QEXtge69TLYjMSxIV_QA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/473jP99zmyJjxE4g7YaYodbJZ4zr7GOk4jAG2jg8bEbc7ej1CjBFXCdFcbEBzSk3EO7L",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/st8ZpkmnNT8ksJP7ZdN-nmWHheek_hp4TBqIylN2q-_t_4Xf3qJvsBbmebjPSazAC4k",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/oXEiw8xwrX2HyivJWov88-8WAlJXx8nG2Ag9c_rDk5-_3i9umNsxcv09ovxSTun5Bvc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/S06yDRSDnt09QF6-ip1IRrCnJT8M9uBOdYnvg6Jcpeg8IkgaZLnhREix_O03tH29gT0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/LPtw4-dwzjMUpfDEZ0JXq1zEah5fHhlDbKjCUMG7RMSiM8_i8Mw2Qo3CFsWRDpUDvvXb",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://www.strickereien.com/privacy-policy/",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.mthaler.knittings",
+    "reviewsUrl": "rev?doc=com.mthaler.knittings&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.mthaler.knittings",
+    "title": "Knittings",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "michael.thaler2@googlemail.com"
+          },
+          "label": "Developer email"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-07-12 10:46:56.432525",
+    "backendDocid": "com.mthaler.knittings",
+    "backendId": 3,
+    "creator": "Michael Thaler",
+    "descriptionHtml": "An application to manage knitting projects:<br>- manage a list of knitting projects<br>- filter list using categories<br>- record time needed to create a knitting<br>- take photos of knitting project and store them<br>- Set photo as preview for knitting list<br>- Export all knitting projects including details and photos to Dropbox and import them again on the same phone / a different phone",
+    "descriptionShort": "Manage knitting projects",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown2": "15125686",
+          "unknown3": 32
+        },
+        "developerEmail": "michael.thaler2@googlemail.com",
+        "developerName": "Michael Thaler",
+        "developerWebsite": "https://www.facebook.com/groups/2310406579174324/",
+        "earlyAccessInfo": {},
+        "file": [
+          {
+            "fileType": 0,
+            "size": "15125686",
+            "versionCode": 70
+          }
+        ],
+        "installationSize": "15125686",
+        "numDownloads": "500+ downloads",
+        "packageName": "com.mthaler.knittings",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.CAMERA",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.QUERY_ALL_PACKAGES",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.REORDER_TASKS",
+          "android.permission.WAKE_LOCK"
+        ],
+        "recentChangesHtml": "- Fixed dropbox export",
+        "unstable": true,
+        "uploadDate": "7 Jul 2022",
+        "versionCode": 70,
+        "versionString": "0.9.48"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.mthaler.knittings",
+    "docType": 1,
+    "docid": "com.mthaler.knittings",
+    "image": [
+      {
+        "color": "#DC9AA8",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/D0ZZ4CJHT5tSXXcaYYEEe8_r28iDzFcwt_cJR60MD7EwudfOL79F8QDW7tCqE8dCgBe7",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#000000",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/IXYbA23XyBdT2WV6pBrGu7koj7GWK8zKTJRqS9Sfev25QMr0Tz3CEZPpVCbg0msxC_Y",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/vQbeaHFnxw6vpOt6kV3Jn2AzFvfdzuTGuvLjdZFSoFAwJ41UMxMtDid1dUDUJ-IbOpU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/SgUXLvKfVUITTD_f8jqY9Tzrp8eWoFu46dgewq94fLPzG9pwPNHHXaL6Vz03L2bTMQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/LHVIQkcTuK08zgS08tTf2y8PliNO_BzMyVcqAvsnDctqI-QEXtge69TLYjMSxIV_QA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/473jP99zmyJjxE4g7YaYodbJZ4zr7GOk4jAG2jg8bEbc7ej1CjBFXCdFcbEBzSk3EO7L",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/st8ZpkmnNT8ksJP7ZdN-nmWHheek_hp4TBqIylN2q-_t_4Xf3qJvsBbmebjPSazAC4k",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/oXEiw8xwrX2HyivJWov88-8WAlJXx8nG2Ag9c_rDk5-_3i9umNsxcv09ovxSTun5Bvc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/S06yDRSDnt09QF6-ip1IRrCnJT8M9uBOdYnvg6Jcpeg8IkgaZLnhREix_O03tH29gT0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/LPtw4-dwzjMUpfDEZ0JXq1zEah5fHhlDbKjCUMG7RMSiM8_i8Mw2Qo3CFsWRDpUDvvXb",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "GBP",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://www.strickereien.com/privacy-policy/",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.mthaler.knittings",
+    "reviewsUrl": "rev?doc=com.mthaler.knittings&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.mthaler.knittings",
+    "title": "Knittings",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "michael.thaler2@googlemail.com"
+          },
+          "label": "Developer email"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  }
+]

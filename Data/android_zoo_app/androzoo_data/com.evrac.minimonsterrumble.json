@@ -1,0 +1,4634 @@
+[
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-06-30 13:11:00.226545",
+    "backendDocid": "com.evrac.minimonsterrumble",
+    "backendId": 3,
+    "creator": "Evrac Studio",
+    "descriptionHtml": "\u2605 Mini Monster Rumble \u2605<br>Mini Monster Rumble is a Tug Of War like Strategy game where you send Monsters to do Auto Battle in a cute 3D fantasy RPG world. <br><br>Mini Monster Rumble gameplay is as simple as Tap on buttons and let them battle on their own,<br>but there\u2019s so many Strategy to consider: <br>- Elemental weakness : Use Monster with water element to beat Fire for example<br>- Balancing Team : Which Monsters to bring into battle, and if they have Synergy with each other<br>- Equipping Items : Consider to improve their weak points, or boost their strong points<br>- Organize Resource : Coins are limited. Upgrade Castle first or put it into other things<br><br>Features<br>\u2726 Super Simple Battle System : Just tap on the Monster you want to fight for you!<br>\u2726 Super Depth Synergy Strategy : Monsters have Elements that will be stronger against weaker Element. And some Monsters are weak on its own, but do Awesome fight when paired with others<br>\u2726 Super Simple Levelling System : Clear stages to get Exp and Coins to level up the monsters. And at certain Levels, they can Evolve to bigger one. BUT bigger doesn\u2019t mean better though. Because size doesn\u2019t matter!<br>\u2726 Lots of Fun : Recruit dozens of Monsters, Evolve, get stronger and defeat your enemies!<br>\u2726 Totally Offline : Play it anywhere and anytime<br><br>****************************<br>Before you start playing, please read the &quot;Terms of Use&quot; carefully.<br>By downloading and playing \u201cMini Monster Rumble\u201c, you agree to these Terms.<br><br>Terms of Use<br>https://evrac.com/minimonster/termscondition.html<br><br>Privacy Policy<br>https://evrac.com/privacy_policy.html",
+    "descriptionShort": "Command your Mini Monsters and defeat your enemies",
+    "details": {
+      "appDetails": {
+        "appType": "GAME",
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            },
+            {
+              "packageName": "com.google.android.play.games",
+              "version": 0
+            }
+          ],
+          "unknown1": 2,
+          "unknown2": "78228751",
+          "unknown3": 30
+        },
+        "developerAddress": "Tomang Tinggi IV no 9<br/>Jakarta, Indonesia<br/>11440",
+        "developerEmail": "mariomaradona90@gmail.com",
+        "developerName": "Evrac Studio",
+        "developerWebsite": "http://evrac.com",
+        "earlyAccessInfo": {},
+        "file": [
+          {
+            "fileType": 0,
+            "size": "66087645",
+            "versionCode": 7
+          },
+          {
+            "fileType": 0,
+            "size": "12141106",
+            "versionCode": 7
+          }
+        ],
+        "hasInstantLink": true,
+        "installationSize": "78228751",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "com.evrac.minimonsterrumble",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.WAKE_LOCK",
+          "com.android.vending.BILLING",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": "- Added Items (starts to drop at stage 2)<br>- Limit battle camera drag<br>- Added Cloud Save<br>- Lower API requirement<br>- Added 120-240 Star Rewards",
+        "unstable": true,
+        "uploadDate": "29 Jun 2022",
+        "versionCode": 7,
+        "versionString": "1.0.1"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.evrac.minimonsterrumble",
+    "docType": 1,
+    "docid": "com.evrac.minimonsterrumble",
+    "image": [
+      {
+        "color": "#95A561",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/sSdy3UGkI8wn3FobBss0sZAj6o0xLyomv8PHHMu7wdjr6gNuwS9JssjwOwW7g98qEYM",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FBCA00",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/nWH7dLjpd4sQlMbYUrWSMH4XPDxGdi2Lj-qIUckGt5PvJ_zzMIvf2Ki5kIVV3yBoilE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qonHj4snz_USUG9DgMnsGFUyP2AxrrjWnG7bJbI67EYaeiJbrCH51pNNqET1NYmQ0QU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/bJxjaNw6ga9m7-QIWGlAP9Pu4AnrHn8_AXWMoMiV5EGTO6ktex6pzxXWEuQDZa3LU8I",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/wrOX27gdFb1hJW_gxfNiIeBQK2W0-Ol_a4MDmkJuQJuEfsKAq98WUTuSW4nap36mrFE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/2QmKSGCmJ_RvWcsUNPyscOxrZ5AXv1E55N5710Qkbn1879HFPEL3mw4uqSsml45lUSI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qCMAY7QHpqbdEULHbSMxS_SdJIlg11skW0t6zN6K0135FsA8I7_wFGkgmmt2dfm7Dw",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "GBP",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "categoryInfo": {
+        "appType": "GAME"
+      },
+      "privacyPolicyUrl": "https://evrac.com/privacy_policy.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "In-game purchases<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.evrac.minimonsterrumble",
+    "reviewsUrl": "rev?doc=com.evrac.minimonsterrumble&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.evrac.minimonsterrumble",
+    "title": "Mini Monster Rumble",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "\u00a30.79 \u2013 \u00a387.99 per item"
+          },
+          "label": "In-app purchases"
+        },
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "mariomaradona90@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Tomang Tinggi IV no 9<br/>Jakarta, Indonesia<br/>11440"
+          },
+          "label": "Developer address"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-07-02 04:56:25.421488",
+    "backendDocid": "com.evrac.minimonsterrumble",
+    "backendId": 3,
+    "creator": "Evrac Studio",
+    "descriptionHtml": "\u2605 Mini Monster Rumble \u2605<br>Mini Monster Rumble is a Tug Of War like Strategy game where you send Monsters to do Auto Battle in a cute 3D fantasy RPG world. <br><br>Mini Monster Rumble gameplay is as simple as Tap on buttons and let them battle on their own,<br>but there\u2019s so many Strategy to consider: <br>- Elemental weakness : Use Monster with water element to beat Fire for example<br>- Balancing Team : Which Monsters to bring into battle, and if they have Synergy with each other<br>- Equipping Items : Consider to improve their weak points, or boost their strong points<br>- Organize Resource : Coins are limited. Upgrade Castle first or put it into other things<br><br>Features<br>\u2726 Super Simple Battle System : Just tap on the Monster you want to fight for you!<br>\u2726 Super Depth Synergy Strategy : Monsters have Elements that will be stronger against weaker Element. And some Monsters are weak on its own, but do Awesome fight when paired with others<br>\u2726 Super Simple Levelling System : Clear stages to get Exp and Coins to level up the monsters. And at certain Levels, they can Evolve to bigger one. BUT bigger doesn\u2019t mean better though. Because size doesn\u2019t matter!<br>\u2726 Lots of Fun : Recruit dozens of Monsters, Evolve, get stronger and defeat your enemies!<br>\u2726 Totally Offline : Play it anywhere and anytime<br><br>****************************<br>Before you start playing, please read the &quot;Terms of Use&quot; carefully.<br>By downloading and playing \u201cMini Monster Rumble\u201c, you agree to these Terms.<br><br>Terms of Use<br>https://evrac.com/minimonster/termscondition.html<br><br>Privacy Policy<br>https://evrac.com/privacy_policy.html",
+    "descriptionShort": "Command your Mini Monsters and defeat your enemies",
+    "details": {
+      "appDetails": {
+        "appType": "GAME",
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            },
+            {
+              "packageName": "com.google.android.play.games",
+              "version": 0
+            }
+          ],
+          "unknown1": 2,
+          "unknown2": "77704776",
+          "unknown3": 30
+        },
+        "developerAddress": "Tomang Tinggi IV no 9<br/>Jakarta, Indonesia<br/>11440",
+        "developerEmail": "mariomaradona90@gmail.com",
+        "developerName": "Evrac Studio",
+        "developerWebsite": "http://evrac.com",
+        "earlyAccessInfo": {},
+        "file": [
+          {
+            "fileType": 0,
+            "size": "65592342",
+            "versionCode": 8
+          },
+          {
+            "fileType": 0,
+            "size": "12112434",
+            "versionCode": 8
+          }
+        ],
+        "hasInstantLink": true,
+        "installationSize": "77704776",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "com.evrac.minimonsterrumble",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.WAKE_LOCK",
+          "com.android.vending.BILLING",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": "- Stage 1 background is WOW now!<br>- Added Notification when you have Full Energy, you can turn it off in Option<br>- Increased your Castle Health<br>- Added Effect when you summon Monsters<br>- Added Items (starts to drop at stage 2)<br>- Limit battle camera drag<br>- Added 120-240 Star Rewards",
+        "unstable": true,
+        "uploadDate": "1 Jul 2022",
+        "versionCode": 8,
+        "versionString": "1.0.2"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.evrac.minimonsterrumble",
+    "docType": 1,
+    "docid": "com.evrac.minimonsterrumble",
+    "image": [
+      {
+        "color": "#95A561",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/sSdy3UGkI8wn3FobBss0sZAj6o0xLyomv8PHHMu7wdjr6gNuwS9JssjwOwW7g98qEYM",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FBCA00",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/nWH7dLjpd4sQlMbYUrWSMH4XPDxGdi2Lj-qIUckGt5PvJ_zzMIvf2Ki5kIVV3yBoilE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qonHj4snz_USUG9DgMnsGFUyP2AxrrjWnG7bJbI67EYaeiJbrCH51pNNqET1NYmQ0QU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/bJxjaNw6ga9m7-QIWGlAP9Pu4AnrHn8_AXWMoMiV5EGTO6ktex6pzxXWEuQDZa3LU8I",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/wrOX27gdFb1hJW_gxfNiIeBQK2W0-Ol_a4MDmkJuQJuEfsKAq98WUTuSW4nap36mrFE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/2QmKSGCmJ_RvWcsUNPyscOxrZ5AXv1E55N5710Qkbn1879HFPEL3mw4uqSsml45lUSI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qCMAY7QHpqbdEULHbSMxS_SdJIlg11skW0t6zN6K0135FsA8I7_wFGkgmmt2dfm7Dw",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "categoryInfo": {
+        "appType": "GAME"
+      },
+      "privacyPolicyUrl": "https://evrac.com/privacy_policy.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "In-game purchases<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.evrac.minimonsterrumble",
+    "reviewsUrl": "rev?doc=com.evrac.minimonsterrumble&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.evrac.minimonsterrumble",
+    "title": "Mini Monster Rumble",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "\u20ac0.79 \u2013 \u20ac99.99 per item"
+          },
+          "label": "In-app purchases"
+        },
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "mariomaradona90@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Tomang Tinggi IV no 9<br/>Jakarta, Indonesia<br/>11440"
+          },
+          "label": "Developer address"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-07-03 03:02:47.954734",
+    "backendDocid": "com.evrac.minimonsterrumble",
+    "backendId": 3,
+    "creator": "Evrac Studio",
+    "descriptionHtml": "\u2605 Mini Monster Rumble \u2605<br>Mini Monster Rumble is a Tug Of War like Strategy game where you send Monsters to do Auto Battle in a cute 3D fantasy RPG world. <br><br>Mini Monster Rumble gameplay is as simple as Tap on buttons and let them battle on their own,<br>but there\u2019s so many Strategy to consider: <br>- Elemental weakness : Use Monster with water element to beat Fire for example<br>- Balancing Team : Which Monsters to bring into battle, and if they have Synergy with each other<br>- Equipping Items : Consider to improve their weak points, or boost their strong points<br>- Organize Resource : Coins are limited. Upgrade Castle first or put it into other things<br><br>Features<br>\u2726 Super Simple Battle System : Just tap on the Monster you want to fight for you!<br>\u2726 Super Depth Synergy Strategy : Monsters have Elements that will be stronger against weaker Element. And some Monsters are weak on its own, but do Awesome fight when paired with others<br>\u2726 Super Simple Levelling System : Clear stages to get Exp and Coins to level up the monsters. And at certain Levels, they can Evolve to bigger one. BUT bigger doesn\u2019t mean better though. Because size doesn\u2019t matter!<br>\u2726 Lots of Fun : Recruit dozens of Monsters, Evolve, get stronger and defeat your enemies!<br>\u2726 Totally Offline : Play it anywhere and anytime<br><br>****************************<br>Before you start playing, please read the &quot;Terms of Use&quot; carefully.<br>By downloading and playing \u201cMini Monster Rumble\u201c, you agree to these Terms.<br><br>Terms of Use<br>https://evrac.com/minimonster/termscondition.html<br><br>Privacy Policy<br>https://evrac.com/privacy_policy.html",
+    "descriptionShort": "Command your Mini Monsters and defeat your enemies",
+    "details": {
+      "appDetails": {
+        "appType": "GAME",
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            },
+            {
+              "packageName": "com.google.android.play.games",
+              "version": 0
+            }
+          ],
+          "unknown1": 2,
+          "unknown2": "78192200",
+          "unknown3": 30
+        },
+        "developerAddress": "Tomang Tinggi IV no 9<br/>Jakarta, Indonesia<br/>11440",
+        "developerEmail": "mariomaradona90@gmail.com",
+        "developerName": "Evrac Studio",
+        "developerWebsite": "http://evrac.com",
+        "earlyAccessInfo": {},
+        "file": [
+          {
+            "fileType": 0,
+            "size": "66075670",
+            "versionCode": 9
+          },
+          {
+            "fileType": 0,
+            "size": "12116530",
+            "versionCode": 9
+          }
+        ],
+        "hasInstantLink": true,
+        "installationSize": "78192200",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "com.evrac.minimonsterrumble",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.WAKE_LOCK",
+          "com.android.vending.BILLING",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": "- Stage 1 background is WOW now!<br>- Added Notification when you have Full Energy, you can turn it off in Option<br>- Increased your Castle Health<br>- Added Effect when you summon Monsters<br>- Added Items (starts to drop at stage 2)<br>- Limit battle camera drag<br>- Added 120-240 Star Rewards",
+        "unstable": true,
+        "uploadDate": "2 Jul 2022",
+        "versionCode": 9,
+        "versionString": "1.0.3"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.evrac.minimonsterrumble",
+    "docType": 1,
+    "docid": "com.evrac.minimonsterrumble",
+    "image": [
+      {
+        "color": "#95A561",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/sSdy3UGkI8wn3FobBss0sZAj6o0xLyomv8PHHMu7wdjr6gNuwS9JssjwOwW7g98qEYM",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FBCA00",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/nWH7dLjpd4sQlMbYUrWSMH4XPDxGdi2Lj-qIUckGt5PvJ_zzMIvf2Ki5kIVV3yBoilE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qonHj4snz_USUG9DgMnsGFUyP2AxrrjWnG7bJbI67EYaeiJbrCH51pNNqET1NYmQ0QU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/bJxjaNw6ga9m7-QIWGlAP9Pu4AnrHn8_AXWMoMiV5EGTO6ktex6pzxXWEuQDZa3LU8I",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/wrOX27gdFb1hJW_gxfNiIeBQK2W0-Ol_a4MDmkJuQJuEfsKAq98WUTuSW4nap36mrFE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/2QmKSGCmJ_RvWcsUNPyscOxrZ5AXv1E55N5710Qkbn1879HFPEL3mw4uqSsml45lUSI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qCMAY7QHpqbdEULHbSMxS_SdJIlg11skW0t6zN6K0135FsA8I7_wFGkgmmt2dfm7Dw",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "categoryInfo": {
+        "appType": "GAME"
+      },
+      "privacyPolicyUrl": "https://evrac.com/privacy_policy.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "Mild fantasy violence<br/>In-game purchases<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.evrac.minimonsterrumble",
+    "reviewsUrl": "rev?doc=com.evrac.minimonsterrumble&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.evrac.minimonsterrumble",
+    "title": "Mini Monster Rumble",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "$0.99 \u2013 $99.99 per item"
+          },
+          "label": "In-app purchases"
+        },
+        {
+          "container": {
+            "value": "Evrac Studio"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "mariomaradona90@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Tomang Tinggi IV no 9<br/>Jakarta, Indonesia<br/>11440"
+          },
+          "label": "Developer address"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-07-07 12:42:52.316078",
+    "backendDocid": "com.evrac.minimonsterrumble",
+    "backendId": 3,
+    "creator": "Evrac Studio",
+    "descriptionHtml": "\u2605 Mini Monster Rumble \u2605<br>Mini Monster Rumble is a Tug Of War like Strategy game where you send Monsters to do Auto Battle in a cute 3D fantasy RPG world. <br><br>Mini Monster Rumble gameplay is as simple as Tap on buttons and let them battle on their own,<br>but there\u2019s so many Strategy to consider: <br>- Elemental weakness : Use Monster with water element to beat Fire for example<br>- Balancing Team : Which Monsters to bring into battle, and if they have Synergy with each other<br>- Equipping Items : Consider to improve their weak points, or boost their strong points<br>- Organize Resource : Coins are limited. Upgrade Castle first or put it into other things<br><br>Features<br>\u2726 Super Simple Battle System : Just tap on the Monster you want to fight for you!<br>\u2726 Super Depth Synergy Strategy : Monsters have Elements that will be stronger against weaker Element. And some Monsters are weak on its own, but do Awesome fight when paired with others<br>\u2726 Super Simple Levelling System : Clear stages to get Exp and Coins to level up the monsters. And at certain Levels, they can Evolve to bigger one. BUT bigger doesn\u2019t mean better though. Because size doesn\u2019t matter!<br>\u2726 Lots of Fun : Recruit dozens of Monsters, Evolve, get stronger and defeat your enemies!<br>\u2726 Totally Offline : Play it anywhere and anytime<br><br>****************************<br>Before you start playing, please read the &quot;Terms of Use&quot; carefully.<br>By downloading and playing \u201cMini Monster Rumble\u201c, you agree to these Terms.<br><br>Terms of Use<br>https://evrac.com/minimonster/termscondition.html<br><br>Privacy Policy<br>https://evrac.com/privacy_policy.html",
+    "descriptionShort": "Command your Mini Monsters and defeat your enemies",
+    "details": {
+      "appDetails": {
+        "appType": "GAME",
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            },
+            {
+              "packageName": "com.google.android.play.games",
+              "version": 0
+            }
+          ],
+          "unknown1": 2,
+          "unknown2": "70999624",
+          "unknown3": 30
+        },
+        "developerAddress": "Tomang Tinggi IV no 9<br/>Jakarta, Indonesia<br/>11440",
+        "developerEmail": "mariomaradona90@gmail.com",
+        "developerName": "Evrac Studio",
+        "developerWebsite": "http://evrac.com",
+        "earlyAccessInfo": {},
+        "file": [
+          {
+            "fileType": 0,
+            "size": "58866710",
+            "versionCode": 11
+          },
+          {
+            "fileType": 0,
+            "size": "12132914",
+            "versionCode": 11
+          }
+        ],
+        "hasInstantLink": true,
+        "installationSize": "70999624",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "com.evrac.minimonsterrumble",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.WAKE_LOCK",
+          "com.android.vending.BILLING",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": "- Added First Time Quest, getting a Purple Fire synergy Monster<br>- Stage 1 background is WOW now!<br>- Added Notification when you have Full Energy, you can turn it off in Option<br>- Increased your Castle Health<br>- Added Effect when you summon Monsters",
+        "unstable": true,
+        "uploadDate": "5 Jul 2022",
+        "versionCode": 11,
+        "versionString": "1.0.4"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.evrac.minimonsterrumble",
+    "docType": 1,
+    "docid": "com.evrac.minimonsterrumble",
+    "image": [
+      {
+        "color": "#95A561",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/sSdy3UGkI8wn3FobBss0sZAj6o0xLyomv8PHHMu7wdjr6gNuwS9JssjwOwW7g98qEYM",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FBCA00",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/nWH7dLjpd4sQlMbYUrWSMH4XPDxGdi2Lj-qIUckGt5PvJ_zzMIvf2Ki5kIVV3yBoilE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qonHj4snz_USUG9DgMnsGFUyP2AxrrjWnG7bJbI67EYaeiJbrCH51pNNqET1NYmQ0QU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/bJxjaNw6ga9m7-QIWGlAP9Pu4AnrHn8_AXWMoMiV5EGTO6ktex6pzxXWEuQDZa3LU8I",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/wrOX27gdFb1hJW_gxfNiIeBQK2W0-Ol_a4MDmkJuQJuEfsKAq98WUTuSW4nap36mrFE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/2QmKSGCmJ_RvWcsUNPyscOxrZ5AXv1E55N5710Qkbn1879HFPEL3mw4uqSsml45lUSI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qCMAY7QHpqbdEULHbSMxS_SdJIlg11skW0t6zN6K0135FsA8I7_wFGkgmmt2dfm7Dw",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "categoryInfo": {
+        "appType": "GAME"
+      },
+      "privacyPolicyUrl": "https://evrac.com/privacy_policy.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "In-game purchases<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.evrac.minimonsterrumble",
+    "reviewsUrl": "rev?doc=com.evrac.minimonsterrumble&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.evrac.minimonsterrumble",
+    "title": "Mini Monster Rumble",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "\u20ac0.89 \u2013 \u20ac104.99 per item"
+          },
+          "label": "In-app purchases"
+        },
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "mariomaradona90@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Tomang Tinggi IV no 9<br/>Jakarta, Indonesia<br/>11440"
+          },
+          "label": "Developer address"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-07-09 06:48:20.732464",
+    "backendDocid": "com.evrac.minimonsterrumble",
+    "backendId": 3,
+    "creator": "Evrac Studio",
+    "descriptionHtml": "\u2605 Mini Monster Rumble \u2605<br>Mini Monster Rumble is a Tug Of War like Strategy game where you send Monsters to do Auto Battle in a cute 3D fantasy RPG world. <br><br>Mini Monster Rumble gameplay is as simple as Tap on buttons and let them battle on their own,<br>but there\u2019s so many Strategy to consider: <br>- Elemental weakness : Use Monster with water element to beat Fire for example<br>- Balancing Team : Which Monsters to bring into battle, and if they have Synergy with each other<br>- Equipping Items : Consider to improve their weak points, or boost their strong points<br>- Organize Resource : Coins are limited. Upgrade Castle first or put it into other things<br><br>Features<br>\u2726 Super Simple Battle System : Just tap on the Monster you want to fight for you!<br>\u2726 Super Depth Synergy Strategy : Monsters have Elements that will be stronger against weaker Element. And some Monsters are weak on its own, but do Awesome fight when paired with others<br>\u2726 Super Simple Levelling System : Clear stages to get Exp and Coins to level up the monsters. And at certain Levels, they can Evolve to bigger one. BUT bigger doesn\u2019t mean better though. Because size doesn\u2019t matter!<br>\u2726 Lots of Fun : Recruit dozens of Monsters, Evolve, get stronger and defeat your enemies!<br>\u2726 Totally Offline : Play it anywhere and anytime<br><br>****************************<br>Before you start playing, please read the &quot;Terms of Use&quot; carefully.<br>By downloading and playing \u201cMini Monster Rumble\u201c, you agree to these Terms.<br><br>Terms of Use<br>https://evrac.com/minimonster/termscondition.html<br><br>Privacy Policy<br>https://evrac.com/privacy_policy.html",
+    "descriptionShort": "Command your Mini Monsters and defeat your enemies",
+    "details": {
+      "appDetails": {
+        "appType": "GAME",
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            },
+            {
+              "packageName": "com.google.android.play.games",
+              "version": 0
+            }
+          ],
+          "unknown1": 2,
+          "unknown2": "82792008",
+          "unknown3": 30
+        },
+        "developerAddress": "Tomang Tinggi IV no 9<br/>Jakarta, Indonesia<br/>11440",
+        "developerEmail": "mariomaradona90@gmail.com",
+        "developerName": "Evrac Studio",
+        "developerWebsite": "http://evrac.com",
+        "earlyAccessInfo": {},
+        "file": [
+          {
+            "fileType": 0,
+            "size": "70642710",
+            "versionCode": 12
+          },
+          {
+            "fileType": 0,
+            "size": "12149298",
+            "versionCode": 12
+          }
+        ],
+        "hasInstantLink": true,
+        "installationSize": "82792008",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "com.evrac.minimonsterrumble",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.WAKE_LOCK",
+          "com.android.vending.BILLING",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": "Stages are divided into smaller areas",
+        "unstable": true,
+        "uploadDate": "7 Jul 2022",
+        "versionCode": 12,
+        "versionString": "1.0.5"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.evrac.minimonsterrumble",
+    "docType": 1,
+    "docid": "com.evrac.minimonsterrumble",
+    "image": [
+      {
+        "color": "#95A561",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/sSdy3UGkI8wn3FobBss0sZAj6o0xLyomv8PHHMu7wdjr6gNuwS9JssjwOwW7g98qEYM",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FBCA00",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/nWH7dLjpd4sQlMbYUrWSMH4XPDxGdi2Lj-qIUckGt5PvJ_zzMIvf2Ki5kIVV3yBoilE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qonHj4snz_USUG9DgMnsGFUyP2AxrrjWnG7bJbI67EYaeiJbrCH51pNNqET1NYmQ0QU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/bJxjaNw6ga9m7-QIWGlAP9Pu4AnrHn8_AXWMoMiV5EGTO6ktex6pzxXWEuQDZa3LU8I",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/wrOX27gdFb1hJW_gxfNiIeBQK2W0-Ol_a4MDmkJuQJuEfsKAq98WUTuSW4nap36mrFE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/2QmKSGCmJ_RvWcsUNPyscOxrZ5AXv1E55N5710Qkbn1879HFPEL3mw4uqSsml45lUSI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qCMAY7QHpqbdEULHbSMxS_SdJIlg11skW0t6zN6K0135FsA8I7_wFGkgmmt2dfm7Dw",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "categoryInfo": {
+        "appType": "GAME"
+      },
+      "privacyPolicyUrl": "https://evrac.com/privacy_policy.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "In-game purchases<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.evrac.minimonsterrumble",
+    "reviewsUrl": "rev?doc=com.evrac.minimonsterrumble&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.evrac.minimonsterrumble",
+    "title": "Mini Monster Rumble",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "\u20ac0.89 \u2013 \u20ac104.99 per item"
+          },
+          "label": "In-app purchases"
+        },
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "mariomaradona90@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Tomang Tinggi IV no 9<br/>Jakarta, Indonesia<br/>11440"
+          },
+          "label": "Developer address"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-07-14 11:27:48.317938",
+    "backendDocid": "com.evrac.minimonsterrumble",
+    "backendId": 3,
+    "creator": "Evrac Studio",
+    "descriptionHtml": "\u2605 Mini Monster Rumble \u2605<br>Mini Monster Rumble is a Tug Of War like Strategy game where you send Monsters to do Auto Battle in a cute 3D fantasy RPG world. <br><br>Mini Monster Rumble gameplay is as simple as Tap on buttons and let them battle on their own,<br>but there\u2019s so many Strategy to consider: <br>- Elemental weakness : Use Monster with water element to beat Fire for example<br>- Balancing Team : Which Monsters to bring into battle, and if they have Synergy with each other<br>- Equipping Items : Consider to improve their weak points, or boost their strong points<br>- Organize Resource : Coins are limited. Upgrade Castle first or put it into other things<br><br>Features<br>\u2726 Super Simple Battle System : Just tap on the Monster you want to fight for you!<br>\u2726 Super Depth Synergy Strategy : Monsters have Elements that will be stronger against weaker Element. And some Monsters are weak on its own, but do Awesome fight when paired with others<br>\u2726 Super Simple Levelling System : Clear stages to get Exp and Coins to level up the monsters. And at certain Levels, they can Evolve to bigger one. BUT bigger doesn\u2019t mean better though. Because size doesn\u2019t matter!<br>\u2726 Lots of Fun : Recruit dozens of Monsters, Evolve, get stronger and defeat your enemies!<br>\u2726 Totally Offline : Play it anywhere and anytime<br><br>****************************<br>Before you start playing, please read the &quot;Terms of Use&quot; carefully.<br>By downloading and playing \u201cMini Monster Rumble\u201c, you agree to these Terms.<br><br>Terms of Use<br>https://evrac.com/minimonster/termscondition.html<br><br>Privacy Policy<br>https://evrac.com/privacy_policy.html",
+    "descriptionShort": "Command your Mini Monsters and defeat your enemies",
+    "details": {
+      "appDetails": {
+        "appType": "GAME",
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            },
+            {
+              "packageName": "com.google.android.play.games",
+              "version": 0
+            }
+          ],
+          "unknown1": 2,
+          "unknown2": "82980424",
+          "unknown3": 30
+        },
+        "developerAddress": "Tomang Tinggi IV no 9<br/>Jakarta, Indonesia<br/>11440",
+        "developerEmail": "mariomaradona90@gmail.com",
+        "developerName": "Evrac Studio",
+        "developerWebsite": "http://evrac.com",
+        "earlyAccessInfo": {},
+        "file": [
+          {
+            "fileType": 0,
+            "size": "70814742",
+            "versionCode": 14
+          },
+          {
+            "fileType": 0,
+            "size": "12165682",
+            "versionCode": 14
+          }
+        ],
+        "hasInstantLink": true,
+        "installationSize": "82980424",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "com.evrac.minimonsterrumble",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.WAKE_LOCK",
+          "com.android.vending.BILLING",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": "- Added Daily Login Gift<br>- \u201cFirst Time Quest\u201d rewards can be collected after 8 hours<br>- Monsters can Equip Items starting at level 3<br>- Items starting to drop at Silent Forest 2 with 50% chance to get on First Time win and 10% if you challenge it again<br>- Added tips when you lose <br>- Added 2 Monsters at Shop",
+        "unstable": true,
+        "uploadDate": "14 Jul 2022",
+        "versionCode": 14,
+        "versionString": "1.0.7"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.evrac.minimonsterrumble",
+    "docType": 1,
+    "docid": "com.evrac.minimonsterrumble",
+    "image": [
+      {
+        "color": "#95A561",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/sSdy3UGkI8wn3FobBss0sZAj6o0xLyomv8PHHMu7wdjr6gNuwS9JssjwOwW7g98qEYM",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FBCA00",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/nWH7dLjpd4sQlMbYUrWSMH4XPDxGdi2Lj-qIUckGt5PvJ_zzMIvf2Ki5kIVV3yBoilE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qonHj4snz_USUG9DgMnsGFUyP2AxrrjWnG7bJbI67EYaeiJbrCH51pNNqET1NYmQ0QU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/bJxjaNw6ga9m7-QIWGlAP9Pu4AnrHn8_AXWMoMiV5EGTO6ktex6pzxXWEuQDZa3LU8I",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/wrOX27gdFb1hJW_gxfNiIeBQK2W0-Ol_a4MDmkJuQJuEfsKAq98WUTuSW4nap36mrFE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/2QmKSGCmJ_RvWcsUNPyscOxrZ5AXv1E55N5710Qkbn1879HFPEL3mw4uqSsml45lUSI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qCMAY7QHpqbdEULHbSMxS_SdJIlg11skW0t6zN6K0135FsA8I7_wFGkgmmt2dfm7Dw",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "categoryInfo": {
+        "appType": "GAME"
+      },
+      "privacyPolicyUrl": "https://evrac.com/privacy_policy.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "In-game purchases<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.evrac.minimonsterrumble",
+    "reviewsUrl": "rev?doc=com.evrac.minimonsterrumble&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.evrac.minimonsterrumble",
+    "title": "Mini Monster Rumble",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "\u20ac0.89 \u2013 \u20ac104.99 per item"
+          },
+          "label": "In-app purchases"
+        },
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "mariomaradona90@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Tomang Tinggi IV no 9<br/>Jakarta, Indonesia<br/>11440"
+          },
+          "label": "Developer address"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-07-16 06:31:48.589203",
+    "backendDocid": "com.evrac.minimonsterrumble",
+    "backendId": 3,
+    "creator": "Evrac Studio",
+    "descriptionHtml": "\u2605 Mini Monster Rumble \u2605<br>Mini Monster Rumble is a Tug Of War like Strategy game where you send Monsters to do Auto Battle in a cute 3D fantasy RPG world. <br><br>Mini Monster Rumble gameplay is as simple as Tap on buttons and let them battle on their own,<br>but there\u2019s so many Strategy to consider: <br>- Elemental weakness : Use Monster with water element to beat Fire for example<br>- Balancing Team : Which Monsters to bring into battle, and if they have Synergy with each other<br>- Equipping Items : Consider to improve their weak points, or boost their strong points<br>- Organize Resource : Coins are limited. Upgrade Castle first or put it into other things<br><br>Features<br>\u2726 Super Simple Battle System : Just tap on the Monster you want to fight for you!<br>\u2726 Super Depth Synergy Strategy : Monsters have Elements that will be stronger against weaker Element. And some Monsters are weak on its own, but do Awesome fight when paired with others<br>\u2726 Super Simple Levelling System : Clear stages to get Exp and Coins to level up the monsters. And at certain Levels, they can Evolve to bigger one. BUT bigger doesn\u2019t mean better though. Because size doesn\u2019t matter!<br>\u2726 Lots of Fun : Recruit dozens of Monsters, Evolve, get stronger and defeat your enemies!<br>\u2726 Totally Offline : Play it anywhere and anytime<br><br>****************************<br>Before you start playing, please read the &quot;Terms of Use&quot; carefully.<br>By downloading and playing \u201cMini Monster Rumble\u201c, you agree to these Terms.<br><br>Terms of Use<br>https://evrac.com/minimonster/termscondition.html<br><br>Privacy Policy<br>https://evrac.com/privacy_policy.html",
+    "descriptionShort": "Command your Mini Monsters and defeat your enemies",
+    "details": {
+      "appDetails": {
+        "appType": "GAME",
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            },
+            {
+              "packageName": "com.google.android.play.games",
+              "version": 0
+            }
+          ],
+          "unknown1": 2,
+          "unknown2": "82984599",
+          "unknown3": 30
+        },
+        "developerAddress": "Tomang Tinggi IV no 9<br/>Jakarta, Indonesia<br/>11440",
+        "developerEmail": "mariomaradona90@gmail.com",
+        "developerName": "Evrac Studio",
+        "developerWebsite": "http://evrac.com",
+        "earlyAccessInfo": {},
+        "file": [
+          {
+            "fileType": 0,
+            "size": "70818917",
+            "versionCode": 15
+          },
+          {
+            "fileType": 0,
+            "size": "12165682",
+            "versionCode": 15
+          }
+        ],
+        "hasInstantLink": true,
+        "installationSize": "82984599",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "com.evrac.minimonsterrumble",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.WAKE_LOCK",
+          "com.android.vending.BILLING",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": "- Added Daily Login Gift<br>- \u201cFirst Time Quest\u201d rewards can be collected after 8 hours<br>- Monsters can Equip Items starting at level 3<br>- Items starting to drop at Silent Forest 2 with 50% chance to get on First Time win and 10% if you challenge it again<br>- Added tips when you lose <br>- Added 2 Monsters at Shop",
+        "unstable": true,
+        "uploadDate": "14 Jul 2022",
+        "versionCode": 15,
+        "versionString": "1.0.8"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.evrac.minimonsterrumble",
+    "docType": 1,
+    "docid": "com.evrac.minimonsterrumble",
+    "image": [
+      {
+        "color": "#95A561",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/sSdy3UGkI8wn3FobBss0sZAj6o0xLyomv8PHHMu7wdjr6gNuwS9JssjwOwW7g98qEYM",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FBCA00",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/nWH7dLjpd4sQlMbYUrWSMH4XPDxGdi2Lj-qIUckGt5PvJ_zzMIvf2Ki5kIVV3yBoilE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qonHj4snz_USUG9DgMnsGFUyP2AxrrjWnG7bJbI67EYaeiJbrCH51pNNqET1NYmQ0QU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/bJxjaNw6ga9m7-QIWGlAP9Pu4AnrHn8_AXWMoMiV5EGTO6ktex6pzxXWEuQDZa3LU8I",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/4Y4tRjMQZmGGVNeCDmjHRWY_RZ6SA9JIBRndhcjwOVIEUdEh0L2Miy7hUL-0CmrBYpk",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/2QmKSGCmJ_RvWcsUNPyscOxrZ5AXv1E55N5710Qkbn1879HFPEL3mw4uqSsml45lUSI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/PVD07t5MwuXqZh9bpR9vbRzt8INkRcz6bsbNXLZcApzUb6kF-gA2F9C5nzsPN4fVFCc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qCMAY7QHpqbdEULHbSMxS_SdJIlg11skW0t6zN6K0135FsA8I7_wFGkgmmt2dfm7Dw",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "categoryInfo": {
+        "appType": "GAME"
+      },
+      "privacyPolicyUrl": "https://evrac.com/privacy_policy.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "Mild fantasy violence<br/>In-game purchases<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.evrac.minimonsterrumble",
+    "reviewsUrl": "rev?doc=com.evrac.minimonsterrumble&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.evrac.minimonsterrumble",
+    "title": "Mini Monster Rumble",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "$0.99 \u2013 $99.99 per item"
+          },
+          "label": "In-app purchases"
+        },
+        {
+          "container": {
+            "value": "Evrac Studio"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "mariomaradona90@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Tomang Tinggi IV no 9<br/>Jakarta, Indonesia<br/>11440"
+          },
+          "label": "Developer address"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-07-19 11:08:19.559490",
+    "backendDocid": "com.evrac.minimonsterrumble",
+    "backendId": 3,
+    "creator": "Evrac Studio",
+    "descriptionHtml": "\u2605 Mini Monster Rumble \u2605<br>Mini Monster Rumble is a Tug Of War like Strategy game where you send Monsters to do Auto Battle in a cute 3D fantasy RPG world. <br><br>Mini Monster Rumble gameplay is as simple as Tap on buttons and let them battle on their own,<br>but there\u2019s so many Strategy to consider: <br>- Elemental weakness : Use Monster with water element to beat Fire for example<br>- Balancing Team : Which Monsters to bring into battle, and if they have Synergy with each other<br>- Equipping Items : Consider to improve their weak points, or boost their strong points<br>- Organize Resource : Coins are limited. Upgrade Castle first or put it into other things<br><br>Features<br>\u2726 Super Simple Battle System : Just tap on the Monster you want to fight for you!<br>\u2726 Super Depth Synergy Strategy : Monsters have Elements that will be stronger against weaker Element. And some Monsters are weak on its own, but do Awesome fight when paired with others<br>\u2726 Super Simple Levelling System : Clear stages to get Exp and Coins to level up the monsters. And at certain Levels, they can Evolve to bigger one. BUT bigger doesn\u2019t mean better though. Because size doesn\u2019t matter!<br>\u2726 Lots of Fun : Recruit dozens of Monsters, Evolve, get stronger and defeat your enemies!<br>\u2726 Totally Offline : Play it anywhere and anytime<br><br>****************************<br>Before you start playing, please read the &quot;Terms of Use&quot; carefully.<br>By downloading and playing \u201cMini Monster Rumble\u201c, you agree to these Terms.<br><br>Terms of Use<br>https://evrac.com/minimonster/termscondition.html<br><br>Privacy Policy<br>https://evrac.com/privacy_policy.html",
+    "descriptionShort": "Command your Mini Monsters and defeat your enemies",
+    "details": {
+      "appDetails": {
+        "appType": "GAME",
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            },
+            {
+              "packageName": "com.google.android.play.games",
+              "version": 0
+            }
+          ],
+          "unknown1": 2,
+          "unknown2": "82968215",
+          "unknown3": 30
+        },
+        "developerAddress": "Tomang Tinggi IV no 9<br/>Jakarta, Indonesia<br/>11440",
+        "developerEmail": "mariomaradona90@gmail.com",
+        "developerName": "Evrac Studio",
+        "developerWebsite": "http://evrac.com",
+        "earlyAccessInfo": {},
+        "file": [
+          {
+            "fileType": 0,
+            "size": "70798437",
+            "versionCode": 17
+          },
+          {
+            "fileType": 0,
+            "size": "12169778",
+            "versionCode": 17
+          }
+        ],
+        "hasInstantLink": true,
+        "installationSize": "82968215",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "com.evrac.minimonsterrumble",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.WAKE_LOCK",
+          "com.android.vending.BILLING",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": "- Fixed cannot start game on certain Devices<br>- Your Monster Health Bar has different color, so you differentiate which monster is yours<br>- Golem now has slower Move and Attack animation",
+        "unstable": true,
+        "uploadDate": "17 Jul 2022",
+        "versionCode": 17,
+        "versionString": "1.1.0"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.evrac.minimonsterrumble",
+    "docType": 1,
+    "docid": "com.evrac.minimonsterrumble",
+    "image": [
+      {
+        "color": "#95A561",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/sSdy3UGkI8wn3FobBss0sZAj6o0xLyomv8PHHMu7wdjr6gNuwS9JssjwOwW7g98qEYM",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FBCA00",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/nWH7dLjpd4sQlMbYUrWSMH4XPDxGdi2Lj-qIUckGt5PvJ_zzMIvf2Ki5kIVV3yBoilE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qonHj4snz_USUG9DgMnsGFUyP2AxrrjWnG7bJbI67EYaeiJbrCH51pNNqET1NYmQ0QU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/bJxjaNw6ga9m7-QIWGlAP9Pu4AnrHn8_AXWMoMiV5EGTO6ktex6pzxXWEuQDZa3LU8I",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/4Y4tRjMQZmGGVNeCDmjHRWY_RZ6SA9JIBRndhcjwOVIEUdEh0L2Miy7hUL-0CmrBYpk",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/2QmKSGCmJ_RvWcsUNPyscOxrZ5AXv1E55N5710Qkbn1879HFPEL3mw4uqSsml45lUSI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/PVD07t5MwuXqZh9bpR9vbRzt8INkRcz6bsbNXLZcApzUb6kF-gA2F9C5nzsPN4fVFCc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qCMAY7QHpqbdEULHbSMxS_SdJIlg11skW0t6zN6K0135FsA8I7_wFGkgmmt2dfm7Dw",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "categoryInfo": {
+        "appType": "GAME"
+      },
+      "privacyPolicyUrl": "https://evrac.com/privacy_policy.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "In-game purchases<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.evrac.minimonsterrumble",
+    "reviewsUrl": "rev?doc=com.evrac.minimonsterrumble&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.evrac.minimonsterrumble",
+    "title": "Mini Monster Rumble",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "\u20ac0.89 \u2013 \u20ac104.99 per item"
+          },
+          "label": "In-app purchases"
+        },
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "mariomaradona90@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Tomang Tinggi IV no 9<br/>Jakarta, Indonesia<br/>11440"
+          },
+          "label": "Developer address"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-07-22 00:00:19.528553",
+    "backendDocid": "com.evrac.minimonsterrumble",
+    "backendId": 3,
+    "creator": "Evrac Studio",
+    "descriptionHtml": "\u2605 Mini Monster Rumble \u2605<br>Mini Monster Rumble is a Tug Of War like Strategy game where you send Monsters to do Auto Battle in a cute 3D fantasy RPG world. <br><br>Mini Monster Rumble gameplay is as simple as Tap on buttons and let them battle on their own,<br>but there\u2019s so many Strategy to consider: <br>- Elemental weakness : Use Monster with water element to beat Fire for example<br>- Balancing Team : Which Monsters to bring into battle, and if they have Synergy with each other<br>- Equipping Items : Consider to improve their weak points, or boost their strong points<br>- Organize Resource : Coins are limited. Upgrade Castle first or put it into other things<br><br>Features<br>\u2726 Super Simple Battle System : Just tap on the Monster you want to fight for you!<br>\u2726 Super Depth Synergy Strategy : Monsters have Elements that will be stronger against weaker Element. And some Monsters are weak on its own, but do Awesome fight when paired with others<br>\u2726 Super Simple Levelling System : Clear stages to get Exp and Coins to level up the monsters. And at certain Levels, they can Evolve to bigger one. BUT bigger doesn\u2019t mean better though. Because size doesn\u2019t matter!<br>\u2726 Lots of Fun : Recruit dozens of Monsters, Evolve, get stronger and defeat your enemies!<br>\u2726 Totally Offline : Play it anywhere and anytime<br><br>****************************<br>Before you start playing, please read the &quot;Terms of Use&quot; carefully.<br>By downloading and playing \u201cMini Monster Rumble\u201c, you agree to these Terms.<br><br>Terms of Use<br>https://evrac.com/minimonster/termscondition.html<br><br>Privacy Policy<br>https://evrac.com/privacy_policy.html",
+    "descriptionShort": "Command your Mini Monsters and defeat your enemies",
+    "details": {
+      "appDetails": {
+        "appType": "GAME",
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            },
+            {
+              "packageName": "com.google.android.play.games",
+              "version": 0
+            }
+          ],
+          "unknown1": 2,
+          "unknown2": "83435159",
+          "unknown3": 30
+        },
+        "developerAddress": "Tomang Tinggi IV no 9<br/>Jakarta, Indonesia<br/>11440",
+        "developerEmail": "mariomaradona90@gmail.com",
+        "developerName": "Evrac Studio",
+        "developerWebsite": "http://evrac.com",
+        "earlyAccessInfo": {},
+        "file": [
+          {
+            "fileType": 0,
+            "size": "71236709",
+            "versionCode": 19
+          },
+          {
+            "fileType": 0,
+            "size": "12198450",
+            "versionCode": 19
+          }
+        ],
+        "hasInstantLink": true,
+        "installationSize": "83435159",
+        "numDownloads": "5,000+ downloads",
+        "packageName": "com.evrac.minimonsterrumble",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.WAKE_LOCK",
+          "com.android.vending.BILLING",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": "- Added \u2018Total Power\u2019 display of your Active Team<br>- Added Chest that you can collect when you complete an area<br>- Added Weekend Event. Login at Friday, Saturday and Sunday to get Gem &amp; Energy<br>- Fixed Error when player skip Tutorial",
+        "unstable": true,
+        "uploadDate": "21 Jul 2022",
+        "versionCode": 19,
+        "versionString": "1.1.2"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.evrac.minimonsterrumble",
+    "docType": 1,
+    "docid": "com.evrac.minimonsterrumble",
+    "image": [
+      {
+        "color": "#95A561",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/sSdy3UGkI8wn3FobBss0sZAj6o0xLyomv8PHHMu7wdjr6gNuwS9JssjwOwW7g98qEYM",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FBCA00",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/nWH7dLjpd4sQlMbYUrWSMH4XPDxGdi2Lj-qIUckGt5PvJ_zzMIvf2Ki5kIVV3yBoilE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qonHj4snz_USUG9DgMnsGFUyP2AxrrjWnG7bJbI67EYaeiJbrCH51pNNqET1NYmQ0QU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/bJxjaNw6ga9m7-QIWGlAP9Pu4AnrHn8_AXWMoMiV5EGTO6ktex6pzxXWEuQDZa3LU8I",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/4Y4tRjMQZmGGVNeCDmjHRWY_RZ6SA9JIBRndhcjwOVIEUdEh0L2Miy7hUL-0CmrBYpk",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/2QmKSGCmJ_RvWcsUNPyscOxrZ5AXv1E55N5710Qkbn1879HFPEL3mw4uqSsml45lUSI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/PVD07t5MwuXqZh9bpR9vbRzt8INkRcz6bsbNXLZcApzUb6kF-gA2F9C5nzsPN4fVFCc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qCMAY7QHpqbdEULHbSMxS_SdJIlg11skW0t6zN6K0135FsA8I7_wFGkgmmt2dfm7Dw",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "GBP",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "categoryInfo": {
+        "appType": "GAME"
+      },
+      "privacyPolicyUrl": "https://evrac.com/privacy_policy.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "In-game purchases<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.evrac.minimonsterrumble",
+    "reviewsUrl": "rev?doc=com.evrac.minimonsterrumble&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.evrac.minimonsterrumble",
+    "title": "Mini Monster Rumble",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "\u00a30.79 \u2013 \u00a387.99 per item"
+          },
+          "label": "In-app purchases"
+        },
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "mariomaradona90@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Tomang Tinggi IV no 9<br/>Jakarta, Indonesia<br/>11440"
+          },
+          "label": "Developer address"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-07-23 17:57:46.559869",
+    "backendDocid": "com.evrac.minimonsterrumble",
+    "backendId": 3,
+    "creator": "Evrac Studio",
+    "descriptionHtml": "\u2605 Mini Monster Rumble \u2605<br>Mini Monster Rumble is a Tug Of War like Strategy game where you send Monsters to do Auto Battle in a cute 3D fantasy RPG world. <br><br>Mini Monster Rumble gameplay is as simple as Tap on buttons and let them battle on their own,<br>but there\u2019s so many Strategy to consider: <br>- Elemental weakness : Use Monster with water element to beat Fire for example<br>- Balancing Team : Which Monsters to bring into battle, and if they have Synergy with each other<br>- Equipping Items : Consider to improve their weak points, or boost their strong points<br>- Organize Resource : Coins are limited. Upgrade Castle first or put it into other things<br><br>Features<br>\u2726 Super Simple Battle System : Just tap on the Monster you want to fight for you!<br>\u2726 Super Depth Synergy Strategy : Monsters have Elements that will be stronger against weaker Element. And some Monsters are weak on its own, but do Awesome fight when paired with others<br>\u2726 Super Simple Levelling System : Clear stages to get Exp and Coins to level up the monsters. And at certain Levels, they can Evolve to bigger one. BUT bigger doesn\u2019t mean better though. Because size doesn\u2019t matter!<br>\u2726 Lots of Fun : Recruit dozens of Monsters, Evolve, get stronger and defeat your enemies!<br>\u2726 Totally Offline : Play it anywhere and anytime<br><br>****************************<br>Before you start playing, please read the &quot;Terms of Use&quot; carefully.<br>By downloading and playing \u201cMini Monster Rumble\u201c, you agree to these Terms.<br><br>Terms of Use<br>https://evrac.com/minimonster/termscondition.html<br><br>Privacy Policy<br>https://evrac.com/privacy_policy.html",
+    "descriptionShort": "Command your Mini Monsters and defeat your enemies",
+    "details": {
+      "appDetails": {
+        "appType": "GAME",
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            },
+            {
+              "packageName": "com.google.android.play.games",
+              "version": 0
+            }
+          ],
+          "unknown1": 2,
+          "unknown2": "78712471",
+          "unknown3": 30
+        },
+        "developerAddress": "Tomang Tinggi IV no 9<br/>Jakarta, Indonesia<br/>11440",
+        "developerEmail": "mariomaradona90@gmail.com",
+        "developerName": "Evrac Studio",
+        "developerWebsite": "http://evrac.com",
+        "earlyAccessInfo": {},
+        "file": [
+          {
+            "fileType": 0,
+            "size": "66509925",
+            "versionCode": 20
+          },
+          {
+            "fileType": 0,
+            "size": "12202546",
+            "versionCode": 20
+          }
+        ],
+        "hasInstantLink": true,
+        "installationSize": "78712471",
+        "numDownloads": "5,000+ downloads",
+        "packageName": "com.evrac.minimonsterrumble",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.WAKE_LOCK",
+          "com.android.vending.BILLING",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": "- Added our Discord channel link in Option<br>Join us at <br>https://discord.gg/QUtSrWhAvG<br><br>- Silent Forest 1 - 9 now had a Dragon Boss ^^<br>- Fixed Weekend Gift cannot be claimed<br>- Since we\u2019re giving more gems now, Coins in shop will be slightly reduced<br>- Added Items in shop, you can buy common items in shop<br>- Emerald and Items in shop is only available if you have cleared 10 stages<br>- Reduces File Size a bit",
+        "unstable": true,
+        "uploadDate": "23 Jul 2022",
+        "versionCode": 20,
+        "versionString": "1.1.3"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.evrac.minimonsterrumble",
+    "docType": 1,
+    "docid": "com.evrac.minimonsterrumble",
+    "image": [
+      {
+        "color": "#95A561",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/sSdy3UGkI8wn3FobBss0sZAj6o0xLyomv8PHHMu7wdjr6gNuwS9JssjwOwW7g98qEYM",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FBCA00",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/nWH7dLjpd4sQlMbYUrWSMH4XPDxGdi2Lj-qIUckGt5PvJ_zzMIvf2Ki5kIVV3yBoilE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qonHj4snz_USUG9DgMnsGFUyP2AxrrjWnG7bJbI67EYaeiJbrCH51pNNqET1NYmQ0QU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/bJxjaNw6ga9m7-QIWGlAP9Pu4AnrHn8_AXWMoMiV5EGTO6ktex6pzxXWEuQDZa3LU8I",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/4Y4tRjMQZmGGVNeCDmjHRWY_RZ6SA9JIBRndhcjwOVIEUdEh0L2Miy7hUL-0CmrBYpk",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/2QmKSGCmJ_RvWcsUNPyscOxrZ5AXv1E55N5710Qkbn1879HFPEL3mw4uqSsml45lUSI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/PVD07t5MwuXqZh9bpR9vbRzt8INkRcz6bsbNXLZcApzUb6kF-gA2F9C5nzsPN4fVFCc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qCMAY7QHpqbdEULHbSMxS_SdJIlg11skW0t6zN6K0135FsA8I7_wFGkgmmt2dfm7Dw",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "categoryInfo": {
+        "appType": "GAME"
+      },
+      "privacyPolicyUrl": "https://evrac.com/privacy_policy.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "In-game purchases<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.evrac.minimonsterrumble",
+    "reviewsUrl": "rev?doc=com.evrac.minimonsterrumble&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.evrac.minimonsterrumble",
+    "title": "Mini Monster Rumble",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "\u20ac0.89 \u2013 \u20ac104.99 per item"
+          },
+          "label": "In-app purchases"
+        },
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "mariomaradona90@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Tomang Tinggi IV no 9<br/>Jakarta, Indonesia<br/>11440"
+          },
+          "label": "Developer address"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-07-26 15:15:59.664999",
+    "backendDocid": "com.evrac.minimonsterrumble",
+    "backendId": 3,
+    "creator": "Evrac Studio",
+    "descriptionHtml": "\u2605 Mini Monster Rumble is an Offline Tug of War Strategy games where you send Monsters to do Auto Battle \u2605 <br><br>The gameplay is as simple as Tap on buttons and let them battle on their own,<br>but there are so many Strategy to consider: <br>- Elemental weakness : Use Dragon Monster with Fire Element to beat Nature for example<br>- Balancing Team : Which Monster to bring into battle, and if they have Synergy with each other<br>- Evolve : Get stronger by Evolving your monsters to next Level<br>- Equip Items : Consider to improve their weak points, or boost their strong points<br>- Organize Resource : Coins are limited. Upgrade your Kingdom or put it into other things<br><br>Features<br>\u2726 Super Simple Battle System : Just tap on the Monster you want to fight for you!<br>\u2726 Super Depth Synergy Strategy : Monsters have Elements that will be stronger against weaker Element. And some Monsters are weak on its own, but do Awesome fight when paired with others<br>\u2726 Super Simple Levelling System : Clear stages to get Exp and Coins to level up the monsters. And at certain Levels, your Dragon can Evolve to a bigger one. BUT bigger doesn\u2019t mean better though. Because size doesn\u2019t matter!<br>\u2726 Lots of Fun : Recruit dozens of Monsters, Evolve, get stronger and defeat your enemies!<br>\u2726 Totally Offline : Play it anywhere and anytime<br>\u2726 Awesome 3D Graphics : Well it\u2019s just Awesome!",
+    "descriptionShort": "Defend your Kingdom and Battle your Mini Monster in a cute 3D Fantasy RPG world",
+    "details": {
+      "appDetails": {
+        "appType": "GAME",
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            },
+            {
+              "packageName": "com.google.android.play.games",
+              "version": 0
+            }
+          ],
+          "unknown1": 2,
+          "unknown2": "80932503",
+          "unknown3": 30
+        },
+        "developerAddress": "Tomang Tinggi IV no 9<br/>Jakarta, Indonesia<br/>11440",
+        "developerEmail": "mariomaradona90@gmail.com",
+        "developerName": "Evrac Studio",
+        "developerWebsite": "http://evrac.com",
+        "earlyAccessInfo": {},
+        "file": [
+          {
+            "fileType": 0,
+            "size": "68721765",
+            "versionCode": 21
+          },
+          {
+            "fileType": 0,
+            "size": "12210738",
+            "versionCode": 21
+          }
+        ],
+        "hasInstantLink": true,
+        "installationSize": "80932503",
+        "numDownloads": "5,000+ downloads",
+        "packageName": "com.evrac.minimonsterrumble",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.WAKE_LOCK",
+          "com.android.vending.BILLING",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": "- Added Library at 20 Star Reward<br>\t- You can see data of ALL monsters that you have and that you\u2019ve encountered in battle<br>- Added Treant Boss in Silent Forest 5 - 40<br>- Added Stag beetle Boss in Underground Mine 4 - 30",
+        "unstable": true,
+        "uploadDate": "26 Jul 2022",
+        "versionCode": 21,
+        "versionString": "1.1.4"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.evrac.minimonsterrumble",
+    "docType": 1,
+    "docid": "com.evrac.minimonsterrumble",
+    "image": [
+      {
+        "color": "#95A561",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/sSdy3UGkI8wn3FobBss0sZAj6o0xLyomv8PHHMu7wdjr6gNuwS9JssjwOwW7g98qEYM",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FBCA00",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/nWH7dLjpd4sQlMbYUrWSMH4XPDxGdi2Lj-qIUckGt5PvJ_zzMIvf2Ki5kIVV3yBoilE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qonHj4snz_USUG9DgMnsGFUyP2AxrrjWnG7bJbI67EYaeiJbrCH51pNNqET1NYmQ0QU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Cq-nFM3hgGsAn3V0NLg3UZWiNFry4tn-EXQviYGzdV8G7neCLSG-fBgsOM7TQVOVTwU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Awb7t0gMZQdWh55Rgn9v62KDiBbx5tyogOoPimKHO-LMUrva6PAFr3-cUcbpAmRNJwg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/PVD07t5MwuXqZh9bpR9vbRzt8INkRcz6bsbNXLZcApzUb6kF-gA2F9C5nzsPN4fVFCc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/46Y327Prv4cka0mwEAp413GnbL05ykf72fHJ6ds6xNkcnd99_jCPZdre0QnpW4dT7BQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qCMAY7QHpqbdEULHbSMxS_SdJIlg11skW0t6zN6K0135FsA8I7_wFGkgmmt2dfm7Dw",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "categoryInfo": {
+        "appType": "GAME"
+      },
+      "privacyPolicyUrl": "https://evrac.com/privacy_policy.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "In-game purchases<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.evrac.minimonsterrumble",
+    "reviewsUrl": "rev?doc=com.evrac.minimonsterrumble&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.evrac.minimonsterrumble",
+    "title": "Mini Monster Rumble Battle",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "\u20ac0.79 \u2013 \u20ac99.99 per item"
+          },
+          "label": "In-app purchases"
+        },
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "mariomaradona90@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Tomang Tinggi IV no 9<br/>Jakarta, Indonesia<br/>11440"
+          },
+          "label": "Developer address"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-08-07 10:46:26.651148",
+    "backendDocid": "com.evrac.minimonsterrumble",
+    "backendId": 3,
+    "creator": "Evrac Studio",
+    "descriptionHtml": "\u2605 Mini Monster Rumble is a Single Player Offline Tug of War Strategy games where you send Monsters to do Auto Battle \u2605 <br><br>Features<br>\u2726 Super Simple Battle System : Just Tap on the Monster you want to fight!<br>\u2726 Super Depth Synergy Strategy : Some Monsters are weak on its own, but have an Awesome Synergy and have High Legends power when paired with others<br>\u2726 Super Simple Levelling System : Clear stages to get Experiences and Coins to level up your monsters. And at certain Levels, your Dragon can Neo Evolve to a bigger one<br>\u2726 Lots of Fun : Recruit dozens of Monsters and Dragons, Evolve, get stronger and strike your enemies!<br>\u2726 Totally Offline and Free : Digital Download for Free and Play it anywhere anytime on your Mobile devices. Or connect to Net to submit Leaderboard &amp; Achievement<br>\u2726 Awesome 3D Graphics : Well it\u2019s just Awesome and addicting!<br><br>The gameplay is as simple as Tap on buttons and let the Monsters battle on their own,<br>But don\u2019t just Rush in, there are so many Strategy to think out of the Box: <br>- Elements Ability : Use Dragon with Fire Element to beat Nature based Monster<br>- Balancing Team : Build your Team to Fight, see if they have Synergy with each other<br>- Equip Items : Consider to improve their weak points, or boost their High strong points by Equipping Epic Items<br>- Evolve : Get stronger by Evolving your monsters to next Level<br>- Organize Resource : Coin are limited. Upgrade Castle, improve your Squad or hire a Master to manage your Coin<br><br>So, what are you waiting for? <br>Recruit your Heroes and Monsters, Start an Epic Adventure, Rush into War and become part of the Legends!<br><br>Join our Discord Gang Channel and Unite with us<br>https://discord.gg/QUtSrWhAvG",
+    "descriptionShort": "Defend your Kingdom and Battle your Mini Monster in a cute 3D Fantasy RPG world",
+    "details": {
+      "appDetails": {
+        "appType": "GAME",
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            },
+            {
+              "packageName": "com.google.android.play.games",
+              "version": 0
+            }
+          ],
+          "unknown1": 2,
+          "unknown2": "80957844",
+          "unknown3": 30
+        },
+        "developerAddress": "Tomang Tinggi IV no 9<br/>Jakarta, Indonesia<br/>11440",
+        "developerEmail": "mariomaradona90@gmail.com",
+        "developerName": "Evrac Studio",
+        "developerWebsite": "http://evrac.com",
+        "earlyAccessInfo": {},
+        "file": [
+          {
+            "fileType": 0,
+            "size": "68738914",
+            "versionCode": 22
+          },
+          {
+            "fileType": 0,
+            "size": "12218930",
+            "versionCode": 22
+          }
+        ],
+        "hasInstantLink": true,
+        "installationSize": "80957844",
+        "numDownloads": "5,000+ downloads",
+        "packageName": "com.evrac.minimonsterrumble",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.WAKE_LOCK",
+          "com.android.vending.BILLING",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": "- Added Daily Quest which Available after clearing 6 stages<br>\t- You can store up to 6 quest at a time<br>\t- Daily Quest reset every 8 hours <br>\t- After clearing Daily Quests, you will get Weekly Chest Points to collect chest. This point reset every Monday<br>- Slightly Reduce difficulty of Stage 40 Boss",
+        "unstable": true,
+        "uploadDate": "2 Aug 2022",
+        "versionCode": 22,
+        "versionString": "1.1.5"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.evrac.minimonsterrumble",
+    "docType": 1,
+    "docid": "com.evrac.minimonsterrumble",
+    "image": [
+      {
+        "color": "#95A561",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/sSdy3UGkI8wn3FobBss0sZAj6o0xLyomv8PHHMu7wdjr6gNuwS9JssjwOwW7g98qEYM",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FBCA00",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/nWH7dLjpd4sQlMbYUrWSMH4XPDxGdi2Lj-qIUckGt5PvJ_zzMIvf2Ki5kIVV3yBoilE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qonHj4snz_USUG9DgMnsGFUyP2AxrrjWnG7bJbI67EYaeiJbrCH51pNNqET1NYmQ0QU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Cq-nFM3hgGsAn3V0NLg3UZWiNFry4tn-EXQviYGzdV8G7neCLSG-fBgsOM7TQVOVTwU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Awb7t0gMZQdWh55Rgn9v62KDiBbx5tyogOoPimKHO-LMUrva6PAFr3-cUcbpAmRNJwg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/PVD07t5MwuXqZh9bpR9vbRzt8INkRcz6bsbNXLZcApzUb6kF-gA2F9C5nzsPN4fVFCc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/46Y327Prv4cka0mwEAp413GnbL05ykf72fHJ6ds6xNkcnd99_jCPZdre0QnpW4dT7BQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qCMAY7QHpqbdEULHbSMxS_SdJIlg11skW0t6zN6K0135FsA8I7_wFGkgmmt2dfm7Dw",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "categoryInfo": {
+        "appType": "GAME"
+      },
+      "privacyPolicyUrl": "https://evrac.com/privacy_policy.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "In-game purchases<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.evrac.minimonsterrumble",
+    "reviewsUrl": "rev?doc=com.evrac.minimonsterrumble&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.evrac.minimonsterrumble",
+    "title": "Mini Monster Rumble Strategy",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "\u20ac0.89 \u2013 \u20ac104.99 per item"
+          },
+          "label": "In-app purchases"
+        },
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "mariomaradona90@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Tomang Tinggi IV no 9<br/>Jakarta, Indonesia<br/>11440"
+          },
+          "label": "Developer address"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-08-09 10:51:12.357831",
+    "backendDocid": "com.evrac.minimonsterrumble",
+    "backendId": 3,
+    "creator": "Evrac Studio",
+    "descriptionHtml": "\u2605 Mini Monster Rumble is a Single Player Offline Tug of War Strategy games where you send Monsters to do Auto Battle \u2605 <br><br>Features<br>\u2726 Super Simple Battle System : Just Tap on the Monster you want to fight!<br>\u2726 Super Depth Synergy Strategy : Some Monsters are weak on its own, but have an Awesome Synergy and have High Legends power when paired with others<br>\u2726 Super Simple Levelling System : Clear stages to get Experiences and Coins to level up your monsters. And at certain Levels, your Dragon can Neo Evolve to a bigger one<br>\u2726 Lots of Fun : Recruit dozens of Monsters and Dragons, Evolve, get stronger and strike your enemies!<br>\u2726 Totally Offline and Free : Digital Download for Free and Play it anywhere anytime on your Mobile devices. Or connect to Net to submit Leaderboard &amp; Achievement<br>\u2726 Awesome 3D Graphics : Well it\u2019s just Awesome and addicting!<br><br>The gameplay is as simple as Tap on buttons and let the Monsters battle on their own,<br>But don\u2019t just Rush in, there are so many Strategy to think out of the Box: <br>- Elements Ability : Use Dragon with Fire Element to beat Nature based Monster<br>- Balancing Team : Build your Team to Fight, see if they have Synergy with each other<br>- Equip Items : Consider to improve their weak points, or boost their High strong points by Equipping Epic Items<br>- Evolve : Get stronger by Evolving your monsters to next Level<br>- Organize Resource : Coin are limited. Upgrade Castle, improve your Squad or hire a Master to manage your Coin<br><br>So, what are you waiting for? <br>Recruit your Heroes and Monsters, Start an Epic Adventure, Rush into War and become part of the Legends!<br><br>Join our Discord Gang Channel and Unite with us<br>https://discord.gg/QUtSrWhAvG",
+    "descriptionShort": "Defend your Kingdom and Battle your Mini Monster in a cute 3D Fantasy RPG world",
+    "details": {
+      "appDetails": {
+        "appType": "GAME",
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            },
+            {
+              "packageName": "com.google.android.play.games",
+              "version": 0
+            }
+          ],
+          "unknown1": 2,
+          "unknown2": "82612628",
+          "unknown3": 30
+        },
+        "developerAddress": "Tomang Tinggi IV no 9<br/>Jakarta, Indonesia<br/>11440",
+        "developerEmail": "mariomaradona90@gmail.com",
+        "developerName": "Evrac Studio",
+        "developerWebsite": "http://evrac.com",
+        "earlyAccessInfo": {},
+        "file": [
+          {
+            "fileType": 0,
+            "size": "70385506",
+            "versionCode": 23
+          },
+          {
+            "fileType": 0,
+            "size": "12227122",
+            "versionCode": 23
+          }
+        ],
+        "hasInstantLink": true,
+        "installationSize": "82612628",
+        "numDownloads": "5,000+ downloads",
+        "packageName": "com.evrac.minimonsterrumble",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.WAKE_LOCK",
+          "com.android.vending.BILLING",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": "- Added new Nature-Fighting type Monster in shop<br>- Shop will give 50% Discount for your first Monster Purchase<br>- Added new type of Ads at the end of battle <br>- Item reward from Battle can now be clicked to show what it is<br>- Added button Restart on Win (available on stage 20 onwards)",
+        "unstable": true,
+        "uploadDate": "8 Aug 2022",
+        "versionCode": 23,
+        "versionString": "1.1.6"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.evrac.minimonsterrumble",
+    "docType": 1,
+    "docid": "com.evrac.minimonsterrumble",
+    "image": [
+      {
+        "color": "#DCBEEA",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/nkLl82VEqfpmIpRWg7JPS9TP8d26_Mj4KTkI6eAswTuKVyF84EIomyzf52reBZFVkA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#32CF01",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/tnK0AVhFI8SfXM0zMPVIvZz6yuo3YzsDOo0p6J40clGyqVlRIeiIn2RneWzo-_UeOQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qonHj4snz_USUG9DgMnsGFUyP2AxrrjWnG7bJbI67EYaeiJbrCH51pNNqET1NYmQ0QU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Cq-nFM3hgGsAn3V0NLg3UZWiNFry4tn-EXQviYGzdV8G7neCLSG-fBgsOM7TQVOVTwU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Awb7t0gMZQdWh55Rgn9v62KDiBbx5tyogOoPimKHO-LMUrva6PAFr3-cUcbpAmRNJwg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/PVD07t5MwuXqZh9bpR9vbRzt8INkRcz6bsbNXLZcApzUb6kF-gA2F9C5nzsPN4fVFCc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/46Y327Prv4cka0mwEAp413GnbL05ykf72fHJ6ds6xNkcnd99_jCPZdre0QnpW4dT7BQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qCMAY7QHpqbdEULHbSMxS_SdJIlg11skW0t6zN6K0135FsA8I7_wFGkgmmt2dfm7Dw",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "categoryInfo": {
+        "appType": "GAME"
+      },
+      "privacyPolicyUrl": "https://evrac.com/privacy_policy.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "In-game purchases<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.evrac.minimonsterrumble",
+    "reviewsUrl": "rev?doc=com.evrac.minimonsterrumble&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.evrac.minimonsterrumble",
+    "title": "Mini Monster Rumble Strategy",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "\u20ac0.79 \u2013 \u20ac99.99 per item"
+          },
+          "label": "In-app purchases"
+        },
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "mariomaradona90@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Tomang Tinggi IV no 9<br/>Jakarta, Indonesia<br/>11440"
+          },
+          "label": "Developer address"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-08-19 05:38:15.159045",
+    "backendDocid": "com.evrac.minimonsterrumble",
+    "backendId": 3,
+    "creator": "Evrac Studio",
+    "descriptionHtml": "\u2605 Mini Monster Rumble is a Single Player Offline Tug of War Strategy games where you send Monsters to do Auto Battle \u2605 <br><br>Features<br>\u2726 Super Simple Battle System : Just Tap on the Monster you want to fight!<br>\u2726 Super Depth Synergy Strategy : Some Monsters are weak on its own, but have an Awesome Synergy and have High Legends power when paired with others<br>\u2726 Super Simple Levelling System : Clear stages to get Experiences and Coins to level up your monsters. And at certain Levels, your Dragon can Neo Evolve to a bigger one<br>\u2726 Lots of Fun : Recruit dozens of Monsters and Dragons, Evolve, get stronger and strike your enemies!<br>\u2726 Totally Offline and Free : Digital Download for Free and Play it anywhere anytime on your Mobile devices. Or connect to Net to submit Leaderboard &amp; Achievement<br>\u2726 Awesome 3D Graphics : Well it\u2019s just Awesome and addicting!<br><br>The gameplay is as simple as Tap on buttons and let the Monsters battle on their own,<br>But don\u2019t just Rush in, there are so many Strategy to think out of the Box: <br>- Elements Ability : Use Dragon with Fire Element to beat Nature based Monster<br>- Balancing Team : Build your Team to Fight, see if they have Synergy with each other<br>- Equip Items : Consider to improve their weak points, or boost their High strong points by Equipping Epic Items<br>- Evolve : Get stronger by Evolving your monsters to next Level<br>- Organize Resource : Coin are limited. Upgrade Castle, improve your Squad or hire a Master to manage your Coin<br><br>So, what are you waiting for? <br>Recruit your Heroes and Monsters, Start an Epic Adventure, Rush into War and become part of the Legends!<br><br>Join our Discord Gang Channel and Unite with us<br>https://discord.gg/QUtSrWhAvG",
+    "descriptionShort": "Defend your Kingdom and Battle your Mini Monster in a cute 3D Fantasy RPG world",
+    "details": {
+      "appDetails": {
+        "appType": "GAME",
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            },
+            {
+              "packageName": "com.google.android.play.games",
+              "version": 0
+            }
+          ],
+          "unknown1": 2,
+          "unknown2": "92475796",
+          "unknown3": 30
+        },
+        "developerAddress": "Tomang Tinggi IV no 9<br/>Jakarta, Indonesia<br/>11440",
+        "developerEmail": "mariomaradona90@gmail.com",
+        "developerName": "Evrac Studio",
+        "developerWebsite": "http://evrac.com",
+        "earlyAccessInfo": {},
+        "file": [
+          {
+            "fileType": 0,
+            "size": "80215906",
+            "versionCode": 24
+          },
+          {
+            "fileType": 0,
+            "size": "12259890",
+            "versionCode": 24
+          }
+        ],
+        "hasInstantLink": true,
+        "installationSize": "92475796",
+        "numDownloads": "5,000+ downloads",
+        "packageName": "com.evrac.minimonsterrumble",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.WAKE_LOCK",
+          "com.android.vending.BILLING",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": "- Added new Chapter : 30 stages of Active Volcano along with several new Monsters<br>- Library now shows ALL monsters, but you cannot see monsters that you haven\u2019t encountered<br>- Library also differentiate Enemy only Monsters<br>- Restart button will not show if it\u2019s your First Win<br>- Several monsters Evolve level requirement changed<br>- Added evolution for : <br>\t- Deimos<br>\t- Snakelet",
+        "unstable": true,
+        "uploadDate": "18 Aug 2022",
+        "versionCode": 24,
+        "versionString": "1.1.7"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.evrac.minimonsterrumble",
+    "docType": 1,
+    "docid": "com.evrac.minimonsterrumble",
+    "image": [
+      {
+        "color": "#DCBEEA",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/nkLl82VEqfpmIpRWg7JPS9TP8d26_Mj4KTkI6eAswTuKVyF84EIomyzf52reBZFVkA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#32CF01",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/tnK0AVhFI8SfXM0zMPVIvZz6yuo3YzsDOo0p6J40clGyqVlRIeiIn2RneWzo-_UeOQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qonHj4snz_USUG9DgMnsGFUyP2AxrrjWnG7bJbI67EYaeiJbrCH51pNNqET1NYmQ0QU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Cq-nFM3hgGsAn3V0NLg3UZWiNFry4tn-EXQviYGzdV8G7neCLSG-fBgsOM7TQVOVTwU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Awb7t0gMZQdWh55Rgn9v62KDiBbx5tyogOoPimKHO-LMUrva6PAFr3-cUcbpAmRNJwg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/PVD07t5MwuXqZh9bpR9vbRzt8INkRcz6bsbNXLZcApzUb6kF-gA2F9C5nzsPN4fVFCc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/46Y327Prv4cka0mwEAp413GnbL05ykf72fHJ6ds6xNkcnd99_jCPZdre0QnpW4dT7BQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qCMAY7QHpqbdEULHbSMxS_SdJIlg11skW0t6zN6K0135FsA8I7_wFGkgmmt2dfm7Dw",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "categoryInfo": {
+        "appType": "GAME"
+      },
+      "privacyPolicyUrl": "https://evrac.com/privacy_policy.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "In-game purchases<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.evrac.minimonsterrumble",
+    "reviewsUrl": "rev?doc=com.evrac.minimonsterrumble&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.evrac.minimonsterrumble",
+    "title": "Mini Monster Rumble Strategy",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "\u20ac0.79 \u2013 \u20ac99.99 per item"
+          },
+          "label": "In-app purchases"
+        },
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "mariomaradona90@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Tomang Tinggi IV no 9<br/>Jakarta, Indonesia<br/>11440"
+          },
+          "label": "Developer address"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-08-29 00:18:47.462206",
+    "backendDocid": "com.evrac.minimonsterrumble",
+    "backendId": 3,
+    "creator": "Evrac Studio",
+    "descriptionHtml": "\u2605 Mini Monster Rumble is a Single Player Offline Tug of War Strategy games where you send Monsters to do Auto Battle \u2605 <br><br>Features<br>\u2726 Super Simple Battle System : Just Tap on the Monster you want to fight!<br>\u2726 Super Depth Synergy Strategy : Some Monsters are weak on its own, but have an Awesome Synergy and have High Legends power when paired with others<br>\u2726 Super Simple Levelling System : Clear stages to get Experiences and Coins to level up your monsters. And at certain Levels, your Dragon can Neo Evolve to a bigger one<br>\u2726 Lots of Fun : Recruit dozens of Monsters and Dragons, Evolve, get stronger and strike your enemies!<br>\u2726 Totally Offline and Free : Digital Download for Free and Play it anywhere anytime on your Mobile devices. Or connect to Net to submit Leaderboard &amp; Achievement<br>\u2726 Awesome 3D Graphics : Well it\u2019s just Awesome and addicting!<br><br>The gameplay is as simple as Tap on buttons and let the Monsters battle on their own,<br>But don\u2019t just Rush in, there are so many Strategy to think out of the Box: <br>- Elements Ability : Use Dragon with Fire Element to beat Nature based Monster<br>- Balancing Team : Build your Team to Fight, see if they have Synergy with each other<br>- Equip Items : Consider to improve their weak points, or boost their High strong points by Equipping Epic Items<br>- Evolve : Get stronger by Evolving your monsters to next Level<br>- Organize Resource : Coin are limited. Upgrade Castle, improve your Squad or hire a Master to manage your Coin<br><br>So, what are you waiting for? <br>Recruit your Heroes and Monsters, Start an Epic Adventure, Rush into War and become part of the Legends!<br><br>Join our Discord Gang Channel and Unite with us<br>https://discord.gg/QUtSrWhAvG",
+    "descriptionShort": "Defend your Kingdom and Battle your Mini Monster in a cute 3D Fantasy RPG world",
+    "details": {
+      "appDetails": {
+        "appType": "GAME",
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            },
+            {
+              "packageName": "com.google.android.play.games",
+              "version": 0
+            }
+          ],
+          "unknown1": 2,
+          "unknown2": "92549211",
+          "unknown3": 30
+        },
+        "developerAddress": "Tomang Tinggi IV no 9<br/>Jakarta, Indonesia<br/>11440",
+        "developerEmail": "mariomaradona90@gmail.com",
+        "developerName": "Evrac Studio",
+        "developerWebsite": "http://evrac.com",
+        "earlyAccessInfo": {},
+        "file": [
+          {
+            "fileType": 0,
+            "size": "80293417",
+            "versionCode": 25
+          },
+          {
+            "fileType": 0,
+            "size": "12255794",
+            "versionCode": 25
+          }
+        ],
+        "hasInstantLink": true,
+        "installationSize": "92549211",
+        "numDownloads": "5,000+ downloads",
+        "packageName": "com.evrac.minimonsterrumble",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.WAKE_LOCK",
+          "com.android.vending.BILLING",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": "- Added new Chapter : 30 stages of Active Volcano along with several new Monsters<br>- Library now shows ALL monsters, but you cannot see monsters that you haven\u2019t encountered<br>- Library also differentiate Enemy only Monsters<br>- Restart button will not show if it\u2019s your First Win<br>- Several monsters Evolve level requirement changed<br>- Added evolution for : <br>\t- Deimos<br>\t- Snakelet",
+        "unstable": true,
+        "uploadDate": "23 Aug 2022",
+        "versionCode": 25,
+        "versionString": "1.1.8"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.evrac.minimonsterrumble",
+    "docType": 1,
+    "docid": "com.evrac.minimonsterrumble",
+    "image": [
+      {
+        "color": "#DCBEEA",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/nkLl82VEqfpmIpRWg7JPS9TP8d26_Mj4KTkI6eAswTuKVyF84EIomyzf52reBZFVkA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#32CF01",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/tnK0AVhFI8SfXM0zMPVIvZz6yuo3YzsDOo0p6J40clGyqVlRIeiIn2RneWzo-_UeOQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qonHj4snz_USUG9DgMnsGFUyP2AxrrjWnG7bJbI67EYaeiJbrCH51pNNqET1NYmQ0QU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Cq-nFM3hgGsAn3V0NLg3UZWiNFry4tn-EXQviYGzdV8G7neCLSG-fBgsOM7TQVOVTwU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Awb7t0gMZQdWh55Rgn9v62KDiBbx5tyogOoPimKHO-LMUrva6PAFr3-cUcbpAmRNJwg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/PVD07t5MwuXqZh9bpR9vbRzt8INkRcz6bsbNXLZcApzUb6kF-gA2F9C5nzsPN4fVFCc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/46Y327Prv4cka0mwEAp413GnbL05ykf72fHJ6ds6xNkcnd99_jCPZdre0QnpW4dT7BQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qCMAY7QHpqbdEULHbSMxS_SdJIlg11skW0t6zN6K0135FsA8I7_wFGkgmmt2dfm7Dw",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "categoryInfo": {
+        "appType": "GAME"
+      },
+      "privacyPolicyUrl": "https://evrac.com/privacy_policy.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "Mild fantasy violence<br/>In-game purchases<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.evrac.minimonsterrumble",
+    "reviewsUrl": "rev?doc=com.evrac.minimonsterrumble&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.evrac.minimonsterrumble",
+    "title": "Mini Monster Rumble Strategy",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "$0.99 \u2013 $99.99 per item"
+          },
+          "label": "In-app purchases"
+        },
+        {
+          "container": {
+            "value": "Evrac Studio"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "mariomaradona90@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Tomang Tinggi IV no 9<br/>Jakarta, Indonesia<br/>11440"
+          },
+          "label": "Developer address"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-09-11 09:59:39.808990",
+    "backendDocid": "com.evrac.minimonsterrumble",
+    "backendId": 3,
+    "creator": "Evrac Studio",
+    "descriptionHtml": "\u2605 Mini Monster Rumble is a Single Player Offline Tug of War Strategy games where you send Monsters to do Auto Battle \u2605 <br><br>Features<br>\u2726 Super Simple Battle System : Just Tap on the Monster you want to fight!<br>\u2726 Super Depth Synergy Strategy : Some Monsters are weak on its own, but have an Awesome Synergy and have High Legends power when paired with others<br>\u2726 Super Simple Levelling System : Clear stages to get Experiences and Coins to level up your monsters. And at certain Levels, your Dragon can Neo Evolve to a bigger one<br>\u2726 Lots of Fun : Recruit dozens of Monsters and Dragons, Evolve, get stronger and strike your enemies!<br>\u2726 Totally Offline and Free : Digital Download for Free and Play it anywhere anytime on your Mobile devices. Or connect to Net to submit Leaderboard &amp; Achievement<br>\u2726 Awesome 3D Graphics : Well it\u2019s just Awesome and addicting!<br><br>The gameplay is as simple as Tap on buttons and let the Monsters battle on their own,<br>But don\u2019t just Rush in, there are so many Strategy to think out of the Box: <br>- Elements Ability : Use Dragon with Fire Element to beat Nature based Monster<br>- Balancing Team : Build your Team to Fight, see if they have Synergy with each other<br>- Equip Items : Consider to improve their weak points, or boost their High strong points by Equipping Epic Items<br>- Evolve : Get stronger by Evolving your monsters to next Level<br>- Organize Resource : Coin are limited. Upgrade Castle, improve your Squad or hire a Master to manage your Coin<br><br>So, what are you waiting for? <br>Recruit your Heroes and Monsters, Start an Epic Adventure, Rush into War and become part of the Legends!<br><br>Join our Discord Gang Channel and Unite with us<br>https://discord.gg/QUtSrWhAvG",
+    "descriptionShort": "Defend your Kingdom and Battle your Mini Monster in a cute 3D Fantasy RPG world",
+    "details": {
+      "appDetails": {
+        "appType": "GAME",
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            },
+            {
+              "packageName": "com.google.android.play.games",
+              "version": 0
+            }
+          ],
+          "unknown1": 2,
+          "unknown2": "97165603",
+          "unknown3": 30
+        },
+        "developerAddress": "Tomang Tinggi IV no 9<br/>Jakarta, Indonesia<br/>11440",
+        "developerEmail": "mariomaradona90@gmail.com",
+        "developerName": "Evrac Studio",
+        "developerWebsite": "http://evrac.com",
+        "earlyAccessInfo": {},
+        "file": [
+          {
+            "fileType": 0,
+            "size": "80977649",
+            "versionCode": 26
+          },
+          {
+            "fileType": 0,
+            "size": "16187954",
+            "versionCode": 26
+          }
+        ],
+        "hasInstantLink": true,
+        "installationSize": "97165603",
+        "numDownloads": "5,000+ downloads",
+        "packageName": "com.evrac.minimonsterrumble",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.WAKE_LOCK",
+          "com.android.vending.BILLING",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": "Bug fixes and Backend updates",
+        "unstable": true,
+        "uploadDate": "8 Sept 2022",
+        "versionCode": 26,
+        "versionString": "1.1.9"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.evrac.minimonsterrumble",
+    "docType": 1,
+    "docid": "com.evrac.minimonsterrumble",
+    "image": [
+      {
+        "color": "#DCBEEA",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/nkLl82VEqfpmIpRWg7JPS9TP8d26_Mj4KTkI6eAswTuKVyF84EIomyzf52reBZFVkA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#32CF01",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/tnK0AVhFI8SfXM0zMPVIvZz6yuo3YzsDOo0p6J40clGyqVlRIeiIn2RneWzo-_UeOQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qonHj4snz_USUG9DgMnsGFUyP2AxrrjWnG7bJbI67EYaeiJbrCH51pNNqET1NYmQ0QU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Cq-nFM3hgGsAn3V0NLg3UZWiNFry4tn-EXQviYGzdV8G7neCLSG-fBgsOM7TQVOVTwU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Awb7t0gMZQdWh55Rgn9v62KDiBbx5tyogOoPimKHO-LMUrva6PAFr3-cUcbpAmRNJwg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/PVD07t5MwuXqZh9bpR9vbRzt8INkRcz6bsbNXLZcApzUb6kF-gA2F9C5nzsPN4fVFCc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/46Y327Prv4cka0mwEAp413GnbL05ykf72fHJ6ds6xNkcnd99_jCPZdre0QnpW4dT7BQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qCMAY7QHpqbdEULHbSMxS_SdJIlg11skW0t6zN6K0135FsA8I7_wFGkgmmt2dfm7Dw",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "categoryInfo": {
+        "appType": "GAME"
+      },
+      "privacyPolicyUrl": "https://evrac.com/privacy_policy.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "In-game purchases<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.evrac.minimonsterrumble",
+    "reviewsUrl": "rev?doc=com.evrac.minimonsterrumble&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.evrac.minimonsterrumble",
+    "title": "Mini Monster Rumble Strategy",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "\u20ac0.89 \u2013 \u20ac104.99 per item"
+          },
+          "label": "In-app purchases"
+        },
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "mariomaradona90@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Tomang Tinggi IV no 9<br/>Jakarta, Indonesia<br/>11440"
+          },
+          "label": "Developer address"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-09-16 10:38:04.289201",
+    "backendDocid": "com.evrac.minimonsterrumble",
+    "backendId": 3,
+    "creator": "Evrac Studio",
+    "descriptionHtml": "\u2605 Mini Monster Rumble is a Single Player Offline Tug of War Strategy games where you send Monsters to do Auto Battle \u2605 <br><br>Features<br>\u2726 Super Simple Battle System : Just Tap on the Monster you want to fight!<br>\u2726 Super Depth Synergy Strategy : Some Monsters are weak on its own, but have an Awesome Synergy and have High Legends power when paired with others<br>\u2726 Super Simple Levelling System : Clear stages to get Experiences and Coins to level up your monsters. And at certain Levels, your Dragon can Neo Evolve to a bigger one<br>\u2726 Lots of Fun : Recruit dozens of Monsters and Dragons, Evolve, get stronger and strike your enemies!<br>\u2726 Totally Offline and Free : Digital Download for Free and Play it anywhere anytime on your Mobile devices. Or connect to Net to submit Leaderboard &amp; Achievement<br>\u2726 Awesome 3D Graphics : Well it\u2019s just Awesome and addicting!<br><br>The gameplay is as simple as Tap on buttons and let the Monsters battle on their own,<br>But don\u2019t just Rush in, there are so many Strategy to think out of the Box: <br>- Elements Ability : Use Dragon with Fire Element to beat Nature based Monster<br>- Balancing Team : Build your Team to Fight, see if they have Synergy with each other<br>- Equip Items : Consider to improve their weak points, or boost their High strong points by Equipping Epic Items<br>- Evolve : Get stronger by Evolving your monsters to next Level<br>- Organize Resource : Coin are limited. Upgrade Castle, improve your Squad or hire a Master to manage your Coin<br><br>So, what are you waiting for? <br>Recruit your Heroes and Monsters, Start an Epic Adventure, Rush into War and become part of the Legends!<br><br>Join our Discord Gang Channel and Unite with us<br>https://discord.gg/QUtSrWhAvG",
+    "descriptionShort": "Defend your Kingdom and Battle your Mini Monster in a cute 3D Fantasy RPG world",
+    "details": {
+      "appDetails": {
+        "appType": "GAME",
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            },
+            {
+              "packageName": "com.google.android.play.games",
+              "version": 0
+            }
+          ],
+          "unknown1": 2,
+          "unknown2": "99918639",
+          "unknown3": 31
+        },
+        "developerAddress": "Tomang Tinggi IV no 9<br/>Jakarta, Indonesia<br/>11440",
+        "developerEmail": "mariomaradona90@gmail.com",
+        "developerName": "Evrac Studio",
+        "developerWebsite": "http://evrac.com",
+        "earlyAccessInfo": {},
+        "file": [
+          {
+            "fileType": 0,
+            "size": "80920829",
+            "versionCode": 28
+          },
+          {
+            "fileType": 0,
+            "size": "18997810",
+            "versionCode": 28
+          }
+        ],
+        "hasInstantLink": true,
+        "installationSize": "99918639",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "com.evrac.minimonsterrumble",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.WAKE_LOCK",
+          "com.android.vending.BILLING",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": "Bug fixes and Backend updates",
+        "unstable": true,
+        "uploadDate": "11 Sept 2022",
+        "versionCode": 28,
+        "versionString": "1.1.10"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.evrac.minimonsterrumble",
+    "docType": 1,
+    "docid": "com.evrac.minimonsterrumble",
+    "image": [
+      {
+        "color": "#DCBEEA",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/nkLl82VEqfpmIpRWg7JPS9TP8d26_Mj4KTkI6eAswTuKVyF84EIomyzf52reBZFVkA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#32CF01",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/tnK0AVhFI8SfXM0zMPVIvZz6yuo3YzsDOo0p6J40clGyqVlRIeiIn2RneWzo-_UeOQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qonHj4snz_USUG9DgMnsGFUyP2AxrrjWnG7bJbI67EYaeiJbrCH51pNNqET1NYmQ0QU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Cq-nFM3hgGsAn3V0NLg3UZWiNFry4tn-EXQviYGzdV8G7neCLSG-fBgsOM7TQVOVTwU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Awb7t0gMZQdWh55Rgn9v62KDiBbx5tyogOoPimKHO-LMUrva6PAFr3-cUcbpAmRNJwg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/PVD07t5MwuXqZh9bpR9vbRzt8INkRcz6bsbNXLZcApzUb6kF-gA2F9C5nzsPN4fVFCc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/46Y327Prv4cka0mwEAp413GnbL05ykf72fHJ6ds6xNkcnd99_jCPZdre0QnpW4dT7BQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qCMAY7QHpqbdEULHbSMxS_SdJIlg11skW0t6zN6K0135FsA8I7_wFGkgmmt2dfm7Dw",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "categoryInfo": {
+        "appType": "GAME"
+      },
+      "privacyPolicyUrl": "https://evrac.com/privacy_policy.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "In-game purchases<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.evrac.minimonsterrumble",
+    "reviewsUrl": "rev?doc=com.evrac.minimonsterrumble&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.evrac.minimonsterrumble",
+    "title": "Mini Monster Rumble Strategy",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "\u20ac0.89 \u2013 \u20ac104.99 per item"
+          },
+          "label": "In-app purchases"
+        },
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "mariomaradona90@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Tomang Tinggi IV no 9<br/>Jakarta, Indonesia<br/>11440"
+          },
+          "label": "Developer address"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-09-21 07:29:04.988663",
+    "backendDocid": "com.evrac.minimonsterrumble",
+    "backendId": 3,
+    "creator": "Evrac Studio",
+    "descriptionHtml": "\u2605 Mini Monster Rumble is a Single Player Offline Tug of War Strategy games where you send Monsters to do Auto Battle \u2605 <br><br>Features<br>\u2726 Super Simple Battle System : Just Tap on the Monster you want to fight!<br>\u2726 Super Depth Synergy Strategy : Some Monsters are weak on its own, but have an Awesome Synergy and have High Legends power when paired with others<br>\u2726 Super Simple Levelling System : Clear stages to get Experiences and Coins to level up your monsters. And at certain Levels, your Dragon can Neo Evolve to a bigger one<br>\u2726 Lots of Fun : Recruit dozens of Monsters and Dragons, Evolve, get stronger and strike your enemies!<br>\u2726 Totally Offline and Free : Digital Download for Free and Play it anywhere anytime on your Mobile devices. Or connect to Net to submit Leaderboard &amp; Achievement<br>\u2726 Awesome 3D Graphics : Well it\u2019s just Awesome and addicting!<br><br>The gameplay is as simple as Tap on buttons and let the Monsters battle on their own,<br>But don\u2019t just Rush in, there are so many Strategy to think out of the Box: <br>- Elements Ability : Use Dragon with Fire Element to beat Nature based Monster<br>- Balancing Team : Build your Team to Fight, see if they have Synergy with each other<br>- Equip Items : Consider to improve their weak points, or boost their High strong points by Equipping Epic Items<br>- Evolve : Get stronger by Evolving your monsters to next Level<br>- Organize Resource : Coin are limited. Upgrade Castle, improve your Squad or hire a Master to manage your Coin<br><br>So, what are you waiting for? <br>Recruit your Heroes and Monsters, Start an Epic Adventure, Rush into War and become part of the Legends!<br><br>Join our Discord Gang Channel and Unite with us<br>https://discord.gg/QUtSrWhAvG",
+    "descriptionShort": "Defend your Kingdom and Battle your Mini Monster in a cute 3D Fantasy RPG world",
+    "details": {
+      "appDetails": {
+        "appType": "GAME",
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            },
+            {
+              "packageName": "com.google.android.play.games",
+              "version": 0
+            }
+          ],
+          "unknown1": 2,
+          "unknown2": "99254974",
+          "unknown3": 31
+        },
+        "developerAddress": "Tomang Tinggi IV no 9<br/>Jakarta, Indonesia<br/>11440",
+        "developerEmail": "mariomaradona90@gmail.com",
+        "developerName": "Evrac Studio",
+        "developerWebsite": "http://evrac.com",
+        "earlyAccessInfo": {},
+        "file": [
+          {
+            "fileType": 0,
+            "size": "80781452",
+            "versionCode": 30
+          },
+          {
+            "fileType": 0,
+            "size": "18473522",
+            "versionCode": 30
+          }
+        ],
+        "hasInstantLink": true,
+        "installationSize": "99254974",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "com.evrac.minimonsterrumble",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.WAKE_LOCK",
+          "com.android.vending.BILLING",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": "Bug fixes and Backend updates",
+        "unstable": true,
+        "uploadDate": "19 Sept 2022",
+        "versionCode": 30,
+        "versionString": "1.1.12"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.evrac.minimonsterrumble",
+    "docType": 1,
+    "docid": "com.evrac.minimonsterrumble",
+    "image": [
+      {
+        "color": "#DCBEEA",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/nkLl82VEqfpmIpRWg7JPS9TP8d26_Mj4KTkI6eAswTuKVyF84EIomyzf52reBZFVkA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#32CF01",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/tnK0AVhFI8SfXM0zMPVIvZz6yuo3YzsDOo0p6J40clGyqVlRIeiIn2RneWzo-_UeOQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qonHj4snz_USUG9DgMnsGFUyP2AxrrjWnG7bJbI67EYaeiJbrCH51pNNqET1NYmQ0QU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Cq-nFM3hgGsAn3V0NLg3UZWiNFry4tn-EXQviYGzdV8G7neCLSG-fBgsOM7TQVOVTwU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Awb7t0gMZQdWh55Rgn9v62KDiBbx5tyogOoPimKHO-LMUrva6PAFr3-cUcbpAmRNJwg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/PVD07t5MwuXqZh9bpR9vbRzt8INkRcz6bsbNXLZcApzUb6kF-gA2F9C5nzsPN4fVFCc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/46Y327Prv4cka0mwEAp413GnbL05ykf72fHJ6ds6xNkcnd99_jCPZdre0QnpW4dT7BQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qCMAY7QHpqbdEULHbSMxS_SdJIlg11skW0t6zN6K0135FsA8I7_wFGkgmmt2dfm7Dw",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "categoryInfo": {
+        "appType": "GAME"
+      },
+      "privacyPolicyUrl": "https://evrac.com/privacy_policy.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "Mild fantasy violence<br/>In-game purchases<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.evrac.minimonsterrumble",
+    "reviewsUrl": "rev?doc=com.evrac.minimonsterrumble&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.evrac.minimonsterrumble",
+    "title": "Mini Monster Rumble Strategy",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "$0.99 \u2013 $99.99 per item"
+          },
+          "label": "In-app purchases"
+        },
+        {
+          "container": {
+            "value": "Evrac Studio"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "mariomaradona90@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Tomang Tinggi IV no 9<br/>Jakarta, Indonesia<br/>11440"
+          },
+          "label": "Developer address"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "11",
+      "fiveStarRatings": "11",
+      "fourStarRatings": "1",
+      "oneStarRatings": "7",
+      "ratingsCount": "21",
+      "starRating": 3.3809524,
+      "threeStarRatings": "1",
+      "twoStarRatings": "1",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-10-07 06:12:29.558119",
+    "backendDocid": "com.evrac.minimonsterrumble",
+    "backendId": 3,
+    "creator": "Evrac Studio",
+    "descriptionHtml": "\u2605 Mini Monster Rumble is a Single Player Offline Tug of War Strategy games where you send Monsters to do Auto Battle \u2605 <br><br>Features<br>\u2726 Super Simple Battle System : Just Tap on the Monster you want to fight!<br>\u2726 Super Depth Synergy Strategy : Some Monsters are weak on its own, but have an Awesome Synergy and have High Legends power when paired with others<br>\u2726 Super Simple Levelling System : Clear stages to get Experiences and Coins to level up your monsters. And at certain Levels, your Dragon can Neo Evolve to a bigger one<br>\u2726 Lots of Fun : Recruit dozens of Monsters and Dragons, Evolve, get stronger and strike your enemies!<br>\u2726 Totally Offline and Free : Digital Download for Free and Play it anywhere anytime on your Mobile devices. Or connect to Net to submit Leaderboard &amp; Achievement<br>\u2726 Awesome 3D Graphics : Well it\u2019s just Awesome and addicting!<br><br>The gameplay is as simple as Tap on buttons and let the Monsters battle on their own,<br>But don\u2019t just Rush in, there are so many Strategy to think out of the Box: <br>- Elements Ability : Use Dragon with Fire Element to beat Nature based Monster<br>- Balancing Team : Build your Team to Fight, see if they have Synergy with each other<br>- Equip Items : Consider to improve their weak points, or boost their High strong points by Equipping Epic Items<br>- Evolve : Get stronger by Evolving your monsters to next Level<br>- Organize Resource : Coin are limited. Upgrade Castle, improve your Squad or hire a Master to manage your Coin<br><br>So, what are you waiting for? <br>Recruit your Heroes and Monsters, Start an Epic Adventure, Rush into War and become part of the Legends!<br><br>Join our Discord Gang Channel and Unite with us<br>https://discord.gg/QUtSrWhAvG",
+    "descriptionShort": "Defend your Kingdom and Battle your Mini Monster in a cute 3D Fantasy RPG world",
+    "details": {
+      "appDetails": {
+        "appType": "GAME",
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            },
+            {
+              "packageName": "com.google.android.play.games",
+              "version": 0
+            }
+          ],
+          "unknown1": 2,
+          "unknown2": "102625661",
+          "unknown3": 31
+        },
+        "developerAddress": "Tomang Tinggi IV no 9<br/>Jakarta, Indonesia<br/>11440",
+        "developerEmail": "mariomaradona90@gmail.com",
+        "developerName": "Evrac Studio",
+        "developerWebsite": "http://evrac.com",
+        "earlyAccessInfo": {},
+        "file": [
+          {
+            "fileType": 0,
+            "size": "84148043",
+            "versionCode": 32
+          },
+          {
+            "fileType": 0,
+            "size": "18477618",
+            "versionCode": 32
+          }
+        ],
+        "hasInstantLink": true,
+        "installationSize": "102625661",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "com.evrac.minimonsterrumble",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.WAKE_LOCK",
+          "com.android.vending.BILLING",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": "Bug fixes and Backend updates",
+        "unstable": true,
+        "uploadDate": "5 Oct 2022",
+        "versionCode": 32,
+        "versionString": "1.1.14"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.evrac.minimonsterrumble",
+    "docType": 1,
+    "docid": "com.evrac.minimonsterrumble",
+    "image": [
+      {
+        "color": "#DCBEEA",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/nkLl82VEqfpmIpRWg7JPS9TP8d26_Mj4KTkI6eAswTuKVyF84EIomyzf52reBZFVkA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#32CF01",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/tnK0AVhFI8SfXM0zMPVIvZz6yuo3YzsDOo0p6J40clGyqVlRIeiIn2RneWzo-_UeOQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qonHj4snz_USUG9DgMnsGFUyP2AxrrjWnG7bJbI67EYaeiJbrCH51pNNqET1NYmQ0QU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Cq-nFM3hgGsAn3V0NLg3UZWiNFry4tn-EXQviYGzdV8G7neCLSG-fBgsOM7TQVOVTwU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Awb7t0gMZQdWh55Rgn9v62KDiBbx5tyogOoPimKHO-LMUrva6PAFr3-cUcbpAmRNJwg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/PVD07t5MwuXqZh9bpR9vbRzt8INkRcz6bsbNXLZcApzUb6kF-gA2F9C5nzsPN4fVFCc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/46Y327Prv4cka0mwEAp413GnbL05ykf72fHJ6ds6xNkcnd99_jCPZdre0QnpW4dT7BQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qCMAY7QHpqbdEULHbSMxS_SdJIlg11skW0t6zN6K0135FsA8I7_wFGkgmmt2dfm7Dw",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "categoryInfo": {
+        "appType": "GAME"
+      },
+      "privacyPolicyUrl": "https://evrac.com/privacy_policy.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "In-game purchases<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.evrac.minimonsterrumble",
+    "reviewsUrl": "rev?doc=com.evrac.minimonsterrumble&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.evrac.minimonsterrumble",
+    "title": "Mini Monster Rumble Strategy",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "\u20ac0.79 \u2013 \u20ac99.99 per item"
+          },
+          "label": "In-app purchases"
+        },
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "mariomaradona90@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Tomang Tinggi IV no 9<br/>Jakarta, Indonesia<br/>11440"
+          },
+          "label": "Developer address"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-10-12 13:06:06.228667",
+    "backendDocid": "com.evrac.minimonsterrumble",
+    "backendId": 3,
+    "creator": "Evrac Studio",
+    "descriptionHtml": "\u2605 Mini Monster Rumble is a Single Player Offline Tug of War Strategy games where you send Monsters to do Auto Battle \u2605 <br><br>Features<br>\u2726 Super Simple Battle System : Just Tap on the Monster you want to fight!<br>\u2726 Super Depth Synergy Strategy : Some Monsters are weak on its own, but have an Awesome Synergy and have High Legends power when paired with others<br>\u2726 Super Simple Levelling System : Clear stages to get Experiences and Coins to level up your monsters. And at certain Levels, your Dragon can Neo Evolve to a bigger one<br>\u2726 Lots of Fun : Recruit dozens of Monsters and Dragons, Evolve, get stronger and strike your enemies!<br>\u2726 Totally Offline and Free : Digital Download for Free and Play it anywhere anytime on your Mobile devices. Or connect to Net to submit Leaderboard &amp; Achievement<br>\u2726 Awesome 3D Graphics : Well it\u2019s just Awesome and addicting!<br><br>The gameplay is as simple as Tap on buttons and let the Monsters battle on their own,<br>But don\u2019t just Rush in, there are so many Strategy to think out of the Box: <br>- Elements Ability : Use Dragon with Fire Element to beat Nature based Monster<br>- Balancing Team : Build your Team to Fight, see if they have Synergy with each other<br>- Equip Items : Consider to improve their weak points, or boost their High strong points by Equipping Epic Items<br>- Evolve : Get stronger by Evolving your monsters to next Level<br>- Organize Resource : Coin are limited. Upgrade Castle, improve your Squad or hire a Master to manage your Coin<br><br>So, what are you waiting for? <br>Recruit your Heroes and Monsters, Start an Epic Adventure, Rush into War and become part of the Legends!<br><br>Join our Discord Gang Channel and Unite with us<br>https://discord.gg/QUtSrWhAvG",
+    "descriptionShort": "Defend your Kingdom and Battle your Mini Monster in a cute 3D Fantasy RPG world",
+    "details": {
+      "appDetails": {
+        "appType": "GAME",
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            },
+            {
+              "packageName": "com.google.android.play.games",
+              "version": 0
+            }
+          ],
+          "unknown1": 2,
+          "unknown2": "102624799",
+          "unknown3": 31
+        },
+        "developerAddress": "Tomang Tinggi IV no 9<br/>Jakarta, Indonesia<br/>11440",
+        "developerEmail": "mariomaradona90@gmail.com",
+        "developerName": "Evrac Studio",
+        "developerWebsite": "http://evrac.com",
+        "earlyAccessInfo": {},
+        "file": [
+          {
+            "fileType": 0,
+            "size": "84138989",
+            "versionCode": 33
+          },
+          {
+            "fileType": 0,
+            "size": "18485810",
+            "versionCode": 33
+          }
+        ],
+        "hasInstantLink": true,
+        "installationSize": "102624799",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "com.evrac.minimonsterrumble",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.WAKE_LOCK",
+          "com.android.vending.BILLING",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": "Bug fixes and Backend updates",
+        "unstable": true,
+        "uploadDate": "11 Oct 2022",
+        "versionCode": 33,
+        "versionString": "1.1.15"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.evrac.minimonsterrumble",
+    "docType": 1,
+    "docid": "com.evrac.minimonsterrumble",
+    "image": [
+      {
+        "color": "#DCBEEA",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/nkLl82VEqfpmIpRWg7JPS9TP8d26_Mj4KTkI6eAswTuKVyF84EIomyzf52reBZFVkA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#32CF01",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/tnK0AVhFI8SfXM0zMPVIvZz6yuo3YzsDOo0p6J40clGyqVlRIeiIn2RneWzo-_UeOQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qonHj4snz_USUG9DgMnsGFUyP2AxrrjWnG7bJbI67EYaeiJbrCH51pNNqET1NYmQ0QU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Cq-nFM3hgGsAn3V0NLg3UZWiNFry4tn-EXQviYGzdV8G7neCLSG-fBgsOM7TQVOVTwU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Awb7t0gMZQdWh55Rgn9v62KDiBbx5tyogOoPimKHO-LMUrva6PAFr3-cUcbpAmRNJwg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/PVD07t5MwuXqZh9bpR9vbRzt8INkRcz6bsbNXLZcApzUb6kF-gA2F9C5nzsPN4fVFCc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/46Y327Prv4cka0mwEAp413GnbL05ykf72fHJ6ds6xNkcnd99_jCPZdre0QnpW4dT7BQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qCMAY7QHpqbdEULHbSMxS_SdJIlg11skW0t6zN6K0135FsA8I7_wFGkgmmt2dfm7Dw",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "categoryInfo": {
+        "appType": "GAME"
+      },
+      "privacyPolicyUrl": "https://evrac.com/privacy_policy.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "In-game purchases<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.evrac.minimonsterrumble",
+    "reviewsUrl": "rev?doc=com.evrac.minimonsterrumble&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.evrac.minimonsterrumble",
+    "title": "Mini Monster Rumble Strategy",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "\u20ac0.89 \u2013 \u20ac104.99 per item"
+          },
+          "label": "In-app purchases"
+        },
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "mariomaradona90@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Tomang Tinggi IV no 9<br/>Jakarta, Indonesia<br/>11440"
+          },
+          "label": "Developer address"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-11-07 18:43:01.501557",
+    "backendDocid": "com.evrac.minimonsterrumble",
+    "backendId": 3,
+    "creator": "Evrac Studio",
+    "descriptionHtml": "\u2605 Mini Monster Rumble is a Single Player Offline Tug of War Strategy games where you send Monsters to do Auto Battle \u2605 <br><br>Features<br>\u2726 Super Simple Battle System : Just Tap on the Monster you want to fight!<br>\u2726 Super Depth Synergy Strategy : Some Monsters are weak on its own, but have an Awesome Synergy and have High Legends power when paired with others<br>\u2726 Super Simple Levelling System : Clear stages to get Experiences and Coins to level up your monsters. And at certain Levels, your Dragon can Neo Evolve to a bigger one<br>\u2726 Lots of Fun : Recruit dozens of Monsters and Dragons, Evolve, get stronger and strike your enemies!<br>\u2726 Totally Offline and Free : Digital Download for Free and Play it anywhere anytime on your Mobile devices. Or connect to Net to submit Leaderboard &amp; Achievement<br>\u2726 Awesome 3D Graphics : Well it\u2019s just Awesome and addicting!<br><br>The gameplay is as simple as Tap on buttons and let the Monsters battle on their own,<br>But don\u2019t just Rush in, there are so many Strategy to think out of the Box: <br>- Elements Ability : Use Dragon with Fire Element to beat Nature based Monster<br>- Balancing Team : Build your Team to Fight, see if they have Synergy with each other<br>- Equip Items : Consider to improve their weak points, or boost their High strong points by Equipping Epic Items<br>- Evolve : Get stronger by Evolving your monsters to next Level<br>- Organize Resource : Coin are limited. Upgrade Castle, improve your Squad or hire a Master to manage your Coin<br><br>So, what are you waiting for? <br>Recruit your Heroes and Monsters, Start an Epic Adventure, Rush into War and become part of the Legends!<br><br>Join our Discord Gang Channel and Unite with us<br>https://discord.gg/QUtSrWhAvG",
+    "descriptionShort": "Defend your Kingdom and Battle your Mini Monster in a cute 3D Fantasy RPG world",
+    "details": {
+      "appDetails": {
+        "appType": "GAME",
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            },
+            {
+              "packageName": "com.google.android.play.games",
+              "version": 0
+            }
+          ],
+          "unknown1": 2,
+          "unknown2": "102809119",
+          "unknown3": 31
+        },
+        "developerAddress": "Tomang Tinggi IV no 9<br/>Jakarta, Indonesia<br/>11440",
+        "developerEmail": "mariomaradona90@gmail.com",
+        "developerName": "Evrac Studio",
+        "developerWebsite": "http://evrac.com",
+        "earlyAccessInfo": {},
+        "file": [
+          {
+            "fileType": 0,
+            "size": "84270061",
+            "versionCode": 34
+          },
+          {
+            "fileType": 0,
+            "size": "18539058",
+            "versionCode": 34
+          }
+        ],
+        "hasInstantLink": true,
+        "installationSize": "102809119",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "com.evrac.minimonsterrumble",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.WAKE_LOCK",
+          "com.android.vending.BILLING",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": "Bug fixes and Backend updates",
+        "unstable": true,
+        "uploadDate": "6 Nov 2022",
+        "versionCode": 34,
+        "versionString": "1.1.16"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.evrac.minimonsterrumble",
+    "docType": 1,
+    "docid": "com.evrac.minimonsterrumble",
+    "image": [
+      {
+        "color": "#DCBEEA",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/nkLl82VEqfpmIpRWg7JPS9TP8d26_Mj4KTkI6eAswTuKVyF84EIomyzf52reBZFVkA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#32CF01",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/tnK0AVhFI8SfXM0zMPVIvZz6yuo3YzsDOo0p6J40clGyqVlRIeiIn2RneWzo-_UeOQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qonHj4snz_USUG9DgMnsGFUyP2AxrrjWnG7bJbI67EYaeiJbrCH51pNNqET1NYmQ0QU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Cq-nFM3hgGsAn3V0NLg3UZWiNFry4tn-EXQviYGzdV8G7neCLSG-fBgsOM7TQVOVTwU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Awb7t0gMZQdWh55Rgn9v62KDiBbx5tyogOoPimKHO-LMUrva6PAFr3-cUcbpAmRNJwg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/PVD07t5MwuXqZh9bpR9vbRzt8INkRcz6bsbNXLZcApzUb6kF-gA2F9C5nzsPN4fVFCc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/46Y327Prv4cka0mwEAp413GnbL05ykf72fHJ6ds6xNkcnd99_jCPZdre0QnpW4dT7BQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1242,
+          "width": 2208
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qCMAY7QHpqbdEULHbSMxS_SdJIlg11skW0t6zN6K0135FsA8I7_wFGkgmmt2dfm7Dw",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "categoryInfo": {
+        "appType": "GAME"
+      },
+      "privacyPolicyUrl": "https://evrac.com/privacy_policy.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "In-game purchases<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.evrac.minimonsterrumble",
+    "reviewsUrl": "rev?doc=com.evrac.minimonsterrumble&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.evrac.minimonsterrumble",
+    "title": "Mini Monster Rumble Strategy",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "\u20ac0.89 \u2013 \u20ac104.99 per item"
+          },
+          "label": "In-app purchases"
+        },
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "mariomaradona90@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Tomang Tinggi IV no 9<br/>Jakarta, Indonesia<br/>11440"
+          },
+          "label": "Developer address"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  }
+]

@@ -1,0 +1,546 @@
+[
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-06-28 09:48:10.348490",
+    "backendDocid": "com.graytsar.batterynotification",
+    "backendId": 3,
+    "creator": "Viatcheslav Ehrmann",
+    "descriptionHtml": "Battery Notification sends you an alarm based on your battery level setting.<br><br>A Battery has a limited lifespan and the battery health is often measured in charge cycles.<br>Battery charge cycle is defined by how many times you can charge the battery from 0% to 100%<br><br>Every time you charge or discharge the battery the lifespan is reduced. Very low battery charge puts a heighten strain on the battery health. The same is true if the battery is overcharged for long periods of time. Like when you charge the battery overnight. The battery charge is at 100% for several hours and this is not good for the battery health.<br><br>Use my Battery Notification app to get a notification about the battery status. Configure the percentage values at which you want to get an alarm.<br><br>Functionality.<br>Battery Status: Shows if the battery is charging, discharging and what charging type.<br>Battery Health: Show you if the health of the battery is still good or if the battery has gone bad.<br>Technology: The type of technology the Battery is using. Like Li-Ion or LiPo.<br>Battery Voltage: Displays the current volt of the battery.<br>Battery Capacity: Displays how much capacity in mAh the battery has left. If the battery capacity continues to decrease over time then the battery is loosing health.<br>Battery Temperature. Displays the current temperature in Celsius. The battery should not get to hot or bad things will happen to your battery.<br>Plugged: Shows if the battery is charged over AC or Wireless.<br><br>Click on the start button and the app sends an alarm when the battery percentage reached your wanted values.",
+    "descriptionShort": "Set an Alarm to get a Notification when your phone charged enough.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "1397279",
+          "unknown3": 29
+        },
+        "developerEmail": "viatcheslav.ehrmann@gmail.com",
+        "developerName": "Viatcheslav Ehrmann",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "1295623",
+            "versionCode": 5
+          },
+          {
+            "fileType": 0,
+            "size": "72638",
+            "versionCode": 5
+          },
+          {
+            "fileType": 0,
+            "size": "29018",
+            "versionCode": 5
+          }
+        ],
+        "installationSize": "1397279",
+        "numDownloads": "10+ downloads",
+        "packageName": "com.graytsar.batterynotification",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.WAKE_LOCK",
+          "com.google.android.c2dm.permission.RECEIVE"
+        ],
+        "recentChangesHtml": "It is new!",
+        "unstable": false,
+        "uploadDate": "1 Jun 2020",
+        "versionCode": 5,
+        "versionString": "1.0.3"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.graytsar.batterynotification",
+    "docType": 1,
+    "docid": "com.graytsar.batterynotification",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://lh3.googleusercontent.com/pTbKmnoxc0V243_ewK_Lx0kRt37G5k8vrKzayUREmLr4fOffjUT7_7NAMlothPPybWBI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://lh3.googleusercontent.com/gBm0DbYYrnTlJQiV4ca56QYzlu1sH_JYlxh-jzdbT_3B_ZcOeV1Wu3ngn5DJiFHppg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1962,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/bGEFxOVxk5nzbJP4nyVVJuC46AuNpTbvmXiQ1yGGB1mPsRCqrR4l-EzeWmma-K86I3Y",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1962,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/6GWoomBh1uZo2E_81fiVNXrO4uB4R6AMBO4P5IUvkmHhnbpPySM5ejP7YPBhFgZJ9czZ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2028,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/EGZKXyeaPsaOPZCQh37tAmXKNioUREMxxGsWeI1TnbIYwjf9a8ZkdbCokNQAuAel",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://sites.google.com/view/batterynotification",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://lh3.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.graytsar.batterynotification",
+    "reviewsUrl": "rev?doc=com.graytsar.batterynotification&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.graytsar.batterynotification",
+    "title": "Battery Notification",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "viatcheslav.ehrmann@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "5 Mar 2020"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "5",
+      "fiveStarRatings": "8",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "10",
+      "starRating": 4.6,
+      "threeStarRatings": "2",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-08-27 06:56:04.829367",
+    "backendDocid": "com.graytsar.batterynotification",
+    "backendId": 3,
+    "creator": "Viatcheslav Ehrmann",
+    "descriptionHtml": "Battery Notification sends you an alarm based on your battery level setting.<br><br>A Battery has a limited lifespan and the battery health is often measured in charge cycles.<br>Battery charge cycle is defined by how many times you can charge the battery from 0% to 100%<br><br>Every time you charge or discharge the battery the lifespan is reduced. Very low battery charge puts a heighten strain on the battery health. The same is true if the battery is overcharged for long periods of time. Like when you charge the battery overnight. The battery charge is at 100% for several hours and this is not good for the battery health.<br><br>Use my Battery Notification app to get a notification about the battery status. Configure the percentage values at which you want to get an alarm.<br><br>Functionality.<br>Battery Status: Shows if the battery is charging, discharging and what charging type.<br>Battery Health: Show you if the health of the battery is still good or if the battery has gone bad.<br>Technology: The type of technology the Battery is using. Like Li-Ion or LiPo.<br>Battery Voltage: Displays the current volt of the battery.<br>Battery Capacity: Displays how much capacity in mAh the battery has left. If the battery capacity continues to decrease over time then the battery is loosing health.<br>Battery Temperature. Displays the current temperature in Celsius. The battery should not get to hot or bad things will happen to your battery.<br>Plugged: Shows if the battery is charged over AC or Wireless.<br><br>Click on the start button and the app sends an alarm when the battery percentage reached your wanted values.",
+    "descriptionShort": "Set an Alarm to get a Notification when your phone charged enough.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "1477291",
+          "unknown3": 30
+        },
+        "developerEmail": "viatcheslav.ehrmann@gmail.com",
+        "developerName": "Viatcheslav Ehrmann",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "1363539",
+            "versionCode": 6
+          },
+          {
+            "fileType": 0,
+            "size": "76542",
+            "versionCode": 6
+          },
+          {
+            "fileType": 0,
+            "size": "37210",
+            "versionCode": 6
+          }
+        ],
+        "installationSize": "1477291",
+        "numDownloads": "100+ downloads",
+        "packageName": "com.graytsar.batterynotification",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.WAKE_LOCK",
+          "com.google.android.c2dm.permission.RECEIVE"
+        ],
+        "recentChangesHtml": "Android 11",
+        "unstable": false,
+        "uploadDate": "22 Aug 2020",
+        "versionCode": 6,
+        "versionString": "1.0.4"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.graytsar.batterynotification",
+    "docType": 1,
+    "docid": "com.graytsar.batterynotification",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/pTbKmnoxc0V243_ewK_Lx0kRt37G5k8vrKzayUREmLr4fOffjUT7_7NAMlothPPybWBI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/gBm0DbYYrnTlJQiV4ca56QYzlu1sH_JYlxh-jzdbT_3B_ZcOeV1Wu3ngn5DJiFHppg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1962,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/bGEFxOVxk5nzbJP4nyVVJuC46AuNpTbvmXiQ1yGGB1mPsRCqrR4l-EzeWmma-K86I3Y",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1962,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/6GWoomBh1uZo2E_81fiVNXrO4uB4R6AMBO4P5IUvkmHhnbpPySM5ejP7YPBhFgZJ9czZ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2028,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/EGZKXyeaPsaOPZCQh37tAmXKNioUREMxxGsWeI1TnbIYwjf9a8ZkdbCokNQAuAel",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://sites.google.com/view/batterynotification",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.graytsar.batterynotification",
+    "reviewsUrl": "rev?doc=com.graytsar.batterynotification&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.graytsar.batterynotification",
+    "title": "Battery Notification",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "viatcheslav.ehrmann@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "5 Mar 2020"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "26",
+      "fiveStarRatings": "24",
+      "fourStarRatings": "3",
+      "oneStarRatings": "12",
+      "ratingsCount": "49",
+      "starRating": 3.4693878,
+      "threeStarRatings": "6",
+      "twoStarRatings": "4",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-10-05 20:35:19.036692",
+    "backendDocid": "com.graytsar.batterynotification",
+    "backendId": 3,
+    "creator": "Viatcheslav Ehrmann",
+    "descriptionHtml": "Battery Notification sends you an alarm based on your battery level setting.<br><br>A Battery has a limited lifespan and the battery health is often measured in charge cycles.<br>Battery charge cycle is defined by how many times you can charge the battery from 0% to 100%<br><br>Every time you charge or discharge the battery the lifespan is reduced. Very low battery charge puts a heighten strain on the battery health. The same is true if the battery is overcharged for long periods of time. Like when you charge the battery overnight. The battery charge is at 100% for several hours and this is not good for the battery health.<br><br>Use my Battery Notification app to get a notification about the battery status. Configure the percentage values at which you want to get an alarm.<br><br>Functionality.<br>Battery Status: Shows if the battery is charging, discharging and what charging type.<br>Battery Health: Show you if the health of the battery is still good or if the battery has gone bad.<br>Technology: The type of technology the Battery is using. Like Li-Ion or LiPo.<br>Battery Voltage: Displays the current volt of the battery.<br>Battery Capacity: Displays how much capacity in mAh the battery has left. If the battery capacity continues to decrease over time then the battery is loosing health.<br>Battery Temperature. Displays the current temperature in Celsius. The battery should not get to hot or bad things will happen to your battery.<br>Plugged: Shows if the battery is charged over AC or Wireless.<br><br>Click on the start button and the app sends an alarm when the battery percentage reached your wanted values.",
+    "descriptionShort": "Set an Alarm to get a Notification when your phone charged enough.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "1631075",
+          "unknown3": 31
+        },
+        "developerEmail": "viatcheslav.ehrmann@gmail.com",
+        "developerName": "Viatcheslav Ehrmann",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "1427522",
+            "versionCode": 7
+          },
+          {
+            "fileType": 0,
+            "size": "62653",
+            "versionCode": 7
+          },
+          {
+            "fileType": 0,
+            "size": "29081",
+            "versionCode": 7
+          },
+          {
+            "fileType": 0,
+            "size": "33177",
+            "versionCode": 7
+          },
+          {
+            "fileType": 0,
+            "size": "45465",
+            "versionCode": 7
+          },
+          {
+            "fileType": 0,
+            "size": "33177",
+            "versionCode": 7
+          }
+        ],
+        "installationSize": "1631075",
+        "numDownloads": "5,000+ downloads",
+        "packageName": "com.graytsar.batterynotification",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.WAKE_LOCK",
+          "com.google.android.c2dm.permission.RECEIVE"
+        ],
+        "recentChangesHtml": "Compatibility update for Android 12",
+        "unstable": false,
+        "uploadDate": "3 Oct 2021",
+        "versionCode": 7,
+        "versionString": "1.0.5"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.graytsar.batterynotification",
+    "docType": 1,
+    "docid": "com.graytsar.batterynotification",
+    "image": [
+      {
+        "color": "#388E3C",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/pTbKmnoxc0V243_ewK_Lx0kRt37G5k8vrKzayUREmLr4fOffjUT7_7NAMlothPPybWBI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/gBm0DbYYrnTlJQiV4ca56QYzlu1sH_JYlxh-jzdbT_3B_ZcOeV1Wu3ngn5DJiFHppg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1962,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/bGEFxOVxk5nzbJP4nyVVJuC46AuNpTbvmXiQ1yGGB1mPsRCqrR4l-EzeWmma-K86I3Y",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1962,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/6GWoomBh1uZo2E_81fiVNXrO4uB4R6AMBO4P5IUvkmHhnbpPySM5ejP7YPBhFgZJ9czZ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2028,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/EGZKXyeaPsaOPZCQh37tAmXKNioUREMxxGsWeI1TnbIYwjf9a8ZkdbCokNQAuAel",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://sites.google.com/view/batterynotification",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.graytsar.batterynotification",
+    "reviewsUrl": "rev?doc=com.graytsar.batterynotification&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.graytsar.batterynotification",
+    "title": "Battery Notification",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "viatcheslav.ehrmann@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "5 Mar 2020"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  }
+]

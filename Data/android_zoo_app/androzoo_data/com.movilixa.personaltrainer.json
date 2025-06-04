@@ -1,0 +1,4408 @@
+[
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-06-24 06:53:51.201541",
+    "backendDocid": "com.movilixa.personaltrainer",
+    "backendId": 3,
+    "creator": "MoviliXa SAS",
+    "descriptionHtml": "Exercise is an important part of a healthy lifestyle because it prevents health problems, develops resistance, provides more energy and helps to reduce stress.<br><br>With our application you can get your body in great shape without using expensive machines. You can do exercise anywhere you wish, no equipment needed.<br><br>With text to speech engine included, you can perform the entire workout without interrupting the exercise. Additionally, you can activate a sound guide per second for best rhythm in the exercises.<br><br>Each exercise contains an illustrative detail to facilitate their execution. It has warm-up workout and final stretch workout to improve training results.<br><br>Additionally, we have the option to create custom workouts or custom the workouts that the app provide.<br><br>All workouts are made by professionals and you can do them in the comfort of your home. You start your training with 200 trophies, and you can earn more burning calories. Trophies helps you to unlock more workouts.<br><br>Some features are:<br>* Challenges: You can challenge yourself with challenges of 7, 14, 21 or 28 days.<br>* Short workouts: Workouts to keep you fit that spend only a few minutes per circuit.<br>* Gain muscle mass: Workouts focused on muscle toning and gain strength.<br>* Cardio: You can burn fat with these workouts.<br>* Mark the abs: Abs focused workouts.<br>* HIIT: High intensity interval training workouts. <br><br><br>Before starting your routine remember:<br><br>Ask your doctor to let you know the best exercise for your physical condition.<br>Get hydrated before, during and after physical exercise.<br>Perform a warm-up of 15 minutes, to avoid muscle injuries.<br>Perform 10 minutes of stretching, after finishing your exercise workout.",
+    "descriptionShort": "Personal and Fitness Trainer App",
+    "details": {
+      "appDetails": {
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "24217650",
+          "unknown3": 29
+        },
+        "developerAddress": "Cra 72B # 5B - 93 Of. 401<br/>Bogot\u00e1 - Colombia",
+        "developerEmail": "info@movilixa.com",
+        "developerName": "MoviliXa SAS",
+        "developerWebsite": "http://www.movilixa.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "6341806",
+            "versionCode": 8
+          },
+          {
+            "fileType": 0,
+            "size": "110718",
+            "versionCode": 8
+          },
+          {
+            "fileType": 0,
+            "size": "29018",
+            "versionCode": 8
+          },
+          {
+            "fileType": 0,
+            "size": "17736108",
+            "versionCode": 8
+          }
+        ],
+        "installationSize": "24217650",
+        "numDownloads": "5+ downloads",
+        "packageName": "com.movilixa.personaltrainer",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.INTERNET",
+          "android.permission.WAKE_LOCK",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+        ],
+        "recentChangesHtml": "* First release",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false,
+          "testingProgramEmail": "info@movilixa.com"
+        },
+        "unstable": true,
+        "uploadDate": "12 Jun 2020",
+        "versionCode": 8,
+        "versionString": "0.9.8"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.movilixa.personaltrainer",
+    "docType": 1,
+    "docid": "com.movilixa.personaltrainer",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://lh3.googleusercontent.com/VZqwtoKMEs8buwbKBXxZmToLDR5ahF7GNblmuKn7ytfbBqCS6mBwuRbitqn5lEO-NPw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://lh3.googleusercontent.com/CE5B4V9TIyY7si_rheR2YsBwsoUIkN7YZDkhrib_6l_gLUFVFRyALfHCv15dUJhA_1c",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 16,
+        "imageUrl": "https://lh3.googleusercontent.com/GGDqkWhfY_o90MAyRllYnefAl8pq2iqUT-enAQgjWTgq0Kykh3wtpusISOXoL4mFjJA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/8Q2kbcKyfiyhr96ywUJRQ5buffUyTY1c2Fm_e1gjkAti43C-Ajt-2Q8Atrb8w1FRv7w",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/ITWiCfInAYtqeSBt_4Kb5lQQlQ2pbDHoE6vu_tAIkxtxUFSSJ1nfy_WbdNmOEOOFCIg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/qONKM1JPGlkbQhb0ufENlZhAuu0JyKz2-AS3gXrvaiCZk1R2POWF_yN1fWXhvnl-cA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/IwneD0a3a8fuyWO772UjRe3vZrkDQ6-JxYg4AzkWXKc_xgIikWn5DESK5VAwlVhOKYk",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/mDUbunlj847HkUOcuJ1O0F5LGHGnJK47IOkZDC9AIdaNoocub7tC4uLTe-2fV4uZJrg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/lDw2E6f7fOGhjy7AMNtJutUh6fAHh5A_IymEZL0F1nbpzWQgqv0LY___LwRFQ8dTyqc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/OrzcfsRsX2LUV_-qgQqDQsd6Pfyz3IxE0Ket4JTEXSrfnpmkNQkZwYXwAjZsuWL9NUlU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/cu3mSFJA3zHM4xcGY7jkvkZx1IhaY1S2iKT9Q0_2MEM0p2RESVCbJiaQ0lyUb9PANvs",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://www.movilixa.com/files/personaltrainerpolicy.pdf",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://lh3.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.movilixa.personaltrainer",
+    "reviewsUrl": "rev?doc=com.movilixa.personaltrainer&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.movilixa.personaltrainer",
+    "title": "Personal Trainer",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "MoviliXa SAS"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "info@movilixa.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Cra 72B # 5B - 93 Of. 401<br/>Bogot\u00e1 - Colombia"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "13 Jun 2020"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-07-14 16:22:39.309594",
+    "backendDocid": "com.movilixa.personaltrainer",
+    "backendId": 3,
+    "creator": "MoviliXa SAS",
+    "descriptionHtml": "Exercise is an important part of a healthy lifestyle because it prevents health problems, develops resistance, provides more energy and helps to reduce stress.<br><br>With our application you can get your body in great shape without using expensive machines. You can do exercise anywhere you wish, no equipment needed.<br><br>With text to speech engine included, you can perform the entire workout without interrupting the exercise. Additionally, you can activate a sound guide per second for best rhythm in the exercises.<br><br>Each exercise contains an illustrative detail to facilitate their execution. It has warm-up workout and final stretch workout to improve training results.<br><br>Additionally, we have the option to create custom workouts or custom the workouts that the app provide.<br><br>All workouts are made by professionals and you can do them in the comfort of your home. You start your training with 200 trophies, and you can earn more burning calories. Trophies helps you to unlock more workouts.<br><br>Some features are:<br>* Challenges: You can challenge yourself with challenges of 7, 14, 21 or 28 days.<br>* Short workouts: Workouts to keep you fit that spend only a few minutes per circuit.<br>* Gain muscle mass: Workouts focused on muscle toning and gain strength.<br>* Cardio: You can burn fat with these workouts.<br>* Mark the abs: Abs focused workouts.<br>* HIIT: High intensity interval training workouts. <br><br><br>Before starting your routine remember:<br><br>Ask your doctor to let you know the best exercise for your physical condition.<br>Get hydrated before, during and after physical exercise.<br>Perform a warm-up of 15 minutes, to avoid muscle injuries.<br>Perform 10 minutes of stretching, after finishing your exercise workout.",
+    "descriptionShort": "Personal and Fitness Trainer App",
+    "details": {
+      "appDetails": {
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "24130409",
+          "unknown3": 29
+        },
+        "developerAddress": "Cra 72B # 5B - 93 Of. 401<br/>Bogot\u00e1 - Colombia",
+        "developerEmail": "info@movilixa.com",
+        "developerName": "MoviliXa SAS",
+        "developerWebsite": "http://www.movilixa.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "6193125",
+            "versionCode": 9
+          },
+          {
+            "fileType": 0,
+            "size": "110718",
+            "versionCode": 9
+          },
+          {
+            "fileType": 0,
+            "size": "33114",
+            "versionCode": 9
+          },
+          {
+            "fileType": 0,
+            "size": "17793452",
+            "versionCode": 9
+          }
+        ],
+        "installationSize": "24130409",
+        "numDownloads": "10+ downloads",
+        "packageName": "com.movilixa.personaltrainer",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.INTERNET",
+          "android.permission.WAKE_LOCK",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+        ],
+        "recentChangesHtml": "* We\u2019re always making changes and improvements to Personal Trainer. To make sure you don\u2019t miss a thing, just keep your Updates turned on.",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false,
+          "testingProgramEmail": "info@movilixa.com"
+        },
+        "unstable": true,
+        "uploadDate": "28 Jun 2020",
+        "versionCode": 9,
+        "versionString": "0.9.9"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.movilixa.personaltrainer",
+    "docType": 1,
+    "docid": "com.movilixa.personaltrainer",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://lh3.googleusercontent.com/VZqwtoKMEs8buwbKBXxZmToLDR5ahF7GNblmuKn7ytfbBqCS6mBwuRbitqn5lEO-NPw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://lh3.googleusercontent.com/CE5B4V9TIyY7si_rheR2YsBwsoUIkN7YZDkhrib_6l_gLUFVFRyALfHCv15dUJhA_1c",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 16,
+        "imageUrl": "https://lh3.googleusercontent.com/GGDqkWhfY_o90MAyRllYnefAl8pq2iqUT-enAQgjWTgq0Kykh3wtpusISOXoL4mFjJA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/8Q2kbcKyfiyhr96ywUJRQ5buffUyTY1c2Fm_e1gjkAti43C-Ajt-2Q8Atrb8w1FRv7w",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/ITWiCfInAYtqeSBt_4Kb5lQQlQ2pbDHoE6vu_tAIkxtxUFSSJ1nfy_WbdNmOEOOFCIg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/qONKM1JPGlkbQhb0ufENlZhAuu0JyKz2-AS3gXrvaiCZk1R2POWF_yN1fWXhvnl-cA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/IwneD0a3a8fuyWO772UjRe3vZrkDQ6-JxYg4AzkWXKc_xgIikWn5DESK5VAwlVhOKYk",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/mDUbunlj847HkUOcuJ1O0F5LGHGnJK47IOkZDC9AIdaNoocub7tC4uLTe-2fV4uZJrg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/lDw2E6f7fOGhjy7AMNtJutUh6fAHh5A_IymEZL0F1nbpzWQgqv0LY___LwRFQ8dTyqc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/OrzcfsRsX2LUV_-qgQqDQsd6Pfyz3IxE0Ket4JTEXSrfnpmkNQkZwYXwAjZsuWL9NUlU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/cu3mSFJA3zHM4xcGY7jkvkZx1IhaY1S2iKT9Q0_2MEM0p2RESVCbJiaQ0lyUb9PANvs",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://www.movilixa.com/files/personaltrainerpolicy.pdf",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://lh3.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.movilixa.personaltrainer",
+    "reviewsUrl": "rev?doc=com.movilixa.personaltrainer&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.movilixa.personaltrainer",
+    "title": "Personal Trainer",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "MoviliXa SAS"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "info@movilixa.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Cra 72B # 5B - 93 Of. 401<br/>Bogot\u00e1 - Colombia"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "13 Jun 2020"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-08-15 19:22:13.985252",
+    "backendDocid": "com.movilixa.personaltrainer",
+    "backendId": 3,
+    "creator": "MoviliXa SAS",
+    "descriptionHtml": "Exercise is an important part of a healthy lifestyle because it prevents health problems, develops resistance, provides more energy and helps to reduce stress.<br><br>With our application you can get your body in great shape without using expensive machines. You can do exercise anywhere you wish, no equipment needed.<br><br>With text to speech engine included, you can perform the entire workout without interrupting the exercise. Additionally, you can activate a sound guide per second for best rhythm in the exercises.<br><br>Each exercise contains an illustrative detail to facilitate their execution. It has warm-up workout and final stretch workout to improve training results.<br><br>Additionally, we have the option to create custom workouts or custom the workouts that the app provide.<br><br>All workouts are made by professionals and you can do them in the comfort of your home. You start your training with 200 trophies, and you can earn more burning calories. Trophies helps you to unlock more workouts.<br><br>Some features are:<br>* Challenges: You can challenge yourself with challenges of 7, 14, 21 or 28 days.<br>* Short workouts: Workouts to keep you fit that spend only a few minutes per circuit.<br>* Gain muscle mass: Workouts focused on muscle toning and gain strength.<br>* Cardio: You can burn fat with these workouts.<br>* Mark the abs: Abs focused workouts.<br>* HIIT: High intensity interval training workouts. <br><br><br>Before starting your routine remember:<br><br>Ask your doctor to let you know the best exercise for your physical condition.<br>Get hydrated before, during and after physical exercise.<br>Perform a warm-up of 15 minutes, to avoid muscle injuries.<br>Perform 10 minutes of stretching, after finishing your exercise workout.",
+    "descriptionShort": "Personal and Fitness Trainer App",
+    "details": {
+      "appDetails": {
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "23740642",
+          "unknown3": 29
+        },
+        "developerAddress": "Cra 72B # 5B - 93 Of. 401<br/>Bogot\u00e1 - Colombia",
+        "developerEmail": "info@movilixa.com",
+        "developerName": "MoviliXa SAS",
+        "developerWebsite": "http://www.movilixa.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "4980062",
+            "versionCode": 13
+          },
+          {
+            "fileType": 0,
+            "size": "114814",
+            "versionCode": 13
+          },
+          {
+            "fileType": 0,
+            "size": "37210",
+            "versionCode": 13
+          },
+          {
+            "fileType": 0,
+            "size": "18608556",
+            "versionCode": 13
+          }
+        ],
+        "installationSize": "23740642",
+        "numDownloads": "50+ downloads",
+        "packageName": "com.movilixa.personaltrainer",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.INTERNET",
+          "android.permission.WAKE_LOCK",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+        ],
+        "recentChangesHtml": "* We\u2019re always making changes and improvements to Personal Trainer. To make sure you don\u2019t miss a thing, just keep your Updates turned on.",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false,
+          "testingProgramEmail": "info@movilixa.com"
+        },
+        "unstable": true,
+        "uploadDate": "14 Aug 2020",
+        "versionCode": 13,
+        "versionString": "1.1.0"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.movilixa.personaltrainer",
+    "docType": 1,
+    "docid": "com.movilixa.personaltrainer",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://lh3.googleusercontent.com/VZqwtoKMEs8buwbKBXxZmToLDR5ahF7GNblmuKn7ytfbBqCS6mBwuRbitqn5lEO-NPw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://lh3.googleusercontent.com/CE5B4V9TIyY7si_rheR2YsBwsoUIkN7YZDkhrib_6l_gLUFVFRyALfHCv15dUJhA_1c",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 16,
+        "imageUrl": "https://lh3.googleusercontent.com/GGDqkWhfY_o90MAyRllYnefAl8pq2iqUT-enAQgjWTgq0Kykh3wtpusISOXoL4mFjJA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/8Q2kbcKyfiyhr96ywUJRQ5buffUyTY1c2Fm_e1gjkAti43C-Ajt-2Q8Atrb8w1FRv7w",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/ITWiCfInAYtqeSBt_4Kb5lQQlQ2pbDHoE6vu_tAIkxtxUFSSJ1nfy_WbdNmOEOOFCIg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/qONKM1JPGlkbQhb0ufENlZhAuu0JyKz2-AS3gXrvaiCZk1R2POWF_yN1fWXhvnl-cA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/IwneD0a3a8fuyWO772UjRe3vZrkDQ6-JxYg4AzkWXKc_xgIikWn5DESK5VAwlVhOKYk",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/mDUbunlj847HkUOcuJ1O0F5LGHGnJK47IOkZDC9AIdaNoocub7tC4uLTe-2fV4uZJrg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/lDw2E6f7fOGhjy7AMNtJutUh6fAHh5A_IymEZL0F1nbpzWQgqv0LY___LwRFQ8dTyqc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/OrzcfsRsX2LUV_-qgQqDQsd6Pfyz3IxE0Ket4JTEXSrfnpmkNQkZwYXwAjZsuWL9NUlU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/cu3mSFJA3zHM4xcGY7jkvkZx1IhaY1S2iKT9Q0_2MEM0p2RESVCbJiaQ0lyUb9PANvs",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://www.movilixa.com/files/personaltrainerpolicy.pdf",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://lh3.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.movilixa.personaltrainer",
+    "reviewsUrl": "rev?doc=com.movilixa.personaltrainer&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.movilixa.personaltrainer",
+    "title": "Personal Trainer",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "info@movilixa.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Cra 72B # 5B - 93 Of. 401<br/>Bogot\u00e1 - Colombia"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "13 Jun 2020"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-10-29 05:06:31.403409",
+    "backendDocid": "com.movilixa.personaltrainer",
+    "backendId": 3,
+    "creator": "MoviliXa SAS",
+    "descriptionHtml": "Exercise is an important part of a healthy lifestyle because it prevents health problems, develops resistance, provides more energy and helps to reduce stress.<br><br>With our application you can get your body in great shape without using expensive machines. You can do exercise anywhere you wish, no equipment needed.<br><br>With text to speech engine included, you can perform the entire workout without interrupting the exercise. Additionally, you can activate a sound guide per second for best rhythm in the exercises.<br><br>Each exercise contains an illustrative detail to facilitate their execution. It has warm-up workout and final stretch workout to improve training results.<br><br>Additionally, we have the option to create custom workouts or custom the workouts that the app provide.<br><br>All workouts are made by professionals and you can do them in the comfort of your home. You start your training with 200 trophies, and you can earn more burning calories. Trophies helps you to unlock more workouts.<br><br>Some features are:<br>* Challenges: You can challenge yourself with challenges of 7, 14, 21 or 28 days.<br>* Short workouts: Workouts to keep you fit that spend only a few minutes per circuit.<br>* Gain muscle mass: Workouts focused on muscle toning and gain strength.<br>* Cardio: You can burn fat with these workouts.<br>* Mark the abs: Abs focused workouts.<br>* HIIT: High intensity interval training workouts. <br><br><br>Before starting your routine remember:<br><br>Ask your doctor to let you know the best exercise for your physical condition.<br>Get hydrated before, during and after physical exercise.<br>Perform a warm-up of 15 minutes, to avoid muscle injuries.<br>Perform 10 minutes of stretching, after finishing your exercise workout.",
+    "descriptionShort": "Personal and Fitness Trainer App",
+    "details": {
+      "appDetails": {
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "24396684",
+          "unknown3": 29
+        },
+        "developerAddress": "Cra 72B # 5B - 93 Of. 401<br/>Bogot\u00e1 - Colombia",
+        "developerEmail": "info@movilixa.com",
+        "developerName": "MoviliXa SAS",
+        "developerWebsite": "http://www.movilixa.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "5381786",
+            "versionCode": 20
+          },
+          {
+            "fileType": 0,
+            "size": "135534",
+            "versionCode": 20
+          },
+          {
+            "fileType": 0,
+            "size": "37273",
+            "versionCode": 20
+          },
+          {
+            "fileType": 0,
+            "size": "18842091",
+            "versionCode": 20
+          }
+        ],
+        "installationSize": "24396684",
+        "numDownloads": "100+ downloads",
+        "packageName": "com.movilixa.personaltrainer",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.INTERNET",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.USE_FULL_SCREEN_INTENT",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+        ],
+        "recentChangesHtml": "* We\u2019re always making changes and improvements to Personal Trainer. To make sure you don\u2019t miss a thing, just keep your Updates turned on.",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false,
+          "testingProgramEmail": "info@movilixa.com"
+        },
+        "unstable": true,
+        "uploadDate": "28 Oct 2020",
+        "versionCode": 20,
+        "versionString": "1.2.3"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.movilixa.personaltrainer",
+    "docType": 1,
+    "docid": "com.movilixa.personaltrainer",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/VZqwtoKMEs8buwbKBXxZmToLDR5ahF7GNblmuKn7ytfbBqCS6mBwuRbitqn5lEO-NPw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/dlFETXG40MxuJ6UtYLY7Sn1IT59NTSOlOFVklIfPl3bR5PsN9ChZdmKK_WJqSMGCC59G",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 16,
+        "imageUrl": "https://play-lh.googleusercontent.com/GGDqkWhfY_o90MAyRllYnefAl8pq2iqUT-enAQgjWTgq0Kykh3wtpusISOXoL4mFjJA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/8Q2kbcKyfiyhr96ywUJRQ5buffUyTY1c2Fm_e1gjkAti43C-Ajt-2Q8Atrb8w1FRv7w",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ITWiCfInAYtqeSBt_4Kb5lQQlQ2pbDHoE6vu_tAIkxtxUFSSJ1nfy_WbdNmOEOOFCIg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qONKM1JPGlkbQhb0ufENlZhAuu0JyKz2-AS3gXrvaiCZk1R2POWF_yN1fWXhvnl-cA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/IwneD0a3a8fuyWO772UjRe3vZrkDQ6-JxYg4AzkWXKc_xgIikWn5DESK5VAwlVhOKYk",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/mDUbunlj847HkUOcuJ1O0F5LGHGnJK47IOkZDC9AIdaNoocub7tC4uLTe-2fV4uZJrg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/lDw2E6f7fOGhjy7AMNtJutUh6fAHh5A_IymEZL0F1nbpzWQgqv0LY___LwRFQ8dTyqc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/OrzcfsRsX2LUV_-qgQqDQsd6Pfyz3IxE0Ket4JTEXSrfnpmkNQkZwYXwAjZsuWL9NUlU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/cu3mSFJA3zHM4xcGY7jkvkZx1IhaY1S2iKT9Q0_2MEM0p2RESVCbJiaQ0lyUb9PANvs",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://www.movilixa.com/files/personaltrainerpolicy.pdf",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.movilixa.personaltrainer",
+    "reviewsUrl": "rev?doc=com.movilixa.personaltrainer&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.movilixa.personaltrainer",
+    "title": "Personal Trainer",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "info@movilixa.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Cra 72B # 5B - 93 Of. 401<br/>Bogot\u00e1 - Colombia"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "13 Jun 2020"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-11-22 05:04:04.129324",
+    "backendDocid": "com.movilixa.personaltrainer",
+    "backendId": 3,
+    "creator": "MoviliXa SAS",
+    "descriptionHtml": "Exercise is an important part of a healthy lifestyle because it prevents health problems, develops resistance, provides more energy and helps to reduce stress.<br><br>With our application you can get your body in great shape without using expensive machines. You can do exercise anywhere you wish, no equipment needed.<br><br>With text to speech engine included, you can perform the entire workout without interrupting the exercise. Additionally, you can activate a sound guide per second for best rhythm in the exercises.<br><br>Each exercise contains an illustrative detail to facilitate their execution. It has warm-up workout and final stretch workout to improve training results.<br><br>Additionally, we have the option to create custom workouts or custom the workouts that the app provide.<br><br>All workouts are made by professionals and you can do them in the comfort of your home. You start your training with 200 trophies, and you can earn more burning calories. Trophies helps you to unlock more workouts.<br><br>Some features are:<br>* Challenges: You can challenge yourself with challenges of 7, 14, 21 or 28 days.<br>* Short workouts: Workouts to keep you fit that spend only a few minutes per circuit.<br>* Gain muscle mass: Workouts focused on muscle toning and gain strength.<br>* Cardio: You can burn fat with these workouts.<br>* Mark the abs: Abs focused workouts.<br>* HIIT: High intensity interval training workouts. <br><br><br>Before starting your routine remember:<br><br>Ask your doctor to let you know the best exercise for your physical condition.<br>Get hydrated before, during and after physical exercise.<br>Perform a warm-up of 15 minutes, to avoid muscle injuries.<br>Perform 10 minutes of stretching, after finishing your exercise workout.",
+    "descriptionShort": "Personal and Fitness Trainer App",
+    "details": {
+      "appDetails": {
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "24537740",
+          "unknown3": 29
+        },
+        "developerAddress": "Cra 72B # 5B - 93 Of. 401<br/>Bogot\u00e1 - Colombia",
+        "developerEmail": "info@movilixa.com",
+        "developerName": "MoviliXa SAS",
+        "developerWebsite": "https://movilixa.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "5518746",
+            "versionCode": 23
+          },
+          {
+            "fileType": 0,
+            "size": "135534",
+            "versionCode": 23
+          },
+          {
+            "fileType": 0,
+            "size": "37273",
+            "versionCode": 23
+          },
+          {
+            "fileType": 0,
+            "size": "18846187",
+            "versionCode": 23
+          }
+        ],
+        "installationSize": "24537740",
+        "numDownloads": "100+ downloads",
+        "packageName": "com.movilixa.personaltrainer",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.INTERNET",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.USE_FULL_SCREEN_INTENT",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+        ],
+        "recentChangesHtml": "* We\u2019re always making changes and improvements to Personal Trainer. To make sure you don\u2019t miss a thing, just keep your Updates turned on.",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false,
+          "testingProgramEmail": "info@movilixa.com"
+        },
+        "unstable": true,
+        "uploadDate": "19 Nov 2020",
+        "versionCode": 23,
+        "versionString": "1.2.5"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.movilixa.personaltrainer",
+    "docType": 1,
+    "docid": "com.movilixa.personaltrainer",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/VZqwtoKMEs8buwbKBXxZmToLDR5ahF7GNblmuKn7ytfbBqCS6mBwuRbitqn5lEO-NPw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/dlFETXG40MxuJ6UtYLY7Sn1IT59NTSOlOFVklIfPl3bR5PsN9ChZdmKK_WJqSMGCC59G",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 16,
+        "imageUrl": "https://play-lh.googleusercontent.com/GGDqkWhfY_o90MAyRllYnefAl8pq2iqUT-enAQgjWTgq0Kykh3wtpusISOXoL4mFjJA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/8Q2kbcKyfiyhr96ywUJRQ5buffUyTY1c2Fm_e1gjkAti43C-Ajt-2Q8Atrb8w1FRv7w",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ITWiCfInAYtqeSBt_4Kb5lQQlQ2pbDHoE6vu_tAIkxtxUFSSJ1nfy_WbdNmOEOOFCIg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qONKM1JPGlkbQhb0ufENlZhAuu0JyKz2-AS3gXrvaiCZk1R2POWF_yN1fWXhvnl-cA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/IwneD0a3a8fuyWO772UjRe3vZrkDQ6-JxYg4AzkWXKc_xgIikWn5DESK5VAwlVhOKYk",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/mDUbunlj847HkUOcuJ1O0F5LGHGnJK47IOkZDC9AIdaNoocub7tC4uLTe-2fV4uZJrg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/lDw2E6f7fOGhjy7AMNtJutUh6fAHh5A_IymEZL0F1nbpzWQgqv0LY___LwRFQ8dTyqc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/OrzcfsRsX2LUV_-qgQqDQsd6Pfyz3IxE0Ket4JTEXSrfnpmkNQkZwYXwAjZsuWL9NUlU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/cu3mSFJA3zHM4xcGY7jkvkZx1IhaY1S2iKT9Q0_2MEM0p2RESVCbJiaQ0lyUb9PANvs",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://movilixa.com/eula?appid=3",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.movilixa.personaltrainer",
+    "reviewsUrl": "rev?doc=com.movilixa.personaltrainer&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.movilixa.personaltrainer",
+    "title": "Personal Trainer",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "info@movilixa.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Cra 72B # 5B - 93 Of. 401<br/>Bogot\u00e1 - Colombia"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "13 Jun 2020"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-11-29 04:58:40.513559",
+    "backendDocid": "com.movilixa.personaltrainer",
+    "backendId": 3,
+    "creator": "MoviliXa SAS",
+    "descriptionHtml": "Exercise is an important part of a healthy lifestyle because it prevents health problems, develops resistance, provides more energy and helps to reduce stress.<br><br>With our application you can get your body in great shape without using expensive machines. You can do exercise anywhere you wish, no equipment needed.<br><br>With text to speech engine included, you can perform the entire workout without interrupting the exercise. Additionally, you can activate a sound guide per second for best rhythm in the exercises.<br><br>Each exercise contains an illustrative detail to facilitate their execution. It has warm-up workout and final stretch workout to improve training results.<br><br>Additionally, we have the option to create custom workouts or custom the workouts that the app provide.<br><br>All workouts are made by professionals and you can do them in the comfort of your home. You start your training with 200 trophies, and you can earn more burning calories. Trophies helps you to unlock more workouts.<br><br>Some features are:<br>* Challenges: You can challenge yourself with challenges of 7, 14, 21 or 28 days.<br>* Short workouts: Workouts to keep you fit that spend only a few minutes per circuit.<br>* Gain muscle mass: Workouts focused on muscle toning and gain strength.<br>* Cardio: You can burn fat with these workouts.<br>* Mark the abs: Abs focused workouts.<br>* HIIT: High intensity interval training workouts. <br><br><br>Before starting your routine remember:<br><br>Ask your doctor to let you know the best exercise for your physical condition.<br>Get hydrated before, during and after physical exercise.<br>Perform a warm-up of 15 minutes, to avoid muscle injuries.<br>Perform 10 minutes of stretching, after finishing your exercise workout.",
+    "descriptionShort": "Personal and Fitness Trainer App",
+    "details": {
+      "appDetails": {
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "24546030",
+          "unknown3": 29
+        },
+        "developerAddress": "Cra 72B # 5B - 93 Of. 401<br/>Bogot\u00e1 - Colombia",
+        "developerEmail": "info@movilixa.com",
+        "developerName": "MoviliXa SAS",
+        "developerWebsite": "https://movilixa.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "5518844",
+            "versionCode": 25
+          },
+          {
+            "fileType": 0,
+            "size": "135534",
+            "versionCode": 25
+          },
+          {
+            "fileType": 0,
+            "size": "37273",
+            "versionCode": 25
+          },
+          {
+            "fileType": 0,
+            "size": "18854379",
+            "versionCode": 25
+          }
+        ],
+        "installationSize": "24546030",
+        "numDownloads": "100+ downloads",
+        "packageName": "com.movilixa.personaltrainer",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.INTERNET",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.USE_FULL_SCREEN_INTENT",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+        ],
+        "recentChangesHtml": "* We\u2019re always making changes and improvements to Personal Trainer. To make sure you don\u2019t miss a thing, just keep your Updates turned on.",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false,
+          "testingProgramEmail": "info@movilixa.com"
+        },
+        "unstable": true,
+        "uploadDate": "25 Nov 2020",
+        "versionCode": 25,
+        "versionString": "1.2.6"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.movilixa.personaltrainer",
+    "docType": 1,
+    "docid": "com.movilixa.personaltrainer",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/VZqwtoKMEs8buwbKBXxZmToLDR5ahF7GNblmuKn7ytfbBqCS6mBwuRbitqn5lEO-NPw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/dlFETXG40MxuJ6UtYLY7Sn1IT59NTSOlOFVklIfPl3bR5PsN9ChZdmKK_WJqSMGCC59G",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 16,
+        "imageUrl": "https://play-lh.googleusercontent.com/GGDqkWhfY_o90MAyRllYnefAl8pq2iqUT-enAQgjWTgq0Kykh3wtpusISOXoL4mFjJA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/8Q2kbcKyfiyhr96ywUJRQ5buffUyTY1c2Fm_e1gjkAti43C-Ajt-2Q8Atrb8w1FRv7w",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ITWiCfInAYtqeSBt_4Kb5lQQlQ2pbDHoE6vu_tAIkxtxUFSSJ1nfy_WbdNmOEOOFCIg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qONKM1JPGlkbQhb0ufENlZhAuu0JyKz2-AS3gXrvaiCZk1R2POWF_yN1fWXhvnl-cA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/IwneD0a3a8fuyWO772UjRe3vZrkDQ6-JxYg4AzkWXKc_xgIikWn5DESK5VAwlVhOKYk",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/mDUbunlj847HkUOcuJ1O0F5LGHGnJK47IOkZDC9AIdaNoocub7tC4uLTe-2fV4uZJrg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/lDw2E6f7fOGhjy7AMNtJutUh6fAHh5A_IymEZL0F1nbpzWQgqv0LY___LwRFQ8dTyqc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/OrzcfsRsX2LUV_-qgQqDQsd6Pfyz3IxE0Ket4JTEXSrfnpmkNQkZwYXwAjZsuWL9NUlU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/cu3mSFJA3zHM4xcGY7jkvkZx1IhaY1S2iKT9Q0_2MEM0p2RESVCbJiaQ0lyUb9PANvs",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://movilixa.com/eula?appid=3",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.movilixa.personaltrainer",
+    "reviewsUrl": "rev?doc=com.movilixa.personaltrainer&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.movilixa.personaltrainer",
+    "title": "Personal Trainer",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "info@movilixa.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Cra 72B # 5B - 93 Of. 401<br/>Bogot\u00e1 - Colombia"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "13 Jun 2020"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-12-13 22:08:46.487401",
+    "backendDocid": "com.movilixa.personaltrainer",
+    "backendId": 3,
+    "creator": "MoviliXa SAS",
+    "descriptionHtml": "Exercise is an important part of a healthy lifestyle because it prevents health problems, develops resistance, provides more energy and helps to reduce stress.<br><br>With our application you can get your body in great shape without using expensive machines. You can do exercise anywhere you wish, no equipment needed.<br><br>With text to speech engine included, you can perform the entire workout without interrupting the exercise. Additionally, you can activate a sound guide per second for best rhythm in the exercises.<br><br>Each exercise contains an illustrative detail to facilitate their execution. It has warm-up workout and final stretch workout to improve training results.<br><br>Additionally, we have the option to create custom workouts or custom the workouts that the app provide.<br><br>All workouts are made by professionals and you can do them in the comfort of your home. You start your training with 200 trophies, and you can earn more burning calories. Trophies helps you to unlock more workouts.<br><br>Some features are:<br>* Challenges: You can challenge yourself with challenges of 7, 14, 21 or 28 days.<br>* Short workouts: Workouts to keep you fit that spend only a few minutes per circuit.<br>* Gain muscle mass: Workouts focused on muscle toning and gain strength.<br>* Cardio: You can burn fat with these workouts.<br>* Mark the abs: Abs focused workouts.<br>* HIIT: High intensity interval training workouts. <br><br><br>Before starting your routine remember:<br><br>Ask your doctor to let you know the best exercise for your physical condition.<br>Get hydrated before, during and after physical exercise.<br>Perform a warm-up of 15 minutes, to avoid muscle injuries.<br>Perform 10 minutes of stretching, after finishing your exercise workout.",
+    "descriptionShort": "Personal and Fitness Trainer App",
+    "details": {
+      "appDetails": {
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "24828841",
+          "unknown3": 29
+        },
+        "developerAddress": "Cra 72B # 5B - 93 Of. 401<br/>Bogot\u00e1 - Colombia",
+        "developerEmail": "info@movilixa.com",
+        "developerName": "MoviliXa SAS",
+        "developerWebsite": "https://movilixa.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "5445303",
+            "versionCode": 30
+          },
+          {
+            "fileType": 0,
+            "size": "135534",
+            "versionCode": 30
+          },
+          {
+            "fileType": 0,
+            "size": "37273",
+            "versionCode": 30
+          },
+          {
+            "fileType": 0,
+            "size": "19210731",
+            "versionCode": 30
+          }
+        ],
+        "hasInstantLink": true,
+        "installationSize": "24828841",
+        "numDownloads": "100+ downloads",
+        "packageName": "com.movilixa.personaltrainer",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.INTERNET",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.USE_FULL_SCREEN_INTENT",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "com.android.vending.BILLING",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+        ],
+        "recentChangesHtml": "* We\u2019re always making changes and improvements to Personal Trainer. To make sure you don\u2019t miss a thing, just keep your updates turned on.",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false,
+          "testingProgramEmail": "info@movilixa.com"
+        },
+        "unstable": true,
+        "uploadDate": "Dec. 11, 2020",
+        "versionCode": 30,
+        "versionString": "1.2.8"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.movilixa.personaltrainer",
+    "docType": 1,
+    "docid": "com.movilixa.personaltrainer",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/VZqwtoKMEs8buwbKBXxZmToLDR5ahF7GNblmuKn7ytfbBqCS6mBwuRbitqn5lEO-NPw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/dlFETXG40MxuJ6UtYLY7Sn1IT59NTSOlOFVklIfPl3bR5PsN9ChZdmKK_WJqSMGCC59G",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 16,
+        "imageUrl": "https://play-lh.googleusercontent.com/GGDqkWhfY_o90MAyRllYnefAl8pq2iqUT-enAQgjWTgq0Kykh3wtpusISOXoL4mFjJA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/8Q2kbcKyfiyhr96ywUJRQ5buffUyTY1c2Fm_e1gjkAti43C-Ajt-2Q8Atrb8w1FRv7w",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ITWiCfInAYtqeSBt_4Kb5lQQlQ2pbDHoE6vu_tAIkxtxUFSSJ1nfy_WbdNmOEOOFCIg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qONKM1JPGlkbQhb0ufENlZhAuu0JyKz2-AS3gXrvaiCZk1R2POWF_yN1fWXhvnl-cA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/IwneD0a3a8fuyWO772UjRe3vZrkDQ6-JxYg4AzkWXKc_xgIikWn5DESK5VAwlVhOKYk",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/mDUbunlj847HkUOcuJ1O0F5LGHGnJK47IOkZDC9AIdaNoocub7tC4uLTe-2fV4uZJrg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/lDw2E6f7fOGhjy7AMNtJutUh6fAHh5A_IymEZL0F1nbpzWQgqv0LY___LwRFQ8dTyqc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/OrzcfsRsX2LUV_-qgQqDQsd6Pfyz3IxE0Ket4JTEXSrfnpmkNQkZwYXwAjZsuWL9NUlU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/cu3mSFJA3zHM4xcGY7jkvkZx1IhaY1S2iKT9Q0_2MEM0p2RESVCbJiaQ0lyUb9PANvs",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://movilixa.com/eula?appid=3",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.movilixa.personaltrainer",
+    "reviewsUrl": "rev?doc=com.movilixa.personaltrainer&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.movilixa.personaltrainer",
+    "title": "Personal Trainer",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "MoviliXa SAS"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "info@movilixa.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Cra 72B # 5B - 93 Of. 401<br/>Bogot\u00e1 - Colombia"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "Jun. 13, 2020"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-12-31 00:41:26.679391",
+    "backendDocid": "com.movilixa.personaltrainer",
+    "backendId": 3,
+    "creator": "MoviliXa SAS",
+    "descriptionHtml": "Exercise is an important part of a healthy lifestyle because it prevents health problems, develops resistance, provides more energy and helps to reduce stress.<br><br>With our application you can get your body in great shape without using expensive machines. You can do exercise anywhere you wish, no equipment needed.<br><br>With text to speech engine included, you can perform the entire workout without interrupting the exercise. Additionally, you can activate a sound guide per second for best rhythm in the exercises.<br><br>Each exercise contains an illustrative detail to facilitate their execution. It has warm-up workout and final stretch workout to improve training results.<br><br>Additionally, we have the option to create custom workouts or custom the workouts that the app provide.<br><br>All workouts are made by professionals and you can do them in the comfort of your home. You start your training with 200 trophies, and you can earn more burning calories. Trophies helps you to unlock more workouts.<br><br>Some features are:<br>* Challenges: You can challenge yourself with challenges of 7, 14, 21 or 28 days.<br>* Short workouts: Workouts to keep you fit that spend only a few minutes per circuit.<br>* Gain muscle mass: Workouts focused on muscle toning and gain strength.<br>* Cardio: You can burn fat with these workouts.<br>* Mark the abs: Abs focused workouts.<br>* HIIT: High intensity interval training workouts. <br><br><br>Before starting your routine remember:<br><br>Ask your doctor to let you know the best exercise for your physical condition.<br>Get hydrated before, during and after physical exercise.<br>Perform a warm-up of 15 minutes, to avoid muscle injuries.<br>Perform 10 minutes of stretching, after finishing your exercise workout.",
+    "descriptionShort": "Personal and Fitness Trainer App",
+    "details": {
+      "appDetails": {
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "24919254",
+          "unknown3": 29
+        },
+        "developerAddress": "Cra 72B # 5B - 93 Of. 401<br/>Bogot\u00e1 - Colombia",
+        "developerEmail": "info@movilixa.com",
+        "developerName": "MoviliXa SAS",
+        "developerWebsite": "https://movilixa.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "5445604",
+            "versionCode": 37
+          },
+          {
+            "fileType": 0,
+            "size": "135534",
+            "versionCode": 37
+          },
+          {
+            "fileType": 0,
+            "size": "37273",
+            "versionCode": 37
+          },
+          {
+            "fileType": 0,
+            "size": "19300843",
+            "versionCode": 37
+          }
+        ],
+        "hasInstantLink": true,
+        "installationSize": "24919254",
+        "numDownloads": "500+ downloads",
+        "packageName": "com.movilixa.personaltrainer",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.INTERNET",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.USE_FULL_SCREEN_INTENT",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "com.android.vending.BILLING",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+        ],
+        "recentChangesHtml": "* New history option.<br><br>We\u2019re always making changes and improvements to Personal Trainer. To make sure you don\u2019t miss a thing, just keep your updates turned on.",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false,
+          "testingProgramEmail": "info@movilixa.com"
+        },
+        "unstable": true,
+        "uploadDate": "29 Dec 2020",
+        "versionCode": 37,
+        "versionString": "1.3.0"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.movilixa.personaltrainer",
+    "docType": 1,
+    "docid": "com.movilixa.personaltrainer",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/VZqwtoKMEs8buwbKBXxZmToLDR5ahF7GNblmuKn7ytfbBqCS6mBwuRbitqn5lEO-NPw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/dlFETXG40MxuJ6UtYLY7Sn1IT59NTSOlOFVklIfPl3bR5PsN9ChZdmKK_WJqSMGCC59G",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 16,
+        "imageUrl": "https://play-lh.googleusercontent.com/GGDqkWhfY_o90MAyRllYnefAl8pq2iqUT-enAQgjWTgq0Kykh3wtpusISOXoL4mFjJA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/8Q2kbcKyfiyhr96ywUJRQ5buffUyTY1c2Fm_e1gjkAti43C-Ajt-2Q8Atrb8w1FRv7w",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ITWiCfInAYtqeSBt_4Kb5lQQlQ2pbDHoE6vu_tAIkxtxUFSSJ1nfy_WbdNmOEOOFCIg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qONKM1JPGlkbQhb0ufENlZhAuu0JyKz2-AS3gXrvaiCZk1R2POWF_yN1fWXhvnl-cA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/IwneD0a3a8fuyWO772UjRe3vZrkDQ6-JxYg4AzkWXKc_xgIikWn5DESK5VAwlVhOKYk",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/mDUbunlj847HkUOcuJ1O0F5LGHGnJK47IOkZDC9AIdaNoocub7tC4uLTe-2fV4uZJrg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/lDw2E6f7fOGhjy7AMNtJutUh6fAHh5A_IymEZL0F1nbpzWQgqv0LY___LwRFQ8dTyqc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/OrzcfsRsX2LUV_-qgQqDQsd6Pfyz3IxE0Ket4JTEXSrfnpmkNQkZwYXwAjZsuWL9NUlU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/cu3mSFJA3zHM4xcGY7jkvkZx1IhaY1S2iKT9Q0_2MEM0p2RESVCbJiaQ0lyUb9PANvs",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://movilixa.com/eula?appid=3",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.movilixa.personaltrainer",
+    "reviewsUrl": "rev?doc=com.movilixa.personaltrainer&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.movilixa.personaltrainer",
+    "title": "Personal Trainer",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "\u20ac1.39 \u2013 \u20ac4.19 per item"
+          },
+          "label": "In-app purchases"
+        },
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "info@movilixa.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Cra 72B # 5B - 93 Of. 401<br/>Bogot\u00e1 - Colombia"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "13 Jun 2020"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "3",
+      "fiveStarRatings": "4",
+      "fourStarRatings": "1",
+      "oneStarRatings": "0",
+      "ratingsCount": "5",
+      "starRating": 4.8,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-02-17 16:36:52.570010",
+    "backendDocid": "com.movilixa.personaltrainer",
+    "backendId": 3,
+    "creator": "MoviliXa SAS",
+    "descriptionHtml": "Exercise is an important part of a healthy lifestyle because it prevents health problems, develops resistance, provides more energy and helps to reduce stress.<br><br>With our application you can get your body in great shape without using expensive machines. You can do exercise anywhere you wish, no equipment needed.<br><br>With text to speech engine included, you can perform the entire workout without interrupting the exercise. Additionally, you can activate a sound guide per second for best rhythm in the exercises.<br><br>Each exercise contains an illustrative detail to facilitate their execution. It has warm-up workout and final stretch workout to improve training results.<br><br>Additionally, we have the option to create custom workouts or custom the workouts that the app provide.<br><br>All workouts are made by professionals and you can do them in the comfort of your home. You start your training with 200 trophies, and you can earn more burning calories. Trophies helps you to unlock more workouts.<br><br>Some features are:<br>* Challenges: You can challenge yourself with challenges of 7, 14, 21 or 28 days.<br>* Short workouts: Workouts to keep you fit that spend only a few minutes per circuit.<br>* Gain muscle mass: Workouts focused on muscle toning and gain strength.<br>* Cardio: You can burn fat with these workouts.<br>* Mark the abs: Abs focused workouts.<br>* HIIT: High intensity interval training workouts. <br><br><br>Before starting your routine remember:<br><br>Ask your doctor to let you know the best exercise for your physical condition.<br>Get hydrated before, during and after physical exercise.<br>Perform a warm-up of 15 minutes, to avoid muscle injuries.<br>Perform 10 minutes of stretching, after finishing your exercise workout.",
+    "descriptionShort": "Personal and Fitness Trainer App",
+    "details": {
+      "appDetails": {
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "25230917",
+          "unknown3": 30
+        },
+        "developerAddress": "Cra 72B # 5B - 93 Of. 401<br/>Bogot\u00e1 - Colombia",
+        "developerEmail": "info@movilixa.com",
+        "developerName": "MoviliXa SAS",
+        "developerWebsite": "https://movilixa.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "5728595",
+            "versionCode": 39
+          },
+          {
+            "fileType": 0,
+            "size": "135534",
+            "versionCode": 39
+          },
+          {
+            "fileType": 0,
+            "size": "41369",
+            "versionCode": 39
+          },
+          {
+            "fileType": 0,
+            "size": "19325419",
+            "versionCode": 39
+          }
+        ],
+        "hasInstantLink": true,
+        "installationSize": "25230917",
+        "numDownloads": "500+ downloads",
+        "packageName": "com.movilixa.personaltrainer",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.INTERNET",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.USE_FULL_SCREEN_INTENT",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "com.android.vending.BILLING",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+        ],
+        "recentChangesHtml": "* Updated libraries to support new devices.<br>* Other minor adjustments and improvements. <br><br>We\u2019re always making changes and improvements to Personal Trainer. To make sure you don\u2019t miss a thing, just keep your updates turned on.",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false,
+          "testingProgramEmail": "info@movilixa.com"
+        },
+        "unstable": true,
+        "uploadDate": "16 Feb 2021",
+        "versionCode": 39,
+        "versionString": "1.3.1"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.movilixa.personaltrainer",
+    "docType": 1,
+    "docid": "com.movilixa.personaltrainer",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/VZqwtoKMEs8buwbKBXxZmToLDR5ahF7GNblmuKn7ytfbBqCS6mBwuRbitqn5lEO-NPw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/dlFETXG40MxuJ6UtYLY7Sn1IT59NTSOlOFVklIfPl3bR5PsN9ChZdmKK_WJqSMGCC59G",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 16,
+        "imageUrl": "https://play-lh.googleusercontent.com/GGDqkWhfY_o90MAyRllYnefAl8pq2iqUT-enAQgjWTgq0Kykh3wtpusISOXoL4mFjJA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/8Q2kbcKyfiyhr96ywUJRQ5buffUyTY1c2Fm_e1gjkAti43C-Ajt-2Q8Atrb8w1FRv7w",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ITWiCfInAYtqeSBt_4Kb5lQQlQ2pbDHoE6vu_tAIkxtxUFSSJ1nfy_WbdNmOEOOFCIg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qONKM1JPGlkbQhb0ufENlZhAuu0JyKz2-AS3gXrvaiCZk1R2POWF_yN1fWXhvnl-cA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/IwneD0a3a8fuyWO772UjRe3vZrkDQ6-JxYg4AzkWXKc_xgIikWn5DESK5VAwlVhOKYk",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/mDUbunlj847HkUOcuJ1O0F5LGHGnJK47IOkZDC9AIdaNoocub7tC4uLTe-2fV4uZJrg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/lDw2E6f7fOGhjy7AMNtJutUh6fAHh5A_IymEZL0F1nbpzWQgqv0LY___LwRFQ8dTyqc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/OrzcfsRsX2LUV_-qgQqDQsd6Pfyz3IxE0Ket4JTEXSrfnpmkNQkZwYXwAjZsuWL9NUlU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/cu3mSFJA3zHM4xcGY7jkvkZx1IhaY1S2iKT9Q0_2MEM0p2RESVCbJiaQ0lyUb9PANvs",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://movilixa.com/eula?appid=3",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.movilixa.personaltrainer",
+    "reviewsUrl": "rev?doc=com.movilixa.personaltrainer&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.movilixa.personaltrainer",
+    "title": "Personal Trainer",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "\u20ac1.39 \u2013 \u20ac4.09 per item"
+          },
+          "label": "In-app purchases"
+        },
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "info@movilixa.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Cra 72B # 5B - 93 Of. 401<br/>Bogot\u00e1 - Colombia"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "13 Jun 2020"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "4",
+      "fiveStarRatings": "5",
+      "fourStarRatings": "1",
+      "oneStarRatings": "0",
+      "ratingsCount": "6",
+      "starRating": 4.8333335,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-03-05 00:26:13.200176",
+    "backendDocid": "com.movilixa.personaltrainer",
+    "backendId": 3,
+    "creator": "MoviliXa SAS",
+    "descriptionHtml": "Exercise is an important part of a healthy lifestyle because it prevents health problems, develops resistance, provides more energy and helps to reduce stress.<br><br>With our application you can get your body in great shape without using expensive machines. You can do exercise anywhere you wish, no equipment needed.<br><br>With text to speech engine included, you can perform the entire workout without interrupting the exercise. Additionally, you can activate a sound guide per second for best rhythm in the exercises.<br><br>Each exercise contains an illustrative detail to facilitate their execution. It has warm-up workout and final stretch workout to improve training results.<br><br>Additionally, we have the option to create custom workouts or custom the workouts that the app provide.<br><br>All workouts are made by professionals and you can do them in the comfort of your home. You start your training with 200 trophies, and you can earn more burning calories. Trophies helps you to unlock more workouts.<br><br>Some features are:<br>* Challenges: You can challenge yourself with challenges of 7, 14, 21 or 28 days.<br>* Short workouts: Workouts to keep you fit that spend only a few minutes per circuit.<br>* Gain muscle mass: Workouts focused on muscle toning and gain strength.<br>* Cardio: You can burn fat with these workouts.<br>* Mark the abs: Abs focused workouts.<br>* HIIT: High intensity interval training workouts. <br><br><br>Before starting your routine remember:<br><br>Ask your doctor to let you know the best exercise for your physical condition.<br>Get hydrated before, during and after physical exercise.<br>Perform a warm-up of 15 minutes, to avoid muscle injuries.<br>Perform 10 minutes of stretching, after finishing your exercise workout.",
+    "descriptionShort": "Personal and Fitness Trainer App",
+    "details": {
+      "appDetails": {
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "25300958",
+          "unknown3": 30
+        },
+        "developerAddress": "Cra 72B # 5B - 93 Of. 401<br/>Bogot\u00e1 - Colombia",
+        "developerEmail": "info@movilixa.com",
+        "developerName": "MoviliXa SAS",
+        "developerWebsite": "https://movilixa.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "5736787",
+            "versionCode": 40
+          },
+          {
+            "fileType": 0,
+            "size": "135534",
+            "versionCode": 40
+          },
+          {
+            "fileType": 0,
+            "size": "33177",
+            "versionCode": 40
+          },
+          {
+            "fileType": 0,
+            "size": "41369",
+            "versionCode": 40
+          },
+          {
+            "fileType": 0,
+            "size": "19354091",
+            "versionCode": 40
+          }
+        ],
+        "hasInstantLink": true,
+        "installationSize": "25300958",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "com.movilixa.personaltrainer",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.INTERNET",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.USE_FULL_SCREEN_INTENT",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "com.android.vending.BILLING",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+        ],
+        "recentChangesHtml": "* Minor adjustments and improvements. <br><br>We\u2019re always making changes and improvements to Personal Trainer. To make sure you don\u2019t miss a thing, just keep your updates turned on.",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false,
+          "testingProgramEmail": "info@movilixa.com"
+        },
+        "unstable": true,
+        "uploadDate": "3 Mar 2021",
+        "versionCode": 40,
+        "versionString": "1.3.2"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.movilixa.personaltrainer",
+    "docType": 1,
+    "docid": "com.movilixa.personaltrainer",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/VZqwtoKMEs8buwbKBXxZmToLDR5ahF7GNblmuKn7ytfbBqCS6mBwuRbitqn5lEO-NPw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/dlFETXG40MxuJ6UtYLY7Sn1IT59NTSOlOFVklIfPl3bR5PsN9ChZdmKK_WJqSMGCC59G",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 16,
+        "imageUrl": "https://play-lh.googleusercontent.com/GGDqkWhfY_o90MAyRllYnefAl8pq2iqUT-enAQgjWTgq0Kykh3wtpusISOXoL4mFjJA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/8Q2kbcKyfiyhr96ywUJRQ5buffUyTY1c2Fm_e1gjkAti43C-Ajt-2Q8Atrb8w1FRv7w",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ITWiCfInAYtqeSBt_4Kb5lQQlQ2pbDHoE6vu_tAIkxtxUFSSJ1nfy_WbdNmOEOOFCIg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qONKM1JPGlkbQhb0ufENlZhAuu0JyKz2-AS3gXrvaiCZk1R2POWF_yN1fWXhvnl-cA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/IwneD0a3a8fuyWO772UjRe3vZrkDQ6-JxYg4AzkWXKc_xgIikWn5DESK5VAwlVhOKYk",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/mDUbunlj847HkUOcuJ1O0F5LGHGnJK47IOkZDC9AIdaNoocub7tC4uLTe-2fV4uZJrg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/lDw2E6f7fOGhjy7AMNtJutUh6fAHh5A_IymEZL0F1nbpzWQgqv0LY___LwRFQ8dTyqc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/OrzcfsRsX2LUV_-qgQqDQsd6Pfyz3IxE0Ket4JTEXSrfnpmkNQkZwYXwAjZsuWL9NUlU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/cu3mSFJA3zHM4xcGY7jkvkZx1IhaY1S2iKT9Q0_2MEM0p2RESVCbJiaQ0lyUb9PANvs",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://movilixa.com/eula?appid=3",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.movilixa.personaltrainer",
+    "reviewsUrl": "rev?doc=com.movilixa.personaltrainer&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.movilixa.personaltrainer",
+    "title": "Personal Trainer",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "$1.49 \u2013 $3.99 per item"
+          },
+          "label": "In-app purchases"
+        },
+        {
+          "container": {
+            "value": "MoviliXa SAS"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "info@movilixa.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Cra 72B # 5B - 93 Of. 401<br/>Bogot\u00e1 - Colombia"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "13 Jun 2020"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "4",
+      "fiveStarRatings": "5",
+      "fourStarRatings": "1",
+      "oneStarRatings": "0",
+      "ratingsCount": "6",
+      "starRating": 4.8333335,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-03-18 01:33:26.069627",
+    "backendDocid": "com.movilixa.personaltrainer",
+    "backendId": 3,
+    "creator": "MoviliXa SAS",
+    "descriptionHtml": "Exercise is an important part of a healthy lifestyle because it prevents health problems, develops resistance, provides more energy and helps to reduce stress.<br><br>With our application you can get your body in great shape without using expensive machines. You can do exercise anywhere you wish, no equipment needed.<br><br>With text to speech engine included, you can perform the entire workout without interrupting the exercise. Additionally, you can activate a sound guide per second for best rhythm in the exercises.<br><br>Each exercise contains an illustrative detail to facilitate their execution. It has warm-up workout and final stretch workout to improve training results.<br><br>Additionally, we have the option to create custom workouts or custom the workouts that the app provide.<br><br>All workouts are made by professionals and you can do them in the comfort of your home. You start your training with 200 trophies, and you can earn more burning calories. Trophies helps you to unlock more workouts.<br><br>Some features are:<br>* Challenges: You can challenge yourself with challenges of 7, 14, 21 or 28 days.<br>* Short workouts: Workouts to keep you fit that spend only a few minutes per circuit.<br>* Gain muscle mass: Workouts focused on muscle toning and gain strength.<br>* Cardio: You can burn fat with these workouts.<br>* Mark the abs: Abs focused workouts.<br>* HIIT: High intensity interval training workouts. <br><br><br>Before starting your routine remember:<br><br>Ask your doctor to let you know the best exercise for your physical condition.<br>Get hydrated before, during and after physical exercise.<br>Perform a warm-up of 15 minutes, to avoid muscle injuries.<br>Perform 10 minutes of stretching, after finishing your exercise workout.",
+    "descriptionShort": "Personal and Fitness Trainer App",
+    "details": {
+      "appDetails": {
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "24915865",
+          "unknown3": 30
+        },
+        "developerAddress": "Cra 72B # 5B - 93 Of. 401<br/>Bogot\u00e1 - Colombia",
+        "developerEmail": "info@movilixa.com",
+        "developerName": "MoviliXa SAS",
+        "developerWebsite": "https://movilixa.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "5757198",
+            "versionCode": 46
+          },
+          {
+            "fileType": 0,
+            "size": "135534",
+            "versionCode": 46
+          },
+          {
+            "fileType": 0,
+            "size": "33177",
+            "versionCode": 46
+          },
+          {
+            "fileType": 0,
+            "size": "41369",
+            "versionCode": 46
+          },
+          {
+            "fileType": 0,
+            "size": "18948587",
+            "versionCode": 46
+          }
+        ],
+        "hasInstantLink": true,
+        "installationSize": "24915865",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "com.movilixa.personaltrainer",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.INTERNET",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.USE_FULL_SCREEN_INTENT",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "com.android.vending.BILLING",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+        ],
+        "recentChangesHtml": "* Minor adjustments and improvements. <br><br>We\u2019re always making changes and improvements to Personal Trainer. To make sure you don\u2019t miss a thing, just keep your updates turned on.",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "17 Mar 2021",
+        "versionCode": 46,
+        "versionString": "1.4.0"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.movilixa.personaltrainer",
+    "docType": 1,
+    "docid": "com.movilixa.personaltrainer",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/VZqwtoKMEs8buwbKBXxZmToLDR5ahF7GNblmuKn7ytfbBqCS6mBwuRbitqn5lEO-NPw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/dlFETXG40MxuJ6UtYLY7Sn1IT59NTSOlOFVklIfPl3bR5PsN9ChZdmKK_WJqSMGCC59G",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 16,
+        "imageUrl": "https://play-lh.googleusercontent.com/GGDqkWhfY_o90MAyRllYnefAl8pq2iqUT-enAQgjWTgq0Kykh3wtpusISOXoL4mFjJA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/8Q2kbcKyfiyhr96ywUJRQ5buffUyTY1c2Fm_e1gjkAti43C-Ajt-2Q8Atrb8w1FRv7w",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ITWiCfInAYtqeSBt_4Kb5lQQlQ2pbDHoE6vu_tAIkxtxUFSSJ1nfy_WbdNmOEOOFCIg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qONKM1JPGlkbQhb0ufENlZhAuu0JyKz2-AS3gXrvaiCZk1R2POWF_yN1fWXhvnl-cA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/IwneD0a3a8fuyWO772UjRe3vZrkDQ6-JxYg4AzkWXKc_xgIikWn5DESK5VAwlVhOKYk",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/mDUbunlj847HkUOcuJ1O0F5LGHGnJK47IOkZDC9AIdaNoocub7tC4uLTe-2fV4uZJrg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/lDw2E6f7fOGhjy7AMNtJutUh6fAHh5A_IymEZL0F1nbpzWQgqv0LY___LwRFQ8dTyqc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/OrzcfsRsX2LUV_-qgQqDQsd6Pfyz3IxE0Ket4JTEXSrfnpmkNQkZwYXwAjZsuWL9NUlU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/cu3mSFJA3zHM4xcGY7jkvkZx1IhaY1S2iKT9Q0_2MEM0p2RESVCbJiaQ0lyUb9PANvs",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://movilixa.com/eula?appid=3",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.movilixa.personaltrainer",
+    "reviewsUrl": "rev?doc=com.movilixa.personaltrainer&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.movilixa.personaltrainer",
+    "title": "Personal Trainer",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "\u20ac1.39 \u2013 \u20ac4.19 per item"
+          },
+          "label": "In-app purchases"
+        },
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "info@movilixa.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Cra 72B # 5B - 93 Of. 401<br/>Bogot\u00e1 - Colombia"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "13 Jun 2020"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "4",
+      "fiveStarRatings": "5",
+      "fourStarRatings": "1",
+      "oneStarRatings": "0",
+      "ratingsCount": "6",
+      "starRating": 4.8333335,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-03-23 23:08:16.287124",
+    "backendDocid": "com.movilixa.personaltrainer",
+    "backendId": 3,
+    "creator": "MoviliXa SAS",
+    "descriptionHtml": "Exercise is an important part of a healthy lifestyle because it prevents health problems, develops resistance, provides more energy and helps to reduce stress.<br><br>With our application you can get your body in great shape without using expensive machines. You can do exercise anywhere you wish, no equipment needed.<br><br>With text to speech engine included, you can perform the entire workout without interrupting the exercise. Additionally, you can activate a sound guide per second for best rhythm in the exercises.<br><br>Each exercise contains an illustrative detail to facilitate their execution. It has warm-up workout and final stretch workout to improve training results.<br><br>Additionally, we have the option to create custom workouts or custom the workouts that the app provide.<br><br>All workouts are made by professionals and you can do them in the comfort of your home. You start your training with 200 trophies, and you can earn more burning calories. Trophies helps you to unlock more workouts.<br><br>Some features are:<br>* Challenges: You can challenge yourself with challenges of 7, 14, 21 or 28 days.<br>* Short workouts: Workouts to keep you fit that spend only a few minutes per circuit.<br>* Gain muscle mass: Workouts focused on muscle toning and gain strength.<br>* Cardio: You can burn fat with these workouts.<br>* Mark the abs: Abs focused workouts.<br>* HIIT: High intensity interval training workouts. <br><br><br>Before starting your routine remember:<br><br>Ask your doctor to let you know the best exercise for your physical condition.<br>Get hydrated before, during and after physical exercise.<br>Perform a warm-up of 15 minutes, to avoid muscle injuries.<br>Perform 10 minutes of stretching, after finishing your exercise workout.",
+    "descriptionShort": "Personal and Fitness Trainer App",
+    "details": {
+      "appDetails": {
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "24907673",
+          "unknown3": 30
+        },
+        "developerAddress": "Cra 72B # 5B - 93 Of. 401<br/>Bogot\u00e1 - Colombia",
+        "developerEmail": "info@movilixa.com",
+        "developerName": "MoviliXa SAS",
+        "developerWebsite": "https://movilixa.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "5757198",
+            "versionCode": 47
+          },
+          {
+            "fileType": 0,
+            "size": "135534",
+            "versionCode": 47
+          },
+          {
+            "fileType": 0,
+            "size": "33177",
+            "versionCode": 47
+          },
+          {
+            "fileType": 0,
+            "size": "41369",
+            "versionCode": 47
+          },
+          {
+            "fileType": 0,
+            "size": "18940395",
+            "versionCode": 47
+          }
+        ],
+        "hasInstantLink": true,
+        "installationSize": "24907673",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "com.movilixa.personaltrainer",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.INTERNET",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.USE_FULL_SCREEN_INTENT",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "com.android.vending.BILLING",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+        ],
+        "recentChangesHtml": "* Minor adjustments and improvements. <br><br>We\u2019re always making changes and improvements to Personal Trainer. To make sure you don\u2019t miss a thing, just keep your updates turned on.",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "23 Mar 2021",
+        "versionCode": 47,
+        "versionString": "1.4.1"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.movilixa.personaltrainer",
+    "docType": 1,
+    "docid": "com.movilixa.personaltrainer",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/VZqwtoKMEs8buwbKBXxZmToLDR5ahF7GNblmuKn7ytfbBqCS6mBwuRbitqn5lEO-NPw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/dlFETXG40MxuJ6UtYLY7Sn1IT59NTSOlOFVklIfPl3bR5PsN9ChZdmKK_WJqSMGCC59G",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 16,
+        "imageUrl": "https://play-lh.googleusercontent.com/GGDqkWhfY_o90MAyRllYnefAl8pq2iqUT-enAQgjWTgq0Kykh3wtpusISOXoL4mFjJA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/8Q2kbcKyfiyhr96ywUJRQ5buffUyTY1c2Fm_e1gjkAti43C-Ajt-2Q8Atrb8w1FRv7w",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ITWiCfInAYtqeSBt_4Kb5lQQlQ2pbDHoE6vu_tAIkxtxUFSSJ1nfy_WbdNmOEOOFCIg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qONKM1JPGlkbQhb0ufENlZhAuu0JyKz2-AS3gXrvaiCZk1R2POWF_yN1fWXhvnl-cA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/IwneD0a3a8fuyWO772UjRe3vZrkDQ6-JxYg4AzkWXKc_xgIikWn5DESK5VAwlVhOKYk",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/mDUbunlj847HkUOcuJ1O0F5LGHGnJK47IOkZDC9AIdaNoocub7tC4uLTe-2fV4uZJrg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/lDw2E6f7fOGhjy7AMNtJutUh6fAHh5A_IymEZL0F1nbpzWQgqv0LY___LwRFQ8dTyqc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/OrzcfsRsX2LUV_-qgQqDQsd6Pfyz3IxE0Ket4JTEXSrfnpmkNQkZwYXwAjZsuWL9NUlU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/cu3mSFJA3zHM4xcGY7jkvkZx1IhaY1S2iKT9Q0_2MEM0p2RESVCbJiaQ0lyUb9PANvs",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://movilixa.com/eula?appid=3",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.movilixa.personaltrainer",
+    "reviewsUrl": "rev?doc=com.movilixa.personaltrainer&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.movilixa.personaltrainer",
+    "title": "Personal Trainer",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "$1.49 \u2013 $3.99 per item"
+          },
+          "label": "In-app purchases"
+        },
+        {
+          "container": {
+            "value": "MoviliXa SAS"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "info@movilixa.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Cra 72B # 5B - 93 Of. 401<br/>Bogot\u00e1 - Colombia"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "13 Jun 2020"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "5",
+      "fiveStarRatings": "6",
+      "fourStarRatings": "1",
+      "oneStarRatings": "0",
+      "ratingsCount": "7",
+      "starRating": 4.857143,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-04-01 12:25:30.734921",
+    "backendDocid": "com.movilixa.personaltrainer",
+    "backendId": 3,
+    "creator": "MoviliXa SAS",
+    "descriptionHtml": "Exercise is an important part of a healthy lifestyle because it prevents health problems, develops resistance, provides more energy and helps to reduce stress.<br><br>With our application you can get your body in great shape without using expensive machines. You can do exercise anywhere you wish, no equipment needed.<br><br>With text to speech engine included, you can perform the entire workout without interrupting the exercise. Additionally, you can activate a sound guide per second for best rhythm in the exercises.<br><br>Each exercise contains an illustrative detail to facilitate their execution. It has warm-up workout and final stretch workout to improve training results.<br><br>Additionally, we have the option to create custom workouts or custom the workouts that the app provide.<br><br>All workouts are made by professionals and you can do them in the comfort of your home. You start your training with 200 trophies, and you can earn more burning calories. Trophies helps you to unlock more workouts.<br><br>Some features are:<br>* Challenges: You can challenge yourself with challenges of 7, 14, 21 or 28 days.<br>* Short workouts: Workouts to keep you fit that spend only a few minutes per circuit.<br>* Gain muscle mass: Workouts focused on muscle toning and gain strength.<br>* Cardio: You can burn fat with these workouts.<br>* Mark the abs: Abs focused workouts.<br>* HIIT: High intensity interval training workouts. <br><br><br>Before starting your routine remember:<br><br>Ask your doctor to let you know the best exercise for your physical condition.<br>Get hydrated before, during and after physical exercise.<br>Perform a warm-up of 15 minutes, to avoid muscle injuries.<br>Perform 10 minutes of stretching, after finishing your exercise workout.",
+    "descriptionShort": "Personal and Fitness Trainer App",
+    "details": {
+      "appDetails": {
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "24920025",
+          "unknown3": 30
+        },
+        "developerAddress": "Cra 72B # 5B - 93 Of. 401<br/>Bogot\u00e1 - Colombia",
+        "developerEmail": "info@movilixa.com",
+        "developerName": "MoviliXa SAS",
+        "developerWebsite": "https://movilixa.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "5757262",
+            "versionCode": 50
+          },
+          {
+            "fileType": 0,
+            "size": "135534",
+            "versionCode": 50
+          },
+          {
+            "fileType": 0,
+            "size": "33177",
+            "versionCode": 50
+          },
+          {
+            "fileType": 0,
+            "size": "41369",
+            "versionCode": 50
+          },
+          {
+            "fileType": 0,
+            "size": "18952683",
+            "versionCode": 50
+          }
+        ],
+        "hasInstantLink": true,
+        "installationSize": "24920025",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "com.movilixa.personaltrainer",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.INTERNET",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.USE_FULL_SCREEN_INTENT",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "com.android.vending.BILLING",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+        ],
+        "recentChangesHtml": "* Added terms and conditions in the side menu. <br>* Minor adjustments and improvements. <br><br>We\u2019re always making changes and improvements to Personal Trainer. To make sure you don\u2019t miss a thing, just keep your updates turned on.",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "31 Mar 2021",
+        "versionCode": 50,
+        "versionString": "1.5.0"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.movilixa.personaltrainer",
+    "docType": 1,
+    "docid": "com.movilixa.personaltrainer",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/VZqwtoKMEs8buwbKBXxZmToLDR5ahF7GNblmuKn7ytfbBqCS6mBwuRbitqn5lEO-NPw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/dlFETXG40MxuJ6UtYLY7Sn1IT59NTSOlOFVklIfPl3bR5PsN9ChZdmKK_WJqSMGCC59G",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 16,
+        "imageUrl": "https://play-lh.googleusercontent.com/GGDqkWhfY_o90MAyRllYnefAl8pq2iqUT-enAQgjWTgq0Kykh3wtpusISOXoL4mFjJA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/8Q2kbcKyfiyhr96ywUJRQ5buffUyTY1c2Fm_e1gjkAti43C-Ajt-2Q8Atrb8w1FRv7w",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ITWiCfInAYtqeSBt_4Kb5lQQlQ2pbDHoE6vu_tAIkxtxUFSSJ1nfy_WbdNmOEOOFCIg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qONKM1JPGlkbQhb0ufENlZhAuu0JyKz2-AS3gXrvaiCZk1R2POWF_yN1fWXhvnl-cA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/IwneD0a3a8fuyWO772UjRe3vZrkDQ6-JxYg4AzkWXKc_xgIikWn5DESK5VAwlVhOKYk",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/mDUbunlj847HkUOcuJ1O0F5LGHGnJK47IOkZDC9AIdaNoocub7tC4uLTe-2fV4uZJrg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/lDw2E6f7fOGhjy7AMNtJutUh6fAHh5A_IymEZL0F1nbpzWQgqv0LY___LwRFQ8dTyqc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/OrzcfsRsX2LUV_-qgQqDQsd6Pfyz3IxE0Ket4JTEXSrfnpmkNQkZwYXwAjZsuWL9NUlU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/cu3mSFJA3zHM4xcGY7jkvkZx1IhaY1S2iKT9Q0_2MEM0p2RESVCbJiaQ0lyUb9PANvs",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://movilixa.com/eula?appid=3",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.movilixa.personaltrainer",
+    "reviewsUrl": "rev?doc=com.movilixa.personaltrainer&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.movilixa.personaltrainer",
+    "title": "Personal Trainer",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "$1.49 \u2013 $3.99 per item"
+          },
+          "label": "In-app purchases"
+        },
+        {
+          "container": {
+            "value": "MoviliXa SAS"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "info@movilixa.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Cra 72B # 5B - 93 Of. 401<br/>Bogot\u00e1 - Colombia"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "13 Jun 2020"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "26",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "26",
+      "starRating": 5.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-11-18 02:18:59.109641",
+    "backendDocid": "com.movilixa.personaltrainer",
+    "backendId": 3,
+    "creator": "MoviliXa SAS",
+    "descriptionHtml": "Exercise is an important part of a healthy lifestyle because it prevents health problems, develops resistance, provides more energy and helps to reduce stress.<br><br>With our application you can get your body in great shape without using expensive machines. You can do exercise anywhere you wish, no equipment needed.<br><br>With text to speech engine included, you can perform the entire workout without interrupting the exercise. Additionally, you can activate a sound guide per second for best rhythm in the exercises.<br><br>Each exercise contains an illustrative detail to facilitate their execution. It has warm-up workout and final stretch workout to improve training results.<br><br>Additionally, we have the option to create custom workouts or custom the workouts that the app provide.<br><br>All workouts are made by professionals and you can do them in the comfort of your home. You start your training with 200 trophies, and you can earn more burning calories. Trophies helps you to unlock more workouts.<br><br>Some features are:<br>* Challenges: You can challenge yourself with challenges of 7, 14, 21 or 28 days.<br>* Short workouts: Workouts to keep you fit that spend only a few minutes per circuit.<br>* Gain muscle mass: Workouts focused on muscle toning and gain strength.<br>* Cardio: You can burn fat with these workouts.<br>* Mark the abs: Abs focused workouts.<br>* HIIT: High intensity interval training workouts. <br><br><br>Before starting your routine remember:<br><br>Ask your doctor to let you know the best exercise for your physical condition.<br>Get hydrated before, during and after physical exercise.<br>Perform a warm-up of 15 minutes, to avoid muscle injuries.<br>Perform 10 minutes of stretching, after finishing your exercise workout.",
+    "descriptionShort": "Personal and Fitness Trainer App",
+    "details": {
+      "appDetails": {
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "26289511",
+          "unknown3": 30
+        },
+        "developerAddress": "Cra 72B # 5B - 93 Of. 401<br/>Bogot\u00e1 - Colombia",
+        "developerEmail": "info@movilixa.com",
+        "developerName": "MoviliXa SAS",
+        "developerWebsite": "https://movilixa.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "5770899",
+            "versionCode": 53
+          },
+          {
+            "fileType": 0,
+            "size": "135534",
+            "versionCode": 53
+          },
+          {
+            "fileType": 0,
+            "size": "33177",
+            "versionCode": 53
+          },
+          {
+            "fileType": 0,
+            "size": "41369",
+            "versionCode": 53
+          },
+          {
+            "fileType": 0,
+            "size": "20308532",
+            "versionCode": 53
+          }
+        ],
+        "hasInstantLink": true,
+        "installationSize": "26289511",
+        "numDownloads": "5,000+ downloads",
+        "packageName": "com.movilixa.personaltrainer",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.INTERNET",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.USE_FULL_SCREEN_INTENT",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "com.android.vending.BILLING",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+        ],
+        "recentChangesHtml": "* Minor adjustments and improvements. <br><br>We\u2019re always making changes and improvements to Personal Trainer. To make sure you don\u2019t miss a thing, just keep your updates turned on.",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "16 Nov 2021",
+        "versionCode": 53,
+        "versionString": "2.0.0"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.movilixa.personaltrainer",
+    "docType": 1,
+    "docid": "com.movilixa.personaltrainer",
+    "image": [
+      {
+        "color": "#03498A",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/VZqwtoKMEs8buwbKBXxZmToLDR5ahF7GNblmuKn7ytfbBqCS6mBwuRbitqn5lEO-NPw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#1F1F1F",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/dlFETXG40MxuJ6UtYLY7Sn1IT59NTSOlOFVklIfPl3bR5PsN9ChZdmKK_WJqSMGCC59G",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 16,
+        "imageUrl": "https://play-lh.googleusercontent.com/GGDqkWhfY_o90MAyRllYnefAl8pq2iqUT-enAQgjWTgq0Kykh3wtpusISOXoL4mFjJA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/8Q2kbcKyfiyhr96ywUJRQ5buffUyTY1c2Fm_e1gjkAti43C-Ajt-2Q8Atrb8w1FRv7w",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ITWiCfInAYtqeSBt_4Kb5lQQlQ2pbDHoE6vu_tAIkxtxUFSSJ1nfy_WbdNmOEOOFCIg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qONKM1JPGlkbQhb0ufENlZhAuu0JyKz2-AS3gXrvaiCZk1R2POWF_yN1fWXhvnl-cA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/IwneD0a3a8fuyWO772UjRe3vZrkDQ6-JxYg4AzkWXKc_xgIikWn5DESK5VAwlVhOKYk",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/mDUbunlj847HkUOcuJ1O0F5LGHGnJK47IOkZDC9AIdaNoocub7tC4uLTe-2fV4uZJrg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/lDw2E6f7fOGhjy7AMNtJutUh6fAHh5A_IymEZL0F1nbpzWQgqv0LY___LwRFQ8dTyqc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/OrzcfsRsX2LUV_-qgQqDQsd6Pfyz3IxE0Ket4JTEXSrfnpmkNQkZwYXwAjZsuWL9NUlU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/cu3mSFJA3zHM4xcGY7jkvkZx1IhaY1S2iKT9Q0_2MEM0p2RESVCbJiaQ0lyUb9PANvs",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://movilixa.com/eula?appid=3",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.movilixa.personaltrainer",
+    "reviewsUrl": "rev?doc=com.movilixa.personaltrainer&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.movilixa.personaltrainer",
+    "title": "Personal Trainer",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "$1.49 \u2013 $7.99 per item"
+          },
+          "label": "In-app purchases"
+        },
+        {
+          "container": {
+            "value": "MoviliXa SAS"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "info@movilixa.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Cra 72B # 5B - 93 Of. 401<br/>Bogot\u00e1 - Colombia"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "13 Jun 2020"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "17",
+      "fiveStarRatings": "28",
+      "fourStarRatings": "5",
+      "oneStarRatings": "1",
+      "ratingsCount": "34",
+      "starRating": 4.7352943,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-07-15 09:17:31.103855",
+    "backendDocid": "com.movilixa.personaltrainer",
+    "backendId": 3,
+    "creator": "MoviliXa SAS",
+    "descriptionHtml": "Exercise is an important part of a healthy lifestyle because it prevents health problems, develops resistance, provides more energy and helps to reduce stress.<br><br>With our application you can get your body in great shape without using expensive machines. You can do exercise anywhere you wish, no equipment needed.<br><br>With text to speech engine included, you can perform the entire workout without interrupting the exercise. Additionally, you can activate a sound guide per second for best rhythm in the exercises.<br><br>Each exercise contains an illustrative detail to facilitate their execution. It has warm-up workout and final stretch workout to improve training results.<br><br>Additionally, we have the option to create custom workouts or custom the workouts that the app provide.<br><br>All workouts are made by professionals and you can do them in the comfort of your home. You start your training with 200 trophies, and you can earn more burning calories. Trophies helps you to unlock more workouts.<br><br>Some features are:<br>* Challenges: You can challenge yourself with challenges of 7, 14, 21 or 28 days.<br>* Short workouts: Workouts to keep you fit that spend only a few minutes per circuit.<br>* Gain muscle mass: Workouts focused on muscle toning and gain strength.<br>* Cardio: You can burn fat with these workouts.<br>* Mark the abs: Abs focused workouts.<br>* HIIT: High intensity interval training workouts. <br><br>Terms and conditions: https://movilixa.com/eula-entrenador-personal/<br>Privacy policies: https://movilixa.com/politica-privacidad-entrenador-personal/<br><br>Before starting your routine remember:<br><br>Ask your doctor to let you know the best exercise for your physical condition.<br>Get hydrated before, during and after physical exercise.<br>Perform a warm-up of 15 minutes, to avoid muscle injuries.<br>Perform 10 minutes of stretching, after finishing your exercise workout.",
+    "descriptionShort": "Personal and Fitness Trainer App",
+    "details": {
+      "appDetails": {
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "28191779",
+          "unknown3": 31
+        },
+        "developerAddress": "Cra 72B # 5B - 93 Of. 401<br/>Bogot\u00e1 - Colombia",
+        "developerEmail": "info@movilixa.com",
+        "developerName": "MoviliXa SAS",
+        "developerWebsite": "https://movilixa.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "7533085",
+            "versionCode": 62
+          },
+          {
+            "fileType": 0,
+            "size": "135534",
+            "versionCode": 62
+          },
+          {
+            "fileType": 0,
+            "size": "29081",
+            "versionCode": 62
+          },
+          {
+            "fileType": 0,
+            "size": "33177",
+            "versionCode": 62
+          },
+          {
+            "fileType": 0,
+            "size": "33177",
+            "versionCode": 62
+          },
+          {
+            "fileType": 0,
+            "size": "41369",
+            "versionCode": 62
+          },
+          {
+            "fileType": 0,
+            "size": "20386356",
+            "versionCode": 62
+          }
+        ],
+        "hasInstantLink": true,
+        "installationSize": "28191779",
+        "numDownloads": "5,000+ downloads",
+        "packageName": "com.movilixa.personaltrainer",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.SCHEDULE_EXACT_ALARM",
+          "android.permission.USE_FULL_SCREEN_INTENT",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "com.android.vending.BILLING",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": "* Minor adjustments and improvements. <br><br>We\u2019re always making changes and improvements to Personal Trainer. To make sure you don\u2019t miss a thing, just keep your updates turned on.",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "5 Jul 2022",
+        "versionCode": 62,
+        "versionString": "2.1.1"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.movilixa.personaltrainer",
+    "docType": 1,
+    "docid": "com.movilixa.personaltrainer",
+    "image": [
+      {
+        "color": "#0C5285",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/_WVd15RL-QlDJ8hMPf54V0mAHKyDqSxuUC1T2FT-V7lUOQfL2sPHS55FjWOTaivXgvQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#1F1F1F",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/dlFETXG40MxuJ6UtYLY7Sn1IT59NTSOlOFVklIfPl3bR5PsN9ChZdmKK_WJqSMGCC59G",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 16,
+        "imageUrl": "https://play-lh.googleusercontent.com/5bgMURujquC-Zfmh2d1UvHXii14BpsDhhZo3lMBq84LiH3zq4fW4fdDnp5a4n3B6Jw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/5lGy7vw7hqfhsCdMX0QErnpZc6Ygl51l0BDWSIKKWG5BKQ9oKPfiTUr7C6MxZqHVhQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/FSfbc4rlzX7UUTc0F_c7JagskCt1xomYToK1QxkT9A-ZO8qtSRrt1J_p0RE8B3WJHw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/WXtQTlDKYh1osNtBmi-mqpV-5D7W5f338I-D8imm646Ac-Aq3yZVopbLIkqp7VmHzg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/A4FUXf1ydpqgWL-4nxbBshtiXajyWGgRWjsio5PXnGhdH1Dt8Gfr1NjCUnAcld5xeww",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/lWbm6u94dLzUEBfplI6YxO_YXu6To6ax3iO5lGGVqG8HevlPe2mMZlN6UDKg3NM0g0Mt",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/8kBjRL9j__90tO3Bh95r1e2Dee_gF4p-25BYZ0VN1VP-DlCYJT1_zMZ_pnmD5_RpdW8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/f-BqGNs5yHhy2YknAugBgy8Uupr4FSEbGulOsOgzhZO9DPMBaMrOSlQRpoTCBvEjXhFn",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/84T8g5meFCCo4Ci6vDL349NtC_hZP1BYoGMo-pOo1EXELSFdrYKLp-OcyMByov0a6Jw",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://movilixa.com/eula?appid=3",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.movilixa.personaltrainer",
+    "reviewsUrl": "rev?doc=com.movilixa.personaltrainer&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.movilixa.personaltrainer",
+    "title": "Personal Trainer",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "\u20ac0.59 \u2013 \u20ac7.99 per item"
+          },
+          "label": "In-app purchases"
+        },
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "info@movilixa.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Cra 72B # 5B - 93 Of. 401<br/>Bogot\u00e1 - Colombia"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "13 Jun 2020"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-08-05 09:47:27.362619",
+    "backendDocid": "com.movilixa.personaltrainer",
+    "backendId": 3,
+    "creator": "MoviliXa SAS",
+    "descriptionHtml": "Exercise is an important part of a healthy lifestyle because it prevents health problems, develops resistance, provides more energy and helps to reduce stress.<br><br>With our application you can get your body in great shape without using expensive machines. You can do exercise anywhere you wish, no equipment needed.<br><br>With text to speech engine included, you can perform the entire workout without interrupting the exercise. Additionally, you can activate a sound guide per second for best rhythm in the exercises.<br><br>Each exercise contains an illustrative detail to facilitate their execution. It has warm-up workout and final stretch workout to improve training results.<br><br>Additionally, we have the option to create custom workouts or custom the workouts that the app provide.<br><br>All workouts are made by professionals and you can do them in the comfort of your home. You start your training with 200 trophies, and you can earn more burning calories. Trophies helps you to unlock more workouts.<br><br>Some features are:<br>* Challenges: You can challenge yourself with challenges of 7, 14, 21 or 28 days.<br>* Short workouts: Workouts to keep you fit that spend only a few minutes per circuit.<br>* Gain muscle mass: Workouts focused on muscle toning and gain strength.<br>* Cardio: You can burn fat with these workouts.<br>* Mark the abs: Abs focused workouts.<br>* HIIT: High intensity interval training workouts. <br><br>Terms and conditions: https://movilixa.com/eula-entrenador-personal/<br>Privacy policies: https://movilixa.com/politica-privacidad-entrenador-personal/<br><br>Before starting your routine remember:<br><br>Ask your doctor to let you know the best exercise for your physical condition.<br>Get hydrated before, during and after physical exercise.<br>Perform a warm-up of 15 minutes, to avoid muscle injuries.<br>Perform 10 minutes of stretching, after finishing your exercise workout.",
+    "descriptionShort": "Personal and Fitness Trainer App",
+    "details": {
+      "appDetails": {
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "28229905",
+          "unknown3": 31
+        },
+        "developerAddress": "Cra 72B # 5B - 93 Of. 401<br/>Bogot\u00e1 - Colombia",
+        "developerEmail": "info@movilixa.com",
+        "developerName": "MoviliXa SAS",
+        "developerWebsite": "https://movilixa.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "7600701",
+            "versionCode": 68
+          },
+          {
+            "fileType": 0,
+            "size": "135534",
+            "versionCode": 68
+          },
+          {
+            "fileType": 0,
+            "size": "33177",
+            "versionCode": 68
+          },
+          {
+            "fileType": 0,
+            "size": "41369",
+            "versionCode": 68
+          },
+          {
+            "fileType": 0,
+            "size": "20419124",
+            "versionCode": 68
+          }
+        ],
+        "hasInstantLink": true,
+        "installationSize": "28229905",
+        "numDownloads": "5,000+ downloads",
+        "packageName": "com.movilixa.personaltrainer",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.POST_NOTIFICATIONS",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.SCHEDULE_EXACT_ALARM",
+          "android.permission.USE_FULL_SCREEN_INTENT",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "com.android.vending.BILLING",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": "* Minor adjustments and improvements. <br><br>We\u2019re always making changes and improvements to Personal Trainer. To make sure you don\u2019t miss a thing, just keep your updates turned on.",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "29 Jul 2022",
+        "versionCode": 68,
+        "versionString": "2.1.3"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.movilixa.personaltrainer",
+    "docType": 1,
+    "docid": "com.movilixa.personaltrainer",
+    "image": [
+      {
+        "color": "#0C5285",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/_WVd15RL-QlDJ8hMPf54V0mAHKyDqSxuUC1T2FT-V7lUOQfL2sPHS55FjWOTaivXgvQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#1F1F1F",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/dlFETXG40MxuJ6UtYLY7Sn1IT59NTSOlOFVklIfPl3bR5PsN9ChZdmKK_WJqSMGCC59G",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 16,
+        "imageUrl": "https://play-lh.googleusercontent.com/5bgMURujquC-Zfmh2d1UvHXii14BpsDhhZo3lMBq84LiH3zq4fW4fdDnp5a4n3B6Jw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/5lGy7vw7hqfhsCdMX0QErnpZc6Ygl51l0BDWSIKKWG5BKQ9oKPfiTUr7C6MxZqHVhQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/FSfbc4rlzX7UUTc0F_c7JagskCt1xomYToK1QxkT9A-ZO8qtSRrt1J_p0RE8B3WJHw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/WXtQTlDKYh1osNtBmi-mqpV-5D7W5f338I-D8imm646Ac-Aq3yZVopbLIkqp7VmHzg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/A4FUXf1ydpqgWL-4nxbBshtiXajyWGgRWjsio5PXnGhdH1Dt8Gfr1NjCUnAcld5xeww",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/lWbm6u94dLzUEBfplI6YxO_YXu6To6ax3iO5lGGVqG8HevlPe2mMZlN6UDKg3NM0g0Mt",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/8kBjRL9j__90tO3Bh95r1e2Dee_gF4p-25BYZ0VN1VP-DlCYJT1_zMZ_pnmD5_RpdW8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/f-BqGNs5yHhy2YknAugBgy8Uupr4FSEbGulOsOgzhZO9DPMBaMrOSlQRpoTCBvEjXhFn",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/84T8g5meFCCo4Ci6vDL349NtC_hZP1BYoGMo-pOo1EXELSFdrYKLp-OcyMByov0a6Jw",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://movilixa.com/politica-privacidad-entrenador-personal/",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.movilixa.personaltrainer",
+    "reviewsUrl": "rev?doc=com.movilixa.personaltrainer&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.movilixa.personaltrainer",
+    "title": "Personal Trainer",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "\u20ac0.59 \u2013 \u20ac7.99 per item"
+          },
+          "label": "In-app purchases"
+        },
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "info@movilixa.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Cra 72B # 5B - 93 Of. 401<br/>Bogot\u00e1 - Colombia"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "13 Jun 2020"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-03-23 16:58:09.595536",
+    "backendDocid": "com.movilixa.personaltrainer",
+    "backendId": 3,
+    "creator": "MoviliXa SAS",
+    "descriptionHtml": "Exercise is an important part of a healthy lifestyle because it prevents health problems, develops resistance, provides more energy and helps to reduce stress.<br><br>With our application you can get your body in great shape without using expensive machines. You can do exercise anywhere you wish, no equipment needed.<br><br>With text to speech engine included, you can perform the entire workout without interrupting the exercise. Additionally, you can activate a sound guide per second for best rhythm in the exercises.<br><br>Each exercise contains an illustrative detail to facilitate their execution. It has warm-up workout and final stretch workout to improve training results.<br><br>Additionally, we have the option to create custom workouts or custom the workouts that the app provide.<br><br>All workouts are made by professionals and you can do them in the comfort of your home. You start your training with 200 trophies, and you can earn more burning calories. Trophies helps you to unlock more workouts.<br><br>Some features are:<br>* Challenges: You can challenge yourself with challenges of 7, 14, 21 or 28 days.<br>* Short workouts: Workouts to keep you fit that spend only a few minutes per circuit.<br>* Gain muscle mass: Workouts focused on muscle toning and gain strength.<br>* Cardio: You can burn fat with these workouts.<br>* Mark the abs: Abs focused workouts.<br>* HIIT: High intensity interval training workouts. <br><br>Terms and conditions: https://movilixa.com/eula-entrenador-personal/<br>Privacy policies: https://movilixa.com/politica-privacidad-entrenador-personal/<br><br>Before starting your routine remember:<br><br>Ask your doctor to let you know the best exercise for your physical condition.<br>Get hydrated before, during and after physical exercise.<br>Perform a warm-up of 15 minutes, to avoid muscle injuries.<br>Perform 10 minutes of stretching, after finishing your exercise workout.",
+    "descriptionShort": "Personal and Fitness Trainer App",
+    "details": {
+      "appDetails": {
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "29073021",
+          "unknown3": 33
+        },
+        "developerAddress": "Cra 72B # 5B - 93 Of. 401<br/>Bogot\u00e1 - Colombia",
+        "developerEmail": "info@movilixa.com",
+        "developerName": "MoviliXa SAS",
+        "developerWebsite": "https://movilixa.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "7972609",
+            "versionCode": 71
+          },
+          {
+            "fileType": 0,
+            "size": "147990",
+            "versionCode": 71
+          },
+          {
+            "fileType": 0,
+            "size": "29081",
+            "versionCode": 71
+          },
+          {
+            "fileType": 0,
+            "size": "41369",
+            "versionCode": 71
+          },
+          {
+            "fileType": 0,
+            "size": "20881972",
+            "versionCode": 71
+          }
+        ],
+        "hasInstantLink": true,
+        "installationSize": "29073021",
+        "numDownloads": "5,000+ downloads",
+        "packageName": "com.movilixa.personaltrainer",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.POST_NOTIFICATIONS",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.SCHEDULE_EXACT_ALARM",
+          "android.permission.USE_FULL_SCREEN_INTENT",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "com.android.vending.BILLING",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.AD_ID",
+          "com.movilixa.personaltrainer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        ],
+        "recentChangesHtml": "We improve for you, we invite you to update the App.<br>* Notice notification to inform about a new available update<br>* Other minor fixes and changes<br>Your suggestions are important to us, send us your comments through the App.",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "6 Mar 2023",
+        "versionCode": 71,
+        "versionString": "2.2.1"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.movilixa.personaltrainer",
+    "docType": 1,
+    "docid": "com.movilixa.personaltrainer",
+    "image": [
+      {
+        "color": "#0C5285",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/_WVd15RL-QlDJ8hMPf54V0mAHKyDqSxuUC1T2FT-V7lUOQfL2sPHS55FjWOTaivXgvQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#1F1F1F",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/dlFETXG40MxuJ6UtYLY7Sn1IT59NTSOlOFVklIfPl3bR5PsN9ChZdmKK_WJqSMGCC59G",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 16,
+        "imageUrl": "https://play-lh.googleusercontent.com/5bgMURujquC-Zfmh2d1UvHXii14BpsDhhZo3lMBq84LiH3zq4fW4fdDnp5a4n3B6Jw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/5lGy7vw7hqfhsCdMX0QErnpZc6Ygl51l0BDWSIKKWG5BKQ9oKPfiTUr7C6MxZqHVhQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/FSfbc4rlzX7UUTc0F_c7JagskCt1xomYToK1QxkT9A-ZO8qtSRrt1J_p0RE8B3WJHw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/WXtQTlDKYh1osNtBmi-mqpV-5D7W5f338I-D8imm646Ac-Aq3yZVopbLIkqp7VmHzg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/A4FUXf1ydpqgWL-4nxbBshtiXajyWGgRWjsio5PXnGhdH1Dt8Gfr1NjCUnAcld5xeww",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/lWbm6u94dLzUEBfplI6YxO_YXu6To6ax3iO5lGGVqG8HevlPe2mMZlN6UDKg3NM0g0Mt",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/8kBjRL9j__90tO3Bh95r1e2Dee_gF4p-25BYZ0VN1VP-DlCYJT1_zMZ_pnmD5_RpdW8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/f-BqGNs5yHhy2YknAugBgy8Uupr4FSEbGulOsOgzhZO9DPMBaMrOSlQRpoTCBvEjXhFn",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 768
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/84T8g5meFCCo4Ci6vDL349NtC_hZP1BYoGMo-pOo1EXELSFdrYKLp-OcyMByov0a6Jw",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://movilixa.com/politica-privacidad-entrenador-personal/",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.movilixa.personaltrainer",
+    "reviewsUrl": "rev?doc=com.movilixa.personaltrainer&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.movilixa.personaltrainer",
+    "title": "Personal Trainer",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "\u20ac0.59 \u2013 \u20ac8.49 per item"
+          },
+          "label": "In-app purchases"
+        },
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "info@movilixa.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Cra 72B # 5B - 93 Of. 401<br/>Bogot\u00e1 - Colombia"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "13 Jun 2020"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  }
+]

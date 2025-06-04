@@ -1,0 +1,895 @@
+[
+  {
+    "aggregateRating": {
+      "commentCount": "68",
+      "fiveStarRatings": "68",
+      "fourStarRatings": "8",
+      "oneStarRatings": "19",
+      "ratingsCount": "104",
+      "starRating": 3.98,
+      "threeStarRatings": "3",
+      "twoStarRatings": "4",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-04-26 13:14:39.342687",
+    "backendDocid": "net.benoitbasset.ograpi",
+    "backendId": 3,
+    "creator": "Oblade",
+    "descriptionHtml": "OgrAPI has been created for all TradeOgre users willing to manage their Bitcoins and Altcoins.<br><br>OgrAPI allows to:<br>\u2022 Check your TradeOgre balance in one click<br>\u2022 Place your buy/sell orders on the TradeOgre market<br>\u2022 Track your TradeOgre active orders<br>\u2022 Follow TradeOgre markets in real time<br>\u2022 Access data and advanced charts for each trading pair (incl. orderbook, charts, ...)<br>\u2022 Read news from specialized press (Bitcoin, Ethereum, Altcoin and Blockchain)<br><br>With OgrAPI you will be able to trade and monitor following coins from TradeOgre  exchange platform:<br>Actinium (ACM); Aeon (AEON); BBSCoin (BBS); BitCoal (COAL); Bitcoin Private (BTCP); Bitsum (BSM); BitTube (TUBE); BLOC.MONEY (BLOC); Bytecoin (BCN); Civitas (CIV); Dash (DASH); Denarius (D); Dero (DERO); Dogecoin (DOGE); Electroneum (ETN); Ethereum (ETH); GenesisX (XGS); Gold Poker (GPKR); Graft (GRFT); Haven Protocol (XHV); Iridium (IRD); Karbo (KRB); Lethean (LTHN); Litecoin (LTC); Loki (LOKI); Masari (MSR); Monero (XMR); Monero Classic (XMC); Nerva (XNV); Newton Coin Project (NCP); Niobio Cash (NBR); PeepCoin (PCN); PluraCoin (PLURA); Qtum (QTUM); Quantis Network (QUAN); Ravencoin (RVN); Ryo Currency (RYO); SkyHub Coin (SHB); Stellite (XTL); Sumokoin (SUMO); SUQA (SUQA); Turtlecoin (TRTL); UltraNote Coin (XUN); Verge (XVG); ZelCash (ZEL)<br><br>OgrAPI is not an official TradeOgre application.",
+    "descriptionShort": "Monitor, manage and trade your digital currencies on the TradeOgre exchange",
+    "details": {
+      "appDetails": {
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "5295926",
+          "unknown3": 29
+        },
+        "developerAddress": "24, rue saint-jacques<br/>76600 Le Havre<br/>FRANCE",
+        "developerEmail": "info@oblade.net",
+        "developerName": "Oblade",
+        "developerWebsite": "http://ograpi.oblade.net",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "5295926",
+            "versionCode": 10401
+          }
+        ],
+        "hasInstantLink": true,
+        "installationSize": "5295926",
+        "numDownloads": "5,000+ downloads",
+        "packageName": "net.benoitbasset.ograpi",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.INTERNET",
+          "android.permission.WAKE_LOCK",
+          "com.android.vending.BILLING"
+        ],
+        "recentChangesHtml": "- Solve issue with API keys<br>- Add USDT in market<br>- Fix minor bugs",
+        "unstable": false,
+        "uploadDate": "Apr. 23, 2021",
+        "versionCode": 10401,
+        "versionString": "1.4.1"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=net.benoitbasset.ograpi",
+    "docType": 1,
+    "docid": "net.benoitbasset.ograpi",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/TRc_HBd1aYq6C8_ZCpACv0H58VxRuYnAp_wg5Tcza5YzcdDo2ySv_iaKHJC6wPiJEA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/fEbNNCe_mN2lMdigWpIhIHb2W_m1ekHecI9bHEAr8uo0iPTIXVUYVZ_PSUFVCExhdRJx",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2160,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/PK3A0rTFRq521A2yzsTkcgCmpk6saS1CHWXReAxsBsGkvr-g82FO46p2WmTSmreu0RHO",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2160,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/nlhFOfsPm7IYbkAmm5YbVWXQ4U5XBC6BDI9Sdl5rEe_I84JTgOrH57WkCFvBkztGsAQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2160,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/IKiqI8ZoHnaMGElbftFDktSlxefp-2PWkW0KWErJUXBLvYr99Uyfe86aAZMqaIdYUzQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2160,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/9LvLfipPRLohZiiP8usLIfUpoYk0HQTUbJ-ubmiJxjy4bDM_Vqse3gyFfPik3dMAAjg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2160,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/hxJNtPvjMl9QfWdldyhC9Xp17fcD6R9OfSAkUuYKyhtlG6JPLz8AeWDzLiVJZY_0QGYX",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2160,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/vylCdyP8Sif5ZHxRJMWX-etHI3UWILIX0ZM6LI5EpPdyRWfS55uPgjMCRvX78Mz-8SE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2160,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/BZM_mlA19MIrmG0c4UnChpbURRo3hKHwyVNb-8OaWzQ-5pmgJkEHpwxI-aryZnhKszDR",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2160,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/lnMqoQ4Q4mDL3-apupUHXi6g62XjGKkSKXQJhOPPxGF8CYYU8KQ0iNGTiyAZEtbeidj0",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://ograpi.oblade.net/privacy.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "Digital purchases<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=net.benoitbasset.ograpi",
+    "reviewsUrl": "rev?doc=net.benoitbasset.ograpi&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=net.benoitbasset.ograpi",
+    "title": "OgrAPI - TradeOgre",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "$4.99 per item"
+          },
+          "label": "In-app purchases"
+        },
+        {
+          "container": {
+            "value": "Oblade"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "info@oblade.net"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "24, rue saint-jacques<br/>76600 Le Havre<br/>FRANCE"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "Nov. 28, 2018"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "74",
+      "fiveStarRatings": "72",
+      "fourStarRatings": "7",
+      "oneStarRatings": "25",
+      "ratingsCount": "114",
+      "starRating": 3.87,
+      "threeStarRatings": "3",
+      "twoStarRatings": "4",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-05-03 09:41:11.941575",
+    "backendDocid": "net.benoitbasset.ograpi",
+    "backendId": 3,
+    "creator": "Oblade",
+    "descriptionHtml": "OgrAPI has been created for all TradeOgre users willing to manage their Bitcoins and Altcoins.<br><br>OgrAPI allows to:<br>\u2022 Check your TradeOgre balance in one click<br>\u2022 Place your buy/sell orders on the TradeOgre market<br>\u2022 Track your TradeOgre active orders<br>\u2022 Follow TradeOgre markets in real time<br>\u2022 Access data and advanced charts for each trading pair (incl. orderbook, charts, ...)<br>\u2022 Read news from specialized press (Bitcoin, Ethereum, Altcoin and Blockchain)<br><br>With OgrAPI you will be able to trade and monitor following coins from TradeOgre  exchange platform:<br>Actinium (ACM); Aeon (AEON); BBSCoin (BBS); BitCoal (COAL); Bitcoin Private (BTCP); Bitsum (BSM); BitTube (TUBE); BLOC.MONEY (BLOC); Bytecoin (BCN); Civitas (CIV); Dash (DASH); Denarius (D); Dero (DERO); Dogecoin (DOGE); Electroneum (ETN); Ethereum (ETH); GenesisX (XGS); Gold Poker (GPKR); Graft (GRFT); Haven Protocol (XHV); Iridium (IRD); Karbo (KRB); Lethean (LTHN); Litecoin (LTC); Loki (LOKI); Masari (MSR); Monero (XMR); Monero Classic (XMC); Nerva (XNV); Newton Coin Project (NCP); Niobio Cash (NBR); PeepCoin (PCN); PluraCoin (PLURA); Qtum (QTUM); Quantis Network (QUAN); Ravencoin (RVN); Ryo Currency (RYO); SkyHub Coin (SHB); Stellite (XTL); Sumokoin (SUMO); SUQA (SUQA); Turtlecoin (TRTL); UltraNote Coin (XUN); Verge (XVG); ZelCash (ZEL)<br><br>OgrAPI is not an official TradeOgre application.",
+    "descriptionShort": "Monitor, manage and trade your digital currencies on the TradeOgre exchange",
+    "details": {
+      "appDetails": {
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "5291753",
+          "unknown3": 29
+        },
+        "developerAddress": "24, rue saint-jacques<br/>76600 Le Havre<br/>FRANCE",
+        "developerEmail": "info@oblade.net",
+        "developerName": "Oblade",
+        "developerWebsite": "http://ograpi.oblade.net",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "5291753",
+            "versionCode": 10402
+          }
+        ],
+        "hasInstantLink": true,
+        "installationSize": "5291753",
+        "numDownloads": "5,000+ downloads",
+        "packageName": "net.benoitbasset.ograpi",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.INTERNET",
+          "android.permission.WAKE_LOCK",
+          "com.android.vending.BILLING"
+        ],
+        "recentChangesHtml": "Solve issue with restore purchase",
+        "unstable": false,
+        "uploadDate": "1 May 2021",
+        "versionCode": 10402,
+        "versionString": "1.4.2"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=net.benoitbasset.ograpi",
+    "docType": 1,
+    "docid": "net.benoitbasset.ograpi",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/TRc_HBd1aYq6C8_ZCpACv0H58VxRuYnAp_wg5Tcza5YzcdDo2ySv_iaKHJC6wPiJEA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/fEbNNCe_mN2lMdigWpIhIHb2W_m1ekHecI9bHEAr8uo0iPTIXVUYVZ_PSUFVCExhdRJx",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2160,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/PK3A0rTFRq521A2yzsTkcgCmpk6saS1CHWXReAxsBsGkvr-g82FO46p2WmTSmreu0RHO",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2160,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/nlhFOfsPm7IYbkAmm5YbVWXQ4U5XBC6BDI9Sdl5rEe_I84JTgOrH57WkCFvBkztGsAQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2160,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/IKiqI8ZoHnaMGElbftFDktSlxefp-2PWkW0KWErJUXBLvYr99Uyfe86aAZMqaIdYUzQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2160,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/9LvLfipPRLohZiiP8usLIfUpoYk0HQTUbJ-ubmiJxjy4bDM_Vqse3gyFfPik3dMAAjg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2160,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/hxJNtPvjMl9QfWdldyhC9Xp17fcD6R9OfSAkUuYKyhtlG6JPLz8AeWDzLiVJZY_0QGYX",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2160,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/vylCdyP8Sif5ZHxRJMWX-etHI3UWILIX0ZM6LI5EpPdyRWfS55uPgjMCRvX78Mz-8SE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2160,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/BZM_mlA19MIrmG0c4UnChpbURRo3hKHwyVNb-8OaWzQ-5pmgJkEHpwxI-aryZnhKszDR",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2160,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/lnMqoQ4Q4mDL3-apupUHXi6g62XjGKkSKXQJhOPPxGF8CYYU8KQ0iNGTiyAZEtbeidj0",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://ograpi.oblade.net/privacy.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "Digital purchases<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=net.benoitbasset.ograpi",
+    "reviewsUrl": "rev?doc=net.benoitbasset.ograpi&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=net.benoitbasset.ograpi",
+    "title": "OgrAPI - TradeOgre",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "\u20ac3.89 per item"
+          },
+          "label": "In-app purchases"
+        },
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "info@oblade.net"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "24, rue saint-jacques<br/>76600 Le Havre<br/>FRANCE"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "28 Nov 2018"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "74",
+      "fiveStarRatings": "73",
+      "fourStarRatings": "9",
+      "oneStarRatings": "25",
+      "ratingsCount": "116",
+      "starRating": 3.86,
+      "threeStarRatings": "3",
+      "twoStarRatings": "4",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-05-04 07:53:07.419836",
+    "backendDocid": "net.benoitbasset.ograpi",
+    "backendId": 3,
+    "creator": "Oblade",
+    "descriptionHtml": "OgrAPI has been created for all TradeOgre users willing to manage their Bitcoins and Altcoins.<br><br>OgrAPI allows to:<br>\u2022 Check your TradeOgre balance in one click<br>\u2022 Place your buy/sell orders on the TradeOgre market<br>\u2022 Track your TradeOgre active orders<br>\u2022 Follow TradeOgre markets in real time<br>\u2022 Access data and advanced charts for each trading pair (incl. orderbook, charts, ...)<br>\u2022 Read news from specialized press (Bitcoin, Ethereum, Altcoin and Blockchain)<br><br>With OgrAPI you will be able to trade and monitor following coins from TradeOgre  exchange platform:<br>Actinium (ACM); Aeon (AEON); BBSCoin (BBS); BitCoal (COAL); Bitcoin Private (BTCP); Bitsum (BSM); BitTube (TUBE); BLOC.MONEY (BLOC); Bytecoin (BCN); Civitas (CIV); Dash (DASH); Denarius (D); Dero (DERO); Dogecoin (DOGE); Electroneum (ETN); Ethereum (ETH); GenesisX (XGS); Gold Poker (GPKR); Graft (GRFT); Haven Protocol (XHV); Iridium (IRD); Karbo (KRB); Lethean (LTHN); Litecoin (LTC); Loki (LOKI); Masari (MSR); Monero (XMR); Monero Classic (XMC); Nerva (XNV); Newton Coin Project (NCP); Niobio Cash (NBR); PeepCoin (PCN); PluraCoin (PLURA); Qtum (QTUM); Quantis Network (QUAN); Ravencoin (RVN); Ryo Currency (RYO); SkyHub Coin (SHB); Stellite (XTL); Sumokoin (SUMO); SUQA (SUQA); Turtlecoin (TRTL); UltraNote Coin (XUN); Verge (XVG); ZelCash (ZEL)<br><br>OgrAPI is not an official TradeOgre application.",
+    "descriptionShort": "Monitor, manage and trade your digital currencies on the TradeOgre exchange",
+    "details": {
+      "appDetails": {
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "5291753",
+          "unknown3": 29
+        },
+        "developerAddress": "24, rue saint-jacques<br/>76600 Le Havre<br/>FRANCE",
+        "developerEmail": "info@oblade.net",
+        "developerName": "Oblade",
+        "developerWebsite": "http://ograpi.oblade.net",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "5291753",
+            "versionCode": 10403
+          }
+        ],
+        "hasInstantLink": true,
+        "installationSize": "5291753",
+        "numDownloads": "5,000+ downloads",
+        "packageName": "net.benoitbasset.ograpi",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.INTERNET",
+          "android.permission.WAKE_LOCK",
+          "com.android.vending.BILLING"
+        ],
+        "recentChangesHtml": "Fix bug with USDT pair<br>Fix minor bugs",
+        "unstable": false,
+        "uploadDate": "3 May 2021",
+        "versionCode": 10403,
+        "versionString": "1.4.3"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=net.benoitbasset.ograpi",
+    "docType": 1,
+    "docid": "net.benoitbasset.ograpi",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/TRc_HBd1aYq6C8_ZCpACv0H58VxRuYnAp_wg5Tcza5YzcdDo2ySv_iaKHJC6wPiJEA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/fEbNNCe_mN2lMdigWpIhIHb2W_m1ekHecI9bHEAr8uo0iPTIXVUYVZ_PSUFVCExhdRJx",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2160,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/PK3A0rTFRq521A2yzsTkcgCmpk6saS1CHWXReAxsBsGkvr-g82FO46p2WmTSmreu0RHO",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2160,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/nlhFOfsPm7IYbkAmm5YbVWXQ4U5XBC6BDI9Sdl5rEe_I84JTgOrH57WkCFvBkztGsAQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2160,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/IKiqI8ZoHnaMGElbftFDktSlxefp-2PWkW0KWErJUXBLvYr99Uyfe86aAZMqaIdYUzQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2160,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/9LvLfipPRLohZiiP8usLIfUpoYk0HQTUbJ-ubmiJxjy4bDM_Vqse3gyFfPik3dMAAjg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2160,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/hxJNtPvjMl9QfWdldyhC9Xp17fcD6R9OfSAkUuYKyhtlG6JPLz8AeWDzLiVJZY_0QGYX",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2160,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/vylCdyP8Sif5ZHxRJMWX-etHI3UWILIX0ZM6LI5EpPdyRWfS55uPgjMCRvX78Mz-8SE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2160,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/BZM_mlA19MIrmG0c4UnChpbURRo3hKHwyVNb-8OaWzQ-5pmgJkEHpwxI-aryZnhKszDR",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2160,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/lnMqoQ4Q4mDL3-apupUHXi6g62XjGKkSKXQJhOPPxGF8CYYU8KQ0iNGTiyAZEtbeidj0",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://ograpi.oblade.net/privacy.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "Digital purchases<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=net.benoitbasset.ograpi",
+    "reviewsUrl": "rev?doc=net.benoitbasset.ograpi&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=net.benoitbasset.ograpi",
+    "title": "OgrAPI - TradeOgre",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "$3.49 per item"
+          },
+          "label": "In-app purchases"
+        },
+        {
+          "container": {
+            "value": "Oblade"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "info@oblade.net"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "24, rue saint-jacques<br/>76600 Le Havre<br/>FRANCE"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "28 Nov 2018"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-10-10 02:36:09.835729",
+    "backendDocid": "net.benoitbasset.ograpi",
+    "backendId": 3,
+    "creator": "Oblade",
+    "descriptionHtml": "OgrAPI has been created for all TradeOgre users willing to manage their Bitcoins and Altcoins.<br><br>OgrAPI allows to:<br>\u2022 Check your balance in one click<br>\u2022 Place your buy/sell orders on the market<br>\u2022 Track your active orders<br>\u2022 Follow markets in real time<br>\u2022 Access data and advanced charts for each trading pair (incl. orderbook, charts, ...)<br>\u2022 Read news from specialized press (Bitcoin, Ethereum, Altcoin and Blockchain)<br><br>With OgrAPI you will be able to trade and monitor all the coins from TradeOgre  exchange platform. OgrAPI is not an official application.",
+    "descriptionShort": "Monitor, manage and trade your digital currencies on the TradeOgre exchange",
+    "details": {
+      "appDetails": {
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "version": 12451000
+            }
+          ],
+          "unknown2": "5114167",
+          "unknown3": 33
+        },
+        "developerAddress": "24, rue saint-jacques<br/>76600 Le Havre<br/>FRANCE",
+        "developerEmail": "info@oblade.net",
+        "developerName": "Oblade",
+        "developerWebsite": "http://ograpi.oblade.net",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "5114167",
+            "versionCode": 10406
+          }
+        ],
+        "installationSize": "5114167",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "net.benoitbasset.ograpi",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.INTERNET",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": "Solve critical issue with the API<br>Fix minor bugs",
+        "unstable": true,
+        "uploadDate": "7 Jun 2023",
+        "versionCode": 10406,
+        "versionString": "1.4.6"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=net.benoitbasset.ograpi",
+    "docType": 1,
+    "docid": "net.benoitbasset.ograpi",
+    "image": [
+      {
+        "color": "#0170D1",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/TRc_HBd1aYq6C8_ZCpACv0H58VxRuYnAp_wg5Tcza5YzcdDo2ySv_iaKHJC6wPiJEA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#0377DE",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/fEbNNCe_mN2lMdigWpIhIHb2W_m1ekHecI9bHEAr8uo0iPTIXVUYVZ_PSUFVCExhdRJx",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2160,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/PK3A0rTFRq521A2yzsTkcgCmpk6saS1CHWXReAxsBsGkvr-g82FO46p2WmTSmreu0RHO",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2160,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/nlhFOfsPm7IYbkAmm5YbVWXQ4U5XBC6BDI9Sdl5rEe_I84JTgOrH57WkCFvBkztGsAQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2160,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/IKiqI8ZoHnaMGElbftFDktSlxefp-2PWkW0KWErJUXBLvYr99Uyfe86aAZMqaIdYUzQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2160,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/9LvLfipPRLohZiiP8usLIfUpoYk0HQTUbJ-ubmiJxjy4bDM_Vqse3gyFfPik3dMAAjg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2160,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/hxJNtPvjMl9QfWdldyhC9Xp17fcD6R9OfSAkUuYKyhtlG6JPLz8AeWDzLiVJZY_0QGYX",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2160,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/vylCdyP8Sif5ZHxRJMWX-etHI3UWILIX0ZM6LI5EpPdyRWfS55uPgjMCRvX78Mz-8SE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2160,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/BZM_mlA19MIrmG0c4UnChpbURRo3hKHwyVNb-8OaWzQ-5pmgJkEHpwxI-aryZnhKszDR",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2160,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/lnMqoQ4Q4mDL3-apupUHXi6g62XjGKkSKXQJhOPPxGF8CYYU8KQ0iNGTiyAZEtbeidj0",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://ograpi.oblade.net/privacy.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "Digital purchases<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=net.benoitbasset.ograpi",
+    "reviewsUrl": "rev?doc=net.benoitbasset.ograpi&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=net.benoitbasset.ograpi",
+    "title": "OgrAPI - TradeOgre",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "info@oblade.net"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "24, rue saint-jacques<br/>76600 Le Havre<br/>FRANCE"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "28 Nov 2018"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  }
+]

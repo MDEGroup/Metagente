@@ -1,0 +1,2422 @@
+[
+  {
+    "aggregateRating": {
+      "commentCount": "6",
+      "fiveStarRatings": "15",
+      "fourStarRatings": "1",
+      "oneStarRatings": "2",
+      "ratingsCount": "19",
+      "starRating": 4.368421,
+      "threeStarRatings": "0",
+      "twoStarRatings": "1",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-12-20 15:50:08.095482",
+    "backendDocid": "ziehlabegg.zasetmobile",
+    "backendId": 3,
+    "creator": "ZIEHL-ABEGG SE",
+    "descriptionHtml": "The ZAset App is the optimal tool for intelligent control and monitoring purposes of fans and controllers with MODBUS interface.<br>ZAset enables easy and fast access to all the parameters and functions of ECblue motors, intelligent UNIcon controllers and Fcontrol, Icontrol, PMcontrol frequency inverters.<br>For every ZIEHL-ABEGG device, there is a suitable user interface to ensure convenient operation.<br><br>For using the App there have to be a data connection between the smartphone (or tablet) and the device. The following types of data connection are supported:<br>- Bluetooth LE direct connections with BLE-capable ZIEHL-ABEGG devices,<br>- WLAN connections to devices in a MODBUS TCP network,<br>- remote connections via the internet with the MQTT protocol and<br>- simulated data connection for test purposes/offline functions.<br><br>Entire systems can also be defined in ZAset mobile. ZAset features functions for automatically generating systems from multiple devices (e.g. via Bluetooth scan or via ZIEHL-ABEGG auto-addressing). The systems that are defined in this way can be stored and loaded to other devices again at any time.<br><br>___________<br>System requirements: <br>Operating system: Android version 4.3+ or iOS 8+<br><br><br>___________<br>This app is designed exclusively for ZIEHL-ABEGG SE devices.",
+    "descriptionShort": "Diagnostics tool ZAset for ZIEHL-ABEGG EC fans and frequency inverters",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown1": 3,
+          "unknown2": "67074541",
+          "unknown3": 29
+        },
+        "developerEmail": "android.developer@ziehl-abegg.de",
+        "developerName": "ZIEHL-ABEGG SE",
+        "developerWebsite": "http://www.ziehl-abegg.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "67074541",
+            "versionCode": 402146
+          }
+        ],
+        "installationSize": "67074541",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "ziehlabegg.zasetmobile",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.BLUETOOTH_PRIVILEGED",
+          "android.permission.CAMERA",
+          "android.permission.FLASHLIGHT",
+          "android.permission.GET_ACCOUNTS",
+          "android.permission.INTERNET",
+          "android.permission.NFC",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.c2dm.permission.RECEIVE"
+        ],
+        "recentChangesHtml": "- ZAbluegalaxy login<br>- Configuration page for ZAset mobile as a gateway<br>- Telemetry data transfer to ZAbluegalaxy<br>- Notification of events from ZAbluegalaxy <br>- Added ZAbluegalaxy notification history",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false,
+          "testingProgramEmail": "android.developer@ziehl-abegg.de"
+        },
+        "unstable": true,
+        "uploadDate": "24 Sept 2020",
+        "versionCode": 402146,
+        "versionString": "2.1.2"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=ziehlabegg.zasetmobile",
+    "docType": 1,
+    "docid": "ziehlabegg.zasetmobile",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/fAae2flV5J9UxKPivHLMxQtNVAU4ZZrF3_ke_NWDlueXuWwckx4pjhHjDWOW2p5IVQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/Y3o97Oh7ZjzuBThtBp76ejwRGyordJR9dBmC3Od5gKrdmrohsQMSWXzgbfEVqnJYKQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Xwk3wnKeTqBcdolwZERaKU0bRjXM4sOHdJhXx64yAtbrjx5tjoPcY2VzgKtBl14HFhI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/QeEc6CJxiURF9Qw1he3dVUxsMDoKT6hHVMzNT0GLX4tqclTfXJCvSNWXTmZuBwxD5hsU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/uIzHxrPMwLiMv8pOT4skBOP_IY9ZgzHlBvHIjgrH6a06l9wCms8TPuublq47-1-UbWA",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://www.ziehl-abegg.com/de/en/privacy/",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=ziehlabegg.zasetmobile",
+    "reviewsUrl": "rev?doc=ziehlabegg.zasetmobile&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=ziehlabegg.zasetmobile",
+    "title": "ZAset mobile",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "ZIEHL-ABEGG SE"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "android.developer@ziehl-abegg.de"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "30 Aug 2017"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-12-21 08:11:59.369867",
+    "backendDocid": "ziehlabegg.zasetmobile",
+    "backendId": 3,
+    "creator": "ZIEHL-ABEGG SE",
+    "descriptionHtml": "The ZAset App is the optimal tool for intelligent control and monitoring purposes of fans and controllers with MODBUS interface.<br>ZAset enables easy and fast access to all the parameters and functions of ECblue motors, intelligent UNIcon controllers and Fcontrol, Icontrol, PMcontrol frequency inverters.<br>For every ZIEHL-ABEGG device, there is a suitable user interface to ensure convenient operation.<br><br>For using the App there have to be a data connection between the smartphone (or tablet) and the device. The following types of data connection are supported:<br>- Bluetooth LE direct connections with BLE-capable ZIEHL-ABEGG devices,<br>- WLAN connections to devices in a MODBUS TCP network,<br>- remote connections via the internet with the MQTT protocol and<br>- simulated data connection for test purposes/offline functions.<br><br>Entire systems can also be defined in ZAset mobile. ZAset features functions for automatically generating systems from multiple devices (e.g. via Bluetooth scan or via ZIEHL-ABEGG auto-addressing). The systems that are defined in this way can be stored and loaded to other devices again at any time.<br><br>___________<br>System requirements: <br>Operating system: Android version 4.3+ or iOS 8+<br><br><br>___________<br>This app is designed exclusively for ZIEHL-ABEGG SE devices.",
+    "descriptionShort": "Diagnostics tool ZAset for ZIEHL-ABEGG EC fans and frequency inverters",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown1": 3,
+          "unknown2": "50062075",
+          "unknown3": 29
+        },
+        "developerEmail": "android.developer@ziehl-abegg.de",
+        "developerName": "ZIEHL-ABEGG SE",
+        "developerWebsite": "http://www.ziehl-abegg.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "50062075",
+            "versionCode": 402198
+          }
+        ],
+        "installationSize": "50062075",
+        "numDownloads": "5,000+ downloads",
+        "packageName": "ziehlabegg.zasetmobile",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_NOTIFICATION_POLICY",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.BLUETOOTH_PRIVILEGED",
+          "android.permission.CAMERA",
+          "android.permission.FLASHLIGHT",
+          "android.permission.GET_ACCOUNTS",
+          "android.permission.INTERNET",
+          "android.permission.NFC",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.c2dm.permission.RECEIVE"
+        ],
+        "recentChangesHtml": "- Translations changed<br>- PIN input improved<br>- Dashboard bugfix",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "13 Oct 2021",
+        "versionCode": 402198,
+        "versionString": "2.1.6"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=ziehlabegg.zasetmobile",
+    "docType": 1,
+    "docid": "ziehlabegg.zasetmobile",
+    "image": [
+      {
+        "color": "#446EBF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/fAae2flV5J9UxKPivHLMxQtNVAU4ZZrF3_ke_NWDlueXuWwckx4pjhHjDWOW2p5IVQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#000000",
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/Y3o97Oh7ZjzuBThtBp76ejwRGyordJR9dBmC3Od5gKrdmrohsQMSWXzgbfEVqnJYKQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Xwk3wnKeTqBcdolwZERaKU0bRjXM4sOHdJhXx64yAtbrjx5tjoPcY2VzgKtBl14HFhI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/QeEc6CJxiURF9Qw1he3dVUxsMDoKT6hHVMzNT0GLX4tqclTfXJCvSNWXTmZuBwxD5hsU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/uIzHxrPMwLiMv8pOT4skBOP_IY9ZgzHlBvHIjgrH6a06l9wCms8TPuublq47-1-UbWA",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://www.ziehl-abegg.com/de/en/privacy/",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=ziehlabegg.zasetmobile",
+    "reviewsUrl": "rev?doc=ziehlabegg.zasetmobile&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=ziehlabegg.zasetmobile",
+    "title": "ZAset mobile",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "android.developer@ziehl-abegg.de"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "30 Aug 2017"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "10",
+      "fiveStarRatings": "22",
+      "fourStarRatings": "1",
+      "oneStarRatings": "6",
+      "ratingsCount": "29",
+      "starRating": 4.137931,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-07-08 12:58:31.003169",
+    "backendDocid": "ziehlabegg.zasetmobile",
+    "backendId": 3,
+    "creator": "ZIEHL-ABEGG SE",
+    "descriptionHtml": "The ZAset App is the optimal tool for intelligent control and monitoring purposes of fans and controllers with MODBUS interface.<br>ZAset enables easy and fast access to all the parameters and functions of ECblue motors, intelligent UNIcon controllers and Fcontrol, Icontrol, PMcontrol frequency inverters.<br>For every ZIEHL-ABEGG device, there is a suitable user interface to ensure convenient operation.<br><br>For using the App there have to be a data connection between the smartphone (or tablet) and the device. The following types of data connection are supported:<br>- Bluetooth LE direct connections with BLE-capable ZIEHL-ABEGG devices,<br>- WLAN connections to devices in a MODBUS TCP network,<br>- remote connections via the internet with the MQTT protocol and<br>- simulated data connection for test purposes/offline functions.<br><br>Entire systems can also be defined in ZAset mobile. ZAset features functions for automatically generating systems from multiple devices (e.g. via Bluetooth scan or via ZIEHL-ABEGG auto-addressing). The systems that are defined in this way can be stored and loaded to other devices again at any time.<br><br>___________<br>System requirements: <br>Operating system: Android version 4.3+ or iOS 8+<br><br><br>___________<br>This app is designed exclusively for ZIEHL-ABEGG SE devices.",
+    "descriptionShort": "Diagnostics tool ZAset for ZIEHL-ABEGG EC fans and frequency inverters",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown1": 3,
+          "unknown2": "55679928",
+          "unknown3": 30
+        },
+        "developerEmail": "android.developer@ziehl-abegg.de",
+        "developerName": "ZIEHL-ABEGG SE",
+        "developerWebsite": "http://www.ziehl-abegg.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "55679928",
+            "versionCode": 402219
+          }
+        ],
+        "installationSize": "55679928",
+        "numDownloads": "5,000+ downloads",
+        "packageName": "ziehlabegg.zasetmobile",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_NOTIFICATION_POLICY",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.BATTERY_STATS",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.BLUETOOTH_CONNECT",
+          "android.permission.BLUETOOTH_PRIVILEGED",
+          "android.permission.BLUETOOTH_SCAN",
+          "android.permission.CAMERA",
+          "android.permission.FLASHLIGHT",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.GET_ACCOUNTS",
+          "android.permission.INTERNET",
+          "android.permission.NFC",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.c2dm.permission.RECEIVE"
+        ],
+        "recentChangesHtml": "New feature: stationary gateway setup<br>Bugfixes",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "6 Jul 2022",
+        "versionCode": 402219,
+        "versionString": "2.2.0"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=ziehlabegg.zasetmobile",
+    "docType": 1,
+    "docid": "ziehlabegg.zasetmobile",
+    "image": [
+      {
+        "color": "#446EBF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/fAae2flV5J9UxKPivHLMxQtNVAU4ZZrF3_ke_NWDlueXuWwckx4pjhHjDWOW2p5IVQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#000000",
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/Y3o97Oh7ZjzuBThtBp76ejwRGyordJR9dBmC3Od5gKrdmrohsQMSWXzgbfEVqnJYKQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Xwk3wnKeTqBcdolwZERaKU0bRjXM4sOHdJhXx64yAtbrjx5tjoPcY2VzgKtBl14HFhI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/QeEc6CJxiURF9Qw1he3dVUxsMDoKT6hHVMzNT0GLX4tqclTfXJCvSNWXTmZuBwxD5hsU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/uIzHxrPMwLiMv8pOT4skBOP_IY9ZgzHlBvHIjgrH6a06l9wCms8TPuublq47-1-UbWA",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://www.ziehl-abegg.com/de/en/privacy/",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=ziehlabegg.zasetmobile",
+    "reviewsUrl": "rev?doc=ziehlabegg.zasetmobile&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=ziehlabegg.zasetmobile",
+    "title": "ZAset mobile",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "android.developer@ziehl-abegg.de"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "30 Aug 2017"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-07-09 05:59:57.486019",
+    "backendDocid": "ziehlabegg.zasetmobile",
+    "backendId": 3,
+    "creator": "ZIEHL-ABEGG SE",
+    "descriptionHtml": "The ZAset App is the optimal tool for intelligent control and monitoring purposes of fans and controllers with MODBUS interface.<br>ZAset enables easy and fast access to all the parameters and functions of ECblue motors, intelligent UNIcon controllers and Fcontrol, Icontrol, PMcontrol frequency inverters.<br>For every ZIEHL-ABEGG device, there is a suitable user interface to ensure convenient operation.<br><br>For using the App there have to be a data connection between the smartphone (or tablet) and the device. The following types of data connection are supported:<br>- Bluetooth LE direct connections with BLE-capable ZIEHL-ABEGG devices,<br>- WLAN connections to devices in a MODBUS TCP network,<br>- remote connections via the internet with the MQTT protocol and<br>- simulated data connection for test purposes/offline functions.<br><br>Entire systems can also be defined in ZAset mobile. ZAset features functions for automatically generating systems from multiple devices (e.g. via Bluetooth scan or via ZIEHL-ABEGG auto-addressing). The systems that are defined in this way can be stored and loaded to other devices again at any time.<br><br>___________<br>System requirements: <br>Operating system: Android version 4.3+ or iOS 8+<br><br><br>___________<br>This app is designed exclusively for ZIEHL-ABEGG SE devices.",
+    "descriptionShort": "Diagnostics tool ZAset for ZIEHL-ABEGG EC fans and frequency inverters",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown1": 3,
+          "unknown2": "55679928",
+          "unknown3": 30
+        },
+        "developerEmail": "android.developer@ziehl-abegg.de",
+        "developerName": "ZIEHL-ABEGG SE",
+        "developerWebsite": "http://www.ziehl-abegg.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "55679928",
+            "versionCode": 402220
+          }
+        ],
+        "installationSize": "55679928",
+        "numDownloads": "5,000+ downloads",
+        "packageName": "ziehlabegg.zasetmobile",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_NOTIFICATION_POLICY",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.BATTERY_STATS",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.BLUETOOTH_CONNECT",
+          "android.permission.BLUETOOTH_PRIVILEGED",
+          "android.permission.BLUETOOTH_SCAN",
+          "android.permission.CAMERA",
+          "android.permission.FLASHLIGHT",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.GET_ACCOUNTS",
+          "android.permission.INTERNET",
+          "android.permission.NFC",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.c2dm.permission.RECEIVE"
+        ],
+        "recentChangesHtml": "New feature: stationary gateway setup<br>Bugfixes",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "8 Jul 2022",
+        "versionCode": 402220,
+        "versionString": "2.2.0"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=ziehlabegg.zasetmobile",
+    "docType": 1,
+    "docid": "ziehlabegg.zasetmobile",
+    "image": [
+      {
+        "color": "#446EBF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/fAae2flV5J9UxKPivHLMxQtNVAU4ZZrF3_ke_NWDlueXuWwckx4pjhHjDWOW2p5IVQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#000000",
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/Y3o97Oh7ZjzuBThtBp76ejwRGyordJR9dBmC3Od5gKrdmrohsQMSWXzgbfEVqnJYKQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Xwk3wnKeTqBcdolwZERaKU0bRjXM4sOHdJhXx64yAtbrjx5tjoPcY2VzgKtBl14HFhI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/QeEc6CJxiURF9Qw1he3dVUxsMDoKT6hHVMzNT0GLX4tqclTfXJCvSNWXTmZuBwxD5hsU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/uIzHxrPMwLiMv8pOT4skBOP_IY9ZgzHlBvHIjgrH6a06l9wCms8TPuublq47-1-UbWA",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://www.ziehl-abegg.com/de/en/privacy/",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=ziehlabegg.zasetmobile",
+    "reviewsUrl": "rev?doc=ziehlabegg.zasetmobile&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=ziehlabegg.zasetmobile",
+    "title": "ZAset mobile",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "ZIEHL-ABEGG SE"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "android.developer@ziehl-abegg.de"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "30 Aug 2017"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-07-11 10:55:48.303708",
+    "backendDocid": "ziehlabegg.zasetmobile",
+    "backendId": 3,
+    "creator": "ZIEHL-ABEGG SE",
+    "descriptionHtml": "The ZAset App is the optimal tool for intelligent control and monitoring purposes of fans and controllers with MODBUS interface.<br>ZAset enables easy and fast access to all the parameters and functions of ECblue motors, intelligent UNIcon controllers and Fcontrol, Icontrol, PMcontrol frequency inverters.<br>For every ZIEHL-ABEGG device, there is a suitable user interface to ensure convenient operation.<br><br>For using the App there have to be a data connection between the smartphone (or tablet) and the device. The following types of data connection are supported:<br>- Bluetooth LE direct connections with BLE-capable ZIEHL-ABEGG devices,<br>- WLAN connections to devices in a MODBUS TCP network,<br>- remote connections via the internet with the MQTT protocol and<br>- simulated data connection for test purposes/offline functions.<br><br>Entire systems can also be defined in ZAset mobile. ZAset features functions for automatically generating systems from multiple devices (e.g. via Bluetooth scan or via ZIEHL-ABEGG auto-addressing). The systems that are defined in this way can be stored and loaded to other devices again at any time.<br><br>___________<br>System requirements: <br>Operating system: Android version 4.3+ or iOS 8+<br><br><br>___________<br>This app is designed exclusively for ZIEHL-ABEGG SE devices.",
+    "descriptionShort": "Diagnostics tool ZAset for ZIEHL-ABEGG EC fans and frequency inverters",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown1": 3,
+          "unknown2": "55679928",
+          "unknown3": 30
+        },
+        "developerEmail": "android.developer@ziehl-abegg.de",
+        "developerName": "ZIEHL-ABEGG SE",
+        "developerWebsite": "http://www.ziehl-abegg.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "55679928",
+            "versionCode": 402221
+          }
+        ],
+        "installationSize": "55679928",
+        "numDownloads": "5,000+ downloads",
+        "packageName": "ziehlabegg.zasetmobile",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_NOTIFICATION_POLICY",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.BATTERY_STATS",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.BLUETOOTH_CONNECT",
+          "android.permission.BLUETOOTH_PRIVILEGED",
+          "android.permission.BLUETOOTH_SCAN",
+          "android.permission.CAMERA",
+          "android.permission.FLASHLIGHT",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.GET_ACCOUNTS",
+          "android.permission.INTERNET",
+          "android.permission.NFC",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.c2dm.permission.RECEIVE"
+        ],
+        "recentChangesHtml": "New feature: stationary gateway setup<br>Bugfixes esp. login error",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "10 Jul 2022",
+        "versionCode": 402221,
+        "versionString": "2.2.0"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=ziehlabegg.zasetmobile",
+    "docType": 1,
+    "docid": "ziehlabegg.zasetmobile",
+    "image": [
+      {
+        "color": "#446EBF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/fAae2flV5J9UxKPivHLMxQtNVAU4ZZrF3_ke_NWDlueXuWwckx4pjhHjDWOW2p5IVQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#000000",
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/Y3o97Oh7ZjzuBThtBp76ejwRGyordJR9dBmC3Od5gKrdmrohsQMSWXzgbfEVqnJYKQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Xwk3wnKeTqBcdolwZERaKU0bRjXM4sOHdJhXx64yAtbrjx5tjoPcY2VzgKtBl14HFhI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/QeEc6CJxiURF9Qw1he3dVUxsMDoKT6hHVMzNT0GLX4tqclTfXJCvSNWXTmZuBwxD5hsU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/uIzHxrPMwLiMv8pOT4skBOP_IY9ZgzHlBvHIjgrH6a06l9wCms8TPuublq47-1-UbWA",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://www.ziehl-abegg.com/de/en/privacy/",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=ziehlabegg.zasetmobile",
+    "reviewsUrl": "rev?doc=ziehlabegg.zasetmobile&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=ziehlabegg.zasetmobile",
+    "title": "ZAset mobile",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "android.developer@ziehl-abegg.de"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "30 Aug 2017"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-07-11 15:24:17.425282",
+    "backendDocid": "ziehlabegg.zasetmobile",
+    "backendId": 3,
+    "creator": "ZIEHL-ABEGG SE",
+    "descriptionHtml": "The ZAset App is the optimal tool for intelligent control and monitoring purposes of fans and controllers with MODBUS interface.<br>ZAset enables easy and fast access to all the parameters and functions of ECblue motors, intelligent UNIcon controllers and Fcontrol, Icontrol, PMcontrol frequency inverters.<br>For every ZIEHL-ABEGG device, there is a suitable user interface to ensure convenient operation.<br><br>For using the App there have to be a data connection between the smartphone (or tablet) and the device. The following types of data connection are supported:<br>- Bluetooth LE direct connections with BLE-capable ZIEHL-ABEGG devices,<br>- WLAN connections to devices in a MODBUS TCP network,<br>- remote connections via the internet with the MQTT protocol and<br>- simulated data connection for test purposes/offline functions.<br><br>Entire systems can also be defined in ZAset mobile. ZAset features functions for automatically generating systems from multiple devices (e.g. via Bluetooth scan or via ZIEHL-ABEGG auto-addressing). The systems that are defined in this way can be stored and loaded to other devices again at any time.<br><br>___________<br>System requirements: <br>Operating system: Android version 4.3+ or iOS 8+<br><br><br>___________<br>This app is designed exclusively for ZIEHL-ABEGG SE devices.",
+    "descriptionShort": "Diagnostics tool ZAset for ZIEHL-ABEGG EC fans and frequency inverters",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown1": 3,
+          "unknown2": "55679928",
+          "unknown3": 30
+        },
+        "developerEmail": "android.developer@ziehl-abegg.de",
+        "developerName": "ZIEHL-ABEGG SE",
+        "developerWebsite": "http://www.ziehl-abegg.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "55679928",
+            "versionCode": 402222
+          }
+        ],
+        "installationSize": "55679928",
+        "numDownloads": "5,000+ downloads",
+        "packageName": "ziehlabegg.zasetmobile",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_NOTIFICATION_POLICY",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.BATTERY_STATS",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.BLUETOOTH_CONNECT",
+          "android.permission.BLUETOOTH_PRIVILEGED",
+          "android.permission.BLUETOOTH_SCAN",
+          "android.permission.CAMERA",
+          "android.permission.FLASHLIGHT",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.GET_ACCOUNTS",
+          "android.permission.INTERNET",
+          "android.permission.NFC",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.c2dm.permission.RECEIVE"
+        ],
+        "recentChangesHtml": "New feature: stationary gateway setup<br>Bugfixes esp. login error",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "11 Jul 2022",
+        "versionCode": 402222,
+        "versionString": "2.2.0"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=ziehlabegg.zasetmobile",
+    "docType": 1,
+    "docid": "ziehlabegg.zasetmobile",
+    "image": [
+      {
+        "color": "#446EBF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/fAae2flV5J9UxKPivHLMxQtNVAU4ZZrF3_ke_NWDlueXuWwckx4pjhHjDWOW2p5IVQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#000000",
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/Y3o97Oh7ZjzuBThtBp76ejwRGyordJR9dBmC3Od5gKrdmrohsQMSWXzgbfEVqnJYKQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Xwk3wnKeTqBcdolwZERaKU0bRjXM4sOHdJhXx64yAtbrjx5tjoPcY2VzgKtBl14HFhI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/QeEc6CJxiURF9Qw1he3dVUxsMDoKT6hHVMzNT0GLX4tqclTfXJCvSNWXTmZuBwxD5hsU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/uIzHxrPMwLiMv8pOT4skBOP_IY9ZgzHlBvHIjgrH6a06l9wCms8TPuublq47-1-UbWA",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://www.ziehl-abegg.com/de/en/privacy/",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=ziehlabegg.zasetmobile",
+    "reviewsUrl": "rev?doc=ziehlabegg.zasetmobile&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=ziehlabegg.zasetmobile",
+    "title": "ZAset mobile",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "ZIEHL-ABEGG SE"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "android.developer@ziehl-abegg.de"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "30 Aug 2017"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-10-06 21:47:27.955164",
+    "backendDocid": "ziehlabegg.zasetmobile",
+    "backendId": 3,
+    "creator": "ZIEHL-ABEGG SE",
+    "descriptionHtml": "The ZAset App is the optimal tool for intelligent control and monitoring purposes of fans and controllers with MODBUS interface.<br>ZAset enables easy and fast access to all the parameters and functions of ECblue motors, intelligent UNIcon controllers and Fcontrol, Icontrol, PMcontrol frequency inverters.<br>For every ZIEHL-ABEGG device, there is a suitable user interface to ensure convenient operation.<br><br>For using the App there have to be a data connection between the smartphone (or tablet) and the device. The following types of data connection are supported:<br>- Bluetooth LE direct connections with BLE-capable ZIEHL-ABEGG devices,<br>- WLAN connections to devices in a MODBUS TCP network,<br>- remote connections via the internet with the MQTT protocol and<br>- simulated data connection for test purposes/offline functions.<br><br>Entire systems can also be defined in ZAset mobile. ZAset features functions for automatically generating systems from multiple devices (e.g. via Bluetooth scan or via ZIEHL-ABEGG auto-addressing). The systems that are defined in this way can be stored and loaded to other devices again at any time.<br><br>___________<br>System requirements: <br>Operating system: Android version 4.3+ or iOS 8+<br><br><br>___________<br>This app is designed exclusively for ZIEHL-ABEGG SE devices.",
+    "descriptionShort": "Diagnostics tool ZAset for ZIEHL-ABEGG EC fans and frequency inverters",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown1": 3,
+          "unknown2": "55675832",
+          "unknown3": 30
+        },
+        "developerEmail": "android.developer@ziehl-abegg.de",
+        "developerName": "ZIEHL-ABEGG SE",
+        "developerWebsite": "http://www.ziehl-abegg.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "55675832",
+            "versionCode": 402223
+          }
+        ],
+        "installationSize": "55675832",
+        "numDownloads": "5,000+ downloads",
+        "packageName": "ziehlabegg.zasetmobile",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_NOTIFICATION_POLICY",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.BATTERY_STATS",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.BLUETOOTH_CONNECT",
+          "android.permission.BLUETOOTH_PRIVILEGED",
+          "android.permission.BLUETOOTH_SCAN",
+          "android.permission.CAMERA",
+          "android.permission.FLASHLIGHT",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.GET_ACCOUNTS",
+          "android.permission.INTERNET",
+          "android.permission.NFC",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.c2dm.permission.RECEIVE"
+        ],
+        "recentChangesHtml": "Bugfixes gateway setup",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "6 Oct 2022",
+        "versionCode": 402223,
+        "versionString": "2.2.1"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=ziehlabegg.zasetmobile",
+    "docType": 1,
+    "docid": "ziehlabegg.zasetmobile",
+    "image": [
+      {
+        "color": "#446EBF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/fAae2flV5J9UxKPivHLMxQtNVAU4ZZrF3_ke_NWDlueXuWwckx4pjhHjDWOW2p5IVQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#000000",
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/Y3o97Oh7ZjzuBThtBp76ejwRGyordJR9dBmC3Od5gKrdmrohsQMSWXzgbfEVqnJYKQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Xwk3wnKeTqBcdolwZERaKU0bRjXM4sOHdJhXx64yAtbrjx5tjoPcY2VzgKtBl14HFhI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/QeEc6CJxiURF9Qw1he3dVUxsMDoKT6hHVMzNT0GLX4tqclTfXJCvSNWXTmZuBwxD5hsU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/uIzHxrPMwLiMv8pOT4skBOP_IY9ZgzHlBvHIjgrH6a06l9wCms8TPuublq47-1-UbWA",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://www.ziehl-abegg.com/de/en/privacy/",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=ziehlabegg.zasetmobile",
+    "reviewsUrl": "rev?doc=ziehlabegg.zasetmobile&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=ziehlabegg.zasetmobile",
+    "title": "ZAset mobile",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "android.developer@ziehl-abegg.de"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "30 Aug 2017"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-11-18 10:50:32.325752",
+    "backendDocid": "ziehlabegg.zasetmobile",
+    "backendId": 3,
+    "creator": "ZIEHL-ABEGG SE",
+    "descriptionHtml": "The ZAset App is the optimal tool for intelligent control and monitoring purposes of fans and controllers with MODBUS interface.<br>ZAset enables easy and fast access to all the parameters and functions of ECblue motors, intelligent UNIcon controllers and Fcontrol, Icontrol, PMcontrol frequency inverters.<br>For every ZIEHL-ABEGG device, there is a suitable user interface to ensure convenient operation.<br><br>For using the App there have to be a data connection between the smartphone (or tablet) and the device. The following types of data connection are supported:<br>- Bluetooth LE direct connections with BLE-capable ZIEHL-ABEGG devices,<br>- WLAN connections to devices in a MODBUS TCP network,<br>- remote connections via the internet with the MQTT protocol and<br>- simulated data connection for test purposes/offline functions.<br><br>Entire systems can also be defined in ZAset mobile. ZAset features functions for automatically generating systems from multiple devices (e.g. via Bluetooth scan or via ZIEHL-ABEGG auto-addressing). The systems that are defined in this way can be stored and loaded to other devices again at any time.<br><br>___________<br>System requirements: <br>Operating system: Android version 4.3+ or iOS 8+<br><br><br>___________<br>This app is designed exclusively for ZIEHL-ABEGG SE devices.",
+    "descriptionShort": "Diagnostics tool ZAset for ZIEHL-ABEGG EC fans and frequency inverters",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown1": 3,
+          "unknown2": "56355863",
+          "unknown3": 31
+        },
+        "developerEmail": "android.developer@ziehl-abegg.de",
+        "developerName": "ZIEHL-ABEGG SE",
+        "developerWebsite": "http://www.ziehl-abegg.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "56355863",
+            "versionCode": 402224
+          }
+        ],
+        "installationSize": "56355863",
+        "numDownloads": "5,000+ downloads",
+        "packageName": "ziehlabegg.zasetmobile",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_NOTIFICATION_POLICY",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.BATTERY_STATS",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.BLUETOOTH_ADVERTISE",
+          "android.permission.BLUETOOTH_CONNECT",
+          "android.permission.BLUETOOTH_PRIVILEGED",
+          "android.permission.BLUETOOTH_SCAN",
+          "android.permission.CAMERA",
+          "android.permission.FLASHLIGHT",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.GET_ACCOUNTS",
+          "android.permission.INTERNET",
+          "android.permission.NFC",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.c2dm.permission.RECEIVE"
+        ],
+        "recentChangesHtml": "Bugfixes gateway setup",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "17 Nov 2022",
+        "versionCode": 402224,
+        "versionString": "2.2.2"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=ziehlabegg.zasetmobile",
+    "docType": 1,
+    "docid": "ziehlabegg.zasetmobile",
+    "image": [
+      {
+        "color": "#446EBF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/fAae2flV5J9UxKPivHLMxQtNVAU4ZZrF3_ke_NWDlueXuWwckx4pjhHjDWOW2p5IVQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#000000",
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/Y3o97Oh7ZjzuBThtBp76ejwRGyordJR9dBmC3Od5gKrdmrohsQMSWXzgbfEVqnJYKQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Xwk3wnKeTqBcdolwZERaKU0bRjXM4sOHdJhXx64yAtbrjx5tjoPcY2VzgKtBl14HFhI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/QeEc6CJxiURF9Qw1he3dVUxsMDoKT6hHVMzNT0GLX4tqclTfXJCvSNWXTmZuBwxD5hsU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/uIzHxrPMwLiMv8pOT4skBOP_IY9ZgzHlBvHIjgrH6a06l9wCms8TPuublq47-1-UbWA",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "GBP",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://www.ziehl-abegg.com/de/en/privacy/",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=ziehlabegg.zasetmobile",
+    "reviewsUrl": "rev?doc=ziehlabegg.zasetmobile&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=ziehlabegg.zasetmobile",
+    "title": "ZAset mobile",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "android.developer@ziehl-abegg.de"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "30 Aug 2017"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-02-02 13:38:04.032213",
+    "backendDocid": "ziehlabegg.zasetmobile",
+    "backendId": 3,
+    "creator": "ZIEHL-ABEGG SE",
+    "descriptionHtml": "The ZAset App is the optimal tool for intelligent control and monitoring purposes of fans and controllers with MODBUS interface.<br>ZAset enables easy and fast access to all the parameters and functions of ECblue motors, intelligent UNIcon controllers and Fcontrol, Icontrol, PMcontrol frequency inverters.<br>For every ZIEHL-ABEGG device, there is a suitable user interface to ensure convenient operation.<br><br>For using the App there have to be a data connection between the smartphone (or tablet) and the device. The following types of data connection are supported:<br>- Bluetooth LE direct connections with BLE-capable ZIEHL-ABEGG devices,<br>- WLAN connections to devices in a MODBUS TCP network,<br>- remote connections via the internet with the MQTT protocol and<br>- simulated data connection for test purposes/offline functions.<br><br>Entire systems can also be defined in ZAset mobile. ZAset features functions for automatically generating systems from multiple devices (e.g. via Bluetooth scan or via ZIEHL-ABEGG auto-addressing). The systems that are defined in this way can be stored and loaded to other devices again at any time.<br><br>___________<br>System requirements: <br>Operating system: Android version 4.3+ or iOS 8+<br><br><br>___________<br>This app is designed exclusively for ZIEHL-ABEGG SE devices.",
+    "descriptionShort": "Diagnostics tool ZAset for ZIEHL-ABEGG EC fans and frequency inverters",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown1": 3,
+          "unknown2": "56499223",
+          "unknown3": 31
+        },
+        "developerEmail": "android.developer@ziehl-abegg.de",
+        "developerName": "ZIEHL-ABEGG SE",
+        "developerWebsite": "http://www.ziehl-abegg.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "56499223",
+            "versionCode": 402225
+          }
+        ],
+        "installationSize": "56499223",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "ziehlabegg.zasetmobile",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_NOTIFICATION_POLICY",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.BATTERY_STATS",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.BLUETOOTH_CONNECT",
+          "android.permission.BLUETOOTH_PRIVILEGED",
+          "android.permission.BLUETOOTH_SCAN",
+          "android.permission.CAMERA",
+          "android.permission.FLASHLIGHT",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.GET_ACCOUNTS",
+          "android.permission.INTERNET",
+          "android.permission.NFC",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.c2dm.permission.RECEIVE"
+        ],
+        "recentChangesHtml": "Bugfixes barcode scanner",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "29 Jan 2023",
+        "versionCode": 402225,
+        "versionString": "2.2.3"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=ziehlabegg.zasetmobile",
+    "docType": 1,
+    "docid": "ziehlabegg.zasetmobile",
+    "image": [
+      {
+        "color": "#446EBF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/fAae2flV5J9UxKPivHLMxQtNVAU4ZZrF3_ke_NWDlueXuWwckx4pjhHjDWOW2p5IVQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#000000",
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/Y3o97Oh7ZjzuBThtBp76ejwRGyordJR9dBmC3Od5gKrdmrohsQMSWXzgbfEVqnJYKQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Xwk3wnKeTqBcdolwZERaKU0bRjXM4sOHdJhXx64yAtbrjx5tjoPcY2VzgKtBl14HFhI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/QeEc6CJxiURF9Qw1he3dVUxsMDoKT6hHVMzNT0GLX4tqclTfXJCvSNWXTmZuBwxD5hsU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/uIzHxrPMwLiMv8pOT4skBOP_IY9ZgzHlBvHIjgrH6a06l9wCms8TPuublq47-1-UbWA",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "GBP",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://www.ziehl-abegg.com/de/en/privacy/",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=ziehlabegg.zasetmobile",
+    "reviewsUrl": "rev?doc=ziehlabegg.zasetmobile&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=ziehlabegg.zasetmobile",
+    "title": "ZAset mobile",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "android.developer@ziehl-abegg.de"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "30 Aug 2017"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-03-13 10:43:56.476568",
+    "backendDocid": "ziehlabegg.zasetmobile",
+    "backendId": 3,
+    "creator": "ZIEHL-ABEGG SE",
+    "descriptionHtml": "The ZAset App is the optimal tool for intelligent control and monitoring purposes of fans and controllers with MODBUS interface.<br>ZAset enables easy and fast access to all the parameters and functions of ECblue motors, intelligent UNIcon controllers and Fcontrol, Icontrol, PMcontrol frequency inverters.<br>For every ZIEHL-ABEGG device, there is a suitable user interface to ensure convenient operation.<br><br>For using the App there have to be a data connection between the smartphone (or tablet) and the device. The following types of data connection are supported:<br>- Bluetooth LE direct connections with BLE-capable ZIEHL-ABEGG devices,<br>- WLAN connections to devices in a MODBUS TCP network,<br>- remote connections via the internet with the MQTT protocol and<br>- simulated data connection for test purposes/offline functions.<br><br>Entire systems can also be defined in ZAset mobile. ZAset features functions for automatically generating systems from multiple devices (e.g. via Bluetooth scan or via ZIEHL-ABEGG auto-addressing). The systems that are defined in this way can be stored and loaded to other devices again at any time.<br><br>___________<br>This app is designed exclusively for ZIEHL-ABEGG SE devices.",
+    "descriptionShort": "Diagnostics tool ZAset for ZIEHL-ABEGG EC fans and frequency inverters",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown1": 3,
+          "unknown2": "56486935",
+          "unknown3": 31
+        },
+        "developerEmail": "android.developer@ziehl-abegg.de",
+        "developerName": "ZIEHL-ABEGG SE",
+        "developerWebsite": "http://www.ziehl-abegg.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "56486935",
+            "versionCode": 402226
+          }
+        ],
+        "installationSize": "56486935",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "ziehlabegg.zasetmobile",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_NOTIFICATION_POLICY",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.BATTERY_STATS",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.BLUETOOTH_CONNECT",
+          "android.permission.BLUETOOTH_PRIVILEGED",
+          "android.permission.BLUETOOTH_SCAN",
+          "android.permission.CAMERA",
+          "android.permission.FLASHLIGHT",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.GET_ACCOUNTS",
+          "android.permission.INTERNET",
+          "android.permission.NFC",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.c2dm.permission.RECEIVE"
+        ],
+        "recentChangesHtml": "Gateway setup improvements ",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "12 Mar 2023",
+        "versionCode": 402226,
+        "versionString": "2.2.4"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=ziehlabegg.zasetmobile",
+    "docType": 1,
+    "docid": "ziehlabegg.zasetmobile",
+    "image": [
+      {
+        "color": "#446EBF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/fAae2flV5J9UxKPivHLMxQtNVAU4ZZrF3_ke_NWDlueXuWwckx4pjhHjDWOW2p5IVQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#000000",
+        "dimension": {
+          "height": 0,
+          "width": 0
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/Y3o97Oh7ZjzuBThtBp76ejwRGyordJR9dBmC3Od5gKrdmrohsQMSWXzgbfEVqnJYKQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Xwk3wnKeTqBcdolwZERaKU0bRjXM4sOHdJhXx64yAtbrjx5tjoPcY2VzgKtBl14HFhI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/QeEc6CJxiURF9Qw1he3dVUxsMDoKT6hHVMzNT0GLX4tqclTfXJCvSNWXTmZuBwxD5hsU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/uIzHxrPMwLiMv8pOT4skBOP_IY9ZgzHlBvHIjgrH6a06l9wCms8TPuublq47-1-UbWA",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://www.ziehl-abegg.com/de/en/privacy/",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=ziehlabegg.zasetmobile",
+    "reviewsUrl": "rev?doc=ziehlabegg.zasetmobile&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=ziehlabegg.zasetmobile",
+    "title": "ZAset mobile",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "android.developer@ziehl-abegg.de"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "30 Aug 2017"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "11",
+      "fiveStarRatings": "21",
+      "fourStarRatings": "2",
+      "oneStarRatings": "9",
+      "ratingsCount": "32",
+      "starRating": 3.8125,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-09-29 19:20:51.326578",
+    "backendDocid": "ziehlabegg.zasetmobile",
+    "backendId": 3,
+    "creator": "ZIEHL-ABEGG SE",
+    "descriptionHtml": "The ZAset App is the optimal tool for intelligent control and monitoring purposes of fans and controllers with MODBUS interface.<br>ZAset enables easy and fast access to all the parameters and functions of ECblue motors, intelligent UNIcon controllers and Fcontrol, Icontrol, PMcontrol frequency inverters.<br>For every ZIEHL-ABEGG device, there is a suitable user interface to ensure convenient operation.<br><br>For using the App there have to be a data connection between the smartphone (or tablet) and the device. The following types of data connection are supported:<br>- Bluetooth LE direct connections with BLE-capable ZIEHL-ABEGG devices,<br>- WLAN connections to devices in a MODBUS TCP network,<br>- remote connections via the internet with the MQTT protocol and<br>- simulated data connection for test purposes/offline functions.<br><br>Entire systems can also be defined in ZAset mobile. ZAset features functions for automatically generating systems from multiple devices (e.g. via Bluetooth scan or via ZIEHL-ABEGG auto-addressing). The systems that are defined in this way can be stored and loaded to other devices again at any time.<br><br>___________<br>This app is designed exclusively for ZIEHL-ABEGG SE devices.",
+    "descriptionShort": "Diagnostics tool ZAset for ZIEHL-ABEGG EC fans and frequency inverters",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "version": 12451000
+            }
+          ],
+          "unknown1": 3,
+          "unknown2": "56847383",
+          "unknown3": 33
+        },
+        "developerEmail": "android.developer@ziehl-abegg.de",
+        "developerName": "ZIEHL-ABEGG SE",
+        "developerWebsite": "http://www.ziehl-abegg.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "56847383",
+            "versionCode": 402232
+          }
+        ],
+        "installationSize": "56847383",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "ziehlabegg.zasetmobile",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_NOTIFICATION_POLICY",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.BATTERY_STATS",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.BLUETOOTH_CONNECT",
+          "android.permission.BLUETOOTH_PRIVILEGED",
+          "android.permission.BLUETOOTH_SCAN",
+          "android.permission.CAMERA",
+          "android.permission.FLASHLIGHT",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.GET_ACCOUNTS",
+          "android.permission.INTERNET",
+          "android.permission.NFC",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.c2dm.permission.RECEIVE"
+        ],
+        "recentChangesHtml": "Bugfixes on gateway setup",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "28 Sept 2023",
+        "versionCode": 402232,
+        "versionString": "2.2.6"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=ziehlabegg.zasetmobile",
+    "docType": 1,
+    "docid": "ziehlabegg.zasetmobile",
+    "image": [
+      {
+        "color": "#446EBF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/fAae2flV5J9UxKPivHLMxQtNVAU4ZZrF3_ke_NWDlueXuWwckx4pjhHjDWOW2p5IVQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#000000",
+        "dimension": {
+          "height": 0,
+          "width": 0
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/Y3o97Oh7ZjzuBThtBp76ejwRGyordJR9dBmC3Od5gKrdmrohsQMSWXzgbfEVqnJYKQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Xwk3wnKeTqBcdolwZERaKU0bRjXM4sOHdJhXx64yAtbrjx5tjoPcY2VzgKtBl14HFhI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/QeEc6CJxiURF9Qw1he3dVUxsMDoKT6hHVMzNT0GLX4tqclTfXJCvSNWXTmZuBwxD5hsU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/uIzHxrPMwLiMv8pOT4skBOP_IY9ZgzHlBvHIjgrH6a06l9wCms8TPuublq47-1-UbWA",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://www.ziehl-abegg.com/de/en/privacy/",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=ziehlabegg.zasetmobile",
+    "reviewsUrl": "rev?doc=ziehlabegg.zasetmobile&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=ziehlabegg.zasetmobile",
+    "title": "ZAset mobile",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "android.developer@ziehl-abegg.de"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "30 Aug 2017"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-10-22 11:44:13.494655",
+    "backendDocid": "ziehlabegg.zasetmobile",
+    "backendId": 3,
+    "creator": "ZIEHL-ABEGG SE",
+    "descriptionHtml": "The ZAset App is the optimal tool for intelligent control and monitoring purposes of fans and controllers with MODBUS interface.<br>ZAset enables easy and fast access to all the parameters and functions of ECblue motors, intelligent UNIcon controllers and Fcontrol, Icontrol, PMcontrol frequency inverters.<br>For every ZIEHL-ABEGG device, there is a suitable user interface to ensure convenient operation.<br><br>For using the App there have to be a data connection between the smartphone (or tablet) and the device. The following types of data connection are supported:<br>- Bluetooth LE direct connections with BLE-capable ZIEHL-ABEGG devices,<br>- WLAN connections to devices in a MODBUS TCP network,<br>- remote connections via the internet with the MQTT protocol and<br>- simulated data connection for test purposes/offline functions.<br><br>Entire systems can also be defined in ZAset mobile. ZAset features functions for automatically generating systems from multiple devices (e.g. via Bluetooth scan or via ZIEHL-ABEGG auto-addressing). The systems that are defined in this way can be stored and loaded to other devices again at any time.<br><br>___________<br>This app is designed exclusively for ZIEHL-ABEGG SE devices.",
+    "descriptionShort": "Diagnostics tool ZAset for ZIEHL-ABEGG EC fans and frequency inverters",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "version": 12451000
+            }
+          ],
+          "unknown1": 3,
+          "unknown2": "56847383",
+          "unknown3": 33
+        },
+        "developerEmail": "android.developer@ziehl-abegg.de",
+        "developerName": "ZIEHL-ABEGG SE",
+        "developerWebsite": "http://www.ziehl-abegg.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "56847383",
+            "versionCode": 402233
+          }
+        ],
+        "installationSize": "56847383",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "ziehlabegg.zasetmobile",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_NOTIFICATION_POLICY",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.BATTERY_STATS",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.BLUETOOTH_CONNECT",
+          "android.permission.BLUETOOTH_PRIVILEGED",
+          "android.permission.BLUETOOTH_SCAN",
+          "android.permission.CAMERA",
+          "android.permission.FLASHLIGHT",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.GET_ACCOUNTS",
+          "android.permission.INTERNET",
+          "android.permission.NFC",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.c2dm.permission.RECEIVE"
+        ],
+        "recentChangesHtml": "Bugfixes on gateway setup",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "21 Oct 2023",
+        "versionCode": 402233,
+        "versionString": "2.2.7"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=ziehlabegg.zasetmobile",
+    "docType": 1,
+    "docid": "ziehlabegg.zasetmobile",
+    "image": [
+      {
+        "color": "#446EBF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/fAae2flV5J9UxKPivHLMxQtNVAU4ZZrF3_ke_NWDlueXuWwckx4pjhHjDWOW2p5IVQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#000000",
+        "dimension": {
+          "height": 0,
+          "width": 0
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/Y3o97Oh7ZjzuBThtBp76ejwRGyordJR9dBmC3Od5gKrdmrohsQMSWXzgbfEVqnJYKQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Xwk3wnKeTqBcdolwZERaKU0bRjXM4sOHdJhXx64yAtbrjx5tjoPcY2VzgKtBl14HFhI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/QeEc6CJxiURF9Qw1he3dVUxsMDoKT6hHVMzNT0GLX4tqclTfXJCvSNWXTmZuBwxD5hsU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/uIzHxrPMwLiMv8pOT4skBOP_IY9ZgzHlBvHIjgrH6a06l9wCms8TPuublq47-1-UbWA",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://www.ziehl-abegg.com/de/en/privacy/",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=ziehlabegg.zasetmobile",
+    "reviewsUrl": "rev?doc=ziehlabegg.zasetmobile&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=ziehlabegg.zasetmobile",
+    "title": "ZAset mobile",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "android.developer@ziehl-abegg.de"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "30 Aug 2017"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "12",
+      "fiveStarRatings": "23",
+      "fourStarRatings": "2",
+      "oneStarRatings": "11",
+      "ratingsCount": "36",
+      "starRating": 3.7222223,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2024-09-03 10:51:17.238502",
+    "backendDocid": "ziehlabegg.zasetmobile",
+    "backendId": 3,
+    "creator": "ZIEHL-ABEGG SE",
+    "descriptionHtml": "The ZAset App is the optimal tool for intelligent control and monitoring purposes of fans and controllers with MODBUS interface.<br>ZAset enables easy and fast access to all the parameters and functions of ECblue motors, intelligent UNIcon controllers and Fcontrol, Icontrol, PMcontrol frequency inverters.<br>For every ZIEHL-ABEGG device, there is a suitable user interface to ensure convenient operation.<br><br>For using the App there have to be a data connection between the smartphone (or tablet) and the device. The following types of data connection are supported:<br>- Bluetooth LE direct connections with BLE-capable ZIEHL-ABEGG devices,<br>- WLAN connections to devices in a MODBUS TCP network,<br>- remote connections via the internet with the MQTT protocol and<br>- simulated data connection for test purposes/offline functions.<br><br>Entire systems can also be defined in ZAset mobile. ZAset features functions for automatically generating systems from multiple devices (e.g. via Bluetooth scan or via ZIEHL-ABEGG auto-addressing). The systems that are defined in this way can be stored and loaded to other devices again at any time.<br><br>___________<br>This app is designed exclusively for ZIEHL-ABEGG SE devices.",
+    "descriptionShort": "Diagnostics tool ZAset for ZIEHL-ABEGG EC fans and frequency inverters",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "version": 12451000
+            }
+          ],
+          "unknown1": 3,
+          "unknown2": "67329632",
+          "unknown3": 33
+        },
+        "developerEmail": "android.developer@ziehl-abegg.de",
+        "developerName": "ZIEHL-ABEGG SE",
+        "developerWebsite": "http://www.ziehl-abegg.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "67329632",
+            "versionCode": 402256
+          }
+        ],
+        "installationSize": "67329632",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "ziehlabegg.zasetmobile",
+        "permission": [
+          "android.permission.ACCESS_BACKGROUND_LOCATION",
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_NOTIFICATION_POLICY",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.BATTERY_STATS",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.BLUETOOTH_CONNECT",
+          "android.permission.BLUETOOTH_PRIVILEGED",
+          "android.permission.BLUETOOTH_SCAN",
+          "android.permission.CAMERA",
+          "android.permission.FLASHLIGHT",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.GET_ACCOUNTS",
+          "android.permission.INTERNET",
+          "android.permission.NFC",
+          "android.permission.POST_NOTIFICATIONS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_MEDIA_IMAGES",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.c2dm.permission.RECEIVE"
+        ],
+        "recentChangesHtml": "Extended device support:<br>Optimizations and adjustments for better cooperation with the latest Modbus-capable devices from ZIEHL industrie-elektronik GmbH + Co KG.",
+        "unstable": true,
+        "uploadDate": "14 Aug 2024",
+        "versionCode": 402256,
+        "versionString": "2.2.17"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=ziehlabegg.zasetmobile&vc=402256",
+    "docType": 1,
+    "docid": "ziehlabegg.zasetmobile",
+    "image": [
+      {
+        "color": "#446EBF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/fAae2flV5J9UxKPivHLMxQtNVAU4ZZrF3_ke_NWDlueXuWwckx4pjhHjDWOW2p5IVQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#000000",
+        "dimension": {
+          "height": 0,
+          "width": 0
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/Y3o97Oh7ZjzuBThtBp76ejwRGyordJR9dBmC3Od5gKrdmrohsQMSWXzgbfEVqnJYKQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Xwk3wnKeTqBcdolwZERaKU0bRjXM4sOHdJhXx64yAtbrjx5tjoPcY2VzgKtBl14HFhI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/QeEc6CJxiURF9Qw1he3dVUxsMDoKT6hHVMzNT0GLX4tqclTfXJCvSNWXTmZuBwxD5hsU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/uIzHxrPMwLiMv8pOT4skBOP_IY9ZgzHlBvHIjgrH6a06l9wCms8TPuublq47-1-UbWA",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://www.ziehl-abegg.com/de/en/privacy/",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=ziehlabegg.zasetmobile",
+    "reviewsUrl": "rev?doc=ziehlabegg.zasetmobile&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=ziehlabegg.zasetmobile",
+    "title": "ZAset mobile\n2.2.17",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "android.developer@ziehl-abegg.de"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "30 Aug 2017"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  }
+]

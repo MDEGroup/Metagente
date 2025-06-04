@@ -1,0 +1,238 @@
+[
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-10-14 21:09:38.379823",
+    "backendDocid": "uk.co.philpotter.masteremu",
+    "backendId": 3,
+    "creator": "Phillip Potter",
+    "descriptionHtml": "A highly accurate native Sega Master System and Sega Game Gear emulator. This is my first Android app and the culmination of a project to port my C-based emulator from the PC platform. The feature set includes:<br><br>* Open source - repo at https://github.com/PhilPotter/MasterEmu<br>* No ads or in-app purchases.<br>* Pro Action Replay and Game Genie cheat code support.<br>* Android TV support.<br>* Android 4.4 to 11.0 support.<br>* Physical controller support, for menus as well as in-game emulation.<br>* Keyboard support.<br>* European/US or Japanese console selection.<br>* Default ROM directory support.<br>* ZIP file support.<br>* Near perfect Master System and Game Gear emulation, at excellent speed.<br>* Saving and loading of emulation state from any point.<br>* Save state import/export and management.<br>* Auto-handling of SRAM saves, for ROMs that use it (like Phantasy Star).<br>* Auto-rotation, as well as lockable screen orientation.<br>* Adjustable touchscreen button size, as well as dynamic button labelling depending on console type.<br>* Ability to optionally disable touch overlay if using controller.<br>* DPI-independent button size.<br>* File browser which can load ROMs off internal or external storage, in &#39;.sms&#39; or &#39;.gg&#39; format, and also with ZIP files.<br>* Search filter in file browser.<br>* Widescreen (default) and 4:3 (optional) in horizontal mode.<br>* Support development of Mega Drive/Genesis support for a small fee.<br><br>Please note that ROMs must be legally obtained by the end-user. Please don&#39;t ask me where to get them, although constructive feedback on the emulator itself is welcome, including feature requests. I am a lone programmer and am not affiliated with Sega in any way. I hope you enjoy what I&#39;ve created with MasterEmu!",
+    "descriptionShort": "A highly accurate native Sega Master System and Sega Game Gear emulator.",
+    "details": {
+      "appDetails": {
+        "appType": "GAME",
+        "dependencies": {
+          "unknown1": 2,
+          "unknown2": "2911003",
+          "unknown3": 33
+        },
+        "developerAddress": "Unit 49394,<br/>PO Box 6945,<br/>London,<br/>W1A 6US",
+        "developerEmail": "support@philpotter.co.uk",
+        "developerName": "Phillip Potter",
+        "developerWebsite": "https://www.philpotter.co.uk",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "811464",
+            "versionCode": 171
+          },
+          {
+            "fileType": 0,
+            "size": "21479",
+            "versionCode": 171
+          },
+          {
+            "fileType": 0,
+            "size": "12697",
+            "versionCode": 171
+          },
+          {
+            "fileType": 0,
+            "size": "16793",
+            "versionCode": 171
+          },
+          {
+            "fileType": 0,
+            "size": "2048570",
+            "versionCode": 171
+          }
+        ],
+        "installationSize": "2911003",
+        "numDownloads": "50,000+ downloads",
+        "packageName": "uk.co.philpotter.masteremu",
+        "permission": [
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_CONNECT",
+          "android.permission.VIBRATE"
+        ],
+        "recentChangesHtml": "* Introduced controller remapping, long time coming!<br>* Rewrote input handling for controllers - it is now entirely native code, with the Java workarounds removed.<br>* Integrated Storage Access Framework.<br>* Updated SDL version and other build dependencies for both the Java and C codebases.<br>* Expanded permissions checks for Bluetooth controllers to work more reliably.<br>* Adjusted colour of buttons.<br>* Various bug fixes/modernisations all over the place.",
+        "unstable": true,
+        "uploadDate": "12 Oct 2022",
+        "versionCode": 171,
+        "versionString": "4.0.1"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=uk.co.philpotter.masteremu",
+    "docType": 1,
+    "docid": "uk.co.philpotter.masteremu",
+    "image": [
+      {
+        "color": "#608DBD",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/BCQ8TTTeBp5YDyGFuStqzcyVzEE18hJ2IdmPar1QSEOc6eu4d-EquSOPG9eXGw7ARbc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#AEAEAE",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/MG9pji1z9vLPiAugvSHfSgkiXV3IFMWk81iy1-zgBQ64iAziqaxfOGPpYTfgUIMf5Gs",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 16,
+        "imageUrl": "https://play-lh.googleusercontent.com/WQboSMKbrGW5rvD71ZorfTJNXqxSmjFhA2kfeUSGHcXhi-9bkv8KuWS-Z5YiwfRxMhA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/sHW0q5rZhKrbTCKjHrwwF7DhTC4fzWoUK3NnOV3ZMiVh0dnghJTCcUL5XnjXj9cRrSc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2138,
+          "width": 1078
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/geKnGpff6_OQvcPDpuw7flpuSvYYpjf0D_XeW_DaEkBZmkr1yW731UkpES_l8m0xxQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/_5R2Xh9rNEBkixlUaRvW1Xgli9wdU-DGAOivZoNgwIKpuFszmTPHNCK_3hMCHKrckA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/uaDd3v7a7sD5zJOAhHbSbz8c9ZsvPZ8RrQNf2Zd2yd6DHZpvyjyMtFcRkPQ4Yx-ZXQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 579,
+          "width": 349
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/H0M9HXlG-CGtHdkBwtvLj-RUwTKjBE7djp1VQOCgRH4jAvBHchnIFuo7l7XEhiDNTg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/XRxVQHeJFo5-XpdQ_KYh67bBPpEAcjebLDNa5eI0TZQ2RZO-HGIsPcmhKTRfNTpCyM8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/D_Oddq94z-xoRehHf5ptQod5heSgF_vyAdBGv8qTt6-Rg4X7fwA7whcnD7X6EI7FQw",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "categoryInfo": {
+        "appType": "GAME"
+      },
+      "privacyPolicyUrl": "https://www.philpotter.co.uk/legal.html#privacy",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=uk.co.philpotter.masteremu",
+    "reviewsUrl": "rev?doc=uk.co.philpotter.masteremu&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=uk.co.philpotter.masteremu",
+    "title": "MasterEmu",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "support@philpotter.co.uk"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Unit 49394,<br/>PO Box 6945,<br/>London,<br/>W1A 6US"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "13 Jul 2015"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  }
+]

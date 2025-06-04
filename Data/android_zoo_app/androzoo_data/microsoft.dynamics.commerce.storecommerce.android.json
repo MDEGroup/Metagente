@@ -1,0 +1,4891 @@
+[
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-10-04 22:13:57.874183",
+    "backendDocid": "microsoft.dynamics.commerce.storecommerce.android",
+    "backendId": 3,
+    "creator": "Microsoft Corporation",
+    "descriptionHtml": "Dynamics 365 Commerce is a complete, yet composable, omnichannel solution that unifies back-office, in-store, call center and e-commerce experiences for consumers and business partner that personalize customer engagement, increase employee productivity and optimize commerce practices. The Store Commerce application delivers rich and immersive experiences for retailer managers and staff to better serve customers and streamline store operations. Based on flexible architecture, Store Commerce is designed to support multiple platforms and form-factors while being easy to deploy, configure, implement, and operate. Supported capabilities include Point of Sale (POS), assisted selling and clienteling, order processing and fulfillment, store inventory management, shift and cash management, staff task management, omni-channel payment methods, viewing role-based reports, and more. All business functions are provided by Commerce Scale Unit. Store Commerce app can communicate with Commerce Scale Units. Store Commerce app can also communicate with peripheral devices, such as cash drawers, credit card readers, and printers, by using local or shared Hardware Station.<br><br>Prerequisites: Deploy Commerce Scale Unit using Dynamics Lifecycle Service portal before using the Store Commerce app, the app need the CPOS URL to perform to start and configure the Store, Workers and Device in Dynamics 365 Commerce back office. Detailed information for this can be found be Dynamics 365 commerce doc page.",
+    "descriptionShort": "The Dynamics 365 Store Commerce application",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown1": 2,
+          "unknown2": "62321114",
+          "unknown3": 30
+        },
+        "developerAddress": "One Microsoft Way",
+        "developerEmail": "d365commpub@microsoft.com",
+        "developerName": "Microsoft Corporation",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "62321114",
+            "versionCode": 392227408
+          }
+        ],
+        "installationSize": "62321114",
+        "numDownloads": "10+ downloads",
+        "packageName": "microsoft.dynamics.commerce.storecommerce.android",
+        "permission": [
+          "android.permission.INTERNET"
+        ],
+        "unstable": true,
+        "uploadDate": "3 Oct 2022",
+        "versionCode": 392227408,
+        "versionString": "9.39.22274.8"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=microsoft.dynamics.commerce.storecommerce.android",
+    "docType": 1,
+    "docid": "microsoft.dynamics.commerce.storecommerce.android",
+    "image": [
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/AJRCLatHhNDxefxAU9n8pG2AZ33i89vwpP2q9O-O96zPFD46WlzOtzHsHxJqp3FmiGs",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#F19700",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/BfhlA6Gqnby0nicvEDs0Zyf_A2-n2kKf0S08bALhxqosi8LbGd8BhInojSS8Zar1mxQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 3,
+        "imageUrl": "https://www.youtube.com/watch?v=7B332XH_zfs"
+      },
+      {
+        "imageType": 13,
+        "imageUrl": "https://i.ytimg.com/vi/7B332XH_zfs/hqdefault.jpg",
+        "supportsFifeUrlOptions": false
+      },
+      {
+        "dimension": {
+          "height": 905,
+          "width": 442
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/rrXL0vBrfojcG3X6Tby9zg2BaKuuir3GXj6rHYL3Dl2XC1oZJPu-4zpQqGQXpwWjGfk",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 906,
+          "width": 442
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/PL5PR61PscBkroSOFz5HLwy9asPK53YVzz9g0p5AjULoHC08DV2hO1--9fVJYXRvyA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 908,
+          "width": 444
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/xai9Vmhx51Gt1trVwEoUHmNdIRf9Oytx_D-Vna6SZO2JU-8CeE9K2C1E8yNatrK4RJQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 907,
+          "width": 442
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/12qiZxuVXH_ImR3ocCTZfPZdZe-6C0i0l5q7wY7MrwEiOzSUTpDfHLuuX8b5qMO0P3o",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 906,
+          "width": 444
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/I4shrCR5yDg9Xet-ixlIc2BeILLyCjJKY19x4JhFkfvLOInzoiyXKqKLnLJEJ10u3BM",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 906,
+          "width": 443
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Zraea-EY5lg_xImmc0LYWs2990x5cC77zQrtEcWfc-Sh35JJhkOt8NcvrJjEjf21Gg",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://privacy.microsoft.com/en-us/privacystatement",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "In-app purchases<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=microsoft.dynamics.commerce.storecommerce.android",
+    "reviewsUrl": "rev?doc=microsoft.dynamics.commerce.storecommerce.android&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=microsoft.dynamics.commerce.storecommerce.android",
+    "title": "Store Commerce",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "d365commpub@microsoft.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "One Microsoft Way"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "3 Oct 2022"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-10-11 10:42:28.136964",
+    "backendDocid": "microsoft.dynamics.commerce.storecommerce.android",
+    "backendId": 3,
+    "creator": "Microsoft Corporation",
+    "descriptionHtml": "The Store Commerce app is the point of sale experience for Microsoft Dynamics 365 Commerce. It delivers feature-rich and comprehensive point of sale capabilities that helps retail sales associates, cashiers and managers to provide superior customer service. In addition to flexible and performant sales transaction workflows, the Store Commerce app supports important store operations such as assisted selling and clientelling, order processing and fulfillment, inventory management, shift and cash management, staff task management, omni-channel payment methods, role-based reports, and more. The Store Commerce app interfaces with peripheral devices such as payment terminals, receipt printers and cash drawers, and is highly customizable to meet the needs of a wide range of business requirements.<br><br>Dynamics 365 Commerce is a complete, yet composable, omnichannel solution that unifies back-office, in-store, call center and e-commerce experiences for consumers and business partners that personalize customer engagement, increase employee productivity and optimize commerce practices.<br><br>Prerequisites: Deploy a Commerce Scale Unit using the Dynamics Lifecycle Service portal before using the Store Commerce app. The app needs the CPOS URL to activate a register. Stores, workers and Devices need to be configured in Dynamics 365 Commerce back office. Detailed information and documentation can be found under the Dynamics 365 Commerce section of the Microsoft Learn site (https://learn.microsoft.com.)<br><br>By installing this app, you agree to the Terms at: https://go.microsoft.com/fwlink/?linkid=2207925",
+    "descriptionShort": "The Dynamics 365 Store Commerce application",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown1": 2,
+          "unknown2": "62321120",
+          "unknown3": 30
+        },
+        "developerAddress": "One Microsoft Way",
+        "developerEmail": "d365commpub@microsoft.com",
+        "developerName": "Microsoft Corporation",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "62321120",
+            "versionCode": 392227908
+          }
+        ],
+        "installationSize": "62321120",
+        "numDownloads": "10+ downloads",
+        "packageName": "microsoft.dynamics.commerce.storecommerce.android",
+        "permission": [
+          "android.permission.INTERNET"
+        ],
+        "unstable": true,
+        "uploadDate": "10 Oct 2022",
+        "versionCode": 392227908,
+        "versionString": "9.39.22279.8"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=microsoft.dynamics.commerce.storecommerce.android",
+    "docType": 1,
+    "docid": "microsoft.dynamics.commerce.storecommerce.android",
+    "image": [
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/DewPOWmg6MqrI4SIpqOpXg0OUgbZom-EU21vx_kBBQgVXo-3-Eop8TX_66vT6Ta1bA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/LHxbieFJf4SB4Y5b6D54HJsmcK5eQ5-o4rbNng-EDQifSwekEJIcppBrM87LsiSA2Eix",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 864
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/KTThtJw9AIX0LuwpFcO1GsnW-hgE1F8C1_F_hbfEv3fJos5YqJcM_FBTR1f6clYaBI_X",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 864
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/2xgqD3zQMKMRi3P9X8gbOoRI6exThiODrEFl4LWfRqcDOpCLMEoO7MLoiWZvD5TSmEk",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 864
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/jIMrNbO9frzC3g_mRVF33dB6w-sZGf1WGJriaUUOOmV0ndKztFJJXnVdzUvsMy3MwoyA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 864
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/bIk9y8_rNiL9Vd_M0QoIqw-SlU1qw6KHr_SmwVvdhMRJetBvPSyHrzRI-NZaeDpcIgdu",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 864
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/RlH4khID6tZd0boYX1BmRgyfGjCt6ODVw8yZ3P3xaW8bW2R2_Tf0pujUt7kkSssc1wrr",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 864
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/BEHITxWf47ji64lghT90K_ZxvBwTfuMVM2mZoP7SamSThYEC-bHmSQigG5B8e0B6IQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 864
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Yb4U7EgGhkVwf_uvee3wTvHhtjtiRv72V4pJyvQ3tfg3bjmFo-EJFqxL011Foi9hq6w",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://privacy.microsoft.com/en-us/privacystatement",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "In-app purchases<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=microsoft.dynamics.commerce.storecommerce.android",
+    "reviewsUrl": "rev?doc=microsoft.dynamics.commerce.storecommerce.android&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=microsoft.dynamics.commerce.storecommerce.android",
+    "title": "Store Commerce",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "d365commpub@microsoft.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "One Microsoft Way"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "3 Oct 2022"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-10-23 18:15:27.896510",
+    "backendDocid": "microsoft.dynamics.commerce.storecommerce.android",
+    "backendId": 3,
+    "creator": "Microsoft Corporation",
+    "descriptionHtml": "The Store Commerce app is the point of sale experience for Microsoft Dynamics 365 Commerce. It delivers feature-rich and comprehensive point of sale capabilities that helps retail sales associates, cashiers and managers to provide superior customer service. In addition to flexible and performant sales transaction workflows, the Store Commerce app supports important store operations such as assisted selling and clientelling, order processing and fulfillment, inventory management, shift and cash management, staff task management, omni-channel payment methods, role-based reports, and more. The Store Commerce app interfaces with peripheral devices such as payment terminals, receipt printers and cash drawers, and is highly customizable to meet the needs of a wide range of business requirements.<br><br>Dynamics 365 Commerce is a complete, yet composable, omnichannel solution that unifies back-office, in-store, call center and e-commerce experiences for consumers and business partners that personalize customer engagement, increase employee productivity and optimize commerce practices.<br><br>Prerequisites: Deploy a Commerce Scale Unit using the Dynamics Lifecycle Service portal before using the Store Commerce app. The app needs the CPOS URL to activate a register. Stores, workers and Devices need to be configured in Dynamics 365 Commerce back office. Detailed information and documentation can be found under the Dynamics 365 Commerce section of the Microsoft Learn site (https://learn.microsoft.com.)<br><br>By installing this app, you agree to the Terms at: https://go.microsoft.com/fwlink/?linkid=2207925",
+    "descriptionShort": "The Dynamics 365 Store Commerce application",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown1": 2,
+          "unknown2": "62325164",
+          "unknown3": 30
+        },
+        "developerAddress": "One Microsoft Way",
+        "developerEmail": "d365commpub@microsoft.com",
+        "developerName": "Microsoft Corporation",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "62325164",
+            "versionCode": 392228712
+          }
+        ],
+        "installationSize": "62325164",
+        "numDownloads": "100+ downloads",
+        "packageName": "microsoft.dynamics.commerce.storecommerce.android",
+        "permission": [
+          "android.permission.INTERNET"
+        ],
+        "unstable": true,
+        "uploadDate": "17 Oct 2022",
+        "versionCode": 392228712,
+        "versionString": "9.39.22287.12"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=microsoft.dynamics.commerce.storecommerce.android",
+    "docType": 1,
+    "docid": "microsoft.dynamics.commerce.storecommerce.android",
+    "image": [
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/DewPOWmg6MqrI4SIpqOpXg0OUgbZom-EU21vx_kBBQgVXo-3-Eop8TX_66vT6Ta1bA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/LHxbieFJf4SB4Y5b6D54HJsmcK5eQ5-o4rbNng-EDQifSwekEJIcppBrM87LsiSA2Eix",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 864
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/KTThtJw9AIX0LuwpFcO1GsnW-hgE1F8C1_F_hbfEv3fJos5YqJcM_FBTR1f6clYaBI_X",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 864
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/2xgqD3zQMKMRi3P9X8gbOoRI6exThiODrEFl4LWfRqcDOpCLMEoO7MLoiWZvD5TSmEk",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 864
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/jIMrNbO9frzC3g_mRVF33dB6w-sZGf1WGJriaUUOOmV0ndKztFJJXnVdzUvsMy3MwoyA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 864
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/bIk9y8_rNiL9Vd_M0QoIqw-SlU1qw6KHr_SmwVvdhMRJetBvPSyHrzRI-NZaeDpcIgdu",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 864
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/RlH4khID6tZd0boYX1BmRgyfGjCt6ODVw8yZ3P3xaW8bW2R2_Tf0pujUt7kkSssc1wrr",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 864
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/BEHITxWf47ji64lghT90K_ZxvBwTfuMVM2mZoP7SamSThYEC-bHmSQigG5B8e0B6IQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 864
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Yb4U7EgGhkVwf_uvee3wTvHhtjtiRv72V4pJyvQ3tfg3bjmFo-EJFqxL011Foi9hq6w",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://privacy.microsoft.com/en-us/privacystatement",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "In-app purchases<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=microsoft.dynamics.commerce.storecommerce.android",
+    "reviewsUrl": "rev?doc=microsoft.dynamics.commerce.storecommerce.android&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=microsoft.dynamics.commerce.storecommerce.android",
+    "title": "Store Commerce",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Microsoft Corporation"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "d365commpub@microsoft.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "One Microsoft Way"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "3 Oct 2022"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-10-24 22:52:02.452862",
+    "backendDocid": "microsoft.dynamics.commerce.storecommerce.android",
+    "backendId": 3,
+    "creator": "Microsoft Corporation",
+    "descriptionHtml": "The Store Commerce app is the point of sale experience for Microsoft Dynamics 365 Commerce. It delivers feature-rich and comprehensive point of sale capabilities that helps retail sales associates, cashiers and managers to provide superior customer service. In addition to flexible and performant sales transaction workflows, the Store Commerce app supports important store operations such as assisted selling and clientelling, order processing and fulfillment, inventory management, shift and cash management, staff task management, omni-channel payment methods, role-based reports, and more. The Store Commerce app interfaces with peripheral devices such as payment terminals, receipt printers and cash drawers, and is highly customizable to meet the needs of a wide range of business requirements.<br><br>Dynamics 365 Commerce is a complete, yet composable, omnichannel solution that unifies back-office, in-store, call center and e-commerce experiences for consumers and business partners that personalize customer engagement, increase employee productivity and optimize commerce practices.<br><br>Prerequisites: Deploy a Commerce Scale Unit using the Dynamics Lifecycle Service portal before using the Store Commerce app. The app needs the CPOS URL to activate a register. Stores, workers and Devices need to be configured in Dynamics 365 Commerce back office. Detailed information and documentation can be found under the Dynamics 365 Commerce section of the Microsoft Learn site (https://learn.microsoft.com.)<br><br>By installing this app, you agree to the Terms at: https://go.microsoft.com/fwlink/?linkid=2207925",
+    "descriptionShort": "The Dynamics 365 Store Commerce application",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown1": 2,
+          "unknown2": "62325183",
+          "unknown3": 30
+        },
+        "developerAddress": "One Microsoft Way",
+        "developerEmail": "d365commpub@microsoft.com",
+        "developerName": "Microsoft Corporation",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "62325183",
+            "versionCode": 392229317
+          }
+        ],
+        "installationSize": "62325183",
+        "numDownloads": "100+ downloads",
+        "packageName": "microsoft.dynamics.commerce.storecommerce.android",
+        "permission": [
+          "android.permission.INTERNET"
+        ],
+        "unstable": true,
+        "uploadDate": "24 Oct 2022",
+        "versionCode": 392229317,
+        "versionString": "9.39.22293.17"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=microsoft.dynamics.commerce.storecommerce.android",
+    "docType": 1,
+    "docid": "microsoft.dynamics.commerce.storecommerce.android",
+    "image": [
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/DewPOWmg6MqrI4SIpqOpXg0OUgbZom-EU21vx_kBBQgVXo-3-Eop8TX_66vT6Ta1bA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/LHxbieFJf4SB4Y5b6D54HJsmcK5eQ5-o4rbNng-EDQifSwekEJIcppBrM87LsiSA2Eix",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 864
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/KTThtJw9AIX0LuwpFcO1GsnW-hgE1F8C1_F_hbfEv3fJos5YqJcM_FBTR1f6clYaBI_X",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 864
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/2xgqD3zQMKMRi3P9X8gbOoRI6exThiODrEFl4LWfRqcDOpCLMEoO7MLoiWZvD5TSmEk",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 864
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/jIMrNbO9frzC3g_mRVF33dB6w-sZGf1WGJriaUUOOmV0ndKztFJJXnVdzUvsMy3MwoyA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 864
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/bIk9y8_rNiL9Vd_M0QoIqw-SlU1qw6KHr_SmwVvdhMRJetBvPSyHrzRI-NZaeDpcIgdu",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 864
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/RlH4khID6tZd0boYX1BmRgyfGjCt6ODVw8yZ3P3xaW8bW2R2_Tf0pujUt7kkSssc1wrr",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 864
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/BEHITxWf47ji64lghT90K_ZxvBwTfuMVM2mZoP7SamSThYEC-bHmSQigG5B8e0B6IQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 864
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Yb4U7EgGhkVwf_uvee3wTvHhtjtiRv72V4pJyvQ3tfg3bjmFo-EJFqxL011Foi9hq6w",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://privacy.microsoft.com/en-us/privacystatement",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "In-app purchases<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=microsoft.dynamics.commerce.storecommerce.android",
+    "reviewsUrl": "rev?doc=microsoft.dynamics.commerce.storecommerce.android&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=microsoft.dynamics.commerce.storecommerce.android",
+    "title": "Store Commerce",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "d365commpub@microsoft.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "One Microsoft Way"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "3 Oct 2022"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-11-01 09:31:25.574505",
+    "backendDocid": "microsoft.dynamics.commerce.storecommerce.android",
+    "backendId": 3,
+    "creator": "Microsoft Corporation",
+    "descriptionHtml": "The Store Commerce app is the point of sale experience for Microsoft Dynamics 365 Commerce. It delivers feature-rich and comprehensive point of sale capabilities that helps retail sales associates, cashiers and managers to provide superior customer service. In addition to flexible and performant sales transaction workflows, the Store Commerce app supports important store operations such as assisted selling and clientelling, order processing and fulfillment, inventory management, shift and cash management, staff task management, omni-channel payment methods, role-based reports, and more. The Store Commerce app interfaces with peripheral devices such as payment terminals, receipt printers and cash drawers, and is highly customizable to meet the needs of a wide range of business requirements.<br><br>Dynamics 365 Commerce is a complete, yet composable, omnichannel solution that unifies back-office, in-store, call center and e-commerce experiences for consumers and business partners that personalize customer engagement, increase employee productivity and optimize commerce practices.<br><br>Prerequisites: Deploy a Commerce Scale Unit using the Dynamics Lifecycle Service portal before using the Store Commerce app. The app needs the CPOS URL to activate a register. Stores, workers and Devices need to be configured in Dynamics 365 Commerce back office. Detailed information and documentation can be found under the Dynamics 365 Commerce section of the Microsoft Learn site (https://learn.microsoft.com.)<br><br>By installing this app, you agree to the Terms at: https://go.microsoft.com/fwlink/?linkid=2207925",
+    "descriptionShort": "The Dynamics 365 Store Commerce application",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown1": 2,
+          "unknown2": "62325187",
+          "unknown3": 30
+        },
+        "developerAddress": "One Microsoft Way",
+        "developerEmail": "d365commpub@microsoft.com",
+        "developerName": "Microsoft Corporation",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "62325187",
+            "versionCode": 392230203
+          }
+        ],
+        "installationSize": "62325187",
+        "numDownloads": "100+ downloads",
+        "packageName": "microsoft.dynamics.commerce.storecommerce.android",
+        "permission": [
+          "android.permission.INTERNET"
+        ],
+        "unstable": true,
+        "uploadDate": "31 Oct 2022",
+        "versionCode": 392230203,
+        "versionString": "9.39.22302.3"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=microsoft.dynamics.commerce.storecommerce.android",
+    "docType": 1,
+    "docid": "microsoft.dynamics.commerce.storecommerce.android",
+    "image": [
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/DewPOWmg6MqrI4SIpqOpXg0OUgbZom-EU21vx_kBBQgVXo-3-Eop8TX_66vT6Ta1bA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/LHxbieFJf4SB4Y5b6D54HJsmcK5eQ5-o4rbNng-EDQifSwekEJIcppBrM87LsiSA2Eix",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 864
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/KTThtJw9AIX0LuwpFcO1GsnW-hgE1F8C1_F_hbfEv3fJos5YqJcM_FBTR1f6clYaBI_X",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 864
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/2xgqD3zQMKMRi3P9X8gbOoRI6exThiODrEFl4LWfRqcDOpCLMEoO7MLoiWZvD5TSmEk",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 864
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/jIMrNbO9frzC3g_mRVF33dB6w-sZGf1WGJriaUUOOmV0ndKztFJJXnVdzUvsMy3MwoyA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 864
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/bIk9y8_rNiL9Vd_M0QoIqw-SlU1qw6KHr_SmwVvdhMRJetBvPSyHrzRI-NZaeDpcIgdu",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 864
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/RlH4khID6tZd0boYX1BmRgyfGjCt6ODVw8yZ3P3xaW8bW2R2_Tf0pujUt7kkSssc1wrr",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 864
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/BEHITxWf47ji64lghT90K_ZxvBwTfuMVM2mZoP7SamSThYEC-bHmSQigG5B8e0B6IQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 864
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Yb4U7EgGhkVwf_uvee3wTvHhtjtiRv72V4pJyvQ3tfg3bjmFo-EJFqxL011Foi9hq6w",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://privacy.microsoft.com/en-us/privacystatement",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "In-app purchases<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=microsoft.dynamics.commerce.storecommerce.android",
+    "reviewsUrl": "rev?doc=microsoft.dynamics.commerce.storecommerce.android&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=microsoft.dynamics.commerce.storecommerce.android",
+    "title": "Store Commerce",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "d365commpub@microsoft.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "One Microsoft Way"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "3 Oct 2022"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-11-07 12:24:09.447194",
+    "backendDocid": "microsoft.dynamics.commerce.storecommerce.android",
+    "backendId": 3,
+    "creator": "Microsoft Corporation",
+    "descriptionHtml": "The Store Commerce app is the point of sale experience for Microsoft Dynamics 365 Commerce. It delivers feature-rich and comprehensive point of sale capabilities that helps retail sales associates, cashiers and managers to provide superior customer service. In addition to flexible and performant sales transaction workflows, the Store Commerce app supports important store operations such as assisted selling and clientelling, order processing and fulfillment, inventory management, shift and cash management, staff task management, omni-channel payment methods, role-based reports, and more. The Store Commerce app interfaces with peripheral devices such as payment terminals, receipt printers and cash drawers, and is highly customizable to meet the needs of a wide range of business requirements.<br><br>Dynamics 365 Commerce is a complete, yet composable, omnichannel solution that unifies back-office, in-store, call center and e-commerce experiences for consumers and business partners that personalize customer engagement, increase employee productivity and optimize commerce practices.<br><br>Prerequisites: Deploy a Commerce Scale Unit using the Dynamics Lifecycle Service portal before using the Store Commerce app. The app needs the CPOS URL to activate a register. Stores, workers and Devices need to be configured in Dynamics 365 Commerce back office. Detailed information and documentation can be found under the Dynamics 365 Commerce section of the Microsoft Learn site (https://learn.microsoft.com.)<br><br>By installing this app, you agree to the Terms at: https://go.microsoft.com/fwlink/?linkid=2207925",
+    "descriptionShort": "The Dynamics 365 Store Commerce application",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown1": 2,
+          "unknown2": "62325217",
+          "unknown3": 30
+        },
+        "developerAddress": "One Microsoft Way",
+        "developerEmail": "d365commpub@microsoft.com",
+        "developerName": "Microsoft Corporation",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "62325217",
+            "versionCode": 392231106
+          }
+        ],
+        "installationSize": "62325217",
+        "numDownloads": "500+ downloads",
+        "packageName": "microsoft.dynamics.commerce.storecommerce.android",
+        "permission": [
+          "android.permission.INTERNET"
+        ],
+        "unstable": true,
+        "uploadDate": "7 Nov 2022",
+        "versionCode": 392231106,
+        "versionString": "9.39.22311.6"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=microsoft.dynamics.commerce.storecommerce.android",
+    "docType": 1,
+    "docid": "microsoft.dynamics.commerce.storecommerce.android",
+    "image": [
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/DewPOWmg6MqrI4SIpqOpXg0OUgbZom-EU21vx_kBBQgVXo-3-Eop8TX_66vT6Ta1bA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/LHxbieFJf4SB4Y5b6D54HJsmcK5eQ5-o4rbNng-EDQifSwekEJIcppBrM87LsiSA2Eix",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 864
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/KTThtJw9AIX0LuwpFcO1GsnW-hgE1F8C1_F_hbfEv3fJos5YqJcM_FBTR1f6clYaBI_X",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 864
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/2xgqD3zQMKMRi3P9X8gbOoRI6exThiODrEFl4LWfRqcDOpCLMEoO7MLoiWZvD5TSmEk",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 864
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/jIMrNbO9frzC3g_mRVF33dB6w-sZGf1WGJriaUUOOmV0ndKztFJJXnVdzUvsMy3MwoyA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 864
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/bIk9y8_rNiL9Vd_M0QoIqw-SlU1qw6KHr_SmwVvdhMRJetBvPSyHrzRI-NZaeDpcIgdu",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 864
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/RlH4khID6tZd0boYX1BmRgyfGjCt6ODVw8yZ3P3xaW8bW2R2_Tf0pujUt7kkSssc1wrr",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 864
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/BEHITxWf47ji64lghT90K_ZxvBwTfuMVM2mZoP7SamSThYEC-bHmSQigG5B8e0B6IQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 864
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Yb4U7EgGhkVwf_uvee3wTvHhtjtiRv72V4pJyvQ3tfg3bjmFo-EJFqxL011Foi9hq6w",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://privacy.microsoft.com/en-us/privacystatement",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "In-app purchases<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=microsoft.dynamics.commerce.storecommerce.android",
+    "reviewsUrl": "rev?doc=microsoft.dynamics.commerce.storecommerce.android&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=microsoft.dynamics.commerce.storecommerce.android",
+    "title": "Store Commerce",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Microsoft Corporation"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "d365commpub@microsoft.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "One Microsoft Way"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "3 Oct 2022"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-11-14 11:34:02.965093",
+    "backendDocid": "microsoft.dynamics.commerce.storecommerce.android",
+    "backendId": 3,
+    "creator": "Microsoft Corporation",
+    "descriptionHtml": "The Store Commerce app is the point of sale experience for Microsoft Dynamics 365 Commerce. It delivers feature-rich and comprehensive point of sale capabilities that helps retail sales associates, cashiers and managers to provide superior customer service. In addition to flexible and performant sales transaction workflows, the Store Commerce app supports important store operations such as assisted selling and clientelling, order processing and fulfillment, inventory management, shift and cash management, staff task management, omni-channel payment methods, role-based reports, and more. The Store Commerce app interfaces with peripheral devices such as payment terminals, receipt printers and cash drawers, and is highly customizable to meet the needs of a wide range of business requirements.<br><br>Dynamics 365 Commerce is a complete, yet composable, omnichannel solution that unifies back-office, in-store, call center and e-commerce experiences for consumers and business partners that personalize customer engagement, increase employee productivity and optimize commerce practices.<br><br>Prerequisites: Deploy a Commerce Scale Unit using the Dynamics Lifecycle Service portal before using the Store Commerce app. The app needs the CPOS URL to activate a register. Stores, workers and Devices need to be configured in Dynamics 365 Commerce back office. Detailed information and documentation can be found under the Dynamics 365 Commerce section of the Microsoft Learn site (https://learn.microsoft.com.)<br><br>By installing this app, you agree to the Terms at: https://go.microsoft.com/fwlink/?linkid=2207925",
+    "descriptionShort": "The Dynamics 365 Store Commerce application",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown1": 2,
+          "unknown2": "62329234",
+          "unknown3": 30
+        },
+        "developerAddress": "One Microsoft Way",
+        "developerEmail": "d365commpub@microsoft.com",
+        "developerName": "Microsoft Corporation",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "62329234",
+            "versionCode": 392231402
+          }
+        ],
+        "installationSize": "62329234",
+        "numDownloads": "500+ downloads",
+        "packageName": "microsoft.dynamics.commerce.storecommerce.android",
+        "permission": [
+          "android.permission.INTERNET"
+        ],
+        "unstable": true,
+        "uploadDate": "14 Nov 2022",
+        "versionCode": 392231402,
+        "versionString": "9.39.22314.2"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=microsoft.dynamics.commerce.storecommerce.android",
+    "docType": 1,
+    "docid": "microsoft.dynamics.commerce.storecommerce.android",
+    "image": [
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/DewPOWmg6MqrI4SIpqOpXg0OUgbZom-EU21vx_kBBQgVXo-3-Eop8TX_66vT6Ta1bA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/LHxbieFJf4SB4Y5b6D54HJsmcK5eQ5-o4rbNng-EDQifSwekEJIcppBrM87LsiSA2Eix",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 864
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/KTThtJw9AIX0LuwpFcO1GsnW-hgE1F8C1_F_hbfEv3fJos5YqJcM_FBTR1f6clYaBI_X",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 864
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/2xgqD3zQMKMRi3P9X8gbOoRI6exThiODrEFl4LWfRqcDOpCLMEoO7MLoiWZvD5TSmEk",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 864
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/jIMrNbO9frzC3g_mRVF33dB6w-sZGf1WGJriaUUOOmV0ndKztFJJXnVdzUvsMy3MwoyA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 864
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/bIk9y8_rNiL9Vd_M0QoIqw-SlU1qw6KHr_SmwVvdhMRJetBvPSyHrzRI-NZaeDpcIgdu",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 864
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/RlH4khID6tZd0boYX1BmRgyfGjCt6ODVw8yZ3P3xaW8bW2R2_Tf0pujUt7kkSssc1wrr",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 864
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/BEHITxWf47ji64lghT90K_ZxvBwTfuMVM2mZoP7SamSThYEC-bHmSQigG5B8e0B6IQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 864
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Yb4U7EgGhkVwf_uvee3wTvHhtjtiRv72V4pJyvQ3tfg3bjmFo-EJFqxL011Foi9hq6w",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://privacy.microsoft.com/en-us/privacystatement",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "In-app purchases<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=microsoft.dynamics.commerce.storecommerce.android",
+    "reviewsUrl": "rev?doc=microsoft.dynamics.commerce.storecommerce.android&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=microsoft.dynamics.commerce.storecommerce.android",
+    "title": "Store Commerce",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "d365commpub@microsoft.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "One Microsoft Way"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "3 Oct 2022"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "2",
+      "fiveStarRatings": "10",
+      "fourStarRatings": "1",
+      "oneStarRatings": "0",
+      "ratingsCount": "12",
+      "starRating": 4.75,
+      "threeStarRatings": "1",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-01-20 21:59:24.977729",
+    "backendDocid": "microsoft.dynamics.commerce.storecommerce.android",
+    "backendId": 3,
+    "creator": "Microsoft Corporation",
+    "descriptionHtml": "Store Commerce is the point-of-sale application for Microsoft Dynamics 365 Commerce. It supports a wide range of capabilities beyond retail sale transactions that enable cashiers, managers and sales associates to manage store operations from a mobile device. In addition to flexible and performant sales transaction workflows, the Store Commerce app facilitates assisted selling and clienteling, order processing and fulfillment, inventory management, shift and cash management, role-based reporting, and more. The Store Commerce app connects to payment terminals, receipt printers, bar code scanners and cash drawers, and is highly customizable to meet the needs of a wide range of business requirements. <br><br>Prerequisites: Deploy a Commerce Scale Unit using the Dynamics Lifecycle Service portal before using the Store Commerce app. The app needs the CPOS URL to activate a register. Store workers and Devices need to be configured in Dynamics 365 Commerce back office. Detailed information and documentation can be found at the Microsoft Learn site (http://learn.microsoft.com/en-us/dynamics365/commerce/dev-itpro/store-commerce-mobile)",
+    "descriptionShort": "The Dynamics 365 Store Commerce application",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown1": 2,
+          "unknown2": "63583297",
+          "unknown3": 31
+        },
+        "developerAddress": "One Microsoft Way",
+        "developerEmail": "d365commpub@microsoft.com",
+        "developerName": "Microsoft Corporation",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "63583297",
+            "versionCode": 402301403
+          }
+        ],
+        "installationSize": "63583297",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "microsoft.dynamics.commerce.storecommerce.android",
+        "permission": [
+          "android.permission.INTERNET"
+        ],
+        "unstable": true,
+        "uploadDate": "14 Jan 2023",
+        "versionCode": 402301403,
+        "versionString": "9.40.23014.3"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=microsoft.dynamics.commerce.storecommerce.android",
+    "docType": 1,
+    "docid": "microsoft.dynamics.commerce.storecommerce.android",
+    "image": [
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/DewPOWmg6MqrI4SIpqOpXg0OUgbZom-EU21vx_kBBQgVXo-3-Eop8TX_66vT6Ta1bA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/LHxbieFJf4SB4Y5b6D54HJsmcK5eQ5-o4rbNng-EDQifSwekEJIcppBrM87LsiSA2Eix",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/aCvhGIQKWiXFUy0FA2b1HuOH9LZ6qZqy1apVB_2YIaRySRWeW9OBdHGbAnitbHtuVFI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Qm2tbC-HKsr5iZvEBElXfvhimi3sFm7v8YVB7J9EsGRakZY9XI3-YEbOpNw112w5hQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/gc-DGZ0cC6S0j_fnG7TISuGJ-uz3lT_k5J5uwEcDkNOA_kFhDL0hIAyJbuvJWRWjB66R",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qILzrLbpq3cIEfDTAVbgiddJPGNskrmvKkNkE1LdA1Tu9i9x5UO-n33nQxU7NZBQA8Dg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/QT_5u4SaNhdtfToBBCbQrNc3KT7ZVDut-r49GBfm1yY7ll-1In9ksfoEsvotNz9UqNU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/9EunHke1FCCfEEVTzXLYcklKzClGs3DFdLORiYDUDQSb3FiXKXSxgXMuNpgClL5X4EE",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://privacy.microsoft.com/en-us/privacystatement",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "In-app purchases<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=microsoft.dynamics.commerce.storecommerce.android",
+    "reviewsUrl": "rev?doc=microsoft.dynamics.commerce.storecommerce.android&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=microsoft.dynamics.commerce.storecommerce.android",
+    "title": "Store Commerce",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "d365commpub@microsoft.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "One Microsoft Way"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "3 Oct 2022"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "2",
+      "fiveStarRatings": "12",
+      "fourStarRatings": "1",
+      "oneStarRatings": "0",
+      "ratingsCount": "14",
+      "starRating": 4.785714,
+      "threeStarRatings": "1",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-01-27 21:38:59.156485",
+    "backendDocid": "microsoft.dynamics.commerce.storecommerce.android",
+    "backendId": 3,
+    "creator": "Microsoft Corporation",
+    "descriptionHtml": "Store Commerce is the point-of-sale application for Microsoft Dynamics 365 Commerce. It supports a wide range of capabilities beyond retail sale transactions that enable cashiers, managers and sales associates to manage store operations from a mobile device. In addition to flexible and performant sales transaction workflows, the Store Commerce app facilitates assisted selling and clienteling, order processing and fulfillment, inventory management, shift and cash management, role-based reporting, and more. The Store Commerce app connects to payment terminals, receipt printers, bar code scanners and cash drawers, and is highly customizable to meet the needs of a wide range of business requirements. <br><br>Prerequisites: Deploy a Commerce Scale Unit using the Dynamics Lifecycle Service portal before using the Store Commerce app. The app needs the CPOS URL to activate a register. Store workers and Devices need to be configured in Dynamics 365 Commerce back office. Detailed information and documentation can be found at the Microsoft Learn site (http://learn.microsoft.com/en-us/dynamics365/commerce/dev-itpro/store-commerce-mobile)",
+    "descriptionShort": "The Dynamics 365 Store Commerce application",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown1": 2,
+          "unknown2": "63583300",
+          "unknown3": 31
+        },
+        "developerAddress": "One Microsoft Way",
+        "developerEmail": "d365commpub@microsoft.com",
+        "developerName": "Microsoft Corporation",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "63583300",
+            "versionCode": 402302601
+          }
+        ],
+        "installationSize": "63583300",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "microsoft.dynamics.commerce.storecommerce.android",
+        "permission": [
+          "android.permission.INTERNET"
+        ],
+        "unstable": true,
+        "uploadDate": "26 Jan 2023",
+        "versionCode": 402302601,
+        "versionString": "9.40.23026.1"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=microsoft.dynamics.commerce.storecommerce.android",
+    "docType": 1,
+    "docid": "microsoft.dynamics.commerce.storecommerce.android",
+    "image": [
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/DewPOWmg6MqrI4SIpqOpXg0OUgbZom-EU21vx_kBBQgVXo-3-Eop8TX_66vT6Ta1bA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/LHxbieFJf4SB4Y5b6D54HJsmcK5eQ5-o4rbNng-EDQifSwekEJIcppBrM87LsiSA2Eix",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/aCvhGIQKWiXFUy0FA2b1HuOH9LZ6qZqy1apVB_2YIaRySRWeW9OBdHGbAnitbHtuVFI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Qm2tbC-HKsr5iZvEBElXfvhimi3sFm7v8YVB7J9EsGRakZY9XI3-YEbOpNw112w5hQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/gc-DGZ0cC6S0j_fnG7TISuGJ-uz3lT_k5J5uwEcDkNOA_kFhDL0hIAyJbuvJWRWjB66R",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qILzrLbpq3cIEfDTAVbgiddJPGNskrmvKkNkE1LdA1Tu9i9x5UO-n33nQxU7NZBQA8Dg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/QT_5u4SaNhdtfToBBCbQrNc3KT7ZVDut-r49GBfm1yY7ll-1In9ksfoEsvotNz9UqNU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/9EunHke1FCCfEEVTzXLYcklKzClGs3DFdLORiYDUDQSb3FiXKXSxgXMuNpgClL5X4EE",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://privacy.microsoft.com/en-us/privacystatement",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "In-app purchases<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=microsoft.dynamics.commerce.storecommerce.android",
+    "reviewsUrl": "rev?doc=microsoft.dynamics.commerce.storecommerce.android&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=microsoft.dynamics.commerce.storecommerce.android",
+    "title": "Store Commerce",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "d365commpub@microsoft.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "One Microsoft Way"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "3 Oct 2022"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-04-15 08:10:15.839339",
+    "backendDocid": "microsoft.dynamics.commerce.storecommerce.android",
+    "backendId": 3,
+    "creator": "Microsoft Corporation",
+    "descriptionHtml": "Store Commerce is the point-of-sale application for Microsoft Dynamics 365 Commerce. It supports a wide range of capabilities beyond retail sale transactions that enable cashiers, managers and sales associates to manage store operations from a mobile device. In addition to flexible and performant sales transaction workflows, the Store Commerce app facilitates assisted selling and clienteling, order processing and fulfillment, inventory management, shift and cash management, role-based reporting, and more. The Store Commerce app connects to payment terminals, receipt printers, bar code scanners and cash drawers, and is highly customizable to meet the needs of a wide range of business requirements. <br><br>Prerequisites: Deploy a Commerce Scale Unit using the Dynamics Lifecycle Service portal before using the Store Commerce app. The app needs the CPOS URL to activate a register. Store workers and Devices need to be configured in Dynamics 365 Commerce back office. Detailed information and documentation can be found at the Microsoft Learn site (http://learn.microsoft.com/en-us/dynamics365/commerce/dev-itpro/store-commerce-mobile)",
+    "descriptionShort": "The Dynamics 365 Store Commerce application",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown1": 2,
+          "unknown2": "62415333",
+          "unknown3": 31
+        },
+        "developerAddress": "One Microsoft Way",
+        "developerEmail": "d365commpub@microsoft.com",
+        "developerName": "Microsoft Corporation",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "62415333",
+            "versionCode": 412310101
+          }
+        ],
+        "installationSize": "62415333",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "microsoft.dynamics.commerce.storecommerce.android",
+        "permission": [
+          "android.permission.INTERNET"
+        ],
+        "unstable": true,
+        "uploadDate": "11 Apr 2023",
+        "versionCode": 412310101,
+        "versionString": "9.41.23101.1"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=microsoft.dynamics.commerce.storecommerce.android",
+    "docType": 1,
+    "docid": "microsoft.dynamics.commerce.storecommerce.android",
+    "image": [
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/DewPOWmg6MqrI4SIpqOpXg0OUgbZom-EU21vx_kBBQgVXo-3-Eop8TX_66vT6Ta1bA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/LHxbieFJf4SB4Y5b6D54HJsmcK5eQ5-o4rbNng-EDQifSwekEJIcppBrM87LsiSA2Eix",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/aCvhGIQKWiXFUy0FA2b1HuOH9LZ6qZqy1apVB_2YIaRySRWeW9OBdHGbAnitbHtuVFI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Qm2tbC-HKsr5iZvEBElXfvhimi3sFm7v8YVB7J9EsGRakZY9XI3-YEbOpNw112w5hQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/gc-DGZ0cC6S0j_fnG7TISuGJ-uz3lT_k5J5uwEcDkNOA_kFhDL0hIAyJbuvJWRWjB66R",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qILzrLbpq3cIEfDTAVbgiddJPGNskrmvKkNkE1LdA1Tu9i9x5UO-n33nQxU7NZBQA8Dg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/QT_5u4SaNhdtfToBBCbQrNc3KT7ZVDut-r49GBfm1yY7ll-1In9ksfoEsvotNz9UqNU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/9EunHke1FCCfEEVTzXLYcklKzClGs3DFdLORiYDUDQSb3FiXKXSxgXMuNpgClL5X4EE",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://privacy.microsoft.com/en-us/privacystatement",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "In-app purchases<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=microsoft.dynamics.commerce.storecommerce.android",
+    "reviewsUrl": "rev?doc=microsoft.dynamics.commerce.storecommerce.android&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=microsoft.dynamics.commerce.storecommerce.android",
+    "title": "Store Commerce",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "d365commpub@microsoft.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "One Microsoft Way"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "3 Oct 2022"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-07-20 02:28:27.651900",
+    "backendDocid": "microsoft.dynamics.commerce.storecommerce.android",
+    "backendId": 3,
+    "creator": "Microsoft Corporation",
+    "descriptionHtml": "Store Commerce is the point-of-sale application for Microsoft Dynamics 365 Commerce. It supports a wide range of capabilities beyond retail sale transactions that enable cashiers, managers and sales associates to manage store operations from a mobile device. In addition to flexible and performant sales transaction workflows, the Store Commerce app facilitates assisted selling and clienteling, order processing and fulfillment, inventory management, shift and cash management, role-based reporting, and more. The Store Commerce app connects to payment terminals, receipt printers, bar code scanners and cash drawers, and is highly customizable to meet the needs of a wide range of business requirements. <br><br>Prerequisites: Deploy a Commerce Scale Unit using the Dynamics Lifecycle Service portal before using the Store Commerce app. The app needs the CPOS URL to activate a register. Store workers and Devices need to be configured in Dynamics 365 Commerce back office. Detailed information and documentation can be found at the Microsoft Learn site (http://learn.microsoft.com/en-us/dynamics365/commerce/dev-itpro/store-commerce-mobile)",
+    "descriptionShort": "The Dynamics 365 Store Commerce application",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown1": 2,
+          "unknown2": "62858502",
+          "unknown3": 31
+        },
+        "developerAddress": "One Microsoft Way",
+        "developerEmail": "d365commpub@microsoft.com",
+        "developerName": "Microsoft Corporation",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "62858502",
+            "versionCode": 432319303
+          }
+        ],
+        "installationSize": "62858502",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "microsoft.dynamics.commerce.storecommerce.android",
+        "permission": [
+          "android.permission.INTERNET"
+        ],
+        "unstable": true,
+        "uploadDate": "18 Jul 2023",
+        "versionCode": 432319303,
+        "versionString": "9.43.23193.3"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=microsoft.dynamics.commerce.storecommerce.android",
+    "docType": 1,
+    "docid": "microsoft.dynamics.commerce.storecommerce.android",
+    "image": [
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/DewPOWmg6MqrI4SIpqOpXg0OUgbZom-EU21vx_kBBQgVXo-3-Eop8TX_66vT6Ta1bA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/LHxbieFJf4SB4Y5b6D54HJsmcK5eQ5-o4rbNng-EDQifSwekEJIcppBrM87LsiSA2Eix",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/aCvhGIQKWiXFUy0FA2b1HuOH9LZ6qZqy1apVB_2YIaRySRWeW9OBdHGbAnitbHtuVFI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Qm2tbC-HKsr5iZvEBElXfvhimi3sFm7v8YVB7J9EsGRakZY9XI3-YEbOpNw112w5hQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/gc-DGZ0cC6S0j_fnG7TISuGJ-uz3lT_k5J5uwEcDkNOA_kFhDL0hIAyJbuvJWRWjB66R",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qILzrLbpq3cIEfDTAVbgiddJPGNskrmvKkNkE1LdA1Tu9i9x5UO-n33nQxU7NZBQA8Dg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/QT_5u4SaNhdtfToBBCbQrNc3KT7ZVDut-r49GBfm1yY7ll-1In9ksfoEsvotNz9UqNU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/9EunHke1FCCfEEVTzXLYcklKzClGs3DFdLORiYDUDQSb3FiXKXSxgXMuNpgClL5X4EE",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://privacy.microsoft.com/en-us/privacystatement",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "In-app purchases<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=microsoft.dynamics.commerce.storecommerce.android",
+    "reviewsUrl": "rev?doc=microsoft.dynamics.commerce.storecommerce.android&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=microsoft.dynamics.commerce.storecommerce.android",
+    "title": "Store Commerce",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "d365commpub@microsoft.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "One Microsoft Way"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "3 Oct 2022"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "2",
+      "fiveStarRatings": "21",
+      "fourStarRatings": "0",
+      "oneStarRatings": "3",
+      "ratingsCount": "29",
+      "starRating": 4.25,
+      "threeStarRatings": "3",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-09-12 13:56:34.522572",
+    "backendDocid": "microsoft.dynamics.commerce.storecommerce.android",
+    "backendId": 3,
+    "creator": "Microsoft Corporation",
+    "descriptionHtml": "Store Commerce is the point-of-sale application for Microsoft Dynamics 365 Commerce. It supports a wide range of capabilities beyond retail sale transactions that enable cashiers, managers and sales associates to manage store operations from a mobile device. In addition to flexible and performant sales transaction workflows, the Store Commerce app facilitates assisted selling and clienteling, order processing and fulfillment, inventory management, shift and cash management, role-based reporting, and more. The Store Commerce app connects to payment terminals, receipt printers, bar code scanners and cash drawers, and is highly customizable to meet the needs of a wide range of business requirements. <br><br>Prerequisites: Deploy a Commerce Scale Unit using the Dynamics Lifecycle Service portal before using the Store Commerce app. The app needs the CPOS URL to activate a register. Store workers and Devices need to be configured in Dynamics 365 Commerce back office. Detailed information and documentation can be found at the Microsoft Learn site (http://learn.microsoft.com/en-us/dynamics365/commerce/dev-itpro/store-commerce-mobile)",
+    "descriptionShort": "The Dynamics 365 Store Commerce application",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown1": 2,
+          "unknown2": "62875084",
+          "unknown3": 33
+        },
+        "developerAddress": "One Microsoft Way",
+        "developerEmail": "d365commpub@microsoft.com",
+        "developerName": "Microsoft Corporation",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "62875084",
+            "versionCode": 442324106
+          }
+        ],
+        "installationSize": "62875084",
+        "numDownloads": "5,000+ downloads",
+        "packageName": "microsoft.dynamics.commerce.storecommerce.android",
+        "permission": [
+          "android.permission.INTERNET"
+        ],
+        "unstable": true,
+        "uploadDate": "29 Aug 2023",
+        "versionCode": 442324106,
+        "versionString": "9.44.23241.6"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=microsoft.dynamics.commerce.storecommerce.android",
+    "docType": 1,
+    "docid": "microsoft.dynamics.commerce.storecommerce.android",
+    "image": [
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/DewPOWmg6MqrI4SIpqOpXg0OUgbZom-EU21vx_kBBQgVXo-3-Eop8TX_66vT6Ta1bA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/LHxbieFJf4SB4Y5b6D54HJsmcK5eQ5-o4rbNng-EDQifSwekEJIcppBrM87LsiSA2Eix",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/aCvhGIQKWiXFUy0FA2b1HuOH9LZ6qZqy1apVB_2YIaRySRWeW9OBdHGbAnitbHtuVFI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Qm2tbC-HKsr5iZvEBElXfvhimi3sFm7v8YVB7J9EsGRakZY9XI3-YEbOpNw112w5hQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/gc-DGZ0cC6S0j_fnG7TISuGJ-uz3lT_k5J5uwEcDkNOA_kFhDL0hIAyJbuvJWRWjB66R",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qILzrLbpq3cIEfDTAVbgiddJPGNskrmvKkNkE1LdA1Tu9i9x5UO-n33nQxU7NZBQA8Dg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/QT_5u4SaNhdtfToBBCbQrNc3KT7ZVDut-r49GBfm1yY7ll-1In9ksfoEsvotNz9UqNU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/9EunHke1FCCfEEVTzXLYcklKzClGs3DFdLORiYDUDQSb3FiXKXSxgXMuNpgClL5X4EE",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://privacy.microsoft.com/en-us/privacystatement",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "In-app purchases<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=microsoft.dynamics.commerce.storecommerce.android",
+    "reviewsUrl": "rev?doc=microsoft.dynamics.commerce.storecommerce.android&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=microsoft.dynamics.commerce.storecommerce.android",
+    "title": "Store Commerce",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Microsoft Corporation"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "d365commpub@microsoft.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "One Microsoft Way"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "3 Oct 2022"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "7",
+      "fiveStarRatings": "20",
+      "fourStarRatings": "2",
+      "oneStarRatings": "5",
+      "ratingsCount": "29",
+      "starRating": 4.1034484,
+      "threeStarRatings": "2",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-09-20 08:10:58.704055",
+    "backendDocid": "microsoft.dynamics.commerce.storecommerce.android",
+    "backendId": 3,
+    "creator": "Microsoft Corporation",
+    "descriptionHtml": "Store Commerce is the point-of-sale application for Microsoft Dynamics 365 Commerce. It supports a wide range of capabilities beyond retail sale transactions that enable cashiers, managers and sales associates to manage store operations from a mobile device. In addition to flexible and performant sales transaction workflows, the Store Commerce app facilitates assisted selling and clienteling, order processing and fulfillment, inventory management, shift and cash management, role-based reporting, and more. The Store Commerce app connects to payment terminals, receipt printers, bar code scanners and cash drawers, and is highly customizable to meet the needs of a wide range of business requirements. <br><br>Prerequisites: Deploy a Commerce Scale Unit using the Dynamics Lifecycle Service portal before using the Store Commerce app. The app needs the CPOS URL to activate a register. Store workers and Devices need to be configured in Dynamics 365 Commerce back office. Detailed information and documentation can be found at the Microsoft Learn site (http://learn.microsoft.com/en-us/dynamics365/commerce/dev-itpro/store-commerce-mobile)",
+    "descriptionShort": "The Dynamics 365 Store Commerce application",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown1": 2,
+          "unknown2": "63976862",
+          "unknown3": 33
+        },
+        "developerAddress": "One Microsoft Way",
+        "developerEmail": "d365commpub@microsoft.com",
+        "developerName": "Microsoft Corporation",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "63976862",
+            "versionCode": 442325614
+          }
+        ],
+        "installationSize": "63976862",
+        "numDownloads": "5,000+ downloads",
+        "packageName": "microsoft.dynamics.commerce.storecommerce.android",
+        "permission": [
+          "android.permission.INTERNET"
+        ],
+        "unstable": true,
+        "uploadDate": "19 Sept 2023",
+        "versionCode": 442325614,
+        "versionString": "9.44.23256.14"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=microsoft.dynamics.commerce.storecommerce.android",
+    "docType": 1,
+    "docid": "microsoft.dynamics.commerce.storecommerce.android",
+    "image": [
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/DewPOWmg6MqrI4SIpqOpXg0OUgbZom-EU21vx_kBBQgVXo-3-Eop8TX_66vT6Ta1bA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/LHxbieFJf4SB4Y5b6D54HJsmcK5eQ5-o4rbNng-EDQifSwekEJIcppBrM87LsiSA2Eix",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/aCvhGIQKWiXFUy0FA2b1HuOH9LZ6qZqy1apVB_2YIaRySRWeW9OBdHGbAnitbHtuVFI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Qm2tbC-HKsr5iZvEBElXfvhimi3sFm7v8YVB7J9EsGRakZY9XI3-YEbOpNw112w5hQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/gc-DGZ0cC6S0j_fnG7TISuGJ-uz3lT_k5J5uwEcDkNOA_kFhDL0hIAyJbuvJWRWjB66R",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qILzrLbpq3cIEfDTAVbgiddJPGNskrmvKkNkE1LdA1Tu9i9x5UO-n33nQxU7NZBQA8Dg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/QT_5u4SaNhdtfToBBCbQrNc3KT7ZVDut-r49GBfm1yY7ll-1In9ksfoEsvotNz9UqNU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/9EunHke1FCCfEEVTzXLYcklKzClGs3DFdLORiYDUDQSb3FiXKXSxgXMuNpgClL5X4EE",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://privacy.microsoft.com/en-us/privacystatement",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "In-app purchases<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=microsoft.dynamics.commerce.storecommerce.android",
+    "reviewsUrl": "rev?doc=microsoft.dynamics.commerce.storecommerce.android&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=microsoft.dynamics.commerce.storecommerce.android",
+    "title": "Store Commerce",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "d365commpub@microsoft.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "One Microsoft Way"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "3 Oct 2022"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-09-28 07:05:05.224632",
+    "backendDocid": "microsoft.dynamics.commerce.storecommerce.android",
+    "backendId": 3,
+    "creator": "Microsoft Corporation",
+    "descriptionHtml": "Store Commerce is the point-of-sale application for Microsoft Dynamics 365 Commerce. It supports a wide range of capabilities beyond retail sale transactions that enable cashiers, managers and sales associates to manage store operations from a mobile device. In addition to flexible and performant sales transaction workflows, the Store Commerce app facilitates assisted selling and clienteling, order processing and fulfillment, inventory management, shift and cash management, role-based reporting, and more. The Store Commerce app connects to payment terminals, receipt printers, bar code scanners and cash drawers, and is highly customizable to meet the needs of a wide range of business requirements. <br><br>Prerequisites: Deploy a Commerce Scale Unit using the Dynamics Lifecycle Service portal before using the Store Commerce app. The app needs the CPOS URL to activate a register. Store workers and Devices need to be configured in Dynamics 365 Commerce back office. Detailed information and documentation can be found at the Microsoft Learn site (http://learn.microsoft.com/en-us/dynamics365/commerce/dev-itpro/store-commerce-mobile)",
+    "descriptionShort": "The Dynamics 365 Store Commerce application",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown1": 2,
+          "unknown2": "64038323",
+          "unknown3": 33
+        },
+        "developerAddress": "One Microsoft Way",
+        "developerEmail": "d365commpub@microsoft.com",
+        "developerName": "Microsoft Corporation",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "64038323",
+            "versionCode": 452326801
+          }
+        ],
+        "installationSize": "64038323",
+        "numDownloads": "5,000+ downloads",
+        "packageName": "microsoft.dynamics.commerce.storecommerce.android",
+        "permission": [
+          "android.permission.INTERNET"
+        ],
+        "unstable": true,
+        "uploadDate": "26 Sept 2023",
+        "versionCode": 452326801,
+        "versionString": "9.45.23268.1"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=microsoft.dynamics.commerce.storecommerce.android",
+    "docType": 1,
+    "docid": "microsoft.dynamics.commerce.storecommerce.android",
+    "image": [
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/DewPOWmg6MqrI4SIpqOpXg0OUgbZom-EU21vx_kBBQgVXo-3-Eop8TX_66vT6Ta1bA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/LHxbieFJf4SB4Y5b6D54HJsmcK5eQ5-o4rbNng-EDQifSwekEJIcppBrM87LsiSA2Eix",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/aCvhGIQKWiXFUy0FA2b1HuOH9LZ6qZqy1apVB_2YIaRySRWeW9OBdHGbAnitbHtuVFI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Qm2tbC-HKsr5iZvEBElXfvhimi3sFm7v8YVB7J9EsGRakZY9XI3-YEbOpNw112w5hQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/gc-DGZ0cC6S0j_fnG7TISuGJ-uz3lT_k5J5uwEcDkNOA_kFhDL0hIAyJbuvJWRWjB66R",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qILzrLbpq3cIEfDTAVbgiddJPGNskrmvKkNkE1LdA1Tu9i9x5UO-n33nQxU7NZBQA8Dg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/QT_5u4SaNhdtfToBBCbQrNc3KT7ZVDut-r49GBfm1yY7ll-1In9ksfoEsvotNz9UqNU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/9EunHke1FCCfEEVTzXLYcklKzClGs3DFdLORiYDUDQSb3FiXKXSxgXMuNpgClL5X4EE",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "GBP",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://privacy.microsoft.com/en-us/privacystatement",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "In-app purchases<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=microsoft.dynamics.commerce.storecommerce.android",
+    "reviewsUrl": "rev?doc=microsoft.dynamics.commerce.storecommerce.android&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=microsoft.dynamics.commerce.storecommerce.android",
+    "title": "Store Commerce",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "d365commpub@microsoft.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "One Microsoft Way"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "3 Oct 2022"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-10-04 03:40:52.174465",
+    "backendDocid": "microsoft.dynamics.commerce.storecommerce.android",
+    "backendId": 3,
+    "creator": "Microsoft Corporation",
+    "descriptionHtml": "Store Commerce is the point-of-sale application for Microsoft Dynamics 365 Commerce. It supports a wide range of capabilities beyond retail sale transactions that enable cashiers, managers and sales associates to manage store operations from a mobile device. In addition to flexible and performant sales transaction workflows, the Store Commerce app facilitates assisted selling and clienteling, order processing and fulfillment, inventory management, shift and cash management, role-based reporting, and more. The Store Commerce app connects to payment terminals, receipt printers, bar code scanners and cash drawers, and is highly customizable to meet the needs of a wide range of business requirements. <br><br>Prerequisites: Deploy a Commerce Scale Unit using the Dynamics Lifecycle Service portal before using the Store Commerce app. The app needs the CPOS URL to activate a register. Store workers and Devices need to be configured in Dynamics 365 Commerce back office. Detailed information and documentation can be found at the Microsoft Learn site (http://learn.microsoft.com/en-us/dynamics365/commerce/dev-itpro/store-commerce-mobile)",
+    "descriptionShort": "The Dynamics 365 Store Commerce application",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown1": 2,
+          "unknown2": "64030132",
+          "unknown3": 33
+        },
+        "developerAddress": "One Microsoft Way",
+        "developerEmail": "d365commpub@microsoft.com",
+        "developerName": "Microsoft Corporation",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "64030132",
+            "versionCode": 452327205
+          }
+        ],
+        "installationSize": "64030132",
+        "numDownloads": "5,000+ downloads",
+        "packageName": "microsoft.dynamics.commerce.storecommerce.android",
+        "permission": [
+          "android.permission.INTERNET"
+        ],
+        "unstable": true,
+        "uploadDate": "3 Oct 2023",
+        "versionCode": 452327205,
+        "versionString": "9.45.23272.5"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=microsoft.dynamics.commerce.storecommerce.android",
+    "docType": 1,
+    "docid": "microsoft.dynamics.commerce.storecommerce.android",
+    "image": [
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/DewPOWmg6MqrI4SIpqOpXg0OUgbZom-EU21vx_kBBQgVXo-3-Eop8TX_66vT6Ta1bA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/LHxbieFJf4SB4Y5b6D54HJsmcK5eQ5-o4rbNng-EDQifSwekEJIcppBrM87LsiSA2Eix",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/aCvhGIQKWiXFUy0FA2b1HuOH9LZ6qZqy1apVB_2YIaRySRWeW9OBdHGbAnitbHtuVFI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Qm2tbC-HKsr5iZvEBElXfvhimi3sFm7v8YVB7J9EsGRakZY9XI3-YEbOpNw112w5hQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/gc-DGZ0cC6S0j_fnG7TISuGJ-uz3lT_k5J5uwEcDkNOA_kFhDL0hIAyJbuvJWRWjB66R",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qILzrLbpq3cIEfDTAVbgiddJPGNskrmvKkNkE1LdA1Tu9i9x5UO-n33nQxU7NZBQA8Dg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/QT_5u4SaNhdtfToBBCbQrNc3KT7ZVDut-r49GBfm1yY7ll-1In9ksfoEsvotNz9UqNU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/9EunHke1FCCfEEVTzXLYcklKzClGs3DFdLORiYDUDQSb3FiXKXSxgXMuNpgClL5X4EE",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "GBP",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://privacy.microsoft.com/en-us/privacystatement",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "In-app purchases<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=microsoft.dynamics.commerce.storecommerce.android",
+    "reviewsUrl": "rev?doc=microsoft.dynamics.commerce.storecommerce.android&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=microsoft.dynamics.commerce.storecommerce.android",
+    "title": "Store Commerce",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "d365commpub@microsoft.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "One Microsoft Way"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "3 Oct 2022"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-10-10 00:28:20.318717",
+    "backendDocid": "microsoft.dynamics.commerce.storecommerce.android",
+    "backendId": 3,
+    "creator": "Microsoft Corporation",
+    "descriptionHtml": "Store Commerce is the point-of-sale application for Microsoft Dynamics 365 Commerce. It supports a wide range of capabilities beyond retail sale transactions that enable cashiers, managers and sales associates to manage store operations from a mobile device. In addition to flexible and performant sales transaction workflows, the Store Commerce app facilitates assisted selling and clienteling, order processing and fulfillment, inventory management, shift and cash management, role-based reporting, and more. The Store Commerce app connects to payment terminals, receipt printers, bar code scanners and cash drawers, and is highly customizable to meet the needs of a wide range of business requirements. <br><br>Prerequisites: Deploy a Commerce Scale Unit using the Dynamics Lifecycle Service portal before using the Store Commerce app. The app needs the CPOS URL to activate a register. Store workers and Devices need to be configured in Dynamics 365 Commerce back office. Detailed information and documentation can be found at the Microsoft Learn site (http://learn.microsoft.com/en-us/dynamics365/commerce/dev-itpro/store-commerce-mobile)",
+    "descriptionShort": "The Dynamics 365 Store Commerce application",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown1": 2,
+          "unknown2": "64034249",
+          "unknown3": 33
+        },
+        "developerAddress": "One Microsoft Way",
+        "developerEmail": "d365commpub@microsoft.com",
+        "developerName": "Microsoft Corporation",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "64034249",
+            "versionCode": 452327807
+          }
+        ],
+        "installationSize": "64034249",
+        "numDownloads": "5,000+ downloads",
+        "packageName": "microsoft.dynamics.commerce.storecommerce.android",
+        "permission": [
+          "android.permission.INTERNET"
+        ],
+        "unstable": true,
+        "uploadDate": "5 Oct 2023",
+        "versionCode": 452327807,
+        "versionString": "9.45.23278.7"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=microsoft.dynamics.commerce.storecommerce.android",
+    "docType": 1,
+    "docid": "microsoft.dynamics.commerce.storecommerce.android",
+    "image": [
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/DewPOWmg6MqrI4SIpqOpXg0OUgbZom-EU21vx_kBBQgVXo-3-Eop8TX_66vT6Ta1bA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/LHxbieFJf4SB4Y5b6D54HJsmcK5eQ5-o4rbNng-EDQifSwekEJIcppBrM87LsiSA2Eix",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/aCvhGIQKWiXFUy0FA2b1HuOH9LZ6qZqy1apVB_2YIaRySRWeW9OBdHGbAnitbHtuVFI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Qm2tbC-HKsr5iZvEBElXfvhimi3sFm7v8YVB7J9EsGRakZY9XI3-YEbOpNw112w5hQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/gc-DGZ0cC6S0j_fnG7TISuGJ-uz3lT_k5J5uwEcDkNOA_kFhDL0hIAyJbuvJWRWjB66R",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qILzrLbpq3cIEfDTAVbgiddJPGNskrmvKkNkE1LdA1Tu9i9x5UO-n33nQxU7NZBQA8Dg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/QT_5u4SaNhdtfToBBCbQrNc3KT7ZVDut-r49GBfm1yY7ll-1In9ksfoEsvotNz9UqNU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/9EunHke1FCCfEEVTzXLYcklKzClGs3DFdLORiYDUDQSb3FiXKXSxgXMuNpgClL5X4EE",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://privacy.microsoft.com/en-us/privacystatement",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "In-app purchases<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=microsoft.dynamics.commerce.storecommerce.android",
+    "reviewsUrl": "rev?doc=microsoft.dynamics.commerce.storecommerce.android&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=microsoft.dynamics.commerce.storecommerce.android",
+    "title": "Store Commerce",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "d365commpub@microsoft.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "One Microsoft Way"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "3 Oct 2022"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-10-19 06:44:14.759605",
+    "backendDocid": "microsoft.dynamics.commerce.storecommerce.android",
+    "backendId": 3,
+    "creator": "Microsoft Corporation",
+    "descriptionHtml": "Store Commerce is the point-of-sale application for Microsoft Dynamics 365 Commerce. It supports a wide range of capabilities beyond retail sale transactions that enable cashiers, managers and sales associates to manage store operations from a mobile device. In addition to flexible and performant sales transaction workflows, the Store Commerce app facilitates assisted selling and clienteling, order processing and fulfillment, inventory management, shift and cash management, role-based reporting, and more. The Store Commerce app connects to payment terminals, receipt printers, bar code scanners and cash drawers, and is highly customizable to meet the needs of a wide range of business requirements. <br><br>Prerequisites: Deploy a Commerce Scale Unit using the Dynamics Lifecycle Service portal before using the Store Commerce app. The app needs the CPOS URL to activate a register. Store workers and Devices need to be configured in Dynamics 365 Commerce back office. Detailed information and documentation can be found at the Microsoft Learn site (http://learn.microsoft.com/en-us/dynamics365/commerce/dev-itpro/store-commerce-mobile)",
+    "descriptionShort": "The Dynamics 365 Store Commerce application",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown1": 2,
+          "unknown2": "64030094",
+          "unknown3": 33
+        },
+        "developerAddress": "One Microsoft Way",
+        "developerEmail": "d365commpub@microsoft.com",
+        "developerName": "Microsoft Corporation",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "64030094",
+            "versionCode": 452328705
+          }
+        ],
+        "installationSize": "64030094",
+        "numDownloads": "5,000+ downloads",
+        "packageName": "microsoft.dynamics.commerce.storecommerce.android",
+        "permission": [
+          "android.permission.INTERNET"
+        ],
+        "unstable": true,
+        "uploadDate": "17 Oct 2023",
+        "versionCode": 452328705,
+        "versionString": "9.45.23287.5"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=microsoft.dynamics.commerce.storecommerce.android",
+    "docType": 1,
+    "docid": "microsoft.dynamics.commerce.storecommerce.android",
+    "image": [
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/DewPOWmg6MqrI4SIpqOpXg0OUgbZom-EU21vx_kBBQgVXo-3-Eop8TX_66vT6Ta1bA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/LHxbieFJf4SB4Y5b6D54HJsmcK5eQ5-o4rbNng-EDQifSwekEJIcppBrM87LsiSA2Eix",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/aCvhGIQKWiXFUy0FA2b1HuOH9LZ6qZqy1apVB_2YIaRySRWeW9OBdHGbAnitbHtuVFI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Qm2tbC-HKsr5iZvEBElXfvhimi3sFm7v8YVB7J9EsGRakZY9XI3-YEbOpNw112w5hQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/gc-DGZ0cC6S0j_fnG7TISuGJ-uz3lT_k5J5uwEcDkNOA_kFhDL0hIAyJbuvJWRWjB66R",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qILzrLbpq3cIEfDTAVbgiddJPGNskrmvKkNkE1LdA1Tu9i9x5UO-n33nQxU7NZBQA8Dg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/QT_5u4SaNhdtfToBBCbQrNc3KT7ZVDut-r49GBfm1yY7ll-1In9ksfoEsvotNz9UqNU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/9EunHke1FCCfEEVTzXLYcklKzClGs3DFdLORiYDUDQSb3FiXKXSxgXMuNpgClL5X4EE",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "GBP",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://privacy.microsoft.com/en-us/privacystatement",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "In-app purchases<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=microsoft.dynamics.commerce.storecommerce.android",
+    "reviewsUrl": "rev?doc=microsoft.dynamics.commerce.storecommerce.android&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=microsoft.dynamics.commerce.storecommerce.android",
+    "title": "Store Commerce",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "d365commpub@microsoft.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "One Microsoft Way"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "3 Oct 2022"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "8",
+      "fiveStarRatings": "21",
+      "fourStarRatings": "2",
+      "oneStarRatings": "6",
+      "ratingsCount": "31",
+      "starRating": 4.032258,
+      "threeStarRatings": "2",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-11-19 23:40:52.830037",
+    "backendDocid": "microsoft.dynamics.commerce.storecommerce.android",
+    "backendId": 3,
+    "creator": "Microsoft Corporation",
+    "descriptionHtml": "Store Commerce is the point-of-sale application for Microsoft Dynamics 365 Commerce. It supports a wide range of capabilities beyond retail sale transactions that enable cashiers, managers and sales associates to manage store operations from a mobile device. In addition to flexible and performant sales transaction workflows, the Store Commerce app facilitates assisted selling and clienteling, order processing and fulfillment, inventory management, shift and cash management, role-based reporting, and more. The Store Commerce app connects to payment terminals, receipt printers, bar code scanners and cash drawers, and is highly customizable to meet the needs of a wide range of business requirements. <br><br>Prerequisites: Deploy a Commerce Scale Unit using the Dynamics Lifecycle Service portal before using the Store Commerce app. The app needs the CPOS URL to activate a register. Store workers and Devices need to be configured in Dynamics 365 Commerce back office. Detailed information and documentation can be found at the Microsoft Learn site (http://learn.microsoft.com/en-us/dynamics365/commerce/dev-itpro/store-commerce-mobile)",
+    "descriptionShort": "The Dynamics 365 Store Commerce application",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown1": 2,
+          "unknown2": "64038143",
+          "unknown3": 33
+        },
+        "developerAddress": "One Microsoft Way",
+        "developerEmail": "d365commpub@microsoft.com",
+        "developerName": "Microsoft Corporation",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "64038143",
+            "versionCode": 452329603
+          }
+        ],
+        "installationSize": "64038143",
+        "numDownloads": "5,000+ downloads",
+        "packageName": "microsoft.dynamics.commerce.storecommerce.android",
+        "permission": [
+          "android.permission.INTERNET"
+        ],
+        "unstable": true,
+        "uploadDate": "24 Oct 2023",
+        "versionCode": 452329603,
+        "versionString": "9.45.23296.3"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=microsoft.dynamics.commerce.storecommerce.android&vc=452329603",
+    "docType": 1,
+    "docid": "microsoft.dynamics.commerce.storecommerce.android",
+    "image": [
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/DewPOWmg6MqrI4SIpqOpXg0OUgbZom-EU21vx_kBBQgVXo-3-Eop8TX_66vT6Ta1bA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/LHxbieFJf4SB4Y5b6D54HJsmcK5eQ5-o4rbNng-EDQifSwekEJIcppBrM87LsiSA2Eix",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/aCvhGIQKWiXFUy0FA2b1HuOH9LZ6qZqy1apVB_2YIaRySRWeW9OBdHGbAnitbHtuVFI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Qm2tbC-HKsr5iZvEBElXfvhimi3sFm7v8YVB7J9EsGRakZY9XI3-YEbOpNw112w5hQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/gc-DGZ0cC6S0j_fnG7TISuGJ-uz3lT_k5J5uwEcDkNOA_kFhDL0hIAyJbuvJWRWjB66R",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qILzrLbpq3cIEfDTAVbgiddJPGNskrmvKkNkE1LdA1Tu9i9x5UO-n33nQxU7NZBQA8Dg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/QT_5u4SaNhdtfToBBCbQrNc3KT7ZVDut-r49GBfm1yY7ll-1In9ksfoEsvotNz9UqNU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/9EunHke1FCCfEEVTzXLYcklKzClGs3DFdLORiYDUDQSb3FiXKXSxgXMuNpgClL5X4EE",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://privacy.microsoft.com/en-us/privacystatement",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "In-app purchases<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=microsoft.dynamics.commerce.storecommerce.android",
+    "reviewsUrl": "rev?doc=microsoft.dynamics.commerce.storecommerce.android&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=microsoft.dynamics.commerce.storecommerce.android",
+    "title": "Store Commerce\n9.45.23296.3",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "d365commpub@microsoft.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "One Microsoft Way"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "3 Oct 2022"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-12-01 23:38:04.038778",
+    "backendDocid": "microsoft.dynamics.commerce.storecommerce.android",
+    "backendId": 3,
+    "creator": "Microsoft Corporation",
+    "descriptionHtml": "Store Commerce is the point-of-sale application for Microsoft Dynamics 365 Commerce. It supports a wide range of capabilities beyond retail sale transactions that enable cashiers, managers and sales associates to manage store operations from a mobile device. In addition to flexible and performant sales transaction workflows, the Store Commerce app facilitates assisted selling and clienteling, order processing and fulfillment, inventory management, shift and cash management, role-based reporting, and more. The Store Commerce app connects to payment terminals, receipt printers, bar code scanners and cash drawers, and is highly customizable to meet the needs of a wide range of business requirements. <br><br>Prerequisites: Deploy a Commerce Scale Unit using the Dynamics Lifecycle Service portal before using the Store Commerce app. The app needs the CPOS URL to activate a register. Store workers and Devices need to be configured in Dynamics 365 Commerce back office. Detailed information and documentation can be found at the Microsoft Learn site (http://learn.microsoft.com/en-us/dynamics365/commerce/dev-itpro/store-commerce-mobile)",
+    "descriptionShort": "The Dynamics 365 Store Commerce application",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown1": 2,
+          "unknown2": "64046288",
+          "unknown3": 33
+        },
+        "developerAddress": "One Microsoft Way",
+        "developerEmail": "d365commpub@microsoft.com",
+        "developerName": "Microsoft Corporation",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "64046288",
+            "versionCode": 462331908
+          }
+        ],
+        "installationSize": "64046288",
+        "numDownloads": "5,000+ downloads",
+        "packageName": "microsoft.dynamics.commerce.storecommerce.android",
+        "permission": [
+          "android.permission.INTERNET"
+        ],
+        "unstable": true,
+        "uploadDate": "22 Nov 2023",
+        "versionCode": 462331908,
+        "versionString": "9.46.23319.8"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=microsoft.dynamics.commerce.storecommerce.android&vc=462331908",
+    "docType": 1,
+    "docid": "microsoft.dynamics.commerce.storecommerce.android",
+    "image": [
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/DewPOWmg6MqrI4SIpqOpXg0OUgbZom-EU21vx_kBBQgVXo-3-Eop8TX_66vT6Ta1bA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/LHxbieFJf4SB4Y5b6D54HJsmcK5eQ5-o4rbNng-EDQifSwekEJIcppBrM87LsiSA2Eix",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/aCvhGIQKWiXFUy0FA2b1HuOH9LZ6qZqy1apVB_2YIaRySRWeW9OBdHGbAnitbHtuVFI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Qm2tbC-HKsr5iZvEBElXfvhimi3sFm7v8YVB7J9EsGRakZY9XI3-YEbOpNw112w5hQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/gc-DGZ0cC6S0j_fnG7TISuGJ-uz3lT_k5J5uwEcDkNOA_kFhDL0hIAyJbuvJWRWjB66R",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qILzrLbpq3cIEfDTAVbgiddJPGNskrmvKkNkE1LdA1Tu9i9x5UO-n33nQxU7NZBQA8Dg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/QT_5u4SaNhdtfToBBCbQrNc3KT7ZVDut-r49GBfm1yY7ll-1In9ksfoEsvotNz9UqNU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/9EunHke1FCCfEEVTzXLYcklKzClGs3DFdLORiYDUDQSb3FiXKXSxgXMuNpgClL5X4EE",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://privacy.microsoft.com/en-us/privacystatement",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "In-app purchases<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=microsoft.dynamics.commerce.storecommerce.android",
+    "reviewsUrl": "rev?doc=microsoft.dynamics.commerce.storecommerce.android&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=microsoft.dynamics.commerce.storecommerce.android",
+    "title": "Store Commerce\n9.46.23319.8",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "d365commpub@microsoft.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "One Microsoft Way"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "3 Oct 2022"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2024-03-19 15:31:13.123841",
+    "backendDocid": "microsoft.dynamics.commerce.storecommerce.android",
+    "backendId": 3,
+    "creator": "Microsoft Corporation",
+    "descriptionHtml": "Store Commerce is the point-of-sale application for Microsoft Dynamics 365 Commerce. It supports a wide range of capabilities beyond retail sale transactions that enable cashiers, managers and sales associates to manage store operations from a mobile device. In addition to flexible and performant sales transaction workflows, the Store Commerce app facilitates assisted selling and clienteling, order processing and fulfillment, inventory management, shift and cash management, role-based reporting, and more. The Store Commerce app connects to payment terminals, receipt printers, bar code scanners and cash drawers, and is highly customizable to meet the needs of a wide range of business requirements. <br><br>Prerequisites: Deploy a Commerce Scale Unit using the Dynamics Lifecycle Service portal before using the Store Commerce app. The app needs the CPOS URL to activate a register. Store workers and Devices need to be configured in Dynamics 365 Commerce back office. Detailed information and documentation can be found at the Microsoft Learn site (http://learn.microsoft.com/en-us/dynamics365/commerce/dev-itpro/store-commerce-mobile)",
+    "descriptionShort": "The Dynamics 365 Store Commerce application",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown1": 2,
+          "unknown2": "64906849",
+          "unknown3": 33
+        },
+        "developerAddress": "One Microsoft Way",
+        "developerEmail": "d365commpub@microsoft.com",
+        "developerName": "Microsoft Corporation",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "64906849",
+            "versionCode": 472406802
+          }
+        ],
+        "installationSize": "64906849",
+        "numDownloads": "5,000+ downloads",
+        "packageName": "microsoft.dynamics.commerce.storecommerce.android",
+        "permission": [
+          "android.permission.INTERNET"
+        ],
+        "unstable": true,
+        "uploadDate": "12 Mar 2024",
+        "versionCode": 472406802,
+        "versionString": "9.47.24068.2"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=microsoft.dynamics.commerce.storecommerce.android&vc=472406802",
+    "docType": 1,
+    "docid": "microsoft.dynamics.commerce.storecommerce.android",
+    "image": [
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/DewPOWmg6MqrI4SIpqOpXg0OUgbZom-EU21vx_kBBQgVXo-3-Eop8TX_66vT6Ta1bA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/LHxbieFJf4SB4Y5b6D54HJsmcK5eQ5-o4rbNng-EDQifSwekEJIcppBrM87LsiSA2Eix",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/aCvhGIQKWiXFUy0FA2b1HuOH9LZ6qZqy1apVB_2YIaRySRWeW9OBdHGbAnitbHtuVFI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Qm2tbC-HKsr5iZvEBElXfvhimi3sFm7v8YVB7J9EsGRakZY9XI3-YEbOpNw112w5hQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/gc-DGZ0cC6S0j_fnG7TISuGJ-uz3lT_k5J5uwEcDkNOA_kFhDL0hIAyJbuvJWRWjB66R",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qILzrLbpq3cIEfDTAVbgiddJPGNskrmvKkNkE1LdA1Tu9i9x5UO-n33nQxU7NZBQA8Dg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/QT_5u4SaNhdtfToBBCbQrNc3KT7ZVDut-r49GBfm1yY7ll-1In9ksfoEsvotNz9UqNU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/9EunHke1FCCfEEVTzXLYcklKzClGs3DFdLORiYDUDQSb3FiXKXSxgXMuNpgClL5X4EE",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "ILS",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://privacy.microsoft.com/en-us/privacystatement",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "In-app purchases<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=microsoft.dynamics.commerce.storecommerce.android",
+    "reviewsUrl": "rev?doc=microsoft.dynamics.commerce.storecommerce.android&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=microsoft.dynamics.commerce.storecommerce.android",
+    "title": "Store Commerce\n9.47.24068.2",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Microsoft Corporation"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "d365commpub@microsoft.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "One Microsoft Way"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "3 Oct 2022"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "11",
+      "fiveStarRatings": "35",
+      "fourStarRatings": "3",
+      "oneStarRatings": "8",
+      "ratingsCount": "49",
+      "starRating": 4.163265,
+      "threeStarRatings": "3",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2024-09-07 11:08:03.260238",
+    "backendDocid": "microsoft.dynamics.commerce.storecommerce.android",
+    "backendId": 3,
+    "creator": "Microsoft Corporation",
+    "descriptionHtml": "Store Commerce is the point-of-sale application for Microsoft Dynamics 365 Commerce. It supports a wide range of capabilities beyond retail sale transactions that enable cashiers, managers and sales associates to manage store operations from a mobile device. In addition to flexible and performant sales transaction workflows, the Store Commerce app facilitates assisted selling and clienteling, order processing and fulfillment, inventory management, shift and cash management, role-based reporting, and more. The Store Commerce app connects to payment terminals, receipt printers, bar code scanners and cash drawers, and is highly customizable to meet the needs of a wide range of business requirements. <br><br>Prerequisites: Deploy a Commerce Scale Unit using the Dynamics Lifecycle Service portal before using the Store Commerce app. The app needs the CPOS URL to activate a register. Store workers and Devices need to be configured in Dynamics 365 Commerce back office. Detailed information and documentation can be found at the Microsoft Learn site (http://learn.microsoft.com/en-us/dynamics365/commerce/dev-itpro/store-commerce-mobile)",
+    "descriptionShort": "The Dynamics 365 Store Commerce application",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "version": 12451000
+            }
+          ],
+          "unknown1": 2,
+          "unknown2": "108420340",
+          "unknown3": 34
+        },
+        "developerAddress": "One Microsoft Way",
+        "developerEmail": "d365commpub@microsoft.com",
+        "developerName": "Microsoft Corporation",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "108420340",
+            "versionCode": 502424002
+          }
+        ],
+        "installationSize": "108420340",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "microsoft.dynamics.commerce.storecommerce.android",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.CAMERA",
+          "android.permission.FLASHLIGHT",
+          "android.permission.INTERNET",
+          "android.permission.VIBRATE",
+          "microsoft.dynamics.commerce.storecommerce.android.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        ],
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "27 Aug 2024",
+        "versionCode": 502424002,
+        "versionString": "9.50.24240.2"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=microsoft.dynamics.commerce.storecommerce.android&vc=502424002",
+    "docType": 1,
+    "docid": "microsoft.dynamics.commerce.storecommerce.android",
+    "image": [
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/DewPOWmg6MqrI4SIpqOpXg0OUgbZom-EU21vx_kBBQgVXo-3-Eop8TX_66vT6Ta1bA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/LHxbieFJf4SB4Y5b6D54HJsmcK5eQ5-o4rbNng-EDQifSwekEJIcppBrM87LsiSA2Eix",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/aCvhGIQKWiXFUy0FA2b1HuOH9LZ6qZqy1apVB_2YIaRySRWeW9OBdHGbAnitbHtuVFI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Qm2tbC-HKsr5iZvEBElXfvhimi3sFm7v8YVB7J9EsGRakZY9XI3-YEbOpNw112w5hQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/gc-DGZ0cC6S0j_fnG7TISuGJ-uz3lT_k5J5uwEcDkNOA_kFhDL0hIAyJbuvJWRWjB66R",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qILzrLbpq3cIEfDTAVbgiddJPGNskrmvKkNkE1LdA1Tu9i9x5UO-n33nQxU7NZBQA8Dg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/QT_5u4SaNhdtfToBBCbQrNc3KT7ZVDut-r49GBfm1yY7ll-1In9ksfoEsvotNz9UqNU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/9EunHke1FCCfEEVTzXLYcklKzClGs3DFdLORiYDUDQSb3FiXKXSxgXMuNpgClL5X4EE",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://privacy.microsoft.com/en-us/privacystatement",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "In-app purchases<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=microsoft.dynamics.commerce.storecommerce.android",
+    "reviewsUrl": "rev?doc=microsoft.dynamics.commerce.storecommerce.android&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=microsoft.dynamics.commerce.storecommerce.android",
+    "title": "Store Commerce\n9.50.24240.2",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "d365commpub@microsoft.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "One Microsoft Way"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "3 Oct 2022"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "14",
+      "fiveStarRatings": "38",
+      "fourStarRatings": "4",
+      "oneStarRatings": "10",
+      "ratingsCount": "56",
+      "starRating": 4.053571,
+      "threeStarRatings": "3",
+      "twoStarRatings": "1",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2025-02-08 04:32:59.971476",
+    "backendDocid": "microsoft.dynamics.commerce.storecommerce.android",
+    "backendId": 3,
+    "creator": "Microsoft Corporation",
+    "descriptionHtml": "Store Commerce is the point-of-sale application for Microsoft Dynamics 365 Commerce. It supports a wide range of capabilities beyond retail sale transactions that enable cashiers, managers and sales associates to manage store operations from a mobile device. In addition to flexible and performant sales transaction workflows, the Store Commerce app facilitates assisted selling and clienteling, order processing and fulfillment, inventory management, shift and cash management, role-based reporting, and more. The Store Commerce app connects to payment terminals, receipt printers, bar code scanners and cash drawers, and is highly customizable to meet the needs of a wide range of business requirements. <br><br>Prerequisites: Deploy a Commerce Scale Unit using the Dynamics Lifecycle Service portal before using the Store Commerce app. The app needs the CPOS URL to activate a register. Store workers and Devices need to be configured in Dynamics 365 Commerce back office. Detailed information and documentation can be found at the Microsoft Learn site (http://learn.microsoft.com/en-us/dynamics365/commerce/dev-itpro/store-commerce-mobile)",
+    "descriptionShort": "The Dynamics 365 Store Commerce application",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "version": 12451000
+            }
+          ],
+          "unknown1": 2,
+          "unknown2": "108737466",
+          "unknown3": 34
+        },
+        "developerAddress": "One Microsoft Way",
+        "developerEmail": "d365commpub@microsoft.com",
+        "developerName": "Microsoft Corporation",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "108737466",
+            "versionCode": 522503603
+          }
+        ],
+        "installationSize": "108737466",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "microsoft.dynamics.commerce.storecommerce.android",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.CAMERA",
+          "android.permission.FLASHLIGHT",
+          "android.permission.INTERNET",
+          "android.permission.VIBRATE",
+          "microsoft.dynamics.commerce.storecommerce.android.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        ],
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "5 Feb 2025",
+        "versionCode": 522503603,
+        "versionString": "9.52.25036.3"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=microsoft.dynamics.commerce.storecommerce.android&vc=522503603",
+    "docType": 1,
+    "docid": "microsoft.dynamics.commerce.storecommerce.android",
+    "image": [
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/DewPOWmg6MqrI4SIpqOpXg0OUgbZom-EU21vx_kBBQgVXo-3-Eop8TX_66vT6Ta1bA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/LHxbieFJf4SB4Y5b6D54HJsmcK5eQ5-o4rbNng-EDQifSwekEJIcppBrM87LsiSA2Eix",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/aCvhGIQKWiXFUy0FA2b1HuOH9LZ6qZqy1apVB_2YIaRySRWeW9OBdHGbAnitbHtuVFI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Qm2tbC-HKsr5iZvEBElXfvhimi3sFm7v8YVB7J9EsGRakZY9XI3-YEbOpNw112w5hQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/gc-DGZ0cC6S0j_fnG7TISuGJ-uz3lT_k5J5uwEcDkNOA_kFhDL0hIAyJbuvJWRWjB66R",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qILzrLbpq3cIEfDTAVbgiddJPGNskrmvKkNkE1LdA1Tu9i9x5UO-n33nQxU7NZBQA8Dg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/QT_5u4SaNhdtfToBBCbQrNc3KT7ZVDut-r49GBfm1yY7ll-1In9ksfoEsvotNz9UqNU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/9EunHke1FCCfEEVTzXLYcklKzClGs3DFdLORiYDUDQSb3FiXKXSxgXMuNpgClL5X4EE",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://privacy.microsoft.com/en-us/privacystatement",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "In-app purchases<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=microsoft.dynamics.commerce.storecommerce.android",
+    "reviewsUrl": "rev?doc=microsoft.dynamics.commerce.storecommerce.android&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=microsoft.dynamics.commerce.storecommerce.android",
+    "title": "Store Commerce\n9.52.25036.3",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "d365commpub@microsoft.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "One Microsoft Way"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "3 Oct 2022"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2025-02-25 14:09:23.254579",
+    "backendDocid": "microsoft.dynamics.commerce.storecommerce.android",
+    "backendId": 3,
+    "creator": "Microsoft Corporation",
+    "descriptionHtml": "Store Commerce is the point-of-sale application for Microsoft Dynamics 365 Commerce. It supports a wide range of capabilities beyond retail sale transactions that enable cashiers, managers and sales associates to manage store operations from a mobile device. In addition to flexible and performant sales transaction workflows, the Store Commerce app facilitates assisted selling and clienteling, order processing and fulfillment, inventory management, shift and cash management, role-based reporting, and more. The Store Commerce app connects to payment terminals, receipt printers, bar code scanners and cash drawers, and is highly customizable to meet the needs of a wide range of business requirements. <br><br>Prerequisites: Deploy a Commerce Scale Unit using the Dynamics Lifecycle Service portal before using the Store Commerce app. The app needs the CPOS URL to activate a register. Store workers and Devices need to be configured in Dynamics 365 Commerce back office. Detailed information and documentation can be found at the Microsoft Learn site (http://learn.microsoft.com/en-us/dynamics365/commerce/dev-itpro/store-commerce-mobile)",
+    "descriptionShort": "The Dynamics 365 Store Commerce application",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "version": 12451000
+            }
+          ],
+          "unknown1": 2,
+          "unknown2": "108737447",
+          "unknown3": 34
+        },
+        "developerAddress": "One Microsoft Way",
+        "developerEmail": "d365commpub@microsoft.com",
+        "developerName": "Microsoft Corporation",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "108737447",
+            "versionCode": 522505203
+          }
+        ],
+        "installationSize": "108737447",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "microsoft.dynamics.commerce.storecommerce.android",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.CAMERA",
+          "android.permission.FLASHLIGHT",
+          "android.permission.INTERNET",
+          "android.permission.VIBRATE",
+          "microsoft.dynamics.commerce.storecommerce.android.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        ],
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "21 Feb 2025",
+        "versionCode": 522505203,
+        "versionString": "9.52.25052.3"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=microsoft.dynamics.commerce.storecommerce.android&vc=522505203",
+    "docType": 1,
+    "docid": "microsoft.dynamics.commerce.storecommerce.android",
+    "image": [
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/DewPOWmg6MqrI4SIpqOpXg0OUgbZom-EU21vx_kBBQgVXo-3-Eop8TX_66vT6Ta1bA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/LHxbieFJf4SB4Y5b6D54HJsmcK5eQ5-o4rbNng-EDQifSwekEJIcppBrM87LsiSA2Eix",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/aCvhGIQKWiXFUy0FA2b1HuOH9LZ6qZqy1apVB_2YIaRySRWeW9OBdHGbAnitbHtuVFI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Qm2tbC-HKsr5iZvEBElXfvhimi3sFm7v8YVB7J9EsGRakZY9XI3-YEbOpNw112w5hQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/gc-DGZ0cC6S0j_fnG7TISuGJ-uz3lT_k5J5uwEcDkNOA_kFhDL0hIAyJbuvJWRWjB66R",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qILzrLbpq3cIEfDTAVbgiddJPGNskrmvKkNkE1LdA1Tu9i9x5UO-n33nQxU7NZBQA8Dg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/QT_5u4SaNhdtfToBBCbQrNc3KT7ZVDut-r49GBfm1yY7ll-1In9ksfoEsvotNz9UqNU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/9EunHke1FCCfEEVTzXLYcklKzClGs3DFdLORiYDUDQSb3FiXKXSxgXMuNpgClL5X4EE",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "ILS",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://privacy.microsoft.com/en-us/privacystatement",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "In-app purchases<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=microsoft.dynamics.commerce.storecommerce.android",
+    "reviewsUrl": "rev?doc=microsoft.dynamics.commerce.storecommerce.android&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=microsoft.dynamics.commerce.storecommerce.android",
+    "title": "Store Commerce\n9.52.25052.3",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Microsoft Corporation"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "d365commpub@microsoft.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "One Microsoft Way"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "3 Oct 2022"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "14",
+      "fiveStarRatings": "41",
+      "fourStarRatings": "4",
+      "oneStarRatings": "10",
+      "ratingsCount": "60",
+      "starRating": 4.0833335,
+      "threeStarRatings": "4",
+      "twoStarRatings": "1",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2025-03-18 15:35:40.082151",
+    "backendDocid": "microsoft.dynamics.commerce.storecommerce.android",
+    "backendId": 3,
+    "creator": "Microsoft Corporation",
+    "descriptionHtml": "Store Commerce is the point-of-sale application for Microsoft Dynamics 365 Commerce. It supports a wide range of capabilities beyond retail sale transactions that enable cashiers, managers and sales associates to manage store operations from a mobile device. In addition to flexible and performant sales transaction workflows, the Store Commerce app facilitates assisted selling and clienteling, order processing and fulfillment, inventory management, shift and cash management, role-based reporting, and more. The Store Commerce app connects to payment terminals, receipt printers, bar code scanners and cash drawers, and is highly customizable to meet the needs of a wide range of business requirements. <br><br>Prerequisites: Deploy a Commerce Scale Unit using the Dynamics Lifecycle Service portal before using the Store Commerce app. The app needs the CPOS URL to activate a register. Store workers and Devices need to be configured in Dynamics 365 Commerce back office. Detailed information and documentation can be found at the Microsoft Learn site (http://learn.microsoft.com/en-us/dynamics365/commerce/dev-itpro/store-commerce-mobile)",
+    "descriptionShort": "The Dynamics 365 Store Commerce application",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "version": 12451000
+            }
+          ],
+          "unknown1": 2,
+          "unknown2": "108737440",
+          "unknown3": 34
+        },
+        "developerAddress": "One Microsoft Way",
+        "developerEmail": "d365commpub@microsoft.com",
+        "developerName": "Microsoft Corporation",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "108737440",
+            "versionCode": 522506902
+          }
+        ],
+        "installationSize": "108737440",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "microsoft.dynamics.commerce.storecommerce.android",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.CAMERA",
+          "android.permission.FLASHLIGHT",
+          "android.permission.INTERNET",
+          "android.permission.VIBRATE",
+          "microsoft.dynamics.commerce.storecommerce.android.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        ],
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "11 Mar 2025",
+        "versionCode": 522506902,
+        "versionString": "9.52.25069.2"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=microsoft.dynamics.commerce.storecommerce.android&vc=522506902",
+    "docType": 1,
+    "docid": "microsoft.dynamics.commerce.storecommerce.android",
+    "image": [
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/DewPOWmg6MqrI4SIpqOpXg0OUgbZom-EU21vx_kBBQgVXo-3-Eop8TX_66vT6Ta1bA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/LHxbieFJf4SB4Y5b6D54HJsmcK5eQ5-o4rbNng-EDQifSwekEJIcppBrM87LsiSA2Eix",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/aCvhGIQKWiXFUy0FA2b1HuOH9LZ6qZqy1apVB_2YIaRySRWeW9OBdHGbAnitbHtuVFI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Qm2tbC-HKsr5iZvEBElXfvhimi3sFm7v8YVB7J9EsGRakZY9XI3-YEbOpNw112w5hQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/gc-DGZ0cC6S0j_fnG7TISuGJ-uz3lT_k5J5uwEcDkNOA_kFhDL0hIAyJbuvJWRWjB66R",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qILzrLbpq3cIEfDTAVbgiddJPGNskrmvKkNkE1LdA1Tu9i9x5UO-n33nQxU7NZBQA8Dg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/QT_5u4SaNhdtfToBBCbQrNc3KT7ZVDut-r49GBfm1yY7ll-1In9ksfoEsvotNz9UqNU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/9EunHke1FCCfEEVTzXLYcklKzClGs3DFdLORiYDUDQSb3FiXKXSxgXMuNpgClL5X4EE",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://privacy.microsoft.com/en-us/privacystatement",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "In-app purchases<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=microsoft.dynamics.commerce.storecommerce.android",
+    "reviewsUrl": "rev?doc=microsoft.dynamics.commerce.storecommerce.android&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=microsoft.dynamics.commerce.storecommerce.android",
+    "title": "Store Commerce\n9.52.25069.2",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "d365commpub@microsoft.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "One Microsoft Way"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "3 Oct 2022"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "14",
+      "fiveStarRatings": "41",
+      "fourStarRatings": "5",
+      "oneStarRatings": "10",
+      "ratingsCount": "61",
+      "starRating": 4.0819674,
+      "threeStarRatings": "4",
+      "twoStarRatings": "1",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2025-04-11 18:34:20.377199",
+    "backendDocid": "microsoft.dynamics.commerce.storecommerce.android",
+    "backendId": 3,
+    "creator": "Microsoft Corporation",
+    "descriptionHtml": "Store Commerce is the point-of-sale application for Microsoft Dynamics 365 Commerce. It supports a wide range of capabilities beyond retail sale transactions that enable cashiers, managers and sales associates to manage store operations from a mobile device. In addition to flexible and performant sales transaction workflows, the Store Commerce app facilitates assisted selling and clienteling, order processing and fulfillment, inventory management, shift and cash management, role-based reporting, and more. The Store Commerce app connects to payment terminals, receipt printers, bar code scanners and cash drawers, and is highly customizable to meet the needs of a wide range of business requirements. <br><br>Prerequisites: Deploy a Commerce Scale Unit using the Dynamics Lifecycle Service portal before using the Store Commerce app. The app needs the CPOS URL to activate a register. Store workers and Devices need to be configured in Dynamics 365 Commerce back office. Detailed information and documentation can be found at the Microsoft Learn site (http://learn.microsoft.com/en-us/dynamics365/commerce/dev-itpro/store-commerce-mobile)",
+    "descriptionShort": "The Dynamics 365 Store Commerce application",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "version": 12451000
+            }
+          ],
+          "unknown1": 2,
+          "unknown2": "109119802",
+          "unknown3": 34
+        },
+        "developerAddress": "One Microsoft Way",
+        "developerEmail": "d365commpub@microsoft.com",
+        "developerName": "Microsoft Corporation",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "109119802",
+            "versionCode": 532508405
+          }
+        ],
+        "installationSize": "109119802",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "microsoft.dynamics.commerce.storecommerce.android",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.CAMERA",
+          "android.permission.FLASHLIGHT",
+          "android.permission.INTERNET",
+          "android.permission.VIBRATE",
+          "microsoft.dynamics.commerce.storecommerce.android.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        ],
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "25 Mar 2025",
+        "versionCode": 532508405,
+        "versionString": "9.53.25084.5"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=microsoft.dynamics.commerce.storecommerce.android&vc=532508405",
+    "docType": 1,
+    "docid": "microsoft.dynamics.commerce.storecommerce.android",
+    "image": [
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/DewPOWmg6MqrI4SIpqOpXg0OUgbZom-EU21vx_kBBQgVXo-3-Eop8TX_66vT6Ta1bA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/LHxbieFJf4SB4Y5b6D54HJsmcK5eQ5-o4rbNng-EDQifSwekEJIcppBrM87LsiSA2Eix",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/aCvhGIQKWiXFUy0FA2b1HuOH9LZ6qZqy1apVB_2YIaRySRWeW9OBdHGbAnitbHtuVFI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Qm2tbC-HKsr5iZvEBElXfvhimi3sFm7v8YVB7J9EsGRakZY9XI3-YEbOpNw112w5hQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/gc-DGZ0cC6S0j_fnG7TISuGJ-uz3lT_k5J5uwEcDkNOA_kFhDL0hIAyJbuvJWRWjB66R",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qILzrLbpq3cIEfDTAVbgiddJPGNskrmvKkNkE1LdA1Tu9i9x5UO-n33nQxU7NZBQA8Dg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/QT_5u4SaNhdtfToBBCbQrNc3KT7ZVDut-r49GBfm1yY7ll-1In9ksfoEsvotNz9UqNU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/9EunHke1FCCfEEVTzXLYcklKzClGs3DFdLORiYDUDQSb3FiXKXSxgXMuNpgClL5X4EE",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://privacy.microsoft.com/en-us/privacystatement",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "In-app purchases<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=microsoft.dynamics.commerce.storecommerce.android",
+    "reviewsUrl": "rev?doc=microsoft.dynamics.commerce.storecommerce.android&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=microsoft.dynamics.commerce.storecommerce.android",
+    "title": "Store Commerce\n9.53.25084.5",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "d365commpub@microsoft.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "One Microsoft Way"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "3 Oct 2022"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  }
+]

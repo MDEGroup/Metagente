@@ -1,0 +1,527 @@
+[
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-10-20 08:28:14.217353",
+    "backendDocid": "com.gmail.gabalt.myproject",
+    "backendId": 3,
+    "creator": "NeoCardioLab",
+    "descriptionHtml": "The NeoCardioLab is a research laboratory interested in clinical and epidemiological neonatal cardiovascular research, as well as education in neonatal hemodynamics. The principal investigator of the NeoCardioLab is Dr. Gabriel Altit from the Montreal Children\u2019s Hospital (at McGill University).  On the NeoCardioLab website, we have made available for the learners a whole array of content (clips, videos, presentations, reading material, articles, etc.) as a learning opportunity on echocardiography (2D and 3D), TnECHO (targeted neonatal echocardiography), point of care ultrasound (POCUS) and near infrared spectroscopy (NIRS). You will find on the website, our comprehensive \u201cAtlas\u201d for the expected normal complete neonatal echocardiography (with clips of various views and explanations), as well as clips for selected congenital heart defects. Our training modules are: on NIRS in the neonatal intensive care unit, as well as on POCUS/TnECHO. We offer modules on  TnECHO  (Targeted Neonatal Echocardiography; with clips outlining all the views and measurements,  pulmonary hypertension,  PDA,  normative values, etc.),  POCUS (as well as the example of the use of a hand-held device and how to obtain views) and  Congenital Heart defects, as well as modules on  Strain/Speckle Tracking and  Near Infrared Spectroscopy. We also now host the  Neonatal NIRS consortium  page and all the recordings of their webinars. <br><br>Please feel free to navigate the app and use it for training purposes and as a resource to complement your other learning materials. We are constantly updating the website and adding new content. You will also find information on the McGill University Neonatal Hemodynamics Clinical Research training program, if you are interested. Our research uses conventional and advanced echocardiography (speckle-tracking echocardiography on 2D and 3D acquisitions) to better understand the cardiovascular adaptation of newborns with various conditions (such as: prematurity, bronchopulmonary dysplasia, congenital heart defect, congenital diaphragmatic hernia, omphalocele and hypoxic ischemic encephalopathy). We also study cohorts of patients once they have graduated the neonatal intensive care unit (in neonatal follow-up, in the pediatric clinics, as well as during adulthood). Please feel free to contact us if you have questions or suggestions: info@neocardiolab.com. We also have Twitter (@CardioNeo) and Instagram (@NeoCardioLab).",
+    "descriptionShort": "Application for the NeoCardioLab Portal",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "36183330",
+          "unknown3": 30
+        },
+        "developerEmail": "neocardio.lab@muhc.mcgill.ca",
+        "developerName": "NeoCardioLab",
+        "developerWebsite": "https://www.neocardiolab.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "18054174",
+            "versionCode": 7
+          },
+          {
+            "fileType": 0,
+            "size": "116249",
+            "versionCode": 7
+          },
+          {
+            "fileType": 0,
+            "size": "29081",
+            "versionCode": 7
+          },
+          {
+            "fileType": 0,
+            "size": "41369",
+            "versionCode": 7
+          },
+          {
+            "fileType": 0,
+            "size": "17942457",
+            "versionCode": 7
+          }
+        ],
+        "installationSize": "36183330",
+        "numDownloads": "0+ downloads",
+        "packageName": "com.gmail.gabalt.myproject",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.MANAGE_DOCUMENTS",
+          "android.permission.MODIFY_AUDIO_SETTINGS",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_CALENDAR",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_INTERNAL_STORAGE",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.SYSTEM_ALERT_WINDOW",
+          "android.permission.USE_FINGERPRINT",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_CALENDAR",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "android.permission.WRITE_SETTINGS",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.android.launcher.permission.INSTALL_SHORTCUT",
+          "com.android.vending.CHECK_LICENSE",
+          "com.gmail.gabalt.myproject.permission.C2D_MESSAGE",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.providers.gsf.permission.READ_GSERVICES",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE"
+        ],
+        "recentChangesHtml": "Created by Gabriel Altit - Neonatologist / Cr\u00e9\u00e9 par Gabriel Altit (n\u00e9onatalogiste) - \u00a9 NeoCardioLab - 2020-2021",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "19 Oct 2021",
+        "versionCode": 7,
+        "versionString": "7"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.gmail.gabalt.myproject",
+    "docType": 1,
+    "docid": "com.gmail.gabalt.myproject",
+    "image": [
+      {
+        "color": "#0D0D0E",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/P-Af5Gj_ntX80KMvzWMeFjZ7z4iFNtWNuLXYMbEUuhqvI0-U_t1XlGP9DGg55W-f308",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/Hho8VVRnRy_OB0KqXGTkYjMSKn0kqrjnUgjs00PuO5Xs2UBKsRYC1gEcZoZx1uPRsiGL",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/0anXT3uK5yCaiapHD6S1KAOOcNOxcXh93KpOhJFlTpybA9Wz3QJNkSGSKsA-2Dsih40",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/lNYcuHM1FiY4d5EMlxN3fDWHK3yDw-eYpxuvYbzEOP6Avxhs8ca5sY6wc7ydCiJ-5UA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/JI4G2o9R9HCtddVu8XMCuEZnxNvLz1YUV4OH7HOlFGbNUN6jTLqm-5_MEoWYhQBNLa0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/nujBs_fsJ19f9yclShM-pFoRJ02l2xh7pp8zCAxn0umOHEjNp35-28McYUsgDkN_4T27",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Bz_oZ_XjExZyjU8iXhGTzc2uV9VXx_koLE72l66dj5cf9dN9-1FMkEGvRRB7Q-homw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/l7fH2Uik1E7jJycdYRhRlehYz4X9OthhraTFv0fJiqp8bwTFjkLqthfFFCc4yveJPxty",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/WWnoOJUUYTV9tcq9wDs57rDIAkJ555ML9Iytel-7wUGemLEGZws9kFZsRBfGgqFiP-c1",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/R3OpBcdA5uv8huS3Gq-DQZL7vARqvVo3DqOYtzMNSdKcWC81LkbKXg3Al3AAW68Y7w",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://www.neocardiolab.com/privacy-policy",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.gmail.gabalt.myproject",
+    "reviewsUrl": "rev?doc=com.gmail.gabalt.myproject&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.gmail.gabalt.myproject",
+    "title": "NeoCardioLab",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "neocardio.lab@muhc.mcgill.ca"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "19 Oct 2021"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "6",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "7",
+      "starRating": 4.571429,
+      "threeStarRatings": "0",
+      "twoStarRatings": "1",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2024-04-15 12:54:35.240487",
+    "backendDocid": "com.gmail.gabalt.myproject",
+    "backendId": 3,
+    "creator": "NeoCardioLab",
+    "descriptionHtml": "The NeoCardioLab is a research laboratory interested in clinical and epidemiological neonatal cardiovascular research, as well as education in neonatal hemodynamics. The principal investigator of the NeoCardioLab is Dr. Gabriel Altit from the Montreal Children\u2019s Hospital (at McGill University).  On the NeoCardioLab website, we have made available for the learners a whole array of content (clips, videos, presentations, reading material, articles, etc.) as a learning opportunity on echocardiography (2D and 3D), TnECHO (targeted neonatal echocardiography), point of care ultrasound (POCUS) and near infrared spectroscopy (NIRS). You will find on the website, our comprehensive \u201cAtlas\u201d for the expected normal complete neonatal echocardiography (with clips of various views and explanations), as well as clips for selected congenital heart defects. Our training modules are: on NIRS in the neonatal intensive care unit, as well as on POCUS/TnECHO. We offer modules on  TnECHO  (Targeted Neonatal Echocardiography; with clips outlining all the views and measurements,  pulmonary hypertension,  PDA,  normative values, etc.),  POCUS (as well as the example of the use of a hand-held device and how to obtain views) and  Congenital Heart defects, as well as modules on  Strain/Speckle Tracking and  Near Infrared Spectroscopy. We also now host the  Neonatal NIRS consortium  page and all the recordings of their webinars. <br><br>Please feel free to navigate the app and use it for training purposes and as a resource to complement your other learning materials. We are constantly updating the website and adding new content. You will also find information on the McGill University Neonatal Hemodynamics Clinical Research training program, if you are interested. Our research uses conventional and advanced echocardiography (speckle-tracking echocardiography on 2D and 3D acquisitions) to better understand the cardiovascular adaptation of newborns with various conditions (such as: prematurity, bronchopulmonary dysplasia, congenital heart defect, congenital diaphragmatic hernia, omphalocele and hypoxic ischemic encephalopathy). We also study cohorts of patients once they have graduated the neonatal intensive care unit (in neonatal follow-up, in the pediatric clinics, as well as during adulthood). Please feel free to contact us if you have questions or suggestions: info@neocardiolab.com. We also have Twitter (@CardioNeo) and Instagram (@NeoCardioLab).",
+    "descriptionShort": "Application for the NeoCardioLab Portal",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "version": 12451000
+            }
+          ],
+          "unknown2": "47307707",
+          "unknown3": 33
+        },
+        "developerEmail": "neocardio.lab@muhc.mcgill.ca",
+        "developerName": "NeoCardioLab",
+        "developerWebsite": "https://www.neocardiolab.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "26201536",
+            "versionCode": 23
+          },
+          {
+            "fileType": 0,
+            "size": "161781",
+            "versionCode": 23
+          },
+          {
+            "fileType": 0,
+            "size": "53657",
+            "versionCode": 23
+          },
+          {
+            "fileType": 0,
+            "size": "20890733",
+            "versionCode": 23
+          }
+        ],
+        "installationSize": "47307707",
+        "numDownloads": "500+ downloads",
+        "packageName": "com.gmail.gabalt.myproject",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.MANAGE_DOCUMENTS",
+          "android.permission.MODIFY_AUDIO_SETTINGS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_INTERNAL_STORAGE",
+          "android.permission.READ_MEDIA_IMAGES",
+          "android.permission.READ_MEDIA_VIDEO",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.SYSTEM_ALERT_WINDOW",
+          "android.permission.USE_BIOMETRIC",
+          "android.permission.USE_FINGERPRINT",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "android.permission.WRITE_SETTINGS",
+          "com.android.launcher.permission.INSTALL_SHORTCUT",
+          "com.android.vending.CHECK_LICENSE",
+          "com.gmail.gabalt.myproject.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.providers.gsf.permission.READ_GSERVICES"
+        ],
+        "recentChangesHtml": "In this latest version, we&#39;ve introduced a back button and page reload feature to enhance navigation, elevating both the performance and ease of accessing app content.",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "23 Jan 2024",
+        "versionCode": 23,
+        "versionString": "23"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.gmail.gabalt.myproject&vc=23",
+    "docType": 1,
+    "docid": "com.gmail.gabalt.myproject",
+    "image": [
+      {
+        "color": "#0D0D0E",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/P-Af5Gj_ntX80KMvzWMeFjZ7z4iFNtWNuLXYMbEUuhqvI0-U_t1XlGP9DGg55W-f308",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FFFEFF",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/Hho8VVRnRy_OB0KqXGTkYjMSKn0kqrjnUgjs00PuO5Xs2UBKsRYC1gEcZoZx1uPRsiGL",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/0anXT3uK5yCaiapHD6S1KAOOcNOxcXh93KpOhJFlTpybA9Wz3QJNkSGSKsA-2Dsih40",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/lNYcuHM1FiY4d5EMlxN3fDWHK3yDw-eYpxuvYbzEOP6Avxhs8ca5sY6wc7ydCiJ-5UA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/JI4G2o9R9HCtddVu8XMCuEZnxNvLz1YUV4OH7HOlFGbNUN6jTLqm-5_MEoWYhQBNLa0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/nujBs_fsJ19f9yclShM-pFoRJ02l2xh7pp8zCAxn0umOHEjNp35-28McYUsgDkN_4T27",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Bz_oZ_XjExZyjU8iXhGTzc2uV9VXx_koLE72l66dj5cf9dN9-1FMkEGvRRB7Q-homw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/l7fH2Uik1E7jJycdYRhRlehYz4X9OthhraTFv0fJiqp8bwTFjkLqthfFFCc4yveJPxty",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/WWnoOJUUYTV9tcq9wDs57rDIAkJ555ML9Iytel-7wUGemLEGZws9kFZsRBfGgqFiP-c1",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/R3OpBcdA5uv8huS3Gq-DQZL7vARqvVo3DqOYtzMNSdKcWC81LkbKXg3Al3AAW68Y7w",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "ZAR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://www.neocardiolab.com/privacy-policy",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 487,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/EbEX3AN4FC4pu3lsElAHCiksluOVU8OgkgtWC43-wmm_aHVq2D65FmEM97bPexilUAvlAY5_4ARH8Tb3RxQ",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Rated for 3+",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.gmail.gabalt.myproject",
+    "reviewsUrl": "rev?doc=com.gmail.gabalt.myproject&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.gmail.gabalt.myproject",
+    "title": "NeoCardioLab\n23",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "NeoCardioLab"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "neocardio.lab@muhc.mcgill.ca"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "19 Oct 2021"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  }
+]

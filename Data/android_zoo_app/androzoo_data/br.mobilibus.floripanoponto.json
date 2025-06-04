@@ -1,0 +1,1761 @@
+[
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-06-22 23:09:06.054587",
+    "backendDocid": "br.mobilibus.floripanoponto",
+    "backendId": 3,
+    "creator": "Mobilibus",
+    "descriptionHtml": "Seja bem-vindo ao Floripa no Ponto 2.0, o aplicativo que apresenta informa\u00e7\u00f5es em tempo real\u00b9 do transporte p\u00fablico de Florian\u00f3polis, Santa Catarina.<br><br>No Floripa no Ponto 2.0 voc\u00ea tem acesso a:<br>- Consulta de saldo e recarga de cr\u00e9ditos do seu cart\u00e3o Passe R\u00e1pido<br>- Localiza\u00e7\u00e3o em mapa dos pontos de parada e de recarga de cr\u00e9ditos nas proximidades<br>- Consulta a tabela hor\u00e1ria das linhas que operam em sua regi\u00e3o<br>- Localiza\u00e7\u00e3o em tempo real dos ve\u00edculos que operam em determinada rota, podendo compartilhar esta informa\u00e7\u00e3o com outras pessoas\u00b9;<br>- Planejamento de viagem entre dois pontos, considerando deslocamentos a p\u00e9 e utilizando o transporte p\u00fablico, inclusive com informa\u00e7\u00f5es em tempo real<br>- Informa\u00e7\u00f5es de interesse e alertas que envolvam rotas e pontos de parada, que afetem a opera\u00e7\u00e3o normal do transporte p\u00fablico<br>- Recursos de acessibilidade, com acesso facilitado via TalkBack para previs\u00f5es de passagem nos pontos pr\u00f3ximos, tabela de hor\u00e1rios e instru\u00e7\u00f5es detalhadas de como chegar ao seu destino.<br><br>---<br><br>Este aplicativo possui como requisito m\u00ednimo de instala\u00e7\u00e3o a vers\u00e3o Android 5.0 (Lollipop). Caso voc\u00ea possua uma vers\u00e3o anterior a esta, recomendamos a consulta das informa\u00e7\u00f5es direto pelo seu navegador de internet, acessando o site do Cons\u00f3rcio F\u00eanix.<br><br>\u00b9Informa\u00e7\u00f5es em tempo real requerem conex\u00e3o com internet, e a precis\u00e3o depende da qualidade da rede de telefonia m\u00f3vel.",
+    "descriptionShort": "Official public transport information application in Florian\u00f3polis, SC",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "version": 12451000
+            }
+          ],
+          "unknown2": "40980399",
+          "unknown3": 33
+        },
+        "developerEmail": "sac@consorciofenix.com.br",
+        "developerName": "Mobilibus",
+        "developerWebsite": "https://www.consorciofenix.com.br",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "21126720",
+            "versionCode": 31
+          },
+          {
+            "fileType": 0,
+            "size": "80978",
+            "versionCode": 31
+          },
+          {
+            "fileType": 0,
+            "size": "33177",
+            "versionCode": 31
+          },
+          {
+            "fileType": 0,
+            "size": "45465",
+            "versionCode": 31
+          },
+          {
+            "fileType": 0,
+            "size": "19694059",
+            "versionCode": 31
+          }
+        ],
+        "installationSize": "40980399",
+        "numDownloads": "50,000+ downloads",
+        "packageName": "br.mobilibus.floripanoponto",
+        "permission": [
+          "android.permission.ACCESS_BACKGROUND_LOCATION",
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.ACTION_SEND",
+          "android.permission.BLUETOOTH_CONNECT",
+          "android.permission.CAMERA",
+          "android.permission.FLASHLIGHT",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.POST_NOTIFICATIONS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_MEDIA_IMAGES",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.RECORD_AUDIO",
+          "android.permission.SCHEDULE_EXACT_ALARM",
+          "android.permission.SYSTEM_ALERT_WINDOW",
+          "android.permission.USE_FULL_SCREEN_INTENT",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "android.permission.WRITE_MEDIA_IMAGES",
+          "br.mobilibus.floripanoponto.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": "Corre\u00e7\u00e3o na exibi\u00e7\u00e3o de viagens extras",
+        "unstable": true,
+        "uploadDate": "5 Jun 2023",
+        "versionCode": 31,
+        "versionString": "4.1.31"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=br.mobilibus.floripanoponto",
+    "docType": 1,
+    "docid": "br.mobilibus.floripanoponto",
+    "image": [
+      {
+        "color": "#F9F9F0",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/-EW5EgHdj6x7JsK1TGumjnoZRv-gdb7ganMDdtky3apaYfe-wjCWUbhvCu7LqMeJQ3uJ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#646569",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/WFbazs5kDbG54uBxB5yZEm0N9PAKZrSQSmYbOAH_GBxbEePw_CRUMkGpzFf5MS0-DL0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3040,
+          "width": 1520
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/sw9bqITbHyp6ZT8K22tcGmEh461gqWRX49wk_oCyep9cT-Q2CVUR_KgHnVU4YVdatVA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3040,
+          "width": 1520
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/B5sGpqR_frgAAnxBtAr8KZv0xoQP5xgpevCM7w2l4C8U0bSfN4wpQ4QugyF6PPaobxw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3040,
+          "width": 1520
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/DEZuKX9552YonvButQA3yWOi5rjBO4Dwxfy3U1kVVj77yVLfhFDnxNyjoQEFejJjng",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3040,
+          "width": 1520
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/cfvKH8TMMI2fayoZE4WmufmZQvtLaa0CYMEwV6WOlodV31ziFFGCcfBirjYpa--k2Q",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3040,
+          "width": 1520
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/sBqW2SOqYPeLryFeNM7O-JTuNFJmkyu65aat-ZYYZA1t4TvGB-1x0-37y24ygSRoGixx",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3040,
+          "width": 1520
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/sdJwnQq13zCXbAq1IyANJzU6U_rnq0yaRcVv7p5OapkpRuaF5PJLqXG09x25QFJY-UMm",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3040,
+          "width": 1520
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/CpYScbf1RX8JmiH5SqiA91hxNwPi8ifBU7ykziK36i_4ieuMzYqIi9nb9mDWhh_FL6U",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3040,
+          "width": 1520
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/PSLLjsM7liMfR6AN13xKGSkECbMdZjqAlVZ49qY-MnhHbTruYcNxS_BF9oxdHg2qdFvF",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://app.mobilibus.com/privacy",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=br.mobilibus.floripanoponto",
+    "reviewsUrl": "rev?doc=br.mobilibus.floripanoponto&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=br.mobilibus.floripanoponto",
+    "title": "Floripa no Ponto 2.0",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "sac@consorciofenix.com.br"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "24 Mar 2023"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-07-27 12:46:19.762690",
+    "backendDocid": "br.mobilibus.floripanoponto",
+    "backendId": 3,
+    "creator": "Mobilibus",
+    "descriptionHtml": "Seja bem-vindo ao Floripa no Ponto 2.0, o aplicativo que apresenta informa\u00e7\u00f5es em tempo real\u00b9 do transporte p\u00fablico de Florian\u00f3polis, Santa Catarina.<br><br>No Floripa no Ponto 2.0 voc\u00ea tem acesso a:<br>- Consulta de saldo e recarga de cr\u00e9ditos do seu cart\u00e3o Passe R\u00e1pido<br>- Localiza\u00e7\u00e3o em mapa dos pontos de parada e de recarga de cr\u00e9ditos nas proximidades<br>- Consulta a tabela hor\u00e1ria das linhas que operam em sua regi\u00e3o<br>- Localiza\u00e7\u00e3o em tempo real dos ve\u00edculos que operam em determinada rota, podendo compartilhar esta informa\u00e7\u00e3o com outras pessoas\u00b9;<br>- Planejamento de viagem entre dois pontos, considerando deslocamentos a p\u00e9 e utilizando o transporte p\u00fablico, inclusive com informa\u00e7\u00f5es em tempo real<br>- Informa\u00e7\u00f5es de interesse e alertas que envolvam rotas e pontos de parada, que afetem a opera\u00e7\u00e3o normal do transporte p\u00fablico<br>- Recursos de acessibilidade, com acesso facilitado via TalkBack para previs\u00f5es de passagem nos pontos pr\u00f3ximos, tabela de hor\u00e1rios e instru\u00e7\u00f5es detalhadas de como chegar ao seu destino.<br><br>---<br><br>Este aplicativo possui como requisito m\u00ednimo de instala\u00e7\u00e3o a vers\u00e3o Android 5.0 (Lollipop). Caso voc\u00ea possua uma vers\u00e3o anterior a esta, recomendamos a consulta das informa\u00e7\u00f5es direto pelo seu navegador de internet, acessando o site do Cons\u00f3rcio F\u00eanix.<br><br>\u00b9Informa\u00e7\u00f5es em tempo real requerem conex\u00e3o com internet, e a precis\u00e3o depende da qualidade da rede de telefonia m\u00f3vel.",
+    "descriptionShort": "Official public transport information application in Florian\u00f3polis, SC",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "version": 12451000
+            }
+          ],
+          "unknown2": "40914454",
+          "unknown3": 33
+        },
+        "developerEmail": "sac@consorciofenix.com.br",
+        "developerName": "Mobilibus",
+        "developerWebsite": "https://www.consorciofenix.com.br",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "21126720",
+            "versionCode": 34
+          },
+          {
+            "fileType": 0,
+            "size": "80978",
+            "versionCode": 34
+          },
+          {
+            "fileType": 0,
+            "size": "45465",
+            "versionCode": 34
+          },
+          {
+            "fileType": 0,
+            "size": "19661291",
+            "versionCode": 34
+          }
+        ],
+        "installationSize": "40914454",
+        "numDownloads": "50,000+ downloads",
+        "packageName": "br.mobilibus.floripanoponto",
+        "permission": [
+          "android.permission.ACCESS_BACKGROUND_LOCATION",
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.ACTION_SEND",
+          "android.permission.BLUETOOTH_CONNECT",
+          "android.permission.CAMERA",
+          "android.permission.FLASHLIGHT",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.POST_NOTIFICATIONS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_MEDIA_IMAGES",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.RECORD_AUDIO",
+          "android.permission.SCHEDULE_EXACT_ALARM",
+          "android.permission.SYSTEM_ALERT_WINDOW",
+          "android.permission.USE_FULL_SCREEN_INTENT",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "android.permission.WRITE_MEDIA_IMAGES",
+          "br.mobilibus.floripanoponto.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": "Corre\u00e7\u00f5es na l\u00f3gica de inicializa\u00e7\u00e3o do aplicativo e melhorias de performance",
+        "unstable": true,
+        "uploadDate": "18 Jul 2023",
+        "versionCode": 34,
+        "versionString": "4.1.34"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=br.mobilibus.floripanoponto",
+    "docType": 1,
+    "docid": "br.mobilibus.floripanoponto",
+    "image": [
+      {
+        "color": "#F9F9F0",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/-EW5EgHdj6x7JsK1TGumjnoZRv-gdb7ganMDdtky3apaYfe-wjCWUbhvCu7LqMeJQ3uJ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#646569",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/WFbazs5kDbG54uBxB5yZEm0N9PAKZrSQSmYbOAH_GBxbEePw_CRUMkGpzFf5MS0-DL0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3040,
+          "width": 1520
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/sw9bqITbHyp6ZT8K22tcGmEh461gqWRX49wk_oCyep9cT-Q2CVUR_KgHnVU4YVdatVA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3040,
+          "width": 1520
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/B5sGpqR_frgAAnxBtAr8KZv0xoQP5xgpevCM7w2l4C8U0bSfN4wpQ4QugyF6PPaobxw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3040,
+          "width": 1520
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/DEZuKX9552YonvButQA3yWOi5rjBO4Dwxfy3U1kVVj77yVLfhFDnxNyjoQEFejJjng",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3040,
+          "width": 1520
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/cfvKH8TMMI2fayoZE4WmufmZQvtLaa0CYMEwV6WOlodV31ziFFGCcfBirjYpa--k2Q",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3040,
+          "width": 1520
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/sBqW2SOqYPeLryFeNM7O-JTuNFJmkyu65aat-ZYYZA1t4TvGB-1x0-37y24ygSRoGixx",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3040,
+          "width": 1520
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/sdJwnQq13zCXbAq1IyANJzU6U_rnq0yaRcVv7p5OapkpRuaF5PJLqXG09x25QFJY-UMm",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3040,
+          "width": 1520
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/CpYScbf1RX8JmiH5SqiA91hxNwPi8ifBU7ykziK36i_4ieuMzYqIi9nb9mDWhh_FL6U",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3040,
+          "width": 1520
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/PSLLjsM7liMfR6AN13xKGSkECbMdZjqAlVZ49qY-MnhHbTruYcNxS_BF9oxdHg2qdFvF",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "GBP",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://app.mobilibus.com/privacy",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=br.mobilibus.floripanoponto",
+    "reviewsUrl": "rev?doc=br.mobilibus.floripanoponto&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=br.mobilibus.floripanoponto",
+    "title": "Floripa no Ponto 2.0",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "sac@consorciofenix.com.br"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "24 Mar 2023"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-10-09 08:28:45.208538",
+    "backendDocid": "br.mobilibus.floripanoponto",
+    "backendId": 3,
+    "creator": "Bus2",
+    "descriptionHtml": "Seja bem-vindo ao Floripa no Ponto 2.0, o aplicativo que apresenta informa\u00e7\u00f5es em tempo real\u00b9 do transporte p\u00fablico de Florian\u00f3polis, Santa Catarina.<br><br>No Floripa no Ponto 2.0 voc\u00ea tem acesso a:<br>- Consulta de saldo e recarga de cr\u00e9ditos do seu cart\u00e3o Passe R\u00e1pido<br>- Localiza\u00e7\u00e3o em mapa dos pontos de parada e de recarga de cr\u00e9ditos nas proximidades<br>- Consulta a tabela hor\u00e1ria das linhas que operam em sua regi\u00e3o<br>- Localiza\u00e7\u00e3o em tempo real dos ve\u00edculos que operam em determinada rota, podendo compartilhar esta informa\u00e7\u00e3o com outras pessoas\u00b9;<br>- Planejamento de viagem entre dois pontos, considerando deslocamentos a p\u00e9 e utilizando o transporte p\u00fablico, inclusive com informa\u00e7\u00f5es em tempo real<br>- Informa\u00e7\u00f5es de interesse e alertas que envolvam rotas e pontos de parada, que afetem a opera\u00e7\u00e3o normal do transporte p\u00fablico<br>- Recursos de acessibilidade, com acesso facilitado via TalkBack para previs\u00f5es de passagem nos pontos pr\u00f3ximos, tabela de hor\u00e1rios e instru\u00e7\u00f5es detalhadas de como chegar ao seu destino.<br><br>---<br><br>Este aplicativo possui como requisito m\u00ednimo de instala\u00e7\u00e3o a vers\u00e3o Android 5.0 (Lollipop). Caso voc\u00ea possua uma vers\u00e3o anterior a esta, recomendamos a consulta das informa\u00e7\u00f5es direto pelo seu navegador de internet, acessando o site do Cons\u00f3rcio F\u00eanix.<br><br>\u00b9Informa\u00e7\u00f5es em tempo real requerem conex\u00e3o com internet, e a precis\u00e3o depende da qualidade da rede de telefonia m\u00f3vel.",
+    "descriptionShort": "Official public transport information application in Florian\u00f3polis, SC",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "version": 12451000
+            }
+          ],
+          "unknown2": "40914454",
+          "unknown3": 33
+        },
+        "developerEmail": "sac@consorciofenix.com.br",
+        "developerName": "Bus2",
+        "developerWebsite": "https://www.consorciofenix.com.br",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "21126720",
+            "versionCode": 35
+          },
+          {
+            "fileType": 0,
+            "size": "80978",
+            "versionCode": 35
+          },
+          {
+            "fileType": 0,
+            "size": "45465",
+            "versionCode": 35
+          },
+          {
+            "fileType": 0,
+            "size": "19661291",
+            "versionCode": 35
+          }
+        ],
+        "installationSize": "40914454",
+        "numDownloads": "50,000+ downloads",
+        "packageName": "br.mobilibus.floripanoponto",
+        "permission": [
+          "android.permission.ACCESS_BACKGROUND_LOCATION",
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.ACTION_SEND",
+          "android.permission.BLUETOOTH_CONNECT",
+          "android.permission.CAMERA",
+          "android.permission.FLASHLIGHT",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.POST_NOTIFICATIONS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_MEDIA_IMAGES",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.RECORD_AUDIO",
+          "android.permission.SCHEDULE_EXACT_ALARM",
+          "android.permission.SYSTEM_ALERT_WINDOW",
+          "android.permission.USE_FULL_SCREEN_INTENT",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "android.permission.WRITE_MEDIA_IMAGES",
+          "br.mobilibus.floripanoponto.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": "Segmenta\u00e7\u00e3o do app para Android 13",
+        "unstable": true,
+        "uploadDate": "22 Aug 2023",
+        "versionCode": 35,
+        "versionString": "4.1.35"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=br.mobilibus.floripanoponto",
+    "docType": 1,
+    "docid": "br.mobilibus.floripanoponto",
+    "image": [
+      {
+        "color": "#F9F9F0",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/-EW5EgHdj6x7JsK1TGumjnoZRv-gdb7ganMDdtky3apaYfe-wjCWUbhvCu7LqMeJQ3uJ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#646569",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/WFbazs5kDbG54uBxB5yZEm0N9PAKZrSQSmYbOAH_GBxbEePw_CRUMkGpzFf5MS0-DL0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3040,
+          "width": 1520
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/sw9bqITbHyp6ZT8K22tcGmEh461gqWRX49wk_oCyep9cT-Q2CVUR_KgHnVU4YVdatVA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3040,
+          "width": 1520
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/B5sGpqR_frgAAnxBtAr8KZv0xoQP5xgpevCM7w2l4C8U0bSfN4wpQ4QugyF6PPaobxw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3040,
+          "width": 1520
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/DEZuKX9552YonvButQA3yWOi5rjBO4Dwxfy3U1kVVj77yVLfhFDnxNyjoQEFejJjng",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3040,
+          "width": 1520
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/cfvKH8TMMI2fayoZE4WmufmZQvtLaa0CYMEwV6WOlodV31ziFFGCcfBirjYpa--k2Q",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3040,
+          "width": 1520
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/sBqW2SOqYPeLryFeNM7O-JTuNFJmkyu65aat-ZYYZA1t4TvGB-1x0-37y24ygSRoGixx",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3040,
+          "width": 1520
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/sdJwnQq13zCXbAq1IyANJzU6U_rnq0yaRcVv7p5OapkpRuaF5PJLqXG09x25QFJY-UMm",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3040,
+          "width": 1520
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/CpYScbf1RX8JmiH5SqiA91hxNwPi8ifBU7ykziK36i_4ieuMzYqIi9nb9mDWhh_FL6U",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3040,
+          "width": 1520
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/PSLLjsM7liMfR6AN13xKGSkECbMdZjqAlVZ49qY-MnhHbTruYcNxS_BF9oxdHg2qdFvF",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "GBP",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://app.mobilibus.com/privacy",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=br.mobilibus.floripanoponto",
+    "reviewsUrl": "rev?doc=br.mobilibus.floripanoponto&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=br.mobilibus.floripanoponto",
+    "title": "Floripa no Ponto 2.0",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "sac@consorciofenix.com.br"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "24 Mar 2023"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-10-22 10:38:31.180978",
+    "backendDocid": "br.mobilibus.floripanoponto",
+    "backendId": 3,
+    "creator": "Bus2",
+    "descriptionHtml": "Seja bem-vindo ao Floripa no Ponto 2.0, o aplicativo que apresenta informa\u00e7\u00f5es em tempo real\u00b9 do transporte p\u00fablico de Florian\u00f3polis, Santa Catarina.<br><br>No Floripa no Ponto 2.0 voc\u00ea tem acesso a:<br>- Consulta de saldo e recarga de cr\u00e9ditos do seu cart\u00e3o Passe R\u00e1pido<br>- Localiza\u00e7\u00e3o em mapa dos pontos de parada e de recarga de cr\u00e9ditos nas proximidades<br>- Consulta a tabela hor\u00e1ria das linhas que operam em sua regi\u00e3o<br>- Localiza\u00e7\u00e3o em tempo real dos ve\u00edculos que operam em determinada rota, podendo compartilhar esta informa\u00e7\u00e3o com outras pessoas\u00b9;<br>- Planejamento de viagem entre dois pontos, considerando deslocamentos a p\u00e9 e utilizando o transporte p\u00fablico, inclusive com informa\u00e7\u00f5es em tempo real<br>- Informa\u00e7\u00f5es de interesse e alertas que envolvam rotas e pontos de parada, que afetem a opera\u00e7\u00e3o normal do transporte p\u00fablico<br>- Recursos de acessibilidade, com acesso facilitado via TalkBack para previs\u00f5es de passagem nos pontos pr\u00f3ximos, tabela de hor\u00e1rios e instru\u00e7\u00f5es detalhadas de como chegar ao seu destino.<br><br>---<br><br>Este aplicativo possui como requisito m\u00ednimo de instala\u00e7\u00e3o a vers\u00e3o Android 5.0 (Lollipop). Caso voc\u00ea possua uma vers\u00e3o anterior a esta, recomendamos a consulta das informa\u00e7\u00f5es direto pelo seu navegador de internet, acessando o site do Cons\u00f3rcio F\u00eanix.<br><br>\u00b9Informa\u00e7\u00f5es em tempo real requerem conex\u00e3o com internet, e a precis\u00e3o depende da qualidade da rede de telefonia m\u00f3vel.",
+    "descriptionShort": "Official public transport information application in Florian\u00f3polis, SC",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "version": 12451000
+            }
+          ],
+          "unknown2": "40726447",
+          "unknown3": 33
+        },
+        "developerEmail": "sac@consorciofenix.com.br",
+        "developerName": "Bus2",
+        "developerWebsite": "https://www.consorciofenix.com.br",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "21085760",
+            "versionCode": 41
+          },
+          {
+            "fileType": 0,
+            "size": "80978",
+            "versionCode": 41
+          },
+          {
+            "fileType": 0,
+            "size": "33177",
+            "versionCode": 41
+          },
+          {
+            "fileType": 0,
+            "size": "45465",
+            "versionCode": 41
+          },
+          {
+            "fileType": 0,
+            "size": "19481067",
+            "versionCode": 41
+          }
+        ],
+        "installationSize": "40726447",
+        "numDownloads": "50,000+ downloads",
+        "packageName": "br.mobilibus.floripanoponto",
+        "permission": [
+          "android.permission.ACCESS_BACKGROUND_LOCATION",
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.ACTION_SEND",
+          "android.permission.BLUETOOTH_CONNECT",
+          "android.permission.CAMERA",
+          "android.permission.FLASHLIGHT",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.POST_NOTIFICATIONS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_MEDIA_IMAGES",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.RECORD_AUDIO",
+          "android.permission.SCHEDULE_EXACT_ALARM",
+          "android.permission.SYSTEM_ALERT_WINDOW",
+          "android.permission.USE_FULL_SCREEN_INTENT",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "android.permission.WRITE_MEDIA_IMAGES",
+          "br.mobilibus.floripanoponto.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": "Corre\u00e7\u00f5es na exibi\u00e7\u00e3o da op\u00e7\u00e3o Hor\u00e1rios aos feriados e melhoria de performance no carregamento dos pontos de parada, no mapa inicial",
+        "unstable": true,
+        "uploadDate": "Oct 18, 2023",
+        "versionCode": 41,
+        "versionString": "4.2.41"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=br.mobilibus.floripanoponto",
+    "docType": 1,
+    "docid": "br.mobilibus.floripanoponto",
+    "image": [
+      {
+        "color": "#F9F9F0",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/-EW5EgHdj6x7JsK1TGumjnoZRv-gdb7ganMDdtky3apaYfe-wjCWUbhvCu7LqMeJQ3uJ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#646569",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/WFbazs5kDbG54uBxB5yZEm0N9PAKZrSQSmYbOAH_GBxbEePw_CRUMkGpzFf5MS0-DL0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3040,
+          "width": 1520
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/sw9bqITbHyp6ZT8K22tcGmEh461gqWRX49wk_oCyep9cT-Q2CVUR_KgHnVU4YVdatVA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3040,
+          "width": 1520
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/B5sGpqR_frgAAnxBtAr8KZv0xoQP5xgpevCM7w2l4C8U0bSfN4wpQ4QugyF6PPaobxw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3040,
+          "width": 1520
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/DEZuKX9552YonvButQA3yWOi5rjBO4Dwxfy3U1kVVj77yVLfhFDnxNyjoQEFejJjng",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3040,
+          "width": 1520
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/cfvKH8TMMI2fayoZE4WmufmZQvtLaa0CYMEwV6WOlodV31ziFFGCcfBirjYpa--k2Q",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3040,
+          "width": 1520
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/sBqW2SOqYPeLryFeNM7O-JTuNFJmkyu65aat-ZYYZA1t4TvGB-1x0-37y24ygSRoGixx",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3040,
+          "width": 1520
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/sdJwnQq13zCXbAq1IyANJzU6U_rnq0yaRcVv7p5OapkpRuaF5PJLqXG09x25QFJY-UMm",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3040,
+          "width": 1520
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/CpYScbf1RX8JmiH5SqiA91hxNwPi8ifBU7ykziK36i_4ieuMzYqIi9nb9mDWhh_FL6U",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3040,
+          "width": 1520
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/PSLLjsM7liMfR6AN13xKGSkECbMdZjqAlVZ49qY-MnhHbTruYcNxS_BF9oxdHg2qdFvF",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "CAD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://app.mobilibus.com/privacy",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=br.mobilibus.floripanoponto",
+    "reviewsUrl": "rev?doc=br.mobilibus.floripanoponto&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=br.mobilibus.floripanoponto",
+    "title": "Floripa no Ponto 2.0",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Bus2"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "sac@consorciofenix.com.br"
+          },
+          "label": "Developer e-mail"
+        },
+        {
+          "container": {
+            "value": "Mar 24, 2023"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-12-21 00:17:33.796829",
+    "backendDocid": "br.mobilibus.floripanoponto",
+    "backendId": 3,
+    "creator": "Bus2",
+    "descriptionHtml": "Seja bem-vindo ao Floripa no Ponto 2.0, o aplicativo que apresenta informa\u00e7\u00f5es em tempo real\u00b9 do transporte p\u00fablico de Florian\u00f3polis, Santa Catarina.<br><br>No Floripa no Ponto 2.0 voc\u00ea tem acesso a:<br>- Consulta de saldo e recarga de cr\u00e9ditos do seu cart\u00e3o Passe R\u00e1pido<br>- Localiza\u00e7\u00e3o em mapa dos pontos de parada e de recarga de cr\u00e9ditos nas proximidades<br>- Consulta a tabela hor\u00e1ria das linhas que operam em sua regi\u00e3o<br>- Localiza\u00e7\u00e3o em tempo real dos ve\u00edculos que operam em determinada rota, podendo compartilhar esta informa\u00e7\u00e3o com outras pessoas\u00b9;<br>- Planejamento de viagem entre dois pontos, considerando deslocamentos a p\u00e9 e utilizando o transporte p\u00fablico, inclusive com informa\u00e7\u00f5es em tempo real<br>- Informa\u00e7\u00f5es de interesse e alertas que envolvam rotas e pontos de parada, que afetem a opera\u00e7\u00e3o normal do transporte p\u00fablico<br>- Recursos de acessibilidade, com acesso facilitado via TalkBack para previs\u00f5es de passagem nos pontos pr\u00f3ximos, tabela de hor\u00e1rios e instru\u00e7\u00f5es detalhadas de como chegar ao seu destino.<br><br>---<br><br>Este aplicativo possui como requisito m\u00ednimo de instala\u00e7\u00e3o a vers\u00e3o Android 5.0 (Lollipop). Caso voc\u00ea possua uma vers\u00e3o anterior a esta, recomendamos a consulta das informa\u00e7\u00f5es direto pelo seu navegador de internet, acessando o site do Cons\u00f3rcio F\u00eanix.<br><br>\u00b9Informa\u00e7\u00f5es em tempo real requerem conex\u00e3o com internet, e a precis\u00e3o depende da qualidade da rede de telefonia m\u00f3vel.",
+    "descriptionShort": "Official public transport information application in Florian\u00f3polis, SC",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "version": 12451000
+            }
+          ],
+          "unknown2": "46458344",
+          "unknown3": 33
+        },
+        "developerEmail": "sac@consorciofenix.com.br",
+        "developerName": "Bus2",
+        "developerWebsite": "https://www.consorciofenix.com.br",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "46458344",
+            "versionCode": 42
+          }
+        ],
+        "installationSize": "46458344",
+        "numDownloads": "50,000+ downloads",
+        "packageName": "br.mobilibus.floripanoponto",
+        "permission": [
+          "android.permission.ACCESS_BACKGROUND_LOCATION",
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.ACTION_SEND",
+          "android.permission.BLUETOOTH_CONNECT",
+          "android.permission.CAMERA",
+          "android.permission.FLASHLIGHT",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.POST_NOTIFICATIONS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_MEDIA_IMAGES",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.RECORD_AUDIO",
+          "android.permission.SCHEDULE_EXACT_ALARM",
+          "android.permission.SYSTEM_ALERT_WINDOW",
+          "android.permission.USE_FULL_SCREEN_INTENT",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "android.permission.WRITE_MEDIA_IMAGES",
+          "br.mobilibus.floripanoponto.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": "Corre\u00e7\u00e3o em falha detectada no mapa inicial do aplicativo",
+        "unstable": true,
+        "uploadDate": "28 Nov 2023",
+        "versionCode": 42,
+        "versionString": "4.2.42"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=br.mobilibus.floripanoponto&vc=42",
+    "docType": 1,
+    "docid": "br.mobilibus.floripanoponto",
+    "image": [
+      {
+        "color": "#F9F9F0",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/-EW5EgHdj6x7JsK1TGumjnoZRv-gdb7ganMDdtky3apaYfe-wjCWUbhvCu7LqMeJQ3uJ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#646569",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/WFbazs5kDbG54uBxB5yZEm0N9PAKZrSQSmYbOAH_GBxbEePw_CRUMkGpzFf5MS0-DL0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3040,
+          "width": 1520
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/sw9bqITbHyp6ZT8K22tcGmEh461gqWRX49wk_oCyep9cT-Q2CVUR_KgHnVU4YVdatVA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3040,
+          "width": 1520
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/B5sGpqR_frgAAnxBtAr8KZv0xoQP5xgpevCM7w2l4C8U0bSfN4wpQ4QugyF6PPaobxw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3040,
+          "width": 1520
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/DEZuKX9552YonvButQA3yWOi5rjBO4Dwxfy3U1kVVj77yVLfhFDnxNyjoQEFejJjng",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3040,
+          "width": 1520
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/cfvKH8TMMI2fayoZE4WmufmZQvtLaa0CYMEwV6WOlodV31ziFFGCcfBirjYpa--k2Q",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3040,
+          "width": 1520
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/sBqW2SOqYPeLryFeNM7O-JTuNFJmkyu65aat-ZYYZA1t4TvGB-1x0-37y24ygSRoGixx",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3040,
+          "width": 1520
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/sdJwnQq13zCXbAq1IyANJzU6U_rnq0yaRcVv7p5OapkpRuaF5PJLqXG09x25QFJY-UMm",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3040,
+          "width": 1520
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/CpYScbf1RX8JmiH5SqiA91hxNwPi8ifBU7ykziK36i_4ieuMzYqIi9nb9mDWhh_FL6U",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3040,
+          "width": 1520
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/PSLLjsM7liMfR6AN13xKGSkECbMdZjqAlVZ49qY-MnhHbTruYcNxS_BF9oxdHg2qdFvF",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://app.mobilibus.com/privacy",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=br.mobilibus.floripanoponto",
+    "reviewsUrl": "rev?doc=br.mobilibus.floripanoponto&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=br.mobilibus.floripanoponto",
+    "title": "Floripa no Ponto 2.0\n4.2.42",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Bus2"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "sac@consorciofenix.com.br"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "24 Mar 2023"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "1272",
+      "fourStarRatings": "218",
+      "oneStarRatings": "757",
+      "ratingsCount": "2456",
+      "starRating": 3.4605048,
+      "threeStarRatings": "92",
+      "twoStarRatings": "117",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2024-04-13 15:10:26.415947",
+    "backendDocid": "br.mobilibus.floripanoponto",
+    "backendId": 3,
+    "creator": "Bus2",
+    "descriptionHtml": "Seja bem-vindo ao Floripa no Ponto 2.0, o aplicativo que apresenta informa\u00e7\u00f5es em tempo real\u00b9 do transporte p\u00fablico de Florian\u00f3polis, Santa Catarina.<br><br>No Floripa no Ponto 2.0 voc\u00ea tem acesso a:<br>- Consulta de saldo e recarga de cr\u00e9ditos do seu cart\u00e3o Passe R\u00e1pido<br>- Localiza\u00e7\u00e3o em mapa dos pontos de parada e de recarga de cr\u00e9ditos nas proximidades<br>- Consulta a tabela hor\u00e1ria das linhas que operam em sua regi\u00e3o<br>- Localiza\u00e7\u00e3o em tempo real dos ve\u00edculos que operam em determinada rota, podendo compartilhar esta informa\u00e7\u00e3o com outras pessoas\u00b9;<br>- Planejamento de viagem entre dois pontos, considerando deslocamentos a p\u00e9 e utilizando o transporte p\u00fablico, inclusive com informa\u00e7\u00f5es em tempo real<br>- Informa\u00e7\u00f5es de interesse e alertas que envolvam rotas e pontos de parada, que afetem a opera\u00e7\u00e3o normal do transporte p\u00fablico<br>- Recursos de acessibilidade, com acesso facilitado via TalkBack para previs\u00f5es de passagem nos pontos pr\u00f3ximos, tabela de hor\u00e1rios e instru\u00e7\u00f5es detalhadas de como chegar ao seu destino.<br><br>---<br><br>Este aplicativo possui como requisito m\u00ednimo de instala\u00e7\u00e3o a vers\u00e3o Android 5.0 (Lollipop). Caso voc\u00ea possua uma vers\u00e3o anterior a esta, recomendamos a consulta das informa\u00e7\u00f5es direto pelo seu navegador de internet, acessando o site do Cons\u00f3rcio F\u00eanix.<br><br>\u00b9Informa\u00e7\u00f5es em tempo real requerem conex\u00e3o com internet, e a precis\u00e3o depende da qualidade da rede de telefonia m\u00f3vel.",
+    "descriptionShort": "Official public transport information application in Florian\u00f3polis, SC",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "version": 12451000
+            }
+          ],
+          "unknown2": "40865638",
+          "unknown3": 33
+        },
+        "developerEmail": "sac@consorciofenix.com.br",
+        "developerName": "Bus2",
+        "developerWebsite": "https://www.consorciofenix.com.br",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "21081591",
+            "versionCode": 46
+          },
+          {
+            "fileType": 0,
+            "size": "80978",
+            "versionCode": 46
+          },
+          {
+            "fileType": 0,
+            "size": "29081",
+            "versionCode": 46
+          },
+          {
+            "fileType": 0,
+            "size": "45465",
+            "versionCode": 46
+          },
+          {
+            "fileType": 0,
+            "size": "19628523",
+            "versionCode": 46
+          }
+        ],
+        "installationSize": "40865638",
+        "numDownloads": "100,000+ downloads",
+        "packageName": "br.mobilibus.floripanoponto",
+        "permission": [
+          "android.permission.ACCESS_BACKGROUND_LOCATION",
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.ACTION_SEND",
+          "android.permission.BLUETOOTH_CONNECT",
+          "android.permission.CAMERA",
+          "android.permission.FLASHLIGHT",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.POST_NOTIFICATIONS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_MEDIA_IMAGES",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.RECORD_AUDIO",
+          "android.permission.SCHEDULE_EXACT_ALARM",
+          "android.permission.SYSTEM_ALERT_WINDOW",
+          "android.permission.USE_FULL_SCREEN_INTENT",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "android.permission.WRITE_MEDIA_IMAGES",
+          "br.mobilibus.floripanoponto.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": "Corre\u00e7\u00e3o do n\u00famero de pedido dos recibos de compra.",
+        "unstable": true,
+        "uploadDate": "4 Apr 2024",
+        "versionCode": 46,
+        "versionString": "4.2.46"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=br.mobilibus.floripanoponto&vc=46",
+    "docType": 1,
+    "docid": "br.mobilibus.floripanoponto",
+    "image": [
+      {
+        "color": "#F9F9F0",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/-EW5EgHdj6x7JsK1TGumjnoZRv-gdb7ganMDdtky3apaYfe-wjCWUbhvCu7LqMeJQ3uJ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#646569",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/WFbazs5kDbG54uBxB5yZEm0N9PAKZrSQSmYbOAH_GBxbEePw_CRUMkGpzFf5MS0-DL0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3040,
+          "width": 1520
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/sw9bqITbHyp6ZT8K22tcGmEh461gqWRX49wk_oCyep9cT-Q2CVUR_KgHnVU4YVdatVA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3040,
+          "width": 1520
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/B5sGpqR_frgAAnxBtAr8KZv0xoQP5xgpevCM7w2l4C8U0bSfN4wpQ4QugyF6PPaobxw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3040,
+          "width": 1520
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/DEZuKX9552YonvButQA3yWOi5rjBO4Dwxfy3U1kVVj77yVLfhFDnxNyjoQEFejJjng",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3040,
+          "width": 1520
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/cfvKH8TMMI2fayoZE4WmufmZQvtLaa0CYMEwV6WOlodV31ziFFGCcfBirjYpa--k2Q",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3040,
+          "width": 1520
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/sBqW2SOqYPeLryFeNM7O-JTuNFJmkyu65aat-ZYYZA1t4TvGB-1x0-37y24ygSRoGixx",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3040,
+          "width": 1520
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/sdJwnQq13zCXbAq1IyANJzU6U_rnq0yaRcVv7p5OapkpRuaF5PJLqXG09x25QFJY-UMm",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3040,
+          "width": 1520
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/CpYScbf1RX8JmiH5SqiA91hxNwPi8ifBU7ykziK36i_4ieuMzYqIi9nb9mDWhh_FL6U",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3040,
+          "width": 1520
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/PSLLjsM7liMfR6AN13xKGSkECbMdZjqAlVZ49qY-MnhHbTruYcNxS_BF9oxdHg2qdFvF",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "JPY",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://app.mobilibus.com/privacy",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 487,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/EbEX3AN4FC4pu3lsElAHCiksluOVU8OgkgtWC43-wmm_aHVq2D65FmEM97bPexilUAvlAY5_4ARH8Tb3RxQ",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Rated for 3+",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=br.mobilibus.floripanoponto",
+    "reviewsUrl": "rev?doc=br.mobilibus.floripanoponto&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=br.mobilibus.floripanoponto",
+    "title": "Floripa no Ponto 2.0\n4.2.46",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Bus2"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "sac@consorciofenix.com.br"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "24 Mar 2023"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "3",
+      "fiveStarRatings": "2100",
+      "fourStarRatings": "1050",
+      "oneStarRatings": "525",
+      "ratingsCount": "3675",
+      "starRating": 4.142857,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2025-02-09 05:14:43.859351",
+    "backendDocid": "br.mobilibus.floripanoponto",
+    "backendId": 3,
+    "creator": "Bus2",
+    "descriptionHtml": "Seja bem-vindo ao Floripa no Ponto 2.0, o aplicativo que apresenta informa\u00e7\u00f5es em tempo real\u00b9 do transporte p\u00fablico de Florian\u00f3polis, Santa Catarina.<br><br>No Floripa no Ponto 2.0 voc\u00ea tem acesso a:<br>- Consulta de saldo e recarga de cr\u00e9ditos do seu cart\u00e3o Passe R\u00e1pido<br>- Localiza\u00e7\u00e3o em mapa dos pontos de parada e de recarga de cr\u00e9ditos nas proximidades<br>- Consulta a tabela hor\u00e1ria das linhas que operam em sua regi\u00e3o<br>- Localiza\u00e7\u00e3o em tempo real dos ve\u00edculos que operam em determinada rota, podendo compartilhar esta informa\u00e7\u00e3o com outras pessoas\u00b9;<br>- Planejamento de viagem entre dois pontos, considerando deslocamentos a p\u00e9 e utilizando o transporte p\u00fablico, inclusive com informa\u00e7\u00f5es em tempo real<br>- Informa\u00e7\u00f5es de interesse e alertas que envolvam rotas e pontos de parada, que afetem a opera\u00e7\u00e3o normal do transporte p\u00fablico<br>- Recursos de acessibilidade, com acesso facilitado via TalkBack para previs\u00f5es de passagem nos pontos pr\u00f3ximos, tabela de hor\u00e1rios e instru\u00e7\u00f5es detalhadas de como chegar ao seu destino.<br><br>---<br><br>Este aplicativo possui como requisito m\u00ednimo de instala\u00e7\u00e3o a vers\u00e3o Android 5.0 (Lollipop). Caso voc\u00ea possua uma vers\u00e3o anterior a esta, recomendamos a consulta das informa\u00e7\u00f5es direto pelo seu navegador de internet, acessando o site do Cons\u00f3rcio F\u00eanix.<br><br>\u00b9Informa\u00e7\u00f5es em tempo real requerem conex\u00e3o com internet, e a precis\u00e3o depende da qualidade da rede de telefonia m\u00f3vel.",
+    "descriptionShort": "Official public transport information application in Florian\u00f3polis, SC",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "version": 12451000
+            }
+          ],
+          "unknown2": "44336307",
+          "unknown3": 34
+        },
+        "developerAddress": "Rua S\u00e3o Paulo, 3366 - Sala 205<br/>Centro de Inova\u00e7\u00e3o de Blumenau<br/>Santa Catarina, Brasil",
+        "developerEmail": "sac@consorciofenix.com.br",
+        "developerName": "Bus2",
+        "developerWebsite": "https://www.consorciofenix.com.br",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "20382073",
+            "versionCode": 83
+          },
+          {
+            "fileType": 0,
+            "size": "85533",
+            "versionCode": 83
+          },
+          {
+            "fileType": 0,
+            "size": "29081",
+            "versionCode": 83
+          },
+          {
+            "fileType": 0,
+            "size": "41369",
+            "versionCode": 83
+          },
+          {
+            "fileType": 0,
+            "size": "23798251",
+            "versionCode": 83
+          }
+        ],
+        "installationSize": "44336307",
+        "numDownloads": "100,000+ downloads",
+        "packageName": "br.mobilibus.floripanoponto",
+        "permission": [
+          "android.permission.ACCESS_ADSERVICES_AD_ID",
+          "android.permission.ACCESS_ADSERVICES_ATTRIBUTION",
+          "android.permission.ACCESS_BACKGROUND_LOCATION",
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.ACTION_SEND",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.POST_NOTIFICATIONS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_MEDIA_IMAGES",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.RECORD_AUDIO",
+          "android.permission.SYSTEM_ALERT_WINDOW",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "android.permission.WRITE_MEDIA_IMAGES",
+          "br.mobilibus.floripanoponto.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": "Corre\u00e7\u00f5es da fun\u00e7\u00e3o Recadastramento de benef\u00edcios.",
+        "unstable": true,
+        "uploadDate": "23 Jan 2025",
+        "versionCode": 83,
+        "versionString": "4.2.83"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=br.mobilibus.floripanoponto&vc=83",
+    "docType": 1,
+    "docid": "br.mobilibus.floripanoponto",
+    "image": [
+      {
+        "color": "#F9F9F0",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/-EW5EgHdj6x7JsK1TGumjnoZRv-gdb7ganMDdtky3apaYfe-wjCWUbhvCu7LqMeJQ3uJ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#646569",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/WFbazs5kDbG54uBxB5yZEm0N9PAKZrSQSmYbOAH_GBxbEePw_CRUMkGpzFf5MS0-DL0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3040,
+          "width": 1520
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/sw9bqITbHyp6ZT8K22tcGmEh461gqWRX49wk_oCyep9cT-Q2CVUR_KgHnVU4YVdatVA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3040,
+          "width": 1520
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/B5sGpqR_frgAAnxBtAr8KZv0xoQP5xgpevCM7w2l4C8U0bSfN4wpQ4QugyF6PPaobxw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3040,
+          "width": 1520
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/DEZuKX9552YonvButQA3yWOi5rjBO4Dwxfy3U1kVVj77yVLfhFDnxNyjoQEFejJjng",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3040,
+          "width": 1520
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/cfvKH8TMMI2fayoZE4WmufmZQvtLaa0CYMEwV6WOlodV31ziFFGCcfBirjYpa--k2Q",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3040,
+          "width": 1520
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/sBqW2SOqYPeLryFeNM7O-JTuNFJmkyu65aat-ZYYZA1t4TvGB-1x0-37y24ygSRoGixx",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3040,
+          "width": 1520
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/sdJwnQq13zCXbAq1IyANJzU6U_rnq0yaRcVv7p5OapkpRuaF5PJLqXG09x25QFJY-UMm",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3040,
+          "width": 1520
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/CpYScbf1RX8JmiH5SqiA91hxNwPi8ifBU7ykziK36i_4ieuMzYqIi9nb9mDWhh_FL6U",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3040,
+          "width": 1520
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/PSLLjsM7liMfR6AN13xKGSkECbMdZjqAlVZ49qY-MnhHbTruYcNxS_BF9oxdHg2qdFvF",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "CLP",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://app.mobilibus.com/privacy",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=br.mobilibus.floripanoponto",
+    "reviewsUrl": "rev?doc=br.mobilibus.floripanoponto&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=br.mobilibus.floripanoponto",
+    "title": "Floripa no Ponto 2.0\n4.2.83",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Bus2"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "sac@consorciofenix.com.br"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Rua S\u00e3o Paulo, 3366 - Sala 205<br/>Centro de Inova\u00e7\u00e3o de Blumenau<br/>Santa Catarina, Brasil"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "15 Dec 2022"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  }
+]

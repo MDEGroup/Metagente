@@ -1,0 +1,966 @@
+[
+  {
+    "aggregateRating": {
+      "commentCount": "156",
+      "fiveStarRatings": "466",
+      "fourStarRatings": "55",
+      "oneStarRatings": "49",
+      "ratingsCount": "614",
+      "starRating": 4.42,
+      "threeStarRatings": "24",
+      "twoStarRatings": "18",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-06-05 04:29:45.676609",
+    "backendDocid": "appinventor.ai_metaphonic.Internet_Test",
+    "backendId": 3,
+    "creator": "Jined",
+    "descriptionHtml": "Internet test online connection<br><br>A simple and quick app to check if internet connection is REALLY active on your phone over the network and you are effectively on-line into the web !<br><br>Very useful tool for quick and repeated internet diagnostics<br><br>Since, lot of phone internet applications use caching and sometime there are pages or data already buffered, you can not be sure 100% if your phone is just connected to 3G or Wifi network, or it is really enabled to receive and transmit data to the Internet, or the data trasmission has correct dns registration, or your mobile operator just blocked your internet connection because expired contract.<br><br>So, this app will not simply check if your phone is actually registered into a 3G network or into any WLAN wifi, or it has an IP address already assigned by dhcp, BUT will try REALLY to send and receive data from an internet pool to confirm that your internet connection is effective, and there is correct dns registration, and will do it as fast as possible as 1 second !<br><br>The story started time ago when i had problem with ADSL at home, keep loosing signal due to bad SNR, so my phone was always connected to the wifi wlan but i keep losing internet connection, so i had to run the browser and open a page everytime to check if i was really on-line, and web pages sometimes were cached so i never had chance to correcly guess if that bad dsl connection was aligned or not and connected, also sometimes, after continued disconnection, dns or alignment are badly negotiated, so i decided to write this simple app to quickly check when i was really online.<br><br>Free app!<br><br>Jined",
+    "descriptionShort": "Simple app to test if internet connection is really active on your device",
+    "details": {
+      "appDetails": {
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown1": 2,
+          "unknown2": "8024935",
+          "unknown3": 28
+        },
+        "developerAddress": "Albano st., Rome, Italy",
+        "developerEmail": "jitec@katamail.com",
+        "developerName": "Jined",
+        "developerWebsite": "http://jined.ddns.net",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "8024935",
+            "versionCode": 70
+          }
+        ],
+        "installationSize": "8024935",
+        "numDownloads": "50,000+ downloads",
+        "packageName": "appinventor.ai_metaphonic.Internet_Test",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.WRITE_EXTERNAL_STORAGE"
+        ],
+        "recentChangesHtml": "Support last Android devices",
+        "unstable": false,
+        "uploadDate": "May 26, 2020",
+        "versionCode": 70,
+        "versionString": "7.0"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=appinventor.ai_metaphonic.Internet_Test",
+    "docType": 1,
+    "docid": "appinventor.ai_metaphonic.Internet_Test",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://lh3.googleusercontent.com/7g4ccu9bjx7ed3iFYc_s1IZ6M77si5AQISCcrrCvcWbga6CPP5R5t4j-l9O1eVd7DvWy",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 4,
+        "imageUrl": "https://lh3.googleusercontent.com/pNvyjBj6UBJCjw_SbSJsJcSCWHXyDSWuP8ZWWDwFzBqC7laoq2lldKG7prkNc1Lj-Rc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/_aq8cpaagyL2Uzmobzhl-SAiQFjmpbSIhJE1RPHLRU2CzPjOCcOgjqX6Zrxmv2kBdHI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/X2XOOyxfZakLCNc04GdaLt7R4XU3S3yPK17MwtWTlj5KfQLcfMPJKc-mWZJPBD_GRgRg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 800,
+          "width": 480
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/wjCHuI__UybVLgoT7xyuOSTckv0_bE64rwZ0ncr9P_yqp-Lu-N0wuW1cIacpJGxftA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 800,
+          "width": 480
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/jaf_lzD0Kaw96o3t700ALpllxu3NE3V9UR90XBvp-zyLNJF_rUX6y_lvW33EvpIo_9ka",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 800,
+          "width": 480
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/RUENT4ovhBDXPDNuMkkyxBjwpsUDifJvC1jBD-PDq0meYk3fr9MleowC36W4EZoeFeX4",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 800,
+          "width": 480
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/KwxUaT_MQBhVyjYF9K1xy91Srrf4tiv-4W7q_xoCObyOYD7tZOL70TwODfL-NQj9PQ",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://jined.ddns.net/privacypolicy.htm",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://lh3.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=appinventor.ai_metaphonic.Internet_Test",
+    "reviewsUrl": "rev?doc=appinventor.ai_metaphonic.Internet_Test&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=appinventor.ai_metaphonic.Internet_Test",
+    "title": "Internet Connection Test",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Jined"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "jitec@katamail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Albano st., Rome, Italy"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "Apr. 26, 2013"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "159",
+      "fiveStarRatings": "458",
+      "fourStarRatings": "55",
+      "oneStarRatings": "61",
+      "ratingsCount": "619",
+      "starRating": 4.34,
+      "threeStarRatings": "24",
+      "twoStarRatings": "18",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-06-19 05:27:31.609477",
+    "backendDocid": "appinventor.ai_metaphonic.Internet_Test",
+    "backendId": 3,
+    "creator": "Jined",
+    "descriptionHtml": "Internet test online connection, FREE EDITION<br><br>A simple and quick app to check if internet connection is REALLY active on your phone over the network and you are effectively on-line into the web !<br><br>Very useful tool for quick and repeated internet diagnostics<br><br>Since, lot of phone internet applications use caching and sometime there are pages or data already buffered, you can not be sure 100% if your phone is just connected to 3G or Wifi network, or it is really enabled to receive and transmit data to the Internet, or the data trasmission has correct dns registration, or your mobile operator just blocked your internet connection because expired contract.<br><br>So, this app will not simply check if your phone is actually registered into a 3G network or into any WLAN wifi, or it has an IP address already assigned by dhcp, BUT will try REALLY to send and receive data from an internet pool to confirm that your internet connection is effective, and there is correct dns registration, and will do it as fast as possible as 1 second !<br><br>The story started time ago when i had problem with ADSL at home, keep loosing signal due to bad SNR, so my phone was always connected to the wifi wlan but i keep losing internet connection, so i had to run the browser and open a page everytime to check if i was really on-line, and web pages sometimes were cached so i never had chance to correcly guess if that bad dsl connection was aligned or not and connected, also sometimes, after continued disconnection, dns or alignment are badly negotiated, so i decided to write this simple app to quickly check when i was really online.<br><br>Free app!<br><br>Jined",
+    "descriptionShort": "Free app to test if internet connection is really active on your device",
+    "details": {
+      "appDetails": {
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown1": 2,
+          "unknown2": "8168281",
+          "unknown3": 28
+        },
+        "developerAddress": "Albano st., Rome, Italy",
+        "developerEmail": "jitec@katamail.com",
+        "developerName": "Jined",
+        "developerWebsite": "http://jined.ddns.net",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "8168281",
+            "versionCode": 72
+          }
+        ],
+        "installationSize": "8168281",
+        "numDownloads": "50,000+ downloads",
+        "packageName": "appinventor.ai_metaphonic.Internet_Test",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.WRITE_EXTERNAL_STORAGE"
+        ],
+        "recentChangesHtml": "Free app to test if internet connection is really active on your device",
+        "unstable": false,
+        "uploadDate": "18 Jun 2020",
+        "versionCode": 72,
+        "versionString": "7.2"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=appinventor.ai_metaphonic.Internet_Test",
+    "docType": 1,
+    "docid": "appinventor.ai_metaphonic.Internet_Test",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://lh3.googleusercontent.com/7g4ccu9bjx7ed3iFYc_s1IZ6M77si5AQISCcrrCvcWbga6CPP5R5t4j-l9O1eVd7DvWy",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://lh3.googleusercontent.com/E_Qcf8qkupITCmubHaxJ0t-6z-LmbFg-0WwupN9AHSZ7X2o1SA2RkvTGgVQLwWd5B_4",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/_aq8cpaagyL2Uzmobzhl-SAiQFjmpbSIhJE1RPHLRU2CzPjOCcOgjqX6Zrxmv2kBdHI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/X2XOOyxfZakLCNc04GdaLt7R4XU3S3yPK17MwtWTlj5KfQLcfMPJKc-mWZJPBD_GRgRg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 800,
+          "width": 480
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/wjCHuI__UybVLgoT7xyuOSTckv0_bE64rwZ0ncr9P_yqp-Lu-N0wuW1cIacpJGxftA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 800,
+          "width": 480
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/jaf_lzD0Kaw96o3t700ALpllxu3NE3V9UR90XBvp-zyLNJF_rUX6y_lvW33EvpIo_9ka",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 800,
+          "width": 480
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/RUENT4ovhBDXPDNuMkkyxBjwpsUDifJvC1jBD-PDq0meYk3fr9MleowC36W4EZoeFeX4",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 800,
+          "width": 480
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/KwxUaT_MQBhVyjYF9K1xy91Srrf4tiv-4W7q_xoCObyOYD7tZOL70TwODfL-NQj9PQ",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://jined.ddns.net/privacypolicy.htm",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://lh3.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=appinventor.ai_metaphonic.Internet_Test",
+    "reviewsUrl": "rev?doc=appinventor.ai_metaphonic.Internet_Test&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=appinventor.ai_metaphonic.Internet_Test",
+    "title": "Internet Connection Test",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "jitec@katamail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Albano st., Rome, Italy"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "26 Apr 2013"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "160",
+      "fiveStarRatings": "452",
+      "fourStarRatings": "62",
+      "oneStarRatings": "62",
+      "ratingsCount": "620",
+      "starRating": 4.33,
+      "threeStarRatings": "24",
+      "twoStarRatings": "18",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-06-25 18:12:39.223042",
+    "backendDocid": "appinventor.ai_metaphonic.Internet_Test",
+    "backendId": 3,
+    "creator": "Jined",
+    "descriptionHtml": "Internet test online connection, FREE EDITION<br><br>A simple and quick app to check if internet connection is REALLY active on your phone over the network and you are effectively on-line into the web !<br><br>Very useful tool for quick and repeated internet diagnostics<br><br>Since, lot of phone internet applications use caching and sometime there are pages or data already buffered, you can not be sure 100% if your phone is just connected to 3G or Wifi network, or it is really enabled to receive and transmit data to the Internet, or the data trasmission has correct dns registration, or your mobile operator just blocked your internet connection because expired contract.<br><br>So, this app will not simply check if your phone is actually registered into a 3G network or into any WLAN wifi, or it has an IP address already assigned by dhcp, BUT will try REALLY to send and receive data from an internet pool to confirm that your internet connection is effective, and there is correct dns registration, and will do it as fast as possible as 1 second !<br><br>The story started time ago when i had problem with ADSL at home, keep loosing signal due to bad SNR, so my phone was always connected to the wifi wlan but i keep losing internet connection, so i had to run the browser and open a page everytime to check if i was really on-line, and web pages sometimes were cached so i never had chance to correcly guess if that bad dsl connection was aligned or not and connected, also sometimes, after continued disconnection, dns or alignment are badly negotiated, so i decided to write this simple app to quickly check when i was really online.<br><br>Free app.",
+    "descriptionShort": "Free app to test if internet connection is really active on your device",
+    "details": {
+      "appDetails": {
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown1": 2,
+          "unknown2": "8168281",
+          "unknown3": 28
+        },
+        "developerAddress": "Albano st., Rome, Italy",
+        "developerEmail": "jitec@katamail.com",
+        "developerName": "Jined",
+        "developerWebsite": "http://jined.ddns.net",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "8168281",
+            "versionCode": 73
+          }
+        ],
+        "installationSize": "8168281",
+        "numDownloads": "50,000+ downloads",
+        "packageName": "appinventor.ai_metaphonic.Internet_Test",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.WRITE_EXTERNAL_STORAGE"
+        ],
+        "recentChangesHtml": "Free app to test if internet connection is really active on your device<br>Now uses HD resolution, bug fixes, keeps screen on",
+        "unstable": false,
+        "uploadDate": "25 Jun 2020",
+        "versionCode": 73,
+        "versionString": "7.3"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=appinventor.ai_metaphonic.Internet_Test",
+    "docType": 1,
+    "docid": "appinventor.ai_metaphonic.Internet_Test",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://lh3.googleusercontent.com/7g4ccu9bjx7ed3iFYc_s1IZ6M77si5AQISCcrrCvcWbga6CPP5R5t4j-l9O1eVd7DvWy",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://lh3.googleusercontent.com/E_Qcf8qkupITCmubHaxJ0t-6z-LmbFg-0WwupN9AHSZ7X2o1SA2RkvTGgVQLwWd5B_4",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/_aq8cpaagyL2Uzmobzhl-SAiQFjmpbSIhJE1RPHLRU2CzPjOCcOgjqX6Zrxmv2kBdHI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/X2XOOyxfZakLCNc04GdaLt7R4XU3S3yPK17MwtWTlj5KfQLcfMPJKc-mWZJPBD_GRgRg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 800,
+          "width": 480
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/wjCHuI__UybVLgoT7xyuOSTckv0_bE64rwZ0ncr9P_yqp-Lu-N0wuW1cIacpJGxftA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 800,
+          "width": 480
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/jaf_lzD0Kaw96o3t700ALpllxu3NE3V9UR90XBvp-zyLNJF_rUX6y_lvW33EvpIo_9ka",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://jined.ddns.net/privacypolicy.htm",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://lh3.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=appinventor.ai_metaphonic.Internet_Test",
+    "reviewsUrl": "rev?doc=appinventor.ai_metaphonic.Internet_Test&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=appinventor.ai_metaphonic.Internet_Test",
+    "title": "Internet Connection Test",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "jitec@katamail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Albano st., Rome, Italy"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "26 Apr 2013"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "2",
+      "fiveStarRatings": "239",
+      "fourStarRatings": "59",
+      "oneStarRatings": "179",
+      "ratingsCount": "659",
+      "starRating": 3.2727273,
+      "threeStarRatings": "179",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-02-03 18:46:59.655307",
+    "backendDocid": "appinventor.ai_metaphonic.Internet_Test",
+    "backendId": 3,
+    "creator": "Jined",
+    "descriptionHtml": "Internet test online connection<br><br>A simple and quick app to check if internet connection is REALLY active on your phone over the network and you are effectively on-line into the web !<br><br>Very useful tool for quick and repeated internet diagnostics<br><br>Since, lot of phone internet applications use caching and sometime there are pages or data already buffered, you can not be sure 100% if your phone is just connected to 3G or Wifi network, or it is really enabled to receive and transmit data to the Internet, or the data trasmission has correct dns registration, or your mobile operator just blocked your internet connection because expired contract.<br><br>So, this app will not simply check if your phone is actually registered into a 3G network or into any WLAN wifi, or it has an IP address already assigned by dhcp, BUT will try REALLY to send and receive data from an internet pool to confirm that your internet connection is effective, and there is correct dns registration, and will do it as fast as possible as 1 second !<br><br>The story started time ago when i had problem with ADSL at home, keep loosing signal due to bad SNR, so my phone was always connected to the wifi wlan but i keep losing internet connection, so i had to run the browser and open a page everytime to check if i was really on-line, and web pages sometimes were cached so i never had chance to correcly guess if that bad dsl connection was aligned or not and connected, also sometimes, after continued disconnection, dns or alignment are badly negotiated, so i decided to write this simple app to quickly check when i was really online.",
+    "descriptionShort": "Test if internet connection is really active on your device",
+    "details": {
+      "appDetails": {
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown1": 2,
+          "unknown2": "11177739",
+          "unknown3": 30
+        },
+        "developerAddress": "Albano st., Rome, Italy",
+        "developerEmail": "jitec@katamail.com",
+        "developerName": "Jined",
+        "developerWebsite": "http://jined.ddns.net",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "11177739",
+            "versionCode": 74
+          }
+        ],
+        "installationSize": "11177739",
+        "numDownloads": "50,000+ downloads",
+        "packageName": "appinventor.ai_metaphonic.Internet_Test",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.WRITE_EXTERNAL_STORAGE"
+        ],
+        "recentChangesHtml": "Improper permission bug fixed",
+        "unstable": true,
+        "uploadDate": "16 Jun 2022",
+        "versionCode": 74,
+        "versionString": "7.4"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=appinventor.ai_metaphonic.Internet_Test",
+    "docType": 1,
+    "docid": "appinventor.ai_metaphonic.Internet_Test",
+    "image": [
+      {
+        "color": "#F5F5F5",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/7g4ccu9bjx7ed3iFYc_s1IZ6M77si5AQISCcrrCvcWbga6CPP5R5t4j-l9O1eVd7DvWy",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FCFCFC",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/do-pLH5xG0JXAWxXb21AQLGcLGjF6vWtNoB-8dATRV6Xy4j5pcfG9PwcMsDT90QhAe1V",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/_aq8cpaagyL2Uzmobzhl-SAiQFjmpbSIhJE1RPHLRU2CzPjOCcOgjqX6Zrxmv2kBdHI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/X2XOOyxfZakLCNc04GdaLt7R4XU3S3yPK17MwtWTlj5KfQLcfMPJKc-mWZJPBD_GRgRg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 800,
+          "width": 480
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/wjCHuI__UybVLgoT7xyuOSTckv0_bE64rwZ0ncr9P_yqp-Lu-N0wuW1cIacpJGxftA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 800,
+          "width": 480
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/jaf_lzD0Kaw96o3t700ALpllxu3NE3V9UR90XBvp-zyLNJF_rUX6y_lvW33EvpIo_9ka",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://jined.great-site.net/privacypolicy.htm",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=appinventor.ai_metaphonic.Internet_Test",
+    "reviewsUrl": "rev?doc=appinventor.ai_metaphonic.Internet_Test&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=appinventor.ai_metaphonic.Internet_Test",
+    "title": "Internet Connection Test",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "jitec@katamail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Albano st., Rome, Italy"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "26 Apr 2013"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "166",
+      "fiveStarRatings": "449",
+      "fourStarRatings": "43",
+      "oneStarRatings": "67",
+      "ratingsCount": "616",
+      "starRating": 4.26,
+      "threeStarRatings": "24",
+      "twoStarRatings": "30",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-10-16 17:42:50.196133",
+    "backendDocid": "appinventor.ai_metaphonic.Internet_Test",
+    "backendId": 3,
+    "creator": "Jined",
+    "descriptionHtml": "Internet test online connection<br><br>A simple and quick app to check if internet connection is REALLY active on your phone over the network and you are effectively on-line into the web !<br><br>Very useful tool for quick and repeated internet diagnostics<br><br>Since, lot of phone internet applications use caching and sometime there are pages or data already buffered, you can not be sure 100% if your phone is just connected to 3G or Wifi network, or it is really enabled to receive and transmit data to the Internet, or the data trasmission has correct dns registration, or your mobile operator just blocked your internet connection because expired contract.<br><br>So, this app will not simply check if your phone is actually registered into a 3G network or into any WLAN wifi, or it has an IP address already assigned by dhcp, BUT will try REALLY to send and receive data from an internet pool to confirm that your internet connection is effective, and there is correct dns registration, and will do it as fast as possible as 1 second !<br><br>The story started time ago when i had problem with ADSL at home, keep loosing signal due to bad SNR, so my phone was always connected to the wifi wlan but i keep losing internet connection, so i had to run the browser and open a page everytime to check if i was really on-line, and web pages sometimes were cached so i never had chance to correcly guess if that bad dsl connection was aligned or not and connected, also sometimes, after continued disconnection, dns or alignment are badly negotiated, so i decided to write this simple app to quickly check when i was really online.",
+    "descriptionShort": "Test if internet connection is really active on your device",
+    "details": {
+      "appDetails": {
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "version": 12451000
+            }
+          ],
+          "unknown2": "6755717",
+          "unknown3": 33
+        },
+        "developerAddress": "Albano st. 48, Rome, Italy",
+        "developerEmail": "jitec@katamail.com",
+        "developerName": "Jined",
+        "developerWebsite": "http://jined.ddns.net",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "6755717",
+            "versionCode": 80
+          }
+        ],
+        "installationSize": "6755717",
+        "numDownloads": "50,000+ downloads",
+        "packageName": "appinventor.ai_metaphonic.Internet_Test",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.WAKE_LOCK",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": "Last version of Internet Test for diagnosing internet connection, dsl stability, wifi stability and correct dns registrations, provides last Android SDK update for stability and security",
+        "unstable": true,
+        "uploadDate": "11 Sept 2023",
+        "versionCode": 80,
+        "versionString": "8.0"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=appinventor.ai_metaphonic.Internet_Test",
+    "docType": 1,
+    "docid": "appinventor.ai_metaphonic.Internet_Test",
+    "image": [
+      {
+        "color": "#F5F5F5",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/7g4ccu9bjx7ed3iFYc_s1IZ6M77si5AQISCcrrCvcWbga6CPP5R5t4j-l9O1eVd7DvWy",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FCFCFC",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/do-pLH5xG0JXAWxXb21AQLGcLGjF6vWtNoB-8dATRV6Xy4j5pcfG9PwcMsDT90QhAe1V",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/_aq8cpaagyL2Uzmobzhl-SAiQFjmpbSIhJE1RPHLRU2CzPjOCcOgjqX6Zrxmv2kBdHI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/X2XOOyxfZakLCNc04GdaLt7R4XU3S3yPK17MwtWTlj5KfQLcfMPJKc-mWZJPBD_GRgRg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 800,
+          "width": 480
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/wjCHuI__UybVLgoT7xyuOSTckv0_bE64rwZ0ncr9P_yqp-Lu-N0wuW1cIacpJGxftA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 800,
+          "width": 480
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/jaf_lzD0Kaw96o3t700ALpllxu3NE3V9UR90XBvp-zyLNJF_rUX6y_lvW33EvpIo_9ka",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://jined.great-site.net/privacypolicy.htm",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=appinventor.ai_metaphonic.Internet_Test",
+    "reviewsUrl": "rev?doc=appinventor.ai_metaphonic.Internet_Test&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=appinventor.ai_metaphonic.Internet_Test",
+    "title": "Internet Connection Test",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "jitec@katamail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Albano st. 48, Rome, Italy"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "26 Apr 2013"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  }
+]

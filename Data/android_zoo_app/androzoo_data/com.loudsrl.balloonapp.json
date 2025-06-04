@@ -1,0 +1,4725 @@
+[
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-06-14 05:36:25.431696",
+    "backendDocid": "com.loudsrl.balloonapp",
+    "backendId": 3,
+    "creator": "LOUD srl",
+    "descriptionHtml": "Are you ready to explore the world with Balloon?<br><br>Save and keep track of the countries and states you&#39;ve already visited, update your travel diary and read useful and essential information for your next trip.<br><br>Get inspired and discover new and fantastic places with always updated and handy tips.<br><br>Challenge your friends and share your latest trips on social networks.<br><br>FEATURES:<br><br>- 196 countries and more than 20,000 useful information to visit them<br>- Tips based on your preferences<br>- Travel diary to track and collect all the places where you&#39;ve been<br>- Global ranking to compete with all the travelers on the app<br>- Profile and map of your travels to envy your friends<br><br><br>TRAVEL COUNTRIES TIPS:<br><br>- Currency converter exchange<br>- Anthem of the nation<br>- Spoken languages<br>- Emergency numbers<br>- UNESCO heritage<br>- Starred restaurants<br>- Level of risk<br>- National holiday<br>- Driving direction<br>- Currency of the country<br>and many other travel infos.<br><br><br>ALL CURRENCIES<br><br>Available conversions on Balloon are: USD (US Dollar), EUR (Euro), JPY (Japanese Yen), BGN (Bulgarian Lev), CZK (Czech Krona), DKK (Danish Krona), GBP (British Pound), HUF (Hungarian Forint) ), PLN (Polish Zloty), RON (Romanian Leu), SEK (Swedish Krona), CHF (Swiss Franc), ISK (Icelandic Krona), NOK (Norwegian Krone), HRK (Croatian Kuna), RUB (Russian Ruble), TRY (Turkish Lira), AUD (Australian Dollar), BRL (Brazilian Real), CAD (Canadian Dollar), CNY (Chinese Yuan), HKD (Hong Kong Dollar), IDR (Indonesian Rupee), ILS (New Israeli Shekel), INR (Indian Rupee), KRW (South Korean Won), MXN (Mexican Peso), MYR (Malaysian Ringgit), NZD (New Zealand Dollar), PHP (Philippine Peso), SGD (Singapore Dollar), THB (Thai Bath), ZAR ( South African Rand).<br><br>Do you love to travel? join Balloon now, download the app and get inspired.",
+    "descriptionShort": "Places been and Visited countries map",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "24936342",
+          "unknown3": 28
+        },
+        "developerAddress": "Via Vittorio Emanuele II 1, Brescia 25122 Italia",
+        "developerEmail": "hello@loudsrl.com",
+        "developerName": "LOUD srl",
+        "developerWebsite": "https://balloon.travel",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "4734155",
+            "versionCode": 29
+          },
+          {
+            "fileType": 0,
+            "size": "81784",
+            "versionCode": 29
+          },
+          {
+            "fileType": 0,
+            "size": "29018",
+            "versionCode": 29
+          },
+          {
+            "fileType": 0,
+            "size": "20091385",
+            "versionCode": 29
+          }
+        ],
+        "hasInstantLink": true,
+        "installationSize": "24936342",
+        "numDownloads": "100+ downloads",
+        "packageName": "com.loudsrl.balloonapp",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.INTERNET",
+          "android.permission.WAKE_LOCK",
+          "com.android.vending.BILLING",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+        ],
+        "recentChangesHtml": "Minor fix and improvements",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "Jun. 9, 2020",
+        "versionCode": 29,
+        "versionString": "1.0.6"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.loudsrl.balloonapp",
+    "docType": 1,
+    "docid": "com.loudsrl.balloonapp",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://lh3.googleusercontent.com/hQ9K7RGlh9sMQPlc9TKuKnWAp1ndT-rELBtEbXocCDDXuMxDm7Y3O_UEhJ-M2nxfZw4",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://lh3.googleusercontent.com/mdxk_9YkDGnt5XgzrszIdP833i6Kx__2nL-LiZHmLMTqHh3fFSFycKZ5YvQ5JzrWhkM",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/qYigSwptZkpi42qA29t0NGmMFecWgGxNVLXaUEjkLIDY3e9-0DCI2dD2nR5YH6pxgg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/ZbBbOCkVGM5IWWQaaXPiwS6UMYuIT7zRpc2akpSEkgDVC9ExHxb3vS0Nb8fFT0QS-Q",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/fYJF95Z9aCUFdBOIo4E41pEuWqb1f-FisRNCv75OWI0XA2Y6iWPUBKql0oDGvvgZ3w",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/hv9s5fdiXJ-B4VGTzFaJfW7Pq0NtB56uK-AMPrAxvLeHuaI-hbBYCnemSCihPpqyIbA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/V8het3LrR7mfAJu8RcpBpTxhTjt9sTTGZcnYCkX7GSIkhVhRKjxtJxadHrn2e7s2rZs",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/w_8nIyT_YbYKT498dPQpUsVmCYJbjWpLCqMkFO5yGJGHhbIDs09dScHPamk35fMPvQt4",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://loudsrl.com/balloon/privacy-policy.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://lh3.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "In-app purchases<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.loudsrl.balloonapp",
+    "reviewsUrl": "rev?doc=com.loudsrl.balloonapp&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.loudsrl.balloonapp",
+    "title": "Balloon: Map where I've Been and Visited Countries",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "LOUD srl"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "hello@loudsrl.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Via Vittorio Emanuele II 1, Brescia 25122 Italia"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "May 13, 2020"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "5",
+      "fiveStarRatings": "8",
+      "fourStarRatings": "1",
+      "oneStarRatings": "0",
+      "ratingsCount": "9",
+      "starRating": 4.888889,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-06-25 20:21:28.312949",
+    "backendDocid": "com.loudsrl.balloonapp",
+    "backendId": 3,
+    "creator": "LOUD srl",
+    "descriptionHtml": "Are you ready to explore the world with Balloon?<br><br>Save and keep track of the countries and states you&#39;ve already visited, update your travel diary and read useful and essential information for your next trip.<br><br>Get inspired and discover new and fantastic places with always updated and handy tips.<br><br>Challenge your friends and share your latest trips on social networks.<br><br>FEATURES:<br><br>- 196 countries and more than 20,000 useful information to visit them<br>- Tips based on your preferences<br>- Travel diary to track and collect all the places where you&#39;ve been<br>- Global ranking to compete with all the travelers on the app<br>- Profile and map of your travels to envy your friends<br><br><br>TRAVEL COUNTRIES TIPS:<br><br>- Currency converter exchange<br>- Anthem of the nation<br>- Spoken languages<br>- Emergency numbers<br>- UNESCO heritage<br>- Starred restaurants<br>- Level of risk<br>- National holiday<br>- Driving direction<br>- Currency of the country<br>and many other travel infos.<br><br><br>ALL CURRENCIES<br><br>Available conversions on Balloon are: USD (US Dollar), EUR (Euro), JPY (Japanese Yen), BGN (Bulgarian Lev), CZK (Czech Krona), DKK (Danish Krona), GBP (British Pound), HUF (Hungarian Forint) ), PLN (Polish Zloty), RON (Romanian Leu), SEK (Swedish Krona), CHF (Swiss Franc), ISK (Icelandic Krona), NOK (Norwegian Krone), HRK (Croatian Kuna), RUB (Russian Ruble), TRY (Turkish Lira), AUD (Australian Dollar), BRL (Brazilian Real), CAD (Canadian Dollar), CNY (Chinese Yuan), HKD (Hong Kong Dollar), IDR (Indonesian Rupee), ILS (New Israeli Shekel), INR (Indian Rupee), KRW (South Korean Won), MXN (Mexican Peso), MYR (Malaysian Ringgit), NZD (New Zealand Dollar), PHP (Philippine Peso), SGD (Singapore Dollar), THB (Thai Bath), ZAR ( South African Rand).<br><br>Do you love to travel? join Balloon now, download the app and get inspired.",
+    "descriptionShort": "Places been and Visited countries map",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "25032435",
+          "unknown3": 28
+        },
+        "developerAddress": "Via Vittorio Emanuele II 1, Brescia 25122 Italia",
+        "developerEmail": "hello@loudsrl.com",
+        "developerName": "LOUD srl",
+        "developerWebsite": "https://balloon.travel",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "4731944",
+            "versionCode": 30
+          },
+          {
+            "fileType": 0,
+            "size": "81784",
+            "versionCode": 30
+          },
+          {
+            "fileType": 0,
+            "size": "29018",
+            "versionCode": 30
+          },
+          {
+            "fileType": 0,
+            "size": "20189689",
+            "versionCode": 30
+          }
+        ],
+        "hasInstantLink": true,
+        "installationSize": "25032435",
+        "numDownloads": "100+ downloads",
+        "packageName": "com.loudsrl.balloonapp",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.INTERNET",
+          "android.permission.WAKE_LOCK",
+          "com.android.vending.BILLING",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+        ],
+        "recentChangesHtml": "Minor fix and improvements",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "25 Jun 2020",
+        "versionCode": 30,
+        "versionString": "1.0.7"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.loudsrl.balloonapp",
+    "docType": 1,
+    "docid": "com.loudsrl.balloonapp",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://lh3.googleusercontent.com/hQ9K7RGlh9sMQPlc9TKuKnWAp1ndT-rELBtEbXocCDDXuMxDm7Y3O_UEhJ-M2nxfZw4",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://lh3.googleusercontent.com/mdxk_9YkDGnt5XgzrszIdP833i6Kx__2nL-LiZHmLMTqHh3fFSFycKZ5YvQ5JzrWhkM",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/qYigSwptZkpi42qA29t0NGmMFecWgGxNVLXaUEjkLIDY3e9-0DCI2dD2nR5YH6pxgg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/ZbBbOCkVGM5IWWQaaXPiwS6UMYuIT7zRpc2akpSEkgDVC9ExHxb3vS0Nb8fFT0QS-Q",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/fYJF95Z9aCUFdBOIo4E41pEuWqb1f-FisRNCv75OWI0XA2Y6iWPUBKql0oDGvvgZ3w",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/hv9s5fdiXJ-B4VGTzFaJfW7Pq0NtB56uK-AMPrAxvLeHuaI-hbBYCnemSCihPpqyIbA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/V8het3LrR7mfAJu8RcpBpTxhTjt9sTTGZcnYCkX7GSIkhVhRKjxtJxadHrn2e7s2rZs",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/w_8nIyT_YbYKT498dPQpUsVmCYJbjWpLCqMkFO5yGJGHhbIDs09dScHPamk35fMPvQt4",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://loudsrl.com/balloon/privacy-policy.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://lh3.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "In-app purchases<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.loudsrl.balloonapp",
+    "reviewsUrl": "rev?doc=com.loudsrl.balloonapp&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.loudsrl.balloonapp",
+    "title": "Balloon: Map where I've Been and Visited Countries",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "$1.99 per item"
+          },
+          "label": "In-app purchases"
+        },
+        {
+          "container": {
+            "value": "LOUD srl"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "hello@loudsrl.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Via Vittorio Emanuele II 1, Brescia 25122 Italia"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "13 May 2020"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "6",
+      "fiveStarRatings": "9",
+      "fourStarRatings": "2",
+      "oneStarRatings": "0",
+      "ratingsCount": "11",
+      "starRating": 4.818182,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-07-11 11:31:57.814443",
+    "backendDocid": "com.loudsrl.balloonapp",
+    "backendId": 3,
+    "creator": "LOUD srl",
+    "descriptionHtml": "Are you ready to travel and explore the world with Balloon? How many countries do you have visited? Save and keep track of the countries and states you&#39;ve already visited, update your travel diary and read useful and essential information for your next trip. Get inspired and discover new and fantastic places with always updated and handy tips. Challenge your friends and share your latest trips on social networks.<br><br>FEATURES:<br><br>- 196 countries and more than 20,000 useful information to visit them<br>- Tips based on your preferences<br>- Travel diary to track and collect all the places where you&#39;ve been<br>- Global ranking to compete with all the travelers on the app<br>- Profile and map of your travels to envy your friends<br><br><br>TRAVEL COUNTRIES TIPS:<br><br>- Currency converter exchange<br>- Anthem of the nation<br>- Spoken languages<br>- Emergency numbers<br>- UNESCO heritage<br>- Starred restaurants<br>- Level of risk<br>- National holiday<br>- Driving direction<br>- Currency of the country<br>and many other travel infos.<br><br><br>ALL CURRENCIES<br><br>Available conversions on Balloon are: USD (US Dollar), EUR (Euro), JPY (Japanese Yen), BGN (Bulgarian Lev), CZK (Czech Krona), DKK (Danish Krona), GBP (British Pound), HUF (Hungarian Forint) ), PLN (Polish Zloty), RON (Romanian Leu), SEK (Swedish Krona), CHF (Swiss Franc), ISK (Icelandic Krona), NOK (Norwegian Krone), HRK (Croatian Kuna), RUB (Russian Ruble), TRY (Turkish Lira), AUD (Australian Dollar), BRL (Brazilian Real), CAD (Canadian Dollar), CNY (Chinese Yuan), HKD (Hong Kong Dollar), IDR (Indonesian Rupee), ILS (New Israeli Shekel), INR (Indian Rupee), KRW (South Korean Won), MXN (Mexican Peso), MYR (Malaysian Ringgit), NZD (New Zealand Dollar), PHP (Philippine Peso), SGD (Singapore Dollar), THB (Thai Bath), ZAR ( South African Rand).<br><br>Do you love to travel? join Balloon now, download the app and get inspired.",
+    "descriptionShort": "Visited and Track Countries",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "25036531",
+          "unknown3": 28
+        },
+        "developerAddress": "Via Vittorio Emanuele II 1, Brescia 25122 Italia",
+        "developerEmail": "hello@loudsrl.com",
+        "developerName": "LOUD srl",
+        "developerWebsite": "https://balloon.travel",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "4731944",
+            "versionCode": 31
+          },
+          {
+            "fileType": 0,
+            "size": "81784",
+            "versionCode": 31
+          },
+          {
+            "fileType": 0,
+            "size": "29018",
+            "versionCode": 31
+          },
+          {
+            "fileType": 0,
+            "size": "20193785",
+            "versionCode": 31
+          }
+        ],
+        "hasInstantLink": true,
+        "installationSize": "25036531",
+        "numDownloads": "500+ downloads",
+        "packageName": "com.loudsrl.balloonapp",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.INTERNET",
+          "android.permission.WAKE_LOCK",
+          "com.android.vending.BILLING",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+        ],
+        "recentChangesHtml": "Minor fix and improvements",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "8 Jul 2020",
+        "versionCode": 31,
+        "versionString": "1.0.8"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.loudsrl.balloonapp",
+    "docType": 1,
+    "docid": "com.loudsrl.balloonapp",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://lh3.googleusercontent.com/hQ9K7RGlh9sMQPlc9TKuKnWAp1ndT-rELBtEbXocCDDXuMxDm7Y3O_UEhJ-M2nxfZw4",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://lh3.googleusercontent.com/mdxk_9YkDGnt5XgzrszIdP833i6Kx__2nL-LiZHmLMTqHh3fFSFycKZ5YvQ5JzrWhkM",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/qYigSwptZkpi42qA29t0NGmMFecWgGxNVLXaUEjkLIDY3e9-0DCI2dD2nR5YH6pxgg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/ZbBbOCkVGM5IWWQaaXPiwS6UMYuIT7zRpc2akpSEkgDVC9ExHxb3vS0Nb8fFT0QS-Q",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/fYJF95Z9aCUFdBOIo4E41pEuWqb1f-FisRNCv75OWI0XA2Y6iWPUBKql0oDGvvgZ3w",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/hv9s5fdiXJ-B4VGTzFaJfW7Pq0NtB56uK-AMPrAxvLeHuaI-hbBYCnemSCihPpqyIbA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/V8het3LrR7mfAJu8RcpBpTxhTjt9sTTGZcnYCkX7GSIkhVhRKjxtJxadHrn2e7s2rZs",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/w_8nIyT_YbYKT498dPQpUsVmCYJbjWpLCqMkFO5yGJGHhbIDs09dScHPamk35fMPvQt4",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://loudsrl.com/balloon/privacy-policy.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://lh3.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "In-app purchases<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.loudsrl.balloonapp",
+    "reviewsUrl": "rev?doc=com.loudsrl.balloonapp&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.loudsrl.balloonapp",
+    "title": "Balloon - Where I've Been",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "\u20ac2.29 per item"
+          },
+          "label": "In-app purchases"
+        },
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "hello@loudsrl.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Via Vittorio Emanuele II 1, Brescia 25122 Italia"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "13 May 2020"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "6",
+      "fiveStarRatings": "9",
+      "fourStarRatings": "2",
+      "oneStarRatings": "0",
+      "ratingsCount": "11",
+      "starRating": 4.818182,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-07-19 08:21:35.673948",
+    "backendDocid": "com.loudsrl.balloonapp",
+    "backendId": 3,
+    "creator": "LOUD srl",
+    "descriptionHtml": "Balloon, the app to track your travels, finally allows you to answer one of the most discussed questions by travelers from all over the world, how many countries in the world have you visited? Save and keep track of the countries and states you&#39;ve already visited, update your travel diary and read useful and essential information for your next trip. Get inspired and discover new and fantastic places with always updated and handy tips. Challenge your friends and share your latest trips on social networks.<br><br>FEATURES:<br><br>- 196 countries and more than 20,000 useful information to visit them<br>- Tips based on your preferences<br>- Travel diary to track and collect all the places where you&#39;ve been<br>- Global ranking to compete with all the travelers on the app<br>- Profile and map of your travels to envy your friends<br><br><br>TRAVEL COUNTRIES TIPS:<br><br>- Currency converter exchange<br>- Anthem of the nation<br>- Spoken languages<br>- Emergency numbers<br>- UNESCO heritage<br>- Starred restaurants<br>- Level of risk<br>- National holiday<br>- Driving direction<br>- Currency of the country<br>and many other travel infos.<br><br><br>ALL CURRENCIES<br><br>Available conversions on Balloon are: USD (US Dollar), EUR (Euro), JPY (Japanese Yen), BGN (Bulgarian Lev), CZK (Czech Krona), DKK (Danish Krona), GBP (British Pound), HUF (Hungarian Forint) ), PLN (Polish Zloty), RON (Romanian Leu), SEK (Swedish Krona), CHF (Swiss Franc), ISK (Icelandic Krona), NOK (Norwegian Krone), HRK (Croatian Kuna), RUB (Russian Ruble), TRY (Turkish Lira), AUD (Australian Dollar), BRL (Brazilian Real), CAD (Canadian Dollar), CNY (Chinese Yuan), HKD (Hong Kong Dollar), IDR (Indonesian Rupee), ILS (New Israeli Shekel), INR (Indian Rupee), KRW (South Korean Won), MXN (Mexican Peso), MYR (Malaysian Ringgit), NZD (New Zealand Dollar), PHP (Philippine Peso), SGD (Singapore Dollar), THB (Thai Bath), ZAR ( South African Rand).<br><br>Do you love to travel? join Balloon now, download the app and get inspired.",
+    "descriptionShort": "Visited and Track Countries",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "25011955",
+          "unknown3": 28
+        },
+        "developerAddress": "Via Vittorio Emanuele II 1, Brescia 25122 Italia",
+        "developerEmail": "hello@loudsrl.com",
+        "developerName": "LOUD srl",
+        "developerWebsite": "https://balloon.travel",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "4731944",
+            "versionCode": 32
+          },
+          {
+            "fileType": 0,
+            "size": "81784",
+            "versionCode": 32
+          },
+          {
+            "fileType": 0,
+            "size": "29018",
+            "versionCode": 32
+          },
+          {
+            "fileType": 0,
+            "size": "20169209",
+            "versionCode": 32
+          }
+        ],
+        "hasInstantLink": true,
+        "installationSize": "25011955",
+        "numDownloads": "500+ downloads",
+        "packageName": "com.loudsrl.balloonapp",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.INTERNET",
+          "android.permission.WAKE_LOCK",
+          "com.android.vending.BILLING",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+        ],
+        "recentChangesHtml": "Thanks for supporting Balloon!<br><br>Announcements:<br>\u2022 The add of new countries has been simplified<br>\u2022 Minor fixes and improvements",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "15 Jul 2020",
+        "versionCode": 32,
+        "versionString": "1.0.9"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.loudsrl.balloonapp",
+    "docType": 1,
+    "docid": "com.loudsrl.balloonapp",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://lh3.googleusercontent.com/hQ9K7RGlh9sMQPlc9TKuKnWAp1ndT-rELBtEbXocCDDXuMxDm7Y3O_UEhJ-M2nxfZw4",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://lh3.googleusercontent.com/mdxk_9YkDGnt5XgzrszIdP833i6Kx__2nL-LiZHmLMTqHh3fFSFycKZ5YvQ5JzrWhkM",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/qYigSwptZkpi42qA29t0NGmMFecWgGxNVLXaUEjkLIDY3e9-0DCI2dD2nR5YH6pxgg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/ZbBbOCkVGM5IWWQaaXPiwS6UMYuIT7zRpc2akpSEkgDVC9ExHxb3vS0Nb8fFT0QS-Q",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/fYJF95Z9aCUFdBOIo4E41pEuWqb1f-FisRNCv75OWI0XA2Y6iWPUBKql0oDGvvgZ3w",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/hv9s5fdiXJ-B4VGTzFaJfW7Pq0NtB56uK-AMPrAxvLeHuaI-hbBYCnemSCihPpqyIbA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/V8het3LrR7mfAJu8RcpBpTxhTjt9sTTGZcnYCkX7GSIkhVhRKjxtJxadHrn2e7s2rZs",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/w_8nIyT_YbYKT498dPQpUsVmCYJbjWpLCqMkFO5yGJGHhbIDs09dScHPamk35fMPvQt4",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://loudsrl.com/balloon/privacy-policy.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://lh3.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "In-app purchases<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.loudsrl.balloonapp",
+    "reviewsUrl": "rev?doc=com.loudsrl.balloonapp&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.loudsrl.balloonapp",
+    "title": "Balloon - Where I've Been",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "$1.99 per item"
+          },
+          "label": "In-app purchases"
+        },
+        {
+          "container": {
+            "value": "LOUD srl"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "hello@loudsrl.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Via Vittorio Emanuele II 1, Brescia 25122 Italia"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "13 May 2020"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "6",
+      "fiveStarRatings": "9",
+      "fourStarRatings": "2",
+      "oneStarRatings": "0",
+      "ratingsCount": "11",
+      "starRating": 4.818182,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-07-30 19:24:56.309964",
+    "backendDocid": "com.loudsrl.balloonapp",
+    "backendId": 3,
+    "creator": "LOUD srl",
+    "descriptionHtml": "Balloon, the app to track your travels, finally allows you to answer one of the most discussed questions by travelers from all over the world, how many countries in the world have you visited? Save and keep track of the countries and states you&#39;ve already visited, update your travel diary and read useful and essential information for your next trip. Get inspired and discover new and fantastic places with always updated and handy tips. Challenge your friends and share your latest trips on social networks.<br><br>FEATURES:<br><br>- 196 countries and more than 20,000 useful information to visit them<br>- Tips based on your preferences<br>- Travel diary to track and collect all the places where you&#39;ve been<br>- Global ranking to compete with all the travelers on the app<br>- Profile and map of your travels to envy your friends<br><br><br>TRAVEL COUNTRIES TIPS:<br><br>- Currency converter exchange<br>- Anthem of the nation<br>- Spoken languages<br>- Emergency numbers<br>- UNESCO heritage<br>- Starred restaurants<br>- Level of risk<br>- National holiday<br>- Driving direction<br>- Currency of the country<br>and many other travel infos.<br><br><br>ALL CURRENCIES<br><br>Available conversions on Balloon are: USD (US Dollar), EUR (Euro), JPY (Japanese Yen), BGN (Bulgarian Lev), CZK (Czech Krona), DKK (Danish Krona), GBP (British Pound), HUF (Hungarian Forint) ), PLN (Polish Zloty), RON (Romanian Leu), SEK (Swedish Krona), CHF (Swiss Franc), ISK (Icelandic Krona), NOK (Norwegian Krone), HRK (Croatian Kuna), RUB (Russian Ruble), TRY (Turkish Lira), AUD (Australian Dollar), BRL (Brazilian Real), CAD (Canadian Dollar), CNY (Chinese Yuan), HKD (Hong Kong Dollar), IDR (Indonesian Rupee), ILS (New Israeli Shekel), INR (Indian Rupee), KRW (South Korean Won), MXN (Mexican Peso), MYR (Malaysian Ringgit), NZD (New Zealand Dollar), PHP (Philippine Peso), SGD (Singapore Dollar), THB (Thai Bath), ZAR ( South African Rand).<br><br>Do you love to travel? join Balloon now, download the app and get inspired.",
+    "descriptionShort": "Visited and Track Countries",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "25225092",
+          "unknown3": 29
+        },
+        "developerAddress": "Via Vittorio Emanuele II 1, Brescia 25122 Italia",
+        "developerEmail": "hello@loudsrl.com",
+        "developerName": "LOUD srl",
+        "developerWebsite": "https://balloon.travel",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "4879545",
+            "versionCode": 34
+          },
+          {
+            "fileType": 0,
+            "size": "85880",
+            "versionCode": 34
+          },
+          {
+            "fileType": 0,
+            "size": "33114",
+            "versionCode": 34
+          },
+          {
+            "fileType": 0,
+            "size": "20226553",
+            "versionCode": 34
+          }
+        ],
+        "hasInstantLink": true,
+        "installationSize": "25225092",
+        "numDownloads": "500+ downloads",
+        "packageName": "com.loudsrl.balloonapp",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.INTERNET",
+          "android.permission.WAKE_LOCK",
+          "com.android.vending.BILLING",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+        ],
+        "recentChangesHtml": "Thanks for downloading Balloon!<br>- Minor fix and improvements",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "29 Jul 2020",
+        "versionCode": 34,
+        "versionString": "1.1.0"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.loudsrl.balloonapp",
+    "docType": 1,
+    "docid": "com.loudsrl.balloonapp",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://lh3.googleusercontent.com/hQ9K7RGlh9sMQPlc9TKuKnWAp1ndT-rELBtEbXocCDDXuMxDm7Y3O_UEhJ-M2nxfZw4",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://lh3.googleusercontent.com/mdxk_9YkDGnt5XgzrszIdP833i6Kx__2nL-LiZHmLMTqHh3fFSFycKZ5YvQ5JzrWhkM",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/qYigSwptZkpi42qA29t0NGmMFecWgGxNVLXaUEjkLIDY3e9-0DCI2dD2nR5YH6pxgg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/ZbBbOCkVGM5IWWQaaXPiwS6UMYuIT7zRpc2akpSEkgDVC9ExHxb3vS0Nb8fFT0QS-Q",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/fYJF95Z9aCUFdBOIo4E41pEuWqb1f-FisRNCv75OWI0XA2Y6iWPUBKql0oDGvvgZ3w",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/hv9s5fdiXJ-B4VGTzFaJfW7Pq0NtB56uK-AMPrAxvLeHuaI-hbBYCnemSCihPpqyIbA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/V8het3LrR7mfAJu8RcpBpTxhTjt9sTTGZcnYCkX7GSIkhVhRKjxtJxadHrn2e7s2rZs",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/w_8nIyT_YbYKT498dPQpUsVmCYJbjWpLCqMkFO5yGJGHhbIDs09dScHPamk35fMPvQt4",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://loudsrl.com/balloon/privacy-policy.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://lh3.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "In-app purchases<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.loudsrl.balloonapp",
+    "reviewsUrl": "rev?doc=com.loudsrl.balloonapp&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.loudsrl.balloonapp",
+    "title": "Balloon - Where I've Been",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "\u20ac2.29 per item"
+          },
+          "label": "In-app purchases"
+        },
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "hello@loudsrl.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Via Vittorio Emanuele II 1, Brescia 25122 Italia"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "13 May 2020"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "9",
+      "fiveStarRatings": "9",
+      "fourStarRatings": "2",
+      "oneStarRatings": "2",
+      "ratingsCount": "14",
+      "starRating": 4.142857,
+      "threeStarRatings": "1",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-08-27 22:06:10.451282",
+    "backendDocid": "com.loudsrl.balloonapp",
+    "backendId": 3,
+    "creator": "LOUD srl",
+    "descriptionHtml": "Balloon, the app to track your travels, finally allows you to answer one of the most discussed questions by travelers from all over the world, how many countries in the world have you visited? Save and keep track of the countries and states you&#39;ve already visited, update your travel diary and read useful and essential information for your next trip. Get inspired and discover new and fantastic places with always updated and handy tips. Challenge your friends and share your latest trips on social networks.<br><br>FEATURES:<br><br>- 196 countries and more than 20,000 useful information to visit them<br>- Tips based on your preferences<br>- Travel diary to track and collect all the places where you&#39;ve been<br>- Global ranking to compete with all the travelers on the app<br>- Profile and map of your travels to envy your friends<br><br><br>TRAVEL COUNTRIES TIPS:<br><br>- Currency converter exchange<br>- Anthem of the nation<br>- Spoken languages<br>- Emergency numbers<br>- UNESCO heritage<br>- Starred restaurants<br>- Level of risk<br>- National holiday<br>- Driving direction<br>- Currency of the country<br>and many other travel infos.<br><br><br>ALL CURRENCIES<br><br>Available conversions on Balloon are: USD (US Dollar), EUR (Euro), JPY (Japanese Yen), BGN (Bulgarian Lev), CZK (Czech Krona), DKK (Danish Krona), GBP (British Pound), HUF (Hungarian Forint) ), PLN (Polish Zloty), RON (Romanian Leu), SEK (Swedish Krona), CHF (Swiss Franc), ISK (Icelandic Krona), NOK (Norwegian Krone), HRK (Croatian Kuna), RUB (Russian Ruble), TRY (Turkish Lira), AUD (Australian Dollar), BRL (Brazilian Real), CAD (Canadian Dollar), CNY (Chinese Yuan), HKD (Hong Kong Dollar), IDR (Indonesian Rupee), ILS (New Israeli Shekel), INR (Indian Rupee), KRW (South Korean Won), MXN (Mexican Peso), MYR (Malaysian Ringgit), NZD (New Zealand Dollar), PHP (Philippine Peso), SGD (Singapore Dollar), THB (Thai Bath), ZAR ( South African Rand).<br><br>Do you love to travel? join Balloon now, download the app and get inspired.",
+    "descriptionShort": "Visited and Track Countries",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "25249730",
+          "unknown3": 29
+        },
+        "developerAddress": "Via Vittorio Emanuele II 1, Brescia 25122 Italia",
+        "developerEmail": "hello@loudsrl.com",
+        "developerName": "LOUD srl",
+        "developerWebsite": "https://balloon.travel",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "4887799",
+            "versionCode": 36
+          },
+          {
+            "fileType": 0,
+            "size": "102264",
+            "versionCode": 36
+          },
+          {
+            "fileType": 0,
+            "size": "33114",
+            "versionCode": 36
+          },
+          {
+            "fileType": 0,
+            "size": "20226553",
+            "versionCode": 36
+          }
+        ],
+        "hasInstantLink": true,
+        "installationSize": "25249730",
+        "numDownloads": "500+ downloads",
+        "packageName": "com.loudsrl.balloonapp",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.INTERNET",
+          "android.permission.WAKE_LOCK",
+          "com.android.vending.BILLING",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+        ],
+        "recentChangesHtml": "Vari fix",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "24 Aug 2020",
+        "versionCode": 36,
+        "versionString": "1.1.0"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.loudsrl.balloonapp",
+    "docType": 1,
+    "docid": "com.loudsrl.balloonapp",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/hQ9K7RGlh9sMQPlc9TKuKnWAp1ndT-rELBtEbXocCDDXuMxDm7Y3O_UEhJ-M2nxfZw4",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/mdxk_9YkDGnt5XgzrszIdP833i6Kx__2nL-LiZHmLMTqHh3fFSFycKZ5YvQ5JzrWhkM",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qYigSwptZkpi42qA29t0NGmMFecWgGxNVLXaUEjkLIDY3e9-0DCI2dD2nR5YH6pxgg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ZbBbOCkVGM5IWWQaaXPiwS6UMYuIT7zRpc2akpSEkgDVC9ExHxb3vS0Nb8fFT0QS-Q",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/fYJF95Z9aCUFdBOIo4E41pEuWqb1f-FisRNCv75OWI0XA2Y6iWPUBKql0oDGvvgZ3w",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/hv9s5fdiXJ-B4VGTzFaJfW7Pq0NtB56uK-AMPrAxvLeHuaI-hbBYCnemSCihPpqyIbA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/V8het3LrR7mfAJu8RcpBpTxhTjt9sTTGZcnYCkX7GSIkhVhRKjxtJxadHrn2e7s2rZs",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/w_8nIyT_YbYKT498dPQpUsVmCYJbjWpLCqMkFO5yGJGHhbIDs09dScHPamk35fMPvQt4",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://loudsrl.com/balloon/privacy-policy.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "In-app purchases<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.loudsrl.balloonapp",
+    "reviewsUrl": "rev?doc=com.loudsrl.balloonapp&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.loudsrl.balloonapp",
+    "title": "Balloon - Where I've Been",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "\u20ac2.29 per item"
+          },
+          "label": "In-app purchases"
+        },
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "hello@loudsrl.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Via Vittorio Emanuele II 1, Brescia 25122 Italia"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "13 May 2020"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "9",
+      "fiveStarRatings": "9",
+      "fourStarRatings": "2",
+      "oneStarRatings": "2",
+      "ratingsCount": "14",
+      "starRating": 4.142857,
+      "threeStarRatings": "1",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-09-02 12:55:19.100948",
+    "backendDocid": "com.loudsrl.balloonapp",
+    "backendId": 3,
+    "creator": "LOUD srl",
+    "descriptionHtml": "Balloon, the app to track your travels, finally allows you to answer one of the most discussed questions by travelers from all over the world, how many countries in the world have you visited? Save and keep track of the countries and states you&#39;ve already visited, update your travel diary and read useful and essential information for your next trip. Get inspired and discover new and fantastic places with always updated and handy tips. Challenge your friends and share your latest trips on social networks.<br><br>FEATURES:<br><br>- 196 countries and more than 20,000 useful information to visit them<br>- Tips based on your preferences<br>- Travel diary to track and collect all the places where you&#39;ve been<br>- Global ranking to compete with all the travelers on the app<br>- Profile and map of your travels to envy your friends<br><br><br>TRAVEL COUNTRIES TIPS:<br><br>- Currency converter exchange<br>- Anthem of the nation<br>- Spoken languages<br>- Emergency numbers<br>- UNESCO heritage<br>- Starred restaurants<br>- Level of risk<br>- National holiday<br>- Driving direction<br>- Currency of the country<br>and many other travel infos.<br><br><br>ALL CURRENCIES<br><br>Available conversions on Balloon are: USD (US Dollar), EUR (Euro), JPY (Japanese Yen), BGN (Bulgarian Lev), CZK (Czech Krona), DKK (Danish Krona), GBP (British Pound), HUF (Hungarian Forint) ), PLN (Polish Zloty), RON (Romanian Leu), SEK (Swedish Krona), CHF (Swiss Franc), ISK (Icelandic Krona), NOK (Norwegian Krone), HRK (Croatian Kuna), RUB (Russian Ruble), TRY (Turkish Lira), AUD (Australian Dollar), BRL (Brazilian Real), CAD (Canadian Dollar), CNY (Chinese Yuan), HKD (Hong Kong Dollar), IDR (Indonesian Rupee), ILS (New Israeli Shekel), INR (Indian Rupee), KRW (South Korean Won), MXN (Mexican Peso), MYR (Malaysian Ringgit), NZD (New Zealand Dollar), PHP (Philippine Peso), SGD (Singapore Dollar), THB (Thai Bath), ZAR ( South African Rand).<br><br>Do you love to travel? join Balloon now, download the app and get inspired.",
+    "descriptionShort": "Visited and Track Countries",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "25266052",
+          "unknown3": 29
+        },
+        "developerAddress": "Via Vittorio Emanuele II 1, Brescia 25122 Italia",
+        "developerEmail": "hello@loudsrl.com",
+        "developerName": "LOUD srl",
+        "developerWebsite": "https://balloon.travel",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "4875449",
+            "versionCode": 37
+          },
+          {
+            "fileType": 0,
+            "size": "85880",
+            "versionCode": 37
+          },
+          {
+            "fileType": 0,
+            "size": "33114",
+            "versionCode": 37
+          },
+          {
+            "fileType": 0,
+            "size": "20271609",
+            "versionCode": 37
+          }
+        ],
+        "hasInstantLink": true,
+        "installationSize": "25266052",
+        "numDownloads": "500+ downloads",
+        "packageName": "com.loudsrl.balloonapp",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.INTERNET",
+          "android.permission.WAKE_LOCK",
+          "com.android.vending.BILLING",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+        ],
+        "recentChangesHtml": "Thanks for supporting Balloon!<br><br>Announcements:<br>\u2022 New feature: Coronavirus infection statistics order by country<br>\u2022 Minor fixes and improvements<br>",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "Sep. 1, 2020",
+        "versionCode": 37,
+        "versionString": "1.1.1"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.loudsrl.balloonapp",
+    "docType": 1,
+    "docid": "com.loudsrl.balloonapp",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://lh3.googleusercontent.com/hQ9K7RGlh9sMQPlc9TKuKnWAp1ndT-rELBtEbXocCDDXuMxDm7Y3O_UEhJ-M2nxfZw4",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://lh3.googleusercontent.com/mdxk_9YkDGnt5XgzrszIdP833i6Kx__2nL-LiZHmLMTqHh3fFSFycKZ5YvQ5JzrWhkM",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/qYigSwptZkpi42qA29t0NGmMFecWgGxNVLXaUEjkLIDY3e9-0DCI2dD2nR5YH6pxgg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/ZbBbOCkVGM5IWWQaaXPiwS6UMYuIT7zRpc2akpSEkgDVC9ExHxb3vS0Nb8fFT0QS-Q",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/fYJF95Z9aCUFdBOIo4E41pEuWqb1f-FisRNCv75OWI0XA2Y6iWPUBKql0oDGvvgZ3w",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/hv9s5fdiXJ-B4VGTzFaJfW7Pq0NtB56uK-AMPrAxvLeHuaI-hbBYCnemSCihPpqyIbA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/V8het3LrR7mfAJu8RcpBpTxhTjt9sTTGZcnYCkX7GSIkhVhRKjxtJxadHrn2e7s2rZs",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/w_8nIyT_YbYKT498dPQpUsVmCYJbjWpLCqMkFO5yGJGHhbIDs09dScHPamk35fMPvQt4",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://loudsrl.com/balloon/privacy-policy.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "In-app purchases<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.loudsrl.balloonapp",
+    "reviewsUrl": "rev?doc=com.loudsrl.balloonapp&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.loudsrl.balloonapp",
+    "title": "Balloon - Where I've Been",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "LOUD srl"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "hello@loudsrl.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Via Vittorio Emanuele II 1, Brescia 25122 Italia"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "May 13, 2020"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "10",
+      "fiveStarRatings": "9",
+      "fourStarRatings": "2",
+      "oneStarRatings": "2",
+      "ratingsCount": "16",
+      "starRating": 3.9375,
+      "threeStarRatings": "2",
+      "twoStarRatings": "1",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-10-03 02:06:25.829749",
+    "backendDocid": "com.loudsrl.balloonapp",
+    "backendId": 3,
+    "creator": "LOUD srl",
+    "descriptionHtml": "Balloon, the app to track your travels, finally allows you to answer one of the most discussed questions by travelers from all over the world, how many countries in the world have you visited? Save and keep track of the countries and states you&#39;ve already visited, update your travel diary and read useful and essential information for your next trip. Get inspired and discover new and fantastic places with always updated and handy tips. Challenge your friends and share your latest trips on social networks.<br><br>FEATURES:<br><br>- 196 countries and more than 20,000 useful information to visit them<br>- Tips based on your preferences<br>- Travel diary to track and collect all the places where you&#39;ve been<br>- Global ranking to compete with all the travelers on the app<br>- Profile and map of your travels to envy your friends<br><br><br>TRAVEL COUNTRIES TIPS:<br><br>- Currency converter exchange<br>- Anthem of the nation<br>- Spoken languages<br>- Emergency numbers<br>- UNESCO heritage<br>- Starred restaurants<br>- Level of risk<br>- National holiday<br>- Driving direction<br>- Currency of the country<br>and many other travel infos.<br><br><br>ALL CURRENCIES<br><br>Available conversions on Balloon are: USD (US Dollar), EUR (Euro), JPY (Japanese Yen), BGN (Bulgarian Lev), CZK (Czech Krona), DKK (Danish Krona), GBP (British Pound), HUF (Hungarian Forint) ), PLN (Polish Zloty), RON (Romanian Leu), SEK (Swedish Krona), CHF (Swiss Franc), ISK (Icelandic Krona), NOK (Norwegian Krone), HRK (Croatian Kuna), RUB (Russian Ruble), TRY (Turkish Lira), AUD (Australian Dollar), BRL (Brazilian Real), CAD (Canadian Dollar), CNY (Chinese Yuan), HKD (Hong Kong Dollar), IDR (Indonesian Rupee), ILS (New Israeli Shekel), INR (Indian Rupee), KRW (South Korean Won), MXN (Mexican Peso), MYR (Malaysian Ringgit), NZD (New Zealand Dollar), PHP (Philippine Peso), SGD (Singapore Dollar), THB (Thai Bath), ZAR ( South African Rand).<br><br>Do you love to travel? join Balloon now, download the app and get inspired.",
+    "descriptionShort": "Visited and Track Countries",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "23438742",
+          "unknown3": 29
+        },
+        "developerAddress": "Via Vittorio Emanuele II 1, Brescia 25122 Italia",
+        "developerEmail": "hello@loudsrl.com",
+        "developerName": "LOUD srl",
+        "developerWebsite": "https://balloon.travel",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "5006027",
+            "versionCode": 39
+          },
+          {
+            "fileType": 0,
+            "size": "85880",
+            "versionCode": 39
+          },
+          {
+            "fileType": 0,
+            "size": "33114",
+            "versionCode": 39
+          },
+          {
+            "fileType": 0,
+            "size": "18313721",
+            "versionCode": 39
+          }
+        ],
+        "hasInstantLink": true,
+        "installationSize": "23438742",
+        "numDownloads": "500+ downloads",
+        "packageName": "com.loudsrl.balloonapp",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "com.android.vending.BILLING",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+        ],
+        "recentChangesHtml": "Thanks for supporting Balloon!<br><br>Announcements:<br>\u2022 Minor fixes and improvements<br>",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "1 Oct 2020",
+        "versionCode": 39,
+        "versionString": "1.1.2"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.loudsrl.balloonapp",
+    "docType": 1,
+    "docid": "com.loudsrl.balloonapp",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://lh3.googleusercontent.com/hQ9K7RGlh9sMQPlc9TKuKnWAp1ndT-rELBtEbXocCDDXuMxDm7Y3O_UEhJ-M2nxfZw4",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://lh3.googleusercontent.com/mdxk_9YkDGnt5XgzrszIdP833i6Kx__2nL-LiZHmLMTqHh3fFSFycKZ5YvQ5JzrWhkM",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/qYigSwptZkpi42qA29t0NGmMFecWgGxNVLXaUEjkLIDY3e9-0DCI2dD2nR5YH6pxgg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/ZbBbOCkVGM5IWWQaaXPiwS6UMYuIT7zRpc2akpSEkgDVC9ExHxb3vS0Nb8fFT0QS-Q",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/fYJF95Z9aCUFdBOIo4E41pEuWqb1f-FisRNCv75OWI0XA2Y6iWPUBKql0oDGvvgZ3w",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/hv9s5fdiXJ-B4VGTzFaJfW7Pq0NtB56uK-AMPrAxvLeHuaI-hbBYCnemSCihPpqyIbA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/V8het3LrR7mfAJu8RcpBpTxhTjt9sTTGZcnYCkX7GSIkhVhRKjxtJxadHrn2e7s2rZs",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/w_8nIyT_YbYKT498dPQpUsVmCYJbjWpLCqMkFO5yGJGHhbIDs09dScHPamk35fMPvQt4",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://loudsrl.com/balloon/privacy-policy.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "In-app purchases<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.loudsrl.balloonapp",
+    "reviewsUrl": "rev?doc=com.loudsrl.balloonapp&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.loudsrl.balloonapp",
+    "title": "Balloon - Where I've Been",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "$1.99 per item"
+          },
+          "label": "In-app purchases"
+        },
+        {
+          "container": {
+            "value": "LOUD srl"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "hello@loudsrl.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Via Vittorio Emanuele II 1, Brescia 25122 Italia"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "13 May 2020"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "10",
+      "fiveStarRatings": "9",
+      "fourStarRatings": "2",
+      "oneStarRatings": "2",
+      "ratingsCount": "16",
+      "starRating": 3.9375,
+      "threeStarRatings": "2",
+      "twoStarRatings": "1",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-10-23 08:02:21.837023",
+    "backendDocid": "com.loudsrl.balloonapp",
+    "backendId": 3,
+    "creator": "LOUD srl",
+    "descriptionHtml": "Get the list of visited countries and places where you have been. Track how many percent of the world have you visited. Create your own travel map with the countries and states you&#39;ve been to. Update your travel diary and read useful and essential information for your next trip, like the UNESCO heritage. Challenge your friends and share your latest trips on Instagram and Facebook.<br><br>USER FRIENDLY FEATURES:<br>- 196 countries and more than 20,000 useful information to visit them<br>- Tips based on your preferences<br>- Travel diary to track and collect all the places where you&#39;ve been<br>- Global ranking to compete with all the travelers on the app<br>- Profile and map of your travels to envy your friends<br><br><br>TRAVEL COUNTRIES TIPS:<br>- Currency converter exchange<br>- Anthem of the nation<br>- Spoken languages<br>- Emergency numbers<br>- UNESCO heritage (World Heritage Sites)<br>- Starred restaurants<br>- Level of risk<br>- National holiday<br>- Driving direction<br>- Currency of the country<br>and many other travel infos.<br><br><br>ALL THE CURRENCIES OF THE SUPPORTED COUNTRIES:<br>Available conversions on Balloon are: USD (US Dollar), EUR (Euro), JPY (Japanese Yen), BGN (Bulgarian Lev), CZK (Czech Krona), DKK (Danish Krona), GBP (British Pound), HUF (Hungarian Forint) ), PLN (Polish Zloty), RON (Romanian Leu), SEK (Swedish Krona), CHF (Swiss Franc), ISK (Icelandic Krona), NOK (Norwegian Krone), HRK (Croatian Kuna), RUB (Russian Ruble), TRY (Turkish Lira), AUD (Australian Dollar), BRL (Brazilian Real), CAD (Canadian Dollar), CNY (Chinese Yuan), HKD (Hong Kong Dollar), IDR (Indonesian Rupee), ILS (New Israeli Shekel), INR (Indian Rupee), KRW (South Korean Won), MXN (Mexican Peso), MYR (Malaysian Ringgit), NZD (New Zealand Dollar), PHP (Philippine Peso), SGD (Singapore Dollar), THB (Thai Bath), ZAR ( South African Rand).<br><br>Do you love to travel? join Balloon now, download the app and get inspired.<br><br>Feel free to give as feedback on Instagram @loudsrl or at email: balloon@loudsrl.com",
+    "descriptionShort": "Visited and Track Countries",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "23328338",
+          "unknown3": 29
+        },
+        "developerAddress": "Via Vittorio Emanuele II 1, Brescia 25122 Italia",
+        "developerEmail": "hello@loudsrl.com",
+        "developerName": "LOUD srl",
+        "developerWebsite": "https://balloon.travel",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "5018503",
+            "versionCode": 41
+          },
+          {
+            "fileType": 0,
+            "size": "85880",
+            "versionCode": 41
+          },
+          {
+            "fileType": 0,
+            "size": "33114",
+            "versionCode": 41
+          },
+          {
+            "fileType": 0,
+            "size": "18190841",
+            "versionCode": 41
+          }
+        ],
+        "hasInstantLink": true,
+        "installationSize": "23328338",
+        "numDownloads": "500+ downloads",
+        "packageName": "com.loudsrl.balloonapp",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "com.android.vending.BILLING",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+        ],
+        "recentChangesHtml": "Thanks for supporting Balloon!<br><br>Announcements:<br>\u2022 Minor fixes and improvements<br>",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "20 Oct 2020",
+        "versionCode": 41,
+        "versionString": "1.1.3"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.loudsrl.balloonapp",
+    "docType": 1,
+    "docid": "com.loudsrl.balloonapp",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/hQ9K7RGlh9sMQPlc9TKuKnWAp1ndT-rELBtEbXocCDDXuMxDm7Y3O_UEhJ-M2nxfZw4",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/mdxk_9YkDGnt5XgzrszIdP833i6Kx__2nL-LiZHmLMTqHh3fFSFycKZ5YvQ5JzrWhkM",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qYigSwptZkpi42qA29t0NGmMFecWgGxNVLXaUEjkLIDY3e9-0DCI2dD2nR5YH6pxgg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ZbBbOCkVGM5IWWQaaXPiwS6UMYuIT7zRpc2akpSEkgDVC9ExHxb3vS0Nb8fFT0QS-Q",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/fYJF95Z9aCUFdBOIo4E41pEuWqb1f-FisRNCv75OWI0XA2Y6iWPUBKql0oDGvvgZ3w",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/hv9s5fdiXJ-B4VGTzFaJfW7Pq0NtB56uK-AMPrAxvLeHuaI-hbBYCnemSCihPpqyIbA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/V8het3LrR7mfAJu8RcpBpTxhTjt9sTTGZcnYCkX7GSIkhVhRKjxtJxadHrn2e7s2rZs",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/w_8nIyT_YbYKT498dPQpUsVmCYJbjWpLCqMkFO5yGJGHhbIDs09dScHPamk35fMPvQt4",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://loudsrl.com/balloon/privacy-policy.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "In-app purchases<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.loudsrl.balloonapp",
+    "reviewsUrl": "rev?doc=com.loudsrl.balloonapp&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.loudsrl.balloonapp",
+    "title": "Balloon Travel - Where I've Been",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "\u20ac2.19 per item"
+          },
+          "label": "In-app purchases"
+        },
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "hello@loudsrl.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Via Vittorio Emanuele II 1, Brescia 25122 Italia"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "13 May 2020"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "10",
+      "fiveStarRatings": "9",
+      "fourStarRatings": "2",
+      "oneStarRatings": "2",
+      "ratingsCount": "16",
+      "starRating": 3.9375,
+      "threeStarRatings": "2",
+      "twoStarRatings": "1",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-12-05 00:47:18.644221",
+    "backendDocid": "com.loudsrl.balloonapp",
+    "backendId": 3,
+    "creator": "LOUD srl",
+    "descriptionHtml": "Get the list of visited countries and places where you have been. Track how many percent of the world have you visited. Create your own travel map with the countries and states you&#39;ve been to. Update your travel diary and read useful and essential information for your next trip, like the UNESCO heritage. Challenge your friends and share your latest trips on Instagram and Facebook.<br><br>USER FRIENDLY FEATURES:<br>- 196 countries and more than 20,000 useful information to visit them<br>- Tips based on your preferences<br>- Travel diary to track and collect all the places where you&#39;ve been<br>- Global ranking to compete with all the travelers on the app<br>- Profile and map of your travels to envy your friends<br><br><br>TRAVEL COUNTRIES TIPS:<br>- Currency converter exchange<br>- Anthem of the nation<br>- Spoken languages<br>- Emergency numbers<br>- UNESCO heritage (World Heritage Sites)<br>- Starred restaurants<br>- Level of risk<br>- National holiday<br>- Driving direction<br>- Currency of the country<br>and many other travel infos.<br><br><br>ALL THE CURRENCIES OF THE SUPPORTED COUNTRIES:<br>Available conversions on Balloon are: USD (US Dollar), EUR (Euro), JPY (Japanese Yen), BGN (Bulgarian Lev), CZK (Czech Krona), DKK (Danish Krona), GBP (British Pound), HUF (Hungarian Forint) ), PLN (Polish Zloty), RON (Romanian Leu), SEK (Swedish Krona), CHF (Swiss Franc), ISK (Icelandic Krona), NOK (Norwegian Krone), HRK (Croatian Kuna), RUB (Russian Ruble), TRY (Turkish Lira), AUD (Australian Dollar), BRL (Brazilian Real), CAD (Canadian Dollar), CNY (Chinese Yuan), HKD (Hong Kong Dollar), IDR (Indonesian Rupee), ILS (New Israeli Shekel), INR (Indian Rupee), KRW (South Korean Won), MXN (Mexican Peso), MYR (Malaysian Ringgit), NZD (New Zealand Dollar), PHP (Philippine Peso), SGD (Singapore Dollar), THB (Thai Bath), ZAR ( South African Rand).<br><br>Do you love to travel? join Balloon now, download the app and get inspired.<br><br>Feel free to give as feedback on Instagram @loudsrl or at email: balloon@loudsrl.com",
+    "descriptionShort": "Track Places Where I've been",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "23452127",
+          "unknown3": 29
+        },
+        "developerAddress": "Via Vittorio Emanuele II 1, Brescia 25122 Italia",
+        "developerEmail": "hello@loudsrl.com",
+        "developerName": "LOUD srl",
+        "developerWebsite": "https://balloon.travel",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "5195428",
+            "versionCode": 45
+          },
+          {
+            "fileType": 0,
+            "size": "90039",
+            "versionCode": 45
+          },
+          {
+            "fileType": 0,
+            "size": "37273",
+            "versionCode": 45
+          },
+          {
+            "fileType": 0,
+            "size": "18129387",
+            "versionCode": 45
+          }
+        ],
+        "hasInstantLink": true,
+        "installationSize": "23452127",
+        "numDownloads": "500+ downloads",
+        "packageName": "com.loudsrl.balloonapp",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "com.android.vending.BILLING",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+        ],
+        "recentChangesHtml": "Thanks for supporting Balloon!<br><br>Announcements:<br>\u2022 Minor fixes and improvements<br>",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "2 Dec 2020",
+        "versionCode": 45,
+        "versionString": "1.1.5"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.loudsrl.balloonapp",
+    "docType": 1,
+    "docid": "com.loudsrl.balloonapp",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/hQ9K7RGlh9sMQPlc9TKuKnWAp1ndT-rELBtEbXocCDDXuMxDm7Y3O_UEhJ-M2nxfZw4",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/mdxk_9YkDGnt5XgzrszIdP833i6Kx__2nL-LiZHmLMTqHh3fFSFycKZ5YvQ5JzrWhkM",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qYigSwptZkpi42qA29t0NGmMFecWgGxNVLXaUEjkLIDY3e9-0DCI2dD2nR5YH6pxgg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ZbBbOCkVGM5IWWQaaXPiwS6UMYuIT7zRpc2akpSEkgDVC9ExHxb3vS0Nb8fFT0QS-Q",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/fYJF95Z9aCUFdBOIo4E41pEuWqb1f-FisRNCv75OWI0XA2Y6iWPUBKql0oDGvvgZ3w",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/hv9s5fdiXJ-B4VGTzFaJfW7Pq0NtB56uK-AMPrAxvLeHuaI-hbBYCnemSCihPpqyIbA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/V8het3LrR7mfAJu8RcpBpTxhTjt9sTTGZcnYCkX7GSIkhVhRKjxtJxadHrn2e7s2rZs",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/w_8nIyT_YbYKT498dPQpUsVmCYJbjWpLCqMkFO5yGJGHhbIDs09dScHPamk35fMPvQt4",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://loudsrl.com/balloon/privacy-policy.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "In-app purchases<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.loudsrl.balloonapp",
+    "reviewsUrl": "rev?doc=com.loudsrl.balloonapp&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.loudsrl.balloonapp",
+    "title": "Balloon: Visited Countries Map",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "\u20ac2.19 per item"
+          },
+          "label": "In-app purchases"
+        },
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "hello@loudsrl.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Via Vittorio Emanuele II 1, Brescia 25122 Italia"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "13 May 2020"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "10",
+      "fiveStarRatings": "9",
+      "fourStarRatings": "2",
+      "oneStarRatings": "2",
+      "ratingsCount": "16",
+      "starRating": 3.9375,
+      "threeStarRatings": "2",
+      "twoStarRatings": "1",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-12-19 22:35:20.046406",
+    "backendDocid": "com.loudsrl.balloonapp",
+    "backendId": 3,
+    "creator": "LOUD srl",
+    "descriptionHtml": "Get the list of visited countries and places where you have been. Track how many percent of the world have you visited. Create your own travel map with the countries and states you&#39;ve been to. Update your travel diary and read useful and essential information for your next trip, like the UNESCO heritage. Challenge your friends and share your latest trips on Instagram and Facebook.<br><br>USER FRIENDLY FEATURES:<br>- 196 countries and more than 20,000 useful information to visit them<br>- Tips based on your preferences<br>- Travel diary to track and collect all the places where you&#39;ve been<br>- Global ranking to compete with all the travelers on the app<br>- Profile and map of your travels to envy your friends<br><br><br>TRAVEL COUNTRIES TIPS:<br>- Currency converter exchange<br>- Anthem of the nation<br>- Spoken languages<br>- Emergency numbers<br>- UNESCO heritage (World Heritage Sites)<br>- Starred restaurants<br>- Level of risk<br>- National holiday<br>- Driving direction<br>- Currency of the country<br>and many other travel infos.<br><br><br>ALL THE CURRENCIES OF THE SUPPORTED COUNTRIES:<br>Available conversions on Balloon are: USD (US Dollar), EUR (Euro), JPY (Japanese Yen), BGN (Bulgarian Lev), CZK (Czech Krona), DKK (Danish Krona), GBP (British Pound), HUF (Hungarian Forint) ), PLN (Polish Zloty), RON (Romanian Leu), SEK (Swedish Krona), CHF (Swiss Franc), ISK (Icelandic Krona), NOK (Norwegian Krone), HRK (Croatian Kuna), RUB (Russian Ruble), TRY (Turkish Lira), AUD (Australian Dollar), BRL (Brazilian Real), CAD (Canadian Dollar), CNY (Chinese Yuan), HKD (Hong Kong Dollar), IDR (Indonesian Rupee), ILS (New Israeli Shekel), INR (Indian Rupee), KRW (South Korean Won), MXN (Mexican Peso), MYR (Malaysian Ringgit), NZD (New Zealand Dollar), PHP (Philippine Peso), SGD (Singapore Dollar), THB (Thai Bath), ZAR ( South African Rand).<br><br>Do you love to travel? join Balloon now, download the app and get inspired.<br><br>Feel free to give as feedback on Instagram @loudsrl or at email: balloon@loudsrl.com",
+    "descriptionShort": "Track Places Where I've been",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "23443941",
+          "unknown3": 29
+        },
+        "developerAddress": "Via Vittorio Emanuele II 1, Brescia 25122 Italia",
+        "developerEmail": "hello@loudsrl.com",
+        "developerName": "LOUD srl",
+        "developerWebsite": "https://balloon.travel",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "5199530",
+            "versionCode": 49
+          },
+          {
+            "fileType": 0,
+            "size": "90039",
+            "versionCode": 49
+          },
+          {
+            "fileType": 0,
+            "size": "37273",
+            "versionCode": 49
+          },
+          {
+            "fileType": 0,
+            "size": "18117099",
+            "versionCode": 49
+          }
+        ],
+        "hasInstantLink": true,
+        "installationSize": "23443941",
+        "numDownloads": "500+ downloads",
+        "packageName": "com.loudsrl.balloonapp",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "com.android.vending.BILLING",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+        ],
+        "recentChangesHtml": "Thank you for using Balloon! We&#39;ve been hard at work making the app better for you.<br>This release brings some minor bug fixes that improve our service.<br><br>If you have any suggestion or feedback, please don&#39;t hesitate to contact us at: hello@loudsrl.com",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "18 Dec 2020",
+        "versionCode": 49,
+        "versionString": "1.1.6"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.loudsrl.balloonapp",
+    "docType": 1,
+    "docid": "com.loudsrl.balloonapp",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/hQ9K7RGlh9sMQPlc9TKuKnWAp1ndT-rELBtEbXocCDDXuMxDm7Y3O_UEhJ-M2nxfZw4",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/mdxk_9YkDGnt5XgzrszIdP833i6Kx__2nL-LiZHmLMTqHh3fFSFycKZ5YvQ5JzrWhkM",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qYigSwptZkpi42qA29t0NGmMFecWgGxNVLXaUEjkLIDY3e9-0DCI2dD2nR5YH6pxgg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ZbBbOCkVGM5IWWQaaXPiwS6UMYuIT7zRpc2akpSEkgDVC9ExHxb3vS0Nb8fFT0QS-Q",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/fYJF95Z9aCUFdBOIo4E41pEuWqb1f-FisRNCv75OWI0XA2Y6iWPUBKql0oDGvvgZ3w",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/hv9s5fdiXJ-B4VGTzFaJfW7Pq0NtB56uK-AMPrAxvLeHuaI-hbBYCnemSCihPpqyIbA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/V8het3LrR7mfAJu8RcpBpTxhTjt9sTTGZcnYCkX7GSIkhVhRKjxtJxadHrn2e7s2rZs",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/w_8nIyT_YbYKT498dPQpUsVmCYJbjWpLCqMkFO5yGJGHhbIDs09dScHPamk35fMPvQt4",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://loudsrl.com/balloon/privacy-policy.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "In-app purchases<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.loudsrl.balloonapp",
+    "reviewsUrl": "rev?doc=com.loudsrl.balloonapp&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.loudsrl.balloonapp",
+    "title": "Balloon: Visited Countries Map",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "\u20ac2.29 per item"
+          },
+          "label": "In-app purchases"
+        },
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "hello@loudsrl.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Via Vittorio Emanuele II 1, Brescia 25122 Italia"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "13 May 2020"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "11",
+      "fiveStarRatings": "11",
+      "fourStarRatings": "2",
+      "oneStarRatings": "2",
+      "ratingsCount": "18",
+      "starRating": 4.0555553,
+      "threeStarRatings": "2",
+      "twoStarRatings": "1",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-03-27 04:25:00.856479",
+    "backendDocid": "com.loudsrl.balloonapp",
+    "backendId": 3,
+    "creator": "LOUD srl",
+    "descriptionHtml": "Get the list of visited countries and places where you have been. Track how many percent of the world have you visited. Create your own travel map with the countries you&#39;ve been to. Update your travel diary and read useful and essential information for your next trip, like the UNESCO heritage. Challenge your friends and share your latest trips on Instagram and Facebook.<br><br>USER FRIENDLY FEATURES:<br>- 196 countries and more than 20,000 useful information to visit them<br>- Tips based on your preferences<br>- Travel diary to track and collect all the places where you&#39;ve been<br>- Global ranking to compete with all the travelers on the app<br>- Profile and map of your travels to envy your friends<br><br><br>TRAVEL COUNTRIES TIPS:<br>- Currency converter exchange<br>- Anthem of the nation<br>- Spoken languages<br>- Emergency numbers<br>- UNESCO heritage (World Heritage Sites)<br>- Starred restaurants<br>- Level of risk<br>- National holiday<br>- Driving direction<br>- Currency of the country<br>and many other travel infos.<br><br><br>ALL THE CURRENCIES OF THE SUPPORTED COUNTRIES:<br>Available conversions on Balloon are: USD (US Dollar), EUR (Euro), JPY (Japanese Yen), BGN (Bulgarian Lev), CZK (Czech Krona), DKK (Danish Krona), GBP (British Pound), HUF (Hungarian Forint) ), PLN (Polish Zloty), RON (Romanian Leu), SEK (Swedish Krona), CHF (Swiss Franc), ISK (Icelandic Krona), NOK (Norwegian Krone), HRK (Croatian Kuna), RUB (Russian Ruble), TRY (Turkish Lira), AUD (Australian Dollar), BRL (Brazilian Real), CAD (Canadian Dollar), CNY (Chinese Yuan), HKD (Hong Kong Dollar), IDR (Indonesian Rupee), ILS (New Israeli Shekel), INR (Indian Rupee), KRW (South Korean Won), MXN (Mexican Peso), MYR (Malaysian Ringgit), NZD (New Zealand Dollar), PHP (Philippine Peso), SGD (Singapore Dollar), THB (Thai Bath), ZAR ( South African Rand).<br><br>Do you love to travel? join Balloon now, download the app and get inspired.<br><br>Feel free to give as feedback on Instagram @loudsrl or at email: balloon@loudsrl.com",
+    "descriptionShort": "Track Places Where I've been",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "24526862",
+          "unknown3": 29
+        },
+        "developerAddress": "Via Vittorio Emanuele II 1, Brescia 25122 Italia",
+        "developerEmail": "hello@loudsrl.com",
+        "developerName": "LOUD srl",
+        "developerWebsite": "https://balloon.travel",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "5633972",
+            "versionCode": 50
+          },
+          {
+            "fileType": 0,
+            "size": "90123",
+            "versionCode": 50
+          },
+          {
+            "fileType": 0,
+            "size": "24985",
+            "versionCode": 50
+          },
+          {
+            "fileType": 0,
+            "size": "29081",
+            "versionCode": 50
+          },
+          {
+            "fileType": 0,
+            "size": "29081",
+            "versionCode": 50
+          },
+          {
+            "fileType": 0,
+            "size": "37273",
+            "versionCode": 50
+          },
+          {
+            "fileType": 0,
+            "size": "18682347",
+            "versionCode": 50
+          }
+        ],
+        "hasInstantLink": true,
+        "installationSize": "24526862",
+        "numDownloads": "500+ downloads",
+        "packageName": "com.loudsrl.balloonapp",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.USE_FULL_SCREEN_INTENT",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "com.android.vending.BILLING",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+        ],
+        "recentChangesHtml": "\u2022 New travel information added<br>\u2022 New products added in the Explore section<br>\u2022 Fixes regarding notifications<br><br>Thank you for using Balloon! We&#39;ve been hard at work making the app better for you.<br>This release brings some minor bug fixes that improve our service.<br><br>If you have any suggestion or feedback, please don&#39;t hesitate to contact us at: hello@loudsrl.com",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "22 Mar 2021",
+        "versionCode": 50,
+        "versionString": "1.1.7"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.loudsrl.balloonapp",
+    "docType": 1,
+    "docid": "com.loudsrl.balloonapp",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/hQ9K7RGlh9sMQPlc9TKuKnWAp1ndT-rELBtEbXocCDDXuMxDm7Y3O_UEhJ-M2nxfZw4",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/mdxk_9YkDGnt5XgzrszIdP833i6Kx__2nL-LiZHmLMTqHh3fFSFycKZ5YvQ5JzrWhkM",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qYigSwptZkpi42qA29t0NGmMFecWgGxNVLXaUEjkLIDY3e9-0DCI2dD2nR5YH6pxgg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ZbBbOCkVGM5IWWQaaXPiwS6UMYuIT7zRpc2akpSEkgDVC9ExHxb3vS0Nb8fFT0QS-Q",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/fYJF95Z9aCUFdBOIo4E41pEuWqb1f-FisRNCv75OWI0XA2Y6iWPUBKql0oDGvvgZ3w",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/hv9s5fdiXJ-B4VGTzFaJfW7Pq0NtB56uK-AMPrAxvLeHuaI-hbBYCnemSCihPpqyIbA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/V8het3LrR7mfAJu8RcpBpTxhTjt9sTTGZcnYCkX7GSIkhVhRKjxtJxadHrn2e7s2rZs",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/w_8nIyT_YbYKT498dPQpUsVmCYJbjWpLCqMkFO5yGJGHhbIDs09dScHPamk35fMPvQt4",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://loudsrl.com/balloon/privacy-policy.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "In-app purchases<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.loudsrl.balloonapp",
+    "reviewsUrl": "rev?doc=com.loudsrl.balloonapp&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.loudsrl.balloonapp",
+    "title": "Balloon: Visited Countries Map",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "\u20ac2.19 per item"
+          },
+          "label": "In-app purchases"
+        },
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "hello@loudsrl.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Via Vittorio Emanuele II 1, Brescia 25122 Italia"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "13 May 2020"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "11",
+      "fiveStarRatings": "12",
+      "fourStarRatings": "2",
+      "oneStarRatings": "2",
+      "ratingsCount": "19",
+      "starRating": 4.105263,
+      "threeStarRatings": "2",
+      "twoStarRatings": "1",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-04-09 06:43:03.711844",
+    "backendDocid": "com.loudsrl.balloonapp",
+    "backendId": 3,
+    "creator": "LOUD srl",
+    "descriptionHtml": "Get the list of visited countries and places where you have been. Track how many percent of the world have you visited. Create your own travel map with the countries you&#39;ve been to. Update your travel diary and read useful and essential information for your next trip, like the UNESCO heritage. Challenge your friends and share your latest trips on Instagram and Facebook.<br><br>USER FRIENDLY FEATURES:<br>- 196 countries and more than 20,000 useful information to visit them<br>- Tips based on your preferences<br>- Travel diary to track and collect all the places where you&#39;ve been<br>- Global ranking to compete with all the travelers on the app<br>- Profile and map of your travels to envy your friends<br><br><br>TRAVEL COUNTRIES TIPS:<br>- Currency converter exchange<br>- Anthem of the nation<br>- Spoken languages<br>- Emergency numbers<br>- UNESCO heritage (World Heritage Sites)<br>- Starred restaurants<br>- Level of risk<br>- National holiday<br>- Driving direction<br>- Currency of the country<br>and many other travel infos.<br><br><br>ALL THE CURRENCIES OF THE SUPPORTED COUNTRIES:<br>Available conversions on Balloon are: USD (US Dollar), EUR (Euro), JPY (Japanese Yen), BGN (Bulgarian Lev), CZK (Czech Krona), DKK (Danish Krona), GBP (British Pound), HUF (Hungarian Forint) ), PLN (Polish Zloty), RON (Romanian Leu), SEK (Swedish Krona), CHF (Swiss Franc), ISK (Icelandic Krona), NOK (Norwegian Krone), HRK (Croatian Kuna), RUB (Russian Ruble), TRY (Turkish Lira), AUD (Australian Dollar), BRL (Brazilian Real), CAD (Canadian Dollar), CNY (Chinese Yuan), HKD (Hong Kong Dollar), IDR (Indonesian Rupee), ILS (New Israeli Shekel), INR (Indian Rupee), KRW (South Korean Won), MXN (Mexican Peso), MYR (Malaysian Ringgit), NZD (New Zealand Dollar), PHP (Philippine Peso), SGD (Singapore Dollar), THB (Thai Bath), ZAR ( South African Rand).<br><br>Do you love to travel? join Balloon now, download the app and get inspired.<br><br>Feel free to give as feedback on Instagram @loudsrl or at email: balloon@loudsrl.com",
+    "descriptionShort": "Track Places Where I've been",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "24472796",
+          "unknown3": 29
+        },
+        "developerAddress": "Via Vittorio Emanuele II 1, Brescia 25122 Italia",
+        "developerEmail": "hello@loudsrl.com",
+        "developerName": "LOUD srl",
+        "developerWebsite": "https://balloon.travel",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "5633972",
+            "versionCode": 51
+          },
+          {
+            "fileType": 0,
+            "size": "90123",
+            "versionCode": 51
+          },
+          {
+            "fileType": 0,
+            "size": "29081",
+            "versionCode": 51
+          },
+          {
+            "fileType": 0,
+            "size": "37273",
+            "versionCode": 51
+          },
+          {
+            "fileType": 0,
+            "size": "18682347",
+            "versionCode": 51
+          }
+        ],
+        "hasInstantLink": true,
+        "installationSize": "24472796",
+        "numDownloads": "500+ downloads",
+        "packageName": "com.loudsrl.balloonapp",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.USE_FULL_SCREEN_INTENT",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "com.android.vending.BILLING",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+        ],
+        "recentChangesHtml": "\u2022 New travel information added<br>\u2022 New products added in the Explore section<br>\u2022 Fixes regarding notifications<br><br>Thank you for using Balloon! We&#39;ve been hard at work making the app better for you.<br>This release brings some minor bug fixes that improve our service.<br><br>If you have any suggestion or feedback, please don&#39;t hesitate to contact us at: hello@loudsrl.com",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "6 Apr 2021",
+        "versionCode": 51,
+        "versionString": "1.1.8"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.loudsrl.balloonapp",
+    "docType": 1,
+    "docid": "com.loudsrl.balloonapp",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/hQ9K7RGlh9sMQPlc9TKuKnWAp1ndT-rELBtEbXocCDDXuMxDm7Y3O_UEhJ-M2nxfZw4",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/mdxk_9YkDGnt5XgzrszIdP833i6Kx__2nL-LiZHmLMTqHh3fFSFycKZ5YvQ5JzrWhkM",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qYigSwptZkpi42qA29t0NGmMFecWgGxNVLXaUEjkLIDY3e9-0DCI2dD2nR5YH6pxgg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ZbBbOCkVGM5IWWQaaXPiwS6UMYuIT7zRpc2akpSEkgDVC9ExHxb3vS0Nb8fFT0QS-Q",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/fYJF95Z9aCUFdBOIo4E41pEuWqb1f-FisRNCv75OWI0XA2Y6iWPUBKql0oDGvvgZ3w",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/hv9s5fdiXJ-B4VGTzFaJfW7Pq0NtB56uK-AMPrAxvLeHuaI-hbBYCnemSCihPpqyIbA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/V8het3LrR7mfAJu8RcpBpTxhTjt9sTTGZcnYCkX7GSIkhVhRKjxtJxadHrn2e7s2rZs",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/w_8nIyT_YbYKT498dPQpUsVmCYJbjWpLCqMkFO5yGJGHhbIDs09dScHPamk35fMPvQt4",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://loudsrl.com/balloon/privacy-policy.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "In-app purchases<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.loudsrl.balloonapp",
+    "reviewsUrl": "rev?doc=com.loudsrl.balloonapp&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.loudsrl.balloonapp",
+    "title": "Balloon: Visited Countries Map",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "$1.99 per item"
+          },
+          "label": "In-app purchases"
+        },
+        {
+          "container": {
+            "value": "LOUD srl"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "hello@loudsrl.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Via Vittorio Emanuele II 1, Brescia 25122 Italia"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "13 May 2020"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "12",
+      "fiveStarRatings": "13",
+      "fourStarRatings": "2",
+      "oneStarRatings": "2",
+      "ratingsCount": "20",
+      "starRating": 4.15,
+      "threeStarRatings": "2",
+      "twoStarRatings": "1",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-09-03 12:07:35.305517",
+    "backendDocid": "com.loudsrl.balloonapp",
+    "backendId": 3,
+    "creator": "LOUD srl",
+    "descriptionHtml": "Get the list of visited countries and places where you have been. Track how many percent of the world have you visited. Create your own travel map with the countries you&#39;ve been to. Update your travel diary and read useful and essential information for your next trip, like the UNESCO heritage. Challenge your friends and share your latest trips on Instagram and Facebook.<br><br>USER FRIENDLY FEATURES:<br>- 196 countries and more than 20,000 useful information to visit them<br>- Tips based on your preferences<br>- Travel diary to track and collect all the places where you&#39;ve been<br>- Global ranking to compete with all the travelers on the app<br>- Profile and map of your travels to envy your friends<br><br><br>TRAVEL COUNTRIES TIPS:<br>- Currency converter exchange<br>- Anthem of the nation<br>- Spoken languages<br>- Emergency numbers<br>- UNESCO heritage (World Heritage Sites)<br>- Starred restaurants<br>- Level of risk<br>- National holiday<br>- Driving direction<br>- Currency of the country<br>and many other travel infos.<br><br><br>ALL THE CURRENCIES OF THE SUPPORTED COUNTRIES:<br>Available conversions on Balloon are: USD (US Dollar), EUR (Euro), JPY (Japanese Yen), BGN (Bulgarian Lev), CZK (Czech Krona), DKK (Danish Krona), GBP (British Pound), HUF (Hungarian Forint) ), PLN (Polish Zloty), RON (Romanian Leu), SEK (Swedish Krona), CHF (Swiss Franc), ISK (Icelandic Krona), NOK (Norwegian Krone), HRK (Croatian Kuna), RUB (Russian Ruble), TRY (Turkish Lira), AUD (Australian Dollar), BRL (Brazilian Real), CAD (Canadian Dollar), CNY (Chinese Yuan), HKD (Hong Kong Dollar), IDR (Indonesian Rupee), ILS (New Israeli Shekel), INR (Indian Rupee), KRW (South Korean Won), MXN (Mexican Peso), MYR (Malaysian Ringgit), NZD (New Zealand Dollar), PHP (Philippine Peso), SGD (Singapore Dollar), THB (Thai Bath), ZAR ( South African Rand).<br><br>Do you love to travel? join Balloon now, download the app and get inspired.<br><br>Feel free to give as feedback on Instagram @loudsrl or at email: balloon@loudsrl.com",
+    "descriptionShort": "Track Places Where I've been",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "24984646",
+          "unknown3": 29
+        },
+        "developerAddress": "Via Vittorio Emanuele II 1, Brescia 25122 Italia",
+        "developerEmail": "balloon@loudsrl.com",
+        "developerName": "LOUD srl",
+        "developerWebsite": "https://balloon.travel",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "6035233",
+            "versionCode": 62
+          },
+          {
+            "fileType": 0,
+            "size": "94625",
+            "versionCode": 62
+          },
+          {
+            "fileType": 0,
+            "size": "24985",
+            "versionCode": 62
+          },
+          {
+            "fileType": 0,
+            "size": "18829803",
+            "versionCode": 62
+          }
+        ],
+        "hasInstantLink": true,
+        "installationSize": "24984646",
+        "numDownloads": "500+ downloads",
+        "packageName": "com.loudsrl.balloonapp",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.android.vending.BILLING",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE"
+        ],
+        "recentChangesHtml": "\u2022 New travel information added<br>\u2022 New products added in the Explore section<br>\u2022 Fixes regarding notifications<br><br>Thank you for using Balloon! We&#39;ve been hard at work making the app better for you.<br>This release brings some minor bug fixes that improve our service.<br><br>If you have any suggestion or feedback, please don&#39;t hesitate to contact us at: hello@loudsrl.com",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "1 Sept 2021",
+        "versionCode": 62,
+        "versionString": "1.2.1"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.loudsrl.balloonapp",
+    "docType": 1,
+    "docid": "com.loudsrl.balloonapp",
+    "image": [
+      {
+        "color": "#453F75",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/hQ9K7RGlh9sMQPlc9TKuKnWAp1ndT-rELBtEbXocCDDXuMxDm7Y3O_UEhJ-M2nxfZw4",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/mdxk_9YkDGnt5XgzrszIdP833i6Kx__2nL-LiZHmLMTqHh3fFSFycKZ5YvQ5JzrWhkM",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qYigSwptZkpi42qA29t0NGmMFecWgGxNVLXaUEjkLIDY3e9-0DCI2dD2nR5YH6pxgg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ZbBbOCkVGM5IWWQaaXPiwS6UMYuIT7zRpc2akpSEkgDVC9ExHxb3vS0Nb8fFT0QS-Q",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/fYJF95Z9aCUFdBOIo4E41pEuWqb1f-FisRNCv75OWI0XA2Y6iWPUBKql0oDGvvgZ3w",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/hv9s5fdiXJ-B4VGTzFaJfW7Pq0NtB56uK-AMPrAxvLeHuaI-hbBYCnemSCihPpqyIbA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/V8het3LrR7mfAJu8RcpBpTxhTjt9sTTGZcnYCkX7GSIkhVhRKjxtJxadHrn2e7s2rZs",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/w_8nIyT_YbYKT498dPQpUsVmCYJbjWpLCqMkFO5yGJGHhbIDs09dScHPamk35fMPvQt4",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://loudsrl.com/balloon/privacy-policy.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "In-app purchases<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.loudsrl.balloonapp",
+    "reviewsUrl": "rev?doc=com.loudsrl.balloonapp&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.loudsrl.balloonapp",
+    "title": "Balloon: Visited Countries Map",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "$1.99 per item"
+          },
+          "label": "In-app purchases"
+        },
+        {
+          "container": {
+            "value": "LOUD srl"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "balloon@loudsrl.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Via Vittorio Emanuele II 1, Brescia 25122 Italia"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "13 May 2020"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "12",
+      "fiveStarRatings": "14",
+      "fourStarRatings": "2",
+      "oneStarRatings": "2",
+      "ratingsCount": "21",
+      "starRating": 4.1904764,
+      "threeStarRatings": "2",
+      "twoStarRatings": "1",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-10-12 12:25:13.394860",
+    "backendDocid": "com.loudsrl.balloonapp",
+    "backendId": 3,
+    "creator": "LOUD srl",
+    "descriptionHtml": "Get the list of visited countries and places where you have been. Track how many percent of the world have you visited. Create your own travel map with the countries you&#39;ve been to. Update your travel diary and read useful and essential information for your next trip, like the UNESCO heritage. Challenge your friends and share your latest trips on Instagram and Facebook.<br><br>USER FRIENDLY FEATURES:<br>- 196 countries and more than 20,000 useful information to visit them<br>- Tips based on your preferences<br>- Travel diary to track and collect all the places where you&#39;ve been<br>- Global ranking to compete with all the travelers on the app<br>- Profile and map of your travels to envy your friends<br><br><br>TRAVEL COUNTRIES TIPS:<br>- Currency converter exchange<br>- Anthem of the nation<br>- Spoken languages<br>- Emergency numbers<br>- UNESCO heritage (World Heritage Sites)<br>- Starred restaurants<br>- Level of risk<br>- National holiday<br>- Driving direction<br>- Currency of the country<br>and many other travel infos.<br><br><br>ALL THE CURRENCIES OF THE SUPPORTED COUNTRIES:<br>Available conversions on Balloon are: USD (US Dollar), EUR (Euro), JPY (Japanese Yen), BGN (Bulgarian Lev), CZK (Czech Krona), DKK (Danish Krona), GBP (British Pound), HUF (Hungarian Forint) ), PLN (Polish Zloty), RON (Romanian Leu), SEK (Swedish Krona), CHF (Swiss Franc), ISK (Icelandic Krona), NOK (Norwegian Krone), HRK (Croatian Kuna), RUB (Russian Ruble), TRY (Turkish Lira), AUD (Australian Dollar), BRL (Brazilian Real), CAD (Canadian Dollar), CNY (Chinese Yuan), HKD (Hong Kong Dollar), IDR (Indonesian Rupee), ILS (New Israeli Shekel), INR (Indian Rupee), KRW (South Korean Won), MXN (Mexican Peso), MYR (Malaysian Ringgit), NZD (New Zealand Dollar), PHP (Philippine Peso), SGD (Singapore Dollar), THB (Thai Bath), ZAR ( South African Rand).<br><br>Do you love to travel? join Balloon now, download the app and get inspired.<br><br>Feel free to give as feedback on Instagram @loudsrl or at email: balloon@loudsrl.com",
+    "descriptionShort": "Track Places Where I've been",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "24845784",
+          "unknown3": 29
+        },
+        "developerAddress": "Via Vittorio Emanuele II 1, Brescia 25122 Italia",
+        "developerEmail": "balloon@loudsrl.com",
+        "developerName": "LOUD srl",
+        "developerWebsite": "https://balloon.travel",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "5871386",
+            "versionCode": 63
+          },
+          {
+            "fileType": 0,
+            "size": "94625",
+            "versionCode": 63
+          },
+          {
+            "fileType": 0,
+            "size": "24985",
+            "versionCode": 63
+          },
+          {
+            "fileType": 0,
+            "size": "24985",
+            "versionCode": 63
+          },
+          {
+            "fileType": 0,
+            "size": "18829803",
+            "versionCode": 63
+          }
+        ],
+        "hasInstantLink": true,
+        "installationSize": "24845784",
+        "numDownloads": "500+ downloads",
+        "packageName": "com.loudsrl.balloonapp",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.android.vending.BILLING",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE"
+        ],
+        "recentChangesHtml": "Thank you for using Balloon! We&#39;ve been hard at work making the app better for you.<br>This release brings some minor bug fixes that improve our service.<br><br>If you have any suggestion or feedback, please don&#39;t hesitate to contact us at: hello@loudsrl.com",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "11 Oct 2021",
+        "versionCode": 63,
+        "versionString": "1.2.2"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.loudsrl.balloonapp",
+    "docType": 1,
+    "docid": "com.loudsrl.balloonapp",
+    "image": [
+      {
+        "color": "#453F75",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/hQ9K7RGlh9sMQPlc9TKuKnWAp1ndT-rELBtEbXocCDDXuMxDm7Y3O_UEhJ-M2nxfZw4",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/mdxk_9YkDGnt5XgzrszIdP833i6Kx__2nL-LiZHmLMTqHh3fFSFycKZ5YvQ5JzrWhkM",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qYigSwptZkpi42qA29t0NGmMFecWgGxNVLXaUEjkLIDY3e9-0DCI2dD2nR5YH6pxgg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ZbBbOCkVGM5IWWQaaXPiwS6UMYuIT7zRpc2akpSEkgDVC9ExHxb3vS0Nb8fFT0QS-Q",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/fYJF95Z9aCUFdBOIo4E41pEuWqb1f-FisRNCv75OWI0XA2Y6iWPUBKql0oDGvvgZ3w",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/hv9s5fdiXJ-B4VGTzFaJfW7Pq0NtB56uK-AMPrAxvLeHuaI-hbBYCnemSCihPpqyIbA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/V8het3LrR7mfAJu8RcpBpTxhTjt9sTTGZcnYCkX7GSIkhVhRKjxtJxadHrn2e7s2rZs",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/w_8nIyT_YbYKT498dPQpUsVmCYJbjWpLCqMkFO5yGJGHhbIDs09dScHPamk35fMPvQt4",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://loudsrl.com/balloon/privacy-policy.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "In-app purchases<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.loudsrl.balloonapp",
+    "reviewsUrl": "rev?doc=com.loudsrl.balloonapp&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.loudsrl.balloonapp",
+    "title": "Balloon: Visited Countries Map",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "\u20ac2.19 per item"
+          },
+          "label": "In-app purchases"
+        },
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "balloon@loudsrl.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Via Vittorio Emanuele II 1, Brescia 25122 Italia"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "13 May 2020"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "12",
+      "fiveStarRatings": "14",
+      "fourStarRatings": "2",
+      "oneStarRatings": "2",
+      "ratingsCount": "21",
+      "starRating": 4.1904764,
+      "threeStarRatings": "2",
+      "twoStarRatings": "1",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-11-26 05:20:59.777108",
+    "backendDocid": "com.loudsrl.balloonapp",
+    "backendId": 3,
+    "creator": "LOUD srl",
+    "descriptionHtml": "Get the list of visited countries and places where you have been. Track how many percent of the world have you visited. Create your own travel map with the countries you&#39;ve been to. Update your travel diary and read useful and essential information for your next trip, like the UNESCO heritage. Challenge your friends and share your latest trips on Instagram and Facebook.<br><br>USER FRIENDLY FEATURES:<br>- 196 countries and more than 20,000 useful information to visit them<br>- Tips based on your preferences<br>- Travel diary to track and collect all the places where you&#39;ve been<br>- Global ranking to compete with all the travelers on the app<br>- Profile and map of your travels to envy your friends<br><br><br>TRAVEL COUNTRIES TIPS:<br>- Currency converter exchange<br>- Anthem of the nation<br>- Spoken languages<br>- Emergency numbers<br>- UNESCO heritage (World Heritage Sites)<br>- Starred restaurants<br>- Level of risk<br>- National holiday<br>- Driving direction<br>- Currency of the country<br>and many other travel infos.<br><br><br>ALL THE CURRENCIES OF THE SUPPORTED COUNTRIES:<br>Available conversions on Balloon are: USD (US Dollar), EUR (Euro), JPY (Japanese Yen), BGN (Bulgarian Lev), CZK (Czech Krona), DKK (Danish Krona), GBP (British Pound), HUF (Hungarian Forint) ), PLN (Polish Zloty), RON (Romanian Leu), SEK (Swedish Krona), CHF (Swiss Franc), ISK (Icelandic Krona), NOK (Norwegian Krone), HRK (Croatian Kuna), RUB (Russian Ruble), TRY (Turkish Lira), AUD (Australian Dollar), BRL (Brazilian Real), CAD (Canadian Dollar), CNY (Chinese Yuan), HKD (Hong Kong Dollar), IDR (Indonesian Rupee), ILS (New Israeli Shekel), INR (Indian Rupee), KRW (South Korean Won), MXN (Mexican Peso), MYR (Malaysian Ringgit), NZD (New Zealand Dollar), PHP (Philippine Peso), SGD (Singapore Dollar), THB (Thai Bath), ZAR ( South African Rand).<br><br>Do you love to travel? join Balloon now, download the app and get inspired.<br><br>Feel free to give as feedback on Instagram @loudsrl or at email: balloon@loudsrl.com",
+    "descriptionShort": "Track Places Where I've been",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "24043243",
+          "unknown3": 30
+        },
+        "developerAddress": "Via Vittorio Emanuele II 1, Brescia 25122 Italia",
+        "developerEmail": "balloon@loudsrl.com",
+        "developerName": "LOUD srl",
+        "developerWebsite": "https://balloon.travel",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "5879853",
+            "versionCode": 64
+          },
+          {
+            "fileType": 0,
+            "size": "94625",
+            "versionCode": 64
+          },
+          {
+            "fileType": 0,
+            "size": "24985",
+            "versionCode": 64
+          },
+          {
+            "fileType": 0,
+            "size": "24985",
+            "versionCode": 64
+          },
+          {
+            "fileType": 0,
+            "size": "18018795",
+            "versionCode": 64
+          }
+        ],
+        "hasInstantLink": true,
+        "installationSize": "24043243",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "com.loudsrl.balloonapp",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.android.vending.BILLING",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE"
+        ],
+        "recentChangesHtml": "Thank you for using Balloon! We&#39;ve been hard at work making the app better for you.<br>This release brings some minor bug fixes that improve our service.<br><br>If you have any suggestion or feedback, please don&#39;t hesitate to contact us at: hello@loudsrl.com",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "23 Nov 2021",
+        "versionCode": 64,
+        "versionString": "1.2.3"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.loudsrl.balloonapp",
+    "docType": 1,
+    "docid": "com.loudsrl.balloonapp",
+    "image": [
+      {
+        "color": "#453F75",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/hQ9K7RGlh9sMQPlc9TKuKnWAp1ndT-rELBtEbXocCDDXuMxDm7Y3O_UEhJ-M2nxfZw4",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/mdxk_9YkDGnt5XgzrszIdP833i6Kx__2nL-LiZHmLMTqHh3fFSFycKZ5YvQ5JzrWhkM",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qYigSwptZkpi42qA29t0NGmMFecWgGxNVLXaUEjkLIDY3e9-0DCI2dD2nR5YH6pxgg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ZbBbOCkVGM5IWWQaaXPiwS6UMYuIT7zRpc2akpSEkgDVC9ExHxb3vS0Nb8fFT0QS-Q",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/fYJF95Z9aCUFdBOIo4E41pEuWqb1f-FisRNCv75OWI0XA2Y6iWPUBKql0oDGvvgZ3w",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/hv9s5fdiXJ-B4VGTzFaJfW7Pq0NtB56uK-AMPrAxvLeHuaI-hbBYCnemSCihPpqyIbA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/V8het3LrR7mfAJu8RcpBpTxhTjt9sTTGZcnYCkX7GSIkhVhRKjxtJxadHrn2e7s2rZs",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/w_8nIyT_YbYKT498dPQpUsVmCYJbjWpLCqMkFO5yGJGHhbIDs09dScHPamk35fMPvQt4",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://loudsrl.com/balloon/privacy-policy.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "In-app purchases<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.loudsrl.balloonapp",
+    "reviewsUrl": "rev?doc=com.loudsrl.balloonapp&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.loudsrl.balloonapp",
+    "title": "Balloon: Visited Countries Map",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "\u20ac3.49 per item"
+          },
+          "label": "In-app purchases"
+        },
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "balloon@loudsrl.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Via Vittorio Emanuele II 1, Brescia 25122 Italia"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "13 May 2020"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "13",
+      "fiveStarRatings": "15",
+      "fourStarRatings": "2",
+      "oneStarRatings": "2",
+      "ratingsCount": "22",
+      "starRating": 4.2272725,
+      "threeStarRatings": "2",
+      "twoStarRatings": "1",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-12-10 19:51:45.286691",
+    "backendDocid": "com.loudsrl.balloonapp",
+    "backendId": 3,
+    "creator": "LOUD srl",
+    "descriptionHtml": "Get the list of visited countries and places where you have been. Track how many percent of the world have you visited. Create your own travel map with the countries you&#39;ve been to. Update your travel diary and read useful and essential information for your next trip, like the UNESCO heritage. Challenge your friends and share your latest trips on Instagram and Facebook.<br><br>USER FRIENDLY FEATURES:<br>- 196 countries and more than 20,000 useful information to visit them<br>- Tips based on your preferences<br>- Travel diary to track and collect all the places where you&#39;ve been<br>- Global ranking to compete with all the travelers on the app<br>- Profile and map of your travels to envy your friends<br><br><br>TRAVEL COUNTRIES TIPS:<br>- Currency converter exchange<br>- Anthem of the nation<br>- Spoken languages<br>- Emergency numbers<br>- UNESCO heritage (World Heritage Sites)<br>- Starred restaurants<br>- Level of risk<br>- National holiday<br>- Driving direction<br>- Currency of the country<br>and many other travel infos.<br><br><br>ALL THE CURRENCIES OF THE SUPPORTED COUNTRIES:<br>Available conversions on Balloon are: USD (US Dollar), EUR (Euro), JPY (Japanese Yen), BGN (Bulgarian Lev), CZK (Czech Krona), DKK (Danish Krona), GBP (British Pound), HUF (Hungarian Forint) ), PLN (Polish Zloty), RON (Romanian Leu), SEK (Swedish Krona), CHF (Swiss Franc), ISK (Icelandic Krona), NOK (Norwegian Krone), HRK (Croatian Kuna), RUB (Russian Ruble), TRY (Turkish Lira), AUD (Australian Dollar), BRL (Brazilian Real), CAD (Canadian Dollar), CNY (Chinese Yuan), HKD (Hong Kong Dollar), IDR (Indonesian Rupee), ILS (New Israeli Shekel), INR (Indian Rupee), KRW (South Korean Won), MXN (Mexican Peso), MYR (Malaysian Ringgit), NZD (New Zealand Dollar), PHP (Philippine Peso), SGD (Singapore Dollar), THB (Thai Bath), ZAR ( South African Rand).<br><br>Do you love to travel? join Balloon now, download the app and get inspired.<br><br>Feel free to give as feedback on Instagram @loudsrl or at email: balloon@loudsrl.com",
+    "descriptionShort": "Track Places Where I've been",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "24043243",
+          "unknown3": 30
+        },
+        "developerAddress": "Via Vittorio Emanuele II 1, Brescia 25122 Italia",
+        "developerEmail": "balloon@loudsrl.com",
+        "developerName": "LOUD srl",
+        "developerWebsite": "https://balloon.travel",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "5879853",
+            "versionCode": 65
+          },
+          {
+            "fileType": 0,
+            "size": "94625",
+            "versionCode": 65
+          },
+          {
+            "fileType": 0,
+            "size": "24985",
+            "versionCode": 65
+          },
+          {
+            "fileType": 0,
+            "size": "24985",
+            "versionCode": 65
+          },
+          {
+            "fileType": 0,
+            "size": "18018795",
+            "versionCode": 65
+          }
+        ],
+        "hasInstantLink": true,
+        "installationSize": "24043243",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "com.loudsrl.balloonapp",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.android.vending.BILLING",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE"
+        ],
+        "recentChangesHtml": "Thank you for using Balloon! We&#39;ve been hard at work making the app better for you.<br>This release brings some minor bug fixes that improve our service.<br><br>If you have any suggestion or feedback, please don&#39;t hesitate to contact us at: hello@loudsrl.com",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "10 Dec 2021",
+        "versionCode": 65,
+        "versionString": "1.2.4"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.loudsrl.balloonapp",
+    "docType": 1,
+    "docid": "com.loudsrl.balloonapp",
+    "image": [
+      {
+        "color": "#453F75",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/hQ9K7RGlh9sMQPlc9TKuKnWAp1ndT-rELBtEbXocCDDXuMxDm7Y3O_UEhJ-M2nxfZw4",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/mdxk_9YkDGnt5XgzrszIdP833i6Kx__2nL-LiZHmLMTqHh3fFSFycKZ5YvQ5JzrWhkM",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qYigSwptZkpi42qA29t0NGmMFecWgGxNVLXaUEjkLIDY3e9-0DCI2dD2nR5YH6pxgg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ZbBbOCkVGM5IWWQaaXPiwS6UMYuIT7zRpc2akpSEkgDVC9ExHxb3vS0Nb8fFT0QS-Q",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/fYJF95Z9aCUFdBOIo4E41pEuWqb1f-FisRNCv75OWI0XA2Y6iWPUBKql0oDGvvgZ3w",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/hv9s5fdiXJ-B4VGTzFaJfW7Pq0NtB56uK-AMPrAxvLeHuaI-hbBYCnemSCihPpqyIbA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/V8het3LrR7mfAJu8RcpBpTxhTjt9sTTGZcnYCkX7GSIkhVhRKjxtJxadHrn2e7s2rZs",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/w_8nIyT_YbYKT498dPQpUsVmCYJbjWpLCqMkFO5yGJGHhbIDs09dScHPamk35fMPvQt4",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://loudsrl.com/balloon/privacy-policy.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "In-app purchases<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.loudsrl.balloonapp",
+    "reviewsUrl": "rev?doc=com.loudsrl.balloonapp&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.loudsrl.balloonapp",
+    "title": "Balloon: Visited Countries Map",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "\u20ac3.49 per item"
+          },
+          "label": "In-app purchases"
+        },
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "balloon@loudsrl.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Via Vittorio Emanuele II 1, Brescia 25122 Italia"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "13 May 2020"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "13",
+      "fiveStarRatings": "15",
+      "fourStarRatings": "2",
+      "oneStarRatings": "2",
+      "ratingsCount": "22",
+      "starRating": 4.2272725,
+      "threeStarRatings": "2",
+      "twoStarRatings": "1",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-01-06 08:45:40.237889",
+    "backendDocid": "com.loudsrl.balloonapp",
+    "backendId": 3,
+    "creator": "LOUD srl",
+    "descriptionHtml": "Get the list of visited countries and places where you have been. Track how many percent of the world have you visited. Create your own travel map with the countries you&#39;ve been to. Update your travel diary and read useful and essential information for your next trip, like the UNESCO heritage. Challenge your friends and share your latest trips on Instagram and Facebook.<br><br>USER FRIENDLY FEATURES:<br>- 196 countries and more than 20,000 useful information to visit them<br>- Tips based on your preferences<br>- Travel diary to track and collect all the places where you&#39;ve been<br>- Global ranking to compete with all the travelers on the app<br>- Profile and map of your travels to envy your friends<br><br><br>TRAVEL COUNTRIES TIPS:<br>- Currency converter exchange<br>- Anthem of the nation<br>- Spoken languages<br>- Emergency numbers<br>- UNESCO heritage (World Heritage Sites)<br>- Starred restaurants<br>- Level of risk<br>- National holiday<br>- Driving direction<br>- Currency of the country<br>and many other travel infos.<br><br><br>ALL THE CURRENCIES OF THE SUPPORTED COUNTRIES:<br>Available conversions on Balloon are: USD (US Dollar), EUR (Euro), JPY (Japanese Yen), BGN (Bulgarian Lev), CZK (Czech Krona), DKK (Danish Krona), GBP (British Pound), HUF (Hungarian Forint) ), PLN (Polish Zloty), RON (Romanian Leu), SEK (Swedish Krona), CHF (Swiss Franc), ISK (Icelandic Krona), NOK (Norwegian Krone), HRK (Croatian Kuna), RUB (Russian Ruble), TRY (Turkish Lira), AUD (Australian Dollar), BRL (Brazilian Real), CAD (Canadian Dollar), CNY (Chinese Yuan), HKD (Hong Kong Dollar), IDR (Indonesian Rupee), ILS (New Israeli Shekel), INR (Indian Rupee), KRW (South Korean Won), MXN (Mexican Peso), MYR (Malaysian Ringgit), NZD (New Zealand Dollar), PHP (Philippine Peso), SGD (Singapore Dollar), THB (Thai Bath), ZAR ( South African Rand).<br><br>Do you love to travel? join Balloon now, download the app and get inspired.<br><br>Feel free to give as feedback on Instagram @loudsrl or at email: balloon@loudsrl.com",
+    "descriptionShort": "Track Places Where I've been",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "25365640",
+          "unknown3": 30
+        },
+        "developerAddress": "Via Vittorio Emanuele II 1, Brescia 25122 Italia",
+        "developerEmail": "balloon@loudsrl.com",
+        "developerName": "LOUD srl",
+        "developerWebsite": "https://balloon.travel",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "7222555",
+            "versionCode": 70
+          },
+          {
+            "fileType": 0,
+            "size": "107088",
+            "versionCode": 70
+          },
+          {
+            "fileType": 0,
+            "size": "24985",
+            "versionCode": 70
+          },
+          {
+            "fileType": 0,
+            "size": "24985",
+            "versionCode": 70
+          },
+          {
+            "fileType": 0,
+            "size": "17986027",
+            "versionCode": 70
+          }
+        ],
+        "hasInstantLink": true,
+        "installationSize": "25365640",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "com.loudsrl.balloonapp",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.INTERNET",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.android.vending.BILLING",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE"
+        ],
+        "recentChangesHtml": "Thank you for using Balloon! We&#39;ve been hard at work making the app better for you.<br>This release brings some minor bug fixes that improve our service.<br><br>If you have any suggestion or feedback, please don&#39;t hesitate to contact us at: hello@loudsrl.com",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "4 Jan 2022",
+        "versionCode": 70,
+        "versionString": "1.2.7"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.loudsrl.balloonapp",
+    "docType": 1,
+    "docid": "com.loudsrl.balloonapp",
+    "image": [
+      {
+        "color": "#453F75",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/hQ9K7RGlh9sMQPlc9TKuKnWAp1ndT-rELBtEbXocCDDXuMxDm7Y3O_UEhJ-M2nxfZw4",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/mdxk_9YkDGnt5XgzrszIdP833i6Kx__2nL-LiZHmLMTqHh3fFSFycKZ5YvQ5JzrWhkM",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qYigSwptZkpi42qA29t0NGmMFecWgGxNVLXaUEjkLIDY3e9-0DCI2dD2nR5YH6pxgg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ZbBbOCkVGM5IWWQaaXPiwS6UMYuIT7zRpc2akpSEkgDVC9ExHxb3vS0Nb8fFT0QS-Q",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/fYJF95Z9aCUFdBOIo4E41pEuWqb1f-FisRNCv75OWI0XA2Y6iWPUBKql0oDGvvgZ3w",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/hv9s5fdiXJ-B4VGTzFaJfW7Pq0NtB56uK-AMPrAxvLeHuaI-hbBYCnemSCihPpqyIbA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/V8het3LrR7mfAJu8RcpBpTxhTjt9sTTGZcnYCkX7GSIkhVhRKjxtJxadHrn2e7s2rZs",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/w_8nIyT_YbYKT498dPQpUsVmCYJbjWpLCqMkFO5yGJGHhbIDs09dScHPamk35fMPvQt4",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://loudsrl.com/balloon/privacy-policy.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "In-app purchases<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.loudsrl.balloonapp",
+    "reviewsUrl": "rev?doc=com.loudsrl.balloonapp&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.loudsrl.balloonapp",
+    "title": "Balloon: Visited Countries Map",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "\u20ac3.49 per item"
+          },
+          "label": "In-app purchases"
+        },
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "balloon@loudsrl.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Via Vittorio Emanuele II 1, Brescia 25122 Italia"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "13 May 2020"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-03-28 23:28:47.578308",
+    "backendDocid": "com.loudsrl.balloonapp",
+    "backendId": 3,
+    "creator": "LOUD srl",
+    "descriptionHtml": "Get the list of visited countries and places where you have been. Track how many percent of the world have you visited. Create your own travel map with the countries you&#39;ve been to. Update your travel diary and read useful and essential information for your next trip, like the UNESCO heritage. Challenge your friends and share your latest trips on Instagram and Facebook.<br><br>USER FRIENDLY FEATURES:<br>- 196 countries and more than 20,000 useful information to visit them<br>- Tips based on your preferences<br>- Travel diary to track and collect all the places where you&#39;ve been<br>- Global ranking to compete with all the travelers on the app<br>- Profile and map of your travels to envy your friends<br><br><br>TRAVEL COUNTRIES TIPS:<br>- Currency converter exchange<br>- Anthem of the nation<br>- Spoken languages<br>- Emergency numbers<br>- UNESCO heritage (World Heritage Sites)<br>- Starred restaurants<br>- Level of risk<br>- National holiday<br>- Driving direction<br>- Currency of the country<br>and many other travel infos.<br><br><br>ALL THE CURRENCIES OF THE SUPPORTED COUNTRIES:<br>Available conversions on Balloon are: USD (US Dollar), EUR (Euro), JPY (Japanese Yen), BGN (Bulgarian Lev), CZK (Czech Krona), DKK (Danish Krona), GBP (British Pound), HUF (Hungarian Forint) ), PLN (Polish Zloty), RON (Romanian Leu), SEK (Swedish Krona), CHF (Swiss Franc), ISK (Icelandic Krona), NOK (Norwegian Krone), HRK (Croatian Kuna), RUB (Russian Ruble), TRY (Turkish Lira), AUD (Australian Dollar), BRL (Brazilian Real), CAD (Canadian Dollar), CNY (Chinese Yuan), HKD (Hong Kong Dollar), IDR (Indonesian Rupee), ILS (New Israeli Shekel), INR (Indian Rupee), KRW (South Korean Won), MXN (Mexican Peso), MYR (Malaysian Ringgit), NZD (New Zealand Dollar), PHP (Philippine Peso), SGD (Singapore Dollar), THB (Thai Bath), ZAR ( South African Rand).<br><br>Do you love to travel? join Balloon now, download the app and get inspired.<br><br>Feel free to give as feedback on Instagram @loudsrl or at email: balloon@loudsrl.com",
+    "descriptionShort": "Track Places Where I've been",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "24819723",
+          "unknown3": 31
+        },
+        "developerAddress": "Via Vittorio Emanuele II 1, Brescia 25122 Italia",
+        "developerEmail": "balloon@loudsrl.com",
+        "developerName": "LOUD srl",
+        "developerWebsite": "https://balloon.travel",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "7150566",
+            "versionCode": 85
+          },
+          {
+            "fileType": 0,
+            "size": "88634",
+            "versionCode": 85
+          },
+          {
+            "fileType": 0,
+            "size": "17580523",
+            "versionCode": 85
+          }
+        ],
+        "hasInstantLink": true,
+        "installationSize": "24819723",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "com.loudsrl.balloonapp",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.INTERNET",
+          "android.permission.POST_NOTIFICATIONS",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.android.vending.BILLING",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.AD_ID",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE"
+        ],
+        "recentChangesHtml": "We are thrilled to announce that our iOS app has just gotten even better! We have added 11 new countries to our list, making it easier for you to explore the world and discover new places. Whether you&#39;re planning a vacation or simply want to satisfy your wanderlust, our app now offers even more destinations for you to choose from.",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "28 Mar 2023",
+        "versionCode": 85,
+        "versionString": "1.4.0"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.loudsrl.balloonapp",
+    "docType": 1,
+    "docid": "com.loudsrl.balloonapp",
+    "image": [
+      {
+        "color": "#453F75",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/hQ9K7RGlh9sMQPlc9TKuKnWAp1ndT-rELBtEbXocCDDXuMxDm7Y3O_UEhJ-M2nxfZw4",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/mdxk_9YkDGnt5XgzrszIdP833i6Kx__2nL-LiZHmLMTqHh3fFSFycKZ5YvQ5JzrWhkM",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qYigSwptZkpi42qA29t0NGmMFecWgGxNVLXaUEjkLIDY3e9-0DCI2dD2nR5YH6pxgg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ZbBbOCkVGM5IWWQaaXPiwS6UMYuIT7zRpc2akpSEkgDVC9ExHxb3vS0Nb8fFT0QS-Q",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/fYJF95Z9aCUFdBOIo4E41pEuWqb1f-FisRNCv75OWI0XA2Y6iWPUBKql0oDGvvgZ3w",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/hv9s5fdiXJ-B4VGTzFaJfW7Pq0NtB56uK-AMPrAxvLeHuaI-hbBYCnemSCihPpqyIbA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/V8het3LrR7mfAJu8RcpBpTxhTjt9sTTGZcnYCkX7GSIkhVhRKjxtJxadHrn2e7s2rZs",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/w_8nIyT_YbYKT498dPQpUsVmCYJbjWpLCqMkFO5yGJGHhbIDs09dScHPamk35fMPvQt4",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "GBP",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://loudsrl.com/balloon/privacy-policy.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "In-app purchases<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.loudsrl.balloonapp",
+    "reviewsUrl": "rev?doc=com.loudsrl.balloonapp&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.loudsrl.balloonapp",
+    "title": "Balloon: Visited Countries Map",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "\u00a32.99 per item"
+          },
+          "label": "In-app purchases"
+        },
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "balloon@loudsrl.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Via Vittorio Emanuele II 1, Brescia 25122 Italia"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "13 May 2020"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "17",
+      "fiveStarRatings": "17",
+      "fourStarRatings": "2",
+      "oneStarRatings": "3",
+      "ratingsCount": "28",
+      "starRating": 4.0,
+      "threeStarRatings": "4",
+      "twoStarRatings": "2",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-11-21 22:32:20.302234",
+    "backendDocid": "com.loudsrl.balloonapp",
+    "backendId": 3,
+    "creator": "LOUD srl",
+    "descriptionHtml": "Get the list of visited countries and places where you have been. Track how many percent of the world have you visited. Create your own travel map with the countries you&#39;ve been to. Update your travel diary and read useful and essential information for your next trip, like the UNESCO heritage. Challenge your friends and share your latest trips on Instagram and Facebook.<br><br>USER FRIENDLY FEATURES:<br>- 196 countries and more than 20,000 useful information to visit them<br>- Tips based on your preferences<br>- Travel diary to track and collect all the places where you&#39;ve been<br>- Global ranking to compete with all the travelers on the app<br>- Profile and map of your travels to envy your friends<br><br><br>TRAVEL COUNTRIES TIPS:<br>- Currency converter exchange<br>- Anthem of the nation<br>- Spoken languages<br>- Emergency numbers<br>- UNESCO heritage (World Heritage Sites)<br>- Starred restaurants<br>- Level of risk<br>- National holiday<br>- Driving direction<br>- Currency of the country<br>and many other travel infos.<br><br><br>ALL THE CURRENCIES OF THE SUPPORTED COUNTRIES:<br>Available conversions on Balloon are: USD (US Dollar), EUR (Euro), JPY (Japanese Yen), BGN (Bulgarian Lev), CZK (Czech Krona), DKK (Danish Krona), GBP (British Pound), HUF (Hungarian Forint) ), PLN (Polish Zloty), RON (Romanian Leu), SEK (Swedish Krona), CHF (Swiss Franc), ISK (Icelandic Krona), NOK (Norwegian Krone), HRK (Croatian Kuna), RUB (Russian Ruble), TRY (Turkish Lira), AUD (Australian Dollar), BRL (Brazilian Real), CAD (Canadian Dollar), CNY (Chinese Yuan), HKD (Hong Kong Dollar), IDR (Indonesian Rupee), ILS (New Israeli Shekel), INR (Indian Rupee), KRW (South Korean Won), MXN (Mexican Peso), MYR (Malaysian Ringgit), NZD (New Zealand Dollar), PHP (Philippine Peso), SGD (Singapore Dollar), THB (Thai Bath), ZAR ( South African Rand).<br><br>Do you love to travel? join Balloon now, download the app and get inspired.<br><br>Feel free to give as feedback on Instagram @loudsrl or at email: balloon@loudsrl.com",
+    "descriptionShort": "Track Places Where I've been",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "version": 12451000
+            }
+          ],
+          "unknown2": "59399001",
+          "unknown3": 31
+        },
+        "developerAddress": "Via Vittorio Emanuele II 1, Brescia 25122 Italia",
+        "developerEmail": "balloon@loudsrl.com",
+        "developerName": "LOUD srl",
+        "developerWebsite": "https://balloon.travel",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "59399001",
+            "versionCode": 96
+          }
+        ],
+        "hasInstantLink": true,
+        "installationSize": "59399001",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "com.loudsrl.balloonapp",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.INTERNET",
+          "android.permission.POST_NOTIFICATIONS",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.android.vending.BILLING",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.AD_ID",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE"
+        ],
+        "recentChangesHtml": "We are thrilled to announce that our iOS app has just gotten even better! We have added 11 new countries to our list, making it easier for you to explore the world and discover new places. Whether you&#39;re planning a vacation or simply want to satisfy your wanderlust, our app now offers even more destinations for you to choose from.",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "3 Jul 2023",
+        "versionCode": 96,
+        "versionString": "1.4.1"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.loudsrl.balloonapp&vc=96",
+    "docType": 1,
+    "docid": "com.loudsrl.balloonapp",
+    "image": [
+      {
+        "color": "#453F75",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/hQ9K7RGlh9sMQPlc9TKuKnWAp1ndT-rELBtEbXocCDDXuMxDm7Y3O_UEhJ-M2nxfZw4",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/mdxk_9YkDGnt5XgzrszIdP833i6Kx__2nL-LiZHmLMTqHh3fFSFycKZ5YvQ5JzrWhkM",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qYigSwptZkpi42qA29t0NGmMFecWgGxNVLXaUEjkLIDY3e9-0DCI2dD2nR5YH6pxgg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ZbBbOCkVGM5IWWQaaXPiwS6UMYuIT7zRpc2akpSEkgDVC9ExHxb3vS0Nb8fFT0QS-Q",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/fYJF95Z9aCUFdBOIo4E41pEuWqb1f-FisRNCv75OWI0XA2Y6iWPUBKql0oDGvvgZ3w",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/hv9s5fdiXJ-B4VGTzFaJfW7Pq0NtB56uK-AMPrAxvLeHuaI-hbBYCnemSCihPpqyIbA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/V8het3LrR7mfAJu8RcpBpTxhTjt9sTTGZcnYCkX7GSIkhVhRKjxtJxadHrn2e7s2rZs",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/w_8nIyT_YbYKT498dPQpUsVmCYJbjWpLCqMkFO5yGJGHhbIDs09dScHPamk35fMPvQt4",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://loudsrl.com/balloon/privacy-policy.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "In-app purchases<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.loudsrl.balloonapp",
+    "reviewsUrl": "rev?doc=com.loudsrl.balloonapp&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.loudsrl.balloonapp",
+    "title": "Balloon: Visited Countries Map\n1.4.1",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "\u20ac3.49 if billed through Play"
+          },
+          "label": "In-app purchases"
+        },
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "balloon@loudsrl.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Via Vittorio Emanuele II 1, Brescia 25122 Italia"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "13 May 2020"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  }
+]

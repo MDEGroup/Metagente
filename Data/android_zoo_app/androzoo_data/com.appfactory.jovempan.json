@@ -1,0 +1,998 @@
+[
+  {
+    "aggregateRating": {
+      "commentCount": "7891",
+      "fiveStarRatings": "13908",
+      "fourStarRatings": "2767",
+      "oneStarRatings": "6738",
+      "ratingsCount": "28199",
+      "starRating": 3.5238264,
+      "threeStarRatings": "2446",
+      "twoStarRatings": "2336",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-07-18 15:40:27.454860",
+    "backendDocid": "com.appfactory.jovempan",
+    "backendId": 3,
+    "creator": "Radio Jovem Pan",
+    "descriptionHtml": "R\u00e1dio Jovem Pan, sua r\u00e1dio preferida chegou ao Android. Baixe agora, um aplicativo completo com tudo o que faz da Jovem Pan a esta\u00e7\u00e3o de r\u00e1dio mais conhecida do pa\u00eds.<br><br>Al\u00e9m da programa\u00e7\u00e3o completa voc\u00ea poder\u00e1 ouvir todas as r\u00e1dios da rede Jovem Pan e ainda participa das promo\u00e7\u00f5es da r\u00e1dio.",
+    "descriptionShort": "Radio Jovem Pan, your favorite radio station came to Android",
+    "details": {
+      "appDetails": {
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "32472368",
+          "unknown3": 28
+        },
+        "developerEmail": "appjovempan@gmail.com",
+        "developerName": "Radio Jovem Pan",
+        "developerWebsite": "http://www.jovempan.com.br",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "32472368",
+            "versionCode": 30404
+          }
+        ],
+        "installationSize": "32472368",
+        "numDownloads": "1,000,000+ downloads",
+        "packageName": "com.appfactory.jovempan",
+        "permission": [
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.appfactory.jovempan.permission.C2D_MESSAGE",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE"
+        ],
+        "recentChangesHtml": "Melhorias e corre\u00e7\u00f5es no aplicativo.",
+        "unstable": false,
+        "versionCode": 30404,
+        "versionString": "3.4.4"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.appfactory.jovempan",
+    "docType": 1,
+    "docid": "com.appfactory.jovempan",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://lh3.googleusercontent.com/IwBrziayCozEZgB05Mkdn78R0sC-jgMXMBaTPu1IaCUuB-UAHlee99fG4rNHbcigTeCV",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://lh3.googleusercontent.com/flmumcDEiFO5C48-9rACKIJO8PUU0vIs_TwVi0cFD4YQJC30anya3IUjfVtm7pty9wQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/ima2gmAp4GlPxL-KnRkd3xzq8hvfC88PKtY4bTJhHy73Ui9x05wtzsWA6u0LM3JR3u2k",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/C91DYO8ekf7f_lsGhVwO5o9Ps6W0wpPnzXc9A2JEtQVCC_4NlyQU04Z_S1QJ05quVuKv",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/ecCzX6s8FLk7VHAITnn845APOuXHg1DyW2vtoakHrEYciyYmfI_6tU0uhvo2Omwu9A0t",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/ZfjMk5iskUu5JkcSPTXfOOU1rYnfL_NOpo5uMBG_iyP4V67UgHGyZnji24eCtIwzw4k",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://www.appfactory.com.br/politica/politica.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://lh3.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.appfactory.jovempan",
+    "reviewsUrl": "rev?doc=com.appfactory.jovempan&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.appfactory.jovempan",
+    "title": "Jovem Pan",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "appjovempan@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "4 Feb 2014"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "7890",
+      "fiveStarRatings": "13909",
+      "fourStarRatings": "2788",
+      "oneStarRatings": "6729",
+      "ratingsCount": "28201",
+      "starRating": 3.525249,
+      "threeStarRatings": "2436",
+      "twoStarRatings": "2336",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-07-21 21:16:00.439762",
+    "backendDocid": "com.appfactory.jovempan",
+    "backendId": 3,
+    "creator": "Radio Jovem Pan",
+    "descriptionHtml": "R\u00e1dio Jovem Pan, sua r\u00e1dio preferida chegou ao Android. Baixe agora, um aplicativo completo com tudo o que faz da Jovem Pan a esta\u00e7\u00e3o de r\u00e1dio mais conhecida do pa\u00eds.<br><br>Al\u00e9m da programa\u00e7\u00e3o completa voc\u00ea poder\u00e1 ouvir todas as r\u00e1dios da rede Jovem Pan e ainda participa das promo\u00e7\u00f5es da r\u00e1dio.",
+    "descriptionShort": "Radio Jovem Pan, your favorite radio station came to Android",
+    "details": {
+      "appDetails": {
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "32718383",
+          "unknown3": 28
+        },
+        "developerEmail": "appjovempan@gmail.com",
+        "developerName": "Radio Jovem Pan",
+        "developerWebsite": "http://www.jovempan.com.br",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "32718383",
+            "versionCode": 30405
+          }
+        ],
+        "installationSize": "32718383",
+        "numDownloads": "1,000,000+ downloads",
+        "packageName": "com.appfactory.jovempan",
+        "permission": [
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.appfactory.jovempan.permission.C2D_MESSAGE",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE"
+        ],
+        "recentChangesHtml": "Melhorias e corre\u00e7\u00f5es no aplicativo.",
+        "unstable": false,
+        "versionCode": 30405,
+        "versionString": "3.4.5"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.appfactory.jovempan",
+    "docType": 1,
+    "docid": "com.appfactory.jovempan",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://lh3.googleusercontent.com/IwBrziayCozEZgB05Mkdn78R0sC-jgMXMBaTPu1IaCUuB-UAHlee99fG4rNHbcigTeCV",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://lh3.googleusercontent.com/flmumcDEiFO5C48-9rACKIJO8PUU0vIs_TwVi0cFD4YQJC30anya3IUjfVtm7pty9wQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/ima2gmAp4GlPxL-KnRkd3xzq8hvfC88PKtY4bTJhHy73Ui9x05wtzsWA6u0LM3JR3u2k",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/C91DYO8ekf7f_lsGhVwO5o9Ps6W0wpPnzXc9A2JEtQVCC_4NlyQU04Z_S1QJ05quVuKv",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/ecCzX6s8FLk7VHAITnn845APOuXHg1DyW2vtoakHrEYciyYmfI_6tU0uhvo2Omwu9A0t",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/ZfjMk5iskUu5JkcSPTXfOOU1rYnfL_NOpo5uMBG_iyP4V67UgHGyZnji24eCtIwzw4k",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://www.appfactory.com.br/politica/politica.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://lh3.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.appfactory.jovempan",
+    "reviewsUrl": "rev?doc=com.appfactory.jovempan&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.appfactory.jovempan",
+    "title": "Jovem Pan",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "appjovempan@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "4 Feb 2014"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "7895",
+      "fiveStarRatings": "13920",
+      "fourStarRatings": "2808",
+      "oneStarRatings": "6719",
+      "ratingsCount": "28213",
+      "starRating": 3.5275507,
+      "threeStarRatings": "2437",
+      "twoStarRatings": "2326",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-07-25 09:00:30.811302",
+    "backendDocid": "com.appfactory.jovempan",
+    "backendId": 3,
+    "creator": "Radio Jovem Pan",
+    "descriptionHtml": "R\u00e1dio Jovem Pan, sua r\u00e1dio preferida chegou ao Android. Baixe agora, um aplicativo completo com tudo o que faz da Jovem Pan a esta\u00e7\u00e3o de r\u00e1dio mais conhecida do pa\u00eds.<br><br>Al\u00e9m da programa\u00e7\u00e3o completa voc\u00ea poder\u00e1 ouvir todas as r\u00e1dios da rede Jovem Pan e ainda participa das promo\u00e7\u00f5es da r\u00e1dio.",
+    "descriptionShort": "Radio Jovem Pan, your favorite radio station came to Android",
+    "details": {
+      "appDetails": {
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "32661947",
+          "unknown3": 28
+        },
+        "developerEmail": "appjovempan@gmail.com",
+        "developerName": "Radio Jovem Pan",
+        "developerWebsite": "http://www.jovempan.com.br",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "32661947",
+            "versionCode": 30406
+          }
+        ],
+        "installationSize": "32661947",
+        "numDownloads": "1,000,000+ downloads",
+        "packageName": "com.appfactory.jovempan",
+        "permission": [
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.appfactory.jovempan.permission.C2D_MESSAGE",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE"
+        ],
+        "recentChangesHtml": "Melhorias e corre\u00e7\u00f5es no aplicativo.",
+        "unstable": false,
+        "versionCode": 30406,
+        "versionString": "3.4.6"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.appfactory.jovempan",
+    "docType": 1,
+    "docid": "com.appfactory.jovempan",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://lh3.googleusercontent.com/IwBrziayCozEZgB05Mkdn78R0sC-jgMXMBaTPu1IaCUuB-UAHlee99fG4rNHbcigTeCV",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://lh3.googleusercontent.com/flmumcDEiFO5C48-9rACKIJO8PUU0vIs_TwVi0cFD4YQJC30anya3IUjfVtm7pty9wQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/ima2gmAp4GlPxL-KnRkd3xzq8hvfC88PKtY4bTJhHy73Ui9x05wtzsWA6u0LM3JR3u2k",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/C91DYO8ekf7f_lsGhVwO5o9Ps6W0wpPnzXc9A2JEtQVCC_4NlyQU04Z_S1QJ05quVuKv",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/ecCzX6s8FLk7VHAITnn845APOuXHg1DyW2vtoakHrEYciyYmfI_6tU0uhvo2Omwu9A0t",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/ZfjMk5iskUu5JkcSPTXfOOU1rYnfL_NOpo5uMBG_iyP4V67UgHGyZnji24eCtIwzw4k",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://www.appfactory.com.br/politica/politica.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://lh3.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.appfactory.jovempan",
+    "reviewsUrl": "rev?doc=com.appfactory.jovempan&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.appfactory.jovempan",
+    "title": "Jovem Pan",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "appjovempan@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "4 Feb 2014"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "7912",
+      "fiveStarRatings": "14090",
+      "fourStarRatings": "2858",
+      "oneStarRatings": "6569",
+      "ratingsCount": "28282",
+      "starRating": 3.5521276,
+      "threeStarRatings": "2477",
+      "twoStarRatings": "2286",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-09-11 07:39:07.299575",
+    "backendDocid": "com.appfactory.jovempan",
+    "backendId": 3,
+    "creator": "Grupo Jovem Pan",
+    "descriptionHtml": "R\u00e1dio Jovem Pan, sua r\u00e1dio preferida chegou ao Android. Baixe agora, um aplicativo completo com tudo o que faz da Jovem Pan a esta\u00e7\u00e3o de r\u00e1dio mais conhecida do pa\u00eds.<br><br>Al\u00e9m da programa\u00e7\u00e3o completa voc\u00ea poder\u00e1 ouvir todas as r\u00e1dios da rede Jovem Pan e ainda participa das promo\u00e7\u00f5es da r\u00e1dio.",
+    "descriptionShort": "Radio Jovem Pan, your favorite radio station came to Android",
+    "details": {
+      "appDetails": {
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "32819559",
+          "unknown3": 28
+        },
+        "developerEmail": "appjovempan@gmail.com",
+        "developerName": "Grupo Jovem Pan",
+        "developerWebsite": "http://www.jovempan.com.br",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "32819559",
+            "versionCode": 30407
+          }
+        ],
+        "installationSize": "32819559",
+        "numDownloads": "1,000,000+ downloads",
+        "packageName": "com.appfactory.jovempan",
+        "permission": [
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.appfactory.jovempan.permission.C2D_MESSAGE",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE"
+        ],
+        "recentChangesHtml": "Melhorias e corre\u00e7\u00f5es no aplicativo.",
+        "unstable": false,
+        "versionCode": 30407,
+        "versionString": "3.4.7"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.appfactory.jovempan",
+    "docType": 1,
+    "docid": "com.appfactory.jovempan",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/IwBrziayCozEZgB05Mkdn78R0sC-jgMXMBaTPu1IaCUuB-UAHlee99fG4rNHbcigTeCV",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://lh3.googleusercontent.com/flmumcDEiFO5C48-9rACKIJO8PUU0vIs_TwVi0cFD4YQJC30anya3IUjfVtm7pty9wQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/ima2gmAp4GlPxL-KnRkd3xzq8hvfC88PKtY4bTJhHy73Ui9x05wtzsWA6u0LM3JR3u2k",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/C91DYO8ekf7f_lsGhVwO5o9Ps6W0wpPnzXc9A2JEtQVCC_4NlyQU04Z_S1QJ05quVuKv",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/ecCzX6s8FLk7VHAITnn845APOuXHg1DyW2vtoakHrEYciyYmfI_6tU0uhvo2Omwu9A0t",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/ZfjMk5iskUu5JkcSPTXfOOU1rYnfL_NOpo5uMBG_iyP4V67UgHGyZnji24eCtIwzw4k",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://www.appfactory.com.br/politica/politica.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.appfactory.jovempan",
+    "reviewsUrl": "rev?doc=com.appfactory.jovempan&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.appfactory.jovempan",
+    "title": "Jovem Pan",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Grupo Jovem Pan"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "appjovempan@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Feb. 4, 2014"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "7932",
+      "fiveStarRatings": "14458",
+      "fourStarRatings": "2885",
+      "oneStarRatings": "6370",
+      "ratingsCount": "28338",
+      "starRating": 3.5951374,
+      "threeStarRatings": "2426",
+      "twoStarRatings": "2196",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-11-09 09:10:55.873168",
+    "backendDocid": "com.appfactory.jovempan",
+    "backendId": 3,
+    "creator": "Grupo Jovem Pan",
+    "descriptionHtml": "R\u00e1dio Jovem Pan, sua r\u00e1dio preferida chegou ao Android. Baixe agora, um aplicativo completo com tudo o que faz da Jovem Pan a esta\u00e7\u00e3o de r\u00e1dio mais conhecida do pa\u00eds.<br><br>Al\u00e9m da programa\u00e7\u00e3o completa voc\u00ea poder\u00e1 ouvir todas as r\u00e1dios da rede Jovem Pan e ainda participa das promo\u00e7\u00f5es da r\u00e1dio.",
+    "descriptionShort": "Radio Jovem Pan, your favorite radio station came to Android",
+    "details": {
+      "appDetails": {
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "34618438",
+          "unknown3": 28
+        },
+        "developerEmail": "appjovempan@gmail.com",
+        "developerName": "Grupo Jovem Pan",
+        "developerWebsite": "http://www.jovempan.com.br",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "34618438",
+            "versionCode": 30408
+          }
+        ],
+        "installationSize": "34618438",
+        "numDownloads": "1,000,000+ downloads",
+        "packageName": "com.appfactory.jovempan",
+        "permission": [
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.appfactory.jovempan.permission.C2D_MESSAGE",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE"
+        ],
+        "recentChangesHtml": "Melhorias e corre\u00e7\u00f5es no aplicativo.",
+        "unstable": false,
+        "uploadDate": "5 Nov 2020",
+        "versionCode": 30408,
+        "versionString": "3.4.8"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.appfactory.jovempan",
+    "docType": 1,
+    "docid": "com.appfactory.jovempan",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/IwBrziayCozEZgB05Mkdn78R0sC-jgMXMBaTPu1IaCUuB-UAHlee99fG4rNHbcigTeCV",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/flmumcDEiFO5C48-9rACKIJO8PUU0vIs_TwVi0cFD4YQJC30anya3IUjfVtm7pty9wQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ima2gmAp4GlPxL-KnRkd3xzq8hvfC88PKtY4bTJhHy73Ui9x05wtzsWA6u0LM3JR3u2k",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/C91DYO8ekf7f_lsGhVwO5o9Ps6W0wpPnzXc9A2JEtQVCC_4NlyQU04Z_S1QJ05quVuKv",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ecCzX6s8FLk7VHAITnn845APOuXHg1DyW2vtoakHrEYciyYmfI_6tU0uhvo2Omwu9A0t",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ZfjMk5iskUu5JkcSPTXfOOU1rYnfL_NOpo5uMBG_iyP4V67UgHGyZnji24eCtIwzw4k",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://www.appfactory.com.br/politica/politica.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.appfactory.jovempan",
+    "reviewsUrl": "rev?doc=com.appfactory.jovempan&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.appfactory.jovempan",
+    "title": "Jovem Pan",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "appjovempan@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "4 Feb 2014"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  }
+]

@@ -1,0 +1,4944 @@
+[
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-09-03 21:37:38.138975",
+    "backendDocid": "com.kestrelinstruments.kdex",
+    "backendId": 3,
+    "creator": "Nielsen-Kellerman",
+    "descriptionHtml": "Monitor, download, and share weather data from your Kestrel 3550.\u00a0 <br>App features are being added to enable future support of the Kestrel 5000 series and Kestrel DROP devices.\u00a0 <br>Please contact us if you are interested in beta testing this app with your Kestrel 5000 series or Kestrel DROP device.<br>The Kestrel LiNK app continues to support Kestrel 5000 series and Kestrel DROP devices.",
+    "descriptionShort": "Know your conditions.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "15400353",
+          "unknown3": 29
+        },
+        "developerEmail": "kestrellink@nkhome.com",
+        "developerName": "Nielsen-Kellerman",
+        "developerWebsite": "https://kestrelinstruments.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "8486110",
+            "versionCode": 59
+          },
+          {
+            "fileType": 0,
+            "size": "2272692",
+            "versionCode": 59
+          },
+          {
+            "fileType": 0,
+            "size": "41306",
+            "versionCode": 59
+          },
+          {
+            "fileType": 0,
+            "size": "4600245",
+            "versionCode": 59
+          }
+        ],
+        "installationSize": "15400353",
+        "numDownloads": "10+ downloads",
+        "packageName": "com.kestrelinstruments.kdex",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+        ],
+        "recentChangesHtml": "New Kestrel KDEX app for the Kestrel 3550 series!",
+        "unstable": true,
+        "uploadDate": "1 Sep 2020",
+        "versionCode": 59,
+        "versionString": "1.0.58"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.kestrelinstruments.kdex",
+    "docType": 1,
+    "docid": "com.kestrelinstruments.kdex",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://lh3.googleusercontent.com/iPD1TGB-X2LwqdKuTq9SdMcSkbFz853HP4zKGtll4N65nyvLPUfsu01XyfGEGls_xA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://lh3.googleusercontent.com/LtDN6BC2IH9aXYFjbkKwasDJ6g9ac8FghRQ1CM6A6Tv6FgytmCXiJEHReIP8TcEBkg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/nmxDoTHtFo8YCO4A0Fa-VTtWAb3fcaKSqZ7jWLL8jh5li7jpvp7Vj6ti856DSfi8mxU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/OJjBv9lIRK3GXz7l_2W_4HLT6f6evGa-GWET4_Bm-kNVlNwdQVlEWj3DTCRligC5AXU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/OSUzE29lKIPWX74d_9BLpgxKSt6ogmBn4bKQAkenC85kdnBBltDSRga0XnLSzytuLpo",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/D09wMhgW-JU5EMWxptMFHWuKpxrs--cbpDKU0touRsp1NZ8gQpw4n6uX8IhTsWsigg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/z5u2DObJeQ5Ve31FwgUYlnWDxlmy4fb5HkiniIUAMK8kwfpCothvgf0LVbfZKM67F_8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/hlkLNVan7tFdOgE5j78uxJsCH8idVU2hcNQkDFx9CprvnZVgfbiTLbT37omoCnF5sPs",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/goy4_-Qo_ojnxTnbV2qN99RlmwRxctsuIKxTgUm5U7ytoJe0_M1yNezVUUhpotTfYIg",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://kestrelinstruments.com/nk/legal/privacy-policy",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.kestrelinstruments.kdex",
+    "reviewsUrl": "rev?doc=com.kestrelinstruments.kdex&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.kestrelinstruments.kdex",
+    "title": "Kestrel KDEX",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "kestrellink@nkhome.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "3 Sep 2020"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-10-02 05:03:19.879692",
+    "backendDocid": "com.kestrelinstruments.kdex",
+    "backendId": 3,
+    "creator": "Nielsen-Kellerman",
+    "descriptionHtml": "Monitor, download, and share weather data from your Kestrel 3550.\u00a0 <br>App features are being added to enable future support of the Kestrel 5000 series and Kestrel DROP devices.\u00a0 <br>Please contact us if you are interested in beta testing this app with your Kestrel 5000 series or Kestrel DROP device.<br>The Kestrel LiNK app continues to support Kestrel 5000 series and Kestrel DROP devices.",
+    "descriptionShort": "Know your conditions.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "15442005",
+          "unknown3": 29
+        },
+        "developerEmail": "kestrellink@nkhome.com",
+        "developerName": "Nielsen-Kellerman",
+        "developerWebsite": "https://kestrelinstruments.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "8527762",
+            "versionCode": 64
+          },
+          {
+            "fileType": 0,
+            "size": "2272692",
+            "versionCode": 64
+          },
+          {
+            "fileType": 0,
+            "size": "41306",
+            "versionCode": 64
+          },
+          {
+            "fileType": 0,
+            "size": "4600245",
+            "versionCode": 64
+          }
+        ],
+        "installationSize": "15442005",
+        "numDownloads": "50+ downloads",
+        "packageName": "com.kestrelinstruments.kdex",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+        ],
+        "recentChangesHtml": "New Kestrel KDEX app for the Kestrel 3550 series! Updated custom units and digital compass true heading features.",
+        "unstable": true,
+        "uploadDate": "22 Sep 2020",
+        "versionCode": 64,
+        "versionString": "1.0.63"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.kestrelinstruments.kdex",
+    "docType": 1,
+    "docid": "com.kestrelinstruments.kdex",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://lh3.googleusercontent.com/iPD1TGB-X2LwqdKuTq9SdMcSkbFz853HP4zKGtll4N65nyvLPUfsu01XyfGEGls_xA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://lh3.googleusercontent.com/LtDN6BC2IH9aXYFjbkKwasDJ6g9ac8FghRQ1CM6A6Tv6FgytmCXiJEHReIP8TcEBkg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/nmxDoTHtFo8YCO4A0Fa-VTtWAb3fcaKSqZ7jWLL8jh5li7jpvp7Vj6ti856DSfi8mxU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/OJjBv9lIRK3GXz7l_2W_4HLT6f6evGa-GWET4_Bm-kNVlNwdQVlEWj3DTCRligC5AXU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/OSUzE29lKIPWX74d_9BLpgxKSt6ogmBn4bKQAkenC85kdnBBltDSRga0XnLSzytuLpo",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/D09wMhgW-JU5EMWxptMFHWuKpxrs--cbpDKU0touRsp1NZ8gQpw4n6uX8IhTsWsigg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/z5u2DObJeQ5Ve31FwgUYlnWDxlmy4fb5HkiniIUAMK8kwfpCothvgf0LVbfZKM67F_8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/goy4_-Qo_ojnxTnbV2qN99RlmwRxctsuIKxTgUm5U7ytoJe0_M1yNezVUUhpotTfYIg",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://kestrelinstruments.com/nk/legal/privacy-policy",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.kestrelinstruments.kdex",
+    "reviewsUrl": "rev?doc=com.kestrelinstruments.kdex&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.kestrelinstruments.kdex",
+    "title": "Kestrel KDEX",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "kestrellink@nkhome.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "3 Sep 2020"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-10-30 11:38:38.381202",
+    "backendDocid": "com.kestrelinstruments.kdex",
+    "backendId": 3,
+    "creator": "Nielsen-Kellerman",
+    "descriptionHtml": "Monitor, download, and share weather data from your Kestrel 3550.\u00a0 <br>App features are being added to enable future support of the Kestrel 5000 series and Kestrel DROP devices.\u00a0 <br>Please contact us if you are interested in beta testing this app with your Kestrel 5000 series or Kestrel DROP device.<br>The Kestrel LiNK app continues to support Kestrel 5000 series and Kestrel DROP devices.",
+    "descriptionShort": "Know your conditions.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "15599985",
+          "unknown3": 29
+        },
+        "developerEmail": "kestrellink@nkhome.com",
+        "developerName": "Nielsen-Kellerman",
+        "developerWebsite": "https://kestrelinstruments.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "8644164",
+            "versionCode": 74
+          },
+          {
+            "fileType": 0,
+            "size": "2305952",
+            "versionCode": 74
+          },
+          {
+            "fileType": 0,
+            "size": "45465",
+            "versionCode": 74
+          },
+          {
+            "fileType": 0,
+            "size": "4604404",
+            "versionCode": 74
+          }
+        ],
+        "installationSize": "15599985",
+        "numDownloads": "100+ downloads",
+        "packageName": "com.kestrelinstruments.kdex",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+        ],
+        "recentChangesHtml": "Device History: A new screen with two tabs - &quot;Daily&quot; displays a daily view of your device readings and &quot;Timeline&quot; displays a historical view of readings filterable by date or Kestrel device<br>Device Settings: You can now rename and edit your Kestrel device&#39;s display name",
+        "unstable": true,
+        "uploadDate": "22 Oct 2020",
+        "versionCode": 74,
+        "versionString": "1.0.73"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.kestrelinstruments.kdex",
+    "docType": 1,
+    "docid": "com.kestrelinstruments.kdex",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/Pcn_tz5Hr9bmHvmV-nvVTxndjywyrO29d216sgwtmv077yvhYHA6kmwVe_Y_W2lgTKvp",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/LtDN6BC2IH9aXYFjbkKwasDJ6g9ac8FghRQ1CM6A6Tv6FgytmCXiJEHReIP8TcEBkg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/nmxDoTHtFo8YCO4A0Fa-VTtWAb3fcaKSqZ7jWLL8jh5li7jpvp7Vj6ti856DSfi8mxU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/OJjBv9lIRK3GXz7l_2W_4HLT6f6evGa-GWET4_Bm-kNVlNwdQVlEWj3DTCRligC5AXU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/OSUzE29lKIPWX74d_9BLpgxKSt6ogmBn4bKQAkenC85kdnBBltDSRga0XnLSzytuLpo",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/D09wMhgW-JU5EMWxptMFHWuKpxrs--cbpDKU0touRsp1NZ8gQpw4n6uX8IhTsWsigg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/z5u2DObJeQ5Ve31FwgUYlnWDxlmy4fb5HkiniIUAMK8kwfpCothvgf0LVbfZKM67F_8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/goy4_-Qo_ojnxTnbV2qN99RlmwRxctsuIKxTgUm5U7ytoJe0_M1yNezVUUhpotTfYIg",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://kestrelinstruments.com/nk/legal/privacy-policy",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.kestrelinstruments.kdex",
+    "reviewsUrl": "rev?doc=com.kestrelinstruments.kdex&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.kestrelinstruments.kdex",
+    "title": "Kestrel KDEX",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "kestrellink@nkhome.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "3 Sep 2020"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-01-15 21:56:58.248943",
+    "backendDocid": "com.kestrelinstruments.kdex",
+    "backendId": 3,
+    "creator": "Nielsen-Kellerman",
+    "descriptionHtml": "Monitor, download, and share weather data from your Kestrel device.\u00a0 This app may require\u00a0a Kestrel device firmware update which will erase any stored data on a DROP or 5000 series Kestrel device, so please use the Kestrel LiNK legacy app to\u00a0export any important data prior to updating.",
+    "descriptionShort": "Know your conditions.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "19661728",
+          "unknown3": 29
+        },
+        "developerEmail": "kestrellink@nkhome.com",
+        "developerName": "Nielsen-Kellerman",
+        "developerWebsite": "https://kestrelinstruments.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "12684575",
+            "versionCode": 94
+          },
+          {
+            "fileType": 0,
+            "size": "2319092",
+            "versionCode": 94
+          },
+          {
+            "fileType": 0,
+            "size": "49561",
+            "versionCode": 94
+          },
+          {
+            "fileType": 0,
+            "size": "4608500",
+            "versionCode": 94
+          }
+        ],
+        "installationSize": "19661728",
+        "numDownloads": "100+ downloads",
+        "packageName": "com.kestrelinstruments.kdex",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.CAMERA",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+        ],
+        "recentChangesHtml": "New Kestrel LiNK app!\u00a0 Improved data visualization and sharing, multi-device management, and more!",
+        "unstable": true,
+        "uploadDate": "12 Jan 2021",
+        "versionCode": 94,
+        "versionString": "1.1.1"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.kestrelinstruments.kdex",
+    "docType": 1,
+    "docid": "com.kestrelinstruments.kdex",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/GzUlEjbRaB3V-MnqfEofimCPZ4OF01U_KyW7WVrznZ_rrPq3nJxqfVWS9Sw3HyC_vw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/LtDN6BC2IH9aXYFjbkKwasDJ6g9ac8FghRQ1CM6A6Tv6FgytmCXiJEHReIP8TcEBkg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/nmxDoTHtFo8YCO4A0Fa-VTtWAb3fcaKSqZ7jWLL8jh5li7jpvp7Vj6ti856DSfi8mxU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/OJjBv9lIRK3GXz7l_2W_4HLT6f6evGa-GWET4_Bm-kNVlNwdQVlEWj3DTCRligC5AXU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/OSUzE29lKIPWX74d_9BLpgxKSt6ogmBn4bKQAkenC85kdnBBltDSRga0XnLSzytuLpo",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/D09wMhgW-JU5EMWxptMFHWuKpxrs--cbpDKU0touRsp1NZ8gQpw4n6uX8IhTsWsigg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/z5u2DObJeQ5Ve31FwgUYlnWDxlmy4fb5HkiniIUAMK8kwfpCothvgf0LVbfZKM67F_8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/goy4_-Qo_ojnxTnbV2qN99RlmwRxctsuIKxTgUm5U7ytoJe0_M1yNezVUUhpotTfYIg",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://kestrelinstruments.com/nk/legal/privacy-policy",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.kestrelinstruments.kdex",
+    "reviewsUrl": "rev?doc=com.kestrelinstruments.kdex&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.kestrelinstruments.kdex",
+    "title": "Kestrel LiNK",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "kestrellink@nkhome.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "3 Sept 2020"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "5",
+      "fiveStarRatings": "1",
+      "fourStarRatings": "1",
+      "oneStarRatings": "2",
+      "ratingsCount": "5",
+      "starRating": 2.8,
+      "threeStarRatings": "1",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-03-18 22:09:12.286132",
+    "backendDocid": "com.kestrelinstruments.kdex",
+    "backendId": 3,
+    "creator": "Nielsen-Kellerman",
+    "descriptionHtml": "Monitor, download, and share weather data from your Kestrel device.\u00a0 This app may require\u00a0a Kestrel device firmware update which will erase any stored data on a DROP or 5000 series Kestrel device, so please use the Kestrel LiNK legacy app to\u00a0export any important data prior to updating.",
+    "descriptionShort": "Know your conditions.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "19686713",
+          "unknown3": 29
+        },
+        "developerEmail": "kestrellink@nkhome.com",
+        "developerName": "Nielsen-Kellerman",
+        "developerWebsite": "https://kestrelinstruments.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "12680479",
+            "versionCode": 124
+          },
+          {
+            "fileType": 0,
+            "size": "2319092",
+            "versionCode": 124
+          },
+          {
+            "fileType": 0,
+            "size": "29081",
+            "versionCode": 124
+          },
+          {
+            "fileType": 0,
+            "size": "49561",
+            "versionCode": 124
+          },
+          {
+            "fileType": 0,
+            "size": "4608500",
+            "versionCode": 124
+          }
+        ],
+        "installationSize": "19686713",
+        "numDownloads": "500+ downloads",
+        "packageName": "com.kestrelinstruments.kdex",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.CAMERA",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+        ],
+        "recentChangesHtml": "Addresses issue where application was crashing upon starting up.",
+        "unstable": true,
+        "uploadDate": "18 Mar 2021",
+        "versionCode": 124,
+        "versionString": "1.1.31"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.kestrelinstruments.kdex",
+    "docType": 1,
+    "docid": "com.kestrelinstruments.kdex",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/GzUlEjbRaB3V-MnqfEofimCPZ4OF01U_KyW7WVrznZ_rrPq3nJxqfVWS9Sw3HyC_vw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/LtDN6BC2IH9aXYFjbkKwasDJ6g9ac8FghRQ1CM6A6Tv6FgytmCXiJEHReIP8TcEBkg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/nmxDoTHtFo8YCO4A0Fa-VTtWAb3fcaKSqZ7jWLL8jh5li7jpvp7Vj6ti856DSfi8mxU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/OJjBv9lIRK3GXz7l_2W_4HLT6f6evGa-GWET4_Bm-kNVlNwdQVlEWj3DTCRligC5AXU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/OSUzE29lKIPWX74d_9BLpgxKSt6ogmBn4bKQAkenC85kdnBBltDSRga0XnLSzytuLpo",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/D09wMhgW-JU5EMWxptMFHWuKpxrs--cbpDKU0touRsp1NZ8gQpw4n6uX8IhTsWsigg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/z5u2DObJeQ5Ve31FwgUYlnWDxlmy4fb5HkiniIUAMK8kwfpCothvgf0LVbfZKM67F_8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/goy4_-Qo_ojnxTnbV2qN99RlmwRxctsuIKxTgUm5U7ytoJe0_M1yNezVUUhpotTfYIg",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://kestrelinstruments.com/nk/legal/privacy-policy",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.kestrelinstruments.kdex",
+    "reviewsUrl": "rev?doc=com.kestrelinstruments.kdex&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.kestrelinstruments.kdex",
+    "title": "Kestrel LiNK",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "kestrellink@nkhome.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "3 Sept 2020"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "8",
+      "fiveStarRatings": "2",
+      "fourStarRatings": "1",
+      "oneStarRatings": "2",
+      "ratingsCount": "8",
+      "starRating": 3.0,
+      "threeStarRatings": "2",
+      "twoStarRatings": "1",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-05-21 13:08:27.983461",
+    "backendDocid": "com.kestrelinstruments.kdex",
+    "backendId": 3,
+    "creator": "Nielsen-Kellerman",
+    "descriptionHtml": "Monitor, download, and share weather data from your Kestrel device.\u00a0 This app may require\u00a0a Kestrel device firmware update which will erase any stored data on a DROP or 5000 series Kestrel device, so please use the Kestrel LiNK legacy app to\u00a0export any important data prior to updating.",
+    "descriptionShort": "Know your conditions.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "28958642",
+          "unknown3": 29
+        },
+        "developerEmail": "kestrellink@nkhome.com",
+        "developerName": "Nielsen-Kellerman",
+        "developerWebsite": "https://kestrelinstruments.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "20275786",
+            "versionCode": 140
+          },
+          {
+            "fileType": 0,
+            "size": "2397456",
+            "versionCode": 140
+          },
+          {
+            "fileType": 0,
+            "size": "29081",
+            "versionCode": 140
+          },
+          {
+            "fileType": 0,
+            "size": "33177",
+            "versionCode": 140
+          },
+          {
+            "fileType": 0,
+            "size": "37273",
+            "versionCode": 140
+          },
+          {
+            "fileType": 0,
+            "size": "49561",
+            "versionCode": 140
+          },
+          {
+            "fileType": 0,
+            "size": "6136308",
+            "versionCode": 140
+          }
+        ],
+        "installationSize": "28958642",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "com.kestrelinstruments.kdex",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.CAMERA",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+        ],
+        "recentChangesHtml": "Added multi-device dashboard<br>Added a compass rose wind indicator option for the dashboard<br>Added WBGT guidelines view and zone-based alerts<br>Bug fixes for session recording, guidelines, device settings, tablet displays, and firmware updates",
+        "unstable": true,
+        "uploadDate": "17 May 2021",
+        "versionCode": 140,
+        "versionString": "1.1.47"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.kestrelinstruments.kdex",
+    "docType": 1,
+    "docid": "com.kestrelinstruments.kdex",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/GzUlEjbRaB3V-MnqfEofimCPZ4OF01U_KyW7WVrznZ_rrPq3nJxqfVWS9Sw3HyC_vw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/LtDN6BC2IH9aXYFjbkKwasDJ6g9ac8FghRQ1CM6A6Tv6FgytmCXiJEHReIP8TcEBkg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/nmxDoTHtFo8YCO4A0Fa-VTtWAb3fcaKSqZ7jWLL8jh5li7jpvp7Vj6ti856DSfi8mxU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/OJjBv9lIRK3GXz7l_2W_4HLT6f6evGa-GWET4_Bm-kNVlNwdQVlEWj3DTCRligC5AXU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/OSUzE29lKIPWX74d_9BLpgxKSt6ogmBn4bKQAkenC85kdnBBltDSRga0XnLSzytuLpo",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/D09wMhgW-JU5EMWxptMFHWuKpxrs--cbpDKU0touRsp1NZ8gQpw4n6uX8IhTsWsigg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/z5u2DObJeQ5Ve31FwgUYlnWDxlmy4fb5HkiniIUAMK8kwfpCothvgf0LVbfZKM67F_8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/goy4_-Qo_ojnxTnbV2qN99RlmwRxctsuIKxTgUm5U7ytoJe0_M1yNezVUUhpotTfYIg",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://kestrelinstruments.com/nk/legal/privacy-policy",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.kestrelinstruments.kdex",
+    "reviewsUrl": "rev?doc=com.kestrelinstruments.kdex&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.kestrelinstruments.kdex",
+    "title": "Kestrel LiNK",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "kestrellink@nkhome.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "3 Sept 2020"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "11",
+      "fiveStarRatings": "3",
+      "fourStarRatings": "2",
+      "oneStarRatings": "4",
+      "ratingsCount": "12",
+      "starRating": 2.9166667,
+      "threeStarRatings": "2",
+      "twoStarRatings": "1",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-09-22 17:27:51.593269",
+    "backendDocid": "com.kestrelinstruments.kdex",
+    "backendId": 3,
+    "creator": "Nielsen-Kellerman",
+    "descriptionHtml": "Monitor, download, and share weather data from your Kestrel device.\u00a0 This app may require\u00a0a Kestrel device firmware update which will erase any stored data on a DROP or 5000 series Kestrel device, so please use the Kestrel LiNK legacy app to\u00a0export any important data prior to updating.",
+    "descriptionShort": "Know your conditions.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "37127209",
+          "unknown3": 29
+        },
+        "developerEmail": "kestrellink@nkhome.com",
+        "developerName": "Nielsen-Kellerman",
+        "developerWebsite": "https://kestrelinstruments.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "28502425",
+            "versionCode": 158
+          },
+          {
+            "fileType": 0,
+            "size": "2401642",
+            "versionCode": 158
+          },
+          {
+            "fileType": 0,
+            "size": "29081",
+            "versionCode": 158
+          },
+          {
+            "fileType": 0,
+            "size": "53657",
+            "versionCode": 158
+          },
+          {
+            "fileType": 0,
+            "size": "6140404",
+            "versionCode": 158
+          }
+        ],
+        "installationSize": "37127209",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "com.kestrelinstruments.kdex",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.CAMERA",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+        ],
+        "recentChangesHtml": "Various bug fixes<br>Reduced app power consumption<br>Improved graph zooming<br>Added embedded device manuals <br>Added notification history for alerts<br>Added WBGT guideline information<br>Added beacon mode for device location<br>Added barometric pressure &amp; altitude measurements for D3 DROP",
+        "unstable": true,
+        "uploadDate": "3 Sept 2021",
+        "versionCode": 158,
+        "versionString": "1.1.65"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.kestrelinstruments.kdex",
+    "docType": 1,
+    "docid": "com.kestrelinstruments.kdex",
+    "image": [
+      {
+        "color": "#FAFAFB",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/GzUlEjbRaB3V-MnqfEofimCPZ4OF01U_KyW7WVrznZ_rrPq3nJxqfVWS9Sw3HyC_vw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/LtDN6BC2IH9aXYFjbkKwasDJ6g9ac8FghRQ1CM6A6Tv6FgytmCXiJEHReIP8TcEBkg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/nmxDoTHtFo8YCO4A0Fa-VTtWAb3fcaKSqZ7jWLL8jh5li7jpvp7Vj6ti856DSfi8mxU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/OJjBv9lIRK3GXz7l_2W_4HLT6f6evGa-GWET4_Bm-kNVlNwdQVlEWj3DTCRligC5AXU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/OSUzE29lKIPWX74d_9BLpgxKSt6ogmBn4bKQAkenC85kdnBBltDSRga0XnLSzytuLpo",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/D09wMhgW-JU5EMWxptMFHWuKpxrs--cbpDKU0touRsp1NZ8gQpw4n6uX8IhTsWsigg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/z5u2DObJeQ5Ve31FwgUYlnWDxlmy4fb5HkiniIUAMK8kwfpCothvgf0LVbfZKM67F_8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/goy4_-Qo_ojnxTnbV2qN99RlmwRxctsuIKxTgUm5U7ytoJe0_M1yNezVUUhpotTfYIg",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://kestrelinstruments.com/nk/legal/privacy-policy",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.kestrelinstruments.kdex",
+    "reviewsUrl": "rev?doc=com.kestrelinstruments.kdex&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.kestrelinstruments.kdex",
+    "title": "Kestrel LiNK",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "kestrellink@nkhome.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "3 Sept 2020"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "11",
+      "fiveStarRatings": "4",
+      "fourStarRatings": "2",
+      "oneStarRatings": "4",
+      "ratingsCount": "13",
+      "starRating": 3.0769231,
+      "threeStarRatings": "2",
+      "twoStarRatings": "1",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-10-31 05:38:18.956718",
+    "backendDocid": "com.kestrelinstruments.kdex",
+    "backendId": 3,
+    "creator": "Nielsen-Kellerman",
+    "descriptionHtml": "Monitor, download, and share weather data from your Kestrel device.\u00a0 This app may require\u00a0a Kestrel device firmware update which will erase any stored data on a DROP or 5000 series Kestrel device, so please use the Kestrel LiNK legacy app to\u00a0export any important data prior to updating.",
+    "descriptionShort": "Know your conditions.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "38348463",
+          "unknown3": 30
+        },
+        "developerEmail": "kestrellink@nkhome.com",
+        "developerName": "Nielsen-Kellerman",
+        "developerWebsite": "https://kestrelinstruments.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "29652693",
+            "versionCode": 164
+          },
+          {
+            "fileType": 0,
+            "size": "2410779",
+            "versionCode": 164
+          },
+          {
+            "fileType": 0,
+            "size": "29081",
+            "versionCode": 164
+          },
+          {
+            "fileType": 0,
+            "size": "37273",
+            "versionCode": 164
+          },
+          {
+            "fileType": 0,
+            "size": "53657",
+            "versionCode": 164
+          },
+          {
+            "fileType": 0,
+            "size": "6164980",
+            "versionCode": 164
+          }
+        ],
+        "installationSize": "38348463",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "com.kestrelinstruments.kdex",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.CAMERA",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+        ],
+        "recentChangesHtml": "Various bug fixes including CSV timestamp format.",
+        "unstable": true,
+        "uploadDate": "22 Oct 2021",
+        "versionCode": 164,
+        "versionString": "1.1.71"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.kestrelinstruments.kdex",
+    "docType": 1,
+    "docid": "com.kestrelinstruments.kdex",
+    "image": [
+      {
+        "color": "#FAFAFB",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/GzUlEjbRaB3V-MnqfEofimCPZ4OF01U_KyW7WVrznZ_rrPq3nJxqfVWS9Sw3HyC_vw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/LtDN6BC2IH9aXYFjbkKwasDJ6g9ac8FghRQ1CM6A6Tv6FgytmCXiJEHReIP8TcEBkg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/nmxDoTHtFo8YCO4A0Fa-VTtWAb3fcaKSqZ7jWLL8jh5li7jpvp7Vj6ti856DSfi8mxU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/OJjBv9lIRK3GXz7l_2W_4HLT6f6evGa-GWET4_Bm-kNVlNwdQVlEWj3DTCRligC5AXU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/OSUzE29lKIPWX74d_9BLpgxKSt6ogmBn4bKQAkenC85kdnBBltDSRga0XnLSzytuLpo",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/D09wMhgW-JU5EMWxptMFHWuKpxrs--cbpDKU0touRsp1NZ8gQpw4n6uX8IhTsWsigg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/z5u2DObJeQ5Ve31FwgUYlnWDxlmy4fb5HkiniIUAMK8kwfpCothvgf0LVbfZKM67F_8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/goy4_-Qo_ojnxTnbV2qN99RlmwRxctsuIKxTgUm5U7ytoJe0_M1yNezVUUhpotTfYIg",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://kestrelinstruments.com/nk/legal/privacy-policy",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.kestrelinstruments.kdex",
+    "reviewsUrl": "rev?doc=com.kestrelinstruments.kdex&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.kestrelinstruments.kdex",
+    "title": "Kestrel LiNK",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "kestrellink@nkhome.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "3 Sept 2020"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-01-03 22:40:41.075951",
+    "backendDocid": "com.kestrelinstruments.kdex",
+    "backendId": 3,
+    "creator": "Nielsen-Kellerman",
+    "descriptionHtml": "Monitor, download, and share weather data from your Kestrel device.\u00a0 This app may require\u00a0a Kestrel device firmware update which will erase any stored data on a DROP or 5000 series Kestrel device, so please use the Kestrel LiNK legacy app to\u00a0export any important data prior to updating.",
+    "descriptionShort": "Know your conditions.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "38802912",
+          "unknown3": 30
+        },
+        "developerEmail": "kestrellink@nkhome.com",
+        "developerName": "Nielsen-Kellerman",
+        "developerWebsite": "https://kestrelinstruments.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "30144415",
+            "versionCode": 168
+          },
+          {
+            "fileType": 0,
+            "size": "2410779",
+            "versionCode": 168
+          },
+          {
+            "fileType": 0,
+            "size": "29081",
+            "versionCode": 168
+          },
+          {
+            "fileType": 0,
+            "size": "53657",
+            "versionCode": 168
+          },
+          {
+            "fileType": 0,
+            "size": "6164980",
+            "versionCode": 168
+          }
+        ],
+        "installationSize": "38802912",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "com.kestrelinstruments.kdex",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.CAMERA",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.REORDER_TASKS",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+        ],
+        "recentChangesHtml": "Adds GPS data to export logs and daily export.",
+        "unstable": true,
+        "uploadDate": "15 Dec 2021",
+        "versionCode": 168,
+        "versionString": "1.1.75"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.kestrelinstruments.kdex",
+    "docType": 1,
+    "docid": "com.kestrelinstruments.kdex",
+    "image": [
+      {
+        "color": "#FAFAFB",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/GzUlEjbRaB3V-MnqfEofimCPZ4OF01U_KyW7WVrznZ_rrPq3nJxqfVWS9Sw3HyC_vw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/LtDN6BC2IH9aXYFjbkKwasDJ6g9ac8FghRQ1CM6A6Tv6FgytmCXiJEHReIP8TcEBkg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/nmxDoTHtFo8YCO4A0Fa-VTtWAb3fcaKSqZ7jWLL8jh5li7jpvp7Vj6ti856DSfi8mxU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/OJjBv9lIRK3GXz7l_2W_4HLT6f6evGa-GWET4_Bm-kNVlNwdQVlEWj3DTCRligC5AXU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/OSUzE29lKIPWX74d_9BLpgxKSt6ogmBn4bKQAkenC85kdnBBltDSRga0XnLSzytuLpo",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/D09wMhgW-JU5EMWxptMFHWuKpxrs--cbpDKU0touRsp1NZ8gQpw4n6uX8IhTsWsigg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/z5u2DObJeQ5Ve31FwgUYlnWDxlmy4fb5HkiniIUAMK8kwfpCothvgf0LVbfZKM67F_8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/goy4_-Qo_ojnxTnbV2qN99RlmwRxctsuIKxTgUm5U7ytoJe0_M1yNezVUUhpotTfYIg",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://kestrelinstruments.com/nk/legal/privacy-policy",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.kestrelinstruments.kdex",
+    "reviewsUrl": "rev?doc=com.kestrelinstruments.kdex&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.kestrelinstruments.kdex",
+    "title": "Kestrel LiNK",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "kestrellink@nkhome.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "3 Sept 2020"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-02-07 22:23:37.214718",
+    "backendDocid": "com.kestrelinstruments.kdex",
+    "backendId": 3,
+    "creator": "Nielsen-Kellerman",
+    "descriptionHtml": "Monitor, download, and share weather data from your Kestrel device.\u00a0 This app may require\u00a0a Kestrel device firmware update which will erase any stored data on a DROP or 5000 series Kestrel device, so please use the Kestrel LiNK legacy app to\u00a0export any important data prior to updating.",
+    "descriptionShort": "Know your conditions.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "39413483",
+          "unknown3": 30
+        },
+        "developerEmail": "kestrellink@nkhome.com",
+        "developerName": "Nielsen-Kellerman",
+        "developerWebsite": "https://kestrelinstruments.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "30738423",
+            "versionCode": 170
+          },
+          {
+            "fileType": 0,
+            "size": "2419150",
+            "versionCode": 170
+          },
+          {
+            "fileType": 0,
+            "size": "37273",
+            "versionCode": 170
+          },
+          {
+            "fileType": 0,
+            "size": "53657",
+            "versionCode": 170
+          },
+          {
+            "fileType": 0,
+            "size": "6164980",
+            "versionCode": 170
+          }
+        ],
+        "installationSize": "39413483",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "com.kestrelinstruments.kdex",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.CAMERA",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.REORDER_TASKS",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+        ],
+        "recentChangesHtml": "We&#39;re constantly updating our app to make your user experience even better. This update includes bug fixes to prevent crashes with certain device models. We integrated a system to analyze app performance for continued maintenance. Update now for optimal performance! ",
+        "unstable": true,
+        "uploadDate": "17 Jan 2022",
+        "versionCode": 170,
+        "versionString": "1.1.77"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.kestrelinstruments.kdex",
+    "docType": 1,
+    "docid": "com.kestrelinstruments.kdex",
+    "image": [
+      {
+        "color": "#FAFAFB",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/GzUlEjbRaB3V-MnqfEofimCPZ4OF01U_KyW7WVrznZ_rrPq3nJxqfVWS9Sw3HyC_vw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/LtDN6BC2IH9aXYFjbkKwasDJ6g9ac8FghRQ1CM6A6Tv6FgytmCXiJEHReIP8TcEBkg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/nmxDoTHtFo8YCO4A0Fa-VTtWAb3fcaKSqZ7jWLL8jh5li7jpvp7Vj6ti856DSfi8mxU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/OJjBv9lIRK3GXz7l_2W_4HLT6f6evGa-GWET4_Bm-kNVlNwdQVlEWj3DTCRligC5AXU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/OSUzE29lKIPWX74d_9BLpgxKSt6ogmBn4bKQAkenC85kdnBBltDSRga0XnLSzytuLpo",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/D09wMhgW-JU5EMWxptMFHWuKpxrs--cbpDKU0touRsp1NZ8gQpw4n6uX8IhTsWsigg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/z5u2DObJeQ5Ve31FwgUYlnWDxlmy4fb5HkiniIUAMK8kwfpCothvgf0LVbfZKM67F_8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/goy4_-Qo_ojnxTnbV2qN99RlmwRxctsuIKxTgUm5U7ytoJe0_M1yNezVUUhpotTfYIg",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://kestrelinstruments.com/nk/legal/privacy-policy",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.kestrelinstruments.kdex",
+    "reviewsUrl": "rev?doc=com.kestrelinstruments.kdex&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.kestrelinstruments.kdex",
+    "title": "Kestrel LiNK",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "kestrellink@nkhome.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "3 Sept 2020"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "11",
+      "fiveStarRatings": "4",
+      "fourStarRatings": "2",
+      "oneStarRatings": "4",
+      "ratingsCount": "13",
+      "starRating": 3.0769231,
+      "threeStarRatings": "2",
+      "twoStarRatings": "1",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-03-09 12:36:17.551121",
+    "backendDocid": "com.kestrelinstruments.kdex",
+    "backendId": 3,
+    "creator": "Nielsen-Kellerman",
+    "descriptionHtml": "Monitor, download, and share weather data from your Kestrel device.\u00a0 This app may require\u00a0a Kestrel device firmware update which will erase any stored data on a DROP or 5000 series Kestrel device, so please use the Kestrel LiNK legacy app to\u00a0export any important data prior to updating.",
+    "descriptionShort": "Know your conditions.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "46599048",
+          "unknown3": 31
+        },
+        "developerEmail": "kestrellink@nkhome.com",
+        "developerName": "Nielsen-Kellerman",
+        "developerWebsite": "https://kestrelinstruments.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "37097131",
+            "versionCode": 176
+          },
+          {
+            "fileType": 0,
+            "size": "2414428",
+            "versionCode": 176
+          },
+          {
+            "fileType": 0,
+            "size": "33177",
+            "versionCode": 176
+          },
+          {
+            "fileType": 0,
+            "size": "61849",
+            "versionCode": 176
+          },
+          {
+            "fileType": 0,
+            "size": "6992463",
+            "versionCode": 176
+          }
+        ],
+        "installationSize": "46599048",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "com.kestrelinstruments.kdex",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.BLUETOOTH_CONNECT",
+          "android.permission.BLUETOOTH_SCAN",
+          "android.permission.CAMERA",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.REORDER_TASKS",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": "We&#39;re constantly updating our app to make your user experience even better. This update includes bug fixes and UI improvements to create a more user friendly experience. Update now for optimal performance!",
+        "unstable": true,
+        "uploadDate": "16 Feb 2022",
+        "versionCode": 176,
+        "versionString": "1.1.83"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.kestrelinstruments.kdex",
+    "docType": 1,
+    "docid": "com.kestrelinstruments.kdex",
+    "image": [
+      {
+        "color": "#FAFAFB",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/GzUlEjbRaB3V-MnqfEofimCPZ4OF01U_KyW7WVrznZ_rrPq3nJxqfVWS9Sw3HyC_vw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/LtDN6BC2IH9aXYFjbkKwasDJ6g9ac8FghRQ1CM6A6Tv6FgytmCXiJEHReIP8TcEBkg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/nmxDoTHtFo8YCO4A0Fa-VTtWAb3fcaKSqZ7jWLL8jh5li7jpvp7Vj6ti856DSfi8mxU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/OJjBv9lIRK3GXz7l_2W_4HLT6f6evGa-GWET4_Bm-kNVlNwdQVlEWj3DTCRligC5AXU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/OSUzE29lKIPWX74d_9BLpgxKSt6ogmBn4bKQAkenC85kdnBBltDSRga0XnLSzytuLpo",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/D09wMhgW-JU5EMWxptMFHWuKpxrs--cbpDKU0touRsp1NZ8gQpw4n6uX8IhTsWsigg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/z5u2DObJeQ5Ve31FwgUYlnWDxlmy4fb5HkiniIUAMK8kwfpCothvgf0LVbfZKM67F_8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/goy4_-Qo_ojnxTnbV2qN99RlmwRxctsuIKxTgUm5U7ytoJe0_M1yNezVUUhpotTfYIg",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://kestrelinstruments.com/nk/legal/privacy-policy",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.kestrelinstruments.kdex",
+    "reviewsUrl": "rev?doc=com.kestrelinstruments.kdex&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.kestrelinstruments.kdex",
+    "title": "Kestrel LiNK",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "kestrellink@nkhome.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "3 Sept 2020"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "8",
+      "fiveStarRatings": "9",
+      "fourStarRatings": "1",
+      "oneStarRatings": "3",
+      "ratingsCount": "19",
+      "starRating": 3.6,
+      "threeStarRatings": "1",
+      "twoStarRatings": "1",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-07-27 13:02:27.260008",
+    "backendDocid": "com.kestrelinstruments.kdex",
+    "backendId": 3,
+    "creator": "Nielsen-Kellerman",
+    "descriptionHtml": "Monitor, download, and share weather data from your Kestrel device.\u00a0 This app may require\u00a0a Kestrel device firmware update which will erase any stored data on a DROP or 5000 series Kestrel device, so please use the Kestrel LiNK legacy app to\u00a0export any important data prior to updating.",
+    "descriptionShort": "Know your conditions.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "46925365",
+          "unknown3": 31
+        },
+        "developerEmail": "kestrellink@nkhome.com",
+        "developerName": "Nielsen-Kellerman",
+        "developerWebsite": "https://kestrelinstruments.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "37157616",
+            "versionCode": 184
+          },
+          {
+            "fileType": 0,
+            "size": "2717533",
+            "versionCode": 184
+          },
+          {
+            "fileType": 0,
+            "size": "61849",
+            "versionCode": 184
+          },
+          {
+            "fileType": 0,
+            "size": "6988367",
+            "versionCode": 184
+          }
+        ],
+        "installationSize": "46925365",
+        "numDownloads": "5,000+ downloads",
+        "packageName": "com.kestrelinstruments.kdex",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.BLUETOOTH_CONNECT",
+          "android.permission.BLUETOOTH_SCAN",
+          "android.permission.CAMERA",
+          "android.permission.CHANGE_WIFI_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.REORDER_TASKS",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": "We&#39;re constantly updating our app to make your user experience even better. Try out our new Full Screen Mode while viewing live data on the dashboard. Update now for optimal performance!",
+        "unstable": true,
+        "uploadDate": "8 Jul 2022",
+        "versionCode": 184,
+        "versionString": "1.1.91"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.kestrelinstruments.kdex",
+    "docType": 1,
+    "docid": "com.kestrelinstruments.kdex",
+    "image": [
+      {
+        "color": "#FAFAFB",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/GzUlEjbRaB3V-MnqfEofimCPZ4OF01U_KyW7WVrznZ_rrPq3nJxqfVWS9Sw3HyC_vw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/LtDN6BC2IH9aXYFjbkKwasDJ6g9ac8FghRQ1CM6A6Tv6FgytmCXiJEHReIP8TcEBkg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/nmxDoTHtFo8YCO4A0Fa-VTtWAb3fcaKSqZ7jWLL8jh5li7jpvp7Vj6ti856DSfi8mxU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/OJjBv9lIRK3GXz7l_2W_4HLT6f6evGa-GWET4_Bm-kNVlNwdQVlEWj3DTCRligC5AXU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/OSUzE29lKIPWX74d_9BLpgxKSt6ogmBn4bKQAkenC85kdnBBltDSRga0XnLSzytuLpo",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/D09wMhgW-JU5EMWxptMFHWuKpxrs--cbpDKU0touRsp1NZ8gQpw4n6uX8IhTsWsigg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/z5u2DObJeQ5Ve31FwgUYlnWDxlmy4fb5HkiniIUAMK8kwfpCothvgf0LVbfZKM67F_8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/goy4_-Qo_ojnxTnbV2qN99RlmwRxctsuIKxTgUm5U7ytoJe0_M1yNezVUUhpotTfYIg",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://kestrelinstruments.com/nk/legal/privacy-policy",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.kestrelinstruments.kdex",
+    "reviewsUrl": "rev?doc=com.kestrelinstruments.kdex&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.kestrelinstruments.kdex",
+    "title": "Kestrel LiNK",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Nielsen-Kellerman"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "kestrellink@nkhome.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "3 Sept 2020"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-11-21 16:55:59.736622",
+    "backendDocid": "com.kestrelinstruments.kdex",
+    "backendId": 3,
+    "creator": "Nielsen-Kellerman",
+    "descriptionHtml": "Monitor, download, and share weather data from your Kestrel device.\u00a0 This app may require\u00a0a Kestrel device firmware update which will erase any stored data on a DROP or 5000 series Kestrel device, so please use the Kestrel LiNK legacy app to\u00a0export any important data prior to updating.",
+    "descriptionShort": "Know your conditions.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "47464253",
+          "unknown3": 31
+        },
+        "developerEmail": "kestrellink@nkhome.com",
+        "developerName": "Nielsen-Kellerman",
+        "developerWebsite": "https://kestrelinstruments.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "37190924",
+            "versionCode": 188
+          },
+          {
+            "fileType": 0,
+            "size": "3189936",
+            "versionCode": 188
+          },
+          {
+            "fileType": 0,
+            "size": "33177",
+            "versionCode": 188
+          },
+          {
+            "fileType": 0,
+            "size": "61849",
+            "versionCode": 188
+          },
+          {
+            "fileType": 0,
+            "size": "6988367",
+            "versionCode": 188
+          }
+        ],
+        "installationSize": "47464253",
+        "numDownloads": "5,000+ downloads",
+        "packageName": "com.kestrelinstruments.kdex",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.BLUETOOTH_CONNECT",
+          "android.permission.BLUETOOTH_SCAN",
+          "android.permission.CAMERA",
+          "android.permission.CHANGE_WIFI_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.REORDER_TASKS",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": "NAIL (Android): ACGIH guidelines don&#39;t adjust for the WBGT clothing type inputs https://app.clickup.com/t/2xk34w4<br>NAIL (Android): Make sync time with phone an optional setting https://app.clickup.com/t/2vkxj2c<br>NAIL (Android): Handle failing/hanging SequenceTasks https://app.clickup.com/t/2w9rbw9<br>NAIL (Android) Remove info icon for Auto Connect https://app.clickup.com/t/2xqgywr<br>NAIL (Android): TB MED 507 Guideline requires WBGT clothing correction https://app.clickup.com/t/2wv3rcz",
+        "unstable": true,
+        "uploadDate": "10 Nov 2022",
+        "versionCode": 188,
+        "versionString": "1.1.95"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.kestrelinstruments.kdex",
+    "docType": 1,
+    "docid": "com.kestrelinstruments.kdex",
+    "image": [
+      {
+        "color": "#FAFAFB",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/GzUlEjbRaB3V-MnqfEofimCPZ4OF01U_KyW7WVrznZ_rrPq3nJxqfVWS9Sw3HyC_vw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/LtDN6BC2IH9aXYFjbkKwasDJ6g9ac8FghRQ1CM6A6Tv6FgytmCXiJEHReIP8TcEBkg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/nmxDoTHtFo8YCO4A0Fa-VTtWAb3fcaKSqZ7jWLL8jh5li7jpvp7Vj6ti856DSfi8mxU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/OJjBv9lIRK3GXz7l_2W_4HLT6f6evGa-GWET4_Bm-kNVlNwdQVlEWj3DTCRligC5AXU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/OSUzE29lKIPWX74d_9BLpgxKSt6ogmBn4bKQAkenC85kdnBBltDSRga0XnLSzytuLpo",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/D09wMhgW-JU5EMWxptMFHWuKpxrs--cbpDKU0touRsp1NZ8gQpw4n6uX8IhTsWsigg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/z5u2DObJeQ5Ve31FwgUYlnWDxlmy4fb5HkiniIUAMK8kwfpCothvgf0LVbfZKM67F_8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/goy4_-Qo_ojnxTnbV2qN99RlmwRxctsuIKxTgUm5U7ytoJe0_M1yNezVUUhpotTfYIg",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://kestrelinstruments.com/nk/legal/privacy-policy",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.kestrelinstruments.kdex",
+    "reviewsUrl": "rev?doc=com.kestrelinstruments.kdex&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.kestrelinstruments.kdex",
+    "title": "Kestrel LiNK",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "kestrellink@nkhome.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "3 Sept 2020"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-12-05 22:57:01.183852",
+    "backendDocid": "com.kestrelinstruments.kdex",
+    "backendId": 3,
+    "creator": "Nielsen-Kellerman",
+    "descriptionHtml": "Monitor, download, and share weather data from your Kestrel device.\u00a0 This app may require\u00a0a Kestrel device firmware update which will erase any stored data on a DROP or 5000 series Kestrel device, so please use the Kestrel LiNK legacy app to\u00a0export any important data prior to updating.",
+    "descriptionShort": "Know your conditions.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "47424954",
+          "unknown3": 31
+        },
+        "developerEmail": "kestrellink@nkhome.com",
+        "developerName": "Nielsen-Kellerman",
+        "developerWebsite": "https://kestrelinstruments.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "37164222",
+            "versionCode": 191
+          },
+          {
+            "fileType": 0,
+            "size": "3210516",
+            "versionCode": 191
+          },
+          {
+            "fileType": 0,
+            "size": "61849",
+            "versionCode": 191
+          },
+          {
+            "fileType": 0,
+            "size": "6988367",
+            "versionCode": 191
+          }
+        ],
+        "installationSize": "47424954",
+        "numDownloads": "5,000+ downloads",
+        "packageName": "com.kestrelinstruments.kdex",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.BLUETOOTH_CONNECT",
+          "android.permission.BLUETOOTH_SCAN",
+          "android.permission.CAMERA",
+          "android.permission.CHANGE_WIFI_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.REORDER_TASKS",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": "We&#39;re constantly updating our app to make your user experience even better. This update includes bug fixes and UI improvements to create a more user friendly experience. You can now select an hourly range when reviewing historical data. The ability to sync device time with your phone is now an optional setting. You can now view live data from AmbientWeather.net after you sync your device with the their cloud based platform. Update now for optimal performance!",
+        "unstable": true,
+        "uploadDate": "Nov 28, 2022",
+        "versionCode": 191,
+        "versionString": "1.1.98"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.kestrelinstruments.kdex",
+    "docType": 1,
+    "docid": "com.kestrelinstruments.kdex",
+    "image": [
+      {
+        "color": "#FAFAFB",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/GzUlEjbRaB3V-MnqfEofimCPZ4OF01U_KyW7WVrznZ_rrPq3nJxqfVWS9Sw3HyC_vw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/LtDN6BC2IH9aXYFjbkKwasDJ6g9ac8FghRQ1CM6A6Tv6FgytmCXiJEHReIP8TcEBkg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/nmxDoTHtFo8YCO4A0Fa-VTtWAb3fcaKSqZ7jWLL8jh5li7jpvp7Vj6ti856DSfi8mxU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/OJjBv9lIRK3GXz7l_2W_4HLT6f6evGa-GWET4_Bm-kNVlNwdQVlEWj3DTCRligC5AXU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/OSUzE29lKIPWX74d_9BLpgxKSt6ogmBn4bKQAkenC85kdnBBltDSRga0XnLSzytuLpo",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/D09wMhgW-JU5EMWxptMFHWuKpxrs--cbpDKU0touRsp1NZ8gQpw4n6uX8IhTsWsigg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/z5u2DObJeQ5Ve31FwgUYlnWDxlmy4fb5HkiniIUAMK8kwfpCothvgf0LVbfZKM67F_8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/goy4_-Qo_ojnxTnbV2qN99RlmwRxctsuIKxTgUm5U7ytoJe0_M1yNezVUUhpotTfYIg",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "CAD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://kestrelinstruments.com/nk/legal/privacy-policy",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.kestrelinstruments.kdex",
+    "reviewsUrl": "rev?doc=com.kestrelinstruments.kdex&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.kestrelinstruments.kdex",
+    "title": "Kestrel LiNK",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Nielsen-Kellerman"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "kestrellink@nkhome.com"
+          },
+          "label": "Developer e-mail"
+        },
+        {
+          "container": {
+            "value": "Sept 3, 2020"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "27",
+      "fiveStarRatings": "39",
+      "fourStarRatings": "6",
+      "oneStarRatings": "5",
+      "ratingsCount": "54",
+      "starRating": 4.3333335,
+      "threeStarRatings": "2",
+      "twoStarRatings": "2",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-05-07 06:03:12.290967",
+    "backendDocid": "com.kestrelinstruments.kdex",
+    "backendId": 3,
+    "creator": "Nielsen-Kellerman",
+    "descriptionHtml": "Monitor, download, and share weather data from your Kestrel device.\u00a0 This app may require\u00a0a Kestrel device firmware update which will erase any stored data on a DROP or 5000 series Kestrel device, so please use the Kestrel LiNK legacy app to\u00a0export any important data prior to updating.",
+    "descriptionShort": "Know your conditions.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "48017469",
+          "unknown3": 31
+        },
+        "developerEmail": "kestrellink@nkhome.com",
+        "developerName": "Nielsen-Kellerman",
+        "developerWebsite": "https://kestrelinstruments.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "37707107",
+            "versionCode": 194
+          },
+          {
+            "fileType": 0,
+            "size": "3210516",
+            "versionCode": 194
+          },
+          {
+            "fileType": 0,
+            "size": "37273",
+            "versionCode": 194
+          },
+          {
+            "fileType": 0,
+            "size": "61849",
+            "versionCode": 194
+          },
+          {
+            "fileType": 0,
+            "size": "7000724",
+            "versionCode": 194
+          }
+        ],
+        "installationSize": "48017469",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "com.kestrelinstruments.kdex",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.BLUETOOTH_CONNECT",
+          "android.permission.BLUETOOTH_SCAN",
+          "android.permission.CAMERA",
+          "android.permission.CHANGE_WIFI_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.REORDER_TASKS",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.AD_ID",
+          "com.kestrelinstruments.kdex.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        ],
+        "recentChangesHtml": "We&#39;re constantly updating our app to make your user experience even better. This update includes bug fixes and UI improvements to create a more user friendly experience. Update now for optimal performance!",
+        "unstable": true,
+        "uploadDate": "8 Mar 2023",
+        "versionCode": 194,
+        "versionString": "1.2.1"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.kestrelinstruments.kdex",
+    "docType": 1,
+    "docid": "com.kestrelinstruments.kdex",
+    "image": [
+      {
+        "color": "#FAFAFB",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/GzUlEjbRaB3V-MnqfEofimCPZ4OF01U_KyW7WVrznZ_rrPq3nJxqfVWS9Sw3HyC_vw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/LtDN6BC2IH9aXYFjbkKwasDJ6g9ac8FghRQ1CM6A6Tv6FgytmCXiJEHReIP8TcEBkg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/nmxDoTHtFo8YCO4A0Fa-VTtWAb3fcaKSqZ7jWLL8jh5li7jpvp7Vj6ti856DSfi8mxU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/OJjBv9lIRK3GXz7l_2W_4HLT6f6evGa-GWET4_Bm-kNVlNwdQVlEWj3DTCRligC5AXU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/OSUzE29lKIPWX74d_9BLpgxKSt6ogmBn4bKQAkenC85kdnBBltDSRga0XnLSzytuLpo",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/D09wMhgW-JU5EMWxptMFHWuKpxrs--cbpDKU0touRsp1NZ8gQpw4n6uX8IhTsWsigg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/z5u2DObJeQ5Ve31FwgUYlnWDxlmy4fb5HkiniIUAMK8kwfpCothvgf0LVbfZKM67F_8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/goy4_-Qo_ojnxTnbV2qN99RlmwRxctsuIKxTgUm5U7ytoJe0_M1yNezVUUhpotTfYIg",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://kestrelinstruments.com/nk/legal/privacy-policy",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.kestrelinstruments.kdex",
+    "reviewsUrl": "rev?doc=com.kestrelinstruments.kdex&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.kestrelinstruments.kdex",
+    "title": "Kestrel LiNK",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "kestrellink@nkhome.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "3 Sept 2020"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-12-08 13:33:50.562264",
+    "backendDocid": "com.kestrelinstruments.kdex",
+    "backendId": 3,
+    "creator": "Nielsen-Kellerman",
+    "descriptionHtml": "Monitor, download, and share weather data from your Kestrel device.\u00a0 This app may require\u00a0a Kestrel device firmware update which will erase any stored data on a DROP or 5000 series Kestrel device, so please use the Kestrel LiNK legacy app to\u00a0export any important data prior to updating.",
+    "descriptionShort": "Know your conditions.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "version": 12451000
+            }
+          ],
+          "unknown2": "59939112",
+          "unknown3": 33
+        },
+        "developerEmail": "kestrellink@nkhome.com",
+        "developerName": "Nielsen-Kellerman",
+        "developerWebsite": "https://kestrelinstruments.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "59939112",
+            "versionCode": 199
+          }
+        ],
+        "installationSize": "59939112",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "com.kestrelinstruments.kdex",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.BLUETOOTH_CONNECT",
+          "android.permission.BLUETOOTH_SCAN",
+          "android.permission.CAMERA",
+          "android.permission.CHANGE_WIFI_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.POST_NOTIFICATIONS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.REORDER_TASKS",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.AD_ID",
+          "com.kestrelinstruments.kdex.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        ],
+        "recentChangesHtml": "Updated UI/UX<br>Updated athletic heat stress guidelines<br>Ability to export altitude data<br>Add zones to WBGT screen<br>Various bug fixes",
+        "unstable": true,
+        "uploadDate": "8 Nov 2023",
+        "versionCode": 199,
+        "versionString": "1.2.6"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.kestrelinstruments.kdex&vc=199",
+    "docType": 1,
+    "docid": "com.kestrelinstruments.kdex",
+    "image": [
+      {
+        "color": "#FAFAFB",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/GzUlEjbRaB3V-MnqfEofimCPZ4OF01U_KyW7WVrznZ_rrPq3nJxqfVWS9Sw3HyC_vw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/LtDN6BC2IH9aXYFjbkKwasDJ6g9ac8FghRQ1CM6A6Tv6FgytmCXiJEHReIP8TcEBkg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/nmxDoTHtFo8YCO4A0Fa-VTtWAb3fcaKSqZ7jWLL8jh5li7jpvp7Vj6ti856DSfi8mxU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/OJjBv9lIRK3GXz7l_2W_4HLT6f6evGa-GWET4_Bm-kNVlNwdQVlEWj3DTCRligC5AXU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/OSUzE29lKIPWX74d_9BLpgxKSt6ogmBn4bKQAkenC85kdnBBltDSRga0XnLSzytuLpo",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/D09wMhgW-JU5EMWxptMFHWuKpxrs--cbpDKU0touRsp1NZ8gQpw4n6uX8IhTsWsigg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/z5u2DObJeQ5Ve31FwgUYlnWDxlmy4fb5HkiniIUAMK8kwfpCothvgf0LVbfZKM67F_8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/goy4_-Qo_ojnxTnbV2qN99RlmwRxctsuIKxTgUm5U7ytoJe0_M1yNezVUUhpotTfYIg",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://kestrelinstruments.com/nk/legal/privacy-policy",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.kestrelinstruments.kdex",
+    "reviewsUrl": "rev?doc=com.kestrelinstruments.kdex&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.kestrelinstruments.kdex",
+    "title": "Kestrel LiNK\n1.2.6",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "kestrellink@nkhome.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "3 Sept 2020"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2024-02-29 11:50:34.945806",
+    "backendDocid": "com.kestrelinstruments.kdex",
+    "backendId": 3,
+    "creator": "Nielsen-Kellerman",
+    "descriptionHtml": "Monitor, download, and share weather data from your Kestrel device.\u00a0 This app may require\u00a0a Kestrel device firmware update which will erase any stored data on a DROP or 5000 series Kestrel device, so please use the Kestrel LiNK legacy app to\u00a0export any important data prior to updating.",
+    "descriptionShort": "Know your conditions.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "version": 12451000
+            }
+          ],
+          "unknown2": "46555295",
+          "unknown3": 33
+        },
+        "developerEmail": "kestrellink@nkhome.com",
+        "developerName": "Nielsen-Kellerman",
+        "developerWebsite": "https://kestrelinstruments.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "37731939",
+            "versionCode": 203
+          },
+          {
+            "fileType": 0,
+            "size": "1723510",
+            "versionCode": 203
+          },
+          {
+            "fileType": 0,
+            "size": "37273",
+            "versionCode": 203
+          },
+          {
+            "fileType": 0,
+            "size": "61849",
+            "versionCode": 203
+          },
+          {
+            "fileType": 0,
+            "size": "7000724",
+            "versionCode": 203
+          }
+        ],
+        "installationSize": "46555295",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "com.kestrelinstruments.kdex",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.BLUETOOTH_CONNECT",
+          "android.permission.BLUETOOTH_SCAN",
+          "android.permission.CAMERA",
+          "android.permission.CHANGE_WIFI_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.POST_NOTIFICATIONS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.REORDER_TASKS",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.AD_ID",
+          "com.kestrelinstruments.kdex.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        ],
+        "recentChangesHtml": "Various bug fixes<br>Added color for min/max values on graph",
+        "unstable": true,
+        "uploadDate": "31 Jan 2024",
+        "versionCode": 203,
+        "versionString": "1.2.7"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.kestrelinstruments.kdex&vc=203",
+    "docType": 1,
+    "docid": "com.kestrelinstruments.kdex",
+    "image": [
+      {
+        "color": "#FAFAFB",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/GzUlEjbRaB3V-MnqfEofimCPZ4OF01U_KyW7WVrznZ_rrPq3nJxqfVWS9Sw3HyC_vw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/LtDN6BC2IH9aXYFjbkKwasDJ6g9ac8FghRQ1CM6A6Tv6FgytmCXiJEHReIP8TcEBkg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2732,
+          "width": 2048
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/uzj0VKpnfSuhdrjsGyXAex4frLwxF_fDVVjOvIDKiGAxqwu9_UDD-DMp5KcBhQcItT8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2732,
+          "width": 2048
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ULI4m8xJpeKd2_QBDZ1aWsgJRWxrJg-obZy_gfL3OXkcz1pQWtOMuKOFVj4cC1-kQg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2732,
+          "width": 2048
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/h39KoVP64LdgI873qh2mLT04AaP-btd6RHKwjhdwWyxBi8j3pE1JTji_9u2fvXaW_Gga",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2732,
+          "width": 2048
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/zQkGtP6rZ5R6m7ekLvCINMmiNid1UtUIVw3r917b70th3sRvpsa4WjHtiyNEjvGWQg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2732,
+          "width": 2048
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/B9DglmsDqk0YM80ZQPH2GIptbhBX5DIuawJPjOEcVdsXxpawoG6uvhmkx_R2dAYtgA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2732,
+          "width": 2048
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/9kw68Phz6Zc_-KaepPbl1KiPKKng_FCJmRW7v-i6aQLCBrpOTFmzCYs_WwPN6oWYAvCL",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://kestrelinstruments.com/nk/legal/privacy-policy",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.kestrelinstruments.kdex",
+    "reviewsUrl": "rev?doc=com.kestrelinstruments.kdex&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.kestrelinstruments.kdex",
+    "title": "Kestrel LiNK\n1.2.7",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "kestrellink@nkhome.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "3 Sept 2020"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "44",
+      "fourStarRatings": "8",
+      "oneStarRatings": "9",
+      "ratingsCount": "66",
+      "starRating": 4.151515,
+      "threeStarRatings": "3",
+      "twoStarRatings": "2",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2024-04-13 18:59:29.574420",
+    "backendDocid": "com.kestrelinstruments.kdex",
+    "backendId": 3,
+    "creator": "Nielsen-Kellerman",
+    "descriptionHtml": "Monitor, download, and share weather data from your Kestrel device.\u00a0 This app may require\u00a0a Kestrel device firmware update which will erase any stored data on a DROP or 5000 series Kestrel device, so please use the Kestrel LiNK legacy app to\u00a0export any important data prior to updating.",
+    "descriptionShort": "Know your conditions.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "version": 12451000
+            }
+          ],
+          "unknown2": "47682758",
+          "unknown3": 33
+        },
+        "developerEmail": "kestrellink@nkhome.com",
+        "developerName": "Nielsen-Kellerman",
+        "developerWebsite": "https://kestrelinstruments.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "37731939",
+            "versionCode": 206
+          },
+          {
+            "fileType": 0,
+            "size": "2776427",
+            "versionCode": 206
+          },
+          {
+            "fileType": 0,
+            "size": "37273",
+            "versionCode": 206
+          },
+          {
+            "fileType": 0,
+            "size": "37273",
+            "versionCode": 206
+          },
+          {
+            "fileType": 0,
+            "size": "37273",
+            "versionCode": 206
+          },
+          {
+            "fileType": 0,
+            "size": "61849",
+            "versionCode": 206
+          },
+          {
+            "fileType": 0,
+            "size": "7000724",
+            "versionCode": 206
+          }
+        ],
+        "installationSize": "47682758",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "com.kestrelinstruments.kdex",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.BLUETOOTH_CONNECT",
+          "android.permission.BLUETOOTH_SCAN",
+          "android.permission.CAMERA",
+          "android.permission.CHANGE_WIFI_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.POST_NOTIFICATIONS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.REORDER_TASKS",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.AD_ID",
+          "com.kestrelinstruments.kdex.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        ],
+        "recentChangesHtml": "Fixes firmware update issue",
+        "unstable": true,
+        "uploadDate": "12 Mar 2024",
+        "versionCode": 206,
+        "versionString": "1.2.8"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.kestrelinstruments.kdex&vc=206",
+    "docType": 1,
+    "docid": "com.kestrelinstruments.kdex",
+    "image": [
+      {
+        "color": "#FAFAFB",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/GzUlEjbRaB3V-MnqfEofimCPZ4OF01U_KyW7WVrznZ_rrPq3nJxqfVWS9Sw3HyC_vw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/LtDN6BC2IH9aXYFjbkKwasDJ6g9ac8FghRQ1CM6A6Tv6FgytmCXiJEHReIP8TcEBkg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/nmxDoTHtFo8YCO4A0Fa-VTtWAb3fcaKSqZ7jWLL8jh5li7jpvp7Vj6ti856DSfi8mxU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/OJjBv9lIRK3GXz7l_2W_4HLT6f6evGa-GWET4_Bm-kNVlNwdQVlEWj3DTCRligC5AXU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/OSUzE29lKIPWX74d_9BLpgxKSt6ogmBn4bKQAkenC85kdnBBltDSRga0XnLSzytuLpo",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/D09wMhgW-JU5EMWxptMFHWuKpxrs--cbpDKU0touRsp1NZ8gQpw4n6uX8IhTsWsigg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/z5u2DObJeQ5Ve31FwgUYlnWDxlmy4fb5HkiniIUAMK8kwfpCothvgf0LVbfZKM67F_8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/goy4_-Qo_ojnxTnbV2qN99RlmwRxctsuIKxTgUm5U7ytoJe0_M1yNezVUUhpotTfYIg",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "ILS",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://kestrelinstruments.com/nk/legal/privacy-policy",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.kestrelinstruments.kdex",
+    "reviewsUrl": "rev?doc=com.kestrelinstruments.kdex&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.kestrelinstruments.kdex",
+    "title": "Kestrel LiNK\n1.2.8",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Nielsen-Kellerman"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "kestrellink@nkhome.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "3 Sept 2020"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "35",
+      "fiveStarRatings": "45",
+      "fourStarRatings": "8",
+      "oneStarRatings": "9",
+      "ratingsCount": "68",
+      "starRating": 4.147059,
+      "threeStarRatings": "4",
+      "twoStarRatings": "2",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2024-07-08 00:21:34.190772",
+    "backendDocid": "com.kestrelinstruments.kdex",
+    "backendId": 3,
+    "creator": "Nielsen-Kellerman",
+    "descriptionHtml": "Monitor, download, and share weather data from your Kestrel device.\u00a0 This app may require\u00a0a Kestrel device firmware update which will erase any stored data on a DROP or 5000 series Kestrel device, so please use the Kestrel LiNK legacy app to\u00a0export any important data prior to updating.",
+    "descriptionShort": "Know your conditions.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "version": 12451000
+            }
+          ],
+          "unknown2": "47620831",
+          "unknown3": 33
+        },
+        "developerEmail": "kestrellink@nkhome.com",
+        "developerName": "Nielsen-Kellerman",
+        "developerWebsite": "https://kestrelinstruments.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "37744385",
+            "versionCode": 208
+          },
+          {
+            "fileType": 0,
+            "size": "2776600",
+            "versionCode": 208
+          },
+          {
+            "fileType": 0,
+            "size": "37273",
+            "versionCode": 208
+          },
+          {
+            "fileType": 0,
+            "size": "61849",
+            "versionCode": 208
+          },
+          {
+            "fileType": 0,
+            "size": "7000724",
+            "versionCode": 208
+          }
+        ],
+        "installationSize": "47620831",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "com.kestrelinstruments.kdex",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.BLUETOOTH_CONNECT",
+          "android.permission.BLUETOOTH_SCAN",
+          "android.permission.CAMERA",
+          "android.permission.CHANGE_WIFI_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.POST_NOTIFICATIONS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.REORDER_TASKS",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.AD_ID",
+          "com.kestrelinstruments.kdex.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        ],
+        "recentChangesHtml": "Multi device dashboard now default when connected to multiple devices.<br>Tutorials can now be skipped.<br>Improved firmware update process.",
+        "unstable": true,
+        "uploadDate": "17 May 2024",
+        "versionCode": 208,
+        "versionString": "1.2.9"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.kestrelinstruments.kdex&vc=208",
+    "docType": 1,
+    "docid": "com.kestrelinstruments.kdex",
+    "image": [
+      {
+        "color": "#FAFAFB",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/GzUlEjbRaB3V-MnqfEofimCPZ4OF01U_KyW7WVrznZ_rrPq3nJxqfVWS9Sw3HyC_vw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/LtDN6BC2IH9aXYFjbkKwasDJ6g9ac8FghRQ1CM6A6Tv6FgytmCXiJEHReIP8TcEBkg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/nmxDoTHtFo8YCO4A0Fa-VTtWAb3fcaKSqZ7jWLL8jh5li7jpvp7Vj6ti856DSfi8mxU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/OJjBv9lIRK3GXz7l_2W_4HLT6f6evGa-GWET4_Bm-kNVlNwdQVlEWj3DTCRligC5AXU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/OSUzE29lKIPWX74d_9BLpgxKSt6ogmBn4bKQAkenC85kdnBBltDSRga0XnLSzytuLpo",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/D09wMhgW-JU5EMWxptMFHWuKpxrs--cbpDKU0touRsp1NZ8gQpw4n6uX8IhTsWsigg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/z5u2DObJeQ5Ve31FwgUYlnWDxlmy4fb5HkiniIUAMK8kwfpCothvgf0LVbfZKM67F_8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2436,
+          "width": 1125
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/goy4_-Qo_ojnxTnbV2qN99RlmwRxctsuIKxTgUm5U7ytoJe0_M1yNezVUUhpotTfYIg",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://kestrelinstruments.com/nk/legal/privacy-policy",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.kestrelinstruments.kdex",
+    "reviewsUrl": "rev?doc=com.kestrelinstruments.kdex&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.kestrelinstruments.kdex",
+    "title": "Kestrel LiNK\n1.2.9",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "kestrellink@nkhome.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "3 Sept 2020"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2024-08-06 16:46:25.282217",
+    "backendDocid": "com.kestrelinstruments.kdex",
+    "backendId": 3,
+    "creator": "Nielsen-Kellerman",
+    "descriptionHtml": "Monitor, download, and share weather data from your Kestrel device.\u00a0 This app may require\u00a0a Kestrel device firmware update which will erase any stored data on a DROP or 5000 series Kestrel device, so please use the Kestrel LiNK legacy app to\u00a0export any important data prior to updating.",
+    "descriptionShort": "Know your conditions.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "version": 12451000
+            }
+          ],
+          "unknown2": "46567912",
+          "unknown3": 33
+        },
+        "developerEmail": "kestrellink@nkhome.com",
+        "developerName": "Nielsen-Kellerman",
+        "developerWebsite": "https://kestrelinstruments.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "37744385",
+            "versionCode": 208
+          },
+          {
+            "fileType": 0,
+            "size": "1723681",
+            "versionCode": 208
+          },
+          {
+            "fileType": 0,
+            "size": "37273",
+            "versionCode": 208
+          },
+          {
+            "fileType": 0,
+            "size": "61849",
+            "versionCode": 208
+          },
+          {
+            "fileType": 0,
+            "size": "7000724",
+            "versionCode": 208
+          }
+        ],
+        "installationSize": "46567912",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "com.kestrelinstruments.kdex",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.BLUETOOTH_CONNECT",
+          "android.permission.BLUETOOTH_SCAN",
+          "android.permission.CAMERA",
+          "android.permission.CHANGE_WIFI_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.POST_NOTIFICATIONS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.REORDER_TASKS",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.AD_ID",
+          "com.kestrelinstruments.kdex.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        ],
+        "recentChangesHtml": "Multi device dashboard now default when connected to multiple devices.<br>Tutorials can now be skipped.<br>Improved firmware update process.",
+        "unstable": true,
+        "uploadDate": "17 May 2024",
+        "versionCode": 208,
+        "versionString": "1.2.9"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.kestrelinstruments.kdex&vc=208",
+    "docType": 1,
+    "docid": "com.kestrelinstruments.kdex",
+    "image": [
+      {
+        "color": "#FAFAFB",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/GzUlEjbRaB3V-MnqfEofimCPZ4OF01U_KyW7WVrznZ_rrPq3nJxqfVWS9Sw3HyC_vw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/LtDN6BC2IH9aXYFjbkKwasDJ6g9ac8FghRQ1CM6A6Tv6FgytmCXiJEHReIP8TcEBkg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2732,
+          "width": 2048
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/uzj0VKpnfSuhdrjsGyXAex4frLwxF_fDVVjOvIDKiGAxqwu9_UDD-DMp5KcBhQcItT8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2732,
+          "width": 2048
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ULI4m8xJpeKd2_QBDZ1aWsgJRWxrJg-obZy_gfL3OXkcz1pQWtOMuKOFVj4cC1-kQg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2732,
+          "width": 2048
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/h39KoVP64LdgI873qh2mLT04AaP-btd6RHKwjhdwWyxBi8j3pE1JTji_9u2fvXaW_Gga",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2732,
+          "width": 2048
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/zQkGtP6rZ5R6m7ekLvCINMmiNid1UtUIVw3r917b70th3sRvpsa4WjHtiyNEjvGWQg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2732,
+          "width": 2048
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/B9DglmsDqk0YM80ZQPH2GIptbhBX5DIuawJPjOEcVdsXxpawoG6uvhmkx_R2dAYtgA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2732,
+          "width": 2048
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/9kw68Phz6Zc_-KaepPbl1KiPKKng_FCJmRW7v-i6aQLCBrpOTFmzCYs_WwPN6oWYAvCL",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://kestrelinstruments.com/nk/legal/privacy-policy",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.kestrelinstruments.kdex",
+    "reviewsUrl": "rev?doc=com.kestrelinstruments.kdex&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.kestrelinstruments.kdex",
+    "title": "Kestrel LiNK\n1.2.9",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "kestrellink@nkhome.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "3 Sept 2020"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2024-12-04 20:25:33.534181",
+    "backendDocid": "com.kestrelinstruments.kdex",
+    "backendId": 3,
+    "creator": "Nielsen-Kellerman",
+    "descriptionHtml": "Monitor, download, and share weather data from your Kestrel device.\u00a0 This app may require\u00a0a Kestrel device firmware update which will erase any stored data on a DROP or 5000 series Kestrel device, so please use the Kestrel LiNK legacy app to\u00a0export any important data prior to updating.",
+    "descriptionShort": "Know your conditions.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "version": 12451000
+            }
+          ],
+          "unknown2": "37783062",
+          "unknown3": 34
+        },
+        "developerEmail": "kestrellink@nkhome.com",
+        "developerName": "Nielsen-Kellerman",
+        "developerWebsite": "https://kestrelinstruments.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "27297771",
+            "versionCode": 214
+          },
+          {
+            "fileType": 0,
+            "size": "1690179",
+            "versionCode": 214
+          },
+          {
+            "fileType": 0,
+            "size": "65945",
+            "versionCode": 214
+          },
+          {
+            "fileType": 0,
+            "size": "8729167",
+            "versionCode": 214
+          }
+        ],
+        "installationSize": "37783062",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "com.kestrelinstruments.kdex",
+        "permission": [
+          "android.permission.ACCESS_ADSERVICES_AD_ID",
+          "android.permission.ACCESS_ADSERVICES_ATTRIBUTION",
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.BLUETOOTH_CONNECT",
+          "android.permission.BLUETOOTH_SCAN",
+          "android.permission.CAMERA",
+          "android.permission.CHANGE_WIFI_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.FOREGROUND_SERVICE.CO",
+          "android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE",
+          "android.permission.INTERNET",
+          "android.permission.POST_NOTIFICATIONS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.REORDER_TASKS",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.AD_ID",
+          "com.kestrelinstruments.kdex.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        ],
+        "recentChangesHtml": "Bug fix for Alerts when app is in background<br>Bug fix for timeline filter<br>Various crash fixes",
+        "unstable": true,
+        "uploadDate": "25 Oct 2024",
+        "versionCode": 214,
+        "versionString": "1.2.10"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.kestrelinstruments.kdex&vc=214",
+    "docType": 1,
+    "docid": "com.kestrelinstruments.kdex",
+    "image": [
+      {
+        "color": "#FAFAFB",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/GzUlEjbRaB3V-MnqfEofimCPZ4OF01U_KyW7WVrznZ_rrPq3nJxqfVWS9Sw3HyC_vw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/LtDN6BC2IH9aXYFjbkKwasDJ6g9ac8FghRQ1CM6A6Tv6FgytmCXiJEHReIP8TcEBkg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2732,
+          "width": 2048
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/uzj0VKpnfSuhdrjsGyXAex4frLwxF_fDVVjOvIDKiGAxqwu9_UDD-DMp5KcBhQcItT8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2732,
+          "width": 2048
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ULI4m8xJpeKd2_QBDZ1aWsgJRWxrJg-obZy_gfL3OXkcz1pQWtOMuKOFVj4cC1-kQg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2732,
+          "width": 2048
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/h39KoVP64LdgI873qh2mLT04AaP-btd6RHKwjhdwWyxBi8j3pE1JTji_9u2fvXaW_Gga",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2732,
+          "width": 2048
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/zQkGtP6rZ5R6m7ekLvCINMmiNid1UtUIVw3r917b70th3sRvpsa4WjHtiyNEjvGWQg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2732,
+          "width": 2048
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/B9DglmsDqk0YM80ZQPH2GIptbhBX5DIuawJPjOEcVdsXxpawoG6uvhmkx_R2dAYtgA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2732,
+          "width": 2048
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/9kw68Phz6Zc_-KaepPbl1KiPKKng_FCJmRW7v-i6aQLCBrpOTFmzCYs_WwPN6oWYAvCL",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "CLP",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://kestrelinstruments.com/nk/legal/privacy-policy",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.kestrelinstruments.kdex",
+    "reviewsUrl": "rev?doc=com.kestrelinstruments.kdex&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.kestrelinstruments.kdex",
+    "title": "Kestrel LiNK\n1.2.10",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Nielsen-Kellerman"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "kestrellink@nkhome.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "3 Sept 2020"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2025-03-30 01:03:02.305157",
+    "backendDocid": "com.kestrelinstruments.kdex",
+    "backendId": 3,
+    "creator": "Nielsen-Kellerman",
+    "descriptionHtml": "Monitor, download, and share weather data from your Kestrel device.\u00a0 This app may require\u00a0a Kestrel device firmware update which will erase any stored data on a DROP or 5000 series Kestrel device, so please use the Kestrel LiNK legacy app to\u00a0export any important data prior to updating.",
+    "descriptionShort": "Know your conditions.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "version": 12451000
+            }
+          ],
+          "unknown2": "43410693",
+          "unknown3": 34
+        },
+        "developerEmail": "kestrellink@nkhome.com",
+        "developerName": "Nielsen-Kellerman",
+        "developerWebsite": "https://kestrelinstruments.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "33117770",
+            "versionCode": 222
+          },
+          {
+            "fileType": 0,
+            "size": "1497811",
+            "versionCode": 222
+          },
+          {
+            "fileType": 0,
+            "size": "65945",
+            "versionCode": 222
+          },
+          {
+            "fileType": 0,
+            "size": "8729167",
+            "versionCode": 222
+          }
+        ],
+        "installationSize": "43410693",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "com.kestrelinstruments.kdex",
+        "permission": [
+          "android.permission.ACCESS_ADSERVICES_AD_ID",
+          "android.permission.ACCESS_ADSERVICES_ATTRIBUTION",
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.BLUETOOTH_CONNECT",
+          "android.permission.BLUETOOTH_SCAN",
+          "android.permission.CAMERA",
+          "android.permission.CHANGE_WIFI_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.FOREGROUND_SERVICE.CO",
+          "android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE",
+          "android.permission.INTERNET",
+          "android.permission.POST_NOTIFICATIONS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.REORDER_TASKS",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.AD_ID",
+          "com.kestrelinstruments.kdex.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        ],
+        "recentChangesHtml": "Added support for Kestrel 5700X WEZ units.",
+        "unstable": true,
+        "uploadDate": "13 Mar 2025",
+        "versionCode": 222,
+        "versionString": "1.3.1"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.kestrelinstruments.kdex&vc=222",
+    "docType": 1,
+    "docid": "com.kestrelinstruments.kdex",
+    "image": [
+      {
+        "color": "#FAFAFB",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/GzUlEjbRaB3V-MnqfEofimCPZ4OF01U_KyW7WVrznZ_rrPq3nJxqfVWS9Sw3HyC_vw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/LtDN6BC2IH9aXYFjbkKwasDJ6g9ac8FghRQ1CM6A6Tv6FgytmCXiJEHReIP8TcEBkg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2732,
+          "width": 2048
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/uzj0VKpnfSuhdrjsGyXAex4frLwxF_fDVVjOvIDKiGAxqwu9_UDD-DMp5KcBhQcItT8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2732,
+          "width": 2048
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ULI4m8xJpeKd2_QBDZ1aWsgJRWxrJg-obZy_gfL3OXkcz1pQWtOMuKOFVj4cC1-kQg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2732,
+          "width": 2048
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/h39KoVP64LdgI873qh2mLT04AaP-btd6RHKwjhdwWyxBi8j3pE1JTji_9u2fvXaW_Gga",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2732,
+          "width": 2048
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/zQkGtP6rZ5R6m7ekLvCINMmiNid1UtUIVw3r917b70th3sRvpsa4WjHtiyNEjvGWQg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2732,
+          "width": 2048
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/B9DglmsDqk0YM80ZQPH2GIptbhBX5DIuawJPjOEcVdsXxpawoG6uvhmkx_R2dAYtgA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2732,
+          "width": 2048
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/9kw68Phz6Zc_-KaepPbl1KiPKKng_FCJmRW7v-i6aQLCBrpOTFmzCYs_WwPN6oWYAvCL",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "INR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://kestrelinstruments.com/nk/legal/privacy-policy",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 487,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/EbEX3AN4FC4pu3lsElAHCiksluOVU8OgkgtWC43-wmm_aHVq2D65FmEM97bPexilUAvlAY5_4ARH8Tb3RxQ",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Rated for 3+",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.kestrelinstruments.kdex",
+    "reviewsUrl": "rev?doc=com.kestrelinstruments.kdex&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.kestrelinstruments.kdex",
+    "title": "Kestrel LiNK\n1.3.1",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Nielsen-Kellerman"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "kestrellink@nkhome.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "3 Sept 2020"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  }
+]

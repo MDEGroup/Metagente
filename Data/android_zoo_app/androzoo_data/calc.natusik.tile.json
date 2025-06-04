@@ -1,0 +1,240 @@
+[
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-06-05 20:48:53.150590",
+    "backendDocid": "calc.natusik.tile",
+    "backendId": 3,
+    "creator": "NatusikApps",
+    "descriptionHtml": "\ud83d\udd28 <b> <i> Convenient calculation of ceramic tiles for both the master and the general consumer. </i> </b><br><br><b> In what units should I enter data? </b><br>\u2611\ufe0f Only in centimeters. In meters it is translated automatically.<br><br><b> Doesn\u2019t show the number of tiles, what should I do? </b><br>\u2611\ufe0fEnter at least the size of one wall and specify the size of the tile.<br><br><b> It seems to me that he considers it wrong? </b><br>\u2611\ufe0fCheck whether you have correctly indicated the length and width of the tile relative to the location on the wall / floor / ceiling.<br><br><b> How do I calculate the amount on the floor or ceiling? </b><br>\u2611\ufe0f Just like on the wall. Specify the floor or ceiling size in the WIDTH / HEIGHT fields.<br><br><b> How to save data after calculation? </b><br>\u2611\ufe0fJust take a screenshot. Hold the screen lock button and volume down button simultaneously.<br><br><b> How to calculate the number of borders on the walls? </b><br>\u2611\ufe0f In the &quot;WALL&quot; field, the &quot;HEIGHT&quot; of the border (or borders if two or more levels) and the &quot;WIDTH&quot; of the wall are indicated. The &quot;TILE SIZE&quot; field indicates the size of the border.<br><br><b> I clicked on the &quot;CALCULATE&quot; button, but the values \u200b\u200bdid not change. </b><br>\u2611\ufe0f Try to press the button \u201cCALCULATE\u201d again.<br><br><b> What if I use tiles of different sizes? </b><br>\u2611\ufe0fCalculate for tiles of each size separately, taking as the &quot;WALL HEIGHT&quot; the sum of the vertical heights of the rows of tiles.<br><br><b> How do I specify gaps between tiles? </b><br>\u2611\ufe0fCalculation is made taking into account all the gaps, there is no need to specify the gap separately.<br><br><i><br>- Independent calculation of each wall of the room separately;<br>- It is possible to calculate rooms with complex geometry (up to eight walls);<br>- Calculation of the number of tiles for each wall separately;<br>- Implemented a method of subtracting openings (doors, bathtub, shelves, etc.) without distorting the final result;<br>- The resulting number of tiles is calculated exactly according to the size of the walls and does not require trimming additions (more details below *). </i><br><br>\ud83d\udd28 <b> <u> \u2605 How to use: </u> </b><br><br>1) We indicate the dimensions of the walls on which it is necessary to calculate the number of tiles.<br>2) Indicate the size of the tile to be used (if different tiles with different overall dimensions are used, then it is necessary to carry out two calculations first for one, then for the other, changing the size of the wall, more details below *).<br>3) We indicate the cost per square meter of tile.<br>4) We indicate the dimensions of the aperture or several apertures (up to three apertures are possible, for example, a doorway 70cm by 205cm) and select from the drop-down list to which wall to apply them.<br>5) Click the &quot;Calculate&quot; button.<br><br>\ud83d\udd28 <b> <u> * Tips </u> </b><br><br>\u2605 About pruning:<br>If on the wall, for example, you need 2 whole tiles and one half, then the calculation will show 3 tiles, which is natural. Those. nothing extra is required.<br><br>\u2605 About tiles with different sizes or borders:<br>Let\u2019s say that we need to lay 2 types of tiles on a wall 280 cm high, on top there are five rows with dimensions HxW = 25x40 cm, and lower to the floor another, with dimensions HxW = 30x30 cm.<br><br>1) First, in the calculation we indicate the width of our wall as is, and the height based on the size of the tile and the number of rows, therefore, we multiply 5 rows by the height of the tile 25cm and get &quot;125cm&quot; - this value must be specified as the height of the wall when calculating for the first type tiles. The size of the tiles is 25x40cm.<br><br>2) To calculate the second type of tile, we need to subtract from the wall height 280cm the height with the first type of tile 125cm. We get 155cm left for us to lay tiles with a size of 30x30cm. Those. to calculate the second type of tile, we indicate the height of 155 cm, and the width of the wall remains as it is. The size of the tiles is 30x30cm.<br><br><br>Send suggestions and wishes to daiwanrd@gmail.com",
+    "descriptionShort": "Calculation of ceramic tiles, quantity, quadrature, price.",
+    "details": {
+      "appDetails": {
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown1": 2,
+          "unknown2": "8608020",
+          "unknown3": 28
+        },
+        "developerAddress": "Stavropol.",
+        "developerEmail": "simnatalia91@gmail.com",
+        "developerName": "NatusikApps",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "8608020",
+            "versionCode": 2
+          }
+        ],
+        "installationSize": "8608020",
+        "numDownloads": "10+ downloads",
+        "packageName": "calc.natusik.tile",
+        "permission": [
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE"
+        ],
+        "recentChangesHtml": "ads fixed",
+        "unstable": false,
+        "uploadDate": "15 Mar 2020",
+        "versionCode": 2,
+        "versionString": "1.2"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=calc.natusik.tile",
+    "docType": 1,
+    "docid": "calc.natusik.tile",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://lh3.googleusercontent.com/4oZHS3gwAg-GehkqVt5Lzwv63my0LXXjASLNwTBo6bqvZNDt8XgKD-Jt0PK-pXQcXss",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://lh3.googleusercontent.com/vujucAfWcG_-NAECBFvU9bA-c_S8PPdjJgctFhYDWC9rK9tI5KcaKH9gI__xyK1bGC0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 3,
+        "imageUrl": "https://youtu.be/uZSEnWN2Ou4"
+      },
+      {
+        "imageType": 13,
+        "imageUrl": "https://i.ytimg.com/vi/uZSEnWN2Ou4/hqdefault.jpg",
+        "supportsFifeUrlOptions": false
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1200
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/omz8ZxyYeTUgeOOdiMcCPUPrWslB2ls_RIbHqUf_bBGPIDNRKkYSphD-v5dZ_S1RS_lS",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1200
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/gfAgKs8Hz7zGfj8dfMApTitfxsq75pqaP-DRMb8ThWn1qWNAcXGsQcMj4GxlPJ_qjQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1262,
+          "width": 1800
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/YjA82c77N9HykxsgDS0H1X2QfM39ucmc6LTV8NQQDh8_4G4b_2U1f5bh34e4KlTRMPY",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1200
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/B7SiBTlfXev3ZAl3TgvvXldV0H5a2mYPc8_DlVMMggSP7r4_nqCe5ZsyEaeqEoYiWw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1200
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/3kU3V6GChNpNeDx2hYelCBIZPk4A15Zx9yspbtyzMsSZzlfuH2Wv4hSeS9qJmREzdes",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1262,
+          "width": 1800
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/7cs6kLd-qMnkTTARQR-dW2sr7D5PMmgPw0lQwnloLe4RIsuoJaZplaJoWqtu_Hjre31z",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1200
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/qWL98gTbMGRpKzN2pOTKzjp9dLlYf9shqxw9pxH_jBXy05tg0wLMEo3rai2GeyPVC8U",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1200
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/90U5Vf06ZWYcL1dL3LZGcz1pRd0RpbEBKw_Yl3VKBJtYk4wkC6oo0U-JcRP4xJ8YLC8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1262,
+          "width": 1800
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/ieTa9lj9vvk-pxERLjIVimogUBnSmuJ8U207oRoX2wbWsgIKg1A7BMPADYyXWn40vr4",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://lh3.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=calc.natusik.tile",
+    "reviewsUrl": "rev?doc=calc.natusik.tile&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=calc.natusik.tile",
+    "title": "\ud83d\udc68\u200d\ud83d\udd27Calculation of tiles - tile calculator \ud83d\udcd0",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "simnatalia91@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Stavropol."
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "7 Dec 2019"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  }
+]

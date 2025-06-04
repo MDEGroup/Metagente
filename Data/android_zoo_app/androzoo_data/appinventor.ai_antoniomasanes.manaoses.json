@@ -1,0 +1,605 @@
+[
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 2
+    },
+    "az_metadata_date": "2020-06-16 15:22:47.642241",
+    "backendDocid": "appinventor.ai_antoniomasanes.manaoses",
+    "backendId": 3,
+    "creator": "Antonio Masan\u00e9s P\u00e9rez",
+    "descriptionHtml": "Nuestra aplicaci\u00f3n Trip Koala Brasil Manaos (Amazonas)  quiere facilitar al turista que habla espa\u00f1ol en Manaos (Amazonas) una visi\u00f3n atractiva, \u00fatil y pr\u00e1ctica de algunos de los reclamos tur\u00edsticos que nos ofrece esta ciudad del Estado de Amazonia. Iniciamos la app con un repaso general a Manaos (Amazonas), con la previsi\u00f3n del tiempo, videos y unas explicaciones interesantes sobre los or\u00edgenes y la actualidad de este bonito y diferente lugar tur\u00edstico.<br><br>Pulsando el bot\u00f3n de \u201cIniciar visita\u201d nos trasladamos a otra pantalla en donde encontramos nuestra propuesta de lugares para visitar. En la parte inferior pulsando el bot\u00f3n rojo \u201cVer los lugares en el mapa\u201d localizamos (utilizando los recursos de Google Maps) el conjunto de puntos a visitar en el mapa. Cada una de nuestras sugerencias viene acompa\u00f1ada por tres botones, uno de ellos aporta informaci\u00f3n sobre el lugar (Wikipedia), y los otros dos posicionan el punto en el mapa trazando una ruta autom\u00e1ticamente desde donde nos encontremos hasta el punto en cuesti\u00f3n, con informaciones de tiempo de desplazamiento, alternativas, km, restaurantes, tiendas, etc. etc.<br><br>Finalmente, tambi\u00e9n hemos incorporado dos botones que se corresponden con herramientas que consideramos que pueden ser de utilidad. Un pod\u00f3metro que nos medir\u00e1 el n\u00famero de pasos que realizamos en nuestros paseos y calculara la distancia recorrida a raz\u00f3n de 0,73 m. por paso y un traductor portugu\u00e9s-espa\u00f1ol y espa\u00f1ol-portugu\u00e9s que nos puede sacar de alg\u00fan atolladero.  Nos gustar\u00eda que nuestra app pudiera acompa\u00f1ar su paseo por Manaos.",
+    "descriptionShort": "Tourism in Manaus (Amazonas) incorporating Google Maps, a pedometer and translator",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown2": "1809145"
+        },
+        "developerEmail": "a.masanes@masanes.esp.br",
+        "developerName": "Antonio Masan\u00e9s P\u00e9rez",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "1809145",
+            "versionCode": 1
+          }
+        ],
+        "installationSize": "1809145",
+        "numDownloads": "10+ downloads",
+        "packageName": "appinventor.ai_antoniomasanes.manaoses",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_LOCATION_EXTRA_COMMANDS",
+          "android.permission.ACCESS_MOCK_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.WRITE_EXTERNAL_STORAGE"
+        ],
+        "recentChangesHtml": "primera version",
+        "unstable": false,
+        "uploadDate": "16 Dec 2017",
+        "versionCode": 1,
+        "versionString": "1.0"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=appinventor.ai_antoniomasanes.manaoses",
+    "docType": 1,
+    "docid": "appinventor.ai_antoniomasanes.manaoses",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://lh3.googleusercontent.com/tIzQ4coACVzWtUvrqLgeI95tNRb-gJk7bKhykcDr64qiT-9pjwfJN5Ijiu9eFBRjCuc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://lh3.googleusercontent.com/DU0X59Kxy6KMWSJoHMWehs-AWEBr6lkYCy2US_-nvXSBIeXVPak8jPLZa7GSW__KxA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/95GjAegDVY2RsAmrIYWteas867TZxdluAT7G4NYjnHuLDkN1AJ3vJ-CaEbm7PsteRnNL",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/aFwMz2_5QDP-c1XMuB_wlWUELm5fgEzwz_RMs4hFoGpGj_K1j5WE-DDhz9tR9p_qzw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/XugxrK7ZYTHKmTGr4MF0Yx9jIPECGpBxkZptY0bj0U6-f9T0tZCBZwQiANoIPx_5izM",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/lXVIHBQXf5aqwvip0MHatOSrGf7UhtBgVntBYj6wu3ebqtLSXmyp7syP-cPfVUrXugc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/j9eAEKLmEHN63i-2d5Lo2TBy0VTrEx33_OJgXUc4bm5eUrfN6b582569elsl70wkGB4",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/bqi2MY93PxaHtgluTdK7z8ZtKuh6nEzn85meH06dg2FkICMv4veHcRj4sTdWNWRn5tE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/JFdjiEijsxG5IO-6yWiw7sv1kx9DlEsZ3VPGPaoJxE1fLy8qeXV0ZEXjEfta8m9FRpk",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/gAxTdZwxIzOi4JccFbxPRtvZ9NZNhMv790prLJ3yW7mpi0A8_cyDpa8cuEneZhHtl50",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://lh3.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=appinventor.ai_antoniomasanes.manaoses",
+    "reviewsUrl": "rev?doc=appinventor.ai_antoniomasanes.manaoses&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=appinventor.ai_antoniomasanes.manaoses",
+    "title": "Trip Koala Brasil Manaos (Amazonas)  (espa\u00f1ol)",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "a.masanes@masanes.esp.br"
+          },
+          "label": "Developer email"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 2
+    },
+    "az_metadata_date": "2020-06-23 00:49:09.291490",
+    "backendDocid": "appinventor.ai_antoniomasanes.manaoses",
+    "backendId": 3,
+    "creator": "Antonio Masan\u00e9s P\u00e9rez",
+    "descriptionHtml": "Nuestra aplicaci\u00f3n Trip Koala Brasil Manaos (Amazonas)  quiere facilitar al turista que habla espa\u00f1ol en Manaos (Amazonas) una visi\u00f3n atractiva, \u00fatil y pr\u00e1ctica de algunos de los reclamos tur\u00edsticos que nos ofrece esta ciudad del Estado de Amazonia. Iniciamos la app con un repaso general a Manaos (Amazonas), con la previsi\u00f3n del tiempo, videos y unas explicaciones interesantes sobre los or\u00edgenes y la actualidad de este bonito y diferente lugar tur\u00edstico.<br><br>Pulsando el bot\u00f3n de \u201cIniciar visita\u201d nos trasladamos a otra pantalla en donde encontramos nuestra propuesta de lugares para visitar. En la parte inferior pulsando el bot\u00f3n rojo \u201cVer los lugares en el mapa\u201d localizamos (utilizando los recursos de Google Maps) el conjunto de puntos a visitar en el mapa. Cada una de nuestras sugerencias viene acompa\u00f1ada por tres botones, uno de ellos aporta informaci\u00f3n sobre el lugar (Wikipedia), y los otros dos posicionan el punto en el mapa trazando una ruta autom\u00e1ticamente desde donde nos encontremos hasta el punto en cuesti\u00f3n, con informaciones de tiempo de desplazamiento, alternativas, km, restaurantes, tiendas, etc. etc.<br><br>Finalmente, tambi\u00e9n hemos incorporado dos botones que se corresponden con herramientas que consideramos que pueden ser de utilidad. Un pod\u00f3metro que nos medir\u00e1 el n\u00famero de pasos que realizamos en nuestros paseos y calculara la distancia recorrida a raz\u00f3n de 0,73 m. por paso y un traductor portugu\u00e9s-espa\u00f1ol y espa\u00f1ol-portugu\u00e9s que nos puede sacar de alg\u00fan atolladero.  Nos gustar\u00eda que nuestra app pudiera acompa\u00f1ar su paseo por Manaos.",
+    "descriptionShort": "Tourism in Manaus (Amazonas) incorporating Google Maps, a pedometer and translator",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown2": "1809145"
+        },
+        "developerEmail": "a.masanes@masanes.esp.br",
+        "developerName": "Antonio Masan\u00e9s P\u00e9rez",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "1809145",
+            "versionCode": 1
+          }
+        ],
+        "installationSize": "1809145",
+        "numDownloads": "10+ downloads",
+        "packageName": "appinventor.ai_antoniomasanes.manaoses",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_LOCATION_EXTRA_COMMANDS",
+          "android.permission.ACCESS_MOCK_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.WRITE_EXTERNAL_STORAGE"
+        ],
+        "recentChangesHtml": "primera version",
+        "unstable": false,
+        "uploadDate": "16 Dec 2017",
+        "versionCode": 1,
+        "versionString": "1.0"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=appinventor.ai_antoniomasanes.manaoses",
+    "docType": 1,
+    "docid": "appinventor.ai_antoniomasanes.manaoses",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://lh3.googleusercontent.com/tIzQ4coACVzWtUvrqLgeI95tNRb-gJk7bKhykcDr64qiT-9pjwfJN5Ijiu9eFBRjCuc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://lh3.googleusercontent.com/DU0X59Kxy6KMWSJoHMWehs-AWEBr6lkYCy2US_-nvXSBIeXVPak8jPLZa7GSW__KxA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/95GjAegDVY2RsAmrIYWteas867TZxdluAT7G4NYjnHuLDkN1AJ3vJ-CaEbm7PsteRnNL",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/aFwMz2_5QDP-c1XMuB_wlWUELm5fgEzwz_RMs4hFoGpGj_K1j5WE-DDhz9tR9p_qzw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/XugxrK7ZYTHKmTGr4MF0Yx9jIPECGpBxkZptY0bj0U6-f9T0tZCBZwQiANoIPx_5izM",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/lXVIHBQXf5aqwvip0MHatOSrGf7UhtBgVntBYj6wu3ebqtLSXmyp7syP-cPfVUrXugc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/j9eAEKLmEHN63i-2d5Lo2TBy0VTrEx33_OJgXUc4bm5eUrfN6b582569elsl70wkGB4",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/bqi2MY93PxaHtgluTdK7z8ZtKuh6nEzn85meH06dg2FkICMv4veHcRj4sTdWNWRn5tE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/JFdjiEijsxG5IO-6yWiw7sv1kx9DlEsZ3VPGPaoJxE1fLy8qeXV0ZEXjEfta8m9FRpk",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/gAxTdZwxIzOi4JccFbxPRtvZ9NZNhMv790prLJ3yW7mpi0A8_cyDpa8cuEneZhHtl50",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://lh3.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=appinventor.ai_antoniomasanes.manaoses",
+    "reviewsUrl": "rev?doc=appinventor.ai_antoniomasanes.manaoses&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=appinventor.ai_antoniomasanes.manaoses",
+    "title": "Trip Koala Brasil Manaos (Amazonas)  (espa\u00f1ol)",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "a.masanes@masanes.esp.br"
+          },
+          "label": "Developer email"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-07-06 10:45:32.687186",
+    "backendDocid": "appinventor.ai_antoniomasanes.manaoses",
+    "backendId": 3,
+    "creator": "Antonio Masan\u00e9s P\u00e9rez",
+    "descriptionHtml": "Nuestra aplicaci\u00f3n Trip Koala Brasil Manaos (Amazonas)  quiere facilitar al turista que habla espa\u00f1ol en Manaos (Amazonas) una visi\u00f3n atractiva, \u00fatil y pr\u00e1ctica de algunos de los reclamos tur\u00edsticos que nos ofrece esta ciudad del Estado de Amazonia. Iniciamos la app con un repaso general a Manaos (Amazonas), con la previsi\u00f3n del tiempo, videos y unas explicaciones interesantes sobre los or\u00edgenes y la actualidad de este bonito y diferente lugar tur\u00edstico.<br><br>Pulsando el bot\u00f3n de \u201cIniciar visita\u201d nos trasladamos a otra pantalla en donde encontramos nuestra propuesta de lugares para visitar. En la parte inferior pulsando el bot\u00f3n rojo \u201cVer los lugares en el mapa\u201d localizamos (utilizando los recursos de Google Maps) el conjunto de puntos a visitar en el mapa. Cada una de nuestras sugerencias viene acompa\u00f1ada por tres botones, uno de ellos aporta informaci\u00f3n sobre el lugar (Wikipedia), y los otros dos posicionan el punto en el mapa trazando una ruta autom\u00e1ticamente desde donde nos encontremos hasta el punto en cuesti\u00f3n, con informaciones de tiempo de desplazamiento, alternativas, km, restaurantes, tiendas, etc. etc.<br><br>Finalmente, tambi\u00e9n hemos incorporado dos botones que se corresponden con herramientas que consideramos que pueden ser de utilidad. Un pod\u00f3metro que nos medir\u00e1 el n\u00famero de pasos que realizamos en nuestros paseos y calculara la distancia recorrida a raz\u00f3n de 0,73 m. por paso y un traductor portugu\u00e9s-espa\u00f1ol y espa\u00f1ol-portugu\u00e9s que nos puede sacar de alg\u00fan atolladero.  Nos gustar\u00eda que nuestra app pudiera acompa\u00f1ar su paseo por Manaos.",
+    "descriptionShort": "Tourism in Manaus (Amazonas) incorporating Google Maps, a pedometer and translator",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown2": "1809145"
+        },
+        "developerEmail": "a.masanes@masanes.esp.br",
+        "developerName": "Antonio Masan\u00e9s P\u00e9rez",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "1809145",
+            "versionCode": 1
+          }
+        ],
+        "installationSize": "1809145",
+        "numDownloads": "10+ downloads",
+        "packageName": "appinventor.ai_antoniomasanes.manaoses",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_LOCATION_EXTRA_COMMANDS",
+          "android.permission.ACCESS_MOCK_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.WRITE_EXTERNAL_STORAGE"
+        ],
+        "recentChangesHtml": "primera version",
+        "unstable": false,
+        "uploadDate": "Dec. 16, 2017",
+        "versionCode": 1,
+        "versionString": "1.0"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=appinventor.ai_antoniomasanes.manaoses",
+    "docType": 1,
+    "docid": "appinventor.ai_antoniomasanes.manaoses",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://lh3.googleusercontent.com/tIzQ4coACVzWtUvrqLgeI95tNRb-gJk7bKhykcDr64qiT-9pjwfJN5Ijiu9eFBRjCuc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://lh3.googleusercontent.com/DU0X59Kxy6KMWSJoHMWehs-AWEBr6lkYCy2US_-nvXSBIeXVPak8jPLZa7GSW__KxA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/95GjAegDVY2RsAmrIYWteas867TZxdluAT7G4NYjnHuLDkN1AJ3vJ-CaEbm7PsteRnNL",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/aFwMz2_5QDP-c1XMuB_wlWUELm5fgEzwz_RMs4hFoGpGj_K1j5WE-DDhz9tR9p_qzw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/XugxrK7ZYTHKmTGr4MF0Yx9jIPECGpBxkZptY0bj0U6-f9T0tZCBZwQiANoIPx_5izM",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/lXVIHBQXf5aqwvip0MHatOSrGf7UhtBgVntBYj6wu3ebqtLSXmyp7syP-cPfVUrXugc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/j9eAEKLmEHN63i-2d5Lo2TBy0VTrEx33_OJgXUc4bm5eUrfN6b582569elsl70wkGB4",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/bqi2MY93PxaHtgluTdK7z8ZtKuh6nEzn85meH06dg2FkICMv4veHcRj4sTdWNWRn5tE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/JFdjiEijsxG5IO-6yWiw7sv1kx9DlEsZ3VPGPaoJxE1fLy8qeXV0ZEXjEfta8m9FRpk",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/gAxTdZwxIzOi4JccFbxPRtvZ9NZNhMv790prLJ3yW7mpi0A8_cyDpa8cuEneZhHtl50",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://lh3.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=appinventor.ai_antoniomasanes.manaoses",
+    "reviewsUrl": "rev?doc=appinventor.ai_antoniomasanes.manaoses&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=appinventor.ai_antoniomasanes.manaoses",
+    "title": "Trip Koala Brasil Manaos (Amazonas)  (espa\u00f1ol)",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Antonio Masan\u00e9s P\u00e9rez"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "a.masanes@masanes.esp.br"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Dec. 16, 2017"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  }
+]

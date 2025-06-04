@@ -1,0 +1,3951 @@
+[
+  {
+    "aggregateRating": {
+      "commentCount": "62",
+      "fiveStarRatings": "105",
+      "fourStarRatings": "7",
+      "oneStarRatings": "8",
+      "ratingsCount": "127",
+      "starRating": 4.570000171661377,
+      "threeStarRatings": "3",
+      "twoStarRatings": "1",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-05-20 18:00:04.851161",
+    "backendDocid": "zfapps.toyobd1",
+    "backendId": 3,
+    "creator": "ZFApps",
+    "descriptionHtml": "Datalogging application for Toyota OBD1 cars.<br>works with the TOYOCOM &amp; OBD1READ tools from zf-scantools.<br>https://zf-scantools.com/<br><br>-displays data in separate cells or all together in a graph cells<br>-allows to configure each cell display mode by horizontal &amp; vertical swiping<br>-trip computer.<br>-thermal audio alarm in case your engine overheats.<br>-instant MPG calculator.<br>-Allow you to see all data received from the car through the obd1 protocol &amp; possibly more.<br>-Allow to save every frame received in a database in the phone and export to *.CSV file as needed.<br><br>*********** Engines supported by TOYOBD1 **************<br>please visit www.zf-scantools.com to see the up to date support",
+    "descriptionShort": "Toyota OBD1 data logging application.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown2": "2262457",
+          "unknown3": 28
+        },
+        "developerEmail": "jfrancoisbreton@hotmail.com",
+        "developerName": "ZFApps",
+        "developerWebsite": "http://jfbreton.blogspot.ca/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "2262457",
+            "versionCode": 176
+          }
+        ],
+        "installationSize": "2262457",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "zfapps.toyobd1",
+        "permission": [
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.GET_TASKS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "android.permission.WRITE_SETTINGS"
+        ],
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false,
+          "testingProgramEmail": "jfrancoisbreton@hotmail.com"
+        },
+        "unstable": false,
+        "uploadDate": "16 Apr 2020",
+        "versionCode": 176,
+        "versionString": "2020-04-16"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=zfapps.toyobd1",
+    "docType": 1,
+    "docid": "zfapps.toyobd1",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://lh3.googleusercontent.com/b12fFybopdVrxBEEn2CU8n7x9qGpjWY_ZM83Gw5SYbVTvtjUWpYUi_9GWJTvvylCeNE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 4,
+        "imageUrl": "https://lh3.googleusercontent.com/rFRRuIUOIG3zhjHwl0SGhnx-n1ljmtQbf_XzbAMRfyjTOuqtaOxWVlzjm788s0-QZg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 3,
+        "imageUrl": "https://www.youtube.com/watch?v=fgottFgGubw"
+      },
+      {
+        "imageType": 13,
+        "imageUrl": "https://i.ytimg.com/vi/fgottFgGubw/hqdefault.jpg",
+        "supportsFifeUrlOptions": false
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/lAXcY447uvy5UmyjW5YtqWIMWsvbrcaCQkvr_hA6lk_kw9vZgIr-GnW2PnYxcpcZxPU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/UGZxfoAtUVtbOm2s2uVIG13gnJ7aXKWO9N7oerMQcp_Mgc8aigcEM7q5YeaTFOsLOos",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/5HnTKJ9REPBckJlLSZZInwUUEt0nWQfimtZt6eggm5ihWqWKcKZhgp4P3cZoGbkLwNdL",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/nsCdhHNTcE_9x4uCKaSIPCS6Yto0jEIdKEK8SniYbyHwBYwA-xAkiHeHNJnYxse0snfZ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/nm2-QYwAeqKUrXUaX_FHWLIJYIcMnwK__HSHui3FhT5LroyxwF61WMnCvYqXvvDi3S0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/dVQYrMAhW5AE2ogJPnb7H7VTonCZpxMBoFyG2EAttI6JOlfaZTCIHZsz2jE6t42fDBEx",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/YuyXBbpEuFvW3HzoJG9yOK0JD-7976ZUeCUXyjzM18itkcZmOblm_QHWwND3Kbg_vQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/CXO0BRO8_0frgsRF7x9wN3CmYMVRRkDFAix79n25Gu9j_7gBdLH8t6Nl34gmSJ902g",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/VM858xoOglSLDYtWPp3KVTI2S-e7zEHqgIK6cCKsscDL9zN3SDOjceZNODd6MgWhsNkv",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/35lKg7qc2nu_wxXPfMinhGDqI33GYGJ0OyTtMqEnz2y8afJIpWiAzKvIzw6kGEjivvBW",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://lh3.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "Users interact<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=zfapps.toyobd1",
+    "reviewsUrl": "rev?doc=zfapps.toyobd1&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=zfapps.toyobd1",
+    "title": "TOYOBD1",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "jfrancoisbreton@hotmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "17 Jun 2014"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "62",
+      "fiveStarRatings": "105",
+      "fourStarRatings": "7",
+      "oneStarRatings": "8",
+      "ratingsCount": "127",
+      "starRating": 4.57,
+      "threeStarRatings": "3",
+      "twoStarRatings": "1",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-06-13 05:33:19.097146",
+    "backendDocid": "zfapps.toyobd1",
+    "backendId": 3,
+    "creator": "ZFApps",
+    "descriptionHtml": "Datalogging application for Toyota OBD1 cars.<br>works with the TOYOCOM &amp; OBD1READ tools from zf-scantools.<br>https://zf-scantools.com/<br><br>-displays data in separate cells or all together in a graph cells<br>-allows to configure each cell display mode by horizontal &amp; vertical swiping<br>-trip computer.<br>-thermal audio alarm in case your engine overheats.<br>-instant MPG calculator.<br>-Allow you to see all data received from the car through the obd1 protocol &amp; possibly more.<br>-Allow to save every frame received in a database in the phone and export to *.CSV file as needed.<br><br>*********** Engines supported by TOYOBD1 **************<br>please visit www.zf-scantools.com to see the up to date support",
+    "descriptionShort": "Toyota OBD1 data logging application.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown2": "2265514",
+          "unknown3": 28
+        },
+        "developerEmail": "jfrancoisbreton@hotmail.com",
+        "developerName": "ZFApps",
+        "developerWebsite": "http://jfbreton.blogspot.ca/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "2265514",
+            "versionCode": 178
+          }
+        ],
+        "installationSize": "2265514",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "zfapps.toyobd1",
+        "permission": [
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.GET_TASKS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "android.permission.WRITE_SETTINGS"
+        ],
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false,
+          "testingProgramEmail": "jfrancoisbreton@hotmail.com"
+        },
+        "unstable": false,
+        "uploadDate": "12 Jun 2020",
+        "versionCode": 178,
+        "versionString": "2020-06-12a"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=zfapps.toyobd1",
+    "docType": 1,
+    "docid": "zfapps.toyobd1",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://lh3.googleusercontent.com/b12fFybopdVrxBEEn2CU8n7x9qGpjWY_ZM83Gw5SYbVTvtjUWpYUi_9GWJTvvylCeNE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 4,
+        "imageUrl": "https://lh3.googleusercontent.com/rFRRuIUOIG3zhjHwl0SGhnx-n1ljmtQbf_XzbAMRfyjTOuqtaOxWVlzjm788s0-QZg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 3,
+        "imageUrl": "https://www.youtube.com/watch?v=fgottFgGubw"
+      },
+      {
+        "imageType": 13,
+        "imageUrl": "https://i.ytimg.com/vi/fgottFgGubw/hqdefault.jpg",
+        "supportsFifeUrlOptions": false
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/lAXcY447uvy5UmyjW5YtqWIMWsvbrcaCQkvr_hA6lk_kw9vZgIr-GnW2PnYxcpcZxPU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/UGZxfoAtUVtbOm2s2uVIG13gnJ7aXKWO9N7oerMQcp_Mgc8aigcEM7q5YeaTFOsLOos",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/5HnTKJ9REPBckJlLSZZInwUUEt0nWQfimtZt6eggm5ihWqWKcKZhgp4P3cZoGbkLwNdL",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/nsCdhHNTcE_9x4uCKaSIPCS6Yto0jEIdKEK8SniYbyHwBYwA-xAkiHeHNJnYxse0snfZ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/nm2-QYwAeqKUrXUaX_FHWLIJYIcMnwK__HSHui3FhT5LroyxwF61WMnCvYqXvvDi3S0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/dVQYrMAhW5AE2ogJPnb7H7VTonCZpxMBoFyG2EAttI6JOlfaZTCIHZsz2jE6t42fDBEx",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/YuyXBbpEuFvW3HzoJG9yOK0JD-7976ZUeCUXyjzM18itkcZmOblm_QHWwND3Kbg_vQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/CXO0BRO8_0frgsRF7x9wN3CmYMVRRkDFAix79n25Gu9j_7gBdLH8t6Nl34gmSJ902g",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/35lKg7qc2nu_wxXPfMinhGDqI33GYGJ0OyTtMqEnz2y8afJIpWiAzKvIzw6kGEjivvBW",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/VM858xoOglSLDYtWPp3KVTI2S-e7zEHqgIK6cCKsscDL9zN3SDOjceZNODd6MgWhsNkv",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://lh3.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "Users interact<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=zfapps.toyobd1",
+    "reviewsUrl": "rev?doc=zfapps.toyobd1&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=zfapps.toyobd1",
+    "title": "TOYOBD1",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "jfrancoisbreton@hotmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "17 Jun 2014"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "62",
+      "fiveStarRatings": "105",
+      "fourStarRatings": "7",
+      "oneStarRatings": "8",
+      "ratingsCount": "127",
+      "starRating": 4.57,
+      "threeStarRatings": "3",
+      "twoStarRatings": "1",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-06-19 13:24:51.272181",
+    "backendDocid": "zfapps.toyobd1",
+    "backendId": 3,
+    "creator": "ZFApps",
+    "descriptionHtml": "Datalogging application for Toyota OBD1 cars.<br>works with the TOYOCOM &amp; OBD1READ tools from zf-scantools.<br>https://zf-scantools.com/<br><br>-displays data in separate cells or all together in a graph cells<br>-allows to configure each cell display mode by horizontal &amp; vertical swiping<br>-trip computer.<br>-thermal audio alarm in case your engine overheats.<br>-instant MPG calculator.<br>-Allow you to see all data received from the car through the obd1 protocol &amp; possibly more.<br>-Allow to save every frame received in a database in the phone and export to *.CSV file as needed.<br><br>*********** Engines supported by TOYOBD1 **************<br>please visit www.zf-scantools.com to see the up to date support",
+    "descriptionShort": "Toyota OBD1 data logging application.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown2": "2265564",
+          "unknown3": 28
+        },
+        "developerEmail": "jfrancoisbreton@hotmail.com",
+        "developerName": "ZFApps",
+        "developerWebsite": "http://jfbreton.blogspot.ca/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "2265564",
+            "versionCode": 179
+          }
+        ],
+        "installationSize": "2265564",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "zfapps.toyobd1",
+        "permission": [
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.GET_TASKS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "android.permission.WRITE_SETTINGS"
+        ],
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false,
+          "testingProgramEmail": "jfrancoisbreton@hotmail.com"
+        },
+        "unstable": false,
+        "uploadDate": "18 Jun 2020",
+        "versionCode": 179,
+        "versionString": "2020-06-18"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=zfapps.toyobd1",
+    "docType": 1,
+    "docid": "zfapps.toyobd1",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://lh3.googleusercontent.com/b12fFybopdVrxBEEn2CU8n7x9qGpjWY_ZM83Gw5SYbVTvtjUWpYUi_9GWJTvvylCeNE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 4,
+        "imageUrl": "https://lh3.googleusercontent.com/rFRRuIUOIG3zhjHwl0SGhnx-n1ljmtQbf_XzbAMRfyjTOuqtaOxWVlzjm788s0-QZg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 3,
+        "imageUrl": "https://www.youtube.com/watch?v=fgottFgGubw"
+      },
+      {
+        "imageType": 13,
+        "imageUrl": "https://i.ytimg.com/vi/fgottFgGubw/hqdefault.jpg",
+        "supportsFifeUrlOptions": false
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/lAXcY447uvy5UmyjW5YtqWIMWsvbrcaCQkvr_hA6lk_kw9vZgIr-GnW2PnYxcpcZxPU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/UGZxfoAtUVtbOm2s2uVIG13gnJ7aXKWO9N7oerMQcp_Mgc8aigcEM7q5YeaTFOsLOos",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/5HnTKJ9REPBckJlLSZZInwUUEt0nWQfimtZt6eggm5ihWqWKcKZhgp4P3cZoGbkLwNdL",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/nsCdhHNTcE_9x4uCKaSIPCS6Yto0jEIdKEK8SniYbyHwBYwA-xAkiHeHNJnYxse0snfZ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/nm2-QYwAeqKUrXUaX_FHWLIJYIcMnwK__HSHui3FhT5LroyxwF61WMnCvYqXvvDi3S0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/dVQYrMAhW5AE2ogJPnb7H7VTonCZpxMBoFyG2EAttI6JOlfaZTCIHZsz2jE6t42fDBEx",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/YuyXBbpEuFvW3HzoJG9yOK0JD-7976ZUeCUXyjzM18itkcZmOblm_QHWwND3Kbg_vQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/CXO0BRO8_0frgsRF7x9wN3CmYMVRRkDFAix79n25Gu9j_7gBdLH8t6Nl34gmSJ902g",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/35lKg7qc2nu_wxXPfMinhGDqI33GYGJ0OyTtMqEnz2y8afJIpWiAzKvIzw6kGEjivvBW",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/VM858xoOglSLDYtWPp3KVTI2S-e7zEHqgIK6cCKsscDL9zN3SDOjceZNODd6MgWhsNkv",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://lh3.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "Users interact<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=zfapps.toyobd1",
+    "reviewsUrl": "rev?doc=zfapps.toyobd1&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=zfapps.toyobd1",
+    "title": "TOYOBD1",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "jfrancoisbreton@hotmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "17 Jun 2014"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "62",
+      "fiveStarRatings": "105",
+      "fourStarRatings": "7",
+      "oneStarRatings": "8",
+      "ratingsCount": "127",
+      "starRating": 4.57,
+      "threeStarRatings": "3",
+      "twoStarRatings": "1",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-07-07 14:59:23.398934",
+    "backendDocid": "zfapps.toyobd1",
+    "backendId": 3,
+    "creator": "ZFApps",
+    "descriptionHtml": "Datalogging application for Toyota OBD1 cars.<br>works with the TOYOCOM &amp; OBD1READ tools from zf-scantools.<br>https://zf-scantools.com/<br><br>-displays data in separate cells or all together in a graph cells<br>-allows to configure each cell display mode by horizontal &amp; vertical swiping<br>-trip computer.<br>-thermal audio alarm in case your engine overheats.<br>-instant MPG calculator.<br>-Allow you to see all data received from the car through the obd1 protocol &amp; possibly more.<br>-Allow to save every frame received in a database in the phone and export to *.CSV file as needed.<br><br>*********** Engines supported by TOYOBD1 **************<br>please visit www.zf-scantools.com to see the up to date support",
+    "descriptionShort": "Toyota OBD1 data logging application.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown2": "2265853",
+          "unknown3": 28
+        },
+        "developerEmail": "jfrancoisbreton@hotmail.com",
+        "developerName": "ZFApps",
+        "developerWebsite": "http://jfbreton.blogspot.ca/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "2265853",
+            "versionCode": 180
+          }
+        ],
+        "installationSize": "2265853",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "zfapps.toyobd1",
+        "permission": [
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.GET_TASKS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "android.permission.WRITE_SETTINGS"
+        ],
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false,
+          "testingProgramEmail": "jfrancoisbreton@hotmail.com"
+        },
+        "unstable": false,
+        "uploadDate": "6 Jul 2020",
+        "versionCode": 180,
+        "versionString": "2020-07-06"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=zfapps.toyobd1",
+    "docType": 1,
+    "docid": "zfapps.toyobd1",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://lh3.googleusercontent.com/b12fFybopdVrxBEEn2CU8n7x9qGpjWY_ZM83Gw5SYbVTvtjUWpYUi_9GWJTvvylCeNE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 4,
+        "imageUrl": "https://lh3.googleusercontent.com/rFRRuIUOIG3zhjHwl0SGhnx-n1ljmtQbf_XzbAMRfyjTOuqtaOxWVlzjm788s0-QZg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 3,
+        "imageUrl": "https://www.youtube.com/watch?v=fgottFgGubw"
+      },
+      {
+        "imageType": 13,
+        "imageUrl": "https://i.ytimg.com/vi/fgottFgGubw/hqdefault.jpg",
+        "supportsFifeUrlOptions": false
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/lAXcY447uvy5UmyjW5YtqWIMWsvbrcaCQkvr_hA6lk_kw9vZgIr-GnW2PnYxcpcZxPU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/UGZxfoAtUVtbOm2s2uVIG13gnJ7aXKWO9N7oerMQcp_Mgc8aigcEM7q5YeaTFOsLOos",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/5HnTKJ9REPBckJlLSZZInwUUEt0nWQfimtZt6eggm5ihWqWKcKZhgp4P3cZoGbkLwNdL",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/nsCdhHNTcE_9x4uCKaSIPCS6Yto0jEIdKEK8SniYbyHwBYwA-xAkiHeHNJnYxse0snfZ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/nm2-QYwAeqKUrXUaX_FHWLIJYIcMnwK__HSHui3FhT5LroyxwF61WMnCvYqXvvDi3S0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/dVQYrMAhW5AE2ogJPnb7H7VTonCZpxMBoFyG2EAttI6JOlfaZTCIHZsz2jE6t42fDBEx",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/YuyXBbpEuFvW3HzoJG9yOK0JD-7976ZUeCUXyjzM18itkcZmOblm_QHWwND3Kbg_vQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/CXO0BRO8_0frgsRF7x9wN3CmYMVRRkDFAix79n25Gu9j_7gBdLH8t6Nl34gmSJ902g",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://lh3.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "Users interact<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=zfapps.toyobd1",
+    "reviewsUrl": "rev?doc=zfapps.toyobd1&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=zfapps.toyobd1",
+    "title": "TOYOBD1",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "jfrancoisbreton@hotmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "17 Jun 2014"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "62",
+      "fiveStarRatings": "105",
+      "fourStarRatings": "7",
+      "oneStarRatings": "8",
+      "ratingsCount": "127",
+      "starRating": 4.57,
+      "threeStarRatings": "3",
+      "twoStarRatings": "1",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-07-10 19:58:18.875341",
+    "backendDocid": "zfapps.toyobd1",
+    "backendId": 3,
+    "creator": "ZFApps",
+    "descriptionHtml": "Datalogging application for Toyota OBD1 cars.<br>works with the TOYOCOM &amp; OBD1READ tools from zf-scantools.<br>https://zf-scantools.com/<br><br>-displays data in separate cells or all together in a graph cells<br>-allows to configure each cell display mode by horizontal &amp; vertical swiping<br>-trip computer.<br>-thermal audio alarm in case your engine overheats.<br>-instant MPG calculator.<br>-Allow you to see all data received from the car through the obd1 protocol &amp; possibly more.<br>-Allow to save every frame received in a database in the phone and export to *.CSV file as needed.<br><br>*********** Engines supported by TOYOBD1 **************<br>please visit www.zf-scantools.com to see the up to date support",
+    "descriptionShort": "Toyota OBD1 data logging application.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown2": "2265837",
+          "unknown3": 28
+        },
+        "developerEmail": "jfrancoisbreton@hotmail.com",
+        "developerName": "ZFApps",
+        "developerWebsite": "http://jfbreton.blogspot.ca/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "2265837",
+            "versionCode": 181
+          }
+        ],
+        "installationSize": "2265837",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "zfapps.toyobd1",
+        "permission": [
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.GET_TASKS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "android.permission.WRITE_SETTINGS"
+        ],
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false,
+          "testingProgramEmail": "jfrancoisbreton@hotmail.com"
+        },
+        "unstable": false,
+        "uploadDate": "9 Jul 2020",
+        "versionCode": 181,
+        "versionString": "2020-07-09"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=zfapps.toyobd1",
+    "docType": 1,
+    "docid": "zfapps.toyobd1",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://lh3.googleusercontent.com/b12fFybopdVrxBEEn2CU8n7x9qGpjWY_ZM83Gw5SYbVTvtjUWpYUi_9GWJTvvylCeNE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 4,
+        "imageUrl": "https://lh3.googleusercontent.com/rFRRuIUOIG3zhjHwl0SGhnx-n1ljmtQbf_XzbAMRfyjTOuqtaOxWVlzjm788s0-QZg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 3,
+        "imageUrl": "https://www.youtube.com/watch?v=fgottFgGubw"
+      },
+      {
+        "imageType": 13,
+        "imageUrl": "https://i.ytimg.com/vi/fgottFgGubw/hqdefault.jpg",
+        "supportsFifeUrlOptions": false
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/lAXcY447uvy5UmyjW5YtqWIMWsvbrcaCQkvr_hA6lk_kw9vZgIr-GnW2PnYxcpcZxPU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/UGZxfoAtUVtbOm2s2uVIG13gnJ7aXKWO9N7oerMQcp_Mgc8aigcEM7q5YeaTFOsLOos",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/5HnTKJ9REPBckJlLSZZInwUUEt0nWQfimtZt6eggm5ihWqWKcKZhgp4P3cZoGbkLwNdL",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/nsCdhHNTcE_9x4uCKaSIPCS6Yto0jEIdKEK8SniYbyHwBYwA-xAkiHeHNJnYxse0snfZ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/nm2-QYwAeqKUrXUaX_FHWLIJYIcMnwK__HSHui3FhT5LroyxwF61WMnCvYqXvvDi3S0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/dVQYrMAhW5AE2ogJPnb7H7VTonCZpxMBoFyG2EAttI6JOlfaZTCIHZsz2jE6t42fDBEx",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/YuyXBbpEuFvW3HzoJG9yOK0JD-7976ZUeCUXyjzM18itkcZmOblm_QHWwND3Kbg_vQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/CXO0BRO8_0frgsRF7x9wN3CmYMVRRkDFAix79n25Gu9j_7gBdLH8t6Nl34gmSJ902g",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/35lKg7qc2nu_wxXPfMinhGDqI33GYGJ0OyTtMqEnz2y8afJIpWiAzKvIzw6kGEjivvBW",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/VM858xoOglSLDYtWPp3KVTI2S-e7zEHqgIK6cCKsscDL9zN3SDOjceZNODd6MgWhsNkv",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://lh3.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "Users interact<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=zfapps.toyobd1",
+    "reviewsUrl": "rev?doc=zfapps.toyobd1&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=zfapps.toyobd1",
+    "title": "TOYOBD1",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "jfrancoisbreton@hotmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "17 Jun 2014"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "62",
+      "fiveStarRatings": "105",
+      "fourStarRatings": "7",
+      "oneStarRatings": "8",
+      "ratingsCount": "127",
+      "starRating": 4.57,
+      "threeStarRatings": "3",
+      "twoStarRatings": "1",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-07-15 19:04:07.123845",
+    "backendDocid": "zfapps.toyobd1",
+    "backendId": 3,
+    "creator": "ZFApps",
+    "descriptionHtml": "Datalogging application for Toyota OBD1 cars.<br>works with the TOYOCOM &amp; OBD1READ tools from zf-scantools.<br>https://zf-scantools.com/<br><br>-displays data in separate cells or all together in a graph cells<br>-allows to configure each cell display mode by horizontal &amp; vertical swiping<br>-trip computer.<br>-thermal audio alarm in case your engine overheats.<br>-instant MPG calculator.<br>-Allow you to see all data received from the car through the obd1 protocol &amp; possibly more.<br>-Allow to save every frame received in a database in the phone and export to *.CSV file as needed.<br><br>*********** Engines supported by TOYOBD1 **************<br>please visit www.zf-scantools.com to see the up to date support",
+    "descriptionShort": "Toyota OBD1 data logging application.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown2": "2266168",
+          "unknown3": 28
+        },
+        "developerEmail": "jfrancoisbreton@hotmail.com",
+        "developerName": "ZFApps",
+        "developerWebsite": "http://jfbreton.blogspot.ca/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "2266168",
+            "versionCode": 182
+          }
+        ],
+        "installationSize": "2266168",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "zfapps.toyobd1",
+        "permission": [
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.GET_TASKS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "android.permission.WRITE_SETTINGS"
+        ],
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false,
+          "testingProgramEmail": "jfrancoisbreton@hotmail.com"
+        },
+        "unstable": false,
+        "versionCode": 182,
+        "versionString": "2020-07-14"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=zfapps.toyobd1",
+    "docType": 1,
+    "docid": "zfapps.toyobd1",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://lh3.googleusercontent.com/b12fFybopdVrxBEEn2CU8n7x9qGpjWY_ZM83Gw5SYbVTvtjUWpYUi_9GWJTvvylCeNE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 4,
+        "imageUrl": "https://lh3.googleusercontent.com/rFRRuIUOIG3zhjHwl0SGhnx-n1ljmtQbf_XzbAMRfyjTOuqtaOxWVlzjm788s0-QZg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 3,
+        "imageUrl": "https://www.youtube.com/watch?v=fgottFgGubw"
+      },
+      {
+        "imageType": 13,
+        "imageUrl": "https://i.ytimg.com/vi/fgottFgGubw/hqdefault.jpg",
+        "supportsFifeUrlOptions": false
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/lAXcY447uvy5UmyjW5YtqWIMWsvbrcaCQkvr_hA6lk_kw9vZgIr-GnW2PnYxcpcZxPU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/UGZxfoAtUVtbOm2s2uVIG13gnJ7aXKWO9N7oerMQcp_Mgc8aigcEM7q5YeaTFOsLOos",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/5HnTKJ9REPBckJlLSZZInwUUEt0nWQfimtZt6eggm5ihWqWKcKZhgp4P3cZoGbkLwNdL",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/nsCdhHNTcE_9x4uCKaSIPCS6Yto0jEIdKEK8SniYbyHwBYwA-xAkiHeHNJnYxse0snfZ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/nm2-QYwAeqKUrXUaX_FHWLIJYIcMnwK__HSHui3FhT5LroyxwF61WMnCvYqXvvDi3S0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/dVQYrMAhW5AE2ogJPnb7H7VTonCZpxMBoFyG2EAttI6JOlfaZTCIHZsz2jE6t42fDBEx",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/YuyXBbpEuFvW3HzoJG9yOK0JD-7976ZUeCUXyjzM18itkcZmOblm_QHWwND3Kbg_vQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/CXO0BRO8_0frgsRF7x9wN3CmYMVRRkDFAix79n25Gu9j_7gBdLH8t6Nl34gmSJ902g",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/35lKg7qc2nu_wxXPfMinhGDqI33GYGJ0OyTtMqEnz2y8afJIpWiAzKvIzw6kGEjivvBW",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/VM858xoOglSLDYtWPp3KVTI2S-e7zEHqgIK6cCKsscDL9zN3SDOjceZNODd6MgWhsNkv",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://lh3.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "Users interact<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=zfapps.toyobd1",
+    "reviewsUrl": "rev?doc=zfapps.toyobd1&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=zfapps.toyobd1",
+    "title": "TOYOBD1",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "jfrancoisbreton@hotmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "17 Jun 2014"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "62",
+      "fiveStarRatings": "105",
+      "fourStarRatings": "7",
+      "oneStarRatings": "8",
+      "ratingsCount": "127",
+      "starRating": 4.57,
+      "threeStarRatings": "3",
+      "twoStarRatings": "1",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-08-19 23:13:30.344567",
+    "backendDocid": "zfapps.toyobd1",
+    "backendId": 3,
+    "creator": "ZFApps",
+    "descriptionHtml": "Datalogging application for Toyota OBD1 cars.<br>works with the TOYOCOM &amp; OBD1READ tools from zf-scantools.<br>https://zf-scantools.com/<br><br>-displays data in separate cells or all together in a graph cells<br>-allows to configure each cell display mode by horizontal &amp; vertical swiping<br>-trip computer.<br>-thermal audio alarm in case your engine overheats.<br>-instant MPG calculator.<br>-Allow you to see all data received from the car through the obd1 protocol &amp; possibly more.<br>-Allow to save every frame received in a database in the phone and export to *.CSV file as needed.<br><br>*********** Engines supported by TOYOBD1 **************<br>please visit www.zf-scantools.com to see the up to date support",
+    "descriptionShort": "Toyota OBD1 data logging application.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown2": "2266121",
+          "unknown3": 28
+        },
+        "developerEmail": "jfrancoisbreton@hotmail.com",
+        "developerName": "ZFApps",
+        "developerWebsite": "http://jfbreton.blogspot.ca/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "2266121",
+            "versionCode": 183
+          }
+        ],
+        "installationSize": "2266121",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "zfapps.toyobd1",
+        "permission": [
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.GET_TASKS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "android.permission.WRITE_SETTINGS"
+        ],
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false,
+          "testingProgramEmail": "jfrancoisbreton@hotmail.com"
+        },
+        "unstable": false,
+        "versionCode": 183,
+        "versionString": "2020-08-18"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=zfapps.toyobd1",
+    "docType": 1,
+    "docid": "zfapps.toyobd1",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://lh3.googleusercontent.com/b12fFybopdVrxBEEn2CU8n7x9qGpjWY_ZM83Gw5SYbVTvtjUWpYUi_9GWJTvvylCeNE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 4,
+        "imageUrl": "https://lh3.googleusercontent.com/rFRRuIUOIG3zhjHwl0SGhnx-n1ljmtQbf_XzbAMRfyjTOuqtaOxWVlzjm788s0-QZg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 3,
+        "imageUrl": "https://www.youtube.com/watch?v=fgottFgGubw"
+      },
+      {
+        "imageType": 13,
+        "imageUrl": "https://i.ytimg.com/vi/fgottFgGubw/hqdefault.jpg",
+        "supportsFifeUrlOptions": false
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/lAXcY447uvy5UmyjW5YtqWIMWsvbrcaCQkvr_hA6lk_kw9vZgIr-GnW2PnYxcpcZxPU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/UGZxfoAtUVtbOm2s2uVIG13gnJ7aXKWO9N7oerMQcp_Mgc8aigcEM7q5YeaTFOsLOos",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/5HnTKJ9REPBckJlLSZZInwUUEt0nWQfimtZt6eggm5ihWqWKcKZhgp4P3cZoGbkLwNdL",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/nsCdhHNTcE_9x4uCKaSIPCS6Yto0jEIdKEK8SniYbyHwBYwA-xAkiHeHNJnYxse0snfZ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/nm2-QYwAeqKUrXUaX_FHWLIJYIcMnwK__HSHui3FhT5LroyxwF61WMnCvYqXvvDi3S0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/dVQYrMAhW5AE2ogJPnb7H7VTonCZpxMBoFyG2EAttI6JOlfaZTCIHZsz2jE6t42fDBEx",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/YuyXBbpEuFvW3HzoJG9yOK0JD-7976ZUeCUXyjzM18itkcZmOblm_QHWwND3Kbg_vQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/CXO0BRO8_0frgsRF7x9wN3CmYMVRRkDFAix79n25Gu9j_7gBdLH8t6Nl34gmSJ902g",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://lh3.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "Users interact<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=zfapps.toyobd1",
+    "reviewsUrl": "rev?doc=zfapps.toyobd1&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=zfapps.toyobd1",
+    "title": "TOYOBD1",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "jfrancoisbreton@hotmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "17 Jun 2014"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "62",
+      "fiveStarRatings": "105",
+      "fourStarRatings": "7",
+      "oneStarRatings": "8",
+      "ratingsCount": "127",
+      "starRating": 4.57,
+      "threeStarRatings": "3",
+      "twoStarRatings": "1",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-08-30 10:55:54.966838",
+    "backendDocid": "zfapps.toyobd1",
+    "backendId": 3,
+    "creator": "ZFApps",
+    "descriptionHtml": "Datalogging application for Toyota OBD1 cars.<br>works with the TOYOCOM &amp; OBD1READ tools from zf-scantools.<br>https://zf-scantools.com/<br><br>-displays data in separate cells or all together in a graph cells<br>-allows to configure each cell display mode by horizontal &amp; vertical swiping<br>-trip computer.<br>-thermal audio alarm in case your engine overheats.<br>-instant MPG calculator.<br>-Allow you to see all data received from the car through the obd1 protocol &amp; possibly more.<br>-Allow to save every frame received in a database in the phone and export to *.CSV file as needed.<br><br>*********** Engines supported by TOYOBD1 **************<br>please visit www.zf-scantools.com to see the up to date support",
+    "descriptionShort": "Toyota OBD1 data logging application.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown2": "2212707",
+          "unknown3": 29
+        },
+        "developerEmail": "jfrancoisbreton@hotmail.com",
+        "developerName": "ZFApps",
+        "developerWebsite": "http://jfbreton.blogspot.ca/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "2212707",
+            "versionCode": 184
+          }
+        ],
+        "installationSize": "2212707",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "zfapps.toyobd1",
+        "permission": [
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.GET_TASKS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "android.permission.WRITE_SETTINGS"
+        ],
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false,
+          "testingProgramEmail": "jfrancoisbreton@hotmail.com"
+        },
+        "unstable": false,
+        "versionCode": 184,
+        "versionString": "2020-08-30"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=zfapps.toyobd1",
+    "docType": 1,
+    "docid": "zfapps.toyobd1",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/b12fFybopdVrxBEEn2CU8n7x9qGpjWY_ZM83Gw5SYbVTvtjUWpYUi_9GWJTvvylCeNE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/rFRRuIUOIG3zhjHwl0SGhnx-n1ljmtQbf_XzbAMRfyjTOuqtaOxWVlzjm788s0-QZg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 3,
+        "imageUrl": "https://www.youtube.com/watch?v=fgottFgGubw"
+      },
+      {
+        "imageType": 13,
+        "imageUrl": "https://i.ytimg.com/vi/fgottFgGubw/hqdefault.jpg",
+        "supportsFifeUrlOptions": false
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/lAXcY447uvy5UmyjW5YtqWIMWsvbrcaCQkvr_hA6lk_kw9vZgIr-GnW2PnYxcpcZxPU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/UGZxfoAtUVtbOm2s2uVIG13gnJ7aXKWO9N7oerMQcp_Mgc8aigcEM7q5YeaTFOsLOos",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/5HnTKJ9REPBckJlLSZZInwUUEt0nWQfimtZt6eggm5ihWqWKcKZhgp4P3cZoGbkLwNdL",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/nsCdhHNTcE_9x4uCKaSIPCS6Yto0jEIdKEK8SniYbyHwBYwA-xAkiHeHNJnYxse0snfZ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/nm2-QYwAeqKUrXUaX_FHWLIJYIcMnwK__HSHui3FhT5LroyxwF61WMnCvYqXvvDi3S0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/dVQYrMAhW5AE2ogJPnb7H7VTonCZpxMBoFyG2EAttI6JOlfaZTCIHZsz2jE6t42fDBEx",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/YuyXBbpEuFvW3HzoJG9yOK0JD-7976ZUeCUXyjzM18itkcZmOblm_QHWwND3Kbg_vQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/CXO0BRO8_0frgsRF7x9wN3CmYMVRRkDFAix79n25Gu9j_7gBdLH8t6Nl34gmSJ902g",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "Users interact<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=zfapps.toyobd1",
+    "reviewsUrl": "rev?doc=zfapps.toyobd1&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=zfapps.toyobd1",
+    "title": "TOYOBD1",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "jfrancoisbreton@hotmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "17 Jun 2014"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "63",
+      "fiveStarRatings": "106",
+      "fourStarRatings": "9",
+      "oneStarRatings": "9",
+      "ratingsCount": "131",
+      "starRating": 4.53,
+      "threeStarRatings": "3",
+      "twoStarRatings": "2",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-01-31 02:25:34.482001",
+    "backendDocid": "zfapps.toyobd1",
+    "backendId": 3,
+    "creator": "ZFApps",
+    "descriptionHtml": "Datalogging application for Toyota OBD1 cars.<br>works with the TOYOCOM &amp; OBD1READ tools from zf-scantools.<br>https://zf-scantools.com/<br><br>-displays data in separate cells or all together in a graph cells<br>-allows to configure each cell display mode by horizontal &amp; vertical swiping<br>-trip computer.<br>-thermal audio alarm in case your engine overheats.<br>-instant MPG calculator.<br>-Allow you to see all data received from the car through the obd1 protocol &amp; possibly more.<br>-Allow to save every frame received in a database in the phone and export to *.CSV file as needed.<br><br>*********** Engines supported by TOYOBD1 **************<br>please visit www.zf-scantools.com to see the up to date support",
+    "descriptionShort": "Toyota OBD1 data logging application.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown2": "2213359",
+          "unknown3": 29
+        },
+        "developerEmail": "jfrancoisbreton@hotmail.com",
+        "developerName": "ZFApps",
+        "developerWebsite": "http://jfbreton.blogspot.ca/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "2213359",
+            "versionCode": 185
+          }
+        ],
+        "installationSize": "2213359",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "zfapps.toyobd1",
+        "permission": [
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.GET_TASKS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "android.permission.WRITE_SETTINGS"
+        ],
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false,
+          "testingProgramEmail": "jfrancoisbreton@hotmail.com"
+        },
+        "unstable": false,
+        "uploadDate": "30 Jan 2021",
+        "versionCode": 185,
+        "versionString": "2021-01-30"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=zfapps.toyobd1",
+    "docType": 1,
+    "docid": "zfapps.toyobd1",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/b12fFybopdVrxBEEn2CU8n7x9qGpjWY_ZM83Gw5SYbVTvtjUWpYUi_9GWJTvvylCeNE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/rFRRuIUOIG3zhjHwl0SGhnx-n1ljmtQbf_XzbAMRfyjTOuqtaOxWVlzjm788s0-QZg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 3,
+        "imageUrl": "https://www.youtube.com/watch?v=fgottFgGubw"
+      },
+      {
+        "imageType": 13,
+        "imageUrl": "https://i.ytimg.com/vi/fgottFgGubw/hqdefault.jpg",
+        "supportsFifeUrlOptions": false
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/lAXcY447uvy5UmyjW5YtqWIMWsvbrcaCQkvr_hA6lk_kw9vZgIr-GnW2PnYxcpcZxPU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/UGZxfoAtUVtbOm2s2uVIG13gnJ7aXKWO9N7oerMQcp_Mgc8aigcEM7q5YeaTFOsLOos",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/5HnTKJ9REPBckJlLSZZInwUUEt0nWQfimtZt6eggm5ihWqWKcKZhgp4P3cZoGbkLwNdL",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/nsCdhHNTcE_9x4uCKaSIPCS6Yto0jEIdKEK8SniYbyHwBYwA-xAkiHeHNJnYxse0snfZ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/nm2-QYwAeqKUrXUaX_FHWLIJYIcMnwK__HSHui3FhT5LroyxwF61WMnCvYqXvvDi3S0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/dVQYrMAhW5AE2ogJPnb7H7VTonCZpxMBoFyG2EAttI6JOlfaZTCIHZsz2jE6t42fDBEx",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/YuyXBbpEuFvW3HzoJG9yOK0JD-7976ZUeCUXyjzM18itkcZmOblm_QHWwND3Kbg_vQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/CXO0BRO8_0frgsRF7x9wN3CmYMVRRkDFAix79n25Gu9j_7gBdLH8t6Nl34gmSJ902g",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "Users interact<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=zfapps.toyobd1",
+    "reviewsUrl": "rev?doc=zfapps.toyobd1&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=zfapps.toyobd1",
+    "title": "TOYOBD1",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "jfrancoisbreton@hotmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "17 Jun 2014"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "64",
+      "fiveStarRatings": "106",
+      "fourStarRatings": "9",
+      "oneStarRatings": "9",
+      "ratingsCount": "132",
+      "starRating": 4.53,
+      "threeStarRatings": "3",
+      "twoStarRatings": "2",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-03-21 11:02:24.879640",
+    "backendDocid": "zfapps.toyobd1",
+    "backendId": 3,
+    "creator": "ZFApps",
+    "descriptionHtml": "Datalogging application for Toyota OBD1 cars.<br>works with the TOYOCOM &amp; OBD1READ tools from zf-scantools.<br>https://zf-scantools.com/<br><br>-displays data in separate cells or all together in a graph cells<br>-allows to configure each cell display mode by horizontal &amp; vertical swiping<br>-trip computer.<br>-thermal audio alarm in case your engine overheats.<br>-instant MPG calculator.<br>-Allow you to see all data received from the car through the obd1 protocol &amp; possibly more.<br>-Allow to save every frame received in a database in the phone and export to *.CSV file as needed.<br><br>*********** Engines supported by TOYOBD1 **************<br>please visit www.zf-scantools.com to see the up to date support",
+    "descriptionShort": "Toyota OBD1 data logging application.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown2": "2213351",
+          "unknown3": 29
+        },
+        "developerEmail": "jfrancoisbreton@hotmail.com",
+        "developerName": "ZFApps",
+        "developerWebsite": "http://jfbreton.blogspot.ca/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "2213351",
+            "versionCode": 186
+          }
+        ],
+        "installationSize": "2213351",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "zfapps.toyobd1",
+        "permission": [
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.GET_TASKS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "android.permission.WRITE_SETTINGS"
+        ],
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": false,
+        "uploadDate": "19 Mar 2021",
+        "versionCode": 186,
+        "versionString": "2021-03-19"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=zfapps.toyobd1",
+    "docType": 1,
+    "docid": "zfapps.toyobd1",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/b12fFybopdVrxBEEn2CU8n7x9qGpjWY_ZM83Gw5SYbVTvtjUWpYUi_9GWJTvvylCeNE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/rFRRuIUOIG3zhjHwl0SGhnx-n1ljmtQbf_XzbAMRfyjTOuqtaOxWVlzjm788s0-QZg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 3,
+        "imageUrl": "https://www.youtube.com/watch?v=fgottFgGubw"
+      },
+      {
+        "imageType": 13,
+        "imageUrl": "https://i.ytimg.com/vi/fgottFgGubw/hqdefault.jpg",
+        "supportsFifeUrlOptions": false
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/lAXcY447uvy5UmyjW5YtqWIMWsvbrcaCQkvr_hA6lk_kw9vZgIr-GnW2PnYxcpcZxPU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/UGZxfoAtUVtbOm2s2uVIG13gnJ7aXKWO9N7oerMQcp_Mgc8aigcEM7q5YeaTFOsLOos",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/5HnTKJ9REPBckJlLSZZInwUUEt0nWQfimtZt6eggm5ihWqWKcKZhgp4P3cZoGbkLwNdL",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/nsCdhHNTcE_9x4uCKaSIPCS6Yto0jEIdKEK8SniYbyHwBYwA-xAkiHeHNJnYxse0snfZ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/nm2-QYwAeqKUrXUaX_FHWLIJYIcMnwK__HSHui3FhT5LroyxwF61WMnCvYqXvvDi3S0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/dVQYrMAhW5AE2ogJPnb7H7VTonCZpxMBoFyG2EAttI6JOlfaZTCIHZsz2jE6t42fDBEx",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/YuyXBbpEuFvW3HzoJG9yOK0JD-7976ZUeCUXyjzM18itkcZmOblm_QHWwND3Kbg_vQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/CXO0BRO8_0frgsRF7x9wN3CmYMVRRkDFAix79n25Gu9j_7gBdLH8t6Nl34gmSJ902g",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "Users interact<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=zfapps.toyobd1",
+    "reviewsUrl": "rev?doc=zfapps.toyobd1&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=zfapps.toyobd1",
+    "title": "TOYOBD1",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "jfrancoisbreton@hotmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "17 Jun 2014"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "64",
+      "fiveStarRatings": "106",
+      "fourStarRatings": "9",
+      "oneStarRatings": "9",
+      "ratingsCount": "132",
+      "starRating": 4.53,
+      "threeStarRatings": "3",
+      "twoStarRatings": "2",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-04-16 09:24:13.237505",
+    "backendDocid": "zfapps.toyobd1",
+    "backendId": 3,
+    "creator": "ZFApps",
+    "descriptionHtml": "Datalogging application for Toyota OBD1 cars.<br>works with the TOYOCOM &amp; OBD1READ tools from zf-scantools.<br>https://zf-scantools.com/<br><br>-displays data in separate cells or all together in a graph cells<br>-allows to configure each cell display mode by horizontal &amp; vertical swiping<br>-trip computer.<br>-thermal audio alarm in case your engine overheats.<br>-instant MPG calculator.<br>-Allow you to see all data received from the car through the obd1 protocol &amp; possibly more.<br>-Allow to save every frame received in a database in the phone and export to *.CSV file as needed.<br><br>*********** Engines supported by TOYOBD1 **************<br>please visit www.zf-scantools.com to see the up to date support",
+    "descriptionShort": "Toyota OBD1 data logging application.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown2": "2213422",
+          "unknown3": 29
+        },
+        "developerEmail": "jfrancoisbreton@hotmail.com",
+        "developerName": "ZFApps",
+        "developerWebsite": "http://jfbreton.blogspot.ca/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "2213422",
+            "versionCode": 187
+          }
+        ],
+        "installationSize": "2213422",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "zfapps.toyobd1",
+        "permission": [
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.GET_TASKS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "android.permission.WRITE_SETTINGS"
+        ],
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": false,
+        "uploadDate": "15 Apr 2021",
+        "versionCode": 187,
+        "versionString": "2021-04-15"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=zfapps.toyobd1",
+    "docType": 1,
+    "docid": "zfapps.toyobd1",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/b12fFybopdVrxBEEn2CU8n7x9qGpjWY_ZM83Gw5SYbVTvtjUWpYUi_9GWJTvvylCeNE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/rFRRuIUOIG3zhjHwl0SGhnx-n1ljmtQbf_XzbAMRfyjTOuqtaOxWVlzjm788s0-QZg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 3,
+        "imageUrl": "https://www.youtube.com/watch?v=fgottFgGubw"
+      },
+      {
+        "imageType": 13,
+        "imageUrl": "https://i.ytimg.com/vi/fgottFgGubw/hqdefault.jpg",
+        "supportsFifeUrlOptions": false
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/lAXcY447uvy5UmyjW5YtqWIMWsvbrcaCQkvr_hA6lk_kw9vZgIr-GnW2PnYxcpcZxPU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/UGZxfoAtUVtbOm2s2uVIG13gnJ7aXKWO9N7oerMQcp_Mgc8aigcEM7q5YeaTFOsLOos",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/5HnTKJ9REPBckJlLSZZInwUUEt0nWQfimtZt6eggm5ihWqWKcKZhgp4P3cZoGbkLwNdL",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/nsCdhHNTcE_9x4uCKaSIPCS6Yto0jEIdKEK8SniYbyHwBYwA-xAkiHeHNJnYxse0snfZ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/nm2-QYwAeqKUrXUaX_FHWLIJYIcMnwK__HSHui3FhT5LroyxwF61WMnCvYqXvvDi3S0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/dVQYrMAhW5AE2ogJPnb7H7VTonCZpxMBoFyG2EAttI6JOlfaZTCIHZsz2jE6t42fDBEx",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/YuyXBbpEuFvW3HzoJG9yOK0JD-7976ZUeCUXyjzM18itkcZmOblm_QHWwND3Kbg_vQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/CXO0BRO8_0frgsRF7x9wN3CmYMVRRkDFAix79n25Gu9j_7gBdLH8t6Nl34gmSJ902g",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "Users interact<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=zfapps.toyobd1",
+    "reviewsUrl": "rev?doc=zfapps.toyobd1&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=zfapps.toyobd1",
+    "title": "TOYOBD1",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "jfrancoisbreton@hotmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "17 Jun 2014"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "64",
+      "fiveStarRatings": "106",
+      "fourStarRatings": "9",
+      "oneStarRatings": "9",
+      "ratingsCount": "132",
+      "starRating": 4.53,
+      "threeStarRatings": "3",
+      "twoStarRatings": "2",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-04-20 14:31:28.944327",
+    "backendDocid": "zfapps.toyobd1",
+    "backendId": 3,
+    "creator": "ZFApps",
+    "descriptionHtml": "Datalogging application for Toyota OBD1 cars.<br>works with the TOYOCOM &amp; OBD1READ tools from zf-scantools.<br>https://zf-scantools.com/<br><br>-displays data in separate cells or all together in a graph cells<br>-allows to configure each cell display mode by horizontal &amp; vertical swiping<br>-trip computer.<br>-thermal audio alarm in case your engine overheats.<br>-instant MPG calculator.<br>-Allow you to see all data received from the car through the obd1 protocol &amp; possibly more.<br>-Allow to save every frame received in a database in the phone and export to *.CSV file as needed.<br><br>*********** Engines supported by TOYOBD1 **************<br>please visit www.zf-scantools.com to see the up to date support",
+    "descriptionShort": "Toyota OBD1 data logging application.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown2": "2213580",
+          "unknown3": 29
+        },
+        "developerEmail": "jfrancoisbreton@hotmail.com",
+        "developerName": "ZFApps",
+        "developerWebsite": "http://jfbreton.blogspot.ca/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "2213580",
+            "versionCode": 188
+          }
+        ],
+        "installationSize": "2213580",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "zfapps.toyobd1",
+        "permission": [
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.GET_TASKS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "android.permission.WRITE_SETTINGS"
+        ],
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": false,
+        "uploadDate": "19 Apr 2021",
+        "versionCode": 188,
+        "versionString": "2021-04-19"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=zfapps.toyobd1",
+    "docType": 1,
+    "docid": "zfapps.toyobd1",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/b12fFybopdVrxBEEn2CU8n7x9qGpjWY_ZM83Gw5SYbVTvtjUWpYUi_9GWJTvvylCeNE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/rFRRuIUOIG3zhjHwl0SGhnx-n1ljmtQbf_XzbAMRfyjTOuqtaOxWVlzjm788s0-QZg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 3,
+        "imageUrl": "https://www.youtube.com/watch?v=fgottFgGubw"
+      },
+      {
+        "imageType": 13,
+        "imageUrl": "https://i.ytimg.com/vi/fgottFgGubw/hqdefault.jpg",
+        "supportsFifeUrlOptions": false
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/lAXcY447uvy5UmyjW5YtqWIMWsvbrcaCQkvr_hA6lk_kw9vZgIr-GnW2PnYxcpcZxPU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/UGZxfoAtUVtbOm2s2uVIG13gnJ7aXKWO9N7oerMQcp_Mgc8aigcEM7q5YeaTFOsLOos",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/5HnTKJ9REPBckJlLSZZInwUUEt0nWQfimtZt6eggm5ihWqWKcKZhgp4P3cZoGbkLwNdL",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/nsCdhHNTcE_9x4uCKaSIPCS6Yto0jEIdKEK8SniYbyHwBYwA-xAkiHeHNJnYxse0snfZ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/nm2-QYwAeqKUrXUaX_FHWLIJYIcMnwK__HSHui3FhT5LroyxwF61WMnCvYqXvvDi3S0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/dVQYrMAhW5AE2ogJPnb7H7VTonCZpxMBoFyG2EAttI6JOlfaZTCIHZsz2jE6t42fDBEx",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/YuyXBbpEuFvW3HzoJG9yOK0JD-7976ZUeCUXyjzM18itkcZmOblm_QHWwND3Kbg_vQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/CXO0BRO8_0frgsRF7x9wN3CmYMVRRkDFAix79n25Gu9j_7gBdLH8t6Nl34gmSJ902g",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "Users interact<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=zfapps.toyobd1",
+    "reviewsUrl": "rev?doc=zfapps.toyobd1&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=zfapps.toyobd1",
+    "title": "TOYOBD1",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "jfrancoisbreton@hotmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "17 Jun 2014"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "64",
+      "fiveStarRatings": "106",
+      "fourStarRatings": "9",
+      "oneStarRatings": "9",
+      "ratingsCount": "132",
+      "starRating": 4.53,
+      "threeStarRatings": "3",
+      "twoStarRatings": "2",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-04-27 07:33:53.817799",
+    "backendDocid": "zfapps.toyobd1",
+    "backendId": 3,
+    "creator": "ZFApps",
+    "descriptionHtml": "Datalogging application for Toyota OBD1 cars.<br>works with the TOYOCOM &amp; OBD1READ tools from zf-scantools.<br>https://zf-scantools.com/<br><br>-displays data in separate cells or all together in a graph cells<br>-allows to configure each cell display mode by horizontal &amp; vertical swiping<br>-trip computer.<br>-thermal audio alarm in case your engine overheats.<br>-instant MPG calculator.<br>-Allow you to see all data received from the car through the obd1 protocol &amp; possibly more.<br>-Allow to save every frame received in a database in the phone and export to *.CSV file as needed.<br><br>*********** Engines supported by TOYOBD1 **************<br>please visit www.zf-scantools.com to see the up to date support",
+    "descriptionShort": "Toyota OBD1 data logging application.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown2": "2213991",
+          "unknown3": 29
+        },
+        "developerEmail": "jfrancoisbreton@hotmail.com",
+        "developerName": "ZFApps",
+        "developerWebsite": "http://jfbreton.blogspot.ca/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "2213991",
+            "versionCode": 189
+          }
+        ],
+        "installationSize": "2213991",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "zfapps.toyobd1",
+        "permission": [
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.GET_TASKS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "android.permission.WRITE_SETTINGS"
+        ],
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": false,
+        "uploadDate": "26 Apr 2021",
+        "versionCode": 189,
+        "versionString": "2021-04-26"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=zfapps.toyobd1",
+    "docType": 1,
+    "docid": "zfapps.toyobd1",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/b12fFybopdVrxBEEn2CU8n7x9qGpjWY_ZM83Gw5SYbVTvtjUWpYUi_9GWJTvvylCeNE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/rFRRuIUOIG3zhjHwl0SGhnx-n1ljmtQbf_XzbAMRfyjTOuqtaOxWVlzjm788s0-QZg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 3,
+        "imageUrl": "https://www.youtube.com/watch?v=fgottFgGubw"
+      },
+      {
+        "imageType": 13,
+        "imageUrl": "https://i.ytimg.com/vi/fgottFgGubw/hqdefault.jpg",
+        "supportsFifeUrlOptions": false
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/lAXcY447uvy5UmyjW5YtqWIMWsvbrcaCQkvr_hA6lk_kw9vZgIr-GnW2PnYxcpcZxPU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/UGZxfoAtUVtbOm2s2uVIG13gnJ7aXKWO9N7oerMQcp_Mgc8aigcEM7q5YeaTFOsLOos",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/5HnTKJ9REPBckJlLSZZInwUUEt0nWQfimtZt6eggm5ihWqWKcKZhgp4P3cZoGbkLwNdL",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/nsCdhHNTcE_9x4uCKaSIPCS6Yto0jEIdKEK8SniYbyHwBYwA-xAkiHeHNJnYxse0snfZ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/nm2-QYwAeqKUrXUaX_FHWLIJYIcMnwK__HSHui3FhT5LroyxwF61WMnCvYqXvvDi3S0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/dVQYrMAhW5AE2ogJPnb7H7VTonCZpxMBoFyG2EAttI6JOlfaZTCIHZsz2jE6t42fDBEx",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/YuyXBbpEuFvW3HzoJG9yOK0JD-7976ZUeCUXyjzM18itkcZmOblm_QHWwND3Kbg_vQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/CXO0BRO8_0frgsRF7x9wN3CmYMVRRkDFAix79n25Gu9j_7gBdLH8t6Nl34gmSJ902g",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "Users interact<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=zfapps.toyobd1",
+    "reviewsUrl": "rev?doc=zfapps.toyobd1&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=zfapps.toyobd1",
+    "title": "TOYOBD1",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "ZFApps"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "jfrancoisbreton@hotmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "17 Jun 2014"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "64",
+      "fiveStarRatings": "106",
+      "fourStarRatings": "9",
+      "oneStarRatings": "9",
+      "ratingsCount": "132",
+      "starRating": 4.53,
+      "threeStarRatings": "3",
+      "twoStarRatings": "2",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-04-28 21:52:11.905402",
+    "backendDocid": "zfapps.toyobd1",
+    "backendId": 3,
+    "creator": "ZFApps",
+    "descriptionHtml": "Datalogging application for Toyota OBD1 cars.<br>works with the TOYOCOM &amp; OBD1READ tools from zf-scantools.<br>https://zf-scantools.com/<br><br>-displays data in separate cells or all together in a graph cells<br>-allows to configure each cell display mode by horizontal &amp; vertical swiping<br>-trip computer.<br>-thermal audio alarm in case your engine overheats.<br>-instant MPG calculator.<br>-Allow you to see all data received from the car through the obd1 protocol &amp; possibly more.<br>-Allow to save every frame received in a database in the phone and export to *.CSV file as needed.<br><br>*********** Engines supported by TOYOBD1 **************<br>please visit www.zf-scantools.com to see the up to date support",
+    "descriptionShort": "Toyota OBD1 data logging application.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown2": "2214184",
+          "unknown3": 29
+        },
+        "developerEmail": "jfrancoisbreton@hotmail.com",
+        "developerName": "ZFApps",
+        "developerWebsite": "http://jfbreton.blogspot.ca/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "2214184",
+            "versionCode": 190
+          }
+        ],
+        "installationSize": "2214184",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "zfapps.toyobd1",
+        "permission": [
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.GET_TASKS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "android.permission.WRITE_SETTINGS"
+        ],
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": false,
+        "uploadDate": "27 Apr 2021",
+        "versionCode": 190,
+        "versionString": "2021-04-27"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=zfapps.toyobd1",
+    "docType": 1,
+    "docid": "zfapps.toyobd1",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/b12fFybopdVrxBEEn2CU8n7x9qGpjWY_ZM83Gw5SYbVTvtjUWpYUi_9GWJTvvylCeNE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/rFRRuIUOIG3zhjHwl0SGhnx-n1ljmtQbf_XzbAMRfyjTOuqtaOxWVlzjm788s0-QZg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 3,
+        "imageUrl": "https://www.youtube.com/watch?v=fgottFgGubw"
+      },
+      {
+        "imageType": 13,
+        "imageUrl": "https://i.ytimg.com/vi/fgottFgGubw/hqdefault.jpg",
+        "supportsFifeUrlOptions": false
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/lAXcY447uvy5UmyjW5YtqWIMWsvbrcaCQkvr_hA6lk_kw9vZgIr-GnW2PnYxcpcZxPU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/UGZxfoAtUVtbOm2s2uVIG13gnJ7aXKWO9N7oerMQcp_Mgc8aigcEM7q5YeaTFOsLOos",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/5HnTKJ9REPBckJlLSZZInwUUEt0nWQfimtZt6eggm5ihWqWKcKZhgp4P3cZoGbkLwNdL",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/nsCdhHNTcE_9x4uCKaSIPCS6Yto0jEIdKEK8SniYbyHwBYwA-xAkiHeHNJnYxse0snfZ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/nm2-QYwAeqKUrXUaX_FHWLIJYIcMnwK__HSHui3FhT5LroyxwF61WMnCvYqXvvDi3S0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/dVQYrMAhW5AE2ogJPnb7H7VTonCZpxMBoFyG2EAttI6JOlfaZTCIHZsz2jE6t42fDBEx",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/YuyXBbpEuFvW3HzoJG9yOK0JD-7976ZUeCUXyjzM18itkcZmOblm_QHWwND3Kbg_vQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/CXO0BRO8_0frgsRF7x9wN3CmYMVRRkDFAix79n25Gu9j_7gBdLH8t6Nl34gmSJ902g",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "Users interact<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=zfapps.toyobd1",
+    "reviewsUrl": "rev?doc=zfapps.toyobd1&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=zfapps.toyobd1",
+    "title": "TOYOBD1",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "ZFApps"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "jfrancoisbreton@hotmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "17 Jun 2014"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "64",
+      "fiveStarRatings": "107",
+      "fourStarRatings": "9",
+      "oneStarRatings": "9",
+      "ratingsCount": "133",
+      "starRating": 4.53,
+      "threeStarRatings": "3",
+      "twoStarRatings": "2",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-06-01 18:59:06.716157",
+    "backendDocid": "zfapps.toyobd1",
+    "backendId": 3,
+    "creator": "ZFApps",
+    "descriptionHtml": "Datalogging application for Toyota OBD1 cars.<br>works with the TOYOCOM &amp; OBD1READ tools from zf-scantools.<br>https://zf-scantools.com/<br><br>-displays data in separate cells or all together in a graph cells<br>-allows to configure each cell display mode by horizontal &amp; vertical swiping<br>-trip computer.<br>-thermal audio alarm in case your engine overheats.<br>-instant MPG calculator.<br>-Allow you to see all data received from the car through the obd1 protocol &amp; possibly more.<br>-Allow to save every frame received in a database in the phone and export to *.CSV file as needed.<br><br>*********** Engines supported by TOYOBD1 **************<br>please visit www.zf-scantools.com to see the up to date support",
+    "descriptionShort": "Toyota OBD1 data logging application.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown2": "2214395",
+          "unknown3": 29
+        },
+        "developerEmail": "jfrancoisbreton@hotmail.com",
+        "developerName": "ZFApps",
+        "developerWebsite": "http://jfbreton.blogspot.ca/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "2214395",
+            "versionCode": 191
+          }
+        ],
+        "installationSize": "2214395",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "zfapps.toyobd1",
+        "permission": [
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.GET_TASKS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "android.permission.WRITE_SETTINGS"
+        ],
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": false,
+        "uploadDate": "26 May 2021",
+        "versionCode": 191,
+        "versionString": "2021-05-26"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=zfapps.toyobd1",
+    "docType": 1,
+    "docid": "zfapps.toyobd1",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/b12fFybopdVrxBEEn2CU8n7x9qGpjWY_ZM83Gw5SYbVTvtjUWpYUi_9GWJTvvylCeNE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/rFRRuIUOIG3zhjHwl0SGhnx-n1ljmtQbf_XzbAMRfyjTOuqtaOxWVlzjm788s0-QZg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 3,
+        "imageUrl": "https://www.youtube.com/watch?v=fgottFgGubw"
+      },
+      {
+        "imageType": 13,
+        "imageUrl": "https://i.ytimg.com/vi/fgottFgGubw/hqdefault.jpg",
+        "supportsFifeUrlOptions": false
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/lAXcY447uvy5UmyjW5YtqWIMWsvbrcaCQkvr_hA6lk_kw9vZgIr-GnW2PnYxcpcZxPU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/UGZxfoAtUVtbOm2s2uVIG13gnJ7aXKWO9N7oerMQcp_Mgc8aigcEM7q5YeaTFOsLOos",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/5HnTKJ9REPBckJlLSZZInwUUEt0nWQfimtZt6eggm5ihWqWKcKZhgp4P3cZoGbkLwNdL",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/nsCdhHNTcE_9x4uCKaSIPCS6Yto0jEIdKEK8SniYbyHwBYwA-xAkiHeHNJnYxse0snfZ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/nm2-QYwAeqKUrXUaX_FHWLIJYIcMnwK__HSHui3FhT5LroyxwF61WMnCvYqXvvDi3S0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/dVQYrMAhW5AE2ogJPnb7H7VTonCZpxMBoFyG2EAttI6JOlfaZTCIHZsz2jE6t42fDBEx",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/YuyXBbpEuFvW3HzoJG9yOK0JD-7976ZUeCUXyjzM18itkcZmOblm_QHWwND3Kbg_vQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/CXO0BRO8_0frgsRF7x9wN3CmYMVRRkDFAix79n25Gu9j_7gBdLH8t6Nl34gmSJ902g",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "Users interact<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=zfapps.toyobd1",
+    "reviewsUrl": "rev?doc=zfapps.toyobd1&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=zfapps.toyobd1",
+    "title": "TOYOBD1",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "jfrancoisbreton@hotmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "17 Jun 2014"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "64",
+      "fiveStarRatings": "107",
+      "fourStarRatings": "9",
+      "oneStarRatings": "9",
+      "ratingsCount": "133",
+      "starRating": 4.53,
+      "threeStarRatings": "3",
+      "twoStarRatings": "2",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-07-14 04:35:42.205068",
+    "backendDocid": "zfapps.toyobd1",
+    "backendId": 3,
+    "creator": "ZFApps",
+    "descriptionHtml": "Datalogging application for Toyota OBD1 cars.<br>works with the TOYOCOM &amp; OBD1READ tools from zf-scantools.<br>https://zf-scantools.com/<br><br>-displays data in separate cells or all together in a graph cells<br>-allows to configure each cell display mode by horizontal &amp; vertical swiping<br>-trip computer.<br>-thermal audio alarm in case your engine overheats.<br>-instant MPG calculator.<br>-Allow you to see all data received from the car through the obd1 protocol &amp; possibly more.<br>-Allow to save every frame received in a database in the phone and export to *.CSV file as needed.<br><br>*********** Engines supported by TOYOBD1 **************<br>please visit www.zf-scantools.com to see the up to date support",
+    "descriptionShort": "Toyota OBD1 data logging application.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown2": "2214390",
+          "unknown3": 29
+        },
+        "developerEmail": "jfrancoisbreton@hotmail.com",
+        "developerName": "ZFApps",
+        "developerWebsite": "http://jfbreton.blogspot.ca/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "2214390",
+            "versionCode": 192
+          }
+        ],
+        "installationSize": "2214390",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "zfapps.toyobd1",
+        "permission": [
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.GET_TASKS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "android.permission.WRITE_SETTINGS"
+        ],
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": false,
+        "uploadDate": "13 Jul 2021",
+        "versionCode": 192,
+        "versionString": "2021-07-13"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=zfapps.toyobd1",
+    "docType": 1,
+    "docid": "zfapps.toyobd1",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/b12fFybopdVrxBEEn2CU8n7x9qGpjWY_ZM83Gw5SYbVTvtjUWpYUi_9GWJTvvylCeNE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/rFRRuIUOIG3zhjHwl0SGhnx-n1ljmtQbf_XzbAMRfyjTOuqtaOxWVlzjm788s0-QZg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 3,
+        "imageUrl": "https://www.youtube.com/watch?v=fgottFgGubw"
+      },
+      {
+        "imageType": 13,
+        "imageUrl": "https://i.ytimg.com/vi/fgottFgGubw/hqdefault.jpg",
+        "supportsFifeUrlOptions": false
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/lAXcY447uvy5UmyjW5YtqWIMWsvbrcaCQkvr_hA6lk_kw9vZgIr-GnW2PnYxcpcZxPU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/UGZxfoAtUVtbOm2s2uVIG13gnJ7aXKWO9N7oerMQcp_Mgc8aigcEM7q5YeaTFOsLOos",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/5HnTKJ9REPBckJlLSZZInwUUEt0nWQfimtZt6eggm5ihWqWKcKZhgp4P3cZoGbkLwNdL",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/nsCdhHNTcE_9x4uCKaSIPCS6Yto0jEIdKEK8SniYbyHwBYwA-xAkiHeHNJnYxse0snfZ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/nm2-QYwAeqKUrXUaX_FHWLIJYIcMnwK__HSHui3FhT5LroyxwF61WMnCvYqXvvDi3S0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/dVQYrMAhW5AE2ogJPnb7H7VTonCZpxMBoFyG2EAttI6JOlfaZTCIHZsz2jE6t42fDBEx",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/YuyXBbpEuFvW3HzoJG9yOK0JD-7976ZUeCUXyjzM18itkcZmOblm_QHWwND3Kbg_vQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/CXO0BRO8_0frgsRF7x9wN3CmYMVRRkDFAix79n25Gu9j_7gBdLH8t6Nl34gmSJ902g",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "Users interact<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=zfapps.toyobd1",
+    "reviewsUrl": "rev?doc=zfapps.toyobd1&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=zfapps.toyobd1",
+    "title": "TOYOBD1",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "ZFApps"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "jfrancoisbreton@hotmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "17 Jun 2014"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "64",
+      "fiveStarRatings": "107",
+      "fourStarRatings": "9",
+      "oneStarRatings": "9",
+      "ratingsCount": "133",
+      "starRating": 4.53,
+      "threeStarRatings": "3",
+      "twoStarRatings": "2",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-07-28 18:40:18.417182",
+    "backendDocid": "zfapps.toyobd1",
+    "backendId": 3,
+    "creator": "ZFApps",
+    "descriptionHtml": "Datalogging application for Toyota OBD1 cars.<br>works with the TOYOCOM &amp; OBD1READ tools from zf-scantools.<br>https://zf-scantools.com/<br><br>-displays data in separate cells or all together in a graph cells<br>-allows to configure each cell display mode by horizontal &amp; vertical swiping<br>-trip computer.<br>-thermal audio alarm in case your engine overheats.<br>-instant MPG calculator.<br>-Allow you to see all data received from the car through the obd1 protocol &amp; possibly more.<br>-Allow to save every frame received in a database in the phone and export to *.CSV file as needed.<br><br>*********** Engines supported by TOYOBD1 **************<br>please visit www.zf-scantools.com to see the up to date support",
+    "descriptionShort": "Toyota OBD1 data logging application.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown2": "2214485",
+          "unknown3": 29
+        },
+        "developerEmail": "jfrancoisbreton@hotmail.com",
+        "developerName": "ZFApps",
+        "developerWebsite": "http://jfbreton.blogspot.ca/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "2214485",
+            "versionCode": 193
+          }
+        ],
+        "installationSize": "2214485",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "zfapps.toyobd1",
+        "permission": [
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.GET_TASKS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "android.permission.WRITE_SETTINGS"
+        ],
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": false,
+        "uploadDate": "27 Jul 2021",
+        "versionCode": 193,
+        "versionString": "2021-08-27"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=zfapps.toyobd1",
+    "docType": 1,
+    "docid": "zfapps.toyobd1",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/b12fFybopdVrxBEEn2CU8n7x9qGpjWY_ZM83Gw5SYbVTvtjUWpYUi_9GWJTvvylCeNE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/rFRRuIUOIG3zhjHwl0SGhnx-n1ljmtQbf_XzbAMRfyjTOuqtaOxWVlzjm788s0-QZg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 3,
+        "imageUrl": "https://www.youtube.com/watch?v=fgottFgGubw"
+      },
+      {
+        "imageType": 13,
+        "imageUrl": "https://i.ytimg.com/vi/fgottFgGubw/hqdefault.jpg",
+        "supportsFifeUrlOptions": false
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/lAXcY447uvy5UmyjW5YtqWIMWsvbrcaCQkvr_hA6lk_kw9vZgIr-GnW2PnYxcpcZxPU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/UGZxfoAtUVtbOm2s2uVIG13gnJ7aXKWO9N7oerMQcp_Mgc8aigcEM7q5YeaTFOsLOos",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/5HnTKJ9REPBckJlLSZZInwUUEt0nWQfimtZt6eggm5ihWqWKcKZhgp4P3cZoGbkLwNdL",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/nsCdhHNTcE_9x4uCKaSIPCS6Yto0jEIdKEK8SniYbyHwBYwA-xAkiHeHNJnYxse0snfZ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/nm2-QYwAeqKUrXUaX_FHWLIJYIcMnwK__HSHui3FhT5LroyxwF61WMnCvYqXvvDi3S0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/dVQYrMAhW5AE2ogJPnb7H7VTonCZpxMBoFyG2EAttI6JOlfaZTCIHZsz2jE6t42fDBEx",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/YuyXBbpEuFvW3HzoJG9yOK0JD-7976ZUeCUXyjzM18itkcZmOblm_QHWwND3Kbg_vQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/CXO0BRO8_0frgsRF7x9wN3CmYMVRRkDFAix79n25Gu9j_7gBdLH8t6Nl34gmSJ902g",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "Users interact<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=zfapps.toyobd1",
+    "reviewsUrl": "rev?doc=zfapps.toyobd1&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=zfapps.toyobd1",
+    "title": "TOYOBD1",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "jfrancoisbreton@hotmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "17 Jun 2014"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "64",
+      "fiveStarRatings": "107",
+      "fourStarRatings": "9",
+      "oneStarRatings": "9",
+      "ratingsCount": "133",
+      "starRating": 4.53,
+      "threeStarRatings": "3",
+      "twoStarRatings": "2",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-09-03 07:31:42.213970",
+    "backendDocid": "zfapps.toyobd1",
+    "backendId": 3,
+    "creator": "ZFApps",
+    "descriptionHtml": "Datalogging application for Toyota OBD1 cars.<br>works with the TOYOCOM &amp; OBD1READ tools from zf-scantools.<br>https://zf-scantools.com/<br><br>-displays data in separate cells or all together in a graph cells<br>-allows to configure each cell display mode by horizontal &amp; vertical swiping<br>-trip computer.<br>-thermal audio alarm in case your engine overheats.<br>-instant MPG calculator.<br>-Allow you to see all data received from the car through the obd1 protocol &amp; possibly more.<br>-Allow to save every frame received in a database in the phone and export to *.CSV file as needed.<br><br>*********** Engines supported by TOYOBD1 **************<br>please visit www.zf-scantools.com to see the up to date support",
+    "descriptionShort": "Toyota OBD1 data logging application.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown2": "2214708",
+          "unknown3": 29
+        },
+        "developerEmail": "jfrancoisbreton@hotmail.com",
+        "developerName": "ZFApps",
+        "developerWebsite": "http://jfbreton.blogspot.ca/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "2214708",
+            "versionCode": 194
+          }
+        ],
+        "installationSize": "2214708",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "zfapps.toyobd1",
+        "permission": [
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.GET_TASKS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "android.permission.WRITE_SETTINGS"
+        ],
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": false,
+        "uploadDate": "2 Sept 2021",
+        "versionCode": 194,
+        "versionString": "2021-09-02"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=zfapps.toyobd1",
+    "docType": 1,
+    "docid": "zfapps.toyobd1",
+    "image": [
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/b12fFybopdVrxBEEn2CU8n7x9qGpjWY_ZM83Gw5SYbVTvtjUWpYUi_9GWJTvvylCeNE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/rFRRuIUOIG3zhjHwl0SGhnx-n1ljmtQbf_XzbAMRfyjTOuqtaOxWVlzjm788s0-QZg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 3,
+        "imageUrl": "https://www.youtube.com/watch?v=fgottFgGubw"
+      },
+      {
+        "imageType": 13,
+        "imageUrl": "https://i.ytimg.com/vi/fgottFgGubw/hqdefault.jpg",
+        "supportsFifeUrlOptions": false
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/lAXcY447uvy5UmyjW5YtqWIMWsvbrcaCQkvr_hA6lk_kw9vZgIr-GnW2PnYxcpcZxPU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/UGZxfoAtUVtbOm2s2uVIG13gnJ7aXKWO9N7oerMQcp_Mgc8aigcEM7q5YeaTFOsLOos",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/5HnTKJ9REPBckJlLSZZInwUUEt0nWQfimtZt6eggm5ihWqWKcKZhgp4P3cZoGbkLwNdL",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/nsCdhHNTcE_9x4uCKaSIPCS6Yto0jEIdKEK8SniYbyHwBYwA-xAkiHeHNJnYxse0snfZ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/nm2-QYwAeqKUrXUaX_FHWLIJYIcMnwK__HSHui3FhT5LroyxwF61WMnCvYqXvvDi3S0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/dVQYrMAhW5AE2ogJPnb7H7VTonCZpxMBoFyG2EAttI6JOlfaZTCIHZsz2jE6t42fDBEx",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/YuyXBbpEuFvW3HzoJG9yOK0JD-7976ZUeCUXyjzM18itkcZmOblm_QHWwND3Kbg_vQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/CXO0BRO8_0frgsRF7x9wN3CmYMVRRkDFAix79n25Gu9j_7gBdLH8t6Nl34gmSJ902g",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "Users interact<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=zfapps.toyobd1",
+    "reviewsUrl": "rev?doc=zfapps.toyobd1&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=zfapps.toyobd1",
+    "title": "TOYOBD1",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "jfrancoisbreton@hotmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "17 Jun 2014"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  }
+]

@@ -1,0 +1,3602 @@
+[
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-08-01 10:55:42.184106",
+    "backendDocid": "com.profmori.foursoulsstatistics",
+    "backendId": 3,
+    "creator": "Four Souls Stats",
+    "descriptionHtml": "This app allows you to store your data when playing The Binding Of Isaac: Four Souls, and allows play groups to sync up their games so all members can access their played games.<br><br>The app will also automatically calculate the win rates and average souls for both your playgroup and the wider community, allowing for more general discussion of the &quot;most powerful&quot; characters, and settle any debates about the &quot;best player&quot; in the group.",
+    "descriptionShort": "An app for storing your data when playing The Binding Of Isaac: Four Souls",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "64785829",
+          "unknown3": 30
+        },
+        "developerEmail": "foursoulsstats@gmail.com",
+        "developerName": "Four Souls Stats",
+        "developerWebsite": "https://github.com/profmori/FourSoulsStats",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "64640438",
+            "versionCode": 4
+          },
+          {
+            "fileType": 0,
+            "size": "70845",
+            "versionCode": 4
+          },
+          {
+            "fileType": 0,
+            "size": "33177",
+            "versionCode": 4
+          },
+          {
+            "fileType": 0,
+            "size": "41369",
+            "versionCode": 4
+          }
+        ],
+        "installationSize": "64785829",
+        "numDownloads": "10+ downloads",
+        "packageName": "com.profmori.foursoulsstatistics",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.INTERNET"
+        ],
+        "recentChangesHtml": "First release with main data entry functions, and a basic statistics page<br><br>V 1.01<br>Changed random string generation to include letters as well as numbers so there should never be an issue<br><br>Fixed the database so it actually syncs across devices properly<br><br>V 1.02<br>Removed the CWC Broken alternate art card since it will no longer be in the game",
+        "unstable": false,
+        "uploadDate": "Jul. 31, 2021",
+        "versionCode": 4,
+        "versionString": "1.02"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.profmori.foursoulsstatistics",
+    "docType": 1,
+    "docid": "com.profmori.foursoulsstatistics",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/5y-jrVI-RzlZz682KVIMMIefb-IRYVwc7fwDPBg_kYHx5aa2_DmIylFu2W--0f-pvw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/_lkMhPh8xQikVWUgYlaI0kNNP1pRd7RwuQqPsN-7ds92_0hKB8TO5jt5WeOsqRuoCpY",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1600,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/vdeLPd6U9jyO05lOaBn04ig6zK_JJq2pu60Qev0wIG7kwKZV2om-bgvHQ3kq9XKdVQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1600,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/3OMimFVGSorovlgor3Dxv9tiO84c0HSVxMhDWV61gMJaFg5gjWJhgcxfgBRYbtDZV_k",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1600,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/vxw61d6QMovijesieIh2eUu8TRldbJChL4TEokAPENbbVu-Hqm5eqFZ6K-TDjkVbA4s",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1600,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/KkS7GpO2AqsPQkWPGuU4Ixt_noIV7mt3BOLCT7lOQab26J0Cb4CAZ534kdwyVu50blo",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1600,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/tTkgqrZFR5wr9Dn9qi8cz_fTLxQnZQcpbbCogdi1dWC36KEhB7vkHe3gYzXLjWIFqcs",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1600,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/mb584W-eSEURB_lvC2hThTgHmdXVxsZRf4igIGgQ31UmR_SNqIWzQwvraWhK6rCFE18",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1600,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/nbf3iFHqTo0otFveNoUuQ14JTPovBTiUcmGAOCWWavul-xvM8SsFfGNoWi2OpnoS6_4",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1600,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/53caym7-plh_g8w6WOFoEM9nI1z_XOeg7Hb6sOsAOhb_adAqG3mX2hwzq3VaDxj_R9w",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "CAD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.profmori.foursoulsstatistics",
+    "reviewsUrl": "rev?doc=com.profmori.foursoulsstatistics&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.profmori.foursoulsstatistics",
+    "title": "Four Souls Statistics",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Four Souls Stats"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "foursoulsstats@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Jul. 24, 2021"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-08-04 23:45:13.569465",
+    "backendDocid": "com.profmori.foursoulsstatistics",
+    "backendId": 3,
+    "creator": "Four Souls Stats",
+    "descriptionHtml": "This app allows you to store your data when playing The Binding Of Isaac: Four Souls, and allows play groups to sync up their games so all members can access their played games.<br><br>The app will also automatically calculate the win rates and average souls for both your playgroup and the wider community, allowing for more general discussion of the &quot;most powerful&quot; characters, and settle any debates about the &quot;best player&quot; in the group.",
+    "descriptionShort": "An app for storing your data when playing The Binding Of Isaac: Four Souls",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "64839618",
+          "unknown3": 30
+        },
+        "developerEmail": "foursoulsstats@gmail.com",
+        "developerName": "Four Souls Stats",
+        "developerWebsite": "https://github.com/profmori/FourSoulsStats",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "64690131",
+            "versionCode": 5
+          },
+          {
+            "fileType": 0,
+            "size": "70845",
+            "versionCode": 5
+          },
+          {
+            "fileType": 0,
+            "size": "37273",
+            "versionCode": 5
+          },
+          {
+            "fileType": 0,
+            "size": "41369",
+            "versionCode": 5
+          }
+        ],
+        "installationSize": "64839618",
+        "numDownloads": "10+ downloads",
+        "packageName": "com.profmori.foursoulsstatistics",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.INTERNET"
+        ],
+        "recentChangesHtml": "First release with main data entry functions, and a basic statistics page<br><br>V 1.01<br>Changed random string generation to include letters as well as numbers so there should never be an issue<br><br>Fixed the database so it actually syncs across devices properly<br><br>V 1.02<br>Removed the CWC Broken alternate art card since it will no longer be in the game<br><br>V 1.03<br><br>Added support for custom items and characters with text input - image addition to follow",
+        "unstable": false,
+        "uploadDate": "1 Aug 2021",
+        "versionCode": 5,
+        "versionString": "1.03"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.profmori.foursoulsstatistics",
+    "docType": 1,
+    "docid": "com.profmori.foursoulsstatistics",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/5y-jrVI-RzlZz682KVIMMIefb-IRYVwc7fwDPBg_kYHx5aa2_DmIylFu2W--0f-pvw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/_lkMhPh8xQikVWUgYlaI0kNNP1pRd7RwuQqPsN-7ds92_0hKB8TO5jt5WeOsqRuoCpY",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1600,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/vdeLPd6U9jyO05lOaBn04ig6zK_JJq2pu60Qev0wIG7kwKZV2om-bgvHQ3kq9XKdVQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1600,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/3OMimFVGSorovlgor3Dxv9tiO84c0HSVxMhDWV61gMJaFg5gjWJhgcxfgBRYbtDZV_k",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1600,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/vxw61d6QMovijesieIh2eUu8TRldbJChL4TEokAPENbbVu-Hqm5eqFZ6K-TDjkVbA4s",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1600,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/KkS7GpO2AqsPQkWPGuU4Ixt_noIV7mt3BOLCT7lOQab26J0Cb4CAZ534kdwyVu50blo",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1600,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/tTkgqrZFR5wr9Dn9qi8cz_fTLxQnZQcpbbCogdi1dWC36KEhB7vkHe3gYzXLjWIFqcs",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1600,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/mb584W-eSEURB_lvC2hThTgHmdXVxsZRf4igIGgQ31UmR_SNqIWzQwvraWhK6rCFE18",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1600,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/nbf3iFHqTo0otFveNoUuQ14JTPovBTiUcmGAOCWWavul-xvM8SsFfGNoWi2OpnoS6_4",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1600,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/53caym7-plh_g8w6WOFoEM9nI1z_XOeg7Hb6sOsAOhb_adAqG3mX2hwzq3VaDxj_R9w",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.profmori.foursoulsstatistics",
+    "reviewsUrl": "rev?doc=com.profmori.foursoulsstatistics&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.profmori.foursoulsstatistics",
+    "title": "Four Souls Statistics",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Four Souls Stats"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "foursoulsstats@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "24 Jul 2021"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-08-19 20:42:28.576768",
+    "backendDocid": "com.profmori.foursoulsstatistics",
+    "backendId": 3,
+    "creator": "Four Souls Stats",
+    "descriptionHtml": "This app allows you to store your data when playing The Binding Of Isaac: Four Souls, and allows play groups to sync up their games so all members can access their played games. You can choose which editions of the game you want to play with, as well as adding your own custom characters and treasures to best match your play group.<br><br>The app will also automatically calculate the win rates and average souls for both your playgroup and the wider community, allowing for more general discussion of the &quot;most powerful&quot; characters, and settle any debates about the &quot;best player&quot; in the group. You can record the games you play, and see up to date statistics for different players in your group. If you make a mistake, you can edit and remove the games from your record.",
+    "descriptionShort": "An app for storing your data when playing The Binding Of Isaac: Four Souls",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "74788553",
+          "unknown3": 30
+        },
+        "developerEmail": "foursoulsstats@gmail.com",
+        "developerName": "Four Souls Stats",
+        "developerWebsite": "https://github.com/profmori/FourSoulsStats",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "74634970",
+            "versionCode": 6
+          },
+          {
+            "fileType": 0,
+            "size": "70845",
+            "versionCode": 6
+          },
+          {
+            "fileType": 0,
+            "size": "37273",
+            "versionCode": 6
+          },
+          {
+            "fileType": 0,
+            "size": "45465",
+            "versionCode": 6
+          }
+        ],
+        "installationSize": "74788553",
+        "numDownloads": "10+ downloads",
+        "packageName": "com.profmori.foursoulsstatistics",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.INTERNET"
+        ],
+        "recentChangesHtml": "Version 2.0:<br><br>Added the ability to add an image for your custom characters<br><br>Added all alt art and promo card art for eden, and made them appear based on selected editions<br><br>Added ability to edit and remove games<br><br>Changed button art, and got rid of purple because it didn&#39;t really fit<br><br>Changed switch art<br><br>Going offline no longer hides the group id input",
+        "unstable": false,
+        "uploadDate": "14 Aug 2021",
+        "versionCode": 6,
+        "versionString": "2.00"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.profmori.foursoulsstatistics",
+    "docType": 1,
+    "docid": "com.profmori.foursoulsstatistics",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/5y-jrVI-RzlZz682KVIMMIefb-IRYVwc7fwDPBg_kYHx5aa2_DmIylFu2W--0f-pvw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/_lkMhPh8xQikVWUgYlaI0kNNP1pRd7RwuQqPsN-7ds92_0hKB8TO5jt5WeOsqRuoCpY",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1600,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/6JAoGrd_Xuj7VlAhMw3mWIa5Gf7UbllCgEWzrfbfvKl3qWc0xEhp15_p4wwoaFVLKqwr",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1600,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/f6KZITWdR0Kv9HYdUNjL3AVM_OLWJtzdpgG1suMfFyE1SzaloX2irz4rjLNp9pe2CA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1600,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/rujrPWppKrWayuxuGmunu4VpQ7UNNOT5yAwIq061iHanQThC7lbURHPusCIs5Ms6AWSx",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1600,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/kiDASz7QjVZpjuJ91ZWBoQaX9uiqmpqjUhQBbTaeDeET300kAC4NPIeqN3saNDWPDDk",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1600,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/gq4HOVJ17RDHWGiKQjUQjNsDiIY5ZYG1yUQCQTpQbfRcdkCPpmxVKahUMX1a5CtV9LCp",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1600,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/94mAh1jteeocIc2B8taB9Ycgj8CNrmdXYt-ByJrGNhdNk8yksMEjlE1gpQDnq4RSSg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1600,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/5gEcxP9Pjln3SUDh0bJ1rKVZTtVRae2jQQwe7Y4llHWJD_DJ40wRtTY-kyBqbKMtXA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1600,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/gQO7NYmfXOuWc3qxDhN7wJWjMTyXdwETvZr4XF3zaR4AlfzgDNVaZnULsEIwDpFsCMM",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.profmori.foursoulsstatistics",
+    "reviewsUrl": "rev?doc=com.profmori.foursoulsstatistics&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.profmori.foursoulsstatistics",
+    "title": "Four Souls Statistics",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Four Souls Stats"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "foursoulsstats@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "24 Jul 2021"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-08-25 04:09:17.726566",
+    "backendDocid": "com.profmori.foursoulsstatistics",
+    "backendId": 3,
+    "creator": "Four Souls Stats",
+    "descriptionHtml": "This app allows you to store your data when playing The Binding Of Isaac: Four Souls, and allows play groups to sync up their games so all members can access their played games. You can choose which editions of the game you want to play with, as well as adding your own custom characters and treasures to best match your play group.<br><br>The app will also automatically calculate the win rates and average souls for both your playgroup and the wider community, allowing for more general discussion of the &quot;most powerful&quot; characters, and settle any debates about the &quot;best player&quot; in the group. You can record the games you play, and see up to date statistics for different players in your group. If you make a mistake, you can edit and remove the games from your record.",
+    "descriptionShort": "An app for storing your data when playing The Binding Of Isaac: Four Souls",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "74690278",
+          "unknown3": 30
+        },
+        "developerEmail": "foursoulsstats@gmail.com",
+        "developerName": "Four Souls Stats",
+        "developerWebsite": "https://github.com/profmori/FourSoulsStats",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "74536695",
+            "versionCode": 7
+          },
+          {
+            "fileType": 0,
+            "size": "70845",
+            "versionCode": 7
+          },
+          {
+            "fileType": 0,
+            "size": "37273",
+            "versionCode": 7
+          },
+          {
+            "fileType": 0,
+            "size": "45465",
+            "versionCode": 7
+          }
+        ],
+        "installationSize": "74690278",
+        "numDownloads": "10+ downloads",
+        "packageName": "com.profmori.foursoulsstatistics",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.INTERNET"
+        ],
+        "recentChangesHtml": "Version 2.0:<br><br>Added the ability to add an image for your custom characters<br><br>Added ability to edit and remove games<br><br>Going offline no longer hides the group id input<br><br>Version 2.01:<br><br>Added a new font for legibility (Atkinson Hyperlegible)<br><br>Changed group ids to no longer include O, so there is no longer confusion between O and 0<br><br>Added a tutorial entry for editing games",
+        "unstable": false,
+        "uploadDate": "23 Aug 2021",
+        "versionCode": 7,
+        "versionString": "2.01"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.profmori.foursoulsstatistics",
+    "docType": 1,
+    "docid": "com.profmori.foursoulsstatistics",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/5y-jrVI-RzlZz682KVIMMIefb-IRYVwc7fwDPBg_kYHx5aa2_DmIylFu2W--0f-pvw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/_lkMhPh8xQikVWUgYlaI0kNNP1pRd7RwuQqPsN-7ds92_0hKB8TO5jt5WeOsqRuoCpY",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1600,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/6JAoGrd_Xuj7VlAhMw3mWIa5Gf7UbllCgEWzrfbfvKl3qWc0xEhp15_p4wwoaFVLKqwr",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1600,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/f6KZITWdR0Kv9HYdUNjL3AVM_OLWJtzdpgG1suMfFyE1SzaloX2irz4rjLNp9pe2CA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1600,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/rujrPWppKrWayuxuGmunu4VpQ7UNNOT5yAwIq061iHanQThC7lbURHPusCIs5Ms6AWSx",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1600,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/kiDASz7QjVZpjuJ91ZWBoQaX9uiqmpqjUhQBbTaeDeET300kAC4NPIeqN3saNDWPDDk",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1600,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/gq4HOVJ17RDHWGiKQjUQjNsDiIY5ZYG1yUQCQTpQbfRcdkCPpmxVKahUMX1a5CtV9LCp",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1600,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/94mAh1jteeocIc2B8taB9Ycgj8CNrmdXYt-ByJrGNhdNk8yksMEjlE1gpQDnq4RSSg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1600,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/5gEcxP9Pjln3SUDh0bJ1rKVZTtVRae2jQQwe7Y4llHWJD_DJ40wRtTY-kyBqbKMtXA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1600,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/gQO7NYmfXOuWc3qxDhN7wJWjMTyXdwETvZr4XF3zaR4AlfzgDNVaZnULsEIwDpFsCMM",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.profmori.foursoulsstatistics",
+    "reviewsUrl": "rev?doc=com.profmori.foursoulsstatistics&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.profmori.foursoulsstatistics",
+    "title": "Four Souls Statistics",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Four Souls Stats"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "foursoulsstats@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "24 Jul 2021"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-08-29 10:01:46.300317",
+    "backendDocid": "com.profmori.foursoulsstatistics",
+    "backendId": 3,
+    "creator": "Four Souls Stats",
+    "descriptionHtml": "This app allows you to store your data when playing The Binding Of Isaac: Four Souls, and allows play groups to sync up their games so all members can access their played games. You can choose which editions of the game you want to play with, as well as adding your own custom characters and treasures to best match your play group.<br><br>The app will also automatically calculate the win rates and average souls for both your playgroup and the wider community, allowing for more general discussion of the &quot;most powerful&quot; characters, and settle any debates about the &quot;best player&quot; in the group. You can record the games you play, and see up to date statistics for different players in your group. If you make a mistake, you can edit and remove the games from your record.",
+    "descriptionShort": "An app for storing your data when playing The Binding Of Isaac: Four Souls",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "74900076",
+          "unknown3": 30
+        },
+        "developerEmail": "foursoulsstats@gmail.com",
+        "developerName": "Four Souls Stats",
+        "developerWebsite": "https://github.com/profmori/FourSoulsStats",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "74754685",
+            "versionCode": 8
+          },
+          {
+            "fileType": 0,
+            "size": "70845",
+            "versionCode": 8
+          },
+          {
+            "fileType": 0,
+            "size": "29081",
+            "versionCode": 8
+          },
+          {
+            "fileType": 0,
+            "size": "45465",
+            "versionCode": 8
+          }
+        ],
+        "installationSize": "74900076",
+        "numDownloads": "10+ downloads",
+        "packageName": "com.profmori.foursoulsstatistics",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.INTERNET"
+        ],
+        "recentChangesHtml": "Version 2.0:<br><br>Added the ability to add an image for your custom characters<br><br>Added ability to edit and remove games<br><br>Going offline no longer hides the group id input<br><br>Version 2.01:<br><br>Added a new font for legibility (Atkinson Hyperlegible)<br><br>Changed group ids to no longer include O, so there is no longer confusion between O and 0<br><br>Added a tutorial entry for editing games<br><br>Version 2.02:<br><br>Backend changes for future compatibility",
+        "unstable": false,
+        "uploadDate": "26 Aug 2021",
+        "versionCode": 8,
+        "versionString": "2.02"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.profmori.foursoulsstatistics",
+    "docType": 1,
+    "docid": "com.profmori.foursoulsstatistics",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/5y-jrVI-RzlZz682KVIMMIefb-IRYVwc7fwDPBg_kYHx5aa2_DmIylFu2W--0f-pvw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/_lkMhPh8xQikVWUgYlaI0kNNP1pRd7RwuQqPsN-7ds92_0hKB8TO5jt5WeOsqRuoCpY",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1600,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/6JAoGrd_Xuj7VlAhMw3mWIa5Gf7UbllCgEWzrfbfvKl3qWc0xEhp15_p4wwoaFVLKqwr",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1600,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/f6KZITWdR0Kv9HYdUNjL3AVM_OLWJtzdpgG1suMfFyE1SzaloX2irz4rjLNp9pe2CA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1600,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/rujrPWppKrWayuxuGmunu4VpQ7UNNOT5yAwIq061iHanQThC7lbURHPusCIs5Ms6AWSx",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1600,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/kiDASz7QjVZpjuJ91ZWBoQaX9uiqmpqjUhQBbTaeDeET300kAC4NPIeqN3saNDWPDDk",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1600,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/gq4HOVJ17RDHWGiKQjUQjNsDiIY5ZYG1yUQCQTpQbfRcdkCPpmxVKahUMX1a5CtV9LCp",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1600,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/94mAh1jteeocIc2B8taB9Ycgj8CNrmdXYt-ByJrGNhdNk8yksMEjlE1gpQDnq4RSSg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1600,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/5gEcxP9Pjln3SUDh0bJ1rKVZTtVRae2jQQwe7Y4llHWJD_DJ40wRtTY-kyBqbKMtXA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1600,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/gQO7NYmfXOuWc3qxDhN7wJWjMTyXdwETvZr4XF3zaR4AlfzgDNVaZnULsEIwDpFsCMM",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.profmori.foursoulsstatistics",
+    "reviewsUrl": "rev?doc=com.profmori.foursoulsstatistics&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.profmori.foursoulsstatistics",
+    "title": "Four Souls Statistics",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "foursoulsstats@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "24 Jul 2021"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-09-19 01:19:32.540023",
+    "backendDocid": "com.profmori.foursoulsstatistics",
+    "backendId": 3,
+    "creator": "Four Souls Stats",
+    "descriptionHtml": "This app allows you to store your data when playing The Binding Of Isaac: Four Souls, and allows play groups to sync up their games so all members can access their played games. You can choose which editions of the game you want to play with, as well as adding your own custom characters and treasures to best match your play group.<br><br>The app will also automatically calculate the win rates and average souls for both your playgroup and the wider community, allowing for more general discussion of the &quot;most powerful&quot; characters, and settle any debates about the &quot;best player&quot; in the group. You can record the games you play, and see up to date statistics for different players in your group. If you make a mistake, you can edit and remove the games from your record.",
+    "descriptionShort": "An app for storing your data when playing The Binding Of Isaac: Four Souls",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "47608663",
+          "unknown3": 30
+        },
+        "developerEmail": "foursoulsstats@gmail.com",
+        "developerName": "Four Souls Stats",
+        "developerWebsite": "https://github.com/profmori/FourSoulsStats",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "47459176",
+            "versionCode": 10
+          },
+          {
+            "fileType": 0,
+            "size": "70845",
+            "versionCode": 10
+          },
+          {
+            "fileType": 0,
+            "size": "33177",
+            "versionCode": 10
+          },
+          {
+            "fileType": 0,
+            "size": "45465",
+            "versionCode": 10
+          }
+        ],
+        "installationSize": "47608663",
+        "numDownloads": "50+ downloads",
+        "packageName": "com.profmori.foursoulsstatistics",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.INTERNET"
+        ],
+        "recentChangesHtml": "Version 2.03:<br><br>Added ability to reset the tutorial and clear any stored data on the device<br><br>Made the settings page scrollable<br><br>Version 2.04:<br><br>Added support for statistics filtering for both number of players and number of characters<br><br>Added the ability to feedback using other methods that GitHub<br><br>Added new sections for community metrics for character and eternal item, which are also filterable",
+        "unstable": false,
+        "uploadDate": "Sep. 14, 2021",
+        "versionCode": 10,
+        "versionString": "2.04"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.profmori.foursoulsstatistics",
+    "docType": 1,
+    "docid": "com.profmori.foursoulsstatistics",
+    "image": [
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/5y-jrVI-RzlZz682KVIMMIefb-IRYVwc7fwDPBg_kYHx5aa2_DmIylFu2W--0f-pvw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/_lkMhPh8xQikVWUgYlaI0kNNP1pRd7RwuQqPsN-7ds92_0hKB8TO5jt5WeOsqRuoCpY",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1600,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/6JAoGrd_Xuj7VlAhMw3mWIa5Gf7UbllCgEWzrfbfvKl3qWc0xEhp15_p4wwoaFVLKqwr",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1600,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/f6KZITWdR0Kv9HYdUNjL3AVM_OLWJtzdpgG1suMfFyE1SzaloX2irz4rjLNp9pe2CA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1600,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/rujrPWppKrWayuxuGmunu4VpQ7UNNOT5yAwIq061iHanQThC7lbURHPusCIs5Ms6AWSx",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1600,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/kiDASz7QjVZpjuJ91ZWBoQaX9uiqmpqjUhQBbTaeDeET300kAC4NPIeqN3saNDWPDDk",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1600,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/gq4HOVJ17RDHWGiKQjUQjNsDiIY5ZYG1yUQCQTpQbfRcdkCPpmxVKahUMX1a5CtV9LCp",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1600,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/94mAh1jteeocIc2B8taB9Ycgj8CNrmdXYt-ByJrGNhdNk8yksMEjlE1gpQDnq4RSSg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1600,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/5gEcxP9Pjln3SUDh0bJ1rKVZTtVRae2jQQwe7Y4llHWJD_DJ40wRtTY-kyBqbKMtXA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1600,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/gQO7NYmfXOuWc3qxDhN7wJWjMTyXdwETvZr4XF3zaR4AlfzgDNVaZnULsEIwDpFsCMM",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "CAD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.profmori.foursoulsstatistics",
+    "reviewsUrl": "rev?doc=com.profmori.foursoulsstatistics&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.profmori.foursoulsstatistics",
+    "title": "Four Souls Statistics",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Four Souls Stats"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "foursoulsstats@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Jul. 24, 2021"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-09-27 19:57:23.667902",
+    "backendDocid": "com.profmori.foursoulsstatistics",
+    "backendId": 3,
+    "creator": "Four Souls Stats",
+    "descriptionHtml": "This app allows you to store your data when playing The Binding Of Isaac: Four Souls, and allows play groups to sync up their games so all members can access their played games. You can choose which editions of the game you want to play with, as well as adding your own custom characters and treasures to best match your play group.<br><br>The app will also automatically calculate the win rates and average souls for both your playgroup and the wider community, allowing for more general discussion of the &quot;most powerful&quot; characters, and settle any debates about the &quot;best player&quot; in the group. You can record the games you play, and see up to date statistics for different players in your group. If you make a mistake, you can edit and remove the games from your record.<br><br>This app also collates the community data stored in its servers to give an indication of the strongest characters as an overall community.",
+    "descriptionShort": "An app for storing your data when playing The Binding Of Isaac: Four Souls",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "47604493",
+          "unknown3": 30
+        },
+        "developerEmail": "foursoulsstats@gmail.com",
+        "developerName": "Four Souls Stats",
+        "developerWebsite": "https://github.com/profmori/FourSoulsStats",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "47459102",
+            "versionCode": 11
+          },
+          {
+            "fileType": 0,
+            "size": "70845",
+            "versionCode": 11
+          },
+          {
+            "fileType": 0,
+            "size": "29081",
+            "versionCode": 11
+          },
+          {
+            "fileType": 0,
+            "size": "45465",
+            "versionCode": 11
+          }
+        ],
+        "installationSize": "47604493",
+        "numDownloads": "50+ downloads",
+        "packageName": "com.profmori.foursoulsstatistics",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.INTERNET"
+        ],
+        "recentChangesHtml": "Version 2.03:<br><br>Added ability to reset the tutorial and clear any stored data on the device<br><br>Made the settings page scrollable<br><br>Version 2.04:<br><br>Added support for statistics filtering for both number of players and number of characters<br><br>Added the ability to feedback using other methods that GitHub<br><br>Added new sections for community metrics for character and eternal item, which are also filterable<br><br>Version 2.05:<br><br>Minor bugfixes",
+        "unstable": false,
+        "uploadDate": "27 Sept 2021",
+        "versionCode": 11,
+        "versionString": "2.05"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.profmori.foursoulsstatistics",
+    "docType": 1,
+    "docid": "com.profmori.foursoulsstatistics",
+    "image": [
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/5y-jrVI-RzlZz682KVIMMIefb-IRYVwc7fwDPBg_kYHx5aa2_DmIylFu2W--0f-pvw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/_lkMhPh8xQikVWUgYlaI0kNNP1pRd7RwuQqPsN-7ds92_0hKB8TO5jt5WeOsqRuoCpY",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1546,
+          "width": 719
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/4NLHTraJC5jyCb-4y8VOdrBYLDSUakm_QgxpEk5ygVaYOnnUeG1yLMX70QRXLzszSLM",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1548,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/z2nodtxz5x5tSeyMP0E70EROxkdnNwKFyNoNPD7QMmSjoU-D5ZqPV-N5jJ4USuUhNxPP",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1421,
+          "width": 648
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/f6kfnDScqOK6j3W-Z6ilfGoF6YIYhj20sG4tp_7lRy0YcUQ46i2ll_yUCIJ-nB-K4wDo",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1417,
+          "width": 648
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/rkAJ9mlGpMlqa4VOkjjhPNE580UifGXue5cvC5eE-UpVFOzs2OebzPUQI-ytv1Nd-yQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1548,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/vJR26DenEhfAW6Vwa9lVQMYbt8GQ7dO92910EGDLXDtu0tG3cP6K8YnYrBB9Op2upWxG",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1548,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/wtFw9xoIzTPUgaTWX-gwG8e9JY0aga3-KeMIDAAhbsUFf1ayxKJAT0qXLH9Yfuojod4",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1548,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/HV-kehHEpricaaxSDIfIgR62Bp9DmkjXXF76wIkZIk6tV4Kj2LHlUV3oqqk1_6qKJEw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1546,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/zgoC1QMHKwmEn2VOOTmpNjYPCyfk4CTRIsI8ZMXirsEv5y6VAumYAO8CLMVw5mK4-Q",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.profmori.foursoulsstatistics",
+    "reviewsUrl": "rev?doc=com.profmori.foursoulsstatistics&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.profmori.foursoulsstatistics",
+    "title": "Four Souls Statistics",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "foursoulsstats@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "24 Jul 2021"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-10-16 08:13:33.354334",
+    "backendDocid": "com.profmori.foursoulsstatistics",
+    "backendId": 3,
+    "creator": "Four Souls Stats",
+    "descriptionHtml": "This app allows you to store your data when playing The Binding Of Isaac: Four Souls, and allows play groups to sync up their games so all members can access their played games. You can choose which editions of the game you want to play with, as well as adding your own custom characters and treasures to best match your play group.<br><br>The app will also automatically calculate the win rates and average souls for both your playgroup and the wider community, allowing for more general discussion of the &quot;most powerful&quot; characters, and settle any debates about the &quot;best player&quot; in the group. You can record the games you play, and see up to date statistics for different players in your group. If you make a mistake, you can edit and remove the games from your record.<br><br>This app also collates the community data stored in its servers to give an indication of the strongest characters as an overall community.",
+    "descriptionShort": "An app for storing your data when playing The Binding Of Isaac: Four Souls",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "67004316",
+          "unknown3": 30
+        },
+        "developerEmail": "foursoulsstats@gmail.com",
+        "developerName": "Four Souls Stats",
+        "developerWebsite": "https://github.com/profmori/FourSoulsStats",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "66788475",
+            "versionCode": 13
+          },
+          {
+            "fileType": 0,
+            "size": "70845",
+            "versionCode": 13
+          },
+          {
+            "fileType": 0,
+            "size": "29081",
+            "versionCode": 13
+          },
+          {
+            "fileType": 0,
+            "size": "33177",
+            "versionCode": 13
+          },
+          {
+            "fileType": 0,
+            "size": "45465",
+            "versionCode": 13
+          },
+          {
+            "fileType": 0,
+            "size": "37273",
+            "versionCode": 13
+          }
+        ],
+        "installationSize": "67004316",
+        "numDownloads": "50+ downloads",
+        "packageName": "com.profmori.foursoulsstatistics",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.INTERNET"
+        ],
+        "recentChangesHtml": "Version 2.03:<br><br>Added ability to reset the tutorial and clear any stored data on the device<br><br>Version 2.04:<br><br>Added support for statistics filtering, and access to community statistics<br><br>Added the ability to feedback by email<br><br>Version 3.0:<br><br>Added in the new requiem art for all the characters<br><br>Fixed some minor networking issues that were causing the app to freeze<br><br>Removed invalid eternal items for Eden, and added requiem treasures<br><br>Other minor change for usability",
+        "unstable": false,
+        "uploadDate": "12 Oct 2021",
+        "versionCode": 13,
+        "versionString": "3.0"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.profmori.foursoulsstatistics",
+    "docType": 1,
+    "docid": "com.profmori.foursoulsstatistics",
+    "image": [
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/5y-jrVI-RzlZz682KVIMMIefb-IRYVwc7fwDPBg_kYHx5aa2_DmIylFu2W--0f-pvw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/_lkMhPh8xQikVWUgYlaI0kNNP1pRd7RwuQqPsN-7ds92_0hKB8TO5jt5WeOsqRuoCpY",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1546,
+          "width": 719
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/4NLHTraJC5jyCb-4y8VOdrBYLDSUakm_QgxpEk5ygVaYOnnUeG1yLMX70QRXLzszSLM",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1548,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/z2nodtxz5x5tSeyMP0E70EROxkdnNwKFyNoNPD7QMmSjoU-D5ZqPV-N5jJ4USuUhNxPP",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1421,
+          "width": 648
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/f6kfnDScqOK6j3W-Z6ilfGoF6YIYhj20sG4tp_7lRy0YcUQ46i2ll_yUCIJ-nB-K4wDo",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1417,
+          "width": 648
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/rkAJ9mlGpMlqa4VOkjjhPNE580UifGXue5cvC5eE-UpVFOzs2OebzPUQI-ytv1Nd-yQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1548,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/vJR26DenEhfAW6Vwa9lVQMYbt8GQ7dO92910EGDLXDtu0tG3cP6K8YnYrBB9Op2upWxG",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1548,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/wtFw9xoIzTPUgaTWX-gwG8e9JY0aga3-KeMIDAAhbsUFf1ayxKJAT0qXLH9Yfuojod4",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1548,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/HV-kehHEpricaaxSDIfIgR62Bp9DmkjXXF76wIkZIk6tV4Kj2LHlUV3oqqk1_6qKJEw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1554,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/0tIb86daAosqnTcu3fJ8NM84LcORUM6YTWZX76eUvlqFw2CQdTv6rZ9qCQAvIo8WmaQ",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.profmori.foursoulsstatistics",
+    "reviewsUrl": "rev?doc=com.profmori.foursoulsstatistics&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.profmori.foursoulsstatistics",
+    "title": "Four Souls Statistics",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "foursoulsstats@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "24 Jul 2021"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-10-21 14:46:26.364812",
+    "backendDocid": "com.profmori.foursoulsstatistics",
+    "backendId": 3,
+    "creator": "Four Souls Stats",
+    "descriptionHtml": "This app allows you to store your data when playing The Binding Of Isaac: Four Souls, and allows play groups to sync up their games so all members can access their played games. You can choose which editions of the game you want to play with, as well as adding your own custom characters and treasures to best match your play group.<br><br>The app will also automatically calculate the win rates and average souls for both your playgroup and the wider community, allowing for more general discussion of the &quot;most powerful&quot; characters, and settle any debates about the &quot;best player&quot; in the group. You can record the games you play, and see up to date statistics for different players in your group. If you make a mistake, you can edit and remove the games from your record.<br><br>This app also collates the community data stored in its servers to give an indication of the strongest characters as an overall community.",
+    "descriptionShort": "An app for storing your data when playing The Binding Of Isaac: Four Souls",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "67413282",
+          "unknown3": 30
+        },
+        "developerEmail": "foursoulsstats@gmail.com",
+        "developerName": "Four Souls Stats",
+        "developerWebsite": "https://github.com/profmori/FourSoulsStats",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "67263795",
+            "versionCode": 14
+          },
+          {
+            "fileType": 0,
+            "size": "70845",
+            "versionCode": 14
+          },
+          {
+            "fileType": 0,
+            "size": "33177",
+            "versionCode": 14
+          },
+          {
+            "fileType": 0,
+            "size": "45465",
+            "versionCode": 14
+          }
+        ],
+        "installationSize": "67413282",
+        "numDownloads": "50+ downloads",
+        "packageName": "com.profmori.foursoulsstatistics",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.INTERNET"
+        ],
+        "recentChangesHtml": "Version 3.0:<br><br>Added in the new requiem art for all the characters<br><br>Fixed some minor networking issues that were causing the app to freeze<br><br>Removed invalid eternal items for Eden, and added requiem treasures<br><br>Other minor change for usability<br><br>Version 3.01:<br>Added in Flash Isaac, so all characters are now here<br><br>Added in a few new borders and backgrounds<br><br>Minor bugfixes",
+        "unstable": false,
+        "uploadDate": "20 Oct 2021",
+        "versionCode": 14,
+        "versionString": "3.1"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.profmori.foursoulsstatistics",
+    "docType": 1,
+    "docid": "com.profmori.foursoulsstatistics",
+    "image": [
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/5y-jrVI-RzlZz682KVIMMIefb-IRYVwc7fwDPBg_kYHx5aa2_DmIylFu2W--0f-pvw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/_lkMhPh8xQikVWUgYlaI0kNNP1pRd7RwuQqPsN-7ds92_0hKB8TO5jt5WeOsqRuoCpY",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1546,
+          "width": 719
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/4NLHTraJC5jyCb-4y8VOdrBYLDSUakm_QgxpEk5ygVaYOnnUeG1yLMX70QRXLzszSLM",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1548,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/z2nodtxz5x5tSeyMP0E70EROxkdnNwKFyNoNPD7QMmSjoU-D5ZqPV-N5jJ4USuUhNxPP",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1421,
+          "width": 648
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/f6kfnDScqOK6j3W-Z6ilfGoF6YIYhj20sG4tp_7lRy0YcUQ46i2ll_yUCIJ-nB-K4wDo",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1417,
+          "width": 648
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/rkAJ9mlGpMlqa4VOkjjhPNE580UifGXue5cvC5eE-UpVFOzs2OebzPUQI-ytv1Nd-yQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1548,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/vJR26DenEhfAW6Vwa9lVQMYbt8GQ7dO92910EGDLXDtu0tG3cP6K8YnYrBB9Op2upWxG",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1548,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/wtFw9xoIzTPUgaTWX-gwG8e9JY0aga3-KeMIDAAhbsUFf1ayxKJAT0qXLH9Yfuojod4",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1548,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/HV-kehHEpricaaxSDIfIgR62Bp9DmkjXXF76wIkZIk6tV4Kj2LHlUV3oqqk1_6qKJEw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1554,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/0tIb86daAosqnTcu3fJ8NM84LcORUM6YTWZX76eUvlqFw2CQdTv6rZ9qCQAvIo8WmaQ",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.profmori.foursoulsstatistics",
+    "reviewsUrl": "rev?doc=com.profmori.foursoulsstatistics&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.profmori.foursoulsstatistics",
+    "title": "Four Souls Statistics",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "foursoulsstats@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "24 Jul 2021"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-10-27 14:20:23.622094",
+    "backendDocid": "com.profmori.foursoulsstatistics",
+    "backendId": 3,
+    "creator": "Four Souls Stats",
+    "descriptionHtml": "This app allows you to store your data when playing The Binding Of Isaac: Four Souls, and allows play groups to sync up their games so all members can access their played games. You can choose which editions of the game you want to play with, as well as adding your own custom characters and treasures to best match your play group.<br><br>The app will also automatically calculate the win rates and average souls for both your playgroup and the wider community, allowing for more general discussion of the &quot;most powerful&quot; characters, and settle any debates about the &quot;best player&quot; in the group. You can record the games you play, and see up to date statistics for different players in your group. If you make a mistake, you can edit and remove the games from your record.<br><br>This app also collates the community data stored in its servers to give an indication of the strongest characters as an overall community.",
+    "descriptionShort": "An app for storing your data when playing The Binding Of Isaac: Four Souls",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "67417378",
+          "unknown3": 30
+        },
+        "developerEmail": "foursoulsstats@gmail.com",
+        "developerName": "Four Souls Stats",
+        "developerWebsite": "https://github.com/profmori/FourSoulsStats",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "67263795",
+            "versionCode": 15
+          },
+          {
+            "fileType": 0,
+            "size": "70845",
+            "versionCode": 15
+          },
+          {
+            "fileType": 0,
+            "size": "37273",
+            "versionCode": 15
+          },
+          {
+            "fileType": 0,
+            "size": "45465",
+            "versionCode": 15
+          }
+        ],
+        "installationSize": "67417378",
+        "numDownloads": "50+ downloads",
+        "packageName": "com.profmori.foursoulsstatistics",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.INTERNET"
+        ],
+        "recentChangesHtml": "Version 3.02:<br><br>Minor Bugfixes<br><br>Filter the community eternal stats to be only relevant items<br><br>Version 3.01:<br>Added in Flash Isaac, so all characters are now here<br><br>Added in a few new borders and backgrounds<br><br>Minor bugfixes<br>Version 3.0:<br><br>Added in the new requiem art for all the characters<br><br>Fixed some minor networking issues that were causing the app to freeze<br><br>Removed invalid eternal items for Eden, and added requiem treasures<br><br>Other minor change for usability",
+        "unstable": false,
+        "uploadDate": "25 Oct 2021",
+        "versionCode": 15,
+        "versionString": "3.02"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.profmori.foursoulsstatistics",
+    "docType": 1,
+    "docid": "com.profmori.foursoulsstatistics",
+    "image": [
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/5y-jrVI-RzlZz682KVIMMIefb-IRYVwc7fwDPBg_kYHx5aa2_DmIylFu2W--0f-pvw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/_lkMhPh8xQikVWUgYlaI0kNNP1pRd7RwuQqPsN-7ds92_0hKB8TO5jt5WeOsqRuoCpY",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1546,
+          "width": 719
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/4NLHTraJC5jyCb-4y8VOdrBYLDSUakm_QgxpEk5ygVaYOnnUeG1yLMX70QRXLzszSLM",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1548,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/z2nodtxz5x5tSeyMP0E70EROxkdnNwKFyNoNPD7QMmSjoU-D5ZqPV-N5jJ4USuUhNxPP",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1421,
+          "width": 648
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/f6kfnDScqOK6j3W-Z6ilfGoF6YIYhj20sG4tp_7lRy0YcUQ46i2ll_yUCIJ-nB-K4wDo",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1417,
+          "width": 648
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/rkAJ9mlGpMlqa4VOkjjhPNE580UifGXue5cvC5eE-UpVFOzs2OebzPUQI-ytv1Nd-yQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1548,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/vJR26DenEhfAW6Vwa9lVQMYbt8GQ7dO92910EGDLXDtu0tG3cP6K8YnYrBB9Op2upWxG",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1548,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/wtFw9xoIzTPUgaTWX-gwG8e9JY0aga3-KeMIDAAhbsUFf1ayxKJAT0qXLH9Yfuojod4",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1548,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/HV-kehHEpricaaxSDIfIgR62Bp9DmkjXXF76wIkZIk6tV4Kj2LHlUV3oqqk1_6qKJEw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1554,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/0tIb86daAosqnTcu3fJ8NM84LcORUM6YTWZX76eUvlqFw2CQdTv6rZ9qCQAvIo8WmaQ",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.profmori.foursoulsstatistics",
+    "reviewsUrl": "rev?doc=com.profmori.foursoulsstatistics&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.profmori.foursoulsstatistics",
+    "title": "Four Souls Statistics",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Four Souls Stats"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "foursoulsstats@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "24 Jul 2021"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-12-20 22:15:37.786853",
+    "backendDocid": "com.profmori.foursoulsstatistics",
+    "backendId": 3,
+    "creator": "Four Souls Stats",
+    "descriptionHtml": "This app allows you to store your data when playing The Binding Of Isaac: Four Souls, and allows play groups to sync up their games so all members can access their played games. You can choose which editions of the game you want to play with, as well as adding your own custom characters and treasures to best match your play group.<br><br>The app will also automatically calculate the win rates and average souls for both your playgroup and the wider community, allowing for more general discussion of the &quot;most powerful&quot; characters, and settle any debates about the &quot;best player&quot; in the group. You can record the games you play, and see up to date statistics for different players in your group. If you make a mistake, you can edit and remove the games from your record.<br><br>This app also collates the community data stored in its servers to give an indication of the strongest characters as an overall community.",
+    "descriptionShort": "An app for storing your data when playing The Binding Of Isaac: Four Souls",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "71329350",
+          "unknown3": 31
+        },
+        "developerEmail": "foursoulsstats@gmail.com",
+        "developerName": "Four Souls Stats",
+        "developerWebsite": "https://github.com/profmori/FourSoulsStats",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "71113509",
+            "versionCode": 17
+          },
+          {
+            "fileType": 0,
+            "size": "70845",
+            "versionCode": 17
+          },
+          {
+            "fileType": 0,
+            "size": "29081",
+            "versionCode": 17
+          },
+          {
+            "fileType": 0,
+            "size": "33177",
+            "versionCode": 17
+          },
+          {
+            "fileType": 0,
+            "size": "45465",
+            "versionCode": 17
+          },
+          {
+            "fileType": 0,
+            "size": "37273",
+            "versionCode": 17
+          }
+        ],
+        "installationSize": "71329350",
+        "numDownloads": "100+ downloads",
+        "packageName": "com.profmori.foursoulsstatistics",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.INTERNET"
+        ],
+        "recentChangesHtml": "Version 4.01<br><br>Added version recaps to the app so that updates are more visible<br>Added a new randomise button in the character entry page<br>Added icons for each set rather than a list of sliders<br>Minor quality of life updates &amp; bugfixes",
+        "unstable": false,
+        "uploadDate": "15 Dec 2021",
+        "versionCode": 17,
+        "versionString": "4.01"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.profmori.foursoulsstatistics",
+    "docType": 1,
+    "docid": "com.profmori.foursoulsstatistics",
+    "image": [
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/5y-jrVI-RzlZz682KVIMMIefb-IRYVwc7fwDPBg_kYHx5aa2_DmIylFu2W--0f-pvw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#080808",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/_lkMhPh8xQikVWUgYlaI0kNNP1pRd7RwuQqPsN-7ds92_0hKB8TO5jt5WeOsqRuoCpY",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2400,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/c_jinfw2ZtJg9pKLarB8mwTuxmlp78tmhLTNIznjH9TDxyOPM1Z4STB3NR5mbvY_RQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2400,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/hSqlnAnJsUfyC9iPPOHKRsOrfV84FchtPGiZFAhEVXfIebkOmq6ef0_qeIh0bVky4tM",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2400,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/CVU-uSVlJCxpFukJinUoY6k4T3nSJ5XnesS1vsm9TI3HWIPyehNv5yH4V3-QPPJsVrE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2400,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/4Z32MQZr4DAi5PmGueuYk2oRsakU_Omdhssa4rqY4aqP7MGyHEeLH0_OQGKbJH0dvA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2400,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/p16sY-mk8NBAzjusctwrwR5DMDjb_FqGPz-5pNd_agumyiaxGKjqg497LKOnU03qlzc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2400,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/sYsEb45nBaQwX-orqlfjIs5-kftvHynCtFgnK4e57CVv4EZHE3A3fi5kcUAycpNyXPQk",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2400,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Z23dNCfAcFdBYzdyKkmn7yBhDgec1jE6UX_VClEIWmkMcrVVf-VPCWDxwjr345gWxOE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2400,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/3Dk9Qx8a5QVXwZEEhCI545yvYErruaW8Qdyn3TovvxyrW6PFpRwsRGnBC-HnMrJZBoQ",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.profmori.foursoulsstatistics",
+    "reviewsUrl": "rev?doc=com.profmori.foursoulsstatistics&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.profmori.foursoulsstatistics",
+    "title": "Four Souls Statistics",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "foursoulsstats@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "24 Jul 2021"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-02-02 04:23:58.750030",
+    "backendDocid": "com.profmori.foursoulsstatistics",
+    "backendId": 3,
+    "creator": "Four Souls Stats",
+    "descriptionHtml": "This app allows you to store your data when playing The Binding Of Isaac: Four Souls, and allows play groups to sync up their games so all members can access their played games. You can choose which editions of the game you want to play with, as well as adding your own custom characters and treasures to best match your play group.<br><br>The app will also automatically calculate the win rates and average souls for both your playgroup and the wider community, allowing for more general discussion of the &quot;most powerful&quot; characters, and settle any debates about the &quot;best player&quot; in the group. You can record the games you play, and see up to date statistics for different players in your group. If you make a mistake, you can edit and remove the games from your record.<br><br>This app also collates the community data stored in its servers to give an indication of the strongest characters as an overall community.",
+    "descriptionShort": "An app for storing your data when playing The Binding Of Isaac: Four Souls",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "71520265",
+          "unknown3": 31
+        },
+        "developerEmail": "foursoulsstats@gmail.com",
+        "developerName": "Four Souls Stats",
+        "developerWebsite": "https://github.com/profmori/FourSoulsStats",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "71366682",
+            "versionCode": 18
+          },
+          {
+            "fileType": 0,
+            "size": "70845",
+            "versionCode": 18
+          },
+          {
+            "fileType": 0,
+            "size": "37273",
+            "versionCode": 18
+          },
+          {
+            "fileType": 0,
+            "size": "45465",
+            "versionCode": 18
+          }
+        ],
+        "installationSize": "71520265",
+        "numDownloads": "100+ downloads",
+        "packageName": "com.profmori.foursoulsstatistics",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.INTERNET"
+        ],
+        "recentChangesHtml": "\\u2022 Added the clicker to the list of icons for the randomise button &lt;br&gt;&lt;/br&gt;<br>Added updated cards for Jacob &amp; Esau, The Baleful, Baba and Steven<br>Added a privacy policy to be in line with Google&#39;s new policies<br>Stopped patch notes from showing on first install of the app",
+        "unstable": false,
+        "uploadDate": "27 Jan 2022",
+        "versionCode": 18,
+        "versionString": "4.02"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.profmori.foursoulsstatistics",
+    "docType": 1,
+    "docid": "com.profmori.foursoulsstatistics",
+    "image": [
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/5y-jrVI-RzlZz682KVIMMIefb-IRYVwc7fwDPBg_kYHx5aa2_DmIylFu2W--0f-pvw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#080808",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/_lkMhPh8xQikVWUgYlaI0kNNP1pRd7RwuQqPsN-7ds92_0hKB8TO5jt5WeOsqRuoCpY",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2400,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/c_jinfw2ZtJg9pKLarB8mwTuxmlp78tmhLTNIznjH9TDxyOPM1Z4STB3NR5mbvY_RQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2400,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/hSqlnAnJsUfyC9iPPOHKRsOrfV84FchtPGiZFAhEVXfIebkOmq6ef0_qeIh0bVky4tM",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2400,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/CVU-uSVlJCxpFukJinUoY6k4T3nSJ5XnesS1vsm9TI3HWIPyehNv5yH4V3-QPPJsVrE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2400,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/4Z32MQZr4DAi5PmGueuYk2oRsakU_Omdhssa4rqY4aqP7MGyHEeLH0_OQGKbJH0dvA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2400,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/p16sY-mk8NBAzjusctwrwR5DMDjb_FqGPz-5pNd_agumyiaxGKjqg497LKOnU03qlzc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2400,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/sYsEb45nBaQwX-orqlfjIs5-kftvHynCtFgnK4e57CVv4EZHE3A3fi5kcUAycpNyXPQk",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2400,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Z23dNCfAcFdBYzdyKkmn7yBhDgec1jE6UX_VClEIWmkMcrVVf-VPCWDxwjr345gWxOE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2400,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/3Dk9Qx8a5QVXwZEEhCI545yvYErruaW8Qdyn3TovvxyrW6PFpRwsRGnBC-HnMrJZBoQ",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://github.com/profmori/FourSoulsStats/blob/d18bee3dd5f049e9096b78246894a2bd78e73733/PRIVACY_POLICY.md",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.profmori.foursoulsstatistics",
+    "reviewsUrl": "rev?doc=com.profmori.foursoulsstatistics&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.profmori.foursoulsstatistics",
+    "title": "Four Souls Statistics",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Four Souls Stats"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "foursoulsstats@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "24 Jul 2021"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-06-17 02:48:25.231603",
+    "backendDocid": "com.profmori.foursoulsstatistics",
+    "backendId": 3,
+    "creator": "Four Souls Stats",
+    "descriptionHtml": "This app allows you to store your data when playing The Binding Of Isaac: Four Souls, and allows play groups to sync up their games so all members can access their played games. You can choose which editions of the game you want to play with, as well as adding your own custom characters and treasures to best match your play group.<br><br>The app will also automatically calculate the win rates and average souls for both your playgroup and the wider community, allowing for more general discussion of the &quot;most powerful&quot; characters, and settle any debates about the &quot;best player&quot; in the group. You can record the games you play, and see up to date statistics for different players in your group. If you make a mistake, you can edit and remove the games from your record.<br><br>This app also collates the community data stored in its servers to give an indication of the strongest characters as an overall community.",
+    "descriptionShort": "An app for storing your data when playing The Binding Of Isaac: Four Souls",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "72549994",
+          "unknown3": 32
+        },
+        "developerEmail": "foursoulsstats@gmail.com",
+        "developerName": "Four Souls Stats",
+        "developerWebsite": "https://github.com/profmori/FourSoulsStats",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "72334153",
+            "versionCode": 20
+          },
+          {
+            "fileType": 0,
+            "size": "70845",
+            "versionCode": 20
+          },
+          {
+            "fileType": 0,
+            "size": "29081",
+            "versionCode": 20
+          },
+          {
+            "fileType": 0,
+            "size": "33177",
+            "versionCode": 20
+          },
+          {
+            "fileType": 0,
+            "size": "45465",
+            "versionCode": 20
+          },
+          {
+            "fileType": 0,
+            "size": "37273",
+            "versionCode": 20
+          }
+        ],
+        "installationSize": "72549994",
+        "numDownloads": "100+ downloads",
+        "packageName": "com.profmori.foursoulsstatistics",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.INTERNET"
+        ],
+        "recentChangesHtml": "Added cards from the Unboxing of Isaac, and associated Promos<br>Added new Eden promo from UKGE<br>Added Retro Eden, and a new pixel font which can be turned off<br>Fixed a bug where reroll icons could be replaced by random images",
+        "unstable": false,
+        "uploadDate": "15 Jun 2022",
+        "versionCode": 20,
+        "versionString": "4.03"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.profmori.foursoulsstatistics",
+    "docType": 1,
+    "docid": "com.profmori.foursoulsstatistics",
+    "image": [
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/5y-jrVI-RzlZz682KVIMMIefb-IRYVwc7fwDPBg_kYHx5aa2_DmIylFu2W--0f-pvw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#080808",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/_lkMhPh8xQikVWUgYlaI0kNNP1pRd7RwuQqPsN-7ds92_0hKB8TO5jt5WeOsqRuoCpY",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2400,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/c_jinfw2ZtJg9pKLarB8mwTuxmlp78tmhLTNIznjH9TDxyOPM1Z4STB3NR5mbvY_RQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2400,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/hSqlnAnJsUfyC9iPPOHKRsOrfV84FchtPGiZFAhEVXfIebkOmq6ef0_qeIh0bVky4tM",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2400,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/CVU-uSVlJCxpFukJinUoY6k4T3nSJ5XnesS1vsm9TI3HWIPyehNv5yH4V3-QPPJsVrE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2400,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/4Z32MQZr4DAi5PmGueuYk2oRsakU_Omdhssa4rqY4aqP7MGyHEeLH0_OQGKbJH0dvA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2400,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/p16sY-mk8NBAzjusctwrwR5DMDjb_FqGPz-5pNd_agumyiaxGKjqg497LKOnU03qlzc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2400,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/sYsEb45nBaQwX-orqlfjIs5-kftvHynCtFgnK4e57CVv4EZHE3A3fi5kcUAycpNyXPQk",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2400,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Z23dNCfAcFdBYzdyKkmn7yBhDgec1jE6UX_VClEIWmkMcrVVf-VPCWDxwjr345gWxOE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2400,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/3Dk9Qx8a5QVXwZEEhCI545yvYErruaW8Qdyn3TovvxyrW6PFpRwsRGnBC-HnMrJZBoQ",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://github.com/profmori/FourSoulsStats/blob/d18bee3dd5f049e9096b78246894a2bd78e73733/PRIVACY_POLICY.md",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.profmori.foursoulsstatistics",
+    "reviewsUrl": "rev?doc=com.profmori.foursoulsstatistics&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.profmori.foursoulsstatistics",
+    "title": "Four Souls Statistics",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "foursoulsstats@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "24 Jul 2021"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-07-11 13:14:56.255912",
+    "backendDocid": "com.profmori.foursoulsstatistics",
+    "backendId": 3,
+    "creator": "Four Souls Stats",
+    "descriptionHtml": "This app allows you to store your data when playing The Binding Of Isaac: Four Souls, and allows play groups to sync up their games so all members can access their played games. You can choose which editions of the game you want to play with, as well as adding your own custom characters and treasures to best match your play group.<br><br>The app will also automatically calculate the win rates and average souls for both your playgroup and the wider community, allowing for more general discussion of the &quot;most powerful&quot; characters, and settle any debates about the &quot;best player&quot; in the group. You can record the games you play, and see up to date statistics for different players in your group. If you make a mistake, you can edit and remove the games from your record.<br><br>This app also collates the community data stored in its servers to give an indication of the strongest characters as an overall community.",
+    "descriptionShort": "An app for storing your data when playing The Binding Of Isaac: Four Souls",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "72553941",
+          "unknown3": 32
+        },
+        "developerEmail": "foursoulsstats@gmail.com",
+        "developerName": "Four Souls Stats",
+        "developerWebsite": "https://github.com/profmori/FourSoulsStats",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "72338100",
+            "versionCode": 21
+          },
+          {
+            "fileType": 0,
+            "size": "70845",
+            "versionCode": 21
+          },
+          {
+            "fileType": 0,
+            "size": "29081",
+            "versionCode": 21
+          },
+          {
+            "fileType": 0,
+            "size": "33177",
+            "versionCode": 21
+          },
+          {
+            "fileType": 0,
+            "size": "45465",
+            "versionCode": 21
+          },
+          {
+            "fileType": 0,
+            "size": "37273",
+            "versionCode": 21
+          }
+        ],
+        "installationSize": "72553941",
+        "numDownloads": "100+ downloads",
+        "packageName": "com.profmori.foursoulsstatistics",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.INTERNET"
+        ],
+        "recentChangesHtml": "Actually added cards from the Unboxing of Isaac, and associated Promos<br><br>Added sync for promo and Unboxing of Isaac treasures so each new update doesn&#39;t require an update to the app",
+        "unstable": false,
+        "uploadDate": "10 Jul 2022",
+        "versionCode": 21,
+        "versionString": "4.04"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.profmori.foursoulsstatistics",
+    "docType": 1,
+    "docid": "com.profmori.foursoulsstatistics",
+    "image": [
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/5y-jrVI-RzlZz682KVIMMIefb-IRYVwc7fwDPBg_kYHx5aa2_DmIylFu2W--0f-pvw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#080808",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/_lkMhPh8xQikVWUgYlaI0kNNP1pRd7RwuQqPsN-7ds92_0hKB8TO5jt5WeOsqRuoCpY",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2400,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/c_jinfw2ZtJg9pKLarB8mwTuxmlp78tmhLTNIznjH9TDxyOPM1Z4STB3NR5mbvY_RQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2400,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/hSqlnAnJsUfyC9iPPOHKRsOrfV84FchtPGiZFAhEVXfIebkOmq6ef0_qeIh0bVky4tM",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2400,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/CVU-uSVlJCxpFukJinUoY6k4T3nSJ5XnesS1vsm9TI3HWIPyehNv5yH4V3-QPPJsVrE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2400,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/4Z32MQZr4DAi5PmGueuYk2oRsakU_Omdhssa4rqY4aqP7MGyHEeLH0_OQGKbJH0dvA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2400,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/p16sY-mk8NBAzjusctwrwR5DMDjb_FqGPz-5pNd_agumyiaxGKjqg497LKOnU03qlzc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2400,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/sYsEb45nBaQwX-orqlfjIs5-kftvHynCtFgnK4e57CVv4EZHE3A3fi5kcUAycpNyXPQk",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2400,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Z23dNCfAcFdBYzdyKkmn7yBhDgec1jE6UX_VClEIWmkMcrVVf-VPCWDxwjr345gWxOE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2400,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/3Dk9Qx8a5QVXwZEEhCI545yvYErruaW8Qdyn3TovvxyrW6PFpRwsRGnBC-HnMrJZBoQ",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://github.com/profmori/FourSoulsStats/blob/d18bee3dd5f049e9096b78246894a2bd78e73733/PRIVACY_POLICY.md",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.profmori.foursoulsstatistics",
+    "reviewsUrl": "rev?doc=com.profmori.foursoulsstatistics&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.profmori.foursoulsstatistics",
+    "title": "Four Souls Statistics",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "foursoulsstats@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "24 Jul 2021"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-04-16 08:34:54.870309",
+    "backendDocid": "com.profmori.foursoulsstatistics",
+    "backendId": 3,
+    "creator": "Four Souls Stats",
+    "descriptionHtml": "This app allows you to store your data when playing The Binding Of Isaac: Four Souls, and allows play groups to sync up their games so all members can access their played games. You can choose which editions of the game you want to play with, as well as adding your own custom characters and treasures to best match your play group.<br><br>The app will also automatically calculate the win rates and average souls for both your playgroup and the wider community, allowing for more general discussion of the &quot;most powerful&quot; characters, and settle any debates about the &quot;best player&quot; in the group. You can record the games you play, and see up to date statistics for different players in your group. If you make a mistake, you can edit and remove the games from your record.<br><br>This app also collates the community data stored in its servers to give an indication of the strongest characters as an overall community.",
+    "descriptionShort": "An app for storing your data when playing The Binding Of Isaac: Four Souls",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "73292107",
+          "unknown3": 33
+        },
+        "developerEmail": "foursoulsstats@gmail.com",
+        "developerName": "Four Souls Stats",
+        "developerWebsite": "https://github.com/profmori/FourSoulsStats",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "73121586",
+            "versionCode": 22
+          },
+          {
+            "fileType": 0,
+            "size": "79591",
+            "versionCode": 22
+          },
+          {
+            "fileType": 0,
+            "size": "37273",
+            "versionCode": 22
+          },
+          {
+            "fileType": 0,
+            "size": "53657",
+            "versionCode": 22
+          }
+        ],
+        "installationSize": "73292107",
+        "numDownloads": "500+ downloads",
+        "packageName": "com.profmori.foursoulsstatistics",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.INTERNET",
+          "com.profmori.foursoulsstatistics.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        ],
+        "recentChangesHtml": "Separated G-Fuel cards from Promo cards, to be in line with foursouls.com<br><br>Added new character alt art cards from The Unboxing of Isaac as options for character art<br><br>Fixed font size issues when using the Retro Eden card<br><br>Added a button to view all old patch notes from the settings menu, and added dates to the patch notes",
+        "unstable": true,
+        "uploadDate": "12 Apr 2023",
+        "versionCode": 22,
+        "versionString": "4.05"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.profmori.foursoulsstatistics",
+    "docType": 1,
+    "docid": "com.profmori.foursoulsstatistics",
+    "image": [
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/5y-jrVI-RzlZz682KVIMMIefb-IRYVwc7fwDPBg_kYHx5aa2_DmIylFu2W--0f-pvw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#080808",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/_lkMhPh8xQikVWUgYlaI0kNNP1pRd7RwuQqPsN-7ds92_0hKB8TO5jt5WeOsqRuoCpY",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2400,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/c_jinfw2ZtJg9pKLarB8mwTuxmlp78tmhLTNIznjH9TDxyOPM1Z4STB3NR5mbvY_RQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2400,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/hSqlnAnJsUfyC9iPPOHKRsOrfV84FchtPGiZFAhEVXfIebkOmq6ef0_qeIh0bVky4tM",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2400,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/CVU-uSVlJCxpFukJinUoY6k4T3nSJ5XnesS1vsm9TI3HWIPyehNv5yH4V3-QPPJsVrE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2400,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/4Z32MQZr4DAi5PmGueuYk2oRsakU_Omdhssa4rqY4aqP7MGyHEeLH0_OQGKbJH0dvA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2400,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/p16sY-mk8NBAzjusctwrwR5DMDjb_FqGPz-5pNd_agumyiaxGKjqg497LKOnU03qlzc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2400,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/sYsEb45nBaQwX-orqlfjIs5-kftvHynCtFgnK4e57CVv4EZHE3A3fi5kcUAycpNyXPQk",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2400,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Z23dNCfAcFdBYzdyKkmn7yBhDgec1jE6UX_VClEIWmkMcrVVf-VPCWDxwjr345gWxOE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2400,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/3Dk9Qx8a5QVXwZEEhCI545yvYErruaW8Qdyn3TovvxyrW6PFpRwsRGnBC-HnMrJZBoQ",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://github.com/profmori/FourSoulsStats/blob/d18bee3dd5f049e9096b78246894a2bd78e73733/PRIVACY_POLICY.md",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.profmori.foursoulsstatistics",
+    "reviewsUrl": "rev?doc=com.profmori.foursoulsstatistics&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.profmori.foursoulsstatistics",
+    "title": "Four Souls Statistics",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "foursoulsstats@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "24 Jul 2021"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-12-19 12:39:28.584891",
+    "backendDocid": "com.profmori.foursoulsstatistics",
+    "backendId": 3,
+    "creator": "Four Souls Stats",
+    "descriptionHtml": "This app allows you to store your data when playing The Binding Of Isaac: Four Souls, and allows play groups to sync up their games so all members can access their played games. You can choose which editions of the game you want to play with, as well as adding your own custom characters and treasures to best match your play group.<br><br>The app will also automatically calculate the win rates and average souls for both your playgroup and the wider community, allowing for more general discussion of the &quot;most powerful&quot; characters, and settle any debates about the &quot;best player&quot; in the group. You can record the games you play, and see up to date statistics for different players in your group. If you make a mistake, you can edit and remove the games from your record.<br><br>This app also collates the community data stored in its servers to give an indication of the strongest characters as an overall community.",
+    "descriptionShort": "An app for storing your data when playing The Binding Of Isaac: Four Souls",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "version": 12451000
+            }
+          ],
+          "unknown2": "74815782",
+          "unknown3": 34
+        },
+        "developerEmail": "foursoulsstats@gmail.com",
+        "developerName": "Four Souls Stats",
+        "developerWebsite": "https://github.com/profmori/FourSoulsStats",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "74815782",
+            "versionCode": 27
+          }
+        ],
+        "installationSize": "74815782",
+        "numDownloads": "500+ downloads",
+        "packageName": "com.profmori.foursoulsstatistics",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.INTERNET",
+          "com.profmori.foursoulsstatistics.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        ],
+        "recentChangesHtml": " Fixed a bug in the tutorial where the button to advance was off screen <br> Forced the tutorial to move forward automatically after 10 seconds to prevent people getting stuck on it <br> Added the new promo Bum-bo character art to the app <br> Fixed a bug where patch notes would overlap the title on smaller devices <br> Added a Spanish app translation using Google translate - please let me kow if this is unreadable ",
+        "unstable": true,
+        "uploadDate": "9 Dec 2023",
+        "versionCode": 27,
+        "versionString": "5.03"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.profmori.foursoulsstatistics&vc=27",
+    "docType": 1,
+    "docid": "com.profmori.foursoulsstatistics",
+    "image": [
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/5y-jrVI-RzlZz682KVIMMIefb-IRYVwc7fwDPBg_kYHx5aa2_DmIylFu2W--0f-pvw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#080808",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/_lkMhPh8xQikVWUgYlaI0kNNP1pRd7RwuQqPsN-7ds92_0hKB8TO5jt5WeOsqRuoCpY",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2400,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/c_jinfw2ZtJg9pKLarB8mwTuxmlp78tmhLTNIznjH9TDxyOPM1Z4STB3NR5mbvY_RQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2400,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/hSqlnAnJsUfyC9iPPOHKRsOrfV84FchtPGiZFAhEVXfIebkOmq6ef0_qeIh0bVky4tM",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2400,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/CVU-uSVlJCxpFukJinUoY6k4T3nSJ5XnesS1vsm9TI3HWIPyehNv5yH4V3-QPPJsVrE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2400,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/4Z32MQZr4DAi5PmGueuYk2oRsakU_Omdhssa4rqY4aqP7MGyHEeLH0_OQGKbJH0dvA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2400,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/p16sY-mk8NBAzjusctwrwR5DMDjb_FqGPz-5pNd_agumyiaxGKjqg497LKOnU03qlzc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2400,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/sYsEb45nBaQwX-orqlfjIs5-kftvHynCtFgnK4e57CVv4EZHE3A3fi5kcUAycpNyXPQk",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2400,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Z23dNCfAcFdBYzdyKkmn7yBhDgec1jE6UX_VClEIWmkMcrVVf-VPCWDxwjr345gWxOE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2400,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/3Dk9Qx8a5QVXwZEEhCI545yvYErruaW8Qdyn3TovvxyrW6PFpRwsRGnBC-HnMrJZBoQ",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://github.com/profmori/FourSoulsStats/blob/d18bee3dd5f049e9096b78246894a2bd78e73733/PRIVACY_POLICY.md",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.profmori.foursoulsstatistics",
+    "reviewsUrl": "rev?doc=com.profmori.foursoulsstatistics&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.profmori.foursoulsstatistics",
+    "title": "Four Souls Statistics\n5.03",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "foursoulsstats@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "24 Jul 2021"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  }
+]

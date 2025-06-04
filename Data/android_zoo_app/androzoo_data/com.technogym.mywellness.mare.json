@@ -1,0 +1,3479 @@
+[
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-06-08 22:22:46.042034",
+    "backendDocid": "com.technogym.mywellness.mare",
+    "backendId": 3,
+    "creator": "Mywellness srl",
+    "descriptionHtml": "Die MARE App ist eine Applikation um Ihre Trainingserfahrungen pers\u00f6nlicher, spannender und effektiver zu gestalten. Sie hilft Ihnen, Ihr Training zu verbessern indem Sie jederzeit und \u00fcberall auf Ihre Daten zugreifen k\u00f6nnen.<br><br>Fangen Sie an, mit der MARE App zu trainieren, sammeln Sie MOVEs und werden Sie jeden Tag aktiver. Ein Beispiel: Ein Lauf von ca. 10 Minuten in niedriger Intensit\u00e4t sind umgerechnet ca. 120 MOVEs.<br><br>Der schnellste und einfachste Weg ist es, die MOVEs direkt an den Technogym Ger\u00e4ten zu sammeln. Loggen Sie sich mit Ihrem mywellness Account an den Ger\u00e4ten ein und trainieren Sie mit den besten Trainingsprogrammen. Mit der App k\u00f6nnen Sie sich Ihr Trainingsprogramm, die Details der \u00dcbungen und Videos direkt ansehen. Resultate werden automatisch, w\u00e4hrend Ihrer Trainingseinheit gespeichert.<br><br>WARUM SIE DIE MARE APP BRAUCHEN?<br><br>TRAINING:<br>Mit der App bekommen Sie ein personalisiertes und komplettes Trainingsprogramm, alle Details der \u00dcbungen mit Videos und eine automatische Aktualisierung Ihrer MOVEs jederzeit und \u00fcberall. Die MARE App weist Ihnen ein Wochenziel an MOVEs auf der Grundlage Ihres Lebensstils zu und zeigt Ihren Fortschritt an einem einfachen Balken.<br><br>KURSE:<br>Sie finden den aktuellen Kursplan in der MARE App. Reservieren Sie sich Ihren Platz bei ausgew\u00e4hlten Kursen.<br><br><br>OUTDOOR AKTIVIT\u00c4TEN:<br>F\u00fcgen Sie ihre Outdoor Aktivit\u00e4ten manuell hinzu oder verkn\u00fcpfen Sie Ihren Account mit anderen Anwendungen wie Apple Health, Polar, Fitbit, Garmin, MapMyFitness, MyFitnessPal, RunKeeper, Strava, Swimtag und Withings. So k\u00f6nnen Sie Ihre T\u00e4tigkeiten im Freien nachverfolgen und Ihnen gehen die Daten nicht verloren.<br><br>MOTIVATION DURCH HERAUSFORDERUNG:<br>Nehmen Sie an abwechslungsreichen Wettbewerben teil, die von Ihrem MARE organisiert werden. Messen Sie sich mit anderen und klettern Sie auf der Rangliste ganz nach oben.<br><br>PERSONALISIERUNG:<br>Um Ihr Trainingserlebnis zu personalisieren verwenden Sie die MARE App, um sich an den Technogym-Ger\u00e4ten UNITY\u2122 einzuloggen und ein personalisiertes Training zu gestalten. Zu Ihrer Unterhaltung k\u00f6nnen Sie Ihre bevorzugten Internetseiten, sozialen Netzwerke, TV-Programme und unterhaltsamen Spielen w\u00e4hlen. Wie? Durch einfaches Einloggen mit dem Smartphone per NFC oder durch Scannen eines QR-Codes.<br><br>TRAININGSDATEN IM \u00dcBERBLICK:<br>Mit der MARE App erhalten Sie jederzeit und \u00fcberall die volle \u00dcbersicht \u00fcber Ihre Trainingsdaten. Alle Trainingseinheiten, Messungen der K\u00f6rperzusammensetzung und das aktuelle Wochenziel werden in Echtzeit aktualisiert.",
+    "descriptionShort": "Mare",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "22115541",
+          "unknown3": 29
+        },
+        "developerEmail": "info@mare-kiel.de",
+        "developerName": "Mywellness srl",
+        "developerWebsite": "http://www.mare-kiel.de",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "10927492",
+            "versionCode": 7
+          },
+          {
+            "fileType": 0,
+            "size": "3589059",
+            "versionCode": 7
+          },
+          {
+            "fileType": 0,
+            "size": "266578",
+            "versionCode": 7
+          },
+          {
+            "fileType": 0,
+            "size": "7332412",
+            "versionCode": 7
+          }
+        ],
+        "installationSize": "22115541",
+        "numDownloads": "500+ downloads",
+        "packageName": "com.technogym.mywellness.mare",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.AUTHENTICATE_ACCOUNTS",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.CALL_PHONE",
+          "android.permission.CAMERA",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.GET_ACCOUNTS",
+          "android.permission.GET_TASKS",
+          "android.permission.INTERNET",
+          "android.permission.MANAGE_ACCOUNTS",
+          "android.permission.NFC",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_CALENDAR",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_SYNC_SETTINGS",
+          "android.permission.READ_SYNC_STATS",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+          "android.permission.USE_CREDENTIALS",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_CALENDAR",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "android.permission.WRITE_SYNC_SETTINGS",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "com.technogym.mywellness.mare.permission.C2D_MESSAGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE"
+        ],
+        "unstable": false,
+        "uploadDate": "7 Jan 2020",
+        "versionCode": 7,
+        "versionString": "4.19.3"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.technogym.mywellness.mare",
+    "docType": 1,
+    "docid": "com.technogym.mywellness.mare",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://lh3.googleusercontent.com/zxyvKF8Xhq84LWCXu2tihjArL7sc4tKYtxcJaPVUKknUXKd96aSLyKIiT3Y5bZHthpI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 4,
+        "imageUrl": "https://lh3.googleusercontent.com/dt-PJmC5q_RC27rAjNXNs_pbFL2sOM7piZUzCQsd2t4mtg9oid3ESUEgvzO2u914Nq4",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/zuccUolSaJDMKhtTStbndmXiZTm5TlUuxhZ5xF2uzVMYZcabaFJz77mE5aLsVj3TgQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/QpTAzBs7uqIMnIZHc_RFen3KfmOEKUH-NscTwXeaHK7rjzJcFVO85d8F6SA5Ua2JaMVd",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/yulynxzmJB5abIdOEtEc0jnPvY4RNjQpkfjB0_-5pPK3NaoEl8wt6sYl7kdZh_rG5gc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/B0YvuhDan0eq28n3JxR4Ea6qcmO1r8uuR93MwNZd1Bm7_joBATe4s7S6G60MDoepaso",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://www.mywellness.com/cloud/Terms/Privacy/",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://lh3.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.technogym.mywellness.mare",
+    "reviewsUrl": "rev?doc=com.technogym.mywellness.mare&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.technogym.mywellness.mare",
+    "title": "Mare",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "info@mare-kiel.de"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "1 Apr 2019"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-07-11 02:41:14.980143",
+    "backendDocid": "com.technogym.mywellness.mare",
+    "backendId": 3,
+    "creator": "Mywellness srl",
+    "descriptionHtml": "Die MARE App ist eine Applikation um Ihre Trainingserfahrungen pers\u00f6nlicher, spannender und effektiver zu gestalten. Sie hilft Ihnen, Ihr Training zu verbessern indem Sie jederzeit und \u00fcberall auf Ihre Daten zugreifen k\u00f6nnen.<br><br>Fangen Sie an, mit der MARE App zu trainieren, sammeln Sie MOVEs und werden Sie jeden Tag aktiver. Ein Beispiel: Ein Lauf von ca. 10 Minuten in niedriger Intensit\u00e4t sind umgerechnet ca. 120 MOVEs.<br><br>Der schnellste und einfachste Weg ist es, die MOVEs direkt an den Technogym Ger\u00e4ten zu sammeln. Loggen Sie sich mit Ihrem mywellness Account an den Ger\u00e4ten ein und trainieren Sie mit den besten Trainingsprogrammen. Mit der App k\u00f6nnen Sie sich Ihr Trainingsprogramm, die Details der \u00dcbungen und Videos direkt ansehen. Resultate werden automatisch, w\u00e4hrend Ihrer Trainingseinheit gespeichert.<br><br>WARUM SIE DIE MARE APP BRAUCHEN?<br><br>TRAINING:<br>Mit der App bekommen Sie ein personalisiertes und komplettes Trainingsprogramm, alle Details der \u00dcbungen mit Videos und eine automatische Aktualisierung Ihrer MOVEs jederzeit und \u00fcberall. Die MARE App weist Ihnen ein Wochenziel an MOVEs auf der Grundlage Ihres Lebensstils zu und zeigt Ihren Fortschritt an einem einfachen Balken.<br><br>KURSE:<br>Sie finden den aktuellen Kursplan in der MARE App. Reservieren Sie sich Ihren Platz bei ausgew\u00e4hlten Kursen.<br><br><br>OUTDOOR AKTIVIT\u00c4TEN:<br>F\u00fcgen Sie ihre Outdoor Aktivit\u00e4ten manuell hinzu oder verkn\u00fcpfen Sie Ihren Account mit anderen Anwendungen wie Apple Health, Polar, Fitbit, Garmin, MapMyFitness, MyFitnessPal, RunKeeper, Strava, Swimtag und Withings. So k\u00f6nnen Sie Ihre T\u00e4tigkeiten im Freien nachverfolgen und Ihnen gehen die Daten nicht verloren.<br><br>MOTIVATION DURCH HERAUSFORDERUNG:<br>Nehmen Sie an abwechslungsreichen Wettbewerben teil, die von Ihrem MARE organisiert werden. Messen Sie sich mit anderen und klettern Sie auf der Rangliste ganz nach oben.<br><br>PERSONALISIERUNG:<br>Um Ihr Trainingserlebnis zu personalisieren verwenden Sie die MARE App, um sich an den Technogym-Ger\u00e4ten UNITY\u2122 einzuloggen und ein personalisiertes Training zu gestalten. Zu Ihrer Unterhaltung k\u00f6nnen Sie Ihre bevorzugten Internetseiten, sozialen Netzwerke, TV-Programme und unterhaltsamen Spielen w\u00e4hlen. Wie? Durch einfaches Einloggen mit dem Smartphone per NFC oder durch Scannen eines QR-Codes.<br><br>TRAININGSDATEN IM \u00dcBERBLICK:<br>Mit der MARE App erhalten Sie jederzeit und \u00fcberall die volle \u00dcbersicht \u00fcber Ihre Trainingsdaten. Alle Trainingseinheiten, Messungen der K\u00f6rperzusammensetzung und das aktuelle Wochenziel werden in Echtzeit aktualisiert.",
+    "descriptionShort": "Mare",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "39086311",
+          "unknown3": 29
+        },
+        "developerEmail": "info@mare-kiel.de",
+        "developerName": "Mywellness srl",
+        "developerWebsite": "http://www.mare-kiel.de",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "10988948",
+            "versionCode": 8
+          },
+          {
+            "fileType": 0,
+            "size": "2450720",
+            "versionCode": 8
+          },
+          {
+            "fileType": 0,
+            "size": "278874",
+            "versionCode": 8
+          },
+          {
+            "fileType": 0,
+            "size": "25056057",
+            "versionCode": 8
+          },
+          {
+            "fileType": 0,
+            "size": "143908",
+            "versionCode": 8
+          },
+          {
+            "fileType": 0,
+            "size": "12808",
+            "versionCode": 8
+          },
+          {
+            "fileType": 0,
+            "size": "146376",
+            "versionCode": 8
+          },
+          {
+            "fileType": 0,
+            "size": "8620",
+            "versionCode": 8
+          }
+        ],
+        "installationSize": "39086311",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "com.technogym.mywellness.mare",
+        "permission": [
+          "android.permission.ACCESS_BACKGROUND_LOCATION",
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.AUTHENTICATE_ACCOUNTS",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.CAMERA",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.GET_ACCOUNTS",
+          "android.permission.INTERNET",
+          "android.permission.MANAGE_ACCOUNTS",
+          "android.permission.MODIFY_AUDIO_SETTINGS",
+          "android.permission.NFC",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_CALENDAR",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_SYNC_SETTINGS",
+          "android.permission.READ_SYNC_STATS",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.RECORD_AUDIO",
+          "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+          "android.permission.USE_CREDENTIALS",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_CALENDAR",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "android.permission.WRITE_SYNC_SETTINGS",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "com.technogym.mywellness.mare.permission.C2D_MESSAGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE"
+        ],
+        "recentChangesHtml": "Optimizations and bug fix",
+        "unstable": false,
+        "uploadDate": "9 Jul 2020",
+        "versionCode": 8,
+        "versionString": "4.20.1"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.technogym.mywellness.mare",
+    "docType": 1,
+    "docid": "com.technogym.mywellness.mare",
+    "image": [
+      {
+        "imageType": 2,
+        "imageUrl": "https://lh3.googleusercontent.com/zxyvKF8Xhq84LWCXu2tihjArL7sc4tKYtxcJaPVUKknUXKd96aSLyKIiT3Y5bZHthpI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 4,
+        "imageUrl": "https://lh3.googleusercontent.com/dt-PJmC5q_RC27rAjNXNs_pbFL2sOM7piZUzCQsd2t4mtg9oid3ESUEgvzO2u914Nq4",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/zuccUolSaJDMKhtTStbndmXiZTm5TlUuxhZ5xF2uzVMYZcabaFJz77mE5aLsVj3TgQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/QpTAzBs7uqIMnIZHc_RFen3KfmOEKUH-NscTwXeaHK7rjzJcFVO85d8F6SA5Ua2JaMVd",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/yulynxzmJB5abIdOEtEc0jnPvY4RNjQpkfjB0_-5pPK3NaoEl8wt6sYl7kdZh_rG5gc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/B0YvuhDan0eq28n3JxR4Ea6qcmO1r8uuR93MwNZd1Bm7_joBATe4s7S6G60MDoepaso",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://www.mywellness.com/cloud/Terms/Privacy/",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://lh3.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.technogym.mywellness.mare",
+    "reviewsUrl": "rev?doc=com.technogym.mywellness.mare&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.technogym.mywellness.mare",
+    "title": "Mare",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "info@mare-kiel.de"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "1 Apr 2019"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-07-31 09:17:22.150872",
+    "backendDocid": "com.technogym.mywellness.mare",
+    "backendId": 3,
+    "creator": "Mywellness srl",
+    "descriptionHtml": "Die MARE App ist eine Applikation um Ihre Trainingserfahrungen pers\u00f6nlicher, spannender und effektiver zu gestalten. Sie hilft Ihnen, Ihr Training zu verbessern indem Sie jederzeit und \u00fcberall auf Ihre Daten zugreifen k\u00f6nnen.<br><br>Fangen Sie an, mit der MARE App zu trainieren, sammeln Sie MOVEs und werden Sie jeden Tag aktiver. Ein Beispiel: Ein Lauf von ca. 10 Minuten in niedriger Intensit\u00e4t sind umgerechnet ca. 120 MOVEs.<br><br>Der schnellste und einfachste Weg ist es, die MOVEs direkt an den Technogym Ger\u00e4ten zu sammeln. Loggen Sie sich mit Ihrem mywellness Account an den Ger\u00e4ten ein und trainieren Sie mit den besten Trainingsprogrammen. Mit der App k\u00f6nnen Sie sich Ihr Trainingsprogramm, die Details der \u00dcbungen und Videos direkt ansehen. Resultate werden automatisch, w\u00e4hrend Ihrer Trainingseinheit gespeichert.<br><br>WARUM SIE DIE MARE APP BRAUCHEN?<br><br>TRAINING:<br>Mit der App bekommen Sie ein personalisiertes und komplettes Trainingsprogramm, alle Details der \u00dcbungen mit Videos und eine automatische Aktualisierung Ihrer MOVEs jederzeit und \u00fcberall. Die MARE App weist Ihnen ein Wochenziel an MOVEs auf der Grundlage Ihres Lebensstils zu und zeigt Ihren Fortschritt an einem einfachen Balken.<br><br>KURSE:<br>Sie finden den aktuellen Kursplan in der MARE App. Reservieren Sie sich Ihren Platz bei ausgew\u00e4hlten Kursen.<br><br><br>OUTDOOR AKTIVIT\u00c4TEN:<br>F\u00fcgen Sie ihre Outdoor Aktivit\u00e4ten manuell hinzu oder verkn\u00fcpfen Sie Ihren Account mit anderen Anwendungen wie Apple Health, Polar, Fitbit, Garmin, MapMyFitness, MyFitnessPal, RunKeeper, Strava, Swimtag und Withings. So k\u00f6nnen Sie Ihre T\u00e4tigkeiten im Freien nachverfolgen und Ihnen gehen die Daten nicht verloren.<br><br>MOTIVATION DURCH HERAUSFORDERUNG:<br>Nehmen Sie an abwechslungsreichen Wettbewerben teil, die von Ihrem MARE organisiert werden. Messen Sie sich mit anderen und klettern Sie auf der Rangliste ganz nach oben.<br><br>PERSONALISIERUNG:<br>Um Ihr Trainingserlebnis zu personalisieren verwenden Sie die MARE App, um sich an den Technogym-Ger\u00e4ten UNITY\u2122 einzuloggen und ein personalisiertes Training zu gestalten. Zu Ihrer Unterhaltung k\u00f6nnen Sie Ihre bevorzugten Internetseiten, sozialen Netzwerke, TV-Programme und unterhaltsamen Spielen w\u00e4hlen. Wie? Durch einfaches Einloggen mit dem Smartphone per NFC oder durch Scannen eines QR-Codes.<br><br>TRAININGSDATEN IM \u00dcBERBLICK:<br>Mit der MARE App erhalten Sie jederzeit und \u00fcberall die volle \u00dcbersicht \u00fcber Ihre Trainingsdaten. Alle Trainingseinheiten, Messungen der K\u00f6rperzusammensetzung und das aktuelle Wochenziel werden in Echtzeit aktualisiert.",
+    "descriptionShort": "Mare",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "39449855",
+          "unknown3": 29
+        },
+        "developerEmail": "info@mare-kiel.de",
+        "developerName": "Mywellness srl",
+        "developerWebsite": "http://www.mare-kiel.de",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "11509208",
+            "versionCode": 9
+          },
+          {
+            "fileType": 0,
+            "size": "2450720",
+            "versionCode": 9
+          },
+          {
+            "fileType": 0,
+            "size": "278874",
+            "versionCode": 9
+          },
+          {
+            "fileType": 0,
+            "size": "25056057",
+            "versionCode": 9
+          },
+          {
+            "fileType": 0,
+            "size": "146376",
+            "versionCode": 9
+          },
+          {
+            "fileType": 0,
+            "size": "8620",
+            "versionCode": 9
+          }
+        ],
+        "installationSize": "39449855",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "com.technogym.mywellness.mare",
+        "permission": [
+          "android.permission.ACCESS_BACKGROUND_LOCATION",
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.AUTHENTICATE_ACCOUNTS",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.CAMERA",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.GET_ACCOUNTS",
+          "android.permission.INTERNET",
+          "android.permission.MANAGE_ACCOUNTS",
+          "android.permission.MODIFY_AUDIO_SETTINGS",
+          "android.permission.NFC",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_CALENDAR",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_SYNC_SETTINGS",
+          "android.permission.READ_SYNC_STATS",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.RECORD_AUDIO",
+          "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+          "android.permission.USE_CREDENTIALS",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_CALENDAR",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "android.permission.WRITE_SYNC_SETTINGS",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "com.technogym.mywellness.mare.permission.C2D_MESSAGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE"
+        ],
+        "unstable": false,
+        "uploadDate": "30 Jul 2020",
+        "versionCode": 9,
+        "versionString": "4.21.0"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.technogym.mywellness.mare",
+    "docType": 1,
+    "docid": "com.technogym.mywellness.mare",
+    "image": [
+      {
+        "imageType": 2,
+        "imageUrl": "https://lh3.googleusercontent.com/zxyvKF8Xhq84LWCXu2tihjArL7sc4tKYtxcJaPVUKknUXKd96aSLyKIiT3Y5bZHthpI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 4,
+        "imageUrl": "https://lh3.googleusercontent.com/dt-PJmC5q_RC27rAjNXNs_pbFL2sOM7piZUzCQsd2t4mtg9oid3ESUEgvzO2u914Nq4",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/fXusU7lFLC7uOih0Q0ueVIboa6VdgDW-fJrxudNoqIpwwzo98LyOr9ESx8Y67slnkQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/KhEGPwK_mp9hfWzvE2kc4mNbqWn5FSoOQa1jRaE2yydBsbCuQDiPZP0VNQbeEXMVEvc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/FXZjNXUMvrkBjmUZjvel4Z4w0Ouj5M4gx2pZH6sCjEJMcmTFJFzNzVjsjTXWIxAe_7oN",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/X0dG1EjpUWjRaA1lstp7FUGSZhjwGO5Bo719sr1mOuwHqIPcgEVOXLlpEFz2MqGsUiY",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://www.mywellness.com/cloud/Terms/Privacy/",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://lh3.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.technogym.mywellness.mare",
+    "reviewsUrl": "rev?doc=com.technogym.mywellness.mare&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.technogym.mywellness.mare",
+    "title": "Mare",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "info@mare-kiel.de"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "1 Apr 2019"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-10-06 06:29:19.957932",
+    "backendDocid": "com.technogym.mywellness.mare",
+    "backendId": 3,
+    "creator": "Mywellness srl",
+    "descriptionHtml": "Die MARE App ist eine Applikation um Ihre Trainingserfahrungen pers\u00f6nlicher, spannender und effektiver zu gestalten. Sie hilft Ihnen, Ihr Training zu verbessern indem Sie jederzeit und \u00fcberall auf Ihre Daten zugreifen k\u00f6nnen.<br><br>Fangen Sie an, mit der MARE App zu trainieren, sammeln Sie MOVEs und werden Sie jeden Tag aktiver. Ein Beispiel: Ein Lauf von ca. 10 Minuten in niedriger Intensit\u00e4t sind umgerechnet ca. 120 MOVEs.<br><br>Der schnellste und einfachste Weg ist es, die MOVEs direkt an den Technogym Ger\u00e4ten zu sammeln. Loggen Sie sich mit Ihrem mywellness Account an den Ger\u00e4ten ein und trainieren Sie mit den besten Trainingsprogrammen. Mit der App k\u00f6nnen Sie sich Ihr Trainingsprogramm, die Details der \u00dcbungen und Videos direkt ansehen. Resultate werden automatisch, w\u00e4hrend Ihrer Trainingseinheit gespeichert.<br><br>WARUM SIE DIE MARE APP BRAUCHEN?<br><br>TRAINING:<br>Mit der App bekommen Sie ein personalisiertes und komplettes Trainingsprogramm, alle Details der \u00dcbungen mit Videos und eine automatische Aktualisierung Ihrer MOVEs jederzeit und \u00fcberall. Die MARE App weist Ihnen ein Wochenziel an MOVEs auf der Grundlage Ihres Lebensstils zu und zeigt Ihren Fortschritt an einem einfachen Balken.<br><br>KURSE:<br>Sie finden den aktuellen Kursplan in der MARE App. Reservieren Sie sich Ihren Platz bei ausgew\u00e4hlten Kursen.<br><br><br>OUTDOOR AKTIVIT\u00c4TEN:<br>F\u00fcgen Sie ihre Outdoor Aktivit\u00e4ten manuell hinzu oder verkn\u00fcpfen Sie Ihren Account mit anderen Anwendungen wie Apple Health, Polar, Fitbit, Garmin, MapMyFitness, MyFitnessPal, RunKeeper, Strava, Swimtag und Withings. So k\u00f6nnen Sie Ihre T\u00e4tigkeiten im Freien nachverfolgen und Ihnen gehen die Daten nicht verloren.<br><br>MOTIVATION DURCH HERAUSFORDERUNG:<br>Nehmen Sie an abwechslungsreichen Wettbewerben teil, die von Ihrem MARE organisiert werden. Messen Sie sich mit anderen und klettern Sie auf der Rangliste ganz nach oben.<br><br>PERSONALISIERUNG:<br>Um Ihr Trainingserlebnis zu personalisieren verwenden Sie die MARE App, um sich an den Technogym-Ger\u00e4ten UNITY\u2122 einzuloggen und ein personalisiertes Training zu gestalten. Zu Ihrer Unterhaltung k\u00f6nnen Sie Ihre bevorzugten Internetseiten, sozialen Netzwerke, TV-Programme und unterhaltsamen Spielen w\u00e4hlen. Wie? Durch einfaches Einloggen mit dem Smartphone per NFC oder durch Scannen eines QR-Codes.<br><br>TRAININGSDATEN IM \u00dcBERBLICK:<br>Mit der MARE App erhalten Sie jederzeit und \u00fcberall die volle \u00dcbersicht \u00fcber Ihre Trainingsdaten. Alle Trainingseinheiten, Messungen der K\u00f6rperzusammensetzung und das aktuelle Wochenziel werden in Echtzeit aktualisiert.",
+    "descriptionShort": "Mare",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "39785059",
+          "unknown3": 29
+        },
+        "developerEmail": "info@mare-kiel.de",
+        "developerName": "Mywellness srl",
+        "developerWebsite": "http://www.mare-kiel.de",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "11815740",
+            "versionCode": 10
+          },
+          {
+            "fileType": 0,
+            "size": "2475296",
+            "versionCode": 10
+          },
+          {
+            "fileType": 0,
+            "size": "282970",
+            "versionCode": 10
+          },
+          {
+            "fileType": 0,
+            "size": "25056057",
+            "versionCode": 10
+          },
+          {
+            "fileType": 0,
+            "size": "146376",
+            "versionCode": 10
+          },
+          {
+            "fileType": 0,
+            "size": "8620",
+            "versionCode": 10
+          }
+        ],
+        "installationSize": "39785059",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "com.technogym.mywellness.mare",
+        "permission": [
+          "android.permission.ACCESS_BACKGROUND_LOCATION",
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.AUTHENTICATE_ACCOUNTS",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.CAMERA",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.GET_ACCOUNTS",
+          "android.permission.INTERNET",
+          "android.permission.MANAGE_ACCOUNTS",
+          "android.permission.MODIFY_AUDIO_SETTINGS",
+          "android.permission.NFC",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_CALENDAR",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_SYNC_SETTINGS",
+          "android.permission.READ_SYNC_STATS",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.RECORD_AUDIO",
+          "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+          "android.permission.USE_CREDENTIALS",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_CALENDAR",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "android.permission.WRITE_SYNC_SETTINGS",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "com.technogym.mywellness.mare.permission.C2D_MESSAGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE"
+        ],
+        "unstable": false,
+        "uploadDate": "5 Oct 2020",
+        "versionCode": 10,
+        "versionString": "5.0.2"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.technogym.mywellness.mare",
+    "docType": 1,
+    "docid": "com.technogym.mywellness.mare",
+    "image": [
+      {
+        "imageType": 2,
+        "imageUrl": "https://lh3.googleusercontent.com/zxyvKF8Xhq84LWCXu2tihjArL7sc4tKYtxcJaPVUKknUXKd96aSLyKIiT3Y5bZHthpI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 4,
+        "imageUrl": "https://lh3.googleusercontent.com/dt-PJmC5q_RC27rAjNXNs_pbFL2sOM7piZUzCQsd2t4mtg9oid3ESUEgvzO2u914Nq4",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/fXusU7lFLC7uOih0Q0ueVIboa6VdgDW-fJrxudNoqIpwwzo98LyOr9ESx8Y67slnkQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/KhEGPwK_mp9hfWzvE2kc4mNbqWn5FSoOQa1jRaE2yydBsbCuQDiPZP0VNQbeEXMVEvc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/FXZjNXUMvrkBjmUZjvel4Z4w0Ouj5M4gx2pZH6sCjEJMcmTFJFzNzVjsjTXWIxAe_7oN",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/X0dG1EjpUWjRaA1lstp7FUGSZhjwGO5Bo719sr1mOuwHqIPcgEVOXLlpEFz2MqGsUiY",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://www.mywellness.com/cloud/Terms/Privacy/",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.technogym.mywellness.mare",
+    "reviewsUrl": "rev?doc=com.technogym.mywellness.mare&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.technogym.mywellness.mare",
+    "title": "Mare",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "info@mare-kiel.de"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "1 Apr 2019"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-10-28 08:49:15.533110",
+    "backendDocid": "com.technogym.mywellness.mare",
+    "backendId": 3,
+    "creator": "Mywellness srl",
+    "descriptionHtml": "Die MARE App ist eine Applikation um Ihre Trainingserfahrungen pers\u00f6nlicher, spannender und effektiver zu gestalten. Sie hilft Ihnen, Ihr Training zu verbessern indem Sie jederzeit und \u00fcberall auf Ihre Daten zugreifen k\u00f6nnen.<br><br>Fangen Sie an, mit der MARE App zu trainieren, sammeln Sie MOVEs und werden Sie jeden Tag aktiver. Ein Beispiel: Ein Lauf von ca. 10 Minuten in niedriger Intensit\u00e4t sind umgerechnet ca. 120 MOVEs.<br><br>Der schnellste und einfachste Weg ist es, die MOVEs direkt an den Technogym Ger\u00e4ten zu sammeln. Loggen Sie sich mit Ihrem mywellness Account an den Ger\u00e4ten ein und trainieren Sie mit den besten Trainingsprogrammen. Mit der App k\u00f6nnen Sie sich Ihr Trainingsprogramm, die Details der \u00dcbungen und Videos direkt ansehen. Resultate werden automatisch, w\u00e4hrend Ihrer Trainingseinheit gespeichert.<br><br>WARUM SIE DIE MARE APP BRAUCHEN?<br><br>TRAINING:<br>Mit der App bekommen Sie ein personalisiertes und komplettes Trainingsprogramm, alle Details der \u00dcbungen mit Videos und eine automatische Aktualisierung Ihrer MOVEs jederzeit und \u00fcberall. Die MARE App weist Ihnen ein Wochenziel an MOVEs auf der Grundlage Ihres Lebensstils zu und zeigt Ihren Fortschritt an einem einfachen Balken.<br><br>KURSE:<br>Sie finden den aktuellen Kursplan in der MARE App. Reservieren Sie sich Ihren Platz bei ausgew\u00e4hlten Kursen.<br><br><br>OUTDOOR AKTIVIT\u00c4TEN:<br>F\u00fcgen Sie ihre Outdoor Aktivit\u00e4ten manuell hinzu oder verkn\u00fcpfen Sie Ihren Account mit anderen Anwendungen wie Apple Health, Polar, Fitbit, Garmin, MapMyFitness, MyFitnessPal, RunKeeper, Strava, Swimtag und Withings. So k\u00f6nnen Sie Ihre T\u00e4tigkeiten im Freien nachverfolgen und Ihnen gehen die Daten nicht verloren.<br><br>MOTIVATION DURCH HERAUSFORDERUNG:<br>Nehmen Sie an abwechslungsreichen Wettbewerben teil, die von Ihrem MARE organisiert werden. Messen Sie sich mit anderen und klettern Sie auf der Rangliste ganz nach oben.<br><br>PERSONALISIERUNG:<br>Um Ihr Trainingserlebnis zu personalisieren verwenden Sie die MARE App, um sich an den Technogym-Ger\u00e4ten UNITY\u2122 einzuloggen und ein personalisiertes Training zu gestalten. Zu Ihrer Unterhaltung k\u00f6nnen Sie Ihre bevorzugten Internetseiten, sozialen Netzwerke, TV-Programme und unterhaltsamen Spielen w\u00e4hlen. Wie? Durch einfaches Einloggen mit dem Smartphone per NFC oder durch Scannen eines QR-Codes.<br><br>TRAININGSDATEN IM \u00dcBERBLICK:<br>Mit der MARE App erhalten Sie jederzeit und \u00fcberall die volle \u00dcbersicht \u00fcber Ihre Trainingsdaten. Alle Trainingseinheiten, Messungen der K\u00f6rperzusammensetzung und das aktuelle Wochenziel werden in Echtzeit aktualisiert.",
+    "descriptionShort": "Mare",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "38738462",
+          "unknown3": 29
+        },
+        "developerEmail": "info@mare-kiel.de",
+        "developerName": "Mywellness srl",
+        "developerWebsite": "http://www.mare-kiel.de",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "10675845",
+            "versionCode": 11
+          },
+          {
+            "fileType": 0,
+            "size": "2465942",
+            "versionCode": 11
+          },
+          {
+            "fileType": 0,
+            "size": "291225",
+            "versionCode": 11
+          },
+          {
+            "fileType": 0,
+            "size": "25142136",
+            "versionCode": 11
+          },
+          {
+            "fileType": 0,
+            "size": "150535",
+            "versionCode": 11
+          },
+          {
+            "fileType": 0,
+            "size": "12779",
+            "versionCode": 11
+          }
+        ],
+        "installationSize": "38738462",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "com.technogym.mywellness.mare",
+        "permission": [
+          "android.permission.ACCESS_BACKGROUND_LOCATION",
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.AUTHENTICATE_ACCOUNTS",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.CAMERA",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.GET_ACCOUNTS",
+          "android.permission.INTERNET",
+          "android.permission.MANAGE_ACCOUNTS",
+          "android.permission.MODIFY_AUDIO_SETTINGS",
+          "android.permission.NFC",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_CALENDAR",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_SYNC_SETTINGS",
+          "android.permission.READ_SYNC_STATS",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.RECORD_AUDIO",
+          "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+          "android.permission.USE_CREDENTIALS",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_CALENDAR",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "android.permission.WRITE_SYNC_SETTINGS",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.providers.gsf.permission.READ_GSERVICES",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "com.technogym.mywellness.mare.permission.C2D_MESSAGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE"
+        ],
+        "unstable": false,
+        "uploadDate": "Oct. 27, 2020",
+        "versionCode": 11,
+        "versionString": "5.0.6"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.technogym.mywellness.mare",
+    "docType": 1,
+    "docid": "com.technogym.mywellness.mare",
+    "image": [
+      {
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/zxyvKF8Xhq84LWCXu2tihjArL7sc4tKYtxcJaPVUKknUXKd96aSLyKIiT3Y5bZHthpI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/dt-PJmC5q_RC27rAjNXNs_pbFL2sOM7piZUzCQsd2t4mtg9oid3ESUEgvzO2u914Nq4",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/fXusU7lFLC7uOih0Q0ueVIboa6VdgDW-fJrxudNoqIpwwzo98LyOr9ESx8Y67slnkQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/KhEGPwK_mp9hfWzvE2kc4mNbqWn5FSoOQa1jRaE2yydBsbCuQDiPZP0VNQbeEXMVEvc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/FXZjNXUMvrkBjmUZjvel4Z4w0Ouj5M4gx2pZH6sCjEJMcmTFJFzNzVjsjTXWIxAe_7oN",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/X0dG1EjpUWjRaA1lstp7FUGSZhjwGO5Bo719sr1mOuwHqIPcgEVOXLlpEFz2MqGsUiY",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://www.mywellness.com/cloud/Terms/Privacy/",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.technogym.mywellness.mare",
+    "reviewsUrl": "rev?doc=com.technogym.mywellness.mare&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.technogym.mywellness.mare",
+    "title": "Mare",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Mywellness srl"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "info@mare-kiel.de"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Apr. 1, 2019"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-11-25 02:46:06.199831",
+    "backendDocid": "com.technogym.mywellness.mare",
+    "backendId": 3,
+    "creator": "Mywellness srl",
+    "descriptionHtml": "Die MARE App ist eine Applikation um Ihre Trainingserfahrungen pers\u00f6nlicher, spannender und effektiver zu gestalten. Sie hilft Ihnen, Ihr Training zu verbessern indem Sie jederzeit und \u00fcberall auf Ihre Daten zugreifen k\u00f6nnen.<br><br>Fangen Sie an, mit der MARE App zu trainieren, sammeln Sie MOVEs und werden Sie jeden Tag aktiver. Ein Beispiel: Ein Lauf von ca. 10 Minuten in niedriger Intensit\u00e4t sind umgerechnet ca. 120 MOVEs.<br><br>Der schnellste und einfachste Weg ist es, die MOVEs direkt an den Technogym Ger\u00e4ten zu sammeln. Loggen Sie sich mit Ihrem mywellness Account an den Ger\u00e4ten ein und trainieren Sie mit den besten Trainingsprogrammen. Mit der App k\u00f6nnen Sie sich Ihr Trainingsprogramm, die Details der \u00dcbungen und Videos direkt ansehen. Resultate werden automatisch, w\u00e4hrend Ihrer Trainingseinheit gespeichert.<br><br>WARUM SIE DIE MARE APP BRAUCHEN?<br><br>TRAINING:<br>Mit der App bekommen Sie ein personalisiertes und komplettes Trainingsprogramm, alle Details der \u00dcbungen mit Videos und eine automatische Aktualisierung Ihrer MOVEs jederzeit und \u00fcberall. Die MARE App weist Ihnen ein Wochenziel an MOVEs auf der Grundlage Ihres Lebensstils zu und zeigt Ihren Fortschritt an einem einfachen Balken.<br><br>KURSE:<br>Sie finden den aktuellen Kursplan in der MARE App. Reservieren Sie sich Ihren Platz bei ausgew\u00e4hlten Kursen.<br><br><br>OUTDOOR AKTIVIT\u00c4TEN:<br>F\u00fcgen Sie ihre Outdoor Aktivit\u00e4ten manuell hinzu oder verkn\u00fcpfen Sie Ihren Account mit anderen Anwendungen wie Apple Health, Polar, Fitbit, Garmin, MapMyFitness, MyFitnessPal, RunKeeper, Strava, Swimtag und Withings. So k\u00f6nnen Sie Ihre T\u00e4tigkeiten im Freien nachverfolgen und Ihnen gehen die Daten nicht verloren.<br><br>MOTIVATION DURCH HERAUSFORDERUNG:<br>Nehmen Sie an abwechslungsreichen Wettbewerben teil, die von Ihrem MARE organisiert werden. Messen Sie sich mit anderen und klettern Sie auf der Rangliste ganz nach oben.<br><br>PERSONALISIERUNG:<br>Um Ihr Trainingserlebnis zu personalisieren verwenden Sie die MARE App, um sich an den Technogym-Ger\u00e4ten UNITY\u2122 einzuloggen und ein personalisiertes Training zu gestalten. Zu Ihrer Unterhaltung k\u00f6nnen Sie Ihre bevorzugten Internetseiten, sozialen Netzwerke, TV-Programme und unterhaltsamen Spielen w\u00e4hlen. Wie? Durch einfaches Einloggen mit dem Smartphone per NFC oder durch Scannen eines QR-Codes.<br><br>TRAININGSDATEN IM \u00dcBERBLICK:<br>Mit der MARE App erhalten Sie jederzeit und \u00fcberall die volle \u00dcbersicht \u00fcber Ihre Trainingsdaten. Alle Trainingseinheiten, Messungen der K\u00f6rperzusammensetzung und das aktuelle Wochenziel werden in Echtzeit aktualisiert.",
+    "descriptionShort": "Mare",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "38147178",
+          "unknown3": 29
+        },
+        "developerEmail": "info@mare-kiel.de",
+        "developerName": "Mywellness srl",
+        "developerWebsite": "http://www.mare-kiel.de",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "10100945",
+            "versionCode": 12
+          },
+          {
+            "fileType": 0,
+            "size": "2453654",
+            "versionCode": 12
+          },
+          {
+            "fileType": 0,
+            "size": "291225",
+            "versionCode": 12
+          },
+          {
+            "fileType": 0,
+            "size": "25142136",
+            "versionCode": 12
+          },
+          {
+            "fileType": 0,
+            "size": "146439",
+            "versionCode": 12
+          },
+          {
+            "fileType": 0,
+            "size": "12779",
+            "versionCode": 12
+          }
+        ],
+        "installationSize": "38147178",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "com.technogym.mywellness.mare",
+        "permission": [
+          "android.permission.ACCESS_BACKGROUND_LOCATION",
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.AUTHENTICATE_ACCOUNTS",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.CAMERA",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.GET_ACCOUNTS",
+          "android.permission.INTERNET",
+          "android.permission.MANAGE_ACCOUNTS",
+          "android.permission.MODIFY_AUDIO_SETTINGS",
+          "android.permission.NFC",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_CALENDAR",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.READ_SYNC_SETTINGS",
+          "android.permission.READ_SYNC_STATS",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.RECORD_AUDIO",
+          "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+          "android.permission.USE_CREDENTIALS",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_CALENDAR",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "android.permission.WRITE_SYNC_SETTINGS",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.providers.gsf.permission.READ_GSERVICES",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "com.technogym.mywellness.mare.permission.C2D_MESSAGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE"
+        ],
+        "unstable": false,
+        "uploadDate": "24 Nov 2020",
+        "versionCode": 12,
+        "versionString": "5.0.7"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.technogym.mywellness.mare",
+    "docType": 1,
+    "docid": "com.technogym.mywellness.mare",
+    "image": [
+      {
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/zxyvKF8Xhq84LWCXu2tihjArL7sc4tKYtxcJaPVUKknUXKd96aSLyKIiT3Y5bZHthpI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/dt-PJmC5q_RC27rAjNXNs_pbFL2sOM7piZUzCQsd2t4mtg9oid3ESUEgvzO2u914Nq4",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/fXusU7lFLC7uOih0Q0ueVIboa6VdgDW-fJrxudNoqIpwwzo98LyOr9ESx8Y67slnkQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/KhEGPwK_mp9hfWzvE2kc4mNbqWn5FSoOQa1jRaE2yydBsbCuQDiPZP0VNQbeEXMVEvc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/FXZjNXUMvrkBjmUZjvel4Z4w0Ouj5M4gx2pZH6sCjEJMcmTFJFzNzVjsjTXWIxAe_7oN",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/X0dG1EjpUWjRaA1lstp7FUGSZhjwGO5Bo719sr1mOuwHqIPcgEVOXLlpEFz2MqGsUiY",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://www.mywellness.com/cloud/Terms/Privacy/",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.technogym.mywellness.mare",
+    "reviewsUrl": "rev?doc=com.technogym.mywellness.mare&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.technogym.mywellness.mare",
+    "title": "Mare",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "info@mare-kiel.de"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "1 Apr 2019"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-12-18 12:48:44.158930",
+    "backendDocid": "com.technogym.mywellness.mare",
+    "backendId": 3,
+    "creator": "Mywellness srl",
+    "descriptionHtml": "Die MARE App ist eine Applikation um Ihre Trainingserfahrungen pers\u00f6nlicher, spannender und effektiver zu gestalten. Sie hilft Ihnen, Ihr Training zu verbessern indem Sie jederzeit und \u00fcberall auf Ihre Daten zugreifen k\u00f6nnen.<br><br>Fangen Sie an, mit der MARE App zu trainieren, sammeln Sie MOVEs und werden Sie jeden Tag aktiver. Ein Beispiel: Ein Lauf von ca. 10 Minuten in niedriger Intensit\u00e4t sind umgerechnet ca. 120 MOVEs.<br><br>Der schnellste und einfachste Weg ist es, die MOVEs direkt an den Technogym Ger\u00e4ten zu sammeln. Loggen Sie sich mit Ihrem mywellness Account an den Ger\u00e4ten ein und trainieren Sie mit den besten Trainingsprogrammen. Mit der App k\u00f6nnen Sie sich Ihr Trainingsprogramm, die Details der \u00dcbungen und Videos direkt ansehen. Resultate werden automatisch, w\u00e4hrend Ihrer Trainingseinheit gespeichert.<br><br>WARUM SIE DIE MARE APP BRAUCHEN?<br><br>TRAINING:<br>Mit der App bekommen Sie ein personalisiertes und komplettes Trainingsprogramm, alle Details der \u00dcbungen mit Videos und eine automatische Aktualisierung Ihrer MOVEs jederzeit und \u00fcberall. Die MARE App weist Ihnen ein Wochenziel an MOVEs auf der Grundlage Ihres Lebensstils zu und zeigt Ihren Fortschritt an einem einfachen Balken.<br><br>KURSE:<br>Sie finden den aktuellen Kursplan in der MARE App. Reservieren Sie sich Ihren Platz bei ausgew\u00e4hlten Kursen.<br><br><br>OUTDOOR AKTIVIT\u00c4TEN:<br>F\u00fcgen Sie ihre Outdoor Aktivit\u00e4ten manuell hinzu oder verkn\u00fcpfen Sie Ihren Account mit anderen Anwendungen wie Apple Health, Polar, Fitbit, Garmin, MapMyFitness, MyFitnessPal, RunKeeper, Strava, Swimtag und Withings. So k\u00f6nnen Sie Ihre T\u00e4tigkeiten im Freien nachverfolgen und Ihnen gehen die Daten nicht verloren.<br><br>MOTIVATION DURCH HERAUSFORDERUNG:<br>Nehmen Sie an abwechslungsreichen Wettbewerben teil, die von Ihrem MARE organisiert werden. Messen Sie sich mit anderen und klettern Sie auf der Rangliste ganz nach oben.<br><br>PERSONALISIERUNG:<br>Um Ihr Trainingserlebnis zu personalisieren verwenden Sie die MARE App, um sich an den Technogym-Ger\u00e4ten UNITY\u2122 einzuloggen und ein personalisiertes Training zu gestalten. Zu Ihrer Unterhaltung k\u00f6nnen Sie Ihre bevorzugten Internetseiten, sozialen Netzwerke, TV-Programme und unterhaltsamen Spielen w\u00e4hlen. Wie? Durch einfaches Einloggen mit dem Smartphone per NFC oder durch Scannen eines QR-Codes.<br><br>TRAININGSDATEN IM \u00dcBERBLICK:<br>Mit der MARE App erhalten Sie jederzeit und \u00fcberall die volle \u00dcbersicht \u00fcber Ihre Trainingsdaten. Alle Trainingseinheiten, Messungen der K\u00f6rperzusammensetzung und das aktuelle Wochenziel werden in Echtzeit aktualisiert.",
+    "descriptionShort": "Die MARE App ist eine Applikation um Ihre Trainingserfahrungen",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "38098127",
+          "unknown3": 29
+        },
+        "developerEmail": "info@mare-kiel.de",
+        "developerName": "Mywellness srl",
+        "developerWebsite": "http://www.mare-kiel.de",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "10051894",
+            "versionCode": 13
+          },
+          {
+            "fileType": 0,
+            "size": "2453654",
+            "versionCode": 13
+          },
+          {
+            "fileType": 0,
+            "size": "291225",
+            "versionCode": 13
+          },
+          {
+            "fileType": 0,
+            "size": "25142136",
+            "versionCode": 13
+          },
+          {
+            "fileType": 0,
+            "size": "146439",
+            "versionCode": 13
+          },
+          {
+            "fileType": 0,
+            "size": "12779",
+            "versionCode": 13
+          }
+        ],
+        "installationSize": "38098127",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "com.technogym.mywellness.mare",
+        "permission": [
+          "android.permission.ACCESS_BACKGROUND_LOCATION",
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.AUTHENTICATE_ACCOUNTS",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.CAMERA",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.GET_ACCOUNTS",
+          "android.permission.INTERNET",
+          "android.permission.MANAGE_ACCOUNTS",
+          "android.permission.MODIFY_AUDIO_SETTINGS",
+          "android.permission.NFC",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_CALENDAR",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.READ_SYNC_SETTINGS",
+          "android.permission.READ_SYNC_STATS",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.RECORD_AUDIO",
+          "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+          "android.permission.USE_CREDENTIALS",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_CALENDAR",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "android.permission.WRITE_SYNC_SETTINGS",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.providers.gsf.permission.READ_GSERVICES",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "com.technogym.mywellness.mare.permission.C2D_MESSAGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE"
+        ],
+        "unstable": false,
+        "uploadDate": "16 Dec 2020",
+        "versionCode": 13,
+        "versionString": "5.0.8"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.technogym.mywellness.mare",
+    "docType": 1,
+    "docid": "com.technogym.mywellness.mare",
+    "image": [
+      {
+        "dimension": {
+          "height": 0,
+          "width": 0
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/zxyvKF8Xhq84LWCXu2tihjArL7sc4tKYtxcJaPVUKknUXKd96aSLyKIiT3Y5bZHthpI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 0,
+          "width": 0
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/dt-PJmC5q_RC27rAjNXNs_pbFL2sOM7piZUzCQsd2t4mtg9oid3ESUEgvzO2u914Nq4",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 0,
+          "width": 0
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/fXusU7lFLC7uOih0Q0ueVIboa6VdgDW-fJrxudNoqIpwwzo98LyOr9ESx8Y67slnkQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 0,
+          "width": 0
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/KhEGPwK_mp9hfWzvE2kc4mNbqWn5FSoOQa1jRaE2yydBsbCuQDiPZP0VNQbeEXMVEvc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 0,
+          "width": 0
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/FXZjNXUMvrkBjmUZjvel4Z4w0Ouj5M4gx2pZH6sCjEJMcmTFJFzNzVjsjTXWIxAe_7oN",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 0,
+          "width": 0
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/X0dG1EjpUWjRaA1lstp7FUGSZhjwGO5Bo719sr1mOuwHqIPcgEVOXLlpEFz2MqGsUiY",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://www.mywellness.com/cloud/Terms/Privacy/",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.technogym.mywellness.mare",
+    "reviewsUrl": "rev?doc=com.technogym.mywellness.mare&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.technogym.mywellness.mare",
+    "title": "Mare",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "info@mare-kiel.de"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "1 Apr 2019"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "2",
+      "fiveStarRatings": "13",
+      "fourStarRatings": "3",
+      "oneStarRatings": "0",
+      "ratingsCount": "17",
+      "starRating": 4.7058825,
+      "threeStarRatings": "1",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-08-29 05:34:34.038778",
+    "backendDocid": "com.technogym.mywellness.mare",
+    "backendId": 3,
+    "creator": "Mywellness srl",
+    "descriptionHtml": "Die MARE App ist eine Applikation um Ihre Trainingserfahrungen pers\u00f6nlicher, spannender und effektiver zu gestalten. Sie hilft Ihnen, Ihr Training zu verbessern indem Sie jederzeit und \u00fcberall auf Ihre Daten zugreifen k\u00f6nnen.<br><br>Fangen Sie an, mit der MARE App zu trainieren, sammeln Sie MOVEs und werden Sie jeden Tag aktiver. Ein Beispiel: Ein Lauf von ca. 10 Minuten in niedriger Intensit\u00e4t sind umgerechnet ca. 120 MOVEs.<br><br>Der schnellste und einfachste Weg ist es, die MOVEs direkt an den Technogym Ger\u00e4ten zu sammeln. Loggen Sie sich mit Ihrem mywellness Account an den Ger\u00e4ten ein und trainieren Sie mit den besten Trainingsprogrammen. Mit der App k\u00f6nnen Sie sich Ihr Trainingsprogramm, die Details der \u00dcbungen und Videos direkt ansehen. Resultate werden automatisch, w\u00e4hrend Ihrer Trainingseinheit gespeichert.<br><br>WARUM SIE DIE MARE APP BRAUCHEN?<br><br>TRAINING:<br>Mit der App bekommen Sie ein personalisiertes und komplettes Trainingsprogramm, alle Details der \u00dcbungen mit Videos und eine automatische Aktualisierung Ihrer MOVEs jederzeit und \u00fcberall. Die MARE App weist Ihnen ein Wochenziel an MOVEs auf der Grundlage Ihres Lebensstils zu und zeigt Ihren Fortschritt an einem einfachen Balken.<br><br>KURSE:<br>Sie finden den aktuellen Kursplan in der MARE App. Reservieren Sie sich Ihren Platz bei ausgew\u00e4hlten Kursen.<br><br><br>OUTDOOR AKTIVIT\u00c4TEN:<br>F\u00fcgen Sie ihre Outdoor Aktivit\u00e4ten manuell hinzu oder verkn\u00fcpfen Sie Ihren Account mit anderen Anwendungen wie Apple Health, Polar, Fitbit, Garmin, MapMyFitness, MyFitnessPal, RunKeeper, Strava, Swimtag und Withings. So k\u00f6nnen Sie Ihre T\u00e4tigkeiten im Freien nachverfolgen und Ihnen gehen die Daten nicht verloren.<br><br>MOTIVATION DURCH HERAUSFORDERUNG:<br>Nehmen Sie an abwechslungsreichen Wettbewerben teil, die von Ihrem MARE organisiert werden. Messen Sie sich mit anderen und klettern Sie auf der Rangliste ganz nach oben.<br><br>PERSONALISIERUNG:<br>Um Ihr Trainingserlebnis zu personalisieren verwenden Sie die MARE App, um sich an den Technogym-Ger\u00e4ten UNITY\u2122 einzuloggen und ein personalisiertes Training zu gestalten. Zu Ihrer Unterhaltung k\u00f6nnen Sie Ihre bevorzugten Internetseiten, sozialen Netzwerke, TV-Programme und unterhaltsamen Spielen w\u00e4hlen. Wie? Durch einfaches Einloggen mit dem Smartphone per NFC oder durch Scannen eines QR-Codes.<br><br>TRAININGSDATEN IM \u00dcBERBLICK:<br>Mit der MARE App erhalten Sie jederzeit und \u00fcberall die volle \u00dcbersicht \u00fcber Ihre Trainingsdaten. Alle Trainingseinheiten, Messungen der K\u00f6rperzusammensetzung und das aktuelle Wochenziel werden in Echtzeit aktualisiert.",
+    "descriptionShort": "Die MARE App ist eine Applikation um Ihre Trainingserfahrungen",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "42538890",
+          "unknown3": 30
+        },
+        "developerEmail": "info@mare-kiel.de",
+        "developerName": "Mywellness srl",
+        "developerWebsite": "http://www.mare-kiel.de",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "11431309",
+            "versionCode": 14
+          },
+          {
+            "fileType": 0,
+            "size": "2516204",
+            "versionCode": 14
+          },
+          {
+            "fileType": 0,
+            "size": "311705",
+            "versionCode": 14
+          },
+          {
+            "fileType": 0,
+            "size": "28279672",
+            "versionCode": 14
+          }
+        ],
+        "installationSize": "42538890",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "com.technogym.mywellness.mare",
+        "permission": [
+          "android.permission.ACCESS_BACKGROUND_LOCATION",
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.AUTHENTICATE_ACCOUNTS",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.CAMERA",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.GET_ACCOUNTS",
+          "android.permission.INTERNET",
+          "android.permission.MANAGE_ACCOUNTS",
+          "android.permission.MODIFY_AUDIO_SETTINGS",
+          "android.permission.NFC",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_CALENDAR",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.READ_SYNC_SETTINGS",
+          "android.permission.READ_SYNC_STATS",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.RECORD_AUDIO",
+          "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+          "android.permission.USE_CREDENTIALS",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_CALENDAR",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "android.permission.WRITE_SYNC_SETTINGS",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "com.technogym.mywellness.mare.permission.C2D_MESSAGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE"
+        ],
+        "unstable": false,
+        "uploadDate": "26 Aug 2021",
+        "versionCode": 14,
+        "versionString": "6.1.2"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.technogym.mywellness.mare",
+    "docType": 1,
+    "docid": "com.technogym.mywellness.mare",
+    "image": [
+      {
+        "dimension": {
+          "height": 0,
+          "width": 0
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/zxyvKF8Xhq84LWCXu2tihjArL7sc4tKYtxcJaPVUKknUXKd96aSLyKIiT3Y5bZHthpI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 0,
+          "width": 0
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/dt-PJmC5q_RC27rAjNXNs_pbFL2sOM7piZUzCQsd2t4mtg9oid3ESUEgvzO2u914Nq4",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 0,
+          "width": 0
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/fXusU7lFLC7uOih0Q0ueVIboa6VdgDW-fJrxudNoqIpwwzo98LyOr9ESx8Y67slnkQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 0,
+          "width": 0
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/KhEGPwK_mp9hfWzvE2kc4mNbqWn5FSoOQa1jRaE2yydBsbCuQDiPZP0VNQbeEXMVEvc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 0,
+          "width": 0
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/FXZjNXUMvrkBjmUZjvel4Z4w0Ouj5M4gx2pZH6sCjEJMcmTFJFzNzVjsjTXWIxAe_7oN",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 0,
+          "width": 0
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/X0dG1EjpUWjRaA1lstp7FUGSZhjwGO5Bo719sr1mOuwHqIPcgEVOXLlpEFz2MqGsUiY",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://www.mywellness.com/cloud/Terms/Privacy/",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.technogym.mywellness.mare",
+    "reviewsUrl": "rev?doc=com.technogym.mywellness.mare&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.technogym.mywellness.mare",
+    "title": "Mare",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "info@mare-kiel.de"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "1 Apr 2019"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "2",
+      "fiveStarRatings": "13",
+      "fourStarRatings": "3",
+      "oneStarRatings": "0",
+      "ratingsCount": "17",
+      "starRating": 4.7058825,
+      "threeStarRatings": "1",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-11-01 11:32:30.138627",
+    "backendDocid": "com.technogym.mywellness.mare",
+    "backendId": 3,
+    "creator": "Mywellness srl",
+    "descriptionHtml": "Die MARE App ist eine Applikation um Ihre Trainingserfahrungen pers\u00f6nlicher, spannender und effektiver zu gestalten. Sie hilft Ihnen, Ihr Training zu verbessern indem Sie jederzeit und \u00fcberall auf Ihre Daten zugreifen k\u00f6nnen.<br><br>Fangen Sie an, mit der MARE App zu trainieren, sammeln Sie MOVEs und werden Sie jeden Tag aktiver. Ein Beispiel: Ein Lauf von ca. 10 Minuten in niedriger Intensit\u00e4t sind umgerechnet ca. 120 MOVEs.<br><br>Der schnellste und einfachste Weg ist es, die MOVEs direkt an den Technogym Ger\u00e4ten zu sammeln. Loggen Sie sich mit Ihrem mywellness Account an den Ger\u00e4ten ein und trainieren Sie mit den besten Trainingsprogrammen. Mit der App k\u00f6nnen Sie sich Ihr Trainingsprogramm, die Details der \u00dcbungen und Videos direkt ansehen. Resultate werden automatisch, w\u00e4hrend Ihrer Trainingseinheit gespeichert.<br><br>WARUM SIE DIE MARE APP BRAUCHEN?<br><br>TRAINING:<br>Mit der App bekommen Sie ein personalisiertes und komplettes Trainingsprogramm, alle Details der \u00dcbungen mit Videos und eine automatische Aktualisierung Ihrer MOVEs jederzeit und \u00fcberall. Die MARE App weist Ihnen ein Wochenziel an MOVEs auf der Grundlage Ihres Lebensstils zu und zeigt Ihren Fortschritt an einem einfachen Balken.<br><br>KURSE:<br>Sie finden den aktuellen Kursplan in der MARE App. Reservieren Sie sich Ihren Platz bei ausgew\u00e4hlten Kursen.<br><br><br>OUTDOOR AKTIVIT\u00c4TEN:<br>F\u00fcgen Sie ihre Outdoor Aktivit\u00e4ten manuell hinzu oder verkn\u00fcpfen Sie Ihren Account mit anderen Anwendungen wie Apple Health, Polar, Fitbit, Garmin, MapMyFitness, MyFitnessPal, RunKeeper, Strava, Swimtag und Withings. So k\u00f6nnen Sie Ihre T\u00e4tigkeiten im Freien nachverfolgen und Ihnen gehen die Daten nicht verloren.<br><br>MOTIVATION DURCH HERAUSFORDERUNG:<br>Nehmen Sie an abwechslungsreichen Wettbewerben teil, die von Ihrem MARE organisiert werden. Messen Sie sich mit anderen und klettern Sie auf der Rangliste ganz nach oben.<br><br>PERSONALISIERUNG:<br>Um Ihr Trainingserlebnis zu personalisieren verwenden Sie die MARE App, um sich an den Technogym-Ger\u00e4ten UNITY\u2122 einzuloggen und ein personalisiertes Training zu gestalten. Zu Ihrer Unterhaltung k\u00f6nnen Sie Ihre bevorzugten Internetseiten, sozialen Netzwerke, TV-Programme und unterhaltsamen Spielen w\u00e4hlen. Wie? Durch einfaches Einloggen mit dem Smartphone per NFC oder durch Scannen eines QR-Codes.<br><br>TRAININGSDATEN IM \u00dcBERBLICK:<br>Mit der MARE App erhalten Sie jederzeit und \u00fcberall die volle \u00dcbersicht \u00fcber Ihre Trainingsdaten. Alle Trainingseinheiten, Messungen der K\u00f6rperzusammensetzung und das aktuelle Wochenziel werden in Echtzeit aktualisiert.",
+    "descriptionShort": "Die MARE App ist eine Applikation um Ihre Trainingserfahrungen",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "42856991",
+          "unknown3": 30
+        },
+        "developerEmail": "info@mare-kiel.de",
+        "developerName": "Mywellness srl",
+        "developerWebsite": "http://www.mare-kiel.de",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "11617519",
+            "versionCode": 15
+          },
+          {
+            "fileType": 0,
+            "size": "2652192",
+            "versionCode": 15
+          },
+          {
+            "fileType": 0,
+            "size": "311705",
+            "versionCode": 15
+          },
+          {
+            "fileType": 0,
+            "size": "28275575",
+            "versionCode": 15
+          }
+        ],
+        "installationSize": "42856991",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "com.technogym.mywellness.mare",
+        "permission": [
+          "android.permission.ACCESS_BACKGROUND_LOCATION",
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.AUTHENTICATE_ACCOUNTS",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.CAMERA",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.GET_ACCOUNTS",
+          "android.permission.INTERNET",
+          "android.permission.MANAGE_ACCOUNTS",
+          "android.permission.MODIFY_AUDIO_SETTINGS",
+          "android.permission.NFC",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_CALENDAR",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.READ_SYNC_SETTINGS",
+          "android.permission.READ_SYNC_STATS",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.RECORD_AUDIO",
+          "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+          "android.permission.USE_CREDENTIALS",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_CALENDAR",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "android.permission.WRITE_SYNC_SETTINGS",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "com.technogym.mywellness.mare.permission.C2D_MESSAGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE"
+        ],
+        "unstable": false,
+        "uploadDate": "28 Oct 2021",
+        "versionCode": 15,
+        "versionString": "6.2.1"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.technogym.mywellness.mare",
+    "docType": 1,
+    "docid": "com.technogym.mywellness.mare",
+    "image": [
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 0,
+          "width": 0
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/zxyvKF8Xhq84LWCXu2tihjArL7sc4tKYtxcJaPVUKknUXKd96aSLyKIiT3Y5bZHthpI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 0,
+          "width": 0
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/dt-PJmC5q_RC27rAjNXNs_pbFL2sOM7piZUzCQsd2t4mtg9oid3ESUEgvzO2u914Nq4",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 0,
+          "width": 0
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/fXusU7lFLC7uOih0Q0ueVIboa6VdgDW-fJrxudNoqIpwwzo98LyOr9ESx8Y67slnkQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 0,
+          "width": 0
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/KhEGPwK_mp9hfWzvE2kc4mNbqWn5FSoOQa1jRaE2yydBsbCuQDiPZP0VNQbeEXMVEvc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 0,
+          "width": 0
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/FXZjNXUMvrkBjmUZjvel4Z4w0Ouj5M4gx2pZH6sCjEJMcmTFJFzNzVjsjTXWIxAe_7oN",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 0,
+          "width": 0
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/X0dG1EjpUWjRaA1lstp7FUGSZhjwGO5Bo719sr1mOuwHqIPcgEVOXLlpEFz2MqGsUiY",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://www.mywellness.com/cloud/Terms/Privacy/",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.technogym.mywellness.mare",
+    "reviewsUrl": "rev?doc=com.technogym.mywellness.mare&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.technogym.mywellness.mare",
+    "title": "Mare",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Mywellness srl"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "info@mare-kiel.de"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "1 Apr 2019"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-05-07 03:28:08.271132",
+    "backendDocid": "com.technogym.mywellness.mare",
+    "backendId": 3,
+    "creator": "Mywellness srl",
+    "descriptionHtml": "Die MARE App ist eine Applikation um Ihre Trainingserfahrungen pers\u00f6nlicher, spannender und effektiver zu gestalten. Sie hilft Ihnen, Ihr Training zu verbessern indem Sie jederzeit und \u00fcberall auf Ihre Daten zugreifen k\u00f6nnen.<br><br>Fangen Sie an, mit der MARE App zu trainieren, sammeln Sie MOVEs und werden Sie jeden Tag aktiver. Ein Beispiel: Ein Lauf von ca. 10 Minuten in niedriger Intensit\u00e4t sind umgerechnet ca. 120 MOVEs.<br><br>Der schnellste und einfachste Weg ist es, die MOVEs direkt an den Technogym Ger\u00e4ten zu sammeln. Loggen Sie sich mit Ihrem mywellness Account an den Ger\u00e4ten ein und trainieren Sie mit den besten Trainingsprogrammen. Mit der App k\u00f6nnen Sie sich Ihr Trainingsprogramm, die Details der \u00dcbungen und Videos direkt ansehen. Resultate werden automatisch, w\u00e4hrend Ihrer Trainingseinheit gespeichert.<br><br>WARUM SIE DIE MARE APP BRAUCHEN?<br><br>TRAINING:<br>Mit der App bekommen Sie ein personalisiertes und komplettes Trainingsprogramm, alle Details der \u00dcbungen mit Videos und eine automatische Aktualisierung Ihrer MOVEs jederzeit und \u00fcberall. Die MARE App weist Ihnen ein Wochenziel an MOVEs auf der Grundlage Ihres Lebensstils zu und zeigt Ihren Fortschritt an einem einfachen Balken.<br><br>KURSE:<br>Sie finden den aktuellen Kursplan in der MARE App. Reservieren Sie sich Ihren Platz bei ausgew\u00e4hlten Kursen.<br><br><br>OUTDOOR AKTIVIT\u00c4TEN:<br>F\u00fcgen Sie ihre Outdoor Aktivit\u00e4ten manuell hinzu oder verkn\u00fcpfen Sie Ihren Account mit anderen Anwendungen wie Apple Health, Polar, Fitbit, Garmin, MapMyFitness, MyFitnessPal, RunKeeper, Strava, Swimtag und Withings. So k\u00f6nnen Sie Ihre T\u00e4tigkeiten im Freien nachverfolgen und Ihnen gehen die Daten nicht verloren.<br><br>MOTIVATION DURCH HERAUSFORDERUNG:<br>Nehmen Sie an abwechslungsreichen Wettbewerben teil, die von Ihrem MARE organisiert werden. Messen Sie sich mit anderen und klettern Sie auf der Rangliste ganz nach oben.<br><br>PERSONALISIERUNG:<br>Um Ihr Trainingserlebnis zu personalisieren verwenden Sie die MARE App, um sich an den Technogym-Ger\u00e4ten UNITY\u2122 einzuloggen und ein personalisiertes Training zu gestalten. Zu Ihrer Unterhaltung k\u00f6nnen Sie Ihre bevorzugten Internetseiten, sozialen Netzwerke, TV-Programme und unterhaltsamen Spielen w\u00e4hlen. Wie? Durch einfaches Einloggen mit dem Smartphone per NFC oder durch Scannen eines QR-Codes.<br><br>TRAININGSDATEN IM \u00dcBERBLICK:<br>Mit der MARE App erhalten Sie jederzeit und \u00fcberall die volle \u00dcbersicht \u00fcber Ihre Trainingsdaten. Alle Trainingseinheiten, Messungen der K\u00f6rperzusammensetzung und das aktuelle Wochenziel werden in Echtzeit aktualisiert.",
+    "descriptionShort": "Die MARE App ist eine Applikation um Ihre Trainingserfahrungen",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "43817003",
+          "unknown3": 31
+        },
+        "developerEmail": "info@mare-kiel.de",
+        "developerName": "Mywellness srl",
+        "developerWebsite": "http://www.mare-kiel.de",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "12246188",
+            "versionCode": 17
+          },
+          {
+            "fileType": 0,
+            "size": "2897519",
+            "versionCode": 17
+          },
+          {
+            "fileType": 0,
+            "size": "319897",
+            "versionCode": 17
+          },
+          {
+            "fileType": 0,
+            "size": "28353399",
+            "versionCode": 17
+          }
+        ],
+        "installationSize": "43817003",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "com.technogym.mywellness.mare",
+        "permission": [
+          "android.permission.ACCESS_BACKGROUND_LOCATION",
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.AUTHENTICATE_ACCOUNTS",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.BLUETOOTH_CONNECT",
+          "android.permission.BLUETOOTH_SCAN",
+          "android.permission.CAMERA",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.GET_ACCOUNTS",
+          "android.permission.INTERNET",
+          "android.permission.MANAGE_ACCOUNTS",
+          "android.permission.MODIFY_AUDIO_SETTINGS",
+          "android.permission.NFC",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_CALENDAR",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_PHONE_NUMBERS",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.READ_SYNC_SETTINGS",
+          "android.permission.READ_SYNC_STATS",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.RECORD_AUDIO",
+          "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+          "android.permission.SCHEDULE_EXACT_ALARM",
+          "android.permission.USE_CREDENTIALS",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_CALENDAR",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "android.permission.WRITE_SYNC_SETTINGS",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.AD_ID",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "com.technogym.mywellness.mare.permission.C2D_MESSAGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE"
+        ],
+        "unstable": false,
+        "uploadDate": "5 May 2022",
+        "versionCode": 17,
+        "versionString": "6.5.5"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.technogym.mywellness.mare",
+    "docType": 1,
+    "docid": "com.technogym.mywellness.mare",
+    "image": [
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 0,
+          "width": 0
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/zxyvKF8Xhq84LWCXu2tihjArL7sc4tKYtxcJaPVUKknUXKd96aSLyKIiT3Y5bZHthpI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 0,
+          "width": 0
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/dt-PJmC5q_RC27rAjNXNs_pbFL2sOM7piZUzCQsd2t4mtg9oid3ESUEgvzO2u914Nq4",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2560,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Vx_gb_aNZdu1wP7b4UOhexoHWEn3eDW5uvqC-TwB2QmvsX2HLDm15pRKQJPgoR23BX8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2560,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/YYPpLavdv4BKqtmgd_dXP_1WFLF3VvUqR7iUHI7uCKr8YSfWTEZw44ioyJegHjJkVII",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2560,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/GcjdfgAWb9KU1reDWLuSVpBeb2KpW2imzvu19X-z4s14sdHEQMwrjDVj4iv_9UBHW0lC",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2560,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/krhXTUTqQPqsjhRtb7fyNCVBpf3HITDArCtKCwAhghGA7lNxgRc_r1TWyZV2fpC_ty0",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://www.mywellness.com/cloud/Terms/Privacy/",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.technogym.mywellness.mare",
+    "reviewsUrl": "rev?doc=com.technogym.mywellness.mare&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.technogym.mywellness.mare",
+    "title": "Mare",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Mywellness srl"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "info@mare-kiel.de"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "1 Apr 2019"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-11-25 02:30:47.461598",
+    "backendDocid": "com.technogym.mywellness.mare",
+    "backendId": 3,
+    "creator": "Mywellness srl",
+    "descriptionHtml": "Die MARE App ist eine Applikation um Ihre Trainingserfahrungen pers\u00f6nlicher, spannender und effektiver zu gestalten. Sie hilft Ihnen, Ihr Training zu verbessern indem Sie jederzeit und \u00fcberall auf Ihre Daten zugreifen k\u00f6nnen.<br><br>Fangen Sie an, mit der MARE App zu trainieren, sammeln Sie MOVEs und werden Sie jeden Tag aktiver. Ein Beispiel: Ein Lauf von ca. 10 Minuten in niedriger Intensit\u00e4t sind umgerechnet ca. 120 MOVEs.<br><br>Der schnellste und einfachste Weg ist es, die MOVEs direkt an den Technogym Ger\u00e4ten zu sammeln. Loggen Sie sich mit Ihrem mywellness Account an den Ger\u00e4ten ein und trainieren Sie mit den besten Trainingsprogrammen. Mit der App k\u00f6nnen Sie sich Ihr Trainingsprogramm, die Details der \u00dcbungen und Videos direkt ansehen. Resultate werden automatisch, w\u00e4hrend Ihrer Trainingseinheit gespeichert.<br><br>WARUM SIE DIE MARE APP BRAUCHEN?<br><br>TRAINING:<br>Mit der App bekommen Sie ein personalisiertes und komplettes Trainingsprogramm, alle Details der \u00dcbungen mit Videos und eine automatische Aktualisierung Ihrer MOVEs jederzeit und \u00fcberall. Die MARE App weist Ihnen ein Wochenziel an MOVEs auf der Grundlage Ihres Lebensstils zu und zeigt Ihren Fortschritt an einem einfachen Balken.<br><br>KURSE:<br>Sie finden den aktuellen Kursplan in der MARE App. Reservieren Sie sich Ihren Platz bei ausgew\u00e4hlten Kursen.<br><br><br>OUTDOOR AKTIVIT\u00c4TEN:<br>F\u00fcgen Sie ihre Outdoor Aktivit\u00e4ten manuell hinzu oder verkn\u00fcpfen Sie Ihren Account mit anderen Anwendungen wie Google Fit, S-Health, Fitbit, Garmin, MapMyFitness, MyFitnessPal, Polar, RunKeeper, Strava, Swimtag and Withings. So k\u00f6nnen Sie Ihre T\u00e4tigkeiten im Freien nachverfolgen und Ihnen gehen die Daten nicht verloren.<br><br>MOTIVATION DURCH HERAUSFORDERUNG:<br>Nehmen Sie an abwechslungsreichen Wettbewerben teil, die von Ihrem MARE organisiert werden. Messen Sie sich mit anderen und klettern Sie auf der Rangliste ganz nach oben.<br><br>PERSONALISIERUNG:<br>Um Ihr Trainingserlebnis zu personalisieren verwenden Sie die MARE App, um sich an den Technogym-Ger\u00e4ten UNITY\u2122 einzuloggen und ein personalisiertes Training zu gestalten. Zu Ihrer Unterhaltung k\u00f6nnen Sie Ihre bevorzugten Internetseiten, sozialen Netzwerke, TV-Programme und unterhaltsamen Spielen w\u00e4hlen. Wie? Durch einfaches Einloggen mit dem Smartphone per NFC oder durch Scannen eines QR-Codes.<br><br>TRAININGSDATEN IM \u00dcBERBLICK:<br>Mit der MARE App erhalten Sie jederzeit und \u00fcberall die volle \u00dcbersicht \u00fcber Ihre Trainingsdaten. Alle Trainingseinheiten, Messungen der K\u00f6rperzusammensetzung und das aktuelle Wochenziel werden in Echtzeit aktualisiert.",
+    "descriptionShort": "Die MARE App ist eine Applikation um Ihre Trainingserfahrungen",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "44130131",
+          "unknown3": 31
+        },
+        "developerEmail": "info@mare-kiel.de",
+        "developerName": "Mywellness srl",
+        "developerWebsite": "http://www.mare-kiel.de",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "12462389",
+            "versionCode": 18
+          },
+          {
+            "fileType": 0,
+            "size": "2969870",
+            "versionCode": 18
+          },
+          {
+            "fileType": 0,
+            "size": "344473",
+            "versionCode": 18
+          },
+          {
+            "fileType": 0,
+            "size": "28353399",
+            "versionCode": 18
+          }
+        ],
+        "installationSize": "44130131",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "com.technogym.mywellness.mare",
+        "permission": [
+          "android.permission.ACCESS_BACKGROUND_LOCATION",
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.AUTHENTICATE_ACCOUNTS",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.BLUETOOTH_CONNECT",
+          "android.permission.BLUETOOTH_SCAN",
+          "android.permission.CAMERA",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.GET_ACCOUNTS",
+          "android.permission.INTERNET",
+          "android.permission.MANAGE_ACCOUNTS",
+          "android.permission.MODIFY_AUDIO_SETTINGS",
+          "android.permission.NFC",
+          "android.permission.POST_NOTIFICATIONS",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_CALENDAR",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_PHONE_NUMBERS",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.READ_SYNC_SETTINGS",
+          "android.permission.READ_SYNC_STATS",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.RECORD_AUDIO",
+          "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+          "android.permission.SCHEDULE_EXACT_ALARM",
+          "android.permission.USE_CREDENTIALS",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_CALENDAR",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "android.permission.WRITE_SYNC_SETTINGS",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.AD_ID",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "com.technogym.mywellness.mare.permission.C2D_MESSAGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE"
+        ],
+        "unstable": true,
+        "uploadDate": "24 Nov 2022",
+        "versionCode": 18,
+        "versionString": "6.5.14"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.technogym.mywellness.mare",
+    "docType": 1,
+    "docid": "com.technogym.mywellness.mare",
+    "image": [
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 0,
+          "width": 0
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/zxyvKF8Xhq84LWCXu2tihjArL7sc4tKYtxcJaPVUKknUXKd96aSLyKIiT3Y5bZHthpI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 0,
+          "width": 0
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/dt-PJmC5q_RC27rAjNXNs_pbFL2sOM7piZUzCQsd2t4mtg9oid3ESUEgvzO2u914Nq4",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2560,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Vx_gb_aNZdu1wP7b4UOhexoHWEn3eDW5uvqC-TwB2QmvsX2HLDm15pRKQJPgoR23BX8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2560,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/YYPpLavdv4BKqtmgd_dXP_1WFLF3VvUqR7iUHI7uCKr8YSfWTEZw44ioyJegHjJkVII",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2560,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/GcjdfgAWb9KU1reDWLuSVpBeb2KpW2imzvu19X-z4s14sdHEQMwrjDVj4iv_9UBHW0lC",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2560,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/krhXTUTqQPqsjhRtb7fyNCVBpf3HITDArCtKCwAhghGA7lNxgRc_r1TWyZV2fpC_ty0",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://www.mywellness.com/cloud/Terms/Privacy/",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.technogym.mywellness.mare",
+    "reviewsUrl": "rev?doc=com.technogym.mywellness.mare&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.technogym.mywellness.mare",
+    "title": "Mare",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "info@mare-kiel.de"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "1 Apr 2019"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-02-09 17:02:51.028694",
+    "backendDocid": "com.technogym.mywellness.mare",
+    "backendId": 3,
+    "creator": "Mywellness srl",
+    "descriptionHtml": "Die MARE App ist eine Applikation um Ihre Trainingserfahrungen pers\u00f6nlicher, spannender und effektiver zu gestalten. Sie hilft Ihnen, Ihr Training zu verbessern indem Sie jederzeit und \u00fcberall auf Ihre Daten zugreifen k\u00f6nnen.<br><br>Fangen Sie an, mit der MARE App zu trainieren, sammeln Sie MOVEs und werden Sie jeden Tag aktiver. Ein Beispiel: Ein Lauf von ca. 10 Minuten in niedriger Intensit\u00e4t sind umgerechnet ca. 120 MOVEs.<br><br>Der schnellste und einfachste Weg ist es, die MOVEs direkt an den Technogym Ger\u00e4ten zu sammeln. Loggen Sie sich mit Ihrem mywellness Account an den Ger\u00e4ten ein und trainieren Sie mit den besten Trainingsprogrammen. Mit der App k\u00f6nnen Sie sich Ihr Trainingsprogramm, die Details der \u00dcbungen und Videos direkt ansehen. Resultate werden automatisch, w\u00e4hrend Ihrer Trainingseinheit gespeichert.<br><br>WARUM SIE DIE MARE APP BRAUCHEN?<br><br>TRAINING:<br>Mit der App bekommen Sie ein personalisiertes und komplettes Trainingsprogramm, alle Details der \u00dcbungen mit Videos und eine automatische Aktualisierung Ihrer MOVEs jederzeit und \u00fcberall. Die MARE App weist Ihnen ein Wochenziel an MOVEs auf der Grundlage Ihres Lebensstils zu und zeigt Ihren Fortschritt an einem einfachen Balken.<br><br>KURSE:<br>Sie finden den aktuellen Kursplan in der MARE App. Reservieren Sie sich Ihren Platz bei ausgew\u00e4hlten Kursen.<br><br><br>OUTDOOR AKTIVIT\u00c4TEN:<br>F\u00fcgen Sie ihre Outdoor Aktivit\u00e4ten manuell hinzu oder verkn\u00fcpfen Sie Ihren Account mit anderen Anwendungen wie Google Fit, S-Health, Fitbit, Garmin, MapMyFitness, MyFitnessPal, Polar, RunKeeper, Strava, Swimtag and Withings. So k\u00f6nnen Sie Ihre T\u00e4tigkeiten im Freien nachverfolgen und Ihnen gehen die Daten nicht verloren.<br><br>MOTIVATION DURCH HERAUSFORDERUNG:<br>Nehmen Sie an abwechslungsreichen Wettbewerben teil, die von Ihrem MARE organisiert werden. Messen Sie sich mit anderen und klettern Sie auf der Rangliste ganz nach oben.<br><br>PERSONALISIERUNG:<br>Um Ihr Trainingserlebnis zu personalisieren verwenden Sie die MARE App, um sich an den Technogym-Ger\u00e4ten UNITY\u2122 einzuloggen und ein personalisiertes Training zu gestalten. Zu Ihrer Unterhaltung k\u00f6nnen Sie Ihre bevorzugten Internetseiten, sozialen Netzwerke, TV-Programme und unterhaltsamen Spielen w\u00e4hlen. Wie? Durch einfaches Einloggen mit dem Smartphone per NFC oder durch Scannen eines QR-Codes.<br><br>TRAININGSDATEN IM \u00dcBERBLICK:<br>Mit der MARE App erhalten Sie jederzeit und \u00fcberall die volle \u00dcbersicht \u00fcber Ihre Trainingsdaten. Alle Trainingseinheiten, Messungen der K\u00f6rperzusammensetzung und das aktuelle Wochenziel werden in Echtzeit aktualisiert.",
+    "descriptionShort": "Die MARE App ist eine Applikation um Ihre Trainingserfahrungen",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "44023968",
+          "unknown3": 31
+        },
+        "developerEmail": "info@mare-kiel.de",
+        "developerName": "Mywellness srl",
+        "developerWebsite": "http://www.mare-kiel.de",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "12470914",
+            "versionCode": 19
+          },
+          {
+            "fileType": 0,
+            "size": "2863374",
+            "versionCode": 19
+          },
+          {
+            "fileType": 0,
+            "size": "336281",
+            "versionCode": 19
+          },
+          {
+            "fileType": 0,
+            "size": "28353399",
+            "versionCode": 19
+          }
+        ],
+        "installationSize": "44023968",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "com.technogym.mywellness.mare",
+        "permission": [
+          "android.permission.ACCESS_BACKGROUND_LOCATION",
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.AUTHENTICATE_ACCOUNTS",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.BLUETOOTH_CONNECT",
+          "android.permission.BLUETOOTH_SCAN",
+          "android.permission.CAMERA",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.GET_ACCOUNTS",
+          "android.permission.INTERNET",
+          "android.permission.MANAGE_ACCOUNTS",
+          "android.permission.MODIFY_AUDIO_SETTINGS",
+          "android.permission.NFC",
+          "android.permission.POST_NOTIFICATIONS",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_CALENDAR",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_PHONE_NUMBERS",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.READ_SYNC_SETTINGS",
+          "android.permission.READ_SYNC_STATS",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.RECORD_AUDIO",
+          "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+          "android.permission.SCHEDULE_EXACT_ALARM",
+          "android.permission.USE_CREDENTIALS",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_CALENDAR",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "android.permission.WRITE_SYNC_SETTINGS",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.AD_ID",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "com.technogym.mywellness.mare.permission.C2D_MESSAGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE"
+        ],
+        "unstable": true,
+        "uploadDate": "9 Feb 2023",
+        "versionCode": 19,
+        "versionString": "6.5.17"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.technogym.mywellness.mare",
+    "docType": 1,
+    "docid": "com.technogym.mywellness.mare",
+    "image": [
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 0,
+          "width": 0
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/zxyvKF8Xhq84LWCXu2tihjArL7sc4tKYtxcJaPVUKknUXKd96aSLyKIiT3Y5bZHthpI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 0,
+          "width": 0
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/dt-PJmC5q_RC27rAjNXNs_pbFL2sOM7piZUzCQsd2t4mtg9oid3ESUEgvzO2u914Nq4",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2560,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Vx_gb_aNZdu1wP7b4UOhexoHWEn3eDW5uvqC-TwB2QmvsX2HLDm15pRKQJPgoR23BX8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2560,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/YYPpLavdv4BKqtmgd_dXP_1WFLF3VvUqR7iUHI7uCKr8YSfWTEZw44ioyJegHjJkVII",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2560,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/GcjdfgAWb9KU1reDWLuSVpBeb2KpW2imzvu19X-z4s14sdHEQMwrjDVj4iv_9UBHW0lC",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2560,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/krhXTUTqQPqsjhRtb7fyNCVBpf3HITDArCtKCwAhghGA7lNxgRc_r1TWyZV2fpC_ty0",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://www.mywellness.com/cloud/Terms/Privacy/",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.technogym.mywellness.mare",
+    "reviewsUrl": "rev?doc=com.technogym.mywellness.mare&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.technogym.mywellness.mare",
+    "title": "Mare",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "info@mare-kiel.de"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "1 Apr 2019"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-06-18 10:25:54.600372",
+    "backendDocid": "com.technogym.mywellness.mare",
+    "backendId": 3,
+    "creator": "Mywellness srl",
+    "descriptionHtml": "Die MARE App ist eine Applikation um Ihre Trainingserfahrungen pers\u00f6nlicher, spannender und effektiver zu gestalten. Sie hilft Ihnen, Ihr Training zu verbessern indem Sie jederzeit und \u00fcberall auf Ihre Daten zugreifen k\u00f6nnen.<br><br>Fangen Sie an, mit der MARE App zu trainieren, sammeln Sie MOVEs und werden Sie jeden Tag aktiver. Ein Beispiel: Ein Lauf von ca. 10 Minuten in niedriger Intensit\u00e4t sind umgerechnet ca. 120 MOVEs.<br><br>Der schnellste und einfachste Weg ist es, die MOVEs direkt an den Technogym Ger\u00e4ten zu sammeln. Loggen Sie sich mit Ihrem mywellness Account an den Ger\u00e4ten ein und trainieren Sie mit den besten Trainingsprogrammen. Mit der App k\u00f6nnen Sie sich Ihr Trainingsprogramm, die Details der \u00dcbungen und Videos direkt ansehen. Resultate werden automatisch, w\u00e4hrend Ihrer Trainingseinheit gespeichert.<br><br>WARUM SIE DIE MARE APP BRAUCHEN?<br><br>TRAINING:<br>Mit der App bekommen Sie ein personalisiertes und komplettes Trainingsprogramm, alle Details der \u00dcbungen mit Videos und eine automatische Aktualisierung Ihrer MOVEs jederzeit und \u00fcberall. Die MARE App weist Ihnen ein Wochenziel an MOVEs auf der Grundlage Ihres Lebensstils zu und zeigt Ihren Fortschritt an einem einfachen Balken.<br><br>KURSE:<br>Sie finden den aktuellen Kursplan in der MARE App. Reservieren Sie sich Ihren Platz bei ausgew\u00e4hlten Kursen.<br><br><br>OUTDOOR AKTIVIT\u00c4TEN:<br>F\u00fcgen Sie ihre Outdoor Aktivit\u00e4ten manuell hinzu oder verkn\u00fcpfen Sie Ihren Account mit anderen Anwendungen wie Google Fit, S-Health, Fitbit, Garmin, MapMyFitness, MyFitnessPal, Polar, RunKeeper, Strava, Swimtag and Withings. So k\u00f6nnen Sie Ihre T\u00e4tigkeiten im Freien nachverfolgen und Ihnen gehen die Daten nicht verloren.<br><br>MOTIVATION DURCH HERAUSFORDERUNG:<br>Nehmen Sie an abwechslungsreichen Wettbewerben teil, die von Ihrem MARE organisiert werden. Messen Sie sich mit anderen und klettern Sie auf der Rangliste ganz nach oben.<br><br>PERSONALISIERUNG:<br>Um Ihr Trainingserlebnis zu personalisieren verwenden Sie die MARE App, um sich an den Technogym-Ger\u00e4ten UNITY\u2122 einzuloggen und ein personalisiertes Training zu gestalten. Zu Ihrer Unterhaltung k\u00f6nnen Sie Ihre bevorzugten Internetseiten, sozialen Netzwerke, TV-Programme und unterhaltsamen Spielen w\u00e4hlen. Wie? Durch einfaches Einloggen mit dem Smartphone per NFC oder durch Scannen eines QR-Codes.<br><br>TRAININGSDATEN IM \u00dcBERBLICK:<br>Mit der MARE App erhalten Sie jederzeit und \u00fcberall die volle \u00dcbersicht \u00fcber Ihre Trainingsdaten. Alle Trainingseinheiten, Messungen der K\u00f6rperzusammensetzung und das aktuelle Wochenziel werden in Echtzeit aktualisiert.",
+    "descriptionShort": "Die MARE App ist eine Applikation um Ihre Trainingserfahrungen",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "version": 12451000
+            }
+          ],
+          "unknown2": "45717345",
+          "unknown3": 31
+        },
+        "developerEmail": "info@mare-kiel.de",
+        "developerName": "Mywellness srl",
+        "developerWebsite": "http://www.mare-kiel.de",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "14111043",
+            "versionCode": 20
+          },
+          {
+            "fileType": 0,
+            "size": "2912526",
+            "versionCode": 20
+          },
+          {
+            "fileType": 0,
+            "size": "340377",
+            "versionCode": 20
+          },
+          {
+            "fileType": 0,
+            "size": "28353399",
+            "versionCode": 20
+          }
+        ],
+        "installationSize": "45717345",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "com.technogym.mywellness.mare",
+        "permission": [
+          "android.permission.ACCESS_BACKGROUND_LOCATION",
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.AUTHENTICATE_ACCOUNTS",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.BLUETOOTH_ADVERTISE",
+          "android.permission.BLUETOOTH_CONNECT",
+          "android.permission.BLUETOOTH_SCAN",
+          "android.permission.CAMERA",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.GET_ACCOUNTS",
+          "android.permission.INTERNET",
+          "android.permission.MANAGE_ACCOUNTS",
+          "android.permission.MODIFY_AUDIO_SETTINGS",
+          "android.permission.NFC",
+          "android.permission.POST_NOTIFICATIONS",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_CALENDAR",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_PHONE_NUMBERS",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.READ_SYNC_SETTINGS",
+          "android.permission.READ_SYNC_STATS",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.RECORD_AUDIO",
+          "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+          "android.permission.SCHEDULE_EXACT_ALARM",
+          "android.permission.USE_CREDENTIALS",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_CALENDAR",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "android.permission.WRITE_SYNC_SETTINGS",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.AD_ID",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "com.technogym.mywellness.mare.permission.C2D_MESSAGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE"
+        ],
+        "unstable": true,
+        "uploadDate": "8 Jun 2023",
+        "versionCode": 20,
+        "versionString": "6.6.2"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.technogym.mywellness.mare",
+    "docType": 1,
+    "docid": "com.technogym.mywellness.mare",
+    "image": [
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 0,
+          "width": 0
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/zxyvKF8Xhq84LWCXu2tihjArL7sc4tKYtxcJaPVUKknUXKd96aSLyKIiT3Y5bZHthpI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 0,
+          "width": 0
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/dt-PJmC5q_RC27rAjNXNs_pbFL2sOM7piZUzCQsd2t4mtg9oid3ESUEgvzO2u914Nq4",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2560,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Vx_gb_aNZdu1wP7b4UOhexoHWEn3eDW5uvqC-TwB2QmvsX2HLDm15pRKQJPgoR23BX8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2560,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/YYPpLavdv4BKqtmgd_dXP_1WFLF3VvUqR7iUHI7uCKr8YSfWTEZw44ioyJegHjJkVII",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2560,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/GcjdfgAWb9KU1reDWLuSVpBeb2KpW2imzvu19X-z4s14sdHEQMwrjDVj4iv_9UBHW0lC",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2560,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/krhXTUTqQPqsjhRtb7fyNCVBpf3HITDArCtKCwAhghGA7lNxgRc_r1TWyZV2fpC_ty0",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://www.mywellness.com/cloud/Terms/Privacy/",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.technogym.mywellness.mare",
+    "reviewsUrl": "rev?doc=com.technogym.mywellness.mare&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.technogym.mywellness.mare",
+    "title": "Mare",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "info@mare-kiel.de"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "1 Apr 2019"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "2",
+      "fiveStarRatings": "15",
+      "fourStarRatings": "3",
+      "oneStarRatings": "1",
+      "ratingsCount": "21",
+      "starRating": 4.4761906,
+      "threeStarRatings": "2",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-09-15 17:02:50.796863",
+    "backendDocid": "com.technogym.mywellness.mare",
+    "backendId": 3,
+    "creator": "Mywellness srl",
+    "descriptionHtml": "Die MARE App ist eine Applikation um Ihre Trainingserfahrungen pers\u00f6nlicher, spannender und effektiver zu gestalten. Sie hilft Ihnen, Ihr Training zu verbessern indem Sie jederzeit und \u00fcberall auf Ihre Daten zugreifen k\u00f6nnen.<br><br>Fangen Sie an, mit der MARE App zu trainieren, sammeln Sie MOVEs und werden Sie jeden Tag aktiver. Ein Beispiel: Ein Lauf von ca. 10 Minuten in niedriger Intensit\u00e4t sind umgerechnet ca. 120 MOVEs.<br><br>Der schnellste und einfachste Weg ist es, die MOVEs direkt an den Technogym Ger\u00e4ten zu sammeln. Loggen Sie sich mit Ihrem mywellness Account an den Ger\u00e4ten ein und trainieren Sie mit den besten Trainingsprogrammen. Mit der App k\u00f6nnen Sie sich Ihr Trainingsprogramm, die Details der \u00dcbungen und Videos direkt ansehen. Resultate werden automatisch, w\u00e4hrend Ihrer Trainingseinheit gespeichert.<br><br>WARUM SIE DIE MARE APP BRAUCHEN?<br><br>TRAINING:<br>Mit der App bekommen Sie ein personalisiertes und komplettes Trainingsprogramm, alle Details der \u00dcbungen mit Videos und eine automatische Aktualisierung Ihrer MOVEs jederzeit und \u00fcberall. Die MARE App weist Ihnen ein Wochenziel an MOVEs auf der Grundlage Ihres Lebensstils zu und zeigt Ihren Fortschritt an einem einfachen Balken.<br><br>KURSE:<br>Sie finden den aktuellen Kursplan in der MARE App. Reservieren Sie sich Ihren Platz bei ausgew\u00e4hlten Kursen.<br><br><br>OUTDOOR AKTIVIT\u00c4TEN:<br>F\u00fcgen Sie ihre Outdoor Aktivit\u00e4ten manuell hinzu oder verkn\u00fcpfen Sie Ihren Account mit anderen Anwendungen wie Google Fit, S-Health, Fitbit, Garmin, MapMyFitness, MyFitnessPal, Polar, RunKeeper, Strava, Swimtag and Withings. So k\u00f6nnen Sie Ihre T\u00e4tigkeiten im Freien nachverfolgen und Ihnen gehen die Daten nicht verloren.<br><br>MOTIVATION DURCH HERAUSFORDERUNG:<br>Nehmen Sie an abwechslungsreichen Wettbewerben teil, die von Ihrem MARE organisiert werden. Messen Sie sich mit anderen und klettern Sie auf der Rangliste ganz nach oben.<br><br>PERSONALISIERUNG:<br>Um Ihr Trainingserlebnis zu personalisieren verwenden Sie die MARE App, um sich an den Technogym-Ger\u00e4ten UNITY\u2122 einzuloggen und ein personalisiertes Training zu gestalten. Zu Ihrer Unterhaltung k\u00f6nnen Sie Ihre bevorzugten Internetseiten, sozialen Netzwerke, TV-Programme und unterhaltsamen Spielen w\u00e4hlen. Wie? Durch einfaches Einloggen mit dem Smartphone per NFC oder durch Scannen eines QR-Codes.<br><br>TRAININGSDATEN IM \u00dcBERBLICK:<br>Mit der MARE App erhalten Sie jederzeit und \u00fcberall die volle \u00dcbersicht \u00fcber Ihre Trainingsdaten. Alle Trainingseinheiten, Messungen der K\u00f6rperzusammensetzung und das aktuelle Wochenziel werden in Echtzeit aktualisiert.",
+    "descriptionShort": "Die MARE App ist eine Applikation um Ihre Trainingserfahrungen",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "version": 12451000
+            }
+          ],
+          "unknown2": "54969305",
+          "unknown3": 33
+        },
+        "developerEmail": "info@mare-kiel.de",
+        "developerName": "Mywellness srl",
+        "developerWebsite": "http://www.mare-kiel.de",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "14313201",
+            "versionCode": 21
+          },
+          {
+            "fileType": 0,
+            "size": "2766479",
+            "versionCode": 21
+          },
+          {
+            "fileType": 0,
+            "size": "352665",
+            "versionCode": 21
+          },
+          {
+            "fileType": 0,
+            "size": "37536960",
+            "versionCode": 21
+          }
+        ],
+        "installationSize": "54969305",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "com.technogym.mywellness.mare",
+        "permission": [
+          "android.permission.ACCESS_BACKGROUND_LOCATION",
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.AUTHENTICATE_ACCOUNTS",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.BLUETOOTH_ADVERTISE",
+          "android.permission.BLUETOOTH_CONNECT",
+          "android.permission.BLUETOOTH_SCAN",
+          "android.permission.BODY_SENSORS",
+          "android.permission.BODY_SENSORS_BACKGROUND",
+          "android.permission.CAMERA",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.GET_ACCOUNTS",
+          "android.permission.INTERNET",
+          "android.permission.MANAGE_ACCOUNTS",
+          "android.permission.MODIFY_AUDIO_SETTINGS",
+          "android.permission.NFC",
+          "android.permission.POST_NOTIFICATIONS",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_CALENDAR",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_PHONE_NUMBERS",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.READ_SYNC_SETTINGS",
+          "android.permission.READ_SYNC_STATS",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.RECORD_AUDIO",
+          "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+          "android.permission.SCHEDULE_EXACT_ALARM",
+          "android.permission.USE_CREDENTIALS",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_CALENDAR",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "android.permission.WRITE_SYNC_SETTINGS",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.AD_ID",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "com.technogym.mywellness.mare.permission.C2D_MESSAGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE"
+        ],
+        "unstable": true,
+        "uploadDate": "6 Sept 2023",
+        "versionCode": 21,
+        "versionString": "6.7.3"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.technogym.mywellness.mare",
+    "docType": 1,
+    "docid": "com.technogym.mywellness.mare",
+    "image": [
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 0,
+          "width": 0
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/zxyvKF8Xhq84LWCXu2tihjArL7sc4tKYtxcJaPVUKknUXKd96aSLyKIiT3Y5bZHthpI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 0,
+          "width": 0
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/dt-PJmC5q_RC27rAjNXNs_pbFL2sOM7piZUzCQsd2t4mtg9oid3ESUEgvzO2u914Nq4",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2560,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Vx_gb_aNZdu1wP7b4UOhexoHWEn3eDW5uvqC-TwB2QmvsX2HLDm15pRKQJPgoR23BX8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2560,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/YYPpLavdv4BKqtmgd_dXP_1WFLF3VvUqR7iUHI7uCKr8YSfWTEZw44ioyJegHjJkVII",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2560,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/GcjdfgAWb9KU1reDWLuSVpBeb2KpW2imzvu19X-z4s14sdHEQMwrjDVj4iv_9UBHW0lC",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2560,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/krhXTUTqQPqsjhRtb7fyNCVBpf3HITDArCtKCwAhghGA7lNxgRc_r1TWyZV2fpC_ty0",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://www.mywellness.com/cloud/Terms/Privacy/",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.technogym.mywellness.mare",
+    "reviewsUrl": "rev?doc=com.technogym.mywellness.mare&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.technogym.mywellness.mare",
+    "title": "Mare",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "info@mare-kiel.de"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "1 Apr 2019"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2024-05-02 13:20:20.713775",
+    "backendDocid": "com.technogym.mywellness.mare",
+    "backendId": 3,
+    "creator": "Mywellness srl",
+    "descriptionHtml": "Die MARE App ist eine Applikation um Ihre Trainingserfahrungen pers\u00f6nlicher, spannender und effektiver zu gestalten. Sie hilft Ihnen, Ihr Training zu verbessern indem Sie jederzeit und \u00fcberall auf Ihre Daten zugreifen k\u00f6nnen.<br><br>Fangen Sie an, mit der MARE App zu trainieren, sammeln Sie MOVEs und werden Sie jeden Tag aktiver. Ein Beispiel: Ein Lauf von ca. 10 Minuten in niedriger Intensit\u00e4t sind umgerechnet ca. 120 MOVEs.<br><br>Der schnellste und einfachste Weg ist es, die MOVEs direkt an den Technogym Ger\u00e4ten zu sammeln. Loggen Sie sich mit Ihrem mywellness Account an den Ger\u00e4ten ein und trainieren Sie mit den besten Trainingsprogrammen. Mit der App k\u00f6nnen Sie sich Ihr Trainingsprogramm, die Details der \u00dcbungen und Videos direkt ansehen. Resultate werden automatisch, w\u00e4hrend Ihrer Trainingseinheit gespeichert.<br><br>WARUM SIE DIE MARE APP BRAUCHEN?<br><br>TRAINING:<br>Mit der App bekommen Sie ein personalisiertes und komplettes Trainingsprogramm, alle Details der \u00dcbungen mit Videos und eine automatische Aktualisierung Ihrer MOVEs jederzeit und \u00fcberall. Die MARE App weist Ihnen ein Wochenziel an MOVEs auf der Grundlage Ihres Lebensstils zu und zeigt Ihren Fortschritt an einem einfachen Balken.<br><br>KURSE:<br>Sie finden den aktuellen Kursplan in der MARE App. Reservieren Sie sich Ihren Platz bei ausgew\u00e4hlten Kursen.<br><br><br>OUTDOOR AKTIVIT\u00c4TEN:<br>F\u00fcgen Sie ihre Outdoor Aktivit\u00e4ten manuell hinzu oder verkn\u00fcpfen Sie Ihren Account mit anderen Anwendungen wie Google Fit, S-Health, Fitbit, Garmin, MapMyFitness, MyFitnessPal, Polar, RunKeeper, Strava, Swimtag and Withings. So k\u00f6nnen Sie Ihre T\u00e4tigkeiten im Freien nachverfolgen und Ihnen gehen die Daten nicht verloren.<br><br>MOTIVATION DURCH HERAUSFORDERUNG:<br>Nehmen Sie an abwechslungsreichen Wettbewerben teil, die von Ihrem MARE organisiert werden. Messen Sie sich mit anderen und klettern Sie auf der Rangliste ganz nach oben.<br><br>PERSONALISIERUNG:<br>Um Ihr Trainingserlebnis zu personalisieren verwenden Sie die MARE App, um sich an den Technogym-Ger\u00e4ten UNITY\u2122 einzuloggen und ein personalisiertes Training zu gestalten. Zu Ihrer Unterhaltung k\u00f6nnen Sie Ihre bevorzugten Internetseiten, sozialen Netzwerke, TV-Programme und unterhaltsamen Spielen w\u00e4hlen. Wie? Durch einfaches Einloggen mit dem Smartphone per NFC oder durch Scannen eines QR-Codes.<br><br>TRAININGSDATEN IM \u00dcBERBLICK:<br>Mit der MARE App erhalten Sie jederzeit und \u00fcberall die volle \u00dcbersicht \u00fcber Ihre Trainingsdaten. Alle Trainingseinheiten, Messungen der K\u00f6rperzusammensetzung und das aktuelle Wochenziel werden in Echtzeit aktualisiert.",
+    "descriptionShort": "Die MARE App ist eine Applikation um Ihre Trainingserfahrungen",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "version": 12451000
+            }
+          ],
+          "unknown2": "59725644",
+          "unknown3": 33
+        },
+        "developerEmail": "info@mare-kiel.de",
+        "developerName": "Mywellness srl",
+        "developerWebsite": "http://www.mare-kiel.de",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "15743999",
+            "versionCode": 22
+          },
+          {
+            "fileType": 0,
+            "size": "1709131",
+            "versionCode": 22
+          },
+          {
+            "fileType": 0,
+            "size": "348569",
+            "versionCode": 22
+          },
+          {
+            "fileType": 0,
+            "size": "41923945",
+            "versionCode": 22
+          }
+        ],
+        "installationSize": "59725644",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "com.technogym.mywellness.mare",
+        "permission": [
+          "android.permission.ACCESS_BACKGROUND_LOCATION",
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.AUTHENTICATE_ACCOUNTS",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.BLUETOOTH_ADVERTISE",
+          "android.permission.BLUETOOTH_CONNECT",
+          "android.permission.BLUETOOTH_SCAN",
+          "android.permission.BODY_SENSORS",
+          "android.permission.BODY_SENSORS_BACKGROUND",
+          "android.permission.CALL_PHONE",
+          "android.permission.CAMERA",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.GET_ACCOUNTS",
+          "android.permission.INTERNET",
+          "android.permission.MANAGE_ACCOUNTS",
+          "android.permission.MODIFY_AUDIO_SETTINGS",
+          "android.permission.NFC",
+          "android.permission.POST_NOTIFICATIONS",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_CALENDAR",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_PHONE_NUMBERS",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.READ_SYNC_SETTINGS",
+          "android.permission.READ_SYNC_STATS",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.RECORD_AUDIO",
+          "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+          "android.permission.SCHEDULE_EXACT_ALARM",
+          "android.permission.USE_CREDENTIALS",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_CALENDAR",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "android.permission.WRITE_SYNC_SETTINGS",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.AD_ID",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "com.technogym.mywellness.mare.permission.C2D_MESSAGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE"
+        ],
+        "unstable": true,
+        "uploadDate": "2 Feb 2024",
+        "versionCode": 22,
+        "versionString": "6.7.8"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.technogym.mywellness.mare&vc=22",
+    "docType": 1,
+    "docid": "com.technogym.mywellness.mare",
+    "image": [
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 0,
+          "width": 0
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/zxyvKF8Xhq84LWCXu2tihjArL7sc4tKYtxcJaPVUKknUXKd96aSLyKIiT3Y5bZHthpI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 0,
+          "width": 0
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/dt-PJmC5q_RC27rAjNXNs_pbFL2sOM7piZUzCQsd2t4mtg9oid3ESUEgvzO2u914Nq4",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2560,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Vx_gb_aNZdu1wP7b4UOhexoHWEn3eDW5uvqC-TwB2QmvsX2HLDm15pRKQJPgoR23BX8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2560,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/YYPpLavdv4BKqtmgd_dXP_1WFLF3VvUqR7iUHI7uCKr8YSfWTEZw44ioyJegHjJkVII",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2560,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/GcjdfgAWb9KU1reDWLuSVpBeb2KpW2imzvu19X-z4s14sdHEQMwrjDVj4iv_9UBHW0lC",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2560,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/krhXTUTqQPqsjhRtb7fyNCVBpf3HITDArCtKCwAhghGA7lNxgRc_r1TWyZV2fpC_ty0",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://www.mywellness.com/cloud/Terms/Privacy/",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.technogym.mywellness.mare",
+    "reviewsUrl": "rev?doc=com.technogym.mywellness.mare&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.technogym.mywellness.mare",
+    "title": "Mare\n6.7.8",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "info@mare-kiel.de"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "1 Apr 2019"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  }
+]

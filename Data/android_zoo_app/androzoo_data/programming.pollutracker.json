@@ -1,0 +1,2657 @@
+[
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-05-27 15:00:34.597754",
+    "backendDocid": "programming.pollutracker",
+    "backendId": 3,
+    "creator": "ScentroidApps",
+    "descriptionHtml": "PolluTracker (TR8+) is an Android application, which allows to connect and use Scentroid&#39;s PolluTracker devices and measure pollution level in specified area.<br><br>WARNING:<br>- If you have been previously using TR8/TR8+ application, please be advised that the new version of the app listed here (as of January 2020) is not compatible with the old database; therefore, &quot;Import&quot; functionality won&#39;t work with the old measurements.<br>What can be done to save the data? You can save the old measurements as a CSV file by using the feature that is available in the old version of the application (in Records section).<br><br>The list of features includes:<br>- Bluetooth remote connection to PolluTracker<br>- Auto re-calibration of a device<br>- Manual re-calibration<br>- Keeping detailed log of received data<br>- User friendly display of the previous measurements from DB<br>- Exporting/Importing of a DB<br>- Graphical representation of a current measurement<br>- Various indicators that allow user to keep track of what is happening with PolluTracker (geo-location, temperature, battery life, humidity, pressure)<br>- Audible signaling if one/many of the sensors go off set-up limit<br>- Ability to manually set-up AQ limit, sensitivity, and offset for each sensor<br>- 4 different scales (ppm, ppb, mg/m^3, OU) that can be applied to sensors individually<br>- Keeping track of different projects<br>- Showing the measurements on Google Map",
+    "descriptionShort": "Pollution Tracker application for measuring pollution level in specified area",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "4924477",
+          "unknown3": 28
+        },
+        "developerEmail": "it@scentroid.com",
+        "developerName": "ScentroidApps",
+        "developerWebsite": "http://scentroid.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "4924477",
+            "versionCode": 16
+          }
+        ],
+        "installationSize": "4924477",
+        "numDownloads": "10+ downloads",
+        "packageName": "programming.pollutracker",
+        "permission": [
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.VIBRATE",
+          "android.permission.WRITE_EXTERNAL_STORAGE"
+        ],
+        "recentChangesHtml": "- Fixed an issue with displaying Google Maps",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false,
+          "testingProgramEmail": "scentroidapps@gmail.com"
+        },
+        "unstable": true,
+        "uploadDate": "6 Apr 2020",
+        "versionCode": 16,
+        "versionString": "1.4.1"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=programming.pollutracker",
+    "docType": 1,
+    "docid": "programming.pollutracker",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://lh3.googleusercontent.com/5GA-YAaJSB8qYkcIShJ07mb6nPkbfEQG82f5BsOZ5bw_X3Tp6ZUeWIfTtE5xDHfXMA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://lh3.googleusercontent.com/NyQfUNTE3SQiYwXZmk1PR46V4lTK3jJBd-V1nrpRBT3rXecrqSwXUy8jUiZ125E5geI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/0aLFTMBWCWctumH02HJS54BrF336y6OhRxY2px8H6sLfFjZLPQrhdSZD0skt7GzV7Qg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/HcvN2AF1Hb30uTgmVRB8RAFTCuGJkmOpBHNKsIkDmsBIBGLUceUBoqbObFTNPlC7s1U",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/zMQ15A3gpvGQzSFLQN9qV7mhy_zkyzjRUWNm_-GXpX4vSzYn-9VavDfHYWJLCpQYt_c",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/pjhCOkGKwQUEIbD0DjwLt33xfJsowtCimzj8cy-pRxh3CiBkxCLEXvmQZ2WNUdT-Ng",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/GjYNDCyW1WWOMFKseTkT29h4YucOxVcZ4UKN_motY1zzSFBj2MGezInv68Wo7KeVvA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/Y5NRTJ2C-MyasBTuFssOG_cP84qdswypOXaJfT734kicnfMARn9IwxO1FmF8kSTJ-JI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/msABsLrYqyLIxHhbSgih75Pls5krHN6FLS2Lt3MA4Avdmcz2hFs-Aen6ve80ZT4EbQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/G9Xktb4YJ6vl6-X3Z2jPl4CNIWkA2d_S4VJBWQnN4-wV2S6E7ebn5aw3h3kB6oWWYcbt",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/Qp1KRxqcbDQXhEv_ALeQDoVvWtRl2E5OcR_pYTO6PiTYpjXPT7KIGHUyjFdKuQ6joQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 800,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/1D2zfuTGrXa6md5d1CcwaFfvLZmPuvJfKIJ77akiqXY5rL_SljUaY4AHrK_9eqI_G-mj",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 800,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/l3lM8oy6hLtV_3nIiUeTI9ech_46i3XHWbo3qC9BiZLHvdrimJrQatKZbYReVso5hg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 800,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/ByoiCSr247WyMNZfrCkk8bcc9GrtXK5jCTcdbRQdH3un6ikEwIQ3NbglS85D4j2JTw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 800,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/w1g7wAqYKtyXce_2aeaoieOYJAd4Pa2PaEnfzbsfSH9gq_p7FJm5yLMFWBixEvhS_H0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 800,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/1lDumbvEGlyp-lowEZo69KZScSIShgOeVA0bK28qCW70jc_esIAZ2JtVj2U9FEnep0Y",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 800,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/-K4i_zk9rganrEG_FLiaz8USjjLCQrkLxB9hCdJkFniIH0AasGqayTnOLyf2ZfiLWg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 800,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/1E5qdgOq35X3kokJrhs9Xk1xObwqHTyq5aKl11YI9-0FcnlHFdQEj5VPs0jOqHMem6Q",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://lh3.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=programming.pollutracker",
+    "reviewsUrl": "rev?doc=programming.pollutracker&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=programming.pollutracker",
+    "title": "TR8+",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "ScentroidApps"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "it@scentroid.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "6 Nov 2019"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-06-25 10:59:21.951202",
+    "backendDocid": "programming.pollutracker",
+    "backendId": 3,
+    "creator": "ScentroidApps",
+    "descriptionHtml": "PolluTracker (TR8+) is an Android application, which allows to connect and use Scentroid&#39;s PolluTracker devices and measure pollution level in specified area.<br><br>WARNING:<br>- If you have been previously using TR8/TR8+ application, please be advised that the new version of the app listed here (as of January 2020) is not compatible with the old database; therefore, &quot;Import&quot; functionality won&#39;t work with the old measurements.<br>What can be done to save the data? You can save the old measurements as a CSV file by using the feature that is available in the old version of the application (in Records section).<br><br>The list of features includes:<br>- Bluetooth remote connection to PolluTracker<br>- Auto re-calibration of a device<br>- Manual re-calibration<br>- Keeping detailed log of received data<br>- User friendly display of the previous measurements from DB<br>- Exporting/Importing of a DB<br>- Graphical representation of a current measurement<br>- Various indicators that allow user to keep track of what is happening with PolluTracker (geo-location, temperature, battery life, humidity, pressure)<br>- Audible signaling if one/many of the sensors go off set-up limit<br>- Ability to manually set-up AQ limit, sensitivity, and offset for each sensor<br>- 4 different scales (ppm, ppb, mg/m^3, OU) that can be applied to sensors individually<br>- Keeping track of different projects<br>- Showing the measurements on Google Map",
+    "descriptionShort": "Pollution Tracker application for measuring pollution level in specified area",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "5188161",
+          "unknown3": 28
+        },
+        "developerEmail": "it@scentroid.com",
+        "developerName": "ScentroidApps",
+        "developerWebsite": "http://scentroid.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "5188161",
+            "versionCode": 19
+          }
+        ],
+        "installationSize": "5188161",
+        "numDownloads": "10+ downloads",
+        "packageName": "programming.pollutracker",
+        "permission": [
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.VIBRATE",
+          "android.permission.WRITE_EXTERNAL_STORAGE"
+        ],
+        "recentChangesHtml": "- Support of higher number of sensors<br>- Enhanced &quot;Excel reporting&quot; feature",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false,
+          "testingProgramEmail": "scentroidapps@gmail.com"
+        },
+        "unstable": true,
+        "uploadDate": "24 Jun 2020",
+        "versionCode": 19,
+        "versionString": "1.5"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=programming.pollutracker",
+    "docType": 1,
+    "docid": "programming.pollutracker",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://lh3.googleusercontent.com/5GA-YAaJSB8qYkcIShJ07mb6nPkbfEQG82f5BsOZ5bw_X3Tp6ZUeWIfTtE5xDHfXMA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://lh3.googleusercontent.com/NyQfUNTE3SQiYwXZmk1PR46V4lTK3jJBd-V1nrpRBT3rXecrqSwXUy8jUiZ125E5geI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/0aLFTMBWCWctumH02HJS54BrF336y6OhRxY2px8H6sLfFjZLPQrhdSZD0skt7GzV7Qg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/HcvN2AF1Hb30uTgmVRB8RAFTCuGJkmOpBHNKsIkDmsBIBGLUceUBoqbObFTNPlC7s1U",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/zMQ15A3gpvGQzSFLQN9qV7mhy_zkyzjRUWNm_-GXpX4vSzYn-9VavDfHYWJLCpQYt_c",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/pjhCOkGKwQUEIbD0DjwLt33xfJsowtCimzj8cy-pRxh3CiBkxCLEXvmQZ2WNUdT-Ng",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/GjYNDCyW1WWOMFKseTkT29h4YucOxVcZ4UKN_motY1zzSFBj2MGezInv68Wo7KeVvA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/Y5NRTJ2C-MyasBTuFssOG_cP84qdswypOXaJfT734kicnfMARn9IwxO1FmF8kSTJ-JI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/msABsLrYqyLIxHhbSgih75Pls5krHN6FLS2Lt3MA4Avdmcz2hFs-Aen6ve80ZT4EbQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/G9Xktb4YJ6vl6-X3Z2jPl4CNIWkA2d_S4VJBWQnN4-wV2S6E7ebn5aw3h3kB6oWWYcbt",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/Qp1KRxqcbDQXhEv_ALeQDoVvWtRl2E5OcR_pYTO6PiTYpjXPT7KIGHUyjFdKuQ6joQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 800,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/1D2zfuTGrXa6md5d1CcwaFfvLZmPuvJfKIJ77akiqXY5rL_SljUaY4AHrK_9eqI_G-mj",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 800,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/l3lM8oy6hLtV_3nIiUeTI9ech_46i3XHWbo3qC9BiZLHvdrimJrQatKZbYReVso5hg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 800,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/ByoiCSr247WyMNZfrCkk8bcc9GrtXK5jCTcdbRQdH3un6ikEwIQ3NbglS85D4j2JTw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 800,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/w1g7wAqYKtyXce_2aeaoieOYJAd4Pa2PaEnfzbsfSH9gq_p7FJm5yLMFWBixEvhS_H0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 800,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/1lDumbvEGlyp-lowEZo69KZScSIShgOeVA0bK28qCW70jc_esIAZ2JtVj2U9FEnep0Y",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 800,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/-K4i_zk9rganrEG_FLiaz8USjjLCQrkLxB9hCdJkFniIH0AasGqayTnOLyf2ZfiLWg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 800,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/1E5qdgOq35X3kokJrhs9Xk1xObwqHTyq5aKl11YI9-0FcnlHFdQEj5VPs0jOqHMem6Q",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://lh3.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=programming.pollutracker",
+    "reviewsUrl": "rev?doc=programming.pollutracker&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=programming.pollutracker",
+    "title": "TR8+",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "ScentroidApps"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "it@scentroid.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "6 Nov 2019"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-07-17 22:01:20.084089",
+    "backendDocid": "programming.pollutracker",
+    "backendId": 3,
+    "creator": "ScentroidApps",
+    "descriptionHtml": "PolluTracker (TR8+) is an Android application, which allows to connect and use Scentroid&#39;s PolluTracker devices and measure pollution level in specified area.<br><br>WARNING:<br>- If you have been previously using TR8/TR8+ application, please be advised that the new version of the app listed here (as of January 2020) is not compatible with the old database; therefore, &quot;Import&quot; functionality won&#39;t work with the old measurements.<br>What can be done to save the data? You can save the old measurements as a CSV file by using the feature that is available in the old version of the application (in Records section).<br><br>The list of features includes:<br>- Bluetooth remote connection to PolluTracker<br>- Auto re-calibration of a device<br>- Manual re-calibration<br>- Keeping detailed log of received data<br>- User friendly display of the previous measurements from DB<br>- Exporting/Importing of a DB<br>- Graphical representation of a current measurement<br>- Various indicators that allow user to keep track of what is happening with PolluTracker (geo-location, temperature, battery life, humidity, pressure)<br>- Audible signaling if one/many of the sensors go off set-up limit<br>- Ability to manually set-up AQ limit, sensitivity, and offset for each sensor<br>- 4 different scales (ppm, ppb, mg/m^3, OU) that can be applied to sensors individually<br>- Keeping track of different projects<br>- Showing the measurements on Google Map",
+    "descriptionShort": "Pollution Tracker application for measuring pollution level in specified area",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "5188161",
+          "unknown3": 28
+        },
+        "developerEmail": "it@scentroid.com",
+        "developerName": "ScentroidApps",
+        "developerWebsite": "http://scentroid.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "5188161",
+            "versionCode": 20
+          }
+        ],
+        "installationSize": "5188161",
+        "numDownloads": "10+ downloads",
+        "packageName": "programming.pollutracker",
+        "permission": [
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.VIBRATE",
+          "android.permission.WRITE_EXTERNAL_STORAGE"
+        ],
+        "recentChangesHtml": "- Support of higher number of sensors<br>- Enhanced &quot;Excel reporting&quot; feature",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false,
+          "testingProgramEmail": "scentroidapps@gmail.com"
+        },
+        "unstable": true,
+        "versionCode": 20,
+        "versionString": "1.5"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=programming.pollutracker",
+    "docType": 1,
+    "docid": "programming.pollutracker",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://lh3.googleusercontent.com/5GA-YAaJSB8qYkcIShJ07mb6nPkbfEQG82f5BsOZ5bw_X3Tp6ZUeWIfTtE5xDHfXMA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://lh3.googleusercontent.com/cN7g32tARV7ykv10Ci9SVcR7fr-H4wjXjMQwKCdVsqXpye-tgvsPvUVk2WL6M4c3zQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/0aLFTMBWCWctumH02HJS54BrF336y6OhRxY2px8H6sLfFjZLPQrhdSZD0skt7GzV7Qg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/HcvN2AF1Hb30uTgmVRB8RAFTCuGJkmOpBHNKsIkDmsBIBGLUceUBoqbObFTNPlC7s1U",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/zMQ15A3gpvGQzSFLQN9qV7mhy_zkyzjRUWNm_-GXpX4vSzYn-9VavDfHYWJLCpQYt_c",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/pjhCOkGKwQUEIbD0DjwLt33xfJsowtCimzj8cy-pRxh3CiBkxCLEXvmQZ2WNUdT-Ng",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/GjYNDCyW1WWOMFKseTkT29h4YucOxVcZ4UKN_motY1zzSFBj2MGezInv68Wo7KeVvA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/Y5NRTJ2C-MyasBTuFssOG_cP84qdswypOXaJfT734kicnfMARn9IwxO1FmF8kSTJ-JI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/msABsLrYqyLIxHhbSgih75Pls5krHN6FLS2Lt3MA4Avdmcz2hFs-Aen6ve80ZT4EbQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/G9Xktb4YJ6vl6-X3Z2jPl4CNIWkA2d_S4VJBWQnN4-wV2S6E7ebn5aw3h3kB6oWWYcbt",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/Qp1KRxqcbDQXhEv_ALeQDoVvWtRl2E5OcR_pYTO6PiTYpjXPT7KIGHUyjFdKuQ6joQ",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://lh3.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=programming.pollutracker",
+    "reviewsUrl": "rev?doc=programming.pollutracker&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=programming.pollutracker",
+    "title": "TR8+",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "it@scentroid.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "6 Nov 2019"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-08-01 18:34:09.639106",
+    "backendDocid": "programming.pollutracker",
+    "backendId": 3,
+    "creator": "ScentroidApps",
+    "descriptionHtml": "PolluTracker (TR8+) is an Android application, which allows to connect and use Scentroid&#39;s PolluTracker devices and measure pollution level in specified area.<br><br>WARNING:<br>- If you have been previously using TR8/TR8+ application, please be advised that the new version of the app listed here (as of January 2020) is not compatible with the old database; therefore, &quot;Import&quot; functionality won&#39;t work with the old measurements.<br>What can be done to save the data? You can save the old measurements as a CSV file by using the feature that is available in the old version of the application (in Records section).<br><br>The list of features includes:<br>- Bluetooth remote connection to PolluTracker<br>- Auto re-calibration of a device<br>- Manual re-calibration<br>- Keeping detailed log of received data<br>- User friendly display of the previous measurements from DB<br>- Exporting/Importing of a DB<br>- Graphical representation of a current measurement<br>- Various indicators that allow user to keep track of what is happening with PolluTracker (geo-location, temperature, battery life, humidity, pressure)<br>- Audible signaling if one/many of the sensors go off set-up limit<br>- Ability to manually set-up AQ limit, sensitivity, and offset for each sensor<br>- 4 different scales (ppm, ppb, mg/m^3, OU) that can be applied to sensors individually<br>- Keeping track of different projects<br>- Showing the measurements on Google Map",
+    "descriptionShort": "Pollution Tracker application for measuring pollution level in specified area",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "5188161",
+          "unknown3": 28
+        },
+        "developerEmail": "it@scentroid.com",
+        "developerName": "ScentroidApps",
+        "developerWebsite": "http://scentroid.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "5188161",
+            "versionCode": 21
+          }
+        ],
+        "installationSize": "5188161",
+        "numDownloads": "10+ downloads",
+        "packageName": "programming.pollutracker",
+        "permission": [
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.VIBRATE",
+          "android.permission.WRITE_EXTERNAL_STORAGE"
+        ],
+        "recentChangesHtml": "- Support of higher number of sensors<br>- Enhanced &quot;Excel reporting&quot; feature",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false,
+          "testingProgramEmail": "scentroidapps@gmail.com"
+        },
+        "unstable": true,
+        "versionCode": 21,
+        "versionString": "1.5.1"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=programming.pollutracker",
+    "docType": 1,
+    "docid": "programming.pollutracker",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://lh3.googleusercontent.com/5GA-YAaJSB8qYkcIShJ07mb6nPkbfEQG82f5BsOZ5bw_X3Tp6ZUeWIfTtE5xDHfXMA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://lh3.googleusercontent.com/cN7g32tARV7ykv10Ci9SVcR7fr-H4wjXjMQwKCdVsqXpye-tgvsPvUVk2WL6M4c3zQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/0aLFTMBWCWctumH02HJS54BrF336y6OhRxY2px8H6sLfFjZLPQrhdSZD0skt7GzV7Qg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/HcvN2AF1Hb30uTgmVRB8RAFTCuGJkmOpBHNKsIkDmsBIBGLUceUBoqbObFTNPlC7s1U",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/zMQ15A3gpvGQzSFLQN9qV7mhy_zkyzjRUWNm_-GXpX4vSzYn-9VavDfHYWJLCpQYt_c",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/pjhCOkGKwQUEIbD0DjwLt33xfJsowtCimzj8cy-pRxh3CiBkxCLEXvmQZ2WNUdT-Ng",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/GjYNDCyW1WWOMFKseTkT29h4YucOxVcZ4UKN_motY1zzSFBj2MGezInv68Wo7KeVvA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/Y5NRTJ2C-MyasBTuFssOG_cP84qdswypOXaJfT734kicnfMARn9IwxO1FmF8kSTJ-JI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/msABsLrYqyLIxHhbSgih75Pls5krHN6FLS2Lt3MA4Avdmcz2hFs-Aen6ve80ZT4EbQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/G9Xktb4YJ6vl6-X3Z2jPl4CNIWkA2d_S4VJBWQnN4-wV2S6E7ebn5aw3h3kB6oWWYcbt",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/Qp1KRxqcbDQXhEv_ALeQDoVvWtRl2E5OcR_pYTO6PiTYpjXPT7KIGHUyjFdKuQ6joQ",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://lh3.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=programming.pollutracker",
+    "reviewsUrl": "rev?doc=programming.pollutracker&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=programming.pollutracker",
+    "title": "TR8+",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "ScentroidApps"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "it@scentroid.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "6 Nov 2019"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-08-12 07:28:58.957857",
+    "backendDocid": "programming.pollutracker",
+    "backendId": 3,
+    "creator": "ScentroidApps",
+    "descriptionHtml": "PolluTracker (TR8+) is an Android application, which allows to connect and use Scentroid&#39;s PolluTracker devices and measure pollution level in specified area.<br><br>WARNING:<br>- If you have been previously using TR8/TR8+ application, please be advised that the new version of the app listed here (as of January 2020) is not compatible with the old database; therefore, &quot;Import&quot; functionality won&#39;t work with the old measurements.<br>What can be done to save the data? You can save the old measurements as a CSV file by using the feature that is available in the old version of the application (in Records section).<br><br>The list of features includes:<br>- Bluetooth remote connection to PolluTracker<br>- Auto re-calibration of a device<br>- Manual re-calibration<br>- Keeping detailed log of received data<br>- User friendly display of the previous measurements from DB<br>- Exporting/Importing of a DB<br>- Graphical representation of a current measurement<br>- Various indicators that allow user to keep track of what is happening with PolluTracker (geo-location, temperature, battery life, humidity, pressure)<br>- Audible signaling if one/many of the sensors go off set-up limit<br>- Ability to manually set-up AQ limit, sensitivity, and offset for each sensor<br>- 4 different scales (ppm, ppb, mg/m^3, OU) that can be applied to sensors individually<br>- Keeping track of different projects<br>- Showing the measurements on Google Map",
+    "descriptionShort": "Pollution Tracker application for measuring pollution level in specified area",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "5188161",
+          "unknown3": 28
+        },
+        "developerEmail": "it@scentroid.com",
+        "developerName": "ScentroidApps",
+        "developerWebsite": "http://scentroid.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "5188161",
+            "versionCode": 22
+          }
+        ],
+        "installationSize": "5188161",
+        "numDownloads": "10+ downloads",
+        "packageName": "programming.pollutracker",
+        "permission": [
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.VIBRATE",
+          "android.permission.WRITE_EXTERNAL_STORAGE"
+        ],
+        "recentChangesHtml": "- Support of higher number of sensors<br>- Enhanced &quot;Excel reporting&quot; feature",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false,
+          "testingProgramEmail": "scentroidapps@gmail.com"
+        },
+        "unstable": true,
+        "versionCode": 22,
+        "versionString": "1.5.3"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=programming.pollutracker",
+    "docType": 1,
+    "docid": "programming.pollutracker",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://lh3.googleusercontent.com/5GA-YAaJSB8qYkcIShJ07mb6nPkbfEQG82f5BsOZ5bw_X3Tp6ZUeWIfTtE5xDHfXMA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://lh3.googleusercontent.com/cN7g32tARV7ykv10Ci9SVcR7fr-H4wjXjMQwKCdVsqXpye-tgvsPvUVk2WL6M4c3zQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/0aLFTMBWCWctumH02HJS54BrF336y6OhRxY2px8H6sLfFjZLPQrhdSZD0skt7GzV7Qg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/HcvN2AF1Hb30uTgmVRB8RAFTCuGJkmOpBHNKsIkDmsBIBGLUceUBoqbObFTNPlC7s1U",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/zMQ15A3gpvGQzSFLQN9qV7mhy_zkyzjRUWNm_-GXpX4vSzYn-9VavDfHYWJLCpQYt_c",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/pjhCOkGKwQUEIbD0DjwLt33xfJsowtCimzj8cy-pRxh3CiBkxCLEXvmQZ2WNUdT-Ng",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/GjYNDCyW1WWOMFKseTkT29h4YucOxVcZ4UKN_motY1zzSFBj2MGezInv68Wo7KeVvA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/Y5NRTJ2C-MyasBTuFssOG_cP84qdswypOXaJfT734kicnfMARn9IwxO1FmF8kSTJ-JI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/msABsLrYqyLIxHhbSgih75Pls5krHN6FLS2Lt3MA4Avdmcz2hFs-Aen6ve80ZT4EbQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/G9Xktb4YJ6vl6-X3Z2jPl4CNIWkA2d_S4VJBWQnN4-wV2S6E7ebn5aw3h3kB6oWWYcbt",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/Qp1KRxqcbDQXhEv_ALeQDoVvWtRl2E5OcR_pYTO6PiTYpjXPT7KIGHUyjFdKuQ6joQ",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://lh3.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=programming.pollutracker",
+    "reviewsUrl": "rev?doc=programming.pollutracker&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=programming.pollutracker",
+    "title": "TR8+",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "it@scentroid.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "6 Nov 2019"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-11-04 01:36:35.105382",
+    "backendDocid": "programming.pollutracker",
+    "backendId": 3,
+    "creator": "ScentroidApps",
+    "descriptionHtml": "PolluTracker (TR8+) is an Android application, which allows to connect and use Scentroid&#39;s PolluTracker devices and measure pollution level in specified area.<br><br>WARNING:<br>- If you have been previously using TR8/TR8+ application, please be advised that the new version of the app listed here (as of January 2020) is not compatible with the old database; therefore, &quot;Import&quot; functionality won&#39;t work with the old measurements.<br>What can be done to save the data? You can save the old measurements as a CSV file by using the feature that is available in the old version of the application (in Records section).<br><br>The list of features includes:<br>- Bluetooth remote connection to PolluTracker<br>- Auto re-calibration of a device<br>- Manual re-calibration<br>- Keeping detailed log of received data<br>- User friendly display of the previous measurements from DB<br>- Exporting/Importing of a DB<br>- Graphical representation of a current measurement<br>- Various indicators that allow user to keep track of what is happening with PolluTracker (geo-location, temperature, battery life, humidity, pressure)<br>- Audible signaling if one/many of the sensors go off set-up limit<br>- Ability to manually set-up AQ limit, sensitivity, and offset for each sensor<br>- 4 different scales (ppm, ppb, mg/m^3, OU) that can be applied to sensors individually<br>- Keeping track of different projects<br>- Showing the measurements on Google Map",
+    "descriptionShort": "Pollution Tracker application for measuring pollution level in specified area",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "5188161",
+          "unknown3": 28
+        },
+        "developerEmail": "it@scentroid.com",
+        "developerName": "ScentroidApps",
+        "developerWebsite": "http://scentroid.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "5188161",
+            "versionCode": 23
+          }
+        ],
+        "installationSize": "5188161",
+        "numDownloads": "10+ downloads",
+        "packageName": "programming.pollutracker",
+        "permission": [
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.VIBRATE",
+          "android.permission.WRITE_EXTERNAL_STORAGE"
+        ],
+        "recentChangesHtml": "Handles creation of Excel files with 64k+ records",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false,
+          "testingProgramEmail": "scentroidapps@gmail.com"
+        },
+        "unstable": true,
+        "uploadDate": "3 Nov 2020",
+        "versionCode": 23,
+        "versionString": "1.5.4"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=programming.pollutracker",
+    "docType": 1,
+    "docid": "programming.pollutracker",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/5GA-YAaJSB8qYkcIShJ07mb6nPkbfEQG82f5BsOZ5bw_X3Tp6ZUeWIfTtE5xDHfXMA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/cN7g32tARV7ykv10Ci9SVcR7fr-H4wjXjMQwKCdVsqXpye-tgvsPvUVk2WL6M4c3zQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/0aLFTMBWCWctumH02HJS54BrF336y6OhRxY2px8H6sLfFjZLPQrhdSZD0skt7GzV7Qg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/HcvN2AF1Hb30uTgmVRB8RAFTCuGJkmOpBHNKsIkDmsBIBGLUceUBoqbObFTNPlC7s1U",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/zMQ15A3gpvGQzSFLQN9qV7mhy_zkyzjRUWNm_-GXpX4vSzYn-9VavDfHYWJLCpQYt_c",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/pjhCOkGKwQUEIbD0DjwLt33xfJsowtCimzj8cy-pRxh3CiBkxCLEXvmQZ2WNUdT-Ng",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/GjYNDCyW1WWOMFKseTkT29h4YucOxVcZ4UKN_motY1zzSFBj2MGezInv68Wo7KeVvA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Y5NRTJ2C-MyasBTuFssOG_cP84qdswypOXaJfT734kicnfMARn9IwxO1FmF8kSTJ-JI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/msABsLrYqyLIxHhbSgih75Pls5krHN6FLS2Lt3MA4Avdmcz2hFs-Aen6ve80ZT4EbQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/G9Xktb4YJ6vl6-X3Z2jPl4CNIWkA2d_S4VJBWQnN4-wV2S6E7ebn5aw3h3kB6oWWYcbt",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Qp1KRxqcbDQXhEv_ALeQDoVvWtRl2E5OcR_pYTO6PiTYpjXPT7KIGHUyjFdKuQ6joQ",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=programming.pollutracker",
+    "reviewsUrl": "rev?doc=programming.pollutracker&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=programming.pollutracker",
+    "title": "TR8+",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "it@scentroid.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "6 Nov 2019"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-02-14 21:14:04.504538",
+    "backendDocid": "programming.pollutracker",
+    "backendId": 3,
+    "creator": "ScentroidApps",
+    "descriptionHtml": "PolluTracker (TR8+) is an Android application, which allows to connect and use Scentroid&#39;s PolluTracker devices and measure pollution level in specified area.<br><br>WARNING:<br>- If you have been previously using TR8/TR8+ application, please be advised that the new version of the app listed here (as of January 2020) is not compatible with the old database; therefore, &quot;Import&quot; functionality won&#39;t work with the old measurements.<br>What can be done to save the data? You can save the old measurements as a CSV file by using the feature that is available in the old version of the application (in Records section).<br><br>The list of features includes:<br>- Bluetooth remote connection to PolluTracker<br>- Auto re-calibration of a device<br>- Manual re-calibration<br>- Keeping detailed log of received data<br>- User friendly display of the previous measurements from DB<br>- Exporting/Importing of a DB<br>- Graphical representation of a current measurement<br>- Various indicators that allow user to keep track of what is happening with PolluTracker (geo-location, temperature, battery life, humidity, pressure)<br>- Audible signaling if one/many of the sensors go off set-up limit<br>- Ability to manually set-up AQ limit, sensitivity, and offset for each sensor<br>- 4 different scales (ppm, ppb, mg/m^3, OU) that can be applied to sensors individually<br>- Keeping track of different projects<br>- Showing the measurements on Google Map",
+    "descriptionShort": "Pollution Tracker application for measuring pollution level in specified area",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "5838746",
+          "unknown3": 30
+        },
+        "developerEmail": "it@scentroid.com",
+        "developerName": "ScentroidApps",
+        "developerWebsite": "http://scentroid.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "5838746",
+            "versionCode": 32
+          }
+        ],
+        "installationSize": "5838746",
+        "numDownloads": "50+ downloads",
+        "packageName": "programming.pollutracker",
+        "permission": [
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.WRITE_EXTERNAL_STORAGE"
+        ],
+        "recentChangesHtml": "Added support of up to 20 sensors",
+        "unstable": false,
+        "uploadDate": "11 Feb 2021",
+        "versionCode": 32,
+        "versionString": "1.5.7"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=programming.pollutracker",
+    "docType": 1,
+    "docid": "programming.pollutracker",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/5GA-YAaJSB8qYkcIShJ07mb6nPkbfEQG82f5BsOZ5bw_X3Tp6ZUeWIfTtE5xDHfXMA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/cN7g32tARV7ykv10Ci9SVcR7fr-H4wjXjMQwKCdVsqXpye-tgvsPvUVk2WL6M4c3zQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/0aLFTMBWCWctumH02HJS54BrF336y6OhRxY2px8H6sLfFjZLPQrhdSZD0skt7GzV7Qg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/HcvN2AF1Hb30uTgmVRB8RAFTCuGJkmOpBHNKsIkDmsBIBGLUceUBoqbObFTNPlC7s1U",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/zMQ15A3gpvGQzSFLQN9qV7mhy_zkyzjRUWNm_-GXpX4vSzYn-9VavDfHYWJLCpQYt_c",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/pjhCOkGKwQUEIbD0DjwLt33xfJsowtCimzj8cy-pRxh3CiBkxCLEXvmQZ2WNUdT-Ng",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/GjYNDCyW1WWOMFKseTkT29h4YucOxVcZ4UKN_motY1zzSFBj2MGezInv68Wo7KeVvA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Y5NRTJ2C-MyasBTuFssOG_cP84qdswypOXaJfT734kicnfMARn9IwxO1FmF8kSTJ-JI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/msABsLrYqyLIxHhbSgih75Pls5krHN6FLS2Lt3MA4Avdmcz2hFs-Aen6ve80ZT4EbQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/G9Xktb4YJ6vl6-X3Z2jPl4CNIWkA2d_S4VJBWQnN4-wV2S6E7ebn5aw3h3kB6oWWYcbt",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Qp1KRxqcbDQXhEv_ALeQDoVvWtRl2E5OcR_pYTO6PiTYpjXPT7KIGHUyjFdKuQ6joQ",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=programming.pollutracker",
+    "reviewsUrl": "rev?doc=programming.pollutracker&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=programming.pollutracker",
+    "title": "TR8+",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "it@scentroid.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "6 Nov 2019"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-03-06 20:02:02.800590",
+    "backendDocid": "programming.pollutracker",
+    "backendId": 3,
+    "creator": "ScentroidApps",
+    "descriptionHtml": "PolluTracker (TR8+) is an Android application, which allows to connect and use Scentroid&#39;s PolluTracker devices and measure pollution level in specified area.<br><br>WARNING:<br>- If you have been previously using TR8/TR8+ application, please be advised that the new version of the app listed here (as of January 2020) is not compatible with the old database; therefore, &quot;Import&quot; functionality won&#39;t work with the old measurements.<br>What can be done to save the data? You can save the old measurements as a CSV file by using the feature that is available in the old version of the application (in Records section).<br><br>The list of features includes:<br>- Bluetooth remote connection to PolluTracker<br>- Auto re-calibration of a device<br>- Manual re-calibration<br>- Keeping detailed log of received data<br>- User friendly display of the previous measurements from DB<br>- Exporting/Importing of a DB<br>- Graphical representation of a current measurement<br>- Various indicators that allow user to keep track of what is happening with PolluTracker (geo-location, temperature, battery life, humidity, pressure)<br>- Audible signaling if one/many of the sensors go off set-up limit<br>- Ability to manually set-up AQ limit, sensitivity, and offset for each sensor<br>- 4 different scales (ppm, ppb, mg/m^3, OU) that can be applied to sensors individually<br>- Keeping track of different projects<br>- Showing the measurements on Google Map",
+    "descriptionShort": "Pollution Tracker application for measuring pollution level in specified area",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "5838746",
+          "unknown3": 30
+        },
+        "developerEmail": "it@scentroid.com",
+        "developerName": "ScentroidApps",
+        "developerWebsite": "http://scentroid.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "5838746",
+            "versionCode": 35
+          }
+        ],
+        "installationSize": "5838746",
+        "numDownloads": "50+ downloads",
+        "packageName": "programming.pollutracker",
+        "permission": [
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.WRITE_EXTERNAL_STORAGE"
+        ],
+        "recentChangesHtml": "Added support of up to 20 sensors",
+        "unstable": false,
+        "uploadDate": "Mar. 1, 2021",
+        "versionCode": 35,
+        "versionString": "1.5.7"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=programming.pollutracker",
+    "docType": 1,
+    "docid": "programming.pollutracker",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/5GA-YAaJSB8qYkcIShJ07mb6nPkbfEQG82f5BsOZ5bw_X3Tp6ZUeWIfTtE5xDHfXMA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/cN7g32tARV7ykv10Ci9SVcR7fr-H4wjXjMQwKCdVsqXpye-tgvsPvUVk2WL6M4c3zQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/0aLFTMBWCWctumH02HJS54BrF336y6OhRxY2px8H6sLfFjZLPQrhdSZD0skt7GzV7Qg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/HcvN2AF1Hb30uTgmVRB8RAFTCuGJkmOpBHNKsIkDmsBIBGLUceUBoqbObFTNPlC7s1U",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/zMQ15A3gpvGQzSFLQN9qV7mhy_zkyzjRUWNm_-GXpX4vSzYn-9VavDfHYWJLCpQYt_c",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/pjhCOkGKwQUEIbD0DjwLt33xfJsowtCimzj8cy-pRxh3CiBkxCLEXvmQZ2WNUdT-Ng",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/GjYNDCyW1WWOMFKseTkT29h4YucOxVcZ4UKN_motY1zzSFBj2MGezInv68Wo7KeVvA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Y5NRTJ2C-MyasBTuFssOG_cP84qdswypOXaJfT734kicnfMARn9IwxO1FmF8kSTJ-JI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/msABsLrYqyLIxHhbSgih75Pls5krHN6FLS2Lt3MA4Avdmcz2hFs-Aen6ve80ZT4EbQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/G9Xktb4YJ6vl6-X3Z2jPl4CNIWkA2d_S4VJBWQnN4-wV2S6E7ebn5aw3h3kB6oWWYcbt",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Qp1KRxqcbDQXhEv_ALeQDoVvWtRl2E5OcR_pYTO6PiTYpjXPT7KIGHUyjFdKuQ6joQ",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=programming.pollutracker",
+    "reviewsUrl": "rev?doc=programming.pollutracker&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=programming.pollutracker",
+    "title": "TR8+",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "ScentroidApps"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "it@scentroid.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Nov. 6, 2019"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-12-30 00:10:45.662933",
+    "backendDocid": "programming.pollutracker",
+    "backendId": 3,
+    "creator": "ScentroidApps",
+    "descriptionHtml": "PolluTracker (TR8+) is an Android application, which allows to connect and use Scentroid&#39;s PolluTracker devices and measure pollution level in specified area.<br><br>WARNING:<br>- If you have been previously using TR8/TR8+ application, please be advised that the new version of the app listed here (as of January 2020) is not compatible with the old database; therefore, &quot;Import&quot; functionality won&#39;t work with the old measurements.<br>What can be done to save the data? You can save the old measurements as a CSV file by using the feature that is available in the old version of the application (in Records section).<br><br>The list of features includes:<br>- Bluetooth remote connection to PolluTracker<br>- Auto re-calibration of a device<br>- Manual re-calibration<br>- Keeping detailed log of received data<br>- User friendly display of the previous measurements from DB<br>- Exporting/Importing of a DB<br>- Graphical representation of a current measurement<br>- Various indicators that allow user to keep track of what is happening with PolluTracker (geo-location, temperature, battery life, humidity, pressure)<br>- Audible signaling if one/many of the sensors go off set-up limit<br>- Ability to manually set-up AQ limit, sensitivity, and offset for each sensor<br>- 4 different scales (ppm, ppb, mg/m^3, OU) that can be applied to sensors individually<br>- Keeping track of different projects<br>- Showing the measurements on Google Map",
+    "descriptionShort": "Pollution Tracker application for measuring pollution level in specified area",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "5160606",
+          "unknown3": 30
+        },
+        "developerEmail": "it@scentroid.com",
+        "developerName": "ScentroidApps",
+        "developerWebsite": "http://scentroid.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "4965945",
+            "versionCode": 37
+          },
+          {
+            "fileType": 0,
+            "size": "120115",
+            "versionCode": 37
+          },
+          {
+            "fileType": 0,
+            "size": "29081",
+            "versionCode": 37
+          },
+          {
+            "fileType": 0,
+            "size": "45465",
+            "versionCode": 37
+          }
+        ],
+        "installationSize": "5160606",
+        "numDownloads": "50+ downloads",
+        "packageName": "programming.pollutracker",
+        "permission": [
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.WRITE_EXTERNAL_STORAGE"
+        ],
+        "recentChangesHtml": "Included in this release:<br>- Resolved possible crashes caused by selection of % as sensor scale<br>- In Sensor Settings page, rearranged sensor names in the dropdown menus in alphabetical order for easier selection<br><br>Recent updates:<br>- Added THT into the sensor list as requested<br>- Changed default sensitivity to 1.0;<br>- Added correct conversion calculation for ppm to %<br>- Added % scale option for all other gases (while Oxygen still has % as default option).",
+        "unstable": false,
+        "uploadDate": "23 Dec 2021",
+        "versionCode": 37,
+        "versionString": "1.6.0"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=programming.pollutracker",
+    "docType": 1,
+    "docid": "programming.pollutracker",
+    "image": [
+      {
+        "color": "#282828",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/5GA-YAaJSB8qYkcIShJ07mb6nPkbfEQG82f5BsOZ5bw_X3Tp6ZUeWIfTtE5xDHfXMA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FFCA00",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/cN7g32tARV7ykv10Ci9SVcR7fr-H4wjXjMQwKCdVsqXpye-tgvsPvUVk2WL6M4c3zQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/0aLFTMBWCWctumH02HJS54BrF336y6OhRxY2px8H6sLfFjZLPQrhdSZD0skt7GzV7Qg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/HcvN2AF1Hb30uTgmVRB8RAFTCuGJkmOpBHNKsIkDmsBIBGLUceUBoqbObFTNPlC7s1U",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/zMQ15A3gpvGQzSFLQN9qV7mhy_zkyzjRUWNm_-GXpX4vSzYn-9VavDfHYWJLCpQYt_c",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/pjhCOkGKwQUEIbD0DjwLt33xfJsowtCimzj8cy-pRxh3CiBkxCLEXvmQZ2WNUdT-Ng",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/GjYNDCyW1WWOMFKseTkT29h4YucOxVcZ4UKN_motY1zzSFBj2MGezInv68Wo7KeVvA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Y5NRTJ2C-MyasBTuFssOG_cP84qdswypOXaJfT734kicnfMARn9IwxO1FmF8kSTJ-JI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/msABsLrYqyLIxHhbSgih75Pls5krHN6FLS2Lt3MA4Avdmcz2hFs-Aen6ve80ZT4EbQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/G9Xktb4YJ6vl6-X3Z2jPl4CNIWkA2d_S4VJBWQnN4-wV2S6E7ebn5aw3h3kB6oWWYcbt",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Qp1KRxqcbDQXhEv_ALeQDoVvWtRl2E5OcR_pYTO6PiTYpjXPT7KIGHUyjFdKuQ6joQ",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=programming.pollutracker",
+    "reviewsUrl": "rev?doc=programming.pollutracker&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=programming.pollutracker",
+    "title": "TR8+",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "it@scentroid.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "6 Nov 2019"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-06-05 12:28:49.466291",
+    "backendDocid": "programming.pollutracker",
+    "backendId": 3,
+    "creator": "ScentroidApps",
+    "descriptionHtml": "PolluTracker (TR8+) is an Android application, which allows to connect and use Scentroid&#39;s PolluTracker devices and measure pollution level in specified area.<br><br>WARNING:<br>- If you have been previously using TR8/TR8+ application, please be advised that the new version of the app listed here (as of January 2020) is not compatible with the old database; therefore, &quot;Import&quot; functionality won&#39;t work with the old measurements.<br>What can be done to save the data? You can save the old measurements as a CSV file by using the feature that is available in the old version of the application (in Records section).<br><br>The list of features includes:<br>- Bluetooth remote connection to PolluTracker<br>- Auto re-calibration of a device<br>- Manual re-calibration<br>- Keeping detailed log of received data<br>- User friendly display of the previous measurements from DB<br>- Exporting/Importing of a DB<br>- Graphical representation of a current measurement<br>- Various indicators that allow user to keep track of what is happening with PolluTracker (geo-location, temperature, battery life, humidity, pressure)<br>- Audible signaling if one/many of the sensors go off set-up limit<br>- Ability to manually set-up AQ limit, sensitivity, and offset for each sensor<br>- 4 different scales (ppm, ppb, mg/m^3, OU) that can be applied to sensors individually<br>- Keeping track of different projects<br>- Showing the measurements on Google Map",
+    "descriptionShort": "Pollution Tracker application for measuring pollution level in specified area",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "5235224",
+          "unknown3": 30
+        },
+        "developerEmail": "it@scentroid.com",
+        "developerName": "ScentroidApps",
+        "developerWebsite": "http://scentroid.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "4970113",
+            "versionCode": 42
+          },
+          {
+            "fileType": 0,
+            "size": "120115",
+            "versionCode": 42
+          },
+          {
+            "fileType": 0,
+            "size": "29081",
+            "versionCode": 42
+          },
+          {
+            "fileType": 0,
+            "size": "33177",
+            "versionCode": 42
+          },
+          {
+            "fileType": 0,
+            "size": "45465",
+            "versionCode": 42
+          },
+          {
+            "fileType": 0,
+            "size": "37273",
+            "versionCode": 42
+          }
+        ],
+        "installationSize": "5235224",
+        "numDownloads": "100+ downloads",
+        "packageName": "programming.pollutracker",
+        "permission": [
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.WRITE_EXTERNAL_STORAGE"
+        ],
+        "recentChangesHtml": "Added support for a few new sensors, including Methyl Mercaptan (MM) and variations of existing sensors.",
+        "unstable": false,
+        "uploadDate": "11 Apr 2022",
+        "versionCode": 42,
+        "versionString": "1.6.5"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=programming.pollutracker",
+    "docType": 1,
+    "docid": "programming.pollutracker",
+    "image": [
+      {
+        "color": "#282828",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/5GA-YAaJSB8qYkcIShJ07mb6nPkbfEQG82f5BsOZ5bw_X3Tp6ZUeWIfTtE5xDHfXMA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FFCA00",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/cN7g32tARV7ykv10Ci9SVcR7fr-H4wjXjMQwKCdVsqXpye-tgvsPvUVk2WL6M4c3zQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/0aLFTMBWCWctumH02HJS54BrF336y6OhRxY2px8H6sLfFjZLPQrhdSZD0skt7GzV7Qg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/HcvN2AF1Hb30uTgmVRB8RAFTCuGJkmOpBHNKsIkDmsBIBGLUceUBoqbObFTNPlC7s1U",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/zMQ15A3gpvGQzSFLQN9qV7mhy_zkyzjRUWNm_-GXpX4vSzYn-9VavDfHYWJLCpQYt_c",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/pjhCOkGKwQUEIbD0DjwLt33xfJsowtCimzj8cy-pRxh3CiBkxCLEXvmQZ2WNUdT-Ng",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/GjYNDCyW1WWOMFKseTkT29h4YucOxVcZ4UKN_motY1zzSFBj2MGezInv68Wo7KeVvA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Y5NRTJ2C-MyasBTuFssOG_cP84qdswypOXaJfT734kicnfMARn9IwxO1FmF8kSTJ-JI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/msABsLrYqyLIxHhbSgih75Pls5krHN6FLS2Lt3MA4Avdmcz2hFs-Aen6ve80ZT4EbQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/G9Xktb4YJ6vl6-X3Z2jPl4CNIWkA2d_S4VJBWQnN4-wV2S6E7ebn5aw3h3kB6oWWYcbt",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Qp1KRxqcbDQXhEv_ALeQDoVvWtRl2E5OcR_pYTO6PiTYpjXPT7KIGHUyjFdKuQ6joQ",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=programming.pollutracker",
+    "reviewsUrl": "rev?doc=programming.pollutracker&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=programming.pollutracker",
+    "title": "TR8+",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "it@scentroid.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "6 Nov 2019"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-10-04 00:07:17.703161",
+    "backendDocid": "programming.pollutracker",
+    "backendId": 3,
+    "creator": "ScentroidApps",
+    "descriptionHtml": "PolluTracker (TR8+) is an Android application, which allows to connect and use Scentroid&#39;s PolluTracker devices and measure pollution level in specified area.<br><br>WARNING:<br>- If you have been previously using TR8/TR8+ application, please be advised that the new version of the app listed here (as of January 2020) is not compatible with the old database; therefore, &quot;Import&quot; functionality won&#39;t work with the old measurements.<br>What can be done to save the data? You can save the old measurements as a CSV file by using the feature that is available in the old version of the application (in Records section).<br><br>The list of features includes:<br>- Bluetooth remote connection to PolluTracker<br>- Auto re-calibration of a device<br>- Manual re-calibration<br>- Keeping detailed log of received data<br>- User friendly display of the previous measurements from DB<br>- Exporting/Importing of a DB<br>- Graphical representation of a current measurement<br>- Various indicators that allow user to keep track of what is happening with PolluTracker (geo-location, temperature, battery life, humidity, pressure)<br>- Audible signaling if one/many of the sensors go off set-up limit<br>- Ability to manually set-up AQ limit, sensitivity, and offset for each sensor<br>- 4 different scales (ppm, ppb, mg/m^3, OU) that can be applied to sensors individually<br>- Keeping track of different projects<br>- Showing the measurements on Google Map",
+    "descriptionShort": "Pollution Tracker application for measuring pollution level in specified area",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "6995706",
+          "unknown3": 30
+        },
+        "developerEmail": "it@scentroid.com",
+        "developerName": "ScentroidApps",
+        "developerWebsite": "http://scentroid.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "6796949",
+            "versionCode": 48
+          },
+          {
+            "fileType": 0,
+            "size": "120115",
+            "versionCode": 48
+          },
+          {
+            "fileType": 0,
+            "size": "33177",
+            "versionCode": 48
+          },
+          {
+            "fileType": 0,
+            "size": "45465",
+            "versionCode": 48
+          }
+        ],
+        "installationSize": "6995706",
+        "numDownloads": "100+ downloads",
+        "packageName": "programming.pollutracker",
+        "permission": [
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE"
+        ],
+        "recentChangesHtml": "Fixed SQLite crash issue for adding new columns.<br><br>Previously:<br>Add latitude and longitude to seconds table so that the coordinates data updates real-time as well.",
+        "unstable": true,
+        "uploadDate": "24 Aug 2022",
+        "versionCode": 48,
+        "versionString": "1.7.1"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=programming.pollutracker",
+    "docType": 1,
+    "docid": "programming.pollutracker",
+    "image": [
+      {
+        "color": "#282828",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/5GA-YAaJSB8qYkcIShJ07mb6nPkbfEQG82f5BsOZ5bw_X3Tp6ZUeWIfTtE5xDHfXMA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FFCA00",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/cN7g32tARV7ykv10Ci9SVcR7fr-H4wjXjMQwKCdVsqXpye-tgvsPvUVk2WL6M4c3zQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/0aLFTMBWCWctumH02HJS54BrF336y6OhRxY2px8H6sLfFjZLPQrhdSZD0skt7GzV7Qg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/HcvN2AF1Hb30uTgmVRB8RAFTCuGJkmOpBHNKsIkDmsBIBGLUceUBoqbObFTNPlC7s1U",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/zMQ15A3gpvGQzSFLQN9qV7mhy_zkyzjRUWNm_-GXpX4vSzYn-9VavDfHYWJLCpQYt_c",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/pjhCOkGKwQUEIbD0DjwLt33xfJsowtCimzj8cy-pRxh3CiBkxCLEXvmQZ2WNUdT-Ng",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/GjYNDCyW1WWOMFKseTkT29h4YucOxVcZ4UKN_motY1zzSFBj2MGezInv68Wo7KeVvA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Y5NRTJ2C-MyasBTuFssOG_cP84qdswypOXaJfT734kicnfMARn9IwxO1FmF8kSTJ-JI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/msABsLrYqyLIxHhbSgih75Pls5krHN6FLS2Lt3MA4Avdmcz2hFs-Aen6ve80ZT4EbQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/G9Xktb4YJ6vl6-X3Z2jPl4CNIWkA2d_S4VJBWQnN4-wV2S6E7ebn5aw3h3kB6oWWYcbt",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Qp1KRxqcbDQXhEv_ALeQDoVvWtRl2E5OcR_pYTO6PiTYpjXPT7KIGHUyjFdKuQ6joQ",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://scentroid.com/privacy-policy/",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=programming.pollutracker",
+    "reviewsUrl": "rev?doc=programming.pollutracker&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=programming.pollutracker",
+    "title": "TR8+",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "it@scentroid.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "6 Nov 2019"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  }
+]

@@ -1,0 +1,2811 @@
+[
+  {
+    "aggregateRating": {
+      "commentCount": "68",
+      "fiveStarRatings": "72",
+      "fourStarRatings": "11",
+      "oneStarRatings": "7",
+      "ratingsCount": "97",
+      "starRating": 4.402062,
+      "threeStarRatings": "2",
+      "twoStarRatings": "5",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-07-01 02:08:35.678529",
+    "backendDocid": "org.dvswitch",
+    "backendId": 3,
+    "creator": "DVSwitch",
+    "descriptionHtml": "DVSwitch Mobile is an Android PTT application for HAM radio operators to connect with other HAMs on the AllStarLink network.  The application uses Wi-Fi or Cellular data networks and has high quality voice and an intuitive user interface.  DVSwitch Mobile supports both smartphones and Network Radios with dedicated PTT buttons.<br><br>Configure your device to connect to a AllStar node by answering a few simple questions and you are ready to go.  Click on this link to get information on setting up IAX (Asterisk) contexts:<br><a href=\"https://www.google.com/url?q=https%3A%2F%2Fdvswitch.groups.io%2Fg%2FMobile%2Fwiki%2FAllStarLink-setup-for-DVSwitch-Mobile&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNGYYch1Q7Ev6xrm6ktBh3BUO_BCiA\">https://dvswitch.groups.io/g/Mobile/wiki/AllStarLink-setup-for-DVSwitch-Mobile</a><br><br>In addition to IAX2 support, DVSwitch Mobile now supports connections to USRP audio sources such as Analog_Bridge.  This is the bridge to many digital modes including DMR, D-STAR, Fusion, P25 and NXDN.<br><br><h1>Key features</h1><br><b>Network (Allstar/IAX2/USRP)</b><br>\u2022 Multiple IAX and USRP accounts are supported with login information and Caller ID <br>\u2022 16 digit keypad and macro support<br>\u2022 Maintains a list of connected nodes<br>\u2022 Popup when node connects or disconnects<br>\u2022 Popups for IAX2 text messages<br>\u2022 Field entry hints<br><b>PTT</b><br>\u2022 Dedicated PTT interface is available  (VOX operation is not needed)<br>\u2022 Hardware button for PTT on Network Radios supported (mappable and intent)<br>\u2022 Background operation supports PTT when screen is locked or the app is not in the foreground.<br>\u2022 Adjustable Push To Talk timeout timer with alerts<br><b>Audio</b><br>\u2022 Real-time high quality Digital Voice (VOIP) while maintaining low bandwidth usage<br>\u2022 Hands free and Bluetooth are supported<br>\u2022 In-Call and Music audio profiles<br>\u2022 Full duplex operation<br>\u2022 Adjustable transmit and receive audio gain per account<br><b>Misc</b><br>\u2022 Supports calling over Cellular (3G, 4G, LTE mobile data) and Wi-Fi<br>\u2022 Automatic reconnect on signal loss (optional)<br>\u2022 Status display for registration,connection state and amount of data transferred<br>\u2022 Lock screen displays registration and call status<br>\u2022 Supports portrait, landscape and small screen (Network Radio) layouts (lockable)<br>\u2022 Tone alerts for registration, connection and timeout (optional)<br>\u2022 USRP supports links to D-STAR, DMR, Fusion, NXDN and P25 networks through DVSwitch bridge<br><br><br>Note: Several features are still under development.",
+    "descriptionShort": "Android PTT client for AllStarLink IAX nodes (IAXRPT)",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown2": "1513199",
+          "unknown3": 28
+        },
+        "developerAddress": "4809 Creekstone Way, Marietta Ga 30062",
+        "developerEmail": "dvswitch.inad@gmail.com",
+        "developerName": "DVSwitch",
+        "developerWebsite": "https://dvswitch.groups.io/g/Mobile/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "1513199",
+            "versionCode": 130
+          }
+        ],
+        "hasInstantLink": true,
+        "installationSize": "1513199",
+        "numDownloads": "5,000+ downloads",
+        "packageName": "org.dvswitch",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.BROADCAST_STICKY",
+          "android.permission.INTERNET",
+          "android.permission.MODIFY_AUDIO_SETTINGS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECORD_AUDIO",
+          "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.android.vending.BILLING"
+        ],
+        "recentChangesHtml": "Add Soft Keyboard toggle for F50<br>Reconnect bug fix<br>Prompt for background Data Saver permissions",
+        "unstable": true,
+        "uploadDate": "30 Jun 2020",
+        "versionCode": 130,
+        "versionString": "1.57"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=org.dvswitch",
+    "docType": 1,
+    "docid": "org.dvswitch",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://lh3.googleusercontent.com/ZHDuPYNKGwpbHdxvRQH_QprjIbrS1VciV-ab4rsBWpKNUyGaEtgpIBBg3tZ8dDoVYbs",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://lh3.googleusercontent.com/XxtTpZb-n0uGRyLCVrGKJeKMSopqBXWHuTOCXPauJRSsWK7GOmMR3VUieu4RKIeDMJQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 3,
+        "imageUrl": "https://youtu.be/b7a1sUbcPeU"
+      },
+      {
+        "imageType": 13,
+        "imageUrl": "https://i.ytimg.com/vi/b7a1sUbcPeU/hqdefault.jpg",
+        "supportsFifeUrlOptions": false
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/H075OsP_oM_9sA95m7WW_24StHhjvPMrq-T_2kMrpi_0HwH2e8xux3rF676XplZeA11d",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/c3HhR17heD2BfTF8UgKs2CXU8414KY-JDuz46lEx-Btx6V-ywMAoAFmTVp8y0m-fHuE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1200
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/EobL5pz6TGV7E5M0nKFHxE50OeKMzgnAj5_qAglNPwzsOUcAPMkTuahRUdvYdYGwjle8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/lRJcMILh0_EvGVXma0pk4p_-nslCBprHqebTC3CeXzfbNMoVqNrgE1cN671C4LARZyU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2560,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/Itq9iSM--nF6mBydooqdrPmVtxDfb7T2xxlsEczmAv9KIoSzZESmEx_oQJCQbx9kl3k",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1200
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/fPpzOnrf6ELutwmZnVMoBOsu8sLgYvR6hz_kzDn8aTwTYYrVJEqP2Vo8DnmsgH-K2Q",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1200
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/17t7lNagcIMQGd1PtLR65C86KNzs498mpZFKVusgCOh0HZMPbCMI6nyW761A_03BViI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1200
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/KrPFaPObq6W67g5dsLQPIhioJMJaPBHAimPeUhsvwLe1qbRje4aFdb6JGlm1Ga6n7A",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1200
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/xp9EeQiDtSFJKwtfHifDVA4MfrpH4oIZ2Bkoi4VhyS4Ka7YI4wik8at5NtkSuoI_yEJj",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1200
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/a9xTDlfl4fYQ6wVeGEqqmL3xkUA4SoS6WdGGO8SmIz-cYUbwcKCZlrRmdX_ohzssdjY",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1200
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/D6SodIGlyFGhTRzo1FNM6STBB5UffLLMuEK8ewJTVKM3X5QP0rk27GGhVohksiK4pFVr",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://dvswitch.org/Mobile/privacy_policy.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://lh3.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=org.dvswitch",
+    "reviewsUrl": "rev?doc=org.dvswitch&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=org.dvswitch",
+    "title": "DVSwitch Mobile",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "$0.99 \u2013 $1.99 per item"
+          },
+          "label": "In-app purchases"
+        },
+        {
+          "container": {
+            "value": "DVSwitch"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "dvswitch.inad@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "4809 Creekstone Way, Marietta Ga 30062"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "8 Mar 2019"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "107",
+      "fiveStarRatings": "119",
+      "fourStarRatings": "14",
+      "oneStarRatings": "9",
+      "ratingsCount": "159",
+      "starRating": 4.4257426,
+      "threeStarRatings": "7",
+      "twoStarRatings": "7",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-01-16 20:59:17.058685",
+    "backendDocid": "org.dvswitch",
+    "backendId": 3,
+    "creator": "DVSwitch",
+    "descriptionHtml": "DVSwitch Mobile is an Android PTT application for HAM radio operators to connect with other HAMs on the AllStarLink network.  The application uses Wi-Fi or Cellular data networks and has high quality voice and an intuitive user interface.  DVSwitch Mobile supports both smartphones and Network Radios with dedicated PTT buttons.<br><br>Configure your device to connect to a AllStar node by answering a few simple questions and you are ready to go.  Click on this link to get information on setting up IAX (Asterisk) contexts:<br><a href=\"https://www.google.com/url?q=https%3A%2F%2Fdvswitch.groups.io%2Fg%2FMobile%2Fwiki%2FAllStarLink-setup-for-DVSwitch-Mobile&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNGYYch1Q7Ev6xrm6ktBh3BUO_BCiA\">https://dvswitch.groups.io/g/Mobile/wiki/AllStarLink-setup-for-DVSwitch-Mobile</a><br><br>In addition to IAX2 support, DVSwitch Mobile now supports connections to USRP audio sources such as Analog_Bridge.  This is the bridge to many digital modes including DMR, D-STAR, Fusion, P25 and NXDN.<br><br><h1>Key features</h1><br><b>Network (Allstar/IAX2/USRP)</b><br>\u2022 Multiple IAX and USRP accounts are supported with login information and Caller ID <br>\u2022 16 digit keypad and macro support<br>\u2022 Maintains a list of connected nodes<br>\u2022 Popup when node connects or disconnects<br>\u2022 Popups for IAX2 text messages<br>\u2022 Field entry hints<br><b>PTT</b><br>\u2022 Dedicated PTT interface is available  (VOX operation is not needed)<br>\u2022 Hardware button for PTT on Network Radios supported (mappable and intent)<br>\u2022 Background operation supports PTT when screen is locked or the app is not in the foreground.<br>\u2022 Adjustable Push To Talk timeout timer with alerts<br><b>Audio</b><br>\u2022 Real-time high quality Digital Voice (VOIP) while maintaining low bandwidth usage<br>\u2022 Hands free and Bluetooth are supported<br>\u2022 In-Call and Music audio profiles<br>\u2022 Full duplex operation<br>\u2022 Adjustable transmit and receive audio gain per account<br><b>Misc</b><br>\u2022 Supports calling over Cellular (3G, 4G, LTE mobile data) and Wi-Fi<br>\u2022 Automatic reconnect on signal loss (optional)<br>\u2022 Status display for registration,connection state and amount of data transferred<br>\u2022 Lock screen displays registration and call status<br>\u2022 Supports portrait, landscape and small screen (Network Radio) layouts (lockable)<br>\u2022 Tone alerts for registration, connection and timeout (optional)<br>\u2022 USRP supports links to D-STAR, DMR, Fusion, NXDN and P25 networks through DVSwitch bridge<br><br><br>Note: Several features are still under development.",
+    "descriptionShort": "Android PTT client for AllStarLink IAX nodes (IAXRPT)",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown2": "1520069",
+          "unknown3": 29
+        },
+        "developerAddress": "4809 Creekstone Way, Marietta Ga 30062",
+        "developerEmail": "dvswitch.inad@gmail.com",
+        "developerName": "DVSwitch",
+        "developerWebsite": "https://dvswitch.groups.io/g/Mobile/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "1520069",
+            "versionCode": 140
+          }
+        ],
+        "hasInstantLink": true,
+        "installationSize": "1520069",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "org.dvswitch",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.BROADCAST_STICKY",
+          "android.permission.INTERNET",
+          "android.permission.MODIFY_AUDIO_SETTINGS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECORD_AUDIO",
+          "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.android.vending.BILLING"
+        ],
+        "recentChangesHtml": "Version 1.58<br>- Bluetooth serial device support<br>- Re-implement soft keyboard<br>- Fix text messages (and protocol) for ASL<br>- Add big PTT button mode<br>- Add support for play/pause (MEDIA button) as PTT toggle<br>- BT connect/reconnect logic<br>- Add screen scale spinner (for those with missing PTT buttons)",
+        "unstable": true,
+        "uploadDate": "16 Jan 2021",
+        "versionCode": 140,
+        "versionString": "1.58"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=org.dvswitch",
+    "docType": 1,
+    "docid": "org.dvswitch",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/ZHDuPYNKGwpbHdxvRQH_QprjIbrS1VciV-ab4rsBWpKNUyGaEtgpIBBg3tZ8dDoVYbs",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/XxtTpZb-n0uGRyLCVrGKJeKMSopqBXWHuTOCXPauJRSsWK7GOmMR3VUieu4RKIeDMJQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 3,
+        "imageUrl": "https://youtu.be/b7a1sUbcPeU"
+      },
+      {
+        "imageType": 13,
+        "imageUrl": "https://i.ytimg.com/vi/b7a1sUbcPeU/hqdefault.jpg",
+        "supportsFifeUrlOptions": false
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/H075OsP_oM_9sA95m7WW_24StHhjvPMrq-T_2kMrpi_0HwH2e8xux3rF676XplZeA11d",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/c3HhR17heD2BfTF8UgKs2CXU8414KY-JDuz46lEx-Btx6V-ywMAoAFmTVp8y0m-fHuE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1200
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/EobL5pz6TGV7E5M0nKFHxE50OeKMzgnAj5_qAglNPwzsOUcAPMkTuahRUdvYdYGwjle8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/lRJcMILh0_EvGVXma0pk4p_-nslCBprHqebTC3CeXzfbNMoVqNrgE1cN671C4LARZyU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2560,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Itq9iSM--nF6mBydooqdrPmVtxDfb7T2xxlsEczmAv9KIoSzZESmEx_oQJCQbx9kl3k",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1200
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/fPpzOnrf6ELutwmZnVMoBOsu8sLgYvR6hz_kzDn8aTwTYYrVJEqP2Vo8DnmsgH-K2Q",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1200
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/17t7lNagcIMQGd1PtLR65C86KNzs498mpZFKVusgCOh0HZMPbCMI6nyW761A_03BViI",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://dvswitch.org/Mobile/privacy_policy.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=org.dvswitch",
+    "reviewsUrl": "rev?doc=org.dvswitch&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=org.dvswitch",
+    "title": "DVSwitch Mobile",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "$0.99 \u2013 $1.99 per item"
+          },
+          "label": "In-app purchases"
+        },
+        {
+          "container": {
+            "value": "DVSwitch"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "dvswitch.inad@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "4809 Creekstone Way, Marietta Ga 30062"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "8 Mar 2019"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "109",
+      "fiveStarRatings": "123",
+      "fourStarRatings": "14",
+      "oneStarRatings": "9",
+      "ratingsCount": "162",
+      "starRating": 4.44,
+      "threeStarRatings": "6",
+      "twoStarRatings": "8",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-01-18 05:58:49.012431",
+    "backendDocid": "org.dvswitch",
+    "backendId": 3,
+    "creator": "DVSwitch",
+    "descriptionHtml": "DVSwitch Mobile is an Android PTT application for HAM radio operators to connect with other HAMs on the AllStarLink network.  The application uses Wi-Fi or Cellular data networks and has high quality voice and an intuitive user interface.  DVSwitch Mobile supports both smartphones and Network Radios with dedicated PTT buttons.<br><br>Configure your device to connect to a AllStar node by answering a few simple questions and you are ready to go.  Click on this link to get information on setting up IAX (Asterisk) contexts:<br><a href=\"https://www.google.com/url?q=https%3A%2F%2Fdvswitch.groups.io%2Fg%2FMobile%2Fwiki%2FAllStarLink-setup-for-DVSwitch-Mobile&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNGYYch1Q7Ev6xrm6ktBh3BUO_BCiA\">https://dvswitch.groups.io/g/Mobile/wiki/AllStarLink-setup-for-DVSwitch-Mobile</a><br><br>In addition to IAX2 support, DVSwitch Mobile now supports connections to USRP audio sources such as Analog_Bridge.  This is the bridge to many digital modes including DMR, D-STAR, Fusion, P25 and NXDN.<br><br><h1>Key features</h1><br><b>Network (Allstar/IAX2/USRP)</b><br>\u2022 Multiple IAX and USRP accounts are supported with login information and Caller ID <br>\u2022 16 digit keypad and macro support<br>\u2022 Maintains a list of connected nodes<br>\u2022 Popup when node connects or disconnects<br>\u2022 Popups for IAX2 text messages<br>\u2022 Field entry hints<br><b>PTT</b><br>\u2022 Dedicated PTT interface is available  (VOX operation is not needed)<br>\u2022 Hardware button for PTT on Network Radios supported (mappable and intent)<br>\u2022 Background operation supports PTT when screen is locked or the app is not in the foreground.<br>\u2022 Adjustable Push To Talk timeout timer with alerts<br><b>Audio</b><br>\u2022 Real-time high quality Digital Voice (VOIP) while maintaining low bandwidth usage<br>\u2022 Hands free and Bluetooth are supported<br>\u2022 In-Call and Music audio profiles<br>\u2022 Full duplex operation<br>\u2022 Adjustable transmit and receive audio gain per account<br><b>Misc</b><br>\u2022 Supports calling over Cellular (3G, 4G, LTE mobile data) and Wi-Fi<br>\u2022 Automatic reconnect on signal loss (optional)<br>\u2022 Status display for registration,connection state and amount of data transferred<br>\u2022 Lock screen displays registration and call status<br>\u2022 Supports portrait, landscape and small screen (Network Radio) layouts (lockable)<br>\u2022 Tone alerts for registration, connection and timeout (optional)<br>\u2022 USRP supports links to D-STAR, DMR, Fusion, NXDN and P25 networks through DVSwitch bridge<br><br><br>Note: Several features are still under development.",
+    "descriptionShort": "Android PTT client for AllStarLink IAX nodes (IAXRPT)",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown2": "1520209",
+          "unknown3": 29
+        },
+        "developerAddress": "4809 Creekstone Way, Marietta Ga 30062",
+        "developerEmail": "dvswitch.inad@gmail.com",
+        "developerName": "DVSwitch",
+        "developerWebsite": "https://dvswitch.groups.io/g/Mobile/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "1520209",
+            "versionCode": 141
+          }
+        ],
+        "hasInstantLink": true,
+        "installationSize": "1520209",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "org.dvswitch",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.BROADCAST_STICKY",
+          "android.permission.INTERNET",
+          "android.permission.MODIFY_AUDIO_SETTINGS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECORD_AUDIO",
+          "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.android.vending.BILLING"
+        ],
+        "recentChangesHtml": "Version 1.59<br>- Fix a few crashes<br>Version 1.58<br>- Bluetooth serial device support<br>- Re-implement soft keyboard<br>- Fix text messages (and protocol) for ASL<br>- Add big PTT button mode<br>- Add support for play/pause (MEDIA button) as PTT toggle<br>- BT connect/reconnect logic<br>- Add screen scale spinner (for those with missing PTT buttons)",
+        "unstable": true,
+        "uploadDate": "17 Jan 2021",
+        "versionCode": 141,
+        "versionString": "1.59"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=org.dvswitch",
+    "docType": 1,
+    "docid": "org.dvswitch",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/ZHDuPYNKGwpbHdxvRQH_QprjIbrS1VciV-ab4rsBWpKNUyGaEtgpIBBg3tZ8dDoVYbs",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/XxtTpZb-n0uGRyLCVrGKJeKMSopqBXWHuTOCXPauJRSsWK7GOmMR3VUieu4RKIeDMJQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 3,
+        "imageUrl": "https://youtu.be/b7a1sUbcPeU"
+      },
+      {
+        "imageType": 13,
+        "imageUrl": "https://i.ytimg.com/vi/b7a1sUbcPeU/hqdefault.jpg",
+        "supportsFifeUrlOptions": false
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/H075OsP_oM_9sA95m7WW_24StHhjvPMrq-T_2kMrpi_0HwH2e8xux3rF676XplZeA11d",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/c3HhR17heD2BfTF8UgKs2CXU8414KY-JDuz46lEx-Btx6V-ywMAoAFmTVp8y0m-fHuE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1200
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/EobL5pz6TGV7E5M0nKFHxE50OeKMzgnAj5_qAglNPwzsOUcAPMkTuahRUdvYdYGwjle8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/lRJcMILh0_EvGVXma0pk4p_-nslCBprHqebTC3CeXzfbNMoVqNrgE1cN671C4LARZyU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2560,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Itq9iSM--nF6mBydooqdrPmVtxDfb7T2xxlsEczmAv9KIoSzZESmEx_oQJCQbx9kl3k",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1200
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/fPpzOnrf6ELutwmZnVMoBOsu8sLgYvR6hz_kzDn8aTwTYYrVJEqP2Vo8DnmsgH-K2Q",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1200
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/17t7lNagcIMQGd1PtLR65C86KNzs498mpZFKVusgCOh0HZMPbCMI6nyW761A_03BViI",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://dvswitch.org/Mobile/privacy_policy.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=org.dvswitch",
+    "reviewsUrl": "rev?doc=org.dvswitch&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=org.dvswitch",
+    "title": "DVSwitch Mobile",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "\u20ac0.99 \u2013 \u20ac2.09 per item"
+          },
+          "label": "In-app purchases"
+        },
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "dvswitch.inad@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "4809 Creekstone Way, Marietta Ga 30062"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "8 Mar 2019"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "113",
+      "fiveStarRatings": "127",
+      "fourStarRatings": "15",
+      "oneStarRatings": "10",
+      "ratingsCount": "168",
+      "starRating": 4.44,
+      "threeStarRatings": "6",
+      "twoStarRatings": "8",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-02-04 09:55:56.068936",
+    "backendDocid": "org.dvswitch",
+    "backendId": 3,
+    "creator": "DVSwitch",
+    "descriptionHtml": "DVSwitch Mobile is an Android PTT application for HAM radio operators to connect with other HAMs on the AllStarLink network.  The application uses Wi-Fi or Cellular data networks and has high quality voice and an intuitive user interface.  DVSwitch Mobile supports both smartphones and Network Radios with dedicated PTT buttons.<br><br>Configure your device to connect to a AllStar node by answering a few simple questions and you are ready to go.  Click on this link to get information on setting up IAX (Asterisk) contexts:<br><a href=\"https://www.google.com/url?q=https%3A%2F%2Fdvswitch.groups.io%2Fg%2FMobile%2Fwiki%2FAllStarLink-setup-for-DVSwitch-Mobile&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNGYYch1Q7Ev6xrm6ktBh3BUO_BCiA\">https://dvswitch.groups.io/g/Mobile/wiki/AllStarLink-setup-for-DVSwitch-Mobile</a><br><br>In addition to IAX2 support, DVSwitch Mobile now supports connections to USRP audio sources such as Analog_Bridge.  This is the bridge to many digital modes including DMR, D-STAR, Fusion, P25 and NXDN.<br><br><h1>Key features</h1><br><b>Network (Allstar/IAX2/USRP)</b><br>\u2022 Multiple IAX and USRP accounts are supported with login information and Caller ID <br>\u2022 16 digit keypad and macro support<br>\u2022 Maintains a list of connected nodes<br>\u2022 Popup when node connects or disconnects<br>\u2022 Popups for IAX2 text messages<br>\u2022 Field entry hints<br><b>PTT</b><br>\u2022 Dedicated PTT interface is available  (VOX operation is not needed)<br>\u2022 Hardware button for PTT on Network Radios supported (mappable and intent)<br>\u2022 Background operation supports PTT when screen is locked or the app is not in the foreground.<br>\u2022 Adjustable Push To Talk timeout timer with alerts<br><b>Audio</b><br>\u2022 Real-time high quality Digital Voice (VOIP) while maintaining low bandwidth usage<br>\u2022 Hands free and Bluetooth are supported<br>\u2022 In-Call and Music audio profiles<br>\u2022 Full duplex operation<br>\u2022 Adjustable transmit and receive audio gain per account<br><b>Misc</b><br>\u2022 Supports calling over Cellular (3G, 4G, LTE mobile data) and Wi-Fi<br>\u2022 Automatic reconnect on signal loss (optional)<br>\u2022 Status display for registration,connection state and amount of data transferred<br>\u2022 Lock screen displays registration and call status<br>\u2022 Supports portrait, landscape and small screen (Network Radio) layouts (lockable)<br>\u2022 Tone alerts for registration, connection and timeout (optional)<br>\u2022 USRP supports links to D-STAR, DMR, Fusion, NXDN and P25 networks through DVSwitch bridge<br><br><br>Note: Several features are still under development.",
+    "descriptionShort": "Android PTT client for AllStarLink IAX nodes (IAXRPT)",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown2": "1520571",
+          "unknown3": 29
+        },
+        "developerAddress": "4809 Creekstone Way, Marietta Ga 30062",
+        "developerEmail": "dvswitch.inad@gmail.com",
+        "developerName": "DVSwitch",
+        "developerWebsite": "https://dvswitch.groups.io/g/Mobile/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "1520571",
+            "versionCode": 142
+          }
+        ],
+        "hasInstantLink": true,
+        "installationSize": "1520571",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "org.dvswitch",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.BROADCAST_STICKY",
+          "android.permission.INTERNET",
+          "android.permission.MODIFY_AUDIO_SETTINGS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECORD_AUDIO",
+          "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.android.vending.BILLING"
+        ],
+        "recentChangesHtml": "B01 Support",
+        "unstable": true,
+        "uploadDate": "3 Feb 2021",
+        "versionCode": 142,
+        "versionString": "1.60"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=org.dvswitch",
+    "docType": 1,
+    "docid": "org.dvswitch",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/ZHDuPYNKGwpbHdxvRQH_QprjIbrS1VciV-ab4rsBWpKNUyGaEtgpIBBg3tZ8dDoVYbs",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/XxtTpZb-n0uGRyLCVrGKJeKMSopqBXWHuTOCXPauJRSsWK7GOmMR3VUieu4RKIeDMJQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 3,
+        "imageUrl": "https://youtu.be/b7a1sUbcPeU"
+      },
+      {
+        "imageType": 13,
+        "imageUrl": "https://i.ytimg.com/vi/b7a1sUbcPeU/hqdefault.jpg",
+        "supportsFifeUrlOptions": false
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/H075OsP_oM_9sA95m7WW_24StHhjvPMrq-T_2kMrpi_0HwH2e8xux3rF676XplZeA11d",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/c3HhR17heD2BfTF8UgKs2CXU8414KY-JDuz46lEx-Btx6V-ywMAoAFmTVp8y0m-fHuE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1200
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/EobL5pz6TGV7E5M0nKFHxE50OeKMzgnAj5_qAglNPwzsOUcAPMkTuahRUdvYdYGwjle8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/lRJcMILh0_EvGVXma0pk4p_-nslCBprHqebTC3CeXzfbNMoVqNrgE1cN671C4LARZyU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2560,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Itq9iSM--nF6mBydooqdrPmVtxDfb7T2xxlsEczmAv9KIoSzZESmEx_oQJCQbx9kl3k",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1200
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/fPpzOnrf6ELutwmZnVMoBOsu8sLgYvR6hz_kzDn8aTwTYYrVJEqP2Vo8DnmsgH-K2Q",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1200
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/17t7lNagcIMQGd1PtLR65C86KNzs498mpZFKVusgCOh0HZMPbCMI6nyW761A_03BViI",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://dvswitch.org/Mobile/privacy_policy.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=org.dvswitch",
+    "reviewsUrl": "rev?doc=org.dvswitch&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=org.dvswitch",
+    "title": "DVSwitch Mobile",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "\u20ac0.99 \u2013 \u20ac2.09 per item"
+          },
+          "label": "In-app purchases"
+        },
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "dvswitch.inad@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "4809 Creekstone Way, Marietta Ga 30062"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "8 Mar 2019"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "122",
+      "fiveStarRatings": "135",
+      "fourStarRatings": "20",
+      "oneStarRatings": "11",
+      "ratingsCount": "186",
+      "starRating": 4.41,
+      "threeStarRatings": "11",
+      "twoStarRatings": "7",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-04-01 11:09:32.811563",
+    "backendDocid": "org.dvswitch",
+    "backendId": 3,
+    "creator": "DVSwitch",
+    "descriptionHtml": "DVSwitch Mobile is an Android PTT application for HAM radio operators to connect with other HAMs on the AllStarLink network.  The application uses Wi-Fi or Cellular data networks and has high quality voice and an intuitive user interface.  DVSwitch Mobile supports both smartphones and Network Radios with dedicated PTT buttons.<br><br>Configure your device to connect to a AllStar node by answering a few simple questions and you are ready to go.  Click on this link to get information on setting up IAX (Asterisk) contexts:<br><a href=\"https://www.google.com/url?q=https%3A%2F%2Fdvswitch.groups.io%2Fg%2FMobile%2Fwiki%2FAllStarLink-setup-for-DVSwitch-Mobile&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNGYYch1Q7Ev6xrm6ktBh3BUO_BCiA\">https://dvswitch.groups.io/g/Mobile/wiki/AllStarLink-setup-for-DVSwitch-Mobile</a><br><br>In addition to IAX2 support, DVSwitch Mobile now supports connections to USRP audio sources such as Analog_Bridge.  This is the bridge to many digital modes including DMR, D-STAR, Fusion, P25 and NXDN.<br><br><h1>Key features</h1><br><b>Network (Allstar/IAX2/USRP)</b><br>\u2022 Multiple IAX and USRP accounts are supported with login information and Caller ID <br>\u2022 16 digit keypad and macro support<br>\u2022 Maintains a list of connected nodes<br>\u2022 Popup when node connects or disconnects<br>\u2022 Popups for IAX2 text messages<br>\u2022 Field entry hints<br><b>PTT</b><br>\u2022 Dedicated PTT interface is available  (VOX operation is not needed)<br>\u2022 Hardware button for PTT on Network Radios supported (mappable and intent)<br>\u2022 Background operation supports PTT when screen is locked or the app is not in the foreground.<br>\u2022 Adjustable Push To Talk timeout timer with alerts<br><b>Audio</b><br>\u2022 Real-time high quality Digital Voice (VOIP) while maintaining low bandwidth usage<br>\u2022 Hands free and Bluetooth are supported<br>\u2022 In-Call and Music audio profiles<br>\u2022 Full duplex operation<br>\u2022 Adjustable transmit and receive audio gain per account<br><b>Misc</b><br>\u2022 Supports calling over Cellular (3G, 4G, LTE mobile data) and Wi-Fi<br>\u2022 Automatic reconnect on signal loss (optional)<br>\u2022 Status display for registration,connection state and amount of data transferred<br>\u2022 Lock screen displays registration and call status<br>\u2022 Supports portrait, landscape and small screen (Network Radio) layouts (lockable)<br>\u2022 Tone alerts for registration, connection and timeout (optional)<br>\u2022 USRP supports links to D-STAR, DMR, Fusion, NXDN and P25 networks through DVSwitch bridge<br><br><br>Note: Several features are still under development.",
+    "descriptionShort": "Android PTT client for AllStarLink IAX nodes (IAXRPT)",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown2": "1522186",
+          "unknown3": 29
+        },
+        "developerAddress": "4809 Creekstone Way, Marietta Ga 30062",
+        "developerEmail": "dvswitch.inad@gmail.com",
+        "developerName": "DVSwitch",
+        "developerWebsite": "https://dvswitch.groups.io/g/Mobile/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "1522186",
+            "versionCode": 145
+          }
+        ],
+        "hasInstantLink": true,
+        "installationSize": "1522186",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "org.dvswitch",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.BROADCAST_STICKY",
+          "android.permission.INTERNET",
+          "android.permission.MODIFY_AUDIO_SETTINGS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECORD_AUDIO",
+          "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.android.vending.BILLING"
+        ],
+        "recentChangesHtml": "1.61\tChange intent of PTT to org.dvswitch<br>\t\tGet supported modes list from server<br>\t\tColors for SFTU, ASL, Intercom<br>\t\tSupport ASL in USRP mode (Analog_Reflector)<br>\t\tManage call interruption<br>\t\tOn some devices use leds to indicate transmit<br>\t\tSTFU falls back to DMR_node_list.txt<br>\t\tValidate settings on account screen",
+        "unstable": true,
+        "uploadDate": "20 Mar 2021",
+        "versionCode": 145,
+        "versionString": "1.61"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=org.dvswitch",
+    "docType": 1,
+    "docid": "org.dvswitch",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/ZHDuPYNKGwpbHdxvRQH_QprjIbrS1VciV-ab4rsBWpKNUyGaEtgpIBBg3tZ8dDoVYbs",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/XxtTpZb-n0uGRyLCVrGKJeKMSopqBXWHuTOCXPauJRSsWK7GOmMR3VUieu4RKIeDMJQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 3,
+        "imageUrl": "https://youtu.be/b7a1sUbcPeU"
+      },
+      {
+        "imageType": 13,
+        "imageUrl": "https://i.ytimg.com/vi/b7a1sUbcPeU/hqdefault.jpg",
+        "supportsFifeUrlOptions": false
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/H075OsP_oM_9sA95m7WW_24StHhjvPMrq-T_2kMrpi_0HwH2e8xux3rF676XplZeA11d",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/c3HhR17heD2BfTF8UgKs2CXU8414KY-JDuz46lEx-Btx6V-ywMAoAFmTVp8y0m-fHuE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1200
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/EobL5pz6TGV7E5M0nKFHxE50OeKMzgnAj5_qAglNPwzsOUcAPMkTuahRUdvYdYGwjle8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/lRJcMILh0_EvGVXma0pk4p_-nslCBprHqebTC3CeXzfbNMoVqNrgE1cN671C4LARZyU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2560,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Itq9iSM--nF6mBydooqdrPmVtxDfb7T2xxlsEczmAv9KIoSzZESmEx_oQJCQbx9kl3k",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1200
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/fPpzOnrf6ELutwmZnVMoBOsu8sLgYvR6hz_kzDn8aTwTYYrVJEqP2Vo8DnmsgH-K2Q",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1200
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/17t7lNagcIMQGd1PtLR65C86KNzs498mpZFKVusgCOh0HZMPbCMI6nyW761A_03BViI",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://dvswitch.org/Mobile/privacy_policy.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=org.dvswitch",
+    "reviewsUrl": "rev?doc=org.dvswitch&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=org.dvswitch",
+    "title": "DVSwitch Mobile",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "$0.99 \u2013 $1.99 per item"
+          },
+          "label": "In-app purchases"
+        },
+        {
+          "container": {
+            "value": "DVSwitch"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "dvswitch.inad@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "4809 Creekstone Way, Marietta Ga 30062"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "8 Mar 2019"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "123",
+      "fiveStarRatings": "139",
+      "fourStarRatings": "20",
+      "oneStarRatings": "11",
+      "ratingsCount": "189",
+      "starRating": 4.43,
+      "threeStarRatings": "9",
+      "twoStarRatings": "7",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-04-05 02:23:07.502484",
+    "backendDocid": "org.dvswitch",
+    "backendId": 3,
+    "creator": "DVSwitch",
+    "descriptionHtml": "DVSwitch Mobile is an Android PTT application for HAM radio operators to connect with other HAMs on the AllStarLink network.  The application uses Wi-Fi or Cellular data networks and has high quality voice and an intuitive user interface.  DVSwitch Mobile supports both smartphones and Network Radios with dedicated PTT buttons.<br><br>Configure your device to connect to a AllStar node by answering a few simple questions and you are ready to go.  Click on this link to get information on setting up IAX (Asterisk) contexts:<br><a href=\"https://www.google.com/url?q=https%3A%2F%2Fdvswitch.groups.io%2Fg%2FMobile%2Fwiki%2FAllStarLink-setup-for-DVSwitch-Mobile&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNGYYch1Q7Ev6xrm6ktBh3BUO_BCiA\">https://dvswitch.groups.io/g/Mobile/wiki/AllStarLink-setup-for-DVSwitch-Mobile</a><br><br>In addition to IAX2 support, DVSwitch Mobile now supports connections to USRP audio sources such as Analog_Bridge.  This is the bridge to many digital modes including DMR, D-STAR, Fusion, P25 and NXDN.<br><br><h1>Key features</h1><br><b>Network (Allstar/IAX2/USRP)</b><br>\u2022 Multiple IAX and USRP accounts are supported with login information and Caller ID <br>\u2022 16 digit keypad and macro support<br>\u2022 Maintains a list of connected nodes<br>\u2022 Popup when node connects or disconnects<br>\u2022 Popups for IAX2 text messages<br>\u2022 Field entry hints<br><b>PTT</b><br>\u2022 Dedicated PTT interface is available  (VOX operation is not needed)<br>\u2022 Hardware button for PTT on Network Radios supported (mappable and intent)<br>\u2022 Background operation supports PTT when screen is locked or the app is not in the foreground.<br>\u2022 Adjustable Push To Talk timeout timer with alerts<br><b>Audio</b><br>\u2022 Real-time high quality Digital Voice (VOIP) while maintaining low bandwidth usage<br>\u2022 Hands free and Bluetooth are supported<br>\u2022 In-Call and Music audio profiles<br>\u2022 Full duplex operation<br>\u2022 Adjustable transmit and receive audio gain per account<br><b>Misc</b><br>\u2022 Supports calling over Cellular (3G, 4G, LTE mobile data) and Wi-Fi<br>\u2022 Automatic reconnect on signal loss (optional)<br>\u2022 Status display for registration,connection state and amount of data transferred<br>\u2022 Lock screen displays registration and call status<br>\u2022 Supports portrait, landscape and small screen (Network Radio) layouts (lockable)<br>\u2022 Tone alerts for registration, connection and timeout (optional)<br>\u2022 USRP supports links to D-STAR, DMR, Fusion, NXDN and P25 networks through DVSwitch bridge<br><br><br>Note: Several features are still under development.",
+    "descriptionShort": "Android PTT client for AllStarLink IAX nodes (IAXRPT)",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown2": "1522213",
+          "unknown3": 29
+        },
+        "developerAddress": "4809 Creekstone Way, Marietta Ga 30062",
+        "developerEmail": "dvswitch.inad@gmail.com",
+        "developerName": "DVSwitch",
+        "developerWebsite": "https://dvswitch.groups.io/g/Mobile/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "1522213",
+            "versionCode": 147
+          }
+        ],
+        "hasInstantLink": true,
+        "installationSize": "1522213",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "org.dvswitch",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.BROADCAST_STICKY",
+          "android.permission.INTERNET",
+          "android.permission.MODIFY_AUDIO_SETTINGS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECORD_AUDIO",
+          "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.android.vending.BILLING"
+        ],
+        "recentChangesHtml": "1.61\tChange intent of PTT to org.dvswitch<br>\t\tGet supported modes list from server<br>\t\tColors for SFTU, ASL, Intercom<br>\t\tSupport ASL in USRP mode (Analog_Reflector)<br>\t\tManage call interruption<br>\t\tOn some devices use leds to indicate transmit<br>\t\tSTFU falls back to DMR_node_list.txt<br>\t\tValidate settings on account screen",
+        "unstable": true,
+        "uploadDate": "4 Apr 2021",
+        "versionCode": 147,
+        "versionString": "1.61"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=org.dvswitch",
+    "docType": 1,
+    "docid": "org.dvswitch",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/ZHDuPYNKGwpbHdxvRQH_QprjIbrS1VciV-ab4rsBWpKNUyGaEtgpIBBg3tZ8dDoVYbs",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/XxtTpZb-n0uGRyLCVrGKJeKMSopqBXWHuTOCXPauJRSsWK7GOmMR3VUieu4RKIeDMJQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 3,
+        "imageUrl": "https://youtu.be/b7a1sUbcPeU"
+      },
+      {
+        "imageType": 13,
+        "imageUrl": "https://i.ytimg.com/vi/b7a1sUbcPeU/hqdefault.jpg",
+        "supportsFifeUrlOptions": false
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/H075OsP_oM_9sA95m7WW_24StHhjvPMrq-T_2kMrpi_0HwH2e8xux3rF676XplZeA11d",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/c3HhR17heD2BfTF8UgKs2CXU8414KY-JDuz46lEx-Btx6V-ywMAoAFmTVp8y0m-fHuE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1200
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/EobL5pz6TGV7E5M0nKFHxE50OeKMzgnAj5_qAglNPwzsOUcAPMkTuahRUdvYdYGwjle8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/lRJcMILh0_EvGVXma0pk4p_-nslCBprHqebTC3CeXzfbNMoVqNrgE1cN671C4LARZyU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2560,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Itq9iSM--nF6mBydooqdrPmVtxDfb7T2xxlsEczmAv9KIoSzZESmEx_oQJCQbx9kl3k",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1200
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/fPpzOnrf6ELutwmZnVMoBOsu8sLgYvR6hz_kzDn8aTwTYYrVJEqP2Vo8DnmsgH-K2Q",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1200
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/17t7lNagcIMQGd1PtLR65C86KNzs498mpZFKVusgCOh0HZMPbCMI6nyW761A_03BViI",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://dvswitch.org/Mobile/privacy_policy.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=org.dvswitch",
+    "reviewsUrl": "rev?doc=org.dvswitch&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=org.dvswitch",
+    "title": "DVSwitch Mobile",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "\u20ac1.09 \u2013 \u20ac2.09 per item"
+          },
+          "label": "In-app purchases"
+        },
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "dvswitch.inad@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "4809 Creekstone Way, Marietta Ga 30062"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "8 Mar 2019"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-10-15 08:18:55.897267",
+    "backendDocid": "org.dvswitch",
+    "backendId": 3,
+    "creator": "DVSwitch",
+    "descriptionHtml": "DVSwitch Mobile is an Android PTT application for HAM radio operators to connect with other HAMs on the AllStarLink network.  The application uses Wi-Fi or Cellular data networks and has high quality voice and an intuitive user interface.  DVSwitch Mobile supports both smartphones and Network Radios with dedicated PTT buttons.<br><br>Configure your device to connect to a AllStar node by answering a few simple questions and you are ready to go.  Click on this link to get information on setting up IAX (Asterisk) contexts:<br><a href=\"https://www.google.com/url?q=https%3A%2F%2Fdvswitch.groups.io%2Fg%2FMobile%2Fwiki%2FAllStarLink-setup-for-DVSwitch-Mobile&amp;sa=D&amp;sntz=1&amp;usg=AOvVaw1fWezGqo1qWQx3EjSE1uxP\">https://dvswitch.groups.io/g/Mobile/wiki/AllStarLink-setup-for-DVSwitch-Mobile</a><br><br>In addition to IAX2 support, DVSwitch Mobile now supports connections to USRP audio sources such as Analog_Bridge.  This is the bridge to many digital modes including DMR, D-STAR, Fusion, P25 and NXDN.<br><br><h1>Key features</h1><br><b>Network (Allstar/IAX2/USRP)</b><br>\u2022 Multiple IAX and USRP accounts are supported with login information and Caller ID <br>\u2022 16 digit keypad and macro support<br>\u2022 Maintains a list of connected nodes<br>\u2022 Popup when node connects or disconnects<br>\u2022 Popups for IAX2 text messages<br>\u2022 Field entry hints<br><b>PTT</b><br>\u2022 Dedicated PTT interface is available  (VOX operation is not needed)<br>\u2022 Hardware button for PTT on Network Radios supported (mappable and intent)<br>\u2022 Background operation supports PTT when screen is locked or the app is not in the foreground.<br>\u2022 Adjustable Push To Talk timeout timer with alerts<br><b>Audio</b><br>\u2022 Real-time high quality Digital Voice (VOIP) while maintaining low bandwidth usage<br>\u2022 Hands free and Bluetooth are supported<br>\u2022 In-Call and Music audio profiles<br>\u2022 Full duplex operation<br>\u2022 Adjustable transmit and receive audio gain per account<br><b>Misc</b><br>\u2022 Supports calling over Cellular (3G, 4G, LTE mobile data) and Wi-Fi<br>\u2022 Automatic reconnect on signal loss (optional)<br>\u2022 Status display for registration,connection state and amount of data transferred<br>\u2022 Lock screen displays registration and call status<br>\u2022 Supports portrait, landscape and small screen (Network Radio) layouts (lockable)<br>\u2022 Tone alerts for registration, connection and timeout (optional)<br>\u2022 USRP supports links to D-STAR, DMR, Fusion, NXDN and P25 networks through DVSwitch bridge<br><br><br>Note: Several features are still under development.",
+    "descriptionShort": "Android PTT client for AllStarLink IAX nodes (IAXRPT)",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown2": "1522214",
+          "unknown3": 29
+        },
+        "developerAddress": "4809 Creekstone Way, Marietta Ga 30062",
+        "developerEmail": "dvswitch.inad@gmail.com",
+        "developerName": "DVSwitch",
+        "developerWebsite": "https://dvswitch.groups.io/g/Mobile/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "1522214",
+            "versionCode": 147
+          }
+        ],
+        "hasInstantLink": true,
+        "installationSize": "1522214",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "org.dvswitch",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.BROADCAST_STICKY",
+          "android.permission.INTERNET",
+          "android.permission.MODIFY_AUDIO_SETTINGS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECORD_AUDIO",
+          "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.android.vending.BILLING"
+        ],
+        "recentChangesHtml": "1.61\tChange intent of PTT to org.dvswitch<br>\t\tGet supported modes list from server<br>\t\tColors for SFTU, ASL, Intercom<br>\t\tSupport ASL in USRP mode (Analog_Reflector)<br>\t\tManage call interruption<br>\t\tOn some devices use leds to indicate transmit<br>\t\tSTFU falls back to DMR_node_list.txt<br>\t\tValidate settings on account screen",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "4 Apr 2021",
+        "versionCode": 147,
+        "versionString": "1.61"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=org.dvswitch",
+    "docType": 1,
+    "docid": "org.dvswitch",
+    "image": [
+      {
+        "color": "#E4E4E4",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/ZHDuPYNKGwpbHdxvRQH_QprjIbrS1VciV-ab4rsBWpKNUyGaEtgpIBBg3tZ8dDoVYbs",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#090909",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/XxtTpZb-n0uGRyLCVrGKJeKMSopqBXWHuTOCXPauJRSsWK7GOmMR3VUieu4RKIeDMJQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 3,
+        "imageUrl": "https://youtu.be/b7a1sUbcPeU"
+      },
+      {
+        "imageType": 13,
+        "imageUrl": "https://i.ytimg.com/vi/b7a1sUbcPeU/hqdefault.jpg",
+        "supportsFifeUrlOptions": false
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/H075OsP_oM_9sA95m7WW_24StHhjvPMrq-T_2kMrpi_0HwH2e8xux3rF676XplZeA11d",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/c3HhR17heD2BfTF8UgKs2CXU8414KY-JDuz46lEx-Btx6V-ywMAoAFmTVp8y0m-fHuE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1200
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/EobL5pz6TGV7E5M0nKFHxE50OeKMzgnAj5_qAglNPwzsOUcAPMkTuahRUdvYdYGwjle8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/lRJcMILh0_EvGVXma0pk4p_-nslCBprHqebTC3CeXzfbNMoVqNrgE1cN671C4LARZyU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2560,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Itq9iSM--nF6mBydooqdrPmVtxDfb7T2xxlsEczmAv9KIoSzZESmEx_oQJCQbx9kl3k",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1200
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/fPpzOnrf6ELutwmZnVMoBOsu8sLgYvR6hz_kzDn8aTwTYYrVJEqP2Vo8DnmsgH-K2Q",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1200
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/17t7lNagcIMQGd1PtLR65C86KNzs498mpZFKVusgCOh0HZMPbCMI6nyW761A_03BViI",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://dvswitch.org/Mobile/privacy_policy.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=org.dvswitch",
+    "reviewsUrl": "rev?doc=org.dvswitch&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=org.dvswitch",
+    "title": "DVSwitch Mobile",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "\u20ac1.09 \u2013 \u20ac2.09 per item"
+          },
+          "label": "In-app purchases"
+        },
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "dvswitch.inad@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "4809 Creekstone Way, Marietta Ga 30062"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "8 Mar 2019"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "4",
+      "fiveStarRatings": "166",
+      "fourStarRatings": "0",
+      "oneStarRatings": "55",
+      "ratingsCount": "277",
+      "starRating": 3.8,
+      "threeStarRatings": "55",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-10-16 02:18:54.770530",
+    "backendDocid": "org.dvswitch",
+    "backendId": 3,
+    "creator": "DVSwitch",
+    "descriptionHtml": "DVSwitch Mobile is an Android PTT application for HAM radio operators to connect with other HAMs on the AllStarLink network.  The application uses Wi-Fi or Cellular data networks and has high quality voice and an intuitive user interface.  DVSwitch Mobile supports both smartphones and Network Radios with dedicated PTT buttons.<br><br>Configure your device to connect to a AllStar node by answering a few simple questions and you are ready to go.  Click on this link to get information on setting up IAX (Asterisk) contexts:<br><a href=\"https://www.google.com/url?q=https%3A%2F%2Fdvswitch.groups.io%2Fg%2FMobile%2Fwiki%2FAllStarLink-setup-for-DVSwitch-Mobile&amp;sa=D&amp;sntz=1&amp;usg=AOvVaw1fWezGqo1qWQx3EjSE1uxP\">https://dvswitch.groups.io/g/Mobile/wiki/AllStarLink-setup-for-DVSwitch-Mobile</a><br><br>In addition to IAX2 support, DVSwitch Mobile now supports connections to USRP audio sources such as Analog_Bridge.  This is the bridge to many digital modes including DMR, D-STAR, Fusion, P25 and NXDN.<br><br><h1>Key features</h1><br><b>Network (Allstar/IAX2/USRP)</b><br>\u2022 Multiple IAX and USRP accounts are supported with login information and Caller ID <br>\u2022 16 digit keypad and macro support<br>\u2022 Maintains a list of connected nodes<br>\u2022 Popup when node connects or disconnects<br>\u2022 Popups for IAX2 text messages<br>\u2022 Field entry hints<br><b>PTT</b><br>\u2022 Dedicated PTT interface is available  (VOX operation is not needed)<br>\u2022 Hardware button for PTT on Network Radios supported (mappable and intent)<br>\u2022 Background operation supports PTT when screen is locked or the app is not in the foreground.<br>\u2022 Adjustable Push To Talk timeout timer with alerts<br><b>Audio</b><br>\u2022 Real-time high quality Digital Voice (VOIP) while maintaining low bandwidth usage<br>\u2022 Hands free and Bluetooth are supported<br>\u2022 In-Call and Music audio profiles<br>\u2022 Full duplex operation<br>\u2022 Adjustable transmit and receive audio gain per account<br><b>Misc</b><br>\u2022 Supports calling over Cellular (3G, 4G, LTE mobile data) and Wi-Fi<br>\u2022 Automatic reconnect on signal loss (optional)<br>\u2022 Status display for registration,connection state and amount of data transferred<br>\u2022 Lock screen displays registration and call status<br>\u2022 Supports portrait, landscape and small screen (Network Radio) layouts (lockable)<br>\u2022 Tone alerts for registration, connection and timeout (optional)<br>\u2022 USRP supports links to D-STAR, DMR, Fusion, NXDN and P25 networks through DVSwitch bridge<br><br><br>Note: Several features are still under development.",
+    "descriptionShort": "Android PTT client for AllStarLink IAX nodes (IAXRPT)",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown2": "1715601",
+          "unknown3": 30
+        },
+        "developerAddress": "4809 Creekstone Way, Marietta Ga 30062",
+        "developerEmail": "dvswitch.inad@gmail.com",
+        "developerName": "DVSwitch",
+        "developerWebsite": "https://dvswitch.groups.io/g/Mobile/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "1715601",
+            "versionCode": 173
+          }
+        ],
+        "hasInstantLink": true,
+        "installationSize": "1715601",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "org.dvswitch",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.BROADCAST_STICKY",
+          "android.permission.INTERNET",
+          "android.permission.MODIFY_AUDIO_SETTINGS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECORD_AUDIO",
+          "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.android.vending.BILLING"
+        ],
+        "recentChangesHtml": "Node Mode!<br>New WT dialog<br>Web Transceiver low level support<br>IAXRpt support<br>Call Token support for HamVoIP<br>ASL user defined prefix prefix<br>New extended node lookup dialog<br>ASL menu on long press D<br>IAX mode metadata display on dialer screen<br>20 accounts<br>Clear/Copy/Paste accounts<br>Dark mode / remove dialer background<br>Checkboxes -&gt; switches<br>Email/Support questionnaire<br>BTH-600 bluetooth mic (Pryme)<br>Add Noise suppression to audio chain<br>Fix STFU node list<br>Fix audio focus<br>Update google billing library",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "Oct 5, 2022",
+        "versionCode": 173,
+        "versionString": "2.0.0"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=org.dvswitch",
+    "docType": 1,
+    "docid": "org.dvswitch",
+    "image": [
+      {
+        "color": "#E4E4E4",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/ZHDuPYNKGwpbHdxvRQH_QprjIbrS1VciV-ab4rsBWpKNUyGaEtgpIBBg3tZ8dDoVYbs",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#090909",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/XxtTpZb-n0uGRyLCVrGKJeKMSopqBXWHuTOCXPauJRSsWK7GOmMR3VUieu4RKIeDMJQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 3,
+        "imageUrl": "https://youtu.be/b7a1sUbcPeU"
+      },
+      {
+        "imageType": 13,
+        "imageUrl": "https://i.ytimg.com/vi/b7a1sUbcPeU/hqdefault.jpg",
+        "supportsFifeUrlOptions": false
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/H075OsP_oM_9sA95m7WW_24StHhjvPMrq-T_2kMrpi_0HwH2e8xux3rF676XplZeA11d",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/c3HhR17heD2BfTF8UgKs2CXU8414KY-JDuz46lEx-Btx6V-ywMAoAFmTVp8y0m-fHuE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1200
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/EobL5pz6TGV7E5M0nKFHxE50OeKMzgnAj5_qAglNPwzsOUcAPMkTuahRUdvYdYGwjle8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/lRJcMILh0_EvGVXma0pk4p_-nslCBprHqebTC3CeXzfbNMoVqNrgE1cN671C4LARZyU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2560,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Itq9iSM--nF6mBydooqdrPmVtxDfb7T2xxlsEczmAv9KIoSzZESmEx_oQJCQbx9kl3k",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1200
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/fPpzOnrf6ELutwmZnVMoBOsu8sLgYvR6hz_kzDn8aTwTYYrVJEqP2Vo8DnmsgH-K2Q",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1200
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/17t7lNagcIMQGd1PtLR65C86KNzs498mpZFKVusgCOh0HZMPbCMI6nyW761A_03BViI",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "CAD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://dvswitch.org/Mobile/privacy_policy.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=org.dvswitch",
+    "reviewsUrl": "rev?doc=org.dvswitch&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=org.dvswitch",
+    "title": "DVSwitch Mobile",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "$1.29 \u2013 $2.69 per item"
+          },
+          "label": "In-app purchases"
+        },
+        {
+          "container": {
+            "value": "DVSwitch"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "dvswitch.inad@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "4809 Creekstone Way, Marietta Ga 30062"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "Mar 8, 2019"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-10-27 06:25:19.738664",
+    "backendDocid": "org.dvswitch",
+    "backendId": 3,
+    "creator": "DVSwitch",
+    "descriptionHtml": "DVSwitch Mobile is an Android PTT application for HAM radio operators to connect with other HAMs on the AllStarLink network.  The application uses Wi-Fi or Cellular data networks and has high quality voice and an intuitive user interface.  DVSwitch Mobile supports both smartphones and Network Radios with dedicated PTT buttons.<br><br>Configure your device to connect to a AllStar node by answering a few simple questions and you are ready to go.  Click on this link to get information on setting up IAX (Asterisk) contexts:<br><a href=\"https://www.google.com/url?q=https%3A%2F%2Fdvswitch.groups.io%2Fg%2FMobile%2Fwiki%2FAllStarLink-setup-for-DVSwitch-Mobile&amp;sa=D&amp;sntz=1&amp;usg=AOvVaw1fWezGqo1qWQx3EjSE1uxP\">https://dvswitch.groups.io/g/Mobile/wiki/AllStarLink-setup-for-DVSwitch-Mobile</a><br><br>In addition to IAX2 support, DVSwitch Mobile now supports connections to USRP audio sources such as Analog_Bridge.  This is the bridge to many digital modes including DMR, D-STAR, Fusion, P25 and NXDN.<br><br><h1>Key features</h1><br><b>Network (Allstar/IAX2/USRP)</b><br>\u2022 Multiple IAX and USRP accounts are supported with login information and Caller ID <br>\u2022 16 digit keypad and macro support<br>\u2022 Maintains a list of connected nodes<br>\u2022 Popup when node connects or disconnects<br>\u2022 Popups for IAX2 text messages<br>\u2022 Field entry hints<br><b>PTT</b><br>\u2022 Dedicated PTT interface is available  (VOX operation is not needed)<br>\u2022 Hardware button for PTT on Network Radios supported (mappable and intent)<br>\u2022 Background operation supports PTT when screen is locked or the app is not in the foreground.<br>\u2022 Adjustable Push To Talk timeout timer with alerts<br><b>Audio</b><br>\u2022 Real-time high quality Digital Voice (VOIP) while maintaining low bandwidth usage<br>\u2022 Hands free and Bluetooth are supported<br>\u2022 In-Call and Music audio profiles<br>\u2022 Full duplex operation<br>\u2022 Adjustable transmit and receive audio gain per account<br><b>Misc</b><br>\u2022 Supports calling over Cellular (3G, 4G, LTE mobile data) and Wi-Fi<br>\u2022 Automatic reconnect on signal loss (optional)<br>\u2022 Status display for registration,connection state and amount of data transferred<br>\u2022 Lock screen displays registration and call status<br>\u2022 Supports portrait, landscape and small screen (Network Radio) layouts (lockable)<br>\u2022 Tone alerts for registration, connection and timeout (optional)<br>\u2022 USRP supports links to D-STAR, DMR, Fusion, NXDN and P25 networks through DVSwitch bridge<br><br><br>Note: Several features are still under development.",
+    "descriptionShort": "Android PTT client for AllStarLink IAX nodes (IAXRPT)",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown2": "1879193",
+          "unknown3": 30
+        },
+        "developerAddress": "4809 Creekstone Way, Marietta Ga 30062",
+        "developerEmail": "dvswitch.inad@gmail.com",
+        "developerName": "DVSwitch",
+        "developerWebsite": "https://dvswitch.groups.io/g/Mobile/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "1879193",
+            "versionCode": 177
+          }
+        ],
+        "hasInstantLink": true,
+        "installationSize": "1879193",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "org.dvswitch",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.BROADCAST_STICKY",
+          "android.permission.INTERNET",
+          "android.permission.MODIFY_AUDIO_SETTINGS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECORD_AUDIO",
+          "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.android.vending.BILLING"
+        ],
+        "recentChangesHtml": "2.0.1<br>Samsung PTT<br>File download replacement code<br>IAX2 Network abstraction<br>NPE Fixes<br>BT PTT on Play/Pause<br>BT Metadata display<br>Allow dialing for private IAX2 nodes<br>Tone feedback on PTT release<br>Fix metadata after file download<br>Fix PTT toggle",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "Oct 21, 2022",
+        "versionCode": 177,
+        "versionString": "2.0.1"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=org.dvswitch",
+    "docType": 1,
+    "docid": "org.dvswitch",
+    "image": [
+      {
+        "color": "#E4E4E4",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/ZHDuPYNKGwpbHdxvRQH_QprjIbrS1VciV-ab4rsBWpKNUyGaEtgpIBBg3tZ8dDoVYbs",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#090909",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/XxtTpZb-n0uGRyLCVrGKJeKMSopqBXWHuTOCXPauJRSsWK7GOmMR3VUieu4RKIeDMJQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 3,
+        "imageUrl": "https://youtu.be/b7a1sUbcPeU"
+      },
+      {
+        "imageType": 13,
+        "imageUrl": "https://i.ytimg.com/vi/b7a1sUbcPeU/hqdefault.jpg",
+        "supportsFifeUrlOptions": false
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/H075OsP_oM_9sA95m7WW_24StHhjvPMrq-T_2kMrpi_0HwH2e8xux3rF676XplZeA11d",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/c3HhR17heD2BfTF8UgKs2CXU8414KY-JDuz46lEx-Btx6V-ywMAoAFmTVp8y0m-fHuE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1200
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/EobL5pz6TGV7E5M0nKFHxE50OeKMzgnAj5_qAglNPwzsOUcAPMkTuahRUdvYdYGwjle8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/lRJcMILh0_EvGVXma0pk4p_-nslCBprHqebTC3CeXzfbNMoVqNrgE1cN671C4LARZyU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2560,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Itq9iSM--nF6mBydooqdrPmVtxDfb7T2xxlsEczmAv9KIoSzZESmEx_oQJCQbx9kl3k",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1200
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/fPpzOnrf6ELutwmZnVMoBOsu8sLgYvR6hz_kzDn8aTwTYYrVJEqP2Vo8DnmsgH-K2Q",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1200
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/17t7lNagcIMQGd1PtLR65C86KNzs498mpZFKVusgCOh0HZMPbCMI6nyW761A_03BViI",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "CAD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://dvswitch.org/Mobile/privacy_policy.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=org.dvswitch",
+    "reviewsUrl": "rev?doc=org.dvswitch&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=org.dvswitch",
+    "title": "DVSwitch Mobile",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "$1.29 \u2013 $2.69 per item"
+          },
+          "label": "In-app purchases"
+        },
+        {
+          "container": {
+            "value": "DVSwitch"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "dvswitch.inad@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "4809 Creekstone Way, Marietta Ga 30062"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "Mar 8, 2019"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "7",
+      "fiveStarRatings": "190",
+      "fourStarRatings": "0",
+      "oneStarRatings": "63",
+      "ratingsCount": "285",
+      "starRating": 3.7777777,
+      "threeStarRatings": "0",
+      "twoStarRatings": "31",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-02-12 20:17:19.669529",
+    "backendDocid": "org.dvswitch",
+    "backendId": 3,
+    "creator": "DVSwitch",
+    "descriptionHtml": "DVSwitch Mobile is an Android PTT application for HAM radio operators to connect with other HAMs on the AllStarLink network.  The application uses Wi-Fi or Cellular data networks and has high quality voice and an intuitive user interface.  DVSwitch Mobile supports both smartphones and Network Radios with dedicated PTT buttons.<br><br>Configure your device to connect to a AllStar node by answering a few simple questions and you are ready to go.  Click on this link to get information on setting up IAX (Asterisk) contexts:<br><a href=\"https://www.google.com/url?q=https%3A%2F%2Fdvswitch.groups.io%2Fg%2FMobile%2Fwiki%2FAllStarLink-setup-for-DVSwitch-Mobile&amp;sa=D&amp;sntz=1&amp;usg=AOvVaw1fWezGqo1qWQx3EjSE1uxP\">https://dvswitch.groups.io/g/Mobile/wiki/AllStarLink-setup-for-DVSwitch-Mobile</a><br><br>In addition to IAX2 support, DVSwitch Mobile now supports connections to USRP audio sources such as Analog_Bridge.  This is the bridge to many digital modes including DMR, D-STAR, Fusion, P25 and NXDN.<br><br><h1>Key features</h1><br><b>Network (Allstar/IAX2/USRP)</b><br>\u2022 Multiple IAX and USRP accounts are supported with login information and Caller ID <br>\u2022 16 digit keypad and macro support<br>\u2022 Maintains a list of connected nodes<br>\u2022 Popup when node connects or disconnects<br>\u2022 Popups for IAX2 text messages<br>\u2022 Field entry hints<br><b>PTT</b><br>\u2022 Dedicated PTT interface is available  (VOX operation is not needed)<br>\u2022 Hardware button for PTT on Network Radios supported (mappable and intent)<br>\u2022 Background operation supports PTT when screen is locked or the app is not in the foreground.<br>\u2022 Adjustable Push To Talk timeout timer with alerts<br><b>Audio</b><br>\u2022 Real-time high quality Digital Voice (VOIP) while maintaining low bandwidth usage<br>\u2022 Hands free and Bluetooth are supported<br>\u2022 In-Call and Music audio profiles<br>\u2022 Full duplex operation<br>\u2022 Adjustable transmit and receive audio gain per account<br><b>Misc</b><br>\u2022 Supports calling over Cellular (3G, 4G, LTE mobile data) and Wi-Fi<br>\u2022 Automatic reconnect on signal loss (optional)<br>\u2022 Status display for registration,connection state and amount of data transferred<br>\u2022 Lock screen displays registration and call status<br>\u2022 Supports portrait, landscape and small screen (Network Radio) layouts (lockable)<br>\u2022 Tone alerts for registration, connection and timeout (optional)<br>\u2022 USRP supports links to D-STAR, DMR, Fusion, NXDN and P25 networks through DVSwitch bridge<br><br><br>Note: Several features are still under development.",
+    "descriptionShort": "Android PTT client for AllStarLink IAX nodes (IAXRPT)",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown2": "1891177",
+          "unknown3": 31
+        },
+        "developerAddress": "4809 Creekstone Way, Marietta Ga 30062",
+        "developerEmail": "dvswitch.inad@gmail.com",
+        "developerName": "DVSwitch",
+        "developerWebsite": "https://dvswitch.groups.io/g/Mobile/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "1891177",
+            "versionCode": 187
+          }
+        ],
+        "hasInstantLink": true,
+        "installationSize": "1891177",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "org.dvswitch",
+        "permission": [
+          "android.permission.ACCESS_BACKGROUND_LOCATION",
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.BLUETOOTH_CONNECT",
+          "android.permission.BLUETOOTH_SCAN",
+          "android.permission.BROADCAST_STICKY",
+          "android.permission.INTERNET",
+          "android.permission.MODIFY_AUDIO_SETTINGS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECORD_AUDIO",
+          "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.android.vending.BILLING"
+        ],
+        "recentChangesHtml": "App icon updates<br>Back up user accounts/settings to server<br>Add AllstarLink Last Heard<br>Add USRP password<br>Private (#) lookups ignore hash<br>Android permission updates<br>Add B02PTT-14FB mic<br>Add B02PTT-0B13 mic<br>Add BT logging on support email<br>About screen launches support dialog<br>Bluetooth LE turns on BT notifications<br>Stop multiple BT scans<br>Limit B01 PTT pattern match",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "26 Dec 2022",
+        "versionCode": 187,
+        "versionString": "2.0.2"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=org.dvswitch",
+    "docType": 1,
+    "docid": "org.dvswitch",
+    "image": [
+      {
+        "color": "#E4E4E4",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/ZHDuPYNKGwpbHdxvRQH_QprjIbrS1VciV-ab4rsBWpKNUyGaEtgpIBBg3tZ8dDoVYbs",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#090909",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/XxtTpZb-n0uGRyLCVrGKJeKMSopqBXWHuTOCXPauJRSsWK7GOmMR3VUieu4RKIeDMJQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 3,
+        "imageUrl": "https://youtu.be/b7a1sUbcPeU"
+      },
+      {
+        "imageType": 13,
+        "imageUrl": "https://i.ytimg.com/vi/b7a1sUbcPeU/hqdefault.jpg",
+        "supportsFifeUrlOptions": false
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/H075OsP_oM_9sA95m7WW_24StHhjvPMrq-T_2kMrpi_0HwH2e8xux3rF676XplZeA11d",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/c3HhR17heD2BfTF8UgKs2CXU8414KY-JDuz46lEx-Btx6V-ywMAoAFmTVp8y0m-fHuE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1200
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/EobL5pz6TGV7E5M0nKFHxE50OeKMzgnAj5_qAglNPwzsOUcAPMkTuahRUdvYdYGwjle8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/lRJcMILh0_EvGVXma0pk4p_-nslCBprHqebTC3CeXzfbNMoVqNrgE1cN671C4LARZyU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2560,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Itq9iSM--nF6mBydooqdrPmVtxDfb7T2xxlsEczmAv9KIoSzZESmEx_oQJCQbx9kl3k",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1200
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/fPpzOnrf6ELutwmZnVMoBOsu8sLgYvR6hz_kzDn8aTwTYYrVJEqP2Vo8DnmsgH-K2Q",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1200
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/17t7lNagcIMQGd1PtLR65C86KNzs498mpZFKVusgCOh0HZMPbCMI6nyW761A_03BViI",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "GBP",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://dvswitch.org/Mobile/privacy_policy.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=org.dvswitch",
+    "reviewsUrl": "rev?doc=org.dvswitch&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=org.dvswitch",
+    "title": "DVSwitch Mobile",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "\u00a30.89 \u2013 \u00a31.79 per item"
+          },
+          "label": "In-app purchases"
+        },
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "dvswitch.inad@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "4809 Creekstone Way, Marietta Ga 30062"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "8 Mar 2019"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "34",
+      "fiveStarRatings": "196",
+      "fourStarRatings": "25",
+      "oneStarRatings": "38",
+      "ratingsCount": "295",
+      "starRating": 4.0869565,
+      "threeStarRatings": "12",
+      "twoStarRatings": "21",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-10-16 12:42:44.523721",
+    "backendDocid": "org.dvswitch",
+    "backendId": 3,
+    "creator": "DVSwitch",
+    "descriptionHtml": "DVSwitch Mobile is an Android PTT application for HAM radio operators to connect with other HAMs on the AllStarLink network.  The application uses Wi-Fi or Cellular data networks and has high quality voice and an intuitive user interface.  DVSwitch Mobile supports both smartphones and Network Radios with dedicated PTT buttons.<br><br>Configure your device to connect to a AllStar node by answering a few simple questions and you are ready to go.  Click on this link to get information on setting up IAX (Asterisk) contexts:<br><a href=\"https://www.google.com/url?q=https%3A%2F%2Fdvswitch.groups.io%2Fg%2FMobile%2Fwiki%2FAllStarLink-setup-for-DVSwitch-Mobile&amp;sa=D&amp;sntz=1&amp;usg=AOvVaw1fWezGqo1qWQx3EjSE1uxP\">https://dvswitch.groups.io/g/Mobile/wiki/AllStarLink-setup-for-DVSwitch-Mobile</a><br><br>In addition to IAX2 support, DVSwitch Mobile now supports connections to USRP audio sources such as Analog_Bridge.  This is the bridge to many digital modes including DMR, D-STAR, Fusion, P25 and NXDN.<br><br><h1>Key features</h1><br><b>Network (Allstar/IAX2/USRP)</b><br>\u2022 Multiple IAX and USRP accounts are supported with login information and Caller ID <br>\u2022 16 digit keypad and macro support<br>\u2022 Maintains a list of connected nodes<br>\u2022 Popup when node connects or disconnects<br>\u2022 Popups for IAX2 text messages<br>\u2022 Field entry hints<br><b>PTT</b><br>\u2022 Dedicated PTT interface is available  (VOX operation is not needed)<br>\u2022 Hardware button for PTT on Network Radios supported (mappable and intent)<br>\u2022 Background operation supports PTT when screen is locked or the app is not in the foreground.<br>\u2022 Adjustable Push To Talk timeout timer with alerts<br><b>Audio</b><br>\u2022 Real-time high quality Digital Voice (VOIP) while maintaining low bandwidth usage<br>\u2022 Hands free and Bluetooth are supported<br>\u2022 In-Call and Music audio profiles<br>\u2022 Full duplex operation<br>\u2022 Adjustable transmit and receive audio gain per account<br><b>Misc</b><br>\u2022 Supports calling over Cellular (3G, 4G, LTE mobile data) and Wi-Fi<br>\u2022 Automatic reconnect on signal loss (optional)<br>\u2022 Status display for registration,connection state and amount of data transferred<br>\u2022 Lock screen displays registration and call status<br>\u2022 Supports portrait, landscape and small screen (Network Radio) layouts (lockable)<br>\u2022 Tone alerts for registration, connection and timeout (optional)<br>\u2022 USRP supports links to D-STAR, DMR, Fusion, NXDN and P25 networks through DVSwitch bridge<br><br><br>Note: Several features are still under development.",
+    "descriptionShort": "Android PTT client for AllStarLink IAX nodes (IAXRPT)",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown2": "1892566",
+          "unknown3": 33
+        },
+        "developerAddress": "4809 Creekstone Way, Marietta Ga 30062",
+        "developerEmail": "dvswitch.inad@gmail.com",
+        "developerName": "DVSwitch",
+        "developerWebsite": "https://dvswitch.groups.io/g/Mobile/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "1892566",
+            "versionCode": 190
+          }
+        ],
+        "hasInstantLink": true,
+        "installationSize": "1892566",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "org.dvswitch",
+        "permission": [
+          "android.permission.ACCESS_BACKGROUND_LOCATION",
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.BLUETOOTH_CONNECT",
+          "android.permission.BLUETOOTH_SCAN",
+          "android.permission.BROADCAST_STICKY",
+          "android.permission.INTERNET",
+          "android.permission.MODIFY_AUDIO_SETTINGS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECORD_AUDIO",
+          "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.android.vending.BILLING"
+        ],
+        "recentChangesHtml": "API 33",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "1 Oct 2023",
+        "versionCode": 190,
+        "versionString": "2.0.4"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=org.dvswitch",
+    "docType": 1,
+    "docid": "org.dvswitch",
+    "image": [
+      {
+        "color": "#E4E4E4",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/ZHDuPYNKGwpbHdxvRQH_QprjIbrS1VciV-ab4rsBWpKNUyGaEtgpIBBg3tZ8dDoVYbs",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#090909",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/XxtTpZb-n0uGRyLCVrGKJeKMSopqBXWHuTOCXPauJRSsWK7GOmMR3VUieu4RKIeDMJQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 3,
+        "imageUrl": "https://youtu.be/b7a1sUbcPeU"
+      },
+      {
+        "imageType": 13,
+        "imageUrl": "https://i.ytimg.com/vi/b7a1sUbcPeU/hqdefault.jpg",
+        "supportsFifeUrlOptions": false
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/H075OsP_oM_9sA95m7WW_24StHhjvPMrq-T_2kMrpi_0HwH2e8xux3rF676XplZeA11d",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/c3HhR17heD2BfTF8UgKs2CXU8414KY-JDuz46lEx-Btx6V-ywMAoAFmTVp8y0m-fHuE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1200
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/EobL5pz6TGV7E5M0nKFHxE50OeKMzgnAj5_qAglNPwzsOUcAPMkTuahRUdvYdYGwjle8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/lRJcMILh0_EvGVXma0pk4p_-nslCBprHqebTC3CeXzfbNMoVqNrgE1cN671C4LARZyU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2560,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Itq9iSM--nF6mBydooqdrPmVtxDfb7T2xxlsEczmAv9KIoSzZESmEx_oQJCQbx9kl3k",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1200
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/fPpzOnrf6ELutwmZnVMoBOsu8sLgYvR6hz_kzDn8aTwTYYrVJEqP2Vo8DnmsgH-K2Q",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1200
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/17t7lNagcIMQGd1PtLR65C86KNzs498mpZFKVusgCOh0HZMPbCMI6nyW761A_03BViI",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://dvswitch.org/Mobile/privacy_policy.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=org.dvswitch",
+    "reviewsUrl": "rev?doc=org.dvswitch&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=org.dvswitch",
+    "title": "DVSwitch Mobile",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "$0.99 \u2013 $1.99 per item"
+          },
+          "label": "In-app purchases"
+        },
+        {
+          "container": {
+            "value": "DVSwitch"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "dvswitch.inad@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "4809 Creekstone Way, Marietta Ga 30062"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "8 Mar 2019"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "41",
+      "fiveStarRatings": "228",
+      "fourStarRatings": "30",
+      "oneStarRatings": "51",
+      "ratingsCount": "345",
+      "starRating": 4.0625,
+      "threeStarRatings": "17",
+      "twoStarRatings": "17",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2025-01-06 12:11:55.510628",
+    "backendDocid": "org.dvswitch",
+    "backendId": 3,
+    "creator": "DVSwitch",
+    "descriptionHtml": "DVSwitch Mobile is an Android PTT application for HAM radio operators to connect with other HAMs on the AllStarLink network.  The application uses Wi-Fi or Cellular data networks and has high quality voice and an intuitive user interface.  DVSwitch Mobile supports both smartphones and Network Radios with dedicated PTT buttons.<br><br>Configure your device to connect to a AllStar node by answering a few simple questions and you are ready to go.  Click on this link to get information on setting up IAX (Asterisk) contexts:<br><a href=\"https://www.google.com/url?q=https%3A%2F%2Fdvswitch.groups.io%2Fg%2FMobile%2Fwiki%2FAllStarLink-setup-for-DVSwitch-Mobile&amp;sa=D&amp;sntz=1&amp;usg=AOvVaw1fWezGqo1qWQx3EjSE1uxP\">https://dvswitch.groups.io/g/Mobile/wiki/AllStarLink-setup-for-DVSwitch-Mobile</a><br><br>In addition to IAX2 support, DVSwitch Mobile now supports connections to USRP audio sources such as Analog_Bridge.  This is the bridge to many digital modes including DMR, D-STAR, Fusion, P25 and NXDN.<br><br><h1>Key features</h1><br><b>Network (Allstar/IAX2/USRP)</b><br>\u2022 Multiple IAX and USRP accounts are supported with login information and Caller ID <br>\u2022 16 digit keypad and macro support<br>\u2022 Maintains a list of connected nodes<br>\u2022 Popup when node connects or disconnects<br>\u2022 Popups for IAX2 text messages<br>\u2022 Field entry hints<br><b>PTT</b><br>\u2022 Dedicated PTT interface is available  (VOX operation is not needed)<br>\u2022 Hardware button for PTT on Network Radios supported (mappable and intent)<br>\u2022 Background operation supports PTT when screen is locked or the app is not in the foreground.<br>\u2022 Adjustable Push To Talk timeout timer with alerts<br><b>Audio</b><br>\u2022 Real-time high quality Digital Voice (VOIP) while maintaining low bandwidth usage<br>\u2022 Hands free and Bluetooth are supported<br>\u2022 In-Call and Music audio profiles<br>\u2022 Full duplex operation<br>\u2022 Adjustable transmit and receive audio gain per account<br><b>Misc</b><br>\u2022 Supports calling over Cellular (3G, 4G, LTE mobile data) and Wi-Fi<br>\u2022 Automatic reconnect on signal loss (optional)<br>\u2022 Status display for registration,connection state and amount of data transferred<br>\u2022 Lock screen displays registration and call status<br>\u2022 Supports portrait, landscape and small screen (Network Radio) layouts (lockable)<br>\u2022 Tone alerts for registration, connection and timeout (optional)<br>\u2022 USRP supports links to D-STAR, DMR, Fusion, NXDN and P25 networks through DVSwitch bridge<br><br><br>Note: Several features are still under development.",
+    "descriptionShort": "Android PTT client for AllStarLink IAX nodes (IAXRPT)",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown2": "2041593",
+          "unknown3": 34
+        },
+        "developerAddress": "4809 Creekstone Way, Marietta Ga 30062",
+        "developerEmail": "dvswitch.inad@gmail.com",
+        "developerName": "DVSwitch",
+        "developerWebsite": "https://dvswitch.groups.io/g/Mobile/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "2041593",
+            "versionCode": 198
+          }
+        ],
+        "hasInstantLink": true,
+        "installationSize": "2041593",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "org.dvswitch",
+        "permission": [
+          "android.permission.ACCESS_BACKGROUND_LOCATION",
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.BLUETOOTH_CONNECT",
+          "android.permission.BLUETOOTH_SCAN",
+          "android.permission.BROADCAST_STICKY",
+          "android.permission.INTERNET",
+          "android.permission.MODIFY_AUDIO_SETTINGS",
+          "android.permission.POST_NOTIFICATIONS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECORD_AUDIO",
+          "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.android.vending.BILLING"
+        ],
+        "recentChangesHtml": "Fix ASL3 codec selection<br>Billing lib 6.0.1<br>Mobile support for authentication matching AB<br>New HTTP Upload Manager<br>New Download Manager<br>Download Manager error handling<br>API 34<br>Android 7 WT login fix (Lets Encrypt for older Android versions)<br>PTT-B01 Support",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "13 Dec 2024",
+        "versionCode": 198,
+        "versionString": "2.0.5"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=org.dvswitch&vc=198",
+    "docType": 1,
+    "docid": "org.dvswitch",
+    "image": [
+      {
+        "color": "#E4E4E4",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/ZHDuPYNKGwpbHdxvRQH_QprjIbrS1VciV-ab4rsBWpKNUyGaEtgpIBBg3tZ8dDoVYbs",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#090909",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/XxtTpZb-n0uGRyLCVrGKJeKMSopqBXWHuTOCXPauJRSsWK7GOmMR3VUieu4RKIeDMJQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/H075OsP_oM_9sA95m7WW_24StHhjvPMrq-T_2kMrpi_0HwH2e8xux3rF676XplZeA11d",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/c3HhR17heD2BfTF8UgKs2CXU8414KY-JDuz46lEx-Btx6V-ywMAoAFmTVp8y0m-fHuE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1200
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/EobL5pz6TGV7E5M0nKFHxE50OeKMzgnAj5_qAglNPwzsOUcAPMkTuahRUdvYdYGwjle8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/lRJcMILh0_EvGVXma0pk4p_-nslCBprHqebTC3CeXzfbNMoVqNrgE1cN671C4LARZyU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2560,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Itq9iSM--nF6mBydooqdrPmVtxDfb7T2xxlsEczmAv9KIoSzZESmEx_oQJCQbx9kl3k",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1200
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/fPpzOnrf6ELutwmZnVMoBOsu8sLgYvR6hz_kzDn8aTwTYYrVJEqP2Vo8DnmsgH-K2Q",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1200
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/17t7lNagcIMQGd1PtLR65C86KNzs498mpZFKVusgCOh0HZMPbCMI6nyW761A_03BViI",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "http://dvswitch.org/Mobile/privacy_policy.html",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=org.dvswitch",
+    "reviewsUrl": "rev?doc=org.dvswitch&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=org.dvswitch",
+    "title": "DVSwitch Mobile\n2.0.5",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "$0.99 \u2013 $1.99 per item"
+          },
+          "label": "In-app purchases"
+        },
+        {
+          "container": {
+            "value": "DVSwitch"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "dvswitch.inad@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "4809 Creekstone Way, Marietta Ga 30062"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "8 Mar 2019"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  }
+]

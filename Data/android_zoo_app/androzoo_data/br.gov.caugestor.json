@@ -1,0 +1,959 @@
+[
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-04-28 10:43:22.621696",
+    "backendDocid": "br.gov.caugestor",
+    "backendId": 3,
+    "creator": "Governo do Brasil",
+    "descriptionHtml": "O m\u00f3dulo Gestor do Cadastro Ambiental Urbano \u2013 CAU \u00e9 uma ferramenta para coleta e compila\u00e7\u00e3o de informa\u00e7\u00f5es sobre \u00e1reas verdes e nascentes urbanas, desenvolvido para apoiar a gest\u00e3o ambiental territorial. Coleta e exibe informa\u00e7\u00f5es qualitativas, quantitativas e alguns dados georreferenciados. Tamb\u00e9m dispon\u00edvel no formato web, o CAU-Gestor permite registros auto declarat\u00f3rios de t\u00e9cnicos e gestores dos munic\u00edpios acerca de 10 tipologias de \u00e1reas verdes urbanas, nascentes e \u00e1reas potenciais para cria\u00e7\u00e3o de \u00e1reas verdes.<br><br>\u2022\tContribui efetivamente para a melhoria da gest\u00e3o de \u00e1reas verdes urbanas, para gestores municipais, estaduais e federais.<br>\u2022\tPossui interface simples e intuitiva para recebimento e acesso a informa\u00e7\u00f5es sobre \u00e1reas verdes.<br>\u2022\tPermite a delimita\u00e7\u00e3o do per\u00edmetro e da distribui\u00e7\u00e3o espacial de \u00e1reas verdes.<br>\u2022\tPermite a an\u00e1lise qualitativa das \u00e1reas mapeadas, como o estado da cobertura vegetal, a presen\u00e7a de nascentes e de infraestrutura p\u00fablica.<br>\u2022\tPermite o acesso ao quantitativo de \u00e1reas cadastradas pelos munic\u00edpios brasileiros, al\u00e9m de dados comparativos.<br>\u2022\tPermite an\u00e1lise quantitativa por meio da consolida\u00e7\u00e3o de dados (n\u00famero e \u00e1rea) e \u00e1rea verde per capita, dentre outros.<br>\u2022\tDisponibiliza conte\u00fado relevante para apoio ao planejamento e \u00e0 gest\u00e3o das \u00e1reas verdes urbanas.",
+    "descriptionShort": "Application for registration and management of urban green areas.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "26112832",
+          "unknown3": 29
+        },
+        "developerEmail": "cau@mma.gov.br",
+        "developerName": "Governo do Brasil",
+        "developerWebsite": "https://cau.mma.gov.br",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "26112832",
+            "versionCode": 4
+          }
+        ],
+        "installationSize": "26112832",
+        "numDownloads": "100+ downloads",
+        "packageName": "br.gov.caugestor",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.CAMERA",
+          "android.permission.INTERNET",
+          "android.permission.MODIFY_AUDIO_SETTINGS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECORD_AUDIO",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+        ],
+        "recentChangesHtml": "Melhoria no upload de v\u00eddeos e imagens.",
+        "unstable": false,
+        "uploadDate": "30 Sept 2020",
+        "versionCode": 4,
+        "versionString": "1.0.3"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=br.gov.caugestor",
+    "docType": 1,
+    "docid": "br.gov.caugestor",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/cPdJTAUXkLW-9J1gsc3lUIstoTB6KE2AMD2TCbhNKuuHzRxvgWYS-Dz3Ds41ioDqcds5",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/zcLV9raLlB1v_JJQszzDafUldQhmqxln-qT6ss0hPFu6PQuZt7Y4xRP7DhxugOSEtrLQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2688,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Vi15JJKx_-LEH8Dt_gOSKf5fP_GF_DtZ29cpUgIzaz9sP5gd6CAORaDbQc0pTYJaFeM",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2689,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/FU6MX9_n50a00ffM3nPlPyesmVXWnXOFJBM9JCJanYbN9dJKEdtwBsr0HY1ycexABzE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2689,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/IxMzSKkSVyGHlCxmHC5VZ5t_u-Bvz0v1uzlaT8NjFCJaeefm8g9E8j29vJj9qJHUd4aX",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2689,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/h4NlRCp4JORSSVmvc3xxyBJqjo9OVloQwGPEEoeUbWl4H_W4c4jwhC2x_eE_VCa7hA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2689,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/8F0Bwmy-0X79JCQ-FIceOvoRamyQ-n6dNj8gSl0qsly0ny5K-6uDyWPCk1eFBf8JYy0",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://cau.mma.gov.br/privacidade",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=br.gov.caugestor",
+    "reviewsUrl": "rev?doc=br.gov.caugestor&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=br.gov.caugestor",
+    "title": "CAU Gestor",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Governo do Brasil"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "cau@mma.gov.br"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "18 Sept 2020"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "4",
+      "fourStarRatings": "0",
+      "oneStarRatings": "1",
+      "ratingsCount": "5",
+      "starRating": 4.2,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-09-20 10:16:34.487710",
+    "backendDocid": "br.gov.caugestor",
+    "backendId": 3,
+    "creator": "Governo do Brasil",
+    "descriptionHtml": "O m\u00f3dulo Gestor do Cadastro Ambiental Urbano \u2013 CAU \u00e9 uma ferramenta para coleta e compila\u00e7\u00e3o de informa\u00e7\u00f5es sobre \u00e1reas verdes e nascentes urbanas, desenvolvido para apoiar a gest\u00e3o ambiental territorial. Coleta e exibe informa\u00e7\u00f5es qualitativas, quantitativas e alguns dados georreferenciados. Tamb\u00e9m dispon\u00edvel no formato web, o CAU-Gestor permite registros auto declarat\u00f3rios de t\u00e9cnicos e gestores dos munic\u00edpios acerca de 10 tipologias de \u00e1reas verdes urbanas, nascentes e \u00e1reas potenciais para cria\u00e7\u00e3o de \u00e1reas verdes.<br><br>\u2022\tContribui efetivamente para a melhoria da gest\u00e3o de \u00e1reas verdes urbanas, para gestores municipais, estaduais e federais.<br>\u2022\tPossui interface simples e intuitiva para recebimento e acesso a informa\u00e7\u00f5es sobre \u00e1reas verdes.<br>\u2022\tPermite a delimita\u00e7\u00e3o do per\u00edmetro e da distribui\u00e7\u00e3o espacial de \u00e1reas verdes.<br>\u2022\tPermite a an\u00e1lise qualitativa das \u00e1reas mapeadas, como o estado da cobertura vegetal, a presen\u00e7a de nascentes e de infraestrutura p\u00fablica.<br>\u2022\tPermite o acesso ao quantitativo de \u00e1reas cadastradas pelos munic\u00edpios brasileiros, al\u00e9m de dados comparativos.<br>\u2022\tPermite an\u00e1lise quantitativa por meio da consolida\u00e7\u00e3o de dados (n\u00famero e \u00e1rea) e \u00e1rea verde per capita, dentre outros.<br>\u2022\tDisponibiliza conte\u00fado relevante para apoio ao planejamento e \u00e0 gest\u00e3o das \u00e1reas verdes urbanas.",
+    "descriptionShort": "Application for registration and management of urban green areas.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "20147434",
+          "unknown3": 30
+        },
+        "developerEmail": "cau@mma.gov.br",
+        "developerName": "Governo do Brasil",
+        "developerWebsite": "https://cau.mma.gov.br",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "20147434",
+            "versionCode": 7
+          }
+        ],
+        "installationSize": "20147434",
+        "numDownloads": "100+ downloads",
+        "packageName": "br.gov.caugestor",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.CAMERA",
+          "android.permission.INTERNET",
+          "android.permission.MODIFY_AUDIO_SETTINGS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.RECORD_AUDIO",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+        ],
+        "recentChangesHtml": "Funcionalidade de Ranking<br>Melhoria de performance na apresenta\u00e7\u00e3o das \u00e1reas cadastradas<br>Corre\u00e7oes de Bugs",
+        "unstable": false,
+        "uploadDate": "Sep. 16, 2021",
+        "versionCode": 7,
+        "versionString": "1.1.0"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=br.gov.caugestor",
+    "docType": 1,
+    "docid": "br.gov.caugestor",
+    "image": [
+      {
+        "color": "#FBFBFB",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/cPdJTAUXkLW-9J1gsc3lUIstoTB6KE2AMD2TCbhNKuuHzRxvgWYS-Dz3Ds41ioDqcds5",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/zcLV9raLlB1v_JJQszzDafUldQhmqxln-qT6ss0hPFu6PQuZt7Y4xRP7DhxugOSEtrLQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2688,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Vi15JJKx_-LEH8Dt_gOSKf5fP_GF_DtZ29cpUgIzaz9sP5gd6CAORaDbQc0pTYJaFeM",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2689,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/FU6MX9_n50a00ffM3nPlPyesmVXWnXOFJBM9JCJanYbN9dJKEdtwBsr0HY1ycexABzE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2689,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/IxMzSKkSVyGHlCxmHC5VZ5t_u-Bvz0v1uzlaT8NjFCJaeefm8g9E8j29vJj9qJHUd4aX",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2689,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/h4NlRCp4JORSSVmvc3xxyBJqjo9OVloQwGPEEoeUbWl4H_W4c4jwhC2x_eE_VCa7hA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2689,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/8F0Bwmy-0X79JCQ-FIceOvoRamyQ-n6dNj8gSl0qsly0ny5K-6uDyWPCk1eFBf8JYy0",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "CAD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://cau.mma.gov.br/privacidade",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=br.gov.caugestor",
+    "reviewsUrl": "rev?doc=br.gov.caugestor&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=br.gov.caugestor",
+    "title": "CAU Gestor",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Governo do Brasil"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "cau@mma.gov.br"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Sep. 18, 2020"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-03-31 09:30:17.212317",
+    "backendDocid": "br.gov.caugestor",
+    "backendId": 3,
+    "creator": "Governo do Brasil",
+    "descriptionHtml": "O m\u00f3dulo Gestor do Cadastro Ambiental Urbano \u2013 CAU \u00e9 uma ferramenta para coleta e compila\u00e7\u00e3o de informa\u00e7\u00f5es sobre \u00e1reas verdes e nascentes urbanas, desenvolvido para apoiar a gest\u00e3o ambiental territorial. Coleta e exibe informa\u00e7\u00f5es qualitativas, quantitativas e alguns dados georreferenciados. Tamb\u00e9m dispon\u00edvel no formato web, o CAU-Gestor permite registros auto declarat\u00f3rios de t\u00e9cnicos e gestores dos munic\u00edpios acerca de 10 tipologias de \u00e1reas verdes urbanas, nascentes e \u00e1reas potenciais para cria\u00e7\u00e3o de \u00e1reas verdes.<br><br>\u2022\tContribui efetivamente para a melhoria da gest\u00e3o de \u00e1reas verdes urbanas, para gestores municipais, estaduais e federais.<br>\u2022\tPossui interface simples e intuitiva para recebimento e acesso a informa\u00e7\u00f5es sobre \u00e1reas verdes.<br>\u2022\tPermite a delimita\u00e7\u00e3o do per\u00edmetro e da distribui\u00e7\u00e3o espacial de \u00e1reas verdes.<br>\u2022\tPermite a an\u00e1lise qualitativa das \u00e1reas mapeadas, como o estado da cobertura vegetal, a presen\u00e7a de nascentes e de infraestrutura p\u00fablica.<br>\u2022\tPermite o acesso ao quantitativo de \u00e1reas cadastradas pelos munic\u00edpios brasileiros, al\u00e9m de dados comparativos.<br>\u2022\tPermite an\u00e1lise quantitativa por meio da consolida\u00e7\u00e3o de dados (n\u00famero e \u00e1rea) e \u00e1rea verde per capita, dentre outros.<br>\u2022\tDisponibiliza conte\u00fado relevante para apoio ao planejamento e \u00e0 gest\u00e3o das \u00e1reas verdes urbanas.",
+    "descriptionShort": "Application for registration and management of urban green areas.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "20660754",
+          "unknown3": 30
+        },
+        "developerEmail": "cau@mma.gov.br",
+        "developerName": "Governo do Brasil",
+        "developerWebsite": "https://cau.mma.gov.br",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "20660754",
+            "versionCode": 8
+          }
+        ],
+        "installationSize": "20660754",
+        "numDownloads": "500+ downloads",
+        "packageName": "br.gov.caugestor",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.CAMERA",
+          "android.permission.INTERNET",
+          "android.permission.MODIFY_AUDIO_SETTINGS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.RECORD_AUDIO",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+        ],
+        "recentChangesHtml": "- Ranking com dos estados e munic\u00edpios ;<br>- Permitir excluir mensagens que foram enviadas para o Cidad\u00e3o;<br>- Permitir ao T\u00e9cnico Municipal cadastrar mensagem para o Cidad\u00e3o;<br>- Atualiza\u00e7\u00e3o de dados populacionais e de delimita\u00e7\u00f5es de mapa;<br>- Exclus\u00e3o realizar exclus\u00e3o em massa de \u00e1reas verdes cadastradas;<br>- Melhorias no Relat\u00f3rio export\u00e1vel;<br>- Melhoria na performance;<br>- Corre\u00e7\u00e3o de bugs.",
+        "unstable": false,
+        "uploadDate": "25 Mar 2022",
+        "versionCode": 8,
+        "versionString": "1.2.0"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=br.gov.caugestor",
+    "docType": 1,
+    "docid": "br.gov.caugestor",
+    "image": [
+      {
+        "color": "#FBFBFB",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/cPdJTAUXkLW-9J1gsc3lUIstoTB6KE2AMD2TCbhNKuuHzRxvgWYS-Dz3Ds41ioDqcds5",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#F8F8F8",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/zcLV9raLlB1v_JJQszzDafUldQhmqxln-qT6ss0hPFu6PQuZt7Y4xRP7DhxugOSEtrLQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2688,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Vi15JJKx_-LEH8Dt_gOSKf5fP_GF_DtZ29cpUgIzaz9sP5gd6CAORaDbQc0pTYJaFeM",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2689,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/FU6MX9_n50a00ffM3nPlPyesmVXWnXOFJBM9JCJanYbN9dJKEdtwBsr0HY1ycexABzE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2689,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/IxMzSKkSVyGHlCxmHC5VZ5t_u-Bvz0v1uzlaT8NjFCJaeefm8g9E8j29vJj9qJHUd4aX",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2689,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/h4NlRCp4JORSSVmvc3xxyBJqjo9OVloQwGPEEoeUbWl4H_W4c4jwhC2x_eE_VCa7hA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2689,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/8F0Bwmy-0X79JCQ-FIceOvoRamyQ-n6dNj8gSl0qsly0ny5K-6uDyWPCk1eFBf8JYy0",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://cau.mma.gov.br/privacidade",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=br.gov.caugestor",
+    "reviewsUrl": "rev?doc=br.gov.caugestor&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=br.gov.caugestor",
+    "title": "CAU Gestor",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "cau@mma.gov.br"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "18 Sept 2020"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "1",
+      "fiveStarRatings": "5",
+      "fourStarRatings": "0",
+      "oneStarRatings": "2",
+      "ratingsCount": "7",
+      "starRating": 3.857143,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-06-28 16:13:30.221668",
+    "backendDocid": "br.gov.caugestor",
+    "backendId": 3,
+    "creator": "Governo do Brasil",
+    "descriptionHtml": "O m\u00f3dulo Gestor do Cadastro Ambiental Urbano \u2013 CAU \u00e9 uma ferramenta para coleta e compila\u00e7\u00e3o de informa\u00e7\u00f5es sobre \u00e1reas verdes e nascentes urbanas, desenvolvido para apoiar a gest\u00e3o ambiental territorial. Coleta e exibe informa\u00e7\u00f5es qualitativas, quantitativas e alguns dados georreferenciados. Tamb\u00e9m dispon\u00edvel no formato web, o CAU-Gestor permite registros auto declarat\u00f3rios de t\u00e9cnicos e gestores dos munic\u00edpios acerca de 10 tipologias de \u00e1reas verdes urbanas, nascentes e \u00e1reas potenciais para cria\u00e7\u00e3o de \u00e1reas verdes.<br><br>\u2022\tContribui efetivamente para a melhoria da gest\u00e3o de \u00e1reas verdes urbanas, para gestores municipais, estaduais e federais.<br>\u2022\tPossui interface simples e intuitiva para recebimento e acesso a informa\u00e7\u00f5es sobre \u00e1reas verdes.<br>\u2022\tPermite a delimita\u00e7\u00e3o do per\u00edmetro e da distribui\u00e7\u00e3o espacial de \u00e1reas verdes.<br>\u2022\tPermite a an\u00e1lise qualitativa das \u00e1reas mapeadas, como o estado da cobertura vegetal, a presen\u00e7a de nascentes e de infraestrutura p\u00fablica.<br>\u2022\tPermite o acesso ao quantitativo de \u00e1reas cadastradas pelos munic\u00edpios brasileiros, al\u00e9m de dados comparativos.<br>\u2022\tPermite an\u00e1lise quantitativa por meio da consolida\u00e7\u00e3o de dados (n\u00famero e \u00e1rea) e \u00e1rea verde per capita, dentre outros.<br>\u2022\tDisponibiliza conte\u00fado relevante para apoio ao planejamento e \u00e0 gest\u00e3o das \u00e1reas verdes urbanas.",
+    "descriptionShort": "Application for registration and management of urban green areas.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "23314552",
+          "unknown3": 30
+        },
+        "developerEmail": "cau@mma.gov.br",
+        "developerName": "Governo do Brasil",
+        "developerWebsite": "https://cau.mma.gov.br",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "23314552",
+            "versionCode": 9
+          }
+        ],
+        "installationSize": "23314552",
+        "numDownloads": "500+ downloads",
+        "packageName": "br.gov.caugestor",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.CAMERA",
+          "android.permission.INTERNET",
+          "android.permission.MODIFY_AUDIO_SETTINGS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.RECORD_AUDIO",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+        ],
+        "recentChangesHtml": "- Corre\u00e7\u00f5es de bugs;<br>- Ajuste na splash screen.",
+        "unstable": false,
+        "uploadDate": "27 Jun 2022",
+        "versionCode": 9,
+        "versionString": "1.2.2"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=br.gov.caugestor",
+    "docType": 1,
+    "docid": "br.gov.caugestor",
+    "image": [
+      {
+        "color": "#FBFBFB",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/cPdJTAUXkLW-9J1gsc3lUIstoTB6KE2AMD2TCbhNKuuHzRxvgWYS-Dz3Ds41ioDqcds5",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#F8F8F8",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/zcLV9raLlB1v_JJQszzDafUldQhmqxln-qT6ss0hPFu6PQuZt7Y4xRP7DhxugOSEtrLQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2688,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Vi15JJKx_-LEH8Dt_gOSKf5fP_GF_DtZ29cpUgIzaz9sP5gd6CAORaDbQc0pTYJaFeM",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2689,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/FU6MX9_n50a00ffM3nPlPyesmVXWnXOFJBM9JCJanYbN9dJKEdtwBsr0HY1ycexABzE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2689,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/IxMzSKkSVyGHlCxmHC5VZ5t_u-Bvz0v1uzlaT8NjFCJaeefm8g9E8j29vJj9qJHUd4aX",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2689,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/h4NlRCp4JORSSVmvc3xxyBJqjo9OVloQwGPEEoeUbWl4H_W4c4jwhC2x_eE_VCa7hA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2689,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/8F0Bwmy-0X79JCQ-FIceOvoRamyQ-n6dNj8gSl0qsly0ny5K-6uDyWPCk1eFBf8JYy0",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://cau.mma.gov.br/privacidade",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=br.gov.caugestor",
+    "reviewsUrl": "rev?doc=br.gov.caugestor&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=br.gov.caugestor",
+    "title": "CAU Gestor",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "cau@mma.gov.br"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "18 Sept 2020"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "1",
+      "fiveStarRatings": "5",
+      "fourStarRatings": "0",
+      "oneStarRatings": "2",
+      "ratingsCount": "7",
+      "starRating": 3.857143,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-07-04 20:32:40.802983",
+    "backendDocid": "br.gov.caugestor",
+    "backendId": 3,
+    "creator": "Servi\u00e7os e Informa\u00e7\u00f5es do Brasil",
+    "descriptionHtml": "O m\u00f3dulo Gestor do Cadastro Ambiental Urbano \u2013 CAU \u00e9 uma ferramenta para coleta e compila\u00e7\u00e3o de informa\u00e7\u00f5es sobre \u00e1reas verdes e nascentes urbanas, desenvolvido para apoiar a gest\u00e3o ambiental territorial. Coleta e exibe informa\u00e7\u00f5es qualitativas, quantitativas e alguns dados georreferenciados. Tamb\u00e9m dispon\u00edvel no formato web, o CAU-Gestor permite registros auto declarat\u00f3rios de t\u00e9cnicos e gestores dos munic\u00edpios acerca de 10 tipologias de \u00e1reas verdes urbanas, nascentes e \u00e1reas potenciais para cria\u00e7\u00e3o de \u00e1reas verdes.<br><br>\u2022\tContribui efetivamente para a melhoria da gest\u00e3o de \u00e1reas verdes urbanas, para gestores municipais, estaduais e federais.<br>\u2022\tPossui interface simples e intuitiva para recebimento e acesso a informa\u00e7\u00f5es sobre \u00e1reas verdes.<br>\u2022\tPermite a delimita\u00e7\u00e3o do per\u00edmetro e da distribui\u00e7\u00e3o espacial de \u00e1reas verdes.<br>\u2022\tPermite a an\u00e1lise qualitativa das \u00e1reas mapeadas, como o estado da cobertura vegetal, a presen\u00e7a de nascentes e de infraestrutura p\u00fablica.<br>\u2022\tPermite o acesso ao quantitativo de \u00e1reas cadastradas pelos munic\u00edpios brasileiros, al\u00e9m de dados comparativos.<br>\u2022\tPermite an\u00e1lise quantitativa por meio da consolida\u00e7\u00e3o de dados (n\u00famero e \u00e1rea) e \u00e1rea verde per capita, dentre outros.<br>\u2022\tDisponibiliza conte\u00fado relevante para apoio ao planejamento e \u00e0 gest\u00e3o das \u00e1reas verdes urbanas.",
+    "descriptionShort": "Application for registration and management of urban green areas.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "23314562",
+          "unknown3": 30
+        },
+        "developerEmail": "cau@mma.gov.br",
+        "developerName": "Servi\u00e7os e Informa\u00e7\u00f5es do Brasil",
+        "developerWebsite": "https://cau.mma.gov.br",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "23314562",
+            "versionCode": 10
+          }
+        ],
+        "installationSize": "23314562",
+        "numDownloads": "500+ downloads",
+        "packageName": "br.gov.caugestor",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.CAMERA",
+          "android.permission.INTERNET",
+          "android.permission.MODIFY_AUDIO_SETTINGS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.RECORD_AUDIO",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+        ],
+        "recentChangesHtml": "- Remo\u00e7\u00e3o de capturas de tela com logo do governo;",
+        "unstable": false,
+        "uploadDate": "1 Jul 2022",
+        "versionCode": 10,
+        "versionString": "1.2.3"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=br.gov.caugestor",
+    "docType": 1,
+    "docid": "br.gov.caugestor",
+    "image": [
+      {
+        "color": "#FBFBFB",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/cPdJTAUXkLW-9J1gsc3lUIstoTB6KE2AMD2TCbhNKuuHzRxvgWYS-Dz3Ds41ioDqcds5",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#F8F8F8",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/zcLV9raLlB1v_JJQszzDafUldQhmqxln-qT6ss0hPFu6PQuZt7Y4xRP7DhxugOSEtrLQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2689,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/FU6MX9_n50a00ffM3nPlPyesmVXWnXOFJBM9JCJanYbN9dJKEdtwBsr0HY1ycexABzE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2689,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/IxMzSKkSVyGHlCxmHC5VZ5t_u-Bvz0v1uzlaT8NjFCJaeefm8g9E8j29vJj9qJHUd4aX",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2689,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/h4NlRCp4JORSSVmvc3xxyBJqjo9OVloQwGPEEoeUbWl4H_W4c4jwhC2x_eE_VCa7hA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2689,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/8F0Bwmy-0X79JCQ-FIceOvoRamyQ-n6dNj8gSl0qsly0ny5K-6uDyWPCk1eFBf8JYy0",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://cau.mma.gov.br/privacidade",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=br.gov.caugestor",
+    "reviewsUrl": "rev?doc=br.gov.caugestor&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=br.gov.caugestor",
+    "title": "CAU Gestor",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "cau@mma.gov.br"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "18 Sept 2020"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  }
+]

@@ -1,0 +1,4805 @@
+[
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-07-08 03:03:30.089853",
+    "backendDocid": "com.dearhealth",
+    "backendId": 3,
+    "creator": "DEAR Health Inc",
+    "descriptionHtml": "DEARhealth is a new solution enabling you securely manage your health. Use your DEARhealth account to manage your health and disease activity under the principles of Value-Based healthcare.<br><br>We measure the value of your care with a Value Quotient\u00ae or VQ\u00ae which captures the value of healthcare services to individual patients, including disease control, quality of life and daily productivity. <br><br>DEARhealth allows you to:<br>\u2022 Check your current and historical VQ\u00ae<br>\u2022 View your individualized Care Program<br>\u2022 Complete your home care <br>\u2022 Contact your healthcare team via secure messaging<br>\u2022 View upcoming labs, clinic visits, scheduled home care, and procedures<br>\u2022 Learn about your disease with MyAcademy<br>\u2022 Access your Wellness programs - MyCoach, MyMenu, MyAccupressure, My Fitness, MyYoga and MyMeditation.<br>\u2022 Review and confirm your medication<br><br>To access the DEARhealth services delivered through the app, you must create an account with your healthcare provider. Visit DEARhealth website for a listing of supported providers. If your provider is not listed or you need help setting up the account, please contact them directly.<br><br>For feedback about the app, contact us at support@dearhealth.com",
+    "descriptionShort": "DEARhealth is a new solution enabling you securely manage your health.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "15175042",
+          "unknown3": 28
+        },
+        "developerEmail": "alberto.montilla@dearhealth.com",
+        "developerName": "DEAR Health Inc",
+        "developerWebsite": "http://www.dearhealth.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "6065608",
+            "versionCode": 48
+          },
+          {
+            "fileType": 0,
+            "size": "9109434",
+            "versionCode": 48
+          }
+        ],
+        "installationSize": "15175042",
+        "numDownloads": "100+ downloads",
+        "packageName": "com.dearhealth",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.CAMERA",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.USE_FINGERPRINT",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.something.app.permission.C2D_MESSAGE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE"
+        ],
+        "recentChangesHtml": "- Improvements and bug fixes<br>- Translations updated<br>- Dual time view added if your timezone not the same with your hospital",
+        "unstable": true,
+        "uploadDate": "1 Jun 2020",
+        "versionCode": 48,
+        "versionString": "3.9.5"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.dearhealth",
+    "docType": 1,
+    "docid": "com.dearhealth",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://lh3.googleusercontent.com/b4IykfwUvW_NM655XAbQkLFxmpMoS7niMjAoYo-BdQNSZnPkZXxIoiczsWi0a2wMVg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://lh3.googleusercontent.com/2EbPoNy6ti0hLKcOxSSSOIe_eTVcN7MaaU4h82M_AgBU93X0fK00R457qicVz3my0i0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 16,
+        "imageUrl": "https://lh3.googleusercontent.com/mXpJ1TqsS86X1pC1yoMFkHbhQBdag355J6bKo_d3I06zivYvflxf-XFE2Ma6pWcB-Kg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/yHxyxfJEBJV7a6WHVTXeBxmEU0-lePviymQM418ywKiEoAAuTw4dyKVENMJLVhUApHo",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/999W-pNV_6NFv3JXYlAF3WCV4sTDPyyeVN6NZV0gd9qIntukmlTA2hSe1UpGZDl3qQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/FYU7UnkXaAzU0AFYXMK5eiuj6oUtfraRgFG-_RArmKQa2fsz8v-qvEiF_7Qr1YMJDO-j",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/I26SxDPWMyWyMx0nIJuCw9Fh7IJk8gvQqc7yunA2I6EV9Hec76OghVayzQ2JkDCL0nZ4",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/QJdg5MjwV_Qh19DezSOf2E-3BeuNHAQvRovBCpKxe4cWxeVb7a3rRQRkmR7FB4Pq3g",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://dearhealth.com/privacy/",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://lh3.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "Users interact<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.dearhealth",
+    "reviewsUrl": "rev?doc=com.dearhealth&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.dearhealth",
+    "title": "DEARhealth",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "DEAR Health Inc"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "alberto.montilla@dearhealth.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "5 Feb 2018"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-08-26 17:02:39.882656",
+    "backendDocid": "com.dearhealth",
+    "backendId": 3,
+    "creator": "DEAR Health Inc",
+    "descriptionHtml": "DEARhealth is a new solution enabling you securely manage your health. Use your DEARhealth account to manage your health and disease activity under the principles of Value-Based healthcare.<br><br>We measure the value of your care with a Value Quotient\u00ae or VQ\u00ae which captures the value of healthcare services to individual patients, including disease control, quality of life and daily productivity. <br><br>DEARhealth allows you to:<br>\u2022 Check your current and historical VQ\u00ae<br>\u2022 View your individualized Care Program<br>\u2022 Complete your home care <br>\u2022 Contact your healthcare team via secure messaging<br>\u2022 View upcoming labs, clinic visits, scheduled home care, and procedures<br>\u2022 Learn about your disease with MyAcademy<br>\u2022 Access your Wellness programs - MyCoach, MyMenu, MyAccupressure, My Fitness, MyYoga and MyMeditation.<br>\u2022 Review and confirm your medication<br><br>To access the DEARhealth services delivered through the app, you must create an account with your healthcare provider. Visit DEARhealth website for a listing of supported providers. If your provider is not listed or you need help setting up the account, please contact them directly.<br><br>For feedback about the app, contact us at support@dearhealth.com",
+    "descriptionShort": "DEARhealth is a new solution enabling you securely manage your health.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "15322496",
+          "unknown3": 29
+        },
+        "developerEmail": "alberto.montilla@dearhealth.com",
+        "developerName": "DEAR Health Inc",
+        "developerWebsite": "http://www.dearhealth.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "6208880",
+            "versionCode": 50
+          },
+          {
+            "fileType": 0,
+            "size": "9113616",
+            "versionCode": 50
+          }
+        ],
+        "installationSize": "15322496",
+        "numDownloads": "100+ downloads",
+        "packageName": "com.dearhealth",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.CAMERA",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.USE_FINGERPRINT",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.something.app.permission.C2D_MESSAGE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE"
+        ],
+        "recentChangesHtml": "- My Relaxation feature added<br>- Improvements and bug fixes<br>- Translations updated",
+        "unstable": true,
+        "uploadDate": "8 Jul 2020",
+        "versionCode": 50,
+        "versionString": "3.9.6"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.dearhealth",
+    "docType": 1,
+    "docid": "com.dearhealth",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://lh3.googleusercontent.com/b4IykfwUvW_NM655XAbQkLFxmpMoS7niMjAoYo-BdQNSZnPkZXxIoiczsWi0a2wMVg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://lh3.googleusercontent.com/2EbPoNy6ti0hLKcOxSSSOIe_eTVcN7MaaU4h82M_AgBU93X0fK00R457qicVz3my0i0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 16,
+        "imageUrl": "https://lh3.googleusercontent.com/mXpJ1TqsS86X1pC1yoMFkHbhQBdag355J6bKo_d3I06zivYvflxf-XFE2Ma6pWcB-Kg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/yHxyxfJEBJV7a6WHVTXeBxmEU0-lePviymQM418ywKiEoAAuTw4dyKVENMJLVhUApHo",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/999W-pNV_6NFv3JXYlAF3WCV4sTDPyyeVN6NZV0gd9qIntukmlTA2hSe1UpGZDl3qQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/FYU7UnkXaAzU0AFYXMK5eiuj6oUtfraRgFG-_RArmKQa2fsz8v-qvEiF_7Qr1YMJDO-j",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/I26SxDPWMyWyMx0nIJuCw9Fh7IJk8gvQqc7yunA2I6EV9Hec76OghVayzQ2JkDCL0nZ4",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/QJdg5MjwV_Qh19DezSOf2E-3BeuNHAQvRovBCpKxe4cWxeVb7a3rRQRkmR7FB4Pq3g",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://dearhealth.com/privacy/",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://lh3.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "Users interact<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.dearhealth",
+    "reviewsUrl": "rev?doc=com.dearhealth&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.dearhealth",
+    "title": "DEARhealth",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "DEAR Health Inc"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "alberto.montilla@dearhealth.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "5 Feb 2018"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-09-28 10:00:34.465434",
+    "backendDocid": "com.dearhealth",
+    "backendId": 3,
+    "creator": "DEAR Health Inc",
+    "descriptionHtml": "DEARhealth is a new solution enabling you securely manage your health. Use your DEARhealth account to manage your health and disease activity under the principles of Value-Based healthcare.<br><br>We measure the value of your care with a Value Quotient\u00ae or VQ\u00ae which captures the value of healthcare services to individual patients, including disease control, quality of life and daily productivity. <br><br>DEARhealth allows you to:<br>\u2022 Check your current and historical VQ\u00ae<br>\u2022 View your individualized Care Program<br>\u2022 Complete your home care <br>\u2022 Contact your healthcare team via secure messaging<br>\u2022 View upcoming labs, clinic visits, scheduled home care, and procedures<br>\u2022 Learn about your disease with MyAcademy<br>\u2022 Access your Wellness programs - MyCoach, MyMenu, MyAccupressure, My Fitness, MyYoga and MyMeditation.<br>\u2022 Review and confirm your medication<br><br>To access the DEARhealth services delivered through the app, you must create an account with your healthcare provider. Visit DEARhealth website for a listing of supported providers. If your provider is not listed or you need help setting up the account, please contact them directly.<br><br>For feedback about the app, contact us at support@dearhealth.com",
+    "descriptionShort": "DEARhealth is a new solution enabling you securely manage your health.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "15364266",
+          "unknown3": 29
+        },
+        "developerEmail": "alberto.montilla@dearhealth.com",
+        "developerName": "DEAR Health Inc",
+        "developerWebsite": "http://www.dearhealth.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "6246451",
+            "versionCode": 51
+          },
+          {
+            "fileType": 0,
+            "size": "9117815",
+            "versionCode": 51
+          }
+        ],
+        "installationSize": "15364266",
+        "numDownloads": "100+ downloads",
+        "packageName": "com.dearhealth",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.CAMERA",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.USE_FINGERPRINT",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.something.app.permission.C2D_MESSAGE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE"
+        ],
+        "recentChangesHtml": "- Improved My Menu and My Recipes sections<br>- Improvements and bug fixes<br>- Improved localization",
+        "unstable": true,
+        "uploadDate": "21 Sep 2020",
+        "versionCode": 51,
+        "versionString": "4.0.0"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.dearhealth",
+    "docType": 1,
+    "docid": "com.dearhealth",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://lh3.googleusercontent.com/b4IykfwUvW_NM655XAbQkLFxmpMoS7niMjAoYo-BdQNSZnPkZXxIoiczsWi0a2wMVg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://lh3.googleusercontent.com/2EbPoNy6ti0hLKcOxSSSOIe_eTVcN7MaaU4h82M_AgBU93X0fK00R457qicVz3my0i0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 16,
+        "imageUrl": "https://lh3.googleusercontent.com/mXpJ1TqsS86X1pC1yoMFkHbhQBdag355J6bKo_d3I06zivYvflxf-XFE2Ma6pWcB-Kg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/yHxyxfJEBJV7a6WHVTXeBxmEU0-lePviymQM418ywKiEoAAuTw4dyKVENMJLVhUApHo",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/999W-pNV_6NFv3JXYlAF3WCV4sTDPyyeVN6NZV0gd9qIntukmlTA2hSe1UpGZDl3qQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/FYU7UnkXaAzU0AFYXMK5eiuj6oUtfraRgFG-_RArmKQa2fsz8v-qvEiF_7Qr1YMJDO-j",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/I26SxDPWMyWyMx0nIJuCw9Fh7IJk8gvQqc7yunA2I6EV9Hec76OghVayzQ2JkDCL0nZ4",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/QJdg5MjwV_Qh19DezSOf2E-3BeuNHAQvRovBCpKxe4cWxeVb7a3rRQRkmR7FB4Pq3g",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://dearhealth.com/privacy/",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "Users interact<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.dearhealth",
+    "reviewsUrl": "rev?doc=com.dearhealth&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.dearhealth",
+    "title": "DEARhealth",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "DEAR Health Inc"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "alberto.montilla@dearhealth.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "5 Feb 2018"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-09-29 10:34:22.624971",
+    "backendDocid": "com.dearhealth",
+    "backendId": 3,
+    "creator": "DEAR Health Inc",
+    "descriptionHtml": "DEARhealth is a new solution enabling you securely manage your health. Use your DEARhealth account to manage your health and disease activity under the principles of Value-Based healthcare.<br><br>We measure the value of your care with a Value Quotient\u00ae or VQ\u00ae which captures the value of healthcare services to individual patients, including disease control, quality of life and daily productivity. <br><br>DEARhealth allows you to:<br>\u2022 Check your current and historical VQ\u00ae<br>\u2022 View your individualized Care Program<br>\u2022 Complete your home care <br>\u2022 Contact your healthcare team via secure messaging<br>\u2022 View upcoming labs, clinic visits, scheduled home care, and procedures<br>\u2022 Learn about your disease with MyAcademy<br>\u2022 Access your Wellness programs - MyCoach, MyMenu, MyAccupressure, My Fitness, MyYoga and MyMeditation.<br>\u2022 Review and confirm your medication<br><br>To access the DEARhealth services delivered through the app, you must create an account with your healthcare provider. Visit DEARhealth website for a listing of supported providers. If your provider is not listed or you need help setting up the account, please contact them directly.<br><br>For feedback about the app, contact us at support@dearhealth.com",
+    "descriptionShort": "DEARhealth is a new solution enabling you securely manage your health.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "15364266",
+          "unknown3": 29
+        },
+        "developerEmail": "alberto.montilla@dearhealth.com",
+        "developerName": "DEAR Health Inc",
+        "developerWebsite": "http://www.dearhealth.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "6246451",
+            "versionCode": 52
+          },
+          {
+            "fileType": 0,
+            "size": "9117815",
+            "versionCode": 52
+          }
+        ],
+        "installationSize": "15364266",
+        "numDownloads": "100+ downloads",
+        "packageName": "com.dearhealth",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.CAMERA",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.USE_FINGERPRINT",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.something.app.permission.C2D_MESSAGE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE"
+        ],
+        "recentChangesHtml": "- Improved My Menu and My Recipes sections<br>- Improvements and bug fixes<br>- Improved localization",
+        "unstable": true,
+        "uploadDate": "28 Sep 2020",
+        "versionCode": 52,
+        "versionString": "4.0.1"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.dearhealth",
+    "docType": 1,
+    "docid": "com.dearhealth",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://lh3.googleusercontent.com/b4IykfwUvW_NM655XAbQkLFxmpMoS7niMjAoYo-BdQNSZnPkZXxIoiczsWi0a2wMVg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://lh3.googleusercontent.com/2EbPoNy6ti0hLKcOxSSSOIe_eTVcN7MaaU4h82M_AgBU93X0fK00R457qicVz3my0i0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 16,
+        "imageUrl": "https://lh3.googleusercontent.com/mXpJ1TqsS86X1pC1yoMFkHbhQBdag355J6bKo_d3I06zivYvflxf-XFE2Ma6pWcB-Kg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/yHxyxfJEBJV7a6WHVTXeBxmEU0-lePviymQM418ywKiEoAAuTw4dyKVENMJLVhUApHo",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/999W-pNV_6NFv3JXYlAF3WCV4sTDPyyeVN6NZV0gd9qIntukmlTA2hSe1UpGZDl3qQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/FYU7UnkXaAzU0AFYXMK5eiuj6oUtfraRgFG-_RArmKQa2fsz8v-qvEiF_7Qr1YMJDO-j",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/I26SxDPWMyWyMx0nIJuCw9Fh7IJk8gvQqc7yunA2I6EV9Hec76OghVayzQ2JkDCL0nZ4",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/QJdg5MjwV_Qh19DezSOf2E-3BeuNHAQvRovBCpKxe4cWxeVb7a3rRQRkmR7FB4Pq3g",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://dearhealth.com/privacy/",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "Users interact<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.dearhealth",
+    "reviewsUrl": "rev?doc=com.dearhealth&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.dearhealth",
+    "title": "DEARhealth",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "alberto.montilla@dearhealth.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "5 Feb 2018"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-03-26 23:54:55.465067",
+    "backendDocid": "com.dearhealth",
+    "backendId": 3,
+    "creator": "DEAR Health Inc",
+    "descriptionHtml": "DEARhealth is a new solution enabling you securely manage your health. Use your DEARhealth account to manage your health and disease activity under the principles of Value-Based healthcare.<br><br>We measure the value of your care with a Value Quotient\u00ae or VQ\u00ae which captures the value of healthcare services to individual patients, including disease control, quality of life and daily productivity. <br><br>DEARhealth allows you to:<br>\u2022 Check your current and historical VQ\u00ae<br>\u2022 View your individualized Care Program<br>\u2022 Complete your home care <br>\u2022 Contact your healthcare team via secure messaging<br>\u2022 View upcoming labs, clinic visits, scheduled home care, and procedures<br>\u2022 Learn about your disease with MyAcademy<br>\u2022 Access your Wellness programs - MyCoach, MyMenu, MyAccupressure, My Fitness, MyYoga and MyMeditation.<br>\u2022 Review and confirm your medication<br><br>To access the DEARhealth services delivered through the app, you must create an account with your healthcare provider. Visit DEARhealth website for a listing of supported providers. If your provider is not listed or you need help setting up the account, please contact them directly.<br><br>For feedback about the app, contact us at support@dearhealth.com",
+    "descriptionShort": "DEARhealth is a new solution enabling you securely manage your health.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "38378597",
+          "unknown3": 29
+        },
+        "developerEmail": "alberto.montilla@dearhealth.com",
+        "developerName": "DEAR Health Inc",
+        "developerWebsite": "http://www.dearhealth.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "38378597",
+            "versionCode": 56
+          }
+        ],
+        "installationSize": "38378597",
+        "numDownloads": "100+ downloads",
+        "packageName": "com.dearhealth",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.CAMERA",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.USE_FINGERPRINT",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.something.app.permission.C2D_MESSAGE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE"
+        ],
+        "recentChangesHtml": "Various small fixes and updates.",
+        "unstable": true,
+        "uploadDate": "18 Mar 2021",
+        "versionCode": 56,
+        "versionString": "4.0.6"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.dearhealth",
+    "docType": 1,
+    "docid": "com.dearhealth",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/b4IykfwUvW_NM655XAbQkLFxmpMoS7niMjAoYo-BdQNSZnPkZXxIoiczsWi0a2wMVg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/2EbPoNy6ti0hLKcOxSSSOIe_eTVcN7MaaU4h82M_AgBU93X0fK00R457qicVz3my0i0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 16,
+        "imageUrl": "https://play-lh.googleusercontent.com/mXpJ1TqsS86X1pC1yoMFkHbhQBdag355J6bKo_d3I06zivYvflxf-XFE2Ma6pWcB-Kg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/yHxyxfJEBJV7a6WHVTXeBxmEU0-lePviymQM418ywKiEoAAuTw4dyKVENMJLVhUApHo",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/999W-pNV_6NFv3JXYlAF3WCV4sTDPyyeVN6NZV0gd9qIntukmlTA2hSe1UpGZDl3qQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/FYU7UnkXaAzU0AFYXMK5eiuj6oUtfraRgFG-_RArmKQa2fsz8v-qvEiF_7Qr1YMJDO-j",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/I26SxDPWMyWyMx0nIJuCw9Fh7IJk8gvQqc7yunA2I6EV9Hec76OghVayzQ2JkDCL0nZ4",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/QJdg5MjwV_Qh19DezSOf2E-3BeuNHAQvRovBCpKxe4cWxeVb7a3rRQRkmR7FB4Pq3g",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://dearhealth.com/privacy/",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "Users interact<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.dearhealth",
+    "reviewsUrl": "rev?doc=com.dearhealth&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.dearhealth",
+    "title": "DEARhealth",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "DEAR Health Inc"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "alberto.montilla@dearhealth.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "5 Feb 2018"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-04-05 03:27:44.651139",
+    "backendDocid": "com.dearhealth",
+    "backendId": 3,
+    "creator": "DEAR Health Inc",
+    "descriptionHtml": "DEARhealth is a new solution enabling you securely manage your health. Use your DEARhealth account to manage your health and disease activity under the principles of Value-Based healthcare.<br><br>We measure the value of your care with a Value Quotient\u00ae or VQ\u00ae which captures the value of healthcare services to individual patients, including disease control, quality of life and daily productivity. <br><br>DEARhealth allows you to:<br>\u2022 Check your current and historical VQ\u00ae<br>\u2022 View your individualized Care Program<br>\u2022 Complete your home care <br>\u2022 Contact your healthcare team via secure messaging<br>\u2022 View upcoming labs, clinic visits, scheduled home care, and procedures<br>\u2022 Learn about your disease with MyAcademy<br>\u2022 Access your Wellness programs - MyCoach, MyMenu, MyAccupressure, My Fitness, MyYoga and MyMeditation.<br>\u2022 Review and confirm your medication<br><br>To access the DEARhealth services delivered through the app, you must create an account with your healthcare provider. Visit DEARhealth website for a listing of supported providers. If your provider is not listed or you need help setting up the account, please contact them directly.<br><br>For feedback about the app, contact us at support@dearhealth.com",
+    "descriptionShort": "DEARhealth is a new solution enabling you securely manage your health.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "38374501",
+          "unknown3": 29
+        },
+        "developerEmail": "alberto.montilla@dearhealth.com",
+        "developerName": "DEAR Health Inc",
+        "developerWebsite": "http://www.dearhealth.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "38374501",
+            "versionCode": 61
+          }
+        ],
+        "installationSize": "38374501",
+        "numDownloads": "100+ downloads",
+        "packageName": "com.dearhealth",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.CAMERA",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.USE_FINGERPRINT",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.something.app.permission.C2D_MESSAGE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE"
+        ],
+        "recentChangesHtml": "Various small fixes and updates.",
+        "unstable": true,
+        "uploadDate": "1 Apr 2021",
+        "versionCode": 61,
+        "versionString": "4.0.7"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.dearhealth",
+    "docType": 1,
+    "docid": "com.dearhealth",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/b4IykfwUvW_NM655XAbQkLFxmpMoS7niMjAoYo-BdQNSZnPkZXxIoiczsWi0a2wMVg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/2EbPoNy6ti0hLKcOxSSSOIe_eTVcN7MaaU4h82M_AgBU93X0fK00R457qicVz3my0i0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 16,
+        "imageUrl": "https://play-lh.googleusercontent.com/mXpJ1TqsS86X1pC1yoMFkHbhQBdag355J6bKo_d3I06zivYvflxf-XFE2Ma6pWcB-Kg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/yHxyxfJEBJV7a6WHVTXeBxmEU0-lePviymQM418ywKiEoAAuTw4dyKVENMJLVhUApHo",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/999W-pNV_6NFv3JXYlAF3WCV4sTDPyyeVN6NZV0gd9qIntukmlTA2hSe1UpGZDl3qQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/FYU7UnkXaAzU0AFYXMK5eiuj6oUtfraRgFG-_RArmKQa2fsz8v-qvEiF_7Qr1YMJDO-j",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/I26SxDPWMyWyMx0nIJuCw9Fh7IJk8gvQqc7yunA2I6EV9Hec76OghVayzQ2JkDCL0nZ4",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/QJdg5MjwV_Qh19DezSOf2E-3BeuNHAQvRovBCpKxe4cWxeVb7a3rRQRkmR7FB4Pq3g",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://dearhealth.com/privacy/",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "Users interact<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.dearhealth",
+    "reviewsUrl": "rev?doc=com.dearhealth&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.dearhealth",
+    "title": "DEARhealth",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "alberto.montilla@dearhealth.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "5 Feb 2018"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-05-02 02:50:23.968773",
+    "backendDocid": "com.dearhealth",
+    "backendId": 3,
+    "creator": "DEAR Health Inc",
+    "descriptionHtml": "DEARhealth is a new solution enabling you securely manage your health. Use your DEARhealth account to manage your health and disease activity under the principles of Value-Based healthcare.<br><br>We measure the value of your care with a Value Quotient\u00ae or VQ\u00ae which captures the value of healthcare services to individual patients, including disease control, quality of life and daily productivity. <br><br>DEARhealth allows you to:<br>\u2022 Check your current and historical VQ\u00ae<br>\u2022 View your individualized Care Program<br>\u2022 Complete your home care <br>\u2022 Contact your healthcare team via secure messaging<br>\u2022 View upcoming labs, clinic visits, scheduled home care, and procedures<br>\u2022 Learn about your disease with MyAcademy<br>\u2022 Access your Wellness programs - MyCoach, MyMenu, MyAccupressure, My Fitness, MyYoga and MyMeditation.<br>\u2022 Review and confirm your medication<br><br>To access the DEARhealth services delivered through the app, you must create an account with your healthcare provider. Visit DEARhealth website for a listing of supported providers. If your provider is not listed or you need help setting up the account, please contact them directly.<br><br>For feedback about the app, contact us at support@dearhealth.com",
+    "descriptionShort": "DEARhealth is a new solution enabling you securely manage your health.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "38374501",
+          "unknown3": 29
+        },
+        "developerEmail": "alberto.montilla@dearhealth.com",
+        "developerName": "DEAR Health Inc",
+        "developerWebsite": "http://www.dearhealth.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "38374501",
+            "versionCode": 64
+          }
+        ],
+        "installationSize": "38374501",
+        "numDownloads": "100+ downloads",
+        "packageName": "com.dearhealth",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.CAMERA",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.USE_FINGERPRINT",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.something.app.permission.C2D_MESSAGE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE"
+        ],
+        "recentChangesHtml": "Various small improvements",
+        "unstable": true,
+        "uploadDate": "20 Apr 2021",
+        "versionCode": 64,
+        "versionString": "4.0.8"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.dearhealth",
+    "docType": 1,
+    "docid": "com.dearhealth",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/b4IykfwUvW_NM655XAbQkLFxmpMoS7niMjAoYo-BdQNSZnPkZXxIoiczsWi0a2wMVg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/2EbPoNy6ti0hLKcOxSSSOIe_eTVcN7MaaU4h82M_AgBU93X0fK00R457qicVz3my0i0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 16,
+        "imageUrl": "https://play-lh.googleusercontent.com/mXpJ1TqsS86X1pC1yoMFkHbhQBdag355J6bKo_d3I06zivYvflxf-XFE2Ma6pWcB-Kg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/yHxyxfJEBJV7a6WHVTXeBxmEU0-lePviymQM418ywKiEoAAuTw4dyKVENMJLVhUApHo",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/999W-pNV_6NFv3JXYlAF3WCV4sTDPyyeVN6NZV0gd9qIntukmlTA2hSe1UpGZDl3qQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/FYU7UnkXaAzU0AFYXMK5eiuj6oUtfraRgFG-_RArmKQa2fsz8v-qvEiF_7Qr1YMJDO-j",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/I26SxDPWMyWyMx0nIJuCw9Fh7IJk8gvQqc7yunA2I6EV9Hec76OghVayzQ2JkDCL0nZ4",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/QJdg5MjwV_Qh19DezSOf2E-3BeuNHAQvRovBCpKxe4cWxeVb7a3rRQRkmR7FB4Pq3g",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://dearhealth.com/privacy/",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "Users interact<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.dearhealth",
+    "reviewsUrl": "rev?doc=com.dearhealth&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.dearhealth",
+    "title": "DEARhealth",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "alberto.montilla@dearhealth.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "5 Feb 2018"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-05-27 10:05:14.538118",
+    "backendDocid": "com.dearhealth",
+    "backendId": 3,
+    "creator": "DEAR Health Inc",
+    "descriptionHtml": "DEARhealth is a new solution enabling you securely manage your health. Use your DEARhealth account to manage your health and disease activity under the principles of Value-Based healthcare.<br><br>We measure the value of your care with a Value Quotient\u00ae or VQ\u00ae which captures the value of healthcare services to individual patients, including disease control, quality of life and daily productivity. <br><br>DEARhealth allows you to:<br>\u2022 Check your current and historical VQ\u00ae<br>\u2022 View your individualized Care Program<br>\u2022 Complete your home care <br>\u2022 Contact your healthcare team via secure messaging<br>\u2022 View upcoming labs, clinic visits, scheduled home care, and procedures<br>\u2022 Learn about your disease with MyAcademy<br>\u2022 Access your Wellness programs - MyCoach, MyMenu, MyAccupressure, My Fitness, MyYoga and MyMeditation.<br>\u2022 Review and confirm your medication<br><br>To access the DEARhealth services delivered through the app, you must create an account with your healthcare provider. Visit DEARhealth website for a listing of supported providers. If your provider is not listed or you need help setting up the account, please contact them directly.<br><br>For feedback about the app, contact us at support@dearhealth.com",
+    "descriptionShort": "DEARhealth is a new solution enabling you securely manage your health.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "38374501",
+          "unknown3": 29
+        },
+        "developerEmail": "alberto.montilla@dearhealth.com",
+        "developerName": "DEAR Health Inc",
+        "developerWebsite": "http://www.dearhealth.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "38374501",
+            "versionCode": 65
+          }
+        ],
+        "installationSize": "38374501",
+        "numDownloads": "100+ downloads",
+        "packageName": "com.dearhealth",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.CAMERA",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.USE_FINGERPRINT",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.something.app.permission.C2D_MESSAGE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE"
+        ],
+        "recentChangesHtml": "External order support added.",
+        "unstable": true,
+        "uploadDate": "4 May 2021",
+        "versionCode": 65,
+        "versionString": "4.0.9"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.dearhealth",
+    "docType": 1,
+    "docid": "com.dearhealth",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/b4IykfwUvW_NM655XAbQkLFxmpMoS7niMjAoYo-BdQNSZnPkZXxIoiczsWi0a2wMVg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/2EbPoNy6ti0hLKcOxSSSOIe_eTVcN7MaaU4h82M_AgBU93X0fK00R457qicVz3my0i0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 16,
+        "imageUrl": "https://play-lh.googleusercontent.com/mXpJ1TqsS86X1pC1yoMFkHbhQBdag355J6bKo_d3I06zivYvflxf-XFE2Ma6pWcB-Kg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/yHxyxfJEBJV7a6WHVTXeBxmEU0-lePviymQM418ywKiEoAAuTw4dyKVENMJLVhUApHo",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/999W-pNV_6NFv3JXYlAF3WCV4sTDPyyeVN6NZV0gd9qIntukmlTA2hSe1UpGZDl3qQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/FYU7UnkXaAzU0AFYXMK5eiuj6oUtfraRgFG-_RArmKQa2fsz8v-qvEiF_7Qr1YMJDO-j",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/I26SxDPWMyWyMx0nIJuCw9Fh7IJk8gvQqc7yunA2I6EV9Hec76OghVayzQ2JkDCL0nZ4",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/QJdg5MjwV_Qh19DezSOf2E-3BeuNHAQvRovBCpKxe4cWxeVb7a3rRQRkmR7FB4Pq3g",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://dearhealth.com/privacy/",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "Users interact<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.dearhealth",
+    "reviewsUrl": "rev?doc=com.dearhealth&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.dearhealth",
+    "title": "DEARhealth",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "alberto.montilla@dearhealth.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "5 Feb 2018"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-12-16 01:44:34.375221",
+    "backendDocid": "com.dearhealth",
+    "backendId": 3,
+    "creator": "DEAR Health Inc",
+    "descriptionHtml": "DEARhealth is a new solution enabling you securely manage your health. Use your DEARhealth account to manage your health and disease activity under the principles of Value-Based healthcare.<br><br>We measure the value of your care with a Value Quotient\u00ae or VQ\u00ae which captures the value of healthcare services to individual patients, including disease control, quality of life and daily productivity. <br><br>DEARhealth allows you to:<br>\u2022 Check your current and historical VQ\u00ae<br>\u2022 View your individualized Care Program<br>\u2022 Complete your home care <br>\u2022 Contact your healthcare team via secure messaging<br>\u2022 View upcoming labs, clinic visits, scheduled home care, and procedures<br>\u2022 Learn about your disease with MyAcademy<br>\u2022 Access your Wellness programs - MyCoach, MyMenu, MyAccupressure, My Fitness, MyYoga and MyMeditation.<br>\u2022 Review and confirm your medication<br><br>To access the DEARhealth services delivered through the app, you must create an account with your healthcare provider. Visit DEARhealth website for a listing of supported providers. If your provider is not listed or you need help setting up the account, please contact them directly.<br><br>For feedback about the app, contact us at support@dearhealth.com",
+    "descriptionShort": "DEARhealth is a new solution enabling you securely manage your health.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "23684225",
+          "unknown3": 30
+        },
+        "developerEmail": "info@dearhealth.com",
+        "developerName": "DEAR Health Inc",
+        "developerWebsite": "http://www.dearhealth.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "5760452",
+            "versionCode": 50030
+          },
+          {
+            "fileType": 0,
+            "size": "76192",
+            "versionCode": 50030
+          },
+          {
+            "fileType": 0,
+            "size": "20889",
+            "versionCode": 50030
+          },
+          {
+            "fileType": 0,
+            "size": "33177",
+            "versionCode": 50030
+          },
+          {
+            "fileType": 0,
+            "size": "17793515",
+            "versionCode": 50030
+          }
+        ],
+        "installationSize": "23684225",
+        "numDownloads": "100+ downloads",
+        "packageName": "com.dearhealth",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.INTERNET",
+          "android.permission.USE_BIOMETRIC",
+          "android.permission.USE_FINGERPRINT",
+          "android.permission.WAKE_LOCK",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+        ],
+        "recentChangesHtml": "Small Updates",
+        "unstable": true,
+        "uploadDate": "9 Dec 2021",
+        "versionCode": 50030,
+        "versionString": "5.0.0"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.dearhealth",
+    "docType": 1,
+    "docid": "com.dearhealth",
+    "image": [
+      {
+        "color": "#02B7CA",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/b4IykfwUvW_NM655XAbQkLFxmpMoS7niMjAoYo-BdQNSZnPkZXxIoiczsWi0a2wMVg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#0AC2CA",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/2EbPoNy6ti0hLKcOxSSSOIe_eTVcN7MaaU4h82M_AgBU93X0fK00R457qicVz3my0i0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 16,
+        "imageUrl": "https://play-lh.googleusercontent.com/mXpJ1TqsS86X1pC1yoMFkHbhQBdag355J6bKo_d3I06zivYvflxf-XFE2Ma6pWcB-Kg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Ux-XUYJewAjk5HOsA3Df_vlSNvakvZ6ra6SfxiQLzn8PI5K1jST_8XsJflFpLVdHmHc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/pWzUWpiHMkl0Jbxz43rBK7EvsTD2mC7JwCrTgC2B0b44agcwOPCvFREfjlSDre3xog",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/9U1y58qNftGYYNZ09Bzrz7csYYg-rbfmc2Hn6bnl2dYdJiRMtl-zG7lxsSawLUJcEg",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://dearhealth.com/privacy/",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "Users interact<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.dearhealth",
+    "reviewsUrl": "rev?doc=com.dearhealth&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.dearhealth",
+    "title": "DEARhealth",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "info@dearhealth.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "5 Feb 2018"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-12-20 01:28:45.695644",
+    "backendDocid": "com.dearhealth",
+    "backendId": 3,
+    "creator": "DEAR Health Inc",
+    "descriptionHtml": "DEARhealth is a new solution enabling you securely manage your health. Use your DEARhealth account to manage your health and disease activity under the principles of Value-Based healthcare.<br><br>We measure the value of your care with a Value Quotient\u00ae or VQ\u00ae which captures the value of healthcare services to individual patients, including disease control, quality of life and daily productivity. <br><br>DEARhealth allows you to:<br>\u2022 Check your current and historical VQ\u00ae<br>\u2022 View your individualized Care Program<br>\u2022 Complete your home care <br>\u2022 Contact your healthcare team via secure messaging<br>\u2022 View upcoming labs, clinic visits, scheduled home care, and procedures<br>\u2022 Learn about your disease with MyAcademy<br>\u2022 Access your Wellness programs - MyCoach, MyMenu, MyAccupressure, My Fitness, MyYoga and MyMeditation.<br>\u2022 Review and confirm your medication<br><br>To access the DEARhealth services delivered through the app, you must create an account with your healthcare provider. Visit DEARhealth website for a listing of supported providers. If your provider is not listed or you need help setting up the account, please contact them directly.<br><br>For feedback about the app, contact us at support@dearhealth.com",
+    "descriptionShort": "DEARhealth is a new solution enabling you securely manage your health.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "38374501",
+          "unknown3": 29
+        },
+        "developerEmail": "info@dearhealth.com",
+        "developerName": "DEAR Health Inc",
+        "developerWebsite": "http://www.dearhealth.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "38374501",
+            "versionCode": 65
+          }
+        ],
+        "installationSize": "38374501",
+        "numDownloads": "100+ downloads",
+        "packageName": "com.dearhealth",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.CAMERA",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.USE_FINGERPRINT",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.something.app.permission.C2D_MESSAGE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE"
+        ],
+        "recentChangesHtml": "External order support added.",
+        "unstable": true,
+        "uploadDate": "4 May 2021",
+        "versionCode": 65,
+        "versionString": "4.0.9"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.dearhealth",
+    "docType": 1,
+    "docid": "com.dearhealth",
+    "image": [
+      {
+        "color": "#02B7CA",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/b4IykfwUvW_NM655XAbQkLFxmpMoS7niMjAoYo-BdQNSZnPkZXxIoiczsWi0a2wMVg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#0AC2CA",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/2EbPoNy6ti0hLKcOxSSSOIe_eTVcN7MaaU4h82M_AgBU93X0fK00R457qicVz3my0i0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 16,
+        "imageUrl": "https://play-lh.googleusercontent.com/mXpJ1TqsS86X1pC1yoMFkHbhQBdag355J6bKo_d3I06zivYvflxf-XFE2Ma6pWcB-Kg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Ux-XUYJewAjk5HOsA3Df_vlSNvakvZ6ra6SfxiQLzn8PI5K1jST_8XsJflFpLVdHmHc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/pWzUWpiHMkl0Jbxz43rBK7EvsTD2mC7JwCrTgC2B0b44agcwOPCvFREfjlSDre3xog",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/9U1y58qNftGYYNZ09Bzrz7csYYg-rbfmc2Hn6bnl2dYdJiRMtl-zG7lxsSawLUJcEg",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://dearhealth.com/privacy/",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "Users interact<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.dearhealth",
+    "reviewsUrl": "rev?doc=com.dearhealth&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.dearhealth",
+    "title": "DEARhealth",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "DEAR Health Inc"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "info@dearhealth.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "5 Feb 2018"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-12-23 12:26:00.789135",
+    "backendDocid": "com.dearhealth",
+    "backendId": 3,
+    "creator": "DEAR Health Inc",
+    "descriptionHtml": "DEARhealth is a new solution enabling you securely manage your health. Use your DEARhealth account to manage your health and disease activity under the principles of Value-Based healthcare.<br><br>We measure the value of your care with a Value Quotient\u00ae or VQ\u00ae which captures the value of healthcare services to individual patients, including disease control, quality of life and daily productivity. <br><br>DEARhealth allows you to:<br>\u2022 Check your current and historical VQ\u00ae<br>\u2022 View your individualized Care Program<br>\u2022 Complete your home care <br>\u2022 Contact your healthcare team via secure messaging<br>\u2022 View upcoming labs, clinic visits, scheduled home care, and procedures<br>\u2022 Learn about your disease with MyAcademy<br>\u2022 Access your Wellness programs - MyCoach, MyMenu, MyAccupressure, My Fitness, MyYoga and MyMeditation.<br>\u2022 Review and confirm your medication<br><br>To access the DEARhealth services delivered through the app, you must create an account with your healthcare provider. Visit DEARhealth website for a listing of supported providers. If your provider is not listed or you need help setting up the account, please contact them directly.<br><br>For feedback about the app, contact us at support@dearhealth.com",
+    "descriptionShort": "DEARhealth is a new solution enabling you securely manage your health.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "23766963",
+          "unknown3": 30
+        },
+        "developerEmail": "info@dearhealth.com",
+        "developerName": "DEAR Health Inc",
+        "developerWebsite": "http://www.dearhealth.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "5760452",
+            "versionCode": 50132
+          },
+          {
+            "fileType": 0,
+            "size": "76192",
+            "versionCode": 50132
+          },
+          {
+            "fileType": 0,
+            "size": "16793",
+            "versionCode": 50132
+          },
+          {
+            "fileType": 0,
+            "size": "20889",
+            "versionCode": 50132
+          },
+          {
+            "fileType": 0,
+            "size": "20889",
+            "versionCode": 50132
+          },
+          {
+            "fileType": 0,
+            "size": "33177",
+            "versionCode": 50132
+          },
+          {
+            "fileType": 0,
+            "size": "17838571",
+            "versionCode": 50132
+          }
+        ],
+        "installationSize": "23766963",
+        "numDownloads": "100+ downloads",
+        "packageName": "com.dearhealth",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.INTERNET",
+          "android.permission.USE_BIOMETRIC",
+          "android.permission.USE_FINGERPRINT",
+          "android.permission.WAKE_LOCK",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+        ],
+        "recentChangesHtml": "External order support added.",
+        "unstable": true,
+        "uploadDate": "16 Dec 2021",
+        "versionCode": 50132,
+        "versionString": "5.0.1"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.dearhealth",
+    "docType": 1,
+    "docid": "com.dearhealth",
+    "image": [
+      {
+        "color": "#02B7CA",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/b4IykfwUvW_NM655XAbQkLFxmpMoS7niMjAoYo-BdQNSZnPkZXxIoiczsWi0a2wMVg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#0AC2CA",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/2EbPoNy6ti0hLKcOxSSSOIe_eTVcN7MaaU4h82M_AgBU93X0fK00R457qicVz3my0i0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 16,
+        "imageUrl": "https://play-lh.googleusercontent.com/mXpJ1TqsS86X1pC1yoMFkHbhQBdag355J6bKo_d3I06zivYvflxf-XFE2Ma6pWcB-Kg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Ux-XUYJewAjk5HOsA3Df_vlSNvakvZ6ra6SfxiQLzn8PI5K1jST_8XsJflFpLVdHmHc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/pWzUWpiHMkl0Jbxz43rBK7EvsTD2mC7JwCrTgC2B0b44agcwOPCvFREfjlSDre3xog",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/9U1y58qNftGYYNZ09Bzrz7csYYg-rbfmc2Hn6bnl2dYdJiRMtl-zG7lxsSawLUJcEg",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://dearhealth.com/privacy/",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "Users interact<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.dearhealth",
+    "reviewsUrl": "rev?doc=com.dearhealth&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.dearhealth",
+    "title": "DEARhealth",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "info@dearhealth.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "5 Feb 2018"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-02-04 16:53:31.819640",
+    "backendDocid": "com.dearhealth",
+    "backendId": 3,
+    "creator": "DEAR Health Inc",
+    "descriptionHtml": "DEARhealth is a new solution enabling you securely manage your health. Use your DEARhealth account to manage your health and disease activity under the principles of Value-Based healthcare.<br><br>We measure the value of your care with a Value Quotient\u00ae or VQ\u00ae which captures the value of healthcare services to individual patients, including disease control, quality of life and daily productivity. <br><br>DEARhealth allows you to:<br>\u2022 Check your current and historical VQ\u00ae<br>\u2022 View your individualized Care Program<br>\u2022 Complete your home care <br>\u2022 Contact your healthcare team via secure messaging<br>\u2022 View upcoming labs, clinic visits, scheduled home care, and procedures<br>\u2022 Learn about your disease with MyAcademy<br>\u2022 Access your Wellness programs - MyCoach, MyMenu, MyAccupressure, My Fitness, MyYoga and MyMeditation.<br>\u2022 Review and confirm your medication<br><br>To access the DEARhealth services delivered through the app, you must create an account with your healthcare provider. Visit DEARhealth website for a listing of supported providers. If your provider is not listed or you need help setting up the account, please contact them directly.<br><br>For feedback about the app, contact us at support@dearhealth.com",
+    "descriptionShort": "DEARhealth is a new solution enabling you securely manage your health.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "38374501",
+          "unknown3": 29
+        },
+        "developerEmail": "info@dearhealth.com",
+        "developerName": "DEAR Health Inc",
+        "developerWebsite": "http://www.dearhealth.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "38374501",
+            "versionCode": 65
+          }
+        ],
+        "installationSize": "38374501",
+        "numDownloads": "100+ downloads",
+        "packageName": "com.dearhealth",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.CAMERA",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.USE_FINGERPRINT",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.something.app.permission.C2D_MESSAGE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE"
+        ],
+        "recentChangesHtml": "External order support added.",
+        "unstable": true,
+        "uploadDate": "4 May 2021",
+        "versionCode": 65,
+        "versionString": "4.0.9"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.dearhealth",
+    "docType": 1,
+    "docid": "com.dearhealth",
+    "image": [
+      {
+        "color": "#02B7CA",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/b4IykfwUvW_NM655XAbQkLFxmpMoS7niMjAoYo-BdQNSZnPkZXxIoiczsWi0a2wMVg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#0AC2CA",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/2EbPoNy6ti0hLKcOxSSSOIe_eTVcN7MaaU4h82M_AgBU93X0fK00R457qicVz3my0i0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 16,
+        "imageUrl": "https://play-lh.googleusercontent.com/mXpJ1TqsS86X1pC1yoMFkHbhQBdag355J6bKo_d3I06zivYvflxf-XFE2Ma6pWcB-Kg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Ux-XUYJewAjk5HOsA3Df_vlSNvakvZ6ra6SfxiQLzn8PI5K1jST_8XsJflFpLVdHmHc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/pWzUWpiHMkl0Jbxz43rBK7EvsTD2mC7JwCrTgC2B0b44agcwOPCvFREfjlSDre3xog",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/9U1y58qNftGYYNZ09Bzrz7csYYg-rbfmc2Hn6bnl2dYdJiRMtl-zG7lxsSawLUJcEg",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://dearhealth.com/privacy/",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "Users interact<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.dearhealth",
+    "reviewsUrl": "rev?doc=com.dearhealth&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.dearhealth",
+    "title": "DEARhealth",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "DEAR Health Inc"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "info@dearhealth.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "5 Feb 2018"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-02-06 20:49:12.112476",
+    "backendDocid": "com.dearhealth",
+    "backendId": 3,
+    "creator": "DEAR Health Inc",
+    "descriptionHtml": "DEARhealth is a new solution enabling you securely manage your health. Use your DEARhealth account to manage your health and disease activity under the principles of Value-Based healthcare.<br><br>We measure the value of your care with a Value Quotient\u00ae or VQ\u00ae which captures the value of healthcare services to individual patients, including disease control, quality of life and daily productivity. <br><br>DEARhealth allows you to:<br>\u2022 Check your current and historical VQ\u00ae<br>\u2022 View your individualized Care Program<br>\u2022 Complete your home care <br>\u2022 Contact your healthcare team via secure messaging<br>\u2022 View upcoming labs, clinic visits, scheduled home care, and procedures<br>\u2022 Learn about your disease with MyAcademy<br>\u2022 Access your Wellness programs - MyCoach, MyMenu, MyAccupressure, My Fitness, MyYoga and MyMeditation.<br>\u2022 Review and confirm your medication<br><br>To access the DEARhealth services delivered through the app, you must create an account with your healthcare provider. Visit DEARhealth website for a listing of supported providers. If your provider is not listed or you need help setting up the account, please contact them directly.<br><br>For feedback about the app, contact us at support@dearhealth.com",
+    "descriptionShort": "DEARhealth is a new solution enabling you securely manage your health.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "38374501",
+          "unknown3": 29
+        },
+        "developerEmail": "info@dearhealth.com",
+        "developerName": "DEAR Health Inc",
+        "developerWebsite": "http://www.dearhealth.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "38374501",
+            "versionCode": 65
+          }
+        ],
+        "installationSize": "38374501",
+        "numDownloads": "100+ downloads",
+        "packageName": "com.dearhealth",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.CAMERA",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.USE_FINGERPRINT",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.something.app.permission.C2D_MESSAGE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE"
+        ],
+        "recentChangesHtml": "External order support added.",
+        "unstable": true,
+        "uploadDate": "4 May 2021",
+        "versionCode": 65,
+        "versionString": "4.0.9"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.dearhealth",
+    "docType": 1,
+    "docid": "com.dearhealth",
+    "image": [
+      {
+        "color": "#02B7CA",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/b4IykfwUvW_NM655XAbQkLFxmpMoS7niMjAoYo-BdQNSZnPkZXxIoiczsWi0a2wMVg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#0AC2CA",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/2EbPoNy6ti0hLKcOxSSSOIe_eTVcN7MaaU4h82M_AgBU93X0fK00R457qicVz3my0i0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 16,
+        "imageUrl": "https://play-lh.googleusercontent.com/mXpJ1TqsS86X1pC1yoMFkHbhQBdag355J6bKo_d3I06zivYvflxf-XFE2Ma6pWcB-Kg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Ux-XUYJewAjk5HOsA3Df_vlSNvakvZ6ra6SfxiQLzn8PI5K1jST_8XsJflFpLVdHmHc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/pWzUWpiHMkl0Jbxz43rBK7EvsTD2mC7JwCrTgC2B0b44agcwOPCvFREfjlSDre3xog",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/9U1y58qNftGYYNZ09Bzrz7csYYg-rbfmc2Hn6bnl2dYdJiRMtl-zG7lxsSawLUJcEg",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://dearhealth.com/privacy/",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "Users interact<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.dearhealth",
+    "reviewsUrl": "rev?doc=com.dearhealth&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.dearhealth",
+    "title": "DEARhealth",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "DEAR Health Inc"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "info@dearhealth.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "5 Feb 2018"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-02-07 14:26:45.508119",
+    "backendDocid": "com.dearhealth",
+    "backendId": 3,
+    "creator": "DEAR Health Inc",
+    "descriptionHtml": "DEARhealth is a new solution enabling you securely manage your health. Use your DEARhealth account to manage your health and disease activity under the principles of Value-Based healthcare.<br><br>We measure the value of your care with a Value Quotient\u00ae or VQ\u00ae which captures the value of healthcare services to individual patients, including disease control, quality of life and daily productivity. <br><br>DEARhealth allows you to:<br>\u2022 Check your current and historical VQ\u00ae<br>\u2022 View your individualized Care Program<br>\u2022 Complete your home care <br>\u2022 Contact your healthcare team via secure messaging<br>\u2022 View upcoming labs, clinic visits, scheduled home care, and procedures<br>\u2022 Learn about your disease with MyAcademy<br>\u2022 Access your Wellness programs - MyCoach, MyMenu, MyAccupressure, My Fitness, MyYoga and MyMeditation.<br>\u2022 Review and confirm your medication<br><br>To access the DEARhealth services delivered through the app, you must create an account with your healthcare provider. Visit DEARhealth website for a listing of supported providers. If your provider is not listed or you need help setting up the account, please contact them directly.<br><br>For feedback about the app, contact us at support@dearhealth.com",
+    "descriptionShort": "DEARhealth is a new solution enabling you securely manage your health.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "22977439",
+          "unknown3": 30
+        },
+        "developerEmail": "info@dearhealth.com",
+        "developerName": "DEAR Health Inc",
+        "developerWebsite": "http://www.dearhealth.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "5794224",
+            "versionCode": 50338
+          },
+          {
+            "fileType": 0,
+            "size": "76192",
+            "versionCode": 50338
+          },
+          {
+            "fileType": 0,
+            "size": "16793",
+            "versionCode": 50338
+          },
+          {
+            "fileType": 0,
+            "size": "20889",
+            "versionCode": 50338
+          },
+          {
+            "fileType": 0,
+            "size": "20889",
+            "versionCode": 50338
+          },
+          {
+            "fileType": 0,
+            "size": "33177",
+            "versionCode": 50338
+          },
+          {
+            "fileType": 0,
+            "size": "17015275",
+            "versionCode": 50338
+          }
+        ],
+        "installationSize": "22977439",
+        "numDownloads": "100+ downloads",
+        "packageName": "com.dearhealth",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.INTERNET",
+          "android.permission.USE_BIOMETRIC",
+          "android.permission.USE_FINGERPRINT",
+          "android.permission.WAKE_LOCK",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+        ],
+        "recentChangesHtml": "External order support added.",
+        "unstable": true,
+        "uploadDate": "26 Jan 2022",
+        "versionCode": 50338,
+        "versionString": "5.0.3"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.dearhealth",
+    "docType": 1,
+    "docid": "com.dearhealth",
+    "image": [
+      {
+        "color": "#02B7CA",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/b4IykfwUvW_NM655XAbQkLFxmpMoS7niMjAoYo-BdQNSZnPkZXxIoiczsWi0a2wMVg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#0AC2CA",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/2EbPoNy6ti0hLKcOxSSSOIe_eTVcN7MaaU4h82M_AgBU93X0fK00R457qicVz3my0i0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 16,
+        "imageUrl": "https://play-lh.googleusercontent.com/mXpJ1TqsS86X1pC1yoMFkHbhQBdag355J6bKo_d3I06zivYvflxf-XFE2Ma6pWcB-Kg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Ux-XUYJewAjk5HOsA3Df_vlSNvakvZ6ra6SfxiQLzn8PI5K1jST_8XsJflFpLVdHmHc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/pWzUWpiHMkl0Jbxz43rBK7EvsTD2mC7JwCrTgC2B0b44agcwOPCvFREfjlSDre3xog",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/9U1y58qNftGYYNZ09Bzrz7csYYg-rbfmc2Hn6bnl2dYdJiRMtl-zG7lxsSawLUJcEg",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://dearhealth.com/privacy/",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "Users interact<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.dearhealth",
+    "reviewsUrl": "rev?doc=com.dearhealth&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.dearhealth",
+    "title": "DEARhealth",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "info@dearhealth.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "5 Feb 2018"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-02-08 03:34:45.858036",
+    "backendDocid": "com.dearhealth",
+    "backendId": 3,
+    "creator": "DEAR Health Inc",
+    "descriptionHtml": "DEARhealth is a new solution enabling you securely manage your health. Use your DEARhealth account to manage your health and disease activity under the principles of Value-Based healthcare.<br><br>We measure the value of your care with a Value Quotient\u00ae or VQ\u00ae which captures the value of healthcare services to individual patients, including disease control, quality of life and daily productivity. <br><br>DEARhealth allows you to:<br>\u2022 Check your current and historical VQ\u00ae<br>\u2022 View your individualized Care Program<br>\u2022 Complete your home care <br>\u2022 Contact your healthcare team via secure messaging<br>\u2022 View upcoming labs, clinic visits, scheduled home care, and procedures<br>\u2022 Learn about your disease with MyAcademy<br>\u2022 Access your Wellness programs - MyCoach, MyMenu, MyAccupressure, My Fitness, MyYoga and MyMeditation.<br>\u2022 Review and confirm your medication<br><br>To access the DEARhealth services delivered through the app, you must create an account with your healthcare provider. Visit DEARhealth website for a listing of supported providers. If your provider is not listed or you need help setting up the account, please contact them directly.<br><br>For feedback about the app, contact us at support@dearhealth.com",
+    "descriptionShort": "DEARhealth is a new solution enabling you securely manage your health.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "23115918",
+          "unknown3": 30
+        },
+        "developerEmail": "info@dearhealth.com",
+        "developerName": "DEAR Health Inc",
+        "developerWebsite": "http://www.dearhealth.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "5822929",
+            "versionCode": 50742
+          },
+          {
+            "fileType": 0,
+            "size": "76192",
+            "versionCode": 50742
+          },
+          {
+            "fileType": 0,
+            "size": "20889",
+            "versionCode": 50742
+          },
+          {
+            "fileType": 0,
+            "size": "33177",
+            "versionCode": 50742
+          },
+          {
+            "fileType": 0,
+            "size": "17162731",
+            "versionCode": 50742
+          }
+        ],
+        "installationSize": "23115918",
+        "numDownloads": "100+ downloads",
+        "packageName": "com.dearhealth",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.INTERNET",
+          "android.permission.QUERY_ALL_PACKAGES",
+          "android.permission.USE_BIOMETRIC",
+          "android.permission.USE_FINGERPRINT",
+          "android.permission.WAKE_LOCK",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": "Small Updates",
+        "unstable": true,
+        "uploadDate": "7 Feb 2022",
+        "versionCode": 50742,
+        "versionString": "5.0.7"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.dearhealth",
+    "docType": 1,
+    "docid": "com.dearhealth",
+    "image": [
+      {
+        "color": "#02B7CA",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/b4IykfwUvW_NM655XAbQkLFxmpMoS7niMjAoYo-BdQNSZnPkZXxIoiczsWi0a2wMVg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#0AC2CA",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/2EbPoNy6ti0hLKcOxSSSOIe_eTVcN7MaaU4h82M_AgBU93X0fK00R457qicVz3my0i0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 16,
+        "imageUrl": "https://play-lh.googleusercontent.com/mXpJ1TqsS86X1pC1yoMFkHbhQBdag355J6bKo_d3I06zivYvflxf-XFE2Ma6pWcB-Kg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Ux-XUYJewAjk5HOsA3Df_vlSNvakvZ6ra6SfxiQLzn8PI5K1jST_8XsJflFpLVdHmHc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/pWzUWpiHMkl0Jbxz43rBK7EvsTD2mC7JwCrTgC2B0b44agcwOPCvFREfjlSDre3xog",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/9U1y58qNftGYYNZ09Bzrz7csYYg-rbfmc2Hn6bnl2dYdJiRMtl-zG7lxsSawLUJcEg",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://dearhealth.com/privacy/",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "Users interact<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.dearhealth",
+    "reviewsUrl": "rev?doc=com.dearhealth&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.dearhealth",
+    "title": "DEARhealth",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "info@dearhealth.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "5 Feb 2018"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-03-29 17:53:34.265069",
+    "backendDocid": "com.dearhealth",
+    "backendId": 3,
+    "creator": "DEAR Health Inc",
+    "descriptionHtml": "DEARhealth is a new solution enabling you securely manage your health. Use your DEARhealth account to manage your health and disease activity under the principles of Value-Based healthcare.<br><br>We measure the value of your care with a Value Quotient\u00ae or VQ\u00ae which captures the value of healthcare services to individual patients, including disease control, quality of life and daily productivity. <br><br>DEARhealth allows you to:<br>\u2022 Check your current and historical VQ\u00ae<br>\u2022 View your individualized Care Program<br>\u2022 Complete your home care <br>\u2022 Contact your healthcare team via secure messaging<br>\u2022 View upcoming labs, clinic visits, scheduled home care, and procedures<br>\u2022 Learn about your disease with MyAcademy<br>\u2022 Access your Wellness programs - MyCoach, MyMenu, MyAccupressure, My Fitness, MyYoga and MyMeditation.<br>\u2022 Review and confirm your medication<br><br>To access the DEARhealth services delivered through the app, you must create an account with your healthcare provider. Visit DEARhealth website for a listing of supported providers. If your provider is not listed or you need help setting up the account, please contact them directly.<br><br>For feedback about the app, contact us at support@dearhealth.com",
+    "descriptionShort": "DEARhealth is a new solution enabling you securely manage your health.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "26802391",
+          "unknown3": 30
+        },
+        "developerEmail": "info@dearhealth.com",
+        "developerName": "DEAR Health Inc",
+        "developerWebsite": "http://www.dearhealth.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "7092762",
+            "versionCode": 51354
+          },
+          {
+            "fileType": 0,
+            "size": "76192",
+            "versionCode": 51354
+          },
+          {
+            "fileType": 0,
+            "size": "20889",
+            "versionCode": 51354
+          },
+          {
+            "fileType": 0,
+            "size": "37273",
+            "versionCode": 51354
+          },
+          {
+            "fileType": 0,
+            "size": "19575275",
+            "versionCode": 51354
+          }
+        ],
+        "installationSize": "26802391",
+        "numDownloads": "100+ downloads",
+        "packageName": "com.dearhealth",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.INTERNET",
+          "android.permission.QUERY_ALL_PACKAGES",
+          "android.permission.USE_BIOMETRIC",
+          "android.permission.USE_FINGERPRINT",
+          "android.permission.WAKE_LOCK",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": "Health Assessment History added",
+        "unstable": true,
+        "uploadDate": "16 Mar 2022",
+        "versionCode": 51354,
+        "versionString": "5.1.3"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.dearhealth",
+    "docType": 1,
+    "docid": "com.dearhealth",
+    "image": [
+      {
+        "color": "#02B7CA",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/b4IykfwUvW_NM655XAbQkLFxmpMoS7niMjAoYo-BdQNSZnPkZXxIoiczsWi0a2wMVg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#0AC2CA",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/2EbPoNy6ti0hLKcOxSSSOIe_eTVcN7MaaU4h82M_AgBU93X0fK00R457qicVz3my0i0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 16,
+        "imageUrl": "https://play-lh.googleusercontent.com/mXpJ1TqsS86X1pC1yoMFkHbhQBdag355J6bKo_d3I06zivYvflxf-XFE2Ma6pWcB-Kg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Ux-XUYJewAjk5HOsA3Df_vlSNvakvZ6ra6SfxiQLzn8PI5K1jST_8XsJflFpLVdHmHc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/pWzUWpiHMkl0Jbxz43rBK7EvsTD2mC7JwCrTgC2B0b44agcwOPCvFREfjlSDre3xog",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/9U1y58qNftGYYNZ09Bzrz7csYYg-rbfmc2Hn6bnl2dYdJiRMtl-zG7lxsSawLUJcEg",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://dearhealth.com/privacy/",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "Users interact<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.dearhealth",
+    "reviewsUrl": "rev?doc=com.dearhealth&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.dearhealth",
+    "title": "DEARhealth",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "info@dearhealth.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "5 Feb 2018"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-04-17 03:11:12.906359",
+    "backendDocid": "com.dearhealth",
+    "backendId": 3,
+    "creator": "DEAR Health Inc",
+    "descriptionHtml": "DEARhealth is a new solution enabling you securely manage your health. Use your DEARhealth account to manage your health and disease activity under the principles of Value-Based healthcare.<br><br>We measure the value of your care with a Value Quotient\u00ae or VQ\u00ae which captures the value of healthcare services to individual patients, including disease control, quality of life and daily productivity. <br><br>DEARhealth allows you to:<br>\u2022 Check your current and historical VQ\u00ae<br>\u2022 View your individualized Care Program<br>\u2022 Complete your home care <br>\u2022 Contact your healthcare team via secure messaging<br>\u2022 View upcoming labs, clinic visits, scheduled home care, and procedures<br>\u2022 Learn about your disease with MyAcademy<br>\u2022 Access your Wellness programs - MyCoach, MyMenu, MyAccupressure, My Fitness, MyYoga and MyMeditation.<br>\u2022 Review and confirm your medication<br><br>To access the DEARhealth services delivered through the app, you must create an account with your healthcare provider. Visit DEARhealth website for a listing of supported providers. If your provider is not listed or you need help setting up the account, please contact them directly.<br><br>For feedback about the app, contact us at support@dearhealth.com",
+    "descriptionShort": "DEARhealth is a new solution enabling you securely manage your health.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "26840073",
+          "unknown3": 30
+        },
+        "developerEmail": "info@dearhealth.com",
+        "developerName": "DEAR Health Inc",
+        "developerWebsite": "http://www.dearhealth.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "7092762",
+            "versionCode": 51557
+          },
+          {
+            "fileType": 0,
+            "size": "76192",
+            "versionCode": 51557
+          },
+          {
+            "fileType": 0,
+            "size": "16793",
+            "versionCode": 51557
+          },
+          {
+            "fileType": 0,
+            "size": "20889",
+            "versionCode": 51557
+          },
+          {
+            "fileType": 0,
+            "size": "20889",
+            "versionCode": 51557
+          },
+          {
+            "fileType": 0,
+            "size": "37273",
+            "versionCode": 51557
+          },
+          {
+            "fileType": 0,
+            "size": "19575275",
+            "versionCode": 51557
+          }
+        ],
+        "installationSize": "26840073",
+        "numDownloads": "100+ downloads",
+        "packageName": "com.dearhealth",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.INTERNET",
+          "android.permission.QUERY_ALL_PACKAGES",
+          "android.permission.USE_BIOMETRIC",
+          "android.permission.USE_FINGERPRINT",
+          "android.permission.WAKE_LOCK",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": "Bug Fixes",
+        "unstable": true,
+        "uploadDate": "12 Apr 2022",
+        "versionCode": 51557,
+        "versionString": "5.1.5"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.dearhealth",
+    "docType": 1,
+    "docid": "com.dearhealth",
+    "image": [
+      {
+        "color": "#02B7CA",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/b4IykfwUvW_NM655XAbQkLFxmpMoS7niMjAoYo-BdQNSZnPkZXxIoiczsWi0a2wMVg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#0AC2CA",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/2EbPoNy6ti0hLKcOxSSSOIe_eTVcN7MaaU4h82M_AgBU93X0fK00R457qicVz3my0i0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 16,
+        "imageUrl": "https://play-lh.googleusercontent.com/mXpJ1TqsS86X1pC1yoMFkHbhQBdag355J6bKo_d3I06zivYvflxf-XFE2Ma6pWcB-Kg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Ux-XUYJewAjk5HOsA3Df_vlSNvakvZ6ra6SfxiQLzn8PI5K1jST_8XsJflFpLVdHmHc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/pWzUWpiHMkl0Jbxz43rBK7EvsTD2mC7JwCrTgC2B0b44agcwOPCvFREfjlSDre3xog",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/9U1y58qNftGYYNZ09Bzrz7csYYg-rbfmc2Hn6bnl2dYdJiRMtl-zG7lxsSawLUJcEg",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://dearhealth.com/privacy/",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "Users interact<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.dearhealth",
+    "reviewsUrl": "rev?doc=com.dearhealth&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.dearhealth",
+    "title": "DEARhealth",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "info@dearhealth.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "5 Feb 2018"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-05-29 01:43:53.878296",
+    "backendDocid": "com.dearhealth",
+    "backendId": 3,
+    "creator": "DEAR Health Inc",
+    "descriptionHtml": "DEARhealth is a new solution enabling you securely manage your health. Use your DEARhealth account to manage your health and disease activity under the principles of Value-Based healthcare.<br><br>We measure the value of your care with a Value Quotient\u00ae or VQ\u00ae which captures the value of healthcare services to individual patients, including disease control, quality of life and daily productivity. <br><br>DEARhealth allows you to:<br>\u2022 Check your current and historical VQ\u00ae<br>\u2022 View your individualized Care Program<br>\u2022 Complete your home care <br>\u2022 Contact your healthcare team via secure messaging<br>\u2022 View upcoming labs, clinic visits, scheduled home care, and procedures<br>\u2022 Learn about your disease with MyAcademy<br>\u2022 Access your Wellness programs - MyCoach, MyMenu, MyAccupressure, My Fitness, MyYoga and MyMeditation.<br>\u2022 Review and confirm your medication<br><br>To access the DEARhealth services delivered through the app, you must create an account with your healthcare provider. Visit DEARhealth website for a listing of supported providers. If your provider is not listed or you need help setting up the account, please contact them directly.<br><br>For feedback about the app, contact us at support@dearhealth.com",
+    "descriptionShort": "DEARhealth is a new solution enabling you securely manage your health.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "26802391",
+          "unknown3": 30
+        },
+        "developerEmail": "info@dearhealth.com",
+        "developerName": "DEAR Health Inc",
+        "developerWebsite": "http://www.dearhealth.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "7092762",
+            "versionCode": 51659
+          },
+          {
+            "fileType": 0,
+            "size": "76192",
+            "versionCode": 51659
+          },
+          {
+            "fileType": 0,
+            "size": "20889",
+            "versionCode": 51659
+          },
+          {
+            "fileType": 0,
+            "size": "37273",
+            "versionCode": 51659
+          },
+          {
+            "fileType": 0,
+            "size": "19575275",
+            "versionCode": 51659
+          }
+        ],
+        "installationSize": "26802391",
+        "numDownloads": "100+ downloads",
+        "packageName": "com.dearhealth",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.INTERNET",
+          "android.permission.QUERY_ALL_PACKAGES",
+          "android.permission.USE_BIOMETRIC",
+          "android.permission.USE_FINGERPRINT",
+          "android.permission.WAKE_LOCK",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": "Fast login issue fixes",
+        "unstable": true,
+        "uploadDate": "10 May 2022",
+        "versionCode": 51659,
+        "versionString": "5.1.6"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.dearhealth",
+    "docType": 1,
+    "docid": "com.dearhealth",
+    "image": [
+      {
+        "color": "#02B7CA",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/b4IykfwUvW_NM655XAbQkLFxmpMoS7niMjAoYo-BdQNSZnPkZXxIoiczsWi0a2wMVg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#0AC2CA",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/2EbPoNy6ti0hLKcOxSSSOIe_eTVcN7MaaU4h82M_AgBU93X0fK00R457qicVz3my0i0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 16,
+        "imageUrl": "https://play-lh.googleusercontent.com/mXpJ1TqsS86X1pC1yoMFkHbhQBdag355J6bKo_d3I06zivYvflxf-XFE2Ma6pWcB-Kg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Ux-XUYJewAjk5HOsA3Df_vlSNvakvZ6ra6SfxiQLzn8PI5K1jST_8XsJflFpLVdHmHc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/pWzUWpiHMkl0Jbxz43rBK7EvsTD2mC7JwCrTgC2B0b44agcwOPCvFREfjlSDre3xog",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/9U1y58qNftGYYNZ09Bzrz7csYYg-rbfmc2Hn6bnl2dYdJiRMtl-zG7lxsSawLUJcEg",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://dearhealth.com/privacy/",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "Users interact<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.dearhealth",
+    "reviewsUrl": "rev?doc=com.dearhealth&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.dearhealth",
+    "title": "DEARhealth",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "info@dearhealth.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "5 Feb 2018"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-06-20 02:43:53.136667",
+    "backendDocid": "com.dearhealth",
+    "backendId": 3,
+    "creator": "DEAR Health Inc",
+    "descriptionHtml": "DEARhealth is a new solution enabling you securely manage your health. Use your DEARhealth account to manage your health and disease activity under the principles of Value-Based healthcare.<br><br>We measure the value of your care with a Value Quotient\u00ae or VQ\u00ae which captures the value of healthcare services to individual patients, including disease control, quality of life and daily productivity. <br><br>DEARhealth allows you to:<br>\u2022 Check your current and historical VQ\u00ae<br>\u2022 View your individualized Care Program<br>\u2022 Complete your home care <br>\u2022 Contact your healthcare team via secure messaging<br>\u2022 View upcoming labs, clinic visits, scheduled home care, and procedures<br>\u2022 Learn about your disease with MyAcademy<br>\u2022 Access your Wellness programs - MyCoach, MyMenu, MyAccupressure, My Fitness, MyYoga and MyMeditation.<br>\u2022 Review and confirm your medication<br><br>To access the DEARhealth services delivered through the app, you must create an account with your healthcare provider. Visit DEARhealth website for a listing of supported providers. If your provider is not listed or you need help setting up the account, please contact them directly.<br><br>For feedback about the app, contact us at support@dearhealth.com",
+    "descriptionShort": "DEARhealth is a new solution enabling you securely manage your health.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "26863867",
+          "unknown3": 30
+        },
+        "developerEmail": "info@dearhealth.com",
+        "developerName": "DEAR Health Inc",
+        "developerWebsite": "http://www.dearhealth.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "7105086",
+            "versionCode": 51970
+          },
+          {
+            "fileType": 0,
+            "size": "76192",
+            "versionCode": 51970
+          },
+          {
+            "fileType": 0,
+            "size": "20889",
+            "versionCode": 51970
+          },
+          {
+            "fileType": 0,
+            "size": "37273",
+            "versionCode": 51970
+          },
+          {
+            "fileType": 0,
+            "size": "19624427",
+            "versionCode": 51970
+          }
+        ],
+        "installationSize": "26863867",
+        "numDownloads": "100+ downloads",
+        "packageName": "com.dearhealth",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.INTERNET",
+          "android.permission.QUERY_ALL_PACKAGES",
+          "android.permission.USE_BIOMETRIC",
+          "android.permission.USE_FINGERPRINT",
+          "android.permission.WAKE_LOCK",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": "Implementation of force update",
+        "unstable": true,
+        "uploadDate": "19 Jun 2022",
+        "versionCode": 51970,
+        "versionString": "5.1.9"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.dearhealth",
+    "docType": 1,
+    "docid": "com.dearhealth",
+    "image": [
+      {
+        "color": "#02B7CA",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/b4IykfwUvW_NM655XAbQkLFxmpMoS7niMjAoYo-BdQNSZnPkZXxIoiczsWi0a2wMVg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#0AC2CA",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/2EbPoNy6ti0hLKcOxSSSOIe_eTVcN7MaaU4h82M_AgBU93X0fK00R457qicVz3my0i0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 16,
+        "imageUrl": "https://play-lh.googleusercontent.com/mXpJ1TqsS86X1pC1yoMFkHbhQBdag355J6bKo_d3I06zivYvflxf-XFE2Ma6pWcB-Kg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Ux-XUYJewAjk5HOsA3Df_vlSNvakvZ6ra6SfxiQLzn8PI5K1jST_8XsJflFpLVdHmHc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/pWzUWpiHMkl0Jbxz43rBK7EvsTD2mC7JwCrTgC2B0b44agcwOPCvFREfjlSDre3xog",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/9U1y58qNftGYYNZ09Bzrz7csYYg-rbfmc2Hn6bnl2dYdJiRMtl-zG7lxsSawLUJcEg",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://dearhealth.com/privacy/",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "Users interact<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.dearhealth",
+    "reviewsUrl": "rev?doc=com.dearhealth&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.dearhealth",
+    "title": "DEARhealth",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "info@dearhealth.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "5 Feb 2018"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "2",
+      "fiveStarRatings": "4",
+      "fourStarRatings": "0",
+      "oneStarRatings": "1",
+      "ratingsCount": "5",
+      "starRating": 4.2,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-07-28 06:25:48.273120",
+    "backendDocid": "com.dearhealth",
+    "backendId": 3,
+    "creator": "DEAR Health Inc",
+    "descriptionHtml": "DEARhealth is a new solution enabling you securely manage your health. Use your DEARhealth account to manage your health and disease activity under the principles of Value-Based healthcare.<br><br>We measure the value of your care with a Value Quotient\u00ae or VQ\u00ae which captures the value of healthcare services to individual patients, including disease control, quality of life and daily productivity. <br><br>DEARhealth allows you to:<br>\u2022 Check your current and historical VQ\u00ae<br>\u2022 View your individualized Care Program<br>\u2022 Complete your home care <br>\u2022 Contact your healthcare team via secure messaging<br>\u2022 View upcoming labs, clinic visits, scheduled home care, and procedures<br>\u2022 Learn about your disease with MyAcademy<br>\u2022 Access your Wellness programs - MyCoach, MyMenu, MyAccupressure, My Fitness, MyYoga and MyMeditation.<br>\u2022 Review and confirm your medication<br><br>To access the DEARhealth services delivered through the app, you must create an account with your healthcare provider. Visit DEARhealth website for a listing of supported providers. If your provider is not listed or you need help setting up the account, please contact them directly.<br><br>For feedback about the app, contact us at support@dearhealth.com",
+    "descriptionShort": "DEARhealth is a new solution enabling you securely manage your health.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "28225127",
+          "unknown3": 30
+        },
+        "developerEmail": "info@dearhealth.com",
+        "developerName": "DEAR Health Inc",
+        "developerWebsite": "http://www.dearhealth.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "7650612",
+            "versionCode": 52074
+          },
+          {
+            "fileType": 0,
+            "size": "67812",
+            "versionCode": 52074
+          },
+          {
+            "fileType": 0,
+            "size": "20889",
+            "versionCode": 52074
+          },
+          {
+            "fileType": 0,
+            "size": "24985",
+            "versionCode": 52074
+          },
+          {
+            "fileType": 0,
+            "size": "24985",
+            "versionCode": 52074
+          },
+          {
+            "fileType": 0,
+            "size": "41369",
+            "versionCode": 52074
+          },
+          {
+            "fileType": 0,
+            "size": "20394475",
+            "versionCode": 52074
+          }
+        ],
+        "installationSize": "28225127",
+        "numDownloads": "100+ downloads",
+        "packageName": "com.dearhealth",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.INTERNET",
+          "android.permission.QUERY_ALL_PACKAGES",
+          "android.permission.USE_BIOMETRIC",
+          "android.permission.USE_FINGERPRINT",
+          "android.permission.WAKE_LOCK",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": "Questionnaire Implementation",
+        "unstable": true,
+        "uploadDate": "27 Jun 2022",
+        "versionCode": 52074,
+        "versionString": "5.2.0"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.dearhealth",
+    "docType": 1,
+    "docid": "com.dearhealth",
+    "image": [
+      {
+        "color": "#02B7CA",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/b4IykfwUvW_NM655XAbQkLFxmpMoS7niMjAoYo-BdQNSZnPkZXxIoiczsWi0a2wMVg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#0AC2CA",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/2EbPoNy6ti0hLKcOxSSSOIe_eTVcN7MaaU4h82M_AgBU93X0fK00R457qicVz3my0i0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 16,
+        "imageUrl": "https://play-lh.googleusercontent.com/mXpJ1TqsS86X1pC1yoMFkHbhQBdag355J6bKo_d3I06zivYvflxf-XFE2Ma6pWcB-Kg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Ux-XUYJewAjk5HOsA3Df_vlSNvakvZ6ra6SfxiQLzn8PI5K1jST_8XsJflFpLVdHmHc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/pWzUWpiHMkl0Jbxz43rBK7EvsTD2mC7JwCrTgC2B0b44agcwOPCvFREfjlSDre3xog",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/9U1y58qNftGYYNZ09Bzrz7csYYg-rbfmc2Hn6bnl2dYdJiRMtl-zG7lxsSawLUJcEg",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://dearhealth.com/privacy/",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "Users interact<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.dearhealth",
+    "reviewsUrl": "rev?doc=com.dearhealth&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.dearhealth",
+    "title": "DEARhealth",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "info@dearhealth.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "5 Feb 2018"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-10-04 17:09:01.921339",
+    "backendDocid": "com.dearhealth",
+    "backendId": 3,
+    "creator": "DEAR Health Inc",
+    "descriptionHtml": "DEARhealth is a new solution enabling you securely manage your health. Use your DEARhealth account to manage your health and disease activity under the principles of Value-Based healthcare.<br><br>We measure the value of your care with a Value Quotient\u00ae or VQ\u00ae which captures the value of healthcare services to individual patients, including disease control, quality of life and daily productivity. <br><br>DEARhealth allows you to:<br>\u2022 Check your current and historical VQ\u00ae<br>\u2022 View your individualized Care Program<br>\u2022 Complete your home care <br>\u2022 Contact your healthcare team via secure messaging<br>\u2022 View upcoming labs, clinic visits, scheduled home care, and procedures<br>\u2022 Learn about your disease with MyAcademy<br>\u2022 Access your Wellness programs - MyCoach, MyMenu, MyAccupressure, My Fitness, MyYoga and MyMeditation.<br>\u2022 Review and confirm your medication<br><br>To access the DEARhealth services delivered through the app, you must create an account with your healthcare provider. Visit DEARhealth website for a listing of supported providers. If your provider is not listed or you need help setting up the account, please contact them directly.<br><br>For feedback about the app, contact us at support@dearhealth.com",
+    "descriptionShort": "DEARhealth is a new solution enabling you securely manage your health.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "28568373",
+          "unknown3": 30
+        },
+        "developerEmail": "info@dearhealth.com",
+        "developerName": "DEAR Health Inc",
+        "developerWebsite": "http://www.dearhealth.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "7646516",
+            "versionCode": 52384
+          },
+          {
+            "fileType": 0,
+            "size": "67812",
+            "versionCode": 52384
+          },
+          {
+            "fileType": 0,
+            "size": "24985",
+            "versionCode": 52384
+          },
+          {
+            "fileType": 0,
+            "size": "41369",
+            "versionCode": 52384
+          },
+          {
+            "fileType": 0,
+            "size": "20787691",
+            "versionCode": 52384
+          }
+        ],
+        "installationSize": "28568373",
+        "numDownloads": "100+ downloads",
+        "packageName": "com.dearhealth",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.INTERNET",
+          "android.permission.USE_BIOMETRIC",
+          "android.permission.USE_FINGERPRINT",
+          "android.permission.WAKE_LOCK",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": "Save Progress of Questionnaire",
+        "unstable": true,
+        "uploadDate": "16 Sept 2022",
+        "versionCode": 52384,
+        "versionString": "5.2.3"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.dearhealth",
+    "docType": 1,
+    "docid": "com.dearhealth",
+    "image": [
+      {
+        "color": "#02B7CA",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/b4IykfwUvW_NM655XAbQkLFxmpMoS7niMjAoYo-BdQNSZnPkZXxIoiczsWi0a2wMVg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#0AC2CA",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/2EbPoNy6ti0hLKcOxSSSOIe_eTVcN7MaaU4h82M_AgBU93X0fK00R457qicVz3my0i0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 16,
+        "imageUrl": "https://play-lh.googleusercontent.com/mXpJ1TqsS86X1pC1yoMFkHbhQBdag355J6bKo_d3I06zivYvflxf-XFE2Ma6pWcB-Kg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Ux-XUYJewAjk5HOsA3Df_vlSNvakvZ6ra6SfxiQLzn8PI5K1jST_8XsJflFpLVdHmHc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/pWzUWpiHMkl0Jbxz43rBK7EvsTD2mC7JwCrTgC2B0b44agcwOPCvFREfjlSDre3xog",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/9U1y58qNftGYYNZ09Bzrz7csYYg-rbfmc2Hn6bnl2dYdJiRMtl-zG7lxsSawLUJcEg",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://dearhealth.com/privacy/",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.dearhealth",
+    "reviewsUrl": "rev?doc=com.dearhealth&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.dearhealth",
+    "title": "DEARhealth",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "info@dearhealth.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "5 Feb 2018"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "2",
+      "fiveStarRatings": "4",
+      "fourStarRatings": "0",
+      "oneStarRatings": "1",
+      "ratingsCount": "5",
+      "starRating": 4.2,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-10-12 05:05:24.351924",
+    "backendDocid": "com.dearhealth",
+    "backendId": 3,
+    "creator": "DEAR Health Inc",
+    "descriptionHtml": "DEARhealth is a new solution enabling you securely manage your health. Use your DEARhealth account to manage your health and disease activity under the principles of Value-Based healthcare.<br><br>We measure the value of your care with a Value Quotient\u00ae or VQ\u00ae which captures the value of healthcare services to individual patients, including disease control, quality of life and daily productivity. <br><br>DEARhealth allows you to:<br>\u2022 Check your current and historical VQ\u00ae<br>\u2022 View your individualized Care Program<br>\u2022 Complete your home care <br>\u2022 Contact your healthcare team via secure messaging<br>\u2022 View upcoming labs, clinic visits, scheduled home care, and procedures<br>\u2022 Learn about your disease with MyAcademy<br>\u2022 Access your Wellness programs - MyCoach, MyMenu, MyAccupressure, My Fitness, MyYoga and MyMeditation.<br>\u2022 Review and confirm your medication<br><br>To access the DEARhealth services delivered through the app, you must create an account with your healthcare provider. Visit DEARhealth website for a listing of supported providers. If your provider is not listed or you need help setting up the account, please contact them directly.<br><br>For feedback about the app, contact us at support@dearhealth.com",
+    "descriptionShort": "DEARhealth is a new solution enabling you securely manage your health.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "28942317",
+          "unknown3": 30
+        },
+        "developerEmail": "info@dearhealth.com",
+        "developerName": "DEAR Health Inc",
+        "developerWebsite": "http://www.dearhealth.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "7925434",
+            "versionCode": 52489
+          },
+          {
+            "fileType": 0,
+            "size": "67812",
+            "versionCode": 52489
+          },
+          {
+            "fileType": 0,
+            "size": "20889",
+            "versionCode": 52489
+          },
+          {
+            "fileType": 0,
+            "size": "24985",
+            "versionCode": 52489
+          },
+          {
+            "fileType": 0,
+            "size": "24985",
+            "versionCode": 52489
+          },
+          {
+            "fileType": 0,
+            "size": "41369",
+            "versionCode": 52489
+          },
+          {
+            "fileType": 0,
+            "size": "20836843",
+            "versionCode": 52489
+          }
+        ],
+        "installationSize": "28942317",
+        "numDownloads": "100+ downloads",
+        "packageName": "com.dearhealth",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.INTERNET",
+          "android.permission.USE_BIOMETRIC",
+          "android.permission.USE_FINGERPRINT",
+          "android.permission.WAKE_LOCK",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": "Issue fixes of questionnaire",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "28 Sept 2022",
+        "versionCode": 52489,
+        "versionString": "5.2.4"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.dearhealth",
+    "docType": 1,
+    "docid": "com.dearhealth",
+    "image": [
+      {
+        "color": "#02B7CA",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/b4IykfwUvW_NM655XAbQkLFxmpMoS7niMjAoYo-BdQNSZnPkZXxIoiczsWi0a2wMVg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#0AC2CA",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/2EbPoNy6ti0hLKcOxSSSOIe_eTVcN7MaaU4h82M_AgBU93X0fK00R457qicVz3my0i0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 16,
+        "imageUrl": "https://play-lh.googleusercontent.com/mXpJ1TqsS86X1pC1yoMFkHbhQBdag355J6bKo_d3I06zivYvflxf-XFE2Ma6pWcB-Kg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Ux-XUYJewAjk5HOsA3Df_vlSNvakvZ6ra6SfxiQLzn8PI5K1jST_8XsJflFpLVdHmHc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/pWzUWpiHMkl0Jbxz43rBK7EvsTD2mC7JwCrTgC2B0b44agcwOPCvFREfjlSDre3xog",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/9U1y58qNftGYYNZ09Bzrz7csYYg-rbfmc2Hn6bnl2dYdJiRMtl-zG7lxsSawLUJcEg",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://dearhealth.com/privacy/",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.dearhealth",
+    "reviewsUrl": "rev?doc=com.dearhealth&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.dearhealth",
+    "title": "DEARhealth",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "info@dearhealth.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "5 Feb 2018"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-01-07 09:51:54.478153",
+    "backendDocid": "com.dearhealth",
+    "backendId": 3,
+    "creator": "DEAR Health Inc",
+    "descriptionHtml": "DEARhealth is a new solution enabling you securely manage your health. Use your DEARhealth account to manage your health and disease activity under the principles of Value-Based healthcare.<br><br>We measure the value of your care with a Value Quotient\u00ae or VQ\u00ae which captures the value of healthcare services to individual patients, including disease control, quality of life and daily productivity. <br><br>DEARhealth allows you to:<br>\u2022 Check your current and historical VQ\u00ae<br>\u2022 View your individualized Care Program<br>\u2022 Complete your home care <br>\u2022 Contact your healthcare team via secure messaging<br>\u2022 View upcoming labs, clinic visits, scheduled home care, and procedures<br>\u2022 Learn about your disease with MyAcademy<br>\u2022 Access your Wellness programs - MyCoach, MyMenu, MyAccupressure, My Fitness, MyYoga and MyMeditation.<br>\u2022 Review and confirm your medication<br><br>To access the DEARhealth services delivered through the app, you must create an account with your healthcare provider. Visit DEARhealth website for a listing of supported providers. If your provider is not listed or you need help setting up the account, please contact them directly.<br><br>For feedback about the app, contact us at support@dearhealth.com",
+    "descriptionShort": "DEARhealth is a new solution enabling you securely manage your health.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "30729379",
+          "unknown3": 31
+        },
+        "developerEmail": "info@dearhealth.com",
+        "developerName": "DEAR Health Inc",
+        "developerWebsite": "http://www.dearhealth.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "8971938",
+            "versionCode": 53424
+          },
+          {
+            "fileType": 0,
+            "size": "67812",
+            "versionCode": 53424
+          },
+          {
+            "fileType": 0,
+            "size": "24985",
+            "versionCode": 53424
+          },
+          {
+            "fileType": 0,
+            "size": "41369",
+            "versionCode": 53424
+          },
+          {
+            "fileType": 0,
+            "size": "21623275",
+            "versionCode": 53424
+          }
+        ],
+        "installationSize": "30729379",
+        "numDownloads": "100+ downloads",
+        "packageName": "com.dearhealth",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.INTERNET",
+          "android.permission.POST_NOTIFICATIONS",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.SCHEDULE_EXACT_ALARM",
+          "android.permission.USE_BIOMETRIC",
+          "android.permission.USE_FINGERPRINT",
+          "android.permission.USE_FULL_SCREEN_INTENT",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": "Maintenance Page implementation",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "Dec 13, 2022",
+        "versionCode": 53424,
+        "versionString": "5.3.4"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.dearhealth",
+    "docType": 1,
+    "docid": "com.dearhealth",
+    "image": [
+      {
+        "color": "#02B7CA",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/b4IykfwUvW_NM655XAbQkLFxmpMoS7niMjAoYo-BdQNSZnPkZXxIoiczsWi0a2wMVg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#0AC2CA",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/2EbPoNy6ti0hLKcOxSSSOIe_eTVcN7MaaU4h82M_AgBU93X0fK00R457qicVz3my0i0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1280
+        },
+        "imageType": 16,
+        "imageUrl": "https://play-lh.googleusercontent.com/mXpJ1TqsS86X1pC1yoMFkHbhQBdag355J6bKo_d3I06zivYvflxf-XFE2Ma6pWcB-Kg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Ux-XUYJewAjk5HOsA3Df_vlSNvakvZ6ra6SfxiQLzn8PI5K1jST_8XsJflFpLVdHmHc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/pWzUWpiHMkl0Jbxz43rBK7EvsTD2mC7JwCrTgC2B0b44agcwOPCvFREfjlSDre3xog",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/9U1y58qNftGYYNZ09Bzrz7csYYg-rbfmc2Hn6bnl2dYdJiRMtl-zG7lxsSawLUJcEg",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "CAD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://dearhealth.com/privacy/",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.dearhealth",
+    "reviewsUrl": "rev?doc=com.dearhealth&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.dearhealth",
+    "title": "DEARhealth",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "DEAR Health Inc"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "info@dearhealth.com"
+          },
+          "label": "Developer e-mail"
+        },
+        {
+          "container": {
+            "value": "Feb 5, 2018"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  }
+]

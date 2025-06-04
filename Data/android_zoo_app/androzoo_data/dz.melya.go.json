@@ -1,0 +1,2985 @@
+[
+  {
+    "aggregateRating": {
+      "commentCount": "230",
+      "fiveStarRatings": "244",
+      "fourStarRatings": "17",
+      "oneStarRatings": "113",
+      "ratingsCount": "436",
+      "starRating": 3.62,
+      "threeStarRatings": "52",
+      "twoStarRatings": "8",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-06-03 08:30:49.114020",
+    "backendDocid": "dz.melya.go",
+    "backendId": 3,
+    "creator": "ANDROMEDA INNOV",
+    "descriptionHtml": "SOURIEZ ! vous pouvez r\u00e9server votre prochain trajet en toute simplicit\u00e9.<br><br>MELYAGO est la premi\u00e8re application de covoiturage en Alg\u00e9rie, disponible \u00e9galement sur le site https://melyago.com/, la plateforme met en relation des conducteurs voyageant avec des places libres et des passagers se rendant dans la m\u00eame direction. Ils partagent un trajet et les frais qui y sont li\u00e9s. Pratique, \u00e9conomique, conviviale et responsable, melyago vous offre une mobilit\u00e9 durable et intelligente pour d\u00e9couvrir l\u2019Alg\u00e9rie.<br><br>\u00b7 L\u00e0 o\u00f9 il ya une route, il ya melyago, des trajets sur tout le territoire national pour aller partout o\u00f9 vous voulez, quand vous voulez.<br>\u00b7 Tous nos covoitureurs pr\u00e9sentent leurs pi\u00e8ce d&#39;identit\u00e9 et ont un profile sur l\u2019application. Ainsi vous savez avec qui vous roulez.<br>\u00b7 Prenez la route du succ\u00e8s et gagner de l\u2019argents avec votre voiture.<br>\u00b7 Roulez vert et participer \u00e0 la diminution des embouteillages sur nos routes, ensemble permettons et des millions de personnes de se d\u00e9placer.<br>\u00b7 Ne voyager plus seule !! Partager un bon moment de convivialit\u00e9 avec la communaut\u00e9 de covoitureurs MelyaGo.<br><br>Fonctionnalit\u00e9s :<br>1-\tVous \u00eates driver : faites des voyages sympa et gagn\u00e9 de l\u2019argent avec votre voiture.<br>\u2022\tPr\u00e9senter votre identit\u00e9 : scanner et envoyer votre permis de conduire et pr\u00e9cisez vos pr\u00e9f\u00e9rences. <br>\u2022\tPublier votre annonce : pr\u00e9cisez votre date de d\u00e9part, l\u2019heure et votre destination <br>\u2022\tVos covoitureurs r\u00e9servent : validez vos r\u00e9servations et discutez des d\u00e9tails avec les passagers.<br>\u2022\tRoulez : profitez de votre voyage convivial et soyez prudents.<br>2-\tVous \u00eates passagers : r\u00e9servez une place et \u00e9conomisez de l\u2019argent .<br>\u2022\tRecherchez un covoitureur : trouvez l\u2019annonce qui vous convient, recherche par date ou par ville .<br>\u2022\tR\u00e9servez votre place : cliquez sur \u00ab trouver votre trajet \u00bb pour avoir les coordonn\u00e9es du driver.<br>\u2022\tContactez : discutez des d\u00e9tails avec le covoitureur sur le lieu de rencontre.<br>\u2022\tVoyager : profitez de votre voyage conviviale et n\u2019oubliez pas de laisser un commentaire.",
+    "descriptionShort": "THE FIRST APPLICATION OF COBOITURAGE IN ALGERIA",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "8389214",
+          "unknown3": 28
+        },
+        "developerEmail": "contact@melyago.com",
+        "developerName": "ANDROMEDA INNOV",
+        "developerWebsite": "http://www.melyago.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "8389214",
+            "versionCode": 10301
+          }
+        ],
+        "installationSize": "8389214",
+        "numDownloads": "50,000+ downloads",
+        "packageName": "dz.melya.go",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.INTERNET",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "dz.melya.go.permission.C2D_MESSAGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE"
+        ],
+        "recentChangesHtml": "optimisation de la recherche<br>correction de l&#39;inscription et connexion<br>am\u00e9lioration du chat<br>notification de rappels pour les trajets<br>ajout des documents durant le processus d&#39;utilisation des fonctionnalit\u00e9s<br>segmentation des utilisateurs",
+        "unstable": false,
+        "uploadDate": "18 May 2020",
+        "versionCode": 10301,
+        "versionString": "1.3.1"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=dz.melya.go",
+    "docType": 1,
+    "docid": "dz.melya.go",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://lh3.googleusercontent.com/wUAPG-3wH0ls2O7UkNvVCcPCsDIJBr5GWGeXdTuuu06AHzFhuAn8mKXzuuNbllHkioFm",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://lh3.googleusercontent.com/4upIlyzcp9NeJEi_RtGgYGi1zZF7ZkByfylzBZ2bOVH5uGeGCMYTgePcB2noOaoahis",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1747,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/J6x--MN2No6ELUWTmhduGa1ICi9K1qdQXaL-KStcFmPmprRt5Uct_CNJDawtyyk0Qf8I",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1747,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/EumIJxvPgcXwdnQ2aw4BCDFaMC1w6wCsWJNUsW-zxYXcNiztVdFBxmEyUKxpSIPvXQ8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1747,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/SxwCYpaYFA8yXVlfZOK5wTU-9lxYIO2mwoCCDA6AFmTGy2bGhKv_f0hrGBukm0Y4VA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1747,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/y4KuLmM4POneb7ubQ6HSXwuNH0yl88zL5SqRntgGDhBd8zcH4uodZBtcYuPxFblXd9Q",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1747,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/zcgUMC5fu40cKNSB8ZgJkh8qeh39CvfhYKyeOztQsnjcwHQVTmeI-IvzpRpj0Kgl9w",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://melyago.com/use-conditions",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://lh3.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "Users interact<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=dz.melya.go",
+    "reviewsUrl": "rev?doc=dz.melya.go&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=dz.melya.go",
+    "title": "MelyaGO",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "contact@melyago.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "21 Oct 2019"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "231",
+      "fiveStarRatings": "250",
+      "fourStarRatings": "13",
+      "oneStarRatings": "118",
+      "ratingsCount": "439",
+      "starRating": 3.61,
+      "threeStarRatings": "48",
+      "twoStarRatings": "8",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-06-05 21:45:53.897648",
+    "backendDocid": "dz.melya.go",
+    "backendId": 3,
+    "creator": "ANDROMEDA INNOV",
+    "descriptionHtml": "SOURIEZ ! vous pouvez r\u00e9server votre prochain trajet en toute simplicit\u00e9.<br><br>MELYAGO est la premi\u00e8re application de covoiturage en Alg\u00e9rie, disponible \u00e9galement sur le site https://melyago.com/, la plateforme met en relation des conducteurs voyageant avec des places libres et des passagers se rendant dans la m\u00eame direction. Ils partagent un trajet et les frais qui y sont li\u00e9s. Pratique, \u00e9conomique, conviviale et responsable, melyago vous offre une mobilit\u00e9 durable et intelligente pour d\u00e9couvrir l\u2019Alg\u00e9rie.<br><br>\u00b7 L\u00e0 o\u00f9 il ya une route, il ya melyago, des trajets sur tout le territoire national pour aller partout o\u00f9 vous voulez, quand vous voulez.<br>\u00b7 Tous nos covoitureurs pr\u00e9sentent leurs pi\u00e8ce d&#39;identit\u00e9 et ont un profile sur l\u2019application. Ainsi vous savez avec qui vous roulez.<br>\u00b7 Prenez la route du succ\u00e8s et gagner de l\u2019argents avec votre voiture.<br>\u00b7 Roulez vert et participer \u00e0 la diminution des embouteillages sur nos routes, ensemble permettons et des millions de personnes de se d\u00e9placer.<br>\u00b7 Ne voyager plus seule !! Partager un bon moment de convivialit\u00e9 avec la communaut\u00e9 de covoitureurs MelyaGo.<br><br>Fonctionnalit\u00e9s :<br>1-\tVous \u00eates driver : faites des voyages sympa et gagn\u00e9 de l\u2019argent avec votre voiture.<br>\u2022\tPr\u00e9senter votre identit\u00e9 : scanner et envoyer votre permis de conduire et pr\u00e9cisez vos pr\u00e9f\u00e9rences. <br>\u2022\tPublier votre annonce : pr\u00e9cisez votre date de d\u00e9part, l\u2019heure et votre destination <br>\u2022\tVos covoitureurs r\u00e9servent : validez vos r\u00e9servations et discutez des d\u00e9tails avec les passagers.<br>\u2022\tRoulez : profitez de votre voyage convivial et soyez prudents.<br>2-\tVous \u00eates passagers : r\u00e9servez une place et \u00e9conomisez de l\u2019argent .<br>\u2022\tRecherchez un covoitureur : trouvez l\u2019annonce qui vous convient, recherche par date ou par ville .<br>\u2022\tR\u00e9servez votre place : cliquez sur \u00ab trouver votre trajet \u00bb pour avoir les coordonn\u00e9es du driver.<br>\u2022\tContactez : discutez des d\u00e9tails avec le covoitureur sur le lieu de rencontre.<br>\u2022\tVoyager : profitez de votre voyage conviviale et n\u2019oubliez pas de laisser un commentaire.",
+    "descriptionShort": "THE FIRST APPLICATION OF COBOITURAGE IN ALGERIA",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "8391607",
+          "unknown3": 28
+        },
+        "developerEmail": "contact@melyago.com",
+        "developerName": "ANDROMEDA INNOV",
+        "developerWebsite": "http://www.melyago.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "8391607",
+            "versionCode": 10400
+          }
+        ],
+        "installationSize": "8391607",
+        "numDownloads": "50,000+ downloads",
+        "packageName": "dz.melya.go",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.INTERNET",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "dz.melya.go.permission.C2D_MESSAGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE"
+        ],
+        "recentChangesHtml": "optimisation de la recherche<br>correction de l&#39;inscription et connexion<br>am\u00e9lioration du chat<br>notification de rappels pour les trajets<br>ajout des documents durant le processus d&#39;utilisation des fonctionnalit\u00e9s<br>segmentation des utilisateurs",
+        "unstable": false,
+        "uploadDate": "4 Jun 2020",
+        "versionCode": 10400,
+        "versionString": "1.4.0"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=dz.melya.go",
+    "docType": 1,
+    "docid": "dz.melya.go",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://lh3.googleusercontent.com/wUAPG-3wH0ls2O7UkNvVCcPCsDIJBr5GWGeXdTuuu06AHzFhuAn8mKXzuuNbllHkioFm",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://lh3.googleusercontent.com/4upIlyzcp9NeJEi_RtGgYGi1zZF7ZkByfylzBZ2bOVH5uGeGCMYTgePcB2noOaoahis",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1747,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/J6x--MN2No6ELUWTmhduGa1ICi9K1qdQXaL-KStcFmPmprRt5Uct_CNJDawtyyk0Qf8I",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1747,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/EumIJxvPgcXwdnQ2aw4BCDFaMC1w6wCsWJNUsW-zxYXcNiztVdFBxmEyUKxpSIPvXQ8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1747,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/SxwCYpaYFA8yXVlfZOK5wTU-9lxYIO2mwoCCDA6AFmTGy2bGhKv_f0hrGBukm0Y4VA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1747,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/y4KuLmM4POneb7ubQ6HSXwuNH0yl88zL5SqRntgGDhBd8zcH4uodZBtcYuPxFblXd9Q",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1747,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/zcgUMC5fu40cKNSB8ZgJkh8qeh39CvfhYKyeOztQsnjcwHQVTmeI-IvzpRpj0Kgl9w",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://melyago.com/use-conditions",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://lh3.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "Users interact<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=dz.melya.go",
+    "reviewsUrl": "rev?doc=dz.melya.go&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=dz.melya.go",
+    "title": "MelyaGO",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "contact@melyago.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "21 Oct 2019"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "240",
+      "fiveStarRatings": "253",
+      "fourStarRatings": "22",
+      "oneStarRatings": "122",
+      "ratingsCount": "452",
+      "starRating": 3.61,
+      "threeStarRatings": "45",
+      "twoStarRatings": "9",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-07-02 05:11:18.243871",
+    "backendDocid": "dz.melya.go",
+    "backendId": 3,
+    "creator": "ANDROMEDA INNOV",
+    "descriptionHtml": "SOURIEZ ! vous pouvez r\u00e9server votre prochain trajet en toute simplicit\u00e9.<br><br>MELYAGO est la premi\u00e8re application de covoiturage en Alg\u00e9rie, disponible \u00e9galement sur le site https://melyago.com/, la plateforme met en relation des conducteurs voyageant avec des places libres et des passagers se rendant dans la m\u00eame direction. Ils partagent un trajet et les frais qui y sont li\u00e9s. Pratique, \u00e9conomique, conviviale et responsable, melyago vous offre une mobilit\u00e9 durable et intelligente pour d\u00e9couvrir l\u2019Alg\u00e9rie.<br><br>\u00b7 L\u00e0 o\u00f9 il ya une route, il ya melyago, des trajets sur tout le territoire national pour aller partout o\u00f9 vous voulez, quand vous voulez.<br>\u00b7 Tous nos covoitureurs pr\u00e9sentent leurs pi\u00e8ce d&#39;identit\u00e9 et ont un profile sur l\u2019application. Ainsi vous savez avec qui vous roulez.<br>\u00b7 Prenez la route du succ\u00e8s et gagner de l\u2019argents avec votre voiture.<br>\u00b7 Roulez vert et participer \u00e0 la diminution des embouteillages sur nos routes, ensemble permettons et des millions de personnes de se d\u00e9placer.<br>\u00b7 Ne voyager plus seule !! Partager un bon moment de convivialit\u00e9 avec la communaut\u00e9 de covoitureurs MelyaGo.<br><br>Fonctionnalit\u00e9s :<br>1-\tVous \u00eates driver : faites des voyages sympa et gagn\u00e9 de l\u2019argent avec votre voiture.<br>\u2022\tPr\u00e9senter votre identit\u00e9 : scanner et envoyer votre permis de conduire et pr\u00e9cisez vos pr\u00e9f\u00e9rences. <br>\u2022\tPublier votre annonce : pr\u00e9cisez votre date de d\u00e9part, l\u2019heure et votre destination <br>\u2022\tVos covoitureurs r\u00e9servent : validez vos r\u00e9servations et discutez des d\u00e9tails avec les passagers.<br>\u2022\tRoulez : profitez de votre voyage convivial et soyez prudents.<br>2-\tVous \u00eates passagers : r\u00e9servez une place et \u00e9conomisez de l\u2019argent .<br>\u2022\tRecherchez un covoitureur : trouvez l\u2019annonce qui vous convient, recherche par date ou par ville .<br>\u2022\tR\u00e9servez votre place : cliquez sur \u00ab trouver votre trajet \u00bb pour avoir les coordonn\u00e9es du driver.<br>\u2022\tContactez : discutez des d\u00e9tails avec le covoitureur sur le lieu de rencontre.<br>\u2022\tVoyager : profitez de votre voyage conviviale et n\u2019oubliez pas de laisser un commentaire.",
+    "descriptionShort": "THE FIRST APPLICATION OF COBOITURAGE IN ALGERIA",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "7915093",
+          "unknown3": 29
+        },
+        "developerEmail": "contact@melyago.com",
+        "developerName": "ANDROMEDA INNOV",
+        "developerWebsite": "http://www.melyago.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "7915093",
+            "versionCode": 10500
+          }
+        ],
+        "installationSize": "7915093",
+        "numDownloads": "50,000+ downloads",
+        "packageName": "dz.melya.go",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.INTERNET",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE"
+        ],
+        "recentChangesHtml": "optimisation de la recherche<br>correction de l&#39;inscription et connexion<br>am\u00e9lioration du chat<br>notification de rappels pour les trajets<br>ajout des documents durant le processus d&#39;utilisation des fonctionnalit\u00e9s<br>segmentation des utilisateurs",
+        "unstable": false,
+        "uploadDate": "1 Jul 2020",
+        "versionCode": 10500,
+        "versionString": "1.5.0"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=dz.melya.go",
+    "docType": 1,
+    "docid": "dz.melya.go",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://lh3.googleusercontent.com/wUAPG-3wH0ls2O7UkNvVCcPCsDIJBr5GWGeXdTuuu06AHzFhuAn8mKXzuuNbllHkioFm",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://lh3.googleusercontent.com/4upIlyzcp9NeJEi_RtGgYGi1zZF7ZkByfylzBZ2bOVH5uGeGCMYTgePcB2noOaoahis",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1747,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/J6x--MN2No6ELUWTmhduGa1ICi9K1qdQXaL-KStcFmPmprRt5Uct_CNJDawtyyk0Qf8I",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1747,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/EumIJxvPgcXwdnQ2aw4BCDFaMC1w6wCsWJNUsW-zxYXcNiztVdFBxmEyUKxpSIPvXQ8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1747,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/SxwCYpaYFA8yXVlfZOK5wTU-9lxYIO2mwoCCDA6AFmTGy2bGhKv_f0hrGBukm0Y4VA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1747,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/y4KuLmM4POneb7ubQ6HSXwuNH0yl88zL5SqRntgGDhBd8zcH4uodZBtcYuPxFblXd9Q",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1747,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/zcgUMC5fu40cKNSB8ZgJkh8qeh39CvfhYKyeOztQsnjcwHQVTmeI-IvzpRpj0Kgl9w",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://melyago.com/use-conditions",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://lh3.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "Users interact<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=dz.melya.go",
+    "reviewsUrl": "rev?doc=dz.melya.go&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=dz.melya.go",
+    "title": "MelyaGO",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "contact@melyago.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "21 Oct 2019"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "243",
+      "fiveStarRatings": "255",
+      "fourStarRatings": "22",
+      "oneStarRatings": "123",
+      "ratingsCount": "456",
+      "starRating": 3.61,
+      "threeStarRatings": "45",
+      "twoStarRatings": "9",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-07-03 02:01:37.215578",
+    "backendDocid": "dz.melya.go",
+    "backendId": 3,
+    "creator": "ANDROMEDA INNOV",
+    "descriptionHtml": "SOURIEZ ! vous pouvez r\u00e9server votre prochain trajet en toute simplicit\u00e9.<br><br>MELYAGO est la premi\u00e8re application de covoiturage en Alg\u00e9rie, disponible \u00e9galement sur le site https://melyago.com/, la plateforme met en relation des conducteurs voyageant avec des places libres et des passagers se rendant dans la m\u00eame direction. Ils partagent un trajet et les frais qui y sont li\u00e9s. Pratique, \u00e9conomique, conviviale et responsable, melyago vous offre une mobilit\u00e9 durable et intelligente pour d\u00e9couvrir l\u2019Alg\u00e9rie.<br><br>\u00b7 L\u00e0 o\u00f9 il ya une route, il ya melyago, des trajets sur tout le territoire national pour aller partout o\u00f9 vous voulez, quand vous voulez.<br>\u00b7 Tous nos covoitureurs pr\u00e9sentent leurs pi\u00e8ce d&#39;identit\u00e9 et ont un profile sur l\u2019application. Ainsi vous savez avec qui vous roulez.<br>\u00b7 Prenez la route du succ\u00e8s et gagner de l\u2019argents avec votre voiture.<br>\u00b7 Roulez vert et participer \u00e0 la diminution des embouteillages sur nos routes, ensemble permettons et des millions de personnes de se d\u00e9placer.<br>\u00b7 Ne voyager plus seule !! Partager un bon moment de convivialit\u00e9 avec la communaut\u00e9 de covoitureurs MelyaGo.<br><br>Fonctionnalit\u00e9s :<br>1-\tVous \u00eates driver : faites des voyages sympa et gagn\u00e9 de l\u2019argent avec votre voiture.<br>\u2022\tPr\u00e9senter votre identit\u00e9 : scanner et envoyer votre permis de conduire et pr\u00e9cisez vos pr\u00e9f\u00e9rences. <br>\u2022\tPublier votre annonce : pr\u00e9cisez votre date de d\u00e9part, l\u2019heure et votre destination <br>\u2022\tVos covoitureurs r\u00e9servent : validez vos r\u00e9servations et discutez des d\u00e9tails avec les passagers.<br>\u2022\tRoulez : profitez de votre voyage convivial et soyez prudents.<br>2-\tVous \u00eates passagers : r\u00e9servez une place et \u00e9conomisez de l\u2019argent .<br>\u2022\tRecherchez un covoitureur : trouvez l\u2019annonce qui vous convient, recherche par date ou par ville .<br>\u2022\tR\u00e9servez votre place : cliquez sur \u00ab trouver votre trajet \u00bb pour avoir les coordonn\u00e9es du driver.<br>\u2022\tContactez : discutez des d\u00e9tails avec le covoitureur sur le lieu de rencontre.<br>\u2022\tVoyager : profitez de votre voyage conviviale et n\u2019oubliez pas de laisser un commentaire.",
+    "descriptionShort": "THE FIRST APPLICATION OF COBOITURAGE IN ALGERIA",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "7969356",
+          "unknown3": 28
+        },
+        "developerEmail": "contact@melyago.com",
+        "developerName": "ANDROMEDA INNOV",
+        "developerWebsite": "http://www.melyago.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "7969356",
+            "versionCode": 10501
+          }
+        ],
+        "installationSize": "7969356",
+        "numDownloads": "50,000+ downloads",
+        "packageName": "dz.melya.go",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.INTERNET",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE"
+        ],
+        "recentChangesHtml": "optimisation de la recherche<br>correction de l&#39;inscription et connexion<br>am\u00e9lioration du chat<br>notification de rappels pour les trajets<br>ajout des documents durant le processus d&#39;utilisation des fonctionnalit\u00e9s<br>segmentation des utilisateurs",
+        "unstable": false,
+        "uploadDate": "2 Jul 2020",
+        "versionCode": 10501,
+        "versionString": "1.5.1"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=dz.melya.go",
+    "docType": 1,
+    "docid": "dz.melya.go",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://lh3.googleusercontent.com/wUAPG-3wH0ls2O7UkNvVCcPCsDIJBr5GWGeXdTuuu06AHzFhuAn8mKXzuuNbllHkioFm",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://lh3.googleusercontent.com/4upIlyzcp9NeJEi_RtGgYGi1zZF7ZkByfylzBZ2bOVH5uGeGCMYTgePcB2noOaoahis",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1747,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/J6x--MN2No6ELUWTmhduGa1ICi9K1qdQXaL-KStcFmPmprRt5Uct_CNJDawtyyk0Qf8I",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1747,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/EumIJxvPgcXwdnQ2aw4BCDFaMC1w6wCsWJNUsW-zxYXcNiztVdFBxmEyUKxpSIPvXQ8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1747,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/SxwCYpaYFA8yXVlfZOK5wTU-9lxYIO2mwoCCDA6AFmTGy2bGhKv_f0hrGBukm0Y4VA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1747,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/y4KuLmM4POneb7ubQ6HSXwuNH0yl88zL5SqRntgGDhBd8zcH4uodZBtcYuPxFblXd9Q",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1747,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/zcgUMC5fu40cKNSB8ZgJkh8qeh39CvfhYKyeOztQsnjcwHQVTmeI-IvzpRpj0Kgl9w",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://melyago.com/use-conditions",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://lh3.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "Users interact<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=dz.melya.go",
+    "reviewsUrl": "rev?doc=dz.melya.go&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=dz.melya.go",
+    "title": "MelyaGO",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "contact@melyago.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "21 Oct 2019"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "279",
+      "fiveStarRatings": "277",
+      "fourStarRatings": "46",
+      "oneStarRatings": "128",
+      "ratingsCount": "514",
+      "starRating": 3.64,
+      "threeStarRatings": "46",
+      "twoStarRatings": "15",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-09-09 23:32:15.809250",
+    "backendDocid": "dz.melya.go",
+    "backendId": 3,
+    "creator": "ANDROMEDA INNOV",
+    "descriptionHtml": "SOURIEZ ! vous pouvez r\u00e9server votre prochain trajet en toute simplicit\u00e9.<br><br>MELYAGO est la premi\u00e8re application de covoiturage en Alg\u00e9rie, disponible \u00e9galement sur le site https://melyago.com/, la plateforme met en relation des conducteurs voyageant avec des places libres et des passagers se rendant dans la m\u00eame direction. Ils partagent un trajet et les frais qui y sont li\u00e9s. Pratique, \u00e9conomique, conviviale et responsable, melyago vous offre une mobilit\u00e9 durable et intelligente pour d\u00e9couvrir l\u2019Alg\u00e9rie.<br><br>\u00b7 L\u00e0 o\u00f9 il ya une route, il ya melyago, des trajets sur tout le territoire national pour aller partout o\u00f9 vous voulez, quand vous voulez.<br>\u00b7 Tous nos covoitureurs pr\u00e9sentent leurs pi\u00e8ce d&#39;identit\u00e9 et ont un profile sur l\u2019application. Ainsi vous savez avec qui vous roulez.<br>\u00b7 Prenez la route du succ\u00e8s et gagner de l\u2019argents avec votre voiture.<br>\u00b7 Roulez vert et participer \u00e0 la diminution des embouteillages sur nos routes, ensemble permettons et des millions de personnes de se d\u00e9placer.<br>\u00b7 Ne voyager plus seule !! Partager un bon moment de convivialit\u00e9 avec la communaut\u00e9 de covoitureurs MelyaGo.<br><br>Fonctionnalit\u00e9s :<br>1-\tVous \u00eates driver : faites des voyages sympa et gagn\u00e9 de l\u2019argent avec votre voiture.<br>\u2022\tPr\u00e9senter votre identit\u00e9 : scanner et envoyer votre permis de conduire et pr\u00e9cisez vos pr\u00e9f\u00e9rences. <br>\u2022\tPublier votre annonce : pr\u00e9cisez votre date de d\u00e9part, l\u2019heure et votre destination <br>\u2022\tVos covoitureurs r\u00e9servent : validez vos r\u00e9servations et discutez des d\u00e9tails avec les passagers.<br>\u2022\tRoulez : profitez de votre voyage convivial et soyez prudents.<br>2-\tVous \u00eates passagers : r\u00e9servez une place et \u00e9conomisez de l\u2019argent .<br>\u2022\tRecherchez un covoitureur : trouvez l\u2019annonce qui vous convient, recherche par date ou par ville .<br>\u2022\tR\u00e9servez votre place : cliquez sur \u00ab trouver votre trajet \u00bb pour avoir les coordonn\u00e9es du driver.<br>\u2022\tContactez : discutez des d\u00e9tails avec le covoitureur sur le lieu de rencontre.<br>\u2022\tVoyager : profitez de votre voyage conviviale et n\u2019oubliez pas de laisser un commentaire.",
+    "descriptionShort": "THE FIRST APPLICATION OF COBOITURAGE IN ALGERIA",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "7901851",
+          "unknown3": 28
+        },
+        "developerEmail": "contact@melyago.com",
+        "developerName": "ANDROMEDA INNOV",
+        "developerWebsite": "http://www.melyago.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "7901851",
+            "versionCode": 10502
+          }
+        ],
+        "installationSize": "7901851",
+        "numDownloads": "50,000+ downloads",
+        "packageName": "dz.melya.go",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.INTERNET",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "dz.melya.go.permission.C2D_MESSAGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE"
+        ],
+        "recentChangesHtml": "optimisation de la recherche<br>correction de l&#39;inscription et connexion<br>am\u00e9lioration du chat<br>notification de rappels pour les trajets<br>ajout des documents durant le processus d&#39;utilisation des fonctionnalit\u00e9s<br>segmentation des utilisateurs",
+        "unstable": false,
+        "versionCode": 10502,
+        "versionString": "1.5.2"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=dz.melya.go",
+    "docType": 1,
+    "docid": "dz.melya.go",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://lh3.googleusercontent.com/wUAPG-3wH0ls2O7UkNvVCcPCsDIJBr5GWGeXdTuuu06AHzFhuAn8mKXzuuNbllHkioFm",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://lh3.googleusercontent.com/4upIlyzcp9NeJEi_RtGgYGi1zZF7ZkByfylzBZ2bOVH5uGeGCMYTgePcB2noOaoahis",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1747,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/J6x--MN2No6ELUWTmhduGa1ICi9K1qdQXaL-KStcFmPmprRt5Uct_CNJDawtyyk0Qf8I",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1747,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/EumIJxvPgcXwdnQ2aw4BCDFaMC1w6wCsWJNUsW-zxYXcNiztVdFBxmEyUKxpSIPvXQ8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1747,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/SxwCYpaYFA8yXVlfZOK5wTU-9lxYIO2mwoCCDA6AFmTGy2bGhKv_f0hrGBukm0Y4VA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1747,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/y4KuLmM4POneb7ubQ6HSXwuNH0yl88zL5SqRntgGDhBd8zcH4uodZBtcYuPxFblXd9Q",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1747,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/zcgUMC5fu40cKNSB8ZgJkh8qeh39CvfhYKyeOztQsnjcwHQVTmeI-IvzpRpj0Kgl9w",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://melyago.com/use-conditions",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "Users interact<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=dz.melya.go",
+    "reviewsUrl": "rev?doc=dz.melya.go&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=dz.melya.go",
+    "title": "MelyaGO",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "contact@melyago.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "21 Oct 2019"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "316",
+      "fiveStarRatings": "344",
+      "fourStarRatings": "48",
+      "oneStarRatings": "138",
+      "ratingsCount": "604",
+      "starRating": 3.72,
+      "threeStarRatings": "48",
+      "twoStarRatings": "24",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-01-31 15:27:19.608215",
+    "backendDocid": "dz.melya.go",
+    "backendId": 3,
+    "creator": "ANDROMEDA INNOV",
+    "descriptionHtml": "SOURIEZ ! vous pouvez r\u00e9server votre prochain trajet en toute simplicit\u00e9.<br><br>MELYAGO est la premi\u00e8re application de covoiturage en Alg\u00e9rie, disponible \u00e9galement sur le site https://melyago.com/, la plateforme met en relation des conducteurs voyageant avec des places libres et des passagers se rendant dans la m\u00eame direction. Ils partagent un trajet et les frais qui y sont li\u00e9s. Pratique, \u00e9conomique, conviviale et responsable, melyago vous offre une mobilit\u00e9 durable et intelligente pour d\u00e9couvrir l\u2019Alg\u00e9rie.<br><br>\u00b7 L\u00e0 o\u00f9 il ya une route, il ya melyago, des trajets sur tout le territoire national pour aller partout o\u00f9 vous voulez, quand vous voulez.<br>\u00b7 Tous nos covoitureurs pr\u00e9sentent leurs pi\u00e8ce d&#39;identit\u00e9 et ont un profile sur l\u2019application. Ainsi vous savez avec qui vous roulez.<br>\u00b7 Prenez la route du succ\u00e8s et gagner de l\u2019argents avec votre voiture.<br>\u00b7 Roulez vert et participer \u00e0 la diminution des embouteillages sur nos routes, ensemble permettons et des millions de personnes de se d\u00e9placer.<br>\u00b7 Ne voyager plus seule !! Partager un bon moment de convivialit\u00e9 avec la communaut\u00e9 de covoitureurs MelyaGo.<br><br>Fonctionnalit\u00e9s :<br>1-\tVous \u00eates driver : faites des voyages sympa et gagn\u00e9 de l\u2019argent avec votre voiture.<br>\u2022\tPr\u00e9senter votre identit\u00e9 : scanner et envoyer votre permis de conduire et pr\u00e9cisez vos pr\u00e9f\u00e9rences. <br>\u2022\tPublier votre annonce : pr\u00e9cisez votre date de d\u00e9part, l\u2019heure et votre destination <br>\u2022\tVos covoitureurs r\u00e9servent : validez vos r\u00e9servations et discutez des d\u00e9tails avec les passagers.<br>\u2022\tRoulez : profitez de votre voyage convivial et soyez prudents.<br>2-\tVous \u00eates passagers : r\u00e9servez une place et \u00e9conomisez de l\u2019argent .<br>\u2022\tRecherchez un covoitureur : trouvez l\u2019annonce qui vous convient, recherche par date ou par ville .<br>\u2022\tR\u00e9servez votre place : cliquez sur \u00ab trouver votre trajet \u00bb pour avoir les coordonn\u00e9es du driver.<br>\u2022\tContactez : discutez des d\u00e9tails avec le covoitureur sur le lieu de rencontre.<br>\u2022\tVoyager : profitez de votre voyage conviviale et n\u2019oubliez pas de laisser un commentaire.",
+    "descriptionShort": "THE FIRST APPLICATION OF COBOITURAGE IN ALGERIA",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "28719238",
+          "unknown3": 30
+        },
+        "developerEmail": "contact@melyago.com",
+        "developerName": "ANDROMEDA INNOV",
+        "developerWebsite": "http://www.melyago.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "28719238",
+            "versionCode": 20005
+          }
+        ],
+        "installationSize": "28719238",
+        "numDownloads": "100,000+ downloads",
+        "packageName": "dz.melya.go",
+        "permission": [
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.CAMERA",
+          "android.permission.INTERNET",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.RECORD_AUDIO",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "dz.melya.go.permission.C2D_MESSAGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE"
+        ],
+        "recentChangesHtml": "- Am\u00e9lioration d&#39;inscription avec facebook.",
+        "unstable": false,
+        "uploadDate": "18 Jan 2021",
+        "versionCode": 20005,
+        "versionString": "2.0.5"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=dz.melya.go",
+    "docType": 1,
+    "docid": "dz.melya.go",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/wUAPG-3wH0ls2O7UkNvVCcPCsDIJBr5GWGeXdTuuu06AHzFhuAn8mKXzuuNbllHkioFm",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/4upIlyzcp9NeJEi_RtGgYGi1zZF7ZkByfylzBZ2bOVH5uGeGCMYTgePcB2noOaoahis",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1747,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/J6x--MN2No6ELUWTmhduGa1ICi9K1qdQXaL-KStcFmPmprRt5Uct_CNJDawtyyk0Qf8I",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1747,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/EumIJxvPgcXwdnQ2aw4BCDFaMC1w6wCsWJNUsW-zxYXcNiztVdFBxmEyUKxpSIPvXQ8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1747,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/SxwCYpaYFA8yXVlfZOK5wTU-9lxYIO2mwoCCDA6AFmTGy2bGhKv_f0hrGBukm0Y4VA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1747,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/y4KuLmM4POneb7ubQ6HSXwuNH0yl88zL5SqRntgGDhBd8zcH4uodZBtcYuPxFblXd9Q",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1747,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/zcgUMC5fu40cKNSB8ZgJkh8qeh39CvfhYKyeOztQsnjcwHQVTmeI-IvzpRpj0Kgl9w",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://melyago.com/use-conditions",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "Users interact<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=dz.melya.go",
+    "reviewsUrl": "rev?doc=dz.melya.go&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=dz.melya.go",
+    "title": "MelyaGO",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "contact@melyago.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "21 Oct 2019"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "317",
+      "fiveStarRatings": "348",
+      "fourStarRatings": "42",
+      "oneStarRatings": "144",
+      "ratingsCount": "607",
+      "starRating": 3.7029703,
+      "threeStarRatings": "48",
+      "twoStarRatings": "24",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-02-07 16:03:51.011968",
+    "backendDocid": "dz.melya.go",
+    "backendId": 3,
+    "creator": "ANDROMEDA INNOV",
+    "descriptionHtml": "SOURIEZ ! vous pouvez r\u00e9server votre prochain trajet en toute simplicit\u00e9.<br><br>MELYAGO est la premi\u00e8re application de covoiturage en Alg\u00e9rie, disponible \u00e9galement sur le site https://melyago.com/, la plateforme met en relation des conducteurs voyageant avec des places libres et des passagers se rendant dans la m\u00eame direction. Ils partagent un trajet et les frais qui y sont li\u00e9s. Pratique, \u00e9conomique, conviviale et responsable, melyago vous offre une mobilit\u00e9 durable et intelligente pour d\u00e9couvrir l\u2019Alg\u00e9rie.<br><br>\u00b7 L\u00e0 o\u00f9 il ya une route, il ya melyago, des trajets sur tout le territoire national pour aller partout o\u00f9 vous voulez, quand vous voulez.<br>\u00b7 Tous nos covoitureurs pr\u00e9sentent leurs pi\u00e8ce d&#39;identit\u00e9 et ont un profile sur l\u2019application. Ainsi vous savez avec qui vous roulez.<br>\u00b7 Prenez la route du succ\u00e8s et gagner de l\u2019argents avec votre voiture.<br>\u00b7 Roulez vert et participer \u00e0 la diminution des embouteillages sur nos routes, ensemble permettons et des millions de personnes de se d\u00e9placer.<br>\u00b7 Ne voyager plus seule !! Partager un bon moment de convivialit\u00e9 avec la communaut\u00e9 de covoitureurs MelyaGo.<br><br>Fonctionnalit\u00e9s :<br>1-\tVous \u00eates driver : faites des voyages sympa et gagn\u00e9 de l\u2019argent avec votre voiture.<br>\u2022\tPr\u00e9senter votre identit\u00e9 : scanner et envoyer votre permis de conduire et pr\u00e9cisez vos pr\u00e9f\u00e9rences. <br>\u2022\tPublier votre annonce : pr\u00e9cisez votre date de d\u00e9part, l\u2019heure et votre destination <br>\u2022\tVos covoitureurs r\u00e9servent : validez vos r\u00e9servations et discutez des d\u00e9tails avec les passagers.<br>\u2022\tRoulez : profitez de votre voyage convivial et soyez prudents.<br>2-\tVous \u00eates passagers : r\u00e9servez une place et \u00e9conomisez de l\u2019argent .<br>\u2022\tRecherchez un covoitureur : trouvez l\u2019annonce qui vous convient, recherche par date ou par ville .<br>\u2022\tR\u00e9servez votre place : cliquez sur \u00ab trouver votre trajet \u00bb pour avoir les coordonn\u00e9es du driver.<br>\u2022\tContactez : discutez des d\u00e9tails avec le covoitureur sur le lieu de rencontre.<br>\u2022\tVoyager : profitez de votre voyage conviviale et n\u2019oubliez pas de laisser un commentaire.",
+    "descriptionShort": "THE FIRST APPLICATION OF COBOITURAGE IN ALGERIA",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "28570511",
+          "unknown3": 30
+        },
+        "developerEmail": "contact@melyago.com",
+        "developerName": "ANDROMEDA INNOV",
+        "developerWebsite": "http://www.melyago.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "28570511",
+            "versionCode": 20006
+          }
+        ],
+        "installationSize": "28570511",
+        "numDownloads": "100,000+ downloads",
+        "packageName": "dz.melya.go",
+        "permission": [
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.CAMERA",
+          "android.permission.INTERNET",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.RECORD_AUDIO",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "dz.melya.go.permission.C2D_MESSAGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE"
+        ],
+        "recentChangesHtml": "- Am\u00e9liorer le syst\u00e8me de r\u00e9servation, maintenant vous pouvez r\u00e9server plus d&#39;une place dans un trajet.",
+        "unstable": false,
+        "uploadDate": "7 Feb 2021",
+        "versionCode": 20006,
+        "versionString": "2.0.6"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=dz.melya.go",
+    "docType": 1,
+    "docid": "dz.melya.go",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/wUAPG-3wH0ls2O7UkNvVCcPCsDIJBr5GWGeXdTuuu06AHzFhuAn8mKXzuuNbllHkioFm",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/4upIlyzcp9NeJEi_RtGgYGi1zZF7ZkByfylzBZ2bOVH5uGeGCMYTgePcB2noOaoahis",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1747,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/J6x--MN2No6ELUWTmhduGa1ICi9K1qdQXaL-KStcFmPmprRt5Uct_CNJDawtyyk0Qf8I",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1747,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/EumIJxvPgcXwdnQ2aw4BCDFaMC1w6wCsWJNUsW-zxYXcNiztVdFBxmEyUKxpSIPvXQ8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1747,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/SxwCYpaYFA8yXVlfZOK5wTU-9lxYIO2mwoCCDA6AFmTGy2bGhKv_f0hrGBukm0Y4VA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1747,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/y4KuLmM4POneb7ubQ6HSXwuNH0yl88zL5SqRntgGDhBd8zcH4uodZBtcYuPxFblXd9Q",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1747,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/zcgUMC5fu40cKNSB8ZgJkh8qeh39CvfhYKyeOztQsnjcwHQVTmeI-IvzpRpj0Kgl9w",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://melyago.com/use-conditions",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "Users interact<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=dz.melya.go",
+    "reviewsUrl": "rev?doc=dz.melya.go&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=dz.melya.go",
+    "title": "MelyaGO",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "contact@melyago.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "21 Oct 2019"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "319",
+      "fiveStarRatings": "344",
+      "fourStarRatings": "48",
+      "oneStarRatings": "144",
+      "ratingsCount": "616",
+      "starRating": 3.6764705,
+      "threeStarRatings": "48",
+      "twoStarRatings": "30",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-03-01 12:52:09.541912",
+    "backendDocid": "dz.melya.go",
+    "backendId": 3,
+    "creator": "ANDROMEDA INNOV",
+    "descriptionHtml": "SOURIEZ ! vous pouvez r\u00e9server votre prochain trajet en toute simplicit\u00e9.<br><br>MELYAGO est la premi\u00e8re application de covoiturage en Alg\u00e9rie, disponible \u00e9galement sur le site https://melyago.com/, la plateforme met en relation des conducteurs voyageant avec des places libres et des passagers se rendant dans la m\u00eame direction. Ils partagent un trajet et les frais qui y sont li\u00e9s. Pratique, \u00e9conomique, conviviale et responsable, melyago vous offre une mobilit\u00e9 durable et intelligente pour d\u00e9couvrir l\u2019Alg\u00e9rie.<br><br>\u00b7 L\u00e0 o\u00f9 il ya une route, il ya melyago, des trajets sur tout le territoire national pour aller partout o\u00f9 vous voulez, quand vous voulez.<br>\u00b7 Tous nos covoitureurs pr\u00e9sentent leurs pi\u00e8ce d&#39;identit\u00e9 et ont un profile sur l\u2019application. Ainsi vous savez avec qui vous roulez.<br>\u00b7 Prenez la route du succ\u00e8s et gagner de l\u2019argents avec votre voiture.<br>\u00b7 Roulez vert et participer \u00e0 la diminution des embouteillages sur nos routes, ensemble permettons et des millions de personnes de se d\u00e9placer.<br>\u00b7 Ne voyager plus seule !! Partager un bon moment de convivialit\u00e9 avec la communaut\u00e9 de covoitureurs MelyaGo.<br><br>Fonctionnalit\u00e9s :<br>1-\tVous \u00eates driver : faites des voyages sympa et gagn\u00e9 de l\u2019argent avec votre voiture.<br>\u2022\tPr\u00e9senter votre identit\u00e9 : scanner et envoyer votre permis de conduire et pr\u00e9cisez vos pr\u00e9f\u00e9rences. <br>\u2022\tPublier votre annonce : pr\u00e9cisez votre date de d\u00e9part, l\u2019heure et votre destination <br>\u2022\tVos covoitureurs r\u00e9servent : validez vos r\u00e9servations et discutez des d\u00e9tails avec les passagers.<br>\u2022\tRoulez : profitez de votre voyage convivial et soyez prudents.<br>2-\tVous \u00eates passagers : r\u00e9servez une place et \u00e9conomisez de l\u2019argent .<br>\u2022\tRecherchez un covoitureur : trouvez l\u2019annonce qui vous convient, recherche par date ou par ville .<br>\u2022\tR\u00e9servez votre place : cliquez sur \u00ab trouver votre trajet \u00bb pour avoir les coordonn\u00e9es du driver.<br>\u2022\tContactez : discutez des d\u00e9tails avec le covoitureur sur le lieu de rencontre.<br>\u2022\tVoyager : profitez de votre voyage conviviale et n\u2019oubliez pas de laisser un commentaire.",
+    "descriptionShort": "THE FIRST APPLICATION OF COBOITURAGE IN ALGERIA",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "29636779",
+          "unknown3": 31
+        },
+        "developerEmail": "contact@melyago.com",
+        "developerName": "ANDROMEDA INNOV",
+        "developerWebsite": "http://www.melyago.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "29636779",
+            "versionCode": 20007
+          }
+        ],
+        "installationSize": "29636779",
+        "numDownloads": "100,000+ downloads",
+        "packageName": "dz.melya.go",
+        "permission": [
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.CAMERA",
+          "android.permission.INTERNET",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.RECORD_AUDIO",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "dz.melya.go.permission.C2D_MESSAGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE"
+        ],
+        "recentChangesHtml": "Ajout du guide d&#39;utilisation lors de la premi\u00e8re utilisation.<br>Ajout de la possibilit\u00e9 de r\u00e9server dans un mini van.<br>Fixer quelques bugs. ",
+        "unstable": false,
+        "uploadDate": "1 Mar 2021",
+        "versionCode": 20007,
+        "versionString": "2.0.7"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=dz.melya.go",
+    "docType": 1,
+    "docid": "dz.melya.go",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/wUAPG-3wH0ls2O7UkNvVCcPCsDIJBr5GWGeXdTuuu06AHzFhuAn8mKXzuuNbllHkioFm",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/4upIlyzcp9NeJEi_RtGgYGi1zZF7ZkByfylzBZ2bOVH5uGeGCMYTgePcB2noOaoahis",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1747,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/J6x--MN2No6ELUWTmhduGa1ICi9K1qdQXaL-KStcFmPmprRt5Uct_CNJDawtyyk0Qf8I",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1747,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/EumIJxvPgcXwdnQ2aw4BCDFaMC1w6wCsWJNUsW-zxYXcNiztVdFBxmEyUKxpSIPvXQ8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1747,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/SxwCYpaYFA8yXVlfZOK5wTU-9lxYIO2mwoCCDA6AFmTGy2bGhKv_f0hrGBukm0Y4VA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1747,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/y4KuLmM4POneb7ubQ6HSXwuNH0yl88zL5SqRntgGDhBd8zcH4uodZBtcYuPxFblXd9Q",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1747,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/zcgUMC5fu40cKNSB8ZgJkh8qeh39CvfhYKyeOztQsnjcwHQVTmeI-IvzpRpj0Kgl9w",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://melyago.com/use-conditions",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "Users interact<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=dz.melya.go",
+    "reviewsUrl": "rev?doc=dz.melya.go&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=dz.melya.go",
+    "title": "MelyaGO",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "contact@melyago.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "21 Oct 2019"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "321",
+      "fiveStarRatings": "339",
+      "fourStarRatings": "43",
+      "oneStarRatings": "172",
+      "ratingsCount": "623",
+      "starRating": 3.5544555,
+      "threeStarRatings": "37",
+      "twoStarRatings": "30",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-04-01 19:51:13.633000",
+    "backendDocid": "dz.melya.go",
+    "backendId": 3,
+    "creator": "ANDROMEDA INNOV",
+    "descriptionHtml": "SOURIEZ ! vous pouvez r\u00e9server votre prochain trajet en toute simplicit\u00e9.<br><br>MELYAGO est la premi\u00e8re application de covoiturage en Alg\u00e9rie, disponible \u00e9galement sur le site https://melyago.com/, la plateforme met en relation des conducteurs voyageant avec des places libres et des passagers se rendant dans la m\u00eame direction. Ils partagent un trajet et les frais qui y sont li\u00e9s. Pratique, \u00e9conomique, conviviale et responsable, melyago vous offre une mobilit\u00e9 durable et intelligente pour d\u00e9couvrir l\u2019Alg\u00e9rie.<br><br>\u00b7 L\u00e0 o\u00f9 il ya une route, il ya melyago, des trajets sur tout le territoire national pour aller partout o\u00f9 vous voulez, quand vous voulez.<br>\u00b7 Tous nos covoitureurs pr\u00e9sentent leurs pi\u00e8ce d&#39;identit\u00e9 et ont un profile sur l\u2019application. Ainsi vous savez avec qui vous roulez.<br>\u00b7 Prenez la route du succ\u00e8s et gagner de l\u2019argents avec votre voiture.<br>\u00b7 Roulez vert et participer \u00e0 la diminution des embouteillages sur nos routes, ensemble permettons et des millions de personnes de se d\u00e9placer.<br>\u00b7 Ne voyager plus seule !! Partager un bon moment de convivialit\u00e9 avec la communaut\u00e9 de covoitureurs MelyaGo.<br><br>Fonctionnalit\u00e9s :<br>1-\tVous \u00eates driver : faites des voyages sympa et gagn\u00e9 de l\u2019argent avec votre voiture.<br>\u2022\tPr\u00e9senter votre identit\u00e9 : scanner et envoyer votre permis de conduire et pr\u00e9cisez vos pr\u00e9f\u00e9rences. <br>\u2022\tPublier votre annonce : pr\u00e9cisez votre date de d\u00e9part, l\u2019heure et votre destination <br>\u2022\tVos covoitureurs r\u00e9servent : validez vos r\u00e9servations et discutez des d\u00e9tails avec les passagers.<br>\u2022\tRoulez : profitez de votre voyage convivial et soyez prudents.<br>2-\tVous \u00eates passagers : r\u00e9servez une place et \u00e9conomisez de l\u2019argent .<br>\u2022\tRecherchez un covoitureur : trouvez l\u2019annonce qui vous convient, recherche par date ou par ville .<br>\u2022\tR\u00e9servez votre place : cliquez sur \u00ab trouver votre trajet \u00bb pour avoir les coordonn\u00e9es du driver.<br>\u2022\tContactez : discutez des d\u00e9tails avec le covoitureur sur le lieu de rencontre.<br>\u2022\tVoyager : profitez de votre voyage conviviale et n\u2019oubliez pas de laisser un commentaire.",
+    "descriptionShort": "THE FIRST APPLICATION OF COBOITURAGE IN ALGERIA",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "29946059",
+          "unknown3": 30
+        },
+        "developerEmail": "contact@melyago.com",
+        "developerName": "ANDROMEDA INNOV",
+        "developerWebsite": "http://www.melyago.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "29946059",
+            "versionCode": 20008
+          }
+        ],
+        "installationSize": "29946059",
+        "numDownloads": "100,000+ downloads",
+        "packageName": "dz.melya.go",
+        "permission": [
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.USE_FULL_SCREEN_INTENT",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+        ],
+        "recentChangesHtml": "- Ajouter la possibilit\u00e9 de parrainage.<br>- Amelioration du syst\u00e8me de notification.<br>- Fixer les bugs. ",
+        "unstable": false,
+        "uploadDate": "1 Apr 2021",
+        "versionCode": 20008,
+        "versionString": "2.0.8"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=dz.melya.go",
+    "docType": 1,
+    "docid": "dz.melya.go",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/wUAPG-3wH0ls2O7UkNvVCcPCsDIJBr5GWGeXdTuuu06AHzFhuAn8mKXzuuNbllHkioFm",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/4upIlyzcp9NeJEi_RtGgYGi1zZF7ZkByfylzBZ2bOVH5uGeGCMYTgePcB2noOaoahis",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1747,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/J6x--MN2No6ELUWTmhduGa1ICi9K1qdQXaL-KStcFmPmprRt5Uct_CNJDawtyyk0Qf8I",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1747,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/EumIJxvPgcXwdnQ2aw4BCDFaMC1w6wCsWJNUsW-zxYXcNiztVdFBxmEyUKxpSIPvXQ8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1747,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/SxwCYpaYFA8yXVlfZOK5wTU-9lxYIO2mwoCCDA6AFmTGy2bGhKv_f0hrGBukm0Y4VA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1747,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/y4KuLmM4POneb7ubQ6HSXwuNH0yl88zL5SqRntgGDhBd8zcH4uodZBtcYuPxFblXd9Q",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1747,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/zcgUMC5fu40cKNSB8ZgJkh8qeh39CvfhYKyeOztQsnjcwHQVTmeI-IvzpRpj0Kgl9w",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://melyago.com/use-conditions",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "Users interact<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=dz.melya.go",
+    "reviewsUrl": "rev?doc=dz.melya.go&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=dz.melya.go",
+    "title": "MelyaGO",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "contact@melyago.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "21 Oct 2019"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "322",
+      "fiveStarRatings": "339",
+      "fourStarRatings": "43",
+      "oneStarRatings": "163",
+      "ratingsCount": "628",
+      "starRating": 3.57,
+      "threeStarRatings": "43",
+      "twoStarRatings": "37",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-05-03 22:27:28.959710",
+    "backendDocid": "dz.melya.go",
+    "backendId": 3,
+    "creator": "ANDROMEDA INNOV",
+    "descriptionHtml": "SOURIEZ ! vous pouvez r\u00e9server votre prochain trajet en toute simplicit\u00e9.<br><br>MELYAGO est la premi\u00e8re application de covoiturage en Alg\u00e9rie, disponible \u00e9galement sur le site https://melyago.com/, la plateforme met en relation des conducteurs voyageant avec des places libres et des passagers se rendant dans la m\u00eame direction. Ils partagent un trajet et les frais qui y sont li\u00e9s. Pratique, \u00e9conomique, conviviale et responsable, melyago vous offre une mobilit\u00e9 durable et intelligente pour d\u00e9couvrir l\u2019Alg\u00e9rie.<br><br>\u00b7 L\u00e0 o\u00f9 il ya une route, il ya melyago, des trajets sur tout le territoire national pour aller partout o\u00f9 vous voulez, quand vous voulez.<br>\u00b7 Tous nos covoitureurs pr\u00e9sentent leurs pi\u00e8ce d&#39;identit\u00e9 et ont un profile sur l\u2019application. Ainsi vous savez avec qui vous roulez.<br>\u00b7 Prenez la route du succ\u00e8s et gagner de l\u2019argents avec votre voiture.<br>\u00b7 Roulez vert et participer \u00e0 la diminution des embouteillages sur nos routes, ensemble permettons et des millions de personnes de se d\u00e9placer.<br>\u00b7 Ne voyager plus seule !! Partager un bon moment de convivialit\u00e9 avec la communaut\u00e9 de covoitureurs MelyaGo.<br><br>Fonctionnalit\u00e9s :<br>1-\tVous \u00eates driver : faites des voyages sympa et gagn\u00e9 de l\u2019argent avec votre voiture.<br>\u2022\tPr\u00e9senter votre identit\u00e9 : scanner et envoyer votre permis de conduire et pr\u00e9cisez vos pr\u00e9f\u00e9rences. <br>\u2022\tPublier votre annonce : pr\u00e9cisez votre date de d\u00e9part, l\u2019heure et votre destination <br>\u2022\tVos covoitureurs r\u00e9servent : validez vos r\u00e9servations et discutez des d\u00e9tails avec les passagers.<br>\u2022\tRoulez : profitez de votre voyage convivial et soyez prudents.<br>2-\tVous \u00eates passagers : r\u00e9servez une place et \u00e9conomisez de l\u2019argent .<br>\u2022\tRecherchez un covoitureur : trouvez l\u2019annonce qui vous convient, recherche par date ou par ville .<br>\u2022\tR\u00e9servez votre place : cliquez sur \u00ab trouver votre trajet \u00bb pour avoir les coordonn\u00e9es du driver.<br>\u2022\tContactez : discutez des d\u00e9tails avec le covoitureur sur le lieu de rencontre.<br>\u2022\tVoyager : profitez de votre voyage conviviale et n\u2019oubliez pas de laisser un commentaire.",
+    "descriptionShort": "THE FIRST APPLICATION OF COBOITURAGE IN ALGERIA",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "29921627",
+          "unknown3": 30
+        },
+        "developerEmail": "contact@melyago.com",
+        "developerName": "ANDROMEDA INNOV",
+        "developerWebsite": "http://www.melyago.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "29921627",
+            "versionCode": 20009
+          }
+        ],
+        "installationSize": "29921627",
+        "numDownloads": "100,000+ downloads",
+        "packageName": "dz.melya.go",
+        "permission": [
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.USE_FULL_SCREEN_INTENT",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+        ],
+        "recentChangesHtml": "- Am\u00e9lioration de la recherche (on peut rechercher des trajets covoiturages et des trajets vans au meme temps).<br>- Fixer les bugs.",
+        "unstable": false,
+        "uploadDate": "3 May 2021",
+        "versionCode": 20009,
+        "versionString": "2.0.9"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=dz.melya.go",
+    "docType": 1,
+    "docid": "dz.melya.go",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/wUAPG-3wH0ls2O7UkNvVCcPCsDIJBr5GWGeXdTuuu06AHzFhuAn8mKXzuuNbllHkioFm",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/4upIlyzcp9NeJEi_RtGgYGi1zZF7ZkByfylzBZ2bOVH5uGeGCMYTgePcB2noOaoahis",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1747,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/J6x--MN2No6ELUWTmhduGa1ICi9K1qdQXaL-KStcFmPmprRt5Uct_CNJDawtyyk0Qf8I",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1747,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/EumIJxvPgcXwdnQ2aw4BCDFaMC1w6wCsWJNUsW-zxYXcNiztVdFBxmEyUKxpSIPvXQ8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1747,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/SxwCYpaYFA8yXVlfZOK5wTU-9lxYIO2mwoCCDA6AFmTGy2bGhKv_f0hrGBukm0Y4VA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1747,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/y4KuLmM4POneb7ubQ6HSXwuNH0yl88zL5SqRntgGDhBd8zcH4uodZBtcYuPxFblXd9Q",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1747,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/zcgUMC5fu40cKNSB8ZgJkh8qeh39CvfhYKyeOztQsnjcwHQVTmeI-IvzpRpj0Kgl9w",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://melyago.com/use-conditions",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "Users interact<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=dz.melya.go",
+    "reviewsUrl": "rev?doc=dz.melya.go&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=dz.melya.go",
+    "title": "MelyaGO",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "contact@melyago.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "21 Oct 2019"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "340",
+      "fiveStarRatings": "372",
+      "fourStarRatings": "39",
+      "oneStarRatings": "186",
+      "ratingsCount": "666",
+      "starRating": 3.58,
+      "threeStarRatings": "39",
+      "twoStarRatings": "26",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-05-24 06:35:55.474818",
+    "backendDocid": "dz.melya.go",
+    "backendId": 3,
+    "creator": "ANDROMEDA INNOV",
+    "descriptionHtml": "SOURIEZ ! vous pouvez r\u00e9server votre prochain trajet en toute simplicit\u00e9.<br><br>MELYAGO est la premi\u00e8re application de covoiturage en Alg\u00e9rie, disponible \u00e9galement sur le site https://melyago.com/, la plateforme met en relation des conducteurs voyageant avec des places libres et des passagers se rendant dans la m\u00eame direction. Ils partagent un trajet et les frais qui y sont li\u00e9s. Pratique, \u00e9conomique, conviviale et responsable, melyago vous offre une mobilit\u00e9 durable et intelligente pour d\u00e9couvrir l\u2019Alg\u00e9rie.<br><br>\u00b7 L\u00e0 o\u00f9 il ya une route, il ya melyago, des trajets sur tout le territoire national pour aller partout o\u00f9 vous voulez, quand vous voulez.<br>\u00b7 Tous nos covoitureurs pr\u00e9sentent leurs pi\u00e8ce d&#39;identit\u00e9 et ont un profile sur l\u2019application. Ainsi vous savez avec qui vous roulez.<br>\u00b7 Prenez la route du succ\u00e8s et gagner de l\u2019argents avec votre voiture.<br>\u00b7 Roulez vert et participer \u00e0 la diminution des embouteillages sur nos routes, ensemble permettons et des millions de personnes de se d\u00e9placer.<br>\u00b7 Ne voyager plus seule !! Partager un bon moment de convivialit\u00e9 avec la communaut\u00e9 de covoitureurs MelyaGo.<br><br>Fonctionnalit\u00e9s :<br>1-\tVous \u00eates driver : faites des voyages sympa et gagn\u00e9 de l\u2019argent avec votre voiture.<br>\u2022\tPr\u00e9senter votre identit\u00e9 : scanner et envoyer votre permis de conduire et pr\u00e9cisez vos pr\u00e9f\u00e9rences. <br>\u2022\tPublier votre annonce : pr\u00e9cisez votre date de d\u00e9part, l\u2019heure et votre destination <br>\u2022\tVos covoitureurs r\u00e9servent : validez vos r\u00e9servations et discutez des d\u00e9tails avec les passagers.<br>\u2022\tRoulez : profitez de votre voyage convivial et soyez prudents.<br>2-\tVous \u00eates passagers : r\u00e9servez une place et \u00e9conomisez de l\u2019argent .<br>\u2022\tRecherchez un covoitureur : trouvez l\u2019annonce qui vous convient, recherche par date ou par ville .<br>\u2022\tR\u00e9servez votre place : cliquez sur \u00ab trouver votre trajet \u00bb pour avoir les coordonn\u00e9es du driver.<br>\u2022\tContactez : discutez des d\u00e9tails avec le covoitureur sur le lieu de rencontre.<br>\u2022\tVoyager : profitez de votre voyage conviviale et n\u2019oubliez pas de laisser un commentaire.",
+    "descriptionShort": "THE FIRST APPLICATION OF COBOITURAGE IN ALGERIA",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "29948557",
+          "unknown3": 30
+        },
+        "developerEmail": "contact@melyago.com",
+        "developerName": "ANDROMEDA INNOV",
+        "developerWebsite": "http://www.melyago.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "29948557",
+            "versionCode": 20100
+          }
+        ],
+        "installationSize": "29948557",
+        "numDownloads": "100,000+ downloads",
+        "packageName": "dz.melya.go",
+        "permission": [
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.USE_FULL_SCREEN_INTENT",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+        ],
+        "recentChangesHtml": "- Am\u00e9lioration de l&#39;exp\u00e9rience utilisateur.<br>- Am\u00e9lioration de syst\u00e8me de notation des chauffeurs.<br>- Am\u00e9lioration de syst\u00e8me de r\u00e9servation.",
+        "unstable": false,
+        "uploadDate": "23 May 2021",
+        "versionCode": 20100,
+        "versionString": "2.1.0"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=dz.melya.go",
+    "docType": 1,
+    "docid": "dz.melya.go",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/wUAPG-3wH0ls2O7UkNvVCcPCsDIJBr5GWGeXdTuuu06AHzFhuAn8mKXzuuNbllHkioFm",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/4upIlyzcp9NeJEi_RtGgYGi1zZF7ZkByfylzBZ2bOVH5uGeGCMYTgePcB2noOaoahis",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1747,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/J6x--MN2No6ELUWTmhduGa1ICi9K1qdQXaL-KStcFmPmprRt5Uct_CNJDawtyyk0Qf8I",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1747,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/EumIJxvPgcXwdnQ2aw4BCDFaMC1w6wCsWJNUsW-zxYXcNiztVdFBxmEyUKxpSIPvXQ8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1747,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/SxwCYpaYFA8yXVlfZOK5wTU-9lxYIO2mwoCCDA6AFmTGy2bGhKv_f0hrGBukm0Y4VA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1747,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/y4KuLmM4POneb7ubQ6HSXwuNH0yl88zL5SqRntgGDhBd8zcH4uodZBtcYuPxFblXd9Q",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1747,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/zcgUMC5fu40cKNSB8ZgJkh8qeh39CvfhYKyeOztQsnjcwHQVTmeI-IvzpRpj0Kgl9w",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://melyago.com/use-conditions",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "Users interact<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=dz.melya.go",
+    "reviewsUrl": "rev?doc=dz.melya.go&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=dz.melya.go",
+    "title": "MelyaGO",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "ANDROMEDA INNOV"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "contact@melyago.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "21 Oct 2019"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "356",
+      "fiveStarRatings": "446",
+      "fourStarRatings": "41",
+      "oneStarRatings": "164",
+      "ratingsCount": "708",
+      "starRating": 3.8349514,
+      "threeStarRatings": "41",
+      "twoStarRatings": "13",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-06-17 07:05:28.519690",
+    "backendDocid": "dz.melya.go",
+    "backendId": 3,
+    "creator": "ANDROMEDA INNOV",
+    "descriptionHtml": "SOURIEZ ! vous pouvez r\u00e9server votre prochain trajet en toute simplicit\u00e9.<br><br>MELYAGO est la premi\u00e8re application de covoiturage en Alg\u00e9rie, disponible \u00e9galement sur le site https://melyago.com/, la plateforme met en relation des conducteurs voyageant avec des places libres et des passagers se rendant dans la m\u00eame direction. Ils partagent un trajet et les frais qui y sont li\u00e9s. Pratique, \u00e9conomique, conviviale et responsable, melyago vous offre une mobilit\u00e9 durable et intelligente pour d\u00e9couvrir l\u2019Alg\u00e9rie.<br><br>\u00b7 L\u00e0 o\u00f9 il ya une route, il ya melyago, des trajets sur tout le territoire national pour aller partout o\u00f9 vous voulez, quand vous voulez.<br>\u00b7 Tous nos covoitureurs pr\u00e9sentent leurs pi\u00e8ce d&#39;identit\u00e9 et ont un profile sur l\u2019application. Ainsi vous savez avec qui vous roulez.<br>\u00b7 Prenez la route du succ\u00e8s et gagner de l\u2019argents avec votre voiture.<br>\u00b7 Roulez vert et participer \u00e0 la diminution des embouteillages sur nos routes, ensemble permettons et des millions de personnes de se d\u00e9placer.<br>\u00b7 Ne voyager plus seule !! Partager un bon moment de convivialit\u00e9 avec la communaut\u00e9 de covoitureurs MelyaGo.<br><br>Fonctionnalit\u00e9s :<br>1-\tVous \u00eates driver : faites des voyages sympa et gagn\u00e9 de l\u2019argent avec votre voiture.<br>\u2022\tPr\u00e9senter votre identit\u00e9 : scanner et envoyer votre permis de conduire et pr\u00e9cisez vos pr\u00e9f\u00e9rences. <br>\u2022\tPublier votre annonce : pr\u00e9cisez votre date de d\u00e9part, l\u2019heure et votre destination <br>\u2022\tVos covoitureurs r\u00e9servent : validez vos r\u00e9servations et discutez des d\u00e9tails avec les passagers.<br>\u2022\tRoulez : profitez de votre voyage convivial et soyez prudents.<br>2-\tVous \u00eates passagers : r\u00e9servez une place et \u00e9conomisez de l\u2019argent .<br>\u2022\tRecherchez un covoitureur : trouvez l\u2019annonce qui vous convient, recherche par date ou par ville .<br>\u2022\tR\u00e9servez votre place : cliquez sur \u00ab trouver votre trajet \u00bb pour avoir les coordonn\u00e9es du driver.<br>\u2022\tContactez : discutez des d\u00e9tails avec le covoitureur sur le lieu de rencontre.<br>\u2022\tVoyager : profitez de votre voyage conviviale et n\u2019oubliez pas de laisser un commentaire.",
+    "descriptionShort": "THE FIRST APPLICATION OF COBOITURAGE IN ALGERIA",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "30112884",
+          "unknown3": 30
+        },
+        "developerEmail": "contact@melyago.com",
+        "developerName": "ANDROMEDA INNOV",
+        "developerWebsite": "http://www.melyago.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "30112884",
+            "versionCode": 20101
+          }
+        ],
+        "installationSize": "30112884",
+        "numDownloads": "100,000+ downloads",
+        "packageName": "dz.melya.go",
+        "permission": [
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.USE_FULL_SCREEN_INTENT",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+        ],
+        "recentChangesHtml": "- Am\u00e9lioration de l&#39;exp\u00e9rience utilisateur.<br>- Am\u00e9lioration du syst\u00e8me de r\u00e9servation.",
+        "unstable": false,
+        "uploadDate": "15 Jun 2021",
+        "versionCode": 20101,
+        "versionString": "2.1.1"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=dz.melya.go",
+    "docType": 1,
+    "docid": "dz.melya.go",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/wUAPG-3wH0ls2O7UkNvVCcPCsDIJBr5GWGeXdTuuu06AHzFhuAn8mKXzuuNbllHkioFm",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/4upIlyzcp9NeJEi_RtGgYGi1zZF7ZkByfylzBZ2bOVH5uGeGCMYTgePcB2noOaoahis",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1747,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/J6x--MN2No6ELUWTmhduGa1ICi9K1qdQXaL-KStcFmPmprRt5Uct_CNJDawtyyk0Qf8I",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1747,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/EumIJxvPgcXwdnQ2aw4BCDFaMC1w6wCsWJNUsW-zxYXcNiztVdFBxmEyUKxpSIPvXQ8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1747,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/SxwCYpaYFA8yXVlfZOK5wTU-9lxYIO2mwoCCDA6AFmTGy2bGhKv_f0hrGBukm0Y4VA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1747,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/y4KuLmM4POneb7ubQ6HSXwuNH0yl88zL5SqRntgGDhBd8zcH4uodZBtcYuPxFblXd9Q",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1747,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/zcgUMC5fu40cKNSB8ZgJkh8qeh39CvfhYKyeOztQsnjcwHQVTmeI-IvzpRpj0Kgl9w",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://melyago.com/use-conditions",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "Users interact<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=dz.melya.go",
+    "reviewsUrl": "rev?doc=dz.melya.go&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=dz.melya.go",
+    "title": "MelyaGO",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "contact@melyago.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "21 Oct 2019"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "361",
+      "fiveStarRatings": "477",
+      "fourStarRatings": "43",
+      "oneStarRatings": "130",
+      "ratingsCount": "723",
+      "starRating": 4.01,
+      "threeStarRatings": "65",
+      "twoStarRatings": "7",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-07-05 07:08:59.354623",
+    "backendDocid": "dz.melya.go",
+    "backendId": 3,
+    "creator": "ANDROMEDA INNOV",
+    "descriptionHtml": "SOURIEZ ! vous pouvez r\u00e9server votre prochain trajet en toute simplicit\u00e9.<br><br>MELYAGO est la premi\u00e8re application de covoiturage en Alg\u00e9rie, disponible \u00e9galement sur le site https://melyago.com/, la plateforme met en relation des conducteurs voyageant avec des places libres et des passagers se rendant dans la m\u00eame direction. Ils partagent un trajet et les frais qui y sont li\u00e9s. Pratique, \u00e9conomique, conviviale et responsable, melyago vous offre une mobilit\u00e9 durable et intelligente pour d\u00e9couvrir l\u2019Alg\u00e9rie.<br><br>\u00b7 L\u00e0 o\u00f9 il ya une route, il ya melyago, des trajets sur tout le territoire national pour aller partout o\u00f9 vous voulez, quand vous voulez.<br>\u00b7 Tous nos covoitureurs pr\u00e9sentent leurs pi\u00e8ce d&#39;identit\u00e9 et ont un profile sur l\u2019application. Ainsi vous savez avec qui vous roulez.<br>\u00b7 Prenez la route du succ\u00e8s et gagner de l\u2019argents avec votre voiture.<br>\u00b7 Roulez vert et participer \u00e0 la diminution des embouteillages sur nos routes, ensemble permettons et des millions de personnes de se d\u00e9placer.<br>\u00b7 Ne voyager plus seule !! Partager un bon moment de convivialit\u00e9 avec la communaut\u00e9 de covoitureurs MelyaGo.<br><br>Fonctionnalit\u00e9s :<br>1-\tVous \u00eates driver : faites des voyages sympa et gagn\u00e9 de l\u2019argent avec votre voiture.<br>\u2022\tPr\u00e9senter votre identit\u00e9 : scanner et envoyer votre permis de conduire et pr\u00e9cisez vos pr\u00e9f\u00e9rences. <br>\u2022\tPublier votre annonce : pr\u00e9cisez votre date de d\u00e9part, l\u2019heure et votre destination <br>\u2022\tVos covoitureurs r\u00e9servent : validez vos r\u00e9servations et discutez des d\u00e9tails avec les passagers.<br>\u2022\tRoulez : profitez de votre voyage convivial et soyez prudents.<br>2-\tVous \u00eates passagers : r\u00e9servez une place et \u00e9conomisez de l\u2019argent .<br>\u2022\tRecherchez un covoitureur : trouvez l\u2019annonce qui vous convient, recherche par date ou par ville .<br>\u2022\tR\u00e9servez votre place : cliquez sur \u00ab trouver votre trajet \u00bb pour avoir les coordonn\u00e9es du driver.<br>\u2022\tContactez : discutez des d\u00e9tails avec le covoitureur sur le lieu de rencontre.<br>\u2022\tVoyager : profitez de votre voyage conviviale et n\u2019oubliez pas de laisser un commentaire.",
+    "descriptionShort": "THE FIRST APPLICATION OF COBOITURAGE IN ALGERIA",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "30717599",
+          "unknown3": 30
+        },
+        "developerEmail": "contact@melyago.com",
+        "developerName": "ANDROMEDA INNOV",
+        "developerWebsite": "http://www.melyago.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "30717599",
+            "versionCode": 20102
+          }
+        ],
+        "installationSize": "30717599",
+        "numDownloads": "100,000+ downloads",
+        "packageName": "dz.melya.go",
+        "permission": [
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.USE_FULL_SCREEN_INTENT",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+        ],
+        "recentChangesHtml": "- Am\u00e9lioration du syst\u00e8me d&#39;affectation de trajets pour les chauffeurs.<br>- Am\u00e9lioration du syst\u00e8me de demande de trajet.<br>- Fixer les bugs et am\u00e9lioration des performances de l&#39;application.  ",
+        "unstable": false,
+        "uploadDate": "4 Jul 2021",
+        "versionCode": 20102,
+        "versionString": "2.1.2"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=dz.melya.go",
+    "docType": 1,
+    "docid": "dz.melya.go",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/wUAPG-3wH0ls2O7UkNvVCcPCsDIJBr5GWGeXdTuuu06AHzFhuAn8mKXzuuNbllHkioFm",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/4upIlyzcp9NeJEi_RtGgYGi1zZF7ZkByfylzBZ2bOVH5uGeGCMYTgePcB2noOaoahis",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1747,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/J6x--MN2No6ELUWTmhduGa1ICi9K1qdQXaL-KStcFmPmprRt5Uct_CNJDawtyyk0Qf8I",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1747,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/EumIJxvPgcXwdnQ2aw4BCDFaMC1w6wCsWJNUsW-zxYXcNiztVdFBxmEyUKxpSIPvXQ8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1747,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/SxwCYpaYFA8yXVlfZOK5wTU-9lxYIO2mwoCCDA6AFmTGy2bGhKv_f0hrGBukm0Y4VA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1747,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/y4KuLmM4POneb7ubQ6HSXwuNH0yl88zL5SqRntgGDhBd8zcH4uodZBtcYuPxFblXd9Q",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1747,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/zcgUMC5fu40cKNSB8ZgJkh8qeh39CvfhYKyeOztQsnjcwHQVTmeI-IvzpRpj0Kgl9w",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://melyago.com/use-conditions",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "Users interact<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=dz.melya.go",
+    "reviewsUrl": "rev?doc=dz.melya.go&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=dz.melya.go",
+    "title": "MelyaGO",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "contact@melyago.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "21 Oct 2019"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "373",
+      "fiveStarRatings": "494",
+      "fourStarRatings": "81",
+      "oneStarRatings": "125",
+      "ratingsCount": "767",
+      "starRating": 4.048077,
+      "threeStarRatings": "51",
+      "twoStarRatings": "14",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-09-23 04:26:31.538025",
+    "backendDocid": "dz.melya.go",
+    "backendId": 3,
+    "creator": "ANDROMEDA INNOV",
+    "descriptionHtml": "SOURIEZ ! vous pouvez r\u00e9server votre prochain trajet en toute simplicit\u00e9.<br><br>MELYAGO est la premi\u00e8re application de covoiturage en Alg\u00e9rie, disponible \u00e9galement sur le site https://melyago.com/, la plateforme met en relation des conducteurs voyageant avec des places libres et des passagers se rendant dans la m\u00eame direction. Ils partagent un trajet et les frais qui y sont li\u00e9s. Pratique, \u00e9conomique, conviviale et responsable, melyago vous offre une mobilit\u00e9 durable et intelligente pour d\u00e9couvrir l\u2019Alg\u00e9rie.<br><br>\u00b7 L\u00e0 o\u00f9 il ya une route, il ya melyago, des trajets sur tout le territoire national pour aller partout o\u00f9 vous voulez, quand vous voulez.<br>\u00b7 Tous nos covoitureurs pr\u00e9sentent leurs pi\u00e8ce d&#39;identit\u00e9 et ont un profile sur l\u2019application. Ainsi vous savez avec qui vous roulez.<br>\u00b7 Prenez la route du succ\u00e8s et gagner de l\u2019argents avec votre voiture.<br>\u00b7 Roulez vert et participer \u00e0 la diminution des embouteillages sur nos routes, ensemble permettons et des millions de personnes de se d\u00e9placer.<br>\u00b7 Ne voyager plus seule !! Partager un bon moment de convivialit\u00e9 avec la communaut\u00e9 de covoitureurs MelyaGo.<br><br>Fonctionnalit\u00e9s :<br>1-\tVous \u00eates driver : faites des voyages sympa et gagn\u00e9 de l\u2019argent avec votre voiture.<br>\u2022\tPr\u00e9senter votre identit\u00e9 : scanner et envoyer votre permis de conduire et pr\u00e9cisez vos pr\u00e9f\u00e9rences. <br>\u2022\tPublier votre annonce : pr\u00e9cisez votre date de d\u00e9part, l\u2019heure et votre destination <br>\u2022\tVos covoitureurs r\u00e9servent : validez vos r\u00e9servations et discutez des d\u00e9tails avec les passagers.<br>\u2022\tRoulez : profitez de votre voyage convivial et soyez prudents.<br>2-\tVous \u00eates passagers : r\u00e9servez une place et \u00e9conomisez de l\u2019argent .<br>\u2022\tRecherchez un covoitureur : trouvez l\u2019annonce qui vous convient, recherche par date ou par ville .<br>\u2022\tR\u00e9servez votre place : cliquez sur \u00ab trouver votre trajet \u00bb pour avoir les coordonn\u00e9es du driver.<br>\u2022\tContactez : discutez des d\u00e9tails avec le covoitureur sur le lieu de rencontre.<br>\u2022\tVoyager : profitez de votre voyage conviviale et n\u2019oubliez pas de laisser un commentaire.",
+    "descriptionShort": "THE FIRST APPLICATION OF COBOITURAGE IN ALGERIA",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "31485655",
+          "unknown3": 30
+        },
+        "developerEmail": "contact@melyago.com",
+        "developerName": "ANDROMEDA INNOV",
+        "developerWebsite": "http://www.melyago.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "31485655",
+            "versionCode": 20500
+          }
+        ],
+        "installationSize": "31485655",
+        "numDownloads": "100,000+ downloads",
+        "packageName": "dz.melya.go",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.CAMERA",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.USE_FULL_SCREEN_INTENT",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+        ],
+        "recentChangesHtml": "- Ajout d&#39;un syst\u00e8me de paiement \u00e0 l&#39;application.<br>- Ajout d&#39;un portefeuille \u00e9lectronique \u00e0 l&#39;application.<br>- Am\u00e9lioration du syst\u00e8me de r\u00e9servations.",
+        "unstable": false,
+        "uploadDate": "22 Sept 2021",
+        "versionCode": 20500,
+        "versionString": "2.5.0"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=dz.melya.go",
+    "docType": 1,
+    "docid": "dz.melya.go",
+    "image": [
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/wUAPG-3wH0ls2O7UkNvVCcPCsDIJBr5GWGeXdTuuu06AHzFhuAn8mKXzuuNbllHkioFm",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/4upIlyzcp9NeJEi_RtGgYGi1zZF7ZkByfylzBZ2bOVH5uGeGCMYTgePcB2noOaoahis",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1747,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/J6x--MN2No6ELUWTmhduGa1ICi9K1qdQXaL-KStcFmPmprRt5Uct_CNJDawtyyk0Qf8I",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1747,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/EumIJxvPgcXwdnQ2aw4BCDFaMC1w6wCsWJNUsW-zxYXcNiztVdFBxmEyUKxpSIPvXQ8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1747,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/SxwCYpaYFA8yXVlfZOK5wTU-9lxYIO2mwoCCDA6AFmTGy2bGhKv_f0hrGBukm0Y4VA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1747,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/y4KuLmM4POneb7ubQ6HSXwuNH0yl88zL5SqRntgGDhBd8zcH4uodZBtcYuPxFblXd9Q",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1747,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/zcgUMC5fu40cKNSB8ZgJkh8qeh39CvfhYKyeOztQsnjcwHQVTmeI-IvzpRpj0Kgl9w",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://melyago.com/use-conditions",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "Users interact<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=dz.melya.go",
+    "reviewsUrl": "rev?doc=dz.melya.go&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=dz.melya.go",
+    "title": "MelyaGO",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "contact@melyago.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "21 Oct 2019"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "375",
+      "fiveStarRatings": "488",
+      "fourStarRatings": "77",
+      "oneStarRatings": "134",
+      "ratingsCount": "772",
+      "starRating": 4.0,
+      "threeStarRatings": "56",
+      "twoStarRatings": "14",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-10-14 13:04:01.598021",
+    "backendDocid": "dz.melya.go",
+    "backendId": 3,
+    "creator": "ANDROMEDA INNOV",
+    "descriptionHtml": "SOURIEZ ! vous pouvez r\u00e9server votre prochain trajet en toute simplicit\u00e9.<br><br>MELYAGO est la premi\u00e8re application de covoiturage en Alg\u00e9rie, disponible \u00e9galement sur le site https://melyago.com/, la plateforme met en relation des conducteurs voyageant avec des places libres et des passagers se rendant dans la m\u00eame direction. Ils partagent un trajet et les frais qui y sont li\u00e9s. Pratique, \u00e9conomique, conviviale et responsable, melyago vous offre une mobilit\u00e9 durable et intelligente pour d\u00e9couvrir l\u2019Alg\u00e9rie.<br><br>\u00b7 L\u00e0 o\u00f9 il ya une route, il ya melyago, des trajets sur tout le territoire national pour aller partout o\u00f9 vous voulez, quand vous voulez.<br>\u00b7 Tous nos covoitureurs pr\u00e9sentent leurs pi\u00e8ce d&#39;identit\u00e9 et ont un profile sur l\u2019application. Ainsi vous savez avec qui vous roulez.<br>\u00b7 Prenez la route du succ\u00e8s et gagner de l\u2019argents avec votre voiture.<br>\u00b7 Roulez vert et participer \u00e0 la diminution des embouteillages sur nos routes, ensemble permettons et des millions de personnes de se d\u00e9placer.<br>\u00b7 Ne voyager plus seule !! Partager un bon moment de convivialit\u00e9 avec la communaut\u00e9 de covoitureurs MelyaGo.<br><br>Fonctionnalit\u00e9s :<br>1-\tVous \u00eates driver : faites des voyages sympa et gagn\u00e9 de l\u2019argent avec votre voiture.<br>\u2022\tPr\u00e9senter votre identit\u00e9 : scanner et envoyer votre permis de conduire et pr\u00e9cisez vos pr\u00e9f\u00e9rences. <br>\u2022\tPublier votre annonce : pr\u00e9cisez votre date de d\u00e9part, l\u2019heure et votre destination <br>\u2022\tVos covoitureurs r\u00e9servent : validez vos r\u00e9servations et discutez des d\u00e9tails avec les passagers.<br>\u2022\tRoulez : profitez de votre voyage convivial et soyez prudents.<br>2-\tVous \u00eates passagers : r\u00e9servez une place et \u00e9conomisez de l\u2019argent .<br>\u2022\tRecherchez un covoitureur : trouvez l\u2019annonce qui vous convient, recherche par date ou par ville .<br>\u2022\tR\u00e9servez votre place : cliquez sur \u00ab trouver votre trajet \u00bb pour avoir les coordonn\u00e9es du driver.<br>\u2022\tContactez : discutez des d\u00e9tails avec le covoitureur sur le lieu de rencontre.<br>\u2022\tVoyager : profitez de votre voyage conviviale et n\u2019oubliez pas de laisser un commentaire.",
+    "descriptionShort": "THE FIRST APPLICATION OF COBOITURAGE IN ALGERIA",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "31690093",
+          "unknown3": 30
+        },
+        "developerEmail": "contact@melyago.com",
+        "developerName": "ANDROMEDA INNOV",
+        "developerWebsite": "http://www.melyago.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "31690093",
+            "versionCode": 20501
+          }
+        ],
+        "installationSize": "31690093",
+        "numDownloads": "100,000+ downloads",
+        "packageName": "dz.melya.go",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.CAMERA",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.SCHEDULE_EXACT_ALARM",
+          "android.permission.USE_FULL_SCREEN_INTENT",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+        ],
+        "recentChangesHtml": "- Am\u00e9lioration du syst\u00e8me des \u00e9v\u00e8nements.",
+        "unstable": false,
+        "uploadDate": "13 Oct 2021",
+        "versionCode": 20501,
+        "versionString": "2.5.1"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=dz.melya.go",
+    "docType": 1,
+    "docid": "dz.melya.go",
+    "image": [
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/wUAPG-3wH0ls2O7UkNvVCcPCsDIJBr5GWGeXdTuuu06AHzFhuAn8mKXzuuNbllHkioFm",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/4upIlyzcp9NeJEi_RtGgYGi1zZF7ZkByfylzBZ2bOVH5uGeGCMYTgePcB2noOaoahis",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1747,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/J6x--MN2No6ELUWTmhduGa1ICi9K1qdQXaL-KStcFmPmprRt5Uct_CNJDawtyyk0Qf8I",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1747,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/EumIJxvPgcXwdnQ2aw4BCDFaMC1w6wCsWJNUsW-zxYXcNiztVdFBxmEyUKxpSIPvXQ8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1747,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/SxwCYpaYFA8yXVlfZOK5wTU-9lxYIO2mwoCCDA6AFmTGy2bGhKv_f0hrGBukm0Y4VA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1747,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/y4KuLmM4POneb7ubQ6HSXwuNH0yl88zL5SqRntgGDhBd8zcH4uodZBtcYuPxFblXd9Q",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1747,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/zcgUMC5fu40cKNSB8ZgJkh8qeh39CvfhYKyeOztQsnjcwHQVTmeI-IvzpRpj0Kgl9w",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://melyago.com/use-conditions",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "Users interact<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=dz.melya.go",
+    "reviewsUrl": "rev?doc=dz.melya.go&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=dz.melya.go",
+    "title": "MelyaGO",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "contact@melyago.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "21 Oct 2019"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  }
+]

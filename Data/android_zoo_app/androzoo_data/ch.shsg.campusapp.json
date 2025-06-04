@@ -1,0 +1,3379 @@
+[
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-06-11 12:22:14.359884",
+    "backendDocid": "ch.shsg.campusapp",
+    "backendId": 3,
+    "creator": "Studentenschaft der Universit\u00e4t St. Gallen",
+    "descriptionHtml": "Its aim is to centralise information around the HSG campus and facilitate your life on campus. This project was initiated for the 100-year anniversary of the SHSG. We have included the following features: <br><br>- Home page with announcements, news and events around campus <br>- Seat finder  <br>- Nearby buses and trains  <br>- Mensa menu <br>- Club channels with the 130+ clubs at HSG! <br>- Club news and events<br>- Marketplace because Sharing is Caring <br>- Login with your HSG account  <br>- Map of HSG <br>- Room booking system <br>- Compass mailbox (so when you receive you grades, you can directly check them there) <br>- Grades and achievements <br>- Unisport program<br>- Library books finder (Swisscovery) <br>And more to come\u2026 <br><br>If you have any questions or suggestions about the app, do not hesitate to reach out to us ! <br><br>This project was launched by Ali Jouini, Vice-President of the SHSG 2020/21 and developed by Hugo Casademont.",
+    "descriptionShort": "Welcome to the SHSG Campus App!",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "45788657",
+          "unknown3": 29
+        },
+        "developerEmail": "it@shsg.ch",
+        "developerName": "Studentenschaft der Universit\u00e4t St. Gallen",
+        "developerWebsite": "https://shsg.ch/en",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "20264642",
+            "versionCode": 5
+          },
+          {
+            "fileType": 0,
+            "size": "207545",
+            "versionCode": 5
+          },
+          {
+            "fileType": 0,
+            "size": "37273",
+            "versionCode": 5
+          },
+          {
+            "fileType": 0,
+            "size": "49561",
+            "versionCode": 5
+          },
+          {
+            "fileType": 0,
+            "size": "25229636",
+            "versionCode": 5
+          }
+        ],
+        "installationSize": "45788657",
+        "numDownloads": "100+ downloads",
+        "packageName": "ch.shsg.campusapp",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.CAMERA",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.MANAGE_DOCUMENTS",
+          "android.permission.MODIFY_AUDIO_SETTINGS",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_CALENDAR",
+          "android.permission.READ_CONTACTS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_INTERNAL_STORAGE",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.RECORD_AUDIO",
+          "android.permission.SYSTEM_ALERT_WINDOW",
+          "android.permission.USE_BIOMETRIC",
+          "android.permission.USE_FINGERPRINT",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_CALENDAR",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "android.permission.WRITE_SETTINGS",
+          "ch.shsg.campusapp.permission.C2D_MESSAGE",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.android.launcher.permission.INSTALL_SHORTCUT",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.ACTIVITY_RECOGNITION",
+          "com.google.android.providers.gsf.permission.READ_GSERVICES",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "host.exp.exponent.permission.C2D_MESSAGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE"
+        ],
+        "recentChangesHtml": "- Bug fixes<br>- Student deals<br>- Dark mode<br>- 0.25 grades in the assessment calculator<br>- Add club events to the device calendar",
+        "unstable": false,
+        "uploadDate": "26 Apr 2021",
+        "versionCode": 5,
+        "versionString": "1.1.1"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=ch.shsg.campusapp",
+    "docType": 1,
+    "docid": "ch.shsg.campusapp",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/CzSd3zqHGMnpBYIrWaSl-_ZQU--fT708y_x5hmTxvxAfU6WlMeKXfiWlJpZflHGACAU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/oaTeq5MqZNKsMXaM87eOL9ezoEroK2JMPO3t2bDw9AevAR0z1cGtw7UCtPH7boq-jg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2160,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/v3vXEk0xcbLK9796o92DqhoIJrysCmCzQQGr32td6JslwIRmsVJ5wYQvgT0IXWBpgFk",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2160,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/LrE-dWjsEXLbVo2HocaftH2IfNSyEgiMMk5EjQVvHuO8b1HRSZsrEw3TE-wZxeWSaSo",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2160,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/VDxfpGy89PzyGCpNxjbVHIbND1vbg_tG-3stJriwuCIhMEdvxVRQbVgxdvuOPI1-Jf8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2160,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ujxIxzPWLXHXvR9t6xxlbkKASitOxWDkZzmkms7posghnBxP2t52YhgTsel0qZ6zw58",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2160,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/OXnfwNoXnu_oPDuMn8PGFzFoWYCKHsUYpyQx3RiJMRKt3kYYeLyFbCYVjQGGVZEsTDh-",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2160,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/_975ZhJ60eYwDq-2kRlkP73sVTeSX0HhnNZ9qlVaBjPyk6IlZ9TQOyFnpRdiw2wN858",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2160,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/nffKujvxOFTjXjZfKXM5wWQwrsQNgh8TgszcCJ7LAfkNXRkX67WSkmWYUmJy5l8qD4Pq",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2160,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/kiS4csz8Fw5MJOKW4IbdFZx2fEHRW2N0ybwBA7IfH8TIUCFOgNvfw1uHHByZ6YMDknC7",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "XXX",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://dev.shsg.ch/privacy-policy",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "Users interact<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=ch.shsg.campusapp",
+    "reviewsUrl": "rev?doc=ch.shsg.campusapp&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=ch.shsg.campusapp",
+    "title": "SHSG Campus",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "it@shsg.ch"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "25 Mar 2021"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "2",
+      "fourStarRatings": "2",
+      "oneStarRatings": "1",
+      "ratingsCount": "5",
+      "starRating": 3.8,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-02-24 07:25:35.657955",
+    "backendDocid": "ch.shsg.campusapp",
+    "backendId": 3,
+    "creator": "Studentenschaft der Universit\u00e4t St. Gallen",
+    "descriptionHtml": "Its aim is to centralise information around the HSG campus and facilitate your life on campus. This project was initiated for the 100-year anniversary of the SHSG. We have included the following features: <br><br>- Home page with announcements, news and events around campus <br>- Seat finder  <br>- Nearby buses and trains  <br>- Mensa menu <br>- Club channels with the 130+ clubs at HSG! <br>- Club news and events<br>- Marketplace because Sharing is Caring <br>- Login with your HSG account  <br>- Map of HSG <br>- Room booking system <br>- Compass mailbox (so when you receive you grades, you can directly check them there) <br>- Grades and achievements <br>- Unisport program<br>- Library books finder (Swisscovery) <br>And more to come\u2026 <br><br>If you have any questions or suggestions about the app, do not hesitate to reach out to us ! <br><br>This project was launched by Ali Jouini, Vice-President of the SHSG 2020/21 and developed by Hugo Casademont.",
+    "descriptionShort": "Welcome to the SHSG Campus App!",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "33942317",
+          "unknown3": 30
+        },
+        "developerEmail": "it@shsg.ch",
+        "developerName": "Studentenschaft der Universit\u00e4t St. Gallen",
+        "developerWebsite": "https://shsg.ch/en",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "10667033",
+            "versionCode": 8
+          },
+          {
+            "fileType": 0,
+            "size": "181739",
+            "versionCode": 8
+          },
+          {
+            "fileType": 0,
+            "size": "29081",
+            "versionCode": 8
+          },
+          {
+            "fileType": 0,
+            "size": "33177",
+            "versionCode": 8
+          },
+          {
+            "fileType": 0,
+            "size": "33177",
+            "versionCode": 8
+          },
+          {
+            "fileType": 0,
+            "size": "49561",
+            "versionCode": 8
+          },
+          {
+            "fileType": 0,
+            "size": "22948549",
+            "versionCode": 8
+          }
+        ],
+        "installationSize": "33942317",
+        "numDownloads": "500+ downloads",
+        "packageName": "ch.shsg.campusapp",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_MEDIA_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.CAMERA",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.MODIFY_AUDIO_SETTINGS",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.RECORD_AUDIO",
+          "android.permission.SYSTEM_ALERT_WINDOW",
+          "android.permission.USE_BIOMETRIC",
+          "android.permission.USE_FINGERPRINT",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.ACTIVITY_RECOGNITION",
+          "com.google.android.providers.gsf.permission.READ_GSERVICES",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE"
+        ],
+        "recentChangesHtml": "- German translation<br>- Career fair<br>- Bug fixes",
+        "unstable": true,
+        "uploadDate": "18 Feb 2022",
+        "versionCode": 8,
+        "versionString": "2.0.2"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=ch.shsg.campusapp",
+    "docType": 1,
+    "docid": "ch.shsg.campusapp",
+    "image": [
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/CzSd3zqHGMnpBYIrWaSl-_ZQU--fT708y_x5hmTxvxAfU6WlMeKXfiWlJpZflHGACAU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#000000",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/oaTeq5MqZNKsMXaM87eOL9ezoEroK2JMPO3t2bDw9AevAR0z1cGtw7UCtPH7boq-jg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2160,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/v3vXEk0xcbLK9796o92DqhoIJrysCmCzQQGr32td6JslwIRmsVJ5wYQvgT0IXWBpgFk",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2160,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/LrE-dWjsEXLbVo2HocaftH2IfNSyEgiMMk5EjQVvHuO8b1HRSZsrEw3TE-wZxeWSaSo",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2160,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/VDxfpGy89PzyGCpNxjbVHIbND1vbg_tG-3stJriwuCIhMEdvxVRQbVgxdvuOPI1-Jf8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2160,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ujxIxzPWLXHXvR9t6xxlbkKASitOxWDkZzmkms7posghnBxP2t52YhgTsel0qZ6zw58",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2160,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/OXnfwNoXnu_oPDuMn8PGFzFoWYCKHsUYpyQx3RiJMRKt3kYYeLyFbCYVjQGGVZEsTDh-",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2160,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/_975ZhJ60eYwDq-2kRlkP73sVTeSX0HhnNZ9qlVaBjPyk6IlZ9TQOyFnpRdiw2wN858",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2160,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/nffKujvxOFTjXjZfKXM5wWQwrsQNgh8TgszcCJ7LAfkNXRkX67WSkmWYUmJy5l8qD4Pq",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2160,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/kiS4csz8Fw5MJOKW4IbdFZx2fEHRW2N0ybwBA7IfH8TIUCFOgNvfw1uHHByZ6YMDknC7",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://shsg.ch/privacy-policy",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "Users interact<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=ch.shsg.campusapp",
+    "reviewsUrl": "rev?doc=ch.shsg.campusapp&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=ch.shsg.campusapp",
+    "title": "SHSG Campus",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "it@shsg.ch"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "25 Mar 2021"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-03-12 08:54:59.570690",
+    "backendDocid": "ch.shsg.campusapp",
+    "backendId": 3,
+    "creator": "Studentenschaft der Universit\u00e4t St. Gallen",
+    "descriptionHtml": "Its aim is to centralise information around the HSG campus and facilitate your life on campus. This project was initiated for the 100-year anniversary of the SHSG. We have included the following features: <br><br>- Home page with announcements, news and events around campus <br>- Seat finder  <br>- Nearby buses and trains  <br>- Mensa menu <br>- Club channels with the 130+ clubs at HSG! <br>- Club news and events<br>- Marketplace because Sharing is Caring <br>- Login with your HSG account  <br>- Map of HSG <br>- Room booking system <br>- Compass mailbox (so when you receive you grades, you can directly check them there) <br>- Grades and achievements <br>- Unisport program<br>- Library books finder (Swisscovery) <br>And more to come\u2026 <br><br>If you have any questions or suggestions about the app, do not hesitate to reach out to us ! <br><br>This project was launched by Ali Jouini, Vice-President of the SHSG 2020/21 and developed by Hugo Casademont.",
+    "descriptionShort": "Welcome to the SHSG Campus App!",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "34248081",
+          "unknown3": 30
+        },
+        "developerEmail": "it@shsg.ch",
+        "developerName": "Studentenschaft der Universit\u00e4t St. Gallen",
+        "developerWebsite": "https://shsg.ch/en",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "11035055",
+            "versionCode": 10
+          },
+          {
+            "fileType": 0,
+            "size": "181739",
+            "versionCode": 10
+          },
+          {
+            "fileType": 0,
+            "size": "33177",
+            "versionCode": 10
+          },
+          {
+            "fileType": 0,
+            "size": "49561",
+            "versionCode": 10
+          },
+          {
+            "fileType": 0,
+            "size": "22948549",
+            "versionCode": 10
+          }
+        ],
+        "installationSize": "34248081",
+        "numDownloads": "500+ downloads",
+        "packageName": "ch.shsg.campusapp",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_MEDIA_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.CAMERA",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.MODIFY_AUDIO_SETTINGS",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.RECORD_AUDIO",
+          "android.permission.SYSTEM_ALERT_WINDOW",
+          "android.permission.USE_BIOMETRIC",
+          "android.permission.USE_FINGERPRINT",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.ACTIVITY_RECOGNITION",
+          "com.google.android.providers.gsf.permission.READ_GSERVICES",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE"
+        ],
+        "recentChangesHtml": "- new HSG map beta",
+        "unstable": true,
+        "uploadDate": "25 Feb 2022",
+        "versionCode": 10,
+        "versionString": "2.1.0"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=ch.shsg.campusapp",
+    "docType": 1,
+    "docid": "ch.shsg.campusapp",
+    "image": [
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/CzSd3zqHGMnpBYIrWaSl-_ZQU--fT708y_x5hmTxvxAfU6WlMeKXfiWlJpZflHGACAU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#000000",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/oaTeq5MqZNKsMXaM87eOL9ezoEroK2JMPO3t2bDw9AevAR0z1cGtw7UCtPH7boq-jg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2160,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/v3vXEk0xcbLK9796o92DqhoIJrysCmCzQQGr32td6JslwIRmsVJ5wYQvgT0IXWBpgFk",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2160,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/LrE-dWjsEXLbVo2HocaftH2IfNSyEgiMMk5EjQVvHuO8b1HRSZsrEw3TE-wZxeWSaSo",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2160,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/VDxfpGy89PzyGCpNxjbVHIbND1vbg_tG-3stJriwuCIhMEdvxVRQbVgxdvuOPI1-Jf8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2160,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ujxIxzPWLXHXvR9t6xxlbkKASitOxWDkZzmkms7posghnBxP2t52YhgTsel0qZ6zw58",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2160,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/OXnfwNoXnu_oPDuMn8PGFzFoWYCKHsUYpyQx3RiJMRKt3kYYeLyFbCYVjQGGVZEsTDh-",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2160,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/_975ZhJ60eYwDq-2kRlkP73sVTeSX0HhnNZ9qlVaBjPyk6IlZ9TQOyFnpRdiw2wN858",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2160,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/nffKujvxOFTjXjZfKXM5wWQwrsQNgh8TgszcCJ7LAfkNXRkX67WSkmWYUmJy5l8qD4Pq",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2160,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/kiS4csz8Fw5MJOKW4IbdFZx2fEHRW2N0ybwBA7IfH8TIUCFOgNvfw1uHHByZ6YMDknC7",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://shsg.ch/privacy-policy",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "Users interact<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=ch.shsg.campusapp",
+    "reviewsUrl": "rev?doc=ch.shsg.campusapp&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=ch.shsg.campusapp",
+    "title": "SHSG Campus",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Studentenschaft der Universit\u00e4t St. Gallen"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "it@shsg.ch"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "25 Mar 2021"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-06-15 16:28:17.828734",
+    "backendDocid": "ch.shsg.campusapp",
+    "backendId": 3,
+    "creator": "Studentenschaft der Universit\u00e4t St. Gallen",
+    "descriptionHtml": "Its aim is to centralise information around the HSG campus and facilitate your life on campus. This project was initiated for the 100-year anniversary of the SHSG. We have included the following features: <br><br>- Home page with announcements, news and events around campus <br>- Seat finder  <br>- Nearby buses and trains  <br>- Mensa menu <br>- Club channels with the 130+ clubs at HSG! <br>- Club news and events<br>- Marketplace because Sharing is Caring <br>- Login with your HSG account  <br>- Map of HSG <br>- Room booking system <br>- Compass mailbox (so when you receive you grades, you can directly check them there) <br>- Grades and achievements <br>- Unisport program<br>- Library books finder (Swisscovery) <br>And more to come\u2026 <br><br>If you have any questions or suggestions about the app, do not hesitate to reach out to us ! <br><br>This project was launched by Ali Jouini, Vice-President of the SHSG 2020/21 and developed by Hugo Casademont.",
+    "descriptionShort": "Welcome to the SHSG Campus App!",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "34418399",
+          "unknown3": 30
+        },
+        "developerEmail": "it@shsg.ch",
+        "developerName": "Studentenschaft der Universit\u00e4t St. Gallen",
+        "developerWebsite": "https://shsg.ch/en",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "11014503",
+            "versionCode": 11
+          },
+          {
+            "fileType": 0,
+            "size": "185835",
+            "versionCode": 11
+          },
+          {
+            "fileType": 0,
+            "size": "33177",
+            "versionCode": 11
+          },
+          {
+            "fileType": 0,
+            "size": "33177",
+            "versionCode": 11
+          },
+          {
+            "fileType": 0,
+            "size": "33177",
+            "versionCode": 11
+          },
+          {
+            "fileType": 0,
+            "size": "29081",
+            "versionCode": 11
+          },
+          {
+            "fileType": 0,
+            "size": "33177",
+            "versionCode": 11
+          },
+          {
+            "fileType": 0,
+            "size": "29081",
+            "versionCode": 11
+          },
+          {
+            "fileType": 0,
+            "size": "29081",
+            "versionCode": 11
+          },
+          {
+            "fileType": 0,
+            "size": "49561",
+            "versionCode": 11
+          },
+          {
+            "fileType": 0,
+            "size": "22948549",
+            "versionCode": 11
+          }
+        ],
+        "installationSize": "34418399",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "ch.shsg.campusapp",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_MEDIA_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.CAMERA",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.MODIFY_AUDIO_SETTINGS",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.RECORD_AUDIO",
+          "android.permission.SYSTEM_ALERT_WINDOW",
+          "android.permission.USE_BIOMETRIC",
+          "android.permission.USE_FINGERPRINT",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.ACTIVITY_RECOGNITION",
+          "com.google.android.providers.gsf.permission.READ_GSERVICES",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE"
+        ],
+        "recentChangesHtml": "- Longer login sessions<br>- Bug fixes",
+        "unstable": true,
+        "uploadDate": "Jun 7, 2022",
+        "versionCode": 11,
+        "versionString": "2.2.0"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=ch.shsg.campusapp",
+    "docType": 1,
+    "docid": "ch.shsg.campusapp",
+    "image": [
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/CzSd3zqHGMnpBYIrWaSl-_ZQU--fT708y_x5hmTxvxAfU6WlMeKXfiWlJpZflHGACAU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#000000",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/oaTeq5MqZNKsMXaM87eOL9ezoEroK2JMPO3t2bDw9AevAR0z1cGtw7UCtPH7boq-jg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2160,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/v3vXEk0xcbLK9796o92DqhoIJrysCmCzQQGr32td6JslwIRmsVJ5wYQvgT0IXWBpgFk",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2160,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/LrE-dWjsEXLbVo2HocaftH2IfNSyEgiMMk5EjQVvHuO8b1HRSZsrEw3TE-wZxeWSaSo",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2160,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/VDxfpGy89PzyGCpNxjbVHIbND1vbg_tG-3stJriwuCIhMEdvxVRQbVgxdvuOPI1-Jf8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2160,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ujxIxzPWLXHXvR9t6xxlbkKASitOxWDkZzmkms7posghnBxP2t52YhgTsel0qZ6zw58",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2160,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/OXnfwNoXnu_oPDuMn8PGFzFoWYCKHsUYpyQx3RiJMRKt3kYYeLyFbCYVjQGGVZEsTDh-",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2160,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/_975ZhJ60eYwDq-2kRlkP73sVTeSX0HhnNZ9qlVaBjPyk6IlZ9TQOyFnpRdiw2wN858",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2160,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/nffKujvxOFTjXjZfKXM5wWQwrsQNgh8TgszcCJ7LAfkNXRkX67WSkmWYUmJy5l8qD4Pq",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2160,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/kiS4csz8Fw5MJOKW4IbdFZx2fEHRW2N0ybwBA7IfH8TIUCFOgNvfw1uHHByZ6YMDknC7",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "INR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://shsg.ch/privacy-policy",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 487,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/EbEX3AN4FC4pu3lsElAHCiksluOVU8OgkgtWC43-wmm_aHVq2D65FmEM97bPexilUAvlAY5_4ARH8Tb3RxQ",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Rated for 3+",
+        "learnMoreHtmlLink": "Users interact<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=ch.shsg.campusapp",
+    "reviewsUrl": "rev?doc=ch.shsg.campusapp&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=ch.shsg.campusapp",
+    "title": "SHSG Campus",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Studentenschaft der Universit\u00e4t St. Gallen"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "it@shsg.ch"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Mar 25, 2021"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "5",
+      "fourStarRatings": "2",
+      "oneStarRatings": "1",
+      "ratingsCount": "8",
+      "starRating": 4.25,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-06-16 23:32:46.371360",
+    "backendDocid": "ch.shsg.campusapp",
+    "backendId": 3,
+    "creator": "Studentenschaft der Universit\u00e4t St. Gallen",
+    "descriptionHtml": "Its aim is to centralise information around the HSG campus and facilitate your life on campus. This project was initiated for the 100-year anniversary of the SHSG. We have included the following features: <br><br>- Home page with announcements, news and events around campus <br>- Seat finder  <br>- Nearby buses and trains  <br>- Mensa menu <br>- Club channels with the 130+ clubs at HSG! <br>- Club news and events<br>- Marketplace because Sharing is Caring <br>- Login with your HSG account  <br>- Map of HSG <br>- Room booking system <br>- Compass mailbox (so when you receive you grades, you can directly check them there) <br>- Grades and achievements <br>- Unisport program<br>- Library books finder (Swisscovery) <br>And more to come\u2026 <br><br>If you have any questions or suggestions about the app, do not hesitate to reach out to us ! <br><br>This project was launched by Ali Jouini, Vice-President of the SHSG 2020/21 and developed by Hugo Casademont.",
+    "descriptionShort": "Welcome to the SHSG Campus App!",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "34480029",
+          "unknown3": 31
+        },
+        "developerEmail": "it@shsg.ch",
+        "developerName": "Studentenschaft der Universit\u00e4t St. Gallen",
+        "developerWebsite": "https://shsg.ch/en",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "12261086",
+            "versionCode": 13
+          },
+          {
+            "fileType": 0,
+            "size": "171928",
+            "versionCode": 13
+          },
+          {
+            "fileType": 0,
+            "size": "24985",
+            "versionCode": 13
+          },
+          {
+            "fileType": 0,
+            "size": "29081",
+            "versionCode": 13
+          },
+          {
+            "fileType": 0,
+            "size": "33177",
+            "versionCode": 13
+          },
+          {
+            "fileType": 0,
+            "size": "45465",
+            "versionCode": 13
+          },
+          {
+            "fileType": 0,
+            "size": "21914307",
+            "versionCode": 13
+          }
+        ],
+        "installationSize": "34480029",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "ch.shsg.campusapp",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.CAMERA",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.RECORD_AUDIO",
+          "android.permission.SYSTEM_ALERT_WINDOW",
+          "android.permission.USE_BIOMETRIC",
+          "android.permission.USE_FINGERPRINT",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.ACTIVITY_RECOGNITION",
+          "com.google.android.gms.permission.AD_ID",
+          "com.google.android.providers.gsf.permission.READ_GSERVICES",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE"
+        ],
+        "recentChangesHtml": "- Bug fixes",
+        "unstable": true,
+        "uploadDate": "15 Jun 2022",
+        "versionCode": 13,
+        "versionString": "2.3.1"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=ch.shsg.campusapp",
+    "docType": 1,
+    "docid": "ch.shsg.campusapp",
+    "image": [
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/CzSd3zqHGMnpBYIrWaSl-_ZQU--fT708y_x5hmTxvxAfU6WlMeKXfiWlJpZflHGACAU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#000000",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/oaTeq5MqZNKsMXaM87eOL9ezoEroK2JMPO3t2bDw9AevAR0z1cGtw7UCtPH7boq-jg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2160,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/v3vXEk0xcbLK9796o92DqhoIJrysCmCzQQGr32td6JslwIRmsVJ5wYQvgT0IXWBpgFk",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2160,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/LrE-dWjsEXLbVo2HocaftH2IfNSyEgiMMk5EjQVvHuO8b1HRSZsrEw3TE-wZxeWSaSo",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2160,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/VDxfpGy89PzyGCpNxjbVHIbND1vbg_tG-3stJriwuCIhMEdvxVRQbVgxdvuOPI1-Jf8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2160,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ujxIxzPWLXHXvR9t6xxlbkKASitOxWDkZzmkms7posghnBxP2t52YhgTsel0qZ6zw58",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2160,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/OXnfwNoXnu_oPDuMn8PGFzFoWYCKHsUYpyQx3RiJMRKt3kYYeLyFbCYVjQGGVZEsTDh-",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2160,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/_975ZhJ60eYwDq-2kRlkP73sVTeSX0HhnNZ9qlVaBjPyk6IlZ9TQOyFnpRdiw2wN858",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2160,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/nffKujvxOFTjXjZfKXM5wWQwrsQNgh8TgszcCJ7LAfkNXRkX67WSkmWYUmJy5l8qD4Pq",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2160,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/kiS4csz8Fw5MJOKW4IbdFZx2fEHRW2N0ybwBA7IfH8TIUCFOgNvfw1uHHByZ6YMDknC7",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://shsg.ch/privacy-policy",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "Users interact<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=ch.shsg.campusapp",
+    "reviewsUrl": "rev?doc=ch.shsg.campusapp&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=ch.shsg.campusapp",
+    "title": "SHSG Campus",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "it@shsg.ch"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "25 Mar 2021"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-09-09 15:06:45.208278",
+    "backendDocid": "ch.shsg.campusapp",
+    "backendId": 3,
+    "creator": "Studentenschaft der Universit\u00e4t St. Gallen",
+    "descriptionHtml": "Welcome to the Campus App of the Student Union of the University St. Gallen (SHSG)! <br><br>Its aim is to centralise information around the HSG campus and facilitate your life on campus. We have included the following features: <br><br>- Home page with news and events around campus <br>- Seat finder<br>- Nearby buses and trains  <br>- Mensa menu <br>- Club channels with the 130+ clubs at HSG! <br>- Club news and events<br>- Marketplace because Sharing is Caring <br>- Career fair<br>- Login with your HSG account  <br>- Map of HSG <br>- Room booking system <br>- Compass mailbox (so when you receive you grades, you can directly check them there) <br>- Grades and achievements <br>- Unisport program<br>- Library books finder (Swisscovery) <br>- Student deals<br>And more to come\u2026 <br><br>If you have any questions or suggestions about the app, do not hesitate to reach out to us ! <br><br>The project was launched by Ali Jouini, Vice-President of the SHSG 2020/21 and developed by Hugo Casademont. As one of the core services of the SHSG, the app is continuously improved and extended with new features.",
+    "descriptionShort": "Welcome to the SHSG Campus App!",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "34283084",
+          "unknown3": 31
+        },
+        "developerEmail": "it@shsg.ch",
+        "developerName": "Studentenschaft der Universit\u00e4t St. Gallen",
+        "developerWebsite": "https://shsg.ch/en",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "12138191",
+            "versionCode": 15
+          },
+          {
+            "fileType": 0,
+            "size": "160136",
+            "versionCode": 15
+          },
+          {
+            "fileType": 0,
+            "size": "24985",
+            "versionCode": 15
+          },
+          {
+            "fileType": 0,
+            "size": "45465",
+            "versionCode": 15
+          },
+          {
+            "fileType": 0,
+            "size": "21914307",
+            "versionCode": 15
+          }
+        ],
+        "installationSize": "34283084",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "ch.shsg.campusapp",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.CAMERA",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.RECORD_AUDIO",
+          "android.permission.SYSTEM_ALERT_WINDOW",
+          "android.permission.USE_BIOMETRIC",
+          "android.permission.USE_FINGERPRINT",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.ACTIVITY_RECOGNITION",
+          "com.google.android.gms.permission.AD_ID",
+          "com.google.android.providers.gsf.permission.READ_GSERVICES",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE"
+        ],
+        "recentChangesHtml": "- New home screen<br>- Design refresh<br>- New feedback tool",
+        "unstable": true,
+        "uploadDate": "29 Aug 2022",
+        "versionCode": 15,
+        "versionString": "3.0.1"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=ch.shsg.campusapp",
+    "docType": 1,
+    "docid": "ch.shsg.campusapp",
+    "image": [
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/CzSd3zqHGMnpBYIrWaSl-_ZQU--fT708y_x5hmTxvxAfU6WlMeKXfiWlJpZflHGACAU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#000000",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/oaTeq5MqZNKsMXaM87eOL9ezoEroK2JMPO3t2bDw9AevAR0z1cGtw7UCtPH7boq-jg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/xazoJqtl32FVGQ6ndVso-lmK_HHrjywX47RlR0A1kcRxcnJUemlrfwUYB4UW6cafhg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/CaVOOGer0U2DorIz0hYHUDgPPZ7sTIhDHqbDSXzEZz5KJ207C82RFCkpkHpyELNru6A",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/8ebplZ4xJ8bjr7fr2GmTV5qXzoLcy1-rMPtKOCn0Pmd-piduTD3QhO_THOMMOhbNvrs",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/A6GvRL1CozCmhAlXCZDToitGGrdb53OOJ4q_1_DeZxbhtvnDZ0saibgERjEbCjB-tnI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/SCRD6-WRBudsThUpOW877x30RIN5apJwvhYs4YD73iuLL6qe1gBjf5WMUoUpXJUYKA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/AcyDEGdWo2Q64uwB6uN2EXOlq_ohwGpCjVatm70plf-NqA5kBjDzhfii0YirRbx9peg",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://shsg.ch/privacy-policy",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "Users interact<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=ch.shsg.campusapp",
+    "reviewsUrl": "rev?doc=ch.shsg.campusapp&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=ch.shsg.campusapp",
+    "title": "SHSG Campus",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "it@shsg.ch"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "25 Mar 2021"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-09-10 21:24:15.500682",
+    "backendDocid": "ch.shsg.campusapp",
+    "backendId": 3,
+    "creator": "Studentenschaft der Universit\u00e4t St. Gallen",
+    "descriptionHtml": "Welcome to the Campus App of the Student Union of the University St. Gallen (SHSG)! <br><br>Its aim is to centralise information around the HSG campus and facilitate your life on campus. We have included the following features: <br><br>- Home page with news and events around campus <br>- Seat finder<br>- Nearby buses and trains  <br>- Mensa menu <br>- Club channels with the 130+ clubs at HSG! <br>- Club news and events<br>- Marketplace because Sharing is Caring <br>- Career fair<br>- Login with your HSG account  <br>- Map of HSG <br>- Room booking system <br>- Compass mailbox (so when you receive you grades, you can directly check them there) <br>- Grades and achievements <br>- Unisport program<br>- Library books finder (Swisscovery) <br>- Student deals<br>And more to come\u2026 <br><br>If you have any questions or suggestions about the app, do not hesitate to reach out to us ! <br><br>The project was launched by Ali Jouini, Vice-President of the SHSG 2020/21 and developed by Hugo Casademont. As one of the core services of the SHSG, the app is continuously improved and extended with new features.",
+    "descriptionShort": "Welcome to the SHSG Campus App!",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "34795033",
+          "unknown3": 31
+        },
+        "developerEmail": "it@shsg.ch",
+        "developerName": "Studentenschaft der Universit\u00e4t St. Gallen",
+        "developerWebsite": "https://shsg.ch/en",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "12707893",
+            "versionCode": 17
+          },
+          {
+            "fileType": 0,
+            "size": "127368",
+            "versionCode": 17
+          },
+          {
+            "fileType": 0,
+            "size": "45465",
+            "versionCode": 17
+          },
+          {
+            "fileType": 0,
+            "size": "21914307",
+            "versionCode": 17
+          }
+        ],
+        "installationSize": "34795033",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "ch.shsg.campusapp",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.CAMERA",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.RECORD_AUDIO",
+          "android.permission.SYSTEM_ALERT_WINDOW",
+          "android.permission.USE_BIOMETRIC",
+          "android.permission.USE_FINGERPRINT",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.ACTIVITY_RECOGNITION",
+          "com.google.android.gms.permission.AD_ID",
+          "com.google.android.providers.gsf.permission.READ_GSERVICES",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE"
+        ],
+        "recentChangesHtml": "- SHSG campus tour",
+        "unstable": true,
+        "uploadDate": "8 Sept 2022",
+        "versionCode": 17,
+        "versionString": "3.1.1"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=ch.shsg.campusapp",
+    "docType": 1,
+    "docid": "ch.shsg.campusapp",
+    "image": [
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/CzSd3zqHGMnpBYIrWaSl-_ZQU--fT708y_x5hmTxvxAfU6WlMeKXfiWlJpZflHGACAU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#000000",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/oaTeq5MqZNKsMXaM87eOL9ezoEroK2JMPO3t2bDw9AevAR0z1cGtw7UCtPH7boq-jg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/xazoJqtl32FVGQ6ndVso-lmK_HHrjywX47RlR0A1kcRxcnJUemlrfwUYB4UW6cafhg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/CaVOOGer0U2DorIz0hYHUDgPPZ7sTIhDHqbDSXzEZz5KJ207C82RFCkpkHpyELNru6A",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/8ebplZ4xJ8bjr7fr2GmTV5qXzoLcy1-rMPtKOCn0Pmd-piduTD3QhO_THOMMOhbNvrs",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/A6GvRL1CozCmhAlXCZDToitGGrdb53OOJ4q_1_DeZxbhtvnDZ0saibgERjEbCjB-tnI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/SCRD6-WRBudsThUpOW877x30RIN5apJwvhYs4YD73iuLL6qe1gBjf5WMUoUpXJUYKA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/AcyDEGdWo2Q64uwB6uN2EXOlq_ohwGpCjVatm70plf-NqA5kBjDzhfii0YirRbx9peg",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "GBP",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://shsg.ch/privacy-policy",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "Users interact<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=ch.shsg.campusapp",
+    "reviewsUrl": "rev?doc=ch.shsg.campusapp&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=ch.shsg.campusapp",
+    "title": "SHSG Campus",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "it@shsg.ch"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "25 Mar 2021"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-09-14 00:50:43.123432",
+    "backendDocid": "ch.shsg.campusapp",
+    "backendId": 3,
+    "creator": "Studentenschaft der Universit\u00e4t St. Gallen",
+    "descriptionHtml": "Welcome to the Campus App of the Student Union of the University St. Gallen (SHSG)! <br><br>Its aim is to centralise information around the HSG campus and facilitate your life on campus. We have included the following features: <br><br>- Home page with news and events around campus <br>- Seat finder<br>- Nearby buses and trains  <br>- Mensa menu <br>- Club channels with the 130+ clubs at HSG! <br>- Club news and events<br>- Marketplace because Sharing is Caring <br>- Career fair<br>- Login with your HSG account  <br>- Map of HSG <br>- Room booking system <br>- Compass mailbox (so when you receive you grades, you can directly check them there) <br>- Grades and achievements <br>- Unisport program<br>- Library books finder (Swisscovery) <br>- Student deals<br>And more to come\u2026 <br><br>If you have any questions or suggestions about the app, do not hesitate to reach out to us ! <br><br>The project was launched by Ali Jouini, Vice-President of the SHSG 2020/21 and developed by Hugo Casademont. As one of the core services of the SHSG, the app is continuously improved and extended with new features.",
+    "descriptionShort": "Welcome to the SHSG Campus App!",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "34828300",
+          "unknown3": 31
+        },
+        "developerEmail": "it@shsg.ch",
+        "developerName": "Studentenschaft der Universit\u00e4t St. Gallen",
+        "developerWebsite": "https://shsg.ch/en",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "12712079",
+            "versionCode": 18
+          },
+          {
+            "fileType": 0,
+            "size": "127368",
+            "versionCode": 18
+          },
+          {
+            "fileType": 0,
+            "size": "29081",
+            "versionCode": 18
+          },
+          {
+            "fileType": 0,
+            "size": "45465",
+            "versionCode": 18
+          },
+          {
+            "fileType": 0,
+            "size": "21914307",
+            "versionCode": 18
+          }
+        ],
+        "installationSize": "34828300",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "ch.shsg.campusapp",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.CAMERA",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.RECORD_AUDIO",
+          "android.permission.SYSTEM_ALERT_WINDOW",
+          "android.permission.USE_BIOMETRIC",
+          "android.permission.USE_FINGERPRINT",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.ACTIVITY_RECOGNITION",
+          "com.google.android.gms.permission.AD_ID",
+          "com.google.android.providers.gsf.permission.READ_GSERVICES",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE"
+        ],
+        "recentChangesHtml": "- Dark mode is back",
+        "unstable": true,
+        "uploadDate": "12 Sept 2022",
+        "versionCode": 18,
+        "versionString": "3.2.0"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=ch.shsg.campusapp",
+    "docType": 1,
+    "docid": "ch.shsg.campusapp",
+    "image": [
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/CzSd3zqHGMnpBYIrWaSl-_ZQU--fT708y_x5hmTxvxAfU6WlMeKXfiWlJpZflHGACAU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#000000",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/oaTeq5MqZNKsMXaM87eOL9ezoEroK2JMPO3t2bDw9AevAR0z1cGtw7UCtPH7boq-jg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/xazoJqtl32FVGQ6ndVso-lmK_HHrjywX47RlR0A1kcRxcnJUemlrfwUYB4UW6cafhg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/CaVOOGer0U2DorIz0hYHUDgPPZ7sTIhDHqbDSXzEZz5KJ207C82RFCkpkHpyELNru6A",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/8ebplZ4xJ8bjr7fr2GmTV5qXzoLcy1-rMPtKOCn0Pmd-piduTD3QhO_THOMMOhbNvrs",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/A6GvRL1CozCmhAlXCZDToitGGrdb53OOJ4q_1_DeZxbhtvnDZ0saibgERjEbCjB-tnI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/SCRD6-WRBudsThUpOW877x30RIN5apJwvhYs4YD73iuLL6qe1gBjf5WMUoUpXJUYKA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/AcyDEGdWo2Q64uwB6uN2EXOlq_ohwGpCjVatm70plf-NqA5kBjDzhfii0YirRbx9peg",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://shsg.ch/privacy-policy",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "Users interact<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=ch.shsg.campusapp",
+    "reviewsUrl": "rev?doc=ch.shsg.campusapp&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=ch.shsg.campusapp",
+    "title": "SHSG Campus",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "it@shsg.ch"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "25 Mar 2021"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-10-11 01:06:00.198848",
+    "backendDocid": "ch.shsg.campusapp",
+    "backendId": 3,
+    "creator": "Studentenschaft der Universit\u00e4t St. Gallen",
+    "descriptionHtml": "Welcome to the Campus App of the Student Union of the University St. Gallen (SHSG)! <br><br>Its aim is to centralise information around the HSG campus and facilitate your life on campus. We have included the following features: <br><br>- Home page with news and events around campus <br>- Seat finder<br>- Nearby buses and trains  <br>- Mensa menu <br>- Club channels with the 130+ clubs at HSG! <br>- Club news and events<br>- Marketplace because Sharing is Caring <br>- Career fair<br>- Login with your HSG account  <br>- Map of HSG <br>- Room booking system <br>- Compass mailbox (so when you receive you grades, you can directly check them there) <br>- Grades and achievements <br>- Unisport program<br>- Library books finder (Swisscovery) <br>- Student deals<br>And more to come\u2026 <br><br>If you have any questions or suggestions about the app, do not hesitate to reach out to us ! <br><br>The project was launched by Ali Jouini, Vice-President of the SHSG 2020/21 and developed by Hugo Casademont. As one of the core services of the SHSG, the app is continuously improved and extended with new features.",
+    "descriptionShort": "Welcome to the SHSG Campus App!",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "34832396",
+          "unknown3": 31
+        },
+        "developerEmail": "it@shsg.ch",
+        "developerName": "Studentenschaft der Universit\u00e4t St. Gallen",
+        "developerWebsite": "https://shsg.ch/en",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "12720271",
+            "versionCode": 19
+          },
+          {
+            "fileType": 0,
+            "size": "127368",
+            "versionCode": 19
+          },
+          {
+            "fileType": 0,
+            "size": "24985",
+            "versionCode": 19
+          },
+          {
+            "fileType": 0,
+            "size": "45465",
+            "versionCode": 19
+          },
+          {
+            "fileType": 0,
+            "size": "21914307",
+            "versionCode": 19
+          }
+        ],
+        "installationSize": "34832396",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "ch.shsg.campusapp",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.CAMERA",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.RECORD_AUDIO",
+          "android.permission.SYSTEM_ALERT_WINDOW",
+          "android.permission.USE_BIOMETRIC",
+          "android.permission.USE_FINGERPRINT",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.ACTIVITY_RECOGNITION",
+          "com.google.android.gms.permission.AD_ID",
+          "com.google.android.providers.gsf.permission.READ_GSERVICES",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE"
+        ],
+        "recentChangesHtml": "- Clickable links<br>- Bold and italic formatting<br>- Credit Suisse coworking<br>- Bug fixes",
+        "unstable": true,
+        "uploadDate": "10 Oct 2022",
+        "versionCode": 19,
+        "versionString": "3.3.0"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=ch.shsg.campusapp",
+    "docType": 1,
+    "docid": "ch.shsg.campusapp",
+    "image": [
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/CzSd3zqHGMnpBYIrWaSl-_ZQU--fT708y_x5hmTxvxAfU6WlMeKXfiWlJpZflHGACAU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#000000",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/oaTeq5MqZNKsMXaM87eOL9ezoEroK2JMPO3t2bDw9AevAR0z1cGtw7UCtPH7boq-jg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/xazoJqtl32FVGQ6ndVso-lmK_HHrjywX47RlR0A1kcRxcnJUemlrfwUYB4UW6cafhg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/CaVOOGer0U2DorIz0hYHUDgPPZ7sTIhDHqbDSXzEZz5KJ207C82RFCkpkHpyELNru6A",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/8ebplZ4xJ8bjr7fr2GmTV5qXzoLcy1-rMPtKOCn0Pmd-piduTD3QhO_THOMMOhbNvrs",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/A6GvRL1CozCmhAlXCZDToitGGrdb53OOJ4q_1_DeZxbhtvnDZ0saibgERjEbCjB-tnI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/SCRD6-WRBudsThUpOW877x30RIN5apJwvhYs4YD73iuLL6qe1gBjf5WMUoUpXJUYKA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/AcyDEGdWo2Q64uwB6uN2EXOlq_ohwGpCjVatm70plf-NqA5kBjDzhfii0YirRbx9peg",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://shsg.ch/privacy-policy",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "Users interact<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=ch.shsg.campusapp",
+    "reviewsUrl": "rev?doc=ch.shsg.campusapp&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=ch.shsg.campusapp",
+    "title": "SHSG Campus",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "it@shsg.ch"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "25 Mar 2021"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-02-21 08:49:48.344929",
+    "backendDocid": "ch.shsg.campusapp",
+    "backendId": 3,
+    "creator": "Studentenschaft der Universit\u00e4t St. Gallen",
+    "descriptionHtml": "Welcome to the Campus App of the Student Union of the University St. Gallen (SHSG)! <br><br>Its aim is to centralise information around the HSG campus and facilitate your life on campus. We have included the following features: <br><br>- Home page with news and events around campus <br>- Seat finder<br>- Nearby buses and trains  <br>- Mensa menu <br>- Club channels with the 130+ clubs at HSG! <br>- Club news and events<br>- Marketplace because Sharing is Caring <br>- Career fair<br>- Login with your HSG account  <br>- Map of HSG <br>- Room booking system <br>- Compass mailbox (so when you receive you grades, you can directly check them there) <br>- Grades and achievements <br>- Unisport program<br>- Library books finder (Swisscovery) <br>- Student deals<br>- Election tool<br>And more to come\u2026 <br><br>If you have any questions or suggestions about the app, do not hesitate to reach out to us ! <br><br>The project was launched by Ali Jouini, Vice-President of the SHSG 2020/21 and developed by Hugo Casademont. As one of the core services of the SHSG, the app is continuously improved and extended with new features.",
+    "descriptionShort": "Welcome to the SHSG Campus App!",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "34815603",
+          "unknown3": 31
+        },
+        "developerEmail": "it@shsg.ch",
+        "developerName": "Studentenschaft der Universit\u00e4t St. Gallen",
+        "developerWebsite": "https://shsg.ch/en",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "12728463",
+            "versionCode": 23
+          },
+          {
+            "fileType": 0,
+            "size": "127368",
+            "versionCode": 23
+          },
+          {
+            "fileType": 0,
+            "size": "45465",
+            "versionCode": 23
+          },
+          {
+            "fileType": 0,
+            "size": "21914307",
+            "versionCode": 23
+          }
+        ],
+        "installationSize": "34815603",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "ch.shsg.campusapp",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.CAMERA",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.RECORD_AUDIO",
+          "android.permission.SYSTEM_ALERT_WINDOW",
+          "android.permission.USE_BIOMETRIC",
+          "android.permission.USE_FINGERPRINT",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.ACTIVITY_RECOGNITION",
+          "com.google.android.gms.permission.AD_ID",
+          "com.google.android.providers.gsf.permission.READ_GSERVICES",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE"
+        ],
+        "recentChangesHtml": "- Bug fixes",
+        "unstable": true,
+        "uploadDate": "17 Feb 2023",
+        "versionCode": 23,
+        "versionString": "3.4.3"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=ch.shsg.campusapp",
+    "docType": 1,
+    "docid": "ch.shsg.campusapp",
+    "image": [
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/CzSd3zqHGMnpBYIrWaSl-_ZQU--fT708y_x5hmTxvxAfU6WlMeKXfiWlJpZflHGACAU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#000000",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/oaTeq5MqZNKsMXaM87eOL9ezoEroK2JMPO3t2bDw9AevAR0z1cGtw7UCtPH7boq-jg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/xazoJqtl32FVGQ6ndVso-lmK_HHrjywX47RlR0A1kcRxcnJUemlrfwUYB4UW6cafhg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/CaVOOGer0U2DorIz0hYHUDgPPZ7sTIhDHqbDSXzEZz5KJ207C82RFCkpkHpyELNru6A",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/8ebplZ4xJ8bjr7fr2GmTV5qXzoLcy1-rMPtKOCn0Pmd-piduTD3QhO_THOMMOhbNvrs",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/A6GvRL1CozCmhAlXCZDToitGGrdb53OOJ4q_1_DeZxbhtvnDZ0saibgERjEbCjB-tnI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/SCRD6-WRBudsThUpOW877x30RIN5apJwvhYs4YD73iuLL6qe1gBjf5WMUoUpXJUYKA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/AcyDEGdWo2Q64uwB6uN2EXOlq_ohwGpCjVatm70plf-NqA5kBjDzhfii0YirRbx9peg",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "GBP",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://shsg.ch/privacy-policy",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "Users interact<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=ch.shsg.campusapp",
+    "reviewsUrl": "rev?doc=ch.shsg.campusapp&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=ch.shsg.campusapp",
+    "title": "SHSG Campus",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "it@shsg.ch"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "25 Mar 2021"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-03-05 21:22:29.364094",
+    "backendDocid": "ch.shsg.campusapp",
+    "backendId": 3,
+    "creator": "Studentenschaft der Universit\u00e4t St. Gallen",
+    "descriptionHtml": "Welcome to the Campus App of the Student Union of the University St. Gallen (SHSG)! <br><br>Its aim is to centralise information around the HSG campus and facilitate your life on campus. We have included the following features: <br><br>- Home page with news and events around campus <br>- Seat finder<br>- Nearby buses and trains  <br>- Mensa menu <br>- Club channels with the 130+ clubs at HSG! <br>- Club news and events<br>- Marketplace because Sharing is Caring <br>- Career fair<br>- Login with your HSG account  <br>- Map of HSG <br>- Room booking system <br>- Compass mailbox (so when you receive you grades, you can directly check them there) <br>- Grades and achievements <br>- Unisport program<br>- Library books finder (Swisscovery) <br>- Student deals<br>- Election tool<br>And more to come\u2026 <br><br>If you have any questions or suggestions about the app, do not hesitate to reach out to us ! <br><br>The project was launched by Ali Jouini, Vice-President of the SHSG 2020/21 and developed by Hugo Casademont. As one of the core services of the SHSG, the app is continuously improved and extended with new features.",
+    "descriptionShort": "Welcome to the SHSG Campus App!",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "34885644",
+          "unknown3": 31
+        },
+        "developerEmail": "it@shsg.ch",
+        "developerName": "Studentenschaft der Universit\u00e4t St. Gallen",
+        "developerWebsite": "https://shsg.ch/en",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "12732559",
+            "versionCode": 24
+          },
+          {
+            "fileType": 0,
+            "size": "164232",
+            "versionCode": 24
+          },
+          {
+            "fileType": 0,
+            "size": "29081",
+            "versionCode": 24
+          },
+          {
+            "fileType": 0,
+            "size": "45465",
+            "versionCode": 24
+          },
+          {
+            "fileType": 0,
+            "size": "21914307",
+            "versionCode": 24
+          }
+        ],
+        "installationSize": "34885644",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "ch.shsg.campusapp",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.CAMERA",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.RECORD_AUDIO",
+          "android.permission.SYSTEM_ALERT_WINDOW",
+          "android.permission.USE_BIOMETRIC",
+          "android.permission.USE_FINGERPRINT",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.ACTIVITY_RECOGNITION",
+          "com.google.android.gms.permission.AD_ID",
+          "com.google.android.providers.gsf.permission.READ_GSERVICES",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE"
+        ],
+        "recentChangesHtml": "- Election tool",
+        "unstable": true,
+        "uploadDate": "1 Mar 2023",
+        "versionCode": 24,
+        "versionString": "3.5.0"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=ch.shsg.campusapp",
+    "docType": 1,
+    "docid": "ch.shsg.campusapp",
+    "image": [
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/CzSd3zqHGMnpBYIrWaSl-_ZQU--fT708y_x5hmTxvxAfU6WlMeKXfiWlJpZflHGACAU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#000000",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/oaTeq5MqZNKsMXaM87eOL9ezoEroK2JMPO3t2bDw9AevAR0z1cGtw7UCtPH7boq-jg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/xazoJqtl32FVGQ6ndVso-lmK_HHrjywX47RlR0A1kcRxcnJUemlrfwUYB4UW6cafhg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/CaVOOGer0U2DorIz0hYHUDgPPZ7sTIhDHqbDSXzEZz5KJ207C82RFCkpkHpyELNru6A",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/8ebplZ4xJ8bjr7fr2GmTV5qXzoLcy1-rMPtKOCn0Pmd-piduTD3QhO_THOMMOhbNvrs",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/A6GvRL1CozCmhAlXCZDToitGGrdb53OOJ4q_1_DeZxbhtvnDZ0saibgERjEbCjB-tnI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/SCRD6-WRBudsThUpOW877x30RIN5apJwvhYs4YD73iuLL6qe1gBjf5WMUoUpXJUYKA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/AcyDEGdWo2Q64uwB6uN2EXOlq_ohwGpCjVatm70plf-NqA5kBjDzhfii0YirRbx9peg",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://shsg.ch/privacy-policy",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "Users interact<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=ch.shsg.campusapp",
+    "reviewsUrl": "rev?doc=ch.shsg.campusapp&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=ch.shsg.campusapp",
+    "title": "SHSG Campus",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "it@shsg.ch"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "25 Mar 2021"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "7",
+      "fourStarRatings": "2",
+      "oneStarRatings": "1",
+      "ratingsCount": "10",
+      "starRating": 4.4,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-10-03 20:19:36.494507",
+    "backendDocid": "ch.shsg.campusapp",
+    "backendId": 3,
+    "creator": "Studentenschaft der Universit\u00e4t St. Gallen",
+    "descriptionHtml": "Welcome to the Campus App of the Student Union of the University St. Gallen (SHSG)! <br><br>Its aim is to centralise information around the HSG campus and facilitate your life on campus. We have included the following features: <br><br>- Home page with news and events around campus <br>- Seat finder<br>- Nearby buses and trains  <br>- Mensa menu <br>- Club channels with the 130+ clubs at HSG! <br>- Club news and events<br>- Marketplace because Sharing is Caring <br>- Career fair<br>- Login with your HSG account  <br>- Map of HSG <br>- Room booking system <br>- Compass mailbox (so when you receive you grades, you can directly check them there) <br>- Grades and achievements <br>- Unisport program<br>- Library books finder (Swisscovery) <br>- Student deals<br>- Election tool<br>And more to come\u2026 <br><br>If you have any questions or suggestions about the app, do not hesitate to reach out to us ! <br><br>The project was launched by Ali Jouini, Vice-President of the SHSG 2020/21 and developed by Hugo Casademont. As one of the core services of the SHSG, the app is continuously improved and extended with new features.",
+    "descriptionShort": "Welcome to the SHSG Campus App!",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "version": 12451000
+            }
+          ],
+          "unknown2": "37137776",
+          "unknown3": 33
+        },
+        "developerEmail": "it@shsg.ch",
+        "developerName": "Studentenschaft der Universit\u00e4t St. Gallen",
+        "developerWebsite": "https://shsg.ch/en",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "16355729",
+            "versionCode": 511
+          },
+          {
+            "fileType": 0,
+            "size": "205221",
+            "versionCode": 511
+          },
+          {
+            "fileType": 0,
+            "size": "24985",
+            "versionCode": 511
+          },
+          {
+            "fileType": 0,
+            "size": "29081",
+            "versionCode": 511
+          },
+          {
+            "fileType": 0,
+            "size": "33177",
+            "versionCode": 511
+          },
+          {
+            "fileType": 0,
+            "size": "45465",
+            "versionCode": 511
+          },
+          {
+            "fileType": 0,
+            "size": "20444118",
+            "versionCode": 511
+          }
+        ],
+        "installationSize": "37137776",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "ch.shsg.campusapp",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_MEDIA_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.CAMERA",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.POST_NOTIFICATIONS",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_MEDIA_AUDIO",
+          "android.permission.READ_MEDIA_IMAGES",
+          "android.permission.READ_MEDIA_VIDEO",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.RECORD_AUDIO",
+          "android.permission.SYSTEM_ALERT_WINDOW",
+          "android.permission.USE_BIOMETRIC",
+          "android.permission.USE_FINGERPRINT",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "ch.shsg.campusapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.ACTIVITY_RECOGNITION",
+          "com.google.android.gms.permission.AD_ID",
+          "com.google.android.providers.gsf.permission.READ_GSERVICES",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE"
+        ],
+        "recentChangesHtml": "- Art tour<br>- Career fair update",
+        "unstable": true,
+        "uploadDate": "3 Sept 2023",
+        "versionCode": 511,
+        "versionString": "5.1.1"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=ch.shsg.campusapp",
+    "docType": 1,
+    "docid": "ch.shsg.campusapp",
+    "image": [
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/CzSd3zqHGMnpBYIrWaSl-_ZQU--fT708y_x5hmTxvxAfU6WlMeKXfiWlJpZflHGACAU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#000000",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/oaTeq5MqZNKsMXaM87eOL9ezoEroK2JMPO3t2bDw9AevAR0z1cGtw7UCtPH7boq-jg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/xazoJqtl32FVGQ6ndVso-lmK_HHrjywX47RlR0A1kcRxcnJUemlrfwUYB4UW6cafhg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/CaVOOGer0U2DorIz0hYHUDgPPZ7sTIhDHqbDSXzEZz5KJ207C82RFCkpkHpyELNru6A",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/8ebplZ4xJ8bjr7fr2GmTV5qXzoLcy1-rMPtKOCn0Pmd-piduTD3QhO_THOMMOhbNvrs",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/A6GvRL1CozCmhAlXCZDToitGGrdb53OOJ4q_1_DeZxbhtvnDZ0saibgERjEbCjB-tnI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/SCRD6-WRBudsThUpOW877x30RIN5apJwvhYs4YD73iuLL6qe1gBjf5WMUoUpXJUYKA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/AcyDEGdWo2Q64uwB6uN2EXOlq_ohwGpCjVatm70plf-NqA5kBjDzhfii0YirRbx9peg",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://shsg.ch/privacy-policy",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "Users interact<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=ch.shsg.campusapp",
+    "reviewsUrl": "rev?doc=ch.shsg.campusapp&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=ch.shsg.campusapp",
+    "title": "SHSG Campus",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "it@shsg.ch"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "25 Mar 2021"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "8",
+      "fourStarRatings": "2",
+      "oneStarRatings": "1",
+      "ratingsCount": "11",
+      "starRating": 4.4545455,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2025-02-15 04:29:39.760617",
+    "backendDocid": "ch.shsg.campusapp",
+    "backendId": 3,
+    "creator": "Studentenschaft der Universit\u00e4t St. Gallen",
+    "descriptionHtml": "Welcome to the Campus App of the Student Union of the University St. Gallen (SHSG)! <br><br>Its aim is to centralise information around the HSG campus and facilitate your life on campus. We have included the following features: <br><br>- Home page with news and events around campus <br>- Seat finder<br>- Nearby buses and trains  <br>- Mensa menu <br>- Club channels with the 130+ clubs at HSG! <br>- Club news and events<br>- Marketplace because Sharing is Caring <br>- Career fair<br>- Login with your HSG account  <br>- Map of HSG <br>- Room booking system <br>- Compass mailbox (so when you receive you grades, you can directly check them there) <br>- Grades and achievements <br>- Unisport program<br>- Library books finder (Swisscovery) <br>- Student deals<br>- Election tool<br>And more to come\u2026 <br><br>If you have any questions or suggestions about the app, do not hesitate to reach out to us ! <br><br>The project was launched by Ali Jouini, Vice-President of the SHSG 2020/21 and developed by Hugo Casademont. As one of the core services of the SHSG, the app is continuously improved and extended with new features.",
+    "descriptionShort": "Welcome to the SHSG Campus App!",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "version": 12451000
+            }
+          ],
+          "unknown2": "38886122",
+          "unknown3": 34
+        },
+        "developerEmail": "it@shsg.ch",
+        "developerName": "Studentenschaft der Universit\u00e4t St. Gallen",
+        "developerWebsite": "https://shsg.ch/en",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "18873917",
+            "versionCode": 683
+          },
+          {
+            "fileType": 0,
+            "size": "201679",
+            "versionCode": 683
+          },
+          {
+            "fileType": 0,
+            "size": "33177",
+            "versionCode": 683
+          },
+          {
+            "fileType": 0,
+            "size": "57753",
+            "versionCode": 683
+          },
+          {
+            "fileType": 0,
+            "size": "19719596",
+            "versionCode": 683
+          }
+        ],
+        "installationSize": "38886122",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "ch.shsg.campusapp",
+        "permission": [
+          "android.permission.ACCESS_ADSERVICES_AD_ID",
+          "android.permission.ACCESS_ADSERVICES_ATTRIBUTION",
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_MEDIA_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.CAMERA",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.POST_NOTIFICATIONS",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_MEDIA_AUDIO",
+          "android.permission.READ_MEDIA_IMAGES",
+          "android.permission.READ_MEDIA_VIDEO",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.RECORD_AUDIO",
+          "android.permission.SYSTEM_ALERT_WINDOW",
+          "android.permission.USE_BIOMETRIC",
+          "android.permission.USE_FINGERPRINT",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "ch.shsg.campusapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.ACTIVITY_RECOGNITION",
+          "com.google.android.gms.permission.AD_ID",
+          "com.google.android.providers.gsf.permission.READ_GSERVICES",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE"
+        ],
+        "recentChangesHtml": "- Bug fixes and improvements",
+        "unstable": true,
+        "uploadDate": "9 Feb 2025",
+        "versionCode": 683,
+        "versionString": "6.8.3"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=ch.shsg.campusapp&vc=683",
+    "docType": 1,
+    "docid": "ch.shsg.campusapp",
+    "image": [
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/CzSd3zqHGMnpBYIrWaSl-_ZQU--fT708y_x5hmTxvxAfU6WlMeKXfiWlJpZflHGACAU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#000000",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/oaTeq5MqZNKsMXaM87eOL9ezoEroK2JMPO3t2bDw9AevAR0z1cGtw7UCtPH7boq-jg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/xazoJqtl32FVGQ6ndVso-lmK_HHrjywX47RlR0A1kcRxcnJUemlrfwUYB4UW6cafhg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/CaVOOGer0U2DorIz0hYHUDgPPZ7sTIhDHqbDSXzEZz5KJ207C82RFCkpkHpyELNru6A",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/8ebplZ4xJ8bjr7fr2GmTV5qXzoLcy1-rMPtKOCn0Pmd-piduTD3QhO_THOMMOhbNvrs",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/A6GvRL1CozCmhAlXCZDToitGGrdb53OOJ4q_1_DeZxbhtvnDZ0saibgERjEbCjB-tnI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/SCRD6-WRBudsThUpOW877x30RIN5apJwvhYs4YD73iuLL6qe1gBjf5WMUoUpXJUYKA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/AcyDEGdWo2Q64uwB6uN2EXOlq_ohwGpCjVatm70plf-NqA5kBjDzhfii0YirRbx9peg",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://shsg.ch/privacy-policy",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "Users interact<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=ch.shsg.campusapp",
+    "reviewsUrl": "rev?doc=ch.shsg.campusapp&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=ch.shsg.campusapp",
+    "title": "SHSG Campus\n6.8.3",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "it@shsg.ch"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "25 Mar 2021"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  }
+]

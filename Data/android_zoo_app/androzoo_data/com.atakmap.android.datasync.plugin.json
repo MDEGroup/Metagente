@@ -1,0 +1,2614 @@
+[
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-04-28 23:20:58.314040",
+    "backendDocid": "com.atakmap.android.datasync.plugin",
+    "backendId": 3,
+    "creator": "TAK Product Center",
+    "descriptionHtml": "ATTENTION: This is an ATAK Plugin. To use this extended capability, the ATAK baseline must be installed. Download the ATAK baseline here: https://play.google.com/store/apps/details?id=com.atakmap.app.civ<br><br>The Data Synchronization plug-in is used to synchronize multiple ATAK devices involved in the same exercise or event. This plug-in requires TAK Server 1.3.3+. TAK Server stores all data for a &quot;mission&quot; in a server side database. Clients may subscribe to a mission to receive dynamic updates when a mission changes, or to synchronize data missed while a given device was disconnected.<br><br>The plug-in currently supports the following types of data:<br>\u2022 Map Items (CoT data) - including markers, shapes, routes, etc.<br>\u2022 Files - arbitrary files may be synchronized including images, GRGs, configuration files, etc.<br>\u2022 Logs - Mission or Recce logs are timestamped events associated with the mission<br>\u2022 Chat - A persistent mission chat room is associated with each mission<br><br>Arbitrary CoT/UIDs may be associated with a mission so that any updates to that CoT will be automatically synchronized with all client subscribers. The plug-in allows the user to export an entire mission to a mission package (zip file) for archiving or sharing data with other systems. Provides a dead reckoning navigation capability in a denied environment.<br><br>Learn more here: https://tak.gov/plugins/datasync",
+    "descriptionShort": "Synchronize multiple ATAK devices connected to the same TAK Server.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown2": "839974",
+          "unknown3": 30
+        },
+        "developerAddress": "5858 Wilson Road Bldg. 367B<br/>Ft. Belvoir, VA 22060-5824",
+        "developerEmail": "support@tak.gov",
+        "developerName": "TAK Product Center",
+        "developerWebsite": "https://tak.gov",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "810225",
+            "versionCode": 1650304526
+          },
+          {
+            "fileType": 0,
+            "size": "29749",
+            "versionCode": 1650304526
+          }
+        ],
+        "installationSize": "839974",
+        "numDownloads": "50+ downloads",
+        "packageName": "com.atakmap.android.datasync.plugin",
+        "unstable": true,
+        "uploadDate": "18 Apr 2022",
+        "versionCode": 1650304526,
+        "versionString": "1.2 (2c5b94e8) - [4.6.0]"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.atakmap.android.datasync.plugin",
+    "docType": 1,
+    "docid": "com.atakmap.android.datasync.plugin",
+    "image": [
+      {
+        "color": "#0D0D0D",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/2AOpYrE0YVrOh4ahG_2dOTUT8idimw57tcnReNPQjvSH7hJF_oyMCMkedfEbU0ocFUA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#000000",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/czAHL8pBVkCrlF_oOdSGMpp9wcK8lr_eeS1Z-enR7aYgOJ2FsnbV7xRmZX8V3jIi7uaq",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 3,
+        "imageUrl": "https://youtu.be/fiBt0wEiKh8"
+      },
+      {
+        "imageType": 13,
+        "imageUrl": "https://i.ytimg.com/vi/fiBt0wEiKh8/hqdefault.jpg",
+        "supportsFifeUrlOptions": false
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1600
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Tz1wdCSpIQit7os5qs7EsPn8CoA6PBJSvNxql5pITSFyLWgbXdLFb_LamZwExhU-yw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2220,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/j11Zjk5U_SuATpajASEYCh2wCLqcZwtcMexhpFMjLYfehhZjq2jR7VdrzR_-VxTaXQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2220,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/mQOGE7A8fIUU77UxDS5wfQ8s6P7CRQiecFUhq90px-XUwJY-PZ8TTPVYg5RN1OQFdItW",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2220,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/1gMJjQVwE5XPZ1LTLLNq1O0a5tCfa-HBie2Gsoafjx8uTgBAA-Zelcx6ha726UUFVniu",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1600
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/PkHq00TKHgyERtWiOmnVX24HdPoR-lHZ5A58hdlQBo4b_E5Vaj_mUyPn4t6qLaZDDw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1600
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/q3TLHOowqMtdX3GU6DgW4G80F09xiaHJcNQlHafIXtXX20dv9GEvI-VyPIq7FJhzutPZ",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://tak.gov/privacy_policy",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/mw_NfsvKM8m6RPv8Fz2GQawCOsqWv010saMnc7zbWalMxuaA9IY8h7E0VMieLxSxAFB98NFeYqbFrXXq",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Teen",
+        "learnMoreHtmlLink": "Users interact, Shares location<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.atakmap.android.datasync.plugin",
+    "reviewsUrl": "rev?doc=com.atakmap.android.datasync.plugin&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.atakmap.android.datasync.plugin",
+    "title": "ATAK Plugin: Data Sync",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "TAK Product Center"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "support@tak.gov"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "5858 Wilson Road Bldg. 367B<br/>Ft. Belvoir, VA 22060-5824"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "21 Apr 2022"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-05-08 02:55:28.626881",
+    "backendDocid": "com.atakmap.android.datasync.plugin",
+    "backendId": 3,
+    "creator": "TAK Product Center",
+    "descriptionHtml": "ATTENTION: This is an ATAK Plugin. To use this extended capability, the ATAK baseline must be installed. Download the ATAK baseline here: https://play.google.com/store/apps/details?id=com.atakmap.app.civ<br><br>The Data Synchronization plug-in is used to synchronize multiple ATAK devices involved in the same exercise or event. This plug-in requires TAK Server 1.3.3+. TAK Server stores all data for a &quot;mission&quot; in a server side database. Clients may subscribe to a mission to receive dynamic updates when a mission changes, or to synchronize data missed while a given device was disconnected.<br><br>The plug-in currently supports the following types of data:<br>\u2022 Map Items (CoT data) - including markers, shapes, routes, etc.<br>\u2022 Files - arbitrary files may be synchronized including images, GRGs, configuration files, etc.<br>\u2022 Logs - Mission or Recce logs are timestamped events associated with the mission<br>\u2022 Chat - A persistent mission chat room is associated with each mission<br><br>Arbitrary CoT/UIDs may be associated with a mission so that any updates to that CoT will be automatically synchronized with all client subscribers. The plug-in allows the user to export an entire mission to a mission package (zip file) for archiving or sharing data with other systems. Provides a dead reckoning navigation capability in a denied environment.<br><br>Learn more here: https://tak.gov/plugins/datasync",
+    "descriptionShort": "Synchronize multiple ATAK devices connected to the same TAK Server.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown2": "839974",
+          "unknown3": 30
+        },
+        "developerAddress": "5858 Wilson Road Bldg. 367B<br/>Ft. Belvoir, VA 22060-5824",
+        "developerEmail": "support@tak.gov",
+        "developerName": "TAK Product Center",
+        "developerWebsite": "https://tak.gov",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "810225",
+            "versionCode": 1650999397
+          },
+          {
+            "fileType": 0,
+            "size": "29749",
+            "versionCode": 1650999397
+          }
+        ],
+        "installationSize": "839974",
+        "numDownloads": "100+ downloads",
+        "packageName": "com.atakmap.android.datasync.plugin",
+        "unstable": true,
+        "uploadDate": "6 May 2022",
+        "versionCode": 1650999397,
+        "versionString": "1.2 (2c2b74f6) - [4.6.1]"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.atakmap.android.datasync.plugin",
+    "docType": 1,
+    "docid": "com.atakmap.android.datasync.plugin",
+    "image": [
+      {
+        "color": "#0D0D0D",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/2AOpYrE0YVrOh4ahG_2dOTUT8idimw57tcnReNPQjvSH7hJF_oyMCMkedfEbU0ocFUA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#000000",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/hU8oIYZXpOhWDf774WMkXmPtjAUeIYDGaPaof1fkYM3Dq4ejBo7XRWMmMCJzC0aag8U",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 3,
+        "imageUrl": "https://youtu.be/fiBt0wEiKh8"
+      },
+      {
+        "imageType": 13,
+        "imageUrl": "https://i.ytimg.com/vi/fiBt0wEiKh8/hqdefault.jpg",
+        "supportsFifeUrlOptions": false
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1600
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Tz1wdCSpIQit7os5qs7EsPn8CoA6PBJSvNxql5pITSFyLWgbXdLFb_LamZwExhU-yw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2220,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/j11Zjk5U_SuATpajASEYCh2wCLqcZwtcMexhpFMjLYfehhZjq2jR7VdrzR_-VxTaXQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2220,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/mQOGE7A8fIUU77UxDS5wfQ8s6P7CRQiecFUhq90px-XUwJY-PZ8TTPVYg5RN1OQFdItW",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2220,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/1gMJjQVwE5XPZ1LTLLNq1O0a5tCfa-HBie2Gsoafjx8uTgBAA-Zelcx6ha726UUFVniu",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1600
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/PkHq00TKHgyERtWiOmnVX24HdPoR-lHZ5A58hdlQBo4b_E5Vaj_mUyPn4t6qLaZDDw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1600
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/q3TLHOowqMtdX3GU6DgW4G80F09xiaHJcNQlHafIXtXX20dv9GEvI-VyPIq7FJhzutPZ",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://tak.gov/privacy_policy",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/mw_NfsvKM8m6RPv8Fz2GQawCOsqWv010saMnc7zbWalMxuaA9IY8h7E0VMieLxSxAFB98NFeYqbFrXXq",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Teen",
+        "learnMoreHtmlLink": "Users interact, Shares location<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.atakmap.android.datasync.plugin",
+    "reviewsUrl": "rev?doc=com.atakmap.android.datasync.plugin&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.atakmap.android.datasync.plugin",
+    "title": "ATAK Plugin: Data Sync",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "TAK Product Center"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "support@tak.gov"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "5858 Wilson Road Bldg. 367B<br/>Ft. Belvoir, VA 22060-5824"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "21 Apr 2022"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-05-09 04:04:38.150230",
+    "backendDocid": "com.atakmap.android.datasync.plugin",
+    "backendId": 3,
+    "creator": "TAK Product Center",
+    "descriptionHtml": "ATTENTION: This is an ATAK Plugin. To use this extended capability, the ATAK baseline must be installed. Download the ATAK baseline here: https://play.google.com/store/apps/details?id=com.atakmap.app.civ<br><br>The Data Synchronization plug-in is used to synchronize multiple ATAK devices involved in the same exercise or event. This plug-in requires TAK Server 1.3.3+. TAK Server stores all data for a &quot;mission&quot; in a server side database. Clients may subscribe to a mission to receive dynamic updates when a mission changes, or to synchronize data missed while a given device was disconnected.<br><br>The plug-in currently supports the following types of data:<br>\u2022 Map Items (CoT data) - including markers, shapes, routes, etc.<br>\u2022 Files - arbitrary files may be synchronized including images, GRGs, configuration files, etc.<br>\u2022 Logs - Mission or Recce logs are timestamped events associated with the mission<br>\u2022 Chat - A persistent mission chat room is associated with each mission<br><br>Arbitrary CoT/UIDs may be associated with a mission so that any updates to that CoT will be automatically synchronized with all client subscribers. The plug-in allows the user to export an entire mission to a mission package (zip file) for archiving or sharing data with other systems. Provides a dead reckoning navigation capability in a denied environment.<br><br>Learn more here: https://tak.gov/plugins/datasync",
+    "descriptionShort": "Synchronize multiple ATAK devices connected to the same TAK Server.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown2": "839974",
+          "unknown3": 30
+        },
+        "developerAddress": "5858 Wilson Road Bldg. 367B<br/>Ft. Belvoir, VA 22060-5824",
+        "developerEmail": "support@tak.gov",
+        "developerName": "TAK Product Center",
+        "developerWebsite": "https://tak.gov",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "810225",
+            "versionCode": 1652021490
+          },
+          {
+            "fileType": 0,
+            "size": "29749",
+            "versionCode": 1652021490
+          }
+        ],
+        "installationSize": "839974",
+        "numDownloads": "100+ downloads",
+        "packageName": "com.atakmap.android.datasync.plugin",
+        "unstable": true,
+        "uploadDate": "8 May 2022",
+        "versionCode": 1652021490,
+        "versionString": "1.2 (6ae421a4) - [4.6.1]"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.atakmap.android.datasync.plugin",
+    "docType": 1,
+    "docid": "com.atakmap.android.datasync.plugin",
+    "image": [
+      {
+        "color": "#0D0D0D",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/2AOpYrE0YVrOh4ahG_2dOTUT8idimw57tcnReNPQjvSH7hJF_oyMCMkedfEbU0ocFUA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#000000",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/hU8oIYZXpOhWDf774WMkXmPtjAUeIYDGaPaof1fkYM3Dq4ejBo7XRWMmMCJzC0aag8U",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 3,
+        "imageUrl": "https://youtu.be/fiBt0wEiKh8"
+      },
+      {
+        "imageType": 13,
+        "imageUrl": "https://i.ytimg.com/vi/fiBt0wEiKh8/hqdefault.jpg",
+        "supportsFifeUrlOptions": false
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1600
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Tz1wdCSpIQit7os5qs7EsPn8CoA6PBJSvNxql5pITSFyLWgbXdLFb_LamZwExhU-yw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2220,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/j11Zjk5U_SuATpajASEYCh2wCLqcZwtcMexhpFMjLYfehhZjq2jR7VdrzR_-VxTaXQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2220,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/mQOGE7A8fIUU77UxDS5wfQ8s6P7CRQiecFUhq90px-XUwJY-PZ8TTPVYg5RN1OQFdItW",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2220,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/1gMJjQVwE5XPZ1LTLLNq1O0a5tCfa-HBie2Gsoafjx8uTgBAA-Zelcx6ha726UUFVniu",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1600
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/PkHq00TKHgyERtWiOmnVX24HdPoR-lHZ5A58hdlQBo4b_E5Vaj_mUyPn4t6qLaZDDw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1600
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/q3TLHOowqMtdX3GU6DgW4G80F09xiaHJcNQlHafIXtXX20dv9GEvI-VyPIq7FJhzutPZ",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://tak.gov/privacy_policy",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/VI5ii6OTeBuSn1kTDPlXSwj7yI7kqDqf_drsvZ90qjcm7LbbVkG8UfPTicKqMzipsY_lBnAYAH5t8GxN",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Parental guidance",
+        "learnMoreHtmlLink": "Parental guidance recommended<br/>Users interact, Shares location<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.atakmap.android.datasync.plugin",
+    "reviewsUrl": "rev?doc=com.atakmap.android.datasync.plugin&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.atakmap.android.datasync.plugin",
+    "title": "ATAK Plugin: Data Sync",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "support@tak.gov"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "5858 Wilson Road Bldg. 367B<br/>Ft. Belvoir, VA 22060-5824"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "21 Apr 2022"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-05-12 01:22:34.455560",
+    "backendDocid": "com.atakmap.android.datasync.plugin",
+    "backendId": 3,
+    "creator": "TAK Product Center",
+    "descriptionHtml": "ATTENTION: This is an ATAK Plugin. To use this extended capability, the ATAK baseline must be installed. Download the ATAK baseline here: https://play.google.com/store/apps/details?id=com.atakmap.app.civ<br><br>The Data Synchronization plug-in is used to synchronize multiple ATAK devices involved in the same exercise or event. This plug-in requires TAK Server 1.3.3+. TAK Server stores all data for a &quot;mission&quot; in a server side database. Clients may subscribe to a mission to receive dynamic updates when a mission changes, or to synchronize data missed while a given device was disconnected.<br><br>The plug-in currently supports the following types of data:<br>\u2022 Map Items (CoT data) - including markers, shapes, routes, etc.<br>\u2022 Files - arbitrary files may be synchronized including images, GRGs, configuration files, etc.<br>\u2022 Logs - Mission or Recce logs are timestamped events associated with the mission<br>\u2022 Chat - A persistent mission chat room is associated with each mission<br><br>Arbitrary CoT/UIDs may be associated with a mission so that any updates to that CoT will be automatically synchronized with all client subscribers. The plug-in allows the user to export an entire mission to a mission package (zip file) for archiving or sharing data with other systems. Provides a dead reckoning navigation capability in a denied environment.<br><br>Learn more here: https://tak.gov/plugins/datasync",
+    "descriptionShort": "Synchronize multiple ATAK devices connected to the same TAK Server.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown2": "839974",
+          "unknown3": 30
+        },
+        "developerAddress": "5858 Wilson Road Bldg. 367B<br/>Ft. Belvoir, VA 22060-5824",
+        "developerEmail": "support@tak.gov",
+        "developerName": "TAK Product Center",
+        "developerWebsite": "https://tak.gov",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "810225",
+            "versionCode": 1652032962
+          },
+          {
+            "fileType": 0,
+            "size": "29749",
+            "versionCode": 1652032962
+          }
+        ],
+        "installationSize": "839974",
+        "numDownloads": "100+ downloads",
+        "packageName": "com.atakmap.android.datasync.plugin",
+        "unstable": true,
+        "uploadDate": "9 May 2022",
+        "versionCode": 1652032962,
+        "versionString": "1.2 (175c0bdf) - [4.6.1]"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.atakmap.android.datasync.plugin",
+    "docType": 1,
+    "docid": "com.atakmap.android.datasync.plugin",
+    "image": [
+      {
+        "color": "#0D0D0D",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/2AOpYrE0YVrOh4ahG_2dOTUT8idimw57tcnReNPQjvSH7hJF_oyMCMkedfEbU0ocFUA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#000000",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/hU8oIYZXpOhWDf774WMkXmPtjAUeIYDGaPaof1fkYM3Dq4ejBo7XRWMmMCJzC0aag8U",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 3,
+        "imageUrl": "https://youtu.be/fiBt0wEiKh8"
+      },
+      {
+        "imageType": 13,
+        "imageUrl": "https://i.ytimg.com/vi/fiBt0wEiKh8/hqdefault.jpg",
+        "supportsFifeUrlOptions": false
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1600
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Tz1wdCSpIQit7os5qs7EsPn8CoA6PBJSvNxql5pITSFyLWgbXdLFb_LamZwExhU-yw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2220,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/j11Zjk5U_SuATpajASEYCh2wCLqcZwtcMexhpFMjLYfehhZjq2jR7VdrzR_-VxTaXQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2220,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/mQOGE7A8fIUU77UxDS5wfQ8s6P7CRQiecFUhq90px-XUwJY-PZ8TTPVYg5RN1OQFdItW",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2220,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/1gMJjQVwE5XPZ1LTLLNq1O0a5tCfa-HBie2Gsoafjx8uTgBAA-Zelcx6ha726UUFVniu",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1600
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/PkHq00TKHgyERtWiOmnVX24HdPoR-lHZ5A58hdlQBo4b_E5Vaj_mUyPn4t6qLaZDDw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1600
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/q3TLHOowqMtdX3GU6DgW4G80F09xiaHJcNQlHafIXtXX20dv9GEvI-VyPIq7FJhzutPZ",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://tak.gov/privacy_policy",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/VI5ii6OTeBuSn1kTDPlXSwj7yI7kqDqf_drsvZ90qjcm7LbbVkG8UfPTicKqMzipsY_lBnAYAH5t8GxN",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Parental guidance",
+        "learnMoreHtmlLink": "Parental guidance recommended<br/>Users interact, Shares location<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.atakmap.android.datasync.plugin",
+    "reviewsUrl": "rev?doc=com.atakmap.android.datasync.plugin&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.atakmap.android.datasync.plugin",
+    "title": "ATAK Plugin: Data Sync",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "support@tak.gov"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "5858 Wilson Road Bldg. 367B<br/>Ft. Belvoir, VA 22060-5824"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "21 Apr 2022"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-07-29 03:06:22.037913",
+    "backendDocid": "com.atakmap.android.datasync.plugin",
+    "backendId": 3,
+    "creator": "TAK Product Center",
+    "descriptionHtml": "ATTENTION: This is an ATAK Plugin. To use this extended capability, the ATAK baseline must be installed. Download the ATAK baseline here: https://play.google.com/store/apps/details?id=com.atakmap.app.civ<br><br>The Data Synchronization plug-in is used to synchronize multiple ATAK devices involved in the same exercise or event. This plug-in requires TAK Server 1.3.3+. TAK Server stores all data for a &quot;mission&quot; in a server side database. Clients may subscribe to a mission to receive dynamic updates when a mission changes, or to synchronize data missed while a given device was disconnected.<br><br>The plug-in currently supports the following types of data:<br>\u2022 Map Items (CoT data) - including markers, shapes, routes, etc.<br>\u2022 Files - arbitrary files may be synchronized including images, GRGs, configuration files, etc.<br>\u2022 Logs - Mission or Recce logs are timestamped events associated with the mission<br>\u2022 Chat - A persistent mission chat room is associated with each mission<br><br>Arbitrary CoT/UIDs may be associated with a mission so that any updates to that CoT will be automatically synchronized with all client subscribers. The plug-in allows the user to export an entire mission to a mission package (zip file) for archiving or sharing data with other systems. Provides a dead reckoning navigation capability in a denied environment.<br><br>Learn more here: https://tak.gov/plugins/datasync",
+    "descriptionShort": "Synchronize multiple ATAK devices connected to the same TAK Server.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown2": "839974",
+          "unknown3": 30
+        },
+        "developerAddress": "5858 Wilson Road Bldg. 367B<br/>Ft. Belvoir, VA 22060-5824",
+        "developerEmail": "support@tak.gov",
+        "developerName": "TAK Product Center",
+        "developerWebsite": "https://tak.gov",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "810225",
+            "versionCode": 1658936756
+          },
+          {
+            "fileType": 0,
+            "size": "29749",
+            "versionCode": 1658936756
+          }
+        ],
+        "installationSize": "839974",
+        "numDownloads": "500+ downloads",
+        "packageName": "com.atakmap.android.datasync.plugin",
+        "unstable": true,
+        "uploadDate": "27 Jul 2022",
+        "versionCode": 1658936756,
+        "versionString": "1.3 (7c5dd2ed) - [4.7.0]"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.atakmap.android.datasync.plugin",
+    "docType": 1,
+    "docid": "com.atakmap.android.datasync.plugin",
+    "image": [
+      {
+        "color": "#0D0D0D",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/2AOpYrE0YVrOh4ahG_2dOTUT8idimw57tcnReNPQjvSH7hJF_oyMCMkedfEbU0ocFUA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#000000",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/hU8oIYZXpOhWDf774WMkXmPtjAUeIYDGaPaof1fkYM3Dq4ejBo7XRWMmMCJzC0aag8U",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 3,
+        "imageUrl": "https://youtu.be/fiBt0wEiKh8"
+      },
+      {
+        "imageType": 13,
+        "imageUrl": "https://i.ytimg.com/vi/fiBt0wEiKh8/hqdefault.jpg",
+        "supportsFifeUrlOptions": false
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1600
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Tz1wdCSpIQit7os5qs7EsPn8CoA6PBJSvNxql5pITSFyLWgbXdLFb_LamZwExhU-yw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2220,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/j11Zjk5U_SuATpajASEYCh2wCLqcZwtcMexhpFMjLYfehhZjq2jR7VdrzR_-VxTaXQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2220,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/mQOGE7A8fIUU77UxDS5wfQ8s6P7CRQiecFUhq90px-XUwJY-PZ8TTPVYg5RN1OQFdItW",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2220,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/1gMJjQVwE5XPZ1LTLLNq1O0a5tCfa-HBie2Gsoafjx8uTgBAA-Zelcx6ha726UUFVniu",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1600
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/PkHq00TKHgyERtWiOmnVX24HdPoR-lHZ5A58hdlQBo4b_E5Vaj_mUyPn4t6qLaZDDw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1600
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/q3TLHOowqMtdX3GU6DgW4G80F09xiaHJcNQlHafIXtXX20dv9GEvI-VyPIq7FJhzutPZ",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://tak.gov/privacy_policy",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/VI5ii6OTeBuSn1kTDPlXSwj7yI7kqDqf_drsvZ90qjcm7LbbVkG8UfPTicKqMzipsY_lBnAYAH5t8GxN",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Parental guidance",
+        "learnMoreHtmlLink": "Parental guidance recommended<br/>Users interact, Shares location<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.atakmap.android.datasync.plugin",
+    "reviewsUrl": "rev?doc=com.atakmap.android.datasync.plugin&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.atakmap.android.datasync.plugin",
+    "title": "ATAK Plugin: Data Sync",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "support@tak.gov"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "5858 Wilson Road Bldg. 367B<br/>Ft. Belvoir, VA 22060-5824"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "21 Apr 2022"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-01-18 13:17:31.269184",
+    "backendDocid": "com.atakmap.android.datasync.plugin",
+    "backendId": 3,
+    "creator": "TAK Product Center",
+    "descriptionHtml": "ATTENTION: This is an ATAK Plugin. To use this extended capability, the ATAK baseline must be installed. Download the ATAK baseline here: https://play.google.com/store/apps/details?id=com.atakmap.app.civ<br><br>The Data Synchronization plug-in is used to synchronize multiple ATAK devices involved in the same exercise or event. This plug-in requires TAK Server 1.3.3+. TAK Server stores all data for a &quot;mission&quot; in a server side database. Clients may subscribe to a mission to receive dynamic updates when a mission changes, or to synchronize data missed while a given device was disconnected.<br><br>The plug-in currently supports the following types of data:<br>\u2022 Map Items (CoT data) - including markers, shapes, routes, etc.<br>\u2022 Files - arbitrary files may be synchronized including images, GRGs, configuration files, etc.<br>\u2022 Logs - Mission or Recce logs are timestamped events associated with the mission<br>\u2022 Chat - A persistent mission chat room is associated with each mission<br><br>Arbitrary CoT/UIDs may be associated with a mission so that any updates to that CoT will be automatically synchronized with all client subscribers. The plug-in allows the user to export an entire mission to a mission package (zip file) for archiving or sharing data with other systems. Provides a dead reckoning navigation capability in a denied environment.<br><br>Learn more here: https://tak.gov/plugins/datasync",
+    "descriptionShort": "Synchronize multiple ATAK devices connected to the same TAK Server.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown2": "2068970",
+          "unknown3": 31
+        },
+        "developerAddress": "5858 Wilson Road Bldg. 367B<br/>Ft. Belvoir, VA 22060-5824",
+        "developerEmail": "support@tak.gov",
+        "developerName": "TAK Product Center",
+        "developerWebsite": "https://tak.gov",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "2039221",
+            "versionCode": 1673497980
+          },
+          {
+            "fileType": 0,
+            "size": "29749",
+            "versionCode": 1673497980
+          }
+        ],
+        "installationSize": "2068970",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "com.atakmap.android.datasync.plugin",
+        "unstable": true,
+        "uploadDate": "15 Jan 2023",
+        "versionCode": 1673497980,
+        "versionString": "1.5 (a4c8bc5e) - [4.8.1]"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.atakmap.android.datasync.plugin",
+    "docType": 1,
+    "docid": "com.atakmap.android.datasync.plugin",
+    "image": [
+      {
+        "color": "#0D0D0D",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/2AOpYrE0YVrOh4ahG_2dOTUT8idimw57tcnReNPQjvSH7hJF_oyMCMkedfEbU0ocFUA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#000000",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/hU8oIYZXpOhWDf774WMkXmPtjAUeIYDGaPaof1fkYM3Dq4ejBo7XRWMmMCJzC0aag8U",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 3,
+        "imageUrl": "https://youtu.be/fiBt0wEiKh8"
+      },
+      {
+        "imageType": 13,
+        "imageUrl": "https://i.ytimg.com/vi/fiBt0wEiKh8/hqdefault.jpg",
+        "supportsFifeUrlOptions": false
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1600
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Tz1wdCSpIQit7os5qs7EsPn8CoA6PBJSvNxql5pITSFyLWgbXdLFb_LamZwExhU-yw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2220,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/j11Zjk5U_SuATpajASEYCh2wCLqcZwtcMexhpFMjLYfehhZjq2jR7VdrzR_-VxTaXQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2220,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/mQOGE7A8fIUU77UxDS5wfQ8s6P7CRQiecFUhq90px-XUwJY-PZ8TTPVYg5RN1OQFdItW",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2220,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/1gMJjQVwE5XPZ1LTLLNq1O0a5tCfa-HBie2Gsoafjx8uTgBAA-Zelcx6ha726UUFVniu",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1600
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/PkHq00TKHgyERtWiOmnVX24HdPoR-lHZ5A58hdlQBo4b_E5Vaj_mUyPn4t6qLaZDDw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1600
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/q3TLHOowqMtdX3GU6DgW4G80F09xiaHJcNQlHafIXtXX20dv9GEvI-VyPIq7FJhzutPZ",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://tak.gov/privacy_policy",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/VI5ii6OTeBuSn1kTDPlXSwj7yI7kqDqf_drsvZ90qjcm7LbbVkG8UfPTicKqMzipsY_lBnAYAH5t8GxN",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Parental guidance",
+        "learnMoreHtmlLink": "Parental guidance recommended<br/>Users interact, Shares location<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.atakmap.android.datasync.plugin",
+    "reviewsUrl": "rev?doc=com.atakmap.android.datasync.plugin&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.atakmap.android.datasync.plugin",
+    "title": "ATAK Plugin: Data Sync",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "support@tak.gov"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "5858 Wilson Road Bldg. 367B<br/>Ft. Belvoir, VA 22060-5824"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "21 Apr 2022"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-01-26 09:07:53.398565",
+    "backendDocid": "com.atakmap.android.datasync.plugin",
+    "backendId": 3,
+    "creator": "TAK Product Center",
+    "descriptionHtml": "ATTENTION: This is an ATAK Plugin. To use this extended capability, the ATAK baseline must be installed. Download the ATAK baseline here: https://play.google.com/store/apps/details?id=com.atakmap.app.civ<br><br>The Data Synchronization plug-in is used to synchronize multiple ATAK devices involved in the same exercise or event. This plug-in requires TAK Server 1.3.3+. TAK Server stores all data for a &quot;mission&quot; in a server side database. Clients may subscribe to a mission to receive dynamic updates when a mission changes, or to synchronize data missed while a given device was disconnected.<br><br>The plug-in currently supports the following types of data:<br>\u2022 Map Items (CoT data) - including markers, shapes, routes, etc.<br>\u2022 Files - arbitrary files may be synchronized including images, GRGs, configuration files, etc.<br>\u2022 Logs - Mission or Recce logs are timestamped events associated with the mission<br>\u2022 Chat - A persistent mission chat room is associated with each mission<br><br>Arbitrary CoT/UIDs may be associated with a mission so that any updates to that CoT will be automatically synchronized with all client subscribers. The plug-in allows the user to export an entire mission to a mission package (zip file) for archiving or sharing data with other systems. Provides a dead reckoning navigation capability in a denied environment.<br><br>Learn more here: https://tak.gov/plugins/datasync",
+    "descriptionShort": "Synchronize multiple ATAK devices connected to the same TAK Server.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown2": "2073155",
+          "unknown3": 31
+        },
+        "developerAddress": "5858 Wilson Road Bldg. 367B<br/>Ft. Belvoir, VA 22060-5824",
+        "developerEmail": "support@tak.gov",
+        "developerName": "TAK Product Center",
+        "developerWebsite": "https://tak.gov",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "2043406",
+            "versionCode": 1674575517
+          },
+          {
+            "fileType": 0,
+            "size": "29749",
+            "versionCode": 1674575517
+          }
+        ],
+        "installationSize": "2073155",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "com.atakmap.android.datasync.plugin",
+        "unstable": true,
+        "uploadDate": "Jan 24, 2023",
+        "versionCode": 1674575517,
+        "versionString": "1.6 (15780171) - [4.8.1]"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.atakmap.android.datasync.plugin",
+    "docType": 1,
+    "docid": "com.atakmap.android.datasync.plugin",
+    "image": [
+      {
+        "color": "#0D0D0D",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/2AOpYrE0YVrOh4ahG_2dOTUT8idimw57tcnReNPQjvSH7hJF_oyMCMkedfEbU0ocFUA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#000000",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/hU8oIYZXpOhWDf774WMkXmPtjAUeIYDGaPaof1fkYM3Dq4ejBo7XRWMmMCJzC0aag8U",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 3,
+        "imageUrl": "https://youtu.be/fiBt0wEiKh8"
+      },
+      {
+        "imageType": 13,
+        "imageUrl": "https://i.ytimg.com/vi/fiBt0wEiKh8/hqdefault.jpg",
+        "supportsFifeUrlOptions": false
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1600
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Tz1wdCSpIQit7os5qs7EsPn8CoA6PBJSvNxql5pITSFyLWgbXdLFb_LamZwExhU-yw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2220,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/j11Zjk5U_SuATpajASEYCh2wCLqcZwtcMexhpFMjLYfehhZjq2jR7VdrzR_-VxTaXQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2220,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/mQOGE7A8fIUU77UxDS5wfQ8s6P7CRQiecFUhq90px-XUwJY-PZ8TTPVYg5RN1OQFdItW",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2220,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/1gMJjQVwE5XPZ1LTLLNq1O0a5tCfa-HBie2Gsoafjx8uTgBAA-Zelcx6ha726UUFVniu",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1600
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/PkHq00TKHgyERtWiOmnVX24HdPoR-lHZ5A58hdlQBo4b_E5Vaj_mUyPn4t6qLaZDDw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1600
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/q3TLHOowqMtdX3GU6DgW4G80F09xiaHJcNQlHafIXtXX20dv9GEvI-VyPIq7FJhzutPZ",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "CAD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://tak.gov/privacy_policy",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/mw_NfsvKM8m6RPv8Fz2GQawCOsqWv010saMnc7zbWalMxuaA9IY8h7E0VMieLxSxAFB98NFeYqbFrXXq",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Teen",
+        "learnMoreHtmlLink": "Users Interact, Shares Location<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.atakmap.android.datasync.plugin",
+    "reviewsUrl": "rev?doc=com.atakmap.android.datasync.plugin&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.atakmap.android.datasync.plugin",
+    "title": "ATAK Plugin: Data Sync",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "TAK Product Center"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "support@tak.gov"
+          },
+          "label": "Developer e-mail"
+        },
+        {
+          "container": {
+            "value": "5858 Wilson Road Bldg. 367B<br/>Ft. Belvoir, VA 22060-5824"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "Apr 21, 2022"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-02-25 06:44:17.470235",
+    "backendDocid": "com.atakmap.android.datasync.plugin",
+    "backendId": 3,
+    "creator": "TAK Product Center",
+    "descriptionHtml": "ATTENTION: This is an ATAK Plugin. To use this extended capability, the ATAK baseline must be installed. Download the ATAK baseline here: https://play.google.com/store/apps/details?id=com.atakmap.app.civ<br><br>The Data Synchronization plug-in is used to synchronize multiple ATAK devices involved in the same exercise or event. This plug-in requires TAK Server 1.3.3+. TAK Server stores all data for a &quot;mission&quot; in a server side database. Clients may subscribe to a mission to receive dynamic updates when a mission changes, or to synchronize data missed while a given device was disconnected.<br><br>The plug-in currently supports the following types of data:<br>\u2022 Map Items (CoT data) - including markers, shapes, routes, etc.<br>\u2022 Files - arbitrary files may be synchronized including images, GRGs, configuration files, etc.<br>\u2022 Logs - Mission or Recce logs are timestamped events associated with the mission<br>\u2022 Chat - A persistent mission chat room is associated with each mission<br><br>Arbitrary CoT/UIDs may be associated with a mission so that any updates to that CoT will be automatically synchronized with all client subscribers. The plug-in allows the user to export an entire mission to a mission package (zip file) for archiving or sharing data with other systems. Provides a dead reckoning navigation capability in a denied environment.<br><br>Learn more here: https://tak.gov/plugins/datasync",
+    "descriptionShort": "Synchronize multiple ATAK devices connected to the same TAK Server.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown2": "2073155",
+          "unknown3": 31
+        },
+        "developerAddress": "5858 Wilson Road Bldg. 367B<br/>Ft. Belvoir, VA 22060-5824",
+        "developerEmail": "support@tak.gov",
+        "developerName": "TAK Product Center",
+        "developerWebsite": "https://tak.gov",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "2043406",
+            "versionCode": 1677186474
+          },
+          {
+            "fileType": 0,
+            "size": "29749",
+            "versionCode": 1677186474
+          }
+        ],
+        "installationSize": "2073155",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "com.atakmap.android.datasync.plugin",
+        "unstable": true,
+        "uploadDate": "23 Feb 2023",
+        "versionCode": 1677186474,
+        "versionString": "1.6.2 (1f6fe307) - [4.8.1]"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.atakmap.android.datasync.plugin",
+    "docType": 1,
+    "docid": "com.atakmap.android.datasync.plugin",
+    "image": [
+      {
+        "color": "#0D0D0D",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/2AOpYrE0YVrOh4ahG_2dOTUT8idimw57tcnReNPQjvSH7hJF_oyMCMkedfEbU0ocFUA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#000000",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/hU8oIYZXpOhWDf774WMkXmPtjAUeIYDGaPaof1fkYM3Dq4ejBo7XRWMmMCJzC0aag8U",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 3,
+        "imageUrl": "https://youtu.be/fiBt0wEiKh8"
+      },
+      {
+        "imageType": 13,
+        "imageUrl": "https://i.ytimg.com/vi/fiBt0wEiKh8/hqdefault.jpg",
+        "supportsFifeUrlOptions": false
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1600
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Tz1wdCSpIQit7os5qs7EsPn8CoA6PBJSvNxql5pITSFyLWgbXdLFb_LamZwExhU-yw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2220,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/j11Zjk5U_SuATpajASEYCh2wCLqcZwtcMexhpFMjLYfehhZjq2jR7VdrzR_-VxTaXQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2220,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/mQOGE7A8fIUU77UxDS5wfQ8s6P7CRQiecFUhq90px-XUwJY-PZ8TTPVYg5RN1OQFdItW",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2220,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/1gMJjQVwE5XPZ1LTLLNq1O0a5tCfa-HBie2Gsoafjx8uTgBAA-Zelcx6ha726UUFVniu",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1600
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/PkHq00TKHgyERtWiOmnVX24HdPoR-lHZ5A58hdlQBo4b_E5Vaj_mUyPn4t6qLaZDDw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1600
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/q3TLHOowqMtdX3GU6DgW4G80F09xiaHJcNQlHafIXtXX20dv9GEvI-VyPIq7FJhzutPZ",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://tak.gov/privacy_policy",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/mw_NfsvKM8m6RPv8Fz2GQawCOsqWv010saMnc7zbWalMxuaA9IY8h7E0VMieLxSxAFB98NFeYqbFrXXq",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Teen",
+        "learnMoreHtmlLink": "Users interact, Shares location<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.atakmap.android.datasync.plugin",
+    "reviewsUrl": "rev?doc=com.atakmap.android.datasync.plugin&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.atakmap.android.datasync.plugin",
+    "title": "ATAK Plugin: Data Sync",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "TAK Product Center"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "support@tak.gov"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "5858 Wilson Road Bldg. 367B<br/>Ft. Belvoir, VA 22060-5824"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "21 Apr 2022"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "3",
+      "fiveStarRatings": "7",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "8",
+      "starRating": 4.75,
+      "threeStarRatings": "1",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-03-09 03:49:28.957210",
+    "backendDocid": "com.atakmap.android.datasync.plugin",
+    "backendId": 3,
+    "creator": "TAK Product Center",
+    "descriptionHtml": "ATTENTION: This is an ATAK Plugin. To use this extended capability, the ATAK baseline must be installed. Download the ATAK baseline here: https://play.google.com/store/apps/details?id=com.atakmap.app.civ<br><br>The Data Synchronization plug-in is used to synchronize multiple ATAK devices involved in the same exercise or event. This plug-in requires TAK Server 1.3.3+. TAK Server stores all data for a &quot;mission&quot; in a server side database. Clients may subscribe to a mission to receive dynamic updates when a mission changes, or to synchronize data missed while a given device was disconnected.<br><br>The plug-in currently supports the following types of data:<br>\u2022 Map Items (CoT data) - including markers, shapes, routes, etc.<br>\u2022 Files - arbitrary files may be synchronized including images, GRGs, configuration files, etc.<br>\u2022 Logs - Mission or Recce logs are timestamped events associated with the mission<br>\u2022 Chat - A persistent mission chat room is associated with each mission<br><br>Arbitrary CoT/UIDs may be associated with a mission so that any updates to that CoT will be automatically synchronized with all client subscribers. The plug-in allows the user to export an entire mission to a mission package (zip file) for archiving or sharing data with other systems. Provides a dead reckoning navigation capability in a denied environment.<br><br>Learn more here: https://tak.gov/plugins/datasync",
+    "descriptionShort": "Synchronize multiple ATAK devices connected to the same TAK Server.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown2": "2073233",
+          "unknown3": 31
+        },
+        "developerAddress": "5858 Wilson Road Bldg. 367B<br/>Ft. Belvoir, VA 22060-5824",
+        "developerEmail": "support@tak.gov",
+        "developerName": "TAK Product Center",
+        "developerWebsite": "https://tak.gov",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "2043484",
+            "versionCode": 1678274613
+          },
+          {
+            "fileType": 0,
+            "size": "29749",
+            "versionCode": 1678274613
+          }
+        ],
+        "installationSize": "2073233",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "com.atakmap.android.datasync.plugin",
+        "unstable": true,
+        "uploadDate": "8 Mar 2023",
+        "versionCode": 1678274613,
+        "versionString": "1.6.6 (1b388a2d) - [4.8.1]"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.atakmap.android.datasync.plugin",
+    "docType": 1,
+    "docid": "com.atakmap.android.datasync.plugin",
+    "image": [
+      {
+        "color": "#0D0D0D",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/2AOpYrE0YVrOh4ahG_2dOTUT8idimw57tcnReNPQjvSH7hJF_oyMCMkedfEbU0ocFUA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#000000",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/hU8oIYZXpOhWDf774WMkXmPtjAUeIYDGaPaof1fkYM3Dq4ejBo7XRWMmMCJzC0aag8U",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 3,
+        "imageUrl": "https://youtu.be/fiBt0wEiKh8"
+      },
+      {
+        "imageType": 13,
+        "imageUrl": "https://i.ytimg.com/vi/fiBt0wEiKh8/hqdefault.jpg",
+        "supportsFifeUrlOptions": false
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1600
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Tz1wdCSpIQit7os5qs7EsPn8CoA6PBJSvNxql5pITSFyLWgbXdLFb_LamZwExhU-yw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2220,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/j11Zjk5U_SuATpajASEYCh2wCLqcZwtcMexhpFMjLYfehhZjq2jR7VdrzR_-VxTaXQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2220,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/mQOGE7A8fIUU77UxDS5wfQ8s6P7CRQiecFUhq90px-XUwJY-PZ8TTPVYg5RN1OQFdItW",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2220,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/1gMJjQVwE5XPZ1LTLLNq1O0a5tCfa-HBie2Gsoafjx8uTgBAA-Zelcx6ha726UUFVniu",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1600
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/PkHq00TKHgyERtWiOmnVX24HdPoR-lHZ5A58hdlQBo4b_E5Vaj_mUyPn4t6qLaZDDw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1600
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/q3TLHOowqMtdX3GU6DgW4G80F09xiaHJcNQlHafIXtXX20dv9GEvI-VyPIq7FJhzutPZ",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://tak.gov/privacy_policy",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/VI5ii6OTeBuSn1kTDPlXSwj7yI7kqDqf_drsvZ90qjcm7LbbVkG8UfPTicKqMzipsY_lBnAYAH5t8GxN",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Parental guidance",
+        "learnMoreHtmlLink": "Parental guidance recommended<br/>Users interact, Shares location<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.atakmap.android.datasync.plugin",
+    "reviewsUrl": "rev?doc=com.atakmap.android.datasync.plugin&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.atakmap.android.datasync.plugin",
+    "title": "ATAK Plugin: Data Sync",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "support@tak.gov"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "5858 Wilson Road Bldg. 367B<br/>Ft. Belvoir, VA 22060-5824"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "21 Apr 2022"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-04-10 13:33:43.756422",
+    "backendDocid": "com.atakmap.android.datasync.plugin",
+    "backendId": 3,
+    "creator": "TAK Product Center",
+    "descriptionHtml": "ATTENTION: This is an ATAK Plugin. To use this extended capability, the ATAK baseline must be installed. Download the ATAK baseline here: https://play.google.com/store/apps/details?id=com.atakmap.app.civ<br><br>The Data Synchronization plug-in is used to synchronize multiple ATAK devices involved in the same exercise or event. This plug-in requires TAK Server 1.3.3+. TAK Server stores all data for a &quot;mission&quot; in a server side database. Clients may subscribe to a mission to receive dynamic updates when a mission changes, or to synchronize data missed while a given device was disconnected.<br><br>The plug-in currently supports the following types of data:<br>\u2022 Map Items (CoT data) - including markers, shapes, routes, etc.<br>\u2022 Files - arbitrary files may be synchronized including images, GRGs, configuration files, etc.<br>\u2022 Logs - Mission or Recce logs are timestamped events associated with the mission<br>\u2022 Chat - A persistent mission chat room is associated with each mission<br><br>Arbitrary CoT/UIDs may be associated with a mission so that any updates to that CoT will be automatically synchronized with all client subscribers. The plug-in allows the user to export an entire mission to a mission package (zip file) for archiving or sharing data with other systems. Provides a dead reckoning navigation capability in a denied environment.<br><br>Learn more here: https://tak.gov/plugins/datasync",
+    "descriptionShort": "Synchronize multiple ATAK devices connected to the same TAK Server.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown2": "2073233",
+          "unknown3": 31
+        },
+        "developerAddress": "5858 Wilson Road Bldg. 367B<br/>Ft. Belvoir, VA 22060-5824",
+        "developerEmail": "support@tak.gov",
+        "developerName": "TAK Product Center",
+        "developerWebsite": "https://tak.gov",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "2043484",
+            "versionCode": 1680996496
+          },
+          {
+            "fileType": 0,
+            "size": "29749",
+            "versionCode": 1680996496
+          }
+        ],
+        "installationSize": "2073233",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "com.atakmap.android.datasync.plugin",
+        "unstable": true,
+        "uploadDate": "9 Apr 2023",
+        "versionCode": 1680996496,
+        "versionString": "1.6.7 (67245d3f) - [4.8.1]"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.atakmap.android.datasync.plugin",
+    "docType": 1,
+    "docid": "com.atakmap.android.datasync.plugin",
+    "image": [
+      {
+        "color": "#0D0D0D",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/2AOpYrE0YVrOh4ahG_2dOTUT8idimw57tcnReNPQjvSH7hJF_oyMCMkedfEbU0ocFUA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#000000",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/hU8oIYZXpOhWDf774WMkXmPtjAUeIYDGaPaof1fkYM3Dq4ejBo7XRWMmMCJzC0aag8U",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 3,
+        "imageUrl": "https://youtu.be/fiBt0wEiKh8"
+      },
+      {
+        "imageType": 13,
+        "imageUrl": "https://i.ytimg.com/vi/fiBt0wEiKh8/hqdefault.jpg",
+        "supportsFifeUrlOptions": false
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1600
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Tz1wdCSpIQit7os5qs7EsPn8CoA6PBJSvNxql5pITSFyLWgbXdLFb_LamZwExhU-yw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2220,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/j11Zjk5U_SuATpajASEYCh2wCLqcZwtcMexhpFMjLYfehhZjq2jR7VdrzR_-VxTaXQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2220,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/mQOGE7A8fIUU77UxDS5wfQ8s6P7CRQiecFUhq90px-XUwJY-PZ8TTPVYg5RN1OQFdItW",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2220,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/1gMJjQVwE5XPZ1LTLLNq1O0a5tCfa-HBie2Gsoafjx8uTgBAA-Zelcx6ha726UUFVniu",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1600
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/PkHq00TKHgyERtWiOmnVX24HdPoR-lHZ5A58hdlQBo4b_E5Vaj_mUyPn4t6qLaZDDw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1600
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/q3TLHOowqMtdX3GU6DgW4G80F09xiaHJcNQlHafIXtXX20dv9GEvI-VyPIq7FJhzutPZ",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://tak.gov/privacy_policy",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/VI5ii6OTeBuSn1kTDPlXSwj7yI7kqDqf_drsvZ90qjcm7LbbVkG8UfPTicKqMzipsY_lBnAYAH5t8GxN",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Parental guidance",
+        "learnMoreHtmlLink": "Parental guidance recommended<br/>Users interact, Shares location<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.atakmap.android.datasync.plugin",
+    "reviewsUrl": "rev?doc=com.atakmap.android.datasync.plugin&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.atakmap.android.datasync.plugin",
+    "title": "ATAK Plugin: Data Sync",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "support@tak.gov"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "5858 Wilson Road Bldg. 367B<br/>Ft. Belvoir, VA 22060-5824"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "21 Apr 2022"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-05-12 10:46:54.018790",
+    "backendDocid": "com.atakmap.android.datasync.plugin",
+    "backendId": 3,
+    "creator": "TAK Product Center",
+    "descriptionHtml": "ATTENTION: This is an ATAK Plugin. To use this extended capability, the ATAK baseline must be installed. Download the ATAK baseline here: https://play.google.com/store/apps/details?id=com.atakmap.app.civ<br><br>The Data Synchronization plug-in is used to synchronize multiple ATAK devices involved in the same exercise or event. This plug-in requires TAK Server 1.3.3+. TAK Server stores all data for a &quot;mission&quot; in a server side database. Clients may subscribe to a mission to receive dynamic updates when a mission changes, or to synchronize data missed while a given device was disconnected.<br><br>The plug-in currently supports the following types of data:<br>\u2022 Map Items (CoT data) - including markers, shapes, routes, etc.<br>\u2022 Files - arbitrary files may be synchronized including images, GRGs, configuration files, etc.<br>\u2022 Logs - Mission or Recce logs are timestamped events associated with the mission<br>\u2022 Chat - A persistent mission chat room is associated with each mission<br><br>Arbitrary CoT/UIDs may be associated with a mission so that any updates to that CoT will be automatically synchronized with all client subscribers. The plug-in allows the user to export an entire mission to a mission package (zip file) for archiving or sharing data with other systems. Provides a dead reckoning navigation capability in a denied environment.<br><br>Learn more here: https://tak.gov/plugins/datasync",
+    "descriptionShort": "Synchronize multiple ATAK devices connected to the same TAK Server.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown2": "2073233",
+          "unknown3": 31
+        },
+        "developerAddress": "5858 Wilson Road Bldg. 367B<br/>Ft. Belvoir, VA 22060-5824",
+        "developerEmail": "support@tak.gov",
+        "developerName": "TAK Product Center",
+        "developerWebsite": "https://tak.gov",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "2043484",
+            "versionCode": 1683322093
+          },
+          {
+            "fileType": 0,
+            "size": "29749",
+            "versionCode": 1683322093
+          }
+        ],
+        "installationSize": "2073233",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "com.atakmap.android.datasync.plugin",
+        "unstable": true,
+        "uploadDate": "6 May 2023",
+        "versionCode": 1683322093,
+        "versionString": "1.6.14 (2fb3d12e) - [4.8.1]"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.atakmap.android.datasync.plugin",
+    "docType": 1,
+    "docid": "com.atakmap.android.datasync.plugin",
+    "image": [
+      {
+        "color": "#0D0D0D",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/2AOpYrE0YVrOh4ahG_2dOTUT8idimw57tcnReNPQjvSH7hJF_oyMCMkedfEbU0ocFUA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#000000",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/hU8oIYZXpOhWDf774WMkXmPtjAUeIYDGaPaof1fkYM3Dq4ejBo7XRWMmMCJzC0aag8U",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 3,
+        "imageUrl": "https://youtu.be/fiBt0wEiKh8"
+      },
+      {
+        "imageType": 13,
+        "imageUrl": "https://i.ytimg.com/vi/fiBt0wEiKh8/hqdefault.jpg",
+        "supportsFifeUrlOptions": false
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1600
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Tz1wdCSpIQit7os5qs7EsPn8CoA6PBJSvNxql5pITSFyLWgbXdLFb_LamZwExhU-yw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2220,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/j11Zjk5U_SuATpajASEYCh2wCLqcZwtcMexhpFMjLYfehhZjq2jR7VdrzR_-VxTaXQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2220,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/mQOGE7A8fIUU77UxDS5wfQ8s6P7CRQiecFUhq90px-XUwJY-PZ8TTPVYg5RN1OQFdItW",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2220,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/1gMJjQVwE5XPZ1LTLLNq1O0a5tCfa-HBie2Gsoafjx8uTgBAA-Zelcx6ha726UUFVniu",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1600
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/PkHq00TKHgyERtWiOmnVX24HdPoR-lHZ5A58hdlQBo4b_E5Vaj_mUyPn4t6qLaZDDw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1600
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/q3TLHOowqMtdX3GU6DgW4G80F09xiaHJcNQlHafIXtXX20dv9GEvI-VyPIq7FJhzutPZ",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "GBP",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://tak.gov/privacy_policy",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/VI5ii6OTeBuSn1kTDPlXSwj7yI7kqDqf_drsvZ90qjcm7LbbVkG8UfPTicKqMzipsY_lBnAYAH5t8GxN",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Parental guidance",
+        "learnMoreHtmlLink": "Parental guidance recommended<br/>Users interact, Shares location<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.atakmap.android.datasync.plugin",
+    "reviewsUrl": "rev?doc=com.atakmap.android.datasync.plugin&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.atakmap.android.datasync.plugin",
+    "title": "ATAK Plugin: Data Sync",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "support@tak.gov"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "5858 Wilson Road Bldg. 367B<br/>Ft. Belvoir, VA 22060-5824"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "21 Apr 2022"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "5",
+      "fiveStarRatings": "9",
+      "fourStarRatings": "0",
+      "oneStarRatings": "1",
+      "ratingsCount": "10",
+      "starRating": 4.6,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-09-29 14:13:08.588336",
+    "backendDocid": "com.atakmap.android.datasync.plugin",
+    "backendId": 3,
+    "creator": "TAK Product Center",
+    "descriptionHtml": "ATTENTION: This is an ATAK Plugin. To use this extended capability, the ATAK baseline must be installed. Download the ATAK baseline here: https://play.google.com/store/apps/details?id=com.atakmap.app.civ<br><br>The Data Synchronization plug-in is used to synchronize multiple ATAK devices involved in the same exercise or event. This plug-in requires TAK Server 1.3.3+. TAK Server stores all data for a &quot;mission&quot; in a server side database. Clients may subscribe to a mission to receive dynamic updates when a mission changes, or to synchronize data missed while a given device was disconnected.<br><br>The plug-in currently supports the following types of data:<br>\u2022 Map Items (CoT data) - including markers, shapes, routes, etc.<br>\u2022 Files - arbitrary files may be synchronized including images, GRGs, configuration files, etc.<br>\u2022 Logs - Mission or Recce logs are timestamped events associated with the mission<br>\u2022 Chat - A persistent mission chat room is associated with each mission<br><br>Arbitrary CoT/UIDs may be associated with a mission so that any updates to that CoT will be automatically synchronized with all client subscribers. The plug-in allows the user to export an entire mission to a mission package (zip file) for archiving or sharing data with other systems. Provides a dead reckoning navigation capability in a denied environment.<br><br>Learn more here: https://tak.gov/plugins/datasync",
+    "descriptionShort": "Synchronize multiple ATAK devices connected to the same TAK Server.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown2": "1909638",
+          "unknown3": 33
+        },
+        "developerAddress": "5858 Wilson Road Bldg. 367B<br/>Ft. Belvoir, VA 22060-5824",
+        "developerEmail": "support@tak.gov",
+        "developerName": "TAK Product Center",
+        "developerWebsite": "https://tak.gov",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "1879889",
+            "versionCode": 1695151026
+          },
+          {
+            "fileType": 0,
+            "size": "29749",
+            "versionCode": 1695151026
+          }
+        ],
+        "installationSize": "1909638",
+        "numDownloads": "5,000+ downloads",
+        "packageName": "com.atakmap.android.datasync.plugin",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "19 Sept 2023",
+        "versionCode": 1695151026,
+        "versionString": "1.7.12 (4597de98) - [4.10.0]"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.atakmap.android.datasync.plugin",
+    "docType": 1,
+    "docid": "com.atakmap.android.datasync.plugin",
+    "image": [
+      {
+        "color": "#0D0D0D",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/2AOpYrE0YVrOh4ahG_2dOTUT8idimw57tcnReNPQjvSH7hJF_oyMCMkedfEbU0ocFUA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#000000",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/hU8oIYZXpOhWDf774WMkXmPtjAUeIYDGaPaof1fkYM3Dq4ejBo7XRWMmMCJzC0aag8U",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 3,
+        "imageUrl": "https://youtu.be/fiBt0wEiKh8"
+      },
+      {
+        "imageType": 13,
+        "imageUrl": "https://i.ytimg.com/vi/fiBt0wEiKh8/hqdefault.jpg",
+        "supportsFifeUrlOptions": false
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1600
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Tz1wdCSpIQit7os5qs7EsPn8CoA6PBJSvNxql5pITSFyLWgbXdLFb_LamZwExhU-yw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2220,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/j11Zjk5U_SuATpajASEYCh2wCLqcZwtcMexhpFMjLYfehhZjq2jR7VdrzR_-VxTaXQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2220,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/mQOGE7A8fIUU77UxDS5wfQ8s6P7CRQiecFUhq90px-XUwJY-PZ8TTPVYg5RN1OQFdItW",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2220,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/1gMJjQVwE5XPZ1LTLLNq1O0a5tCfa-HBie2Gsoafjx8uTgBAA-Zelcx6ha726UUFVniu",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1600
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/PkHq00TKHgyERtWiOmnVX24HdPoR-lHZ5A58hdlQBo4b_E5Vaj_mUyPn4t6qLaZDDw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1600
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/q3TLHOowqMtdX3GU6DgW4G80F09xiaHJcNQlHafIXtXX20dv9GEvI-VyPIq7FJhzutPZ",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://tak.gov/privacy_policy",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/VI5ii6OTeBuSn1kTDPlXSwj7yI7kqDqf_drsvZ90qjcm7LbbVkG8UfPTicKqMzipsY_lBnAYAH5t8GxN",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Parental guidance",
+        "learnMoreHtmlLink": "Parental guidance recommended<br/>Users interact, Shares location<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.atakmap.android.datasync.plugin",
+    "reviewsUrl": "rev?doc=com.atakmap.android.datasync.plugin&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.atakmap.android.datasync.plugin",
+    "title": "ATAK Plugin: Data Sync",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "support@tak.gov"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "5858 Wilson Road Bldg. 367B<br/>Ft. Belvoir, VA 22060-5824"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "21 Apr 2022"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "1",
+      "fiveStarRatings": "13",
+      "fourStarRatings": "0",
+      "oneStarRatings": "2",
+      "ratingsCount": "16",
+      "starRating": 4.3333335,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2025-03-17 19:28:41.620931",
+    "backendDocid": "com.atakmap.android.datasync.plugin",
+    "backendId": 3,
+    "creator": "TAK Product Center",
+    "descriptionHtml": "ATTENTION: This is an ATAK Plugin. To use this extended capability, the ATAK baseline must be installed. Download the ATAK baseline here: https://play.google.com/store/apps/details?id=com.atakmap.app.civ<br><br>The Data Synchronization plug-in is used to synchronize multiple ATAK devices involved in the same exercise or event. This plug-in requires TAK Server 1.3.3+. TAK Server stores all data for a &quot;mission&quot; in a server side database. Clients may subscribe to a mission to receive dynamic updates when a mission changes, or to synchronize data missed while a given device was disconnected.<br><br>The plug-in currently supports the following types of data:<br>\u2022 Map Items (CoT data) - including markers, shapes, routes, etc.<br>\u2022 Files - arbitrary files may be synchronized including images, GRGs, configuration files, etc.<br>\u2022 Logs - Mission or Recce logs are timestamped events associated with the mission<br>\u2022 Chat - A persistent mission chat room is associated with each mission<br><br>Arbitrary CoT/UIDs may be associated with a mission so that any updates to that CoT will be automatically synchronized with all client subscribers. The plug-in allows the user to export an entire mission to a mission package (zip file) for archiving or sharing data with other systems. Provides a dead reckoning navigation capability in a denied environment.<br><br>Learn more here: https://tak.gov/plugins/datasync",
+    "descriptionShort": "Synchronize multiple ATAK devices connected to the same TAK Server.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown2": "2434217",
+          "unknown3": 34
+        },
+        "developerAddress": "5858 Wilson Road Bldg. 367B<br/>Ft. Belvoir, VA 22060-5824",
+        "developerEmail": "support@tak.gov",
+        "developerName": "TAK Product Center",
+        "developerWebsite": "https://tak.gov",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "2404468",
+            "versionCode": 1738162637
+          },
+          {
+            "fileType": 0,
+            "size": "29749",
+            "versionCode": 1738162637
+          }
+        ],
+        "installationSize": "2434217",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "com.atakmap.android.datasync.plugin",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "29 Jan 2025",
+        "versionCode": 1738162637,
+        "versionString": "3.5.19 (c70b9853) - [5.3.0]"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.atakmap.android.datasync.plugin&vc=1738162637",
+    "docType": 1,
+    "docid": "com.atakmap.android.datasync.plugin",
+    "image": [
+      {
+        "color": "#0D0D0D",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/2AOpYrE0YVrOh4ahG_2dOTUT8idimw57tcnReNPQjvSH7hJF_oyMCMkedfEbU0ocFUA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#000000",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/hU8oIYZXpOhWDf774WMkXmPtjAUeIYDGaPaof1fkYM3Dq4ejBo7XRWMmMCJzC0aag8U",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1600
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Tz1wdCSpIQit7os5qs7EsPn8CoA6PBJSvNxql5pITSFyLWgbXdLFb_LamZwExhU-yw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2220,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/j11Zjk5U_SuATpajASEYCh2wCLqcZwtcMexhpFMjLYfehhZjq2jR7VdrzR_-VxTaXQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2220,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/mQOGE7A8fIUU77UxDS5wfQ8s6P7CRQiecFUhq90px-XUwJY-PZ8TTPVYg5RN1OQFdItW",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2220,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/1gMJjQVwE5XPZ1LTLLNq1O0a5tCfa-HBie2Gsoafjx8uTgBAA-Zelcx6ha726UUFVniu",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1600
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/PkHq00TKHgyERtWiOmnVX24HdPoR-lHZ5A58hdlQBo4b_E5Vaj_mUyPn4t6qLaZDDw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 720,
+          "width": 1600
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/q3TLHOowqMtdX3GU6DgW4G80F09xiaHJcNQlHafIXtXX20dv9GEvI-VyPIq7FJhzutPZ",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://tak.gov/privacy_policy",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/mw_NfsvKM8m6RPv8Fz2GQawCOsqWv010saMnc7zbWalMxuaA9IY8h7E0VMieLxSxAFB98NFeYqbFrXXq",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Teen",
+        "learnMoreHtmlLink": "Users interact, Shares location<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.atakmap.android.datasync.plugin",
+    "reviewsUrl": "rev?doc=com.atakmap.android.datasync.plugin&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.atakmap.android.datasync.plugin",
+    "title": "ATAK Plugin: Data Sync\n3.5.19 (c70b9853) - [5.3.0]",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "TAK Product Center"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "support@tak.gov"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "5858 Wilson Road Bldg. 367B<br/>Ft. Belvoir, VA 22060-5824"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "21 Apr 2022"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  }
+]

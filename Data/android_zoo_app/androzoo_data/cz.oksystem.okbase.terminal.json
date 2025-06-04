@@ -1,0 +1,1038 @@
+[
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-10-02 18:37:05.469588",
+    "backendDocid": "cz.oksystem.okbase.terminal",
+    "backendId": 3,
+    "creator": "OKsystem, a.s.",
+    "descriptionHtml": "Aplikace je ur\u010dena sou\u010dasn\u00fdm u\u017eivatel\u016fm doch\u00e1zkov\u00e9ho syst\u00e9mu OKbase. Umo\u017e\u0148uje zaznamenat odchod i p\u0159\u00edchod z pracovi\u0161t\u011b, p\u0159est\u00e1vku, n\u00e1v\u0161t\u011bvu l\u00e9ka\u0159e \u010di dal\u0161\u00ed p\u0159eru\u0161en\u00ed. Umo\u017e\u0148uje zaznamenat doch\u00e1zku zam\u011bstnance p\u0159ilo\u017een\u00edm k NFC \u010dip\u016f, evidenc\u00ed v domovsk\u00e9 Wi-Fi s\u00edti, nebo manu\u00e1ln\u011b s automatick\u00fdm z\u00e1znamem GPS sou\u0159adnic. Syst\u00e9m je samou\u010d\u00edc\u00ed a nab\u00edz\u00ed u\u017eivatel\u016fm nej\u010dast\u011bji pou\u017e\u00edvan\u00e1 p\u0159eru\u0161en\u00ed. Aplikace m\u00e1 tak\u00e9 mo\u017enost zobrazen\u00ed vybran\u00fdch doch\u00e1zkov\u00fdch kumulativn\u00edch slo\u017eek (denn\u00ed data, data ke dni, za vyrovn\u00e1vac\u00ed obdob\u00ed).<br><br>Pro p\u0159ihl\u00e1\u0161en\u00ed na server s v\u00edce organizacemi zadejte u\u017eivatelsk\u00e9 jm\u00e9no ve form\u00e1tu [[dataSource/]orgId/]username. Nap\u0159. oksystem/novakj nebo dataSource1/oksystem/novakj",
+    "descriptionShort": "Mobile terminal for recording the attendance of current OKbase users.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "26183705",
+          "unknown3": 32
+        },
+        "developerAddress": "OKsystem a.s.<br/>Na Pankr\u00e1ci 125<br/>Prague 4<br/>140 21<br/>Czech Republic",
+        "developerEmail": "rauscher@oksystem.cz",
+        "developerName": "OKsystem, a.s.",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "26183705",
+            "versionCode": 17
+          }
+        ],
+        "installationSize": "26183705",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "cz.oksystem.okbase.terminal",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.CAMERA",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.NFC",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.WAKE_LOCK"
+        ],
+        "recentChangesHtml": "- sjednocen\u00ed designu aplikace s produkty OKbase<br>- p\u0159edvypl\u0148ov\u00e1n\u00ed p\u0159ihla\u0161ovac\u00edch \u00fadaj\u016f pomoc\u00ed QR k\u00f3du<br>- mo\u017enost zobrazen\u00ed vybran\u00fdch doch\u00e1zkov\u00fdch kumulativn\u00edch slo\u017eek (denn\u00ed data, data ke dni, za vyrovn\u00e1vac\u00ed obdob\u00ed)",
+        "unstable": true,
+        "uploadDate": "30 Sept 2022",
+        "versionCode": 17,
+        "versionString": "1.4.1.17"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=cz.oksystem.okbase.terminal",
+    "docType": 1,
+    "docid": "cz.oksystem.okbase.terminal",
+    "image": [
+      {
+        "color": "#2276B3",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/g6RuXePMsPCJdENRt43JK2pqvqVpvksu_J-DEluCkh1isdtL894Z5mShYkQUsM81uts",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#2277B4",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/NF5gzrHq5qQpi84vO3xV60VCJZ0HCiQ6a9aJudjuzTHTjpWpgsLlyOWMJ9VfhZQSDw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/wK278PGyaY0YmgzR9-smXGO-hTsLf6gF2DUUiSPSvQ3dcf3XTSkJ8rcwB-25dzkwog",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/LGdfzZq1yRxIxtCYnhHs0Sf7E4u2nYu6GcN_0e-evZUeyGaaRX1k_bXZYHf74LLDB3U",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/J2-xRhbrTtnd-tjYRmyh_UBFNR0FenJE6dfD3uEi9jxtmBv0bx-NBW-Yj5R3_L97JnEu",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/eHqq0EayPTAF-KrBw_tSwQZaQG5lz6WvJbxX7fqm26r5F6NJ7ssyjrQznbI-ZeeyYg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/90ftH1kJ_XR0ijHyWoOiszvGRffqi0oIPU-7SrrXM72w9CXMw12V1kSr-TZ279udFQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/c5PhPs87_UKnb6hM8pgfozJB_ec_CZKTHL0QfFdzI7DZbNIjKlxw-b5kTMAa3C4iFF8",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://www.oksystem.com/cz/ochrana-osobnich-udaju",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=cz.oksystem.okbase.terminal",
+    "reviewsUrl": "rev?doc=cz.oksystem.okbase.terminal&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=cz.oksystem.okbase.terminal",
+    "title": "Termin\u00e1l OKbase",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "rauscher@oksystem.cz"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "OKsystem a.s.<br/>Na Pankr\u00e1ci 125<br/>Prague 4<br/>140 21<br/>Czech Republic"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "22 Sept 2020"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-11-10 18:15:24.170861",
+    "backendDocid": "cz.oksystem.okbase.terminal",
+    "backendId": 3,
+    "creator": "OKsystem, a.s.",
+    "descriptionHtml": "Aplikace je ur\u010dena sou\u010dasn\u00fdm u\u017eivatel\u016fm doch\u00e1zkov\u00e9ho syst\u00e9mu OKbase. Umo\u017e\u0148uje zaznamenat odchod i p\u0159\u00edchod z pracovi\u0161t\u011b, p\u0159est\u00e1vku, n\u00e1v\u0161t\u011bvu l\u00e9ka\u0159e \u010di dal\u0161\u00ed p\u0159eru\u0161en\u00ed. Umo\u017e\u0148uje zaznamenat doch\u00e1zku zam\u011bstnance p\u0159ilo\u017een\u00edm k NFC \u010dip\u016f, evidenc\u00ed v domovsk\u00e9 Wi-Fi s\u00edti, nebo manu\u00e1ln\u011b s automatick\u00fdm z\u00e1znamem GPS sou\u0159adnic. Syst\u00e9m je samou\u010d\u00edc\u00ed a nab\u00edz\u00ed u\u017eivatel\u016fm nej\u010dast\u011bji pou\u017e\u00edvan\u00e1 p\u0159eru\u0161en\u00ed. Aplikace m\u00e1 tak\u00e9 mo\u017enost zobrazen\u00ed vybran\u00fdch doch\u00e1zkov\u00fdch kumulativn\u00edch slo\u017eek (denn\u00ed data, data ke dni, za vyrovn\u00e1vac\u00ed obdob\u00ed).<br><br>Pro p\u0159ihl\u00e1\u0161en\u00ed na server s v\u00edce organizacemi zadejte u\u017eivatelsk\u00e9 jm\u00e9no ve form\u00e1tu [[dataSource/]orgId/]username. Nap\u0159. oksystem/novakj nebo dataSource1/oksystem/novakj",
+    "descriptionShort": "Mobile terminal for recording the attendance of current OKbase users.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "26267878",
+          "unknown3": 32
+        },
+        "developerAddress": "OKsystem a.s.<br/>Na Pankr\u00e1ci 125<br/>Prague 4<br/>140 21<br/>Czech Republic",
+        "developerEmail": "rauscher@oksystem.cz",
+        "developerName": "OKsystem, a.s.",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "26267878",
+            "versionCode": 19
+          }
+        ],
+        "installationSize": "26267878",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "cz.oksystem.okbase.terminal",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.CAMERA",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.NFC",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.WAKE_LOCK"
+        ],
+        "recentChangesHtml": "- sjednocen\u00ed designu aplikace s produkty OKbase<br>- p\u0159edvypl\u0148ov\u00e1n\u00ed p\u0159ihla\u0161ovac\u00edch \u00fadaj\u016f pomoc\u00ed QR k\u00f3du<br>- mo\u017enost zobrazen\u00ed vybran\u00fdch doch\u00e1zkov\u00fdch kumulativn\u00edch slo\u017eek (denn\u00ed data, data ke dni, za vyrovn\u00e1vac\u00ed obdob\u00ed)",
+        "unstable": true,
+        "uploadDate": "1 Nov 2022",
+        "versionCode": 19,
+        "versionString": "1.5.1"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=cz.oksystem.okbase.terminal",
+    "docType": 1,
+    "docid": "cz.oksystem.okbase.terminal",
+    "image": [
+      {
+        "color": "#2276B3",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/RQZyBOnYcaTzgBfn5-4Qk8bP35cHNJCY4c8-s-GS14yq8krmmhL9jBy5lNgxoPjvVNw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#2277B4",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/NF5gzrHq5qQpi84vO3xV60VCJZ0HCiQ6a9aJudjuzTHTjpWpgsLlyOWMJ9VfhZQSDw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/wK278PGyaY0YmgzR9-smXGO-hTsLf6gF2DUUiSPSvQ3dcf3XTSkJ8rcwB-25dzkwog",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/LGdfzZq1yRxIxtCYnhHs0Sf7E4u2nYu6GcN_0e-evZUeyGaaRX1k_bXZYHf74LLDB3U",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/J2-xRhbrTtnd-tjYRmyh_UBFNR0FenJE6dfD3uEi9jxtmBv0bx-NBW-Yj5R3_L97JnEu",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/eHqq0EayPTAF-KrBw_tSwQZaQG5lz6WvJbxX7fqm26r5F6NJ7ssyjrQznbI-ZeeyYg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/90ftH1kJ_XR0ijHyWoOiszvGRffqi0oIPU-7SrrXM72w9CXMw12V1kSr-TZ279udFQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/c5PhPs87_UKnb6hM8pgfozJB_ec_CZKTHL0QfFdzI7DZbNIjKlxw-b5kTMAa3C4iFF8",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "GBP",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://www.oksystem.com/cz/ochrana-osobnich-udaju",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=cz.oksystem.okbase.terminal",
+    "reviewsUrl": "rev?doc=cz.oksystem.okbase.terminal&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=cz.oksystem.okbase.terminal",
+    "title": "Termin\u00e1l OKbase",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "rauscher@oksystem.cz"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "OKsystem a.s.<br/>Na Pankr\u00e1ci 125<br/>Prague 4<br/>140 21<br/>Czech Republic"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "22 Sept 2020"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "2",
+      "fiveStarRatings": "2",
+      "fourStarRatings": "0",
+      "oneStarRatings": "3",
+      "ratingsCount": "6",
+      "starRating": 2.5,
+      "threeStarRatings": "0",
+      "twoStarRatings": "1",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-02-06 09:49:02.534643",
+    "backendDocid": "cz.oksystem.okbase.terminal",
+    "backendId": 3,
+    "creator": "OKsystem, a.s.",
+    "descriptionHtml": "Aplikace je ur\u010dena sou\u010dasn\u00fdm u\u017eivatel\u016fm doch\u00e1zkov\u00e9ho syst\u00e9mu OKbase. Umo\u017e\u0148uje zaznamenat odchod i p\u0159\u00edchod z pracovi\u0161t\u011b, p\u0159est\u00e1vku, n\u00e1v\u0161t\u011bvu l\u00e9ka\u0159e \u010di dal\u0161\u00ed p\u0159eru\u0161en\u00ed. Umo\u017e\u0148uje zaznamenat doch\u00e1zku zam\u011bstnance p\u0159ilo\u017een\u00edm k NFC \u010dip\u016f, evidenc\u00ed v domovsk\u00e9 Wi-Fi s\u00edti, nebo manu\u00e1ln\u011b s automatick\u00fdm z\u00e1znamem GPS sou\u0159adnic. Syst\u00e9m je samou\u010d\u00edc\u00ed a nab\u00edz\u00ed u\u017eivatel\u016fm nej\u010dast\u011bji pou\u017e\u00edvan\u00e1 p\u0159eru\u0161en\u00ed. Aplikace m\u00e1 tak\u00e9 mo\u017enost zobrazen\u00ed vybran\u00fdch doch\u00e1zkov\u00fdch kumulativn\u00edch slo\u017eek (denn\u00ed data, data ke dni, za vyrovn\u00e1vac\u00ed obdob\u00ed).<br><br>Pro p\u0159ihl\u00e1\u0161en\u00ed na server s v\u00edce organizacemi zadejte u\u017eivatelsk\u00e9 jm\u00e9no ve form\u00e1tu [[dataSource/]orgId/]username. Nap\u0159. oksystem/novakj nebo dataSource1/oksystem/novakj",
+    "descriptionShort": "Mobile terminal for recording the attendance of current OKbase users.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "26267875",
+          "unknown3": 32
+        },
+        "developerAddress": "OKsystem a.s.<br/>Na Pankr\u00e1ci 125<br/>Prague 4<br/>140 21<br/>Czech Republic",
+        "developerEmail": "rauscher@oksystem.cz",
+        "developerName": "OKsystem, a.s.",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "26267875",
+            "versionCode": 20
+          }
+        ],
+        "installationSize": "26267875",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "cz.oksystem.okbase.terminal",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.CAMERA",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.NFC",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.WAKE_LOCK"
+        ],
+        "recentChangesHtml": "- sjednocen\u00ed designu aplikace s produkty OKbase<br>- p\u0159edvypl\u0148ov\u00e1n\u00ed p\u0159ihla\u0161ovac\u00edch \u00fadaj\u016f pomoc\u00ed QR k\u00f3du<br>- mo\u017enost zobrazen\u00ed vybran\u00fdch doch\u00e1zkov\u00fdch kumulativn\u00edch slo\u017eek (denn\u00ed data, data ke dni, za vyrovn\u00e1vac\u00ed obdob\u00ed)",
+        "unstable": true,
+        "uploadDate": "3 Feb 2023",
+        "versionCode": 20,
+        "versionString": "1.5.2"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=cz.oksystem.okbase.terminal",
+    "docType": 1,
+    "docid": "cz.oksystem.okbase.terminal",
+    "image": [
+      {
+        "color": "#2276B3",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/RQZyBOnYcaTzgBfn5-4Qk8bP35cHNJCY4c8-s-GS14yq8krmmhL9jBy5lNgxoPjvVNw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#2277B4",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/NF5gzrHq5qQpi84vO3xV60VCJZ0HCiQ6a9aJudjuzTHTjpWpgsLlyOWMJ9VfhZQSDw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/wK278PGyaY0YmgzR9-smXGO-hTsLf6gF2DUUiSPSvQ3dcf3XTSkJ8rcwB-25dzkwog",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/LGdfzZq1yRxIxtCYnhHs0Sf7E4u2nYu6GcN_0e-evZUeyGaaRX1k_bXZYHf74LLDB3U",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/J2-xRhbrTtnd-tjYRmyh_UBFNR0FenJE6dfD3uEi9jxtmBv0bx-NBW-Yj5R3_L97JnEu",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/eHqq0EayPTAF-KrBw_tSwQZaQG5lz6WvJbxX7fqm26r5F6NJ7ssyjrQznbI-ZeeyYg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/90ftH1kJ_XR0ijHyWoOiszvGRffqi0oIPU-7SrrXM72w9CXMw12V1kSr-TZ279udFQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/c5PhPs87_UKnb6hM8pgfozJB_ec_CZKTHL0QfFdzI7DZbNIjKlxw-b5kTMAa3C4iFF8",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://www.oksystem.com/cz/ochrana-osobnich-udaju",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=cz.oksystem.okbase.terminal",
+    "reviewsUrl": "rev?doc=cz.oksystem.okbase.terminal&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=cz.oksystem.okbase.terminal",
+    "title": "Termin\u00e1l OKbase",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "rauscher@oksystem.cz"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "OKsystem a.s.<br/>Na Pankr\u00e1ci 125<br/>Prague 4<br/>140 21<br/>Czech Republic"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "22 Sept 2020"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "3",
+      "fiveStarRatings": "2",
+      "fourStarRatings": "0",
+      "oneStarRatings": "3",
+      "ratingsCount": "6",
+      "starRating": 2.5,
+      "threeStarRatings": "0",
+      "twoStarRatings": "1",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-10-04 16:32:55.526571",
+    "backendDocid": "cz.oksystem.okbase.terminal",
+    "backendId": 3,
+    "creator": "OKsystem, a.s.",
+    "descriptionHtml": "Aplikace je ur\u010dena sou\u010dasn\u00fdm u\u017eivatel\u016fm doch\u00e1zkov\u00e9ho syst\u00e9mu OKbase. Umo\u017e\u0148uje zaznamenat odchod i p\u0159\u00edchod z pracovi\u0161t\u011b, p\u0159est\u00e1vku, n\u00e1v\u0161t\u011bvu l\u00e9ka\u0159e \u010di dal\u0161\u00ed p\u0159eru\u0161en\u00ed. Umo\u017e\u0148uje zaznamenat doch\u00e1zku zam\u011bstnance p\u0159ilo\u017een\u00edm k NFC \u010dip\u016f, evidenc\u00ed v domovsk\u00e9 Wi-Fi s\u00edti, nebo manu\u00e1ln\u011b s automatick\u00fdm z\u00e1znamem GPS sou\u0159adnic. Syst\u00e9m je samou\u010d\u00edc\u00ed a nab\u00edz\u00ed u\u017eivatel\u016fm nej\u010dast\u011bji pou\u017e\u00edvan\u00e1 p\u0159eru\u0161en\u00ed. Aplikace m\u00e1 tak\u00e9 mo\u017enost zobrazen\u00ed vybran\u00fdch doch\u00e1zkov\u00fdch kumulativn\u00edch slo\u017eek (denn\u00ed data, data ke dni, za vyrovn\u00e1vac\u00ed obdob\u00ed).<br><br>Pro p\u0159ihl\u00e1\u0161en\u00ed na server s v\u00edce organizacemi zadejte u\u017eivatelsk\u00e9 jm\u00e9no ve form\u00e1tu [[dataSource/]orgId/]username. Nap\u0159. oksystem/novakj nebo dataSource1/oksystem/novakj",
+    "descriptionShort": "Mobile terminal for recording the attendance of current OKbase users.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "version": 12451000
+            }
+          ],
+          "unknown2": "27676071",
+          "unknown3": 33
+        },
+        "developerAddress": "OKsystem a.s.<br/>Na Pankr\u00e1ci 125<br/>Prague 4<br/>140 21<br/>Czech Republic",
+        "developerEmail": "rauscher@oksystem.cz",
+        "developerName": "OKsystem, a.s.",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "27676071",
+            "versionCode": 27
+          }
+        ],
+        "installationSize": "27676071",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "cz.oksystem.okbase.terminal",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.BLUETOOTH_SCAN",
+          "android.permission.CAMERA",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.NFC",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.WAKE_LOCK",
+          "cz.oksystem.okbase.terminal.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        ],
+        "recentChangesHtml": "- podpora Bluetooth maj\u00e1k\u016f<br>- zlep\u0161ena citlivost \u010dten\u00ed QR k\u00f3du",
+        "unstable": true,
+        "uploadDate": "6 Sept 2023",
+        "versionCode": 27,
+        "versionString": "1.7.5"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=cz.oksystem.okbase.terminal",
+    "docType": 1,
+    "docid": "cz.oksystem.okbase.terminal",
+    "image": [
+      {
+        "color": "#2276B3",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/RQZyBOnYcaTzgBfn5-4Qk8bP35cHNJCY4c8-s-GS14yq8krmmhL9jBy5lNgxoPjvVNw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#2277B4",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/NF5gzrHq5qQpi84vO3xV60VCJZ0HCiQ6a9aJudjuzTHTjpWpgsLlyOWMJ9VfhZQSDw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/wK278PGyaY0YmgzR9-smXGO-hTsLf6gF2DUUiSPSvQ3dcf3XTSkJ8rcwB-25dzkwog",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/LGdfzZq1yRxIxtCYnhHs0Sf7E4u2nYu6GcN_0e-evZUeyGaaRX1k_bXZYHf74LLDB3U",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/J2-xRhbrTtnd-tjYRmyh_UBFNR0FenJE6dfD3uEi9jxtmBv0bx-NBW-Yj5R3_L97JnEu",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/eHqq0EayPTAF-KrBw_tSwQZaQG5lz6WvJbxX7fqm26r5F6NJ7ssyjrQznbI-ZeeyYg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/90ftH1kJ_XR0ijHyWoOiszvGRffqi0oIPU-7SrrXM72w9CXMw12V1kSr-TZ279udFQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/c5PhPs87_UKnb6hM8pgfozJB_ec_CZKTHL0QfFdzI7DZbNIjKlxw-b5kTMAa3C4iFF8",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://www.oksystem.com/cz/ochrana-osobnich-udaju",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=cz.oksystem.okbase.terminal",
+    "reviewsUrl": "rev?doc=cz.oksystem.okbase.terminal&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=cz.oksystem.okbase.terminal",
+    "title": "Termin\u00e1l OKbase",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "rauscher@oksystem.cz"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "OKsystem a.s.<br/>Na Pankr\u00e1ci 125<br/>Prague 4<br/>140 21<br/>Czech Republic"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "22 Sept 2020"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "3",
+      "fiveStarRatings": "5",
+      "fourStarRatings": "0",
+      "oneStarRatings": "4",
+      "ratingsCount": "10",
+      "starRating": 3.1,
+      "threeStarRatings": "0",
+      "twoStarRatings": "1",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2024-09-10 11:36:50.902958",
+    "backendDocid": "cz.oksystem.okbase.terminal",
+    "backendId": 3,
+    "creator": "OKsystem, a.s.",
+    "descriptionHtml": "Aplikace je ur\u010dena sou\u010dasn\u00fdm u\u017eivatel\u016fm doch\u00e1zkov\u00e9ho syst\u00e9mu OKbase. Umo\u017e\u0148uje zaznamenat odchod i p\u0159\u00edchod z pracovi\u0161t\u011b, p\u0159est\u00e1vku, n\u00e1v\u0161t\u011bvu l\u00e9ka\u0159e \u010di dal\u0161\u00ed p\u0159eru\u0161en\u00ed. Umo\u017e\u0148uje zaznamenat doch\u00e1zku zam\u011bstnance p\u0159ilo\u017een\u00edm k NFC \u010dip\u016f, evidenc\u00ed v domovsk\u00e9 Wi-Fi s\u00edti, nebo manu\u00e1ln\u011b s automatick\u00fdm z\u00e1znamem GPS sou\u0159adnic. Syst\u00e9m je samou\u010d\u00edc\u00ed a nab\u00edz\u00ed u\u017eivatel\u016fm nej\u010dast\u011bji pou\u017e\u00edvan\u00e1 p\u0159eru\u0161en\u00ed. Aplikace m\u00e1 tak\u00e9 mo\u017enost zobrazen\u00ed vybran\u00fdch doch\u00e1zkov\u00fdch kumulativn\u00edch slo\u017eek (denn\u00ed data, data ke dni, za vyrovn\u00e1vac\u00ed obdob\u00ed).<br><br>Pro p\u0159ihl\u00e1\u0161en\u00ed na server s v\u00edce organizacemi zadejte u\u017eivatelsk\u00e9 jm\u00e9no ve form\u00e1tu [[dataSource/]orgId/]username. Nap\u0159. oksystem/novakj nebo dataSource1/oksystem/novakj",
+    "descriptionShort": "Mobile terminal for recording the attendance of current OKbase users.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "version": 12451000
+            }
+          ],
+          "unknown2": "29438592",
+          "unknown3": 33
+        },
+        "developerAddress": "OKsystem a.s.<br/>Na Pankr\u00e1ci 125<br/>Prague 4<br/>140 21<br/>Czech Republic",
+        "developerEmail": "rauscher@oksystem.cz",
+        "developerName": "OKsystem, a.s.",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "29438592",
+            "versionCode": 33
+          }
+        ],
+        "installationSize": "29438592",
+        "numDownloads": "5,000+ downloads",
+        "packageName": "cz.oksystem.okbase.terminal",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.BLUETOOTH_SCAN",
+          "android.permission.CAMERA",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.NFC",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.WAKE_LOCK",
+          "cz.oksystem.okbase.terminal.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        ],
+        "recentChangesHtml": "Drobn\u00e9 vylep\u0161en\u00ed a opravy",
+        "unstable": true,
+        "uploadDate": "16 May 2024",
+        "versionCode": 33,
+        "versionString": "1.10"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=cz.oksystem.okbase.terminal&vc=33",
+    "docType": 1,
+    "docid": "cz.oksystem.okbase.terminal",
+    "image": [
+      {
+        "color": "#2276B3",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/RQZyBOnYcaTzgBfn5-4Qk8bP35cHNJCY4c8-s-GS14yq8krmmhL9jBy5lNgxoPjvVNw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#2277B4",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/NF5gzrHq5qQpi84vO3xV60VCJZ0HCiQ6a9aJudjuzTHTjpWpgsLlyOWMJ9VfhZQSDw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/wK278PGyaY0YmgzR9-smXGO-hTsLf6gF2DUUiSPSvQ3dcf3XTSkJ8rcwB-25dzkwog",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/LGdfzZq1yRxIxtCYnhHs0Sf7E4u2nYu6GcN_0e-evZUeyGaaRX1k_bXZYHf74LLDB3U",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/J2-xRhbrTtnd-tjYRmyh_UBFNR0FenJE6dfD3uEi9jxtmBv0bx-NBW-Yj5R3_L97JnEu",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/eHqq0EayPTAF-KrBw_tSwQZaQG5lz6WvJbxX7fqm26r5F6NJ7ssyjrQznbI-ZeeyYg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/90ftH1kJ_XR0ijHyWoOiszvGRffqi0oIPU-7SrrXM72w9CXMw12V1kSr-TZ279udFQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/c5PhPs87_UKnb6hM8pgfozJB_ec_CZKTHL0QfFdzI7DZbNIjKlxw-b5kTMAa3C4iFF8",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://www.oksystem.com/cz/ochrana-osobnich-udaju",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=cz.oksystem.okbase.terminal",
+    "reviewsUrl": "rev?doc=cz.oksystem.okbase.terminal&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=cz.oksystem.okbase.terminal",
+    "title": "Termin\u00e1l OKbase\n1.10",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "rauscher@oksystem.cz"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "OKsystem a.s.<br/>Na Pankr\u00e1ci 125<br/>Prague 4<br/>140 21<br/>Czech Republic"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "22 Sept 2020"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  }
+]

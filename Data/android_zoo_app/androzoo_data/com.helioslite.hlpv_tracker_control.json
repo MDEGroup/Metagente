@@ -1,0 +1,1413 @@
+[
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-04-28 15:03:49.407125",
+    "backendDocid": "com.helioslite.hlpv_tracker_control",
+    "backendId": 3,
+    "creator": "HeliosLite",
+    "descriptionHtml": "This Android app communicates with HeliosLite tracker controller device over Bluetooth to manage your trackers onsite.<br><br>Scan the barcode of your tracker controller device, and you&#39;re ready to configure and control your trackers in a simple user interface.",
+    "descriptionShort": "Allows to control HeliosLite trackers with your smartphone",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "2393892",
+          "unknown3": 30
+        },
+        "developerAddress": "Savoie Technolac, BP 327<br/>27, all\u00e9e lac d'Aiguebelette<br/>73370 Le Bourget du Lac, France",
+        "developerEmail": "info@helioslite.com",
+        "developerName": "HeliosLite",
+        "developerWebsite": "https://helioslite.com/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "2182214",
+            "versionCode": 4
+          },
+          {
+            "fileType": 0,
+            "size": "128940",
+            "versionCode": 4
+          },
+          {
+            "fileType": 0,
+            "size": "29081",
+            "versionCode": 4
+          },
+          {
+            "fileType": 0,
+            "size": "53657",
+            "versionCode": 4
+          }
+        ],
+        "installationSize": "2393892",
+        "numDownloads": "10+ downloads",
+        "packageName": "com.helioslite.hlpv_tracker_control",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.CAMERA",
+          "android.permission.CHANGE_NETWORK_STATE",
+          "android.permission.CHANGE_WIFI_STATE",
+          "android.permission.INTERNET",
+          "android.permission.VIBRATE"
+        ],
+        "recentChangesHtml": "Add support for the following new advanced parameters:<br>- accelEnabled: to be able to enabled/disabled STORM mode when tracker is shaked<br>- angleNight_deg: position angle of the tracker at night<br>- windMax_ms: max allowed wind speed before trackers are driven to storm position in case of high wind",
+        "unstable": false,
+        "uploadDate": "7 Dec 2021",
+        "versionCode": 4,
+        "versionString": "1.2.0 - d729cd8"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.helioslite.hlpv_tracker_control",
+    "docType": 1,
+    "docid": "com.helioslite.hlpv_tracker_control",
+    "image": [
+      {
+        "color": "#C2C2BE",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/l7qre698bhzlzhJlhXpRQMRZhOSwDJIFaPiYq7Ise4JPpZFW8o2looBhICI2RCfiktE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#3D454A",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/RzymadjaWB2RvXQqUQajPSk3aMRYkHt06QhZB9Tv3mHi3iV3JUN3KWbJ4nftM4jFrqE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/W5HzpuwIXiX_ANaPff9nfIR-4BA7S3wUKHvav_mXWTGLIqmoAHOdrEz1JW0ifk9r0vU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/oyI1QUX2rhhtLZwfevT2zYWoQJmgqRLMa0lei7WCLMI2yBhTDydxQCcaU7noktv0pg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/327bWCRbPKRegznvyuC8tSrBAX8F9KQ5jiAaE8XcyqokDbe6u6abd7uW2J5WaQ7ukw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/JGQETjcB0X99ukZhKCEgeebX7cnc-KThvlQm_yYwU_bRB5CKA8Z5bCUwmk6A5Tz9-FM",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ntK-Plh0AMVjrEOIRAdK1V9JS2VaicJOxY-35bD8eyn0GY1b3SF8TJcHSdatSRtWIsM",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/JguERJOV4EeO3u559YMny_7P_orwqIB8JD1qm6zTTsS_e4wPP7Q-PDjhk4s3F2c2sw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/LNaaTHscqeG45fTrpxWy6aXcRt2Ep1oZ4woY5cYZp7-rm9uwF6OGOJpObkA4uE1wlw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/6y43piSmdw59zykvedmNdgG-BcD-yJgZaOJBUxuw8mpa2Aprln16LImTzd07Ozmwnwbh",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://helioslite.com/company/legal-notice",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.helioslite.hlpv_tracker_control",
+    "reviewsUrl": "rev?doc=com.helioslite.hlpv_tracker_control&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.helioslite.hlpv_tracker_control",
+    "title": "HeliosLite Tracker Control",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "info@helioslite.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Savoie Technolac, BP 327<br/>27, all\u00e9e lac d'Aiguebelette<br/>73370 Le Bourget du Lac, France"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "22 Oct 2021"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-03-23 03:55:31.021868",
+    "backendDocid": "com.helioslite.hlpv_tracker_control",
+    "backendId": 3,
+    "creator": "HeliosLite",
+    "descriptionHtml": "This Android app communicates with HeliosLite tracker controller device over Bluetooth to manage your trackers onsite.<br><br>Scan the barcode of your tracker controller device, and you&#39;re ready to configure and control your trackers in a simple user interface.",
+    "descriptionShort": "Allows to control HeliosLite trackers with your smartphone",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "2468438",
+          "unknown3": 30
+        },
+        "developerAddress": "Savoie Technolac, BP 327<br/>27, all\u00e9e lac d'Aiguebelette<br/>73370 Le Bourget du Lac, France",
+        "developerEmail": "info@helioslite.com",
+        "developerName": "HeliosLite",
+        "developerWebsite": "https://helioslite.com/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "2182214",
+            "versionCode": 5
+          },
+          {
+            "fileType": 0,
+            "size": "128940",
+            "versionCode": 5
+          },
+          {
+            "fileType": 0,
+            "size": "29081",
+            "versionCode": 5
+          },
+          {
+            "fileType": 0,
+            "size": "37273",
+            "versionCode": 5
+          },
+          {
+            "fileType": 0,
+            "size": "53657",
+            "versionCode": 5
+          },
+          {
+            "fileType": 0,
+            "size": "37273",
+            "versionCode": 5
+          }
+        ],
+        "installationSize": "2468438",
+        "numDownloads": "10+ downloads",
+        "packageName": "com.helioslite.hlpv_tracker_control",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.CAMERA",
+          "android.permission.CHANGE_NETWORK_STATE",
+          "android.permission.CHANGE_WIFI_STATE",
+          "android.permission.INTERNET",
+          "android.permission.VIBRATE"
+        ],
+        "recentChangesHtml": "- Add support for displaying bus status in spm info panel<br>- Add support for showing encoders in tracker info dialog",
+        "unstable": true,
+        "uploadDate": "10 Nov 2022",
+        "versionCode": 5,
+        "versionString": "1.3.0 - 1f5317c"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.helioslite.hlpv_tracker_control",
+    "docType": 1,
+    "docid": "com.helioslite.hlpv_tracker_control",
+    "image": [
+      {
+        "color": "#C2C2BE",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/l7qre698bhzlzhJlhXpRQMRZhOSwDJIFaPiYq7Ise4JPpZFW8o2looBhICI2RCfiktE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#3D454A",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/RzymadjaWB2RvXQqUQajPSk3aMRYkHt06QhZB9Tv3mHi3iV3JUN3KWbJ4nftM4jFrqE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/W5HzpuwIXiX_ANaPff9nfIR-4BA7S3wUKHvav_mXWTGLIqmoAHOdrEz1JW0ifk9r0vU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/oyI1QUX2rhhtLZwfevT2zYWoQJmgqRLMa0lei7WCLMI2yBhTDydxQCcaU7noktv0pg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/327bWCRbPKRegznvyuC8tSrBAX8F9KQ5jiAaE8XcyqokDbe6u6abd7uW2J5WaQ7ukw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/JGQETjcB0X99ukZhKCEgeebX7cnc-KThvlQm_yYwU_bRB5CKA8Z5bCUwmk6A5Tz9-FM",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ntK-Plh0AMVjrEOIRAdK1V9JS2VaicJOxY-35bD8eyn0GY1b3SF8TJcHSdatSRtWIsM",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/JguERJOV4EeO3u559YMny_7P_orwqIB8JD1qm6zTTsS_e4wPP7Q-PDjhk4s3F2c2sw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/LNaaTHscqeG45fTrpxWy6aXcRt2Ep1oZ4woY5cYZp7-rm9uwF6OGOJpObkA4uE1wlw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/6y43piSmdw59zykvedmNdgG-BcD-yJgZaOJBUxuw8mpa2Aprln16LImTzd07Ozmwnwbh",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://helioslite.com/company/legal-notice",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.helioslite.hlpv_tracker_control",
+    "reviewsUrl": "rev?doc=com.helioslite.hlpv_tracker_control&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.helioslite.hlpv_tracker_control",
+    "title": "HeliosLite Tracker Control",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "info@helioslite.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Savoie Technolac, BP 327<br/>27, all\u00e9e lac d'Aiguebelette<br/>73370 Le Bourget du Lac, France"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "22 Oct 2021"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-08-25 16:35:26.109888",
+    "backendDocid": "com.helioslite.hlpv_tracker_control",
+    "backendId": 3,
+    "creator": "HeliosLite",
+    "descriptionHtml": "This Android app communicates with HeliosLite tracker controller device over Bluetooth to manage your trackers onsite.<br><br>Scan the barcode of your tracker controller device, and you&#39;re ready to configure and control your trackers in a simple user interface.",
+    "descriptionShort": "Allows to control HeliosLite trackers with your smartphone",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "version": 12451000
+            }
+          ],
+          "unknown2": "2773049",
+          "unknown3": 33
+        },
+        "developerAddress": "Savoie Technolac, BP 327<br/>27, all\u00e9e lac d'Aiguebelette<br/>73370 Le Bourget du Lac, France",
+        "developerEmail": "info@helioslite.com",
+        "developerName": "HeliosLite",
+        "developerWebsite": "https://helioslite.com/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "2549083",
+            "versionCode": 7
+          },
+          {
+            "fileType": 0,
+            "size": "133036",
+            "versionCode": 7
+          },
+          {
+            "fileType": 0,
+            "size": "33177",
+            "versionCode": 7
+          },
+          {
+            "fileType": 0,
+            "size": "57753",
+            "versionCode": 7
+          }
+        ],
+        "installationSize": "2773049",
+        "numDownloads": "10+ downloads",
+        "packageName": "com.helioslite.hlpv_tracker_control",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.BLUETOOTH_ADVERTISE",
+          "android.permission.BLUETOOTH_CONNECT",
+          "android.permission.BLUETOOTH_SCAN",
+          "android.permission.CAMERA",
+          "android.permission.CHANGE_NETWORK_STATE",
+          "android.permission.CHANGE_WIFI_STATE",
+          "android.permission.INTERNET",
+          "android.permission.VIBRATE",
+          "com.helioslite.hlpv_tracker_control.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        ],
+        "recentChangesHtml": "- Fix issue when minify is enabled<br>- Add support for testing actuator<br>- Automatically activate bus if bus was off<br>- Add support for Android 12 &amp; 13<br>- Upgrade lib dependencies<br>- Add support for checking API_VERSION compatibility with tracker controller<br>- Show version code in settings<br>- Add support for new format protocol",
+        "unstable": true,
+        "uploadDate": "8 Aug 2023",
+        "versionCode": 7,
+        "versionString": "2.0.0 - 0e990b8"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.helioslite.hlpv_tracker_control",
+    "docType": 1,
+    "docid": "com.helioslite.hlpv_tracker_control",
+    "image": [
+      {
+        "color": "#C2C2BE",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/l7qre698bhzlzhJlhXpRQMRZhOSwDJIFaPiYq7Ise4JPpZFW8o2looBhICI2RCfiktE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#3D454A",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/RzymadjaWB2RvXQqUQajPSk3aMRYkHt06QhZB9Tv3mHi3iV3JUN3KWbJ4nftM4jFrqE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/W5HzpuwIXiX_ANaPff9nfIR-4BA7S3wUKHvav_mXWTGLIqmoAHOdrEz1JW0ifk9r0vU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/oyI1QUX2rhhtLZwfevT2zYWoQJmgqRLMa0lei7WCLMI2yBhTDydxQCcaU7noktv0pg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/327bWCRbPKRegznvyuC8tSrBAX8F9KQ5jiAaE8XcyqokDbe6u6abd7uW2J5WaQ7ukw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/JGQETjcB0X99ukZhKCEgeebX7cnc-KThvlQm_yYwU_bRB5CKA8Z5bCUwmk6A5Tz9-FM",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ntK-Plh0AMVjrEOIRAdK1V9JS2VaicJOxY-35bD8eyn0GY1b3SF8TJcHSdatSRtWIsM",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/JguERJOV4EeO3u559YMny_7P_orwqIB8JD1qm6zTTsS_e4wPP7Q-PDjhk4s3F2c2sw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/LNaaTHscqeG45fTrpxWy6aXcRt2Ep1oZ4woY5cYZp7-rm9uwF6OGOJpObkA4uE1wlw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/6y43piSmdw59zykvedmNdgG-BcD-yJgZaOJBUxuw8mpa2Aprln16LImTzd07Ozmwnwbh",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://helioslite.com/company/legal-notice",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.helioslite.hlpv_tracker_control",
+    "reviewsUrl": "rev?doc=com.helioslite.hlpv_tracker_control&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.helioslite.hlpv_tracker_control",
+    "title": "HeliosLite Tracker Control",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "info@helioslite.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Savoie Technolac, BP 327<br/>27, all\u00e9e lac d'Aiguebelette<br/>73370 Le Bourget du Lac, France"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "22 Oct 2021"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-12-14 11:00:22.373869",
+    "backendDocid": "com.helioslite.hlpv_tracker_control",
+    "backendId": 3,
+    "creator": "HeliosLite",
+    "descriptionHtml": "This Android app communicates with HeliosLite tracker controller device over Bluetooth to manage your trackers onsite.<br><br>Scan the barcode of your tracker controller device, and you&#39;re ready to configure and control your trackers in a simple user interface.",
+    "descriptionShort": "Allows to control HeliosLite trackers with your smartphone",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "version": 12451000
+            }
+          ],
+          "unknown2": "3158962",
+          "unknown3": 30
+        },
+        "developerAddress": "Savoie Technolac, BP 327<br/>27, all\u00e9e lac d'Aiguebelette<br/>73370 Le Bourget du Lac, France",
+        "developerEmail": "info@helioslite.com",
+        "developerName": "HeliosLite",
+        "developerWebsite": "https://helioslite.com/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "3158962",
+            "versionCode": 3
+          }
+        ],
+        "installationSize": "3158962",
+        "numDownloads": "10+ downloads",
+        "packageName": "com.helioslite.hlpv_tracker_control",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.CAMERA",
+          "android.permission.CHANGE_NETWORK_STATE",
+          "android.permission.CHANGE_WIFI_STATE",
+          "android.permission.INTERNET",
+          "android.permission.VIBRATE"
+        ],
+        "recentChangesHtml": "- Fix issue when minify is enabled<br>- Add support for testing actuator<br>- Automatically activate bus if bus was off<br>- Add support for Android 12 &amp; 13<br>- Upgrade lib dependencies<br>- Add support for checking API_VERSION compatibility with tracker controller<br>- Show version code in settings<br>- Add support for new format protocol",
+        "unstable": true,
+        "uploadDate": "22 Nov 2021",
+        "versionCode": 3,
+        "versionString": "1.1.0 - a3daf90"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.helioslite.hlpv_tracker_control&vc=3",
+    "docType": 1,
+    "docid": "com.helioslite.hlpv_tracker_control",
+    "image": [
+      {
+        "color": "#C2C2BE",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/l7qre698bhzlzhJlhXpRQMRZhOSwDJIFaPiYq7Ise4JPpZFW8o2looBhICI2RCfiktE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#3D454A",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/RzymadjaWB2RvXQqUQajPSk3aMRYkHt06QhZB9Tv3mHi3iV3JUN3KWbJ4nftM4jFrqE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/W5HzpuwIXiX_ANaPff9nfIR-4BA7S3wUKHvav_mXWTGLIqmoAHOdrEz1JW0ifk9r0vU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/oyI1QUX2rhhtLZwfevT2zYWoQJmgqRLMa0lei7WCLMI2yBhTDydxQCcaU7noktv0pg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/327bWCRbPKRegznvyuC8tSrBAX8F9KQ5jiAaE8XcyqokDbe6u6abd7uW2J5WaQ7ukw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/JGQETjcB0X99ukZhKCEgeebX7cnc-KThvlQm_yYwU_bRB5CKA8Z5bCUwmk6A5Tz9-FM",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ntK-Plh0AMVjrEOIRAdK1V9JS2VaicJOxY-35bD8eyn0GY1b3SF8TJcHSdatSRtWIsM",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/JguERJOV4EeO3u559YMny_7P_orwqIB8JD1qm6zTTsS_e4wPP7Q-PDjhk4s3F2c2sw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/LNaaTHscqeG45fTrpxWy6aXcRt2Ep1oZ4woY5cYZp7-rm9uwF6OGOJpObkA4uE1wlw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/6y43piSmdw59zykvedmNdgG-BcD-yJgZaOJBUxuw8mpa2Aprln16LImTzd07Ozmwnwbh",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "GBP",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://helioslite.com/company/legal-notice",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.helioslite.hlpv_tracker_control",
+    "reviewsUrl": "rev?doc=com.helioslite.hlpv_tracker_control&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.helioslite.hlpv_tracker_control",
+    "title": "HeliosLite Tracker Control\n1.1.0 - a3daf90",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "info@helioslite.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Savoie Technolac, BP 327<br/>27, all\u00e9e lac d'Aiguebelette<br/>73370 Le Bourget du Lac, France"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "22 Oct 2021"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-12-14 15:01:16.401183",
+    "backendDocid": "com.helioslite.hlpv_tracker_control",
+    "backendId": 3,
+    "creator": "HeliosLite",
+    "descriptionHtml": "This Android app communicates with HeliosLite tracker controller device over Bluetooth to manage your trackers onsite.<br><br>Scan the barcode of your tracker controller device, and you&#39;re ready to configure and control your trackers in a simple user interface.",
+    "descriptionShort": "Allows to control HeliosLite trackers with your smartphone",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "version": 12451000
+            }
+          ],
+          "unknown2": "3158862",
+          "unknown3": 30
+        },
+        "developerAddress": "Savoie Technolac, BP 327<br/>27, all\u00e9e lac d'Aiguebelette<br/>73370 Le Bourget du Lac, France",
+        "developerEmail": "info@helioslite.com",
+        "developerName": "HeliosLite",
+        "developerWebsite": "https://helioslite.com/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "3158862",
+            "versionCode": 2
+          }
+        ],
+        "installationSize": "3158862",
+        "numDownloads": "10+ downloads",
+        "packageName": "com.helioslite.hlpv_tracker_control",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.CAMERA",
+          "android.permission.CHANGE_NETWORK_STATE",
+          "android.permission.CHANGE_WIFI_STATE",
+          "android.permission.INTERNET",
+          "android.permission.VIBRATE"
+        ],
+        "recentChangesHtml": "- Fix issue when minify is enabled<br>- Add support for testing actuator<br>- Automatically activate bus if bus was off<br>- Add support for Android 12 &amp; 13<br>- Upgrade lib dependencies<br>- Add support for checking API_VERSION compatibility with tracker controller<br>- Show version code in settings<br>- Add support for new format protocol",
+        "unstable": true,
+        "uploadDate": "26 Oct 2021",
+        "versionCode": 2,
+        "versionString": "1.0.1 - 0dbd52f"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.helioslite.hlpv_tracker_control&vc=2",
+    "docType": 1,
+    "docid": "com.helioslite.hlpv_tracker_control",
+    "image": [
+      {
+        "color": "#C2C2BE",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/l7qre698bhzlzhJlhXpRQMRZhOSwDJIFaPiYq7Ise4JPpZFW8o2looBhICI2RCfiktE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#3D454A",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/RzymadjaWB2RvXQqUQajPSk3aMRYkHt06QhZB9Tv3mHi3iV3JUN3KWbJ4nftM4jFrqE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/W5HzpuwIXiX_ANaPff9nfIR-4BA7S3wUKHvav_mXWTGLIqmoAHOdrEz1JW0ifk9r0vU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/oyI1QUX2rhhtLZwfevT2zYWoQJmgqRLMa0lei7WCLMI2yBhTDydxQCcaU7noktv0pg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/327bWCRbPKRegznvyuC8tSrBAX8F9KQ5jiAaE8XcyqokDbe6u6abd7uW2J5WaQ7ukw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/JGQETjcB0X99ukZhKCEgeebX7cnc-KThvlQm_yYwU_bRB5CKA8Z5bCUwmk6A5Tz9-FM",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ntK-Plh0AMVjrEOIRAdK1V9JS2VaicJOxY-35bD8eyn0GY1b3SF8TJcHSdatSRtWIsM",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/JguERJOV4EeO3u559YMny_7P_orwqIB8JD1qm6zTTsS_e4wPP7Q-PDjhk4s3F2c2sw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/LNaaTHscqeG45fTrpxWy6aXcRt2Ep1oZ4woY5cYZp7-rm9uwF6OGOJpObkA4uE1wlw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/6y43piSmdw59zykvedmNdgG-BcD-yJgZaOJBUxuw8mpa2Aprln16LImTzd07Ozmwnwbh",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://helioslite.com/company/legal-notice",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.helioslite.hlpv_tracker_control",
+    "reviewsUrl": "rev?doc=com.helioslite.hlpv_tracker_control&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.helioslite.hlpv_tracker_control",
+    "title": "HeliosLite Tracker Control\n1.0.1 - 0dbd52f",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "info@helioslite.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Savoie Technolac, BP 327<br/>27, all\u00e9e lac d'Aiguebelette<br/>73370 Le Bourget du Lac, France"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "22 Oct 2021"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-12-14 15:05:26.038819",
+    "backendDocid": "com.helioslite.hlpv_tracker_control",
+    "backendId": 3,
+    "creator": "HeliosLite",
+    "descriptionHtml": "This Android app communicates with HeliosLite tracker controller device over Bluetooth to manage your trackers onsite.<br><br>Scan the barcode of your tracker controller device, and you&#39;re ready to configure and control your trackers in a simple user interface.",
+    "descriptionShort": "Allows to control HeliosLite trackers with your smartphone",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "version": 12451000
+            }
+          ],
+          "unknown2": "3154766",
+          "unknown3": 30
+        },
+        "developerAddress": "Savoie Technolac, BP 327<br/>27, all\u00e9e lac d'Aiguebelette<br/>73370 Le Bourget du Lac, France",
+        "developerEmail": "info@helioslite.com",
+        "developerName": "HeliosLite",
+        "developerWebsite": "https://helioslite.com/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "3154766",
+            "versionCode": 1
+          }
+        ],
+        "installationSize": "3154766",
+        "numDownloads": "10+ downloads",
+        "packageName": "com.helioslite.hlpv_tracker_control",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.CAMERA",
+          "android.permission.CHANGE_NETWORK_STATE",
+          "android.permission.CHANGE_WIFI_STATE",
+          "android.permission.INTERNET",
+          "android.permission.VIBRATE"
+        ],
+        "recentChangesHtml": "- Fix issue when minify is enabled<br>- Add support for testing actuator<br>- Automatically activate bus if bus was off<br>- Add support for Android 12 &amp; 13<br>- Upgrade lib dependencies<br>- Add support for checking API_VERSION compatibility with tracker controller<br>- Show version code in settings<br>- Add support for new format protocol",
+        "unstable": true,
+        "uploadDate": "22 Oct 2021",
+        "versionCode": 1,
+        "versionString": "1.0.0 - fc96182"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.helioslite.hlpv_tracker_control&vc=1",
+    "docType": 1,
+    "docid": "com.helioslite.hlpv_tracker_control",
+    "image": [
+      {
+        "color": "#C2C2BE",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/l7qre698bhzlzhJlhXpRQMRZhOSwDJIFaPiYq7Ise4JPpZFW8o2looBhICI2RCfiktE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#3D454A",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/RzymadjaWB2RvXQqUQajPSk3aMRYkHt06QhZB9Tv3mHi3iV3JUN3KWbJ4nftM4jFrqE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/W5HzpuwIXiX_ANaPff9nfIR-4BA7S3wUKHvav_mXWTGLIqmoAHOdrEz1JW0ifk9r0vU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/oyI1QUX2rhhtLZwfevT2zYWoQJmgqRLMa0lei7WCLMI2yBhTDydxQCcaU7noktv0pg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/327bWCRbPKRegznvyuC8tSrBAX8F9KQ5jiAaE8XcyqokDbe6u6abd7uW2J5WaQ7ukw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/JGQETjcB0X99ukZhKCEgeebX7cnc-KThvlQm_yYwU_bRB5CKA8Z5bCUwmk6A5Tz9-FM",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ntK-Plh0AMVjrEOIRAdK1V9JS2VaicJOxY-35bD8eyn0GY1b3SF8TJcHSdatSRtWIsM",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/JguERJOV4EeO3u559YMny_7P_orwqIB8JD1qm6zTTsS_e4wPP7Q-PDjhk4s3F2c2sw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/LNaaTHscqeG45fTrpxWy6aXcRt2Ep1oZ4woY5cYZp7-rm9uwF6OGOJpObkA4uE1wlw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/6y43piSmdw59zykvedmNdgG-BcD-yJgZaOJBUxuw8mpa2Aprln16LImTzd07Ozmwnwbh",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://helioslite.com/company/legal-notice",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.helioslite.hlpv_tracker_control",
+    "reviewsUrl": "rev?doc=com.helioslite.hlpv_tracker_control&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.helioslite.hlpv_tracker_control",
+    "title": "HeliosLite Tracker Control\n1.0.0 - fc96182",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "info@helioslite.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Savoie Technolac, BP 327<br/>27, all\u00e9e lac d'Aiguebelette<br/>73370 Le Bourget du Lac, France"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "22 Oct 2021"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  }
+]

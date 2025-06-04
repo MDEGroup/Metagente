@@ -1,0 +1,583 @@
+[
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-08-15 12:51:49.522064",
+    "backendDocid": "com.susoft.cubroidfirmware",
+    "backendId": 3,
+    "creator": "CUBROID, INC.",
+    "descriptionHtml": "Cubroid Manager<br><br># Firmware Update<br><br>1. Turn on just one of the blocks you want to update at a time.<br>2. Touch the &#39;Firmware Update&#39; button.<br>3. Do not turn off the Block and the Manager app.<br>    It is normal for the LED light on the block to turn on and off during the update process.<br>    When the update is complete, the block will briefly disconnect and reconnect again.<br>4. Your firmware is up-to-date!<br>    Turn off your block and turn on the other block to update their firmware.<br><br><br># Group number registration<br><br>1.Group number setting is not required when using only 1 set of coding blocks. So, the <br>   group number can be set to the default value, 0.<br>2.When using more than 1 set of coding blocks, set the group number ranging from <br>   0001 to 9999.<br>3.When using the Coding Cubroid 2 or Coding Cubroid 3 app, enter the same group <br>   number of your coding blocks for a successful connection with your Bluetooth.",
+    "descriptionShort": "Firmware Update, Group number registration",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "7352894",
+          "unknown3": 30
+        },
+        "developerEmail": "ceo@cubroid.com",
+        "developerName": "CUBROID, INC.",
+        "developerWebsite": "http://www.cubroid.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "7352894",
+            "versionCode": 2007221233
+          }
+        ],
+        "installationSize": "7352894",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "com.susoft.cubroidfirmware",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.INTERNET",
+          "android.permission.WAKE_LOCK",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+        ],
+        "recentChangesHtml": "Improved app performance<br>App Localization",
+        "unstable": false,
+        "versionCode": 2007221233,
+        "versionString": "1.0.4"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.susoft.cubroidfirmware",
+    "docType": 1,
+    "docid": "com.susoft.cubroidfirmware",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://lh3.googleusercontent.com/ga449QhUVBj17BpleLpXlvJv8LQpyymI0E6vuiI0WC5h6gk_oc9RAUWdACOB9uBLWxU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://lh3.googleusercontent.com/CcxSJy0MeymvEDX8AvIVKftRyMDk9GZGLFEJkDkp-H-hMIa2NWBYthPbsopfJMMKvYU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1440,
+          "width": 2560
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/HOLA3L6gx4ngqBlzOijGyt2x8wNlF-cnUzltyc_fuzksvGmsglKj_JHCZJPrXUt8JZc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1440,
+          "width": 2560
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/Ty5SUng71ptZHcwFSJhbu8R2U82Uxo7kP_3HOSWAGVOXxqg2NghVlGqb9FQjpNmfoOTd",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1440,
+          "width": 2560
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/LsRgpY4PmePPYaMeqAk3J2KoY4euL7udA3GA2H2rAvVQXUAzCrX0bYz7BusAVp1v7TA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1440,
+          "width": 2560
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/QNYDpi6znePDQeiWo1yEfQTHNjoMID1TBKn5qdIBgh3GWRYR2sm9nw3qk_2VPj-7cXQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1440,
+          "width": 2560
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/1zCHhGiGRreScphSgVEsCS9XV_vZ49b-ci-Fw3Z_SWggs1n6GuFtZFwUefFLooC9OAo",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://lh3.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.susoft.cubroidfirmware",
+    "reviewsUrl": "rev?doc=com.susoft.cubroidfirmware&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.susoft.cubroidfirmware",
+    "title": "Cubroid Manager",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "CUBROID, INC."
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "ceo@cubroid.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "24 Dec 2018"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-12-31 14:50:27.723416",
+    "backendDocid": "com.susoft.cubroidfirmware",
+    "backendId": 3,
+    "creator": "CUBROID, INC.",
+    "descriptionHtml": "Cubroid Manager<br><br># Firmware Update<br><br>1. Turn on just one of the blocks you want to update at a time.<br>2. Touch the &#39;Firmware Update&#39; button.<br>3. Do not turn off the Block and the Manager app.<br>    It is normal for the LED light on the block to turn on and off during the update process.<br>    When the update is complete, the block will briefly disconnect and reconnect again.<br>4. Your firmware is up-to-date!<br>    Turn off your block and turn on the other block to update their firmware.<br><br><br># Group number registration<br><br>1.Group number setting is not required when using only 1 set of coding blocks. So, the <br>   group number can be set to the default value, 0.<br>2.When using more than 1 set of coding blocks, set the group number ranging from <br>   0001 to 9999.<br>3.When using the Coding Cubroid 2 or Coding Cubroid 3 app, enter the same group <br>   number of your coding blocks for a successful connection with your Bluetooth.",
+    "descriptionShort": "Firmware Update, Group number registration",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "7548460",
+          "unknown3": 30
+        },
+        "developerEmail": "ceo@cubroid.com",
+        "developerName": "CUBROID, INC.",
+        "developerWebsite": "http://www.cubroid.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "7548460",
+            "versionCode": 2012241735
+          }
+        ],
+        "installationSize": "7548460",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "com.susoft.cubroidfirmware",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.INTERNET",
+          "android.permission.WAKE_LOCK",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+        ],
+        "recentChangesHtml": "Improved app performance<br>App Localization",
+        "unstable": false,
+        "uploadDate": "24 Dec 2020",
+        "versionCode": 2012241735,
+        "versionString": "1.0.5"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.susoft.cubroidfirmware",
+    "docType": 1,
+    "docid": "com.susoft.cubroidfirmware",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/ga449QhUVBj17BpleLpXlvJv8LQpyymI0E6vuiI0WC5h6gk_oc9RAUWdACOB9uBLWxU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/CcxSJy0MeymvEDX8AvIVKftRyMDk9GZGLFEJkDkp-H-hMIa2NWBYthPbsopfJMMKvYU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1440,
+          "width": 2560
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/HOLA3L6gx4ngqBlzOijGyt2x8wNlF-cnUzltyc_fuzksvGmsglKj_JHCZJPrXUt8JZc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1440,
+          "width": 2560
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Ty5SUng71ptZHcwFSJhbu8R2U82Uxo7kP_3HOSWAGVOXxqg2NghVlGqb9FQjpNmfoOTd",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1440,
+          "width": 2560
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/LsRgpY4PmePPYaMeqAk3J2KoY4euL7udA3GA2H2rAvVQXUAzCrX0bYz7BusAVp1v7TA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1440,
+          "width": 2560
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/QNYDpi6znePDQeiWo1yEfQTHNjoMID1TBKn5qdIBgh3GWRYR2sm9nw3qk_2VPj-7cXQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1440,
+          "width": 2560
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/1zCHhGiGRreScphSgVEsCS9XV_vZ49b-ci-Fw3Z_SWggs1n6GuFtZFwUefFLooC9OAo",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.susoft.cubroidfirmware",
+    "reviewsUrl": "rev?doc=com.susoft.cubroidfirmware&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.susoft.cubroidfirmware",
+    "title": "Cubroid Manager",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "ceo@cubroid.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "24 Dec 2018"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "2",
+      "fiveStarRatings": "1",
+      "fourStarRatings": "0",
+      "oneStarRatings": "3",
+      "ratingsCount": "6",
+      "starRating": 2.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "2",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2024-05-13 21:49:09.129160",
+    "backendDocid": "com.susoft.cubroidfirmware",
+    "backendId": 3,
+    "creator": "CUBROID, INC.",
+    "descriptionHtml": "Cubroid Manager<br><br># Firmware Update<br><br>1. Turn on just one of the blocks you want to update at a time.<br>2. Touch the &#39;Firmware Update&#39; button.<br>3. Do not turn off the Block and the Manager app.<br>    It is normal for the LED light on the block to turn on and off during the update process.<br>    When the update is complete, the block will briefly disconnect and reconnect again.<br>4. Your firmware is up-to-date!<br>    Turn off your block and turn on the other block to update their firmware.<br><br><br># Group number registration<br><br>1.Group number setting is not required when using only 1 set of coding blocks. So, the <br>   group number can be set to the default value, 0.<br>2.When using more than 1 set of coding blocks, set the group number ranging from <br>   0001 to 9999.<br>3.When using the Coding Cubroid 2 or Coding Cubroid 3 app, enter the same group <br>   number of your coding blocks for a successful connection with your Bluetooth.",
+    "descriptionShort": "Firmware Update, Group number registration",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "version": 12451000
+            }
+          ],
+          "unknown2": "9723175",
+          "unknown3": 34
+        },
+        "developerEmail": "ceo@cubroid.com",
+        "developerName": "CUBROID, INC.",
+        "developerWebsite": "http://www.cubroid.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "9595005",
+            "versionCode": 2012241738
+          },
+          {
+            "fileType": 0,
+            "size": "53624",
+            "versionCode": 2012241738
+          },
+          {
+            "fileType": 0,
+            "size": "33177",
+            "versionCode": 2012241738
+          },
+          {
+            "fileType": 0,
+            "size": "41369",
+            "versionCode": 2012241738
+          }
+        ],
+        "installationSize": "9723175",
+        "numDownloads": "5,000+ downloads",
+        "packageName": "com.susoft.cubroidfirmware",
+        "permission": [
+          "android.permission.ACCESS_ADSERVICES_AD_ID",
+          "android.permission.ACCESS_ADSERVICES_ATTRIBUTION",
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.BLUETOOTH",
+          "android.permission.BLUETOOTH_ADMIN",
+          "android.permission.BLUETOOTH_CONNECT",
+          "android.permission.BLUETOOTH_SCAN",
+          "android.permission.INTERNET",
+          "android.permission.WAKE_LOCK",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.AD_ID",
+          "com.susoft.cubroidfirmware.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        ],
+        "recentChangesHtml": "New Update: Enhanced Performance and More Languages<br><br>Hello Coding Cubroid Users! Our latest update brings you:<br><br>1. Latest API Integration: For faster, smoother app performance.<br>2. Improved Stability: Enjoy a more reliable app experience.<br>3. Bug Fixes: We&#39;ve addressed known issues for better functionality.<br>4. 14-Language Support: Use Coding Cubroid in your preferred language.<br>Thank you for your continued support!<br><br>The Coding Cubroid Team",
+        "unstable": true,
+        "uploadDate": "15 Nov 2023",
+        "versionCode": 2012241738,
+        "versionString": "1.0.6"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.susoft.cubroidfirmware&vc=2012241738",
+    "docType": 1,
+    "docid": "com.susoft.cubroidfirmware",
+    "image": [
+      {
+        "color": "#4E535C",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/ga449QhUVBj17BpleLpXlvJv8LQpyymI0E6vuiI0WC5h6gk_oc9RAUWdACOB9uBLWxU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#EDFCFF",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/CcxSJy0MeymvEDX8AvIVKftRyMDk9GZGLFEJkDkp-H-hMIa2NWBYthPbsopfJMMKvYU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1440,
+          "width": 2560
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/HOLA3L6gx4ngqBlzOijGyt2x8wNlF-cnUzltyc_fuzksvGmsglKj_JHCZJPrXUt8JZc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1440,
+          "width": 2560
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Ty5SUng71ptZHcwFSJhbu8R2U82Uxo7kP_3HOSWAGVOXxqg2NghVlGqb9FQjpNmfoOTd",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1440,
+          "width": 2560
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/LsRgpY4PmePPYaMeqAk3J2KoY4euL7udA3GA2H2rAvVQXUAzCrX0bYz7BusAVp1v7TA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1440,
+          "width": 2560
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/QNYDpi6znePDQeiWo1yEfQTHNjoMID1TBKn5qdIBgh3GWRYR2sm9nw3qk_2VPj-7cXQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1440,
+          "width": 2560
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/1zCHhGiGRreScphSgVEsCS9XV_vZ49b-ci-Fw3Z_SWggs1n6GuFtZFwUefFLooC9OAo",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "JPY",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://ko.cubroid.com/privacy-policy",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 487,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/EbEX3AN4FC4pu3lsElAHCiksluOVU8OgkgtWC43-wmm_aHVq2D65FmEM97bPexilUAvlAY5_4ARH8Tb3RxQ",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Rated for 3+",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.susoft.cubroidfirmware",
+    "reviewsUrl": "rev?doc=com.susoft.cubroidfirmware&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.susoft.cubroidfirmware",
+    "title": "Cubroid Manager\n1.0.6",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "CUBROID, INC."
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "ceo@cubroid.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "24 Dec 2018"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  }
+]

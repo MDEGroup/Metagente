@@ -1,0 +1,2263 @@
+[
+  {
+    "aggregateRating": {
+      "commentCount": "39",
+      "fiveStarRatings": "33",
+      "fourStarRatings": "6",
+      "oneStarRatings": "4",
+      "ratingsCount": "59",
+      "starRating": 4.0338984,
+      "threeStarRatings": "13",
+      "twoStarRatings": "3",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-05-26 21:57:32.323807",
+    "backendDocid": "appinventor.ai_stamshemtal.NoGa_1_22_18_No_Map",
+    "backendId": 3,
+    "creator": "TAppsToAll",
+    "descriptionHtml": "The App Shows The Network Parameters Of The Serving Operator And Neighbor Cells<br>Like: <br>LAC<br>CID<br>TA<br>BSIC<br>PSC<br>PCI<br>Arfcn<br>UArfcn<br>Earfcn<br>Rssi<br>Rsrp<br>Rsrq<br>TA<br>IMEI<br>IMSI (api 28)<br>IP<br>Internet Connection<br>Wifi Connection<br>Mobile Connection<br>Forbidden Plmn List (api 28)<br><br>And Lets You Search For A Specific Parameter.<br>The App Supports 2G(Gsm) 3G(Wcdma) 4G(LTE).<br>The app let&#39;s you lock the phone to 4G only.<br>The app let&#39;s you lock the phone to 3G only.<br>The app let&#39;s you lock the phone to 2G only.<br><br>NOTE: this app will not work with devices that don&#39;t support the standard Android API getAllCellInfo().<br><br>Tested On Samsung Galaxy S6 (Missing Parameters), Galaxy Note 8(except RSSI In 2G ), LG G5, Nexus P6 , Google Pixel (XL), Xiaomi Mi 4, Samsung J5(2016) SM-510F<br>, Samsung S9+(except RSSI In 2G) ;Galaxy S8 , Galaxy A8 - All On Specific Model Types.<br>You can Write InThe Review If Your Phone Is Supported And You See All Parameters.<br><br>Special Thanks To:<br>Taifun B\u00e4r -  https://puravidaapps.com <br>Andres Cotes <br>Extension Developers<br><br><br>No Information is Shared.<br>Location Is For The User Only.<br>Enjoy!",
+    "descriptionShort": "Field Test App For 2G(Gsm) 3G(Wcdma) 4G(LTE) Networks",
+    "details": {
+      "appDetails": {
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "5548436",
+          "unknown3": 28
+        },
+        "developerAddress": "Israel<br/>Hamerkaz<br/>",
+        "developerEmail": "tappstoall@gmail.com",
+        "developerName": "TAppsToAll",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "5548436",
+            "versionCode": 19
+          }
+        ],
+        "installationSize": "5548436",
+        "numDownloads": "5,000+ downloads",
+        "packageName": "appinventor.ai_stamshemtal.NoGa_1_22_18_No_Map",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_LOCATION_EXTRA_COMMANDS",
+          "android.permission.ACCESS_MOCK_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.CHANGE_WIFI_STATE",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "appinventor.ai_stamshemtal.NoGa_1_22_18_No_Map.permission.MAPS_RECEIVE",
+          "com.google.android.providers.gsf.permission.READ_GSERVICES"
+        ],
+        "recentChangesHtml": "Bug Fix",
+        "unstable": false,
+        "uploadDate": "May 11, 2020",
+        "versionCode": 19,
+        "versionString": "19"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=appinventor.ai_stamshemtal.NoGa_1_22_18_No_Map",
+    "docType": 1,
+    "docid": "appinventor.ai_stamshemtal.NoGa_1_22_18_No_Map",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://lh3.googleusercontent.com/eay0dyr016NcEHKa_5axew_SXg8DUEe3sGlTKDqRMtpasVNubxRWVt4ME5zhGrTCaeA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://lh3.googleusercontent.com/jivAEmBfbrO3l73LVZNfcVyE8zf4AWqidEL6-S9nor3dPpgAl7-Xf1D73bxPliN_Vco",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 3,
+        "imageUrl": "https://www.youtube.com/watch?v=7Uh_bBWk-Fw&t=306s"
+      },
+      {
+        "imageType": 13,
+        "imageUrl": "https://i.ytimg.com/vi/7Uh_bBWk-Fw/hqdefault.jpg",
+        "supportsFifeUrlOptions": false
+      },
+      {
+        "dimension": {
+          "height": 1600,
+          "width": 800
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/meyFI4G2qQD37TrhGibPXvH5eTAhWdozX5NgqShpDeRAg4V0WmqYoAsaewf_TVezNjRm",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2560,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/TEHQAlIgd_qeLwwqMf8_0TKnGmgllyYLH8KBAfAVCLOXOiioCYP7INhCWv60fMj4iCY",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2560,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/Bg_KWiNDmWEg1TmksxohIY6xYrHsuAoHnJ2_8r8m1JAv0xerWW_DBiiScBQTdnrW_mE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2560,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/34G9IwARLuZFZz8gFDFC0AHA-nbo5FaeG6pAEALO-RWIDXDFcK5VENEwhlmktnCb8zc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2560,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/ycEH7CreYQ9eJ-u8nvVSf_F5Uv8mA3TQhd5W27ny3JaMu_tyRd-OyZ50CsScV9g5KNc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2560,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/K8LE7G1-zc2Y5UVzz2V4TYeKjGANjfSuw0HUthv1DP4mEqKICIwoEsiKLVXz-IO6ugy8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2560,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/aAyYoh7gJPl_i3ziwyyKB_vcs25fhIng_Qy8MJXyThwYQIhFaeBtcCTmHCp4xMSklF-P",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2560,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/F0QPZh7cpEc2ESWTcH0B3V3oBkwL3VtO4TGCAnGx-N4KpCZP9wliBSdk_ZquaOWoO5w_",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://docs.google.com/document/d/1qXRWKKa8uTHgJIpGD0uyXmHuKVd0DBqRyuc-t_Ndb_s/edit?usp=sharing",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://lh3.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=appinventor.ai_stamshemtal.NoGa_1_22_18_No_Map",
+    "reviewsUrl": "rev?doc=appinventor.ai_stamshemtal.NoGa_1_22_18_No_Map&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=appinventor.ai_stamshemtal.NoGa_1_22_18_No_Map",
+    "title": "NoGa Cell 2G 3G 4G",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "TAppsToAll"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "tappstoall@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Israel<br/>Hamerkaz<br/>"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "Apr. 16, 2018"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "57",
+      "fiveStarRatings": "43",
+      "fourStarRatings": "12",
+      "oneStarRatings": "6",
+      "ratingsCount": "82",
+      "starRating": 4.012195,
+      "threeStarRatings": "18",
+      "twoStarRatings": "3",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-07-09 18:16:34.656609",
+    "backendDocid": "appinventor.ai_stamshemtal.NoGa_1_22_18_No_Map",
+    "backendId": 3,
+    "creator": "TAppsToAll",
+    "descriptionHtml": "The App Shows The Network Parameters Of The Serving Operator And Neighbor Cells<br>Like: <br>LAC<br>CID<br>TA<br>BSIC<br>PSC<br>PCI<br>Arfcn<br>UArfcn<br>Earfcn<br>Rssi<br>Rsrp<br>Rsrq<br>TA<br>IMEI<br>IMSI (api 28)<br>IP<br>Internet Connection<br>Wifi Connection<br>Mobile Connection<br>Forbidden Plmn List (api 28)<br><br>And Lets You Search For A Specific Parameter.<br>The App Supports 2G(Gsm) 3G(Wcdma) 4G(LTE).<br>The app let&#39;s you lock the phone to 4G only.<br>The app let&#39;s you lock the phone to 3G only.<br>The app let&#39;s you lock the phone to 2G only.<br><br>NOTE: this app will not work with devices that don&#39;t support the standard Android API getAllCellInfo().<br><br>Tested On Samsung Galaxy S6 (Missing Parameters), Galaxy Note 8(except RSSI In 2G ), LG G5, Nexus P6 , Google Pixel (XL), Xiaomi Mi 4, Samsung J5(2016) SM-510F<br>, Samsung S9+(except RSSI In 2G) ;Galaxy S8 , Galaxy A8 - All On Specific Model Types.<br>You can Write InThe Review If Your Phone Is Supported And You See All Parameters.<br><br>Special Thanks To:<br>Taifun B\u00e4r -  https://puravidaapps.com <br>Andres Cotes <br>Extension Developers<br><br><br>No Information is Shared.<br>Location Is For The User Only.<br>Enjoy!",
+    "descriptionShort": "Field Test App For 2G(Gsm) 3G(Wcdma) 4G(LTE) Networks",
+    "details": {
+      "appDetails": {
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "unknown1": 2,
+          "unknown2": "5894139",
+          "unknown3": 29
+        },
+        "developerAddress": "Israel<br/>Hamerkaz<br/>",
+        "developerEmail": "tappstoall@gmail.com",
+        "developerName": "TAppsToAll",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "5894139",
+            "versionCode": 21
+          }
+        ],
+        "installationSize": "5894139",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "appinventor.ai_stamshemtal.NoGa_1_22_18_No_Map",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_LOCATION_EXTRA_COMMANDS",
+          "android.permission.ACCESS_MOCK_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK"
+        ],
+        "recentChangesHtml": "This new release have a new ability<br>You can lock on a specific Band on 2g 3g 4g (No Root Is Needed)<br>it works on samsung new Devices fro s8 and up on most phones.<br>the ability to lock on 2g,3g,4g,2g-3g,3g-4g.<br>All of the above from a new button called RAT/Band.<br>the map is not supported for now, il work on it.<br>Have Fun.",
+        "unstable": false,
+        "uploadDate": "9 Jul 2021",
+        "versionCode": 21,
+        "versionString": "2021"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=appinventor.ai_stamshemtal.NoGa_1_22_18_No_Map",
+    "docType": 1,
+    "docid": "appinventor.ai_stamshemtal.NoGa_1_22_18_No_Map",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/eay0dyr016NcEHKa_5axew_SXg8DUEe3sGlTKDqRMtpasVNubxRWVt4ME5zhGrTCaeA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/jivAEmBfbrO3l73LVZNfcVyE8zf4AWqidEL6-S9nor3dPpgAl7-Xf1D73bxPliN_Vco",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 3,
+        "imageUrl": "https://www.youtube.com/watch?v=7Uh_bBWk-Fw&t=306s"
+      },
+      {
+        "imageType": 13,
+        "imageUrl": "https://i.ytimg.com/vi/7Uh_bBWk-Fw/hqdefault.jpg",
+        "supportsFifeUrlOptions": false
+      },
+      {
+        "dimension": {
+          "height": 1600,
+          "width": 800
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/meyFI4G2qQD37TrhGibPXvH5eTAhWdozX5NgqShpDeRAg4V0WmqYoAsaewf_TVezNjRm",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2560,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/TEHQAlIgd_qeLwwqMf8_0TKnGmgllyYLH8KBAfAVCLOXOiioCYP7INhCWv60fMj4iCY",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2560,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Bg_KWiNDmWEg1TmksxohIY6xYrHsuAoHnJ2_8r8m1JAv0xerWW_DBiiScBQTdnrW_mE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2560,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/34G9IwARLuZFZz8gFDFC0AHA-nbo5FaeG6pAEALO-RWIDXDFcK5VENEwhlmktnCb8zc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2560,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ycEH7CreYQ9eJ-u8nvVSf_F5Uv8mA3TQhd5W27ny3JaMu_tyRd-OyZ50CsScV9g5KNc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2560,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/K8LE7G1-zc2Y5UVzz2V4TYeKjGANjfSuw0HUthv1DP4mEqKICIwoEsiKLVXz-IO6ugy8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2560,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/aAyYoh7gJPl_i3ziwyyKB_vcs25fhIng_Qy8MJXyThwYQIhFaeBtcCTmHCp4xMSklF-P",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2560,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/F0QPZh7cpEc2ESWTcH0B3V3oBkwL3VtO4TGCAnGx-N4KpCZP9wliBSdk_ZquaOWoO5w_",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://docs.google.com/document/d/1qXRWKKa8uTHgJIpGD0uyXmHuKVd0DBqRyuc-t_Ndb_s/edit?usp=sharing",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=appinventor.ai_stamshemtal.NoGa_1_22_18_No_Map",
+    "reviewsUrl": "rev?doc=appinventor.ai_stamshemtal.NoGa_1_22_18_No_Map&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=appinventor.ai_stamshemtal.NoGa_1_22_18_No_Map",
+    "title": "NoGa Cell 2G 3G 4G",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "tappstoall@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Israel<br/>Hamerkaz<br/>"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "16 Apr 2018"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "60",
+      "fiveStarRatings": "47",
+      "fourStarRatings": "13",
+      "oneStarRatings": "6",
+      "ratingsCount": "87",
+      "starRating": 4.0574713,
+      "threeStarRatings": "18",
+      "twoStarRatings": "3",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-08-22 02:42:15.315087",
+    "backendDocid": "appinventor.ai_stamshemtal.NoGa_1_22_18_No_Map",
+    "backendId": 3,
+    "creator": "TAppsToAll",
+    "descriptionHtml": "The App Shows The Network Parameters Of The Serving Operator And Neighbor Cells<br>Like: <br>LAC<br>CID<br>TA<br>BSIC<br>PSC<br>PCI<br>Arfcn<br>UArfcn<br>Earfcn<br>Rssi<br>Rsrp<br>Rsrq<br>TA<br>IMEI<br>IMSI (api 28)<br>IP<br>Internet Connection<br>Wifi Connection<br>Mobile Connection<br>Forbidden Plmn List (api 28)<br><br>And Lets You Search For A Specific Parameter.<br>The App Supports 2G(Gsm) 3G(Wcdma) 4G(LTE).<br>The app let&#39;s you lock the phone to 4G only.<br>The app let&#39;s you lock the phone to 3G only.<br>The app let&#39;s you lock the phone to 2G only.<br><br><br><br><br>NOTE: this app will not work with devices that don&#39;t support the standard Android API getAllCellInfo().<br><br>Tested On Samsung Galaxy S6 (Missing Parameters), Galaxy Note 8(except RSSI In 2G ), LG G5, Nexus P6 , Google Pixel (XL), Xiaomi Mi 4, Samsung J5(2016) SM-510F<br>, Samsung S9+(except RSSI In 2G) ;Galaxy S8 , Galaxy A8 - All On Specific Model Types.<br>You can Write InThe Review If Your Phone Is Supported And You See All Parameters.<br><br>Special Thanks To:<br>Taifun B\u00e4r -  https://puravidaapps.com <br>Andres Cotes <br>Extension Developers<br><br><br>No Information is Shared.<br>Location Is For The User Only.<br>Enjoy!",
+    "descriptionShort": "Field Test App For 2G(Gsm) 3G(Wcdma) 4G(LTE) Networks",
+    "details": {
+      "appDetails": {
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "unknown1": 2,
+          "unknown2": "5790829",
+          "unknown3": 29
+        },
+        "developerAddress": "Israel<br/>Hamerkaz<br/>",
+        "developerEmail": "tappstoall@gmail.com",
+        "developerName": "TAppsToAll",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "5790829",
+            "versionCode": 22
+          }
+        ],
+        "installationSize": "5790829",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "appinventor.ai_stamshemtal.NoGa_1_22_18_No_Map",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_LOCATION_EXTRA_COMMANDS",
+          "android.permission.ACCESS_MOCK_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK"
+        ],
+        "recentChangesHtml": "New Look , Lock Band (Phone Version Dependant)",
+        "unstable": false,
+        "uploadDate": "21 Aug 2021",
+        "versionCode": 22,
+        "versionString": "2021.1"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=appinventor.ai_stamshemtal.NoGa_1_22_18_No_Map",
+    "docType": 1,
+    "docid": "appinventor.ai_stamshemtal.NoGa_1_22_18_No_Map",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/eay0dyr016NcEHKa_5axew_SXg8DUEe3sGlTKDqRMtpasVNubxRWVt4ME5zhGrTCaeA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/jivAEmBfbrO3l73LVZNfcVyE8zf4AWqidEL6-S9nor3dPpgAl7-Xf1D73bxPliN_Vco",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 3,
+        "imageUrl": "https://www.youtube.com/watch?v=7Uh_bBWk-Fw&t=306s"
+      },
+      {
+        "imageType": 13,
+        "imageUrl": "https://i.ytimg.com/vi/7Uh_bBWk-Fw/hqdefault.jpg",
+        "supportsFifeUrlOptions": false
+      },
+      {
+        "dimension": {
+          "height": 2400,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/PKKAlWv3slkQ53dDPBUW1UvrPv42hshgrxksc8Y1_JuSAUREMCru_XaP0iAmHQ1b",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2400,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/OcHKLSMtwFhz5Zw7zSx97snEh6UhQZ6WE5iBl3cNpFJH_Y7lFwr4xX_OrzDdVL-1ifU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2400,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/6c9gUyw9DrLq21v8KvG7EJQk9qcM-1KzauSNvE4dQJ1UBUhu7TOW6xkHt1kk8a_G-4s",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2560,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/F0QPZh7cpEc2ESWTcH0B3V3oBkwL3VtO4TGCAnGx-N4KpCZP9wliBSdk_ZquaOWoO5w_",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2400,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/JejFhpm4mazupmxEDCORx5gTudTtHc9nlJWk0lKmIKCgOQSsCxRaDY5-5pytgmIdvD8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2400,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Fzwpcv7KyutRf7V7UliTpuEdVWwoyY8IqzV5JzrkMia0M0jEkhdHKBy9wFIF8Jx1FBA",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://docs.google.com/document/d/1qXRWKKa8uTHgJIpGD0uyXmHuKVd0DBqRyuc-t_Ndb_s/edit?usp=sharing",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=appinventor.ai_stamshemtal.NoGa_1_22_18_No_Map",
+    "reviewsUrl": "rev?doc=appinventor.ai_stamshemtal.NoGa_1_22_18_No_Map&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=appinventor.ai_stamshemtal.NoGa_1_22_18_No_Map",
+    "title": "NoGa Cell 2G 3G 4G",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "TAppsToAll"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "tappstoall@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Israel<br/>Hamerkaz<br/>"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "16 Apr 2018"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "60",
+      "fiveStarRatings": "47",
+      "fourStarRatings": "12",
+      "oneStarRatings": "7",
+      "ratingsCount": "87",
+      "starRating": 4.0229883,
+      "threeStarRatings": "18",
+      "twoStarRatings": "3",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-09-05 02:15:13.036270",
+    "backendDocid": "appinventor.ai_stamshemtal.NoGa_1_22_18_No_Map",
+    "backendId": 3,
+    "creator": "TAppsToAll",
+    "descriptionHtml": "The App Shows The Network Parameters Of The Serving Operator And Neighbor Cells<br>Like: <br>LAC<br>CID<br>TA<br>BSIC<br>PSC<br>PCI<br>Arfcn<br>UArfcn<br>Earfcn<br>Rssi<br>Rsrp<br>Rsrq<br>TA<br>IMEI<br>IMSI (api 28)<br>IP<br>Internet Connection<br>Wifi Connection<br>Mobile Connection<br>Forbidden Plmn List (api 28)<br><br>And Lets You Search For A Specific Parameter.<br>The App Supports 2G(Gsm) 3G(Wcdma) 4G(LTE).<br>The app let&#39;s you lock the phone to 4G only.<br>The app let&#39;s you lock the phone to 3G only.<br>The app let&#39;s you lock the phone to 2G only.<br><br><br><br><br>NOTE: this app will not work with devices that don&#39;t support the standard Android API getAllCellInfo().<br><br>Tested On Samsung Galaxy S6 (Missing Parameters), Galaxy Note 8(except RSSI In 2G ), LG G5, Nexus P6 , Google Pixel (XL), Xiaomi Mi 4, Samsung J5(2016) SM-510F<br>, Samsung S9+(except RSSI In 2G) ;Galaxy S8 , Galaxy A8 - All On Specific Model Types.<br>You can Write InThe Review If Your Phone Is Supported And You See All Parameters.<br><br>Special Thanks To:<br>Taifun B\u00e4r -  https://puravidaapps.com <br>Andres Cotes <br>Extension Developers<br><br><br>No Information is Shared.<br>Location Is For The User Only.<br>Enjoy!",
+    "descriptionShort": "Field Test App For 2G(Gsm) 3G(Wcdma) 4G(LTE) Networks",
+    "details": {
+      "appDetails": {
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "unknown1": 2,
+          "unknown2": "5803187",
+          "unknown3": 29
+        },
+        "developerAddress": "Israel<br/>Hamerkaz<br/>",
+        "developerEmail": "tappstoall@gmail.com",
+        "developerName": "TAppsToAll",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "5803187",
+            "versionCode": 24
+          }
+        ],
+        "installationSize": "5803187",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "appinventor.ai_stamshemtal.NoGa_1_22_18_No_Map",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_LOCATION_EXTRA_COMMANDS",
+          "android.permission.ACCESS_MOCK_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK"
+        ],
+        "unstable": false,
+        "uploadDate": "3 Sept 2021",
+        "versionCode": 24,
+        "versionString": "2021.2"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=appinventor.ai_stamshemtal.NoGa_1_22_18_No_Map",
+    "docType": 1,
+    "docid": "appinventor.ai_stamshemtal.NoGa_1_22_18_No_Map",
+    "image": [
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/eay0dyr016NcEHKa_5axew_SXg8DUEe3sGlTKDqRMtpasVNubxRWVt4ME5zhGrTCaeA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/jivAEmBfbrO3l73LVZNfcVyE8zf4AWqidEL6-S9nor3dPpgAl7-Xf1D73bxPliN_Vco",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 3,
+        "imageUrl": "https://www.youtube.com/watch?v=7Uh_bBWk-Fw&t=306s"
+      },
+      {
+        "imageType": 13,
+        "imageUrl": "https://i.ytimg.com/vi/7Uh_bBWk-Fw/hqdefault.jpg",
+        "supportsFifeUrlOptions": false
+      },
+      {
+        "dimension": {
+          "height": 2400,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/PKKAlWv3slkQ53dDPBUW1UvrPv42hshgrxksc8Y1_JuSAUREMCru_XaP0iAmHQ1b",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2400,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/OcHKLSMtwFhz5Zw7zSx97snEh6UhQZ6WE5iBl3cNpFJH_Y7lFwr4xX_OrzDdVL-1ifU",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2400,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/6c9gUyw9DrLq21v8KvG7EJQk9qcM-1KzauSNvE4dQJ1UBUhu7TOW6xkHt1kk8a_G-4s",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2560,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/F0QPZh7cpEc2ESWTcH0B3V3oBkwL3VtO4TGCAnGx-N4KpCZP9wliBSdk_ZquaOWoO5w_",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2400,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/JejFhpm4mazupmxEDCORx5gTudTtHc9nlJWk0lKmIKCgOQSsCxRaDY5-5pytgmIdvD8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2400,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Fzwpcv7KyutRf7V7UliTpuEdVWwoyY8IqzV5JzrkMia0M0jEkhdHKBy9wFIF8Jx1FBA",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://docs.google.com/document/d/1qXRWKKa8uTHgJIpGD0uyXmHuKVd0DBqRyuc-t_Ndb_s/edit?usp=sharing",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=appinventor.ai_stamshemtal.NoGa_1_22_18_No_Map",
+    "reviewsUrl": "rev?doc=appinventor.ai_stamshemtal.NoGa_1_22_18_No_Map&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=appinventor.ai_stamshemtal.NoGa_1_22_18_No_Map",
+    "title": "NoGa Cell 2G 3G 4G",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "tappstoall@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Israel<br/>Hamerkaz<br/>"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "16 Apr 2018"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "62",
+      "fiveStarRatings": "53",
+      "fourStarRatings": "12",
+      "oneStarRatings": "7",
+      "ratingsCount": "93",
+      "starRating": 4.0860214,
+      "threeStarRatings": "18",
+      "twoStarRatings": "3",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-10-28 19:42:11.970233",
+    "backendDocid": "appinventor.ai_stamshemtal.NoGa_1_22_18_No_Map",
+    "backendId": 3,
+    "creator": "TAppsToAll",
+    "descriptionHtml": "In Android 10/11 The Parameters Dont Refresh Often , Google Stoped It From Working, Sorry!<br>The App Shows The Network Parameters Of The Serving Operator And <br>Neighbor Cells<br>Like: <br>LAC<br>CID<br>TA<br>BSIC<br>PSC<br>PCI<br>Arfcn<br>UArfcn<br>Earfcn<br>Rssi<br>Rsrp<br>Rsrq<br>TA<br>IMEI<br>IMSI (api 28)<br>IP<br>Internet Connection<br>Wifi Connection<br>Mobile Connection<br>Map And Features<br><br>And Lets You Search For A Specific Parameter.<br>The App Supports 2G(Gsm) 3G(Wcdma) 4G(LTE).<br>The app let&#39;s you lock the phone to 4G only.<br>The app let&#39;s you lock the phone to 3G only.<br>The app let&#39;s you lock the phone to 2G only.<br><br><br><br><br>NOTE: this app will not work with devices that don&#39;t support the standard Android API getAllCellInfo().<br><br>Tested On Samsung Galaxy S6 (Missing Parameters), Galaxy Note 8(except RSSI In 2G ), LG G5, Nexus P6 , Google Pixel (XL), Xiaomi Mi 4, Samsung J5(2016) SM-510F<br>, Samsung S9+(except RSSI In 2G) ;Galaxy S8 , Galaxy A8 - All On Specific Model Types.<br>You can Write InThe Review If Your Phone Is Supported And You See All Parameters.<br><br><br>Special Thanks To:<br>Taifun B\u00e4r -  https://puravidaapps.com <br>Andres Cotes <br>Extension Developers<br><br><br>No Information is Shared.<br>Location Is For The User Only.<br>Enjoy!",
+    "descriptionShort": "Field Test App For 2G(Gsm) 3G(Wcdma) 4G(LTE) Networks",
+    "details": {
+      "appDetails": {
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown1": 2,
+          "unknown2": "6861086",
+          "unknown3": 30
+        },
+        "developerAddress": "Israel<br/>Hamerkaz<br/>",
+        "developerEmail": "tappstoall@gmail.com",
+        "developerName": "TAppsToAll",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "6861086",
+            "versionCode": 25
+          }
+        ],
+        "installationSize": "6861086",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "appinventor.ai_stamshemtal.NoGa_1_22_18_No_Map",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_LOCATION_EXTRA_COMMANDS",
+          "android.permission.ACCESS_MOCK_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.providers.gsf.permission.READ_GSERVICES",
+          "io.kodular.tappstoall.NoGa_PlayStore.permission.MAPS_RECEIVE"
+        ],
+        "recentChangesHtml": "If App Crashes Check Permissions<br>1) Trail - Course Of Movement<br>2) Number Of Satellites<br>3) Azimuth<br>4) Map Bearing - M.B<br>5) Gps Bearing - GPS.B<br>6) Cellid / Lac Change On Map - C\\L<br>7) Network Signal Strength On Map - DT<br>8) Measure Distance Between Two Points - &gt;--&lt; Button<br>9) Marker Sign On Map - Marker Button<br>10) Draw Polygon On Map - Polygon Button, Press On Map On Two Points<br>All Featuers Was Tested On Android 9 - Samsung S9<br>Google Has Disabled Some Abilities On Android 10 and 11 - Sorry!",
+        "unstable": false,
+        "uploadDate": "25 Oct 2021",
+        "versionCode": 25,
+        "versionString": "2021.3"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=appinventor.ai_stamshemtal.NoGa_1_22_18_No_Map",
+    "docType": 1,
+    "docid": "appinventor.ai_stamshemtal.NoGa_1_22_18_No_Map",
+    "image": [
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/eay0dyr016NcEHKa_5axew_SXg8DUEe3sGlTKDqRMtpasVNubxRWVt4ME5zhGrTCaeA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/jivAEmBfbrO3l73LVZNfcVyE8zf4AWqidEL6-S9nor3dPpgAl7-Xf1D73bxPliN_Vco",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 3,
+        "imageUrl": "https://www.youtube.com/watch?v=7Uh_bBWk-Fw&t=306s"
+      },
+      {
+        "imageType": 13,
+        "imageUrl": "https://i.ytimg.com/vi/7Uh_bBWk-Fw/hqdefault.jpg",
+        "supportsFifeUrlOptions": false
+      },
+      {
+        "dimension": {
+          "height": 2220,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/gXSK97kswXGZiSfsXeNmd47apPhlZpZoL-vO3arjPZ5PPtzKWLfPuwPhasC210AAToE2",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2220,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/xZ8Bs4JODUhw0eM4Ir7BwczmvKqVZpdysF4F-cSNMaYIzndlJfz567wZX45IiTKpHt4",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2560,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/F0QPZh7cpEc2ESWTcH0B3V3oBkwL3VtO4TGCAnGx-N4KpCZP9wliBSdk_ZquaOWoO5w_",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2400,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/JejFhpm4mazupmxEDCORx5gTudTtHc9nlJWk0lKmIKCgOQSsCxRaDY5-5pytgmIdvD8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2400,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Fzwpcv7KyutRf7V7UliTpuEdVWwoyY8IqzV5JzrkMia0M0jEkhdHKBy9wFIF8Jx1FBA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2220,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/eOqqpOzrt9ln1vbZERopQ67CfU6pLzek80rHOVCbvi10mf1XBNy1vCeQ84x-uXI6-oc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2220,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/kCcaTroAiv8bE3df2Yx0MGeMs0nAi0KTMVIe5yM3ymt8Plme3VJNFj7Jpw69v4QJGQ",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://docs.google.com/document/d/1qXRWKKa8uTHgJIpGD0uyXmHuKVd0DBqRyuc-t_Ndb_s/edit?usp=sharing",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=appinventor.ai_stamshemtal.NoGa_1_22_18_No_Map",
+    "reviewsUrl": "rev?doc=appinventor.ai_stamshemtal.NoGa_1_22_18_No_Map&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=appinventor.ai_stamshemtal.NoGa_1_22_18_No_Map",
+    "title": "NoGa Cell 2G 3G 4G",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "tappstoall@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Israel<br/>Hamerkaz<br/>"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "16 Apr 2018"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "63",
+      "fiveStarRatings": "54",
+      "fourStarRatings": "12",
+      "oneStarRatings": "8",
+      "ratingsCount": "96",
+      "starRating": 4.0520835,
+      "threeStarRatings": "19",
+      "twoStarRatings": "3",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-11-15 05:20:16.459011",
+    "backendDocid": "appinventor.ai_stamshemtal.NoGa_1_22_18_No_Map",
+    "backendId": 3,
+    "creator": "TAppsToAll",
+    "descriptionHtml": "In Android 10/11 The Parameters Dont Refresh Often , Google Stoped It From Working, Sorry!<br>The App Shows The Network Parameters Of The Serving Operator And <br>Neighbor Cells<br>Like: <br>LAC<br>CID<br>TA<br>BSIC<br>PSC<br>PCI<br>Arfcn<br>UArfcn<br>Earfcn<br>Rssi<br>Rsrp<br>Rsrq<br>TA<br>IMEI<br>IMSI (api 28)<br>IP<br>Internet Connection<br>Wifi Connection<br>Mobile Connection<br>Map And Features<br><br>And Lets You Search For A Specific Parameter.<br>The App Supports 2G(Gsm) 3G(Wcdma) 4G(LTE).<br>The app let&#39;s you lock the phone to 4G only.<br>The app let&#39;s you lock the phone to 3G only.<br>The app let&#39;s you lock the phone to 2G only.<br><br><br><br><br>NOTE: this app will not work with devices that don&#39;t support the standard Android API getAllCellInfo().<br><br>Tested On Samsung Galaxy S6 (Missing Parameters), Galaxy Note 8(except RSSI In 2G ), LG G5, Nexus P6 , Google Pixel (XL), Xiaomi Mi 4, Samsung J5(2016) SM-510F<br>, Samsung S9+(except RSSI In 2G) ;Galaxy S8 , Galaxy A8 - All On Specific Model Types.<br>You can Write InThe Review If Your Phone Is Supported And You See All Parameters.<br><br><br>Special Thanks To:<br>Taifun B\u00e4r -  https://puravidaapps.com <br>Andres Cotes <br>Extension Developers<br><br><br>No Information is Shared.<br>Location Is For The User Only.<br>Enjoy!",
+    "descriptionShort": "Field Test App For 2G(Gsm) 3G(Wcdma) 4G(LTE) Networks",
+    "details": {
+      "appDetails": {
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown1": 2,
+          "unknown2": "6774644",
+          "unknown3": 30
+        },
+        "developerAddress": "Israel<br/>Hamerkaz<br/>",
+        "developerEmail": "tappstoall@gmail.com",
+        "developerName": "TAppsToAll",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "6774644",
+            "versionCode": 27
+          }
+        ],
+        "installationSize": "6774644",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "appinventor.ai_stamshemtal.NoGa_1_22_18_No_Map",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_LOCATION_EXTRA_COMMANDS",
+          "android.permission.ACCESS_MOCK_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.providers.gsf.permission.READ_GSERVICES",
+          "io.kodular.tappstoall.NoGa_PlayStore.permission.MAPS_RECEIVE"
+        ],
+        "unstable": false,
+        "uploadDate": "13 Nov 2021",
+        "versionCode": 27,
+        "versionString": "2021.11.13"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=appinventor.ai_stamshemtal.NoGa_1_22_18_No_Map",
+    "docType": 1,
+    "docid": "appinventor.ai_stamshemtal.NoGa_1_22_18_No_Map",
+    "image": [
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/eay0dyr016NcEHKa_5axew_SXg8DUEe3sGlTKDqRMtpasVNubxRWVt4ME5zhGrTCaeA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/jivAEmBfbrO3l73LVZNfcVyE8zf4AWqidEL6-S9nor3dPpgAl7-Xf1D73bxPliN_Vco",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 3,
+        "imageUrl": "https://www.youtube.com/watch?v=7Uh_bBWk-Fw&t=306s"
+      },
+      {
+        "imageType": 13,
+        "imageUrl": "https://i.ytimg.com/vi/7Uh_bBWk-Fw/hqdefault.jpg",
+        "supportsFifeUrlOptions": false
+      },
+      {
+        "dimension": {
+          "height": 2220,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/gXSK97kswXGZiSfsXeNmd47apPhlZpZoL-vO3arjPZ5PPtzKWLfPuwPhasC210AAToE2",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2220,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/xZ8Bs4JODUhw0eM4Ir7BwczmvKqVZpdysF4F-cSNMaYIzndlJfz567wZX45IiTKpHt4",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2560,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/F0QPZh7cpEc2ESWTcH0B3V3oBkwL3VtO4TGCAnGx-N4KpCZP9wliBSdk_ZquaOWoO5w_",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2400,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/JejFhpm4mazupmxEDCORx5gTudTtHc9nlJWk0lKmIKCgOQSsCxRaDY5-5pytgmIdvD8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2400,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Fzwpcv7KyutRf7V7UliTpuEdVWwoyY8IqzV5JzrkMia0M0jEkhdHKBy9wFIF8Jx1FBA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2220,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/eOqqpOzrt9ln1vbZERopQ67CfU6pLzek80rHOVCbvi10mf1XBNy1vCeQ84x-uXI6-oc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2220,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/kCcaTroAiv8bE3df2Yx0MGeMs0nAi0KTMVIe5yM3ymt8Plme3VJNFj7Jpw69v4QJGQ",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://docs.google.com/document/d/1qXRWKKa8uTHgJIpGD0uyXmHuKVd0DBqRyuc-t_Ndb_s/edit?usp=sharing",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=appinventor.ai_stamshemtal.NoGa_1_22_18_No_Map",
+    "reviewsUrl": "rev?doc=appinventor.ai_stamshemtal.NoGa_1_22_18_No_Map&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=appinventor.ai_stamshemtal.NoGa_1_22_18_No_Map",
+    "title": "NoGa Cell 2G 3G 4G",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "tappstoall@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Israel<br/>Hamerkaz<br/>"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "16 Apr 2018"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "67",
+      "fiveStarRatings": "58",
+      "fourStarRatings": "13",
+      "oneStarRatings": "7",
+      "ratingsCount": "102",
+      "starRating": 4.1,
+      "threeStarRatings": "20",
+      "twoStarRatings": "3",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-01-15 22:26:28.750962",
+    "backendDocid": "appinventor.ai_stamshemtal.NoGa_1_22_18_No_Map",
+    "backendId": 3,
+    "creator": "TAppsToAll",
+    "descriptionHtml": "In Android 10/11 The Parameters Dont Refresh Often , Google Stoped It From Working, Sorry!<br>The App Shows The Network Parameters Of The Serving Operator And <br>Neighbor Cells<br>Like: <br>LAC<br>CID<br>TA<br>BSIC<br>PSC<br>PCI<br>Arfcn<br>UArfcn<br>Earfcn<br>Rssi<br>Rsrp<br>Rsrq<br>TA<br>IMEI<br>IMSI (api 28)<br>IP<br>Internet Connection<br>Wifi Connection<br>Mobile Connection<br>Map And Features<br><br>And Lets You Search For A Specific Parameter.<br>The App Supports 2G(Gsm) 3G(Wcdma) 4G(LTE).<br>The app let&#39;s you lock the phone to 4G only.<br>The app let&#39;s you lock the phone to 3G only.<br>The app let&#39;s you lock the phone to 2G only.<br><br><br><br><br>NOTE: this app will not work with devices that don&#39;t support the standard Android API getAllCellInfo().<br><br>Tested On Samsung Galaxy S6 (Missing Parameters), Galaxy Note 8(except RSSI In 2G ), LG G5, Nexus P6 , Google Pixel (XL), Xiaomi Mi 4, Samsung J5(2016) SM-510F<br>, Samsung S9+(except RSSI In 2G) ;Galaxy S8 , Galaxy A8 - All On Specific Model Types.<br>You can Write InThe Review If Your Phone Is Supported And You See All Parameters.<br><br><br>Special Thanks To:<br>Taifun B\u00e4r -  https://puravidaapps.com <br>Andres Cotes <br>Extension Developers<br><br><br>No Information is Shared.<br>Location Is For The User Only.<br>Enjoy!",
+    "descriptionShort": "Field Test App For 2G(Gsm) 3G(Wcdma) 4G(LTE) Networks",
+    "details": {
+      "appDetails": {
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown1": 2,
+          "unknown2": "6782836",
+          "unknown3": 30
+        },
+        "developerAddress": "Israel<br/>Hamerkaz<br/>",
+        "developerEmail": "tappstoall@gmail.com",
+        "developerName": "TAppsToAll",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "6782836",
+            "versionCode": 28
+          }
+        ],
+        "installationSize": "6782836",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "appinventor.ai_stamshemtal.NoGa_1_22_18_No_Map",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_LOCATION_EXTRA_COMMANDS",
+          "android.permission.ACCESS_MOCK_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.providers.gsf.permission.READ_GSERVICES",
+          "io.kodular.tappstoall.NoGa_PlayStore.permission.MAPS_RECEIVE"
+        ],
+        "recentChangesHtml": "Ability To Ping ",
+        "unstable": false,
+        "uploadDate": "14 Jan 2022",
+        "versionCode": 28,
+        "versionString": "14.1.2021"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=appinventor.ai_stamshemtal.NoGa_1_22_18_No_Map",
+    "docType": 1,
+    "docid": "appinventor.ai_stamshemtal.NoGa_1_22_18_No_Map",
+    "image": [
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/eay0dyr016NcEHKa_5axew_SXg8DUEe3sGlTKDqRMtpasVNubxRWVt4ME5zhGrTCaeA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#000000",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/jivAEmBfbrO3l73LVZNfcVyE8zf4AWqidEL6-S9nor3dPpgAl7-Xf1D73bxPliN_Vco",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 3,
+        "imageUrl": "https://www.youtube.com/watch?v=7Uh_bBWk-Fw&t=306s"
+      },
+      {
+        "imageType": 13,
+        "imageUrl": "https://i.ytimg.com/vi/7Uh_bBWk-Fw/hqdefault.jpg",
+        "supportsFifeUrlOptions": false
+      },
+      {
+        "dimension": {
+          "height": 2220,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/gXSK97kswXGZiSfsXeNmd47apPhlZpZoL-vO3arjPZ5PPtzKWLfPuwPhasC210AAToE2",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2220,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/xZ8Bs4JODUhw0eM4Ir7BwczmvKqVZpdysF4F-cSNMaYIzndlJfz567wZX45IiTKpHt4",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2560,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/F0QPZh7cpEc2ESWTcH0B3V3oBkwL3VtO4TGCAnGx-N4KpCZP9wliBSdk_ZquaOWoO5w_",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2400,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/JejFhpm4mazupmxEDCORx5gTudTtHc9nlJWk0lKmIKCgOQSsCxRaDY5-5pytgmIdvD8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2400,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Fzwpcv7KyutRf7V7UliTpuEdVWwoyY8IqzV5JzrkMia0M0jEkhdHKBy9wFIF8Jx1FBA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2220,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/eOqqpOzrt9ln1vbZERopQ67CfU6pLzek80rHOVCbvi10mf1XBNy1vCeQ84x-uXI6-oc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2220,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/kCcaTroAiv8bE3df2Yx0MGeMs0nAi0KTMVIe5yM3ymt8Plme3VJNFj7Jpw69v4QJGQ",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://docs.google.com/document/d/1qXRWKKa8uTHgJIpGD0uyXmHuKVd0DBqRyuc-t_Ndb_s/edit?usp=sharing",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=appinventor.ai_stamshemtal.NoGa_1_22_18_No_Map",
+    "reviewsUrl": "rev?doc=appinventor.ai_stamshemtal.NoGa_1_22_18_No_Map&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=appinventor.ai_stamshemtal.NoGa_1_22_18_No_Map",
+    "title": "NoGa Cell 2G 3G 4G",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "tappstoall@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Israel<br/>Hamerkaz<br/>"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "16 Apr 2018"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-02-08 09:26:00.447720",
+    "backendDocid": "appinventor.ai_stamshemtal.NoGa_1_22_18_No_Map",
+    "backendId": 3,
+    "creator": "TAppsToAll",
+    "descriptionHtml": "In Android 10/11 The Parameters Dont Refresh Often , Google Stoped It From Working, Sorry!<br>The App Shows The Network Parameters Of The Serving Operator And <br>Neighbor Cells<br>Like: <br>LAC<br>CID<br>TA<br>BSIC<br>PSC<br>PCI<br>Arfcn<br>UArfcn<br>Earfcn<br>Rssi<br>Rsrp<br>Rsrq<br>TA<br>IMEI<br>IMSI (api 28)<br>IP<br>Internet Connection<br>Wifi Connection<br>Mobile Connection<br>Map And Features<br><br>And Lets You Search For A Specific Parameter.<br>The App Supports 2G(Gsm) 3G(Wcdma) 4G(LTE).<br>The app let&#39;s you lock the phone to 4G only.<br>The app let&#39;s you lock the phone to 3G only.<br>The app let&#39;s you lock the phone to 2G only.<br><br><br><br><br>NOTE: this app will not work with devices that don&#39;t support the standard Android API getAllCellInfo().<br><br>Tested On Samsung Galaxy S6 (Missing Parameters), Galaxy Note 8(except RSSI In 2G ), LG G5, Nexus P6 , Google Pixel (XL), Xiaomi Mi 4, Samsung J5(2016) SM-510F<br>, Samsung S9+(except RSSI In 2G) ;Galaxy S8 , Galaxy A8 - All On Specific Model Types.<br>You can Write InThe Review If Your Phone Is Supported And You See All Parameters.<br><br><br>Special Thanks To:<br>Taifun B\u00e4r -  https://puravidaapps.com <br>Andres Cotes <br>Extension Developers<br><br><br>No Information is Shared.<br>Location Is For The User Only.<br>Enjoy!",
+    "descriptionShort": "Field Test App For 2G(Gsm) 3G(Wcdma) 4G(LTE) Networks",
+    "details": {
+      "appDetails": {
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown1": 2,
+          "unknown2": "6795124",
+          "unknown3": 30
+        },
+        "developerAddress": "Israel<br/>Hamerkaz<br/>",
+        "developerEmail": "tappstoall@gmail.com",
+        "developerName": "TAppsToAll",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "6795124",
+            "versionCode": 30
+          }
+        ],
+        "installationSize": "6795124",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "appinventor.ai_stamshemtal.NoGa_1_22_18_No_Map",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_LOCATION_EXTRA_COMMANDS",
+          "android.permission.ACCESS_MOCK_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.providers.gsf.permission.READ_GSERVICES",
+          "io.kodular.tappstoall.NoGa_PlayStore.permission.MAPS_RECEIVE"
+        ],
+        "recentChangesHtml": "Android 12 fix",
+        "unstable": false,
+        "uploadDate": "2 Feb 2022",
+        "versionCode": 30,
+        "versionString": "2.2.2021"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=appinventor.ai_stamshemtal.NoGa_1_22_18_No_Map",
+    "docType": 1,
+    "docid": "appinventor.ai_stamshemtal.NoGa_1_22_18_No_Map",
+    "image": [
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/eay0dyr016NcEHKa_5axew_SXg8DUEe3sGlTKDqRMtpasVNubxRWVt4ME5zhGrTCaeA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#000000",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/jivAEmBfbrO3l73LVZNfcVyE8zf4AWqidEL6-S9nor3dPpgAl7-Xf1D73bxPliN_Vco",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 3,
+        "imageUrl": "https://www.youtube.com/watch?v=7Uh_bBWk-Fw&t=306s"
+      },
+      {
+        "imageType": 13,
+        "imageUrl": "https://i.ytimg.com/vi/7Uh_bBWk-Fw/hqdefault.jpg",
+        "supportsFifeUrlOptions": false
+      },
+      {
+        "dimension": {
+          "height": 2220,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/gXSK97kswXGZiSfsXeNmd47apPhlZpZoL-vO3arjPZ5PPtzKWLfPuwPhasC210AAToE2",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2220,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/xZ8Bs4JODUhw0eM4Ir7BwczmvKqVZpdysF4F-cSNMaYIzndlJfz567wZX45IiTKpHt4",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2560,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/F0QPZh7cpEc2ESWTcH0B3V3oBkwL3VtO4TGCAnGx-N4KpCZP9wliBSdk_ZquaOWoO5w_",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2400,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/JejFhpm4mazupmxEDCORx5gTudTtHc9nlJWk0lKmIKCgOQSsCxRaDY5-5pytgmIdvD8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2400,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Fzwpcv7KyutRf7V7UliTpuEdVWwoyY8IqzV5JzrkMia0M0jEkhdHKBy9wFIF8Jx1FBA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2220,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/eOqqpOzrt9ln1vbZERopQ67CfU6pLzek80rHOVCbvi10mf1XBNy1vCeQ84x-uXI6-oc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2220,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/kCcaTroAiv8bE3df2Yx0MGeMs0nAi0KTMVIe5yM3ymt8Plme3VJNFj7Jpw69v4QJGQ",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://docs.google.com/document/d/1qXRWKKa8uTHgJIpGD0uyXmHuKVd0DBqRyuc-t_Ndb_s/edit?usp=sharing",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=appinventor.ai_stamshemtal.NoGa_1_22_18_No_Map",
+    "reviewsUrl": "rev?doc=appinventor.ai_stamshemtal.NoGa_1_22_18_No_Map&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=appinventor.ai_stamshemtal.NoGa_1_22_18_No_Map",
+    "title": "NoGa Cell 2G 3G 4G",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "tappstoall@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Israel<br/>Hamerkaz<br/>"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "16 Apr 2018"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-03-21 07:48:35.877661",
+    "backendDocid": "appinventor.ai_stamshemtal.NoGa_1_22_18_No_Map",
+    "backendId": 3,
+    "creator": "TAppsToAll",
+    "descriptionHtml": "In Android 10/11 The Parameters Dont Refresh Often , Google Stoped It From Working, Sorry!<br>The App Shows The Network Parameters Of The Serving Operator And <br>Neighbor Cells<br>Like: <br>LAC<br>CID<br>TA<br>BSIC<br>PSC<br>PCI<br>Arfcn<br>UArfcn<br>Earfcn<br>Rssi<br>Rsrp<br>Rsrq<br>TA<br>IMEI<br>IMSI (api 28)<br>IP<br>Internet Connection<br>Wifi Connection<br>Mobile Connection<br>Map And Features<br><br>And Lets You Search For A Specific Parameter.<br>The App Supports 2G(Gsm) 3G(Wcdma) 4G(LTE).<br>The app let&#39;s you lock the phone to 4G only.<br>The app let&#39;s you lock the phone to 3G only.<br>The app let&#39;s you lock the phone to 2G only.<br><br><br><br><br>NOTE: this app will not work with devices that don&#39;t support the standard Android API getAllCellInfo().<br><br>Tested On Samsung Galaxy S6 (Missing Parameters), Galaxy Note 8(except RSSI In 2G ), LG G5, Nexus P6 , Google Pixel (XL), Xiaomi Mi 4, Samsung J5(2016) SM-510F<br>, Samsung S9+(except RSSI In 2G) ;Galaxy S8 , Galaxy A8 - All On Specific Model Types.<br>You can Write InThe Review If Your Phone Is Supported And You See All Parameters.<br><br><br>Special Thanks To:<br>Taifun B\u00e4r -  https://puravidaapps.com <br>Andres Cotes <br>Extension Developers<br><br><br>No Information is Shared.<br>Location Is For The User Only.<br>Enjoy!",
+    "descriptionShort": "Field Test App For 2G(Gsm) 3G(Wcdma) 4G(LTE) Networks",
+    "details": {
+      "appDetails": {
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown1": 2,
+          "unknown2": "6795124",
+          "unknown3": 30
+        },
+        "developerAddress": "Israel<br/>Hamerkaz<br/>",
+        "developerEmail": "tappstoall@gmail.com",
+        "developerName": "TAppsToAll",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "6795124",
+            "versionCode": 31
+          }
+        ],
+        "installationSize": "6795124",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "appinventor.ai_stamshemtal.NoGa_1_22_18_No_Map",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_LOCATION_EXTRA_COMMANDS",
+          "android.permission.ACCESS_MOCK_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.providers.gsf.permission.READ_GSERVICES",
+          "io.kodular.tappstoall.NoGa_PlayStore.permission.MAPS_RECEIVE"
+        ],
+        "recentChangesHtml": "Android 12 fix",
+        "unstable": false,
+        "uploadDate": "11 Mar 2022",
+        "versionCode": 31,
+        "versionString": "10.3.2022"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=appinventor.ai_stamshemtal.NoGa_1_22_18_No_Map",
+    "docType": 1,
+    "docid": "appinventor.ai_stamshemtal.NoGa_1_22_18_No_Map",
+    "image": [
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/eay0dyr016NcEHKa_5axew_SXg8DUEe3sGlTKDqRMtpasVNubxRWVt4ME5zhGrTCaeA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#000000",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/jivAEmBfbrO3l73LVZNfcVyE8zf4AWqidEL6-S9nor3dPpgAl7-Xf1D73bxPliN_Vco",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 3,
+        "imageUrl": "https://www.youtube.com/watch?v=7Uh_bBWk-Fw&t=306s"
+      },
+      {
+        "imageType": 13,
+        "imageUrl": "https://i.ytimg.com/vi/7Uh_bBWk-Fw/hqdefault.jpg",
+        "supportsFifeUrlOptions": false
+      },
+      {
+        "dimension": {
+          "height": 2220,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/gXSK97kswXGZiSfsXeNmd47apPhlZpZoL-vO3arjPZ5PPtzKWLfPuwPhasC210AAToE2",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2220,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/xZ8Bs4JODUhw0eM4Ir7BwczmvKqVZpdysF4F-cSNMaYIzndlJfz567wZX45IiTKpHt4",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2560,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/F0QPZh7cpEc2ESWTcH0B3V3oBkwL3VtO4TGCAnGx-N4KpCZP9wliBSdk_ZquaOWoO5w_",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2400,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/JejFhpm4mazupmxEDCORx5gTudTtHc9nlJWk0lKmIKCgOQSsCxRaDY5-5pytgmIdvD8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2400,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Fzwpcv7KyutRf7V7UliTpuEdVWwoyY8IqzV5JzrkMia0M0jEkhdHKBy9wFIF8Jx1FBA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2220,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/eOqqpOzrt9ln1vbZERopQ67CfU6pLzek80rHOVCbvi10mf1XBNy1vCeQ84x-uXI6-oc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2220,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/kCcaTroAiv8bE3df2Yx0MGeMs0nAi0KTMVIe5yM3ymt8Plme3VJNFj7Jpw69v4QJGQ",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://docs.google.com/document/d/1qXRWKKa8uTHgJIpGD0uyXmHuKVd0DBqRyuc-t_Ndb_s/edit?usp=sharing",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=appinventor.ai_stamshemtal.NoGa_1_22_18_No_Map",
+    "reviewsUrl": "rev?doc=appinventor.ai_stamshemtal.NoGa_1_22_18_No_Map&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=appinventor.ai_stamshemtal.NoGa_1_22_18_No_Map",
+    "title": "NoGa Cell 2G 3G 4G",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "tappstoall@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Israel<br/>Hamerkaz<br/>"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "16 Apr 2018"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "69",
+      "fiveStarRatings": "59",
+      "fourStarRatings": "13",
+      "oneStarRatings": "7",
+      "ratingsCount": "104",
+      "starRating": 4.1,
+      "threeStarRatings": "20",
+      "twoStarRatings": "3",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-04-02 09:56:21.058718",
+    "backendDocid": "appinventor.ai_stamshemtal.NoGa_1_22_18_No_Map",
+    "backendId": 3,
+    "creator": "TAppsToAll",
+    "descriptionHtml": "In Android 10/11 The Parameters Dont Refresh Often , Google Stoped It From Working, Sorry!<br>The App Shows The Network Parameters Of The Serving Operator And <br>Neighbor Cells<br>Like: <br>LAC<br>CID<br>TA<br>BSIC<br>PSC<br>PCI<br>Arfcn<br>UArfcn<br>Earfcn<br>Rssi<br>Rsrp<br>Rsrq<br>TA<br>IMEI<br>IMSI (api 28)<br>IP<br>Internet Connection<br>Wifi Connection<br>Mobile Connection<br>Map And Features<br><br>And Lets You Search For A Specific Parameter.<br>The App Supports 2G(Gsm) 3G(Wcdma) 4G(LTE).<br>The app let&#39;s you lock the phone to 4G only.<br>The app let&#39;s you lock the phone to 3G only.<br>The app let&#39;s you lock the phone to 2G only.<br><br><br><br><br>NOTE: this app will not work with devices that don&#39;t support the standard Android API getAllCellInfo().<br><br>Tested On Samsung Galaxy S6 (Missing Parameters), Galaxy Note 8(except RSSI In 2G ), LG G5, Nexus P6 , Google Pixel (XL), Xiaomi Mi 4, Samsung J5(2016) SM-510F<br>, Samsung S9+(except RSSI In 2G) ;Galaxy S8 , Galaxy A8 - All On Specific Model Types.<br>You can Write InThe Review If Your Phone Is Supported And You See All Parameters.<br><br><br>Special Thanks To:<br>Taifun B\u00e4r -  https://puravidaapps.com <br>Andres Cotes <br>Extension Developers<br><br><br>No Information is Shared.<br>Location Is For The User Only.<br>Enjoy!",
+    "descriptionShort": "Field Test App For 2G(Gsm) 3G(Wcdma) 4G(LTE) Networks",
+    "details": {
+      "appDetails": {
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown1": 2,
+          "unknown2": "6811508",
+          "unknown3": 30
+        },
+        "developerAddress": "Israel<br/>Hamerkaz<br/>",
+        "developerEmail": "tappstoall@gmail.com",
+        "developerName": "TAppsToAll",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "6811508",
+            "versionCode": 32
+          }
+        ],
+        "installationSize": "6811508",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "appinventor.ai_stamshemtal.NoGa_1_22_18_No_Map",
+        "permission": [
+          "android.permission.ACCESS_COARSE_LOCATION",
+          "android.permission.ACCESS_FINE_LOCATION",
+          "android.permission.ACCESS_LOCATION_EXTRA_COMMANDS",
+          "android.permission.ACCESS_MOCK_LOCATION",
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.INTERNET",
+          "android.permission.PACKAGE_USAGE_STATS",
+          "android.permission.QUERY_ALL_PACKAGES",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.providers.gsf.permission.READ_GSERVICES",
+          "io.kodular.tappstoall.NoGa_PlayStore.permission.MAPS_RECEIVE"
+        ],
+        "recentChangesHtml": "New Data Network Usage Meter Up Down",
+        "unstable": false,
+        "uploadDate": "24 Mar 2022",
+        "versionCode": 32,
+        "versionString": "10.3.2022"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=appinventor.ai_stamshemtal.NoGa_1_22_18_No_Map",
+    "docType": 1,
+    "docid": "appinventor.ai_stamshemtal.NoGa_1_22_18_No_Map",
+    "image": [
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/eay0dyr016NcEHKa_5axew_SXg8DUEe3sGlTKDqRMtpasVNubxRWVt4ME5zhGrTCaeA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#000000",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/jivAEmBfbrO3l73LVZNfcVyE8zf4AWqidEL6-S9nor3dPpgAl7-Xf1D73bxPliN_Vco",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 3,
+        "imageUrl": "https://www.youtube.com/watch?v=7Uh_bBWk-Fw&t=306s"
+      },
+      {
+        "imageType": 13,
+        "imageUrl": "https://i.ytimg.com/vi/7Uh_bBWk-Fw/hqdefault.jpg",
+        "supportsFifeUrlOptions": false
+      },
+      {
+        "dimension": {
+          "height": 2220,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/gXSK97kswXGZiSfsXeNmd47apPhlZpZoL-vO3arjPZ5PPtzKWLfPuwPhasC210AAToE2",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2220,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/xZ8Bs4JODUhw0eM4Ir7BwczmvKqVZpdysF4F-cSNMaYIzndlJfz567wZX45IiTKpHt4",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2560,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/F0QPZh7cpEc2ESWTcH0B3V3oBkwL3VtO4TGCAnGx-N4KpCZP9wliBSdk_ZquaOWoO5w_",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2400,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/JejFhpm4mazupmxEDCORx5gTudTtHc9nlJWk0lKmIKCgOQSsCxRaDY5-5pytgmIdvD8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2400,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Fzwpcv7KyutRf7V7UliTpuEdVWwoyY8IqzV5JzrkMia0M0jEkhdHKBy9wFIF8Jx1FBA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2220,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/eOqqpOzrt9ln1vbZERopQ67CfU6pLzek80rHOVCbvi10mf1XBNy1vCeQ84x-uXI6-oc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2220,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/kCcaTroAiv8bE3df2Yx0MGeMs0nAi0KTMVIe5yM3ymt8Plme3VJNFj7Jpw69v4QJGQ",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://docs.google.com/document/d/1qXRWKKa8uTHgJIpGD0uyXmHuKVd0DBqRyuc-t_Ndb_s/edit?usp=sharing",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=appinventor.ai_stamshemtal.NoGa_1_22_18_No_Map",
+    "reviewsUrl": "rev?doc=appinventor.ai_stamshemtal.NoGa_1_22_18_No_Map&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=appinventor.ai_stamshemtal.NoGa_1_22_18_No_Map",
+    "title": "NoGa Cell 2G 3G 4G",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "tappstoall@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Israel<br/>Hamerkaz<br/>"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "16 Apr 2018"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  }
+]

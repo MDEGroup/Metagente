@@ -1,0 +1,1823 @@
+[
+  {
+    "aggregateRating": {
+      "commentCount": "67",
+      "fiveStarRatings": "71",
+      "fourStarRatings": "12",
+      "oneStarRatings": "2",
+      "ratingsCount": "92",
+      "starRating": 4.59782600402832,
+      "threeStarRatings": "4",
+      "twoStarRatings": "3",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-06-01 22:02:37.629816",
+    "backendDocid": "tk.horiuchi.pokecom2",
+    "backendId": 3,
+    "creator": "\u30c7\u30b8\u30db\u30ea\u5de5\u623f",
+    "descriptionHtml": "This is a simulator of CASIO&#39;s Pocket Computer PB-100.<br>It reproduces the unique BASIC of the PB-100 generation.<br>(Omitting the closing parentheses of calculation formula,<br> using variables in the destination of GOTO, etc. ..)<br>You can input and output BASIC text file by load and save menu.<br>And sound data compatible with cassette I / F is analog output by SAVE command.<br><br>\uff1cSupported BASIC instraction\uff1e<br>PRINT<br>INPUT<br>GOTO<br>GOSUB-RETURN<br>FOR-TO-STEP-NEXT<br>IF-THEN/IF-;<br>VAC<br>CLEAR/CLEAR A<br>RUN<br>LIST<br>END<br>KEY<br>CSR<br>DEFM<br>MID<br>VAL<br>SIN/COS/TAN/ASN/ACS/ATN<br>LOG/LN/EXP/SQR<br>ABS<br>SGN<br>INT<br>FRAC<br>RND<br>RAN#<br>STOP<br>SAVE<br>ON GOTO / ON GOSUB<br>READ DATA RESTORE<br>STR$<br>KEY$<br>MID$<br>BEEP<br>LET<br><br>\uff1cSetting menu\uff1e<br>\u30fbcpu clock emulate<br>\u3000Putting some wait of execution and realize the operation close<br>\u3000to the actual machine.<br>\u30fbmemory unit<br>\u3000Setting whether extended memory exists or not.<br>\u3000It only changes the remaining memory display.<br>\u30fbUI design<br>\u3000When set to &#39;PB-100 compatible&#39; it will be like PB-100.<br>\u3000When set to &#39;PB-100 custom&#39; the &#39;F&#39;key and &#39;\u2191&#39;,&#39;\u2193&#39;key is enabled.<br>\u30fbviblation<br>\u3000It vibrates when the key is pressed.<br>\u30fbdebug<br>\u3000It displays debug messages and a frame of software keys.<br><br>\uff1cAbout Special Symbols\uff1e<br>In the input/output file, PB special symbols are converted to escape characters.<br>Invalid except ASCII code.<br><br>\\\\  \u00a5<br>\\LE(or &lt;=) Less Equal<br>\\NE(or &lt;&gt;) Not Equal<br>\\GE(or &gt;=) Greater Equal<br>\\LA Left Arrow<br>\\DA Down Arrow<br>\\RA Right Arrow<br>\\UA Up Arrow<br>\\PI PI<br>\\EX EXponent<br>\\CI CIrcle<br>\\SQ SQuare<br>\\TR TRiangle<br>\\CR CRoss<br>\\DV DiVide<br>\\DT DoT<br>\\DG DeGree<br>\\SP SPade<br>\\HT HearT<br>\\DI DIa<br>\\CL CLover<br>\\BX Box<br>\\SG SiGma<br>\\OM OMega<br>\\MU MU<br><br>\uff1cOther\uff1e<br>Spaces between instructions and parameters can be omitted.<br>(ex.)<br>PRINT CSR1;&quot;ABC&quot;<br>SINA<br>etc.<br><br>If you press the &#39;\u2190&#39; key after manual calculation,<br>the previous command will be displayed.<br>Step count calculation is not accurate. There are some errors with the actual machine.<br>Program trace execution is not implemented yet.<br>Moreover, the program can not resume after interruption. It will only be finished.",
+    "descriptionShort": "Simulator of CASIO's Pocket Computer(PB-100)",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown2": "1514338",
+          "unknown3": 28
+        },
+        "developerEmail": "yo6987@gmail.com",
+        "developerName": "\u30c7\u30b8\u30db\u30ea\u5de5\u623f",
+        "developerWebsite": "https://digihori.jimdo.com/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "1417604",
+            "versionCode": 36
+          },
+          {
+            "fileType": 0,
+            "size": "71812",
+            "versionCode": 36
+          },
+          {
+            "fileType": 0,
+            "size": "24922",
+            "versionCode": 36
+          }
+        ],
+        "installationSize": "1514338",
+        "numDownloads": "5,000+ downloads",
+        "packageName": "tk.horiuchi.pokecom2",
+        "permission": [
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.VIBRATE",
+          "android.permission.WRITE_EXTERNAL_STORAGE"
+        ],
+        "recentChangesHtml": "Fixed a bug that the INPUT parameter does not work properly when arrayed.",
+        "unstable": false,
+        "uploadDate": "3 May 2020",
+        "versionCode": 36,
+        "versionString": "1.04.05"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=tk.horiuchi.pokecom2",
+    "docType": 1,
+    "docid": "tk.horiuchi.pokecom2",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://lh3.googleusercontent.com/dDSVodk-dksG90eNvwH0XYeiVA2benvSte81Mo7al47XyvkRi3b2_luesa9fGzqYobg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://lh3.googleusercontent.com/w-2fFLx4E2e2HZ-FcsLQ5sRPS4Tmnwl8Z1aqD-sxt9OOn6t3gPCZFzjtfIxiagJ4wg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 3,
+        "imageUrl": "https://www.youtube.com/watch?v=9dsPDRsPK-s"
+      },
+      {
+        "imageType": 13,
+        "imageUrl": "https://i.ytimg.com/vi/9dsPDRsPK-s/hqdefault.jpg",
+        "supportsFifeUrlOptions": false
+      },
+      {
+        "dimension": {
+          "height": 768,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/c6_m0e-7qtSOPqtBGrQwu3di2PWAJ0g73LH3mL0dQHecBMr3_3HE40ccCWE1CGLzkos",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 768,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/h1RIGEf-Cvvq6mYpbis4vnE6Y0vYy1JROVbn2g0TgPtMLCjdBeDpl1EVxPmALp2zuMpF",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 768,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/5sBKCh8BMnqU_WsBYi9dVp7TWq2ZCAT94HSF0Usfublnybx88PDd3hOma1Ozv4C3ooZc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1200,
+          "width": 1920
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/oX9siCq1mpY9HF9bYRPNRoT71qNKsX4JSe_XWcq3HG9cTtKrtDpAVYmGZCSbbwpXW4k",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1600,
+          "width": 2560
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/cf6eYMDcEeD8ODe8Jbc2NdJ_TdhD56Slr59rv6D6GoTk86CR-LCGyKmjiRotESoGJ8bO",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://lh3.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=tk.horiuchi.pokecom2",
+    "reviewsUrl": "rev?doc=tk.horiuchi.pokecom2&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=tk.horiuchi.pokecom2",
+    "title": "PokecomGO2 - CASIO Pocket computer simulator",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "yo6987@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "8 Jan 2018"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "67",
+      "fiveStarRatings": "71",
+      "fourStarRatings": "12",
+      "oneStarRatings": "3",
+      "ratingsCount": "93",
+      "starRating": 4.5591397,
+      "threeStarRatings": "4",
+      "twoStarRatings": "3",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-08-30 08:14:31.768716",
+    "backendDocid": "tk.horiuchi.pokecom2",
+    "backendId": 3,
+    "creator": "\u30c7\u30b8\u30db\u30ea\u5de5\u623f",
+    "descriptionHtml": "This is a simulator of CASIO&#39;s Pocket Computer PB-100.<br>It reproduces the unique BASIC of the PB-100 generation.<br>(Omitting the closing parentheses of calculation formula,<br> using variables in the destination of GOTO, etc. ..)<br>You can input and output BASIC text file by load and save menu.<br>And sound data compatible with cassette I / F is analog output by SAVE command.<br><br>\uff1cSupported BASIC instraction\uff1e<br>PRINT<br>INPUT<br>GOTO<br>GOSUB-RETURN<br>FOR-TO-STEP-NEXT<br>IF-THEN/IF-;<br>VAC<br>CLEAR/CLEAR A<br>RUN<br>LIST<br>END<br>KEY<br>CSR<br>DEFM<br>MID<br>VAL<br>SIN/COS/TAN/ASN/ACS/ATN<br>LOG/LN/EXP/SQR<br>ABS<br>SGN<br>INT<br>FRAC<br>RND<br>RAN#<br>STOP<br>SAVE<br>ON GOTO / ON GOSUB<br>READ DATA RESTORE<br>STR$<br>KEY$<br>MID$<br>BEEP<br>LET<br><br>\uff1cSetting menu\uff1e<br>\u30fbcpu clock emulate<br>\u3000Putting some wait of execution and realize the operation close<br>\u3000to the actual machine.<br>\u30fbmemory unit<br>\u3000Setting whether extended memory exists or not.<br>\u3000It only changes the remaining memory display.<br>\u30fbUI design<br>\u3000When set to &#39;PB-100 compatible&#39; it will be like PB-100.<br>\u3000When set to &#39;PB-100 custom&#39; the &#39;F&#39;key and &#39;\u2191&#39;,&#39;\u2193&#39;key is enabled.<br>\u30fbviblation<br>\u3000It vibrates when the key is pressed.<br>\u30fbdebug<br>\u3000It displays debug messages and a frame of software keys.<br><br>\uff1cAbout Special Symbols\uff1e<br>In the input/output file, PB special symbols are converted to escape characters.<br>Invalid except ASCII code.<br><br>\\\\  \u00a5<br>\\LE(or &lt;=) Less Equal<br>\\NE(or &lt;&gt;) Not Equal<br>\\GE(or &gt;=) Greater Equal<br>\\LA Left Arrow<br>\\DA Down Arrow<br>\\RA Right Arrow<br>\\UA Up Arrow<br>\\PI PI<br>\\EX EXponent<br>\\CI CIrcle<br>\\SQ SQuare<br>\\TR TRiangle<br>\\CR CRoss<br>\\DV DiVide<br>\\DT DoT<br>\\DG DeGree<br>\\SP SPade<br>\\HT HearT<br>\\DI DIa<br>\\CL CLover<br>\\BX Box<br>\\SG SiGma<br>\\OM OMega<br>\\MU MU<br><br>\uff1cOther\uff1e<br>Spaces between instructions and parameters can be omitted.<br>(ex.)<br>PRINT CSR1;&quot;ABC&quot;<br>SINA<br>etc.<br><br>If you press the &#39;\u2190&#39; key after manual calculation,<br>the previous command will be displayed.<br>Step count calculation is not accurate. There are some errors with the actual machine.<br>Program trace execution is not implemented yet.<br>Moreover, the program can not resume after interruption. It will only be finished.",
+    "descriptionShort": "Simulator of CASIO's Pocket Computer(PB-100)",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown2": "1522530",
+          "unknown3": 29
+        },
+        "developerEmail": "yo6987@gmail.com",
+        "developerName": "\u30c7\u30b8\u30db\u30ea\u5de5\u623f",
+        "developerWebsite": "https://digihori.jimdo.com/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "1417604",
+            "versionCode": 37
+          },
+          {
+            "fileType": 0,
+            "size": "75908",
+            "versionCode": 37
+          },
+          {
+            "fileType": 0,
+            "size": "29018",
+            "versionCode": 37
+          }
+        ],
+        "installationSize": "1522530",
+        "numDownloads": "5,000+ downloads",
+        "packageName": "tk.horiuchi.pokecom2",
+        "permission": [
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.VIBRATE",
+          "android.permission.WRITE_EXTERNAL_STORAGE"
+        ],
+        "recentChangesHtml": "Supports SDK version 29.",
+        "unstable": false,
+        "uploadDate": "29 Aug 2020",
+        "versionCode": 37,
+        "versionString": "1.05.00"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=tk.horiuchi.pokecom2",
+    "docType": 1,
+    "docid": "tk.horiuchi.pokecom2",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://lh3.googleusercontent.com/dDSVodk-dksG90eNvwH0XYeiVA2benvSte81Mo7al47XyvkRi3b2_luesa9fGzqYobg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://lh3.googleusercontent.com/w-2fFLx4E2e2HZ-FcsLQ5sRPS4Tmnwl8Z1aqD-sxt9OOn6t3gPCZFzjtfIxiagJ4wg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 3,
+        "imageUrl": "https://www.youtube.com/watch?v=9dsPDRsPK-s"
+      },
+      {
+        "imageType": 13,
+        "imageUrl": "https://i.ytimg.com/vi/9dsPDRsPK-s/hqdefault.jpg",
+        "supportsFifeUrlOptions": false
+      },
+      {
+        "dimension": {
+          "height": 768,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/c6_m0e-7qtSOPqtBGrQwu3di2PWAJ0g73LH3mL0dQHecBMr3_3HE40ccCWE1CGLzkos",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 768,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/h1RIGEf-Cvvq6mYpbis4vnE6Y0vYy1JROVbn2g0TgPtMLCjdBeDpl1EVxPmALp2zuMpF",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 768,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/5sBKCh8BMnqU_WsBYi9dVp7TWq2ZCAT94HSF0Usfublnybx88PDd3hOma1Ozv4C3ooZc",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=tk.horiuchi.pokecom2",
+    "reviewsUrl": "rev?doc=tk.horiuchi.pokecom2&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=tk.horiuchi.pokecom2",
+    "title": "PokecomGO2 - CASIO Pocket computer simulator",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "yo6987@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "8 Jan 2018"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "70",
+      "fiveStarRatings": "77",
+      "fourStarRatings": "12",
+      "oneStarRatings": "3",
+      "ratingsCount": "101",
+      "starRating": 4.55,
+      "threeStarRatings": "3",
+      "twoStarRatings": "5",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-12-19 08:34:19.307563",
+    "backendDocid": "tk.horiuchi.pokecom2",
+    "backendId": 3,
+    "creator": "\u30c7\u30b8\u30db\u30ea\u5de5\u623f",
+    "descriptionHtml": "This is a simulator of CASIO&#39;s Pocket Computer PB-100.<br>It reproduces the unique BASIC of the PB-100 generation.<br>(Omitting the closing parentheses of calculation formula,<br> using variables in the destination of GOTO, etc. ..)<br>You can input and output BASIC text file by load and save menu.<br>And sound data compatible with cassette I / F is analog output by SAVE command.<br><br>\uff1cSupported BASIC instraction\uff1e<br>PRINT<br>INPUT<br>GOTO<br>GOSUB-RETURN<br>FOR-TO-STEP-NEXT<br>IF-THEN/IF-;<br>VAC<br>CLEAR/CLEAR A<br>RUN<br>LIST<br>END<br>KEY<br>CSR<br>DEFM<br>MID<br>VAL<br>SIN/COS/TAN/ASN/ACS/ATN<br>LOG/LN/EXP/SQR<br>ABS<br>SGN<br>INT<br>FRAC<br>RND<br>RAN#<br>STOP<br>SAVE<br>ON GOTO / ON GOSUB<br>READ DATA RESTORE<br>STR$<br>KEY$<br>MID$<br>BEEP<br>LET<br><br>\uff1cSetting menu\uff1e<br>\u30fbcpu clock emulate<br>\u3000Putting some wait of execution and realize the operation close<br>\u3000to the actual machine.<br>\u30fbmemory unit<br>\u3000Setting whether extended memory exists or not.<br>\u3000It only changes the remaining memory display.<br>\u30fbUI design<br>\u3000When set to &#39;PB-100 compatible&#39; it will be like PB-100.<br>\u3000When set to &#39;PB-100 custom&#39; the &#39;F&#39;key and &#39;\u2191&#39;,&#39;\u2193&#39;key is enabled.<br>\u30fbviblation<br>\u3000It vibrates when the key is pressed.<br>\u30fbdebug<br>\u3000It displays debug messages and a frame of software keys.<br><br>\uff1cAbout Special Symbols\uff1e<br>In the input/output file, PB special symbols are converted to escape characters.<br>Invalid except ASCII code.<br><br>\\\\  \u00a5<br>\\LE(or &lt;=) Less Equal<br>\\NE(or &lt;&gt;) Not Equal<br>\\GE(or &gt;=) Greater Equal<br>\\LA Left Arrow<br>\\DA Down Arrow<br>\\RA Right Arrow<br>\\UA Up Arrow<br>\\PI PI<br>\\EX EXponent<br>\\CI CIrcle<br>\\SQ SQuare<br>\\TR TRiangle<br>\\CR CRoss<br>\\DV DiVide<br>\\DT DoT<br>\\DG DeGree<br>\\SP SPade<br>\\HT HearT<br>\\DI DIa<br>\\CL CLover<br>\\BX Box<br>\\SG SiGma<br>\\OM OMega<br>\\MU MU<br><br>\uff1cOther\uff1e<br>Spaces between instructions and parameters can be omitted.<br>(ex.)<br>PRINT CSR1;&quot;ABC&quot;<br>SINA<br>etc.<br><br>If you press the &#39;\u2190&#39; key after manual calculation,<br>the previous command will be displayed.<br>Step count calculation is not accurate. There are some errors with the actual machine.<br>Program trace execution is not implemented yet.<br>Moreover, the program can not resume after interruption. It will only be finished.",
+    "descriptionShort": "Simulator of CASIO's Pocket Computer(PB-100)",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown2": "1543199",
+          "unknown3": 29
+        },
+        "developerEmail": "yo6987@gmail.com",
+        "developerName": "\u30c7\u30b8\u30db\u30ea\u5de5\u623f",
+        "developerWebsite": "https://digihori.jimdo.com/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "1429955",
+            "versionCode": 38
+          },
+          {
+            "fileType": 0,
+            "size": "80067",
+            "versionCode": 38
+          },
+          {
+            "fileType": 0,
+            "size": "33177",
+            "versionCode": 38
+          }
+        ],
+        "installationSize": "1543199",
+        "numDownloads": "5,000+ downloads",
+        "packageName": "tk.horiuchi.pokecom2",
+        "permission": [
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.VIBRATE",
+          "android.permission.WRITE_EXTERNAL_STORAGE"
+        ],
+        "recentChangesHtml": "Fixed bug for a trigonometric function calculation errors.",
+        "unstable": false,
+        "uploadDate": "18 Dec 2020",
+        "versionCode": 38,
+        "versionString": "1.05.01"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=tk.horiuchi.pokecom2",
+    "docType": 1,
+    "docid": "tk.horiuchi.pokecom2",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/dDSVodk-dksG90eNvwH0XYeiVA2benvSte81Mo7al47XyvkRi3b2_luesa9fGzqYobg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/w-2fFLx4E2e2HZ-FcsLQ5sRPS4Tmnwl8Z1aqD-sxt9OOn6t3gPCZFzjtfIxiagJ4wg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 3,
+        "imageUrl": "https://www.youtube.com/watch?v=9dsPDRsPK-s"
+      },
+      {
+        "imageType": 13,
+        "imageUrl": "https://i.ytimg.com/vi/9dsPDRsPK-s/hqdefault.jpg",
+        "supportsFifeUrlOptions": false
+      },
+      {
+        "dimension": {
+          "height": 768,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/c6_m0e-7qtSOPqtBGrQwu3di2PWAJ0g73LH3mL0dQHecBMr3_3HE40ccCWE1CGLzkos",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 768,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/h1RIGEf-Cvvq6mYpbis4vnE6Y0vYy1JROVbn2g0TgPtMLCjdBeDpl1EVxPmALp2zuMpF",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 768,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/5sBKCh8BMnqU_WsBYi9dVp7TWq2ZCAT94HSF0Usfublnybx88PDd3hOma1Ozv4C3ooZc",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=tk.horiuchi.pokecom2",
+    "reviewsUrl": "rev?doc=tk.horiuchi.pokecom2&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=tk.horiuchi.pokecom2",
+    "title": "PokecomGO2 - CASIO Pocket computer simulator",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "yo6987@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "8 Jan 2018"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "71",
+      "fiveStarRatings": "78",
+      "fourStarRatings": "12",
+      "oneStarRatings": "3",
+      "ratingsCount": "102",
+      "starRating": 4.55,
+      "threeStarRatings": "3",
+      "twoStarRatings": "5",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-02-08 07:08:07.108574",
+    "backendDocid": "tk.horiuchi.pokecom2",
+    "backendId": 3,
+    "creator": "\u30c7\u30b8\u30db\u30ea\u5de5\u623f",
+    "descriptionHtml": "This is a simulator of CASIO&#39;s Pocket Computer PB-100.<br>It reproduces the unique BASIC of the PB-100 generation.<br>(Omitting the closing parentheses of calculation formula,<br> using variables in the destination of GOTO, etc. ..)<br>You can input and output BASIC text file by load and save menu.<br>And sound data compatible with cassette I / F is analog output by SAVE command.<br><br>\uff1cSupported BASIC instraction\uff1e<br>PRINT<br>INPUT<br>GOTO<br>GOSUB-RETURN<br>FOR-TO-STEP-NEXT<br>IF-THEN/IF-;<br>VAC<br>CLEAR/CLEAR A<br>RUN<br>LIST<br>END<br>KEY<br>CSR<br>DEFM<br>MID<br>VAL<br>SIN/COS/TAN/ASN/ACS/ATN<br>LOG/LN/EXP/SQR<br>ABS<br>SGN<br>INT<br>FRAC<br>RND<br>RAN#<br>STOP<br>SAVE<br>ON GOTO / ON GOSUB<br>READ DATA RESTORE<br>STR$<br>KEY$<br>MID$<br>BEEP<br>LET<br><br>\uff1cSetting menu\uff1e<br>\u30fbcpu clock emulate<br>\u3000Putting some wait of execution and realize the operation close<br>\u3000to the actual machine.<br>\u30fbmemory unit<br>\u3000Setting whether extended memory exists or not.<br>\u3000It only changes the remaining memory display.<br>\u30fbUI design<br>\u3000When set to &#39;PB-100 compatible&#39; it will be like PB-100.<br>\u3000When set to &#39;PB-100 custom&#39; the &#39;F&#39;key and &#39;\u2191&#39;,&#39;\u2193&#39;key is enabled.<br>\u30fbviblation<br>\u3000It vibrates when the key is pressed.<br>\u30fbdebug<br>\u3000It displays debug messages and a frame of software keys.<br><br>\uff1cAbout Special Symbols\uff1e<br>In the input/output file, PB special symbols are converted to escape characters.<br>Invalid except ASCII code.<br><br>\\\\  \u00a5<br>\\LE(or &lt;=) Less Equal<br>\\NE(or &lt;&gt;) Not Equal<br>\\GE(or &gt;=) Greater Equal<br>\\LA Left Arrow<br>\\DA Down Arrow<br>\\RA Right Arrow<br>\\UA Up Arrow<br>\\PI PI<br>\\EX EXponent<br>\\CI CIrcle<br>\\SQ SQuare<br>\\TR TRiangle<br>\\CR CRoss<br>\\DV DiVide<br>\\DT DoT<br>\\DG DeGree<br>\\SP SPade<br>\\HT HearT<br>\\DI DIa<br>\\CL CLover<br>\\BX Box<br>\\SG SiGma<br>\\OM OMega<br>\\MU MU<br><br>\uff1cOther\uff1e<br>Spaces between instructions and parameters can be omitted.<br>(ex.)<br>PRINT CSR1;&quot;ABC&quot;<br>SINA<br>etc.<br><br>If you press the &#39;\u2190&#39; key after manual calculation,<br>the previous command will be displayed.<br>Step count calculation is not accurate. There are some errors with the actual machine.<br>Program trace execution is not implemented yet.<br>Moreover, the program can not resume after interruption. It will only be finished.",
+    "descriptionShort": "Simulator of CASIO's Pocket Computer(PB-100)",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown2": "1543199",
+          "unknown3": 29
+        },
+        "developerEmail": "yo6987@gmail.com",
+        "developerName": "\u30c7\u30b8\u30db\u30ea\u5de5\u623f",
+        "developerWebsite": "https://digihori.jimdo.com/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "1429955",
+            "versionCode": 39
+          },
+          {
+            "fileType": 0,
+            "size": "80067",
+            "versionCode": 39
+          },
+          {
+            "fileType": 0,
+            "size": "33177",
+            "versionCode": 39
+          }
+        ],
+        "installationSize": "1543199",
+        "numDownloads": "5,000+ downloads",
+        "packageName": "tk.horiuchi.pokecom2",
+        "permission": [
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.VIBRATE",
+          "android.permission.WRITE_EXTERNAL_STORAGE"
+        ],
+        "recentChangesHtml": "Support for file permissions on Android 10 and later.<br>Fixed the settings screen and other screens to landscape mode.",
+        "unstable": false,
+        "uploadDate": "5 Feb 2021",
+        "versionCode": 39,
+        "versionString": "1.05.02"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=tk.horiuchi.pokecom2",
+    "docType": 1,
+    "docid": "tk.horiuchi.pokecom2",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/dDSVodk-dksG90eNvwH0XYeiVA2benvSte81Mo7al47XyvkRi3b2_luesa9fGzqYobg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/w-2fFLx4E2e2HZ-FcsLQ5sRPS4Tmnwl8Z1aqD-sxt9OOn6t3gPCZFzjtfIxiagJ4wg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 3,
+        "imageUrl": "https://www.youtube.com/watch?v=9dsPDRsPK-s"
+      },
+      {
+        "imageType": 13,
+        "imageUrl": "https://i.ytimg.com/vi/9dsPDRsPK-s/hqdefault.jpg",
+        "supportsFifeUrlOptions": false
+      },
+      {
+        "dimension": {
+          "height": 768,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/c6_m0e-7qtSOPqtBGrQwu3di2PWAJ0g73LH3mL0dQHecBMr3_3HE40ccCWE1CGLzkos",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 768,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/h1RIGEf-Cvvq6mYpbis4vnE6Y0vYy1JROVbn2g0TgPtMLCjdBeDpl1EVxPmALp2zuMpF",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 768,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/5sBKCh8BMnqU_WsBYi9dVp7TWq2ZCAT94HSF0Usfublnybx88PDd3hOma1Ozv4C3ooZc",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=tk.horiuchi.pokecom2",
+    "reviewsUrl": "rev?doc=tk.horiuchi.pokecom2&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=tk.horiuchi.pokecom2",
+    "title": "PokecomGO2 - CASIO Pocket computer simulator",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "\u30c7\u30b8\u30db\u30ea\u5de5\u623f"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "yo6987@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "8 Jan 2018"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "72",
+      "fiveStarRatings": "80",
+      "fourStarRatings": "12",
+      "oneStarRatings": "3",
+      "ratingsCount": "104",
+      "starRating": 4.5643563,
+      "threeStarRatings": "4",
+      "twoStarRatings": "4",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-03-01 17:07:12.203367",
+    "backendDocid": "tk.horiuchi.pokecom2",
+    "backendId": 3,
+    "creator": "\u30c7\u30b8\u30db\u30ea\u5de5\u623f",
+    "descriptionHtml": "This is a simulator of CASIO&#39;s Pocket Computer PB-100.<br>It reproduces the unique BASIC of the PB-100 generation.<br>(Omitting the closing parentheses of calculation formula,<br> using variables in the destination of GOTO, etc. ..)<br>You can input and output BASIC text file by load and save menu.<br>And sound data compatible with cassette I / F is analog output by SAVE command.<br><br>\uff1cSupported BASIC instraction\uff1e<br>PRINT<br>INPUT<br>GOTO<br>GOSUB-RETURN<br>FOR-TO-STEP-NEXT<br>IF-THEN/IF-;<br>VAC<br>CLEAR/CLEAR A<br>RUN<br>LIST<br>END<br>KEY<br>CSR<br>DEFM<br>MID<br>VAL<br>SIN/COS/TAN/ASN/ACS/ATN<br>LOG/LN/EXP/SQR<br>ABS<br>SGN<br>INT<br>FRAC<br>RND<br>RAN#<br>STOP<br>SAVE<br>ON GOTO / ON GOSUB<br>READ DATA RESTORE<br>STR$<br>KEY$<br>MID$<br>BEEP<br>LET<br><br>\uff1cSetting menu\uff1e<br>\u30fbcpu clock emulate<br>\u3000Putting some wait of execution and realize the operation close<br>\u3000to the actual machine.<br>\u30fbmemory unit<br>\u3000Setting whether extended memory exists or not.<br>\u3000It only changes the remaining memory display.<br>\u30fbUI design<br>\u3000When set to &#39;PB-100 compatible&#39; it will be like PB-100.<br>\u3000When set to &#39;PB-100 custom&#39; the &#39;F&#39;key and &#39;\u2191&#39;,&#39;\u2193&#39;key is enabled.<br>\u30fbviblation<br>\u3000It vibrates when the key is pressed.<br>\u30fbdebug<br>\u3000It displays debug messages and a frame of software keys.<br><br>\uff1cAbout Special Symbols\uff1e<br>In the input/output file, PB special symbols are converted to escape characters.<br>Invalid except ASCII code.<br><br>\\\\  \u00a5<br>\\LE(or &lt;=) Less Equal<br>\\NE(or &lt;&gt;) Not Equal<br>\\GE(or &gt;=) Greater Equal<br>\\LA Left Arrow<br>\\DA Down Arrow<br>\\RA Right Arrow<br>\\UA Up Arrow<br>\\PI PI<br>\\EX EXponent<br>\\CI CIrcle<br>\\SQ SQuare<br>\\TR TRiangle<br>\\CR CRoss<br>\\DV DiVide<br>\\DT DoT<br>\\DG DeGree<br>\\SP SPade<br>\\HT HearT<br>\\DI DIa<br>\\CL CLover<br>\\BX Box<br>\\SG SiGma<br>\\OM OMega<br>\\MU MU<br><br>\uff1cOther\uff1e<br>Spaces between instructions and parameters can be omitted.<br>(ex.)<br>PRINT CSR1;&quot;ABC&quot;<br>SINA<br>etc.<br><br>If you press the &#39;\u2190&#39; key after manual calculation,<br>the previous command will be displayed.<br>Step count calculation is not accurate. There are some errors with the actual machine.<br>Program trace execution is not implemented yet.<br>Moreover, the program can not resume after interruption. It will only be finished.",
+    "descriptionShort": "Simulator of CASIO's Pocket Computer(PB-100)",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown2": "1564088",
+          "unknown3": 29
+        },
+        "developerEmail": "yo6987@gmail.com",
+        "developerName": "\u30c7\u30b8\u30db\u30ea\u5de5\u623f",
+        "developerWebsite": "https://digihori.jimdo.com/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "1429955",
+            "versionCode": 40
+          },
+          {
+            "fileType": 0,
+            "size": "80067",
+            "versionCode": 40
+          },
+          {
+            "fileType": 0,
+            "size": "20889",
+            "versionCode": 40
+          },
+          {
+            "fileType": 0,
+            "size": "33177",
+            "versionCode": 40
+          }
+        ],
+        "installationSize": "1564088",
+        "numDownloads": "5,000+ downloads",
+        "packageName": "tk.horiuchi.pokecom2",
+        "permission": [
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.VIBRATE",
+          "android.permission.WRITE_EXTERNAL_STORAGE"
+        ],
+        "recentChangesHtml": "Fixed a bug in the RND function.",
+        "unstable": false,
+        "uploadDate": "28 Feb 2021",
+        "versionCode": 40,
+        "versionString": "1.05.03"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=tk.horiuchi.pokecom2",
+    "docType": 1,
+    "docid": "tk.horiuchi.pokecom2",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/dDSVodk-dksG90eNvwH0XYeiVA2benvSte81Mo7al47XyvkRi3b2_luesa9fGzqYobg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/w-2fFLx4E2e2HZ-FcsLQ5sRPS4Tmnwl8Z1aqD-sxt9OOn6t3gPCZFzjtfIxiagJ4wg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 3,
+        "imageUrl": "https://www.youtube.com/watch?v=9dsPDRsPK-s"
+      },
+      {
+        "imageType": 13,
+        "imageUrl": "https://i.ytimg.com/vi/9dsPDRsPK-s/hqdefault.jpg",
+        "supportsFifeUrlOptions": false
+      },
+      {
+        "dimension": {
+          "height": 768,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/c6_m0e-7qtSOPqtBGrQwu3di2PWAJ0g73LH3mL0dQHecBMr3_3HE40ccCWE1CGLzkos",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 768,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/h1RIGEf-Cvvq6mYpbis4vnE6Y0vYy1JROVbn2g0TgPtMLCjdBeDpl1EVxPmALp2zuMpF",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 768,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/5sBKCh8BMnqU_WsBYi9dVp7TWq2ZCAT94HSF0Usfublnybx88PDd3hOma1Ozv4C3ooZc",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=tk.horiuchi.pokecom2",
+    "reviewsUrl": "rev?doc=tk.horiuchi.pokecom2&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=tk.horiuchi.pokecom2",
+    "title": "PokecomGO2 - CASIO Pocket computer simulator",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "\u30c7\u30b8\u30db\u30ea\u5de5\u623f"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "yo6987@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "8 Jan 2018"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "77",
+      "fiveStarRatings": "84",
+      "fourStarRatings": "15",
+      "oneStarRatings": "2",
+      "ratingsCount": "111",
+      "starRating": 4.57,
+      "threeStarRatings": "3",
+      "twoStarRatings": "5",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-07-19 20:49:29.867959",
+    "backendDocid": "tk.horiuchi.pokecom2",
+    "backendId": 3,
+    "creator": "\u30c7\u30b8\u30db\u30ea\u5de5\u623f",
+    "descriptionHtml": "This is a simulator of CASIO&#39;s Pocket Computer PB-100.<br>It reproduces the unique BASIC of the PB-100 generation.<br>(Omitting the closing parentheses of calculation formula,<br> using variables in the destination of GOTO, etc. ..)<br>You can input and output BASIC text file by load and save menu.<br>And sound data compatible with cassette I / F is analog output by SAVE command.<br><br>\uff1cSupported BASIC instraction\uff1e<br>PRINT<br>INPUT<br>GOTO<br>GOSUB-RETURN<br>FOR-TO-STEP-NEXT<br>IF-THEN/IF-;<br>VAC<br>CLEAR/CLEAR A<br>RUN<br>LIST<br>END<br>KEY<br>CSR<br>DEFM<br>MID<br>VAL<br>SIN/COS/TAN/ASN/ACS/ATN<br>LOG/LN/EXP/SQR<br>ABS<br>SGN<br>INT<br>FRAC<br>RND<br>RAN#<br>STOP<br>SAVE<br>ON GOTO / ON GOSUB<br>READ DATA RESTORE<br>STR$<br>KEY$<br>MID$<br>BEEP<br>LET<br><br>\uff1cSetting menu\uff1e<br>\u30fbcpu clock emulate<br>\u3000Putting some wait of execution and realize the operation close<br>\u3000to the actual machine.<br>\u30fbmemory unit<br>\u3000Setting whether extended memory exists or not.<br>\u3000It only changes the remaining memory display.<br>\u30fbUI design<br>\u3000When set to &#39;PB-100 compatible&#39; it will be like PB-100.<br>\u3000When set to &#39;PB-100 custom&#39; the &#39;F&#39;key and &#39;\u2191&#39;,&#39;\u2193&#39;key is enabled.<br>\u30fbviblation<br>\u3000It vibrates when the key is pressed.<br>\u30fbdebug<br>\u3000It displays debug messages and a frame of software keys.<br><br>\uff1cAbout Special Symbols\uff1e<br>In the input/output file, PB special symbols are converted to escape characters.<br>Invalid except ASCII code.<br><br>\\\\  \u00a5<br>\\LE(or &lt;=) Less Equal<br>\\NE(or &lt;&gt;) Not Equal<br>\\GE(or &gt;=) Greater Equal<br>\\LA Left Arrow<br>\\DA Down Arrow<br>\\RA Right Arrow<br>\\UA Up Arrow<br>\\PI PI<br>\\EX EXponent<br>\\CI CIrcle<br>\\SQ SQuare<br>\\TR TRiangle<br>\\CR CRoss<br>\\DV DiVide<br>\\DT DoT<br>\\DG DeGree<br>\\SP SPade<br>\\HT HearT<br>\\DI DIa<br>\\CL CLover<br>\\BX Box<br>\\SG SiGma<br>\\OM OMega<br>\\MU MU<br><br>\uff1cOther\uff1e<br>Spaces between instructions and parameters can be omitted.<br>(ex.)<br>PRINT CSR1;&quot;ABC&quot;<br>SINA<br>etc.<br><br>If you press the &#39;\u2190&#39; key after manual calculation,<br>the previous command will be displayed.<br>Step count calculation is not accurate. There are some errors with the actual machine.<br>Program trace execution is not implemented yet.<br>Moreover, the program can not resume after interruption. It will only be finished.",
+    "descriptionShort": "Simulator of CASIO's Pocket Computer(PB-100)",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown2": "1564088",
+          "unknown3": 29
+        },
+        "developerEmail": "yo6987@gmail.com",
+        "developerName": "\u30c7\u30b8\u30db\u30ea\u5de5\u623f",
+        "developerWebsite": "https://digihori.jimdo.com/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "1429955",
+            "versionCode": 41
+          },
+          {
+            "fileType": 0,
+            "size": "80067",
+            "versionCode": 41
+          },
+          {
+            "fileType": 0,
+            "size": "20889",
+            "versionCode": 41
+          },
+          {
+            "fileType": 0,
+            "size": "33177",
+            "versionCode": 41
+          }
+        ],
+        "installationSize": "1564088",
+        "numDownloads": "5,000+ downloads",
+        "packageName": "tk.horiuchi.pokecom2",
+        "permission": [
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.VIBRATE",
+          "android.permission.WRITE_EXTERNAL_STORAGE"
+        ],
+        "recentChangesHtml": "Fixed a bug<br>- DEFM crashes when referring to a variable before assigning data to it.<br>- DEFM maximum value that can be allocated is wrong.<br>- The display position of INPUT after CSR with the PRINT statement was wrong.",
+        "unstable": false,
+        "uploadDate": "18 Jul 2021",
+        "versionCode": 41,
+        "versionString": "1.05.04"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=tk.horiuchi.pokecom2",
+    "docType": 1,
+    "docid": "tk.horiuchi.pokecom2",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/dDSVodk-dksG90eNvwH0XYeiVA2benvSte81Mo7al47XyvkRi3b2_luesa9fGzqYobg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/w-2fFLx4E2e2HZ-FcsLQ5sRPS4Tmnwl8Z1aqD-sxt9OOn6t3gPCZFzjtfIxiagJ4wg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 3,
+        "imageUrl": "https://www.youtube.com/watch?v=9dsPDRsPK-s"
+      },
+      {
+        "imageType": 13,
+        "imageUrl": "https://i.ytimg.com/vi/9dsPDRsPK-s/hqdefault.jpg",
+        "supportsFifeUrlOptions": false
+      },
+      {
+        "dimension": {
+          "height": 768,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/c6_m0e-7qtSOPqtBGrQwu3di2PWAJ0g73LH3mL0dQHecBMr3_3HE40ccCWE1CGLzkos",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 768,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/h1RIGEf-Cvvq6mYpbis4vnE6Y0vYy1JROVbn2g0TgPtMLCjdBeDpl1EVxPmALp2zuMpF",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 768,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/5sBKCh8BMnqU_WsBYi9dVp7TWq2ZCAT94HSF0Usfublnybx88PDd3hOma1Ozv4C3ooZc",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=tk.horiuchi.pokecom2",
+    "reviewsUrl": "rev?doc=tk.horiuchi.pokecom2&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=tk.horiuchi.pokecom2",
+    "title": "PokecomGO2 - CASIO Pocket computer simulator",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "\u30c7\u30b8\u30db\u30ea\u5de5\u623f"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "yo6987@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "8 Jan 2018"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-09-11 23:06:50.953400",
+    "backendDocid": "tk.horiuchi.pokecom2",
+    "backendId": 3,
+    "creator": "\u30c7\u30b8\u30db\u30ea\u5de5\u623f",
+    "descriptionHtml": "This is a simulator of CASIO&#39;s Pocket Computer PB-100.<br>It reproduces the unique BASIC of the PB-100 generation.<br>(Omitting the closing parentheses of calculation formula,<br> using variables in the destination of GOTO, etc. ..)<br>You can input and output BASIC text file by load and save menu.<br>And sound data compatible with cassette I / F is analog output by SAVE command.<br><br>\uff1cSupported BASIC instraction\uff1e<br>PRINT<br>INPUT<br>GOTO<br>GOSUB-RETURN<br>FOR-TO-STEP-NEXT<br>IF-THEN/IF-;<br>VAC<br>CLEAR/CLEAR A<br>RUN<br>LIST<br>END<br>KEY<br>CSR<br>DEFM<br>MID<br>VAL<br>SIN/COS/TAN/ASN/ACS/ATN<br>LOG/LN/EXP/SQR<br>ABS<br>SGN<br>INT<br>FRAC<br>RND<br>RAN#<br>STOP<br>SAVE<br>ON GOTO / ON GOSUB<br>READ DATA RESTORE<br>STR$<br>KEY$<br>MID$<br>BEEP<br>LET<br><br>\uff1cSetting menu\uff1e<br>\u30fbcpu clock emulate<br>\u3000Putting some wait of execution and realize the operation close<br>\u3000to the actual machine.<br>\u30fbmemory unit<br>\u3000Setting whether extended memory exists or not.<br>\u3000It only changes the remaining memory display.<br>\u30fbUI design<br>\u3000When set to &#39;PB-100 compatible&#39; it will be like PB-100.<br>\u3000When set to &#39;PB-100 custom&#39; the &#39;F&#39;key and &#39;\u2191&#39;,&#39;\u2193&#39;key is enabled.<br>\u30fbviblation<br>\u3000It vibrates when the key is pressed.<br>\u30fbdebug<br>\u3000It displays debug messages and a frame of software keys.<br><br>\uff1cAbout Special Symbols\uff1e<br>In the input/output file, PB special symbols are converted to escape characters.<br>Invalid except ASCII code.<br><br>\\\\  \u00a5<br>\\LE(or &lt;=) Less Equal<br>\\NE(or &lt;&gt;) Not Equal<br>\\GE(or &gt;=) Greater Equal<br>\\LA Left Arrow<br>\\DA Down Arrow<br>\\RA Right Arrow<br>\\UA Up Arrow<br>\\PI PI<br>\\EX EXponent<br>\\CI CIrcle<br>\\SQ SQuare<br>\\TR TRiangle<br>\\CR CRoss<br>\\DV DiVide<br>\\DT DoT<br>\\DG DeGree<br>\\SP SPade<br>\\HT HearT<br>\\DI DIa<br>\\CL CLover<br>\\BX Box<br>\\SG SiGma<br>\\OM OMega<br>\\MU MU<br><br>\uff1cOther\uff1e<br>Spaces between instructions and parameters can be omitted.<br>(ex.)<br>PRINT CSR1;&quot;ABC&quot;<br>SINA<br>etc.<br><br>If you press the &#39;\u2190&#39; key after manual calculation,<br>the previous command will be displayed.<br>Step count calculation is not accurate. There are some errors with the actual machine.<br>Program trace execution is not implemented yet.<br>Moreover, the program can not resume after interruption. It will only be finished.",
+    "descriptionShort": "Simulator of CASIO's Pocket Computer(PB-100)",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown2": "916827",
+          "unknown3": 31
+        },
+        "developerEmail": "yo6987@gmail.com",
+        "developerName": "\u30c7\u30b8\u30db\u30ea\u5de5\u623f",
+        "developerWebsite": "https://digihori.jimdo.com/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "786790",
+            "versionCode": 45
+          },
+          {
+            "fileType": 0,
+            "size": "75971",
+            "versionCode": 45
+          },
+          {
+            "fileType": 0,
+            "size": "20889",
+            "versionCode": 45
+          },
+          {
+            "fileType": 0,
+            "size": "33177",
+            "versionCode": 45
+          }
+        ],
+        "installationSize": "916827",
+        "numDownloads": "5,000+ downloads",
+        "packageName": "tk.horiuchi.pokecom2",
+        "permission": [
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.VIBRATE",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": "Fixed a character comparison algorithm bug.",
+        "unstable": false,
+        "uploadDate": "10 Sept 2022",
+        "versionCode": 45,
+        "versionString": "1.05.05"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=tk.horiuchi.pokecom2",
+    "docType": 1,
+    "docid": "tk.horiuchi.pokecom2",
+    "image": [
+      {
+        "color": "#C1BAB2",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/dDSVodk-dksG90eNvwH0XYeiVA2benvSte81Mo7al47XyvkRi3b2_luesa9fGzqYobg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#E4E7E4",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/w-2fFLx4E2e2HZ-FcsLQ5sRPS4Tmnwl8Z1aqD-sxt9OOn6t3gPCZFzjtfIxiagJ4wg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 3,
+        "imageUrl": "https://www.youtube.com/watch?v=9dsPDRsPK-s"
+      },
+      {
+        "imageType": 13,
+        "imageUrl": "https://i.ytimg.com/vi/9dsPDRsPK-s/hqdefault.jpg",
+        "supportsFifeUrlOptions": false
+      },
+      {
+        "dimension": {
+          "height": 768,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/c6_m0e-7qtSOPqtBGrQwu3di2PWAJ0g73LH3mL0dQHecBMr3_3HE40ccCWE1CGLzkos",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 768,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/h1RIGEf-Cvvq6mYpbis4vnE6Y0vYy1JROVbn2g0TgPtMLCjdBeDpl1EVxPmALp2zuMpF",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 768,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/5sBKCh8BMnqU_WsBYi9dVp7TWq2ZCAT94HSF0Usfublnybx88PDd3hOma1Ozv4C3ooZc",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://digihori.jimdofree.com/privacypolicy/pokecom2",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=tk.horiuchi.pokecom2",
+    "reviewsUrl": "rev?doc=tk.horiuchi.pokecom2&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=tk.horiuchi.pokecom2",
+    "title": "PokecomGO - CASIO PB Simulator",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "yo6987@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "8 Jan 2018"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "88",
+      "fiveStarRatings": "99",
+      "fourStarRatings": "16",
+      "oneStarRatings": "1",
+      "ratingsCount": "127",
+      "starRating": 4.6237626,
+      "threeStarRatings": "3",
+      "twoStarRatings": "6",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-10-28 19:13:26.621308",
+    "backendDocid": "tk.horiuchi.pokecom2",
+    "backendId": 3,
+    "creator": "\u30c7\u30b8\u30db\u30ea\u5de5\u623f",
+    "descriptionHtml": "This is a simulator of CASIO&#39;s Pocket Computer PB-100.<br>It reproduces the unique BASIC of the PB-100 generation.<br>(Omitting the closing parentheses of calculation formula,<br> using variables in the destination of GOTO, etc. ..)<br>You can input and output BASIC text file by load and save menu.<br>And sound data compatible with cassette I / F is analog output by SAVE command.<br><br>\uff1cSupported BASIC instraction\uff1e<br>PRINT<br>INPUT<br>GOTO<br>GOSUB-RETURN<br>FOR-TO-STEP-NEXT<br>IF-THEN/IF-;<br>VAC<br>CLEAR/CLEAR A<br>RUN<br>LIST<br>END<br>KEY<br>CSR<br>DEFM<br>MID<br>VAL<br>SIN/COS/TAN/ASN/ACS/ATN<br>LOG/LN/EXP/SQR<br>ABS<br>SGN<br>INT<br>FRAC<br>RND<br>RAN#<br>STOP<br>SAVE<br>ON GOTO / ON GOSUB<br>READ DATA RESTORE<br>STR$<br>KEY$<br>MID$<br>BEEP<br>LET<br><br>\uff1cSetting menu\uff1e<br>\u30fbcpu clock emulate<br>\u3000Putting some wait of execution and realize the operation close<br>\u3000to the actual machine.<br>\u30fbmemory unit<br>\u3000Setting whether extended memory exists or not.<br>\u3000It only changes the remaining memory display.<br>\u30fbUI design<br>\u3000When set to &#39;PB-100 compatible&#39; it will be like PB-100.<br>\u3000When set to &#39;PB-100 custom&#39; the &#39;F&#39;key and &#39;\u2191&#39;,&#39;\u2193&#39;key is enabled.<br>\u30fbviblation<br>\u3000It vibrates when the key is pressed.<br>\u30fbdebug<br>\u3000It displays debug messages and a frame of software keys.<br><br>\uff1cAbout Special Symbols\uff1e<br>In the input/output file, PB special symbols are converted to escape characters.<br>Invalid except ASCII code.<br><br>\\\\  \u00a5<br>\\LE(or &lt;=) Less Equal<br>\\NE(or &lt;&gt;) Not Equal<br>\\GE(or &gt;=) Greater Equal<br>\\LA Left Arrow<br>\\DA Down Arrow<br>\\RA Right Arrow<br>\\UA Up Arrow<br>\\PI PI<br>\\EX EXponent<br>\\CI CIrcle<br>\\SQ SQuare<br>\\TR TRiangle<br>\\CR CRoss<br>\\DV DiVide<br>\\DT DoT<br>\\DG DeGree<br>\\SP SPade<br>\\HT HearT<br>\\DI DIa<br>\\CL CLover<br>\\BX Box<br>\\SG SiGma<br>\\OM OMega<br>\\MU MU<br><br>\uff1cOther\uff1e<br>Spaces between instructions and parameters can be omitted.<br>(ex.)<br>PRINT CSR1;&quot;ABC&quot;<br>SINA<br>etc.<br><br>If you press the &#39;\u2190&#39; key after manual calculation,<br>the previous command will be displayed.<br>Step count calculation is not accurate. There are some errors with the actual machine.<br>Program trace execution is not implemented yet.<br>Moreover, the program can not resume after interruption. It will only be finished.",
+    "descriptionShort": "Simulator of CASIO's Pocket Computer(PB-100)",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown2": "1742322",
+          "unknown3": 33
+        },
+        "developerEmail": "yo6987@gmail.com",
+        "developerName": "\u30c7\u30b8\u30db\u30ea\u5de5\u623f",
+        "developerWebsite": "https://digihori.jimdo.com/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "1551776",
+            "versionCode": 53
+          },
+          {
+            "fileType": 0,
+            "size": "66030",
+            "versionCode": 53
+          },
+          {
+            "fileType": 0,
+            "size": "24985",
+            "versionCode": 53
+          },
+          {
+            "fileType": 0,
+            "size": "29081",
+            "versionCode": 53
+          },
+          {
+            "fileType": 0,
+            "size": "41369",
+            "versionCode": 53
+          },
+          {
+            "fileType": 0,
+            "size": "29081",
+            "versionCode": 53
+          }
+        ],
+        "installationSize": "1742322",
+        "numDownloads": "5,000+ downloads",
+        "packageName": "tk.horiuchi.pokecom2",
+        "permission": [
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.VIBRATE",
+          "android.permission.WRITE_EXTERNAL_STORAGE"
+        ],
+        "recentChangesHtml": "Fixed a bug that &#39;\u2191&#39; could not be output when SAVE(Wave out).",
+        "unstable": true,
+        "uploadDate": "26 Oct 2022",
+        "versionCode": 53,
+        "versionString": "1.06.03"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=tk.horiuchi.pokecom2",
+    "docType": 1,
+    "docid": "tk.horiuchi.pokecom2",
+    "image": [
+      {
+        "color": "#C1BAB2",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/dDSVodk-dksG90eNvwH0XYeiVA2benvSte81Mo7al47XyvkRi3b2_luesa9fGzqYobg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#E4E7E4",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/w-2fFLx4E2e2HZ-FcsLQ5sRPS4Tmnwl8Z1aqD-sxt9OOn6t3gPCZFzjtfIxiagJ4wg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 3,
+        "imageUrl": "https://www.youtube.com/watch?v=9dsPDRsPK-s"
+      },
+      {
+        "imageType": 13,
+        "imageUrl": "https://i.ytimg.com/vi/9dsPDRsPK-s/hqdefault.jpg",
+        "supportsFifeUrlOptions": false
+      },
+      {
+        "dimension": {
+          "height": 768,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/c6_m0e-7qtSOPqtBGrQwu3di2PWAJ0g73LH3mL0dQHecBMr3_3HE40ccCWE1CGLzkos",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 768,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/h1RIGEf-Cvvq6mYpbis4vnE6Y0vYy1JROVbn2g0TgPtMLCjdBeDpl1EVxPmALp2zuMpF",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 768,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/5sBKCh8BMnqU_WsBYi9dVp7TWq2ZCAT94HSF0Usfublnybx88PDd3hOma1Ozv4C3ooZc",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://digihori.jimdofree.com/privacypolicy/pokecom2",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=tk.horiuchi.pokecom2",
+    "reviewsUrl": "rev?doc=tk.horiuchi.pokecom2&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=tk.horiuchi.pokecom2",
+    "title": "PokecomGO - CASIO PB Simulator",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "yo6987@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "8 Jan 2018"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-11-22 04:26:42.521420",
+    "backendDocid": "tk.horiuchi.pokecom2",
+    "backendId": 3,
+    "creator": "\u30c7\u30b8\u30db\u30ea\u5de5\u623f",
+    "descriptionHtml": "This is a simulator of CASIO&#39;s Pocket Computer PB-100.<br>It reproduces the unique BASIC of the PB-100 generation.<br>(Omitting the closing parentheses of calculation formula,<br> using variables in the destination of GOTO, etc. ..)<br>You can input and output BASIC text file by load and save menu.<br>And sound data compatible with cassette I / F is analog output by SAVE command.<br><br>\uff1cSupported BASIC instraction\uff1e<br>PRINT<br>INPUT<br>GOTO<br>GOSUB-RETURN<br>FOR-TO-STEP-NEXT<br>IF-THEN/IF-;<br>VAC<br>CLEAR/CLEAR A<br>RUN<br>LIST<br>END<br>KEY<br>CSR<br>DEFM<br>MID<br>VAL<br>SIN/COS/TAN/ASN/ACS/ATN<br>LOG/LN/EXP/SQR<br>ABS<br>SGN<br>INT<br>FRAC<br>RND<br>RAN#<br>STOP<br>SAVE<br>ON GOTO / ON GOSUB<br>READ DATA RESTORE<br>STR$<br>KEY$<br>MID$<br>BEEP<br>LET<br><br>\uff1cSetting menu\uff1e<br>\u30fbcpu clock emulate<br>\u3000Putting some wait of execution and realize the operation close<br>\u3000to the actual machine.<br>\u30fbmemory unit<br>\u3000Setting whether extended memory exists or not.<br>\u3000It only changes the remaining memory display.<br>\u30fbUI design<br>\u3000When set to &#39;PB-100 compatible&#39; it will be like PB-100.<br>\u3000When set to &#39;PB-100 custom&#39; the &#39;F&#39;key and &#39;\u2191&#39;,&#39;\u2193&#39;key is enabled.<br>\u30fbviblation<br>\u3000It vibrates when the key is pressed.<br>\u30fbdebug<br>\u3000It displays debug messages and a frame of software keys.<br><br>\uff1cAbout Special Symbols\uff1e<br>In the input/output file, PB special symbols are converted to escape characters.<br>Invalid except ASCII code.<br><br>\\\\  \u00a5<br>\\LE(or &lt;=) Less Equal<br>\\NE(or &lt;&gt;) Not Equal<br>\\GE(or &gt;=) Greater Equal<br>\\LA Left Arrow<br>\\DA Down Arrow<br>\\RA Right Arrow<br>\\UA Up Arrow<br>\\PI PI<br>\\EX EXponent<br>\\CI CIrcle<br>\\SQ SQuare<br>\\TR TRiangle<br>\\CR CRoss<br>\\DV DiVide<br>\\DT DoT<br>\\DG DeGree<br>\\SP SPade<br>\\HT HearT<br>\\DI DIa<br>\\CL CLover<br>\\BX Box<br>\\SG SiGma<br>\\OM OMega<br>\\MU MU<br><br>\uff1cOther\uff1e<br>Spaces between instructions and parameters can be omitted.<br>(ex.)<br>PRINT CSR1;&quot;ABC&quot;<br>SINA<br>etc.<br><br>If you press the &#39;\u2190&#39; key after manual calculation,<br>the previous command will be displayed.<br>Step count calculation is not accurate. There are some errors with the actual machine.<br>Program trace execution is not implemented yet.<br>Moreover, the program can not resume after interruption. It will only be finished.",
+    "descriptionShort": "Simulator of CASIO's Pocket Computer(PB-100)",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown2": "1688256",
+          "unknown3": 33
+        },
+        "developerEmail": "yo6987@gmail.com",
+        "developerName": "\u30c7\u30b8\u30db\u30ea\u5de5\u623f",
+        "developerWebsite": "https://digihori.jimdo.com/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "1551776",
+            "versionCode": 55
+          },
+          {
+            "fileType": 0,
+            "size": "66030",
+            "versionCode": 55
+          },
+          {
+            "fileType": 0,
+            "size": "29081",
+            "versionCode": 55
+          },
+          {
+            "fileType": 0,
+            "size": "41369",
+            "versionCode": 55
+          }
+        ],
+        "installationSize": "1688256",
+        "numDownloads": "5,000+ downloads",
+        "packageName": "tk.horiuchi.pokecom2",
+        "permission": [
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.VIBRATE",
+          "android.permission.WRITE_EXTERNAL_STORAGE"
+        ],
+        "recentChangesHtml": "Fixed a bug that<br>slowed down processing when repeating multiplication and division calculations.<br>the calculation of the minus value of INT is rounded up to zero.<br>an error occurs when a negative value is passed without parentheses in some functions.",
+        "unstable": true,
+        "uploadDate": "18 Nov 2022",
+        "versionCode": 55,
+        "versionString": "1.06.05"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=tk.horiuchi.pokecom2",
+    "docType": 1,
+    "docid": "tk.horiuchi.pokecom2",
+    "image": [
+      {
+        "color": "#C1BAB2",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/dDSVodk-dksG90eNvwH0XYeiVA2benvSte81Mo7al47XyvkRi3b2_luesa9fGzqYobg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#E4E7E4",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/w-2fFLx4E2e2HZ-FcsLQ5sRPS4Tmnwl8Z1aqD-sxt9OOn6t3gPCZFzjtfIxiagJ4wg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 3,
+        "imageUrl": "https://www.youtube.com/watch?v=9dsPDRsPK-s"
+      },
+      {
+        "imageType": 13,
+        "imageUrl": "https://i.ytimg.com/vi/9dsPDRsPK-s/hqdefault.jpg",
+        "supportsFifeUrlOptions": false
+      },
+      {
+        "dimension": {
+          "height": 768,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/c6_m0e-7qtSOPqtBGrQwu3di2PWAJ0g73LH3mL0dQHecBMr3_3HE40ccCWE1CGLzkos",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 768,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/h1RIGEf-Cvvq6mYpbis4vnE6Y0vYy1JROVbn2g0TgPtMLCjdBeDpl1EVxPmALp2zuMpF",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 768,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/5sBKCh8BMnqU_WsBYi9dVp7TWq2ZCAT94HSF0Usfublnybx88PDd3hOma1Ozv4C3ooZc",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://digihori.jimdofree.com/privacypolicy/pokecom2",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=tk.horiuchi.pokecom2",
+    "reviewsUrl": "rev?doc=tk.horiuchi.pokecom2&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=tk.horiuchi.pokecom2",
+    "title": "PokecomGO - CASIO PB Simulator",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "yo6987@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "8 Jan 2018"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-07-24 03:29:38.044439",
+    "backendDocid": "tk.horiuchi.pokecom2",
+    "backendId": 3,
+    "creator": "\u30c7\u30b8\u30db\u30ea\u5de5\u623f",
+    "descriptionHtml": "This is a simulator of CASIO&#39;s Pocket Computer PB-100.<br>It reproduces the unique BASIC of the PB-100 generation.<br>(Omitting the closing parentheses of calculation formula,<br> using variables in the destination of GOTO, etc. ..)<br>You can input and output BASIC text file by load and save menu.<br>And sound data compatible with cassette I / F is analog output by SAVE command.<br><br>\uff1cSupported BASIC instraction\uff1e<br>PRINT<br>INPUT<br>GOTO<br>GOSUB-RETURN<br>FOR-TO-STEP-NEXT<br>IF-THEN/IF-;<br>VAC<br>CLEAR/CLEAR A<br>RUN<br>LIST<br>END<br>KEY<br>CSR<br>DEFM<br>MID<br>VAL<br>SIN/COS/TAN/ASN/ACS/ATN<br>LOG/LN/EXP/SQR<br>ABS<br>SGN<br>INT<br>FRAC<br>RND<br>RAN#<br>STOP<br>SAVE<br>ON GOTO / ON GOSUB<br>READ DATA RESTORE<br>STR$<br>KEY$<br>MID$<br>BEEP<br>LET<br><br>\uff1cSetting menu\uff1e<br>\u30fbcpu clock emulate<br>\u3000Putting some wait of execution and realize the operation close<br>\u3000to the actual machine.<br>\u30fbmemory unit<br>\u3000Setting whether extended memory exists or not.<br>\u3000It only changes the remaining memory display.<br>\u30fbUI design<br>\u3000When set to &#39;PB-100 compatible&#39; it will be like PB-100.<br>\u3000When set to &#39;PB-100 custom&#39; the &#39;F&#39;key and &#39;\u2191&#39;,&#39;\u2193&#39;key is enabled.<br>\u30fbviblation<br>\u3000It vibrates when the key is pressed.<br>\u30fbdebug<br>\u3000It displays debug messages and a frame of software keys.<br><br>\uff1cAbout Special Symbols\uff1e<br>In the input/output file, PB special symbols are converted to escape characters.<br>Invalid except ASCII code.<br><br>\\\\  \u00a5<br>\\LE(or &lt;=) Less Equal<br>\\NE(or &lt;&gt;) Not Equal<br>\\GE(or &gt;=) Greater Equal<br>\\LA Left Arrow<br>\\DA Down Arrow<br>\\RA Right Arrow<br>\\UA Up Arrow<br>\\PI PI<br>\\EX EXponent<br>\\CI CIrcle<br>\\SQ SQuare<br>\\TR TRiangle<br>\\CR CRoss<br>\\DV DiVide<br>\\DT DoT<br>\\DG DeGree<br>\\SP SPade<br>\\HT HearT<br>\\DI DIa<br>\\CL CLover<br>\\BX Box<br>\\SG SiGma<br>\\OM OMega<br>\\MU MU<br><br>\uff1cOther\uff1e<br>Spaces between instructions and parameters can be omitted.<br>(ex.)<br>PRINT CSR1;&quot;ABC&quot;<br>SINA<br>etc.<br><br>If you press the &#39;\u2190&#39; key after manual calculation,<br>the previous command will be displayed.<br>Step count calculation is not accurate. There are some errors with the actual machine.<br>Program trace execution is not implemented yet.<br>Moreover, the program can not resume after interruption. It will only be finished.",
+    "descriptionShort": "Simulator of CASIO's Pocket Computer(PB-100)",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown2": "1667776",
+          "unknown3": 33
+        },
+        "developerEmail": "yo6987@gmail.com",
+        "developerName": "\u30c7\u30b8\u30db\u30ea\u5de5\u623f",
+        "developerWebsite": "https://digihori.jimdo.com/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "1531296",
+            "versionCode": 59
+          },
+          {
+            "fileType": 0,
+            "size": "66030",
+            "versionCode": 59
+          },
+          {
+            "fileType": 0,
+            "size": "29081",
+            "versionCode": 59
+          },
+          {
+            "fileType": 0,
+            "size": "41369",
+            "versionCode": 59
+          }
+        ],
+        "installationSize": "1667776",
+        "numDownloads": "5,000+ downloads",
+        "packageName": "tk.horiuchi.pokecom2",
+        "permission": [
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.VIBRATE",
+          "android.permission.WRITE_EXTERNAL_STORAGE"
+        ],
+        "recentChangesHtml": "Minor modifications to external key mapping",
+        "unstable": true,
+        "uploadDate": "6 May 2023",
+        "versionCode": 59,
+        "versionString": "1.06.09"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=tk.horiuchi.pokecom2",
+    "docType": 1,
+    "docid": "tk.horiuchi.pokecom2",
+    "image": [
+      {
+        "color": "#C1BAB2",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/dDSVodk-dksG90eNvwH0XYeiVA2benvSte81Mo7al47XyvkRi3b2_luesa9fGzqYobg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#E4E7E4",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/w-2fFLx4E2e2HZ-FcsLQ5sRPS4Tmnwl8Z1aqD-sxt9OOn6t3gPCZFzjtfIxiagJ4wg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 3,
+        "imageUrl": "https://www.youtube.com/watch?v=9dsPDRsPK-s"
+      },
+      {
+        "imageType": 13,
+        "imageUrl": "https://i.ytimg.com/vi/9dsPDRsPK-s/hqdefault.jpg",
+        "supportsFifeUrlOptions": false
+      },
+      {
+        "dimension": {
+          "height": 768,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/c6_m0e-7qtSOPqtBGrQwu3di2PWAJ0g73LH3mL0dQHecBMr3_3HE40ccCWE1CGLzkos",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 768,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/h1RIGEf-Cvvq6mYpbis4vnE6Y0vYy1JROVbn2g0TgPtMLCjdBeDpl1EVxPmALp2zuMpF",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 768,
+          "width": 1280
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/5sBKCh8BMnqU_WsBYi9dVp7TWq2ZCAT94HSF0Usfublnybx88PDd3hOma1Ozv4C3ooZc",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://digihori.jimdofree.com/privacypolicy/pokecom2",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=tk.horiuchi.pokecom2",
+    "reviewsUrl": "rev?doc=tk.horiuchi.pokecom2&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=tk.horiuchi.pokecom2",
+    "title": "PokecomGO - CASIO PB Simulator",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "yo6987@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "8 Jan 2018"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  }
+]

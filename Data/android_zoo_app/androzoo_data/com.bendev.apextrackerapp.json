@@ -1,0 +1,5539 @@
+[
+  {
+    "aggregateRating": {
+      "commentCount": "5",
+      "fiveStarRatings": "7",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "7",
+      "starRating": 5.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-10-16 18:03:20.039917",
+    "backendDocid": "com.bendev.apextrackerapp",
+    "backendId": 3,
+    "creator": "Ruben Sousa",
+    "descriptionHtml": "The unofficial app for you to check news/stats/game status of Apex Legends and everything is in your hand. Quickly check your profile stats or the current game status.<br>Features include:<br>- Latest news feed from the game;<br>- Search and check player profile stats (level, ranks, match history...);<br>- Player base counts;<br>- Map rotations;<br>- Online services status.<br><br>*Important Disclaimer:* Data is NOT provided by the app developer or may not be completely accurate, since it depends on unofficial APIs.",
+    "descriptionShort": "The unofficial app for you to check news/stats/game status of Apex Legends!",
+    "details": {
+      "appDetails": {
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "12132575",
+          "unknown3": 30
+        },
+        "developerEmail": "rubenDevAcc12@gmail.com",
+        "developerName": "Ruben Sousa",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "11933921",
+            "versionCode": 2
+          },
+          {
+            "fileType": 0,
+            "size": "61850",
+            "versionCode": 2
+          },
+          {
+            "fileType": 0,
+            "size": "29081",
+            "versionCode": 2
+          },
+          {
+            "fileType": 0,
+            "size": "33177",
+            "versionCode": 2
+          },
+          {
+            "fileType": 0,
+            "size": "41369",
+            "versionCode": 2
+          },
+          {
+            "fileType": 0,
+            "size": "33177",
+            "versionCode": 2
+          }
+        ],
+        "installationSize": "12132575",
+        "numDownloads": "10+ downloads",
+        "packageName": "com.bendev.apextrackerapp",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.INTERNET",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.WAKE_LOCK",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": "- Added resources to correctly display new map rotations, due to the latest game update.",
+        "unstable": true,
+        "uploadDate": "13 Oct 2021",
+        "versionCode": 2,
+        "versionString": "1.01"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.bendev.apextrackerapp",
+    "docType": 1,
+    "docid": "com.bendev.apextrackerapp",
+    "image": [
+      {
+        "color": "#4E4E4E",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/Ay8VSS-MqZdcO9IxDVoQzVVcAllZ8U_dusFkUfF-YkfygQ6kDBRQXR0uDHo4YgaJVlY",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/slt0AZkg2bEr2lHypkAjSYBQ3xJ8DkqXjuAUbXHbYO2fIHKbDBW81mQ9sXyW368Svg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 878,
+          "width": 405
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/rh9NDA1vCgxGRiyugdQ_ZMfVCuGnceVjhhCj3uq-nLaZko1uVEZlodWF2EXG-XspBqQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 878,
+          "width": 405
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ZdQRg4Exvr05msudHW0UXFK37HGWTreSe2u_E1-TqWWPDSmTQcElX0t11zWtEzFHffBV",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 878,
+          "width": 405
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/tguw_eBA0gs29FbJC6KFpAR3BSZ7i8oNa59vXXfp13iipYRMoCmrIZqFwmnydjYhxlc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 878,
+          "width": 405
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/hdH4cTXRynUycGuHyKlrrZJ-BD7HEN7x_wA-oASUA0tul-T1Q_Co2Ixf0Vb5I55ZcGk",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 878,
+          "width": 405
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/NreSJiAKfOt6wE7gQ0TGNEbEZIXKuNgz6aRZT8z8YTKYvNoCGAmTClNoMpc013mVLdNv",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.bendev.apextrackerapp",
+    "reviewsUrl": "rev?doc=com.bendev.apextrackerapp&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.bendev.apextrackerapp",
+    "title": "Apex Tracker App - Unofficial Apex Legends Tracker",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "rubenDevAcc12@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "8 Oct 2021"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "6",
+      "fiveStarRatings": "9",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "9",
+      "starRating": 5.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-11-08 01:34:29.309014",
+    "backendDocid": "com.bendev.apextrackerapp",
+    "backendId": 3,
+    "creator": "Ruben Sousa",
+    "descriptionHtml": "The unofficial app for you to check news/stats/game status of Apex Legends and everything is in your hand. Quickly check your profile stats or the current game status.<br>Features include:<br>- Latest news feed from the game;<br>- Search and check player profile stats (level, ranks, match history...);<br>- Player base counts;<br>- Map rotations;<br>- Online services status.<br><br>*Important Disclaimer:* Data is NOT provided by the app developer or may not be completely accurate, since it depends on unofficial APIs.",
+    "descriptionShort": "The unofficial app for you to check news/stats/game status of Apex Legends!",
+    "details": {
+      "appDetails": {
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "12984032",
+          "unknown3": 30
+        },
+        "developerEmail": "rubenDevAcc12@gmail.com",
+        "developerName": "Ruben Sousa",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "12851732",
+            "versionCode": 3
+          },
+          {
+            "fileType": 0,
+            "size": "61850",
+            "versionCode": 3
+          },
+          {
+            "fileType": 0,
+            "size": "29081",
+            "versionCode": 3
+          },
+          {
+            "fileType": 0,
+            "size": "41369",
+            "versionCode": 3
+          }
+        ],
+        "installationSize": "12984032",
+        "numDownloads": "100+ downloads",
+        "packageName": "com.bendev.apextrackerapp",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.INTERNET",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.WAKE_LOCK",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": "New feature:<br> - Favorite a player: You can now favorite a player from the search page, for ease of access. Adding a player to the favorites will make a card from that player appear on the search page.<br><br>Bug fixes:<br> - Fixed a bug where damage or kill values would display &quot;DAMAGE&quot;/&quot;KILLS&quot; instead of its actual value or unknown, in some cases.<br><br> - Code optimization in some areas.<br> - Added resources to display new map info.",
+        "unstable": true,
+        "uploadDate": "2 Nov 2021",
+        "versionCode": 3,
+        "versionString": "1.10"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.bendev.apextrackerapp",
+    "docType": 1,
+    "docid": "com.bendev.apextrackerapp",
+    "image": [
+      {
+        "color": "#4E4E4E",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/Ay8VSS-MqZdcO9IxDVoQzVVcAllZ8U_dusFkUfF-YkfygQ6kDBRQXR0uDHo4YgaJVlY",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/slt0AZkg2bEr2lHypkAjSYBQ3xJ8DkqXjuAUbXHbYO2fIHKbDBW81mQ9sXyW368Svg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 878,
+          "width": 405
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/rh9NDA1vCgxGRiyugdQ_ZMfVCuGnceVjhhCj3uq-nLaZko1uVEZlodWF2EXG-XspBqQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 878,
+          "width": 405
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ZdQRg4Exvr05msudHW0UXFK37HGWTreSe2u_E1-TqWWPDSmTQcElX0t11zWtEzFHffBV",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 878,
+          "width": 405
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/tguw_eBA0gs29FbJC6KFpAR3BSZ7i8oNa59vXXfp13iipYRMoCmrIZqFwmnydjYhxlc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 878,
+          "width": 405
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/hdH4cTXRynUycGuHyKlrrZJ-BD7HEN7x_wA-oASUA0tul-T1Q_Co2Ixf0Vb5I55ZcGk",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 878,
+          "width": 405
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/NreSJiAKfOt6wE7gQ0TGNEbEZIXKuNgz6aRZT8z8YTKYvNoCGAmTClNoMpc013mVLdNv",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.bendev.apextrackerapp",
+    "reviewsUrl": "rev?doc=com.bendev.apextrackerapp&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.bendev.apextrackerapp",
+    "title": "Apex Tracker App",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "rubenDevAcc12@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "8 Oct 2021"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-11-22 13:01:38.002312",
+    "backendDocid": "com.bendev.apextrackerapp",
+    "backendId": 3,
+    "creator": "Ruben Sousa",
+    "descriptionHtml": "The unofficial app for you to check news/stats/game status of Apex Legends is in your hand. Quickly check your profile stats or the current game status.<br>Features include:<br>- Latest news feed from the game;<br>- Search and check player profile stats (level, ranks, match history...);<br>- Player base counts;<br>- Map rotations;<br>- Online services status.<br><br>*Important Disclaimer:* Data is NOT provided by the app developer or may not be completely accurate, since it depends on unofficial APIs.",
+    "descriptionShort": "The unofficial app for you to check news/stats/game status of Apex Legends!",
+    "details": {
+      "appDetails": {
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "12988128",
+          "unknown3": 30
+        },
+        "developerEmail": "rubenDevAcc12@gmail.com",
+        "developerName": "Ruben Sousa",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "12851732",
+            "versionCode": 4
+          },
+          {
+            "fileType": 0,
+            "size": "61850",
+            "versionCode": 4
+          },
+          {
+            "fileType": 0,
+            "size": "33177",
+            "versionCode": 4
+          },
+          {
+            "fileType": 0,
+            "size": "41369",
+            "versionCode": 4
+          }
+        ],
+        "installationSize": "12988128",
+        "numDownloads": "100+ downloads",
+        "packageName": "com.bendev.apextrackerapp",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.INTERNET",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.WAKE_LOCK",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": "API Bug Hotfix:<br>- An API dependent bug that caused the app to crash when loading player profile picture resources has been fixed.",
+        "unstable": true,
+        "uploadDate": "19 Nov 2021",
+        "versionCode": 4,
+        "versionString": "1.11"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.bendev.apextrackerapp",
+    "docType": 1,
+    "docid": "com.bendev.apextrackerapp",
+    "image": [
+      {
+        "color": "#4E4E4E",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/Ay8VSS-MqZdcO9IxDVoQzVVcAllZ8U_dusFkUfF-YkfygQ6kDBRQXR0uDHo4YgaJVlY",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#0C0C0C",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/slt0AZkg2bEr2lHypkAjSYBQ3xJ8DkqXjuAUbXHbYO2fIHKbDBW81mQ9sXyW368Svg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 878,
+          "width": 405
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/rh9NDA1vCgxGRiyugdQ_ZMfVCuGnceVjhhCj3uq-nLaZko1uVEZlodWF2EXG-XspBqQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 878,
+          "width": 405
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/vxHS8wWTsBLFS663cidNMvJrJ_XrUrTSZ3EUY0y5b7o-W-Qiyy9qk626lDANijKRleFL",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 878,
+          "width": 405
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/t6ezorPERkOtcyAnUDaZlNGpt8PNRmwXlMWY5HQVDS8XPUnhz9_HvNuu1WUdKZ4RLcw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 878,
+          "width": 405
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/hdH4cTXRynUycGuHyKlrrZJ-BD7HEN7x_wA-oASUA0tul-T1Q_Co2Ixf0Vb5I55ZcGk",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 878,
+          "width": 405
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/NreSJiAKfOt6wE7gQ0TGNEbEZIXKuNgz6aRZT8z8YTKYvNoCGAmTClNoMpc013mVLdNv",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.bendev.apextrackerapp",
+    "reviewsUrl": "rev?doc=com.bendev.apextrackerapp&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.bendev.apextrackerapp",
+    "title": "Apex Tracker App",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "rubenDevAcc12@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "8 Oct 2021"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-01-02 10:59:15.778129",
+    "backendDocid": "com.bendev.apextrackerapp",
+    "backendId": 3,
+    "creator": "Ruben Sousa",
+    "descriptionHtml": "The unofficial app for you to check news/stats/game status of Apex Legends is in your hand. Quickly check your profile stats or the current game status.<br>Features include:<br>- Latest news feed from the game;<br>- Search and check player profile stats (level, ranks, match history...);<br>- Player base counts;<br>- Map rotations;<br>- Online services status.<br><br>*Important Disclaimer:* Data is NOT provided by the app developer or may not be completely accurate, since it depends on unofficial APIs.",
+    "descriptionShort": "The unofficial app for you to check news/stats/game status of Apex Legends!",
+    "details": {
+      "appDetails": {
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "12791520",
+          "unknown3": 30
+        },
+        "developerEmail": "rubenDevAcc12@gmail.com",
+        "developerName": "Ruben Sousa",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "12659220",
+            "versionCode": 5
+          },
+          {
+            "fileType": 0,
+            "size": "61850",
+            "versionCode": 5
+          },
+          {
+            "fileType": 0,
+            "size": "29081",
+            "versionCode": 5
+          },
+          {
+            "fileType": 0,
+            "size": "41369",
+            "versionCode": 5
+          }
+        ],
+        "installationSize": "12791520",
+        "numDownloads": "100+ downloads",
+        "packageName": "com.bendev.apextrackerapp",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.INTERNET",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.WAKE_LOCK",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": "UX/UI<br> - Map Rotation section redesign;<br> - Match Report card title shaded background;<br> - Return Button redesign;<br> - Player name&#39;s color turns green if the player status is online;<br> - Errors and Success actions now are displayed differently: Errors use Toast pop-ups and Success actions use Snackbar pop-ups.<br><br>- Added more info on player status: now if the player is in lobby/in game, a timer will be displayed showing for how long;<br>- Some more code optimization;<br>- Improved error handling.",
+        "unstable": true,
+        "uploadDate": "30 Dec 2021",
+        "versionCode": 5,
+        "versionString": "1.12"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.bendev.apextrackerapp",
+    "docType": 1,
+    "docid": "com.bendev.apextrackerapp",
+    "image": [
+      {
+        "color": "#4E4E4E",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/Ay8VSS-MqZdcO9IxDVoQzVVcAllZ8U_dusFkUfF-YkfygQ6kDBRQXR0uDHo4YgaJVlY",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#0C0C0C",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/slt0AZkg2bEr2lHypkAjSYBQ3xJ8DkqXjuAUbXHbYO2fIHKbDBW81mQ9sXyW368Svg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 878,
+          "width": 405
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/rh9NDA1vCgxGRiyugdQ_ZMfVCuGnceVjhhCj3uq-nLaZko1uVEZlodWF2EXG-XspBqQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 878,
+          "width": 405
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/vxHS8wWTsBLFS663cidNMvJrJ_XrUrTSZ3EUY0y5b7o-W-Qiyy9qk626lDANijKRleFL",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 878,
+          "width": 405
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/t6ezorPERkOtcyAnUDaZlNGpt8PNRmwXlMWY5HQVDS8XPUnhz9_HvNuu1WUdKZ4RLcw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/NztPjJthnG129ruGePfcRUzs2vf6_8gMeqYI6OdeeZzCueo3uwkx1BA6RjD4lZqj9n9t",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/0qJrMru3DHAd9uh5ejCgX74lf4LvP1dd9dcYKsT-KJA9ZHzk_GSliJ0ChMEw_YdWaz4j",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.bendev.apextrackerapp",
+    "reviewsUrl": "rev?doc=com.bendev.apextrackerapp&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.bendev.apextrackerapp",
+    "title": "Apex Tracker App",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "rubenDevAcc12@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "8 Oct 2021"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-01-12 12:25:57.446866",
+    "backendDocid": "com.bendev.apextrackerapp",
+    "backendId": 3,
+    "creator": "Ruben Sousa",
+    "descriptionHtml": "The unofficial app for you to check news/stats/game status of Apex Legends is in your hand. Quickly check your profile stats or the current game status.<br>Features include:<br>- Latest news feed from the game;<br>- Search and check player profile stats (level, ranks, match history...);<br>- Player base counts;<br>- Map rotations;<br>- Online services status.<br><br>*Important Disclaimer:* Data is NOT provided by the app developer or may not be completely accurate, since it depends on unofficial APIs.",
+    "descriptionShort": "The unofficial app for you to check news/stats/game status of Apex Legends!",
+    "details": {
+      "appDetails": {
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "13235805",
+          "unknown3": 30
+        },
+        "developerEmail": "rubenDevAcc12@gmail.com",
+        "developerName": "Ruben Sousa",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "13099409",
+            "versionCode": 6
+          },
+          {
+            "fileType": 0,
+            "size": "61850",
+            "versionCode": 6
+          },
+          {
+            "fileType": 0,
+            "size": "33177",
+            "versionCode": 6
+          },
+          {
+            "fileType": 0,
+            "size": "41369",
+            "versionCode": 6
+          }
+        ],
+        "installationSize": "13235805",
+        "numDownloads": "500+ downloads",
+        "packageName": "com.bendev.apextrackerapp",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.INTERNET",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.WAKE_LOCK",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": "- Added resources to display new Arenas map: Habitat.<br><br>New Feature:<br> - When checking a player profile, there&#39;s now a ranked progress-bar displaying the current ranked tier progress (how much RP to rank up, base tier RP and next tier RP).<br><br>UI/UX:<br> - Favorite Player now is displayed within a card;<br> - Player profile design rework to accomodate new Ranked Progress feature.",
+        "unstable": true,
+        "uploadDate": "12 Jan 2022",
+        "versionCode": 6,
+        "versionString": "1.13"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.bendev.apextrackerapp",
+    "docType": 1,
+    "docid": "com.bendev.apextrackerapp",
+    "image": [
+      {
+        "color": "#4E4E4E",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/Ay8VSS-MqZdcO9IxDVoQzVVcAllZ8U_dusFkUfF-YkfygQ6kDBRQXR0uDHo4YgaJVlY",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#0C0C0C",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/slt0AZkg2bEr2lHypkAjSYBQ3xJ8DkqXjuAUbXHbYO2fIHKbDBW81mQ9sXyW368Svg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qYxB3aRyRnc1iLrfqOzt3D9-rs9fFd_MKMzZvA7sp5nldSusllPNjaQ89NW9E3kENHOf",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/fxuGzi9oBLWopXgHOtV8JH7QyPN9-R-sEQ9XfzMw8VSqvxerER73tP0MFgUu9jSA4xs",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/rn7J5NQcJvTD7jmgAVPRs2V8wKgAnyS5yYdq3EhvdT0d6zYNCUcYZ7txcXe66N0i8Gs",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/f0qyK2w8oGDGFM0DQc--8ZZ4q8o-5xhpiXGCNt6uah-6jDRsTcPXwBild2_mPlwgXEs",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/kgInGZob2Jqeq-b5k-G1Tzwd-NLLumlOvDF47czCsyO9k20A-MnnSNUEtpBhyPQ_Fair",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/pTjnVpiHqtPLXXj5Q_TJj6v7bxCTqN7SQFYghDQROZzssDS4B0iVwSJXOoe2NrZ_6g",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/NAKrt7A25Lar5EOozGtWHInvFYlkmLWqOXvK7d679ybvbzm-aY34FZE2gbY8H9t4H3E",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.bendev.apextrackerapp",
+    "reviewsUrl": "rev?doc=com.bendev.apextrackerapp&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.bendev.apextrackerapp",
+    "title": "Apex Tracker App",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Ruben Sousa"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "rubenDevAcc12@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "8 Oct 2021"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-02-11 21:08:15.560588",
+    "backendDocid": "com.bendev.apextrackerapp",
+    "backendId": 3,
+    "creator": "Ruben Sousa",
+    "descriptionHtml": "The unofficial app for you to check news/stats/game status of Apex Legends is in your hand. Quickly check your profile stats or the current game status.<br>Features include:<br>- Latest news feed from the game;<br>- Search and check player profile stats (level, ranks, match history...);<br>- Player base counts;<br>- Map rotations;<br>- Crafting Rotations;<br>- Online services status.<br><br>*Important Disclaimer:* Data is NOT provided by the app developer and may not be completely accurate, since it depends on unofficial APIs.",
+    "descriptionShort": "The unofficial app for you to check news/stats/game status of Apex Legends!",
+    "details": {
+      "appDetails": {
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "14324187",
+          "unknown3": 30
+        },
+        "developerEmail": "rubenDevAcc12@gmail.com",
+        "developerName": "Ruben Sousa",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "14187791",
+            "versionCode": 7
+          },
+          {
+            "fileType": 0,
+            "size": "61850",
+            "versionCode": 7
+          },
+          {
+            "fileType": 0,
+            "size": "33177",
+            "versionCode": 7
+          },
+          {
+            "fileType": 0,
+            "size": "41369",
+            "versionCode": 7
+          }
+        ],
+        "installationSize": "14324187",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "com.bendev.apextrackerapp",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.INTERNET",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.WAKE_LOCK",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": "New Feature:<br> - Crafting rotations now available on the Status screen, below the Map Rotations.<br><br>Quality of Life improvements:<br> - You can now perform a swipe down to refresh the Stats screen or Matches screen;<br> - Swipe left/right navigation accessibility for Stats screen and Matches screen.<br><br>UX/UI:<br>- Added some animations to some app interactions.<br><br>Bug Fixes:<br> - Fixed a bug that caused the app to crash when scrolling the Matches screen and quickly changing to another screen/tab in the app.",
+        "unstable": true,
+        "uploadDate": "8 Feb 2022",
+        "versionCode": 7,
+        "versionString": "1.14"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.bendev.apextrackerapp",
+    "docType": 1,
+    "docid": "com.bendev.apextrackerapp",
+    "image": [
+      {
+        "color": "#4E4E4E",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/Ay8VSS-MqZdcO9IxDVoQzVVcAllZ8U_dusFkUfF-YkfygQ6kDBRQXR0uDHo4YgaJVlY",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#0C0C0C",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/slt0AZkg2bEr2lHypkAjSYBQ3xJ8DkqXjuAUbXHbYO2fIHKbDBW81mQ9sXyW368Svg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qYxB3aRyRnc1iLrfqOzt3D9-rs9fFd_MKMzZvA7sp5nldSusllPNjaQ89NW9E3kENHOf",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/fxuGzi9oBLWopXgHOtV8JH7QyPN9-R-sEQ9XfzMw8VSqvxerER73tP0MFgUu9jSA4xs",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/rn7J5NQcJvTD7jmgAVPRs2V8wKgAnyS5yYdq3EhvdT0d6zYNCUcYZ7txcXe66N0i8Gs",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/f0qyK2w8oGDGFM0DQc--8ZZ4q8o-5xhpiXGCNt6uah-6jDRsTcPXwBild2_mPlwgXEs",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/kgInGZob2Jqeq-b5k-G1Tzwd-NLLumlOvDF47czCsyO9k20A-MnnSNUEtpBhyPQ_Fair",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/pTjnVpiHqtPLXXj5Q_TJj6v7bxCTqN7SQFYghDQROZzssDS4B0iVwSJXOoe2NrZ_6g",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/7NWCwI6GaCEfi-sLaHUv2qeSHNy9dvwe5GXtSFR2OtGMbFDQBSHf5siSiORnQSbiuDqD",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://docs.google.com/document/d/19vMngpIeCLkMduKQaw5fEQvjpV_lniLdjzBxVgoZGQU/edit?usp=sharing",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.bendev.apextrackerapp",
+    "reviewsUrl": "rev?doc=com.bendev.apextrackerapp&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.bendev.apextrackerapp",
+    "title": "Apex Tracker App",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Ruben Sousa"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "rubenDevAcc12@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "8 Oct 2021"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-03-07 23:49:25.645023",
+    "backendDocid": "com.bendev.apextrackerapp",
+    "backendId": 3,
+    "creator": "Ruben Sousa",
+    "descriptionHtml": "The unofficial app for you to check news/stats/game status of Apex Legends is in your hand. Quickly check your profile stats or the current game status.<br>Features include:<br>- Latest news feed from the game;<br>- Search and check player profile stats (level, ranks, match history...);<br>- Player base counts;<br>- Map rotations;<br>- Crafting Rotations;<br>- Online services status.<br><br>*Important Disclaimer:* Data is NOT provided by the app developer and may not be completely accurate, since it depends on unofficial APIs.",
+    "descriptionShort": "The unofficial app for you to check news/stats/game status of Apex Legends!",
+    "details": {
+      "appDetails": {
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "13791546",
+          "unknown3": 30
+        },
+        "developerEmail": "rubenDevAcc12@gmail.com",
+        "developerName": "Ruben Sousa",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "13659246",
+            "versionCode": 8
+          },
+          {
+            "fileType": 0,
+            "size": "61850",
+            "versionCode": 8
+          },
+          {
+            "fileType": 0,
+            "size": "29081",
+            "versionCode": 8
+          },
+          {
+            "fileType": 0,
+            "size": "41369",
+            "versionCode": 8
+          }
+        ],
+        "installationSize": "13791546",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "com.bendev.apextrackerapp",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.INTERNET",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.WAKE_LOCK",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": "- Added a toggle that allows you to select to open News Articles externally (in your phone&#39;s browser) or within the app.<br><br>Bug Fixes:<br> - Fixed a bug that when a player search resulted in a not found the wrong message would be displayed;<br><br> - An optimization improvement should fix an Android 8.1 exclusive problem that would make the app crash.<br><br>Performance/Stability:<br> - Optimized every app resource to improve stability.",
+        "unstable": true,
+        "uploadDate": "5 Mar 2022",
+        "versionCode": 8,
+        "versionString": "1.15"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.bendev.apextrackerapp",
+    "docType": 1,
+    "docid": "com.bendev.apextrackerapp",
+    "image": [
+      {
+        "color": "#4E4E4E",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/Ay8VSS-MqZdcO9IxDVoQzVVcAllZ8U_dusFkUfF-YkfygQ6kDBRQXR0uDHo4YgaJVlY",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#0C0C0C",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/slt0AZkg2bEr2lHypkAjSYBQ3xJ8DkqXjuAUbXHbYO2fIHKbDBW81mQ9sXyW368Svg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qYxB3aRyRnc1iLrfqOzt3D9-rs9fFd_MKMzZvA7sp5nldSusllPNjaQ89NW9E3kENHOf",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/fxuGzi9oBLWopXgHOtV8JH7QyPN9-R-sEQ9XfzMw8VSqvxerER73tP0MFgUu9jSA4xs",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/rn7J5NQcJvTD7jmgAVPRs2V8wKgAnyS5yYdq3EhvdT0d6zYNCUcYZ7txcXe66N0i8Gs",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/f0qyK2w8oGDGFM0DQc--8ZZ4q8o-5xhpiXGCNt6uah-6jDRsTcPXwBild2_mPlwgXEs",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/kgInGZob2Jqeq-b5k-G1Tzwd-NLLumlOvDF47czCsyO9k20A-MnnSNUEtpBhyPQ_Fair",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/pTjnVpiHqtPLXXj5Q_TJj6v7bxCTqN7SQFYghDQROZzssDS4B0iVwSJXOoe2NrZ_6g",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/7NWCwI6GaCEfi-sLaHUv2qeSHNy9dvwe5GXtSFR2OtGMbFDQBSHf5siSiORnQSbiuDqD",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://docs.google.com/document/d/19vMngpIeCLkMduKQaw5fEQvjpV_lniLdjzBxVgoZGQU/edit?usp=sharing",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.bendev.apextrackerapp",
+    "reviewsUrl": "rev?doc=com.bendev.apextrackerapp&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.bendev.apextrackerapp",
+    "title": "Apex Tracker App",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "rubenDevAcc12@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "8 Oct 2021"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "4",
+      "fiveStarRatings": "4",
+      "fourStarRatings": "8",
+      "oneStarRatings": "8",
+      "ratingsCount": "20",
+      "starRating": 3.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-03-31 13:27:23.082700",
+    "backendDocid": "com.bendev.apextrackerapp",
+    "backendId": 3,
+    "creator": "Ruben Sousa",
+    "descriptionHtml": "The unofficial app for you to check news/stats/game status of Apex Legends is in your hand. Quickly check your profile stats or the current game status.<br>Features include:<br>- Latest news feed from the game;<br>- Search and check player profile stats (level, ranks, match history...);<br>- Player base counts;<br>- Map rotations;<br>- Crafting Rotations;<br>- Online services status.<br><br>*Important Disclaimer:* Data is NOT provided by the app developer and may not be completely accurate, since it depends on unofficial APIs.",
+    "descriptionShort": "The unofficial app for you to check news/stats/game status of Apex Legends!",
+    "details": {
+      "appDetails": {
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "18248371",
+          "unknown3": 30
+        },
+        "developerEmail": "rubenDevAcc12@gmail.com",
+        "developerName": "Ruben Sousa",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "18111975",
+            "versionCode": 9
+          },
+          {
+            "fileType": 0,
+            "size": "61850",
+            "versionCode": 9
+          },
+          {
+            "fileType": 0,
+            "size": "33177",
+            "versionCode": 9
+          },
+          {
+            "fileType": 0,
+            "size": "41369",
+            "versionCode": 9
+          }
+        ],
+        "installationSize": "18248371",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "com.bendev.apextrackerapp",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.INTERNET",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.WAKE_LOCK",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": "New feature:<br> - In the Search screen, there&#39;s now a section showing how much RP is needed to reach Apex Predator in BR ranked, for each platform.<br><br>- Added new map resources for new Arenas map<br><br>Ranked Progression display improvements:<br> - When checking a player profile, if the player is Master, the progression bar is also displayed now, and if the player is Apex predator, it also shows its global placement.<br><br>- More bugfixes and improvements.",
+        "unstable": true,
+        "uploadDate": "29 Mar 2022",
+        "versionCode": 9,
+        "versionString": "1.16"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.bendev.apextrackerapp",
+    "docType": 1,
+    "docid": "com.bendev.apextrackerapp",
+    "image": [
+      {
+        "color": "#4E4E4E",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/Ay8VSS-MqZdcO9IxDVoQzVVcAllZ8U_dusFkUfF-YkfygQ6kDBRQXR0uDHo4YgaJVlY",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#0C0C0C",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/slt0AZkg2bEr2lHypkAjSYBQ3xJ8DkqXjuAUbXHbYO2fIHKbDBW81mQ9sXyW368Svg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qYxB3aRyRnc1iLrfqOzt3D9-rs9fFd_MKMzZvA7sp5nldSusllPNjaQ89NW9E3kENHOf",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Q0TuQVF0dnl4XC4g75KT2liQJAcn6HkKvpZEGoogIR95p57b0wtoJfZIxnV0ivV-hEWV",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/rn7J5NQcJvTD7jmgAVPRs2V8wKgAnyS5yYdq3EhvdT0d6zYNCUcYZ7txcXe66N0i8Gs",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/f0qyK2w8oGDGFM0DQc--8ZZ4q8o-5xhpiXGCNt6uah-6jDRsTcPXwBild2_mPlwgXEs",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/kgInGZob2Jqeq-b5k-G1Tzwd-NLLumlOvDF47czCsyO9k20A-MnnSNUEtpBhyPQ_Fair",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/pTjnVpiHqtPLXXj5Q_TJj6v7bxCTqN7SQFYghDQROZzssDS4B0iVwSJXOoe2NrZ_6g",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/7NWCwI6GaCEfi-sLaHUv2qeSHNy9dvwe5GXtSFR2OtGMbFDQBSHf5siSiORnQSbiuDqD",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://docs.google.com/document/d/19vMngpIeCLkMduKQaw5fEQvjpV_lniLdjzBxVgoZGQU/edit?usp=sharing",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.bendev.apextrackerapp",
+    "reviewsUrl": "rev?doc=com.bendev.apextrackerapp&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.bendev.apextrackerapp",
+    "title": "Apex Tracker App",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Ruben Sousa"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "rubenDevAcc12@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "8 Oct 2021"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-04-08 12:49:41.879091",
+    "backendDocid": "com.bendev.apextrackerapp",
+    "backendId": 3,
+    "creator": "Ruben Sousa",
+    "descriptionHtml": "The unofficial app for you to check news/stats/game status of Apex Legends is in your hand. Quickly check your profile stats or the current game status.<br>Features include:<br>- Latest news feed from the game;<br>- Search and check player profile stats (level, ranks, match history...);<br>- Player base counts;<br>- Map rotations;<br>- Crafting Rotations;<br>- Online services status.<br><br>*Important Disclaimer:* Data is NOT provided by the app developer and may not be completely accurate, since it depends on unofficial APIs.",
+    "descriptionShort": "The unofficial app for you to check news/stats/game status of Apex Legends!",
+    "details": {
+      "appDetails": {
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "15725235",
+          "unknown3": 30
+        },
+        "developerEmail": "rubenDevAcc12@gmail.com",
+        "developerName": "Ruben Sousa",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "15588839",
+            "versionCode": 10
+          },
+          {
+            "fileType": 0,
+            "size": "61850",
+            "versionCode": 10
+          },
+          {
+            "fileType": 0,
+            "size": "33177",
+            "versionCode": 10
+          },
+          {
+            "fileType": 0,
+            "size": "41369",
+            "versionCode": 10
+          }
+        ],
+        "installationSize": "15725235",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "com.bendev.apextrackerapp",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.INTERNET",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.WAKE_LOCK",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": " - Optimized a newly added image resource that could cause crashes/performance problems on lower end devices, when being rendered.<br><br>Note: In this Hotfix, a partial translation for Portuguese is also being introduced. More translations coming in the future!",
+        "unstable": true,
+        "uploadDate": "Apr 5, 2022",
+        "versionCode": 10,
+        "versionString": "1.16.1"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.bendev.apextrackerapp",
+    "docType": 1,
+    "docid": "com.bendev.apextrackerapp",
+    "image": [
+      {
+        "color": "#4E4E4E",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/Ay8VSS-MqZdcO9IxDVoQzVVcAllZ8U_dusFkUfF-YkfygQ6kDBRQXR0uDHo4YgaJVlY",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#0C0C0C",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/slt0AZkg2bEr2lHypkAjSYBQ3xJ8DkqXjuAUbXHbYO2fIHKbDBW81mQ9sXyW368Svg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qYxB3aRyRnc1iLrfqOzt3D9-rs9fFd_MKMzZvA7sp5nldSusllPNjaQ89NW9E3kENHOf",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Q0TuQVF0dnl4XC4g75KT2liQJAcn6HkKvpZEGoogIR95p57b0wtoJfZIxnV0ivV-hEWV",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/rn7J5NQcJvTD7jmgAVPRs2V8wKgAnyS5yYdq3EhvdT0d6zYNCUcYZ7txcXe66N0i8Gs",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/f0qyK2w8oGDGFM0DQc--8ZZ4q8o-5xhpiXGCNt6uah-6jDRsTcPXwBild2_mPlwgXEs",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/kgInGZob2Jqeq-b5k-G1Tzwd-NLLumlOvDF47czCsyO9k20A-MnnSNUEtpBhyPQ_Fair",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/pTjnVpiHqtPLXXj5Q_TJj6v7bxCTqN7SQFYghDQROZzssDS4B0iVwSJXOoe2NrZ_6g",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/7NWCwI6GaCEfi-sLaHUv2qeSHNy9dvwe5GXtSFR2OtGMbFDQBSHf5siSiORnQSbiuDqD",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "CAD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://docs.google.com/document/d/19vMngpIeCLkMduKQaw5fEQvjpV_lniLdjzBxVgoZGQU/edit?usp=sharing",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.bendev.apextrackerapp",
+    "reviewsUrl": "rev?doc=com.bendev.apextrackerapp&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.bendev.apextrackerapp",
+    "title": "Apex Tracker App",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Ruben Sousa"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "rubenDevAcc12@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Oct 8, 2021"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "4",
+      "fiveStarRatings": "4",
+      "fourStarRatings": "8",
+      "oneStarRatings": "8",
+      "ratingsCount": "20",
+      "starRating": 3.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-04-23 11:18:47.816151",
+    "backendDocid": "com.bendev.apextrackerapp",
+    "backendId": 3,
+    "creator": "Ruben Sousa",
+    "descriptionHtml": "The unofficial app for you to check news/stats/game status of Apex Legends is in your hand. Quickly check your profile stats or the current game status.<br>Features include:<br>- Latest news feed from the game;<br>- Search and check player profile stats (level, ranks, match history...);<br>- Player base counts;<br>- Map rotations;<br>- Crafting Rotations;<br>- Online services status.<br><br>*Important Disclaimer:* Data is NOT provided by the app developer and may not be completely accurate, since it depends on unofficial APIs.",
+    "descriptionShort": "The unofficial app for you to check news/stats/game status of Apex Legends!",
+    "details": {
+      "appDetails": {
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "15729331",
+          "unknown3": 30
+        },
+        "developerEmail": "rubenDevAcc12@gmail.com",
+        "developerName": "Ruben Sousa",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "15592935",
+            "versionCode": 11
+          },
+          {
+            "fileType": 0,
+            "size": "61850",
+            "versionCode": 11
+          },
+          {
+            "fileType": 0,
+            "size": "33177",
+            "versionCode": 11
+          },
+          {
+            "fileType": 0,
+            "size": "41369",
+            "versionCode": 11
+          }
+        ],
+        "installationSize": "15729331",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "com.bendev.apextrackerapp",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.INTERNET",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.WAKE_LOCK",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": "Translation Support:<br> - Full translation support added for Portuguese. Next one is French. Some more coming in the future.<br><br>Bugfixes:<br> - Fixed bug where you could set a player as favorite before loading its profile. This made the app instantly crash on launch due to badly cached data;<br><br> - Fixed bug when checking a Master ranked player profile with 10000RP it didn&#39;t display the correct rank progress information.",
+        "unstable": true,
+        "uploadDate": "19 Apr 2022",
+        "versionCode": 11,
+        "versionString": "1.17"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.bendev.apextrackerapp",
+    "docType": 1,
+    "docid": "com.bendev.apextrackerapp",
+    "image": [
+      {
+        "color": "#4E4E4E",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/Ay8VSS-MqZdcO9IxDVoQzVVcAllZ8U_dusFkUfF-YkfygQ6kDBRQXR0uDHo4YgaJVlY",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#0C0C0C",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/slt0AZkg2bEr2lHypkAjSYBQ3xJ8DkqXjuAUbXHbYO2fIHKbDBW81mQ9sXyW368Svg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qYxB3aRyRnc1iLrfqOzt3D9-rs9fFd_MKMzZvA7sp5nldSusllPNjaQ89NW9E3kENHOf",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Q0TuQVF0dnl4XC4g75KT2liQJAcn6HkKvpZEGoogIR95p57b0wtoJfZIxnV0ivV-hEWV",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/rn7J5NQcJvTD7jmgAVPRs2V8wKgAnyS5yYdq3EhvdT0d6zYNCUcYZ7txcXe66N0i8Gs",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/f0qyK2w8oGDGFM0DQc--8ZZ4q8o-5xhpiXGCNt6uah-6jDRsTcPXwBild2_mPlwgXEs",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/kgInGZob2Jqeq-b5k-G1Tzwd-NLLumlOvDF47czCsyO9k20A-MnnSNUEtpBhyPQ_Fair",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/pTjnVpiHqtPLXXj5Q_TJj6v7bxCTqN7SQFYghDQROZzssDS4B0iVwSJXOoe2NrZ_6g",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/7NWCwI6GaCEfi-sLaHUv2qeSHNy9dvwe5GXtSFR2OtGMbFDQBSHf5siSiORnQSbiuDqD",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://docs.google.com/document/d/19vMngpIeCLkMduKQaw5fEQvjpV_lniLdjzBxVgoZGQU/edit?usp=sharing",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.bendev.apextrackerapp",
+    "reviewsUrl": "rev?doc=com.bendev.apextrackerapp&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.bendev.apextrackerapp",
+    "title": "Apex Tracker App",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Ruben Sousa"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "rubenDevAcc12@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "8 Oct 2021"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-05-11 06:03:15.855689",
+    "backendDocid": "com.bendev.apextrackerapp",
+    "backendId": 3,
+    "creator": "Ruben Sousa",
+    "descriptionHtml": "The unofficial app for you to check news/stats/game status of Apex Legends is in your hand. Quickly check your profile stats or the current game status.<br>Features include:<br>- Latest news feed from the game;<br>- Live Skin Store;<br>- Search and check player profile stats (level, ranks, match history...);<br>- Player base counts;<br>- Map rotations;<br>- Crafting Rotations;<br>- Online services status.<br><br>*Important Disclaimer:* Data is NOT provided by the app developer and may not be completely accurate, since it depends on unofficial APIs.",
+    "descriptionShort": "The unofficial app for you to check news/stats/game status of Apex Legends!",
+    "details": {
+      "appDetails": {
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "15127293",
+          "unknown3": 30
+        },
+        "developerEmail": "rubenDevAcc12@gmail.com",
+        "developerName": "Ruben Sousa",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "14990897",
+            "versionCode": 12
+          },
+          {
+            "fileType": 0,
+            "size": "61850",
+            "versionCode": 12
+          },
+          {
+            "fileType": 0,
+            "size": "33177",
+            "versionCode": 12
+          },
+          {
+            "fileType": 0,
+            "size": "41369",
+            "versionCode": 12
+          }
+        ],
+        "installationSize": "15127293",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "com.bendev.apextrackerapp",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.INTERNET",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.WAKE_LOCK",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": "New Feature:<br> - Live Skin Store: You can now check which cosmetic deals are available in the Store. To access the Skin Store, go to the News Screen, click on Skin Store on the new upper tab menu, and there you go!<br><br>- Storm Point map image resource updated;<br><br>- Minor bug fixes/improvements",
+        "unstable": true,
+        "uploadDate": "10 May 2022",
+        "versionCode": 12,
+        "versionString": "1.18"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.bendev.apextrackerapp",
+    "docType": 1,
+    "docid": "com.bendev.apextrackerapp",
+    "image": [
+      {
+        "color": "#4E4E4E",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/Ay8VSS-MqZdcO9IxDVoQzVVcAllZ8U_dusFkUfF-YkfygQ6kDBRQXR0uDHo4YgaJVlY",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#0C0C0C",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/slt0AZkg2bEr2lHypkAjSYBQ3xJ8DkqXjuAUbXHbYO2fIHKbDBW81mQ9sXyW368Svg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/YgxmQUaPV2QUtg_kWsY7RQGlWs7zo_AJUVcU1U7_9Hepqfljk5AwMxE9Rwobj-Biwg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/12MgF1lT1cNItuZRq9JmsCUS7FRJhw0-iXxhMwgwAGZlTU0SGgXNjeD9YPGJtmOOIw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Q0TuQVF0dnl4XC4g75KT2liQJAcn6HkKvpZEGoogIR95p57b0wtoJfZIxnV0ivV-hEWV",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/rn7J5NQcJvTD7jmgAVPRs2V8wKgAnyS5yYdq3EhvdT0d6zYNCUcYZ7txcXe66N0i8Gs",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/f0qyK2w8oGDGFM0DQc--8ZZ4q8o-5xhpiXGCNt6uah-6jDRsTcPXwBild2_mPlwgXEs",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/kgInGZob2Jqeq-b5k-G1Tzwd-NLLumlOvDF47czCsyO9k20A-MnnSNUEtpBhyPQ_Fair",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/pTjnVpiHqtPLXXj5Q_TJj6v7bxCTqN7SQFYghDQROZzssDS4B0iVwSJXOoe2NrZ_6g",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/7NWCwI6GaCEfi-sLaHUv2qeSHNy9dvwe5GXtSFR2OtGMbFDQBSHf5siSiORnQSbiuDqD",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://docs.google.com/document/d/19vMngpIeCLkMduKQaw5fEQvjpV_lniLdjzBxVgoZGQU/edit?usp=sharing",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.bendev.apextrackerapp",
+    "reviewsUrl": "rev?doc=com.bendev.apextrackerapp&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.bendev.apextrackerapp",
+    "title": "Apex Tracker App",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "rubenDevAcc12@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "8 Oct 2021"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "16",
+      "fiveStarRatings": "16",
+      "fourStarRatings": "3",
+      "oneStarRatings": "2",
+      "ratingsCount": "22",
+      "starRating": 4.3636365,
+      "threeStarRatings": "0",
+      "twoStarRatings": "1",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-05-13 18:14:35.023907",
+    "backendDocid": "com.bendev.apextrackerapp",
+    "backendId": 3,
+    "creator": "Ruben Sousa",
+    "descriptionHtml": "The unofficial app for you to check news/stats/game status of Apex Legends is in your hand. Quickly check your profile stats or the current game status.<br>Features include:<br>- Latest news feed from the game;<br>- Live Skin Store;<br>- Search and check player profile stats (level, ranks, match history...);<br>- Player base counts;<br>- Map rotations;<br>- Crafting Rotations;<br>- Online services status.<br><br>*Important Disclaimer:* Data is NOT provided by the app developer and may not be completely accurate, since it depends on unofficial APIs.",
+    "descriptionShort": "The unofficial app for you to check news/stats/game status of Apex Legends!",
+    "details": {
+      "appDetails": {
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "15156374",
+          "unknown3": 30
+        },
+        "developerEmail": "rubenDevAcc12@gmail.com",
+        "developerName": "Ruben Sousa",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "14990897",
+            "versionCode": 13
+          },
+          {
+            "fileType": 0,
+            "size": "61850",
+            "versionCode": 13
+          },
+          {
+            "fileType": 0,
+            "size": "29081",
+            "versionCode": 13
+          },
+          {
+            "fileType": 0,
+            "size": "33177",
+            "versionCode": 13
+          },
+          {
+            "fileType": 0,
+            "size": "41369",
+            "versionCode": 13
+          }
+        ],
+        "installationSize": "15156374",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "com.bendev.apextrackerapp",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.INTERNET",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.WAKE_LOCK",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": "Bugfix:<br> - Due to the renewed Ranking System introduced in Apex, the current system in the app became buggy and not properly functional ( ie: Showing wrong rank tiers and progression). This hotfix solves the progression system used in the app, making it work on par to what&#39;s currently used in game.",
+        "unstable": true,
+        "uploadDate": "11 May 2022",
+        "versionCode": 13,
+        "versionString": "1.18.1"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.bendev.apextrackerapp",
+    "docType": 1,
+    "docid": "com.bendev.apextrackerapp",
+    "image": [
+      {
+        "color": "#4E4E4E",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/Ay8VSS-MqZdcO9IxDVoQzVVcAllZ8U_dusFkUfF-YkfygQ6kDBRQXR0uDHo4YgaJVlY",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#0C0C0C",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/slt0AZkg2bEr2lHypkAjSYBQ3xJ8DkqXjuAUbXHbYO2fIHKbDBW81mQ9sXyW368Svg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/YgxmQUaPV2QUtg_kWsY7RQGlWs7zo_AJUVcU1U7_9Hepqfljk5AwMxE9Rwobj-Biwg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/12MgF1lT1cNItuZRq9JmsCUS7FRJhw0-iXxhMwgwAGZlTU0SGgXNjeD9YPGJtmOOIw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Q0TuQVF0dnl4XC4g75KT2liQJAcn6HkKvpZEGoogIR95p57b0wtoJfZIxnV0ivV-hEWV",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/rn7J5NQcJvTD7jmgAVPRs2V8wKgAnyS5yYdq3EhvdT0d6zYNCUcYZ7txcXe66N0i8Gs",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/f0qyK2w8oGDGFM0DQc--8ZZ4q8o-5xhpiXGCNt6uah-6jDRsTcPXwBild2_mPlwgXEs",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/kgInGZob2Jqeq-b5k-G1Tzwd-NLLumlOvDF47czCsyO9k20A-MnnSNUEtpBhyPQ_Fair",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/pTjnVpiHqtPLXXj5Q_TJj6v7bxCTqN7SQFYghDQROZzssDS4B0iVwSJXOoe2NrZ_6g",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/7NWCwI6GaCEfi-sLaHUv2qeSHNy9dvwe5GXtSFR2OtGMbFDQBSHf5siSiORnQSbiuDqD",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://docs.google.com/document/d/19vMngpIeCLkMduKQaw5fEQvjpV_lniLdjzBxVgoZGQU/edit?usp=sharing",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.bendev.apextrackerapp",
+    "reviewsUrl": "rev?doc=com.bendev.apextrackerapp&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.bendev.apextrackerapp",
+    "title": "Apex Tracker App",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "rubenDevAcc12@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "8 Oct 2021"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-06-23 14:46:12.919528",
+    "backendDocid": "com.bendev.apextrackerapp",
+    "backendId": 3,
+    "creator": "Ruben Sousa",
+    "descriptionHtml": "The unofficial app for you to check news/stats/game status of Apex Legends is in your hand. Quickly check your profile stats or the current game status.<br>Features include:<br>- Latest news feed from the game;<br>- Live Skin Store;<br>- Search and check player profile stats (level, ranks, match history...);<br>- Global Player Leaderboards (Coming Soon);<br>- Player base counts;<br>- Map rotations;<br>- Crafting Rotations;<br>- Online services status.<br><br>*Important Disclaimer:* Data is NOT provided by the app developer and may not be completely accurate, since it depends on unofficial APIs.",
+    "descriptionShort": "The unofficial app for you to check news/stats/game status of Apex Legends!",
+    "details": {
+      "appDetails": {
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "15201428",
+          "unknown3": 30
+        },
+        "developerEmail": "rubenDevAcc12@gmail.com",
+        "developerName": "Ruben Sousa",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "15065032",
+            "versionCode": 14
+          },
+          {
+            "fileType": 0,
+            "size": "61850",
+            "versionCode": 14
+          },
+          {
+            "fileType": 0,
+            "size": "33177",
+            "versionCode": 14
+          },
+          {
+            "fileType": 0,
+            "size": "41369",
+            "versionCode": 14
+          }
+        ],
+        "installationSize": "15201428",
+        "numDownloads": "1,000+ downloads",
+        "packageName": "com.bendev.apextrackerapp",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.INTERNET",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.WAKE_LOCK",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": "New Quality of Life Feature:<br> - Search History: Searched players are now added to a Player Search History list that can be accessed through an icon next to the search input bar. Search history can also be deleted from the Settings menu.<br><br>UI/UX:<br> - Multiple design improvements in various areas of the app, mainly on the Player Stats profile.<br><br>Bugfixes:<br> - Fixed bug when checking an Apex Predator player profile, the arenas ranked progression bar would get hidden.",
+        "unstable": true,
+        "uploadDate": "21 Jun 2022",
+        "versionCode": 14,
+        "versionString": "1.19"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.bendev.apextrackerapp",
+    "docType": 1,
+    "docid": "com.bendev.apextrackerapp",
+    "image": [
+      {
+        "color": "#4E4E4E",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/Ay8VSS-MqZdcO9IxDVoQzVVcAllZ8U_dusFkUfF-YkfygQ6kDBRQXR0uDHo4YgaJVlY",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#0C0C0C",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/slt0AZkg2bEr2lHypkAjSYBQ3xJ8DkqXjuAUbXHbYO2fIHKbDBW81mQ9sXyW368Svg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/uOMxilkIn0N5TjiKjpT9jb3b6tXubZtiu8ONbZGFquKNXetOOswi5B4HA0OSeJuEXg1A",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/VCvl3iPYOzOV5utLqHIpQimHRyzSBSJ3H4kMNJPWmg9Tf_AHHBg7qpgJUGnLxTRMSg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/fU3mWcNYO07lgyUS5VZHx_tE-3wFoJXnglqUroaPUmNj8BYcKtZg5nZeJLiLpL_k5xY",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/tP83_yk-68SnoiVC3zF5V6Q1TLWQNVzetbHgIPVBNFMSi4GX1wmdn0jeoI54ua5eQ1EA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ZQi2z_XdRgjZBfUlJK_3Wgbcj60x9nQPO_JnPBiJKjv9PjS9oLWh_XkKbyzT81BMEA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/NQE9pAEcLOj1oucDD2js74QpUCi0zMZ1OgJzAcXRTknLv8k9S0dMUxUtvYxnNtCvURmC",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/DJtR3lLR8QMqddNHX9HrMnLcbY5NjhCh8UF6UzwCJ-BBEZa94oJzi5vvHM7Oj3DXfdM",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/3vKO_hld6KctkjGM5oHnNGFn6qZsSKUHpsofX7QYMJJZIMbETnqkhtmxSQta14Alcg",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://docs.google.com/document/d/19vMngpIeCLkMduKQaw5fEQvjpV_lniLdjzBxVgoZGQU/edit?usp=sharing",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.bendev.apextrackerapp",
+    "reviewsUrl": "rev?doc=com.bendev.apextrackerapp&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.bendev.apextrackerapp",
+    "title": "Apex Tracker App",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "rubenDevAcc12@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "8 Oct 2021"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "6",
+      "fiveStarRatings": "3",
+      "fourStarRatings": "7",
+      "oneStarRatings": "7",
+      "ratingsCount": "26",
+      "starRating": 2.857143,
+      "threeStarRatings": "3",
+      "twoStarRatings": "3",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-07-20 06:23:24.830291",
+    "backendDocid": "com.bendev.apextrackerapp",
+    "backendId": 3,
+    "creator": "Ruben Sousa",
+    "descriptionHtml": "The unofficial app for you to check news/stats/game status of Apex Legends is in your hand. Quickly check your profile stats or the current game status.<br>Features include:<br>- Latest news feed from the game;<br>- Live Skin Store;<br>- Search and check player profile stats (level, ranks, match history...);<br>- Global Player Leaderboards (Coming Soon);<br>- Player base counts;<br>- Map rotations;<br>- Crafting Rotations;<br>- Online services status.<br><br>*Important Disclaimer:* Data is NOT provided by the app developer and may not be completely accurate, since it depends on unofficial APIs.",
+    "descriptionShort": "The unofficial app for you to check news/stats/game status of Apex Legends!",
+    "details": {
+      "appDetails": {
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "15209609",
+          "unknown3": 30
+        },
+        "developerEmail": "rubenDevAcc12@gmail.com",
+        "developerName": "Ruben Sousa",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "15073213",
+            "versionCode": 15
+          },
+          {
+            "fileType": 0,
+            "size": "61850",
+            "versionCode": 15
+          },
+          {
+            "fileType": 0,
+            "size": "33177",
+            "versionCode": 15
+          },
+          {
+            "fileType": 0,
+            "size": "41369",
+            "versionCode": 15
+          }
+        ],
+        "installationSize": "15209609",
+        "numDownloads": "5,000+ downloads",
+        "packageName": "com.bendev.apextrackerapp",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.INTERNET",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.WAKE_LOCK",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": "Ranked Split Info:<br> - A new section containing ranked split information such as: time remaining, current map, next map(...) has been added to the Status Screen.<br><br>Search History Feature improvements:<br> - Repeating Search words no longer get added to the Search History list;<br> - You can now individually delete saved Search History words.<br><br>Bugfixes:<br> - Fixed automatic phone Dark Mode causing weird color glitches in the app&#39;s UI;<br> - Fixed overlapping UI elements.",
+        "unstable": true,
+        "uploadDate": "19 Jul 2022",
+        "versionCode": 15,
+        "versionString": "1.20"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.bendev.apextrackerapp",
+    "docType": 1,
+    "docid": "com.bendev.apextrackerapp",
+    "image": [
+      {
+        "color": "#4E4E4E",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/Ay8VSS-MqZdcO9IxDVoQzVVcAllZ8U_dusFkUfF-YkfygQ6kDBRQXR0uDHo4YgaJVlY",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#0C0C0C",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/slt0AZkg2bEr2lHypkAjSYBQ3xJ8DkqXjuAUbXHbYO2fIHKbDBW81mQ9sXyW368Svg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/uOMxilkIn0N5TjiKjpT9jb3b6tXubZtiu8ONbZGFquKNXetOOswi5B4HA0OSeJuEXg1A",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/VCvl3iPYOzOV5utLqHIpQimHRyzSBSJ3H4kMNJPWmg9Tf_AHHBg7qpgJUGnLxTRMSg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/fU3mWcNYO07lgyUS5VZHx_tE-3wFoJXnglqUroaPUmNj8BYcKtZg5nZeJLiLpL_k5xY",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/tP83_yk-68SnoiVC3zF5V6Q1TLWQNVzetbHgIPVBNFMSi4GX1wmdn0jeoI54ua5eQ1EA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ZQi2z_XdRgjZBfUlJK_3Wgbcj60x9nQPO_JnPBiJKjv9PjS9oLWh_XkKbyzT81BMEA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/NQE9pAEcLOj1oucDD2js74QpUCi0zMZ1OgJzAcXRTknLv8k9S0dMUxUtvYxnNtCvURmC",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/DJtR3lLR8QMqddNHX9HrMnLcbY5NjhCh8UF6UzwCJ-BBEZa94oJzi5vvHM7Oj3DXfdM",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/3vKO_hld6KctkjGM5oHnNGFn6qZsSKUHpsofX7QYMJJZIMbETnqkhtmxSQta14Alcg",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://docs.google.com/document/d/19vMngpIeCLkMduKQaw5fEQvjpV_lniLdjzBxVgoZGQU/edit?usp=sharing",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.bendev.apextrackerapp",
+    "reviewsUrl": "rev?doc=com.bendev.apextrackerapp&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.bendev.apextrackerapp",
+    "title": "Apex Tracker App",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Ruben Sousa"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "rubenDevAcc12@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "8 Oct 2021"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "17",
+      "fiveStarRatings": "16",
+      "fourStarRatings": "4",
+      "oneStarRatings": "4",
+      "ratingsCount": "27",
+      "starRating": 4.0,
+      "threeStarRatings": "2",
+      "twoStarRatings": "1",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-08-10 14:45:22.321511",
+    "backendDocid": "com.bendev.apextrackerapp",
+    "backendId": 3,
+    "creator": "Ruben Sousa",
+    "descriptionHtml": "The unofficial app for you to check news/stats/game status of Apex Legends is in your hand. Quickly check your profile stats or the current game status.<br>Features include:<br>- Latest news feed from the game;<br>- Live Skin Store;<br>- Search and check player profile stats (level, ranks, match history...);<br>- Global Player Leaderboards (Coming Soon);<br>- Player base counts;<br>- Map rotations;<br>- Crafting Rotations;<br>- Online services status.<br><br>*Important Disclaimer:* Data is NOT provided by the app developer and may not be completely accurate, since it depends on unofficial APIs.",
+    "descriptionShort": "The unofficial app for you to check news/stats/game status of Apex Legends!",
+    "details": {
+      "appDetails": {
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "15836862",
+          "unknown3": 30
+        },
+        "developerEmail": "rubenDevAcc12@gmail.com",
+        "developerName": "Ruben Sousa",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "15671385",
+            "versionCode": 16
+          },
+          {
+            "fileType": 0,
+            "size": "61850",
+            "versionCode": 16
+          },
+          {
+            "fileType": 0,
+            "size": "29081",
+            "versionCode": 16
+          },
+          {
+            "fileType": 0,
+            "size": "33177",
+            "versionCode": 16
+          },
+          {
+            "fileType": 0,
+            "size": "41369",
+            "versionCode": 16
+          }
+        ],
+        "installationSize": "15836862",
+        "numDownloads": "5,000+ downloads",
+        "packageName": "com.bendev.apextrackerapp",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.INTERNET",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.WAKE_LOCK",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": "Match History feature improvements:<br> - Match history data gathering has been improved, now with the possibility to track damage per match, in addition to kills;<br> - Match History screen now has a help pop-up that explains how the user can track their matches.<br><br>UI:<br> - Updated King&#39;s Canyon map image for new season;<br> - Added horizontal scrolling text effect to player names, in the Stats Screen.<br><br>Bugfixes;<br> - Fixed some skin items not being displayed correctly in the Skin Store.",
+        "unstable": true,
+        "uploadDate": "9 Aug 2022",
+        "versionCode": 16,
+        "versionString": "1.21"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.bendev.apextrackerapp",
+    "docType": 1,
+    "docid": "com.bendev.apextrackerapp",
+    "image": [
+      {
+        "color": "#4E4E4E",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/Ay8VSS-MqZdcO9IxDVoQzVVcAllZ8U_dusFkUfF-YkfygQ6kDBRQXR0uDHo4YgaJVlY",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#0C0C0C",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/slt0AZkg2bEr2lHypkAjSYBQ3xJ8DkqXjuAUbXHbYO2fIHKbDBW81mQ9sXyW368Svg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/uOMxilkIn0N5TjiKjpT9jb3b6tXubZtiu8ONbZGFquKNXetOOswi5B4HA0OSeJuEXg1A",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/VCvl3iPYOzOV5utLqHIpQimHRyzSBSJ3H4kMNJPWmg9Tf_AHHBg7qpgJUGnLxTRMSg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/fU3mWcNYO07lgyUS5VZHx_tE-3wFoJXnglqUroaPUmNj8BYcKtZg5nZeJLiLpL_k5xY",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/tP83_yk-68SnoiVC3zF5V6Q1TLWQNVzetbHgIPVBNFMSi4GX1wmdn0jeoI54ua5eQ1EA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ZQi2z_XdRgjZBfUlJK_3Wgbcj60x9nQPO_JnPBiJKjv9PjS9oLWh_XkKbyzT81BMEA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/NQE9pAEcLOj1oucDD2js74QpUCi0zMZ1OgJzAcXRTknLv8k9S0dMUxUtvYxnNtCvURmC",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/DJtR3lLR8QMqddNHX9HrMnLcbY5NjhCh8UF6UzwCJ-BBEZa94oJzi5vvHM7Oj3DXfdM",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/3vKO_hld6KctkjGM5oHnNGFn6qZsSKUHpsofX7QYMJJZIMbETnqkhtmxSQta14Alcg",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://docs.google.com/document/d/19vMngpIeCLkMduKQaw5fEQvjpV_lniLdjzBxVgoZGQU/edit?usp=sharing",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.bendev.apextrackerapp",
+    "reviewsUrl": "rev?doc=com.bendev.apextrackerapp&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.bendev.apextrackerapp",
+    "title": "Apex Tracker App",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "rubenDevAcc12@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "8 Oct 2021"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "17",
+      "fiveStarRatings": "17",
+      "fourStarRatings": "4",
+      "oneStarRatings": "4",
+      "ratingsCount": "28",
+      "starRating": 4.035714,
+      "threeStarRatings": "2",
+      "twoStarRatings": "1",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-08-16 02:26:14.140959",
+    "backendDocid": "com.bendev.apextrackerapp",
+    "backendId": 3,
+    "creator": "Ruben Sousa",
+    "descriptionHtml": "The unofficial app for you to check news/stats/game status of Apex Legends is in your hand. Quickly check your profile stats or the current game status.<br>Features include:<br>- Latest news feed from the game;<br>- Live Skin Store;<br>- Search and check player profile stats (level, ranks, match history...);<br>- Global Player Leaderboards (Coming Soon);<br>- Player base counts;<br>- Map rotations;<br>- Crafting Rotations;<br>- Online services status.<br><br>*Important Disclaimer:* Data is NOT provided by the app developer and may not be completely accurate, since it depends on unofficial APIs.",
+    "descriptionShort": "The unofficial app for you to check news/stats/game status of Apex Legends!",
+    "details": {
+      "appDetails": {
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "15836862",
+          "unknown3": 30
+        },
+        "developerEmail": "rubenDevAcc12@gmail.com",
+        "developerName": "Ruben Sousa",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "15671385",
+            "versionCode": 17
+          },
+          {
+            "fileType": 0,
+            "size": "61850",
+            "versionCode": 17
+          },
+          {
+            "fileType": 0,
+            "size": "29081",
+            "versionCode": 17
+          },
+          {
+            "fileType": 0,
+            "size": "33177",
+            "versionCode": 17
+          },
+          {
+            "fileType": 0,
+            "size": "41369",
+            "versionCode": 17
+          }
+        ],
+        "installationSize": "15836862",
+        "numDownloads": "5,000+ downloads",
+        "packageName": "com.bendev.apextrackerapp",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.INTERNET",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.WAKE_LOCK",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": "Hotfix:<br> - Hotfix for the King&#39;s Canyon map image not being displayed correctly in the Ranked Split section.",
+        "unstable": true,
+        "uploadDate": "10 Aug 2022",
+        "versionCode": 17,
+        "versionString": "1.21.1"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.bendev.apextrackerapp",
+    "docType": 1,
+    "docid": "com.bendev.apextrackerapp",
+    "image": [
+      {
+        "color": "#4E4E4E",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/Ay8VSS-MqZdcO9IxDVoQzVVcAllZ8U_dusFkUfF-YkfygQ6kDBRQXR0uDHo4YgaJVlY",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#0C0C0C",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/slt0AZkg2bEr2lHypkAjSYBQ3xJ8DkqXjuAUbXHbYO2fIHKbDBW81mQ9sXyW368Svg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/uOMxilkIn0N5TjiKjpT9jb3b6tXubZtiu8ONbZGFquKNXetOOswi5B4HA0OSeJuEXg1A",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/VCvl3iPYOzOV5utLqHIpQimHRyzSBSJ3H4kMNJPWmg9Tf_AHHBg7qpgJUGnLxTRMSg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/fU3mWcNYO07lgyUS5VZHx_tE-3wFoJXnglqUroaPUmNj8BYcKtZg5nZeJLiLpL_k5xY",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/tP83_yk-68SnoiVC3zF5V6Q1TLWQNVzetbHgIPVBNFMSi4GX1wmdn0jeoI54ua5eQ1EA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ZQi2z_XdRgjZBfUlJK_3Wgbcj60x9nQPO_JnPBiJKjv9PjS9oLWh_XkKbyzT81BMEA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/NQE9pAEcLOj1oucDD2js74QpUCi0zMZ1OgJzAcXRTknLv8k9S0dMUxUtvYxnNtCvURmC",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/DJtR3lLR8QMqddNHX9HrMnLcbY5NjhCh8UF6UzwCJ-BBEZa94oJzi5vvHM7Oj3DXfdM",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/3vKO_hld6KctkjGM5oHnNGFn6qZsSKUHpsofX7QYMJJZIMbETnqkhtmxSQta14Alcg",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://docs.google.com/document/d/19vMngpIeCLkMduKQaw5fEQvjpV_lniLdjzBxVgoZGQU/edit?usp=sharing",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.bendev.apextrackerapp",
+    "reviewsUrl": "rev?doc=com.bendev.apextrackerapp&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.bendev.apextrackerapp",
+    "title": "Apex Tracker App",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "rubenDevAcc12@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "8 Oct 2021"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-09-24 11:01:45.514628",
+    "backendDocid": "com.bendev.apextrackerapp",
+    "backendId": 3,
+    "creator": "Ruben Sousa",
+    "descriptionHtml": "The unofficial app for you to check news/stats/game status of Apex Legends is in your hand. Quickly check your profile stats or the current game status.<br>Features include:<br>- Latest news feed from the game;<br>- Live Skin Store;<br>- Search and check player profile stats (level, ranks, match history...);<br>- Global Player Leaderboards (Coming Soon);<br>- Player base counts;<br>- Map rotations;<br>- Crafting Rotations;<br>- Online services status.<br><br>*Important Disclaimer:* Data is NOT provided by the app developer and may not be completely accurate, since it depends on unofficial APIs.",
+    "descriptionShort": "The unofficial app for you to check news/stats/game status of Apex Legends!",
+    "details": {
+      "appDetails": {
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "16304459",
+          "unknown3": 30
+        },
+        "developerEmail": "rubenDevAcc12@gmail.com",
+        "developerName": "Ruben Sousa",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "16168063",
+            "versionCode": 18
+          },
+          {
+            "fileType": 0,
+            "size": "61850",
+            "versionCode": 18
+          },
+          {
+            "fileType": 0,
+            "size": "33177",
+            "versionCode": 18
+          },
+          {
+            "fileType": 0,
+            "size": "41369",
+            "versionCode": 18
+          }
+        ],
+        "installationSize": "16304459",
+        "numDownloads": "5,000+ downloads",
+        "packageName": "com.bendev.apextrackerapp",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.INTERNET",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.WAKE_LOCK",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": "New Feature:<br> - Global Ranked Leaderboards - A new screen called Rankings has been added. There you can access a list of the top 500 ranked players in the world. You can also visit each player profile by clicking in their names and filter the list by platform.<br><br>New intro screen:<br> - A splash screen has been added to when the app is opening.<br><br>Player Stats improvements:<br> - New level display with badges, supporting the recently added Prestige System.<br><br>Bugfixes and other improvements in the app.",
+        "unstable": true,
+        "uploadDate": "20 Sept 2022",
+        "versionCode": 18,
+        "versionString": "1.22"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.bendev.apextrackerapp",
+    "docType": 1,
+    "docid": "com.bendev.apextrackerapp",
+    "image": [
+      {
+        "color": "#4E4E4E",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/Ay8VSS-MqZdcO9IxDVoQzVVcAllZ8U_dusFkUfF-YkfygQ6kDBRQXR0uDHo4YgaJVlY",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#0C0C0C",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/slt0AZkg2bEr2lHypkAjSYBQ3xJ8DkqXjuAUbXHbYO2fIHKbDBW81mQ9sXyW368Svg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/uOMxilkIn0N5TjiKjpT9jb3b6tXubZtiu8ONbZGFquKNXetOOswi5B4HA0OSeJuEXg1A",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/VCvl3iPYOzOV5utLqHIpQimHRyzSBSJ3H4kMNJPWmg9Tf_AHHBg7qpgJUGnLxTRMSg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/fU3mWcNYO07lgyUS5VZHx_tE-3wFoJXnglqUroaPUmNj8BYcKtZg5nZeJLiLpL_k5xY",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/tP83_yk-68SnoiVC3zF5V6Q1TLWQNVzetbHgIPVBNFMSi4GX1wmdn0jeoI54ua5eQ1EA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ZQi2z_XdRgjZBfUlJK_3Wgbcj60x9nQPO_JnPBiJKjv9PjS9oLWh_XkKbyzT81BMEA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/NQE9pAEcLOj1oucDD2js74QpUCi0zMZ1OgJzAcXRTknLv8k9S0dMUxUtvYxnNtCvURmC",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/DJtR3lLR8QMqddNHX9HrMnLcbY5NjhCh8UF6UzwCJ-BBEZa94oJzi5vvHM7Oj3DXfdM",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/3vKO_hld6KctkjGM5oHnNGFn6qZsSKUHpsofX7QYMJJZIMbETnqkhtmxSQta14Alcg",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://docs.google.com/document/d/19vMngpIeCLkMduKQaw5fEQvjpV_lniLdjzBxVgoZGQU/edit?usp=sharing",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.bendev.apextrackerapp",
+    "reviewsUrl": "rev?doc=com.bendev.apextrackerapp&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.bendev.apextrackerapp",
+    "title": "Apex Tracker App",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "rubenDevAcc12@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "8 Oct 2021"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "18",
+      "fiveStarRatings": "19",
+      "fourStarRatings": "5",
+      "oneStarRatings": "5",
+      "ratingsCount": "33",
+      "starRating": 3.939394,
+      "threeStarRatings": "2",
+      "twoStarRatings": "2",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-11-01 23:58:35.386340",
+    "backendDocid": "com.bendev.apextrackerapp",
+    "backendId": 3,
+    "creator": "Ruben Sousa",
+    "descriptionHtml": "The unofficial app for you to check news/stats/game status of Apex Legends is in your hand. Quickly check your profile stats or the current game status.<br>Features include:<br>- Latest news feed from the game;<br>- Live Skin Store;<br>- Search and check player profile stats (level, ranks, match history...);<br>- Global Player Leaderboards;<br>- Player base counts;<br>- Map rotations;<br>- Crafting Rotations;<br>- Online services status.<br><br>*Important Disclaimer:* Data is NOT provided by the app developer and may not be completely accurate, since it depends on unofficial APIs.",
+    "descriptionShort": "The unofficial app for you to check news/stats/game status of Apex Legends!",
+    "details": {
+      "appDetails": {
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "19341393",
+          "unknown3": 32
+        },
+        "developerEmail": "rubenDevAcc12@gmail.com",
+        "developerName": "Ruben Sousa",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "19154633",
+            "versionCode": 19
+          },
+          {
+            "fileType": 0,
+            "size": "74941",
+            "versionCode": 19
+          },
+          {
+            "fileType": 0,
+            "size": "29081",
+            "versionCode": 19
+          },
+          {
+            "fileType": 0,
+            "size": "37273",
+            "versionCode": 19
+          },
+          {
+            "fileType": 0,
+            "size": "45465",
+            "versionCode": 19
+          }
+        ],
+        "installationSize": "19341393",
+        "numDownloads": "5,000+ downloads",
+        "packageName": "com.bendev.apextrackerapp",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.WAKE_LOCK",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": "New Stats Displayed:<br> - When checking a player profile, under the &quot;Selected Legend&quot; section, the equipped trackers by the player are now displayed.<br><br>New map resources added to Map Rotation feature;<br><br>Bugfixing and others:<br> - Fixed bug with the favorite icon not displaying correctly when visitting the Favorite Player profile;<br><br> - Stability improvements in the previously added Rankings screen;<br><br> - App libraries and Android API updates.",
+        "unstable": true,
+        "uploadDate": "30 Oct 2022",
+        "versionCode": 19,
+        "versionString": "1.23"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.bendev.apextrackerapp",
+    "docType": 1,
+    "docid": "com.bendev.apextrackerapp",
+    "image": [
+      {
+        "color": "#4E4F4F",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/BaiI3H75rJQDpU8gwmKzH766Asfu76QHCydvLzlYIOLlbm4Llsa6Dievmd2YduoCYTMJ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#0C0C0C",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/slt0AZkg2bEr2lHypkAjSYBQ3xJ8DkqXjuAUbXHbYO2fIHKbDBW81mQ9sXyW368Svg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2048,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/83BbWxWnrmU2W0Sr-eLsn1WuqXx4yyvti9ukGWcEbtgKbyocOpTsqTZhFpbz8BJtVg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2048,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/pZXFE_VBZPVEyw4I7oUNbOnUQo_nAeezVPAE7vEV_1OUJc9t3rf6bi8zYrKzOYvfYs4",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2048,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/92qd4iDlnJWikfEFbEAkd3swijIRjuYoH7yC7JJAd0E8ZNVMFPGgq6eTGa_XsnBFcqo",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2048,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/N6-FoCjGVafN6f4HLlMbtpoORfOBHb34TcMl2u83FUvnmGAL624JtKYHtDTHToOXZ94M",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2048,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ZXYG6EQauxIzju9JcRPcXHc4JTJHTXZQs3UFbJC7lv7iyjG6irpPnpr824cBsG931g",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2048,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/z-_MszOdH001iKhRzy88b5ellTMfTSgDp645v6w5qeqpbqp36Hls3vmnhIO-rZLdcrR0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2048,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/X6QkTIgxuqbCarLeM04xXLVmrrCrAzKeXzxLP-TQlNs6zrcOwZ2neGUOe5coznvUTQo",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2048,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/IROaFQnQrQXNZ5w0e4VZ83WQZWjS6oDRbUb3l3WspVxaJlLB0s83NHS8gw6OtumUdw",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://docs.google.com/document/d/19vMngpIeCLkMduKQaw5fEQvjpV_lniLdjzBxVgoZGQU/edit?usp=sharing",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.bendev.apextrackerapp",
+    "reviewsUrl": "rev?doc=com.bendev.apextrackerapp&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.bendev.apextrackerapp",
+    "title": "Apex Tracker App",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "rubenDevAcc12@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "8 Oct 2021"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-12-07 14:34:12.084458",
+    "backendDocid": "com.bendev.apextrackerapp",
+    "backendId": 3,
+    "creator": "Ruben Sousa",
+    "descriptionHtml": "The unofficial app for you to check news/stats/game status of Apex Legends is in your hand. Quickly check your profile stats or the current game status.<br>Features include:<br>- Latest news feed from the game;<br>- Live Skin Store;<br>- Search and check player profile stats (level, ranks, match history...);<br>- Global Player Leaderboards;<br>- Player base counts;<br>- Map rotations;<br>- Crafting Rotations;<br>- Online services status.<br><br>*Important Disclaimer:* Data is NOT provided by the app developer and may not be completely accurate, since it depends on unofficial APIs.",
+    "descriptionShort": "The unofficial app for you to check news/stats/game status of Apex Legends!",
+    "details": {
+      "appDetails": {
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "19410455",
+          "unknown3": 32
+        },
+        "developerEmail": "rubenDevAcc12@gmail.com",
+        "developerName": "Ruben Sousa",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "19290049",
+            "versionCode": 20
+          },
+          {
+            "fileType": 0,
+            "size": "74941",
+            "versionCode": 20
+          },
+          {
+            "fileType": 0,
+            "size": "45465",
+            "versionCode": 20
+          }
+        ],
+        "installationSize": "19410455",
+        "numDownloads": "5,000+ downloads",
+        "packageName": "com.bendev.apextrackerapp",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.WAKE_LOCK",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": "New Feature - RP Progress Graph<br> - You can now visualize a player&#39;s Ranked games progress through a neat graph visualization: Go to a player profile and under the rank badge there is now a button to access it, or in the Match History tab. Note that the graph is based on the matches that you have tracked in the app&#39;s Match History.<br><br>UI/UX<br> - Multiple design improvements/tweaks in various screens.",
+        "unstable": true,
+        "uploadDate": "5 Dec 2022",
+        "versionCode": 20,
+        "versionString": "1.24"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.bendev.apextrackerapp",
+    "docType": 1,
+    "docid": "com.bendev.apextrackerapp",
+    "image": [
+      {
+        "color": "#4E4F4F",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/BaiI3H75rJQDpU8gwmKzH766Asfu76QHCydvLzlYIOLlbm4Llsa6Dievmd2YduoCYTMJ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#0C0C0C",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/slt0AZkg2bEr2lHypkAjSYBQ3xJ8DkqXjuAUbXHbYO2fIHKbDBW81mQ9sXyW368Svg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2048,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/83BbWxWnrmU2W0Sr-eLsn1WuqXx4yyvti9ukGWcEbtgKbyocOpTsqTZhFpbz8BJtVg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2048,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/pZXFE_VBZPVEyw4I7oUNbOnUQo_nAeezVPAE7vEV_1OUJc9t3rf6bi8zYrKzOYvfYs4",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2048,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/92qd4iDlnJWikfEFbEAkd3swijIRjuYoH7yC7JJAd0E8ZNVMFPGgq6eTGa_XsnBFcqo",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2048,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/N6-FoCjGVafN6f4HLlMbtpoORfOBHb34TcMl2u83FUvnmGAL624JtKYHtDTHToOXZ94M",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2048,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ZXYG6EQauxIzju9JcRPcXHc4JTJHTXZQs3UFbJC7lv7iyjG6irpPnpr824cBsG931g",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2048,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/z-_MszOdH001iKhRzy88b5ellTMfTSgDp645v6w5qeqpbqp36Hls3vmnhIO-rZLdcrR0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2048,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/X6QkTIgxuqbCarLeM04xXLVmrrCrAzKeXzxLP-TQlNs6zrcOwZ2neGUOe5coznvUTQo",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2048,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/IROaFQnQrQXNZ5w0e4VZ83WQZWjS6oDRbUb3l3WspVxaJlLB0s83NHS8gw6OtumUdw",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "GBP",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://docs.google.com/document/d/19vMngpIeCLkMduKQaw5fEQvjpV_lniLdjzBxVgoZGQU/edit?usp=sharing",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.bendev.apextrackerapp",
+    "reviewsUrl": "rev?doc=com.bendev.apextrackerapp&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.bendev.apextrackerapp",
+    "title": "Apex Tracker App",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "rubenDevAcc12@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "8 Oct 2021"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "18",
+      "fiveStarRatings": "20",
+      "fourStarRatings": "5",
+      "oneStarRatings": "6",
+      "ratingsCount": "35",
+      "starRating": 3.8857143,
+      "threeStarRatings": "2",
+      "twoStarRatings": "2",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-01-14 14:37:42.226054",
+    "backendDocid": "com.bendev.apextrackerapp",
+    "backendId": 3,
+    "creator": "Ruben Sousa",
+    "descriptionHtml": "The unofficial app for you to check news/stats/game status of Apex Legends is in your hand. Quickly check your profile stats or the current game status.<br>Features include:<br>- Latest news feed from the game;<br>- Live Skin Store;<br>- Search and check player profile stats (level, ranks, match history...);<br>- Global Player Leaderboards;<br>- Player base counts;<br>- Map rotations;<br>- Crafting Rotations;<br>- Online services status.<br><br>*Important Disclaimer:* Data is NOT provided by the app developer and may not be completely accurate, since it depends on unofficial APIs.",
+    "descriptionShort": "The unofficial app for you to check news/stats/game status of Apex Legends!",
+    "details": {
+      "appDetails": {
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "20719952",
+          "unknown3": 33
+        },
+        "developerEmail": "rubenDevAcc12@gmail.com",
+        "developerName": "Ruben Sousa",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "20533192",
+            "versionCode": 21
+          },
+          {
+            "fileType": 0,
+            "size": "74941",
+            "versionCode": 21
+          },
+          {
+            "fileType": 0,
+            "size": "29081",
+            "versionCode": 21
+          },
+          {
+            "fileType": 0,
+            "size": "37273",
+            "versionCode": 21
+          },
+          {
+            "fileType": 0,
+            "size": "45465",
+            "versionCode": 21
+          }
+        ],
+        "installationSize": "20719952",
+        "numDownloads": "5,000+ downloads",
+        "packageName": "com.bendev.apextrackerapp",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.WAKE_LOCK",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": "New Feature - Favorite Player icon customization:<br> - It is now possible to customize your Favorite Player icon. A new button is displayed on the player card. From there, you can access the customization screen.<br><br>UI/UX:<br> - Match History card design improvements.<br><br>Search History improvements:<br> - The Search History is now displayed from the most recent to older (as it should have been from the beginning)",
+        "unstable": true,
+        "uploadDate": "9 Jan 2023",
+        "versionCode": 21,
+        "versionString": "1.25"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.bendev.apextrackerapp",
+    "docType": 1,
+    "docid": "com.bendev.apextrackerapp",
+    "image": [
+      {
+        "color": "#4E4F4F",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/BaiI3H75rJQDpU8gwmKzH766Asfu76QHCydvLzlYIOLlbm4Llsa6Dievmd2YduoCYTMJ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#0C0C0C",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/slt0AZkg2bEr2lHypkAjSYBQ3xJ8DkqXjuAUbXHbYO2fIHKbDBW81mQ9sXyW368Svg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2048,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/83BbWxWnrmU2W0Sr-eLsn1WuqXx4yyvti9ukGWcEbtgKbyocOpTsqTZhFpbz8BJtVg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2048,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/pZXFE_VBZPVEyw4I7oUNbOnUQo_nAeezVPAE7vEV_1OUJc9t3rf6bi8zYrKzOYvfYs4",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2048,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/r8APmMMtO3rw5q5RQIHJcRGMFaUuhSBqgxA_7JvSzvYFGgQ5KdfvTzcpH62YfOBCzTg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2048,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ZnK1X2GkKax9sciW4DRbd7ep04X7CmQxMmvJkSE891kLrBMSQ84AU-AIIelFT25FwXg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2048,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/KIpJ_37MvopmB1gds_4TQkdTDdxxib-i4Lo8W1Q-dZattUURZJQ0JiWhwG9JTDsfCiw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2048,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ecNDDrbRvgdYc6BRtr3xp3rOvAKImp-YD92wtKV_KLyeKNf4NL_IKaXobsNA1LBokW6o",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2048,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qq2ECLOo5r5kpgLht-bijELSdIyXYsr7LYkHlIlhAoQIDXibPALbEEQ2QwrSZZVhMJKc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2048,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/WLuEQ4_ELmRUSW2FOOjzonmw3yfyHokUEVfR4toknmNgLXczhsRLYykdu8Lq0iraAI73",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://docs.google.com/document/d/19vMngpIeCLkMduKQaw5fEQvjpV_lniLdjzBxVgoZGQU/edit?usp=sharing",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.bendev.apextrackerapp",
+    "reviewsUrl": "rev?doc=com.bendev.apextrackerapp&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.bendev.apextrackerapp",
+    "title": "Apex Tracker App",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "rubenDevAcc12@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "8 Oct 2021"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "7",
+      "fiveStarRatings": "7",
+      "fourStarRatings": "10",
+      "oneStarRatings": "7",
+      "ratingsCount": "39",
+      "starRating": 3.090909,
+      "threeStarRatings": "7",
+      "twoStarRatings": "7",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-02-24 13:16:43.522797",
+    "backendDocid": "com.bendev.apextrackerapp",
+    "backendId": 3,
+    "creator": "Ruben Sousa",
+    "descriptionHtml": "The unofficial app for you to check news/stats/game status of Apex Legends is in your hand. Quickly check your profile stats or the current game status.<br>Features include:<br>- Latest news feed from the game;<br>- Live Skin Store;<br>- Search and check player profile stats (level, ranks, match history...);<br>- Global Player Leaderboards;<br>- Player base counts;<br>- Map rotations;<br>- Crafting Rotations;<br>- Online services status.<br><br>*Important Disclaimer:* Data is NOT provided by the app developer and may not be completely accurate, since it depends on unofficial APIs.",
+    "descriptionShort": "The unofficial app for you to check news/stats/game status of Apex Legends!",
+    "details": {
+      "appDetails": {
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "23303537",
+          "unknown3": 33
+        },
+        "developerEmail": "rubenDevAcc12@gmail.com",
+        "developerName": "Ruben Sousa",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "23141762",
+            "versionCode": 24
+          },
+          {
+            "fileType": 0,
+            "size": "74941",
+            "versionCode": 24
+          },
+          {
+            "fileType": 0,
+            "size": "37273",
+            "versionCode": 24
+          },
+          {
+            "fileType": 0,
+            "size": "49561",
+            "versionCode": 24
+          }
+        ],
+        "installationSize": "23303537",
+        "numDownloads": "5,000+ downloads",
+        "packageName": "com.bendev.apextrackerapp",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.WAKE_LOCK",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": "Arenas got removed from the game, so most of the changes are a result of that.<br><br>Backend:<br> - Added a login system and a new backend service that will support an upcoming feature, stay tuned!<br><br>Map Rotations:<br> - Removed Arenas rotations and replaced with the a new Mixtape playlist map rotation.<br><br>Profile Stats:<br> - Arenas Rank section removed.<br><br>- Small stability improvements.<br><br>Hotfix:<br> - Fixed button randomly appearing in Tournaments screen.",
+        "unstable": true,
+        "uploadDate": "14 Feb 2023",
+        "versionCode": 24,
+        "versionString": "1.26.1"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.bendev.apextrackerapp",
+    "docType": 1,
+    "docid": "com.bendev.apextrackerapp",
+    "image": [
+      {
+        "color": "#4E4F4F",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/BaiI3H75rJQDpU8gwmKzH766Asfu76QHCydvLzlYIOLlbm4Llsa6Dievmd2YduoCYTMJ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#0C0C0C",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/slt0AZkg2bEr2lHypkAjSYBQ3xJ8DkqXjuAUbXHbYO2fIHKbDBW81mQ9sXyW368Svg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2048,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/83BbWxWnrmU2W0Sr-eLsn1WuqXx4yyvti9ukGWcEbtgKbyocOpTsqTZhFpbz8BJtVg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2048,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/pZXFE_VBZPVEyw4I7oUNbOnUQo_nAeezVPAE7vEV_1OUJc9t3rf6bi8zYrKzOYvfYs4",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2048,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/r8APmMMtO3rw5q5RQIHJcRGMFaUuhSBqgxA_7JvSzvYFGgQ5KdfvTzcpH62YfOBCzTg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2048,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ZnK1X2GkKax9sciW4DRbd7ep04X7CmQxMmvJkSE891kLrBMSQ84AU-AIIelFT25FwXg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2048,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/KIpJ_37MvopmB1gds_4TQkdTDdxxib-i4Lo8W1Q-dZattUURZJQ0JiWhwG9JTDsfCiw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2048,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ecNDDrbRvgdYc6BRtr3xp3rOvAKImp-YD92wtKV_KLyeKNf4NL_IKaXobsNA1LBokW6o",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2048,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qq2ECLOo5r5kpgLht-bijELSdIyXYsr7LYkHlIlhAoQIDXibPALbEEQ2QwrSZZVhMJKc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2048,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/WLuEQ4_ELmRUSW2FOOjzonmw3yfyHokUEVfR4toknmNgLXczhsRLYykdu8Lq0iraAI73",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://docs.google.com/document/d/19vMngpIeCLkMduKQaw5fEQvjpV_lniLdjzBxVgoZGQU/edit?usp=sharing",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.bendev.apextrackerapp",
+    "reviewsUrl": "rev?doc=com.bendev.apextrackerapp&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.bendev.apextrackerapp",
+    "title": "Apex Tracker App",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Ruben Sousa"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "rubenDevAcc12@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "8 Oct 2021"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "7",
+      "fiveStarRatings": "7",
+      "fourStarRatings": "10",
+      "oneStarRatings": "7",
+      "ratingsCount": "39",
+      "starRating": 3.090909,
+      "threeStarRatings": "7",
+      "twoStarRatings": "7",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-03-11 21:59:57.623386",
+    "backendDocid": "com.bendev.apextrackerapp",
+    "backendId": 3,
+    "creator": "Ruben Sousa",
+    "descriptionHtml": "The unofficial app for you to check news/stats/game status of Apex Legends is in your hand. Quickly check your profile stats or the current game status.<br>Features include:<br>- Latest news feed from the game;<br>- Live Skin Store;<br>- Search and check player profile stats (level, ranks, match history...);<br>- Global Player Leaderboards;<br>- Player base counts;<br>- Map rotations;<br>- Crafting Rotations;<br>- Online services status.<br><br>*Important Disclaimer:* Data is NOT provided by the app developer and may not be completely accurate, since it depends on unofficial APIs.",
+    "descriptionShort": "The unofficial app for you to check news/stats/game status of Apex Legends!",
+    "details": {
+      "appDetails": {
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "24770040",
+          "unknown3": 33
+        },
+        "developerEmail": "rubenDevAcc12@gmail.com",
+        "developerName": "Ruben Sousa",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "24645538",
+            "versionCode": 25
+          },
+          {
+            "fileType": 0,
+            "size": "74941",
+            "versionCode": 25
+          },
+          {
+            "fileType": 0,
+            "size": "49561",
+            "versionCode": 25
+          }
+        ],
+        "installationSize": "24770040",
+        "numDownloads": "5,000+ downloads",
+        "packageName": "com.bendev.apextrackerapp",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.WAKE_LOCK",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": "Map Rotations:<br>  - Fixed some map images not being displayed;<br>  - Small tweaks to Ranked section.<br><br>- App libraries updates.",
+        "unstable": true,
+        "uploadDate": "9 Mar 2023",
+        "versionCode": 25,
+        "versionString": "1.26.2"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.bendev.apextrackerapp",
+    "docType": 1,
+    "docid": "com.bendev.apextrackerapp",
+    "image": [
+      {
+        "color": "#4E4F4F",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/BaiI3H75rJQDpU8gwmKzH766Asfu76QHCydvLzlYIOLlbm4Llsa6Dievmd2YduoCYTMJ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#0C0C0C",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/slt0AZkg2bEr2lHypkAjSYBQ3xJ8DkqXjuAUbXHbYO2fIHKbDBW81mQ9sXyW368Svg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2048,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/83BbWxWnrmU2W0Sr-eLsn1WuqXx4yyvti9ukGWcEbtgKbyocOpTsqTZhFpbz8BJtVg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2048,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/pZXFE_VBZPVEyw4I7oUNbOnUQo_nAeezVPAE7vEV_1OUJc9t3rf6bi8zYrKzOYvfYs4",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2048,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/r8APmMMtO3rw5q5RQIHJcRGMFaUuhSBqgxA_7JvSzvYFGgQ5KdfvTzcpH62YfOBCzTg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2048,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ZnK1X2GkKax9sciW4DRbd7ep04X7CmQxMmvJkSE891kLrBMSQ84AU-AIIelFT25FwXg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2048,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/KIpJ_37MvopmB1gds_4TQkdTDdxxib-i4Lo8W1Q-dZattUURZJQ0JiWhwG9JTDsfCiw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2048,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ecNDDrbRvgdYc6BRtr3xp3rOvAKImp-YD92wtKV_KLyeKNf4NL_IKaXobsNA1LBokW6o",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2048,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qq2ECLOo5r5kpgLht-bijELSdIyXYsr7LYkHlIlhAoQIDXibPALbEEQ2QwrSZZVhMJKc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2048,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/WLuEQ4_ELmRUSW2FOOjzonmw3yfyHokUEVfR4toknmNgLXczhsRLYykdu8Lq0iraAI73",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://docs.google.com/document/d/19vMngpIeCLkMduKQaw5fEQvjpV_lniLdjzBxVgoZGQU/edit?usp=sharing",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.bendev.apextrackerapp",
+    "reviewsUrl": "rev?doc=com.bendev.apextrackerapp&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.bendev.apextrackerapp",
+    "title": "Apex Tracker App",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Ruben Sousa"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "rubenDevAcc12@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "8 Oct 2021"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-06-15 11:31:49.321000",
+    "backendDocid": "com.bendev.apextrackerapp",
+    "backendId": 3,
+    "creator": "Ruben Sousa",
+    "descriptionHtml": "The unofficial app for you to check news/stats/game status of Apex Legends is in your hand. Quickly check your profile stats or the current game status.<br>Features include:<br>- Latest news feed from the game;<br>- Live Skin Store;<br>- Search and check player profile stats (level, ranks, match history...);<br>- Global Player Leaderboards;<br>- Player base counts;<br>- Map rotations;<br>- Crafting Rotations;<br>- Online services status.<br><br>*Important Disclaimer:* Data is NOT provided by the app developer and may not be completely accurate, since it depends on unofficial APIs.",
+    "descriptionShort": "The unofficial app for you to check news/stats/game status of Apex Legends!",
+    "details": {
+      "appDetails": {
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "version": 12451000
+            }
+          ],
+          "unknown2": "23309909",
+          "unknown3": 33
+        },
+        "developerEmail": "rubenDevAcc12@gmail.com",
+        "developerName": "Ruben Sousa",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "23148134",
+            "versionCode": 26
+          },
+          {
+            "fileType": 0,
+            "size": "74941",
+            "versionCode": 26
+          },
+          {
+            "fileType": 0,
+            "size": "37273",
+            "versionCode": 26
+          },
+          {
+            "fileType": 0,
+            "size": "49561",
+            "versionCode": 26
+          }
+        ],
+        "installationSize": "23309909",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "com.bendev.apextrackerapp",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.WAKE_LOCK",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": "Ranked Progression:<br> - Various Ranked progression system tweaks, to be on par with recent in-game update (Profile stats, leaderboards...).<br><br>Bugfixes/Improvements:<br> - Fixed some Map Rotation images not being displayed;<br> - Improved News articles in-app reading;<br> - Minor UI tweaks;<br> - Improved data requests error handling.<br><br>Tournaments Feature - Discarded<br> - This feature has been indefinitely discarded.",
+        "unstable": true,
+        "uploadDate": "9 May 2023",
+        "versionCode": 26,
+        "versionString": "1.27"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.bendev.apextrackerapp",
+    "docType": 1,
+    "docid": "com.bendev.apextrackerapp",
+    "image": [
+      {
+        "color": "#4E4F4F",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/BaiI3H75rJQDpU8gwmKzH766Asfu76QHCydvLzlYIOLlbm4Llsa6Dievmd2YduoCYTMJ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#0C0C0C",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/slt0AZkg2bEr2lHypkAjSYBQ3xJ8DkqXjuAUbXHbYO2fIHKbDBW81mQ9sXyW368Svg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2048,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/83BbWxWnrmU2W0Sr-eLsn1WuqXx4yyvti9ukGWcEbtgKbyocOpTsqTZhFpbz8BJtVg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2048,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/pZXFE_VBZPVEyw4I7oUNbOnUQo_nAeezVPAE7vEV_1OUJc9t3rf6bi8zYrKzOYvfYs4",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2048,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/r8APmMMtO3rw5q5RQIHJcRGMFaUuhSBqgxA_7JvSzvYFGgQ5KdfvTzcpH62YfOBCzTg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2048,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ZnK1X2GkKax9sciW4DRbd7ep04X7CmQxMmvJkSE891kLrBMSQ84AU-AIIelFT25FwXg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2048,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/s_M9nABaSaiOtZtbH47yyHRodsPAfku9sN_Ycl2rKcqlXGNlXENWRweeWTeULQtg76I",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2048,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ecNDDrbRvgdYc6BRtr3xp3rOvAKImp-YD92wtKV_KLyeKNf4NL_IKaXobsNA1LBokW6o",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2048,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qq2ECLOo5r5kpgLht-bijELSdIyXYsr7LYkHlIlhAoQIDXibPALbEEQ2QwrSZZVhMJKc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2048,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/WLuEQ4_ELmRUSW2FOOjzonmw3yfyHokUEVfR4toknmNgLXczhsRLYykdu8Lq0iraAI73",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://docs.google.com/document/d/19vMngpIeCLkMduKQaw5fEQvjpV_lniLdjzBxVgoZGQU/edit?usp=sharing",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.bendev.apextrackerapp",
+    "reviewsUrl": "rev?doc=com.bendev.apextrackerapp&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.bendev.apextrackerapp",
+    "title": "Apex Tracker App",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "rubenDevAcc12@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "8 Oct 2021"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-07-18 14:53:46.859758",
+    "backendDocid": "com.bendev.apextrackerapp",
+    "backendId": 3,
+    "creator": "Ruben Sousa",
+    "descriptionHtml": "The unofficial app for you to check news/stats/game status of Apex Legends is in your hand. Quickly check your profile stats or the current game status.<br>Features include:<br>- Latest news feed from the game;<br>- Live Skin Store;<br>- Search and check player profile stats (level, ranks, match history...);<br>- Global Player Leaderboards;<br>- Player base counts;<br>- Map rotations;<br>- Crafting Rotations;<br>- Online services status.<br><br>*Important Disclaimer:* Data is NOT provided by the app developer and may not be completely accurate, since it depends on unofficial APIs.",
+    "descriptionShort": "The unofficial app for you to check news/stats/game status of Apex Legends!",
+    "details": {
+      "appDetails": {
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "version": 12451000
+            }
+          ],
+          "unknown2": "23224287",
+          "unknown3": 33
+        },
+        "developerEmail": "rubenDevAcc12@gmail.com",
+        "developerName": "Ruben Sousa",
+        "developerWebsite": "https://ob29a2d2.app-ads-txt.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "23066608",
+            "versionCode": 28
+          },
+          {
+            "fileType": 0,
+            "size": "74941",
+            "versionCode": 28
+          },
+          {
+            "fileType": 0,
+            "size": "33177",
+            "versionCode": 28
+          },
+          {
+            "fileType": 0,
+            "size": "49561",
+            "versionCode": 28
+          }
+        ],
+        "installationSize": "23224287",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "com.bendev.apextrackerapp",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.WAKE_LOCK",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": "Hotfix Patch:<br> - Fixed a crash that could occur when pressing the &quot;Update Ad Consent&quot; button right after accessing the Settings screen.",
+        "unstable": true,
+        "uploadDate": "10 Jul 2023",
+        "versionCode": 28,
+        "versionString": "1.28.1"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.bendev.apextrackerapp",
+    "docType": 1,
+    "docid": "com.bendev.apextrackerapp",
+    "image": [
+      {
+        "color": "#4E4F4F",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/BaiI3H75rJQDpU8gwmKzH766Asfu76QHCydvLzlYIOLlbm4Llsa6Dievmd2YduoCYTMJ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#0C0C0C",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/slt0AZkg2bEr2lHypkAjSYBQ3xJ8DkqXjuAUbXHbYO2fIHKbDBW81mQ9sXyW368Svg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2048,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/83BbWxWnrmU2W0Sr-eLsn1WuqXx4yyvti9ukGWcEbtgKbyocOpTsqTZhFpbz8BJtVg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2048,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/pZXFE_VBZPVEyw4I7oUNbOnUQo_nAeezVPAE7vEV_1OUJc9t3rf6bi8zYrKzOYvfYs4",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/0HFnzx4Y-C03ivRXFa9dnKrgecKkEORGAUCyH5Vw0gOTMfNTG-cgxSf8gUY1NDkIJ8U",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2048,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ZnK1X2GkKax9sciW4DRbd7ep04X7CmQxMmvJkSE891kLrBMSQ84AU-AIIelFT25FwXg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2048,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/s_M9nABaSaiOtZtbH47yyHRodsPAfku9sN_Ycl2rKcqlXGNlXENWRweeWTeULQtg76I",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2048,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ecNDDrbRvgdYc6BRtr3xp3rOvAKImp-YD92wtKV_KLyeKNf4NL_IKaXobsNA1LBokW6o",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2048,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/qq2ECLOo5r5kpgLht-bijELSdIyXYsr7LYkHlIlhAoQIDXibPALbEEQ2QwrSZZVhMJKc",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2048,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/WLuEQ4_ELmRUSW2FOOjzonmw3yfyHokUEVfR4toknmNgLXczhsRLYykdu8Lq0iraAI73",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://docs.google.com/document/d/19vMngpIeCLkMduKQaw5fEQvjpV_lniLdjzBxVgoZGQU/edit?usp=sharing",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.bendev.apextrackerapp",
+    "reviewsUrl": "rev?doc=com.bendev.apextrackerapp&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.bendev.apextrackerapp",
+    "title": "Apex Tracker App",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "rubenDevAcc12@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "8 Oct 2021"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-11-12 16:10:46.493150",
+    "backendDocid": "com.bendev.apextrackerapp",
+    "backendId": 3,
+    "creator": "Ruben Sousa",
+    "descriptionHtml": "The unofficial app for you to check news/stats/game status of Apex Legends is in your hand. Quickly check your profile stats or the current game status.<br>Features include:<br>- Latest news feed from the game;<br>- Live Skin Store;<br>- Search and check player profile stats (level, ranks, match history...);<br>- Global Player Leaderboards;<br>- Player base counts;<br>- Map rotations;<br>- Crafting Rotations;<br>- Online services status.<br><br>*Important Disclaimer:* Data is NOT provided by the app developer and may not be completely accurate, since it depends on unofficial APIs.",
+    "descriptionShort": "The unofficial app for you to check news/stats/game status of Apex Legends!",
+    "details": {
+      "appDetails": {
+        "containsAds": "Contains ads",
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "version": 12451000
+            }
+          ],
+          "unknown2": "24479906",
+          "unknown3": 33
+        },
+        "developerEmail": "rubenDevAcc12@gmail.com",
+        "developerName": "Ruben Sousa",
+        "developerWebsite": "https://ob29a2d2.app-ads-txt.com",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "24479906",
+            "versionCode": 31
+          }
+        ],
+        "installationSize": "24479906",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "com.bendev.apextrackerapp",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.POST_NOTIFICATIONS",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": "New Feature - Favorite Map Notifications (Beta):<br> - Get notified of when your favorite maps are currently in rotation. Feature is &quot;secretly&quot; accessible by clicking Ranked or Map Rotation card title.<br><br>- New maps resources added;<br><br>- New Conduit custom profile picture added;<br><br>- Bug fixes and RAM usage optimizations.",
+        "unstable": true,
+        "uploadDate": "Nov 6, 2023",
+        "versionCode": 31,
+        "versionString": "1.29"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.bendev.apextrackerapp&vc=31",
+    "docType": 1,
+    "docid": "com.bendev.apextrackerapp",
+    "image": [
+      {
+        "color": "#4E4F4F",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/BaiI3H75rJQDpU8gwmKzH766Asfu76QHCydvLzlYIOLlbm4Llsa6Dievmd2YduoCYTMJ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#0C0C0C",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/slt0AZkg2bEr2lHypkAjSYBQ3xJ8DkqXjuAUbXHbYO2fIHKbDBW81mQ9sXyW368Svg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/dHUFnI8PJP5ehHh_dvg_jkDCNtF3kwimG_VgAkuXR97TVpZJv-WEuliFSO5OZJRvmg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/fVu7rCWYenqwAhK35pi31hqq18Ol0F1oY2vtgn9Thi7wAbUzXp4c1CwYF2v1efb8CQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Kb-2IPjEhJmWwl6hhG16IbUj_13KPV5mwrldychfBJ7k3nYoChKGpKrkRIj6K0dQKg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/7OZ2a0jqBkNW3p-XDWnt5QfA1TaWD7ea7Q6OIF7eymt4qC3D2iG9TLwzBLSJnWRxHjDO",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/VGRKBUBqvB9OMr8pq530OhDmqsVQMaTwsoLkDigNQ19oyfruEW1686IdKMGJgUmOqRQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2048,
+          "width": 945
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ecNDDrbRvgdYc6BRtr3xp3rOvAKImp-YD92wtKV_KLyeKNf4NL_IKaXobsNA1LBokW6o",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2340,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/6KE7BB14pEnLIe5Hq7ifKpGun8wyGKvs79vrMIsbkPiHEPHgrVjA8g_FGcBa4CJqGuE",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "CAD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://docs.google.com/document/d/19vMngpIeCLkMduKQaw5fEQvjpV_lniLdjzBxVgoZGQU/edit?usp=sharing",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.bendev.apextrackerapp",
+    "reviewsUrl": "rev?doc=com.bendev.apextrackerapp&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.bendev.apextrackerapp",
+    "title": "Apex Tracker App\n1.29",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Ruben Sousa"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "rubenDevAcc12@gmail.com"
+          },
+          "label": "Developer e-mail"
+        },
+        {
+          "container": {
+            "value": "Oct 8, 2021"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  }
+]

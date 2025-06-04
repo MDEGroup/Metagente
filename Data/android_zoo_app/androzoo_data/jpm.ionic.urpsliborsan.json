@@ -1,0 +1,2102 @@
+[
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 2
+    },
+    "az_metadata_date": "2020-05-31 21:39:58.729578",
+    "backendDocid": "jpm.ionic.urpsliborsan",
+    "backendId": 3,
+    "creator": "URPS M\u00e9decin Lib\u00e9ral en Bourgogne Franche-Comt\u00e9",
+    "descriptionHtml": "LIB-ORSAN, application d\u00e9velopp\u00e9e par l\u2019URPS m\u00e9decin lib\u00e9ral en Bourgogne Franche-Comt\u00e9, permet le recensement des ressources m\u00e9dicales lib\u00e9rales disponibles lors du d\u00e9clenchement d\u2019un plan ORSAN.<br><br>Des retours d\u2019exp\u00e9rience des attentats de Paris et de Nice, il est apparu que la mobilisation et la coordination des pr\u00e9sentations spontan\u00e9es de professionnels de sant\u00e9 dans les structures d\u2019Urgence n\u00e9cessitent une certaine organisation pour atteindre l\u2019efficacit\u00e9. Il est ainsi apparu n\u00e9cessaire indispensable d\u2019imaginer un outil pour organiser et coordonner les ressources lib\u00e9rales, en permettant l\u2019information des professionnels concern\u00e9s, l\u2019organisation des canaux de communication s\u00e9curis\u00e9e, l\u2019int\u00e9gration des ressources disponibles en renfort des structures hospitali\u00e8res afin de retarder autant que possible une \u00e9ventuelle saturation<br><br>LIB-ORSAN permet ainsi, selon la sp\u00e9cialit\u00e9, le secteur d\u2019exercice, le volontariat exprim\u00e9, d\u2019alerter, informer, mobiliser et organiser les diff\u00e9rentes \u00e9quipes disponibles pour une int\u00e9gration optimale dans l\u2019organisation locale des plans de secours.<br><br> <br>LIB-ORSAN repose sur :<br><br>- Un ou plusieurs administrateur(s), b\u00e9n\u00e9ficiant de tous les privil\u00e8ges de gestion et d\u2019administration, notamment des administrateurs interm\u00e9diaires et utilisateurs ;<br><br>- Un ou plusieurs administrateurs interm\u00e9diaires : ressources locales (praticiens, \u00e9quipes, structures type SAU, \u2026) b\u00e9n\u00e9ficiant de droit d\u2019\u00e9mission de message d\u2019alerte urgente : coordination et int\u00e9gration des disponibilit\u00e9s lib\u00e9rales par le SAU local lors d\u2019un d\u00e9clenchement de plan ORSAN par exemple ;<br><br>- Des utilisateurs, recevant via l\u2019application les alertes, les informations compl\u00e9mentaires sur l\u2019\u00e9volution de l\u2019alerte, des consignes et conduites \u00e0 tenir.<br><br> <br>LIB-ORSAN permet par ailleurs :<br><br>- une transmission des alertes sanitaires de toute nature, notamment \u00e9pid\u00e9miologique, nationales, r\u00e9gionales et/ou locales;<br><br>- une sollicitation et le recensement des m\u00e9decins volontaires pour remplacer en urgence un m\u00e9decin qui se trouverait dans l\u2019incapacit\u00e9 brutale d\u2019exercer et ainsi permettre de maintenir une offre de soins et la p\u00e9rennit\u00e9 du cabinet.<br><br> <br>LIB-ORSAN s\u2019inscrit dans une r\u00e9flexion r\u00e9gionale initi\u00e9e et port\u00e9e par l\u2019URPS M\u00e9decin Lib\u00e9ral en Bourgogne Franche-Comt\u00e9 quant \u00e0 la place des m\u00e9decins et professionnels de sant\u00e9 lib\u00e9raux dans les situations de crises sanitaires et le d\u00e9veloppement d\u2019une logique de renfort sanitaire territorial.",
+    "descriptionShort": "ALERT, INFORM, MOBILIZE, ORGANIZE; A health crisis is anticipating.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "7025423",
+          "unknown3": 28
+        },
+        "developerEmail": "urps.app@gmail.com",
+        "developerName": "URPS M\u00e9decin Lib\u00e9ral en Bourgogne Franche-Comt\u00e9",
+        "developerWebsite": "http://www.urps-ml-bfc.org/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "7025423",
+            "versionCode": 10003
+          }
+        ],
+        "installationSize": "7025423",
+        "numDownloads": "500+ downloads",
+        "packageName": "jpm.ionic.urpsliborsan",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.INTERNET",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.providers.gsf.permission.READ_GSERVICES",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE"
+        ],
+        "unstable": true,
+        "uploadDate": "Apr. 28, 2020",
+        "versionCode": 10003,
+        "versionString": "1.0.3"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=jpm.ionic.urpsliborsan",
+    "docType": 1,
+    "docid": "jpm.ionic.urpsliborsan",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://lh3.googleusercontent.com/FL-qd_tB9iss61Wn3v5WyRVlE4DETP_ws_pAt0af8cGAcy-cgAuDgiHhGcOqikPY4PY",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://lh3.googleusercontent.com/umTIWq4Vnhxsyj_z1Elz-S_qwMvVDats6JScn4kdTcwLr1paJQVW2Uzt6emNYCG4gq7i",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/dCcoGmggz3Z4vtAGn2A15QX3pJs_TnXunvb35EOyfBnZ0jKrL_HJHJjyVRD1wpfsUJoN",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/Xamaob_hPSkQiHczUoAgrfPD9qWoHnxUYSsPgWZ8Vz-M8G0atbjkk3ncXrkfnQSgVX8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/73UfoJDRzm7l2oqpfdBwrQh7Zhzs5mgszdY5Fq9gz3h4EesZFtFvZRWYvUrFpBxgEJw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2732,
+          "width": 2048
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/9C_2qarIC8EEFnCG_GYsXKLeFZeidhhDS1kSSbueMoRwhWxHMCuz8Ctd4qAwwsy_rdCK",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2732,
+          "width": 2048
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/nmSFS5BQx4LrSMqitFk2oyISjbTIpO1LhQoLBF1daJXb9FTfzdIiP-apnWzEcO8j-2Ok",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2732,
+          "width": 2048
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/r5fAHbsOSwkFYgPkS299g8KVCAOQrY_MVG49VhwAq4-3ZPut9-xwwApPkNZK5C39ZW0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2732,
+          "width": 2048
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/61Aqgd_33J8XVUIzJZNPZT9QhjVsLlP_3RzDUEc-zHhzUlB7VS6FlXQs-eME6pAnZA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2732,
+          "width": 2048
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/W8IeCkPm4DWWFEpWQB7Fd3rmPnQyQtlfnXOm2DJAD5tXKFOPxlWjJe0TdGqMIAC6ZE4",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2732,
+          "width": 2048
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/sIZ-kvAwDvszXDKV1kGtCkd6cogy5J33MQAd5O55IzFVq-GYT4EYyABelGNB5rpaK-7j",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://lh3.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=jpm.ionic.urpsliborsan",
+    "reviewsUrl": "rev?doc=jpm.ionic.urpsliborsan&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=jpm.ionic.urpsliborsan",
+    "title": "Lib-Orsan",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "URPS M\u00e9decin Lib\u00e9ral en Bourgogne Franche-Comt\u00e9"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "urps.app@gmail.com"
+          },
+          "label": "Developer email"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 2
+    },
+    "az_metadata_date": "2020-06-06 22:37:01.011667",
+    "backendDocid": "jpm.ionic.urpsliborsan",
+    "backendId": 3,
+    "creator": "URPS M\u00e9decin Lib\u00e9ral en Bourgogne Franche-Comt\u00e9",
+    "descriptionHtml": "LIB-ORSAN, application d\u00e9velopp\u00e9e par l\u2019URPS m\u00e9decin lib\u00e9ral en Bourgogne Franche-Comt\u00e9, permet le recensement des ressources m\u00e9dicales lib\u00e9rales disponibles lors du d\u00e9clenchement d\u2019un plan ORSAN.<br><br>Des retours d\u2019exp\u00e9rience des attentats de Paris et de Nice, il est apparu que la mobilisation et la coordination des pr\u00e9sentations spontan\u00e9es de professionnels de sant\u00e9 dans les structures d\u2019Urgence n\u00e9cessitent une certaine organisation pour atteindre l\u2019efficacit\u00e9. Il est ainsi apparu n\u00e9cessaire indispensable d\u2019imaginer un outil pour organiser et coordonner les ressources lib\u00e9rales, en permettant l\u2019information des professionnels concern\u00e9s, l\u2019organisation des canaux de communication s\u00e9curis\u00e9e, l\u2019int\u00e9gration des ressources disponibles en renfort des structures hospitali\u00e8res afin de retarder autant que possible une \u00e9ventuelle saturation<br><br>LIB-ORSAN permet ainsi, selon la sp\u00e9cialit\u00e9, le secteur d\u2019exercice, le volontariat exprim\u00e9, d\u2019alerter, informer, mobiliser et organiser les diff\u00e9rentes \u00e9quipes disponibles pour une int\u00e9gration optimale dans l\u2019organisation locale des plans de secours.<br><br> <br>LIB-ORSAN repose sur :<br><br>- Un ou plusieurs administrateur(s), b\u00e9n\u00e9ficiant de tous les privil\u00e8ges de gestion et d\u2019administration, notamment des administrateurs interm\u00e9diaires et utilisateurs ;<br><br>- Un ou plusieurs administrateurs interm\u00e9diaires : ressources locales (praticiens, \u00e9quipes, structures type SAU, \u2026) b\u00e9n\u00e9ficiant de droit d\u2019\u00e9mission de message d\u2019alerte urgente : coordination et int\u00e9gration des disponibilit\u00e9s lib\u00e9rales par le SAU local lors d\u2019un d\u00e9clenchement de plan ORSAN par exemple ;<br><br>- Des utilisateurs, recevant via l\u2019application les alertes, les informations compl\u00e9mentaires sur l\u2019\u00e9volution de l\u2019alerte, des consignes et conduites \u00e0 tenir.<br><br> <br>LIB-ORSAN permet par ailleurs :<br><br>- une transmission des alertes sanitaires de toute nature, notamment \u00e9pid\u00e9miologique, nationales, r\u00e9gionales et/ou locales;<br><br>- une sollicitation et le recensement des m\u00e9decins volontaires pour remplacer en urgence un m\u00e9decin qui se trouverait dans l\u2019incapacit\u00e9 brutale d\u2019exercer et ainsi permettre de maintenir une offre de soins et la p\u00e9rennit\u00e9 du cabinet.<br><br> <br>LIB-ORSAN s\u2019inscrit dans une r\u00e9flexion r\u00e9gionale initi\u00e9e et port\u00e9e par l\u2019URPS M\u00e9decin Lib\u00e9ral en Bourgogne Franche-Comt\u00e9 quant \u00e0 la place des m\u00e9decins et professionnels de sant\u00e9 lib\u00e9raux dans les situations de crises sanitaires et le d\u00e9veloppement d\u2019une logique de renfort sanitaire territorial.",
+    "descriptionShort": "ALERT, INFORM, MOBILIZE, ORGANIZE; A health crisis is anticipating.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "15875222",
+          "unknown3": 28
+        },
+        "developerEmail": "urps.app@gmail.com",
+        "developerName": "URPS M\u00e9decin Lib\u00e9ral en Bourgogne Franche-Comt\u00e9",
+        "developerWebsite": "http://www.urps-ml-bfc.org/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "15875222",
+            "versionCode": 10004
+          }
+        ],
+        "installationSize": "15875222",
+        "numDownloads": "500+ downloads",
+        "packageName": "jpm.ionic.urpsliborsan",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.INTERNET",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.providers.gsf.permission.READ_GSERVICES",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE"
+        ],
+        "unstable": true,
+        "uploadDate": "3 Jun 2020",
+        "versionCode": 10004,
+        "versionString": "1.0.4"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=jpm.ionic.urpsliborsan",
+    "docType": 1,
+    "docid": "jpm.ionic.urpsliborsan",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://lh3.googleusercontent.com/FL-qd_tB9iss61Wn3v5WyRVlE4DETP_ws_pAt0af8cGAcy-cgAuDgiHhGcOqikPY4PY",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://lh3.googleusercontent.com/umTIWq4Vnhxsyj_z1Elz-S_qwMvVDats6JScn4kdTcwLr1paJQVW2Uzt6emNYCG4gq7i",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/dCcoGmggz3Z4vtAGn2A15QX3pJs_TnXunvb35EOyfBnZ0jKrL_HJHJjyVRD1wpfsUJoN",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/Xamaob_hPSkQiHczUoAgrfPD9qWoHnxUYSsPgWZ8Vz-M8G0atbjkk3ncXrkfnQSgVX8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/73UfoJDRzm7l2oqpfdBwrQh7Zhzs5mgszdY5Fq9gz3h4EesZFtFvZRWYvUrFpBxgEJw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2732,
+          "width": 2048
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/9C_2qarIC8EEFnCG_GYsXKLeFZeidhhDS1kSSbueMoRwhWxHMCuz8Ctd4qAwwsy_rdCK",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2732,
+          "width": 2048
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/nmSFS5BQx4LrSMqitFk2oyISjbTIpO1LhQoLBF1daJXb9FTfzdIiP-apnWzEcO8j-2Ok",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2732,
+          "width": 2048
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/r5fAHbsOSwkFYgPkS299g8KVCAOQrY_MVG49VhwAq4-3ZPut9-xwwApPkNZK5C39ZW0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2732,
+          "width": 2048
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/61Aqgd_33J8XVUIzJZNPZT9QhjVsLlP_3RzDUEc-zHhzUlB7VS6FlXQs-eME6pAnZA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2732,
+          "width": 2048
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/W8IeCkPm4DWWFEpWQB7Fd3rmPnQyQtlfnXOm2DJAD5tXKFOPxlWjJe0TdGqMIAC6ZE4",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2732,
+          "width": 2048
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/sIZ-kvAwDvszXDKV1kGtCkd6cogy5J33MQAd5O55IzFVq-GYT4EYyABelGNB5rpaK-7j",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://lh3.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=jpm.ionic.urpsliborsan",
+    "reviewsUrl": "rev?doc=jpm.ionic.urpsliborsan&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=jpm.ionic.urpsliborsan",
+    "title": "Lib-Orsan",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "urps.app@gmail.com"
+          },
+          "label": "Developer email"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 2
+    },
+    "az_metadata_date": "2020-10-05 00:53:16.504355",
+    "backendDocid": "jpm.ionic.urpsliborsan",
+    "backendId": 3,
+    "creator": "URPS M\u00e9decin Lib\u00e9ral en Bourgogne Franche-Comt\u00e9",
+    "descriptionHtml": "LIB-ORSAN, application d\u00e9velopp\u00e9e par l\u2019URPS m\u00e9decin lib\u00e9ral en Bourgogne Franche-Comt\u00e9, permet le recensement des ressources m\u00e9dicales lib\u00e9rales disponibles lors du d\u00e9clenchement d\u2019un plan ORSAN.<br><br>Des retours d\u2019exp\u00e9rience des attentats de Paris et de Nice, il est apparu que la mobilisation et la coordination des pr\u00e9sentations spontan\u00e9es de professionnels de sant\u00e9 dans les structures d\u2019Urgence n\u00e9cessitent une certaine organisation pour atteindre l\u2019efficacit\u00e9. Il est ainsi apparu n\u00e9cessaire indispensable d\u2019imaginer un outil pour organiser et coordonner les ressources lib\u00e9rales, en permettant l\u2019information des professionnels concern\u00e9s, l\u2019organisation des canaux de communication s\u00e9curis\u00e9e, l\u2019int\u00e9gration des ressources disponibles en renfort des structures hospitali\u00e8res afin de retarder autant que possible une \u00e9ventuelle saturation<br><br>LIB-ORSAN permet ainsi, selon la sp\u00e9cialit\u00e9, le secteur d\u2019exercice, le volontariat exprim\u00e9, d\u2019alerter, informer, mobiliser et organiser les diff\u00e9rentes \u00e9quipes disponibles pour une int\u00e9gration optimale dans l\u2019organisation locale des plans de secours.<br><br> <br>LIB-ORSAN repose sur :<br><br>- Un ou plusieurs administrateur(s), b\u00e9n\u00e9ficiant de tous les privil\u00e8ges de gestion et d\u2019administration, notamment des administrateurs interm\u00e9diaires et utilisateurs ;<br><br>- Un ou plusieurs administrateurs interm\u00e9diaires : ressources locales (praticiens, \u00e9quipes, structures type SAU, \u2026) b\u00e9n\u00e9ficiant de droit d\u2019\u00e9mission de message d\u2019alerte urgente : coordination et int\u00e9gration des disponibilit\u00e9s lib\u00e9rales par le SAU local lors d\u2019un d\u00e9clenchement de plan ORSAN par exemple ;<br><br>- Des utilisateurs, recevant via l\u2019application les alertes, les informations compl\u00e9mentaires sur l\u2019\u00e9volution de l\u2019alerte, des consignes et conduites \u00e0 tenir.<br><br> <br>LIB-ORSAN permet par ailleurs :<br><br>- une transmission des alertes sanitaires de toute nature, notamment \u00e9pid\u00e9miologique, nationales, r\u00e9gionales et/ou locales;<br><br>- une sollicitation et le recensement des m\u00e9decins volontaires pour remplacer en urgence un m\u00e9decin qui se trouverait dans l\u2019incapacit\u00e9 brutale d\u2019exercer et ainsi permettre de maintenir une offre de soins et la p\u00e9rennit\u00e9 du cabinet.<br><br> <br>LIB-ORSAN s\u2019inscrit dans une r\u00e9flexion r\u00e9gionale initi\u00e9e et port\u00e9e par l\u2019URPS M\u00e9decin Lib\u00e9ral en Bourgogne Franche-Comt\u00e9 quant \u00e0 la place des m\u00e9decins et professionnels de sant\u00e9 lib\u00e9raux dans les situations de crises sanitaires et le d\u00e9veloppement d\u2019une logique de renfort sanitaire territorial.",
+    "descriptionShort": "ALERT, INFORM, MOBILIZE, ORGANIZE; A health crisis is anticipating.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "7033991",
+          "unknown3": 28
+        },
+        "developerEmail": "urps.app@gmail.com",
+        "developerName": "URPS M\u00e9decin Lib\u00e9ral en Bourgogne Franche-Comt\u00e9",
+        "developerWebsite": "http://www.urps-ml-bfc.org/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "7033991",
+            "versionCode": 10005
+          }
+        ],
+        "installationSize": "7033991",
+        "numDownloads": "500+ downloads",
+        "packageName": "jpm.ionic.urpsliborsan",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.INTERNET",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.providers.gsf.permission.READ_GSERVICES",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE"
+        ],
+        "unstable": true,
+        "uploadDate": "29 Sep 2020",
+        "versionCode": 10005,
+        "versionString": "1.0.5"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=jpm.ionic.urpsliborsan",
+    "docType": 1,
+    "docid": "jpm.ionic.urpsliborsan",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://lh3.googleusercontent.com/FL-qd_tB9iss61Wn3v5WyRVlE4DETP_ws_pAt0af8cGAcy-cgAuDgiHhGcOqikPY4PY",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://lh3.googleusercontent.com/umTIWq4Vnhxsyj_z1Elz-S_qwMvVDats6JScn4kdTcwLr1paJQVW2Uzt6emNYCG4gq7i",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/dCcoGmggz3Z4vtAGn2A15QX3pJs_TnXunvb35EOyfBnZ0jKrL_HJHJjyVRD1wpfsUJoN",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/Xamaob_hPSkQiHczUoAgrfPD9qWoHnxUYSsPgWZ8Vz-M8G0atbjkk3ncXrkfnQSgVX8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/73UfoJDRzm7l2oqpfdBwrQh7Zhzs5mgszdY5Fq9gz3h4EesZFtFvZRWYvUrFpBxgEJw",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=jpm.ionic.urpsliborsan",
+    "reviewsUrl": "rev?doc=jpm.ionic.urpsliborsan&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=jpm.ionic.urpsliborsan",
+    "title": "Lib-Orsan",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "urps.app@gmail.com"
+          },
+          "label": "Developer email"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 2
+    },
+    "az_metadata_date": "2020-10-10 15:00:48.022485",
+    "backendDocid": "jpm.ionic.urpsliborsan",
+    "backendId": 3,
+    "creator": "URPS M\u00e9decin Lib\u00e9ral en Bourgogne Franche-Comt\u00e9",
+    "descriptionHtml": "LIB-ORSAN, application d\u00e9velopp\u00e9e par l\u2019URPS m\u00e9decin lib\u00e9ral en Bourgogne Franche-Comt\u00e9, permet le recensement des ressources m\u00e9dicales lib\u00e9rales disponibles lors du d\u00e9clenchement d\u2019un plan ORSAN.<br><br>Des retours d\u2019exp\u00e9rience des attentats de Paris et de Nice, il est apparu que la mobilisation et la coordination des pr\u00e9sentations spontan\u00e9es de professionnels de sant\u00e9 dans les structures d\u2019Urgence n\u00e9cessitent une certaine organisation pour atteindre l\u2019efficacit\u00e9. Il est ainsi apparu n\u00e9cessaire indispensable d\u2019imaginer un outil pour organiser et coordonner les ressources lib\u00e9rales, en permettant l\u2019information des professionnels concern\u00e9s, l\u2019organisation des canaux de communication s\u00e9curis\u00e9e, l\u2019int\u00e9gration des ressources disponibles en renfort des structures hospitali\u00e8res afin de retarder autant que possible une \u00e9ventuelle saturation<br><br>LIB-ORSAN permet ainsi, selon la sp\u00e9cialit\u00e9, le secteur d\u2019exercice, le volontariat exprim\u00e9, d\u2019alerter, informer, mobiliser et organiser les diff\u00e9rentes \u00e9quipes disponibles pour une int\u00e9gration optimale dans l\u2019organisation locale des plans de secours.<br><br> <br>LIB-ORSAN repose sur :<br><br>- Un ou plusieurs administrateur(s), b\u00e9n\u00e9ficiant de tous les privil\u00e8ges de gestion et d\u2019administration, notamment des administrateurs interm\u00e9diaires et utilisateurs ;<br><br>- Un ou plusieurs administrateurs interm\u00e9diaires : ressources locales (praticiens, \u00e9quipes, structures type SAU, \u2026) b\u00e9n\u00e9ficiant de droit d\u2019\u00e9mission de message d\u2019alerte urgente : coordination et int\u00e9gration des disponibilit\u00e9s lib\u00e9rales par le SAU local lors d\u2019un d\u00e9clenchement de plan ORSAN par exemple ;<br><br>- Des utilisateurs, recevant via l\u2019application les alertes, les informations compl\u00e9mentaires sur l\u2019\u00e9volution de l\u2019alerte, des consignes et conduites \u00e0 tenir.<br><br> <br>LIB-ORSAN permet par ailleurs :<br><br>- une transmission des alertes sanitaires de toute nature, notamment \u00e9pid\u00e9miologique, nationales, r\u00e9gionales et/ou locales;<br><br>- une sollicitation et le recensement des m\u00e9decins volontaires pour remplacer en urgence un m\u00e9decin qui se trouverait dans l\u2019incapacit\u00e9 brutale d\u2019exercer et ainsi permettre de maintenir une offre de soins et la p\u00e9rennit\u00e9 du cabinet.<br><br> <br>LIB-ORSAN s\u2019inscrit dans une r\u00e9flexion r\u00e9gionale initi\u00e9e et port\u00e9e par l\u2019URPS M\u00e9decin Lib\u00e9ral en Bourgogne Franche-Comt\u00e9 quant \u00e0 la place des m\u00e9decins et professionnels de sant\u00e9 lib\u00e9raux dans les situations de crises sanitaires et le d\u00e9veloppement d\u2019une logique de renfort sanitaire territorial.",
+    "descriptionShort": "ALERT, INFORM, MOBILIZE, ORGANIZE; A health crisis is anticipating.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "7033991",
+          "unknown3": 28
+        },
+        "developerEmail": "urps.app@gmail.com",
+        "developerName": "URPS M\u00e9decin Lib\u00e9ral en Bourgogne Franche-Comt\u00e9",
+        "developerWebsite": "http://www.urps-ml-bfc.org/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "7033991",
+            "versionCode": 10005
+          }
+        ],
+        "installationSize": "7033991",
+        "numDownloads": "500+ downloads",
+        "packageName": "jpm.ionic.urpsliborsan",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.INTERNET",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.providers.gsf.permission.READ_GSERVICES",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE"
+        ],
+        "unstable": true,
+        "uploadDate": "29 Sep 2020",
+        "versionCode": 10005,
+        "versionString": "1.0.5"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=jpm.ionic.urpsliborsan",
+    "docType": 1,
+    "docid": "jpm.ionic.urpsliborsan",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://lh3.googleusercontent.com/FL-qd_tB9iss61Wn3v5WyRVlE4DETP_ws_pAt0af8cGAcy-cgAuDgiHhGcOqikPY4PY",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://lh3.googleusercontent.com/umTIWq4Vnhxsyj_z1Elz-S_qwMvVDats6JScn4kdTcwLr1paJQVW2Uzt6emNYCG4gq7i",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/dCcoGmggz3Z4vtAGn2A15QX3pJs_TnXunvb35EOyfBnZ0jKrL_HJHJjyVRD1wpfsUJoN",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/Xamaob_hPSkQiHczUoAgrfPD9qWoHnxUYSsPgWZ8Vz-M8G0atbjkk3ncXrkfnQSgVX8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/73UfoJDRzm7l2oqpfdBwrQh7Zhzs5mgszdY5Fq9gz3h4EesZFtFvZRWYvUrFpBxgEJw",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=jpm.ionic.urpsliborsan",
+    "reviewsUrl": "rev?doc=jpm.ionic.urpsliborsan&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=jpm.ionic.urpsliborsan",
+    "title": "Lib-Orsan",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "URPS M\u00e9decin Lib\u00e9ral en Bourgogne Franche-Comt\u00e9"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "urps.app@gmail.com"
+          },
+          "label": "Developer email"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 2
+    },
+    "az_metadata_date": "2020-10-15 22:06:39.749204",
+    "backendDocid": "jpm.ionic.urpsliborsan",
+    "backendId": 3,
+    "creator": "URPS M\u00e9decin Lib\u00e9ral en Bourgogne Franche-Comt\u00e9",
+    "descriptionHtml": "LIB-ORSAN, application d\u00e9velopp\u00e9e par l\u2019URPS m\u00e9decin lib\u00e9ral en Bourgogne Franche-Comt\u00e9, permet le recensement des ressources m\u00e9dicales lib\u00e9rales disponibles lors du d\u00e9clenchement d\u2019un plan ORSAN.<br><br>Des retours d\u2019exp\u00e9rience des attentats de Paris et de Nice, il est apparu que la mobilisation et la coordination des pr\u00e9sentations spontan\u00e9es de professionnels de sant\u00e9 dans les structures d\u2019Urgence n\u00e9cessitent une certaine organisation pour atteindre l\u2019efficacit\u00e9. Il est ainsi apparu n\u00e9cessaire indispensable d\u2019imaginer un outil pour organiser et coordonner les ressources lib\u00e9rales, en permettant l\u2019information des professionnels concern\u00e9s, l\u2019organisation des canaux de communication s\u00e9curis\u00e9e, l\u2019int\u00e9gration des ressources disponibles en renfort des structures hospitali\u00e8res afin de retarder autant que possible une \u00e9ventuelle saturation<br><br>LIB-ORSAN permet ainsi, selon la sp\u00e9cialit\u00e9, le secteur d\u2019exercice, le volontariat exprim\u00e9, d\u2019alerter, informer, mobiliser et organiser les diff\u00e9rentes \u00e9quipes disponibles pour une int\u00e9gration optimale dans l\u2019organisation locale des plans de secours.<br><br> <br>LIB-ORSAN repose sur :<br><br>- Un ou plusieurs administrateur(s), b\u00e9n\u00e9ficiant de tous les privil\u00e8ges de gestion et d\u2019administration, notamment des administrateurs interm\u00e9diaires et utilisateurs ;<br><br>- Un ou plusieurs administrateurs interm\u00e9diaires : ressources locales (praticiens, \u00e9quipes, structures type SAU, \u2026) b\u00e9n\u00e9ficiant de droit d\u2019\u00e9mission de message d\u2019alerte urgente : coordination et int\u00e9gration des disponibilit\u00e9s lib\u00e9rales par le SAU local lors d\u2019un d\u00e9clenchement de plan ORSAN par exemple ;<br><br>- Des utilisateurs, recevant via l\u2019application les alertes, les informations compl\u00e9mentaires sur l\u2019\u00e9volution de l\u2019alerte, des consignes et conduites \u00e0 tenir.<br><br> <br>LIB-ORSAN permet par ailleurs :<br><br>- une transmission des alertes sanitaires de toute nature, notamment \u00e9pid\u00e9miologique, nationales, r\u00e9gionales et/ou locales;<br><br>- une sollicitation et le recensement des m\u00e9decins volontaires pour remplacer en urgence un m\u00e9decin qui se trouverait dans l\u2019incapacit\u00e9 brutale d\u2019exercer et ainsi permettre de maintenir une offre de soins et la p\u00e9rennit\u00e9 du cabinet.<br><br> <br>LIB-ORSAN s\u2019inscrit dans une r\u00e9flexion r\u00e9gionale initi\u00e9e et port\u00e9e par l\u2019URPS M\u00e9decin Lib\u00e9ral en Bourgogne Franche-Comt\u00e9 quant \u00e0 la place des m\u00e9decins et professionnels de sant\u00e9 lib\u00e9raux dans les situations de crises sanitaires et le d\u00e9veloppement d\u2019une logique de renfort sanitaire territorial.",
+    "descriptionShort": "ALERT, INFORM, MOBILIZE, ORGANIZE; A health crisis is anticipating.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "7033991",
+          "unknown3": 28
+        },
+        "developerEmail": "urps.app@gmail.com",
+        "developerName": "URPS M\u00e9decin Lib\u00e9ral en Bourgogne Franche-Comt\u00e9",
+        "developerWebsite": "http://www.urps-ml-bfc.org/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "7033991",
+            "versionCode": 10005
+          }
+        ],
+        "installationSize": "7033991",
+        "numDownloads": "500+ downloads",
+        "packageName": "jpm.ionic.urpsliborsan",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.INTERNET",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.providers.gsf.permission.READ_GSERVICES",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE"
+        ],
+        "unstable": true,
+        "uploadDate": "29 Sep 2020",
+        "versionCode": 10005,
+        "versionString": "1.0.5"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=jpm.ionic.urpsliborsan",
+    "docType": 1,
+    "docid": "jpm.ionic.urpsliborsan",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://lh3.googleusercontent.com/FL-qd_tB9iss61Wn3v5WyRVlE4DETP_ws_pAt0af8cGAcy-cgAuDgiHhGcOqikPY4PY",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://lh3.googleusercontent.com/umTIWq4Vnhxsyj_z1Elz-S_qwMvVDats6JScn4kdTcwLr1paJQVW2Uzt6emNYCG4gq7i",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/dCcoGmggz3Z4vtAGn2A15QX3pJs_TnXunvb35EOyfBnZ0jKrL_HJHJjyVRD1wpfsUJoN",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/Xamaob_hPSkQiHczUoAgrfPD9qWoHnxUYSsPgWZ8Vz-M8G0atbjkk3ncXrkfnQSgVX8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/73UfoJDRzm7l2oqpfdBwrQh7Zhzs5mgszdY5Fq9gz3h4EesZFtFvZRWYvUrFpBxgEJw",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=jpm.ionic.urpsliborsan",
+    "reviewsUrl": "rev?doc=jpm.ionic.urpsliborsan&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=jpm.ionic.urpsliborsan",
+    "title": "Lib-Orsan",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "urps.app@gmail.com"
+          },
+          "label": "Developer email"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 2
+    },
+    "az_metadata_date": "2020-10-25 14:11:28.030240",
+    "backendDocid": "jpm.ionic.urpsliborsan",
+    "backendId": 3,
+    "creator": "URPS M\u00e9decin Lib\u00e9ral en Bourgogne Franche-Comt\u00e9",
+    "descriptionHtml": "LIB-ORSAN, application d\u00e9velopp\u00e9e par l\u2019URPS m\u00e9decin lib\u00e9ral en Bourgogne Franche-Comt\u00e9, permet le recensement des ressources m\u00e9dicales lib\u00e9rales disponibles lors du d\u00e9clenchement d\u2019un plan ORSAN.<br><br>Des retours d\u2019exp\u00e9rience des attentats de Paris et de Nice, il est apparu que la mobilisation et la coordination des pr\u00e9sentations spontan\u00e9es de professionnels de sant\u00e9 dans les structures d\u2019Urgence n\u00e9cessitent une certaine organisation pour atteindre l\u2019efficacit\u00e9. Il est ainsi apparu n\u00e9cessaire indispensable d\u2019imaginer un outil pour organiser et coordonner les ressources lib\u00e9rales, en permettant l\u2019information des professionnels concern\u00e9s, l\u2019organisation des canaux de communication s\u00e9curis\u00e9e, l\u2019int\u00e9gration des ressources disponibles en renfort des structures hospitali\u00e8res afin de retarder autant que possible une \u00e9ventuelle saturation<br><br>LIB-ORSAN permet ainsi, selon la sp\u00e9cialit\u00e9, le secteur d\u2019exercice, le volontariat exprim\u00e9, d\u2019alerter, informer, mobiliser et organiser les diff\u00e9rentes \u00e9quipes disponibles pour une int\u00e9gration optimale dans l\u2019organisation locale des plans de secours.<br><br> <br>LIB-ORSAN repose sur :<br><br>- Un ou plusieurs administrateur(s), b\u00e9n\u00e9ficiant de tous les privil\u00e8ges de gestion et d\u2019administration, notamment des administrateurs interm\u00e9diaires et utilisateurs ;<br><br>- Un ou plusieurs administrateurs interm\u00e9diaires : ressources locales (praticiens, \u00e9quipes, structures type SAU, \u2026) b\u00e9n\u00e9ficiant de droit d\u2019\u00e9mission de message d\u2019alerte urgente : coordination et int\u00e9gration des disponibilit\u00e9s lib\u00e9rales par le SAU local lors d\u2019un d\u00e9clenchement de plan ORSAN par exemple ;<br><br>- Des utilisateurs, recevant via l\u2019application les alertes, les informations compl\u00e9mentaires sur l\u2019\u00e9volution de l\u2019alerte, des consignes et conduites \u00e0 tenir.<br><br> <br>LIB-ORSAN permet par ailleurs :<br><br>- une transmission des alertes sanitaires de toute nature, notamment \u00e9pid\u00e9miologique, nationales, r\u00e9gionales et/ou locales;<br><br>- une sollicitation et le recensement des m\u00e9decins volontaires pour remplacer en urgence un m\u00e9decin qui se trouverait dans l\u2019incapacit\u00e9 brutale d\u2019exercer et ainsi permettre de maintenir une offre de soins et la p\u00e9rennit\u00e9 du cabinet.<br><br> <br>LIB-ORSAN s\u2019inscrit dans une r\u00e9flexion r\u00e9gionale initi\u00e9e et port\u00e9e par l\u2019URPS M\u00e9decin Lib\u00e9ral en Bourgogne Franche-Comt\u00e9 quant \u00e0 la place des m\u00e9decins et professionnels de sant\u00e9 lib\u00e9raux dans les situations de crises sanitaires et le d\u00e9veloppement d\u2019une logique de renfort sanitaire territorial.",
+    "descriptionShort": "ALERT, INFORM, MOBILIZE, ORGANIZE; A health crisis is anticipating.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "7033991",
+          "unknown3": 28
+        },
+        "developerEmail": "urps.app@gmail.com",
+        "developerName": "URPS M\u00e9decin Lib\u00e9ral en Bourgogne Franche-Comt\u00e9",
+        "developerWebsite": "http://www.urps-ml-bfc.org/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "7033991",
+            "versionCode": 10006
+          }
+        ],
+        "installationSize": "7033991",
+        "numDownloads": "500+ downloads",
+        "packageName": "jpm.ionic.urpsliborsan",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.INTERNET",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.providers.gsf.permission.READ_GSERVICES",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE"
+        ],
+        "unstable": true,
+        "uploadDate": "16 Oct 2020",
+        "versionCode": 10006,
+        "versionString": "1.0.6"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=jpm.ionic.urpsliborsan",
+    "docType": 1,
+    "docid": "jpm.ionic.urpsliborsan",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/FL-qd_tB9iss61Wn3v5WyRVlE4DETP_ws_pAt0af8cGAcy-cgAuDgiHhGcOqikPY4PY",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/umTIWq4Vnhxsyj_z1Elz-S_qwMvVDats6JScn4kdTcwLr1paJQVW2Uzt6emNYCG4gq7i",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/dCcoGmggz3Z4vtAGn2A15QX3pJs_TnXunvb35EOyfBnZ0jKrL_HJHJjyVRD1wpfsUJoN",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Xamaob_hPSkQiHczUoAgrfPD9qWoHnxUYSsPgWZ8Vz-M8G0atbjkk3ncXrkfnQSgVX8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/73UfoJDRzm7l2oqpfdBwrQh7Zhzs5mgszdY5Fq9gz3h4EesZFtFvZRWYvUrFpBxgEJw",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=jpm.ionic.urpsliborsan",
+    "reviewsUrl": "rev?doc=jpm.ionic.urpsliborsan&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=jpm.ionic.urpsliborsan",
+    "title": "Lib-Orsan",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "urps.app@gmail.com"
+          },
+          "label": "Developer email"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 2
+    },
+    "az_metadata_date": "2020-10-30 16:49:54.962231",
+    "backendDocid": "jpm.ionic.urpsliborsan",
+    "backendId": 3,
+    "creator": "URPS M\u00e9decin Lib\u00e9ral en Bourgogne Franche-Comt\u00e9",
+    "descriptionHtml": "LIB-ORSAN, application d\u00e9velopp\u00e9e par l\u2019URPS m\u00e9decin lib\u00e9ral en Bourgogne Franche-Comt\u00e9, permet le recensement des ressources m\u00e9dicales lib\u00e9rales disponibles lors du d\u00e9clenchement d\u2019un plan ORSAN.<br><br>Des retours d\u2019exp\u00e9rience des attentats de Paris et de Nice, il est apparu que la mobilisation et la coordination des pr\u00e9sentations spontan\u00e9es de professionnels de sant\u00e9 dans les structures d\u2019Urgence n\u00e9cessitent une certaine organisation pour atteindre l\u2019efficacit\u00e9. Il est ainsi apparu n\u00e9cessaire indispensable d\u2019imaginer un outil pour organiser et coordonner les ressources lib\u00e9rales, en permettant l\u2019information des professionnels concern\u00e9s, l\u2019organisation des canaux de communication s\u00e9curis\u00e9e, l\u2019int\u00e9gration des ressources disponibles en renfort des structures hospitali\u00e8res afin de retarder autant que possible une \u00e9ventuelle saturation<br><br>LIB-ORSAN permet ainsi, selon la sp\u00e9cialit\u00e9, le secteur d\u2019exercice, le volontariat exprim\u00e9, d\u2019alerter, informer, mobiliser et organiser les diff\u00e9rentes \u00e9quipes disponibles pour une int\u00e9gration optimale dans l\u2019organisation locale des plans de secours.<br><br> <br>LIB-ORSAN repose sur :<br><br>- Un ou plusieurs administrateur(s), b\u00e9n\u00e9ficiant de tous les privil\u00e8ges de gestion et d\u2019administration, notamment des administrateurs interm\u00e9diaires et utilisateurs ;<br><br>- Un ou plusieurs administrateurs interm\u00e9diaires : ressources locales (praticiens, \u00e9quipes, structures type SAU, \u2026) b\u00e9n\u00e9ficiant de droit d\u2019\u00e9mission de message d\u2019alerte urgente : coordination et int\u00e9gration des disponibilit\u00e9s lib\u00e9rales par le SAU local lors d\u2019un d\u00e9clenchement de plan ORSAN par exemple ;<br><br>- Des utilisateurs, recevant via l\u2019application les alertes, les informations compl\u00e9mentaires sur l\u2019\u00e9volution de l\u2019alerte, des consignes et conduites \u00e0 tenir.<br><br> <br>LIB-ORSAN permet par ailleurs :<br><br>- une transmission des alertes sanitaires de toute nature, notamment \u00e9pid\u00e9miologique, nationales, r\u00e9gionales et/ou locales;<br><br>- une sollicitation et le recensement des m\u00e9decins volontaires pour remplacer en urgence un m\u00e9decin qui se trouverait dans l\u2019incapacit\u00e9 brutale d\u2019exercer et ainsi permettre de maintenir une offre de soins et la p\u00e9rennit\u00e9 du cabinet.<br><br> <br>LIB-ORSAN s\u2019inscrit dans une r\u00e9flexion r\u00e9gionale initi\u00e9e et port\u00e9e par l\u2019URPS M\u00e9decin Lib\u00e9ral en Bourgogne Franche-Comt\u00e9 quant \u00e0 la place des m\u00e9decins et professionnels de sant\u00e9 lib\u00e9raux dans les situations de crises sanitaires et le d\u00e9veloppement d\u2019une logique de renfort sanitaire territorial.",
+    "descriptionShort": "ALERT, INFORM, MOBILIZE, ORGANIZE; A health crisis is anticipating.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "7033991",
+          "unknown3": 28
+        },
+        "developerEmail": "urps.app@gmail.com",
+        "developerName": "URPS M\u00e9decin Lib\u00e9ral en Bourgogne Franche-Comt\u00e9",
+        "developerWebsite": "http://www.urps-ml-bfc.org/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "7033991",
+            "versionCode": 10006
+          }
+        ],
+        "installationSize": "7033991",
+        "numDownloads": "500+ downloads",
+        "packageName": "jpm.ionic.urpsliborsan",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.INTERNET",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.providers.gsf.permission.READ_GSERVICES",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE"
+        ],
+        "unstable": true,
+        "uploadDate": "Oct. 16, 2020",
+        "versionCode": 10006,
+        "versionString": "1.0.6"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=jpm.ionic.urpsliborsan",
+    "docType": 1,
+    "docid": "jpm.ionic.urpsliborsan",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/FL-qd_tB9iss61Wn3v5WyRVlE4DETP_ws_pAt0af8cGAcy-cgAuDgiHhGcOqikPY4PY",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/umTIWq4Vnhxsyj_z1Elz-S_qwMvVDats6JScn4kdTcwLr1paJQVW2Uzt6emNYCG4gq7i",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/dCcoGmggz3Z4vtAGn2A15QX3pJs_TnXunvb35EOyfBnZ0jKrL_HJHJjyVRD1wpfsUJoN",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Xamaob_hPSkQiHczUoAgrfPD9qWoHnxUYSsPgWZ8Vz-M8G0atbjkk3ncXrkfnQSgVX8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/73UfoJDRzm7l2oqpfdBwrQh7Zhzs5mgszdY5Fq9gz3h4EesZFtFvZRWYvUrFpBxgEJw",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=jpm.ionic.urpsliborsan",
+    "reviewsUrl": "rev?doc=jpm.ionic.urpsliborsan&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=jpm.ionic.urpsliborsan",
+    "title": "Lib-Orsan",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "URPS M\u00e9decin Lib\u00e9ral en Bourgogne Franche-Comt\u00e9"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "urps.app@gmail.com"
+          },
+          "label": "Developer email"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 2
+    },
+    "az_metadata_date": "2020-11-04 01:45:25.278028",
+    "backendDocid": "jpm.ionic.urpsliborsan",
+    "backendId": 3,
+    "creator": "URPS M\u00e9decin Lib\u00e9ral en Bourgogne Franche-Comt\u00e9",
+    "descriptionHtml": "LIB-ORSAN, application d\u00e9velopp\u00e9e par l\u2019URPS m\u00e9decin lib\u00e9ral en Bourgogne Franche-Comt\u00e9, permet le recensement des ressources m\u00e9dicales lib\u00e9rales disponibles lors du d\u00e9clenchement d\u2019un plan ORSAN.<br><br>Des retours d\u2019exp\u00e9rience des attentats de Paris et de Nice, il est apparu que la mobilisation et la coordination des pr\u00e9sentations spontan\u00e9es de professionnels de sant\u00e9 dans les structures d\u2019Urgence n\u00e9cessitent une certaine organisation pour atteindre l\u2019efficacit\u00e9. Il est ainsi apparu n\u00e9cessaire indispensable d\u2019imaginer un outil pour organiser et coordonner les ressources lib\u00e9rales, en permettant l\u2019information des professionnels concern\u00e9s, l\u2019organisation des canaux de communication s\u00e9curis\u00e9e, l\u2019int\u00e9gration des ressources disponibles en renfort des structures hospitali\u00e8res afin de retarder autant que possible une \u00e9ventuelle saturation<br><br>LIB-ORSAN permet ainsi, selon la sp\u00e9cialit\u00e9, le secteur d\u2019exercice, le volontariat exprim\u00e9, d\u2019alerter, informer, mobiliser et organiser les diff\u00e9rentes \u00e9quipes disponibles pour une int\u00e9gration optimale dans l\u2019organisation locale des plans de secours.<br><br> <br>LIB-ORSAN repose sur :<br><br>- Un ou plusieurs administrateur(s), b\u00e9n\u00e9ficiant de tous les privil\u00e8ges de gestion et d\u2019administration, notamment des administrateurs interm\u00e9diaires et utilisateurs ;<br><br>- Un ou plusieurs administrateurs interm\u00e9diaires : ressources locales (praticiens, \u00e9quipes, structures type SAU, \u2026) b\u00e9n\u00e9ficiant de droit d\u2019\u00e9mission de message d\u2019alerte urgente : coordination et int\u00e9gration des disponibilit\u00e9s lib\u00e9rales par le SAU local lors d\u2019un d\u00e9clenchement de plan ORSAN par exemple ;<br><br>- Des utilisateurs, recevant via l\u2019application les alertes, les informations compl\u00e9mentaires sur l\u2019\u00e9volution de l\u2019alerte, des consignes et conduites \u00e0 tenir.<br><br> <br>LIB-ORSAN permet par ailleurs :<br><br>- une transmission des alertes sanitaires de toute nature, notamment \u00e9pid\u00e9miologique, nationales, r\u00e9gionales et/ou locales;<br><br>- une sollicitation et le recensement des m\u00e9decins volontaires pour remplacer en urgence un m\u00e9decin qui se trouverait dans l\u2019incapacit\u00e9 brutale d\u2019exercer et ainsi permettre de maintenir une offre de soins et la p\u00e9rennit\u00e9 du cabinet.<br><br> <br>LIB-ORSAN s\u2019inscrit dans une r\u00e9flexion r\u00e9gionale initi\u00e9e et port\u00e9e par l\u2019URPS M\u00e9decin Lib\u00e9ral en Bourgogne Franche-Comt\u00e9 quant \u00e0 la place des m\u00e9decins et professionnels de sant\u00e9 lib\u00e9raux dans les situations de crises sanitaires et le d\u00e9veloppement d\u2019une logique de renfort sanitaire territorial.",
+    "descriptionShort": "ALERT, INFORM, MOBILIZE, ORGANIZE; A health crisis is anticipating.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "7033991",
+          "unknown3": 28
+        },
+        "developerEmail": "urps.app@gmail.com",
+        "developerName": "URPS M\u00e9decin Lib\u00e9ral en Bourgogne Franche-Comt\u00e9",
+        "developerWebsite": "http://www.urps-ml-bfc.org/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "7033991",
+            "versionCode": 10006
+          }
+        ],
+        "installationSize": "7033991",
+        "numDownloads": "500+ downloads",
+        "packageName": "jpm.ionic.urpsliborsan",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.INTERNET",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.providers.gsf.permission.READ_GSERVICES",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE"
+        ],
+        "unstable": true,
+        "uploadDate": "16 Oct 2020",
+        "versionCode": 10006,
+        "versionString": "1.0.6"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=jpm.ionic.urpsliborsan",
+    "docType": 1,
+    "docid": "jpm.ionic.urpsliborsan",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/FL-qd_tB9iss61Wn3v5WyRVlE4DETP_ws_pAt0af8cGAcy-cgAuDgiHhGcOqikPY4PY",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/umTIWq4Vnhxsyj_z1Elz-S_qwMvVDats6JScn4kdTcwLr1paJQVW2Uzt6emNYCG4gq7i",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/dCcoGmggz3Z4vtAGn2A15QX3pJs_TnXunvb35EOyfBnZ0jKrL_HJHJjyVRD1wpfsUJoN",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Xamaob_hPSkQiHczUoAgrfPD9qWoHnxUYSsPgWZ8Vz-M8G0atbjkk3ncXrkfnQSgVX8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/73UfoJDRzm7l2oqpfdBwrQh7Zhzs5mgszdY5Fq9gz3h4EesZFtFvZRWYvUrFpBxgEJw",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=jpm.ionic.urpsliborsan",
+    "reviewsUrl": "rev?doc=jpm.ionic.urpsliborsan&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=jpm.ionic.urpsliborsan",
+    "title": "Lib-Orsan",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "urps.app@gmail.com"
+          },
+          "label": "Developer email"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-11-08 05:14:07.938357",
+    "backendDocid": "jpm.ionic.urpsliborsan",
+    "backendId": 3,
+    "creator": "URPS M\u00e9decin Lib\u00e9ral en Bourgogne Franche-Comt\u00e9",
+    "descriptionHtml": "LIB-ORSAN, application d\u00e9velopp\u00e9e par l\u2019URPS m\u00e9decin lib\u00e9ral en Bourgogne Franche-Comt\u00e9, permet le recensement des ressources m\u00e9dicales lib\u00e9rales disponibles lors du d\u00e9clenchement d\u2019un plan ORSAN.<br><br>Des retours d\u2019exp\u00e9rience des attentats de Paris et de Nice, il est apparu que la mobilisation et la coordination des pr\u00e9sentations spontan\u00e9es de professionnels de sant\u00e9 dans les structures d\u2019Urgence n\u00e9cessitent une certaine organisation pour atteindre l\u2019efficacit\u00e9. Il est ainsi apparu n\u00e9cessaire indispensable d\u2019imaginer un outil pour organiser et coordonner les ressources lib\u00e9rales, en permettant l\u2019information des professionnels concern\u00e9s, l\u2019organisation des canaux de communication s\u00e9curis\u00e9e, l\u2019int\u00e9gration des ressources disponibles en renfort des structures hospitali\u00e8res afin de retarder autant que possible une \u00e9ventuelle saturation<br><br>LIB-ORSAN permet ainsi, selon la sp\u00e9cialit\u00e9, le secteur d\u2019exercice, le volontariat exprim\u00e9, d\u2019alerter, informer, mobiliser et organiser les diff\u00e9rentes \u00e9quipes disponibles pour une int\u00e9gration optimale dans l\u2019organisation locale des plans de secours.<br><br> <br>LIB-ORSAN repose sur :<br><br>- Un ou plusieurs administrateur(s), b\u00e9n\u00e9ficiant de tous les privil\u00e8ges de gestion et d\u2019administration, notamment des administrateurs interm\u00e9diaires et utilisateurs ;<br><br>- Un ou plusieurs administrateurs interm\u00e9diaires : ressources locales (praticiens, \u00e9quipes, structures type SAU, \u2026) b\u00e9n\u00e9ficiant de droit d\u2019\u00e9mission de message d\u2019alerte urgente : coordination et int\u00e9gration des disponibilit\u00e9s lib\u00e9rales par le SAU local lors d\u2019un d\u00e9clenchement de plan ORSAN par exemple ;<br><br>- Des utilisateurs, recevant via l\u2019application les alertes, les informations compl\u00e9mentaires sur l\u2019\u00e9volution de l\u2019alerte, des consignes et conduites \u00e0 tenir.<br><br> <br>LIB-ORSAN permet par ailleurs :<br><br>- une transmission des alertes sanitaires de toute nature, notamment \u00e9pid\u00e9miologique, nationales, r\u00e9gionales et/ou locales;<br><br>- une sollicitation et le recensement des m\u00e9decins volontaires pour remplacer en urgence un m\u00e9decin qui se trouverait dans l\u2019incapacit\u00e9 brutale d\u2019exercer et ainsi permettre de maintenir une offre de soins et la p\u00e9rennit\u00e9 du cabinet.<br><br> <br>LIB-ORSAN s\u2019inscrit dans une r\u00e9flexion r\u00e9gionale initi\u00e9e et port\u00e9e par l\u2019URPS M\u00e9decin Lib\u00e9ral en Bourgogne Franche-Comt\u00e9 quant \u00e0 la place des m\u00e9decins et professionnels de sant\u00e9 lib\u00e9raux dans les situations de crises sanitaires et le d\u00e9veloppement d\u2019une logique de renfort sanitaire territorial.",
+    "descriptionShort": "ALERT, INFORM, MOBILIZE, ORGANIZE; A health crisis is anticipating.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "7033991",
+          "unknown3": 28
+        },
+        "developerEmail": "urps.app@gmail.com",
+        "developerName": "URPS M\u00e9decin Lib\u00e9ral en Bourgogne Franche-Comt\u00e9",
+        "developerWebsite": "http://www.urps-ml-bfc.org/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "7033991",
+            "versionCode": 10006
+          }
+        ],
+        "installationSize": "7033991",
+        "numDownloads": "500+ downloads",
+        "packageName": "jpm.ionic.urpsliborsan",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.INTERNET",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.providers.gsf.permission.READ_GSERVICES",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE"
+        ],
+        "recentChangesHtml": "Modification index",
+        "unstable": true,
+        "uploadDate": "16 Oct 2020",
+        "versionCode": 10006,
+        "versionString": "1.0.6"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=jpm.ionic.urpsliborsan",
+    "docType": 1,
+    "docid": "jpm.ionic.urpsliborsan",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/FL-qd_tB9iss61Wn3v5WyRVlE4DETP_ws_pAt0af8cGAcy-cgAuDgiHhGcOqikPY4PY",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/umTIWq4Vnhxsyj_z1Elz-S_qwMvVDats6JScn4kdTcwLr1paJQVW2Uzt6emNYCG4gq7i",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/dCcoGmggz3Z4vtAGn2A15QX3pJs_TnXunvb35EOyfBnZ0jKrL_HJHJjyVRD1wpfsUJoN",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Xamaob_hPSkQiHczUoAgrfPD9qWoHnxUYSsPgWZ8Vz-M8G0atbjkk3ncXrkfnQSgVX8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/73UfoJDRzm7l2oqpfdBwrQh7Zhzs5mgszdY5Fq9gz3h4EesZFtFvZRWYvUrFpBxgEJw",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=jpm.ionic.urpsliborsan",
+    "reviewsUrl": "rev?doc=jpm.ionic.urpsliborsan&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=jpm.ionic.urpsliborsan",
+    "title": "Lib-Orsan",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "urps.app@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "16 Dec 2019"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-08-22 10:04:43.242095",
+    "backendDocid": "jpm.ionic.urpsliborsan",
+    "backendId": 3,
+    "creator": "URPS M\u00e9decin Lib\u00e9ral en Bourgogne Franche-Comt\u00e9",
+    "descriptionHtml": "LIB-ORSAN, application d\u00e9velopp\u00e9e par l\u2019URPS m\u00e9decin lib\u00e9ral en Bourgogne Franche-Comt\u00e9, permet le recensement des ressources m\u00e9dicales lib\u00e9rales disponibles lors du d\u00e9clenchement d\u2019un plan ORSAN.<br><br>Des retours d\u2019exp\u00e9rience des attentats de Paris et de Nice, il est apparu que la mobilisation et la coordination des pr\u00e9sentations spontan\u00e9es de professionnels de sant\u00e9 dans les structures d\u2019Urgence n\u00e9cessitent une certaine organisation pour atteindre l\u2019efficacit\u00e9. Il est ainsi apparu n\u00e9cessaire indispensable d\u2019imaginer un outil pour organiser et coordonner les ressources lib\u00e9rales, en permettant l\u2019information des professionnels concern\u00e9s, l\u2019organisation des canaux de communication s\u00e9curis\u00e9e, l\u2019int\u00e9gration des ressources disponibles en renfort des structures hospitali\u00e8res afin de retarder autant que possible une \u00e9ventuelle saturation<br><br>LIB-ORSAN permet ainsi, selon la sp\u00e9cialit\u00e9, le secteur d\u2019exercice, le volontariat exprim\u00e9, d\u2019alerter, informer, mobiliser et organiser les diff\u00e9rentes \u00e9quipes disponibles pour une int\u00e9gration optimale dans l\u2019organisation locale des plans de secours.<br><br> <br>LIB-ORSAN repose sur :<br><br>- Un ou plusieurs administrateur(s), b\u00e9n\u00e9ficiant de tous les privil\u00e8ges de gestion et d\u2019administration, notamment des administrateurs interm\u00e9diaires et utilisateurs ;<br><br>- Un ou plusieurs administrateurs interm\u00e9diaires : ressources locales (praticiens, \u00e9quipes, structures type SAU, \u2026) b\u00e9n\u00e9ficiant de droit d\u2019\u00e9mission de message d\u2019alerte urgente : coordination et int\u00e9gration des disponibilit\u00e9s lib\u00e9rales par le SAU local lors d\u2019un d\u00e9clenchement de plan ORSAN par exemple ;<br><br>- Des utilisateurs, recevant via l\u2019application les alertes, les informations compl\u00e9mentaires sur l\u2019\u00e9volution de l\u2019alerte, des consignes et conduites \u00e0 tenir.<br><br> <br>LIB-ORSAN permet par ailleurs :<br><br>- une transmission des alertes sanitaires de toute nature, notamment \u00e9pid\u00e9miologique, nationales, r\u00e9gionales et/ou locales;<br><br>- une sollicitation et le recensement des m\u00e9decins volontaires pour remplacer en urgence un m\u00e9decin qui se trouverait dans l\u2019incapacit\u00e9 brutale d\u2019exercer et ainsi permettre de maintenir une offre de soins et la p\u00e9rennit\u00e9 du cabinet.<br><br> <br>LIB-ORSAN s\u2019inscrit dans une r\u00e9flexion r\u00e9gionale initi\u00e9e et port\u00e9e par l\u2019URPS M\u00e9decin Lib\u00e9ral en Bourgogne Franche-Comt\u00e9 quant \u00e0 la place des m\u00e9decins et professionnels de sant\u00e9 lib\u00e9raux dans les situations de crises sanitaires et le d\u00e9veloppement d\u2019une logique de renfort sanitaire territorial.",
+    "descriptionShort": "ALERT, INFORM, MOBILIZE, ORGANIZE; A health crisis is anticipating.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "7033991",
+          "unknown3": 29
+        },
+        "developerEmail": "urps.app@gmail.com",
+        "developerName": "URPS M\u00e9decin Lib\u00e9ral en Bourgogne Franche-Comt\u00e9",
+        "developerWebsite": "http://www.urps-ml-bfc.org/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "7033991",
+            "versionCode": 10008
+          }
+        ],
+        "installationSize": "7033991",
+        "numDownloads": "500+ downloads",
+        "packageName": "jpm.ionic.urpsliborsan",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.INTERNET",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.providers.gsf.permission.READ_GSERVICES",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE"
+        ],
+        "recentChangesHtml": "- 1.0.8",
+        "unstable": true,
+        "uploadDate": "6 Apr 2021",
+        "versionCode": 10008,
+        "versionString": "1.0.8"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=jpm.ionic.urpsliborsan",
+    "docType": 1,
+    "docid": "jpm.ionic.urpsliborsan",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/FL-qd_tB9iss61Wn3v5WyRVlE4DETP_ws_pAt0af8cGAcy-cgAuDgiHhGcOqikPY4PY",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/umTIWq4Vnhxsyj_z1Elz-S_qwMvVDats6JScn4kdTcwLr1paJQVW2Uzt6emNYCG4gq7i",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/dCcoGmggz3Z4vtAGn2A15QX3pJs_TnXunvb35EOyfBnZ0jKrL_HJHJjyVRD1wpfsUJoN",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Xamaob_hPSkQiHczUoAgrfPD9qWoHnxUYSsPgWZ8Vz-M8G0atbjkk3ncXrkfnQSgVX8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/73UfoJDRzm7l2oqpfdBwrQh7Zhzs5mgszdY5Fq9gz3h4EesZFtFvZRWYvUrFpBxgEJw",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=jpm.ionic.urpsliborsan",
+    "reviewsUrl": "rev?doc=jpm.ionic.urpsliborsan&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=jpm.ionic.urpsliborsan",
+    "title": "Lib-Orsan",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "urps.app@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "16 Dec 2019"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 2
+    },
+    "az_metadata_date": "2022-12-22 03:59:04.972908",
+    "backendDocid": "jpm.ionic.urpsliborsan",
+    "backendId": 3,
+    "creator": "URPS M\u00e9decin Lib\u00e9ral en Bourgogne Franche-Comt\u00e9",
+    "descriptionHtml": "LIB-ORSAN, application d\u00e9velopp\u00e9e par l\u2019URPS m\u00e9decin lib\u00e9ral en Bourgogne Franche-Comt\u00e9, permet le recensement des ressources m\u00e9dicales lib\u00e9rales disponibles lors du d\u00e9clenchement d\u2019un plan ORSAN.<br><br>Des retours d\u2019exp\u00e9rience des attentats de Paris et de Nice, il est apparu que la mobilisation et la coordination des pr\u00e9sentations spontan\u00e9es de professionnels de sant\u00e9 dans les structures d\u2019Urgence n\u00e9cessitent une certaine organisation pour atteindre l\u2019efficacit\u00e9. Il est ainsi apparu n\u00e9cessaire indispensable d\u2019imaginer un outil pour organiser et coordonner les ressources lib\u00e9rales, en permettant l\u2019information des professionnels concern\u00e9s, l\u2019organisation des canaux de communication s\u00e9curis\u00e9e, l\u2019int\u00e9gration des ressources disponibles en renfort des structures hospitali\u00e8res afin de retarder autant que possible une \u00e9ventuelle saturation<br><br>LIB-ORSAN permet ainsi, selon la sp\u00e9cialit\u00e9, le secteur d\u2019exercice, le volontariat exprim\u00e9, d\u2019alerter, informer, mobiliser et organiser les diff\u00e9rentes \u00e9quipes disponibles pour une int\u00e9gration optimale dans l\u2019organisation locale des plans de secours.<br><br> <br>LIB-ORSAN repose sur :<br><br>- Un ou plusieurs administrateur(s), b\u00e9n\u00e9ficiant de tous les privil\u00e8ges de gestion et d\u2019administration, notamment des administrateurs interm\u00e9diaires et utilisateurs ;<br><br>- Un ou plusieurs administrateurs interm\u00e9diaires : ressources locales (praticiens, \u00e9quipes, structures type SAU, \u2026) b\u00e9n\u00e9ficiant de droit d\u2019\u00e9mission de message d\u2019alerte urgente : coordination et int\u00e9gration des disponibilit\u00e9s lib\u00e9rales par le SAU local lors d\u2019un d\u00e9clenchement de plan ORSAN par exemple ;<br><br>- Des utilisateurs, recevant via l\u2019application les alertes, les informations compl\u00e9mentaires sur l\u2019\u00e9volution de l\u2019alerte, des consignes et conduites \u00e0 tenir.<br><br> <br>LIB-ORSAN permet par ailleurs :<br><br>- une transmission des alertes sanitaires de toute nature, notamment \u00e9pid\u00e9miologique, nationales, r\u00e9gionales et/ou locales;<br><br>- une sollicitation et le recensement des m\u00e9decins volontaires pour remplacer en urgence un m\u00e9decin qui se trouverait dans l\u2019incapacit\u00e9 brutale d\u2019exercer et ainsi permettre de maintenir une offre de soins et la p\u00e9rennit\u00e9 du cabinet.<br><br> <br>LIB-ORSAN s\u2019inscrit dans une r\u00e9flexion r\u00e9gionale initi\u00e9e et port\u00e9e par l\u2019URPS M\u00e9decin Lib\u00e9ral en Bourgogne Franche-Comt\u00e9 quant \u00e0 la place des m\u00e9decins et professionnels de sant\u00e9 lib\u00e9raux dans les situations de crises sanitaires et le d\u00e9veloppement d\u2019une logique de renfort sanitaire territorial.",
+    "descriptionShort": "ALERT, INFORM, MOBILIZE, ORGANIZE; A health crisis is anticipating.",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "39102163",
+          "unknown3": 31
+        },
+        "developerEmail": "urps.app@gmail.com",
+        "developerName": "URPS M\u00e9decin Lib\u00e9ral en Bourgogne Franche-Comt\u00e9",
+        "developerWebsite": "http://www.urps-ml-bfc.org/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "8730924",
+            "versionCode": 10010
+          },
+          {
+            "fileType": 0,
+            "size": "191804",
+            "versionCode": 10010
+          },
+          {
+            "fileType": 0,
+            "size": "24985",
+            "versionCode": 10010
+          },
+          {
+            "fileType": 0,
+            "size": "45465",
+            "versionCode": 10010
+          },
+          {
+            "fileType": 0,
+            "size": "30108985",
+            "versionCode": 10010
+          }
+        ],
+        "installationSize": "39102163",
+        "numDownloads": "500+ downloads",
+        "packageName": "jpm.ionic.urpsliborsan",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.ACCESS_WIFI_STATE",
+          "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION",
+          "android.permission.INTERNET",
+          "android.permission.POST_NOTIFICATIONS",
+          "android.permission.READ_APP_BADGE",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_PHONE_STATE",
+          "android.permission.SYSTEM_ALERT_WINDOW",
+          "android.permission.USE_BIOMETRIC",
+          "android.permission.USE_FINGERPRINT",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.anddoes.launcher.permission.UPDATE_COUNT",
+          "com.android.vending.CHECK_LICENSE",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.htc.launcher.permission.READ_SETTINGS",
+          "com.htc.launcher.permission.UPDATE_SHORTCUT",
+          "com.huawei.android.launcher.permission.CHANGE_BADGE",
+          "com.huawei.android.launcher.permission.READ_SETTINGS",
+          "com.huawei.android.launcher.permission.WRITE_SETTINGS",
+          "com.majeur.launcher.permission.UPDATE_BADGE",
+          "com.oppo.launcher.permission.READ_SETTINGS",
+          "com.oppo.launcher.permission.WRITE_SETTINGS",
+          "com.sec.android.provider.badge.permission.READ",
+          "com.sec.android.provider.badge.permission.WRITE",
+          "com.sonyericsson.home.permission.BROADCAST_BADGE",
+          "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE",
+          "me.everything.badger.permission.BADGE_COUNT_READ",
+          "me.everything.badger.permission.BADGE_COUNT_WRITE"
+        ],
+        "unstable": true,
+        "uploadDate": "19 Dec 2022",
+        "versionCode": 10010,
+        "versionString": "2.1.7"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=jpm.ionic.urpsliborsan",
+    "docType": 1,
+    "docid": "jpm.ionic.urpsliborsan",
+    "image": [
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/FL-qd_tB9iss61Wn3v5WyRVlE4DETP_ws_pAt0af8cGAcy-cgAuDgiHhGcOqikPY4PY",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/umTIWq4Vnhxsyj_z1Elz-S_qwMvVDats6JScn4kdTcwLr1paJQVW2Uzt6emNYCG4gq7i",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/dCcoGmggz3Z4vtAGn2A15QX3pJs_TnXunvb35EOyfBnZ0jKrL_HJHJjyVRD1wpfsUJoN",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Xamaob_hPSkQiHczUoAgrfPD9qWoHnxUYSsPgWZ8Vz-M8G0atbjkk3ncXrkfnQSgVX8",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2208,
+          "width": 1242
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/73UfoJDRzm7l2oqpfdBwrQh7Zhzs5mgszdY5Fq9gz3h4EesZFtFvZRWYvUrFpBxgEJw",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://www.urps-ml-bfc.org/mentions-legales/",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=jpm.ionic.urpsliborsan",
+    "reviewsUrl": "rev?doc=jpm.ionic.urpsliborsan&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=jpm.ionic.urpsliborsan",
+    "title": "Lib-Orsan",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "urps.app@gmail.com"
+          },
+          "label": "Developer email"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  }
+]

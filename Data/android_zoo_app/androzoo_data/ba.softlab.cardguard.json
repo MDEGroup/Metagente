@@ -1,0 +1,857 @@
+[
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-05-20 16:35:43.892754",
+    "backendDocid": "ba.softlab.cardguard",
+    "backendId": 3,
+    "creator": "Bamcard d.d.",
+    "descriptionHtml": "Sa mobilnom aplikacijom Card Guard, korisnik ima kontrolu nad svim aspektima svojih platnih kartica. Card Guard daje mogu\u0107nost vlasniku kartice da upravlja debitnim, prepaid i kreditnim karticama iz aplikacije na svom pametnom telefonu. Tako\u0111er, dozvoljava vlasniku kartice da zaprima kontrolne postavke u realnom vremenu i da reaguje na poku\u0161aje zloupotrebe.<br><br>Pregled funkcionalnosti<br><br>\u2022\tPrebacuje kartice u On/Off mode sa jednim dodirom na smartphone-u;<br><br>\u2022\tUpravlja postavkama da prilagodi tipove transakcija, kategorije trgovaca i limite potro\u0161nje, da bi se prilagodio profil kori\u0161tenja;<br><br>\u2022\tTransakcijski alerti slu\u017ee za bolju vidljivost i promptnu akciju;<br><br>\u2022\tKontrole na bazi lokacije \u2013 Geo fencing: Vlasnici kartica mogu definisati geografsko podru\u010dje na kojem je kartica aktivna. Ako se kartica koristi izvan ovog podru\u010dja, kartica \u0107e biti blokirana i alert \u0107e biti poslan;<br><br>\u2022\tUpravljanje limitima potro\u0161nje: Omogu\u0107ava vlasnicima kartica da postave prag potro\u0161nje za svoje kartice kao i za zavisne kartice (dodatne kartice);<br><br>\u2022\tOmogu\u0107i i onemogu\u0107i specifi\u010dne tipove platnih kanala kao \u0161to su in-store, e-Commerce, ATM, gambling itd.",
+    "descriptionShort": "Za\u0161titite va\u0161e kartice i va\u0161 novac",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "25163163",
+          "unknown3": 28
+        },
+        "developerEmail": "jesenko.majusevic@bamcard.ba",
+        "developerName": "Bamcard d.d.",
+        "developerWebsite": "http://www.bamcard.ba",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "7880181",
+            "versionCode": 4
+          },
+          {
+            "fileType": 0,
+            "size": "861553",
+            "versionCode": 4
+          },
+          {
+            "fileType": 0,
+            "size": "34006",
+            "versionCode": 4
+          },
+          {
+            "fileType": 0,
+            "size": "16387423",
+            "versionCode": 4
+          }
+        ],
+        "installationSize": "25163163",
+        "numDownloads": "50+ downloads",
+        "packageName": "ba.softlab.cardguard",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.MODIFY_AUDIO_SETTINGS",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.SYSTEM_ALERT_WINDOW",
+          "android.permission.WAKE_LOCK",
+          "ba.softlab.cardguard.permission.C2D_MESSAGE",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "host.exp.exponent.permission.C2D_MESSAGE"
+        ],
+        "recentChangesHtml": "Minor changes, new design coloring scheme",
+        "unstable": true,
+        "uploadDate": "26 Dec 2019",
+        "versionCode": 4,
+        "versionString": "2.0.2"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=ba.softlab.cardguard",
+    "docType": 1,
+    "docid": "ba.softlab.cardguard",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://lh3.googleusercontent.com/_FVOuXBDkIbz69_qSFPi-6nD3KeqRt85rfoZfBPJ8bowhqD4hTTFYL2KYztDyVnYQl9a",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://lh3.googleusercontent.com/o8VcUpUQpBQ5DT-Zmppwf0cUT0OTZfYpZ6xmLMiicv2PwqefMWZQQtrEVmaqWSnchA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2160,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/zrnGAT6DoK5DNxfRvsZMEU-kJEEs44OD1yN2sj_7MYa5pgC37q5PpDp7KezvvdoiK_4",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/RTzLRIP9aD6SDICFgG38Xo3I7gHX4A2N-z0MliazIhWviIQWI0F-2fkyYDD33F0oug",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/zZNb1oiqS2naF8-JYj_BvQ3NzOPNv-rOx3RV8ioBlTsmc-eJSKowvTrCklzPypmL4Q",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/-yBmttybdVVNnXroE2U0b99Rct05n69ccI5w4lTo8A11MBRPxK6hIcJziE8a_YgNYVM",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/jK1OdVCo3KWv3TciRgSGF8nXlUI2FFOLFHxNpyrzvh5i9g15CIlHlScUoreQlac8VX4",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/c-LrdLhEJy5Q-dm9vRNu_Tz3fCVA7_1LoVnre68mLXiNbzpH7U5XJI7wrQHSuvIrt3I",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://www.iubenda.com/privacy-policy/91864572",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://lh3.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=ba.softlab.cardguard",
+    "reviewsUrl": "rev?doc=ba.softlab.cardguard&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=ba.softlab.cardguard",
+    "title": "Card Guard\u00ae",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "jesenko.majusevic@bamcard.ba"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "4 Mar 2019"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-06-30 17:57:45.680064",
+    "backendDocid": "ba.softlab.cardguard",
+    "backendId": 3,
+    "creator": "Bamcard d.d.",
+    "descriptionHtml": "Sa mobilnom aplikacijom Card Guard, korisnik ima kontrolu nad svim aspektima svojih platnih kartica. Card Guard daje mogu\u0107nost vlasniku kartice da upravlja debitnim, prepaid i kreditnim karticama iz aplikacije na svom pametnom telefonu. Tako\u0111er, dozvoljava vlasniku kartice da zaprima kontrolne postavke u realnom vremenu i da reaguje na poku\u0161aje zloupotrebe.<br><br>Pregled funkcionalnosti<br><br>\u2022\tPrebacuje kartice u On/Off mode sa jednim dodirom na smartphone-u;<br><br>\u2022\tUpravlja postavkama da prilagodi tipove transakcija, kategorije trgovaca i limite potro\u0161nje, da bi se prilagodio profil kori\u0161tenja;<br><br>\u2022\tTransakcijski alerti slu\u017ee za bolju vidljivost i promptnu akciju;<br><br>\u2022\tKontrole na bazi lokacije \u2013 Geo fencing: Vlasnici kartica mogu definisati geografsko podru\u010dje na kojem je kartica aktivna. Ako se kartica koristi izvan ovog podru\u010dja, kartica \u0107e biti blokirana i alert \u0107e biti poslan;<br><br>\u2022\tUpravljanje limitima potro\u0161nje: Omogu\u0107ava vlasnicima kartica da postave prag potro\u0161nje za svoje kartice kao i za zavisne kartice (dodatne kartice);<br><br>\u2022\tOmogu\u0107i i onemogu\u0107i specifi\u010dne tipove platnih kanala kao \u0161to su in-store, e-Commerce, ATM, gambling itd.",
+    "descriptionShort": "Za\u0161titite va\u0161e kartice i va\u0161 novac",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "25163165",
+          "unknown3": 28
+        },
+        "developerEmail": "jesenko.majusevic@bamcard.ba",
+        "developerName": "Bamcard d.d.",
+        "developerWebsite": "http://www.bamcard.ba",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "7880183",
+            "versionCode": 4
+          },
+          {
+            "fileType": 0,
+            "size": "861553",
+            "versionCode": 4
+          },
+          {
+            "fileType": 0,
+            "size": "34006",
+            "versionCode": 4
+          },
+          {
+            "fileType": 0,
+            "size": "16387423",
+            "versionCode": 4
+          }
+        ],
+        "installationSize": "25163165",
+        "numDownloads": "500+ downloads",
+        "packageName": "ba.softlab.cardguard",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.MODIFY_AUDIO_SETTINGS",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.SYSTEM_ALERT_WINDOW",
+          "android.permission.WAKE_LOCK",
+          "ba.softlab.cardguard.permission.C2D_MESSAGE",
+          "com.google.android.c2dm.permission.RECEIVE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "host.exp.exponent.permission.C2D_MESSAGE"
+        ],
+        "recentChangesHtml": "Minor changes, new design coloring scheme",
+        "unstable": true,
+        "uploadDate": "Dec. 26, 2019",
+        "versionCode": 4,
+        "versionString": "2.0.2"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=ba.softlab.cardguard",
+    "docType": 1,
+    "docid": "ba.softlab.cardguard",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://lh3.googleusercontent.com/_FVOuXBDkIbz69_qSFPi-6nD3KeqRt85rfoZfBPJ8bowhqD4hTTFYL2KYztDyVnYQl9a",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://lh3.googleusercontent.com/o8VcUpUQpBQ5DT-Zmppwf0cUT0OTZfYpZ6xmLMiicv2PwqefMWZQQtrEVmaqWSnchA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2160,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/zrnGAT6DoK5DNxfRvsZMEU-kJEEs44OD1yN2sj_7MYa5pgC37q5PpDp7KezvvdoiK_4",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/RTzLRIP9aD6SDICFgG38Xo3I7gHX4A2N-z0MliazIhWviIQWI0F-2fkyYDD33F0oug",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/zZNb1oiqS2naF8-JYj_BvQ3NzOPNv-rOx3RV8ioBlTsmc-eJSKowvTrCklzPypmL4Q",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/-yBmttybdVVNnXroE2U0b99Rct05n69ccI5w4lTo8A11MBRPxK6hIcJziE8a_YgNYVM",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/jK1OdVCo3KWv3TciRgSGF8nXlUI2FFOLFHxNpyrzvh5i9g15CIlHlScUoreQlac8VX4",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/c-LrdLhEJy5Q-dm9vRNu_Tz3fCVA7_1LoVnre68mLXiNbzpH7U5XJI7wrQHSuvIrt3I",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://www.iubenda.com/privacy-policy/91864572",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://lh3.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=ba.softlab.cardguard",
+    "reviewsUrl": "rev?doc=ba.softlab.cardguard&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=ba.softlab.cardguard",
+    "title": "Card Guard\u00ae",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Bamcard d.d."
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "jesenko.majusevic@bamcard.ba"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Mar. 4, 2019"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "21",
+      "fiveStarRatings": "41",
+      "fourStarRatings": "2",
+      "oneStarRatings": "19",
+      "ratingsCount": "64",
+      "starRating": 3.6875,
+      "threeStarRatings": "0",
+      "twoStarRatings": "2",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-04-11 00:15:19.672893",
+    "backendDocid": "ba.softlab.cardguard",
+    "backendId": 3,
+    "creator": "Bamcard d.d.",
+    "descriptionHtml": "Sa mobilnom aplikacijom Card Guard, korisnik ima kontrolu nad svim aspektima svojih platnih kartica. Card Guard daje mogu\u0107nost vlasniku kartice da upravlja debitnim, prepaid i kreditnim karticama iz aplikacije na svom pametnom telefonu. Tako\u0111er, dozvoljava vlasniku kartice da zaprima kontrolne postavke u realnom vremenu i da reaguje na poku\u0161aje zloupotrebe.<br><br>Pregled funkcionalnosti<br><br>\u2022\tPrebacuje kartice u On/Off mode sa jednim dodirom na smartphone-u;<br><br>\u2022\tUpravlja postavkama da prilagodi tipove transakcija, kategorije trgovaca i limite potro\u0161nje, da bi se prilagodio profil kori\u0161tenja;<br><br>\u2022\tTransakcijski alerti slu\u017ee za bolju vidljivost i promptnu akciju;<br><br>\u2022\tKontrole na bazi lokacije \u2013 Geo fencing: Vlasnici kartica mogu definisati geografsko podru\u010dje na kojem je kartica aktivna. Ako se kartica koristi izvan ovog podru\u010dja, kartica \u0107e biti blokirana i alert \u0107e biti poslan;<br><br>\u2022\tUpravljanje limitima potro\u0161nje: Omogu\u0107ava vlasnicima kartica da postave prag potro\u0161nje za svoje kartice kao i za zavisne kartice (dodatne kartice);<br><br>\u2022\tOmogu\u0107i i onemogu\u0107i specifi\u010dne tipove platnih kanala kao \u0161to su in-store, e-Commerce, ATM, gambling itd.",
+    "descriptionShort": "Za\u0161titite va\u0161e kartice i va\u0161 novac",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown2": "30562968",
+          "unknown3": 31
+        },
+        "developerEmail": "jesenko.majusevic@bamcard.ba",
+        "developerName": "Bamcard d.d.",
+        "developerWebsite": "http://www.bamcard.ba",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "10465711",
+            "versionCode": 5
+          },
+          {
+            "fileType": 0,
+            "size": "791351",
+            "versionCode": 5
+          },
+          {
+            "fileType": 0,
+            "size": "20889",
+            "versionCode": 5
+          },
+          {
+            "fileType": 0,
+            "size": "37273",
+            "versionCode": 5
+          },
+          {
+            "fileType": 0,
+            "size": "19247744",
+            "versionCode": 5
+          }
+        ],
+        "installationSize": "30562968",
+        "numDownloads": "5,000+ downloads",
+        "packageName": "ba.softlab.cardguard",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.SYSTEM_ALERT_WINDOW",
+          "android.permission.VIBRATE",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+        ],
+        "recentChangesHtml": "Support for newer devices.",
+        "unstable": true,
+        "uploadDate": "5 Apr 2023",
+        "versionCode": 5,
+        "versionString": "2.0.3"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=ba.softlab.cardguard",
+    "docType": 1,
+    "docid": "ba.softlab.cardguard",
+    "image": [
+      {
+        "color": "#3D854B",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/_FVOuXBDkIbz69_qSFPi-6nD3KeqRt85rfoZfBPJ8bowhqD4hTTFYL2KYztDyVnYQl9a",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/o8VcUpUQpBQ5DT-Zmppwf0cUT0OTZfYpZ6xmLMiicv2PwqefMWZQQtrEVmaqWSnchA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2160,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/zrnGAT6DoK5DNxfRvsZMEU-kJEEs44OD1yN2sj_7MYa5pgC37q5PpDp7KezvvdoiK_4",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/RTzLRIP9aD6SDICFgG38Xo3I7gHX4A2N-z0MliazIhWviIQWI0F-2fkyYDD33F0oug",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/zZNb1oiqS2naF8-JYj_BvQ3NzOPNv-rOx3RV8ioBlTsmc-eJSKowvTrCklzPypmL4Q",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/-yBmttybdVVNnXroE2U0b99Rct05n69ccI5w4lTo8A11MBRPxK6hIcJziE8a_YgNYVM",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/jK1OdVCo3KWv3TciRgSGF8nXlUI2FFOLFHxNpyrzvh5i9g15CIlHlScUoreQlac8VX4",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/c-LrdLhEJy5Q-dm9vRNu_Tz3fCVA7_1LoVnre68mLXiNbzpH7U5XJI7wrQHSuvIrt3I",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://www.iubenda.com/privacy-policy/91864572",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=ba.softlab.cardguard",
+    "reviewsUrl": "rev?doc=ba.softlab.cardguard&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=ba.softlab.cardguard",
+    "title": "Card Guard\u00ae",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "jesenko.majusevic@bamcard.ba"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "4 Mar 2019"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "22",
+      "fiveStarRatings": "42",
+      "fourStarRatings": "4",
+      "oneStarRatings": "22",
+      "ratingsCount": "71",
+      "starRating": 3.5915494,
+      "threeStarRatings": "1",
+      "twoStarRatings": "2",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2025-02-26 10:16:08.435311",
+    "backendDocid": "ba.softlab.cardguard",
+    "backendId": 3,
+    "creator": "Bamcard d.d.",
+    "descriptionHtml": "Sa mobilnom aplikacijom Card Guard, korisnik ima kontrolu nad svim aspektima svojih platnih kartica. Card Guard daje mogu\u0107nost vlasniku kartice da upravlja debitnim, prepaid i kreditnim karticama iz aplikacije na svom pametnom telefonu. Tako\u0111er, dozvoljava vlasniku kartice da zaprima kontrolne postavke u realnom vremenu i da reaguje na poku\u0161aje zloupotrebe.<br><br>Pregled funkcionalnosti<br><br>\u2022\tPrebacuje kartice u On/Off mode sa jednim dodirom na smartphone-u;<br><br>\u2022\tUpravlja postavkama da prilagodi tipove transakcija, kategorije trgovaca i limite potro\u0161nje, da bi se prilagodio profil kori\u0161tenja;<br><br>\u2022\tTransakcijski alerti slu\u017ee za bolju vidljivost i promptnu akciju;<br><br>\u2022\tKontrole na bazi lokacije \u2013 Geo fencing: Vlasnici kartica mogu definisati geografsko podru\u010dje na kojem je kartica aktivna. Ako se kartica koristi izvan ovog podru\u010dja, kartica \u0107e biti blokirana i alert \u0107e biti poslan;<br><br>\u2022\tUpravljanje limitima potro\u0161nje: Omogu\u0107ava vlasnicima kartica da postave prag potro\u0161nje za svoje kartice kao i za zavisne kartice (dodatne kartice);<br><br>\u2022\tOmogu\u0107i i onemogu\u0107i specifi\u010dne tipove platnih kanala kao \u0161to su in-store, e-Commerce, ATM, gambling itd.",
+    "descriptionShort": "Za\u0161titite va\u0161e kartice i va\u0161 novac",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown2": "28651487",
+          "unknown3": 34
+        },
+        "developerEmail": "jesenko.majusevic@bamcard.ba",
+        "developerName": "Bamcard d.d.",
+        "developerWebsite": "http://www.bamcard.ba",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "12494081",
+            "versionCode": 7
+          },
+          {
+            "fileType": 0,
+            "size": "795809",
+            "versionCode": 7
+          },
+          {
+            "fileType": 0,
+            "size": "29081",
+            "versionCode": 7
+          },
+          {
+            "fileType": 0,
+            "size": "33177",
+            "versionCode": 7
+          },
+          {
+            "fileType": 0,
+            "size": "45465",
+            "versionCode": 7
+          },
+          {
+            "fileType": 0,
+            "size": "33177",
+            "versionCode": 7
+          },
+          {
+            "fileType": 0,
+            "size": "15220697",
+            "versionCode": 7
+          }
+        ],
+        "installationSize": "28651487",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "ba.softlab.cardguard",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.SYSTEM_ALERT_WINDOW",
+          "android.permission.VIBRATE",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "ba.softlab.cardguard.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        ],
+        "unstable": true,
+        "uploadDate": "5 Nov 2024",
+        "versionCode": 7,
+        "versionString": "2.0.5"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=ba.softlab.cardguard&vc=7",
+    "docType": 1,
+    "docid": "ba.softlab.cardguard",
+    "image": [
+      {
+        "color": "#3D854B",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/_FVOuXBDkIbz69_qSFPi-6nD3KeqRt85rfoZfBPJ8bowhqD4hTTFYL2KYztDyVnYQl9a",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/o8VcUpUQpBQ5DT-Zmppwf0cUT0OTZfYpZ6xmLMiicv2PwqefMWZQQtrEVmaqWSnchA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 2160,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/zrnGAT6DoK5DNxfRvsZMEU-kJEEs44OD1yN2sj_7MYa5pgC37q5PpDp7KezvvdoiK_4",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/RTzLRIP9aD6SDICFgG38Xo3I7gHX4A2N-z0MliazIhWviIQWI0F-2fkyYDD33F0oug",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/zZNb1oiqS2naF8-JYj_BvQ3NzOPNv-rOx3RV8ioBlTsmc-eJSKowvTrCklzPypmL4Q",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/-yBmttybdVVNnXroE2U0b99Rct05n69ccI5w4lTo8A11MBRPxK6hIcJziE8a_YgNYVM",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/jK1OdVCo3KWv3TciRgSGF8nXlUI2FFOLFHxNpyrzvh5i9g15CIlHlScUoreQlac8VX4",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/c-LrdLhEJy5Q-dm9vRNu_Tz3fCVA7_1LoVnre68mLXiNbzpH7U5XJI7wrQHSuvIrt3I",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://www.iubenda.com/privacy-policy/91864572",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=ba.softlab.cardguard",
+    "reviewsUrl": "rev?doc=ba.softlab.cardguard&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=ba.softlab.cardguard",
+    "title": "Card Guard\u00ae\n2.0.5",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "jesenko.majusevic@bamcard.ba"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "4 Mar 2019"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  }
+]

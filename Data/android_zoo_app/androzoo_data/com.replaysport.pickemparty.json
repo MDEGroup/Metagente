@@ -1,0 +1,1967 @@
+[
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-09-10 01:59:45.708639",
+    "backendDocid": "com.replaysport.pickemparty",
+    "backendId": 3,
+    "creator": "ReplaySports",
+    "descriptionHtml": "Survivor pools (also known as Suicide, Eliminator, Knockout, Last Man Standing, or King of the Hill pools) are becoming more popular every year. Although players only pick one team per week, the work involved with running a Survivor pool manually can quickly become a burden (especially as a pool begins to grow very large). Run your Survivor football pool with us and see how easy it can be; and by that we mean automated for everyone including the Pool Admin/Commissioner too! <br><br>Here are the rules for Survivor pools:<br> - Each pool member chooses one team each week.<br> - Picks are made &quot;straight up&quot;, not using a point spread system.<br> - If their pick is correct, they survive until the next week.<br> - An incorrect pick eliminates the player from the pool for the remainder of the season.<br> - The goal is to be the the last member standing at the end of the season. <br><br>Running your Survivor Pool has never been so easy:<br> - No more collecting picks from your members. Members make their picks directly in the app real time.<br> - No more error-ridden or illegible pick sheets.<br> - No more tabulating strikes and who has been eliminated. Pool standings are automatically updated.<br> - No more determining the game scores/outcomes, Winners and losers are automatically updated.<br> - No more need to distribute standings. Members simply login to the site to see updates.<br><br>Next, our Pick&#39;em pool format is arguably our most traditional football pool. Even though this format is basic, it can still be very difficult for someone running the football pool to keep up with gathering the picks and calculating standings manually. That is where we come in.<br><br>How does our Pick&#39;em Pool format work:<br> - Each pool member picks winning games each week.<br> - &#39;Monday Night Football&#39; tiebreaker of total combined points.<br> - For each correct pick during the regular season, members receive one point.<br> - Standings are calculated for the week and for the season.<br><br>We remove the grunt work and mistakes from your Pick&#39;em Pool:<br> - Automated pick collections. You no longer have your members send you their picks. <br> - Error-free pick sheet. We make it impossible for your members to make technical errors when submitting picks.<br>- Automatic updating. Pool standings are automatically updated in real-time.<br>- No more need to distribute standings. Members simply login to the app to see updates.",
+    "descriptionShort": "Run/host both your Survivor and/or Pick'em football pools",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "5941206",
+          "unknown3": 31
+        },
+        "developerAddress": "1207 N Wood Ave<br/>Linden, NJ, 07036",
+        "developerEmail": "sguerrera@gmail.com",
+        "developerName": "ReplaySports",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "5787623",
+            "versionCode": 20
+          },
+          {
+            "fileType": 0,
+            "size": "70845",
+            "versionCode": 20
+          },
+          {
+            "fileType": 0,
+            "size": "37273",
+            "versionCode": 20
+          },
+          {
+            "fileType": 0,
+            "size": "45465",
+            "versionCode": 20
+          }
+        ],
+        "hasInstantLink": true,
+        "installationSize": "5941206",
+        "numDownloads": "10+ downloads",
+        "packageName": "com.replaysport.pickemparty",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_CONTACTS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_PROFILE",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "com.android.vending.BILLING",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": "Fix Profile view",
+        "unstable": true,
+        "uploadDate": "6 Sept 2022",
+        "versionCode": 20,
+        "versionString": "2.2"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.replaysport.pickemparty",
+    "docType": 1,
+    "docid": "com.replaysport.pickemparty",
+    "image": [
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/f6W90fkEpIyAoois8ll91EohL25Pg9Ih0BlIOdksElIWUYzvHKXbcAcFlCKWFCZl0w",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/dSOet_oqZ47kCjdNpDx4slb-NBJDwa9Zj_MkpSicIF7aMGiRnmbRLDAsBrscIjzhM9A",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3040,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ZF2pFdB-EINbyrP_NvC8pzmjEKaBN80SbkfAF6IGd3G2TeLfhKqItC9L2vGdoVLz__U",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3040,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/DOS9p2fwqA8i6SrtHAtkqw26ENqHcdIsC-1jlultXdhRuPLT87ObeBtA1dMV0iqh85a3",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://sportsbet.io/about/privacy-policy",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.replaysport.pickemparty",
+    "reviewsUrl": "rev?doc=com.replaysport.pickemparty&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.replaysport.pickemparty",
+    "title": "Pick'em Party",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "$0.99 \u2013 $6.99 per item"
+          },
+          "label": "In-app purchases"
+        },
+        {
+          "container": {
+            "value": "ReplaySports"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "sguerrera@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "1207 N Wood Ave<br/>Linden, NJ, 07036"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "28 Aug 2022"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-10-05 13:50:14.570848",
+    "backendDocid": "com.replaysport.pickemparty",
+    "backendId": 3,
+    "creator": "ReplaySports",
+    "descriptionHtml": "Survivor pools (also known as Suicide, Eliminator, Knockout, Last Man Standing, or King of the Hill pools) are becoming more popular every year. Although players only pick one team per week, the work involved with running a Survivor pool manually can quickly become a burden (especially as a pool begins to grow very large). Run your Survivor football pool with us and see how easy it can be; and by that we mean automated for everyone including the Pool Admin/Commissioner too! <br><br>Here are the rules for Survivor pools:<br> - Each pool member chooses one team each week.<br> - Picks are made &quot;straight up&quot;, not using a point spread system.<br> - If their pick is correct, they survive until the next week.<br> - An incorrect pick eliminates the player from the pool for the remainder of the season.<br> - The goal is to be the the last member standing at the end of the season. <br><br>Running your Survivor Pool has never been so easy:<br> - No more collecting picks from your members. Members make their picks directly in the app real time.<br> - No more error-ridden or illegible pick sheets.<br> - No more tabulating strikes and who has been eliminated. Pool standings are automatically updated.<br> - No more determining the game scores/outcomes, Winners and losers are automatically updated.<br> - No more need to distribute standings. Members simply login to the site to see updates.<br><br>Next, our Pick&#39;em pool format is arguably our most traditional football pool. Even though this format is basic, it can still be very difficult for someone running the football pool to keep up with gathering the picks and calculating standings manually. That is where we come in.<br><br>How does our Pick&#39;em Pool format work:<br> - Each pool member picks winning games each week.<br> - &#39;Monday Night Football&#39; tiebreaker of total combined points.<br> - For each correct pick during the regular season, members receive one point.<br> - Standings are calculated for the week and for the season.<br><br>We remove the grunt work and mistakes from your Pick&#39;em Pool:<br> - Automated pick collections. You no longer have your members send you their picks. <br> - Error-free pick sheet. We make it impossible for your members to make technical errors when submitting picks.<br>- Automatic updating. Pool standings are automatically updated in real-time.<br>- No more need to distribute standings. Members simply login to the app to see updates.",
+    "descriptionShort": "Run/host both your Survivor and/or Pick'em football pools",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "3651741",
+          "unknown3": 32
+        },
+        "developerAddress": "1207 N Wood Ave<br/>Linden, NJ, 07036",
+        "developerEmail": "sguerrera@gmail.com",
+        "developerName": "ReplaySports",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "3502254",
+            "versionCode": 22
+          },
+          {
+            "fileType": 0,
+            "size": "66749",
+            "versionCode": 22
+          },
+          {
+            "fileType": 0,
+            "size": "37273",
+            "versionCode": 22
+          },
+          {
+            "fileType": 0,
+            "size": "45465",
+            "versionCode": 22
+          }
+        ],
+        "hasInstantLink": true,
+        "installationSize": "3651741",
+        "numDownloads": "10+ downloads",
+        "packageName": "com.replaysport.pickemparty",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_CONTACTS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_PROFILE",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "com.android.vending.BILLING",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": "Providing more features for the Pick&#39;em Pool type.",
+        "unstable": true,
+        "uploadDate": "26 Sept 2022",
+        "versionCode": 22,
+        "versionString": "2.2"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.replaysport.pickemparty",
+    "docType": 1,
+    "docid": "com.replaysport.pickemparty",
+    "image": [
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/f6W90fkEpIyAoois8ll91EohL25Pg9Ih0BlIOdksElIWUYzvHKXbcAcFlCKWFCZl0w",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/dSOet_oqZ47kCjdNpDx4slb-NBJDwa9Zj_MkpSicIF7aMGiRnmbRLDAsBrscIjzhM9A",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3040,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ZF2pFdB-EINbyrP_NvC8pzmjEKaBN80SbkfAF6IGd3G2TeLfhKqItC9L2vGdoVLz__U",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3040,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/DOS9p2fwqA8i6SrtHAtkqw26ENqHcdIsC-1jlultXdhRuPLT87ObeBtA1dMV0iqh85a3",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://sportsbet.io/about/privacy-policy",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.replaysport.pickemparty",
+    "reviewsUrl": "rev?doc=com.replaysport.pickemparty&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.replaysport.pickemparty",
+    "title": "Pick'em Party",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "$0.99 \u2013 $6.99 per item"
+          },
+          "label": "In-app purchases"
+        },
+        {
+          "container": {
+            "value": "ReplaySports"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "sguerrera@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "1207 N Wood Ave<br/>Linden, NJ, 07036"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "28 Aug 2022"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-10-16 15:09:21.806923",
+    "backendDocid": "com.replaysport.pickemparty",
+    "backendId": 3,
+    "creator": "ReplaySports",
+    "descriptionHtml": "Survivor pools (also known as Suicide, Eliminator, Knockout, Last Man Standing, or King of the Hill pools) are becoming more popular every year. Although players only pick one team per week, the work involved with running a Survivor pool manually can quickly become a burden (especially as a pool begins to grow very large). Run your Survivor football pool with us and see how easy it can be; and by that we mean automated for everyone including the Pool Admin/Commissioner too! <br><br>Here are the rules for Survivor pools:<br> - Each pool member chooses one team each week.<br> - Picks are made &quot;straight up&quot;, not using a point spread system.<br> - If their pick is correct, they survive until the next week.<br> - An incorrect pick eliminates the player from the pool for the remainder of the season.<br> - The goal is to be the the last member standing at the end of the season. <br><br>Running your Survivor Pool has never been so easy:<br> - No more collecting picks from your members. Members make their picks directly in the app real time.<br> - No more error-ridden or illegible pick sheets.<br> - No more tabulating strikes and who has been eliminated. Pool standings are automatically updated.<br> - No more determining the game scores/outcomes, Winners and losers are automatically updated.<br> - No more need to distribute standings. Members simply login to the site to see updates.<br><br>Next, our Pick&#39;em pool format is arguably our most traditional football pool. Even though this format is basic, it can still be very difficult for someone running the football pool to keep up with gathering the picks and calculating standings manually. That is where we come in.<br><br>How does our Pick&#39;em Pool format work:<br> - Each pool member picks winning games each week.<br> - &#39;Monday Night Football&#39; tiebreaker of total combined points.<br> - For each correct pick during the regular season, members receive one point.<br> - Standings are calculated for the week and for the season.<br><br>We remove the grunt work and mistakes from your Pick&#39;em Pool:<br> - Automated pick collections. You no longer have your members send you their picks. <br> - Error-free pick sheet. We make it impossible for your members to make technical errors when submitting picks.<br>- Automatic updating. Pool standings are automatically updated in real-time.<br>- No more need to distribute standings. Members simply login to the app to see updates.",
+    "descriptionShort": "Run/host both your Survivor and/or Pick'em football pools",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "3751660",
+          "unknown3": 32
+        },
+        "developerAddress": "1207 N Wood Ave<br/>Linden, NJ, 07036",
+        "developerEmail": "sguerrera@gmail.com",
+        "developerName": "ReplaySports",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "3539915",
+            "versionCode": 23
+          },
+          {
+            "fileType": 0,
+            "size": "66749",
+            "versionCode": 23
+          },
+          {
+            "fileType": 0,
+            "size": "29081",
+            "versionCode": 23
+          },
+          {
+            "fileType": 0,
+            "size": "33177",
+            "versionCode": 23
+          },
+          {
+            "fileType": 0,
+            "size": "45465",
+            "versionCode": 23
+          },
+          {
+            "fileType": 0,
+            "size": "37273",
+            "versionCode": 23
+          }
+        ],
+        "hasInstantLink": true,
+        "installationSize": "3751660",
+        "numDownloads": "10+ downloads",
+        "packageName": "com.replaysport.pickemparty",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_CONTACTS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_PROFILE",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "com.android.vending.BILLING",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": "Continued app refinement for both performance and stability. ",
+        "unstable": true,
+        "uploadDate": "13 Oct 2022",
+        "versionCode": 23,
+        "versionString": "2.2"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.replaysport.pickemparty",
+    "docType": 1,
+    "docid": "com.replaysport.pickemparty",
+    "image": [
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/f6W90fkEpIyAoois8ll91EohL25Pg9Ih0BlIOdksElIWUYzvHKXbcAcFlCKWFCZl0w",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/dSOet_oqZ47kCjdNpDx4slb-NBJDwa9Zj_MkpSicIF7aMGiRnmbRLDAsBrscIjzhM9A",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3040,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ZF2pFdB-EINbyrP_NvC8pzmjEKaBN80SbkfAF6IGd3G2TeLfhKqItC9L2vGdoVLz__U",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3040,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/DOS9p2fwqA8i6SrtHAtkqw26ENqHcdIsC-1jlultXdhRuPLT87ObeBtA1dMV0iqh85a3",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://sportsbet.io/about/privacy-policy",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.replaysport.pickemparty",
+    "reviewsUrl": "rev?doc=com.replaysport.pickemparty&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.replaysport.pickemparty",
+    "title": "Pick'em Party",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "\u20ac0.99 \u2013 \u20ac7.99 per item"
+          },
+          "label": "In-app purchases"
+        },
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "sguerrera@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "1207 N Wood Ave<br/>Linden, NJ, 07036"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "28 Aug 2022"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-10-21 15:12:27.858332",
+    "backendDocid": "com.replaysport.pickemparty",
+    "backendId": 3,
+    "creator": "ReplaySports",
+    "descriptionHtml": "Survivor pools (also known as Suicide, Eliminator, Knockout, Last Man Standing, or King of the Hill pools) are becoming more popular every year. Although players only pick one team per week, the work involved with running a Survivor pool manually can quickly become a burden (especially as a pool begins to grow very large). Run your Survivor football pool with us and see how easy it can be; and by that we mean automated for everyone including the Pool Admin/Commissioner too! <br><br>Here are the rules for Survivor pools:<br> - Each pool member chooses one team each week.<br> - Picks are made &quot;straight up&quot;, not using a point spread system.<br> - If their pick is correct, they survive until the next week.<br> - An incorrect pick eliminates the player from the pool for the remainder of the season.<br> - The goal is to be the the last member standing at the end of the season. <br><br>Running your Survivor Pool has never been so easy:<br> - No more collecting picks from your members. Members make their picks directly in the app real time.<br> - No more error-ridden or illegible pick sheets.<br> - No more tabulating strikes and who has been eliminated. Pool standings are automatically updated.<br> - No more determining the game scores/outcomes, Winners and losers are automatically updated.<br> - No more need to distribute standings. Members simply login to the site to see updates.<br><br>Next, our Pick&#39;em pool format is arguably our most traditional football pool. Even though this format is basic, it can still be very difficult for someone running the football pool to keep up with gathering the picks and calculating standings manually. That is where we come in.<br><br>How does our Pick&#39;em Pool format work:<br> - Each pool member picks winning games each week.<br> - &#39;Monday Night Football&#39; tiebreaker of total combined points.<br> - For each correct pick during the regular season, members receive one point.<br> - Standings are calculated for the week and for the season.<br><br>We remove the grunt work and mistakes from your Pick&#39;em Pool:<br> - Automated pick collections. You no longer have your members send you their picks. <br> - Error-free pick sheet. We make it impossible for your members to make technical errors when submitting picks.<br>- Automatic updating. Pool standings are automatically updated in real-time.<br>- No more need to distribute standings. Members simply login to the app to see updates.",
+    "descriptionShort": "Run/host both your Survivor and/or Pick'em football pools",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "10169621",
+          "unknown3": 32
+        },
+        "developerAddress": "1207 N Wood Ave<br/>Linden, NJ, 07036",
+        "developerEmail": "sguerrera@gmail.com",
+        "developerName": "ReplaySports",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "10020134",
+            "versionCode": 25
+          },
+          {
+            "fileType": 0,
+            "size": "70845",
+            "versionCode": 25
+          },
+          {
+            "fileType": 0,
+            "size": "33177",
+            "versionCode": 25
+          },
+          {
+            "fileType": 0,
+            "size": "45465",
+            "versionCode": 25
+          }
+        ],
+        "hasInstantLink": true,
+        "installationSize": "10169621",
+        "numDownloads": "10+ downloads",
+        "packageName": "com.replaysport.pickemparty",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_CONTACTS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_PROFILE",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "com.android.vending.BILLING",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": "Addressed issue with the potential crash of the Pick&#39;em and/or Survivor Pool Team Pick Sheet view.",
+        "unstable": true,
+        "uploadDate": "18 Oct 2022",
+        "versionCode": 25,
+        "versionString": "2.2"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.replaysport.pickemparty",
+    "docType": 1,
+    "docid": "com.replaysport.pickemparty",
+    "image": [
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/f6W90fkEpIyAoois8ll91EohL25Pg9Ih0BlIOdksElIWUYzvHKXbcAcFlCKWFCZl0w",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/dSOet_oqZ47kCjdNpDx4slb-NBJDwa9Zj_MkpSicIF7aMGiRnmbRLDAsBrscIjzhM9A",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3040,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ZF2pFdB-EINbyrP_NvC8pzmjEKaBN80SbkfAF6IGd3G2TeLfhKqItC9L2vGdoVLz__U",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3040,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/DOS9p2fwqA8i6SrtHAtkqw26ENqHcdIsC-1jlultXdhRuPLT87ObeBtA1dMV0iqh85a3",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://sportsbet.io/about/privacy-policy",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.replaysport.pickemparty",
+    "reviewsUrl": "rev?doc=com.replaysport.pickemparty&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.replaysport.pickemparty",
+    "title": "Pick'em Party",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "\u20ac0.99 \u2013 \u20ac7.99 per item"
+          },
+          "label": "In-app purchases"
+        },
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "sguerrera@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "1207 N Wood Ave<br/>Linden, NJ, 07036"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "28 Aug 2022"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-10-25 12:19:43.637201",
+    "backendDocid": "com.replaysport.pickemparty",
+    "backendId": 3,
+    "creator": "ReplaySports",
+    "descriptionHtml": "Survivor pools (also known as Suicide, Eliminator, Knockout, Last Man Standing, or King of the Hill pools) are becoming more popular every year. Although players only pick one team per week, the work involved with running a Survivor pool manually can quickly become a burden (especially as a pool begins to grow very large). Run your Survivor football pool with us and see how easy it can be; and by that we mean automated for everyone including the Pool Admin/Commissioner too! <br><br>Here are the rules for Survivor pools:<br> - Each pool member chooses one team each week.<br> - Picks are made &quot;straight up&quot;, not using a point spread system.<br> - If their pick is correct, they survive until the next week.<br> - An incorrect pick eliminates the player from the pool for the remainder of the season.<br> - The goal is to be the the last member standing at the end of the season. <br><br>Running your Survivor Pool has never been so easy:<br> - No more collecting picks from your members. Members make their picks directly in the app real time.<br> - No more error-ridden or illegible pick sheets.<br> - No more tabulating strikes and who has been eliminated. Pool standings are automatically updated.<br> - No more determining the game scores/outcomes, Winners and losers are automatically updated.<br> - No more need to distribute standings. Members simply login to the site to see updates.<br><br>Next, our Pick&#39;em pool format is arguably our most traditional football pool. Even though this format is basic, it can still be very difficult for someone running the football pool to keep up with gathering the picks and calculating standings manually. That is where we come in.<br><br>How does our Pick&#39;em Pool format work:<br> - Each pool member picks winning games each week.<br> - &#39;Monday Night Football&#39; tiebreaker of total combined points.<br> - For each correct pick during the regular season, members receive one point.<br> - Standings are calculated for the week and for the season.<br><br>We remove the grunt work and mistakes from your Pick&#39;em Pool:<br> - Automated pick collections. You no longer have your members send you their picks. <br> - Error-free pick sheet. We make it impossible for your members to make technical errors when submitting picks.<br>- Automatic updating. Pool standings are automatically updated in real-time.<br>- No more need to distribute standings. Members simply login to the app to see updates.",
+    "descriptionShort": "Run/host both your Survivor and/or Pick'em football pools",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "10235975",
+          "unknown3": 32
+        },
+        "developerAddress": "1207 N Wood Ave<br/>Linden, NJ, 07036",
+        "developerEmail": "sguerrera@gmail.com",
+        "developerName": "ReplaySports",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "10020134",
+            "versionCode": 28
+          },
+          {
+            "fileType": 0,
+            "size": "70845",
+            "versionCode": 28
+          },
+          {
+            "fileType": 0,
+            "size": "29081",
+            "versionCode": 28
+          },
+          {
+            "fileType": 0,
+            "size": "33177",
+            "versionCode": 28
+          },
+          {
+            "fileType": 0,
+            "size": "45465",
+            "versionCode": 28
+          },
+          {
+            "fileType": 0,
+            "size": "37273",
+            "versionCode": 28
+          }
+        ],
+        "hasInstantLink": true,
+        "installationSize": "10235975",
+        "numDownloads": "10+ downloads",
+        "packageName": "com.replaysport.pickemparty",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_CONTACTS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_PROFILE",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "com.android.vending.BILLING",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": "Fixed error with Pickem Pool Over All Results page.",
+        "unstable": true,
+        "uploadDate": "24 Oct 2022",
+        "versionCode": 28,
+        "versionString": "2.2"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.replaysport.pickemparty",
+    "docType": 1,
+    "docid": "com.replaysport.pickemparty",
+    "image": [
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/f6W90fkEpIyAoois8ll91EohL25Pg9Ih0BlIOdksElIWUYzvHKXbcAcFlCKWFCZl0w",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/dSOet_oqZ47kCjdNpDx4slb-NBJDwa9Zj_MkpSicIF7aMGiRnmbRLDAsBrscIjzhM9A",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3040,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ZF2pFdB-EINbyrP_NvC8pzmjEKaBN80SbkfAF6IGd3G2TeLfhKqItC9L2vGdoVLz__U",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3040,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/DOS9p2fwqA8i6SrtHAtkqw26ENqHcdIsC-1jlultXdhRuPLT87ObeBtA1dMV0iqh85a3",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://sportsbet.io/about/privacy-policy",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.replaysport.pickemparty",
+    "reviewsUrl": "rev?doc=com.replaysport.pickemparty&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.replaysport.pickemparty",
+    "title": "Pick'em Party",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "\u20ac0.99 \u2013 \u20ac7.99 per item"
+          },
+          "label": "In-app purchases"
+        },
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "sguerrera@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "1207 N Wood Ave<br/>Linden, NJ, 07036"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "28 Aug 2022"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-10-29 22:11:52.786351",
+    "backendDocid": "com.replaysport.pickemparty",
+    "backendId": 3,
+    "creator": "ReplaySports",
+    "descriptionHtml": "Survivor pools (also known as Suicide, Eliminator, Knockout, Last Man Standing, or King of the Hill pools) are becoming more popular every year. Although players only pick one team per week, the work involved with running a Survivor pool manually can quickly become a burden (especially as a pool begins to grow very large). Run your Survivor football pool with us and see how easy it can be; and by that we mean automated for everyone including the Pool Admin/Commissioner too! <br><br>Here are the rules for Survivor pools:<br> - Each pool member chooses one team each week.<br> - Picks are made &quot;straight up&quot;, not using a point spread system.<br> - If their pick is correct, they survive until the next week.<br> - An incorrect pick eliminates the player from the pool for the remainder of the season.<br> - The goal is to be the the last member standing at the end of the season. <br><br>Running your Survivor Pool has never been so easy:<br> - No more collecting picks from your members. Members make their picks directly in the app real time.<br> - No more error-ridden or illegible pick sheets.<br> - No more tabulating strikes and who has been eliminated. Pool standings are automatically updated.<br> - No more determining the game scores/outcomes, Winners and losers are automatically updated.<br> - No more need to distribute standings. Members simply login to the site to see updates.<br><br>Next, our Pick&#39;em pool format is arguably our most traditional football pool. Even though this format is basic, it can still be very difficult for someone running the football pool to keep up with gathering the picks and calculating standings manually. That is where we come in.<br><br>How does our Pick&#39;em Pool format work:<br> - Each pool member picks winning games each week.<br> - &#39;Monday Night Football&#39; tiebreaker of total combined points.<br> - For each correct pick during the regular season, members receive one point.<br> - Standings are calculated for the week and for the season.<br><br>We remove the grunt work and mistakes from your Pick&#39;em Pool:<br> - Automated pick collections. You no longer have your members send you their picks. <br> - Error-free pick sheet. We make it impossible for your members to make technical errors when submitting picks.<br>- Automatic updating. Pool standings are automatically updated in real-time.<br>- No more need to distribute standings. Members simply login to the app to see updates.",
+    "descriptionShort": "Run/host both your Survivor and/or Pick'em football pools",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "10169621",
+          "unknown3": 32
+        },
+        "developerAddress": "1207 N Wood Ave<br/>Linden, NJ, 07036",
+        "developerEmail": "sguerrera@gmail.com",
+        "developerName": "ReplaySports",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "10020134",
+            "versionCode": 29
+          },
+          {
+            "fileType": 0,
+            "size": "70845",
+            "versionCode": 29
+          },
+          {
+            "fileType": 0,
+            "size": "33177",
+            "versionCode": 29
+          },
+          {
+            "fileType": 0,
+            "size": "45465",
+            "versionCode": 29
+          }
+        ],
+        "hasInstantLink": true,
+        "installationSize": "10169621",
+        "numDownloads": "50+ downloads",
+        "packageName": "com.replaysport.pickemparty",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_CONTACTS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_PROFILE",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "com.android.vending.BILLING",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": "Address potential issue with viewing pool survivor picks.",
+        "unstable": true,
+        "uploadDate": "28 Oct 2022",
+        "versionCode": 29,
+        "versionString": "2.2"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.replaysport.pickemparty",
+    "docType": 1,
+    "docid": "com.replaysport.pickemparty",
+    "image": [
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/f6W90fkEpIyAoois8ll91EohL25Pg9Ih0BlIOdksElIWUYzvHKXbcAcFlCKWFCZl0w",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/dSOet_oqZ47kCjdNpDx4slb-NBJDwa9Zj_MkpSicIF7aMGiRnmbRLDAsBrscIjzhM9A",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3040,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ZF2pFdB-EINbyrP_NvC8pzmjEKaBN80SbkfAF6IGd3G2TeLfhKqItC9L2vGdoVLz__U",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3040,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/DOS9p2fwqA8i6SrtHAtkqw26ENqHcdIsC-1jlultXdhRuPLT87ObeBtA1dMV0iqh85a3",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://sportsbet.io/about/privacy-policy",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.replaysport.pickemparty",
+    "reviewsUrl": "rev?doc=com.replaysport.pickemparty&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.replaysport.pickemparty",
+    "title": "Pick'em Party",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "\u20ac0.99 \u2013 \u20ac7.99 per item"
+          },
+          "label": "In-app purchases"
+        },
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "sguerrera@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "1207 N Wood Ave<br/>Linden, NJ, 07036"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "28 Aug 2022"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-11-15 07:52:25.819771",
+    "backendDocid": "com.replaysport.pickemparty",
+    "backendId": 3,
+    "creator": "ReplaySports",
+    "descriptionHtml": "Survivor pools (also known as Suicide, Eliminator, Knockout, Last Man Standing, or King of the Hill pools) are becoming more popular every year. Although players only pick one team per week, the work involved with running a Survivor pool manually can quickly become a burden (especially as a pool begins to grow very large). Run your Survivor football pool with us and see how easy it can be; and by that we mean automated for everyone including the Pool Admin/Commissioner too! <br><br>Here are the rules for Survivor pools:<br> - Each pool member chooses one team each week.<br> - Picks are made &quot;straight up&quot;, not using a point spread system.<br> - If their pick is correct, they survive until the next week.<br> - An incorrect pick eliminates the player from the pool for the remainder of the season.<br> - The goal is to be the the last member standing at the end of the season. <br><br>Running your Survivor Pool has never been so easy:<br> - No more collecting picks from your members. Members make their picks directly in the app real time.<br> - No more error-ridden or illegible pick sheets.<br> - No more tabulating strikes and who has been eliminated. Pool standings are automatically updated.<br> - No more determining the game scores/outcomes, Winners and losers are automatically updated.<br> - No more need to distribute standings. Members simply login to the site to see updates.<br><br>Next, our Pick&#39;em pool format is arguably our most traditional football pool. Even though this format is basic, it can still be very difficult for someone running the football pool to keep up with gathering the picks and calculating standings manually. That is where we come in.<br><br>How does our Pick&#39;em Pool format work:<br> - Each pool member picks winning games each week.<br> - &#39;Monday Night Football&#39; tiebreaker of total combined points.<br> - For each correct pick during the regular season, members receive one point.<br> - Standings are calculated for the week and for the season.<br><br>We remove the grunt work and mistakes from your Pick&#39;em Pool:<br> - Automated pick collections. You no longer have your members send you their picks. <br> - Error-free pick sheet. We make it impossible for your members to make technical errors when submitting picks.<br>- Automatic updating. Pool standings are automatically updated in real-time.<br>- No more need to distribute standings. Members simply login to the app to see updates.",
+    "descriptionShort": "Run/host both your Survivor and/or Pick'em football pools",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "10278464",
+          "unknown3": 32
+        },
+        "developerAddress": "1207 N Wood Ave<br/>Linden, NJ, 07036",
+        "developerEmail": "sguerrera@gmail.com",
+        "developerName": "ReplaySports",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "10058527",
+            "versionCode": 34
+          },
+          {
+            "fileType": 0,
+            "size": "74941",
+            "versionCode": 34
+          },
+          {
+            "fileType": 0,
+            "size": "29081",
+            "versionCode": 34
+          },
+          {
+            "fileType": 0,
+            "size": "33177",
+            "versionCode": 34
+          },
+          {
+            "fileType": 0,
+            "size": "45465",
+            "versionCode": 34
+          },
+          {
+            "fileType": 0,
+            "size": "37273",
+            "versionCode": 34
+          }
+        ],
+        "hasInstantLink": true,
+        "installationSize": "10278464",
+        "numDownloads": "50+ downloads",
+        "packageName": "com.replaysport.pickemparty",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.INTERNET",
+          "android.permission.READ_CONTACTS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_PROFILE",
+          "android.permission.REORDER_TASKS",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "com.android.vending.BILLING",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": "Performance and Stability issues being resolved.",
+        "unstable": true,
+        "uploadDate": "13 Nov 2022",
+        "versionCode": 34,
+        "versionString": "2.3"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.replaysport.pickemparty",
+    "docType": 1,
+    "docid": "com.replaysport.pickemparty",
+    "image": [
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/f6W90fkEpIyAoois8ll91EohL25Pg9Ih0BlIOdksElIWUYzvHKXbcAcFlCKWFCZl0w",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/dSOet_oqZ47kCjdNpDx4slb-NBJDwa9Zj_MkpSicIF7aMGiRnmbRLDAsBrscIjzhM9A",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3040,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ZF2pFdB-EINbyrP_NvC8pzmjEKaBN80SbkfAF6IGd3G2TeLfhKqItC9L2vGdoVLz__U",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3040,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/DOS9p2fwqA8i6SrtHAtkqw26ENqHcdIsC-1jlultXdhRuPLT87ObeBtA1dMV0iqh85a3",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://sportsbet.io/about/privacy-policy",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.replaysport.pickemparty",
+    "reviewsUrl": "rev?doc=com.replaysport.pickemparty&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.replaysport.pickemparty",
+    "title": "Pick'em Party",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "\u20ac0.99 \u2013 \u20ac7.99 per item"
+          },
+          "label": "In-app purchases"
+        },
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "sguerrera@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "1207 N Wood Ave<br/>Linden, NJ, 07036"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "28 Aug 2022"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-12-11 00:52:04.928531",
+    "backendDocid": "com.replaysport.pickemparty",
+    "backendId": 3,
+    "creator": "ReplaySports",
+    "descriptionHtml": "Survivor pools (also known as Suicide, Eliminator, Knockout, Last Man Standing, or King of the Hill pools) are becoming more popular every year. Although players only pick one team per week, the work involved with running a Survivor pool manually can quickly become a burden (especially as a pool begins to grow very large). Run your Survivor football pool with us and see how easy it can be; and by that we mean automated for everyone including the Pool Admin/Commissioner too! <br><br>Here are the rules for Survivor pools:<br> - Each pool member chooses one team each week.<br> - Picks are made &quot;straight up&quot;, not using a point spread system.<br> - If their pick is correct, they survive until the next week.<br> - An incorrect pick eliminates the player from the pool for the remainder of the season.<br> - The goal is to be the the last member standing at the end of the season. <br><br>Running your Survivor Pool has never been so easy:<br> - No more collecting picks from your members. Members make their picks directly in the app real time.<br> - No more error-ridden or illegible pick sheets.<br> - No more tabulating strikes and who has been eliminated. Pool standings are automatically updated.<br> - No more determining the game scores/outcomes, Winners and losers are automatically updated.<br> - No more need to distribute standings. Members simply login to the site to see updates.<br><br>Next, our Pick&#39;em pool format is arguably our most traditional football pool. Even though this format is basic, it can still be very difficult for someone running the football pool to keep up with gathering the picks and calculating standings manually. That is where we come in.<br><br>How does our Pick&#39;em Pool format work:<br> - Each pool member picks winning games each week.<br> - &#39;Monday Night Football&#39; tiebreaker of total combined points.<br> - For each correct pick during the regular season, members receive one point.<br> - Standings are calculated for the week and for the season.<br><br>We remove the grunt work and mistakes from your Pick&#39;em Pool:<br> - Automated pick collections. You no longer have your members send you their picks. <br> - Error-free pick sheet. We make it impossible for your members to make technical errors when submitting picks.<br>- Automatic updating. Pool standings are automatically updated in real-time.<br>- No more need to distribute standings. Members simply login to the app to see updates.",
+    "descriptionShort": "Run/host both your Survivor and/or Pick'em football pools",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "10183104",
+          "unknown3": 32
+        },
+        "developerAddress": "1207 N Wood Ave<br/>Linden, NJ, 07036",
+        "developerEmail": "sguerrera@gmail.com",
+        "developerName": "ReplaySports",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "10062698",
+            "versionCode": 35
+          },
+          {
+            "fileType": 0,
+            "size": "74941",
+            "versionCode": 35
+          },
+          {
+            "fileType": 0,
+            "size": "45465",
+            "versionCode": 35
+          }
+        ],
+        "hasInstantLink": true,
+        "installationSize": "10183104",
+        "numDownloads": "50+ downloads",
+        "packageName": "com.replaysport.pickemparty",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.INTERNET",
+          "android.permission.READ_CONTACTS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_PROFILE",
+          "android.permission.REORDER_TASKS",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "com.android.vending.BILLING",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": "Address the Join Pool issue for some users.",
+        "unstable": true,
+        "uploadDate": "9 Dec 2022",
+        "versionCode": 35,
+        "versionString": "2.3"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.replaysport.pickemparty",
+    "docType": 1,
+    "docid": "com.replaysport.pickemparty",
+    "image": [
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/f6W90fkEpIyAoois8ll91EohL25Pg9Ih0BlIOdksElIWUYzvHKXbcAcFlCKWFCZl0w",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/dSOet_oqZ47kCjdNpDx4slb-NBJDwa9Zj_MkpSicIF7aMGiRnmbRLDAsBrscIjzhM9A",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3040,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ZF2pFdB-EINbyrP_NvC8pzmjEKaBN80SbkfAF6IGd3G2TeLfhKqItC9L2vGdoVLz__U",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3040,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/DOS9p2fwqA8i6SrtHAtkqw26ENqHcdIsC-1jlultXdhRuPLT87ObeBtA1dMV0iqh85a3",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "GBP",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://sportsbet.io/about/privacy-policy",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.replaysport.pickemparty",
+    "reviewsUrl": "rev?doc=com.replaysport.pickemparty&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.replaysport.pickemparty",
+    "title": "Pick'em Party",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "\u00a30.89 \u2013 \u00a36.99 per item"
+          },
+          "label": "In-app purchases"
+        },
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "sguerrera@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "1207 N Wood Ave<br/>Linden, NJ, 07036"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "28 Aug 2022"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-12-14 18:36:58.514113",
+    "backendDocid": "com.replaysport.pickemparty",
+    "backendId": 3,
+    "creator": "ReplaySports",
+    "descriptionHtml": "Survivor pools (also known as Suicide, Eliminator, Knockout, Last Man Standing, or King of the Hill pools) are becoming more popular every year. Although players only pick one team per week, the work involved with running a Survivor pool manually can quickly become a burden (especially as a pool begins to grow very large). Run your Survivor football pool with us and see how easy it can be; and by that we mean automated for everyone including the Pool Admin/Commissioner too! <br><br>Here are the rules for Survivor pools:<br> - Each pool member chooses one team each week.<br> - Picks are made &quot;straight up&quot;, not using a point spread system.<br> - If their pick is correct, they survive until the next week.<br> - An incorrect pick eliminates the player from the pool for the remainder of the season.<br> - The goal is to be the the last member standing at the end of the season. <br><br>Running your Survivor Pool has never been so easy:<br> - No more collecting picks from your members. Members make their picks directly in the app real time.<br> - No more error-ridden or illegible pick sheets.<br> - No more tabulating strikes and who has been eliminated. Pool standings are automatically updated.<br> - No more determining the game scores/outcomes, Winners and losers are automatically updated.<br> - No more need to distribute standings. Members simply login to the site to see updates.<br><br>Next, our Pick&#39;em pool format is arguably our most traditional football pool. Even though this format is basic, it can still be very difficult for someone running the football pool to keep up with gathering the picks and calculating standings manually. That is where we come in.<br><br>How does our Pick&#39;em Pool format work:<br> - Each pool member picks winning games each week.<br> - &#39;Monday Night Football&#39; tiebreaker of total combined points.<br> - For each correct pick during the regular season, members receive one point.<br> - Standings are calculated for the week and for the season.<br><br>We remove the grunt work and mistakes from your Pick&#39;em Pool:<br> - Automated pick collections. You no longer have your members send you their picks. <br> - Error-free pick sheet. We make it impossible for your members to make technical errors when submitting picks.<br>- Automatic updating. Pool standings are automatically updated in real-time.<br>- No more need to distribute standings. Members simply login to the app to see updates.",
+    "descriptionShort": "Run/host both your Survivor and/or Pick'em football pools",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "10216750",
+          "unknown3": 32
+        },
+        "developerAddress": "1207 N Wood Ave<br/>Linden, NJ, 07036",
+        "developerEmail": "sguerrera@gmail.com",
+        "developerName": "ReplaySports",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "10067263",
+            "versionCode": 38
+          },
+          {
+            "fileType": 0,
+            "size": "74941",
+            "versionCode": 38
+          },
+          {
+            "fileType": 0,
+            "size": "29081",
+            "versionCode": 38
+          },
+          {
+            "fileType": 0,
+            "size": "45465",
+            "versionCode": 38
+          }
+        ],
+        "hasInstantLink": true,
+        "installationSize": "10216750",
+        "numDownloads": "50+ downloads",
+        "packageName": "com.replaysport.pickemparty",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.INTERNET",
+          "android.permission.READ_CONTACTS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_PROFILE",
+          "android.permission.REORDER_TASKS",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "com.android.vending.BILLING",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": "Added functionality for Pool Administrators to make changes to their purchased Pools.",
+        "unstable": true,
+        "uploadDate": "12 Dec 2022",
+        "versionCode": 38,
+        "versionString": "2.3"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.replaysport.pickemparty",
+    "docType": 1,
+    "docid": "com.replaysport.pickemparty",
+    "image": [
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/f6W90fkEpIyAoois8ll91EohL25Pg9Ih0BlIOdksElIWUYzvHKXbcAcFlCKWFCZl0w",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/dSOet_oqZ47kCjdNpDx4slb-NBJDwa9Zj_MkpSicIF7aMGiRnmbRLDAsBrscIjzhM9A",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3040,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ZF2pFdB-EINbyrP_NvC8pzmjEKaBN80SbkfAF6IGd3G2TeLfhKqItC9L2vGdoVLz__U",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3040,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/DOS9p2fwqA8i6SrtHAtkqw26ENqHcdIsC-1jlultXdhRuPLT87ObeBtA1dMV0iqh85a3",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "HRK",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://sportsbet.io/about/privacy-policy",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.replaysport.pickemparty",
+    "reviewsUrl": "rev?doc=com.replaysport.pickemparty&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.replaysport.pickemparty",
+    "title": "Pick'em Party",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "HRK\u00a08.00 \u2013 HRK\u00a065.00 per item"
+          },
+          "label": "In-app purchases"
+        },
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "sguerrera@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "1207 N Wood Ave<br/>Linden, NJ, 07036"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "28 Aug 2022"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "0",
+      "fiveStarRatings": "0",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "0",
+      "starRating": 0.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-12-19 19:11:37.573997",
+    "backendDocid": "com.replaysport.pickemparty",
+    "backendId": 3,
+    "creator": "ReplaySports",
+    "descriptionHtml": "Survivor pools (also known as Suicide, Eliminator, Knockout, Last Man Standing, or King of the Hill pools) are becoming more popular every year. Although players only pick one team per week, the work involved with running a Survivor pool manually can quickly become a burden (especially as a pool begins to grow very large). Run your Survivor football pool with us and see how easy it can be; and by that we mean automated for everyone including the Pool Admin/Commissioner too! <br><br>Here are the rules for Survivor pools:<br> - Each pool member chooses one team each week.<br> - Picks are made &quot;straight up&quot;, not using a point spread system.<br> - If their pick is correct, they survive until the next week.<br> - An incorrect pick eliminates the player from the pool for the remainder of the season.<br> - The goal is to be the the last member standing at the end of the season. <br><br>Running your Survivor Pool has never been so easy:<br> - No more collecting picks from your members. Members make their picks directly in the app real time.<br> - No more error-ridden or illegible pick sheets.<br> - No more tabulating strikes and who has been eliminated. Pool standings are automatically updated.<br> - No more determining the game scores/outcomes, Winners and losers are automatically updated.<br> - No more need to distribute standings. Members simply login to the site to see updates.<br><br>Next, our Pick&#39;em pool format is arguably our most traditional football pool. Even though this format is basic, it can still be very difficult for someone running the football pool to keep up with gathering the picks and calculating standings manually. That is where we come in.<br><br>How does our Pick&#39;em Pool format work:<br> - Each pool member picks winning games each week.<br> - &#39;Monday Night Football&#39; tiebreaker of total combined points.<br> - For each correct pick during the regular season, members receive one point.<br> - Standings are calculated for the week and for the season.<br><br>We remove the grunt work and mistakes from your Pick&#39;em Pool:<br> - Automated pick collections. You no longer have your members send you their picks. <br> - Error-free pick sheet. We make it impossible for your members to make technical errors when submitting picks.<br>- Automatic updating. Pool standings are automatically updated in real-time.<br>- No more need to distribute standings. Members simply login to the app to see updates.",
+    "descriptionShort": "Run/host both your Survivor and/or Pick'em football pools",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "dependency": [
+            {
+              "packageName": "com.google.android.gms",
+              "unknown4": 1,
+              "version": 12451000
+            }
+          ],
+          "unknown2": "10287200",
+          "unknown3": 32
+        },
+        "developerAddress": "1207 N Wood Ave<br/>Linden, NJ, 07036",
+        "developerEmail": "sguerrera@gmail.com",
+        "developerName": "ReplaySports",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "10067263",
+            "versionCode": 39
+          },
+          {
+            "fileType": 0,
+            "size": "74941",
+            "versionCode": 39
+          },
+          {
+            "fileType": 0,
+            "size": "29081",
+            "versionCode": 39
+          },
+          {
+            "fileType": 0,
+            "size": "33177",
+            "versionCode": 39
+          },
+          {
+            "fileType": 0,
+            "size": "45465",
+            "versionCode": 39
+          },
+          {
+            "fileType": 0,
+            "size": "37273",
+            "versionCode": 39
+          }
+        ],
+        "hasInstantLink": true,
+        "installationSize": "10287200",
+        "numDownloads": "50+ downloads",
+        "packageName": "com.replaysport.pickemparty",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.INTERNET",
+          "android.permission.READ_CONTACTS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_PROFILE",
+          "android.permission.REORDER_TASKS",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "com.android.vending.BILLING",
+          "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+          "com.google.android.gms.permission.AD_ID"
+        ],
+        "recentChangesHtml": "Cosmetic enhancements to the Survivor All Picks View as well as the Pick&#39;em Picks All Picks. ",
+        "unstable": true,
+        "uploadDate": "18 Dec 2022",
+        "versionCode": 39,
+        "versionString": "2.3"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.replaysport.pickemparty",
+    "docType": 1,
+    "docid": "com.replaysport.pickemparty",
+    "image": [
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/f6W90fkEpIyAoois8ll91EohL25Pg9Ih0BlIOdksElIWUYzvHKXbcAcFlCKWFCZl0w",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "color": "#FFFFFF",
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/dSOet_oqZ47kCjdNpDx4slb-NBJDwa9Zj_MkpSicIF7aMGiRnmbRLDAsBrscIjzhM9A",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3040,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ZF2pFdB-EINbyrP_NvC8pzmjEKaBN80SbkfAF6IGd3G2TeLfhKqItC9L2vGdoVLz__U",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 3040,
+          "width": 1440
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/DOS9p2fwqA8i6SrtHAtkqw26ENqHcdIsC-1jlultXdhRuPLT87ObeBtA1dMV0iqh85a3",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://sportsbet.io/about/privacy-policy",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.replaysport.pickemparty",
+    "reviewsUrl": "rev?doc=com.replaysport.pickemparty&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.replaysport.pickemparty",
+    "title": "Pick'em Party",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "\u20ac0.99 \u2013 \u20ac7.99 per item"
+          },
+          "label": "In-app purchases"
+        },
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "sguerrera@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "1207 N Wood Ave<br/>Linden, NJ, 07036"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "28 Aug 2022"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  }
+]

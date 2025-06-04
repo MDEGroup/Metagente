@@ -1,0 +1,4521 @@
+[
+  {
+    "aggregateRating": {
+      "commentCount": "67",
+      "fiveStarRatings": "64",
+      "fourStarRatings": "43",
+      "oneStarRatings": "8",
+      "ratingsCount": "144",
+      "starRating": 4.03,
+      "threeStarRatings": "20",
+      "twoStarRatings": "7",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-05-30 18:07:39.542648",
+    "backendDocid": "org.andstatus.app",
+    "backendId": 3,
+    "creator": "Yuri Volkov (yvolk)",
+    "descriptionHtml": "AndStatus is an Open Source multiple accounts client for multiple Social networks, including Mastodon, Twitter, ActivityPub (Client to Server), GNU social and Pump.io.<br>AndStatus can combine your feeds from all networks into one Timeline,<br>and it allows you to read and post even when you are offline.<br><br>For Android v.7.0+ devices.<br><br>Differentiating features of AndStatus:<br><br>1. Many accounts in different Social networks. You may have several accounts in each, write/reply as any &quot;You&quot; and share between accounts and networks.<br>2. You don&#39;t need to be online to read timelines and to post your updates: drafts and unsent posts are kept even after reboot. They will be sent when your device is Online.<br>3. Convenient tree-like &quot;Conversation view&quot;.<br>4. &quot;Global search&quot; allowing you to search public notes in all networks with one query.<br>5. Lists of Friends and Followers, presented as User Lists and as Timelines (with the latest note by each User).<br>6. Notes (tweets)/avatars/attached images are periodically synced in a background, when your device has a good connection. By default, attachments are downloaded via Wi-Fi only.<br>7. Cached data may be stored for years or for several days only - it&#39;s your choice.<br>8. Backup accounts and notes and Restore them on any of your devices. Own your data!<br>9. Free and without ads, community supported.<br><br>See a Change Log for descriptions of all features of AndStatus with links to their discussions:<br>http://andstatus.org/changelog.html",
+    "descriptionShort": "Open Source multiple accounts client for multiple social networks",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown1": 1,
+          "unknown2": "5377327",
+          "unknown3": 29
+        },
+        "developerAddress": "Moscow, Russia",
+        "developerEmail": "andstatus@gmail.com",
+        "developerName": "Yuri Volkov (yvolk)",
+        "developerWebsite": "http://andstatus.org/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "5377327",
+            "versionCode": 329
+          }
+        ],
+        "installationSize": "5377327",
+        "numDownloads": "5,000+ downloads",
+        "packageName": "org.andstatus.app",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_SYNC_SETTINGS",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "android.permission.WRITE_SYNC_SETTINGS"
+        ],
+        "recentChangesHtml": "v.56.12 Fixed &#39;Reply to mentioned actors&#39; when nobody is mentioned.<br>v.56.11 Fixed repeated restarts of Timeline and Settings activities.<br>v.56.09 Show numbers of likes, replies and reblogs for a Note.<br>v.56.05 Simplified interface to add new account in Mastodon. You don&#39;t need to add &quot;Social network&quot; separately. Just type (host of) instance and proceed to Log in.<br>v.56.04 Fixed &quot;App language&quot; switch.",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "30 May 2020",
+        "versionCode": 329,
+        "versionString": "56.12"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=org.andstatus.app",
+    "docType": 1,
+    "docid": "org.andstatus.app",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://lh3.googleusercontent.com/cj7gjo_NhxVCvEMNoHZuADDGE8fxjnvEaYCAxkwhNVsCv6KhOG9ModHuPxw7SAaqVA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://lh3.googleusercontent.com/5MhA-fFLVU6YULxzPXgmYw8xxng_9w_vp7qKMgV76e8gSXpj_E6TF4UKeQmPMXtYKQJb",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/OKvYh2ZZuYDsfeDTvSEqXebJmMInKVhoZmv-IZevc2BuUm2ZP6QWq5S9EHdDRMOcuF0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/TOPxLySY9Vf7W4rWtq5b4UFKmMIkpEH8cbbBrNuKUwtyy4pUoU-sFNbYJMX6YPEB1Jk",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/ZQtKZBAkbBYBBhpyMOV7Wjzt0oT71TZ9evYElNsrQpqbPieFYbOEd-EQewq1pXli-A",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/_xYCylRxyiyLF9ELk6B8MtPMFj8kZpYRwlhghhVzavwFF8UfHbDSX0sJho4B7zpBJr55",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/_MTsl8vLQuau8FNz1zxoUlF6KE0ZIZYLc_UCwEXsqr5KXxeGiqwhpYu_gSQOCJGRXnhO",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/mLLbkXbaY0siR6fb6nWUCXigyWoCEPj600RgOEiML4mV8ywmxYXsjs9FHA_KLPv1wSI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/_PAlGSskhVoowpRZuBlFz5pwSgtcOtHc4zjqpMrgxqKmcl-dB5bksJHHr85vvjAZCHo",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1200,
+          "width": 1920
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/x5AcalxgK6LkOcEzLs9KK_uqvrC19HbHAfcSC5Dx1MlwTq4uFNiLO4ZTtO0jmUjxzRg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1200,
+          "width": 1920
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/Ha9BA1sdYur7Mx3Y-2liJIZ1oaLBqVC46tTufnh4Bu-p6tSJNh8yt210-BB7CmBPtss",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1200,
+          "width": 1920
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/FN0RSl9sMWPR820VJa-bQrT40Q56eHNk8OsBLv2UMwtWQB0JH_sVPs41wHQeGLiVNkY",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1200,
+          "width": 1920
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/jN6LjA73XJyXP-RLUCvPJVjGrja9yyw595KCkRSPlwUPH8_Quv0WyXpgKKTCabsZXXCs",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1600,
+          "width": 2560
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/sKzX1MsMxNSIvH2UwfnAhbAkTvTNI0mKZAryBu61nDITYQmRpNb7BTIZGj3PbO6-szQl",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1600,
+          "width": 2560
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/v-Z24xgbUaP5wSpIkvwbD-0NH5XHexkFQbR7O7PGXXCKPCcEFqgX2-UH7ddN-7DrPyg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1600,
+          "width": 2560
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/ES10zIiME0sZdUq9ziXjGuyRiGRXYVQ-pifnRmyYRIO-8JWEd-JAYMU_EllWM2Hkwp0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1600,
+          "width": 2560
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/Ap1WGofq6EIJpbDec1budHinMtxFHzr5ZguX1qWCJganMTPsYkPwCdvTcMVtEID1u1jR",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1600,
+          "width": 2560
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/XGSALm6yTDepJz-7eR6u1Eyt-woTkA-gkggjmBKIyxtgsXcXg9haT5JZu0FI1OOFSw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1600,
+          "width": 2560
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/cv-gQM09Ui2sWQKe4B56rFwKJy9Onm-at9cVij2QFaT7QWPAW2dxYH-nM0zi5Km-4LOQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1600,
+          "width": 2560
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/XbaGB5yTDC6TLwVSvIQx9dDpmUfxEA36AMkxJ-Hoi5pG6Cggku9bKQGFrgb-oolcEg",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://github.com/andstatus/andstatus/blob/master/doc/Privacy-Policy.md",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://lh3.googleusercontent.com/VI5ii6OTeBuSn1kTDPlXSwj7yI7kqDqf_drsvZ90qjcm7LbbVkG8UfPTicKqMzipsY_lBnAYAH5t8GxN",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Parental guidance",
+        "learnMoreHtmlLink": "Parental guidance recommended<br/>Users interact<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=org.andstatus.app",
+    "reviewsUrl": "rev?doc=org.andstatus.app&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=org.andstatus.app",
+    "title": "AndStatus",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "andstatus@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Moscow, Russia"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "24 Dec 2011"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "67",
+      "fiveStarRatings": "64",
+      "fourStarRatings": "43",
+      "oneStarRatings": "8",
+      "ratingsCount": "144",
+      "starRating": 4.03,
+      "threeStarRatings": "20",
+      "twoStarRatings": "7",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-06-09 08:29:14.256215",
+    "backendDocid": "org.andstatus.app",
+    "backendId": 3,
+    "creator": "Yuri Volkov (yvolk)",
+    "descriptionHtml": "AndStatus is an Open Source multiple accounts client for multiple Social networks, including Mastodon, Twitter, ActivityPub (Client to Server), GNU social and Pump.io.<br>AndStatus can combine your feeds from all networks into one Timeline,<br>and it allows you to read and post even when you are offline.<br><br>For Android v.7.0+ devices.<br><br>Differentiating features of AndStatus:<br><br>1. Many accounts in different Social networks. You may have several accounts in each, write/reply as any &quot;You&quot; and share between accounts and networks.<br>2. You don&#39;t need to be online to read timelines and to post your updates: drafts and unsent posts are kept even after reboot. They will be sent when your device is Online.<br>3. Convenient tree-like &quot;Conversation view&quot;.<br>4. &quot;Global search&quot; allowing you to search public notes in all networks with one query.<br>5. Lists of Friends and Followers, presented as User Lists and as Timelines (with the latest note by each User).<br>6. Notes (tweets)/avatars/attached images are periodically synced in a background, when your device has a good connection. By default, attachments are downloaded via Wi-Fi only.<br>7. Cached data may be stored for years or for several days only - it&#39;s your choice.<br>8. Backup accounts and notes and Restore them on any of your devices. Own your data!<br>9. Free and without ads, community supported.<br><br>See a Change Log for descriptions of all features of AndStatus with links to their discussions:<br>http://andstatus.org/changelog.html",
+    "descriptionShort": "Open Source multiple accounts client for multiple social networks",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown1": 1,
+          "unknown2": "5465107",
+          "unknown3": 29
+        },
+        "developerAddress": "Moscow, Russia",
+        "developerEmail": "andstatus@gmail.com",
+        "developerName": "Yuri Volkov (yvolk)",
+        "developerWebsite": "http://andstatus.org/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "5465107",
+            "versionCode": 330
+          }
+        ],
+        "installationSize": "5465107",
+        "numDownloads": "5,000+ downloads",
+        "packageName": "org.andstatus.app",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_SYNC_SETTINGS",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "android.permission.WRITE_SYNC_SETTINGS"
+        ],
+        "recentChangesHtml": "v.56.13 Fixed attachment of video files on Android before v.10.",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "8 Jun 2020",
+        "versionCode": 330,
+        "versionString": "56.13"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=org.andstatus.app",
+    "docType": 1,
+    "docid": "org.andstatus.app",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://lh3.googleusercontent.com/cj7gjo_NhxVCvEMNoHZuADDGE8fxjnvEaYCAxkwhNVsCv6KhOG9ModHuPxw7SAaqVA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://lh3.googleusercontent.com/5MhA-fFLVU6YULxzPXgmYw8xxng_9w_vp7qKMgV76e8gSXpj_E6TF4UKeQmPMXtYKQJb",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/OKvYh2ZZuYDsfeDTvSEqXebJmMInKVhoZmv-IZevc2BuUm2ZP6QWq5S9EHdDRMOcuF0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/TOPxLySY9Vf7W4rWtq5b4UFKmMIkpEH8cbbBrNuKUwtyy4pUoU-sFNbYJMX6YPEB1Jk",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/ZQtKZBAkbBYBBhpyMOV7Wjzt0oT71TZ9evYElNsrQpqbPieFYbOEd-EQewq1pXli-A",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/_xYCylRxyiyLF9ELk6B8MtPMFj8kZpYRwlhghhVzavwFF8UfHbDSX0sJho4B7zpBJr55",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/_MTsl8vLQuau8FNz1zxoUlF6KE0ZIZYLc_UCwEXsqr5KXxeGiqwhpYu_gSQOCJGRXnhO",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/mLLbkXbaY0siR6fb6nWUCXigyWoCEPj600RgOEiML4mV8ywmxYXsjs9FHA_KLPv1wSI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/_PAlGSskhVoowpRZuBlFz5pwSgtcOtHc4zjqpMrgxqKmcl-dB5bksJHHr85vvjAZCHo",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1200,
+          "width": 1920
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/x5AcalxgK6LkOcEzLs9KK_uqvrC19HbHAfcSC5Dx1MlwTq4uFNiLO4ZTtO0jmUjxzRg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1200,
+          "width": 1920
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/Ha9BA1sdYur7Mx3Y-2liJIZ1oaLBqVC46tTufnh4Bu-p6tSJNh8yt210-BB7CmBPtss",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1200,
+          "width": 1920
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/FN0RSl9sMWPR820VJa-bQrT40Q56eHNk8OsBLv2UMwtWQB0JH_sVPs41wHQeGLiVNkY",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1200,
+          "width": 1920
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/jN6LjA73XJyXP-RLUCvPJVjGrja9yyw595KCkRSPlwUPH8_Quv0WyXpgKKTCabsZXXCs",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1600,
+          "width": 2560
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/sKzX1MsMxNSIvH2UwfnAhbAkTvTNI0mKZAryBu61nDITYQmRpNb7BTIZGj3PbO6-szQl",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1600,
+          "width": 2560
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/v-Z24xgbUaP5wSpIkvwbD-0NH5XHexkFQbR7O7PGXXCKPCcEFqgX2-UH7ddN-7DrPyg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1600,
+          "width": 2560
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/ES10zIiME0sZdUq9ziXjGuyRiGRXYVQ-pifnRmyYRIO-8JWEd-JAYMU_EllWM2Hkwp0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1600,
+          "width": 2560
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/Ap1WGofq6EIJpbDec1budHinMtxFHzr5ZguX1qWCJganMTPsYkPwCdvTcMVtEID1u1jR",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1600,
+          "width": 2560
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/XGSALm6yTDepJz-7eR6u1Eyt-woTkA-gkggjmBKIyxtgsXcXg9haT5JZu0FI1OOFSw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1600,
+          "width": 2560
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/cv-gQM09Ui2sWQKe4B56rFwKJy9Onm-at9cVij2QFaT7QWPAW2dxYH-nM0zi5Km-4LOQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1600,
+          "width": 2560
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/XbaGB5yTDC6TLwVSvIQx9dDpmUfxEA36AMkxJ-Hoi5pG6Cggku9bKQGFrgb-oolcEg",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://github.com/andstatus/andstatus/blob/master/doc/Privacy-Policy.md",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://lh3.googleusercontent.com/VI5ii6OTeBuSn1kTDPlXSwj7yI7kqDqf_drsvZ90qjcm7LbbVkG8UfPTicKqMzipsY_lBnAYAH5t8GxN",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Parental guidance",
+        "learnMoreHtmlLink": "Parental guidance recommended<br/>Users interact<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=org.andstatus.app",
+    "reviewsUrl": "rev?doc=org.andstatus.app&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=org.andstatus.app",
+    "title": "AndStatus",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "andstatus@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Moscow, Russia"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "24 Dec 2011"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "67",
+      "fiveStarRatings": "65",
+      "fourStarRatings": "41",
+      "oneStarRatings": "8",
+      "ratingsCount": "143",
+      "starRating": 4.04,
+      "threeStarRatings": "20",
+      "twoStarRatings": "7",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-06-21 17:56:17.187950",
+    "backendDocid": "org.andstatus.app",
+    "backendId": 3,
+    "creator": "Yuri Volkov (yvolk)",
+    "descriptionHtml": "AndStatus is an Open Source multiple accounts client for multiple Social networks, including Mastodon, Twitter, ActivityPub (Client to Server), GNU social and Pump.io.<br>AndStatus can combine your feeds from all networks into one Timeline,<br>and it allows you to read and post even when you are offline.<br><br>For Android v.7.0+ devices.<br><br>Differentiating features of AndStatus:<br><br>1. Many accounts in different Social networks. You may have several accounts in each, write/reply as any &quot;You&quot; and share between accounts and networks.<br>2. You don&#39;t need to be online to read timelines and to post your updates: drafts and unsent posts are kept even after reboot. They will be sent when your device is Online.<br>3. Convenient tree-like &quot;Conversation view&quot;.<br>4. &quot;Global search&quot; allowing you to search public notes in all networks with one query.<br>5. Lists of Friends and Followers, presented as User Lists and as Timelines (with the latest note by each User).<br>6. Notes (tweets)/avatars/attached images are periodically synced in a background, when your device has a good connection. By default, attachments are downloaded via Wi-Fi only.<br>7. Cached data may be stored for years or for several days only - it&#39;s your choice.<br>8. Backup accounts and notes and Restore them on any of your devices. Own your data!<br>9. Free and without ads, community supported.<br><br>See a Change Log for descriptions of all features of AndStatus with links to their discussions:<br>http://andstatus.org/changelog.html",
+    "descriptionShort": "Open Source multiple accounts client for multiple social networks",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown1": 1,
+          "unknown2": "5473299",
+          "unknown3": 29
+        },
+        "developerAddress": "Moscow, Russia",
+        "developerEmail": "andstatus@gmail.com",
+        "developerName": "Yuri Volkov (yvolk)",
+        "developerWebsite": "http://andstatus.org/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "5473299",
+            "versionCode": 334
+          }
+        ],
+        "installationSize": "5473299",
+        "numDownloads": "5,000+ downloads",
+        "packageName": "org.andstatus.app",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_SYNC_SETTINGS",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "android.permission.WRITE_SYNC_SETTINGS"
+        ],
+        "recentChangesHtml": "v.57.03 Animated images for Android 9+; GIF and WebP are supported. Video preview for Twitter. User&#39;s preferred screen orientation.",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "21 Jun 2020",
+        "versionCode": 334,
+        "versionString": "57.03"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=org.andstatus.app",
+    "docType": 1,
+    "docid": "org.andstatus.app",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://lh3.googleusercontent.com/cj7gjo_NhxVCvEMNoHZuADDGE8fxjnvEaYCAxkwhNVsCv6KhOG9ModHuPxw7SAaqVA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://lh3.googleusercontent.com/5MhA-fFLVU6YULxzPXgmYw8xxng_9w_vp7qKMgV76e8gSXpj_E6TF4UKeQmPMXtYKQJb",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/OKvYh2ZZuYDsfeDTvSEqXebJmMInKVhoZmv-IZevc2BuUm2ZP6QWq5S9EHdDRMOcuF0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/TOPxLySY9Vf7W4rWtq5b4UFKmMIkpEH8cbbBrNuKUwtyy4pUoU-sFNbYJMX6YPEB1Jk",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/ZQtKZBAkbBYBBhpyMOV7Wjzt0oT71TZ9evYElNsrQpqbPieFYbOEd-EQewq1pXli-A",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/_xYCylRxyiyLF9ELk6B8MtPMFj8kZpYRwlhghhVzavwFF8UfHbDSX0sJho4B7zpBJr55",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/_MTsl8vLQuau8FNz1zxoUlF6KE0ZIZYLc_UCwEXsqr5KXxeGiqwhpYu_gSQOCJGRXnhO",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/mLLbkXbaY0siR6fb6nWUCXigyWoCEPj600RgOEiML4mV8ywmxYXsjs9FHA_KLPv1wSI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/_PAlGSskhVoowpRZuBlFz5pwSgtcOtHc4zjqpMrgxqKmcl-dB5bksJHHr85vvjAZCHo",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://github.com/andstatus/andstatus/blob/master/doc/Privacy-Policy.md",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://lh3.googleusercontent.com/VI5ii6OTeBuSn1kTDPlXSwj7yI7kqDqf_drsvZ90qjcm7LbbVkG8UfPTicKqMzipsY_lBnAYAH5t8GxN",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Parental guidance",
+        "learnMoreHtmlLink": "Parental guidance recommended<br/>Users interact<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=org.andstatus.app",
+    "reviewsUrl": "rev?doc=org.andstatus.app&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=org.andstatus.app",
+    "title": "AndStatus",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "andstatus@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Moscow, Russia"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "24 Dec 2011"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "68",
+      "fiveStarRatings": "65",
+      "fourStarRatings": "43",
+      "oneStarRatings": "8",
+      "ratingsCount": "145",
+      "starRating": 4.03,
+      "threeStarRatings": "20",
+      "twoStarRatings": "7",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-07-04 19:17:17.721365",
+    "backendDocid": "org.andstatus.app",
+    "backendId": 3,
+    "creator": "Yuri Volkov (yvolk)",
+    "descriptionHtml": "AndStatus is an Open Source multiple accounts client for multiple Social networks, including Mastodon, Twitter, ActivityPub (Client to Server), GNU social and Pump.io.<br>AndStatus can combine your feeds from all networks into one Timeline,<br>and it allows you to read and post even when you are offline.<br><br>For Android v.7.0+ devices.<br><br>Differentiating features of AndStatus:<br><br>1. Many accounts in different Social networks. You may have several accounts in each, write/reply as any &quot;You&quot; and share between accounts and networks.<br>2. You don&#39;t need to be online to read timelines and to post your updates: drafts and unsent posts are kept even after reboot. They will be sent when your device is Online.<br>3. Convenient tree-like &quot;Conversation view&quot;.<br>4. &quot;Global search&quot; allowing you to search public notes in all networks with one query.<br>5. Lists of Friends and Followers, presented as User Lists and as Timelines (with the latest note by each User).<br>6. Notes (tweets)/avatars/attached images are periodically synced in a background, when your device has a good connection. By default, attachments are downloaded via Wi-Fi only.<br>7. Cached data may be stored for years or for several days only - it&#39;s your choice.<br>8. Backup accounts and notes and Restore them on any of your devices. Own your data!<br>9. Free and without ads, community supported.<br><br>See a Change Log for descriptions of all features of AndStatus with links to their discussions:<br>http://andstatus.org/changelog.html",
+    "descriptionShort": "Open Source multiple accounts client for multiple social networks",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown1": 1,
+          "unknown2": "5473299",
+          "unknown3": 29
+        },
+        "developerAddress": "Moscow, Russia",
+        "developerEmail": "andstatus@gmail.com",
+        "developerName": "Yuri Volkov (yvolk)",
+        "developerWebsite": "http://andstatus.org/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "5473299",
+            "versionCode": 335
+          }
+        ],
+        "installationSize": "5473299",
+        "numDownloads": "5,000+ downloads",
+        "packageName": "org.andstatus.app",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_SYNC_SETTINGS",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "android.permission.WRITE_SYNC_SETTINGS"
+        ],
+        "recentChangesHtml": "v.57.04 Fix adding new account in Pump.io",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "3 Jul 2020",
+        "versionCode": 335,
+        "versionString": "57.04"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=org.andstatus.app",
+    "docType": 1,
+    "docid": "org.andstatus.app",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://lh3.googleusercontent.com/cj7gjo_NhxVCvEMNoHZuADDGE8fxjnvEaYCAxkwhNVsCv6KhOG9ModHuPxw7SAaqVA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://lh3.googleusercontent.com/5MhA-fFLVU6YULxzPXgmYw8xxng_9w_vp7qKMgV76e8gSXpj_E6TF4UKeQmPMXtYKQJb",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/OKvYh2ZZuYDsfeDTvSEqXebJmMInKVhoZmv-IZevc2BuUm2ZP6QWq5S9EHdDRMOcuF0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/TOPxLySY9Vf7W4rWtq5b4UFKmMIkpEH8cbbBrNuKUwtyy4pUoU-sFNbYJMX6YPEB1Jk",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/ZQtKZBAkbBYBBhpyMOV7Wjzt0oT71TZ9evYElNsrQpqbPieFYbOEd-EQewq1pXli-A",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/_xYCylRxyiyLF9ELk6B8MtPMFj8kZpYRwlhghhVzavwFF8UfHbDSX0sJho4B7zpBJr55",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/_MTsl8vLQuau8FNz1zxoUlF6KE0ZIZYLc_UCwEXsqr5KXxeGiqwhpYu_gSQOCJGRXnhO",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/mLLbkXbaY0siR6fb6nWUCXigyWoCEPj600RgOEiML4mV8ywmxYXsjs9FHA_KLPv1wSI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/_PAlGSskhVoowpRZuBlFz5pwSgtcOtHc4zjqpMrgxqKmcl-dB5bksJHHr85vvjAZCHo",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1200,
+          "width": 1920
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/x5AcalxgK6LkOcEzLs9KK_uqvrC19HbHAfcSC5Dx1MlwTq4uFNiLO4ZTtO0jmUjxzRg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1200,
+          "width": 1920
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/Ha9BA1sdYur7Mx3Y-2liJIZ1oaLBqVC46tTufnh4Bu-p6tSJNh8yt210-BB7CmBPtss",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1200,
+          "width": 1920
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/FN0RSl9sMWPR820VJa-bQrT40Q56eHNk8OsBLv2UMwtWQB0JH_sVPs41wHQeGLiVNkY",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1200,
+          "width": 1920
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/jN6LjA73XJyXP-RLUCvPJVjGrja9yyw595KCkRSPlwUPH8_Quv0WyXpgKKTCabsZXXCs",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1600,
+          "width": 2560
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/sKzX1MsMxNSIvH2UwfnAhbAkTvTNI0mKZAryBu61nDITYQmRpNb7BTIZGj3PbO6-szQl",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1600,
+          "width": 2560
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/v-Z24xgbUaP5wSpIkvwbD-0NH5XHexkFQbR7O7PGXXCKPCcEFqgX2-UH7ddN-7DrPyg",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1600,
+          "width": 2560
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/ES10zIiME0sZdUq9ziXjGuyRiGRXYVQ-pifnRmyYRIO-8JWEd-JAYMU_EllWM2Hkwp0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1600,
+          "width": 2560
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/Ap1WGofq6EIJpbDec1budHinMtxFHzr5ZguX1qWCJganMTPsYkPwCdvTcMVtEID1u1jR",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1600,
+          "width": 2560
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/XGSALm6yTDepJz-7eR6u1Eyt-woTkA-gkggjmBKIyxtgsXcXg9haT5JZu0FI1OOFSw",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1600,
+          "width": 2560
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/cv-gQM09Ui2sWQKe4B56rFwKJy9Onm-at9cVij2QFaT7QWPAW2dxYH-nM0zi5Km-4LOQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1600,
+          "width": 2560
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/XbaGB5yTDC6TLwVSvIQx9dDpmUfxEA36AMkxJ-Hoi5pG6Cggku9bKQGFrgb-oolcEg",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://github.com/andstatus/andstatus/blob/master/doc/Privacy-Policy.md",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://lh3.googleusercontent.com/VI5ii6OTeBuSn1kTDPlXSwj7yI7kqDqf_drsvZ90qjcm7LbbVkG8UfPTicKqMzipsY_lBnAYAH5t8GxN",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Parental guidance",
+        "learnMoreHtmlLink": "Parental guidance recommended<br/>Users interact<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=org.andstatus.app",
+    "reviewsUrl": "rev?doc=org.andstatus.app&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=org.andstatus.app",
+    "title": "AndStatus",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "andstatus@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Moscow, Russia"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "24 Dec 2011"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "68",
+      "fiveStarRatings": "65",
+      "fourStarRatings": "43",
+      "oneStarRatings": "8",
+      "ratingsCount": "146",
+      "starRating": 4.03,
+      "threeStarRatings": "20",
+      "twoStarRatings": "7",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-09-04 12:03:16.861416",
+    "backendDocid": "org.andstatus.app",
+    "backendId": 3,
+    "creator": "Yuri Volkov (yvolk)",
+    "descriptionHtml": "AndStatus is an Open Source multiple accounts client for multiple Social networks, including Mastodon, Twitter, ActivityPub (Client to Server), GNU social and Pump.io.<br>AndStatus can combine your feeds from all networks into one Timeline,<br>and it allows you to read and post even when you are offline.<br><br>For Android v.7.0+ devices.<br><br>Differentiating features of AndStatus:<br><br>1. Many accounts in different Social networks. You may have several accounts in each, write/reply as any &quot;You&quot; and share between accounts and networks.<br>2. You don&#39;t need to be online to read timelines and to post your updates: drafts and unsent posts are kept even after reboot. They will be sent when your device is Online.<br>3. Convenient tree-like &quot;Conversation view&quot;.<br>4. &quot;Global search&quot; allowing you to search public notes in all networks with one query.<br>5. Lists of Friends and Followers, presented as User Lists and as Timelines (with the latest note by each User).<br>6. Notes (tweets)/avatars/attached images are periodically synced in a background, when your device has a good connection. By default, attachments are downloaded via Wi-Fi only.<br>7. Cached data may be stored for years or for several days only - it&#39;s your choice.<br>8. Backup accounts and notes and Restore them on any of your devices. Own your data!<br>9. Free and without ads, community supported.<br><br>See a Change Log for descriptions of all features of AndStatus with links to their discussions:<br>http://andstatus.org/changelog.html",
+    "descriptionShort": "Open Source multiple accounts client for multiple social networks",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown1": 1,
+          "unknown2": "5571669",
+          "unknown3": 29
+        },
+        "developerAddress": "Moscow, Russia",
+        "developerEmail": "andstatus@gmail.com",
+        "developerName": "Yuri Volkov (yvolk)",
+        "developerWebsite": "http://andstatus.org/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "5571669",
+            "versionCode": 336
+          }
+        ],
+        "installationSize": "5571669",
+        "numDownloads": "5,000+ downloads",
+        "packageName": "org.andstatus.app",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_SYNC_SETTINGS",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "android.permission.WRITE_SYNC_SETTINGS"
+        ],
+        "recentChangesHtml": "v.57.05 Fix crash on loading video in some Android devices before v.10. Translations updated.",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "versionCode": 336,
+        "versionString": "57.05"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=org.andstatus.app",
+    "docType": 1,
+    "docid": "org.andstatus.app",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/cj7gjo_NhxVCvEMNoHZuADDGE8fxjnvEaYCAxkwhNVsCv6KhOG9ModHuPxw7SAaqVA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://lh3.googleusercontent.com/5MhA-fFLVU6YULxzPXgmYw8xxng_9w_vp7qKMgV76e8gSXpj_E6TF4UKeQmPMXtYKQJb",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/OKvYh2ZZuYDsfeDTvSEqXebJmMInKVhoZmv-IZevc2BuUm2ZP6QWq5S9EHdDRMOcuF0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/TOPxLySY9Vf7W4rWtq5b4UFKmMIkpEH8cbbBrNuKUwtyy4pUoU-sFNbYJMX6YPEB1Jk",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/ZQtKZBAkbBYBBhpyMOV7Wjzt0oT71TZ9evYElNsrQpqbPieFYbOEd-EQewq1pXli-A",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/_xYCylRxyiyLF9ELk6B8MtPMFj8kZpYRwlhghhVzavwFF8UfHbDSX0sJho4B7zpBJr55",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/_MTsl8vLQuau8FNz1zxoUlF6KE0ZIZYLc_UCwEXsqr5KXxeGiqwhpYu_gSQOCJGRXnhO",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/mLLbkXbaY0siR6fb6nWUCXigyWoCEPj600RgOEiML4mV8ywmxYXsjs9FHA_KLPv1wSI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/_PAlGSskhVoowpRZuBlFz5pwSgtcOtHc4zjqpMrgxqKmcl-dB5bksJHHr85vvjAZCHo",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://github.com/andstatus/andstatus/blob/master/doc/Privacy-Policy.md",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/YX4IU7qLML-be7Xl25J-YkRBNgSZhVhJIsxeLdke3SaX1QBSFEKLbdcWORAwahq0oI4rrjz5YnWiVdb5",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Mature 17+",
+        "learnMoreHtmlLink": "Users interact<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=org.andstatus.app",
+    "reviewsUrl": "rev?doc=org.andstatus.app&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=org.andstatus.app",
+    "title": "AndStatus",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Yuri Volkov (yvolk)"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "andstatus@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Moscow, Russia"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "24 Dec 2011"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "70",
+      "fiveStarRatings": "69",
+      "fourStarRatings": "44",
+      "oneStarRatings": "8",
+      "ratingsCount": "147",
+      "starRating": 4.07,
+      "threeStarRatings": "17",
+      "twoStarRatings": "7",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-01-10 13:45:26.343599",
+    "backendDocid": "org.andstatus.app",
+    "backendId": 3,
+    "creator": "Yuri Volkov (yvolk)",
+    "descriptionHtml": "AndStatus is an Open Source multiple accounts client for multiple Social networks, including Mastodon, Twitter, ActivityPub (Client to Server), GNU social and Pump.io.<br>AndStatus can combine your feeds from all networks into one Timeline,<br>and it allows you to read and post even when you are offline.<br><br>For Android v.7.0+ devices.<br><br>Differentiating features of AndStatus:<br><br>1. Many accounts in different Social networks. You may have several accounts in each, write/reply as any &quot;You&quot; and share between accounts and networks.<br>2. You don&#39;t need to be online to read timelines and to post your updates: drafts and unsent posts are kept even after reboot. They will be sent when your device is Online.<br>3. Convenient tree-like &quot;Conversation view&quot;.<br>4. &quot;Global search&quot; allowing you to search public notes in all networks with one query.<br>5. Lists of Friends and Followers, presented as User Lists and as Timelines (with the latest note by each User).<br>6. Notes (tweets)/avatars/attached images are periodically synced in a background, when your device has a good connection. By default, attachments are downloaded via Wi-Fi only.<br>7. Cached data may be stored for years or for several days only - it&#39;s your choice.<br>8. Backup accounts and notes and Restore them on any of your devices. Own your data!<br>9. Free and without ads, community supported.<br><br>See a Change Log for descriptions of all features of AndStatus with links to their discussions:<br>http://andstatus.org/changelog.html",
+    "descriptionShort": "Open Source multiple accounts client for multiple social networks",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown1": 1,
+          "unknown2": "5588191",
+          "unknown3": 29
+        },
+        "developerAddress": "Moscow, Russia",
+        "developerEmail": "andstatus@gmail.com",
+        "developerName": "Yuri Volkov (yvolk)",
+        "developerWebsite": "http://andstatus.org/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "5588191",
+            "versionCode": 337
+          }
+        ],
+        "installationSize": "5588191",
+        "numDownloads": "5,000+ downloads",
+        "packageName": "org.andstatus.app",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_SYNC_SETTINGS",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "android.permission.WRITE_SYNC_SETTINGS"
+        ],
+        "recentChangesHtml": "v.57.06 Fix Chinese Traditional translation. Translations updated.",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "7 Jan 2021",
+        "versionCode": 337,
+        "versionString": "57.06"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=org.andstatus.app",
+    "docType": 1,
+    "docid": "org.andstatus.app",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/cj7gjo_NhxVCvEMNoHZuADDGE8fxjnvEaYCAxkwhNVsCv6KhOG9ModHuPxw7SAaqVA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/5MhA-fFLVU6YULxzPXgmYw8xxng_9w_vp7qKMgV76e8gSXpj_E6TF4UKeQmPMXtYKQJb",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/OKvYh2ZZuYDsfeDTvSEqXebJmMInKVhoZmv-IZevc2BuUm2ZP6QWq5S9EHdDRMOcuF0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/TOPxLySY9Vf7W4rWtq5b4UFKmMIkpEH8cbbBrNuKUwtyy4pUoU-sFNbYJMX6YPEB1Jk",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ZQtKZBAkbBYBBhpyMOV7Wjzt0oT71TZ9evYElNsrQpqbPieFYbOEd-EQewq1pXli-A",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/_xYCylRxyiyLF9ELk6B8MtPMFj8kZpYRwlhghhVzavwFF8UfHbDSX0sJho4B7zpBJr55",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/_MTsl8vLQuau8FNz1zxoUlF6KE0ZIZYLc_UCwEXsqr5KXxeGiqwhpYu_gSQOCJGRXnhO",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/mLLbkXbaY0siR6fb6nWUCXigyWoCEPj600RgOEiML4mV8ywmxYXsjs9FHA_KLPv1wSI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/_PAlGSskhVoowpRZuBlFz5pwSgtcOtHc4zjqpMrgxqKmcl-dB5bksJHHr85vvjAZCHo",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://github.com/andstatus/andstatus/blob/master/doc/Privacy-Policy.md",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/VI5ii6OTeBuSn1kTDPlXSwj7yI7kqDqf_drsvZ90qjcm7LbbVkG8UfPTicKqMzipsY_lBnAYAH5t8GxN",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Parental guidance",
+        "learnMoreHtmlLink": "Parental guidance recommended<br/>Users interact<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=org.andstatus.app",
+    "reviewsUrl": "rev?doc=org.andstatus.app&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=org.andstatus.app",
+    "title": "AndStatus",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "andstatus@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Moscow, Russia"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "24 Dec 2011"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "71",
+      "fiveStarRatings": "69",
+      "fourStarRatings": "42",
+      "oneStarRatings": "10",
+      "ratingsCount": "148",
+      "starRating": 4.04,
+      "threeStarRatings": "17",
+      "twoStarRatings": "7",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-01-21 15:32:09.497376",
+    "backendDocid": "org.andstatus.app",
+    "backendId": 3,
+    "creator": "Yuri Volkov (yvolk)",
+    "descriptionHtml": "AndStatus is an Open Source multiple accounts client for multiple Social networks, including Mastodon, Twitter, ActivityPub (Client to Server), GNU social and Pump.io.<br>AndStatus can combine your feeds from all networks into one Timeline,<br>and it allows you to read and post even when you are offline.<br><br>For Android v.7.0+ devices.<br><br>Differentiating features of AndStatus:<br><br>1. Many accounts in different Social networks. You may have several accounts in each, write/reply as any &quot;You&quot; and share between accounts and networks.<br>2. You don&#39;t need to be online to read timelines and to post your updates: drafts and unsent posts are kept even after reboot. They will be sent when your device is Online.<br>3. Convenient tree-like &quot;Conversation view&quot;.<br>4. &quot;Global search&quot; allowing you to search public notes in all networks with one query.<br>5. Lists of Friends and Followers, presented as User Lists and as Timelines (with the latest note by each User).<br>6. Notes (tweets)/avatars/attached images are periodically synced in a background, when your device has a good connection. By default, attachments are downloaded via Wi-Fi only.<br>7. Cached data may be stored for years or for several days only - it&#39;s your choice.<br>8. Backup accounts and notes and Restore them on any of your devices. Own your data!<br>9. Free and without ads, community supported.<br><br>See a Change Log for descriptions of all features of AndStatus with links to their discussions:<br>http://andstatus.org/changelog.html",
+    "descriptionShort": "Open Source multiple accounts client for multiple social networks",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown1": 1,
+          "unknown2": "5588030",
+          "unknown3": 29
+        },
+        "developerAddress": "Moscow, Russia",
+        "developerEmail": "andstatus@gmail.com",
+        "developerName": "Yuri Volkov (yvolk)",
+        "developerWebsite": "http://andstatus.org/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "5588030",
+            "versionCode": 338
+          }
+        ],
+        "installationSize": "5588030",
+        "numDownloads": "5,000+ downloads",
+        "packageName": "org.andstatus.app",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_SYNC_SETTINGS",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "android.permission.WRITE_SYNC_SETTINGS"
+        ],
+        "recentChangesHtml": "v.57.07 Fix adding Twitter Account. It appears that Twitter doesn&#39;t like &quot;AndStatus&quot; user agent anymore.<br>       This is ID of the app&#39;s internal web browser that worked for more than 10 years...",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": false,
+        "uploadDate": "19 Jan 2021",
+        "versionCode": 338,
+        "versionString": "57.07"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=org.andstatus.app",
+    "docType": 1,
+    "docid": "org.andstatus.app",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/cj7gjo_NhxVCvEMNoHZuADDGE8fxjnvEaYCAxkwhNVsCv6KhOG9ModHuPxw7SAaqVA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/5MhA-fFLVU6YULxzPXgmYw8xxng_9w_vp7qKMgV76e8gSXpj_E6TF4UKeQmPMXtYKQJb",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/OKvYh2ZZuYDsfeDTvSEqXebJmMInKVhoZmv-IZevc2BuUm2ZP6QWq5S9EHdDRMOcuF0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/TOPxLySY9Vf7W4rWtq5b4UFKmMIkpEH8cbbBrNuKUwtyy4pUoU-sFNbYJMX6YPEB1Jk",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ZQtKZBAkbBYBBhpyMOV7Wjzt0oT71TZ9evYElNsrQpqbPieFYbOEd-EQewq1pXli-A",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/_xYCylRxyiyLF9ELk6B8MtPMFj8kZpYRwlhghhVzavwFF8UfHbDSX0sJho4B7zpBJr55",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/_MTsl8vLQuau8FNz1zxoUlF6KE0ZIZYLc_UCwEXsqr5KXxeGiqwhpYu_gSQOCJGRXnhO",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/mLLbkXbaY0siR6fb6nWUCXigyWoCEPj600RgOEiML4mV8ywmxYXsjs9FHA_KLPv1wSI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/_PAlGSskhVoowpRZuBlFz5pwSgtcOtHc4zjqpMrgxqKmcl-dB5bksJHHr85vvjAZCHo",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://github.com/andstatus/andstatus/blob/master/doc/Privacy-Policy.md",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/VI5ii6OTeBuSn1kTDPlXSwj7yI7kqDqf_drsvZ90qjcm7LbbVkG8UfPTicKqMzipsY_lBnAYAH5t8GxN",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Parental guidance",
+        "learnMoreHtmlLink": "Parental guidance recommended<br/>Users interact<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=org.andstatus.app",
+    "reviewsUrl": "rev?doc=org.andstatus.app&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=org.andstatus.app",
+    "title": "AndStatus",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "andstatus@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Moscow, Russia"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "24 Dec 2011"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "72",
+      "fiveStarRatings": "70",
+      "fourStarRatings": "45",
+      "oneStarRatings": "12",
+      "ratingsCount": "150",
+      "starRating": 4.03,
+      "threeStarRatings": "15",
+      "twoStarRatings": "7",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-04-05 21:00:27.787035",
+    "backendDocid": "org.andstatus.app",
+    "backendId": 3,
+    "creator": "Yuri Volkov (yvolk)",
+    "descriptionHtml": "AndStatus is an Open Source multiple accounts client for multiple Social networks, including Mastodon, Twitter, ActivityPub (Client to Server), GNU social and Pump.io.<br>AndStatus can combine your feeds from all networks into one Timeline,<br>and it allows you to read and post even when you are offline.<br><br>For Android v.7.0+ devices.<br><br>Differentiating features of AndStatus:<br><br>1. Many accounts in different Social networks. You may have several accounts in each, write/reply as any &quot;You&quot; and share between accounts and networks.<br>2. You don&#39;t need to be online to read timelines and to post your updates: drafts and unsent posts are kept even after reboot. They will be sent when your device is Online.<br>3. Convenient tree-like &quot;Conversation view&quot;.<br>4. &quot;Global search&quot; allowing you to search public notes in all networks with one query.<br>5. Lists of Friends and Followers, presented as User Lists and as Timelines (with the latest note by each User).<br>6. Notes (tweets)/avatars/attached images are periodically synced in a background, when your device has a good connection. By default, attachments are downloaded via Wi-Fi only.<br>7. Cached data may be stored for years or for several days only - it&#39;s your choice.<br>8. Backup accounts and notes and Restore them on any of your devices. Own your data!<br>9. Free and without ads, community supported.<br><br>See a Change Log for descriptions of all features of AndStatus with links to their discussions:<br>http://andstatus.org/changelog.html",
+    "descriptionShort": "Open Source multiple accounts client for multiple social networks",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown1": 1,
+          "unknown2": "7556579",
+          "unknown3": 29
+        },
+        "developerAddress": "Moscow, Russia",
+        "developerEmail": "andstatus@gmail.com",
+        "developerName": "Yuri Volkov (yvolk)",
+        "developerWebsite": "http://andstatus.org/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "7556579",
+            "versionCode": 339
+          }
+        ],
+        "installationSize": "7556579",
+        "numDownloads": "5,000+ downloads",
+        "packageName": "org.andstatus.app",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_SYNC_SETTINGS",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "android.permission.WRITE_SYNC_SETTINGS"
+        ],
+        "recentChangesHtml": "v.58.00 Fix background syncing on Android 9+.<br>Fix downloads (avatars/attachments) with redirects, in which location is relative or absolute path without host and protocol.<br>AndStatus fully migrated from Java to Kotlin.",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "3 Apr 2021",
+        "versionCode": 339,
+        "versionString": "58.00"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=org.andstatus.app",
+    "docType": 1,
+    "docid": "org.andstatus.app",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/cj7gjo_NhxVCvEMNoHZuADDGE8fxjnvEaYCAxkwhNVsCv6KhOG9ModHuPxw7SAaqVA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/5MhA-fFLVU6YULxzPXgmYw8xxng_9w_vp7qKMgV76e8gSXpj_E6TF4UKeQmPMXtYKQJb",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/OKvYh2ZZuYDsfeDTvSEqXebJmMInKVhoZmv-IZevc2BuUm2ZP6QWq5S9EHdDRMOcuF0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/TOPxLySY9Vf7W4rWtq5b4UFKmMIkpEH8cbbBrNuKUwtyy4pUoU-sFNbYJMX6YPEB1Jk",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ZQtKZBAkbBYBBhpyMOV7Wjzt0oT71TZ9evYElNsrQpqbPieFYbOEd-EQewq1pXli-A",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/_xYCylRxyiyLF9ELk6B8MtPMFj8kZpYRwlhghhVzavwFF8UfHbDSX0sJho4B7zpBJr55",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/_MTsl8vLQuau8FNz1zxoUlF6KE0ZIZYLc_UCwEXsqr5KXxeGiqwhpYu_gSQOCJGRXnhO",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/mLLbkXbaY0siR6fb6nWUCXigyWoCEPj600RgOEiML4mV8ywmxYXsjs9FHA_KLPv1wSI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/_PAlGSskhVoowpRZuBlFz5pwSgtcOtHc4zjqpMrgxqKmcl-dB5bksJHHr85vvjAZCHo",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://github.com/andstatus/andstatus/blob/master/doc/Privacy-Policy.md",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/VI5ii6OTeBuSn1kTDPlXSwj7yI7kqDqf_drsvZ90qjcm7LbbVkG8UfPTicKqMzipsY_lBnAYAH5t8GxN",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Parental guidance",
+        "learnMoreHtmlLink": "Parental guidance recommended<br/>Users interact<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=org.andstatus.app",
+    "reviewsUrl": "rev?doc=org.andstatus.app&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=org.andstatus.app",
+    "title": "AndStatus",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "andstatus@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Moscow, Russia"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "24 Dec 2011"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "72",
+      "fiveStarRatings": "70",
+      "fourStarRatings": "45",
+      "oneStarRatings": "12",
+      "ratingsCount": "150",
+      "starRating": 4.03,
+      "threeStarRatings": "15",
+      "twoStarRatings": "7",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-04-09 07:35:15.836066",
+    "backendDocid": "org.andstatus.app",
+    "backendId": 3,
+    "creator": "Yuri Volkov (yvolk)",
+    "descriptionHtml": "AndStatus is an Open Source multiple accounts client for multiple Social networks, including Mastodon, Twitter, ActivityPub (Client to Server), GNU social and Pump.io.<br>AndStatus can combine your feeds from all networks into one Timeline,<br>and it allows you to read and post even when you are offline.<br><br>For Android v.7.0+ devices.<br><br>Differentiating features of AndStatus:<br><br>1. Many accounts in different Social networks. You may have several accounts in each, write/reply as any &quot;You&quot; and share between accounts and networks.<br>2. You don&#39;t need to be online to read timelines and to post your updates: drafts and unsent posts are kept even after reboot. They will be sent when your device is Online.<br>3. Convenient tree-like &quot;Conversation view&quot;.<br>4. &quot;Global search&quot; allowing you to search public notes in all networks with one query.<br>5. Lists of Friends and Followers, presented as User Lists and as Timelines (with the latest note by each User).<br>6. Notes (tweets)/avatars/attached images are periodically synced in a background, when your device has a good connection. By default, attachments are downloaded via Wi-Fi only.<br>7. Cached data may be stored for years or for several days only - it&#39;s your choice.<br>8. Backup accounts and notes and Restore them on any of your devices. Own your data!<br>9. Free and without ads, community supported.<br><br>See a Change Log for descriptions of all features of AndStatus with links to their discussions:<br>http://andstatus.org/changelog.html",
+    "descriptionShort": "Open Source multiple accounts client for multiple social networks",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown1": 1,
+          "unknown2": "7643580",
+          "unknown3": 29
+        },
+        "developerAddress": "Moscow, Russia",
+        "developerEmail": "andstatus@gmail.com",
+        "developerName": "Yuri Volkov (yvolk)",
+        "developerWebsite": "http://andstatus.org/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "7643580",
+            "versionCode": 340
+          }
+        ],
+        "installationSize": "7643580",
+        "numDownloads": "5,000+ downloads",
+        "packageName": "org.andstatus.app",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.READ_SYNC_SETTINGS",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_EXTERNAL_STORAGE",
+          "android.permission.WRITE_SYNC_SETTINGS"
+        ],
+        "recentChangesHtml": "v.58.01 Fix a Zip Path Traversal Vulnerability.<br>v.58.00 Fix background syncing on Android 9+.<br>Fix downloads (avatars/attachments) with redirects, in which location is relative or absolute path without host and protocol.<br>AndStatus fully migrated from Java to Kotlin.",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "5 Apr 2021",
+        "versionCode": 340,
+        "versionString": "58.01"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=org.andstatus.app",
+    "docType": 1,
+    "docid": "org.andstatus.app",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/cj7gjo_NhxVCvEMNoHZuADDGE8fxjnvEaYCAxkwhNVsCv6KhOG9ModHuPxw7SAaqVA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/5MhA-fFLVU6YULxzPXgmYw8xxng_9w_vp7qKMgV76e8gSXpj_E6TF4UKeQmPMXtYKQJb",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/OKvYh2ZZuYDsfeDTvSEqXebJmMInKVhoZmv-IZevc2BuUm2ZP6QWq5S9EHdDRMOcuF0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/TOPxLySY9Vf7W4rWtq5b4UFKmMIkpEH8cbbBrNuKUwtyy4pUoU-sFNbYJMX6YPEB1Jk",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ZQtKZBAkbBYBBhpyMOV7Wjzt0oT71TZ9evYElNsrQpqbPieFYbOEd-EQewq1pXli-A",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/_xYCylRxyiyLF9ELk6B8MtPMFj8kZpYRwlhghhVzavwFF8UfHbDSX0sJho4B7zpBJr55",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/_MTsl8vLQuau8FNz1zxoUlF6KE0ZIZYLc_UCwEXsqr5KXxeGiqwhpYu_gSQOCJGRXnhO",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/mLLbkXbaY0siR6fb6nWUCXigyWoCEPj600RgOEiML4mV8ywmxYXsjs9FHA_KLPv1wSI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/_PAlGSskhVoowpRZuBlFz5pwSgtcOtHc4zjqpMrgxqKmcl-dB5bksJHHr85vvjAZCHo",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://github.com/andstatus/andstatus/blob/master/doc/Privacy-Policy.md",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/VI5ii6OTeBuSn1kTDPlXSwj7yI7kqDqf_drsvZ90qjcm7LbbVkG8UfPTicKqMzipsY_lBnAYAH5t8GxN",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Parental guidance",
+        "learnMoreHtmlLink": "Parental guidance recommended<br/>Users interact<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=org.andstatus.app",
+    "reviewsUrl": "rev?doc=org.andstatus.app&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=org.andstatus.app",
+    "title": "AndStatus",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "andstatus@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Moscow, Russia"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "24 Dec 2011"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "72",
+      "fiveStarRatings": "70",
+      "fourStarRatings": "45",
+      "oneStarRatings": "12",
+      "ratingsCount": "150",
+      "starRating": 4.03,
+      "threeStarRatings": "15",
+      "twoStarRatings": "7",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-04-13 03:29:04.321666",
+    "backendDocid": "org.andstatus.app",
+    "backendId": 3,
+    "creator": "Yuri Volkov (yvolk)",
+    "descriptionHtml": "AndStatus is an Open Source multiple accounts client for multiple Social networks, including Mastodon, Twitter, ActivityPub (Client to Server), GNU social and Pump.io.<br>AndStatus can combine your feeds from all networks into one Timeline,<br>and it allows you to read and post even when you are offline.<br><br>For Android v.7.0+ devices.<br><br>Differentiating features of AndStatus:<br><br>1. Many accounts in different Social networks. You may have several accounts in each, write/reply as any &quot;You&quot; and share between accounts and networks.<br>2. You don&#39;t need to be online to read timelines and to post your updates: drafts and unsent posts are kept even after reboot. They will be sent when your device is Online.<br>3. Convenient tree-like &quot;Conversation view&quot;.<br>4. &quot;Global search&quot; allowing you to search public notes in all networks with one query.<br>5. Lists of Friends and Followers, presented as User Lists and as Timelines (with the latest note by each User).<br>6. Notes (tweets)/avatars/attached images are periodically synced in a background, when your device has a good connection. By default, attachments are downloaded via Wi-Fi only.<br>7. Cached data may be stored for years or for several days only - it&#39;s your choice.<br>8. Backup accounts and notes and Restore them on any of your devices. Own your data!<br>9. Free and without ads, community supported.<br><br>See a Change Log for descriptions of all features of AndStatus with links to their discussions:<br>http://andstatus.org/changelog.html",
+    "descriptionShort": "Open Source multiple accounts client for multiple social networks",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown1": 1,
+          "unknown2": "7556536",
+          "unknown3": 29
+        },
+        "developerAddress": "Moscow, Russia",
+        "developerEmail": "andstatus@gmail.com",
+        "developerName": "Yuri Volkov (yvolk)",
+        "developerWebsite": "http://andstatus.org/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "7556536",
+            "versionCode": 341
+          }
+        ],
+        "installationSize": "7556536",
+        "numDownloads": "5,000+ downloads",
+        "packageName": "org.andstatus.app",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_SYNC_SETTINGS",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_SYNC_SETTINGS"
+        ],
+        "recentChangesHtml": "v.58.02 Fix crash on &quot;Parameter specified as non-null is null&quot;. Partially fixed attachments showing.",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "8 Apr 2021",
+        "versionCode": 341,
+        "versionString": "58.02"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=org.andstatus.app",
+    "docType": 1,
+    "docid": "org.andstatus.app",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/cj7gjo_NhxVCvEMNoHZuADDGE8fxjnvEaYCAxkwhNVsCv6KhOG9ModHuPxw7SAaqVA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/5MhA-fFLVU6YULxzPXgmYw8xxng_9w_vp7qKMgV76e8gSXpj_E6TF4UKeQmPMXtYKQJb",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/OKvYh2ZZuYDsfeDTvSEqXebJmMInKVhoZmv-IZevc2BuUm2ZP6QWq5S9EHdDRMOcuF0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/TOPxLySY9Vf7W4rWtq5b4UFKmMIkpEH8cbbBrNuKUwtyy4pUoU-sFNbYJMX6YPEB1Jk",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ZQtKZBAkbBYBBhpyMOV7Wjzt0oT71TZ9evYElNsrQpqbPieFYbOEd-EQewq1pXli-A",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/_xYCylRxyiyLF9ELk6B8MtPMFj8kZpYRwlhghhVzavwFF8UfHbDSX0sJho4B7zpBJr55",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/_MTsl8vLQuau8FNz1zxoUlF6KE0ZIZYLc_UCwEXsqr5KXxeGiqwhpYu_gSQOCJGRXnhO",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/mLLbkXbaY0siR6fb6nWUCXigyWoCEPj600RgOEiML4mV8ywmxYXsjs9FHA_KLPv1wSI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/_PAlGSskhVoowpRZuBlFz5pwSgtcOtHc4zjqpMrgxqKmcl-dB5bksJHHr85vvjAZCHo",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://github.com/andstatus/andstatus/blob/master/doc/Privacy-Policy.md",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/VI5ii6OTeBuSn1kTDPlXSwj7yI7kqDqf_drsvZ90qjcm7LbbVkG8UfPTicKqMzipsY_lBnAYAH5t8GxN",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Parental guidance",
+        "learnMoreHtmlLink": "Parental guidance recommended<br/>Users interact<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=org.andstatus.app",
+    "reviewsUrl": "rev?doc=org.andstatus.app&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=org.andstatus.app",
+    "title": "AndStatus",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "andstatus@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Moscow, Russia"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "24 Dec 2011"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "72",
+      "fiveStarRatings": "70",
+      "fourStarRatings": "44",
+      "oneStarRatings": "10",
+      "ratingsCount": "149",
+      "starRating": 4.05,
+      "threeStarRatings": "16",
+      "twoStarRatings": "7",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-04-25 13:25:46.958009",
+    "backendDocid": "org.andstatus.app",
+    "backendId": 3,
+    "creator": "Yuri Volkov (yvolk)",
+    "descriptionHtml": "AndStatus is an Open Source multiple accounts client for multiple Social networks, including Mastodon, Twitter, ActivityPub (Client to Server), GNU social and Pump.io.<br>AndStatus can combine your feeds from all networks into one Timeline,<br>and it allows you to read and post even when you are offline.<br><br>For Android v.7.0+ devices.<br><br>Differentiating features of AndStatus:<br><br>1. Many accounts in different Social networks. You may have several accounts in each, write/reply as any &quot;You&quot; and share between accounts and networks.<br>2. You don&#39;t need to be online to read timelines and to post your updates: drafts and unsent posts are kept even after reboot. They will be sent when your device is Online.<br>3. Convenient tree-like &quot;Conversation view&quot;.<br>4. &quot;Global search&quot; allowing you to search public notes in all networks with one query.<br>5. Lists of Friends and Followers, presented as User Lists and as Timelines (with the latest note by each User).<br>6. Notes (tweets)/avatars/attached images are periodically synced in a background, when your device has a good connection. By default, attachments are downloaded via Wi-Fi only.<br>7. Cached data may be stored for years or for several days only - it&#39;s your choice.<br>8. Backup accounts and notes and Restore them on any of your devices. Own your data!<br>9. Free and without ads, community supported.<br><br>See a Change Log for descriptions of all features of AndStatus with links to their discussions:<br>http://andstatus.org/changelog.html",
+    "descriptionShort": "Open Source multiple accounts client for multiple social networks",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown1": 1,
+          "unknown2": "7557177",
+          "unknown3": 29
+        },
+        "developerAddress": "Moscow, Russia",
+        "developerEmail": "andstatus@gmail.com",
+        "developerName": "Yuri Volkov (yvolk)",
+        "developerWebsite": "http://andstatus.org/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "7557177",
+            "versionCode": 342
+          }
+        ],
+        "installationSize": "7557177",
+        "numDownloads": "5,000+ downloads",
+        "packageName": "org.andstatus.app",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_SYNC_SETTINGS",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_SYNC_SETTINGS"
+        ],
+        "recentChangesHtml": "v.58.03 Add &quot;Log out&quot; button to the &quot;Account&quot; screen.",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "24 Apr 2021",
+        "versionCode": 342,
+        "versionString": "58.03"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=org.andstatus.app",
+    "docType": 1,
+    "docid": "org.andstatus.app",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/cj7gjo_NhxVCvEMNoHZuADDGE8fxjnvEaYCAxkwhNVsCv6KhOG9ModHuPxw7SAaqVA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/5MhA-fFLVU6YULxzPXgmYw8xxng_9w_vp7qKMgV76e8gSXpj_E6TF4UKeQmPMXtYKQJb",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/OKvYh2ZZuYDsfeDTvSEqXebJmMInKVhoZmv-IZevc2BuUm2ZP6QWq5S9EHdDRMOcuF0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/TOPxLySY9Vf7W4rWtq5b4UFKmMIkpEH8cbbBrNuKUwtyy4pUoU-sFNbYJMX6YPEB1Jk",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ZQtKZBAkbBYBBhpyMOV7Wjzt0oT71TZ9evYElNsrQpqbPieFYbOEd-EQewq1pXli-A",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/_xYCylRxyiyLF9ELk6B8MtPMFj8kZpYRwlhghhVzavwFF8UfHbDSX0sJho4B7zpBJr55",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/_MTsl8vLQuau8FNz1zxoUlF6KE0ZIZYLc_UCwEXsqr5KXxeGiqwhpYu_gSQOCJGRXnhO",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/mLLbkXbaY0siR6fb6nWUCXigyWoCEPj600RgOEiML4mV8ywmxYXsjs9FHA_KLPv1wSI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/_PAlGSskhVoowpRZuBlFz5pwSgtcOtHc4zjqpMrgxqKmcl-dB5bksJHHr85vvjAZCHo",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://github.com/andstatus/andstatus/blob/master/doc/Privacy-Policy.md",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/VI5ii6OTeBuSn1kTDPlXSwj7yI7kqDqf_drsvZ90qjcm7LbbVkG8UfPTicKqMzipsY_lBnAYAH5t8GxN",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Parental guidance",
+        "learnMoreHtmlLink": "Parental guidance recommended<br/>Users interact<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=org.andstatus.app",
+    "reviewsUrl": "rev?doc=org.andstatus.app&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=org.andstatus.app",
+    "title": "AndStatus",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "andstatus@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Moscow, Russia"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "24 Dec 2011"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "72",
+      "fiveStarRatings": "70",
+      "fourStarRatings": "44",
+      "oneStarRatings": "10",
+      "ratingsCount": "149",
+      "starRating": 4.05,
+      "threeStarRatings": "16",
+      "twoStarRatings": "7",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-04-29 17:26:11.243538",
+    "backendDocid": "org.andstatus.app",
+    "backendId": 3,
+    "creator": "Yuri Volkov (yvolk)",
+    "descriptionHtml": "AndStatus is an Open Source multiple accounts client for multiple Social networks, including Mastodon, Twitter, ActivityPub (Client to Server), GNU social and Pump.io.<br>AndStatus can combine your feeds from all networks into one Timeline,<br>and it allows you to read and post even when you are offline.<br><br>For Android v.7.0+ devices.<br><br>Differentiating features of AndStatus:<br><br>1. Many accounts in different Social networks. You may have several accounts in each, write/reply as any &quot;You&quot; and share between accounts and networks.<br>2. You don&#39;t need to be online to read timelines and to post your updates: drafts and unsent posts are kept even after reboot. They will be sent when your device is Online.<br>3. Convenient tree-like &quot;Conversation view&quot;.<br>4. &quot;Global search&quot; allowing you to search public notes in all networks with one query.<br>5. Lists of Friends and Followers, presented as User Lists and as Timelines (with the latest note by each User).<br>6. Notes (tweets)/avatars/attached images are periodically synced in a background, when your device has a good connection. By default, attachments are downloaded via Wi-Fi only.<br>7. Cached data may be stored for years or for several days only - it&#39;s your choice.<br>8. Backup accounts and notes and Restore them on any of your devices. Own your data!<br>9. Free and without ads, community supported.<br><br>See a Change Log for descriptions of all features of AndStatus with links to their discussions:<br>http://andstatus.org/changelog.html",
+    "descriptionShort": "Open Source multiple accounts client for multiple social networks",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown1": 1,
+          "unknown2": "7528414",
+          "unknown3": 29
+        },
+        "developerAddress": "Moscow, Russia",
+        "developerEmail": "andstatus@gmail.com",
+        "developerName": "Yuri Volkov (yvolk)",
+        "developerWebsite": "http://andstatus.org/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "7528414",
+            "versionCode": 343
+          }
+        ],
+        "installationSize": "7528414",
+        "numDownloads": "5,000+ downloads",
+        "packageName": "org.andstatus.app",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_SYNC_SETTINGS",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_SYNC_SETTINGS"
+        ],
+        "recentChangesHtml": "v.58.04 Fix image resizing in a timeline. Fix Accounts reordering.",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "27 Apr 2021",
+        "versionCode": 343,
+        "versionString": "58.04"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=org.andstatus.app",
+    "docType": 1,
+    "docid": "org.andstatus.app",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/cj7gjo_NhxVCvEMNoHZuADDGE8fxjnvEaYCAxkwhNVsCv6KhOG9ModHuPxw7SAaqVA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/5MhA-fFLVU6YULxzPXgmYw8xxng_9w_vp7qKMgV76e8gSXpj_E6TF4UKeQmPMXtYKQJb",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/OKvYh2ZZuYDsfeDTvSEqXebJmMInKVhoZmv-IZevc2BuUm2ZP6QWq5S9EHdDRMOcuF0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/TOPxLySY9Vf7W4rWtq5b4UFKmMIkpEH8cbbBrNuKUwtyy4pUoU-sFNbYJMX6YPEB1Jk",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ZQtKZBAkbBYBBhpyMOV7Wjzt0oT71TZ9evYElNsrQpqbPieFYbOEd-EQewq1pXli-A",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/_xYCylRxyiyLF9ELk6B8MtPMFj8kZpYRwlhghhVzavwFF8UfHbDSX0sJho4B7zpBJr55",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/_MTsl8vLQuau8FNz1zxoUlF6KE0ZIZYLc_UCwEXsqr5KXxeGiqwhpYu_gSQOCJGRXnhO",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/mLLbkXbaY0siR6fb6nWUCXigyWoCEPj600RgOEiML4mV8ywmxYXsjs9FHA_KLPv1wSI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/_PAlGSskhVoowpRZuBlFz5pwSgtcOtHc4zjqpMrgxqKmcl-dB5bksJHHr85vvjAZCHo",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://github.com/andstatus/andstatus/blob/master/doc/Privacy-Policy.md",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/VI5ii6OTeBuSn1kTDPlXSwj7yI7kqDqf_drsvZ90qjcm7LbbVkG8UfPTicKqMzipsY_lBnAYAH5t8GxN",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Parental guidance",
+        "learnMoreHtmlLink": "Parental guidance recommended<br/>Users interact<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=org.andstatus.app",
+    "reviewsUrl": "rev?doc=org.andstatus.app&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=org.andstatus.app",
+    "title": "AndStatus",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "andstatus@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Moscow, Russia"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "24 Dec 2011"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "71",
+      "fiveStarRatings": "71",
+      "fourStarRatings": "44",
+      "oneStarRatings": "8",
+      "ratingsCount": "149",
+      "starRating": 4.09,
+      "threeStarRatings": "16",
+      "twoStarRatings": "7",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-06-29 02:31:25.045404",
+    "backendDocid": "org.andstatus.app",
+    "backendId": 3,
+    "creator": "Yuri Volkov (yvolk)",
+    "descriptionHtml": "AndStatus is an Open Source multiple accounts client for multiple Social networks, including Mastodon, Twitter, ActivityPub (Client to Server), GNU social and Pump.io.<br>AndStatus can combine your feeds from all networks into one Timeline,<br>and it allows you to read and post even when you are offline.<br><br>For Android v.7.0+ devices.<br><br>Differentiating features of AndStatus:<br><br>1. Many accounts in different Social networks. You may have several accounts in each, write/reply as any &quot;You&quot; and share between accounts and networks.<br>2. You don&#39;t need to be online to read timelines and to post your updates: drafts and unsent posts are kept even after reboot. They will be sent when your device is Online.<br>3. Convenient tree-like &quot;Conversation view&quot;.<br>4. &quot;Global search&quot; allowing you to search public notes in all networks with one query.<br>5. Lists of Friends and Followers, presented as User Lists and as Timelines (with the latest note by each User).<br>6. Notes (tweets)/avatars/attached images are periodically synced in a background, when your device has a good connection. By default, attachments are downloaded via Wi-Fi only.<br>7. Cached data may be stored for years or for several days only - it&#39;s your choice.<br>8. Backup accounts and notes and Restore them on any of your devices. Own your data!<br>9. Free and without ads, community supported.<br><br>See a Change Log for descriptions of all features of AndStatus with links to their discussions:<br>http://andstatus.org/changelog.html",
+    "descriptionShort": "Open Source multiple accounts client for multiple social networks",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown1": 1,
+          "unknown2": "7825669",
+          "unknown3": 29
+        },
+        "developerAddress": "Moscow, Russia",
+        "developerEmail": "andstatus@gmail.com",
+        "developerName": "Yuri Volkov (yvolk)",
+        "developerWebsite": "http://andstatus.org/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "7825669",
+            "versionCode": 345
+          }
+        ],
+        "installationSize": "7825669",
+        "numDownloads": "5,000+ downloads",
+        "packageName": "org.andstatus.app",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_SYNC_SETTINGS",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_SYNC_SETTINGS"
+        ],
+        "recentChangesHtml": "v.59.01 New Settings option &quot;Show Send button near the composed note&quot; in &quot;Gestures&quot; section replaces the old and not working &quot;ENTER key sends a note&quot; option https://github.com/andstatus/andstatus/issues/533<br><br>Support Magnet URI as a &quot;downloadable ID&quot; of an object.<br>Intended for ActivityPub but will work for any Social network https://github.com/andstatus/andstatus/issues/535",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "24 Jun 2021",
+        "versionCode": 345,
+        "versionString": "59.01"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=org.andstatus.app",
+    "docType": 1,
+    "docid": "org.andstatus.app",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/cj7gjo_NhxVCvEMNoHZuADDGE8fxjnvEaYCAxkwhNVsCv6KhOG9ModHuPxw7SAaqVA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/5MhA-fFLVU6YULxzPXgmYw8xxng_9w_vp7qKMgV76e8gSXpj_E6TF4UKeQmPMXtYKQJb",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/OKvYh2ZZuYDsfeDTvSEqXebJmMInKVhoZmv-IZevc2BuUm2ZP6QWq5S9EHdDRMOcuF0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/TOPxLySY9Vf7W4rWtq5b4UFKmMIkpEH8cbbBrNuKUwtyy4pUoU-sFNbYJMX6YPEB1Jk",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ZQtKZBAkbBYBBhpyMOV7Wjzt0oT71TZ9evYElNsrQpqbPieFYbOEd-EQewq1pXli-A",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/_xYCylRxyiyLF9ELk6B8MtPMFj8kZpYRwlhghhVzavwFF8UfHbDSX0sJho4B7zpBJr55",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/_MTsl8vLQuau8FNz1zxoUlF6KE0ZIZYLc_UCwEXsqr5KXxeGiqwhpYu_gSQOCJGRXnhO",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/mLLbkXbaY0siR6fb6nWUCXigyWoCEPj600RgOEiML4mV8ywmxYXsjs9FHA_KLPv1wSI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/_PAlGSskhVoowpRZuBlFz5pwSgtcOtHc4zjqpMrgxqKmcl-dB5bksJHHr85vvjAZCHo",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://github.com/andstatus/andstatus/blob/master/doc/Privacy-Policy.md",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/YX4IU7qLML-be7Xl25J-YkRBNgSZhVhJIsxeLdke3SaX1QBSFEKLbdcWORAwahq0oI4rrjz5YnWiVdb5",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Mature 17+",
+        "learnMoreHtmlLink": "Users interact<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=org.andstatus.app",
+    "reviewsUrl": "rev?doc=org.andstatus.app&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=org.andstatus.app",
+    "title": "AndStatus",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Yuri Volkov (yvolk)"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "andstatus@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Moscow, Russia"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "24 Dec 2011"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "71",
+      "fiveStarRatings": "71",
+      "fourStarRatings": "44",
+      "oneStarRatings": "8",
+      "ratingsCount": "149",
+      "starRating": 4.09,
+      "threeStarRatings": "16",
+      "twoStarRatings": "7",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-08-14 01:51:08.443223",
+    "backendDocid": "org.andstatus.app",
+    "backendId": 3,
+    "creator": "Yuri Volkov (yvolk)",
+    "descriptionHtml": "AndStatus is an Open Source multiple accounts client for multiple Social networks, including Mastodon, Twitter, ActivityPub (Client to Server), GNU social and Pump.io.<br>AndStatus can combine your feeds from all networks into one Timeline,<br>and it allows you to read and post even when you are offline.<br><br>For Android v.7.0+ devices.<br><br>Differentiating features of AndStatus:<br><br>1. Many accounts in different Social networks. You may have several accounts in each, write/reply as any &quot;You&quot; and share between accounts and networks.<br>2. You don&#39;t need to be online to read timelines and to post your updates: drafts and unsent posts are kept even after reboot. They will be sent when your device is Online.<br>3. Convenient tree-like &quot;Conversation view&quot;.<br>4. &quot;Global search&quot; allowing you to search public notes in all networks with one query.<br>5. Lists of Friends and Followers, presented as User Lists and as Timelines (with the latest note by each User).<br>6. Notes (tweets)/avatars/attached images are periodically synced in a background, when your device has a good connection. By default, attachments are downloaded via Wi-Fi only.<br>7. Cached data may be stored for years or for several days only - it&#39;s your choice.<br>8. Backup accounts and notes and Restore them on any of your devices. Own your data!<br>9. Free and without ads, community supported.<br><br>See a Change Log for descriptions of all features of AndStatus with links to their discussions:<br>http://andstatus.org/changelog.html",
+    "descriptionShort": "Open Source multiple accounts client for multiple social networks",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown1": 1,
+          "unknown2": "7465783",
+          "unknown3": 30
+        },
+        "developerAddress": "Moscow, Russia",
+        "developerEmail": "andstatus@gmail.com",
+        "developerName": "Yuri Volkov (yvolk)",
+        "developerWebsite": "http://andstatus.org/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "7465783",
+            "versionCode": 346
+          }
+        ],
+        "installationSize": "7465783",
+        "numDownloads": "5,000+ downloads",
+        "packageName": "org.andstatus.app",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_SYNC_SETTINGS",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_SYNC_SETTINGS"
+        ],
+        "recentChangesHtml": "v.59.02 Faster timelines and images downloading:<br>now up to 2 processes load timelines and up to 4 processes load images concurrently.<br><br>Fixed long timeouts during attempts to load files from non-working server over SSL.<br><br>Maximum local storage (cache) size increased up to 10 million notes and 100 years.",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "13 Aug 2021",
+        "versionCode": 346,
+        "versionString": "59.02"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=org.andstatus.app",
+    "docType": 1,
+    "docid": "org.andstatus.app",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/cj7gjo_NhxVCvEMNoHZuADDGE8fxjnvEaYCAxkwhNVsCv6KhOG9ModHuPxw7SAaqVA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/5MhA-fFLVU6YULxzPXgmYw8xxng_9w_vp7qKMgV76e8gSXpj_E6TF4UKeQmPMXtYKQJb",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/OKvYh2ZZuYDsfeDTvSEqXebJmMInKVhoZmv-IZevc2BuUm2ZP6QWq5S9EHdDRMOcuF0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/TOPxLySY9Vf7W4rWtq5b4UFKmMIkpEH8cbbBrNuKUwtyy4pUoU-sFNbYJMX6YPEB1Jk",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ZQtKZBAkbBYBBhpyMOV7Wjzt0oT71TZ9evYElNsrQpqbPieFYbOEd-EQewq1pXli-A",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/_xYCylRxyiyLF9ELk6B8MtPMFj8kZpYRwlhghhVzavwFF8UfHbDSX0sJho4B7zpBJr55",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/_MTsl8vLQuau8FNz1zxoUlF6KE0ZIZYLc_UCwEXsqr5KXxeGiqwhpYu_gSQOCJGRXnhO",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/mLLbkXbaY0siR6fb6nWUCXigyWoCEPj600RgOEiML4mV8ywmxYXsjs9FHA_KLPv1wSI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/_PAlGSskhVoowpRZuBlFz5pwSgtcOtHc4zjqpMrgxqKmcl-dB5bksJHHr85vvjAZCHo",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://github.com/andstatus/andstatus/blob/master/doc/Privacy-Policy.md",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/VI5ii6OTeBuSn1kTDPlXSwj7yI7kqDqf_drsvZ90qjcm7LbbVkG8UfPTicKqMzipsY_lBnAYAH5t8GxN",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Parental guidance",
+        "learnMoreHtmlLink": "Parental guidance recommended<br/>Users interact<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=org.andstatus.app",
+    "reviewsUrl": "rev?doc=org.andstatus.app&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=org.andstatus.app",
+    "title": "AndStatus",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "andstatus@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Moscow, Russia"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "24 Dec 2011"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "71",
+      "fiveStarRatings": "71",
+      "fourStarRatings": "44",
+      "oneStarRatings": "8",
+      "ratingsCount": "149",
+      "starRating": 4.09,
+      "threeStarRatings": "16",
+      "twoStarRatings": "7",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-08-16 12:01:44.065344",
+    "backendDocid": "org.andstatus.app",
+    "backendId": 3,
+    "creator": "Yuri Volkov (yvolk)",
+    "descriptionHtml": "AndStatus is an Open Source multiple accounts client for multiple Social networks, including Mastodon, Twitter, ActivityPub (Client to Server), GNU social and Pump.io.<br>AndStatus can combine your feeds from all networks into one Timeline,<br>and it allows you to read and post even when you are offline.<br><br>For Android v.7.0+ devices.<br><br>Differentiating features of AndStatus:<br><br>1. Many accounts in different Social networks. You may have several accounts in each, write/reply as any &quot;You&quot; and share between accounts and networks.<br>2. You don&#39;t need to be online to read timelines and to post your updates: drafts and unsent posts are kept even after reboot. They will be sent when your device is Online.<br>3. Convenient tree-like &quot;Conversation view&quot;.<br>4. &quot;Global search&quot; allowing you to search public notes in all networks with one query.<br>5. Lists of Friends and Followers, presented as User Lists and as Timelines (with the latest note by each User).<br>6. Notes (tweets)/avatars/attached images are periodically synced in a background, when your device has a good connection. By default, attachments are downloaded via Wi-Fi only.<br>7. Cached data may be stored for years or for several days only - it&#39;s your choice.<br>8. Backup accounts and notes and Restore them on any of your devices. Own your data!<br>9. Free and without ads, community supported.<br><br>See a Change Log for descriptions of all features of AndStatus with links to their discussions:<br>http://andstatus.org/changelog.html",
+    "descriptionShort": "Open Source multiple accounts client for multiple social networks",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown1": 1,
+          "unknown2": "7469354",
+          "unknown3": 30
+        },
+        "developerAddress": "Moscow, Russia",
+        "developerEmail": "andstatus@gmail.com",
+        "developerName": "Yuri Volkov (yvolk)",
+        "developerWebsite": "http://andstatus.org/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "7469354",
+            "versionCode": 347
+          }
+        ],
+        "installationSize": "7469354",
+        "numDownloads": "5,000+ downloads",
+        "packageName": "org.andstatus.app",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_SYNC_SETTINGS",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_SYNC_SETTINGS"
+        ],
+        "recentChangesHtml": "v.59.03 Fix crash when clicking on an image.<br>v.59.02 Faster timelines and images downloading:<br>now up to 2 processes load timelines and up to 4 processes load images concurrently.<br><br>Fixed long timeouts during attempts to load files from non-working server over SSL.<br><br>Maximum local storage (cache) size increased up to 10 million notes and 100 years.",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "15 Aug 2021",
+        "versionCode": 347,
+        "versionString": "59.03"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=org.andstatus.app",
+    "docType": 1,
+    "docid": "org.andstatus.app",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/cj7gjo_NhxVCvEMNoHZuADDGE8fxjnvEaYCAxkwhNVsCv6KhOG9ModHuPxw7SAaqVA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/5MhA-fFLVU6YULxzPXgmYw8xxng_9w_vp7qKMgV76e8gSXpj_E6TF4UKeQmPMXtYKQJb",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/OKvYh2ZZuYDsfeDTvSEqXebJmMInKVhoZmv-IZevc2BuUm2ZP6QWq5S9EHdDRMOcuF0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/TOPxLySY9Vf7W4rWtq5b4UFKmMIkpEH8cbbBrNuKUwtyy4pUoU-sFNbYJMX6YPEB1Jk",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ZQtKZBAkbBYBBhpyMOV7Wjzt0oT71TZ9evYElNsrQpqbPieFYbOEd-EQewq1pXli-A",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/_xYCylRxyiyLF9ELk6B8MtPMFj8kZpYRwlhghhVzavwFF8UfHbDSX0sJho4B7zpBJr55",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/_MTsl8vLQuau8FNz1zxoUlF6KE0ZIZYLc_UCwEXsqr5KXxeGiqwhpYu_gSQOCJGRXnhO",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/mLLbkXbaY0siR6fb6nWUCXigyWoCEPj600RgOEiML4mV8ywmxYXsjs9FHA_KLPv1wSI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/_PAlGSskhVoowpRZuBlFz5pwSgtcOtHc4zjqpMrgxqKmcl-dB5bksJHHr85vvjAZCHo",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://github.com/andstatus/andstatus/blob/master/doc/Privacy-Policy.md",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/VI5ii6OTeBuSn1kTDPlXSwj7yI7kqDqf_drsvZ90qjcm7LbbVkG8UfPTicKqMzipsY_lBnAYAH5t8GxN",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Parental guidance",
+        "learnMoreHtmlLink": "Parental guidance recommended<br/>Users interact<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=org.andstatus.app",
+    "reviewsUrl": "rev?doc=org.andstatus.app&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=org.andstatus.app",
+    "title": "AndStatus",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "andstatus@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Moscow, Russia"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "24 Dec 2011"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "71",
+      "fiveStarRatings": "69",
+      "fourStarRatings": "44",
+      "oneStarRatings": "8",
+      "ratingsCount": "148",
+      "starRating": 4.07,
+      "threeStarRatings": "17",
+      "twoStarRatings": "7",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-09-02 01:03:26.969506",
+    "backendDocid": "org.andstatus.app",
+    "backendId": 3,
+    "creator": "Yuri Volkov (yvolk)",
+    "descriptionHtml": "AndStatus is an Open Source multiple accounts client for multiple Social networks, including Mastodon, Twitter, ActivityPub (Client to Server), GNU social and Pump.io.<br>AndStatus can combine your feeds from all networks into one Timeline,<br>and it allows you to read and post even when you are offline.<br><br>For Android v.7.0+ devices.<br><br>Differentiating features of AndStatus:<br><br>1. Many accounts in different Social networks. You may have several accounts in each, write/reply as any &quot;You&quot; and share between accounts and networks.<br>2. You don&#39;t need to be online to read timelines and to post your updates: drafts and unsent posts are kept even after reboot. They will be sent when your device is Online.<br>3. Convenient tree-like &quot;Conversation view&quot;.<br>4. &quot;Global search&quot; allowing you to search public notes in all networks with one query.<br>5. Lists of Friends and Followers, presented as User Lists and as Timelines (with the latest note by each User).<br>6. Notes (tweets)/avatars/attached images are periodically synced in a background, when your device has a good connection. By default, attachments are downloaded via Wi-Fi only.<br>7. Cached data may be stored for years or for several days only - it&#39;s your choice.<br>8. Backup accounts and notes and Restore them on any of your devices. Own your data!<br>9. Free and without ads, community supported.<br><br>See a Change Log for descriptions of all features of AndStatus with links to their discussions:<br>http://andstatus.org/changelog.html",
+    "descriptionShort": "Open Source multiple accounts client for multiple social networks",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown1": 1,
+          "unknown2": "7471768",
+          "unknown3": 30
+        },
+        "developerAddress": "Moscow, Russia",
+        "developerEmail": "andstatus@gmail.com",
+        "developerName": "Yuri Volkov (yvolk)",
+        "developerWebsite": "http://andstatus.org/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "7471768",
+            "versionCode": 348
+          }
+        ],
+        "installationSize": "7471768",
+        "numDownloads": "5,000+ downloads",
+        "packageName": "org.andstatus.app",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_SYNC_SETTINGS",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_SYNC_SETTINGS"
+        ],
+        "recentChangesHtml": "v.59.04 Don&#39;t send a note with an attachment when download of attachments is not allowed e.g. when<br>&quot;Download attachment over Wi-Fi only&quot; is set and we are not on Wi-Fi connection.",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "28 Aug 2021",
+        "versionCode": 348,
+        "versionString": "59.04"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=org.andstatus.app",
+    "docType": 1,
+    "docid": "org.andstatus.app",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/cj7gjo_NhxVCvEMNoHZuADDGE8fxjnvEaYCAxkwhNVsCv6KhOG9ModHuPxw7SAaqVA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/5MhA-fFLVU6YULxzPXgmYw8xxng_9w_vp7qKMgV76e8gSXpj_E6TF4UKeQmPMXtYKQJb",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/OKvYh2ZZuYDsfeDTvSEqXebJmMInKVhoZmv-IZevc2BuUm2ZP6QWq5S9EHdDRMOcuF0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/TOPxLySY9Vf7W4rWtq5b4UFKmMIkpEH8cbbBrNuKUwtyy4pUoU-sFNbYJMX6YPEB1Jk",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ZQtKZBAkbBYBBhpyMOV7Wjzt0oT71TZ9evYElNsrQpqbPieFYbOEd-EQewq1pXli-A",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/_xYCylRxyiyLF9ELk6B8MtPMFj8kZpYRwlhghhVzavwFF8UfHbDSX0sJho4B7zpBJr55",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/_MTsl8vLQuau8FNz1zxoUlF6KE0ZIZYLc_UCwEXsqr5KXxeGiqwhpYu_gSQOCJGRXnhO",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/mLLbkXbaY0siR6fb6nWUCXigyWoCEPj600RgOEiML4mV8ywmxYXsjs9FHA_KLPv1wSI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/_PAlGSskhVoowpRZuBlFz5pwSgtcOtHc4zjqpMrgxqKmcl-dB5bksJHHr85vvjAZCHo",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://github.com/andstatus/andstatus/blob/master/doc/Privacy-Policy.md",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/VI5ii6OTeBuSn1kTDPlXSwj7yI7kqDqf_drsvZ90qjcm7LbbVkG8UfPTicKqMzipsY_lBnAYAH5t8GxN",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Parental guidance",
+        "learnMoreHtmlLink": "Parental guidance recommended<br/>Users interact<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=org.andstatus.app",
+    "reviewsUrl": "rev?doc=org.andstatus.app&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=org.andstatus.app",
+    "title": "AndStatus",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "andstatus@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Moscow, Russia"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "24 Dec 2011"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "72",
+      "fiveStarRatings": "70",
+      "fourStarRatings": "45",
+      "oneStarRatings": "9",
+      "ratingsCount": "150",
+      "starRating": 4.07,
+      "threeStarRatings": "18",
+      "twoStarRatings": "7",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-10-07 23:20:45.961166",
+    "backendDocid": "org.andstatus.app",
+    "backendId": 3,
+    "creator": "Yuri Volkov (yvolk)",
+    "descriptionHtml": "AndStatus is an Open Source multiple accounts client for multiple Social networks, including Mastodon, Twitter, ActivityPub (Client to Server), GNU social and Pump.io.<br>AndStatus can combine your feeds from all networks into one Timeline,<br>and it allows you to read and post even when you are offline.<br><br>For Android v.7.0+ devices.<br><br>Differentiating features of AndStatus:<br><br>1. Many accounts in different Social networks. You may have several accounts in each, write/reply as any &quot;You&quot; and share between accounts and networks.<br>2. You don&#39;t need to be online to read timelines and to post your updates: drafts and unsent posts are kept even after reboot. They will be sent when your device is Online.<br>3. Convenient tree-like &quot;Conversation view&quot;.<br>4. &quot;Global search&quot; allowing you to search public notes in all networks with one query.<br>5. Lists of Friends and Followers, presented as User Lists and as Timelines (with the latest note by each User).<br>6. Notes (tweets)/avatars/attached images are periodically synced in a background, when your device has a good connection. By default, attachments are downloaded via Wi-Fi only.<br>7. Cached data may be stored for years or for several days only - it&#39;s your choice.<br>8. Backup accounts and notes and Restore them on any of your devices. Own your data!<br>9. Free and without ads, community supported.<br><br>See a Change Log for descriptions of all features of AndStatus with links to their discussions:<br>http://andstatus.org/changelog.html",
+    "descriptionShort": "Open Source multiple accounts client for multiple social networks",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown1": 1,
+          "unknown2": "7475676",
+          "unknown3": 30
+        },
+        "developerAddress": "Moscow, Russia",
+        "developerEmail": "andstatus@gmail.com",
+        "developerName": "Yuri Volkov (yvolk)",
+        "developerWebsite": "http://andstatus.org/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "7475676",
+            "versionCode": 349
+          }
+        ],
+        "installationSize": "7475676",
+        "numDownloads": "5,000+ downloads",
+        "packageName": "org.andstatus.app",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_SYNC_SETTINGS",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_SYNC_SETTINGS"
+        ],
+        "recentChangesHtml": "v.59.05 More intelligent choice of an Actor for replies<br>* When deciding on a default actor to reply to a message, check if any of my actors is already<br> a participant of this conversation.<br>* Sooner retries of throttled downloads.<br>* Notifications on Home timeline messages are turned off by default.",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "29 Sept 2021",
+        "versionCode": 349,
+        "versionString": "59.05"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=org.andstatus.app",
+    "docType": 1,
+    "docid": "org.andstatus.app",
+    "image": [
+      {
+        "color": "#191C1F",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/cj7gjo_NhxVCvEMNoHZuADDGE8fxjnvEaYCAxkwhNVsCv6KhOG9ModHuPxw7SAaqVA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/5MhA-fFLVU6YULxzPXgmYw8xxng_9w_vp7qKMgV76e8gSXpj_E6TF4UKeQmPMXtYKQJb",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/OKvYh2ZZuYDsfeDTvSEqXebJmMInKVhoZmv-IZevc2BuUm2ZP6QWq5S9EHdDRMOcuF0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/TOPxLySY9Vf7W4rWtq5b4UFKmMIkpEH8cbbBrNuKUwtyy4pUoU-sFNbYJMX6YPEB1Jk",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ZQtKZBAkbBYBBhpyMOV7Wjzt0oT71TZ9evYElNsrQpqbPieFYbOEd-EQewq1pXli-A",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/_xYCylRxyiyLF9ELk6B8MtPMFj8kZpYRwlhghhVzavwFF8UfHbDSX0sJho4B7zpBJr55",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/_MTsl8vLQuau8FNz1zxoUlF6KE0ZIZYLc_UCwEXsqr5KXxeGiqwhpYu_gSQOCJGRXnhO",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/mLLbkXbaY0siR6fb6nWUCXigyWoCEPj600RgOEiML4mV8ywmxYXsjs9FHA_KLPv1wSI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/_PAlGSskhVoowpRZuBlFz5pwSgtcOtHc4zjqpMrgxqKmcl-dB5bksJHHr85vvjAZCHo",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://github.com/andstatus/andstatus/blob/master/doc/Privacy-Policy.md",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/YX4IU7qLML-be7Xl25J-YkRBNgSZhVhJIsxeLdke3SaX1QBSFEKLbdcWORAwahq0oI4rrjz5YnWiVdb5",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Mature 17+",
+        "learnMoreHtmlLink": "Users interact<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=org.andstatus.app",
+    "reviewsUrl": "rev?doc=org.andstatus.app&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=org.andstatus.app",
+    "title": "AndStatus",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Yuri Volkov (yvolk)"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "andstatus@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Moscow, Russia"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "24 Dec 2011"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "4",
+      "fiveStarRatings": "153",
+      "fourStarRatings": "0",
+      "oneStarRatings": "0",
+      "ratingsCount": "153",
+      "starRating": 5.0,
+      "threeStarRatings": "0",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2022-12-26 09:13:15.179538",
+    "backendDocid": "org.andstatus.app",
+    "backendId": 3,
+    "creator": "Yuri Volkov (yvolk)",
+    "descriptionHtml": "AndStatus is an Open Source multiple accounts client for multiple Social networks, including Mastodon, Twitter, ActivityPub (Client to Server), GNU social and Pump.io.<br>AndStatus can combine your feeds from all networks into one Timeline,<br>and it allows you to read and post even when you are offline.<br><br>For Android v.7.0+ devices.<br><br>Differentiating features of AndStatus:<br><br>1. Many accounts in different Social networks. You may have several accounts in each, write/reply as any &quot;You&quot; and share between accounts and networks.<br>2. You don&#39;t need to be online to read timelines and to post your updates: drafts and unsent posts are kept even after reboot. They will be sent when your device is Online.<br>3. Convenient tree-like &quot;Conversation view&quot;.<br>4. &quot;Global search&quot; allowing you to search public notes in all networks with one query.<br>5. Lists of Friends and Followers, presented as User Lists and as Timelines (with the latest note by each User).<br>6. Notes (tweets)/avatars/attached images are periodically synced in a background, when your device has a good connection. By default, attachments are downloaded via Wi-Fi only.<br>7. Cached data may be stored for years or for several days only - it&#39;s your choice.<br>8. Backup accounts and notes and Restore them on any of your devices. Own your data!<br>9. Free and without ads, community supported.<br><br>See a Change Log for descriptions of all features of AndStatus with links to their discussions:<br>http://andstatus.org/changelog.html",
+    "descriptionShort": "Open Source multiple accounts client for multiple social networks",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown1": 1,
+          "unknown2": "7654046",
+          "unknown3": 31
+        },
+        "developerAddress": "Moscow, Russia",
+        "developerEmail": "andstatus@gmail.com",
+        "developerName": "Yuri Volkov (yvolk)",
+        "developerWebsite": "http://andstatus.org/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "7654046",
+            "versionCode": 354
+          }
+        ],
+        "installationSize": "7654046",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "org.andstatus.app",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_SYNC_SETTINGS",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.VIBRATE",
+          "android.permission.WAKE_LOCK",
+          "android.permission.WRITE_SYNC_SETTINGS",
+          "org.andstatus.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        ],
+        "recentChangesHtml": "Crash on Android 12+ fixed",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "10 Dec 2022",
+        "versionCode": 354,
+        "versionString": "59.09"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=org.andstatus.app",
+    "docType": 1,
+    "docid": "org.andstatus.app",
+    "image": [
+      {
+        "color": "#191C1F",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/cj7gjo_NhxVCvEMNoHZuADDGE8fxjnvEaYCAxkwhNVsCv6KhOG9ModHuPxw7SAaqVA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/5MhA-fFLVU6YULxzPXgmYw8xxng_9w_vp7qKMgV76e8gSXpj_E6TF4UKeQmPMXtYKQJb",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/OKvYh2ZZuYDsfeDTvSEqXebJmMInKVhoZmv-IZevc2BuUm2ZP6QWq5S9EHdDRMOcuF0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/TOPxLySY9Vf7W4rWtq5b4UFKmMIkpEH8cbbBrNuKUwtyy4pUoU-sFNbYJMX6YPEB1Jk",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ZQtKZBAkbBYBBhpyMOV7Wjzt0oT71TZ9evYElNsrQpqbPieFYbOEd-EQewq1pXli-A",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/_xYCylRxyiyLF9ELk6B8MtPMFj8kZpYRwlhghhVzavwFF8UfHbDSX0sJho4B7zpBJr55",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/_MTsl8vLQuau8FNz1zxoUlF6KE0ZIZYLc_UCwEXsqr5KXxeGiqwhpYu_gSQOCJGRXnhO",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/mLLbkXbaY0siR6fb6nWUCXigyWoCEPj600RgOEiML4mV8ywmxYXsjs9FHA_KLPv1wSI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/_PAlGSskhVoowpRZuBlFz5pwSgtcOtHc4zjqpMrgxqKmcl-dB5bksJHHr85vvjAZCHo",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "GBP",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://github.com/andstatus/andstatus/blob/master/doc/Privacy-Policy.md",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/VI5ii6OTeBuSn1kTDPlXSwj7yI7kqDqf_drsvZ90qjcm7LbbVkG8UfPTicKqMzipsY_lBnAYAH5t8GxN",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Parental guidance",
+        "learnMoreHtmlLink": "Parental guidance recommended<br/>Users interact<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=org.andstatus.app",
+    "reviewsUrl": "rev?doc=org.andstatus.app&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=org.andstatus.app",
+    "title": "AndStatus",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "andstatus@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Moscow, Russia"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "24 Dec 2011"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "5",
+      "fiveStarRatings": "83",
+      "fourStarRatings": "41",
+      "oneStarRatings": "13",
+      "ratingsCount": "153",
+      "starRating": 4.181818,
+      "threeStarRatings": "13",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-01-20 18:29:18.447022",
+    "backendDocid": "org.andstatus.app",
+    "backendId": 3,
+    "creator": "Yuri Volkov (yvolk)",
+    "descriptionHtml": "AndStatus is an Open Source multiple accounts client for multiple Social networks, including Mastodon, Twitter, ActivityPub (Client to Server), GNU social and Pump.io.<br>AndStatus can combine your feeds from all networks into one Timeline,<br>and it allows you to read and post even when you are offline.<br><br>For Android v.7.0+ devices.<br><br>Differentiating features of AndStatus:<br><br>1. Many accounts in different Social networks. You may have several accounts in each, write/reply as any &quot;You&quot; and share between accounts and networks.<br>2. You don&#39;t need to be online to read timelines and to post your updates: drafts and unsent posts are kept even after reboot. They will be sent when your device is Online.<br>3. Convenient tree-like &quot;Conversation view&quot;.<br>4. &quot;Global search&quot; allowing you to search public notes in all networks with one query.<br>5. Lists of Friends and Followers, presented as User Lists and as Timelines (with the latest note by each User).<br>6. Notes (tweets)/avatars/attached images are periodically synced in a background, when your device has a good connection. By default, attachments are downloaded via Wi-Fi only.<br>7. Cached data may be stored for years or for several days only - it&#39;s your choice.<br>8. Backup accounts and notes and Restore them on any of your devices. Own your data!<br>9. Free and without ads, community supported.<br><br>See a Change Log for descriptions of all features of AndStatus with links to their discussions:<br>http://andstatus.org/changelog.html",
+    "descriptionShort": "Open Source multiple accounts client for multiple social networks",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown1": 1,
+          "unknown2": "7657560",
+          "unknown3": 33
+        },
+        "developerAddress": "Moscow, Russia",
+        "developerEmail": "andstatus@gmail.com",
+        "developerName": "Yuri Volkov (yvolk)",
+        "developerWebsite": "http://andstatus.org/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "7657560",
+            "versionCode": 361
+          }
+        ],
+        "installationSize": "7657560",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "org.andstatus.app",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_SYNC_SETTINGS",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.VIBRATE",
+          "android.permission.WRITE_SYNC_SETTINGS",
+          "org.andstatus.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        ],
+        "recentChangesHtml": "v.60.01 Avoid confusing current account <br>v.59.10 Fix background syncing",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "19 Jan 2023",
+        "versionCode": 361,
+        "versionString": "60.01"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=org.andstatus.app",
+    "docType": 1,
+    "docid": "org.andstatus.app",
+    "image": [
+      {
+        "color": "#191C1F",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/cj7gjo_NhxVCvEMNoHZuADDGE8fxjnvEaYCAxkwhNVsCv6KhOG9ModHuPxw7SAaqVA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/5MhA-fFLVU6YULxzPXgmYw8xxng_9w_vp7qKMgV76e8gSXpj_E6TF4UKeQmPMXtYKQJb",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/OKvYh2ZZuYDsfeDTvSEqXebJmMInKVhoZmv-IZevc2BuUm2ZP6QWq5S9EHdDRMOcuF0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/TOPxLySY9Vf7W4rWtq5b4UFKmMIkpEH8cbbBrNuKUwtyy4pUoU-sFNbYJMX6YPEB1Jk",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ZQtKZBAkbBYBBhpyMOV7Wjzt0oT71TZ9evYElNsrQpqbPieFYbOEd-EQewq1pXli-A",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/_xYCylRxyiyLF9ELk6B8MtPMFj8kZpYRwlhghhVzavwFF8UfHbDSX0sJho4B7zpBJr55",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/_MTsl8vLQuau8FNz1zxoUlF6KE0ZIZYLc_UCwEXsqr5KXxeGiqwhpYu_gSQOCJGRXnhO",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/mLLbkXbaY0siR6fb6nWUCXigyWoCEPj600RgOEiML4mV8ywmxYXsjs9FHA_KLPv1wSI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/_PAlGSskhVoowpRZuBlFz5pwSgtcOtHc4zjqpMrgxqKmcl-dB5bksJHHr85vvjAZCHo",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://github.com/andstatus/andstatus/blob/master/doc/Privacy-Policy.md",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/VI5ii6OTeBuSn1kTDPlXSwj7yI7kqDqf_drsvZ90qjcm7LbbVkG8UfPTicKqMzipsY_lBnAYAH5t8GxN",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Parental guidance",
+        "learnMoreHtmlLink": "Parental guidance recommended<br/>Users interact<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=org.andstatus.app",
+    "reviewsUrl": "rev?doc=org.andstatus.app&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=org.andstatus.app",
+    "title": "AndStatus",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "andstatus@gmail.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "Moscow, Russia"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "24 Dec 2011"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "5",
+      "fiveStarRatings": "77",
+      "fourStarRatings": "38",
+      "oneStarRatings": "12",
+      "ratingsCount": "142",
+      "starRating": 4.181818,
+      "threeStarRatings": "12",
+      "twoStarRatings": "0",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2023-07-30 10:02:55.716024",
+    "backendDocid": "org.andstatus.app",
+    "backendId": 3,
+    "creator": "Yuri Volkov (yvolk)",
+    "descriptionHtml": "AndStatus is an Open Source multiple accounts client for multiple Social networks, including Mastodon, Twitter, ActivityPub (Client to Server), GNU social and Pump.io.<br>AndStatus can combine your feeds from all networks into one Timeline,<br>and it allows you to read and post even when you are offline.<br><br>For Android v.7.0+ devices.<br><br>Differentiating features of AndStatus:<br><br>1. Many accounts in different Social networks. You may have several accounts in each, write/reply as any &quot;You&quot; and share between accounts and networks.<br>2. You don&#39;t need to be online to read timelines and to post your updates: drafts and unsent posts are kept even after reboot. They will be sent when your device is Online.<br>3. Convenient tree-like &quot;Conversation view&quot;.<br>4. &quot;Global search&quot; allowing you to search public notes in all networks with one query.<br>5. Lists of Friends and Followers, presented as User Lists and as Timelines (with the latest note by each User).<br>6. Notes (tweets)/avatars/attached images are periodically synced in a background, when your device has a good connection. By default, attachments are downloaded via Wi-Fi only.<br>7. Cached data may be stored for years or for several days only - it&#39;s your choice.<br>8. Backup accounts and notes and Restore them on any of your devices. Own your data!<br>9. Free and without ads, community supported.<br><br>See a Change Log for descriptions of all features of AndStatus with links to their discussions:<br>http://andstatus.org/changelog.html",
+    "descriptionShort": "Open Source multiple accounts client for multiple social networks",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown1": 1,
+          "unknown2": "7682232",
+          "unknown3": 33
+        },
+        "developerAddress": "Moscow, Russia",
+        "developerEmail": "andstatus@gmail.com",
+        "developerName": "Yuri Volkov (yvolk)",
+        "developerWebsite": "http://andstatus.org/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "7682232",
+            "versionCode": 364
+          }
+        ],
+        "installationSize": "7682232",
+        "numDownloads": "10,000+ downloads",
+        "packageName": "org.andstatus.app",
+        "permission": [
+          "android.permission.ACCESS_NETWORK_STATE",
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.INTERNET",
+          "android.permission.READ_SYNC_SETTINGS",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.VIBRATE",
+          "android.permission.WRITE_SYNC_SETTINGS",
+          "org.andstatus.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        ],
+        "recentChangesHtml": "Fix ActivityPub newer page request",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": true,
+        "uploadDate": "Jul 18, 2023",
+        "versionCode": 364,
+        "versionString": "60.04"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=org.andstatus.app",
+    "docType": 1,
+    "docid": "org.andstatus.app",
+    "image": [
+      {
+        "color": "#191C1F",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/cj7gjo_NhxVCvEMNoHZuADDGE8fxjnvEaYCAxkwhNVsCv6KhOG9ModHuPxw7SAaqVA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 512,
+          "width": 512
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/5MhA-fFLVU6YULxzPXgmYw8xxng_9w_vp7qKMgV76e8gSXpj_E6TF4UKeQmPMXtYKQJb",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/OKvYh2ZZuYDsfeDTvSEqXebJmMInKVhoZmv-IZevc2BuUm2ZP6QWq5S9EHdDRMOcuF0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/TOPxLySY9Vf7W4rWtq5b4UFKmMIkpEH8cbbBrNuKUwtyy4pUoU-sFNbYJMX6YPEB1Jk",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/ZQtKZBAkbBYBBhpyMOV7Wjzt0oT71TZ9evYElNsrQpqbPieFYbOEd-EQewq1pXli-A",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1920,
+          "width": 1080
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/_xYCylRxyiyLF9ELk6B8MtPMFj8kZpYRwlhghhVzavwFF8UfHbDSX0sJho4B7zpBJr55",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/_MTsl8vLQuau8FNz1zxoUlF6KE0ZIZYLc_UCwEXsqr5KXxeGiqwhpYu_gSQOCJGRXnhO",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/mLLbkXbaY0siR6fb6nWUCXigyWoCEPj600RgOEiML4mV8ywmxYXsjs9FHA_KLPv1wSI",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 1280,
+          "width": 720
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/_PAlGSskhVoowpRZuBlFz5pwSgtcOtHc4zjqpMrgxqKmcl-dB5bksJHHr85vvjAZCHo",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "privacyPolicyUrl": "https://github.com/andstatus/andstatus/blob/master/doc/Privacy-Policy.md",
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/VI5ii6OTeBuSn1kTDPlXSwj7yI7kqDqf_drsvZ90qjcm7LbbVkG8UfPTicKqMzipsY_lBnAYAH5t8GxN",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Parental guidance",
+        "learnMoreHtmlLink": "Parental Guidance Recommended<br/>Users Interact<br/><a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=org.andstatus.app",
+    "reviewsUrl": "rev?doc=org.andstatus.app&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=org.andstatus.app",
+    "title": "AndStatus",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "andstatus@gmail.com"
+          },
+          "label": "Developer e-mail"
+        },
+        {
+          "container": {
+            "value": "Moscow, Russia"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "Dec 24, 2011"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  }
+]

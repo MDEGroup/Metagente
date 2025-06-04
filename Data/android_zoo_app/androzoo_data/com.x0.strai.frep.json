@@ -1,0 +1,1086 @@
+[
+  {
+    "aggregateRating": {
+      "commentCount": "4526",
+      "fiveStarRatings": "4345",
+      "fourStarRatings": "943",
+      "oneStarRatings": "3050",
+      "ratingsCount": "9504",
+      "starRating": 3.3220696,
+      "threeStarRatings": "692",
+      "twoStarRatings": "471",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-07-18 01:53:36.986693",
+    "backendDocid": "com.x0.strai.frep",
+    "backendId": 3,
+    "creator": "strAI",
+    "descriptionHtml": "FRep is Finger Record/Replay App. Once you record the routine operation, you can replay it by single trigger. Your own automatic operation button will be easily created.<br><br>- Record and Replay/Repeat/Edit operations of touchscreen and/or keystroke<br>- Easy record/play on current app, by pushing the button of floating console<br>- Console shows/hides depending on playable records for current app<br><br>Unlock key provides the unlimited number of records &amp; Tasker/Locale plugin functionality.<br><br><br><b>Usage Example</b><br>- Recording analog Push/Swipe/Flick operations for automatic process/scroll/gesture<br>- Playing continuous virtual space key push with interval for browsing<br>- Preload delayed or continuous pushing in prospect of processing delay, such as CPU load or network communication<br>- Avoid blind area or blurring by the finger operation<br>- Combination with automation App through FRep replay shortcut/Tasker plugin<br>- Demonstrate your App in actual device<br><br><br><i>=== Initial Setup ===</i><br>FRep needs the initial setup below. If your Android is ROOTED, you can skip this section by permitting su.<br><br>To setup FRep initially or when Android rebooted, you need USB connection to Win/Mac/Linux/Android. Please retrieve and run the setup tool from following URL.<br><br><b>FRep Setup Tool</b> http://strai.x0.com/frep/#tool<br><i>================</i><br><br><b>Tutorials</b> http://strai.x0.com/frep/category/tutorial<br><br><b>Show/Hide console</b><br>After starting service, <u>FRep will stay in the notification</u>. By tapping it, the console shows/hides. Once you record by the recording circle button, FRep automatically show console on the app on recorded. Then, the record can be replayed by the playing triangle button.<br><br><b>Recording mode</b><br>Choose which you like at the FRep front app;<br> Simple: record until Power push.<br> Till Gap: record until designated seconds of no input.<br> Progress: record continuously and construct editable sequence separated by input gap.<br><br><b>Repeat/Edit playing</b><br>By setting the Repeat number &gt;1 in Manage Traces, FRep play the record continuously by the count. You can also create/edit the playing sequence consisting of multiple records/controls. In addition, each stroke in traces can be moved/set wait/clipped.<br><br><b>Power button</b><br>FRep do not record Power push, which will finish any recording/playing immediately.<br><br><b>Restrict by current App</b><br>In record/replay, occasional call or App change may cause a problem. To avoid that, FRep is restricted on Phone, Google Play and FRep itself. You can configure restriction for other Apps.<br><br><b>Interruption of playing</b><br>To abort replaying, you can interrupt easily by the overlapping the operation.<br><br><b>Virtual keyboard</b><br>Double-tapping the upper button on the console, you can open another page which has key operation editor.<br><br><b>Customization</b><br>Notification type/icon, console size/transparency, drag/flick sensitivity, default settings, etc.<br><br><br><i>= Notice&amp;Tips =</i><br>- This app uses Accessibility Service by ACCESSIBILITY_SERVICE permission to detect current app, for responsive switching function of floating console.<br>- Full network access permission is used only for communication with the setup process in localhost.<br>- Do not record including personal information and/or password.<br>- The replay result may differ depending on the CPU load or such. To make good reproducibility, take <u>longer delay for processing wait</u>, <u>stop touch at end point for dragging/flick</u>, and more, try to <u>Edit Sequence with image matching</u> (see Tutorial in support site).<br>- The records have no compatibility with other device.<br><br>If you have any question or request, please mail us. The reply will be in English.<br><br><br><i>== DISCLAIMER ==</i><br>THIS SOFTWARE AND THE ACCOMPANYING FILES ARE DISTRIBUTED and SOLD &quot;AS IS&quot; AND WITHOUT WARRANTIES AS TO PERFORMANCE OR MERCHANTABILITY OR ANY OTHER WARRANTIES WHETHER EXPRESSED OR IMPLIED. LICENSEE USES THE SOFTWARE AT HIS/HER OWN RISK. NO LIABILITY FOR CONSEQUENTIAL DAMAGES.<br><i>================</i>",
+    "descriptionShort": "Tired with routine work on various Apps? Try FRep to make your finger replayer!",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown2": "3747466",
+          "unknown3": 29
+        },
+        "developerAddress": "3-38-15, Shoan, Suginami-ku, Tokyo, 167-0054, Japan",
+        "developerEmail": "support@strai.x0.com",
+        "developerName": "strAI",
+        "developerWebsite": "http://strai.x0.com/frep/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "3747466",
+            "versionCode": 104
+          }
+        ],
+        "installationSize": "3747466",
+        "numDownloads": "1,000,000+ downloads",
+        "packageName": "com.x0.strai.frep",
+        "permission": [
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.GET_TASKS",
+          "android.permission.INTERNET",
+          "android.permission.KILL_BACKGROUND_PROCESSES",
+          "android.permission.PACKAGE_USAGE_STATS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.REORDER_TASKS",
+          "android.permission.SYSTEM_ALERT_WINDOW",
+          "android.permission.VIBRATE",
+          "android.permission.WRITE_EXTERNAL_STORAGE"
+        ],
+        "recentChangesHtml": "[5.2] (Need USB connection to PC/Mac/Android to complete update)<br>- Added Screen Resolution Check in System Settings for specific environment of Android 7~.<br>- Fixed issue of no separation detected in Edit Traces on specific environment.<br>- Fixed issue that Switch statement&#39;s Set variable at Other(default) does not work properly.<br>*To fix existing one, open its Control Settings and push Apply.<br>- Added system variables of @lastfinish, @laststep, @tofrep.<br>- Modified FRep Tasker Plugin.",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": false,
+        "uploadDate": "Jul. 13, 2020",
+        "versionCode": 104,
+        "versionString": "5.2"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.x0.strai.frep",
+    "docType": 1,
+    "docid": "com.x0.strai.frep",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://lh3.googleusercontent.com/FfjbgG2Q34AJxgbEdM77yccX_LYZCbgEzJmBfDri3tONhtc0Cj_R4OiZQfKtkL_Diu31",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 4,
+        "imageUrl": "https://lh3.googleusercontent.com/5JCNCnocQzux049NlK3Eog-4OVxbOl0R3tp68dEmEb7N5QdRGUlAP4DBFBuCCOFTdje0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 3,
+        "imageUrl": "https://www.youtube.com/watch?v=LOASXcLpS90"
+      },
+      {
+        "imageType": 13,
+        "imageUrl": "https://i.ytimg.com/vi/LOASXcLpS90/hqdefault.jpg",
+        "supportsFifeUrlOptions": false
+      },
+      {
+        "dimension": {
+          "height": 854,
+          "width": 480
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/Gl3WT_tj0n06hG-gEiRyw5yYmvUmpwx5oBVbbxJcxY85wp7CmgNTIOBfX5rQqGebv9g",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 854,
+          "width": 480
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/TpiKbqYADLXLHECG-2x_0OBx6CkrYQnjK_-X31S7zo0XoKftaKl5hHxD_hG60yBSMQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 854,
+          "width": 480
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/_fBEVICh44Yc4rzsGuxKvGVFHYpVBVNjVZbw6_QRcyFoZkltYb7j6mPhX7M6dNFDoIFE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 854,
+          "width": 480
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/sn07yV2a9tmn3a-iOQtGhmf7dhnv6-pNgwAWZGwgHRjZMJ0GDiKHV9JK4VSGY86U6A",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 854,
+          "width": 480
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/jThBp3uqPLMss75ya7orHiJdahWsFQX-6MI8ldWnTb4uSdG74cCki8kIit9js5jdd0j_",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 854,
+          "width": 480
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/Khib0T270NbdRPV2BymC4aodcTobjAwwSpF3tvweKnFj0jYcm17PCgAn_vp20laBigxA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 854,
+          "width": 480
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/NXFSpT4ImVl4MWDJzwXDV1hiWFPX7Vyn4B5HQjZzOoaJlTGG96SH6E_xN_I0pju46w",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://lh3.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.x0.strai.frep",
+    "reviewsUrl": "rev?doc=com.x0.strai.frep&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.x0.strai.frep",
+    "title": "FRep - Finger Replayer",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "strAI"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "support@strai.x0.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "3-38-15, Shoan, Suginami-ku, Tokyo, 167-0054, Japan"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "Dec. 9, 2012"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "4537",
+      "fiveStarRatings": "4323",
+      "fourStarRatings": "962",
+      "oneStarRatings": "3069",
+      "ratingsCount": "9519",
+      "starRating": 3.3150685,
+      "threeStarRatings": "692",
+      "twoStarRatings": "471",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-07-22 13:09:34.892243",
+    "backendDocid": "com.x0.strai.frep",
+    "backendId": 3,
+    "creator": "strAI",
+    "descriptionHtml": "FRep is Finger Record/Replay App. Once you record the routine operation, you can replay it by single trigger. Your own automatic operation button will be easily created.<br><br>- Record and Replay/Repeat/Edit operations of touchscreen and/or keystroke<br>- Easy record/play on current app, by pushing the button of floating console<br>- Console shows/hides depending on playable records for current app<br><br>Unlock key provides the unlimited number of records &amp; Tasker/Locale plugin functionality.<br><br><br><b>Usage Example</b><br>- Recording analog Push/Swipe/Flick operations for automatic process/scroll/gesture<br>- Playing continuous virtual space key push with interval for browsing<br>- Preload delayed or continuous pushing in prospect of processing delay, such as CPU load or network communication<br>- Avoid blind area or blurring by the finger operation<br>- Combination with automation App through FRep replay shortcut/Tasker plugin<br>- Demonstrate your App in actual device<br><br><br><i>=== Initial Setup ===</i><br>FRep needs the initial setup below. If your Android is ROOTED, you can skip this section by permitting su.<br><br>To setup FRep initially or when Android rebooted, you need USB connection to Win/Mac/Linux/Android. Please retrieve and run the setup tool from following URL.<br><br><b>FRep Setup Tool</b> http://strai.x0.com/frep/#tool<br><i>================</i><br><br><b>Tutorials</b> http://strai.x0.com/frep/category/tutorial<br><br><b>Show/Hide console</b><br>After starting service, <u>FRep will stay in the notification</u>. By tapping it, the console shows/hides. Once you record by the recording circle button, FRep automatically show console on the app on recorded. Then, the record can be replayed by the playing triangle button.<br><br><b>Recording mode</b><br>Choose which you like at the FRep front app;<br> Simple: record until Power push.<br> Till Gap: record until designated seconds of no input.<br> Progress: record continuously and construct editable sequence separated by input gap.<br><br><b>Repeat/Edit playing</b><br>By setting the Repeat number &gt;1 in Manage Traces, FRep play the record continuously by the count. You can also create/edit the playing sequence consisting of multiple records/controls. In addition, each stroke in traces can be moved/set wait/clipped.<br><br><b>Power button</b><br>FRep do not record Power push, which will finish any recording/playing immediately.<br><br><b>Restrict by current App</b><br>In record/replay, occasional call or App change may cause a problem. To avoid that, FRep is restricted on Phone, Google Play and FRep itself. You can configure restriction for other Apps.<br><br><b>Interruption of playing</b><br>To abort replaying, you can interrupt easily by the overlapping the operation.<br><br><b>Virtual keyboard</b><br>Double-tapping the upper button on the console, you can open another page which has key operation editor.<br><br><b>Customization</b><br>Notification type/icon, console size/transparency, drag/flick sensitivity, default settings, etc.<br><br><br><i>= Notice&amp;Tips =</i><br>- This app uses Accessibility Service by ACCESSIBILITY_SERVICE permission to detect current app, for responsive switching function of floating console.<br>- Full network access permission is used only for communication with the setup process in localhost.<br>- Do not record including personal information and/or password.<br>- The replay result may differ depending on the CPU load or such. To make good reproducibility, take <u>longer delay for processing wait</u>, <u>stop touch at end point for dragging/flick</u>, and more, try to <u>Edit Sequence with image matching</u> (see Tutorial in support site).<br>- The records have no compatibility with other device.<br><br>If you have any question or request, please mail us. The reply will be in English.<br><br><br><i>== DISCLAIMER ==</i><br>THIS SOFTWARE AND THE ACCOMPANYING FILES ARE DISTRIBUTED and SOLD &quot;AS IS&quot; AND WITHOUT WARRANTIES AS TO PERFORMANCE OR MERCHANTABILITY OR ANY OTHER WARRANTIES WHETHER EXPRESSED OR IMPLIED. LICENSEE USES THE SOFTWARE AT HIS/HER OWN RISK. NO LIABILITY FOR CONSEQUENTIAL DAMAGES.<br><i>================</i>",
+    "descriptionShort": "Tired with routine work on various Apps? Try FRep to make your finger replayer!",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown2": "3747287",
+          "unknown3": 29
+        },
+        "developerAddress": "3-38-15, Shoan, Suginami-ku, Tokyo, 167-0054, Japan",
+        "developerEmail": "support@strai.x0.com",
+        "developerName": "strAI",
+        "developerWebsite": "http://strai.x0.com/frep/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "3747287",
+            "versionCode": 106
+          }
+        ],
+        "installationSize": "3747287",
+        "numDownloads": "1,000,000+ downloads",
+        "packageName": "com.x0.strai.frep",
+        "permission": [
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.GET_TASKS",
+          "android.permission.INTERNET",
+          "android.permission.KILL_BACKGROUND_PROCESSES",
+          "android.permission.PACKAGE_USAGE_STATS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.REORDER_TASKS",
+          "android.permission.SYSTEM_ALERT_WINDOW",
+          "android.permission.VIBRATE",
+          "android.permission.WRITE_EXTERNAL_STORAGE"
+        ],
+        "recentChangesHtml": "[5.2/b] (Need USB connection to PC/Mac/Android to complete update)<br>- Added Screen Resolution Check in System Settings for specific environment of Android 7~.<br>- Fixed issue of no separation detected in Edit Traces on specific environment.<br>- Fixed issue that Switch statement&#39;s Set variable at Other(default) does not work properly.<br>*To fix existing one, open its Control Settings and push Apply.<br>- Added system variables of @lastfinish, @laststep, @tofrep.<br>- Modified FRep Tasker Plugin.",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": false,
+        "versionCode": 106,
+        "versionString": "5.2b"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.x0.strai.frep",
+    "docType": 1,
+    "docid": "com.x0.strai.frep",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://lh3.googleusercontent.com/FfjbgG2Q34AJxgbEdM77yccX_LYZCbgEzJmBfDri3tONhtc0Cj_R4OiZQfKtkL_Diu31",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 4,
+        "imageUrl": "https://lh3.googleusercontent.com/5JCNCnocQzux049NlK3Eog-4OVxbOl0R3tp68dEmEb7N5QdRGUlAP4DBFBuCCOFTdje0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 3,
+        "imageUrl": "https://www.youtube.com/watch?v=LOASXcLpS90"
+      },
+      {
+        "imageType": 13,
+        "imageUrl": "https://i.ytimg.com/vi/LOASXcLpS90/hqdefault.jpg",
+        "supportsFifeUrlOptions": false
+      },
+      {
+        "dimension": {
+          "height": 854,
+          "width": 480
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/Gl3WT_tj0n06hG-gEiRyw5yYmvUmpwx5oBVbbxJcxY85wp7CmgNTIOBfX5rQqGebv9g",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 854,
+          "width": 480
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/TpiKbqYADLXLHECG-2x_0OBx6CkrYQnjK_-X31S7zo0XoKftaKl5hHxD_hG60yBSMQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 854,
+          "width": 480
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/_fBEVICh44Yc4rzsGuxKvGVFHYpVBVNjVZbw6_QRcyFoZkltYb7j6mPhX7M6dNFDoIFE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 854,
+          "width": 480
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/sn07yV2a9tmn3a-iOQtGhmf7dhnv6-pNgwAWZGwgHRjZMJ0GDiKHV9JK4VSGY86U6A",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 854,
+          "width": 480
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/jThBp3uqPLMss75ya7orHiJdahWsFQX-6MI8ldWnTb4uSdG74cCki8kIit9js5jdd0j_",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 854,
+          "width": 480
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/Khib0T270NbdRPV2BymC4aodcTobjAwwSpF3tvweKnFj0jYcm17PCgAn_vp20laBigxA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 854,
+          "width": 480
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/NXFSpT4ImVl4MWDJzwXDV1hiWFPX7Vyn4B5HQjZzOoaJlTGG96SH6E_xN_I0pju46w",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://lh3.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.x0.strai.frep",
+    "reviewsUrl": "rev?doc=com.x0.strai.frep&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.x0.strai.frep",
+    "title": "FRep - Finger Replayer",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "support@strai.x0.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "3-38-15, Shoan, Suginami-ku, Tokyo, 167-0054, Japan"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "9 Dec 2012"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "4541",
+      "fiveStarRatings": "4305",
+      "fourStarRatings": "973",
+      "oneStarRatings": "3101",
+      "ratingsCount": "9535",
+      "starRating": 3.305263,
+      "threeStarRatings": "682",
+      "twoStarRatings": "471",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-07-31 17:40:52.638815",
+    "backendDocid": "com.x0.strai.frep",
+    "backendId": 3,
+    "creator": "strAI",
+    "descriptionHtml": "FRep is Finger Record/Replay App. Once you record the routine operation, you can replay it by single trigger. Your own automatic operation button will be easily created.<br><br>- Record and Replay/Repeat/Edit operations of touchscreen and/or keystroke<br>- Easy record/play on current app, by pushing the button of floating console<br>- Console shows/hides depending on playable records for current app<br><br>Unlock key provides the unlimited number of records &amp; Tasker/Locale plugin functionality.<br><br><br><b>Usage Example</b><br>- Recording analog Push/Swipe/Flick operations for automatic process/scroll/gesture<br>- Playing continuous virtual space key push with interval for browsing<br>- Preload delayed or continuous pushing in prospect of processing delay, such as CPU load or network communication<br>- Avoid blind area or blurring by the finger operation<br>- Combination with automation App through FRep replay shortcut/Tasker plugin<br>- Demonstrate your App in actual device<br><br><br><i>=== Initial Setup ===</i><br>FRep needs the initial setup below. If your Android is ROOTED, you can skip this section by permitting su.<br><br>To setup FRep initially or when Android rebooted, you need USB connection to Win/Mac/Linux/Android. Please retrieve and run the setup tool from following URL.<br><br><b>FRep Setup Tool</b> http://strai.x0.com/frep/#tool<br><i>================</i><br><br><b>Tutorials</b> http://strai.x0.com/frep/category/tutorial<br><br><b>Show/Hide console</b><br>After starting service, <u>FRep will stay in the notification</u>. By tapping it, the console shows/hides. Once you record by the recording circle button, FRep automatically show console on the app on recorded. Then, the record can be replayed by the playing triangle button.<br><br><b>Recording mode</b><br>Choose which you like at the FRep front app;<br> Simple: record until Power push.<br> Till Gap: record until designated seconds of no input.<br> Progress: record continuously and construct editable sequence separated by input gap.<br><br><b>Repeat/Edit playing</b><br>By setting the Repeat number &gt;1 in Manage Traces, FRep play the record continuously by the count. You can also create/edit the playing sequence consisting of multiple records/controls. In addition, each stroke in traces can be moved/set wait/clipped.<br><br><b>Power button</b><br>FRep do not record Power push, which will finish any recording/playing immediately.<br><br><b>Restrict by current App</b><br>In record/replay, occasional call or App change may cause a problem. To avoid that, FRep is restricted on Phone, Google Play and FRep itself. You can configure restriction for other Apps.<br><br><b>Interruption of playing</b><br>To abort replaying, you can interrupt easily by the overlapping the operation.<br><br><b>Virtual keyboard</b><br>Double-tapping the upper button on the console, you can open another page which has key operation editor.<br><br><b>Customization</b><br>Notification type/icon, console size/transparency, drag/flick sensitivity, default settings, etc.<br><br><br><i>= Notice&amp;Tips =</i><br>- This app uses Accessibility Service by ACCESSIBILITY_SERVICE permission to detect current app, for responsive switching function of floating console.<br>- Full network access permission is used only for communication with the setup process in localhost.<br>- Do not record including personal information and/or password.<br>- The replay result may differ depending on the CPU load or such. To make good reproducibility, take <u>longer delay for processing wait</u>, <u>stop touch at end point for dragging/flick</u>, and more, try to <u>Edit Sequence with image matching</u> (see Tutorial in support site).<br>- The records have no compatibility with other device.<br><br>If you have any question or request, please mail us. The reply will be in English.<br><br><br><i>== DISCLAIMER ==</i><br>THIS SOFTWARE AND THE ACCOMPANYING FILES ARE DISTRIBUTED and SOLD &quot;AS IS&quot; AND WITHOUT WARRANTIES AS TO PERFORMANCE OR MERCHANTABILITY OR ANY OTHER WARRANTIES WHETHER EXPRESSED OR IMPLIED. LICENSEE USES THE SOFTWARE AT HIS/HER OWN RISK. NO LIABILITY FOR CONSEQUENTIAL DAMAGES.<br><i>================</i>",
+    "descriptionShort": "Tired with routine work on various Apps? Try FRep to make your finger replayer!",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown2": "3754835",
+          "unknown3": 29
+        },
+        "developerAddress": "3-38-15, Shoan, Suginami-ku, Tokyo, 167-0054, Japan",
+        "developerEmail": "support@strai.x0.com",
+        "developerName": "strAI",
+        "developerWebsite": "http://strai.x0.com/frep/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "3754835",
+            "versionCode": 113
+          }
+        ],
+        "installationSize": "3754835",
+        "numDownloads": "1,000,000+ downloads",
+        "packageName": "com.x0.strai.frep",
+        "permission": [
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.GET_TASKS",
+          "android.permission.INTERNET",
+          "android.permission.KILL_BACKGROUND_PROCESSES",
+          "android.permission.PACKAGE_USAGE_STATS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.REORDER_TASKS",
+          "android.permission.SYSTEM_ALERT_WINDOW",
+          "android.permission.VIBRATE",
+          "android.permission.WRITE_EXTERNAL_STORAGE"
+        ],
+        "recentChangesHtml": "[5.3] (Need USB connection to PC/Mac/Android to complete update)<br>- Added Copy support info in menu of FRep System Info screen to report details.<br>- Added Log fatal error in System Settings for support.<br>- Added new system for rooted Android 11.<br>- Fixed issue of setup failure on Android 10/11 with the message of &#39;Initializing subsystem..failed to start.&#39;",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": false,
+        "uploadDate": "30 Jul 2020",
+        "versionCode": 113,
+        "versionString": "5.3"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.x0.strai.frep",
+    "docType": 1,
+    "docid": "com.x0.strai.frep",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://lh3.googleusercontent.com/FfjbgG2Q34AJxgbEdM77yccX_LYZCbgEzJmBfDri3tONhtc0Cj_R4OiZQfKtkL_Diu31",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 4,
+        "imageUrl": "https://lh3.googleusercontent.com/5JCNCnocQzux049NlK3Eog-4OVxbOl0R3tp68dEmEb7N5QdRGUlAP4DBFBuCCOFTdje0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 3,
+        "imageUrl": "https://www.youtube.com/watch?v=LOASXcLpS90"
+      },
+      {
+        "imageType": 13,
+        "imageUrl": "https://i.ytimg.com/vi/LOASXcLpS90/hqdefault.jpg",
+        "supportsFifeUrlOptions": false
+      },
+      {
+        "dimension": {
+          "height": 854,
+          "width": 480
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/Gl3WT_tj0n06hG-gEiRyw5yYmvUmpwx5oBVbbxJcxY85wp7CmgNTIOBfX5rQqGebv9g",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 854,
+          "width": 480
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/TpiKbqYADLXLHECG-2x_0OBx6CkrYQnjK_-X31S7zo0XoKftaKl5hHxD_hG60yBSMQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 854,
+          "width": 480
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/_fBEVICh44Yc4rzsGuxKvGVFHYpVBVNjVZbw6_QRcyFoZkltYb7j6mPhX7M6dNFDoIFE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 854,
+          "width": 480
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/sn07yV2a9tmn3a-iOQtGhmf7dhnv6-pNgwAWZGwgHRjZMJ0GDiKHV9JK4VSGY86U6A",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 854,
+          "width": 480
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/jThBp3uqPLMss75ya7orHiJdahWsFQX-6MI8ldWnTb4uSdG74cCki8kIit9js5jdd0j_",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 854,
+          "width": 480
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/Khib0T270NbdRPV2BymC4aodcTobjAwwSpF3tvweKnFj0jYcm17PCgAn_vp20laBigxA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 854,
+          "width": 480
+        },
+        "imageType": 1,
+        "imageUrl": "https://lh3.googleusercontent.com/NXFSpT4ImVl4MWDJzwXDV1hiWFPX7Vyn4B5HQjZzOoaJlTGG96SH6E_xN_I0pju46w",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://lh3.googleusercontent.com/IciOnDFecb5Xt50Q2jlcNC0LPI7LEGxNojroo-s3AozcyS-vDCwtq4fn7u3wZmRna8OewG9PBrWC-i7i",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "Everyone",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn More</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.x0.strai.frep",
+    "reviewsUrl": "rev?doc=com.x0.strai.frep&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.x0.strai.frep",
+    "title": "FRep - Finger Replayer",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "strAI"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "support@strai.x0.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "3-38-15, Shoan, Suginami-ku, Tokyo, 167-0054, Japan"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "9 Dec 2012"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "4604",
+      "fiveStarRatings": "4366",
+      "fourStarRatings": "969",
+      "oneStarRatings": "3067",
+      "ratingsCount": "9662",
+      "starRating": 3.3143744,
+      "threeStarRatings": "729",
+      "twoStarRatings": "529",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2020-11-27 12:53:10.207921",
+    "backendDocid": "com.x0.strai.frep",
+    "backendId": 3,
+    "creator": "strAI",
+    "descriptionHtml": "FRep is Finger Record/Replay App. Once you record the routine operation, you can replay it by single trigger. Your own automatic operation button will be easily created.<br><br>- Record and Replay/Repeat/Edit operations of touchscreen and/or keystroke<br>- Easy record/play on current app, by pushing the button of floating console<br>- Console shows/hides depending on playable records for current app<br><br>Unlock key provides the unlimited number of records &amp; Tasker/Locale plugin functionality.<br><br><br><b>Usage Example</b><br>- Recording analog Push/Swipe/Flick operations for automatic process/scroll/gesture<br>- Playing continuous virtual space key push with interval for browsing<br>- Preload delayed or continuous pushing in prospect of processing delay, such as CPU load or network communication<br>- Avoid blind area or blurring by the finger operation<br>- Combination with automation App through FRep replay shortcut/Tasker plugin<br>- Demonstrate your App in actual device<br><br><br><i>=== Initial Setup ===</i><br>FRep needs the initial setup below. If your Android is ROOTED, you can skip this section by permitting su.<br><br>To setup FRep initially or when Android rebooted, you need USB connection to Win/Mac/Linux/Android. Please retrieve and run the setup tool from following URL.<br><br><b>FRep Setup Tool</b> http://strai.x0.com/frep/#tool<br><i>================</i><br><br><b>Tutorials</b> http://strai.x0.com/frep/category/tutorial<br><br><b>Show/Hide console</b><br>After starting service, <u>FRep will stay in the notification</u>. By tapping it, the console shows/hides. Once you record by the recording circle button, FRep automatically show console on the app on recorded. Then, the record can be replayed by the playing triangle button.<br><br><b>Recording mode</b><br>Choose which you like at the FRep front app;<br> Simple: record until Power push.<br> Till Gap: record until designated seconds of no input.<br> Progress: record continuously and construct editable sequence separated by input gap.<br><br><b>Repeat/Edit playing</b><br>By setting the Repeat number &gt;1 in Manage Traces, FRep play the record continuously by the count. You can also create/edit the playing sequence consisting of multiple records/controls. In addition, each stroke in traces can be moved/set wait/clipped.<br><br><b>Power button</b><br>FRep do not record Power push, which will finish any recording/playing immediately.<br><br><b>Restrict by current App</b><br>In record/replay, occasional call or App change may cause a problem. To avoid that, FRep is restricted on Phone, Google Play and FRep itself. You can configure restriction for other Apps.<br><br><b>Interruption of playing</b><br>To abort replaying, you can interrupt easily by the overlapping the operation.<br><br><b>Virtual keyboard</b><br>Double-tapping the upper button on the console, you can open another page which has key operation editor.<br><br><b>Customization</b><br>Notification type/icon, console size/transparency, drag/flick sensitivity, default settings, etc.<br><br><br><i>= Notice&amp;Tips =</i><br>- This app uses Accessibility Service by ACCESSIBILITY_SERVICE permission to detect current app, for responsive switching function of floating console.<br>- Full network access permission is used only for communication with the setup process in localhost.<br>- Do not record including personal information and/or password.<br>- The replay result may differ depending on the CPU load or such. To make good reproducibility, take <u>longer delay for processing wait</u>, <u>stop touch at end point for dragging/flick</u>, and more, try to <u>Edit Sequence with image matching</u> (see Tutorial in support site).<br>- The records have no compatibility with other device.<br><br>If you have any question or request, please mail us. The reply will be in English.<br><br><br><i>== DISCLAIMER ==</i><br>THIS SOFTWARE AND THE ACCOMPANYING FILES ARE DISTRIBUTED and SOLD &quot;AS IS&quot; AND WITHOUT WARRANTIES AS TO PERFORMANCE OR MERCHANTABILITY OR ANY OTHER WARRANTIES WHETHER EXPRESSED OR IMPLIED. LICENSEE USES THE SOFTWARE AT HIS/HER OWN RISK. NO LIABILITY FOR CONSEQUENTIAL DAMAGES.<br><i>================</i>",
+    "descriptionShort": "Tired with routine work on various Apps? Try FRep to make your finger replayer!",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown2": "3766819",
+          "unknown3": 29
+        },
+        "developerAddress": "3-38-15, Shoan, Suginami-ku, Tokyo, 167-0054, Japan",
+        "developerEmail": "support@strai.x0.com",
+        "developerName": "strAI",
+        "developerWebsite": "http://strai.x0.com/frep/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "3766819",
+            "versionCode": 121
+          }
+        ],
+        "installationSize": "3766819",
+        "numDownloads": "1,000,000+ downloads",
+        "packageName": "com.x0.strai.frep",
+        "permission": [
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.GET_TASKS",
+          "android.permission.INTERNET",
+          "android.permission.KILL_BACKGROUND_PROCESSES",
+          "android.permission.PACKAGE_USAGE_STATS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.REORDER_TASKS",
+          "android.permission.SYSTEM_ALERT_WINDOW",
+          "android.permission.VIBRATE",
+          "android.permission.WRITE_EXTERNAL_STORAGE"
+        ],
+        "recentChangesHtml": "[5.3/i] (Need USB connection to PC/Mac/Android to complete update)<br>- Updated system for rooted Android 8~ environment.<br>- Added Copy support info in menu of FRep System Info.<br>- Fixed issue of interruption of first replay after recording.<br>- Added Log fatal error in System Settings for support.<br>- Fixed issue of replaying Touch control with longer interval on non-rooted Android 10~.<br>- Fixed issue that the app get stuck in replaying long operation on non-rooted Android 10~.",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": false,
+        "uploadDate": "26 Nov 2020",
+        "versionCode": 121,
+        "versionString": "5.3i"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.x0.strai.frep",
+    "docType": 1,
+    "docid": "com.x0.strai.frep",
+    "image": [
+      {
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/FfjbgG2Q34AJxgbEdM77yccX_LYZCbgEzJmBfDri3tONhtc0Cj_R4OiZQfKtkL_Diu31",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/5JCNCnocQzux049NlK3Eog-4OVxbOl0R3tp68dEmEb7N5QdRGUlAP4DBFBuCCOFTdje0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 3,
+        "imageUrl": "https://www.youtube.com/watch?v=LOASXcLpS90"
+      },
+      {
+        "imageType": 13,
+        "imageUrl": "https://i.ytimg.com/vi/LOASXcLpS90/hqdefault.jpg",
+        "supportsFifeUrlOptions": false
+      },
+      {
+        "dimension": {
+          "height": 854,
+          "width": 480
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Gl3WT_tj0n06hG-gEiRyw5yYmvUmpwx5oBVbbxJcxY85wp7CmgNTIOBfX5rQqGebv9g",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 854,
+          "width": 480
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/TpiKbqYADLXLHECG-2x_0OBx6CkrYQnjK_-X31S7zo0XoKftaKl5hHxD_hG60yBSMQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 854,
+          "width": 480
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/_fBEVICh44Yc4rzsGuxKvGVFHYpVBVNjVZbw6_QRcyFoZkltYb7j6mPhX7M6dNFDoIFE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 854,
+          "width": 480
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/sn07yV2a9tmn3a-iOQtGhmf7dhnv6-pNgwAWZGwgHRjZMJ0GDiKHV9JK4VSGY86U6A",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 854,
+          "width": 480
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/jThBp3uqPLMss75ya7orHiJdahWsFQX-6MI8ldWnTb4uSdG74cCki8kIit9js5jdd0j_",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 854,
+          "width": 480
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Khib0T270NbdRPV2BymC4aodcTobjAwwSpF3tvweKnFj0jYcm17PCgAn_vp20laBigxA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 854,
+          "width": 480
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/NXFSpT4ImVl4MWDJzwXDV1hiWFPX7Vyn4B5HQjZzOoaJlTGG96SH6E_xN_I0pju46w",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "USD",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.x0.strai.frep",
+    "reviewsUrl": "rev?doc=com.x0.strai.frep&n=20&o=0",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.x0.strai.frep",
+    "title": "FRep - Finger Replayer",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "support@strai.x0.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "3-38-15, Shoan, Suginami-ku, Tokyo, 167-0054, Japan"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "9 Dec 2012"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  },
+  {
+    "aggregateRating": {
+      "commentCount": "4678",
+      "fiveStarRatings": "4418",
+      "fourStarRatings": "869",
+      "oneStarRatings": "3159",
+      "ratingsCount": "9807",
+      "starRating": 3.293578,
+      "threeStarRatings": "849",
+      "twoStarRatings": "509",
+      "type": 2
+    },
+    "availability": {
+      "restriction": 1
+    },
+    "az_metadata_date": "2021-10-29 13:22:30.410233",
+    "backendDocid": "com.x0.strai.frep",
+    "backendId": 3,
+    "creator": "strAI",
+    "descriptionHtml": "FRep is Finger Record/Replay App for Android 2.3~10. Once you record the routine operation, you can replay it by single trigger. For newer Android version, please try FRep2 instead.<br><br>- Record and Replay/Repeat/Edit operations of touchscreen and/or keystroke<br>- Easy record/play on current app, by pushing the button of floating console<br>- Console shows/hides depending on playable records for current app<br><br>Unlock key provides the unlimited number of records &amp; Tasker/Locale plugin functionality.<br><br><br><b>Usage Example</b><br>- Recording analog Push/Swipe/Flick operations for automatic process/scroll/gesture<br>- Playing continuous virtual space key push with interval for browsing<br>- Preload delayed or continuous pushing in prospect of processing delay, such as CPU load or network communication<br>- Avoid blind area or blurring by the finger operation<br>- Combination with automation App through FRep replay shortcut/Tasker plugin<br>- Demonstrate your App in actual device<br><br><br><i>=== Initial Setup ===</i><br>FRep needs the initial setup below. If your Android is ROOTED, you can skip this section by permitting su.<br><br>To setup FRep initially or when Android rebooted, you need USB connection to Win/Mac/Linux/Android. Please retrieve and run the setup tool from following URL.<br><br><b>FRep Setup Tool</b> http://strai.x0.com/frep/#tool<br><i>================</i><br><br><b>Tutorials</b> http://strai.x0.com/frep/category/tutorial<br><br><b>Show/Hide console</b><br>After starting service, <u>FRep will stay in the notification</u>. By tapping it, the console shows/hides. Once you record by the recording circle button, FRep automatically show console on the app on recorded. Then, the record can be replayed by the playing triangle button.<br><br><b>Recording mode</b><br>Choose which you like at the FRep front app;<br> Simple: record until Power push.<br> Till Gap: record until designated seconds of no input.<br> Progress: record continuously and construct editable sequence separated by input gap.<br><br><b>Repeat/Edit playing</b><br>By setting the Repeat number &gt;1 in Manage Traces, FRep play the record continuously by the count. You can also create/edit the playing sequence consisting of multiple records/controls. In addition, each stroke in traces can be moved/set wait/clipped.<br><br><b>Power button</b><br>FRep do not record Power push, which will finish any recording/playing immediately.<br><br><b>Restrict by current App</b><br>In record/replay, occasional call or App change may cause a problem. To avoid that, FRep is restricted on Phone, Google Play and FRep itself. You can configure restriction for other Apps.<br><br><b>Interruption of playing</b><br>To abort replaying, you can interrupt easily by the overlapping the operation.<br><br><b>Virtual keyboard</b><br>Double-tapping the upper button on the console, you can open another page which has key operation editor.<br><br><b>Customization</b><br>Notification type/icon, console size/transparency, drag/flick sensitivity, default settings, etc.<br><br><br><i>= Notice&amp;Tips =</i><br>- This app uses Accessibility Service by ACCESSIBILITY_SERVICE permission to detect current app, for responsive switching function of floating console.<br>- Full network access permission is used only for communication with the setup process in localhost.<br>- Do not record including personal information and/or password.<br>- The replay result may differ depending on the CPU load or such. To make good reproducibility, take <u>longer delay for processing wait</u>, <u>stop touch at end point for dragging/flick</u>, and more, try to <u>Edit Sequence with image matching</u> (see Tutorial in support site).<br>- The records have no compatibility with other device.<br><br>If you have any question or request, please mail us. The reply will be in English.<br><br><br><i>== DISCLAIMER ==</i><br>THIS SOFTWARE AND THE ACCOMPANYING FILES ARE DISTRIBUTED and SOLD &quot;AS IS&quot; AND WITHOUT WARRANTIES AS TO PERFORMANCE OR MERCHANTABILITY OR ANY OTHER WARRANTIES WHETHER EXPRESSED OR IMPLIED. LICENSEE USES THE SOFTWARE AT HIS/HER OWN RISK. NO LIABILITY FOR CONSEQUENTIAL DAMAGES.<br><i>================</i>",
+    "descriptionShort": "Tired with routine work on various Apps? Try FRep to make your finger replayer!",
+    "details": {
+      "appDetails": {
+        "dependencies": {
+          "unknown2": "3779682",
+          "unknown3": 29
+        },
+        "developerAddress": "3-38-15, Shoan, Suginami-ku, Tokyo, 167-0054, Japan",
+        "developerEmail": "support@strai.x0.com",
+        "developerName": "strAI",
+        "developerWebsite": "http://strai.x0.com/frep/",
+        "file": [
+          {
+            "fileType": 0,
+            "size": "3779682",
+            "versionCode": 123
+          }
+        ],
+        "installationSize": "3779682",
+        "numDownloads": "1,000,000+ downloads",
+        "packageName": "com.x0.strai.frep",
+        "permission": [
+          "android.permission.FOREGROUND_SERVICE",
+          "android.permission.GET_TASKS",
+          "android.permission.INTERNET",
+          "android.permission.KILL_BACKGROUND_PROCESSES",
+          "android.permission.PACKAGE_USAGE_STATS",
+          "android.permission.READ_EXTERNAL_STORAGE",
+          "android.permission.RECEIVE_BOOT_COMPLETED",
+          "android.permission.REORDER_TASKS",
+          "android.permission.SYSTEM_ALERT_WINDOW",
+          "android.permission.VIBRATE",
+          "android.permission.WRITE_EXTERNAL_STORAGE"
+        ],
+        "recentChangesHtml": "[5.4]<br>- Added Adjust video size in Screen API Settings.<br>- Added Reference Screenshot Path option in Wait Image control, to replace prepared image by the file* of designated path at the replay. (Requires FRep Unlock Key)<br>*Supposed to be used together with the Screenshot control with Rotation 0 degree setting.<br>- Fixed issue of video recording by Screen API, on some screen width environment.<br>- Fixed issue of popup message on Android 11 (Text only, Position is ignored).",
+        "testingProgramInfo": {
+          "subscribed": false,
+          "subscribed1": false
+        },
+        "unstable": false,
+        "uploadDate": "21 Mar 2021",
+        "versionCode": 123,
+        "versionString": "5.4"
+      }
+    },
+    "detailsReusable": true,
+    "detailsUrl": "details?doc=com.x0.strai.frep",
+    "docType": 1,
+    "docid": "com.x0.strai.frep",
+    "image": [
+      {
+        "color": "#1E1E1E",
+        "dimension": {
+          "height": 500,
+          "width": 1024
+        },
+        "imageType": 2,
+        "imageUrl": "https://play-lh.googleusercontent.com/FfjbgG2Q34AJxgbEdM77yccX_LYZCbgEzJmBfDri3tONhtc0Cj_R4OiZQfKtkL_Diu31",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 0,
+          "width": 0
+        },
+        "imageType": 4,
+        "imageUrl": "https://play-lh.googleusercontent.com/5JCNCnocQzux049NlK3Eog-4OVxbOl0R3tp68dEmEb7N5QdRGUlAP4DBFBuCCOFTdje0",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "imageType": 3,
+        "imageUrl": "https://www.youtube.com/watch?v=LOASXcLpS90"
+      },
+      {
+        "imageType": 13,
+        "imageUrl": "https://i.ytimg.com/vi/LOASXcLpS90/hqdefault.jpg",
+        "supportsFifeUrlOptions": false
+      },
+      {
+        "dimension": {
+          "height": 854,
+          "width": 480
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Gl3WT_tj0n06hG-gEiRyw5yYmvUmpwx5oBVbbxJcxY85wp7CmgNTIOBfX5rQqGebv9g",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 854,
+          "width": 480
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/TpiKbqYADLXLHECG-2x_0OBx6CkrYQnjK_-X31S7zo0XoKftaKl5hHxD_hG60yBSMQ",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 854,
+          "width": 480
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/_fBEVICh44Yc4rzsGuxKvGVFHYpVBVNjVZbw6_QRcyFoZkltYb7j6mPhX7M6dNFDoIFE",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 854,
+          "width": 480
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/sn07yV2a9tmn3a-iOQtGhmf7dhnv6-pNgwAWZGwgHRjZMJ0GDiKHV9JK4VSGY86U6A",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 854,
+          "width": 480
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/jThBp3uqPLMss75ya7orHiJdahWsFQX-6MI8ldWnTb4uSdG74cCki8kIit9js5jdd0j_",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 854,
+          "width": 480
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/Khib0T270NbdRPV2BymC4aodcTobjAwwSpF3tvweKnFj0jYcm17PCgAn_vp20laBigxA",
+        "supportsFifeUrlOptions": true
+      },
+      {
+        "dimension": {
+          "height": 854,
+          "width": 480
+        },
+        "imageType": 1,
+        "imageUrl": "https://play-lh.googleusercontent.com/NXFSpT4ImVl4MWDJzwXDV1hiWFPX7Vyn4B5HQjZzOoaJlTGG96SH6E_xN_I0pju46w",
+        "supportsFifeUrlOptions": true
+      }
+    ],
+    "offer": [
+      {
+        "checkoutFlowRequired": false,
+        "currencyCode": "EUR",
+        "formattedAmount": "",
+        "message": "Buy",
+        "micros": "0",
+        "offerType": 1
+      }
+    ],
+    "relatedLinks": {
+      "rated": {
+        "image": {
+          "dimension": {
+            "height": 512,
+            "width": 512
+          },
+          "imageType": 6,
+          "imageUrl": "https://play-lh.googleusercontent.com/f8B0enUmZD3qSV7UvP1aFSF5nQcAE_PpEJaXsIrfPMXU_D64BmVJC138JudhaYBkamCGbl_F3wXwfi0wJg",
+          "supportsFifeUrlOptions": true
+        },
+        "label": "PEGI 3",
+        "learnMoreHtmlLink": "<a href=\"https://support.google.com/googleplay?p=appgame_ratings\">Learn more</a>"
+      }
+    },
+    "reviewQuestionsUrl": "reviewQuestions?doc=com.x0.strai.frep",
+    "reviewsUrl": "rev?doc=com.x0.strai.frep&n=20",
+    "shareUrl": "https://play.google.com/store/apps/details?id=com.x0.strai.frep",
+    "title": "FRep - Finger Replayer",
+    "unknown25": {
+      "item": [
+        {
+          "container": {
+            "value": "Google Commerce Ltd"
+          },
+          "label": "Offered by"
+        },
+        {
+          "container": {
+            "value": "support@strai.x0.com"
+          },
+          "label": "Developer email"
+        },
+        {
+          "container": {
+            "value": "3-38-15, Shoan, Suginami-ku, Tokyo, 167-0054, Japan"
+          },
+          "label": "Developer address"
+        },
+        {
+          "container": {
+            "value": "9 Dec 2012"
+          },
+          "label": "Released on"
+        }
+      ]
+    },
+    "unknownCategoryContainer": {}
+  }
+]
