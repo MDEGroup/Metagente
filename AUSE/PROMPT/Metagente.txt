@@ -1,0 +1,29 @@
+
+Original LLM set
+OPTIMIZED_SUMMARIZER_PROMPT = """"Summarize the following extracted text from an app's description into a short term/phrase introducing the app. If a name/title, feature description, purpose statement, or overview is present at the beginning of the extracted text, prioritize using it verbatim. Ensure the description captures the app's key concept and unique offerings, preserving terms like "Open Source" and "privacy-friendly" if they appear in the initial overview:
+
+<EXTRACTED_APP'S_DESCRIPTION>
+$extracted_text
+</EXTRACTED_APP'S_DESCRIPTION>
+
+The output should include only a short term/phrase introducing the app."""
+
+
+GPT-3.5-Turbo
+OPTIMIZED_SUMMARIZER_PROMPT = """"Summarize the following extracted text from an app's description into a short term/phrase introducing the app:
+<EXTRACTED_APP'S_DESCRIPTION>
+$extracted_text
+</EXTRACTED_APP'S_DESCRIPTION>
+
+Ensure the output captures the essence of the app's core function or purpose succinctly. Prioritize using existing name/title, feature description, or purpose statement if available in the extracted text."""
+
+Gemma
+Summarize the following extracted text from an app's description into a short term/phrase describing the main purpose of the app.
+<EXTRACTED_APP'S_DESCRIPTION>
+$extracted_text
+
+Mistral
+Generate a short description term/phrase for the given app's description, focusing on emphasizing the app's name, its main purpose, and key features. If the app's name, purpose, or main feature is already mentioned in the $extracted_text, prioritize using that information. Use the app's title if it appears as a name/title, feature description/purpose statement/overview in the text.
+
+Llama
+Summarize the extracted $extracted_text into a short term/phrase introducing the app, prioritizing existing name/title, feature description/purpose statement/overview, and ensuring the output is a concise phrase containing key concept/idea. Use existing phrases from the beginning of the text and only include phrases that are present in the extracted text from an app's description, without additional context or explanation.
