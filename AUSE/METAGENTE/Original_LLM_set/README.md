@@ -19,14 +19,14 @@ pip install -r requirements.txt
 
 Running the optimization code:
 ```Python
-python main.py
---train_data_file data/train_data.csv
---train_result_dir result/train
+python main.py \
+--train_data_file data/train_data.csv \
+--train_result_dir result/parallel \
 ```
 
 Running the evaluation code:
 ```Python
-python evaluation.py
---test_data_file data/test_data.csv
---test_result_dir result/test
+python evaluation.py \
+--test_data_file data/test_data.csv \
+--test_result_dir result/parallel 
 ```
