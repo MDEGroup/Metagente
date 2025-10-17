@@ -1,0 +1,5 @@
+file,ref_col,pred_col,n_pairs,ROUGE-1,ROUGE-2,ROUGE-L,SBERT,BERTScore_P,BERTScore_R,BERTScore_F1
+/Users/Yuki/Prj_multi_agent_git/Metagente-noE/METAGENTE/result/parallel/noE_600.csv,description_short,generated_about,600,0.395 ± 0.165,0.171 ± 0.169,0.327 ± 0.159,0.649 ± 0.138,0.637 ± 0.080,0.683 ± 0.092,0.658 ± 0.081
+/Users/Yuki/Prj_multi_agent_git/Metagente-noE/METAGENTE/result/parallel/noE2_600.csv,description_short,generated_about,600,0.409 ± 0.172,0.178 ± 0.178,0.341 ± 0.167,0.677 ± 0.141,0.636 ± 0.087,0.678 ± 0.102,0.655 ± 0.088
+/Users/Yuki/Prj_multi_agent_git/Metagente-noE/METAGENTE/result/parallel/noE3_600.csv,description_short,generated_about,600,0.391 ± 0.191,0.168 ± 0.194,0.336 ± 0.188,0.656 ± 0.155,0.640 ± 0.105,0.612 ± 0.109,0.623 ± 0.099
+MACRO across files,-,-,1800,0.398 ± 0.009,0.172 ± 0.005,0.335 ± 0.007,0.661 ± 0.014,0.638 ± 0.002,0.657 ± 0.040,0.645 ± 0.019

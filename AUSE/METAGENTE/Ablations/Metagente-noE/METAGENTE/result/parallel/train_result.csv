@@ -1,0 +1,53 @@
+Data ID,Iteration,Extracted text from Extractor Agent,Prompt used for Summarizer Agent,Generated About,ROUGE-1 score,ROUGE-2 score,ROUGE-L score,HTML,Ground truth description,Final Summarizer Prompt
+0,0,"The official Medford School District 549C app gives you a personalized window into what is happening at the district and schools. Get the news and information that you care about and get involved. 
+
+Anyone can: 
+- View District and school news 
+- Use the district tip line 
+- Receive notifications from the district and schools 
+- Access the district directory 
+- Display information personalized to your interests 
+
+Parents and students can: 
+- View grades, assignments, and attendance 
+- View and add contact information","
+Summarize the following extracted text from an app's description into a short term/phrase introducing the app:
+<EXTRACTED_APP'S_DESCRIPTION>
+$extracted_text
+</EXTRACTED_APP'S_DESCRIPTION>
+ 
+The output should include only a short term/phrase introducing the app.
+",Medford School District 549C Official App,0.923076923076923,0.5454545454545454,0.7692307692307692,"The official Medford School District 549C app gives you a personalized window into what is happening at the district and schools. Get the news and information that you care about and get involved.            Anyone can:             -View District and school news             -Use the district tip line             -Receive notifications from the district and schools             -Access the district directory             -Display information personalized to your interests              Parents and students can:              -View grades, assignments, and attendance              -View and add contact information",The official Medford School District 549C app!
+1,0,"Pushfor is a highly secure content sharing and instant messaging app. Its patented ‘push’ technology gives you total control when sharing and distributing content such as documents, presentations, photos, videos, images, and music. Pushfor is the perfect choice for sharing sensitive, confidential, and high-value content, as well as for private chat conversations. Content is ‘pushed’ rather than sent and can be pulled back at any time.","
+Summarize the following extracted text from an app's description into a short term/phrase introducing the app:
+<EXTRACTED_APP'S_DESCRIPTION>
+$extracted_text
+</EXTRACTED_APP'S_DESCRIPTION>
+ 
+The output should include only a short term/phrase introducing the app.
+","""Secure Content Sharing and Messaging App""",0.7058823529411764,0.5333333333333333,0.7058823529411764,"Pushfor is a highly secure, content sharing and instant messaging appPushfor’s patented (US Patent No. 9660821) ‘push’ technology gives you total control when sharing and distributing content such as documents, presentations, photos, videos, images, music etc.  Pushfor is the perfect choice for sharing sensitive, confidential and high value content and for private chat conversations.  Content is ‘pushed’ not sent and can be pulled back at any time.Key features include:•    Original file never leaves source location so is highly secure•    Supports over 50 content types with no restrictions on file sizes•    No need for authoring software on recipient device•    High definition quality when viewing content•    Upload content from your device or any external cloud storage•    Share URL links and geo-location•    Push to individuals or groups – one push and content can be shared with many•    Tracking of every interaction so you know exactly who has viewed the content, where from, with what device and for how long•    Numerous viewing and privacy permissions •    Protection against screenshots•    Protection against Malware•    Watermarks can be applied•    Real-time engagement – messaging, text, voiceBe smart in how you share your content– Download now.At Pushfor we always like to hear about your feedback or suggestions on improvements. Get in touch at hello@pushfor.com","Pushfor is a highly secure, content sharing and instant messaging app"
+2,0,"Satyamev News is India's First Free Mobile News TV app, providing 24x7 updates on breaking news, political news, business news, and infotainment programs. The app aims to make common people aware of important happenings, raise awareness for fundamental rights, maintain high journalistic standards, and improve moral values to contribute to a better nation. Satyamev News encourages viewer participation by allowing them to share local news, ensuring that every viewer is valued.","
+Summarize the following extracted text from an app's description into a short term/phrase introducing the app:
+<EXTRACTED_APP'S_DESCRIPTION>
+$extracted_text
+</EXTRACTED_APP'S_DESCRIPTION>
+ 
+The output should include only a short term/phrase introducing the app.
+",Satyamev News: India's First Free Mobile News TV App,0.8695652173913044,0.6666666666666666,0.8695652173913044,"India's First free exclusive mobile news TV app , Hindi News App, Breaking news, Bulletins , special stories, infotainment based programs.Satyamev News is India's First Free Mobile News TV to provide you 24x7 latest update round the clock and  dedicated to :- 1. Make common people aware with every important happenings around them 2. Raise the voice for basic fundamental rights and facilities for Indian citizens,. 3. Maintain  the standard of real journalism . 4. Improve the moral values of  life to make nation batter.Satyamev news is delivering breaking news , political news, business news, news bulletins, infotainment programs based on reliable sources and information of current affairs,  Satyamev news is focused to give importance to our each viewer and involve them to send their local news by providing a strong platform.",Satyamev News is India's First free exclusive Hindi Mobile news TV app.
+3,0,Access and interact with Tautulli on the go with the official app from the Tautulli team.,"
+Summarize the following extracted text from an app's description into a short term/phrase introducing the app:
+<EXTRACTED_APP'S_DESCRIPTION>
+$extracted_text
+</EXTRACTED_APP'S_DESCRIPTION>
+ 
+The output should include only a short term/phrase introducing the app.
+",Tautulli Mobile App,0.7499999999999999,0.6666666666666666,0.7499999999999999,Access and interact with Tautulli on the go with the official app from the Tautulli team.,The official Tautulli mobile app.
+4,0,"Diamond Live Wallpaper is a beautiful free Android live wallpaper that simulates a water ripple effect with water drops. Tap the screen to enjoy live water drops and waves on your home screen. You can select ripple size, background image, and enable/disable the accelerometer. The wallpaper app will sleep when your device is inactive, conserving battery life. Our live wallpapers are created with quality HD images and 3D backgrounds, fully supporting horizontal orientation and looking perfect on mobile phones and tablet devices. To develop more free great live wallpapers, we have implemented ads in the settings.","
+Summarize the following extracted text from an app's description into a short term/phrase introducing the app:
+<EXTRACTED_APP'S_DESCRIPTION>
+$extracted_text
+</EXTRACTED_APP'S_DESCRIPTION>
+ 
+The output should include only a short term/phrase introducing the app.
+","""Dynamic Diamond Live Wallpaper with Water Ripple Effects""",0.7777777777777777,0.75,0.7777777777777777,"Diamond Live Wallpaper – beautiful free android live wallpaper that simulates water ripple effect (water drops effect).Tap the screen to enjoy live water drops and waves on your home screen.You can select ripple size, background image and enable/disable accelerometer.The wallpaper app will sleep when your device is inactive and will not drain your battery.Our live wallpapers are created with quality HD images and 3D backgrounds.Fully supports horizontal orientation and looks perfect on mobile phones and tablet devices.To develop more free great live wallpapers, we have implemented ads in settings.Advertisement can support our develop more free great live wallpapers.",Diamond Live Wallpaper with water ripple effect (water drops effect).
+,,,,,,,,,,Summarize the following extracted text from an app's description into a short term/phrase introducing the app: <EXTRACTED_APP'S_DESCRIPTION> $extracted_text </EXTRACTED_APP'S_DESCRIPTION> The output should include only a short term/phrase introducing the app.
