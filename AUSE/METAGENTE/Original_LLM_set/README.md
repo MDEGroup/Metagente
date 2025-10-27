@@ -30,3 +30,4 @@ python evaluation.py \
 --test_data_file data/test_data.csv \
 --test_result_dir result/parallel 
 ```
+(test set 400/600/top_200 Rouge/Cosine can be tested by replacing test_data.csv with respective files)
