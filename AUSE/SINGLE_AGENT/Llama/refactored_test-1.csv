@@ -1,0 +1,2183 @@
+description,readme
+"One lame reason and one good one.
+1. That’s how it was before, so I left it.
+2. That would give you a way around the validation. For instance, if you chose “Move to…”, then went back in your history and found a string… :boom:
+
+I suppose we could run objects in the history through validation somehow, but that’s a bit more complicated and probably full of edge cases.
+",no
+"No single responsibility principle then (now reports not only care about what to display, but also care about colors). And in my other comment I've explained how IF statements can be avoided and all colors business encapsulated in a single class.
+",no
+"I plan to come back to that. I wouldn't separate them, there is no reason for a getter to access this data separately, and it should match the setter, but it should be public Location getGeofenceLatLong(). We should be using the Location object, which is well defined as WGS84. I meant to look closer and see why we aren't using this as it is the defacto standard container for coords.
+",no
+"Yes, the data for a Contest is definitely not a tree: there are two distinct paths from Contest to Submission, one through User and one through Task (the same for UserTests). And, in general, there could also be many-to-one or one-to-one relationships that are not ""parent"" relationships.
+
+Luckily, at the moment, Submissions and UserTests are the only point where we're not tree-like, and Submission.token is the only non-parent scalar relationship, and both are caught as special cases above.
+
+If you come up with a better idea on how to generally manage this merge process please tell me! This is the best I could come up with, but I'm not too satisfied with it either.
+",no
+"@solnic Lets pair on this stuff. More bandwith and less latency. I apprechiate all discussions.
+
+Yeah I'm actually preparing to use a shared registry mixin. Mutant does not force me into writing this test. I could just do `--ignore Morpher::Registry*` and mutant would not have forced me to test this class. There are cases mutant forces you to write tests for something you'd generally consider as ""does not need a test"". You'll generally find this case for code that is only executed when booting the library.
+
+Just use `--ignore` if you like. For myself I tried to make sure this ""unit"" `Morpher::Registry` works correctly. Its your own decision how ""far"" you go with mutation coverage. BTW I dont think these tests slow me down. Actually I'm now 100% sure I got it ""right"". And so I can begin to share this code. I'll just copy & paste it, because that 10 loc do not deserve a gem.
+
+Remember rcov, we also had stuff we needed to exclude, because that ""dump"" tool tried to force you to cover code. Its IMHO very _normal_ you have to configure a tool. I'd not blame mutant for not beeing intelligent enough to know: ""This is a mixin used at boot time, so I cannot mutate it, because the mutations do not affect behavior of public interface on runtime"". I think a ""normal"" mutant user will exclude 5% of the code from mutations.
+",no
+"This may initially seem a good idea, but many times a storage is associated with a specific way to access and _process_ data.  BLZ is an example of that, where the iterators have an intimate knowledge of the compressed chunks and so it can process them by following the rules of time and space locality for memory access.
+
+PyTables is another example in that it leverages specific structures (indexes) attached to tables on-disk, so that it can do filters in O(1) instead of O(n).
+
+IMHO, it is fine to make Blaze to define standard paths to access the data, but you should also keep it open to access the data access weaponery in every format.  For example, it is difficult to imagine that you want to access a SQL database by reading the different data chunks and orquestrate your own query engine on top of that.  Of course, what you want is to issue the SQL query directly to the engine and gather the results back.
+",no
+"Please insert a blank line before this constant to make clear that this is not a subscription weight. Even better, make a comment what this constant is good for and even even better, make an explaining comment at the start of the block of the subscription weight values.
+",no
+"Thank you for this unexpected review! I am very happy to see your excitement about sculpt. :-)
+
+I am currently writing up the release notes for Genode 18.02. (https://github.com/nfeske/genode/commits/release_notes) Are you interested in contributing a paragraph or two about the Muen update?",no
+"This is great. I'd be keen to get this section expanded on to incorporate how we should handle the fact that data happens, and is often published in phases - planning, bid, award, performance etc - with the contract document itself only being one part of the pipeline.
+",no
+"> So maybe we want to apply the 250ms timeout only if the GSocketClient's timeout is 0?
+
+I think most users of GSocketClient never even read that snippet and just chose like 30 seconds to handle a network going down in use and didn't realize the ramifications that during connection it could take literally 1 minute to go through options and make a connection.
+
+I agree that there is a situation where it becomes unusable now but I think the real solution to that is a new API to set connection timeout seperately.",no
+"This option is not a separate index file.   The whole file would be MMAP'd, but it would not necessarily be required.  
+
+The index is the same structure as in the File Layout section.  To find the block address for the key and timestamp we're looking for we would use a binary search.  To be able to do the binary search over the current index, we would need to build a slice of pointers at load time that point to start of each index block entry.  This slice is used to find the index blocks for a given key using a binary search.  When a search is performed, key section of the index entry pointed to by the slice element is read and used for comparison.   When the index entries for a key is located, the specific block for the time being searched can be found through subsequent binary search or linear scan. 
+
+I'm not sure how this technique is described in the literature, but this paper uses it in a different context: http://www.dcc.uchile.cl/~gnavarro/ps/wsp95.pdf.  I also used a variation of this indirect indexing approach in the line protocol parser for handling unsorted tags.
+
+I'll see if I can work up some examples if it's still not clear.
+",no
+"We should ensure that we reliably deliver the transaction to WB territory in time. The deadline would be known at bitstream compile time and it would just be a timer on `active` in rt2wb. The reporting code path needs to be done anyways for `rtlink.o.busy & rtlink.o.stb`.
+",no
+"non il ne le fait pas, il utilise z3c.autoinclude...
+j'aurais dû en effet le corriger dans plone.app.contenttypes, mais je voulais garder une release de plone.app.contenttypes dans mon projet, je n'utilise pas plone.app.contenttypes dans ce projet et je ne voulais pas récupérer plone.app.event et toutes ses dépendances juste pour une dépendance de test.
+",no
+"I've wrote a generic `Storage` object that abstracts the get/set/remove methods and uses `localStorage` if available, otherwise falls back to a cookie. In the same file I also defined `z.hasLocalStorage`. Yep, this could be shared by the stats and editors js. I'll commit this sometime soon.
+",no
+"@franzliedke I'm not quite sure what you mean with important in this context.
+
+What if a user changes his password in Wordpress due to a security issue and the token in Flarum lives on.. Regular revalidation prevents that. I don't have any immediate objections though, it's just the ""other"" component (wordpress) that makes me itchy :grin: 
+",no
+"If that makes it clearer, then yes. :) I'm totally open to completely different names, too, if you can think of better ones.
+
+This code is unfortunately a little strange. I'm trying to avoid forcing consumers of this package to implement an interface on all of their API objects, which would be a lot of boilerplate.
+",no
+"> If I don't want to page, then I have to explictly deset it.
+
+I'd say this is how it should be, we shall sort of protect our runtime from loading too much data at once which might happen by accident - if we explicitly request to deset it then no one can complain ;)
+
+> The query builder creates some pretty complicated queries -- and the REST rich queries create even more ""creative"" and complicated queries where paging does not work the way you might think: ""paging"" for some things is by processinstance when I might be doing a query on tasks -- and multiple tasks per prrocess then mean that the lowlevel count doesn't work the way you need to set it -- or that paging is done differently (using a SQL 'having count' phrase, for example).
+
+When it coms to complexity - maybe we should avoid that sort of complex queries that cause as such issues? Ideally I'd like to keep in sync what is available in UI and what in Remote (REST, JMS, SOAP) and hopefully internally both should be done by the same code with various wrappers around it.
+
+Queries should always be for a given type - process, process instance, task and paging should apply on this level, though it can be searched by some other ""relatives"" e.g. variables. But then maybe we should split it into two or more queries internally where paging would apply only on the last one for the type we are going to return results.
+
+Wdyt?
+
+That's theory that I'd like to see in code but not sure how feasible it is to be implemented. +100 to look at that after 6.2
+",no
+"HOST_CC is a variable used by the build system, not in the configure stage. It's used to build native sdb to generate the disk databases. I think that default should be disabled, but we can pass it in sys/build.sh. Also, hiding warnings is just a way to display only the important ones. Who is interested on this? developers? users? both? the current CI we use generates statistics based on the warnings, hiding them by default will not be right for this.
+",no
+"@patriciogonzalezvivo @louh this fixes the current issue I've seen with the map not loading properly in Play. That said... I'm unsure if it fixes all the bugs I've seen in the past, so keep an eye out! I'll put this in a release next week.
+",no
+"So I understand the reasoning but I find this a bit unclean. We can start with this but let's open a JIRA to get it fixed once ORM exposes the contract(s) as (internal) SPI.
+Can you start a discussion with Steve and co on the dev mailing list to integrate that in Hibernate ORM?
+",yes
+"Been there tried that...  Hard when no one responds.
+
+On Fri, Feb 13, 2015, 6:16 AM Tim Pohlad-Thomas notifications@github.com
+wrote:
+
+> Really guys? This is not the time nor the place for this conversation. If
+> you have issues with how someone commits contact them in private if you
+> really want it fixed. If your intention is just to make others look bad
+> then carry on with the way this is going...
+> 
+> ""Most"" of us are grownups here and should act like them.
+> 
+> —
+> Reply to this email directly or view it on GitHub
+> https://github.com/LiquidSmooth-Devices/android_kernel_htc_flounder/commit/413236a53dd7b356b4452f0caeb589d4b91b2950#commitcomment-9736186
+> .
+",no
+"Correct, that method no longer exists. What exactly is doing a seek? 
+
+The old Database_MySQLi_Result was a non-cached class (fetched data in a loop) which was incapable of seeking, only Cached classes can do that. But because the methods were in the parent class, they were available, but didn't do anything.
+
+Seek() is defined by the SeekableInterator implementation which Database_MySQLi_Result no longer has. I am very curious what called that, and even more curious that it ever worked.",no
+"there is an issue in exiv2 which will be fixed in next release 0.27
+https://github.com/Exiv2/exiv2/commit/d775683f579543c35463ab2a8d9425da10d2f016
+
+I'll try later with the master branch instead of 0.26
+
+note to @m-kuhn if you try to upgrade this during the weekend",no
+"Currently, all my existing series recordings are epg based. I created them in the tvheadend backend. Is there a concept for exposing epg based series recordings (created in the backend) to Kodi? At least there is no TIMERTYPE for this right now... 
+",no
+"1/ there is no reason to expose hasComponent() in the script service, it's part of ComponentManager already
+2/ nothing prevent you from adding a getComponentManager(String namespace) which would be usefull for many other services I'm sure
+",no
+"Code suppression should be done with #if-ery, not by abusing comments.
+Meanwhile, you're missing a comment here that actually uses comments for what comments are for: telling the reader why this code is suppressed - why don't we need to save this in the environment ?
+(... and the buffer envvar should really be static, although having a lifespan that lasts to the end of main is surely good enough.)
+",no
+"What I meant is that we should ensure that all the changes in the release branch also end-up in the main branch. If I understand correctly this is now handled by cherry-pick, but that can be error prone.
+
+In the end the main branches need to use SNAPSHOTs, but we should still be able to do that. Basically after merging the release branch in, the version gets changed again to next SNAPSHOT. 
+",no
+"Keep an eye on your indentation. Since this code lives inside the anonymous function you're passing to the ready function, it should be indented. Doing this also helps you keep track of all the brackets and parenthesis you'll use through your scripts. 
+",no
+"Also, to make testing easier:
+1. Use shared wasapi
+2. Disable peak limiter in the renderer (it adds latency)
+3. If you use some fancy usb dac, better switch to onboard realtek crap. Rate matching is in more or less proof of concept state right now, and is very aggressive - some dac's may need bigger latency.
+",no
+"Urk!  Good catch, but I'm sorry it was necessary.  Joe, we might want to strongly consider moving the compiler off of plain old `List`s and onto `ConcatList`s, for which we don't have to choose between flip-flop ordering and tail-recursive folds...
+",yes
+"Yes, I believe your analysis here is correct. The question is what to do in a single WAN scenario when the gateway is down and then up (e.g. packet loss/latency beyond limits detected and then recovers).
+I believe there were some comments in the past about OpenVPN needing a kick when something happened to the underlying interface, even though the IP address... remained the same. And that was the reason for the (current_device != this_device) - if a single gateway has flapped then the system would give a restart to the OpenVPN instance, even though it will actually be restarted on the interface where it is currently running.
+But actually I suspect that it is only when there is a physical interface event or IP address change that this is an issue - an that is handled by other scripts.
+So I would agree that the test for (current_device != this_device) can be removed altogether.
+Then test by connecting the test system to an upstream circuit that can be made to fail, monitor some upstream IP, see that apinger detects the 100% packet loss. Then recover the upstream circuit, see that apinger reports the gateway good again. Check that the OpenVPN process has not been restarted, and also that it re-establishes its connections to server/client/s across the gateway.
+",no
+"There's no change in code, just the npm package export pointing to a
+different build.
+On Fri, Sep 30, 2016 at 6:40 PM Tim Clemans notifications@github.com
+wrote:
+
+> @yyx990803 https://github.com/yyx990803 where do I find release notes?
+> My site broke because I didn't use a CDN pointing to a specific vue.js
+> version.
+> 
+> —
+> You are receiving this because you were mentioned.
+> Reply to this email directly, view it on GitHub
+> https://github.com/vuejs/vue/commit/e6d224c3c5ca3ff6a365326ba615d116764b68f2#commitcomment-19249220,
+> or mute the thread
+> https://github.com/notifications/unsubscribe-auth/AAefXv9Qi8UjXUp91ZSa1K3chDNKcR4Oks5qvY_IgaJpZM4KLkuh
+> .
+",yes
+"These are the versions I used for building the them for the Mozilla addons website. They're included in the extension there. In the tagged release on GitHub, the max version is a little higher, but everything else is the same. (In practical real-world usage, there should be no difference.)
+",no
+"@rafaelfranca in the future, please consider a ""transitional"" release that supports both major versions of rails (eg. 3 and 4), if possible.  Jumping directly makes the rails 4 upgrade slightly more difficult for `simple_form` users.  Thanks!
+",no
+"There's two ways to expose the parameters each method can accept. One way is to just accept a dict of parameters, as you've done here. Several other methods also do this, such as [`ActivationKey.add_subscriptions`](http://nailgun.readthedocs.org/en/latest/api/nailgun.entities.html#nailgun.entities.ActivationKey.add_subscriptions). A second way is to explicitly list out the parameters that can be accepted, as is done in [`ActivationKey.content_override`](http://nailgun.readthedocs.org/en/latest/api/nailgun.entities.html#nailgun.entities.ActivationKey.content_override), [`AbstractDockerContainer.power`](http://nailgun.readthedocs.org/en/latest/api/nailgun.entities.html#nailgun.entities.AbstractDockerContainer.power), [`ContentView.copy`](http://nailgun.readthedocs.org/en/latest/api/nailgun.entities.html#nailgun.entities.ContentView.copy) and more. The latter approach is more work, but it has three advantages:
+- The methods are easier to start using. Parameters are right there in the argument list.
+- It's easier to work around bugs in a predictable manner. For example, a redundant entity ID is required by `ContentView.copy` (see [here](https://github.com/SatelliteQE/nailgun/blob/master/nailgun/entities.py#L1141)).
+- You shield the user from design weirdness, such as the nested parameters required by `ActivationKey.content_override`. (See [here](https://github.com/SatelliteQE/nailgun/blob/master/nailgun/entities.py#L242-L245)).
+
+How much work is it to list arguments right in the method signatures?
+",no
+"ok thanks Marius for the explanation, I get it now. Could be good to add your explanation as comment and explain that we manually trigger the change event because the textarea is hidden and thus doesn't have the focus (and thus it won't send a change event when loosing focus).",yes
+"It's a hard one. Basically it comes down to convenience that capybara exposes when run on Rails applications. Capybara will notice that the link has ""data-method=delete"" and issue a DELETE request based on that. The configuration option that controls that behavior is called ""respect_data_method"" and you can see it set to true for Rails here: https://github.com/jnicklas/capybara/blob/master/lib/capybara/rails.rb
+
+The JavaScript popup doesn't show because the default capybara driver does not execute any JavaScript at all. If you would need to test some AJAX functionality, you'd have to use a different driver: https://github.com/jnicklas/capybara#drivers
+",no
+"Yep. I think the difference is that we used to have a history around null handling because the code used to silently succeed. I'm going to delete `SetProperty_SettingNonNullableValueTypeToNull_CapturesException` since it only exists to describe a particular time in history.
+",no
+"My comments on #458:
+
+Although I can't comment on the use of the `OCINls*` API, I like the idea.
+
+On a general note, @vadz has got a valid point but the `oracle_session_backend` is a private class, so we can mess its constructor as we like. OTOH, `oracle_session_backend` could become a preliminary step for further improvements of `connection_parameters` which I'd like to see a sole parameters carrier between the public interface and internal backends. I mean, it could become a dual-map with addition of `connection_parameters::{get|set}_option` and `connection_parameters::{get|set_backend_option}`.
+
+Nevertheless, it's a useful feature, so I'd like to see it merged regardless if refactored or not.
+",no
+"In this case, we should split the structure between the cache type and the way to recognize it in various parsers. Some information present here is specific to geocaching.com, while some other is shared between the GPX parser and geocaching.com. This is confusing.
+",no
+"well the List iteself is safe, but apparently the TokenAttribute of each work element is being shared across threads too, as the Lucene implementation caches it internally.. and also caches the Iterator State !!
+
+So the Iterator's _current state_ is shared across threads iterating it.. mostly harmless but not so harmless if one thread initializes it (and isn't done initializing it).
+",no
+"They still pop up occasionally, I'm trying to quell them (it's because repr() is used sometimes to make the string). Open a bug, but it's not a release blocker IMO - it's a very obvious bug to fix when you get the error, and it only happens if you make the migration on 2.7 and then run it on 3.2.
+",no
+"Hi Marco ! There's a new version on [ang-drag-drop](https://github.com/ganarajpr/angular-dragdrop) that fix an issue on IE, please run bower update (previous version is not working on IE). We need to be in #master until next release (1.0.7).
+",yes
+"Now to just hide them altogether :) Although I think it makes it more challenging for users to decode signed cookies with things like socket.io auth. Something I did with my other package is to have the signed cookie middleware expose a decode method which can decode the signed cookies.
+",no
+"Fine by me.
+
+On Sun, Dec 24, 2017 at 9:02 AM, Matthew Rocklin <notifications@github.com>
+wrote:
+
+> Looking through the changes since last release I don't see any reason why
+> we couldn't issue a minor release. Pinging @TomAugspurger
+> <https://github.com/tomaugspurger> and @jcrist <https://github.com/jcrist>
+> who may have thoughts here.
+>
+> —
+> You are receiving this because you were mentioned.
+> Reply to this email directly, view it on GitHub
+> <https://github.com/dask/dask/commit/4b09c3e58a8668daafac0caf4fcd60e139c388a0#commitcomment-26462206>,
+> or mute the thread
+> <https://github.com/notifications/unsubscribe-auth/ABQHIgL3gAUrusef0mnsr-j4Eoqv6Fzjks5tDmeZgaJpZM4RL4sB>
+> .
+>
+",no
+"> And for not scaring users away.
+
+I see why you say this. It doesn't seem like a big portion of the biomechanics community is quite ready for the insaneness that I picked from the computational science and open source communities. Many people that would like to look at this data will try to load it in a spreadsheet. In fact, the first person that emailed me about it asked for my spreadsheets instead of reading the paper carefully. I guess I'm just not that interested in catering to the spreadsheet engineers. My opinion is that it's about time they get with the ball game or they are going to get left behind. I don't feel that compelled to sugar coat the presentation...
+
+But, this is how I see things happening. I create this as I have. Then someone will take this data and create versions of it in c3d, excel spreadsheets, matlab mat files, etc. They have full permission to do that with the licenses we've used. Some people can even write a new paper on a subset of this data using whatever formats they like. I've provided the raw form and people can take that and run with it. For example, you can convert the trials you like to mat file and pass them out to each new student in your lab with your own instructions. But it will be up to you to properly interpret everything I wrote and make good judgments about what to include, what notes need to be there, etc. This is how things like IPOPT work. Someone that is really good at writing computational software does so, but it is effectively inaccessible to many people that don't know C++, then someone that knows C++ and Matlab comes along and modifies the code so that it opens it up to matlab users that don't know C++. I think the data can work the same way.
+",no
+"I like also the point, and the example is an interesting way to use a closure. :)
+
+All in all, I do think this particular commit should be redone to fit a common vision of the main menu. :)
+Let's discuss that in the main PR conversation thread.
+",no
+"I mean, regardless of original intent, it reads to me as covering Rails, which is what we want. 18F wants an open, unencumbered policy of letting its staff freely contribute upstream to any piece of open source relevant to our work. If the sentence as written needs clarification, let's do that.
+",no
+"Which use case would that address? What is passed to `beingProcessed()`, the current operation?
+
+I'm working next on `onFailedOperation()` which will expose the failed operation to the error handler. With that in place, would there be a need for `beingProcessed()`?
+",no
+Maybe another thing this reveals is we ought to take more time to check commit messages for correct formatting during the PR review process and (especially for frequent committers) block on PRs with commits like this one that aren't correctly formatted.,no
+"Thanks for clarifying. My understanding was correct then (although I could have phrased that better), which is why I bundled Bison 3.0.4 due to the assumptions made about its output (I discovered this when porting to Windows/MSVC and having an older 3.x release of Bison). Build system tweaks are worth maintaining and is not what I was talking about, i.e. I don't plan on changing the compiler.
+",no
+"@knolleary You're right, sorry for that part.
+I just looked the code and was surprised to not see the same dropdown menu as for Twilio letting the user choose between the Global and Local credentials.
+And this version does't create a configuration node, meaning if the user want to add a new PushBullet node he will have to set again the credentials for the same device.
+",no
+"On doit pouvoir le faire de façon un peu plus générique... en demandant si la propriété existe.
+Quelque chose du style:
+if( getProps().hasProperty( kFnOfxParamPropGroupIsTab )
+    getProps().propSetInt( kFnOfxParamPropGroupIsTab, 1 );
+",yes
+"hi @wiire-a . long time no see. our friend @soxrok2212 has some new interesting info so you might want to checkout the chat someday. also it'd be nice if you could give him access to our private research repos.
+please delete this comment after you've read it.",yes
+"Sorry!
+
+There were no callers in the RSpec code base that passed `escape_backtrace` and it's a private API at this point so it seemed safe to remove.  It makes sense that the textmate formatter could use that since it originated in rspec-core.
+
+Is it feasible to refactor the textmate formatter so it's not coupled to RSpec's HTML formatter?  Since the textmate formatter isn't part of RSpec anymore, it's really useful for us to be able to treat the HTML formatter's internal methods as private implementation details we can refactor as needed. 
+",no
+"I commented the reason. ----> ""# KDE's next release is in 7 days. Better to be ready now..."" I want to make sure everything is working with KDE 4.12 which is being released in less than a week. After which the packages will be in Extra and we can remove unstable. Does that make sense?
+",no
+"Delete after is the safe default option, as any IO errors will stop the deleting process.
+
+Delete during is the default of modern rsyncs.
+
+For all of the options can we be sure that the src and dst listings have completed without errors if we make during the default? What we really don't want happing is the src listing fails and returns no files, then we delete all the files in the dst.
+
+Looking at the code I believe that can never happen - do you agree? (Provided the list functions are doing their job counting errors).
+",no
+"Note: See http://www.tei-c.org/release/doc/tei-p5-doc/readme-3.4.0.html for the release notes for the current version, and http://www.tei-c.org/release/doc/tei-p5-doc for the other releases. After applying this change and regenerating the .rnc file, I validated several FRUS TEI files and didn't see any new errors or unexpected output. ",no
+"Added comments in 3805d2ff9 that explains this.
+
+This is to prevent scenarios like this:
+- in the project file, we have two material `m #1` and `m #11`
+- the child material in use are `m #1_um3` and `m3 #11_um3`
+- the problem with simple prefix matching is that `m3 #11_um3` can match `m #1`, which is wrong.",no
+"mostly 'historical' reasons - probably would be best to have adapters, I understand it's useful for you guys to have it.
+in that case if you really want it in for the next release please remove the `remove_const` line entirely since it's confusing - there should be nothing to remove and add a similar ""explicit"" adapter class for HSQLDB as well since they are sharing some functionality.
+",no
+"I'm not sure that I'm crazy about seeing the disassembly of the top-level list of options. I like that there's a separate section dedicated to private repos below, but we did lose our top-level summary. This seems to read to me like what I am about to see is a list of all possible params (which is what it was before): `You can
+ +override the default configuration with the following parameters`.
+",no
+"I don't know how to support multiple release tracks of meteor at once. For example, on the 'next' branch I'm tracking 0.9.2. But the versions being released as release candidates are tracking 0.9.1.
+
+It's probably worth noting that I think IR should work with both MDG release tracks (0.9.1, 0.9.2) but with the current package system I have to specify a very specific versionsFrom release candidate to use core packages. Maybe there's a feature that could be added to packaging that makes this process easier even if it doesn't strictly fit the semver constraints.
+",no
+"[Previous conversation](https://github.com/einaros/ws/commit/c60178ba571d433cd027f93f806892a0d69b536f#commitcomment-8656187)
+
+Here are a few differences between ultron and pend:
+- pend provides functionality that does not already exist in the builtin node.js API.
+- pend does _not_ accept multiple parameters by parsing a single string parameter splitting on the "","" character.
+- pend is already a direct dependency of my [app](https://github.com/andrewrk/groovebasin), and an indirect dependency many times.
+- pend is already [packaged and available in debian](https://packages.debian.org/source/sid/node-pend)
+",no
+"Line 77 is already wrong as bool is expected as parameter.
+
+> PHP FPM shares the libxml_disable_entity_loader state across threats which can break things as e.g. Doctrine requires it to be enabled.
+
+Across threats? For any connection  and any application that may be running there?
+",no
+"@bubnikv also we didn't release because rpi foundation kept breaking things. There was a surge of wifi bugs and users kept reporting that ``network-interfaces.txt`` was not working. And before that stretch coming out. And also see: https://www.raspberrypi.org/forums/viewtopic.php?t=187797
+ 
+We will probably Release soon with 3B+ support now working (right @foosel ?).",no
+"Great to see c3p0 replaced with HikariCP.
+
+HikariCP 2.5+ requires Java 8, so I guess the next flowable release will require Java 8 too?
+
+Otherwise you can use the java7 artifact:
+
+```
+<dependency>
+    <groupId>com.zaxxer</groupId>
+    <artifactId>HikariCP-java7</artifactId>
+    <version>2.4.13</version>
+</dependency>
+```",no
+"HTTP is stateless, as is the JsonWebDriver protocol. There is nothing special that `quit` does with regards to terminating connections. So if something is hanging, that needs to be inspected, it’s not normal.
+
+However, not calling `quit` _does_ prevent the final code coverage data from being transmitted.
+",no
+"Yes, tests went as a separate commit. By now I'd guess I have pretty good understanding of how yield from works, and even drew a diagram trying to explain that vividly. I still kinda afraid that I'm missing some details (especially that diagram goes on with criticizing some aspects of protocol and possible ""naive"" usage of yield from :-D), so I'd like to spend more time verifying and reverifying all that.
+",no
+"Don't use the SSH version here, it requires setting up a public key at Github and thus a Github account. I've seen Firewalls blocking the git protocol, so the safest bet is `git clone https://github.com/#{@author}/#{@repository}.git`.
+",no
+"@fosskers   Well,  as you can see in https://travis-ci.org/hvr/cassava/builds/251678818 Travis tests several GHC versions including GHC 8.2.1RC, and in fact the `cassava-0.5.0.0` release works fine with GHC 8.2.1-rc3.   This sounds like a serious bug in the buildtool... which cabal version are you using and how can this be reproduced? Can you file a bug upstream so we can fix this, as it's likely going to affect others.",no
+"hey man, your work is interesting. I'm afraid the next release of django-netjsonconfig will break a bit of things for you, so if you need help, don't hesitate to get in touch with us via the [OpenWISP Support Channels](http://openwisp.org/support.html).",no
+"Yup! Once you unlock beastMaster, you can purchase an item that sets all
+gen1 pets 0
+
+On Sun, Feb 16, 2014 at 9:31 AM, Sabe Jones notifications@github.comwrote:
+
+> @deilann https://github.com/deilann: Release pets? Like, set your pet
+> free so you can re-collect it?
+> 
+> Private branch: Ah, yeah, that would make sense.
+> ## 
+> 
+> Reply to this email directly or view it on GitHubhttps://github.com/HabitRPG/habitrpg-shared/commit/b75000188f91b802554e58c28f853ab8bf11390b#commitcomment-5390316
+> .
+",yes
+"It is possible that I have written something else in the info manual,
+but with Chrysalis as reference point, only names used in the TV show
+is used in NAME, other names goes into OTHER NAMES.
+
+And I release now that some recurring characters have a named
+in NAME that should action by in OTHER NAME.
+
+So this will have to be looked over. But it is nice to have it this way
+[first paragraph], because then you get use -r=name= to get all ponies
+that have a name (is not just a generic character) but that have not
+been mentioned by name.
+",no
+"I think the reason is because the feature is only currently enabled under Chrome OS even though the API is exposed for regular Chrome too.
+
+You can see that the actual functionality is only enabled when OS_CHROMEOS is defined:
+http://src.chromium.org/viewvc/chrome/trunk/src/chrome/browser/extensions/extension_web_socket_proxy_private_api.cc?view=markup&pathrev=85757
+
+I'm going to comment on the bug and request that this be enabled for all Chrome builds not just Chrome OS. Feel free to also comment: 
+http://code.google.com/p/chromium-os/issues/detail?id=9667
+",no
+"Agree that these data elements make sense (would be cool to offer these options when send the reports in Direct via a pulldown with pertinent choices that also allow manual text entry of the direct email address, if necessary).
+
+Also need to increment $v_database by one in the version.php file
+",no
+"Just curious but why do you/we sometimes choose to invoke the shell with $(...) instead of grave accents  `...` ?
+Do both sh and bash recognize both conventions, is there a reason to prefer one over the other?
+
+Sorry for the noob questions.
+
+UPDATE: I think I just read where the 1st convention $(...) is POSIX standard...
+",no
+"I see.  Ok, I understand now.
+
+Problem we had in other places is that, if there's no process to kill, we do need to delete the file (it could have exited on it's own, or been killed by other processes).  Is there a way to ensure all of that?
+
+From the cherrypy side, this wound up being fairly complex, and written in python code.
+",no
+"@sensescape @nvkelso per comment on other commit, please don't modify the `mapzen` source in imported files beyond what's necessary (will cause hard to track down bugs later).
+
+Let's also standardize on a single name for the imported terrain normals (I see there are two different names being used in each of these files). Something descriptive like `mapzen-terrain-normals` would probably be best (we have used overly vague names like `normals` in the past).",no
+"You've fixed the error, but why is it happening? From what I can see, this should only happen if we pass in an integer and it's not a sound ID. Why could this happen - maybe it's something that is in solr but was deleted from the database? Our search change moved from ids to objects, so I think this is from a different page. My recommendation is that we work out where this is happening and move those pages to passing in sound objects.
+",no
+"This doesn't seem to take into account functions that are defined directly on `Sass::Script::Functions` after the initial `define_evaluation_context!`. Not good style, but not something that should break silently either.
+
+I'll merge this commit once it supports directly-defined functions.
+",no
+"Have you checked if the type has the right registry entry in FileIO?
+Also, we currently silently move to the next loader/saver library if anythin fails while loading. Pretty bad solution. 
+This will be replaced by some better exception flow in the future, so that we can give more elaborate information like `library not installed`, `binary not build`, `file corruption`, so that we can better decide what to do. Putting some logging with different levels would also make sense.
+",no
+"Yeah it means that any attempts to put more requests on the channel would block.  The default is 1 and that made it impossible for me to write a test because the calls would just block, so I arbitrarily chose 5.  Open to suggestions.
+",no
+"Thanks for the example, I just noticed it's working after I merged https://github.com/blakeembrey/javascript-stringify/commit/964c5f2ab1160e7673451264c40a682020557511. I'm going to review it a little more to figure out why, and release it as `1.3.0` tonight. Thanks again!
+",no
+"Sorry @jmchilton I just tried to get this image running and this seems to be a known problem: https://github.com/CodeboxIDE/codebox/issues/517 and many more.
+
+Codebox does not seem to be maintained anymore. Last release was one year ago and this one is not working :(
+We can try to install a very old nodejs version, I will see if I can find time for this - :cry: 
+
+On the bride side with these patches: https://github.com/galaxyproject/ansible-galaxy-os/pulls
+This images can be build, planemo is running, just a few tweaks are needed ... and we have a new solid VM.
+",no
+"Yeah, probably better in coffeescript. People often times use variable names anyway. I think it's best to use a common convention. Optional options come last.
+
+Also, it would be nice in the next release to be able to call `only` and `except` as methods that take unlimited positional args. So that would entail just pushing an object with methods.
+
+``` javascript
+ Router.before(scrollToTop).only('one', 'two', 'three');
+```
+",no
+"@steveobd you may want to stick to the production / release tags atm. master is our development branch and can become unstable. Also note master right now will be released as 3.0 so API changes will be happening (ex: removal of ""secure"" option). We will make note of all backward breaking changes to make upgrading smoother.
+
+We will look into appengine issues and have it fixed before this code goes into production / next release.
+",no
+"I wish you hadn't. There are no ""emergencies"" here—the work of migrating all the repositories to fully reproducible builds was simply not complete. Fixing the ""broken"" release versions in pom-fiji was slated for 5.1. Let's not let the perfect be the enemy of the good.
+",no
+"Fixed now
+https://pypi.python.org/pypi?name=spark3_parser&version=1.1.2&:action=display_pkginfo
+in release 1.1.2. Sorry about that.
+
+On Thu, May 5, 2016 at 12:03 PM, Elan Ruusamäe notifications@github.com
+wrote:
+
+> however spark_parser 1.1.1 lacks license declaration
+> https://github.com/rocky/python-spark/blob/fc5ce28d39a220a78c43ed3e1003def8b4cb543e/setup.py#L70
+> 
+> —
+> You are receiving this because you commented.
+> Reply to this email directly or view it on GitHub
+> https://github.com/pld-linux/python-uncompyle6/commit/b65cedb502b3e00afce18031117c00db59cf8ea2#commitcomment-17368403
+",yes
+"Hmm, I'm not sure if I like exposing methods on the error object.
+
+Is your use case that you want to be notified of the error, but still have the files removed for you? Maybe we should split the options into two then; `errorReporting` and `removeFilesOnError`?
+
+Or we could expose `.removeFile(req, file, cb)` onto the multer class, which would just forward it to the storage.
+
+``` javascript
+Multer.prototype.removeFile = function removeFile (req, file, cb) {
+  this.storage._removeFile(req, file, cb)
+}
+```
+",no
+"That would be cool.
+I had just the idea, that you may want to do a xdg-user-dirs fix release for 0.8.13 and we then start to use new pkglist tags for manjaro-0.9.0?
+Ie we use manjaro-tools-0.9.9 for 0.9.0.
+We need to stop getting pkglist changes in master at some point.
+",no
+"By exposing the key functions as so you remove the ability for a version scheme to be created that doesn't internally use a nested list of tuples for it's sorting. By using the classes to sort instead of the keys you gain immense flexibility as to how the versions internally actually get sorted.
+",no
+"This is an example of a place where we’d like to expose _both_ functors, but they both expose `map`, so I chose to use the one that we expect to call map. We could perhaps explicitly add a `traverse` member to the record that explicitly calls `(./functor/endo/kleisli m).map`.
+
+And I realize that `./Functor/Endo/Types` is redundant with `./Monad` here.",no
+"At the very least, the call to get_value should have a `borrow=True`. Ideally there would be a way to retrieve the shape of shared variables without doing a device to host copy... I suppose `parameters[name].shape.eval()` should use less memory and often be quicker (probably needs a cast to tuple). 
+",no
+"It would sound better (and I did think about the issue). The problem is consistency: we have `firefoxWrapper` and many others. And for changing these, the problem is backward compatibility, but perhaps we could cut that now before the release and rename all those wrappers...
+",no
+"This is still mutating an existing object (you're making a copy of `state.columns`, but it's a shallow copy and the individual column objects are still shared with wherever they came from). Here's one way to do it:
+
+    const columns = Object.assign({}, prevState.columns);
+    columns[columnPath] = Object.assign({}, columns[columnPath]);
+    columns[columnPath].visible = !columns[columnPath].visible;
+
+The `update` function in https://github.com/kolodny/immutability-helper is probably a nicer way.",no
+"I'm not so sure.  When I had it turned on it exposed the fact that things are very nastily redundant.  It often re-calls the same depth level of the tree 3-4 times before it resolves it down to actual activity, This is because it often calls the generic VisitNode, which in turn calls the more specific VisitFoo which in turn calls the more specific VisitBar, and so on.  It was spitting out traces for each of those levels on the way, which looks really broken if you don't know what's happening.  To expose this to users it would have to be more elegant and smart about tracing where in the tree it had already printed a message for, and not print it a second time. 
+
+The needs of the user are ""see what the syntax tree for my code looks like"", while the needs of the kOS C# developer are ""see what hoops the compiler jumps through as it looks at the syntax tree"" which is a much messier pile of information.  This was for the needs of the kOS C# developer (me) and was at that messier verbose level.
+",no
+"Aha, so this is the part which is a more general 'Publish Alert'
+I would separate these out & the core Publish Alert line could maybe be just done onaccept?
+issued_by is indeed an FK to auth_user as I guessed so the data model should really reflect that rather than being free text (although I still _hate_ the idea that this is a manual step at all...approved_on/by should be the last step where there is approval...I guess we do need the functionality otherwise in order to be able to 'Save Draft'
+",no
+"@varman87 After the release of beta3 we adjusted the way on how the Kibana Index pattern should be setup. This can be found here: https://github.com/elastic/packetbeat/blob/master/docs/gettingstarted.asciidoc The setup method provided also works with previous release. There are two options: Either going with the old version of the dashboard or setup a new index pattern. Let me know in case this doesn't work.
+",no
+"To me it looks like latest major changes didn't cause those many issues (not even the combat rewrite) and they got fixed in the days after that.
+The fact that we don't have a release cycle means there are no stable branches, everything is a work-in-progress and the level of stability is pretty much pure luck.
+
+Please note that even business products developed by big firms (and sold for expensive licenses) have lots of regressions after every patch (and sometimes they even retire some patches because they are too bugged to let more customers apply them).
+
+The most common solution is to let the community test the changes, just like Windows has Fast Rings or WoW has PTR realm. You could set up a test realm like Treeston suggested and ask your users to play there a bit before you update your main realm.
+It would be nice if TC had its own test realm publicly available where every user could test PRs and such (and for that we just need someone willing to give us a server :) ).",no
+"That line is needed to test neovim
+
+https://github.com/albfan/ag.vim/blob/master/.travis.yml#L53
+
+For me is wrong to force editor choose when it doesn't match your expectation. test suite should inform you to explicit define what's wrong, not silently override it.
+
+Is better to see test suite fail, than false positive test passing.
+",no
+"This also removed the whole spec for `File::Stat#zero?`, is it intended?
+Is the shared examples in `:file_zero` problematic on solaris as well?
+
+(Removing the `platform_is` is totally fine here, and maybe it should be done in `core/file/zero_spec.rb` too)
+",no
+"You should always avoid the exposure of the implementation details like `romfs_entry`.
+Can you follow the analysis of [school510587's viewpoint](https://embedded2013.hackpad.com/Lab21-RTOS-shzzlckJ50f) on romfs? The hierarchy of file system implementation can improve the abstraction and the consistency.
+",no
+"Ok, this conversation might continue until you read something about permgen and metaspace. In short, MaxPermSize was added because IDEA has a lot of permanent generation objects and permgen will be overflown very soon with default value and I don't want to make plugin-developers to add this options to each build.gradle file. Adding MaxMetaspaceSize is senseless for solving this problem. So please get used to the warning because I'm not going to complicate the plugin for no reason.
+",no
+"@alexmarsev: Fine for me if it helps. But problem with temporary hacks is that they most likely will be forgotten soon and won't be temporary anymore... But you have point that we can't wait for madVR release forever. 
+
+@Underground78: Nevcairiel released new LAV today, are you going to update mpc-hc's fork? :) And have you seen v0lt's answer here https://github.com/mpc-hc/mpc-hc/pull/126#issuecomment-32065610 ? I'm poking you in case you miss that, look when you have time. 
+",no
+"Similar concerns here - a public `next` allows people to misuse your objects. For example, they could tie your list into a circle. `data` is trickier. Since your code doesn't really care about what people do with the data, you may be OK in exposing that.
+",no
+"@mikewest if we track something like client for navigations in browsers, open a ticket? (Would be helpful if use cases are included.) Navigations is one of the areas that is poorly explored and also has interoperability issues. Perhaps now is the time that someone delves in...
+",no
+" `xmalloc` cannot return `NULL`, that differs from `lalloc`. A note on differences in the function description?
+
+If `malloc` returns not `NULL` for `size==0`, would it be safe to access this pointer (accidently)?
+Can't we just use `size = size > 0 ? size : 1;` and remove the parts with
+
+``` c
+if (!ret && !size)
+      ret = malloc(1);
+```
+
+? Now the returned pointer would be always save to access.
+",no
+"I thought it would be useless to have tests that are not relevant.
+I'll put these tests back in, and keep just the additional comments in place.
+Do you mind if I move those tests further down, to avoid having an ""invalid"" password as the 2nd test? 
+",no
+"> Especially because I sometimes make pre-releases that do not follow that naming convention (e.g. 0.5.8.pre1intenthook1)
+
+Hmm.  See https://github.com/calabash/calabash/blob/develop/VERSIONING.md
+
+Do you ever release to rubygems with a name like that?
+",no
+"Does this rely on an edge version of hub or something? Merged into node-build, but the first release failed.
+
+```
+unknown shorthand flag: 'F' in -dF
+usage: git release create [-d] [-p] [-a <ASSETS_FILE>] [-m <MESSAGE>|-f <FILE>] <TAG>
+
+Creates a new release in GitHub for the project that the ""origin"" remote points to.
+It requires the name of the tag to release as a first argument.
+
+Specify the assets to include in the release via ""-a"".
+
+Without <MESSAGE> or <FILE>, a text editor will open in which title and body
+of the release can be entered in the same manner as git commit message.
+
+If ""-d"" is given, it creates a draft release.
+
+If ""-p"" is given, it creates a pre-release.
+```
+
+Running hub 2.2.0 via homebrew
+
+```
+$ hub --version
+git version 2.7.2
+hub version 2.2.0-rc1-g4b725ef
+```
+",no
+"I think we want to be careful here. Those defaults look a bit outdated to me, but it's also unclear we want anything other than the Go defaults, especially given that our clients support everything, which should allow the server to choose a good cipher suite no matter what. We should think more about this @uaalto and @fffw. What do you think here @blanu?
+",no
+"@Laizerox dont try to make us thing that automatic casting method choosen by c++11 compiler will be better than the one we choose ourself in our specific case.
+We know that it will be easier...
+Its a good practice to do explicit type casting even now, so its recommended to do that for cmangos devs.
+Anyway its ugly and we do too much of them mainly because we dont respect enough POO scheme.
+",no
+"@danmar: Release | Win32 VS2013:
+
+> ..\lib\checkbufferoverrun.cpp(331): warning C4244: 'argument' : conversion from 'MathLib::bigint' to 'const size_t', possible loss of data [C:\Users\xmr\Desktop\cppcheck\gui\cppcheck-gui-static.vcxproj]
+",no
+"Err, no. I don't think that will be very helpful. The idea we're using right now is that one field needs to have the ""label"" super-property. For admin entities, partners, etc, this is baked in, but for other form classes the user would need to choose the right label field. In the absense of such a field, show the ID? Not sure.
+",no
+"Each C--style //-to-NL comment is a separate syntactic unit; splitting one comment into several syntactic containers because it straddles lines is a conflict of structures between container and content.  A single /\* ... */ is a single syntactic container, better-suited to multi-line comments.
+",no
+"Maybe. I have a feeling it's the same as exposing touch focuses -- that you can easily manage the touch state for the actors you care about without needing to ask stage. Maybe you have a good use case for it though. When is it useful? 
+",no
+"I'm not sure what you mean. What line do you see that you think is problematic? This function simply generates a table to display what roles and permissions it thinks are accessible on the page. It does not modify, save or delete anything, it only generates output.  It's also very possible for this info that it produces to be wrong, as it only knows about static permissions, not runtime permissions. If you have modified anything about the way ProcessWire handles access control at runtime (via modules or hooks), the results that this table may not be correct, in which case its output can be ignored.
+",no
+"Sadly, no. I get an interop exception that it doesn't work out. :(
+I also considered making those IntPtr fields private and exposing public property getters that wrap it as a safe handle, but that safe handle would need to be backed by a field so we don't create the wrapper on every invocation of the property getter. And that may recreate the same or a different problem to the marshaler.
+",no
+"@hakre Why do you see it as a core vulnerability? It is documented and there may exist use cases that would enjoy this feature, exposing the inner context of a class to an include file. You may even write a public library that specifically exploits this functionality.
+
+But this issue is not about the same thing, now is it? ...as a public autoloader library, tasked to load whatever it thinks it is supposed to  load (PSR-0 et al) but really wouldn't knew if it was compromised nor does it have any concerns for it while it stands exposed because ... hey f#cknoes I could'n't tell you?  ...there is no way of telling, no way of being rest assured that it is reliable and has the end users best interests at heart. No wait what nonsense am I saying of course you can, it doesn't give a s#it!  
+
+There's a saying you can bring an ass to the water, but you can't make it drink. 
+
+I saw, I reported, I even came with suggestions, you took it as amusement outright laughed in my face, not a far cry from before, being insulted as a retort for failing to produce argument in further debate. That was a long time ago. Why is this issue so important to you now, you're certainly not here doing damage control?  If you're just making sure that I hold no inclining appreciation for composer I can assure you that ship has long gone, I could not possibly care less what becomes of you.... but don't let that stop you, lets hear your encore.
+",no
+"Maybe move that whole if/else block in a separate method, called something like _getVersionData() and make sure the doc block explains this is done for BC reasons?
+
+All the old stuff will go in the future. But I really prefer a slow and smooth transistion for the users of the plugin.
+",no
+"Sure that is undesirable, but taking the opportunity of a major refactor in a major release is the right time to do this.
+Having `impl` in a name is an anti-pattern so we should  take the chance to get rid of it.    If need be, we can add a deprecated  `javax-websocket-server-impl` pom only module with a single dependency on `javax-websocket-server`
+
+",no
+"Why is that needed? And what guarantee do we have that the 3.8 pgen even works with Python 3.5?
+
+I'm also surprised that you choose to add Lib/lib2to3 to sys.path, rather than just Lib -- lib2to3 is a package so the proper name of pgen2 would be lib2to3.pgen2.",no
+"Out of curiosity, why did you end up with the delete solution here? It means that we are doing more work and deleting properties tend to result in dictionary objects instead of fast objects.
+
+You can find more details how to implement this at https://tc39.github.io/proposal-object-rest-spread/#AbstractOperations-CopyDataProperties
+
+",no
+"It should not. Privately extending an Android API with values not reserved for private uses would be a serious mistake of the vendor: it would mean that previously compiled applications would refer to the wrong sensor if the OS is upgraded to a version which now supports the new sensor whose identifier was misused. I can't believe this would happen, this is why I would prefer not to add overly defensive code to it.
+",no
+"Tested them yesterday and only the stable/beta for x86_64-linux actually run, that's why I didn't update yet:
+
+```
+Test scripts for architecture i686-linux:
+Testing channel beta...
+(chromium:3584): Pango-WARNING **: failed to choose a font, expect ugly output. engine-type='PangoRenderFc', script='common'
+[3584:3584:1022/091909:FATAL:platform_font_pango.cc(52)] Check failed: typeface. Could not find any font: 0xf7f6f00c, sans
+/nix/store/shdiaffm4yq1wdchcwvhfwjx8gapxy03-test-chromium-beta.sh: line 5:  3584 Aborted                 /nix/store/lk7339hfdqk6kcwkyyfwrv3fi3c2rx79-chromium-beta-39.0.2171.27/bin/chromium --user-data-dir=""$datadir""
+ done.
+Testing channel dev...[libprotobuf ERROR google/protobuf/descriptor_database.cc:57] File already exists in database: metadata.proto
+[libprotobuf FATAL google/protobuf/descriptor.cc:954] CHECK failed: generated_database_->Add(encoded_file_descriptor, size): 
+terminate called after throwing an instance of 'google::protobuf::FatalException'
+  what():  CHECK failed: generated_database_->Add(encoded_file_descriptor, size): 
+/nix/store/da51hzppwg6bnapqffmimz67c1zcbqfm-test-chromium-dev.sh: line 5:  3629 Aborted                 /nix/store/am8havxlasv46ifskdx3v4l0g2a2hing-chromium-dev-40.0.2194.2/bin/chromium --user-data-dir=""$datadir""
+ done.
+Testing channel stable...
+(chromium:3633): Pango-WARNING **: failed to choose a font, expect ugly output. engine-type='PangoRenderFc', script='common'
+[3633:3633:1022/091910:FATAL:platform_font_pango.cc(53)] Check failed: typeface. Could not find any font: 0xf7e9a7cc, sans
+/nix/store/8hrnxjqj9l58v1ljnjrmp3i63ii63v76-test-chromium-stable.sh: line 5:  3633 Aborted                 /nix/store/z40hrvv2c1cw3lgxnsskglfj9wkhgf33-chromium-38.0.2125.104/bin/chromium --user-data-dir=""$datadir""
+ done.
+Test scripts for architecture x86_64-linux:
+Testing channel beta...ATTENTION: default value of option force_s3tc_enable overridden by environment.
+[3705:3705:1022/091911:ERROR:sandbox_linux.cc(305)] InitializeSandbox() called with multiple threads in process gpu-process
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+[3613:3613:1022/091915:ERROR:sandbox_linux.cc(305)] InitializeSandbox() called with multiple threads in process gpu-process
+[3661:3661:1022/091915:ERROR:sandbox_linux.cc(305)] InitializeSandbox() called with multiple threads in process gpu-process
+[WARNING:flash/platform/pepper/pep_module.cpp(63)] SANDBOXED
+ done.
+Testing channel dev...[libprotobuf ERROR google/protobuf/descriptor_database.cc:57] File already exists in database: metadata.proto
+[libprotobuf FATAL google/protobuf/descriptor.cc:954] CHECK failed: generated_database_->Add(encoded_file_descriptor, size): 
+terminate called after throwing an instance of 'google::protobuf::FatalException'
+  what():  CHECK failed: generated_database_->Add(encoded_file_descriptor, size): 
+/nix/store/991sy9fzabliaw982345aglka4pnzfg8-test-chromium-dev.sh: line 5:  3967 Aborted                 /nix/store/1vb9s3p7ld87qbd2m3a0zhabrjdmym9w-chromium-dev-40.0.2194.2/bin/chromium --user-data-dir=""$datadir""
+ done.
+Testing channel stable...ATTENTION: default value of option force_s3tc_enable overridden by environment.
+[3999:3999:1022/091956:ERROR:sandbox_linux.cc(305)] InitializeSandbox() called with multiple threads in process gpu-process
+[WARNING:flash/platform/pepper/pep_module.cpp(63)] SANDBOXED
+ done.
+```
+",no
+"What made you choose a `list` over a `deque` then? Do you plan to allow for random insertions/deletions? A list stresses the allocator for every element, whereas a `deque` benefits from a contiguous layout within its chunks (e.g., when pushing/popping multiple elements).
+
+Here's a nice performance comparison of `list` and `deque`: http://baptiste-wicht.com/posts/2012/12/cpp-benchmark-vector-list-deque.html
+",no
+"thanks, you have my respect too. actually I considered you my mentor and regretted that you left. but you are still around and I enjoy discussions/contributions like this one. the code itself and improvements are not worth that much if we cannot share the experience, right?
+
+looking forward to seeing this all in mainline.
+",no
+"Just to clarify: In a real-world setting, calling `data(xyz)` would probably lookup the index in a map which is shared amongst all result records of that query and then use the index to lookup into the actual data table.
+
+This is roughly equivalent to a generated pattern match in terms of memory footprint, but faster (since Hashtable lookup is O(1)).
+
+Again, it is very important to see that this becomes an implementation detail, so not every instance of a record needs to implement that the same way.
+",no
+"Umm, it shouldn't be immutable, it's just a list accessed via a property. The problem is probably that you're trying to delete items from the list that is being iterated over, while it's being iterated over, which is a big no-no, because deleting items from a list messes up the iterator's ability to track where it is.
+
+There's actually already a couple of `filter` options for standings generation, but neither will do what you want it to, because they both run before rankings are generated. I guess the cleanest way is to add a third, which runs at the end. To avoid a time bomb, I'd take care to keep `self.infos` and `self.standings` consistent, which complicates things a little.
+
+Another way would be just to break out of an iterator, rather than actually deleting things from the `self.standings` list? So add something like this to the `Standings` class:
+``` python
+def iteruntil(self, stopwhen):
+    for standing in self.standings:
+        if stopwhen(standing):
+            break
+        yield standing
+```
+then pass a callable in as `stopwhen`, like (in the view):
+``` python
+for standing in standings.iteruntil(lambda x: x.rankings[""rank""][0] > ranks_limit):
+```
+This won't work in Django templates, but if it only needs to work in Python then this might suffice?",no
+"TeamCity xBIM :: Xbim Geometry :: Release [Build 84](http://ncl-xbim.hq.4projects.com:8080/viewLog.html?buildId=1779&buildTypeId=XBIM_XbimGeometry_Release) outcome was **FAILURE**
+Summary: Tests failed: 1 (1 new), passed: 70 Build time: 03:32:33
+### Failed tests
+
+```
+VSTest: GeometryTests.XbimModelExtensionsTests.CanGetRawGeometry: <no details avaliable>
+
+```
+",no
+"I'm not so sure about those changes. Adding a hash function is definitely a good thing, but do you think it's a good idea to override ""isEqual"" to use ""isEquivalent""? As it is now, people can choose themselves if they require exact equality or just ""equal enough"". 
+",no
+"@corinnekrych I think this has been discussed before and that conclusion was that you have to be logged in to see the filters. I've found that making the filter shared by everyone, and then also setting the _Security Level_ to `none` makes the issues public. For example: 
+https://issues.jboss.org/issues/?filter=12322198
+When sharing don't forget to actually press the `+` button which is easy to miss. Then I use the `Share` button to get the link to the filter (so that it does not automatically point to an issue).
+",no
+"I see 2 issues with this:
+- you should not depend on unbound constraints (if you tag a release now, it has to be compatible with **all** future symfony version, including 3.0 and 42.0, and nobody can tell you it will still be compatible (even Fabien does not know how 42.0 could look like). Use `~2.1` instead to have an upper bound on the next symfony version.
+- you should not depend on `symfony/symfony` itself, but on the bundles and components you actually need
+",no
+"Puppet does. The Resource Abstraction Layer is accessible through `puppet resource <type> <name>` so you can do things like `puppet resource package apt` which will return this:
+
+``` puppet
+package { 'apt':
+  ensure => '1.0.1ubuntu2',
+}
+```
+
+Unfortunately it doesn't support a `--yaml` or `--json` switch like Facter does so we'd have to parse the output a bit. It's easy enough to do, just a bit more work than `json.loads()`.
+",no
+"can't it run both? :(
+
+2015-06-17 18:06 GMT+02:00 AbdealiJK notifications@github.com:
+
+> The /.*/ and master will clash.
+> When circleci runs on master, it wont know which one to run and will
+> randomly choose one to run
+> 
+> —
+> Reply to this email directly or view it on GitHub
+> https://github.com/coala-analyzer/coala/commit/854a43484a4827cbe471e23b22f670927a1eaaf0#commitcomment-11728539
+> .
+",no
+Note that ITIS ids (along with other taxonomic ids) are now included in the pipe separated list of sourceTaxonIds and/or targetTaxonIds columns of interactions.tsv . Open Tree of Life ids should also be in here. Ideally this should prevent you from having to do any additional taxonomic name -> taxonomic id conversations.,no
+"There were three sources of signatures: NetworkOPs, Ledger, and theApp.  Those were the three points of exposure to the ""outside"".  I didn't want to pass in three mocks, so I shoved them all in here.  The mock started life as a LedgerFacade (and it's still mostly that), but it grew as I found more exposure to the ""outside"".
+",no
+"I've only just realised that this should be exposed as a convention property, so users don't have to define their own BintrayUpload tasks. Anyway, this change is in version 1.0.3, but I'll need to do a 1.0.4 with a convention property included.
+",no
+"I'm not suggesting hiding the default option, but rather the whole widget.
+This can then be shown if the user selects the FTP option.
+
+The widget is behaving correctly....the default option is None which is currently selected and there are no other options. I agree this is a little confusing, but it is actually correct, isn't it?
+The MultiSelectWidget has some confusing functionality for this context...I would disable the header to make it cleaner, as well as ensuring multiple=False:
+https://github.com/flavour/eden/blob/master/modules/s3/s3widgets.py#L6601
+
+This may mean your issue goes away anyway...if not let's look/think again...perhaps hide it with CSS or make the allSelectedText = ''
+",no
+"Cordova team refuses to release a new release of it. Master of that plugin includes important fixes for iPhone X.
+
+Probably it is is not good idea, mike will revert it. But that way, iPhone X support is broken until Cordova decides to ship it. ",no
+"I see dead code!
+All your old code is available in your git repository now (you do commit it often yes?) :)
+So it's not necessary to comment out and keep old code. Just delete it. If you need it again - go back to the old commits in the git repository to find it.
+",no
+"@linas I'm looking at ExecutionOutputLink::execute and all the code that calls it. It's clear overall, what isn't so clear is when we want it to be silent and when don't. I'm tempted to have that call be silent https://github.com/opencog/atomspace/blob/master/opencog/query/Implicator.cc#L132 and not bother with the rest. What do you say? Maybe it's too strong and we want to have it silent only when the URE invokes it, but that would add bit more complexity.",no
+"Been there tried that...  Hard when no one responds.\\On Fri, Feb 13, 2015, 6:16 AM Tim Pohlad-Thomas <notifications@github.com>\wrote:\\> Really guys? This is not the time nor the place for this conversation. If\> you have issues with how someone",yes
+"Nit: can you add a comment to these tests just explaining what they are testing? e.g.
+
+```
+// Test that we choose Deref or DerefMut appropriately based on mutability of ref bindings (#15609).
+```
+
+the same comment could go in all tests. I just find that very helpful later.
+",no
+"I've been actually using my personal aports repo for testing this and pushed the commits at once. If you mean squashing the commits into one, then hell no! That would quite defeat the purpose of using VCS for tracking changes, it would be very hard to understand what I've changed from single mega-commit.",no
+"> This means we cannot use the operator fields at all.
+
+Is that true? I always thought it worked that way - operator API is public, but impl function is private. It would be nice to provide abstract with operators but without exposing operator implementation as functions. 
+",no
+"This isn't a huge deal, since the `test` function appears to only be used in the `-m http.server` use, but this mutates the passed argument, which is shared state. This means that if you use this code, and then call it with a different server that's not IPv6, it'll still try to listen on IPv6, which I don't think is intended.",no
+"Seems like a repeating  motif. You could create a shared function:
+
+```
+List<Integer> getIds(String sql, int from, int to) {
+        try {
+            PreparedStatement ps = mysqlConnection.prepareStatement(sql);
+            ps.setInt(1, from);
+            ps.setInt(2, to);
+            ResultSet rs = ps.executeQuery();
+            List<Integer> ids = new ArrayList<Integer>();
+            while (rs.next())
+                ids.add(rs.getInt(1));
+          return ids;
+       } catch(..){..}
+}
+```",no
+"That's clear.  `xxx_wrap.cxx` is the name of the source file. But what about the shared library `xxx_wrap.cxx` is compiled into? For Python it appears to be `_xxx.so`. Can it e.g. be `xxx_wrap.mexmaci64`? Should it match the name of the c++ file?
+",no
+"at this point we would create our own YAML language and I don't think this is a good idea. This means that every single external service that share the yaml configuration will have to implement the same parser as ours. With the YAML shared keys every application in any language would have the same values for the secrets without having to implement  the same logic than Rails.
+",no
+"Exposing this token may cause many problems because of it bad name `SCRIPT` that may be used for other variables. Normally it should be called as `GROOVY_SCRIPT`, but this implementation depends y email-ext classes and can't be used without email-ext plugin. That's why i'm trying to do `GROOVY_SCRIPT` token as separate token.
+",no
+"> Maybe it would be better to silence them where they are generated? It is possible to set an option on the pipe connection, to not generate those signals isn't it? This may interfere with other modules?
+
+Yes, it might interfere with other modules and yes, it's possible to suppress SIGPIPE signals - but unfortunately not in a cross-platform way. :-/
+
+If all we care about is Linux, replacing write() calls with sendmsg(flags=MSG_NOSIGNAL) will do the trick.
+
+On OS X and FreeBSD, you can use setsockopt(fd, SOL_SOCKET, SO_NOSIGPIPE). Coincidentally, I landed a patch to that effect in libuv just yesterday: joyent/libuv@90271e1
+",no
+"Please don't add `sassc-rails` into the gemspec. That forces all apps using the alchemy gem to use `sassc`. We can't do that. If we remove sass dependency completely then app developers can choose which sass implementation they want to use for their project. 
+
+But, in order to keep the dummy app working we need to add it to the `Gemfile` and there I would love to have `sassc-rails` instead of `sass-rails`. 
+
+Thanks
+",no
+"I tested this change locally. It caused a checkout to give me files with CR/LF line endings. If I'd cut a release from that system, the release would have been packaged with CR/LF line endings. And depending on which OS I'm in for making the checkout, I get different files on the system. This inconsistency is more damaging that valuable. What's the motivation for introducing this change?",no
+"They are kind of same - think of List.isEmpty vs List.size == 0 :-) Just chose something shorter
+
+Sent from a mobile device.
+https://twitter.com/trustin
+https://twitter.com/trustin_ko
+https://twitter.com/netty_project
+
+-----Original Message-----
+From: Michael Nitschinger notifications@github.com
+To: netty/netty netty@noreply.github.com
+Cc: Trustin Lee t@motd.kr
+Sent: 금, 06 12월 2013 3:24 오후
+Subject: Re: [netty] readableBytes() ==0 -> !isReadable() (6554b8c)
+
+@trustin so is ""isReadable"" the best way to check if the buffer is empty? I thought about that and my impression was that if there are no readable bytes it might as well be empty?
+
+---
+
+Reply to this email directly or view it on GitHub:
+https://github.com/netty/netty/commit/6554b8c3958d60699935ba1ac4df2ab0147c8a25#commitcomment-4789846
+",yes
+"I'm concerned about this. The hud view is hidden while a countdown is happening and when a video is being recorded.  So what happens in the case where there is a timer before a video recording?  Do we hide, show, hide show?  Or do we hide, hide, show, show?
+
+The former would be a UX bug.  The latter seems harmless but ugly and a potential source of future bugs.  It seems to me like there ought to be more than one CSS property that will cause the hud to be hidden:
+
+body.recording .hud { display:none; }
+body.countdown .hud { display:none; }
+
+Or something like that.  Could something like that work where instead of hiding the hud explicitly with a hud-specific CSS class, you instead set CSS classes that represent the current camera state on come container element and base hud and other view visiblity on those classes?
+
+Assuming that the hud does not flash on and then off again, you can leave this as is for now, but please think about revising it in the future.
+",no
+"@nshmyrev please consider NOT `issuing onResult once speech ended`
+
+If we want to do short voice commands in known languages we would just use the Google ASR... not pocketsphinx.
+
+Or if you choose to support `issuing onResult once speech ended` please keep some of your work so that it facilitates the recognition of long audio files, or voice dictations with pauses. [For more use cases and developer discussion search the android issue tracker.](https://code.google.com/p/android/issues/list?can=1&q=speech+recognition&colspec=ID+Type+Status+Owner+Summary+Stars&cells=tiles) You will see that Google ASR doesn't work for all use cases (but pocketshphinx might)
+https://code.google.com/p/android/issues/list?can=1&q=speech+recognition
+Some specific examples where pocketsphinx works better:
+https://code.google.com/p/android/issues/detail?id=16638
+https://code.google.com/p/android/issues/detail?id=73361
+https://code.google.com/p/android/issues/detail?id=6930
+",no
+"You can safely delete the `blocipedia/test` directory and its contents. They're not needed as we're using the `blocipedia/spec`directory for tests.
+
+On future Rails apps, you can run `rails new ...`, with the `-T` option (aka `--skip-test-unit` option) to prevent the `test/` directory from being created at the start. e.g.
+
+``` bash
+rails new blocipedia -T
+```
+",no
+"@ozten - One of the browsers, Chrome I believe it is, can have problems deleting data from localStorage like this, instead of removing data this way, it is safer to use removeItem instead.
+
+Secondly, the catch case should only run if setting localStorage.interactionData fails, which means interactionData will not exist anyways.
+",no
+"I just tested as well and accordingly to report is enabled in the project. Xcodeproj should track the build settings of the targets as generated by the Xcode templates. The above changes were done in a constant called `PROJECT_DEFAULT_BUILD_SETTINGS` which tracks the default build settings of the project. So @gfontenot is correct in my opinion.
+## 
+
+If any default build setting is creating issues in any Pods this is a CocoaPods issue and should be fixed there. 
+",no
+"Yes, _GitHub-generated_ source packages never contain submodules. _This is how GitHub works_ and it has nothing to do with WinSparkle or this specific release; every release on GitHub is the same.
+
+Just use a git checkout.
+
+You do have a point about the README, though, thanks for bringing that up — that’s horribly out of date. I’ll update it to explain that compilation from sources must be done from a git checkout.
+",no
+"no , i can live with it , but it was long time ago when me and @qiangxue had [conversation](https://github.com/yiisoft/yii2/issues/2157#issuecomment-33324430) here on github , and he said that we also should mention reporter of the issue in fix , and not the one who fixed :) just following rules ) 
+",no
+"No worries, and please continue making changes as you see fit (without trying to stay as close to the original phrasing if you think it would be better to not do that). I just shared my thoughts without trying to imply you should have done it differently. :wink: ",no
+"Cookies only have finite space to save things. I'm not sure if Django saves session data like this in the database or in the cookie. We should double check it is stored in the database. If so, this looks good. If not, then the long URLs can quickly outgrow the finite space of the cookie.
+",no
+"I mean, I don't see why it's that much of a deal. One of the most amazing things about the Arma community is the workarounds it comes up with to make up for what BIS does not care enough to do. The first thing that comes to mind is being able to track the individual hit selection damage values via setVariable's in the HandleDamage event as an alternative to a ""getHit"" command BIS never even considered implementing for whatever reason.
+",no
+"You may need to create such dummy actions in numerous places. If you want to avoid redundancy and also allow for easy customization, you may use [a factory](http://chaijs.com/plugins) plugin to keep all your ""seed"" data in one place, exposing them through generator functions.
+",no
+"Seriously? A preference to choose between The Right Way and the ""elextr doesn't like the Faenza icon that comes with his distro wrong way"" and set the wrong one as default? The whole point of the previous commit, the one which this excessive preference clobbers, is to use the user's selected theme icon by default. This commit should be reverted IMO, or just go back to the old way before my last commit, the one which this makes almost pointless. A setting for this is just wrong, IMO.
+",no
+"First of all DBAL is some additional overhead, slowing the thing down, but
+more important: DBAL doesn't support batch inserts.
+You shouldn't care about implementation details, but chose a db backend you
+can work with, see f.e. postgres vs mysql event store differences.
+
+On Nov 24, 2017 16:38, ""Šimon Podlipský"" <notifications@github.com> wrote:
+
+> I got it but wondering why PDO instead of DBAL
+>
+> —
+> You are receiving this because you commented.
+> Reply to this email directly, view it on GitHub
+> <https://github.com/prooph/event-store-doctrine-adapter/commit/f2dd6e8859558ccfe4b812c28f771284f289afee#commitcomment-25821668>,
+> or mute the thread
+> <https://github.com/notifications/unsubscribe-auth/AAYEvFHT6qJNeKpSbcvr0JbX2WsGIUD9ks5s5oCIgaJpZM4QpOce>
+> .
+>
+",no
+"MultiJson does attempt to pick the best adapter, but it may be forced to choose before all available libs have been required. For example, when `Bundler.require` pulls in lib `foo` before `yajl-ruby` and `foo` does anything with MultiJson.
+
+When we're trying to avoid a specific adapter at all costs, leaving it up to implicit load order is asking for regression. Explicitly pick your adapter with `MultiJson.use :oj` to be clear about your choice.
+",no
+"@kayhayen hey, I'm about to make a new release for Baron that include this bug fix. This behavior can change in a very subtle way for edge cases in parsing and I know that you seems to have a quite big coverage of (Red)Baron functionalities.
+
+Can you test your usage against master to see if it doesn't break anything on your side plz?",no
+"You can do so by using almost that exact same language you just used in the comment. There is no need to try to enumerate what those underrepresented groups are, especially since by doing so you risk excluding groups you may not have considered originally or bikeshedding over specific terminology. There are benefits to being concise.
+",no
+"This all sounds good! I should also say that I don't have enough of an understanding of the internals of Lora to really make any sound comment here, so I'll just trust your judgement! I'm not at all worried about small API changes, as long as the basic functionality I'm using is kept around.
+
+The way I use this right now is that I have a function `logtarget` that takes an array with 18 elements that correspond to the 18 parameters of the model that I'm fitting. In `logtarget` I evaluate the log prior and likelihood and then just return the value. The likelihood function is involved, it is actually calling a large Fortran model under the hood. So that is actually where I was a bit worried that something too graph based might get tricky, because I am using this to fit legacy code. I guess my scary counter example is what happened to PyMCMC, where all of a sudden you had to formulate your whole model as theano code (at least that is how I remembered things), and the use case I just described was just out of the window with a new version. Full disclosure, I haven't looked super hard at PyMCMC, I might also have misunderstood what they were doing.
+
+`DiagNormal` and `IsoNormal` just don't seem to be constructors at all, I just get an error method not found or something like that. Thanks for v0.3.3, that all seems to work now. And I much appreciate the package!!
+",no
+"Perhaps, it's not really that dire in my opinion. These need docs no more than all of `librustuv`. It's not intended for anyone to ever have to reach into these internals to force blocking I/O. All `std::io` primitives (including all of `std::io::fs`) work regardless of whether they're backed by libuv or native I/O.
+",no
+"yes, we don't need to talk about the implementation details of the blocking operation what matters is how the API is used. talking of the implementation (using a thread for computing the MD5) only brings confusion.
+
+Perhaps the article should be split in several parts perpectives:
+
+1/ using an async API
+2/ implementing an async API based on a blocking API (jdbc)
+3/ implementing an async API based on a non blocking API (mongodb)
+4/ advanced: implementing an async API based on blocking and non blocking API and how to compose blocking + non blocking with Vert.x
+",no
+"Found it
+
+http://build.berkeleybop.org/job/build-ro/401/console
+2016-12-23 16:30:22,484 ERROR (OboOntologyReleaseRunner:37) Stopped Release process. Reason: The given property hierarchy is not regular.
+There is a cyclic dependency involving property <http://purl.obolibrary.org/obo/BFO_0000066>
+java.lang.IllegalArgumentException: The given property hierarchy is not regular.
+There is a cyclic dependency involving property <http://purl.obolibrary.org/obo/BFO_0000066>
+
+
+Some notes: 
+BFO_0000066 = occurs_in
+
+Relevant property chains:
+
+'occurs in' o 'part of' SubPropertyOf: 'occurs in'
+'part of' o 'occurs in' SubPropertyOf: 'occurs in'
+enables o 'occurs in' SubPropertyOf: 'part of'
+
+enables o 'part of' SubPropertyOf: 'involved in'
+
+... ?
+",no
+"this is wrong, and not possible to share like this. We have to keep it in the implementation ehavior, as it has to become ""itself, with pendingInvocations increased"" I specifically avoided immutable style in the Running state as it has so much going on... May try to make it immutable but it'll be a lot of becoming states for not much action...",no
+"@Dennis-DealerScience Please share the original symptoms so we can fully understand the issue.  Do you block HTTPS access to Amazon in your environment or did you have some other configuration that blocked access?  Do you intentionally use HTTP instead of HTTPS?  Happy to improve documentation if you provide specific guidance, preferably via pull requests.  Wiki is world-writable.",no
+"@afanfa Do you know what the status of the `non-caf-compiler` branch is? Looking at the network this is one of two commits that were never re-integrated into another branch. Are these commits integrated in some other fashion? Would it be safe to delete this stale branch?
+
+CC: @rouson 
+",no
+"I couldn't remember where we were with those as this was discussed some time ago and I can't test them anyway so I decided not to include them for this release and that we could add them afterwards.
+
+So this is still needed with the wheel mechanism or can you make a package without embedding mercurial in the Python SPK but in its own instead?
+",no
+"In an earlier refactoring, it looked like nothing was using build_specifications the target installer anymore so I removed the shared module, but I missed this call here.
+
+There's probably an easy way to get it back to the functionality from before.
+",no
+"So yes. I am working on fixing that. GCM does not support graphing cumulative metrics (yet). Until then our plan was to convert cumulative metrics to instantaneous metrics only for GCM. After our recent conversations, that turns out to be a bad idea. Before the next release, I will make heapster push instantaneous metrics in addition to the pre-existing cumulative ones. Does that make sense?
+",no
+"> are we really going to prevent them from reading their data?
+
+I think as many people would want to know that this supposed unicode data had garbage in. nio allows the user to select a policy when this happens, throwing is one option, but substituting another character, for example, is also possible.
+",no
+"Ahh I gotcha, ya probably true.  But I'd rather the extra safety and inspect is actually super fast, it's just dumping json data already on disk (and likely in pagecache).   We can always fix it if it becomes a problem, but it seems fast enough.
+",no
+"(Simon Krughoff) A fair number of these methods do not access self (neglecting the use of class defaults) except for the two private methods.  I'd be tempted to make these @staticmethods and move the private methods to be free functions at the module level.
+",yes
+"You just won the price of being the first person to write a release note! We will try to enforce one line of release note information, in the not-yet-existing file `release-notes.txt` in the root of the distribution:
+
+``` txt
+[Feature]  Set the the verbose flag from the environment variable ERT_VERBOSE.
+```
+",no
+"You don't want to ignore Gemfile.lock; this file is used for tracking specific versions that were installed and tested against. If you delete it, you'll get random/new versions that weren't tested  to work with logstash.
+
+In most cases, you want versions that we've tested against and know work well. 
+",no
+"Here, I think what I expected is to add this information into the `LivenessMap`, more or less. So basically we would exclude variables that were unified with `_0` from being in the liveness map -- and perhaps store them in a separate vector, as you have done, or we could even just keep the unification table in the liveness map. That way, we can readily test if they were unified with `_0` and push the regions to `'static`.",no
+"A comment would be nice here, to explain why we are storing this.
+
+The short answer is that although at this point we've deleted the ephemeral key, we want to track the fact that the master key is revoked. Imagine, for example, that the master key was compromised: someone could generate a new ""valid"" ephemeral key, which the server would happily accept. By keeping track of the fact that we've seen a revocation (which has the largest possible sequence number) we ensure that any such ephemeral keys will be rejected. 
+",no
+"It would have been even better if it had worked properly. I need to add
+some extra code there to force it - I know what code to add (it is the code
+in the report we filed the other day about assembly bindings on
+System.Buffers being completely broken)
+
+On Mon, 1 Oct 2018, 03:42 David Fowler, <notifications@github.com> wrote:
+
+> Wow this is some next level hacking right here
+>
+> —
+> You are receiving this because you authored the thread.
+> Reply to this email directly, view it on GitHub
+> <https://github.com/mgravell/Pipelines.Sockets.Unofficial/commit/d79dec659594dd9fb630d396e14547f02eb0384a#commitcomment-30710593>,
+> or mute the thread
+> <https://github.com/notifications/unsubscribe-auth/AABDsKAUCI2uiu1HyI8G4Zn3wp30xKZwks5ugYD9gaJpZM4XBTGr>
+> .
+>
+",no
+"No, rubocop is quite silent here.
+
+But I agree, I'm not very satisfied with this strange syntax.
+
+Never saw a `rescue` without an explicit `begin`...`end` block (and if I wrap the method content within `begin`...`end`, of course rubocop complains about a redondant `begin`), so I'm not sure how to indent properly here?
+",no
+"The comment tries to explain it: there's the possibility of a reference cycle involving the *local variable* `self` (due to the `except Exception as exc` clause), and deleting `self` frees up those references. Otherwise some complicated reference cycle would exist (because the exception has a reference to the stack frame). Everything would eventually be garbage-collected, but that's expensive, and breaking the cycle explicitly lets the reference counting take care of things.
+
+We probably shouldn't continue this discussion here -- if you want to, you can look up the exact history of this code in the [python/asyncio](https://github.com/python/asyncio) project.",no
+"I actually did not notice that brotlipy was from a third-party developer. At the moment I'm actually using development builds of fonttools and brotli but ideally I'd like to link and use official release builds. For now, your fix for fonttools is not included in the release and brotli does not have official python package, so I'll have to wait :-)
+
+Regarding zopfli, I saw the commit (I'm now watching the github repo). Thanks for the info, I plan to give it a try.
+
+I'll open new issues to track these.
+",no
+"You're mostly on the right track I think. I added a few comments inline. Additionally, please write more descriptive commit messages. A full sentance describing what you've done, and then (after a blank line), describe in additional detail if need be (which is usually the case). Some information that should have been in this commit message:
+- Summary (Added a test that checks ...)
+- Addtional detail:
+  - Is the test passing/failing?
+  - Did you do any related work? fix the bug?
+  - Is there any incomplete work in this commit? (i.e. answer my question about line 36 of unit_tests.py)
+",no
+"There shouldn't be a conflict code wise I think, but I don't have your test setup.
+However there might be cache issues by exposing the route like this, so do you know how we can change the code to use /locations?id=<Id>. Which if I got cba right should redirect to a path based URL.
+",no
+"Sounds fine to me :D P.S. I hope you like the module I'm about to release to use for this kind of thing. It allows you to attach a single event across multiple emitters and event types, as well as create scopes so you can attach lots of emitters and have it only count as a single emitter to Node.js core (like what this change does) :)
+
+``` js
+module.exports = function finished(thingie, callback) {
+  var listen = my_cool_module('finished', Infinity);
+  var socket = thingie.socket || thingie
+  var res = thingie.res || thingie
+
+  if (res.finished || !socket.writable) {
+    defer(callback)
+    return thingie
+  }
+
+  listen.to(socket, 'error');
+  listen.to(socket, 'close');
+  listen.to(res, 'finish');
+
+  listen.on('event', function done(emitter, type, args) {
+    var err = type === 'error'
+      ? args[0]
+      : null
+    listen.destroy()
+    callback(err)
+  })
+
+  return thingie
+}
+```
+",no
+"I figured you were avoiding pulling in the bytecode, which is good.  If we avoid using a separate library, there should be a mini library to consolidate all of the code.
+
+Both stderr and stdout of the process need to be read promptly in their entirety and then closed.  Perhaps have the contract that once the URI is written, the stdout/err will be closed and the server cannot expect to write to them anymore.  The stdin of the process should be closed when it is created if nothing will be written to it.
+
+There are probably lists of common problems with Java's Process, but I forget what the right search terms are to find them.
+",no
+"Awesome tool man, this thing is just perfect.   Have you made a tool or know of a tool to extract/decompress the dt.img?   Samsung is getting stingy on the source release of the dts/dtsi files and want to decompile the stock dt.img.  Thanks.
+",no
+"I have thought about it, but they are not really equal, in particular the
+penalty for failed quiet moves is accounted only at the end of the search.
+
+On Tue, Dec 10, 2013 at 11:52 AM, lucasart notifications@github.com wrote:
+
+> Perhaps it makes sense to use a helper function now. So you would
+> centralize in one place the update operations, and avoid duplicating code
+> (update killers, counter move, and possibly history)
+>
+> —
+> Reply to this email directly or view it on GitHubhttps://github.com/mcostalba/Stockfish/commit/b96079f86be295312859c67a1669283832067674#commitcomment-4818995
+> .
+",no
+"A lot of thought and effort has gone into researching the subject of ""deep overriding"" by Russell O'Connor in the `haskellPackagesFixpoint` branch and by myself in the `haskell-ng` branch. You are aware of these activities, but apparently chose to ignore them and instead committed your own ""deep overriding"" solution to `master` without any prior consultation. There is nothing inherently ""wrong"" with doing that; you are entitled to commit whatever changes you feel are best. Personally, I perceive this kind of unilateral decision making as disrespectful towards other stakeholders, though. Also, I feel that your solution is weird from a technical point of view, and having it reviewed by others before you committed certainly wouldn't have hurt the quality/readability/re-usability of your patch.
+",yes
+"As pointed out in another commit's comment, it is not in our best interest to do this. Switching from fully reproducible builds to SNAPSHOT couplings would only destabilize the project. Let's switch back to release couplings (we discussed the need for this at length during last week's hackathon) and leave _temporary_ SNAPSHOT couplings exclusively in topic branches, paying close attention to replacing those commits with release coupling ones before merging to master.
+",no
+"Plan to bring in commit into official codebase (likely in 1-2 weeks) to bring in the database columns (and set it for the current 2011 rules) in addition to integrating it into the reports (also plan to place same mechanism for the cqm reports).
+
+I see there's another feature by your for image stuff to review. I recommend when you have time to look at my reviews on your prior commits:
+https://github.com/bradymiller/openemr/commits/rebase-esoftek-openemr-mu2
+
+The goal is to get these things all into the official codebase as soon as possible to avoid bottlenecks on your future work. Recommend placing all fixes/revisions for all of these commits into one commit (separating them does not help since they are all in the same branch; however, don't include any AMC stuff in the commit since that needs to stay separate since will take longer to get that into official codebase).
+
+-brady
+",yes
+"There's a lot of things to learn before deploying a Django site, and error reporting isn't the most important (compared to hiding SECRET_KEY, serving static files, securing things a bit). Besides, many beginners won't even deploy their work.
+
+I consider the default settings file isn't the right place to list features of Django. Its main goal is to bootstrap a Django project quickly and to be as lightweight as possible. It's skewed towards people discovering Django.
+
+Maybe you should make your own project template :)
+",no
+"nit: This is just a personal peeve of mine. You can choose to ignore me :)
+
+Instead of having 4 different variables which are arrays of things such that var1[i] is tighly coupled with var2[i], I generally prefer to see a struct created and have an array of 4 structs.
+
+struct irq_info_s
+{
+  unsigned int flags;
+  unsigned long reg;
+  unsigned char tags;
+  unsigned char rcv;
+} irq_info[] = 
+{
+  { STATUS_NCI_RESP, REG_RESP, BCM2079x_NCI_TAG, CTRL_RESP_RCV },
+...
+};
+
+Then instead of using flag[i], you'd use irq_info[i].flag (or better yet use pointer arith to iterate through the array and then just do info->flag
+",no
+"It's not clear from reading the code why you're multiplying by 1000 here. Could you add in a block comment somewhere nearby that shows an example of what `data` will look like? I think that would help developers understand the context of what this function is doing.
+",no
+"@pierrejoye the reason to patch was that the auto generated code had a build error (see the patch), whereby that part isn't even used it PHP. At that point there was no chance to know a new release will be issued that fast. Furthermore it's seems to have been released exactly to fix that build error.
+
+With the 1.0.2 - i'm not sure where it was read that we were upgrading to it, so probably misunderstanding.
+",no
+"As I can see we don't need to specify `groups` here. I expected that you will look at how it works and told me -- do we need to specify separate groups or we don't. You decided to specify, but now I don't see the reason to do that. AFAIR we are running check with `Default` group and after that `ReleaseDate3Checks`, so, it's ok if `@Min` will be tested first.
+",no
+"@saily Thanks for comments and looking into this.
+
+I'm not sure about this being 3.0, because 2.0 has not had a stable release yet. Of course, this should not be merged without migration path.
+
+I'm forced to put PAM 1.2.1 to production, because of the issues in 2.x (no Archetypes support), so I should be able to work with 1.2.1 to new 2.x migration later. (Also last time I tried, the current migrator in 2.x is broken and the release is usable only for completely new sites.)
+
+Obviously, there should be a migration, which would move the shared content form root into language independent folders. UUIDs would stay the same, but paths would change. Are there any use cases with shared content, where paths are stored somewhere? Otherwise, it should not be too painful migration (besides the long time to reindex your sites with a lot of languages).
+
+Only missing feature in my branch is that LRF does not implement IPloneSiteRoot and therefore some management views are not available. That because, in my opinion, it should be fixed elsewhere that all relevant views are registered also for navigation root.
+",no
+"@nowrep 
+
+## Update for 2.2.5 release *(macOS)*
+
+Release is at [/Martii/qupzilla/releases/tag/2.2.5+e1c96dc](https://github.com/Martii/qupzilla/releases/tag/2.2.5%2Be1c96dc)
+
+Creating a new PR on https://github.com/QupZilla/qupzilla.com/pulls currently takes me to https://github.com/QupZilla/qupzilla.com/compare in every browser instead of a real PR entry. :\ So this is the best I can do for the moment.",no
+"I went with name because of release name as well, otherwise I feel we would need to pass in the source when parsing. I like the idea of knowing if its the file/folder later on, but not sure its worth the extra work (if we wouldn't use it).
+
+I'll add MediaInfo.
+",no
+"TeamCity xBIM :: Xbim Geometry :: Release [Build 23](http://ncl-xbim.hq.4projects.com:8080/viewLog.html?buildId=848&buildTypeId=XBIM_XbimGeometry_Release) outcome was **FAILURE**
+Summary: Tests failed: 68 (64 new), passed: 0 Build time: 00:15:20
+### Failed tests
+
+```
+MSTest: GeometryTests.IfcBooleanTests.Boolean_With_BoxedHalfSpace: <no details avaliable>
+
+MSTest: GeometryTests.IfcBooleanTests.BooleanCutMultipleSolidsFromASingleNonPlanarSolidTest: <no details avaliable>
+
+MSTest: GeometryTests.IfcBooleanTests.BooleanCutMultipleSolidsFromASinglePlanarSolidTest: <no details avaliable>
+
+MSTest: GeometryTests.IfcBooleanTests.BooleanCutShellTest: <no details avaliable>
+
+MSTest: GeometryTests.IfcBooleanTests.BooleanCutSingleSolidsFromAMultipleNonPlanarSolidTest: <no details avaliable>
+
+MSTest: GeometryTests.IfcBooleanTests.BooleanCutSolidTest: <no details avaliable>
+
+MSTest: GeometryTests.IfcBooleanTests.BooleanCutSolidWithVoidNonPlanarTest: <no details avaliable>
+
+MSTest: GeometryTests.IfcBooleanTests.BooleanCutSolidWithVoidPlanarTest: <no details avaliable>
+
+MSTest: GeometryTests.IfcBooleanTests.BooleanIntersectonShellTest: <no details avaliable>
+
+MSTest: GeometryTests.IfcBooleanTests.BooleanIntersectSolidTest: <no details avaliable>
+
+MSTest: GeometryTests.IfcBooleanTests.BooleanUnionShellTest: <no details avaliable>
+
+
+##### there are 58 more failed tests, see build details
+```
+",no
+"This is just under development mode (in release we do get the standard error so there's nothing to worry about here). Basically, if stderr is hooked up to a terminal it goes there so if you wanted you could run rserver-dev not at a terminal but that has other downsides.
+",no
+"That's understood, that's why I grouped them by five as a compromise and avoided pushing `// 5` comments. Anyway, hope the problem won't reoccur again. https://github.com/micropython/micropython/pull/3300 is merged, and I leave it to you to group the lines as you see fit, so you were satisfied with the result.
+",no
+"The problem is, without sync read we don't actually know where to send the messages and we are exposed to all kinds of weird race conditions. I believe each configuration source should be read before we actually attempt to process any messages. 
+",no
+"The same change has been applied upstream; the old behavior was not correct so we probably won't accept a change that just switches it back on. If you can open an issue with more details about your setup, what you expect, and what happens,  I can try and help make this work for you. 
+",no
+"@Bystroushaak 
+
+> People implying that Github are restricting their freedom, I think, will need to try and empathise more with the community of people affected by this word.
+> 
+> But where it ends? We will need to rewrite every single fucking project to make sure, that it doesn't bring butthurt to some retard. Nope. That isn't the right way to go.
+
+It is a very good point you make but what is the alternative? Is censorship never justified? This all reminds me of the time [Brendan Eich got ousted from Mozilla for his views](http://www.reuters.com/article/2014/04/03/us-mozilla-ceo-resignation-idUSBREA321Y320140403) and I never could decide where I stood on that.
+
+I don't like the derogatory use of  'retard' but I don't like censorship either.
+",no
+"What you're stating there was almost exactly the plan as of 9-10 months ago. Turns out master isn't very stable right now, and cutting a release from its current state without vital features like precompilation doesn't make much sense.
+",no
+"On 16/06/2017 15:11, Anil Madhavapeddy wrote:
+> The reasoning behind the `v` prefix is that it is used for release tags, and the bare number can be used for branches (e.g. release branches).  Most of the libraries do use the `v` tag, although we've never actually written down the practise. 
+
+aha, interesting.  this is the first time I hear your convention.
+
+> Is there any strong objection to just following the `topkg help log` convention?  Personally, I value machine parseability of the changes metadata over conciseness...
+
+the commit we're discussing here does not change any machine
+parseability - I claim using `#` instead of `---` makes it easier to
+write and parse (since there's no need to count the `-`, but instead a
+single `#` is used).
+",yes
+"Thanks Sindre. I was hazy on whether this was the case given we're exposing data that was surfaced in 2.0, but you're right. I'm also pausing the release for a bit - noticing some weird cases with the V2 API where numbers returned don't tally with DevTools or WebPageTest. Will push git tags regardless.
+",no
+"To make the above more concrete. You could have multiple ways of setting a data context for a region:
+
+1) Inherit from layout
+2) Get from a {{#with}} block inside template
+3) Programmatically
+
+``` javascript
+Router.route('/', function () {
+  this.layout('MyLayout', {data: {title: 'My Layout Title'}});
+  this.render('MyTemplate', {to: 'region', data: {title: 'Region Title'}});
+});
+```
+",no
+"I would actually _not_ expose this module to client code (by including it here). See my comment below, about how to accomplish this. That way they won’t be tempted to use structure constructors, and will only instantiate objects the proper way, through the constructors provided by the factory pattern.
+",no
+"You literally can't compile a fresh copy without this fix.
+For compiling to function, you must expose fields / edit code and ONLY THEN can you reference UFM code.
+That way if UFM isn't available, it still exposes everything needed for UFM to compile... which means you can now use UFM to compile a fully functional copy.
+",no
+"I would suggest using a `~>` dependency here, like `~> 2.0`. This is because when we release Spree 3 with massive breaking changes, then your application is going to break. Please change this to `'~> 2.0'` now to prevent that from happening.
+",no
+"It seems to me to be dangerous to be doing statistics on NaNs. I've had issues in the past with Matlab's silent ignoring of NaN. Does that agree with your experience? If we explicitly panic on NaN here, should we do so elsewhere, or only when it breaks the algorithm?
+",no
+"> the master branch as the less stable branch
+
+Is it actually less stable than `2.2.x`, other than being used by fewer people? I was forced to mark it with `beta` version numbering just to block it from appearing on the standard update center offered to users of older baselines, which the proposed UC change would address.
+
+> I'd rather have master be the primary target for development of the next version, with branches for the more advanced development.
+
+If this makes more sense to you then switch to that model. You are doing most of the work here so you should pick the system that makes that work easiest.
+
+FWIW my rationale for the current model was that `master` is usually interpreted as meaning “the newest recommended code, the expected future of the project”. Thus other branches can be used to support older systems, regardless of the relative popularity of the branches; and if using `merge`, then you commit a change to the oldest branch to which it is applicable and merge up to newer branches. This has the advantage that branch meanings are consistent over time. (If `master` is tied to a historical baseline then at some point you will decide that this version is too old to bother doing feature development for any more; at that point, when you update the baseline in `master`, do you need to create a maintenance branch for older baselines anyway?) But of course it has the disadvantage that occasional contributors might offer commits based on `master` that really should have been rebased to an earlier line.
+
+> I'd then create Jenkins jobs which merge out from the master branch to the other branches.
+
+Note that the existing job builds all branches already. For example, [build 559](https://jenkins.ci.cloudbees.com/job/plugins/job/git-plugin/559/consoleFull) ran from the 2.2.x branch. (I would love to get us on `multibranch-project` to make this clearer; probably first need to integrate validated merge and the GH PR builder with it.)
+",no
+"@gsherwood is there any chance you can tag and release this commit as 2.4.1? This and the short array notation inside case bug are preventing us from upgrading to the 2.4.x line, which is the release that has another fix we've been waiting for. Thanks again for the great project!
+",no
+"The previous code was bad and should generate compiler warnings.
+But it may be even better to just declare it in private without implementation to ensure it is not used.
+`Singleton& operator=( const Singleton& );`
+
+Same for the copy constructor.
+",no
+"Yes. This is what will happen. In this case, we should trust the call to the POSIX api to prevent illegal usage.
+This is a big change in the philosophy. Previously, we had paranoid check in test_access() because the call  (in the FS) done right after would immediatly succeed.
+Now, we are in a ""do not block situation, that should succed, trust the underlying FS for preventing unauthorized thing to occur"" logic.That's quite different. May be my patch is a bit clumsy on that. 
+",no
+"@chrisirhc I don't have more specific thoughts at the moment - was thinking before about exposing a controller but since it becomes a public API I was delaying it till a use-case materializes :-) But on the general note the current code in the link function is definitively too big and is using closures way too much, IMO.
+",no
+"Hmm, interesting, but indeed a bit harder to maintain, not sure if it's worth the trouble? 
+I was planning on committing a little update script that automatically adapts the files for the latest github release (and setting the checksum).",no
+"The error `code` should be the code returned from Pusher. I agree that the intention is only revealed by the comment block but cannot immediately think of a way of making the code more obvious other than explicitly checking the error code (but maybe this leaks too much information?)
+",no
+"Cool cool, maybe at some point in the future we can have tests that do something like:
+
+1) List trade with X details that will not be matched with anything existing
+2) Check order book to ensure new trade is now shown with correct details
+
+That would help pick up issues like this where we might be returning bad info :)
+",no
+"> Does making it multiple lines help with raise error pointing out the issue?
+
+Yeah, the entire reason was to be able to have those values available in the different except blocks. Your way was fine, I just chose to break it up for more accurate error reporting.
+",no
+"That raises an interesting question, are we trying to keep CHANGES up to date with every commit?  Or is it better to review all ""master"" commits before we tag a release and making sure all relevant changes have an entry in the CHANGES file?  My guess is the answer is both.
+",no
+"https://notifications.spec.whatwg.org/#notifications is a pretty good example of how I was thinking of media session as an abstract concept that doesn't need to be Web exposed initially. https://notifications.spec.whatwg.org/#api essentially wraps the abstract concepts.
+
+http://dev.w3.org/html5/webvtt/#data-model is a similarly abstract data model, but it's rather a lot more convoluted, it even confuses me sometimes :)
+",no
+"I guess your point is that by exposing the iterator backed by the actual cache we cannot prevent the cache's content being changed while we are iterating over it when setting the `resumptionRequired` flag, right? That's a valid point.
+So let's step back for a moment and consider the use case. We are doing this whole operation only once during startup of the `DTLSConnector`, i.e. we do not expect `markAllAsResumptionRequired()` being invoked during normal operation of the connetor. We also expect this to happen mainly on the client side, i.e. we usually will have only few `Connection`s in the cache anyway. So I guess we can live with the drawbacks of creating a snapshot and iterating twice, right?
+Sorry, to have bothered you with all this, Simon, but I think it was worth dicussing. So lets go ahead with your initial proposal. However, I think you should amend the JavaDoc of `markAllAsResumptionRequired()` with some of this reasoning so that an implementer knows when this method will be invoked.
+",yes
+"Unless we tagged a particular commit and publish it to rubygems there is no real 2.9.0.
+
+But it is ok for me to set the version to another beta or release candidate.
+
+I will fix that.
+
+Have a nice pleasant vacation :boat: and thanks for your contributions :+1:
+",no
+"I agree with the preference to not use mocking.
+
+Do you have a suggestion as to how I could expose the information without introducing risk?  It seems to me that the moment there is an accessor exposed, you can get your hands on all of the profiler instances and call methods on them or call `remove` on them.
+
+I don't know that that is a big enough concern that I'd be unwilling to make the change, it's just something that I thought was worth considering.  If you have an idea of a way to expose the profiler instances without introducing risk,  let me know, because I agree that that would be preferable.
+",no
+"If we allow lat/lon, IDs, or indexes to identify endpoints we would do best to group these fields all together in a single data structure, so we can have a single function which uses the fields that are present to fill in those that are not present. Otherwise we'll get a bunch of repeated code saying to do the same thing for from and to vertices.
+
+This aligns well with the change to protofuf requests.
+
+I don't have any hashgrid example code for the moment except the main/demo method of hashgrid.c itself. But anyway, we don't have a place in the request struct for lat and lon.
+",no
+"> Wait 6 months for releasing finished feature?
+
+How do you know that the feature is finished, when it hasn't been tested by community? And having lots of awesome truly finished features in 6 months is an excellent reason to release new version.
+",no
+"> I can't find a reference to the conversation ATM, but the Geany maintainer has in the past refused to allow Python to set spaces despite it being the PEP8 recommendation. And indentation is significant in Python and tabs are assumed to be 8. His reason is, IIRC, that filetype settings override user settings, so if we set it in the filetype it will not allow the user setting for that language.
+
+Exactly.  If we had some kind of UI for overriding these filetype-specific settings I'd probably be happy to have more natural per-language defaults.
+
+> Although to my mind that is the point of per filetype settings.
+
+It is;  but until it becomes clearly discoverable I think we should not override the global preference unless absolutely needed (as @kugel- mentioned, i.e. for Make).
+
+(maybe a UI could start by showing a warning that languages X and Y have specific settings next to the global setting, but it would be better to be able to edit those specific ones easily)
+",no
+"I don't get it. If I say `make distcheck` in the github tree, the 5.4.1 release would not build, the 5.4.2 does.  It I manually `tar -zxf link-grammar-5.4.1.tar.gz; cd  link-grammar-5.4.1; make`  then it fails, erroring out when building the man page. It works, for me, for 5.4.2",no
+"I was saying...that with introduction of the ConcurrentHashMap, do we still need to sync on require()? But I was wrong as ConcurrentHashMap does not guarantee that .contains sees concurrent .puts ...aka it does not lock the whole data structure...tricky...if you removed synchronized we would risk requiring twice che same namespace..
+",no
+"A comment here describing the semantics of numbers with Script would be awesome. Something like:
+
+```
+// Numeric opcodes (OP_1ADD, etc) are restricted to operating on 4-byte integers.
+// The semantics are subtle, though: operands must be in the range [-2^31...2^31],
+// but results may overflow (and are valid as long as they are not used in a subsequent
+// numeric operation). CScriptNum enforces those semantics by storing results as
+// an int64 and allowing out-of-range values to be returned as a vector of bytes but
+// throwing an exception if arithmetic is done or the result is interpreted as an integer.
+```
+",no
+"This needs to exclude `$this` calls, otherwise this situation is not treated correctly:
+
+``` php
+<?php
+
+class Foo {
+    private function getConst() {
+        return 42;
+    }
+    public function test() {
+        var_dump($this->getConst());
+    }
+}
+
+Foo::test();
+```
+
+Here the undefined `$this` exception will be swallowed.
+",no
+"Fixed now. https://github.com/maniac103/egit-github/commit/3d1878bd48d9aa3817a91b5a193b600c31e04065 was the culprit. What to do with the release now? Re-roll a new 3.7? Do a 3.8? If the latter, do it now or wait for a few days and check whether more bugs creep up?
+",no
+"You are right. We generate the external commit message from our internal ones, sometimes those cannot be shared. Or parts could be shared but aren't because we forget that the commit even touches external-facing code. This is such a case -- this was a much larger change internally and we didn't realize it would show up here.
+",no
+"GPX is a format and we shouldn't use that name in order to avoid confusion for novice people. Track is a common word which describes a track file which is the most important to understand that these are separate files with geo information if it is a collection of points or collection of tracks that a separate story.
+We could give more explanation on the empty track tab screen what is the usage etc.",no
+"I'd do: get the 0.2.2 out (if there were changes over 0.2.1); If there are changes: use the plugin to set the next round (e.g. 0.3.x)
+
+If no need for 0.2.2 I'd just manually bump it up, since the last release (0.2.1) is on Maven Central
+",no
+"No, it's my very own stupid typo :-( I think the best way to deal with this is to release 0.1.1 with this fix as soon as possible, to minimize number of broken appcasts in the wild. You're right that it breaks (incorrect) feeds that worked with WinSparkle 0.1, but I wouldn't be too concerned about that for the 0.1 release...
+",no
+"@joakim-noah: Maybe it's just easier if we have our own LLVM fork, used for release packaging. I branched off `ldc-release_40` from current `release_40`. So just pushing a somewhat cleaned up version of your tiny Android patch should do; no need for an additional LLVM option to be enabled by LDC (while still being fully compatible with vanilla LLVMs etc.). Then we can add a little bash script for generating a full source archive, upload it as GitHub release and download that in our release scripts. Users willing to build LLVM and LDC themselves from source in order to get all features (Android support, dcompute, profiling, sanitizers...) will probably like this too.
+
+@thewilsonator: Is SPIR-V available for LLVM 4.0 or does it require 5.0+?
+
+@JohanEngelen: Should/can we move LDC's profile-rt clone (?) [and ldc-profdata] here to our custom 'LDC-fully-fledged' LLVM? And I seem to recall you mentioning that the sanitizers should be available in compiler-rt, so we could include that as git submodule as well.",no
+"I _really_ don't think this belongs on release-0.2. Sure, what we were doing before was ""wrong"" but if a program is written to work with this behavior, it should keep working on all version on this release line. This will clearly break any program that relied on this behavior, no matter how inadvisable it may have been.
+",no
+"@joernhees yes clean up is quite important of course.. I was thinking about adding some kind of comment there cause in some cases you might want to do it asynchronously if there is too much crap to delete and also it should happen in a transaction.. so not sure yet how to deal with that ;)
+
+I like the idea of the dummy function though.. adding there the `@ndb.transactional` decorator maybe and who ever want it async they will decide on how to deal with the actual responses and stuff...
+",no
+"This file definitely looks like you got it from somewhere else, since I never taught the `mysql_connect` function. Why did you choose to use this approach? We will go over how to do something similar, but using the updated `mysqli` (where the ""i"" stands for ""improved"") tomorrow night.
+",no
+"@JimiC VSCode updated to `Electron 2.0.x` for our `1.26` release and with that came an update to node `8.x`. I am trying to keep the vscode module in sync with our VSCode releases.
+
+This should not have much of a big impact for you actually because your extension can signal what version of node to compile against. So if you want to compile against `7.x`, just change your dev dependencies?",no
+"May be it'd be nice to move these static methods from `Brush` class to some separate `Color` class, so we will hide `Brush` class privately (since it's a dev-class) and give user some public `Color` class to use conversions API freely. As a profit, some of these methods may get a shorter name, like `Color.fromRgb`, `Color.toRgba`....
+
+P.S. If you need tests for this, feel free to write me, I'll describe how to run `jasmine`.
+",no
+"@enumag
+You know it would be awesome if release process of Nette would be more predictable and **not tag few minutes old commit as stable patch version**. Nobody do that, so please, take your ""mistake, same as everyone."" and the next time, please, send the PR directly instead of commenting - obviously it's something you personally expect form others.
+
+edit: Maybe this comment miss the main point: I think we should thank people for reporting/opening bugs. Of course, PR is always welcomed and preferred, but that's doesn't make issue opening and reporting a bad move; ""it would be awesome if you just went ahead and sent a PR"", ""useless rambling"" and ""please do that the next time"" are out of scope of ""thanks for reporting a bug"". From my point of view.",no
+"I think it was there before the syncPod went to a worker.  Guess it should just be silently ignored as you mention, can be a todo if it's not easy.
+
+> On Oct 21, 2014, at 8:07 PM, Tim Hockin notifications@github.com wrote:
+> 
+> But we don't wait for all the syncPod() calls to complete, so there is still going to be a race here. We can either block until podWorkers is empty or we can skip anything that is under a known pod, but is not a desired container or we can just accept that sometimes we get a benign error (and make it benign in both paths).
+> 
+> Or am I misunderstanding? I'll TODO something here.
+> 
+> —
+> Reply to this email directly or view it on GitHub.
+",yes
+"KK, we'll stay CS on shared unless we find a big reason not to. Yeah, we used to be 100% CS - we'd get these tweets like ""JS dev here, I'd contrib to your project but now I won't"" (people get religious...). Had a surprising number for those. When releasing mobile, there was this big debate - JS won. Many of the reasons [are explained here](http://gaslight.co/blog/does-coffeescript-have-a-future) (I was +CS). Anyway, we decided few enough people touch habitrpg-shared, and it's so mathy anyway that the type who _do_ would could grok CS just fine, so we stayed.
+
+Anyway, TMI history :)
+
+EDIT: wrong link, updated
+",no
+"Per §2 UrhG a ""Computerpgrogramm"" is in the category of ""1. Sprachwerke, wie Schriftwerke, Reden und Computerprogramme"" and as such it's a protected work. So it cannot be senselessly typing in letters and numbers when even law recognizes it as a creation.
+",yes
+"Compiled it on Snow Leopard and everything seems fine. I don't get the fullscreen button on Snow Leopard which is what was intended methinks since 10.6.8 didn't yet have that.
+
+OK, I think we're good to go now for a first release of the OSX port.
+",no
+"@cheungpat You have just published this pod under my name. I'm not the author and I really appreciate it if you could delete and republish it **under your name**.
+
+Specifically, you need to add **your name** as the `s.author`, update `s.homepage`, `s.social_media_url`, etc.
+
+Please let me know if you need help doing this. You can run `pod trunk delete` do this this, change the spec, then re-publish with your own credentials.
+
+https://twitter.com/CocoaPodsFeed/status/960449550132629504
+
+https://github.com/CocoaPods/Specs/blob/fa8a09987a2296719e71121fffc6efb5f018683e/Specs/5/a/2/JSQMessagesViewController-Skygear/7.3.5.1/JSQMessagesViewController-Skygear.podspec.json",no
+"Thanks for understanding. I know you've done lots of OSS as well, so I'm glad that you care enough to reach out. I'm considering making a 1.0 release of django-configurations soon and then call it done and move on. Maybe that will be a good time to do another call of participation.
+",no
+"Rather than hardcoding ""https://github.com/IQSS/dataverse/releases/download"" as the place we download dvinstall.zip from, can we make this a parameter? As part of the Dataverse release process we upload ""dvinstall.zip"" manually after we tag a release. If we're going to use dataverse-aws to deploy pre-release code, we need to automate the building of ""dvinstall.zip"" and put it in a known location, right? Where? S3? I'm open to suggestions! 😄 
+",no
+"Thanks a lot for your message @ArmandoManzanero.
+This was a regression in the newly introduced IPTC parser, which didn't validate segment offsets correctly (@bevand10).
+I've fixed this in the latest release ([v2.20.1](https://github.com/blueimp/JavaScript-Load-Image/releases/tag/v2.20.1)) with this commit: https://github.com/blueimp/JavaScript-Load-Image/commit/c306b554537f8ffcd6d300ce51678baa05e1adab",no
+"Besides the comment about ordering i think we should also fix the fact that junction does not look at Subscription type-- this is plain wrong but probably OK today as we don't have any services adding events with blocked billing at the Subscription level. Potentially we could just create a new bug just to track that.
+",no
+"Great analysis, @smarter! Thanks!
+- Regarding your first point, sounds like we'll have to change sbt to put the shared xsbt.api classes in a parent classloader when instantiating the compiler. /cc @Duhemm @eed3si9n @gkossakowski
+- For the second problem, we just discussed this the other day, and the idea is to put the api logic in a separate jar, say scala-compiler-extract-api, fully cross-version it and give it an independent version number. This version number could by default be the same as the sbt version, but subsequent patch releases could be used by overriding the version number in sbt.
+",no
+"> Function returns pointer to pcap_stat structure. Memory for this struct is allocated in pcap_win::stat field (pcap-win32.c). As far as pcap_stats_ex is defined in the separate file, it does not have access to pcap_win struct.
+
+I've moved `pcap_stats_ex()` to pcap-win32.c instead.
+
+Yes, that means that this won't work with unmodified WinPcap, but that's not a priority of ours.  The ultimate goal is to have the WinPcap source solely contain the drivers and packet.dll, and the WinPcap releases be built by combining that with standard libpcap.
+",no
+"> I think it already works that way (ObjectClient has 'name' property, should be accessed through getName() though)
+
+As far as I can see ObjectClient does not have a 'name' property, as as mentioned it shouldn't since it represents an object and not a property.
+
+> ""this"" is special, we can have new type for it, yes
+
+Ok, please add one.
+
+> We already have ScopeClient (derived from ObjectClient), so it also has a 'name' and 'value' == (property-ish) type.
+
+Sounds good.
+",no
+"I have updated the release number to 1.0.0 in preparation of a release.
+https://github.com/plone/plone.schema/commit/4c94d8b466a24589ff8b87c1c9059129458274ea
+
+I have not released it yet, because our Jenkins server currently has a failure. (I do not mean the failure linked in a previous comment. The current failure has got nothing to do with this package).
+",no
+"It's not about an urgent release - it's about fixing all these issues. If you do that, then fine - but I can't add more work to my heap.
+
+Not sure how long I can hold off merging yours - but I'll try to wait a little bit. How soon do you think you can fix the most?
+
+Pivot table charts is not only the cut off edge - the chart is also too small and in the wrong position, the axis ticks are wrong (they don't adapt to the range as they did), the spectrum form widgets are too close, and the x-axis labels overlap when there are many (they should offset up/down).
+
+The next version of NVD3 wasn't API-compatible, that's why I didn't upgrade - they changed so many things that it will require quite some work in pivottables.
+
+What other major changes are you planning right now?",no
+"Please note that the release branch is [prefixed with `release-`](http://zotonic.com/docs/latest/developer-guide/contributing.html#release-schedule), so `release-0.16.0`. This is on purpose, to distinguish it from the future tag `0.16.0`. I’ll transfer your commits to the proper release branch for now.
+",no
+"My thoughts here are the physical operators are the only parts of this interface that are okay to expose publicly.  This is because they are going to show up in `EXPLAIN` commands and the ScalaDoc might be a nice way to explain to users what different operators mean.
+",no
+"I like that too.  But I like my code being portable even more.  So until we can find a way that works on Windows as well unices, we need to find a compromise.  I chose the one above.
+
+What we really need to do, I think, is to use the `-t` option to Maple when doing RoundTrip from Haskell.  That will get rid of some of the issues.  The other thing is, we shouldn't really `lprint` the results, but use a more systematic way of giving back a parseable representation.  Using `lprint` is also a hack.",no
+"Well, I found the instructions useful and would like to keep them. We can move them to a separate place ""creating releases"" or something for our own personal reference and also add instructions about signing and so on.
+
+I'll maybe do that later today, but yes, for the translation project we should be fine.",no
+"From what I can see in the picture, Quantal was the last release to have a longer support cycle. Non-LTS versions used to be supported for two years, but looks like they're support for only one year now.
+
+You can see that in the graphic above, the bar for Ubuntu 12.10 is bigger that the one for Ubuntu 13.04.
+
+I know it's odd, but we aren't able to build packages for Quantal in our ppa anymore. Sorry about that :(
+",no
+"btw after shared -> static changes to ANY library you should always make clean. if not - ensure to remove library's .so/.la files from build*/toolchain and sysroot. then recompile EVERYTHING that might depend on the changed library.
+before 9a838d7 ncurses was split into 2 libraries (ncurses and tinfo). thats why this happens to you.
+",no
+"I agree that it is difficult to fully exclude introduction of new issues.  I'm starting to rethink #445 (Appveyor) since it seems beyond our current capability/resources to satisfy:
+
+1. Protect against undefined behaviors -- accurately fixing/mitigating bugs (for example caused by an upstream merge) in as timely a manner as possible benefits users
+2. Keep upstream merges and other patches simple -- this often facilitates 1. bug-fixing (or development)
+3. Do not lose Elo -- this often facilitates 2. verifying that patches are simple (do not cause side effects but only do what the developer intended)
+
+Perhaps during simple upstream merges I should edit `Makefile` (disabling some variants) to protect against undefined behavior...",no
+"If I would try running another new project with `cordova-windows` (marked as `cordova-windows@5.1.0`) I get the following console output:
+
+NO CONSOLE OUTPUT on FIRST RUN of Windows 8.1 x64 Release build on my Windows 10 Professional system.
+
+Console output of FIRST RUN of Windows 8.1 x86 Release build on my Windows 10 Professional system:
+```
+The method Windows.UI.ApplicationSettings.ISettingsPaneStatics.getForCurrentView has been deprecated. SettingsPane is deprecated and might not work on all platforms. For more info, see MSDN.
+The event Windows.UI.ApplicationSettings.ISettingsPane.add_CommandsRequested has been deprecated. SettingsPane is deprecated and might not work on all platforms. For more info, see MSDN.
+The method Windows.UI.ViewManagement.ApplicationView.put_SuppressSystemOverlays has been deprecated. Use the TryEnterFullScreen method and IsFullScreenMode property instead of SuppressSystemOverlays. For more info, see MSDN.
+Received Event: deviceready
+```
+
+Console output of second run of Windows 8.1 x64 Release build on my Windows 10 Professional system:
+```
+The method Windows.UI.ApplicationSettings.ISettingsPaneStatics.getForCurrentView has been deprecated. SettingsPane is deprecated and might not work on all platforms. For more info, see MSDN.
+The event Windows.UI.ApplicationSettings.ISettingsPane.add_CommandsRequested has been deprecated. SettingsPane is deprecated and might not work on all platforms. For more info, see MSDN.
+The method Windows.UI.ViewManagement.ApplicationView.put_SuppressSystemOverlays has been deprecated. Use the TryEnterFullScreen method and IsFullScreenMode property instead of SuppressSystemOverlays. For more info, see MSDN.
+Received Event: deviceready
+```
+
+Console output of first run of Windows Phone 8.1 ARM Release build on my Windows 10 mobile test device:
+```
+The method Windows.UI.ViewManagement.ApplicationView.put_SuppressSystemOverlays has been deprecated. Use the TryEnterFullScreen method and IsFullScreenMode property instead of SuppressSystemOverlays. For more info, see MSDN.
+Received Event: deviceready
+```
+
+Console output from first run of Windows 10 ARM Release build on my Windows mobile test device:
+```
+The method Windows.UI.ViewManagement.ApplicationView.put_SuppressSystemOverlays has been deprecated. Use the TryEnterFullScreen method and IsFullScreenMode property instead of SuppressSystemOverlays. For more info, see MSDN.
+eval code (2) (1,7)
+CSP14312: Resource violated directive 'default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'' in <meta http-equiv=""Content-Security-Policy"">: inline script. Resource will be blocked.
+Received Event: deviceready
+index.js (42,9)
+```",no
+"@paulcwatts I'm working on setting up a release process in another app via Gradle, imitating what you have set up here for OBA Android.  However, I'm getting an error.
+
+I created a `secure.properties` file with the two lines:
+
+```
+key.store=<path to keystore>
+key.alias=<name of key alias in keystore>
+```
+
+But when running `gradlew assembleRelease` I'm getting the error:
+`No value has been specified for property 'signingConfig.keyAlias'`
+
+Do I have the `secure.properties` file contents correct?  Also, what does the `gradle.properties` file contain?
+",no
+"Markus Hauck notifications@github.com writes:
+
+> ELPA, deleting *.elc did the trick, thanks!
+
+Here a little ack to make package.el deleting and compiling files in a
+clean env:(It is for my personal use, the code is not polished ;-))
+
+https://github.com/thierryvolpiatto/emacs-tv-config/blob/master/tv-utils.el#L773
+## 
+
+Thierry
+Get my Gnupg key:
+gpg --keyserver pgp.mit.edu --recv-keys 59F29997
+",yes
+"I think you misunderstand (or I'm not communicating clearly, or both -- probably both). I'm saying that origin-clean could be overloaded by an extension (e.g., always forcing it to 'false') to make a canvas unreadable, thereby avoiding fingerprinting exposure. While origin-clean isn't designed for this, it's neat that it could be used in that way.
+
+Will try to clarify.
+",no
+"I'm open to any ""better way"" to expose the underlying error. In my case I need the stacktrace to track checkout error down to the root cause, main issue is I don't know what this root cause can be so can't filter. Admittedly not a nice UX for end-user, so open to proposals.
+",no
+"I can just update version bounds on Hackage.
+
++++ Vicente Vera [Nov 21 17 21:27 ]:
+>   [1]@jgm [2]@leftaroundabout
+>   In addition to this change a new release should be made so pandoc
+>   >2.0.3 would make its way onto Stackage once http-types 0.10 lands
+>   there too.
+>
+>   —
+>   You are receiving this because you authored the thread.
+>   Reply to this email directly, [3]view it on GitHub, or [4]mute the
+>   thread.
+>
+>References
+>
+>   1. https://github.com/jgm
+>   2. https://github.com/leftaroundabout
+>   3. https://github.com/jgm/pandoc/commit/185918ea3d5ad759d7050e8ccb638734231e6762#commitcomment-25765575
+>   4. https://github.com/notifications/unsubscribe-auth/AAAL5Fd04VHqPPqAwyJJPk6S6A6SQSImks5s40AzgaJpZM4Qmgua
+",yes
+"But it implies the limitation of data exchage. By means of [FUSE](http://fuse.sourceforge.net/), we can implement our own file system purely in userspace, and our `romfs` can be mounted and open as well. We should ensure the compatibility and transparency.
+",no
+"@andrerom Yes, and it would require making a call to UserService::loadUserGroupsOfUser as role assignment checks for user need to go through user group role assignments for the groups the user belongs to. The problem is, anonymous user cannot, by default, load user groups, so it cannot check for correct permissions. This is one more reason in favor of simplyfying the user service we discussed about couple of days ago.
+",no
+"I don't think we have new type incompatibilities unless we change the conversion behavior. What I'm talking about here would just change how we get the value. And we would use this release to change the behavior. Going through the old API would use the same getter logic you removed. Going through the new API would use new logic that correctly goes through reflect. Then we can add other object models later without complicating either this issue or CDK-456.
+",no
+"Interesting, is it required? 
+
+I've scanned through diff between latest GA release of ButterKnife and snapshot https://github.com/JakeWharton/butterknife/compare/8.8.1...83c0e1df665d2fa337fc3890be9b57adda270e55 and didn't notice anything that would require update…",no
+"@kyranstar Looking good!
+
+One thing that I forgot to mention is that I set up the project so that all the shared code goes in ""Final Game/Shared Code"" and then is linked to in each project in Visual Studio. Currently, these files are in ""Final Game/Platform/Desktop/"", which means they will not be available if we want to run the game  cross-platform.
+
+First, you should pull from GitHub again to get my latest changes. All you have to do to move these files is to open Windows File Explorer and cut-and-paste the ""Map"" folder that you created into the ""Shared Code"" directory. Then go in to VS, delete all the now-disappeared files (it should just remove them from the project). If you reload the project, it should auto-discover the shared files for you.
+",no
+"@mhallin It seems this version isn't on npm.
+I was looking for latest as I am trying bs-platform 6 and it seems that the ppx (at least 0.2.1) is having issue with this bs-platform beta release (`Failure(""Ast_mapper: OCaml version mismatch or malformed input"")`)",no
+"According to the comment in `except` below, `disconnect()` can fail in some cases, so I suggest to put those two `disconnect`s in two separate `try-except` blocks. Otherwise, if the first `disconnect` fails, the second one won't be executed.",no
+"Not sure how to best do this. Not sure if a separate encounter link is very useful. For example, seems like that if a encounter exists, then as a physician, I'd want to open a new complete openemr frame that shows the patient summary screen on the top and the encounter on the bottom screen when click on this; and if encounter did not yet exist then would just show the patient summary screen in a complete new frame on top and the encounters listing on bottom(basically mimicking what happens when select a new patient in other parts of OpenEMR). You could even do what Rod does in the Patient/Client->Patients search feature where there is a toggle box to either open a new openemr frame or to do it in the same frame(thus would leave the tracker board when click on it). Just seems more natural since this is what happens in other parts of OpenEMR. If you think another way is better, could also have several different options in globals to choose from.
+",yes
+"Btw, a proper 13.8 release never happened (announcement, testing, upload to Marmalade, updating documentation etc) as it wasn't ready by the time a 13.8 release should have occurred based on the version-scheme, that's why it wasn't properly tagged to begin with (and you might have noticed by now that https://github.com/haskell/haskell-mode/releases doesn't show 13.8/13.10 in the same style as the previous proper releases).
+
+I'd rather just remove any reference to `13.8` and regard `13.10` as the real release following `13.07`
+",no
+"@czue do you recall why you chose a `KeyedProducer` here? From my understanding this will shard the changes to different partitions based on the key and looking below to line 38 we use `domain` as the key so all changes for a domain will go to the same partition.
+
+I know it's not an issue now since we only have one partition but we're about to change that.",no
+"That branch should already include the CVODE headers in
+StanHeaders/inst/include/lib/cvode_2.8.2. Are you saying StanHeaders needs
+to build the CVODE shared object? That would probably be okay although no
+longer header-only.
+
+On Sun, Feb 21, 2016 at 11:52 AM, Daniel Lee notifications@github.com
+wrote:
+
+> Ok, so we have a problem with CVODE.
+>
+> Ultimately, we need to include the header files from CVODE + one additional
+> header file that we added.
+>
+> In the math lib, the headers take up 1.9 MB. Do we have the space to
+> include that? If not, do we need to do a similar thing as BH for CVODE?
+>
+> That's just the includes. If we want to use CVODE, we'll need to have the
+> library built too.
+>
+> Summary:
+> How do we include CVODE headers?
+>
+> On Fri, Feb 19, 2016 at 9:56 PM, bgoodri notifications@github.com wrote:
+>
+> > You can do
+> >
+> > ./sh_b.sh
+> >
+> > or probably just
+> >
+> > R CMD build StanHeaders && R CMD INSTALL StanHeaders_*.tar.gz
+> >
+> > On Fri, Feb 19, 2016 at 9:44 PM, Daniel Lee notifications@github.com
+> >
+> > wrote:
+> >
+> > > Can I get a little help? Is the build instructions on the wiki
+> > > somewhere?
+> > >
+> > > There isn't a makefile in StanHeaders.
+> > >
+> > > On Fri, Feb 19, 2016 at 9:28 PM, bgoodri notifications@github.com
+> > > wrote:
+> > >
+> > > > You need to install StanHeaders_*.tar.gz first but it should be
+> > > > synced
+> > > > with
+> > > > the developed branches in prepare_for_2.10.0.
+> > > >
+> > > > On Fri, Feb 19, 2016 at 9:26 PM, Daniel Lee <
+> > > > notifications@github.com>
+> > > > wrote:
+> > > >
+> > > > > @bgoodri, I'm on that branch and it builds just fine on my machine.
+> > > > >
+> > > > > After updating my submodules recursively and changing to the rstan
+> > > > > directory, this is what I got:
+> > > > >
+> > > > > ~/dev/rstan/rstan (feature/prepare_for_2.10.0)> make build
+> > > > > R --vanilla CMD build rstan --md5 --no-build-vignettes --no-manual
+> > > > > - checking for file ‘rstan/DESCRIPTION’ ... OK
+> > > > > - preparing ‘rstan’:
+> > > > > - checking DESCRIPTION meta-information ... OK
+> > > > > - cleaning src
+> > > > > - checking for LF line-endings in source and make files
+> > > > > - checking for empty or unneeded directories
+> > > > > - looking to see if a ‘data/datalist’ file should be added
+> > > > > - adding MD5 file
+> > > > > - building ‘rstan_2.9.1.tar.gz’
+> > > > >
+> > > > > Do I need to update StanHeaders first or something?
+> > > > >
+> > > > > On Fri, Feb 19, 2016 at 5:09 PM, maverickg <
+> > > > > notifications@github.com
+> > > > >
+> > > > > wrote:
+> > > > >
+> > > > > > @syclik https://github.com/syclik while you are at it, can you
+> > > > > > take
+> > > > > > a
+> > > > > > look at
+> > > >
+> > > > https://groups.google.com/forum/?fromgroups#!topic/stan-dev/4Gd4cy2xEW4
+> > > >
+> > > > > > —
+> > > > > > Reply to this email directly or view it on GitHub
+> > > > > > <
+> >
+> > https://github.com/stan-dev/rstan/commit/900c66be59d8029ee242e4d613aac5a8051781bc#commitcomment-16215157
+> >
+> > > > > > .
+> > > > >
+> > > > > —
+> > > > > Reply to this email directly or view it on GitHub
+> > > > > <
+> >
+> > https://github.com/stan-dev/rstan/commit/900c66be59d8029ee242e4d613aac5a8051781bc#commitcomment-16218321
+> >
+> > > > > .
+> > > >
+> > > > —
+> > > > Reply to this email directly or view it on GitHub
+> > > > <
+> >
+> > https://github.com/stan-dev/rstan/commit/900c66be59d8029ee242e4d613aac5a8051781bc#commitcomment-16218326
+> >
+> > > > .
+> > >
+> > > —
+> > > Reply to this email directly or view it on GitHub
+> > > <
+> >
+> > https://github.com/stan-dev/rstan/commit/900c66be59d8029ee242e4d613aac5a8051781bc#commitcomment-16218386
+> >
+> > > .
+> >
+> > —
+> > Reply to this email directly or view it on GitHub
+> > <
+> > https://github.com/stan-dev/rstan/commit/900c66be59d8029ee242e4d613aac5a8051781bc#commitcomment-16218452
+> >
+> > .
+>
+> —
+> Reply to this email directly or view it on GitHub
+> https://github.com/stan-dev/rstan/commit/900c66be59d8029ee242e4d613aac5a8051781bc#commitcomment-16227673
+> .
+",no
+"Where/how does signing happen?
+
+On Thu, Feb 7, 2019 at 12:04 AM Roman Valls Guimera <
+notifications@github.com> wrote:
+
+> Add working multi-jdk travisCI. Please @jrobinso @davideby consider this
+> template for automatic release uploading:
+> https://github.com/umccr/igv/blob/umccr/.travis.yml
+>
+> --
+> You are receiving this because you were mentioned.
+> Reply to this email directly or view it on GitHub:
+>
+> https://github.com/umccr/igv/commit/2173ed6418bddfcd12b7e02e49af07f79253e47e
+>
+",yes
+"@tinspin : code up a switch-by-height implementation, and you'll see why by-timestamp is much better.
+
+There is no danger of confusion, the block timestamp is in the block header and is part of what is hashed. Either it is before the switchover time or after, and if you're checking the block you have the timestamp to check against right there in the block's data. Your node's notion of local time is irrelevant (if your time is too far off the network's idea of the current time you'll reject the block, but that is true today and independent of the max block size check).
+",no
+"I'm confused. I have no idea what segment you're talking about. My comment was about the if statement that checks if the current data size is smaller than the fragment length, which fragmentation.go already checks for, specifically on line 38. I don't understand why you're duplicating this logic at all.
+",no
+"There are two concurrency conditions here.
+
+The first is simply that `self.currentSync` isn't safe to read and write from multiple threads. Accesses to it need to be protected by a lock or a queue.
+
+The second is that — while not yet present in this commit — you're going to need to check `self.currentSync` somewhere before doing this work and assigning. Without other guards, it's possible for two threads to check, start, and then race to assign, and you'll end up with two concurrent syncs.
+
+These two things imply that the entire act of starting a sync — syncSeveral — should only be callable on a particular queue, guaranteeing sequential access to `currentSync`.
+",no
+"This is probably the best illustration of why the change is not trivial. Previously, it was used the application instance as the context, but now, you are using a context object and pining it to a background thread, exposing yourself to a potential context leak if that context is not an application.",no
+"Contribs can delete their own posts if draft (https://github.com/TryGhost/Ghost/issues/9314). That means the authors relation checks if
+
+- are you a contrib? yes/no?
+- you want to delete? yes/no?
+- is that your post (primary author)? yes/no?",no
+"Right now we are in release process for `5.0.10` and `5.1.1` versions.
+Hopefully there are going to appear in Maven Central in a couple hours.
+
+If you talk about `4.3.19`, then it's not going to happen today.
+You will need to copy/paste a fix into your own local `FileSystemPersistentAcceptOnceFileListFilter` class and use it accordingly in the channel adapters.",no
+"I’d recommend upgrading setuptools, and if that doesn’t fix it, pinning to the last release of Hypothesis that works for you.
+
+I may look at this eventually, but I’ll be honest, bugs with a four-year-old version of setuptools aren’t high on my TODO list.",no
+"> To mi moc není jasné. Koukám do logů Travisu jen když zařve, takže to dopřednou kompatibilitu stejnak neřeší. Nebo?
+
+Pokud bych používal hhvm/PHP 7.0, tak bych na Travis mrknul tak jako tak. 
+
+Nevím jestli budeš hlídat release date PHP 7.0 a testovat balíček hned po jeho vydání, případně omezovat composer na <7.0. Tímto ti tato práce a stresy odpadají.
+",yes
+"This approach is not thread-safe. `findMatchingGroup()` is mostly meant for inspection in unit tests. It returns a raw Group pointer, which may be gone by the time you access it. Furthermore, inspecting anything inside a Group object without holding the ApplicationPool lock is forbidden.
+
+A better approach would be to modify Pool::getAsync() to return a status object that contains the information you need.
+
+Furthermore, you should only generate the JSON if `req->useUnionStation()` is true. That way you can avoid the overhead if Union Station support is disabled.
+",no
+"unique ptr does not help for async calls - the reason shared ptr helps is:
+- your object wrap keeps a shared ptr to the hashmap (ref count 1)
+- when you spawn an async worker you increment the shared ptr's ref count (ref count 2)
+- your object wrap can die decrementing _but not destroying_ the hashmap
+- your async worker gets to run, after it is done it decrements the shared ptr (ref count 1)
+- if it was the last callback in flight the hashmap will get destroyed (ref count 0, kill it with 🔥 )",no
+"-1000
+1. You just never know who's gonna be using your public API, particularly in a key class like Cache.
+2. By doing what you suggest, we expose our users to panic moments like the ones lived when we upgraded to JBoss Marshalling 2.0.0.Beta1 and David had removed some class/methods...
+3. Or we expose ourselves to JIRAs like [this](https://issues.jboss.org/browse/ISPN-2282), which were reported when I stopped Externalizer extending Serializable.
+
+Deprecating and removing in next major version is the safest way to deal with this IMO, without any downsides.
+",no
+"interesting; should we perhaps instead just increase the `recursion_limit` itself?  I mean, the only drawback of that is that we will take longer before failing on other instances of infinite regress, right?
+
+(Also the `recursion_limit` is exposed to end-users, in some sense, right?  And thus this should be using a saturating or checked multiply, right?  But again, might be simpler to just increase the default value.)
+",no
+"I don't see a bug in web2py here.
+
+If you choose Set.count(), then you indicate that you want to count the rows in the Set - if you choose Set.select(field.count()) then you indicate that you want to count the values in this field. It is your choice what you want to count, the DAL just executes that. In this case, I just want to count the number of IDs - counting the result rows isn't necessary and won't give any different result, so why do it if it isn't needed.
+
+The ""bug fix"", btw, refers to the accidental copy+paste of the counting in the block below which overwrites the count of assignment with the count of appraisals.
+",no
+"I agree. I think with the recent fixes it's time to announce a new release. @martinpaljak, @viktorTarasov @LudovicRousseau could you create a dedicated branch for this? We need a feature freeze for this branch before the release for some weeks. This also gives time for testing and for creating a document of what is supported (and by whom).
+",no
+"It's not good though if we can't make a bugfix release of diazo for Plone 4.3 because the branch it's using is no longer compatible. Maybe we should make a branch before you added the WebOb>=1.4 requirement and switch Plone 4.3 to use that branch? Or maybe it's safe to update Plone 4.3's version pins to use a newer WebOb.
+",no
+"Please add something to the readme's release procedure or adjust the upgrade-versions script accordingly, so @mbiarnes does it every release.
+
+Productization (julian) orginally promised me that they'd use this to fix a grave error they had. See https://bugzilla.redhat.com/show_bug.cgi?id=1168653
+",no
+"Some random responses:
+
+1) For sure we want any exposed of concepts in the management-api module to be much much simpler than what we have in controller. For sure there's no reason for AbstractCapability in the new stuff. IIRC in some later commits on this branch, where I start to deal with how to bridge the cap concept into the legacy code so it all can work I deal with that some, so perhaps have a look at the HEAD of the branch, and then we can discuss further improvements from whatever that is.
+
+2) The bridging stuff is a key concern, so that may limit our flexibility somewhat, although I hope not.
+
+3) The actual name -- Capability vs RuntimeCapability vs Bob, is a fair topic for discussion. If the only API in the new stuff was just called ""Capability"" and that works out for all the needed cases that sounds fine.
+",no
+"Rust just hit 1.0 so it is unstable itself, let alone well-packaged. It is a very radical thought, and I am just throwing it out there, but by the time any sensible rewrite is finished it will probably be stable and well-supported. I just shared the thought, it wasn't a serious suggestion for something to start now.
+
+I am halfway done with my counter-offer, will post it tomorrow.
+",no
+"I'm not available to do freelance work. 
+
+If you have legitimate fixes, why not contribute them? If its customisation work, move the code to plugins.
+
+Maybe you should also test the above/latest versions on a dev server to ensure it actually does what you want.
+",yes
+"> This means that you have actually only one subkey for singing/encryption on each on your machines? Isn't that a problem when distributing the key?
+
+I have only one ecryption subkey which is shared everywhere. I have multiple signing subkeys, one per machine.
+
+> If I setup to use a subkey for encryption (that belongs to my ""main"" key pair) that only exists in my laptop, how is that I can decrypt it in my main rig?
+
+Exactly. Multiple encryption subkeys wouldn't work because there's no way for a message-sender to know which machine I'll eventually read the message on and therefore can't choose the right public key to use for encrypting the message.
+
+This problem doesn't exist for signing subkeys because I can use any signing subkey I like and as long as the public key is available, the message receiver (or git commit viewer) can verify it.
+",no
+"@evdokim when working as part of a team, there's always the need to make compromises, and do things in ways that we don't find ideal. 
+
+Please do what I just said above. I will not reply or wrote anything more as part of this conversation.
+",no
+"We're cleaning up a bunch of things, including the set of architecture supported (removing some, adding some more). This commit is transitionnal and will be completed later. Meanwhile, you can use latest release point if you want to use AVX.",no
+"Please try to open new Issues rather than commenting on 6+ month old commits. It's hard to spot the latter. 
+
+It was removed in this case because the stable release was newer than the development release. If there's a current development release _newer than the stable release_ you're more than welcome to file a PR to add it back.
+",no
+"@jakobbuchgraber Understood.  I'm asking if we want to change this interface or expose another interface similar to this one which allows the user to supply an `ExecutorService` and tell netty to clean it up.
+
+For example add a new constructor:
+`protected MultithreadEventExecutorGroup(int nEventExecutors, ExecutorService executor, boolean shutdownExecutor, Object... args)`
+
+~~The existing constructor signature could stay the same (i.e `private MultithreadEventExecutorGroup(int nEventExecutors, Executor executor, boolean shutdownExecutor, Object... args)`) but The code that is shared between this constructor and the new constructor would be extracted out into some other private method to allow them to share common code.~~
+",no
+"You shouldn't have to poke the internal data structure. You should be able to do `$page->links( alternate => $_ ) for @feed_links;` or `$page->links( feed => $_ ) for @feed_links;` depending on how your templates access the links. And even that's clunky, so I'd happily accept a patch that enables `$page->links( type => @links );`
+",no
+"There have been some bug reports when people try to use 1 fps in Export: The video stalls. This is a bug in MLT, but that will take a while to fix. I want to limit exposure in the meantime. Further testing reveals that the problem is more related to the ratio of frame rate reduction. Also, it reveals that after a change in MLT, I can get a 1 fps project to compose and export as 1 fps; however, the audio is very distorted whereas 5 fps works fine. I might need to refine this change to set the minimum for the Video Mode to 5, and dynamically set the Export frame rate minimum based on the project frame rate.",no
+"Personally I'd just choose one (yours) and be done with it. Why give people things to think about? ^^
+If they're proficient with batch files they can change it themselves if they want, people who don't know might wonder which one they have to choose.
+",no
+"@IgnasJarusevicius I don't know if it got mentioned, but I am looking to maintain a stable branch for tagging release and accumulating fixes: https://github.com/myriadrf/LimeSuite/tree/stable
+
+I'm curious if this commit and the next one for the phase adjustments is something that would be considered a fix or a necessity for product support, or fixing the build. Something that would be seen in a release with minor fixes VS a inconsequential change or feature additions.
+
+My thought was to add necessary changes to stable, update the changelog, and merge stable into master after this addition. If this is the case, I will just git cherry-pick the commits this time.",no
+"Thanks for this test case and the underlying bug report in implementations :)
+
+I'm proposing a rewrite of that test case that only tests the empty string data exchange, and use the promise based api (as it is the recommended one, and also makes the whole thing less verbose)
+https://github.com/tidoust/web-platform-tests/pull/1
+",no
+"SNAPSHOT dependencies to external projects must be avoided as it makes build fail outside SonarSource infrastructure (travis-ci).
+Is this version of persistit required right now ? An option is to release persistit before doing this change
+",no
+"How about this?
+
+```
+Robottelo requires SSH access to the Satellite 6 system under test, and this SSH
+access is implemented by Paramiko. Install the following to ensure that Paramiko
+functions correctly:
+
+* OpenSSL
+* Python development headers
+* libffi
+
+On Fedora, you can install these with the following command::
+
+    dnf install -y libffi-devel openssl-devel python-devel
+
+On Red Hat Enterprise Linux, you can install these with the following command::
+
+    yum install -y libffi-devel openssl-devel python-devel
+
+For more information, see `Paramiko: Installing
+<http://www.paramiko.org/installing.html>`_.
+```
+",no
+"TeamCity QGC - Pull :: OSX Release [Build 74](http://latestfiasco.com/viewLog.html?buildId=3852&buildTypeId=QGroundControlPullRequests_OsxRelease) outcome was **FAILURE**
+Summary: Snapshot dependency failed: QGC - Pull :: Origin Fetch Build time: 0:0:1
+",no
+"David, make someone (@JanTvrdik) release manager and let him do this job. 
+- community will be happier, consistent releasing never hurt anybody
+- from the beginning, it could be releasing only minor versions
+- the it's really really really really hard to develop some young technology (database) with 2 years master release term.
+- it's really sad that interesting and needed changes are implemented/merged in RC phase.
+",no
+"let's avoid for the moment hardcoded limits that even don't expire and are accumulated until platform reboot and if worried about this beaviours let's open a ticket to find a solution to be applied unified to every handler or resource (e.g. limits an API after X number of failures).
+
+this was a limit of past implementation that require custom code which behaviour is difficully to be documented or communicated to the user.",no
+"You are completely right. When finalizing this commit, I already wondered if it was such a good idea, as I remember we already discussed this in the past. I added a comment in the code to prevent me from doing the very same change some years later again (https://github.com/BaseXdb/basex/blob/5757b6c7a8ee2e6f1a070e5b0ef57963cae7e7b4/basex-core/src/main/java/org/basex/query/value/seq/NativeSeq.java#L57-L76).",no
+"Since Git automatically fixes the line endings, what is it that you are trying to fix manually? You can't get away from it. This commit will force consistent line endings, but once it's in place, it will ensure inconsistent line endings aren't reintroduced. I might be able to submit a different PR with that step already done.
+",no
+"Yes I prefer we keep the history in the release notes!
+
+2015-06-29 19:06 GMT+02:00 Damjan Adamic notifications@github.com:
+
+> Then we loose all history of previous releases. The same issue was with
+> r2964 to 2.0 transition and the whole changelog was kept.
+>
+> —
+> Reply to this email directly or view it on GitHub
+> https://github.com/opentx/opentx/commit/f592a78b4b4d20a1e75fec27edf01cc043b0f71e#commitcomment-11914521
+> .
+",no
+"I've not much experience with file sharing application, @moneytoo did owncloud package so I'd like to here his insight.
+IMO you should not delete the data **folder at all** and if possible allow users to configure what the data folder is. Maybe they'd like a share instead.
+
+Of course, adapt the wizzards to warn the users.
+",no
+"The function may release the Blocks *dst1 and *dst2. If both are released, effectively no memory was consumed, if one was released 1 * sizeof(Block) was consumed and if both 2 * sizeof(Block) - this is required by the caller of this function (size_t alloc(...)). I may also let cut_from_block return the actual size instead of the number of Blocks ? I have no preferences so far.",no
+"TeamCity xBIM :: Xbim Geometry :: Release [Build 29](http://ncl-xbim.hq.4projects.com:8080/viewLog.html?buildId=920&buildTypeId=XBIM_XbimGeometry_Release) outcome was **FAILURE**
+Summary: Tests failed: 4 (1 new), passed: 65 Build time: 00:37:44
+### Failed tests
+
+```
+VSTest: GeometryTests.IfcRevolvedAreaSolidTests.IfcRevolvedArea_To_Sphere: <no details avaliable>
+
+VSTest: GeometryTests.IfcExtrudedAreaSolidTests.IfcExtrudedArea_With_IfcArbritraryClosedProfileDef_And_IfcCompositeCurve: <no details avaliable>
+
+VSTest: GeometryTests.IfcSweptSolidTests.IfcSurfaceCurveSweptAreaSolid: <no details avaliable>
+
+VSTest: GeometryTests.SceneTests.ReadAndWriteWexBimFile: <no details avaliable>
+
+```
+",no
+"I really wanted the vjs-4-3 and vjs-16-9 classes to be stand-alone. I did have the properties shared in a less function, `.fluid()`, but after doing that it felt overly complicated for so few styles. That's probably not what you meant though.
+",no
+"Thanks! I have a working Makefile too that I will share with you.
+
+Do you think there is a big advantage to providing a shared library? The Makefile I have been working on assumes static linking. I'm nervous about providing a shared library since there's no ABI guarantee.
+",no
+"I chose to use two extra lines because the two code paths cover conceptually different cases:
+- if time zone support isn't enabled globally, none of the time zone support code is needed
+- if the database supports time zones, this property isn't needed because time zones are handled at a lower level
+",no
+"Also, as described further down as well, exceptionSets are made to be white- and blacklists. 
+(Btw, you currently made it a whitelist. The standard is false, so the admin must select the blocks he want to enable)
+
+The admin can choose the way they work. Please change the name to ""blockHats"" and make it standard=true. Adjust the comment above accordingly please.",no
+"yeah, got lazy on that one ... Mostly because it has to be a few checks and I am not sure of what works yet: you cannnot have VGA color and QVGA depth (not enough memory error). I'll expose the params though and we'll add asserts as it fails
+",no
+"I appreciate your reviews, I think you have pointed out several good stuff lately..  but I don't want to spend too much time right now fixing these scripts. There are work in progress on the next cppcheck release that I prefer to focus on, I want to harden the checkers I have implemented lately and I am currently trying to optimize the tokenizer.
+",no
+"This compiled file should not be here, sorry - it should be added to the [release tag](https://github.com/cara-tm/pat_if_amp/releases/tag/0.3.6-beta) as a binary file. Please can you revert commit, edit the release tag and drop this file in the 'upload binary file' section of that release? Cheers!",no
+"I am sure we already have a delete popup somewhere. If it's not accessible to uf-ext then please do not copy and paste code; but talk to somebody about how best to refactor the existing code (e.g. move the delete popup from kie-wb-common to uf-ext). Also please ensure you are using the code formatter defined in droolsjbpm/droolsjbpm-build-bootstrap.
+",no
+"> Anything other than the latest release of php 5.5.x isn't good enough.
+
+And yet we still say you can install Laravel if you have 5.5.9+, if you have 5.5.6 you are using an **unacceptable** version. 
+
+> PHP 5.5.8 isn't supported for security fixes. Only the latest 5.5.x is supported.
+
+So if I have a problem running Laravel with PHP 5.5.9 (security issue related), does this mean:
+1. Laravel team will look into coming out with a solution?
+2. or do you guys just tell the use a newer version of PHP?
+3. or do you guys increase the minimum PHP version to 5.5.20 etc and tag a patch release?
+",no
+"No, they should still be omitted. They're private variables that most people shouldn't mess with and they're autocompleted if you start with _ so it's not like it was hard to get to them. 
+
+We do the same thing with files - hide anything that starts with a dot unless the completion argument starts with a dot as well. ",no
+"@jeremy I'm going to do a release soon and I'd like to revert this. Please see my comments:
+- https://github.com/rails/spring/pull/329#issuecomment-52809010
+- https://github.com/jonleighton/spring-commands-rspec/pull/20#issuecomment-52701781
+
+Are you ok with it being reverted?
+
+Thanks
+",no
+"Apparently, when a new subversion release is made, the tarballs of the previous versions are moved somewhere else:
+http://archive.apache.org/dist/subversion/
+
+That's just fucking retarded. How is anyone going to create reproducible build with that mess?
+
+/cc @mattwynne @jbpros 
+",no
+"Hmmm, I thought it's shared within process. 
+
+@tenderlove can you help me on this question. I am unsure about this threading stuff.
+
+On Thu, Dec 18, 2014 at 9:07 AM, Vitalii Khustochka
+notifications@github.com wrote:
+
+> @sikachu May I ask, after this change when I am supposed to call `AC::Params.permit_all_parameters=` to permit all parameters in all controllers?
+> Previously I just had an initializer with the following line: `ActionController::Parameters.permit_all_parameters = true`
+> ## but after your change this does not work any more. I may be wrong, but isn't Thread.current specific for every request, so I will have to call it in every action (or as before_action)? 
+> 
+> Reply to this email directly or view it on GitHub:
+> https://github.com/sikachu/rails/commit/0d975e289de59f86dadcf7f1189ce875eab40b74#commitcomment-9019836
+",yes
+"There has to be someway to restrict the domain a message is being published on. Sure, the glue could be hidden with a global `publish` but the specific domain such as Rack::Push would still have to be directly accessible. You don't want to publish something intended only for the JavaScript go out to external apps.",no
+"This is quite likely to break a couple of major modes.  For instance, it'll turn [autonumbered footnotes in ReST](http://docutils.sourceforge.net/docs/user/rst/quickref.html#footnotes) into comments.  And footnotes don't seem like a very strange thing to use in a commit message…
+
+Also, this will conflict with any major mode which already defines a primary comment syntax. You should at least specify `c` to decrease the likeliness of a conflict with any comment syntax defined by a major modes (few languages actually have three comment styles).
+",no
+"Simply because the component script service doesn't expose the `hasComponent()` nor the `registerComponent()` methods. Moreover, the component script service uses the context component manager, which is read-only (and the reason I made the commit in the first place), and thus doesn't support `registerComponent()`. I don't want to extend the component script service just for this deprecated document that is used only by old AppWithinMinutes apps.
+",no
+"Are the accesses to `this.size` in this function (and `insert`) safe? They're protected by the per-bucket lock, but the `size` function below uses the 0th bucket lock to protect size. Maybe make it an `AtomicInt`? Or is there a different guarantee here?
+",no
+"It caused issue with https://ci.appveyor.com/project/php/php-src/build/PHP-7.0.16.build.872. We currently don't run AppVeyor with 7.0, so only showed up with the release branch :( But also, a special case as it needs special privileges which are usually not available with unelevated accounts.
+
+Thanks.",no
+"and then what: go to the module and figure out how to print what it read (hoping the calls are exposed and not hidden via chain of tools)?
+
+May I go back to my original question: is the edit in this commit supposed to capture all Event::getBy* calls?
+",no
+"Well, the Jigsaw module issue is unrelated.
+
+I was only asking if you got it working -- in the sense of not removing unused imports on JDK 9. 😉 
+
+In other words, if the Jigsaw issues get sorted out with an upcoming release of Gradle, we will still need your proposed workaround until Google's Java formatter works on JDK 9.
+
+Right?",no
+"I found it awkward that I selected a config file from the menu and it generated a whole new file that existed nowhere on disk, yet it did not ask me if I'd like to save it. If you chose to edit a config file, implying to create it in the correct location with the correct name, you probably meant to save or discard it.",no
+"@vic-topcoder we had a support for hiding product (project sub category) without changing anything with css. It is just a boolean flag `disabled` or `hidden` in `projectWizard/index.js` for the concerned product. That support is not there for project category though, I can make that change and hide the chatbot from there instead of handling it in css.",no
+"this isn't working as of now, I was testing here that we have at least some data to take the latch down, i need to test some more how those piped streams work, currently they're locked when used with http streams, gotta fix this week.
+
+
+Re: serialization. I thought these filters could get quite big so I wanted to use as least as possible.",no
+"Sorry, the doc comment does not apply to your repo - copy-n-pasted from oither repos.
+
+I assume that you want to make future released into Indigo from the indigo-devel branch?
+Then yes, you should update the devel_branch value in the track file to point to that branch (in order to not miss it for the next release).
+
+Anyway you should be very careful with your version numbers since currently you have the exact same version in both distros but different branches in the source repo. As soon as they diverge you need to make sure that the version numbers (and future patch releases) are not overlapping.
+",no
+"Didn't work before making this change. I just added a partial view macro with the register snippet, no changes. Told the macro it was allowed in an RTE, added it to RTE, Published, tried to register, password was blank in the database.
+Think there might still be a problem: http://issues.umbraco.org/issue/U4-4653
+",no
+"The appstream spec now says it is discouraged. Until that commit flatpak required it, which was an issue.
+
+Now flatpak does not require it but we need to ensure that all our infrastructure is updated otherwise the app will refuse to export appstream correctly, meaning that it disappears from software stores. I can assure you from the wave of support tickets that we got at Endless that people noticed when it disappeared!",no
+"I was writing about [this](https://github.com/php/php-src/pull/2976#issuecomment-355882740) to internals - either it were a separate function, or other suggestion was an ini. The whole idea is that we either provide a restricted function - low resolution but still monotonic, or give admins an option to control that. In the case of ini, there's more flexibility. A function would have to be in ms resolution, the lowest that makes sense. With ini one can set it to 20us, for example, like Firefox did. In any case, an argument is here a no solution, as it's about restricting the resolution, it was never planned to do so but became only relevant with Spectre :(
+
+Thanks.",no
+"General note, use of ternary is quite a personal preference. I use it, but if it would make the line long I would definitely not use it. (I'd never split a ternary onto multiple lines for example). Here the main benefit is avoiding declaring a variable that is only setup in the if/else block which is a case where declaring a helper method might be a clearer solution.
+",no
+"@simonster will have to take a look at this. We've seen the access denied errors pop up frequently in automatic reports from users, but I've never been able to reproduce them locally. Hopefully this one is reproducible and we can track down the issue (though it may be an entirely different issue).
+",no
+"I'm not a fan of documenting implementation details that are likely to become out of date. I'd rather comment on the class to explain what the overall point of this implementation is. In these three cases, they are the SWF specific implementations which is what the interface docs are really targeting anyway. The only other impl right now is just for unit tests. There may be an in memory impl later, and it should have docs that explain differences and changed assumptions.
+",no
+"jshint es6 is a bit problematic,  you can't pick and choose which es6
+features you support its and all or nothing thing.
+
+On Wed, Jun 4, 2014 at 2:25 AM, Robin Ward notifications@github.com wrote:
+
+> I run JShint within VIM and it didn't complain. Maybe we don't have that
+> option enabled? We should turn it on.
+> 
+> —
+> Reply to this email directly or view it on GitHub
+> https://github.com/discourse/discourse/commit/bb0cf8768472aa990ccf8e14a258395584de0496#commitcomment-6540212
+> .
+",yes
+"can a user tweak or disable this? lately with propagation issues on astraweb.. sometimes just trying the same release 40mins later 'fixes' it. and you dont want to just assume everyone posts on astraweb.. thus cant just simply increase delay for all usenet items in fear of it.
+",no
+"Do you have any problem with the last suby release (0.4.4) which includes this fix?
+At me, everything is fine and the tests pass.
+`XMLRPC_HOST` is only used when we call `Suby::Downloader#xmlrpc`, which is called only for OpenSubtitles right now.
+",no
+"@kayvanbree please open an issue. It is much better than commenting on commits (I'm quite sure that Fabien does not read notifications about such comments). And please give more details when reporting the error (the error message for the server error for instance)
+",no
+"No they fail, that's why they're marked like that. That's what we normally do for failing tests, right? And we're not doing a release right now, so I thought it a good idea to un-ignore them as a reminder to look at them and re-ignore them if we still haven't fixed them for M6... but whatever you guys think best.
+",no
+"good.
+
+This is my personal ideas about preventing hidden dependencies in headers:
+- put system includes after local includes. If the local headers need any system headers they must include them.
+- put the implementation header first. In the file foo.cpp the include foo.h is put first. This ensures that the includes that foo.h needs is required in the foo.h. 
+
+I won't mind if you ignore these ideas.
+",no
+"I have been looking around what would be the best way to expose the minimum amount of methods from a requirejs module and instead use events but cannot find any information.
+
+I don't see how the form.js module could receive an event an invoke a method (instead of exposing them in this way).
+
+In the example from @greut I see he uses some events attached to DOM elements but I don't see a good example to send an event to a requirejs module?
+
+In principle I don't see as a bad idea having the save_field method as public. If somebody uses form.js and then writes his/her own JS code, as we are doing, chances are you will have to invoke that method at some point.
+",no
+"Sounds like main issues:
+1. Whether need stringent gui to make it clear user is searching drug code and ensure only one drug code can be selected.
+2. Whether makes sense to place both diagnosis code and medication codes in same database column or to keep them separate.
+
+I'll see if Kevin can weigh in so don't waste too much time pondering this.
+",no
+"a literal comma is the separator character for Makefile commands. there is no escape character. but interpolation allows us to stick any value in there. almost any string can be used as a variable name. i could use `comma`, but instead chose to use `,` as the variable name.
+",no
+"Let's use the same image for all platforms, and we should follow MattN's suggestion in https://bugzilla.mozilla.org/show_bug.cgi?id=974736#c10 of moving the shared image to browser/themes/shared and update jar.mn appropriately. The css will be the same.
+",no
+"Is this a standard way of doing PAM parameters? Typically ""\0"" would be used for string safety in C, but if the password is any byte sequence including all unreadable characters this doesn't work without encoding. The trim() is potentially fatal, too.
+",no
+"From the release notes:
+
+Add invisiblesMap option to the .tm_properties file. This can be set to a string which is used to control which glyphs are used for invisible characters. Add either \n, \t, or a space to the string, followed by the glyph that should be used to render the character, or prefix it with ~ to disable rendering of that character. For example to disable rendering of spaces and render tabs as ┊ add this to .tm_properties: invisiblesMap = ""~ \t┊"". 
+",no
+"ah. It seems I didn't commit when I changed the version for the release. But I can't find the branch that I used for the release right now :-/ That's not great. I opened #112. I'm just knee-deep in other things, and I don't want to mess things up further by a quick fix.
+",no
+"ACLs. Without this, CORS will work if you go directly to the service (ie, http://localhost:53203), but not through the gateway (ie, http://localhost:9000).  auto ACL allows all item service calls to be accessed via the gateway, and then I've manually added an ACL to allow requests with the OPTIONS method at the path that matches `/api/item/[^/]*` (ie, `/api/item/:id`) to also be forwarded to the item service.
+
+This is fine for dev mode, in production, it will be up to you to configure whatever proxy you're using to correctly forward these calls.  If you're using something that reads this configuration (like ConductR), then that will be done for you.",no
+"It doesn't persistent IP bans just yet. I added this feature with the intension of blocking Tor users, but I then realized halfway that religious Tor users may take offense since it reduces their freedom and privacy, so I committed it as it was. I'm debating it in ?programming right now. Have any thoughts?
+",no
+"I'm not so sure about `.config` / `.property` files. These kind of extensions are really ambiguous and don't imply any particular comment style.
+
+Also, definitely not `.sh` files as this will interfere with `#!/bin/sh`... is the same perhaps true for `.py` / `.groovy`?
+
+It's also really hard to say that a configuration file is copyright.
+",no
+"One thing that the flexibility of the selection syntax does is it lets you choose what makes the most sense to you.  If that's ignoring everything and just using the Amber mask syntax (`struct[':1-10@CA']`), then that will always work and you can ignore the rest :).  It just so happens that in this particular case, `struct[i,:]` is a more efficient way of doing this selection (although, as I pointed out, it's still O(N^2) and so will be _painfully_ slow in large systems).
+",no
+"```
+ERROR: LoadError: BoundsError: attempt to access ()
+  at index [1]
+ in runtests at C:\projects\julia\test\testdefs.jl:77
+ in anonymous at multi.jl:833
+ in run_work_thunk at multi.jl:584
+ in anonymous at task.jl:833
+while loading markdown.jl, in expression starting on line 83
+```
+",no
+"> Yes, we can release a.x every month. But in this case nobody will want to manage releasing of a.b.x.
+
+We can have long-term support releases like Symfony. Support for normal releases would end when a newer version comes out (or shortly after), long-term releases would be maintained for like 3 or 5 normal releases. For example we could have one long-term support release a year and normal releases could come out like every three months.
+
+Also :-1: for this in 2.1.1.
+",no
+"> An unlikely event, but perhaps we should leave it as is to avoid a possible incorrect match.
+
+You're already exposed to matching `(c)` in that context, so I don't see a problem with adding `copyright` to your table too.
+
+Fixes to protect against non-copyright-sense `(c)` in templates will be more involved, but they can wait.",no
+"@Tieske, a failing test running the testsuite locally made me realize that this changed the behavior of the LUAROCKS_CONFIG env var: now if it points to an invalid file it silently switches to the default below. I think this should be an error, as ignoring an explicitly set env var is misleading.
+
+I'll look into changing this.
+",no
+"I needed to change it during this same PR, but changes to _engine_ module are all organized before those from the _orm_ module.
+I like to track this one as a separate commit with the _[SPI]_ marker as a reminder for the migration guide..
+",no
+"I checked the license of the JSON library (https://jsonp.java.net/) and it appears to be under GPL license.
+Unfortunately, GPL is incompatible with Apache which we chose for our project. So, it is not possible to use this library for Stratosphere SQL. I am sorry :-(
+
+Apache, MIT, and Berkeley licenses are OK. GPL and LGPL are not.
+",no
+"Alternatively, you can chose not to include the fragment in the main gsp and instead just call your fragment from javascript and fragment returns json, good examples of this are [MessagesFragmentController](https://github.com/openmrs/openmrs-module-uicommons/blob/master/omod/src/main/java/org/openmrs/module/uicommons/fragment/controller/MessagesFragmentController.java) and [GlobalPropertiesFragmentController](https://github.com/openmrs/openmrs-module-uicommons/blob/master/omod/src/main/java/org/openmrs/module/uicommons/fragment/controller/GlobalPropertiesFragmentController.java) and [this is](https://github.com/openmrs/openmrs-module-uicommons/blob/master/omod/src/main/webapp/resources/scripts/emr.js#L52) how they are used in JS
+",no
+"Ok, I'm feeling a bit silly 😵. I've got the changes I wanted to release as 3.0.4: https://github.com/wycats/handlebars.js/commits/3.x - I've cherry picked 3 commits from the 4.x branch to get rid of the security warnings for 3.x. Very straightforward changes.
+
+Now I'm ready to do a release, but because the release process is wrapped in the yeoman generator, I am not 100% certain that it will behave correctly for this case? @kpdecker you seem to know the `generator-release` package pretty well - are there any commands that would incorrectly try to base themselves from the previous 4.0.5 release or is it safe? I've done a notes dry-run and here's my [generator-release file](https://gist.github.com/ErisDS/cad69e5ca7896c19500cdb7dd959462d) :grin: 
+
+Also I missed that I [need permission](http://guides.rubygems.org/command-reference/#gem-owner) to do `gem push handlebars-source-*.gem` @wycats 
+",no
+"I'd like to see a file watcher to run gulp when stuff changes (for development). Can we add a script somewhere which is easy to start up? I've heard that this can be problematic on virtualbox shared folders. Have you encountered it before?
+",no
+"Expose the Context to the Arquillian bus, @Inject @ContainerScoped private InstanceProducer<Context> context; context.set(createContext()) ish.. This will open up for @Resource and @EJB enrichment on ClientSide as well as InContainer
+",no
+"Thats NOT the imges/text he originally posted and I dont have to prove myself at all, just search his forum if he hasnt deleted it all yet, he got so many PM's about him taking credit for it he had another melt-down and about 20 people brought it to my attention via PM's plus all the other stupid stuff he posts about me every hour.  Just relaying what all the users on his site say, thats it.
+",no
+"utACK. This isn't quite implementing the format I suggested at https://github.com/zcash/zcash/issues/2517#issuecomment-314200853 (it uses two leading bits rather than 3), but we can easily make the implementation and spec consistent later. I chose 3 bits to have more room for unambiguous extension, and because it doesn't matter for BLS12-381.",no
+"even better to save parsing as code block and then rewriting with expanded symbol including report output first attempt to parse as symbol reference (if paragraph) if succeed do not do anything else if not successful (and not symbol not found error) parse as content code block
+",no
+"I think the MIDI improvements will be available only in version 2.0 (i.e., with MEI 4.0). 
+
+The plan now is to make soon a release of Verovio 1.1 from the current develop branch and then have the develop branch using the upcoming MEI 4.0. OK?",no
+"The commit message explains: to make them easily eyeballable, with consistent visual groups. How it was was really confusing, with some groups of 5, some of 4, some of 6, some of 2 lines. I can't imagine a reason why someone would think that separation has any special meaning beyond readability. Where there's something special, there're comments (and more to be added, per https://github.com/micropython/micropython/issues/3291). Feel free to propose an alternative, but please keep in mind that groups of 12 are already hard to deal with (e.g. few people would be able to spot it and immediately tell there're 12 items there). More: https://github.com/micropython/micropython/pull/3304#issuecomment-327999767
+",no
+"Not sure, its pretty quiet on the mod front and very little is being worked on on OpenJK engine or mod code.  Lots of servers do actually have bots running with the base game's crappy waypoints.  Would be interesting to see better pathing and navigation sometime.  Or even saber combat.
+
+But the navigation mesh features can also be a topic of discussion to improve the NPCs too for SP or MP outside of botcode was what I was getting at.
+",no

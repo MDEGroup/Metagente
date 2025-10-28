@@ -1,0 +1,19 @@
+description,readme
+"TeamCity xBIM :: Xbim Geometry :: Release [Build 34](http://ncl-xbim.hq.4projects.com:8080/viewLog.html?buildId=979&buildTypeId=XBIM_XbimGeometry_Release) outcome was **FAILURE**
+Summary: Tests failed: 4, passed: 66 Build time: 00:31:24
+### Failed tests
+
+```
+VSTest: GeometryTests.IfcExtrudedAreaSolidTests.IfcExtrudedArea_With_IfcArbritraryClosedProfileDef_And_IfcCompositeCurve: <no details avaliable>
+
+VSTest: GeometryTests.IfcRevolvedAreaSolidTests.IfcRevolvedArea_To_Sphere: <no details avaliable>
+
+VSTest: GeometryTests.IfcSweptSolidTests.IfcSurfaceCurveSweptAreaSolid: <no details avaliable>
+
+VSTest: GeometryTests.SceneTests.ReadAndWriteWexBimFile: <no details avaliable>
+
+```
+",no
+"Fine by me.  How do you feel about the usage down below, where it's `const set = index.externalIds[eid].set`?  In that case, it feels like either we should choose a new key for the array of descendants, or be ok with calling it ""set""?",no
+"SymEngine doesn't need to be built as a shared library anymore. Both `-DBUILD_SHARED_LIBS=on` and `-DBUILD_SHARED_LIBS=off` will work. So I would just remove it from here. You can mention that both shared and static builds work with the Ruby wrappers.
+",no
