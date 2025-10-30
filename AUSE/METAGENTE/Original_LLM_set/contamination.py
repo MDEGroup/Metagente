@@ -1,22 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-
-"""
-AndroZoo contamination check (App Description Completion)
---------------------------------------------------------
-Phiên bản này chạy tự động trên file cố định:
-  /Users/Yuki/Prj_multi_agent_git/Metagente/METAGENTE/data/test_random_400.csv
-
-Các bước:
-  1. Đọc cột description_html
-  2. Cắt first_piece (50–60%)
-  3. Sinh prompt Guided / General
-  4. Gọi model OpenAIClient(gpt-4o-mini)
-  5. Clean nhẹ kết quả
-  6. Tính ROUGE-L recall
-  7. Xuất kết quả ra results_androozoo_contam.csv
-"""
-
 import html
 import random
 import re
@@ -25,8 +6,6 @@ from typing import Any, Dict, List, Tuple
 
 import pandas as pd
 from tqdm import tqdm
-
-# ======= OpenAI Client (bạn đã có trong utils.llm) =======
 from utils.llm import OpenAIClient
 
 
@@ -34,7 +13,6 @@ from utils.llm import OpenAIClient
 # Text helpers
 # -----------------------------
 def strip_html_tags(s: str) -> str:
-    """Chỉ bỏ HTML tag, giữ nguyên ký tự đặc biệt."""
     if s is None:
         return ""
     s = html.unescape(s)
@@ -42,14 +20,12 @@ def strip_html_tags(s: str) -> str:
 
 
 def whitespace_norm(s: str) -> str:
-    """Chuẩn hóa khoảng trắng."""
     if not s:
         return ""
     return re.sub(r"\s+", " ", s).strip()
 
 
 def light_clean_generation(s: str) -> str:
-    """Clean nhẹ output của LLM."""
     s = s or ""
     s = s.strip()
     if (s.startswith('"') and s.endswith('"')) or (
@@ -202,7 +178,7 @@ def main():
     out_csv = "results_androozoo_contam_full_600.csv"
     random.seed(42)
 
-    print(f"📂 Loading dataset: {csv_path}")
+    print(f"Loading dataset: {csv_path}")
     df = pd.read_csv(csv_path)
     if "description_html" not in df.columns:
         raise ValueError("CSV phải có cột 'description_html'.")
@@ -210,7 +186,7 @@ def main():
     df["_desc"] = df["description_html"].astype(str).str.strip()
     # df = df[df["_desc"].str.len() > 30].copy()
     n_samples = len(df)
-    print(f"✅ Total valid samples: {n_samples}")
+    print(f"Total valid samples: {n_samples}")
 
     llm = LLMWrapper(LLMConfig(model="gpt-4o-mini"))
 
@@ -252,7 +228,7 @@ def main():
 
     out_df = pd.DataFrame(rows)
     out_df.to_csv(out_csv, index=False, encoding="utf-8")
-    print(f"\n✅ Saved results to: {out_csv}")
+    print(f"\nSaved results to: {out_csv}")
 
     if len(out_df):
         mean_g = out_df["rougeL_guided"].mean()
