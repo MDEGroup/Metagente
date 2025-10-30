@@ -1,0 +1,5 @@
+file,ref_col,pred_col,n_pairs,ROUGE-1,ROUGE-2,ROUGE-L,SBERT,BERTScore_P,BERTScore_R,BERTScore_F1
+/Users/Yuki/Prj_multi_agent_git/Metagente copy/METAGENTE/result/parallel/combine1_600.csv,description_short,generated_about,600,0.383 ± 0.171,0.147 ± 0.160,0.320 ± 0.162,0.652 ± 0.138,0.621 ± 0.086,0.627 ± 0.093,0.623 ± 0.084
+/Users/Yuki/Prj_multi_agent_git/Metagente copy/METAGENTE/result/parallel/combine2_600.csv,description_short,generated_about,600,0.392 ± 0.162,0.154 ± 0.152,0.323 ± 0.155,0.664 ± 0.141,0.622 ± 0.080,0.653 ± 0.094,0.636 ± 0.081
+/Users/Yuki/Prj_multi_agent_git/Metagente copy/METAGENTE/result/parallel/combine3_600.csv,description_short,generated_about,600,0.408 ± 0.185,0.182 ± 0.196,0.344 ± 0.185,0.663 ± 0.149,0.635 ± 0.096,0.657 ± 0.107,0.644 ± 0.096
+MACRO across files,-,-,1800,0.394 ± 0.012,0.161 ± 0.019,0.329 ± 0.013,0.659 ± 0.007,0.626 ± 0.008,0.646 ± 0.016,0.634 ± 0.011

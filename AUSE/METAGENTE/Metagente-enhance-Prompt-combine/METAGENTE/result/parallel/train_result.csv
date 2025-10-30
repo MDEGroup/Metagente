@@ -1,0 +1,439 @@
+Data ID,Iteration,Extracted text from Extractor Agent,Prompt used for Summarizer Agent,Generated About,ROUGE-1 score,ROUGE-2 score,ROUGE-L score,HTML,Ground truth description,Final Summarizer Prompt
+0,0,"The official Medford School District 549C app gives you a personalized window into what is happening at the district and schools. Get the news and information that you care about and get involved. 
+
+Anyone can: 
+- View District and school news 
+- Use the district tip line 
+- Receive notifications from the district and schools 
+- Access the district directory 
+- Display information personalized to your interests 
+
+Parents and students can: 
+- View grades, assignments, and attendance 
+- View and add contact information","
+Summarize the following extracted text from an app's description into a short term/phrase introducing the app:
+<EXTRACTED_APP'S_DESCRIPTION>
+$extracted_text
+</EXTRACTED_APP'S_DESCRIPTION>
+ 
+The output should include only a short term/phrase introducing the app.
+",Medford School District 549C Official App,0.923076923076923,0.5454545454545454,0.7692307692307692,"The official Medford School District 549C app gives you a personalized window into what is happening at the district and schools. Get the news and information that you care about and get involved.            Anyone can:             -View District and school news             -Use the district tip line             -Receive notifications from the district and schools             -Access the district directory             -Display information personalized to your interests              Parents and students can:              -View grades, assignments, and attendance              -View and add contact information",The official Medford School District 549C app!
+1,0,"Official App For Houghton College. Use this app to get involved, stay organized, access resources, and communicate with others on our campus.","
+Summarize the following extracted text from an app's description into a short term/phrase introducing the app:
+<EXTRACTED_APP'S_DESCRIPTION>
+$extracted_text
+</EXTRACTED_APP'S_DESCRIPTION>
+ 
+The output should include only a short term/phrase introducing the app.
+",Houghton College Official App,0.888888888888889,0.5714285714285715,0.4444444444444445,"Official App For Houghton College.Use this app to get involved, stay organized, access resources, and communicate with others on our campus.",Official App For Houghton College.
+1,1,"Official App For Houghton College. Use this app to get involved, stay organized, access resources, and communicate with others on our campus.","Summarize the following extracted text from an app's description into a short term/phrase introducing the app. If the beginning of the extracted text includes an official name/title, prioritize using it in the summary:
+
+<EXTRACTED_APP'S_DESCRIPTION>
+$extracted_text
+</EXTRACTED_APP'S_DESCRIPTION>
+
+The output should include only a short term/phrase introducing the app.",Houghton College Official App,0.888888888888889,0.5714285714285715,0.4444444444444445
+1,2,"Official App For Houghton College. Use this app to get involved, stay organized, access resources, and communicate with others on our campus.","Summarize the following extracted text from an app's description into a short term/phrase introducing the app. If the extracted text contains an official name/title or a purpose statement at the beginning, prioritize using it in the summary:
+
+<EXTRACTED_APP'S_DESCRIPTION>
+$extracted_text
+</EXTRACTED_APP'S_DESCRIPTION>
+
+The output should include only a short term/phrase introducing the app.",Official App for Houghton College,1.0,1.0,1.0
+2,0,Bueno Y Sano is committed to providing the best food and drink experience in your own home. Order online here at Bueno Y Sano or order from our app.,"
+Summarize the following extracted text from an app's description into a short term/phrase introducing the app:
+<EXTRACTED_APP'S_DESCRIPTION>
+$extracted_text
+</EXTRACTED_APP'S_DESCRIPTION>
+ 
+The output should include only a short term/phrase introducing the app.
+","""Delicious Food Delivery at Home""",0.1111111111111111,0.0,0.1111111111111111,Bueno Y Sano is committed to providing the best food and drink experience in your own home. Order online here at Bueno Y Sano or order from our app.,Bueno Y Sano is committed to providing the best food and drink experience .
+2,1,Bueno Y Sano is committed to providing the best food and drink experience in your own home. Order online here at Bueno Y Sano or order from our app.,"Summarize the following extracted text from an app's description into a short term/phrase. Prioritize using any existing name/title or purpose statement if present at the beginning of the text:
+
+<EXTRACTED_APP'S_DESCRIPTION>
+$extracted_text
+</EXTRACTED_APP'S_DESCRIPTION>
+
+The output should include only a short term/phrase introducing the app.",Bueno Y Sano: Your Best Food and Drink Experience at Home,0.6666666666666667,0.5454545454545454,0.6666666666666667
+2,2,Bueno Y Sano is committed to providing the best food and drink experience in your own home. Order online here at Bueno Y Sano or order from our app.,"Summarize the following extracted text from an app's description into a short term/phrase. Prioritize using any existing name/title or purpose statement if present at the beginning of the text. Ensure the output closely aligns with the original phrasing of the purpose statement if included:
+
+<EXTRACTED_APP'S_DESCRIPTION>
+$extracted_text
+</EXTRACTED_APP'S_DESCRIPTION>
+
+The output should include only a short term/phrase introducing the app.",Bueno Y Sano: Best food and drink experience at home.,0.6956521739130435,0.5714285714285715,0.6956521739130435
+2,3,Bueno Y Sano is committed to providing the best food and drink experience in your own home. Order online here at Bueno Y Sano or order from our app.,"Summarize the following extracted text from an app's description into a short term/phrase. Prioritize using any existing name/title or purpose statement if present at the beginning of the text. Ensure the output closely aligns with the original phrasing of the purpose statement if included, and maintain the focus on the app's commitment to providing a quality experience:
+
+<EXTRACTED_APP'S_DESCRIPTION>
+$extracted_text
+</EXTRACTED_APP'S_DESCRIPTION>
+
+The output should include only a short term/phrase introducing the app.",Bueno Y Sano: Committed to the best food and drink experience at home.,0.8461538461538461,0.6666666666666666,0.8461538461538461
+3,0,"Employee can Login / Logout based on current location, manage leave, and fill their work log. Employees can also fill daily work logs, apply for leave, and approve work logs.","
+Summarize the following extracted text from an app's description into a short term/phrase introducing the app:
+<EXTRACTED_APP'S_DESCRIPTION>
+$extracted_text
+</EXTRACTED_APP'S_DESCRIPTION>
+ 
+The output should include only a short term/phrase introducing the app.
+",Employee Management and Time Tracking App,0.14285714285714288,0.0,0.14285714285714288,"Employee can Login / Logout based On Current Location , Manage leave and Fill their Work log.Employee can also Fill Daily Work log, Apply / Approve Leave and work log.",Employee can Login / Logout based On Current Location.
+3,1,"Employee can Login / Logout based on current location, manage leave, and fill their work log. Employees can also fill daily work logs, apply for leave, and approve work logs.","Summarize the following extracted text from an app's description into a short term/phrase introducing the app. Prioritize using any existing name, title, feature description, or purpose statement/overview if it exists at the beginning of the extracted text:
+
+<EXTRACTED_APP'S_DESCRIPTION>
+$extracted_text
+</EXTRACTED_APP'S_DESCRIPTION>
+
+The output should include only a short term/phrase introducing the app.",Employee Management App,0.18181818181818182,0.0,0.18181818181818182
+3,2,"Employee can Login / Logout based on current location, manage leave, and fill their work log. Employees can also fill daily work logs, apply for leave, and approve work logs.","Summarize the following extracted text from an app's description into a short term/phrase introducing the app. Prioritize using any existing name, title, feature description, or purpose statement/overview if it exists at the beginning of the extracted text. If an explicit feature description or purpose statement such as ""Employee can Login / Logout based on current location"" is present, prioritize using it as the description:
+
+<EXTRACTED_APP'S_DESCRIPTION>
+$extracted_text
+</EXTRACTED_APP'S_DESCRIPTION>
+
+The output should include only a short term/phrase introducing the app.",Employee Location-Based Login and Work Management App,0.5,0.0,0.25
+3,3,"Employee can Login / Logout based on current location, manage leave, and fill their work log. Employees can also fill daily work logs, apply for leave, and approve work logs.","Summarize the following extracted text from an app's description into a short term/phrase introducing the app. Prioritize using any existing name, title, feature description, or purpose statement/overview if it exists at the beginning of the extracted text. If an explicit feature description or purpose statement such as ""Employee can Login / Logout based on current location"" is present, prioritize using it as the description. Ensure the description closely aligns with the opening feature or purpose statement provided:
+
+<EXTRACTED_APP'S_DESCRIPTION>
+$extracted_text
+</EXTRACTED_APP'S_DESCRIPTION>
+
+The output should include only a short term/phrase introducing the app.",Employee Location-Based Login and Work Management App,0.5,0.0,0.25
+3,4,"Employee can Login / Logout based on current location, manage leave, and fill their work log. Employees can also fill daily work logs, apply for leave, and approve work logs.","Summarize the following extracted text from an app's description into a short term/phrase introducing the app. Prioritize using any existing name, title, feature description, or purpose statement/overview if it exists at the beginning of the extracted text. If an explicit feature description or purpose statement such as ""Employee can Login / Logout based on current location"" is present, prioritize using it exactly as the description. Ensure the description closely aligns with the opening feature or purpose statement provided and retains any specific wording or phrasing used:
+
+<EXTRACTED_APP'S_DESCRIPTION>
+$extracted_text
+</EXTRACTED_APP'S_DESCRIPTION>
+
+The output should include only a short term/phrase introducing the app.","Employee can Login / Logout based on current location, manage leave, and fill their work log.",0.6956521739130436,0.6666666666666666,0.6956521739130436
+3,5,"Employee can Login / Logout based on current location, manage leave, and fill their work log. Employees can also fill daily work logs, apply for leave, and approve work logs.","Summarize the following extracted text from an app's description into a short term/phrase introducing the app. Prioritize using any existing name, title, feature description, or purpose statement/overview if it exists at the beginning of the extracted text. If an explicit feature description or purpose statement such as ""Employee can Login / Logout based on current location"" is present at the beginning, use it exactly as the description. Ensure the description closely aligns with the opening feature or purpose statement provided and retains any specific wording or phrasing used:
+
+<EXTRACTED_APP'S_DESCRIPTION>
+$extracted_text
+</EXTRACTED_APP'S_DESCRIPTION>
+
+The output should include only a short term/phrase introducing the app.",Employee can Login / Logout based on current location.,1.0,1.0,1.0
+4,0,"Submit pet insurance claims quickly right from the ASPCA Pet Health Insurance app! The quicker you get your claims in, the sooner we can start processing them. Our customers can also see their benefits, find a vet, and much more with this easy-to-use app. 
+
+With this app, you can:
+* Submit claims even before you leave the vet—just open the app, enter a little info, and take a picture of the invoice
+* Track the status of claims
+* Review your benefit information
+* Pay bills and see your billing history
+* Update contact info
+* Find a vet clinic nearby—save it to your favorites to add to claims easily
+* Sign up for direct deposit
+* Find answers to FAQs
+* Contact us for assistance
+
+Our pet insurance app is designed to help you get the most value from your plan—and make it as simple and convenient as possible. Not a customer? Use the app to get a free pet insurance quote for your pet.","
+Summarize the following extracted text from an app's description into a short term/phrase introducing the app:
+<EXTRACTED_APP'S_DESCRIPTION>
+$extracted_text
+</EXTRACTED_APP'S_DESCRIPTION>
+ 
+The output should include only a short term/phrase introducing the app.
+","""Streamlined Pet Insurance Claims and Services""",0.3333333333333333,0.25000000000000006,0.3333333333333333,"Submit pet insurance claims quickly right from the ASPCA Pet Health Insurance app! Remember the quicker you get your claims in, the sooner we can start processing them. Our customers can also see their benefits, find a vet, and much more with this easy to [more…] use app. With this app, you can:* Submit claims even before you leave the vet—just open the app, enter a little info, and take a picture of the invoice* Track the status of claims * Review your benefit information* Pay bills and see your billing history* Update contact info* Find a vet clinic nearby—save it to your favorites to add to claims easily* Sign up for direct deposit* Find answers to FAQs* Contact us for assistanceOur pet insurance app is designed to help you get the most value from your plan—and make it as simple and convenient as possible.Not a customer? Use the app to get a free pet insurance quote for your pet or visit www.aspcapethealthinsurance.com",Submit pet insurance claims quickly with the ASPCA Pet Health Insurance app!
+4,1,"Submit pet insurance claims quickly right from the ASPCA Pet Health Insurance app! The quicker you get your claims in, the sooner we can start processing them. Our customers can also see their benefits, find a vet, and much more with this easy-to-use app. 
+
+With this app, you can:
+* Submit claims even before you leave the vet—just open the app, enter a little info, and take a picture of the invoice
+* Track the status of claims
+* Review your benefit information
+* Pay bills and see your billing history
+* Update contact info
+* Find a vet clinic nearby—save it to your favorites to add to claims easily
+* Sign up for direct deposit
+* Find answers to FAQs
+* Contact us for assistance
+
+Our pet insurance app is designed to help you get the most value from your plan—and make it as simple and convenient as possible. Not a customer? Use the app to get a free pet insurance quote for your pet.","Summarize the following extracted text from an app's description into a short term/phrase introducing the app. Prioritize using existing names, titles, or feature descriptions from the beginning of the text if applicable:
+
+<EXTRACTED_APP'S_DESCRIPTION>
+$extracted_text
+</EXTRACTED_APP'S_DESCRIPTION>
+
+The output should include only a short term/phrase introducing the app.","ASPCA Pet Health Insurance App: Quick Claims, Vet Finder, and Benefits Tracker",0.5,0.36363636363636365,0.4166666666666667
+4,2,"Submit pet insurance claims quickly right from the ASPCA Pet Health Insurance app! The quicker you get your claims in, the sooner we can start processing them. Our customers can also see their benefits, find a vet, and much more with this easy-to-use app. 
+
+With this app, you can:
+* Submit claims even before you leave the vet—just open the app, enter a little info, and take a picture of the invoice
+* Track the status of claims
+* Review your benefit information
+* Pay bills and see your billing history
+* Update contact info
+* Find a vet clinic nearby—save it to your favorites to add to claims easily
+* Sign up for direct deposit
+* Find answers to FAQs
+* Contact us for assistance
+
+Our pet insurance app is designed to help you get the most value from your plan—and make it as simple and convenient as possible. Not a customer? Use the app to get a free pet insurance quote for your pet.","Summarize the following extracted text from an app's description into a short term/phrase introducing the app. Prioritize using existing names, titles, or feature descriptions from the beginning of the text if they match the purpose of quickly submitting pet insurance claims:
+
+<EXTRACTED_APP'S_DESCRIPTION>
+$extracted_text
+</EXTRACTED_APP'S_DESCRIPTION>
+
+The output should include only a short term/phrase introducing the app.","""Quick Pet Insurance Claims with the ASPCA Pet Health Insurance App""",0.8695652173913043,0.761904761904762,0.8695652173913043
+5,0,Word Search Unlimited is 100% free and contains unlimited word search games. It is a traditional word puzzle game where you find the mystery answer hidden in the puzzle.,"
+Summarize the following extracted text from an app's description into a short term/phrase introducing the app:
+<EXTRACTED_APP'S_DESCRIPTION>
+$extracted_text
+</EXTRACTED_APP'S_DESCRIPTION>
+ 
+The output should include only a short term/phrase introducing the app.
+",Unlimited Word Search Puzzles,0.375,0.28571428571428575,0.375,Word Search Unlimited is 100% free and contains unlimited word search games.Word Search Unlimited is a traditional word puzzle game. Find the mystery answer hidden in the puzzle.,Word Search Unlimited is 100% free and contains unlimited word search games.
+5,1,Word Search Unlimited is 100% free and contains unlimited word search games. It is a traditional word puzzle game where you find the mystery answer hidden in the puzzle.,"Summarize the following extracted text from an app's description into a short term/phrase that prioritizes existing names, titles, or core feature descriptions if present:
+
+<EXTRACTED_APP'S_DESCRIPTION>
+$extracted_text
+</EXTRACTED_APP'S_DESCRIPTION>
+
+The output should include only a short term/phrase introducing the app.",Word Search Unlimited: Free Unlimited Word Puzzle Game,0.7000000000000001,0.33333333333333326,0.7000000000000001
+6,0,"Pushfor is a highly secure content sharing and instant messaging app. Its patented ‘push’ technology gives you total control when sharing and distributing content such as documents, presentations, photos, videos, images, and music. Pushfor is the perfect choice for sharing sensitive, confidential, and high-value content, as well as for private chat conversations. Content is ‘pushed’ rather than sent and can be pulled back at any time.","
+Summarize the following extracted text from an app's description into a short term/phrase introducing the app:
+<EXTRACTED_APP'S_DESCRIPTION>
+$extracted_text
+</EXTRACTED_APP'S_DESCRIPTION>
+ 
+The output should include only a short term/phrase introducing the app.
+","""Secure Content Sharing and Messaging App""",0.7058823529411764,0.5333333333333333,0.7058823529411764,"Pushfor is a highly secure, content sharing and instant messaging appPushfor’s patented (US Patent No. 9660821) ‘push’ technology gives you total control when sharing and distributing content such as documents, presentations, photos, videos, images, music etc.  Pushfor is the perfect choice for sharing sensitive, confidential and high value content and for private chat conversations.  Content is ‘pushed’ not sent and can be pulled back at any time.Key features include:•    Original file never leaves source location so is highly secure•    Supports over 50 content types with no restrictions on file sizes•    No need for authoring software on recipient device•    High definition quality when viewing content•    Upload content from your device or any external cloud storage•    Share URL links and geo-location•    Push to individuals or groups – one push and content can be shared with many•    Tracking of every interaction so you know exactly who has viewed the content, where from, with what device and for how long•    Numerous viewing and privacy permissions •    Protection against screenshots•    Protection against Malware•    Watermarks can be applied•    Real-time engagement – messaging, text, voiceBe smart in how you share your content– Download now.At Pushfor we always like to hear about your feedback or suggestions on improvements. Get in touch at hello@pushfor.com","Pushfor is a highly secure, content sharing and instant messaging app"
+7,0,"Watch live streaming of Romanian TV channels. This application allows you to watch TV channels from Romania and Moldova live streaming for free. Watch Romanian-language television channels of different categories; generalist, news, sports, movies, themes, music, children, religious, documentary, etc. With this app you can watch: TVR 1, TVR 2, TVR 3, Pro TV, Antena 1, Antena 3, Antena Stars, Happy Channel, Prima TV, Kanal D Romania, B1, Digi24, Digi Sport, Național TV, Realitatea, ZU TV, Utv, Moldova 1, Moldova 2, Prime TV, Canal 2, TV8, Jurnal TV, Publika TV, N4, Canal 3, Pro TV Chișinău.","
+Summarize the following extracted text from an app's description into a short term/phrase introducing the app:
+<EXTRACTED_APP'S_DESCRIPTION>
+$extracted_text
+</EXTRACTED_APP'S_DESCRIPTION>
+ 
+The output should include only a short term/phrase introducing the app.
+",Live Romanian TV Streaming App,0.6666666666666666,0.2,0.5,"Watch live streaming of Romanian TV channelsThis application allows you to watch TV channels from Romania and Moldova live streaming for free.Watch Romanian-language television channels of different categories; generalist, news, sports, movies, themes, music, children, religious, documentary, etc.With this app you can watch:TVR 1TVR 2TVR 3Pro TVAntena 1Antena 3Antena StarsHappy ChannelPrima TVKanal D RomaniaB1Digi24Digi SportNațional TVRealitateaZU TVUtvMoldova 1Moldova 2Prime TVCanal 2TV8Jurnal TVPublika TVN4Canal 3Pro TV Chișinău",Watch live streaming of Romanian TV channels
+7,1,"Watch live streaming of Romanian TV channels. This application allows you to watch TV channels from Romania and Moldova live streaming for free. Watch Romanian-language television channels of different categories; generalist, news, sports, movies, themes, music, children, religious, documentary, etc. With this app you can watch: TVR 1, TVR 2, TVR 3, Pro TV, Antena 1, Antena 3, Antena Stars, Happy Channel, Prima TV, Kanal D Romania, B1, Digi24, Digi Sport, Național TV, Realitatea, ZU TV, Utv, Moldova 1, Moldova 2, Prime TV, Canal 2, TV8, Jurnal TV, Publika TV, N4, Canal 3, Pro TV Chișinău.","Summarize the following extracted text from an app's description into a short term/phrase introducing the app. Prioritize using existing names, titles, or purpose statements if they appear at the beginning of the extracted text:
+
+<EXTRACTED_APP'S_DESCRIPTION>
+$extracted_text
+</EXTRACTED_APP'S_DESCRIPTION>
+
+The output should include only a short term/phrase introducing the app.",Live Romanian TV Streaming App,0.6666666666666666,0.2,0.5
+7,2,"Watch live streaming of Romanian TV channels. This application allows you to watch TV channels from Romania and Moldova live streaming for free. Watch Romanian-language television channels of different categories; generalist, news, sports, movies, themes, music, children, religious, documentary, etc. With this app you can watch: TVR 1, TVR 2, TVR 3, Pro TV, Antena 1, Antena 3, Antena Stars, Happy Channel, Prima TV, Kanal D Romania, B1, Digi24, Digi Sport, Național TV, Realitatea, ZU TV, Utv, Moldova 1, Moldova 2, Prime TV, Canal 2, TV8, Jurnal TV, Publika TV, N4, Canal 3, Pro TV Chișinău.","Summarize the following extracted text from an app's description into a short term/phrase introducing the app. Prioritize using existing names, titles, or purpose statements if they appear at the beginning of the extracted text, especially if they match a standalone phrase or sentence:
+
+<EXTRACTED_APP'S_DESCRIPTION>
+$extracted_text
+</EXTRACTED_APP'S_DESCRIPTION>
+
+The output should include only a short term/phrase introducing the app.",Live Streaming of Romanian TV Channels,0.923076923076923,0.9090909090909091,0.923076923076923
+8,0,"Open source music streaming app that provides a privacy-friendly and ad-free music experience. Offers music discovery, real-time synced lyrics, no telemetry, not even diagnostics data collection, and a huge collection of music tracks.","
+Summarize the following extracted text from an app's description into a short term/phrase introducing the app:
+<EXTRACTED_APP'S_DESCRIPTION>
+$extracted_text
+</EXTRACTED_APP'S_DESCRIPTION>
+ 
+The output should include only a short term/phrase introducing the app.
+",Privacy-Friendly Open Source Music Streaming,0.923076923076923,0.5454545454545454,0.6153846153846153,"Open source music streaming app that provide a privacy-friendly and ad free music experienceOffers music discovery, real-time synced lyrics, no telemetry, not even diagnostics data collection and huge collection of music tracks","Open Source, privacy-friendly music streaming app"
+8,1,"Open source music streaming app that provides a privacy-friendly and ad-free music experience. Offers music discovery, real-time synced lyrics, no telemetry, not even diagnostics data collection, and a huge collection of music tracks.","Summarize the following extracted text from an app's description into a short term/phrase introducing the app. Prioritize using any name/title, feature description, purpose statement, or overview from the beginning of the extracted text if it aligns closely with the extracted text's content:
+
+<EXTRACTED_APP'S_DESCRIPTION>  
+$extracted_text  
+</EXTRACTED_APP'S_DESCRIPTION>
+
+The output should include only a short term/phrase introducing the app.",Privacy-Friendly Open Source Music Streaming App,1.0,0.6666666666666666,0.7142857142857143
+9,0,Welcome to the KITE Digital Educational Solutions learning platform! This platform offers holistic end-to-end solutions for your e-learning needs. It covers various tools and the latest innovations in education for Philippine academic institutions.,"
+Summarize the following extracted text from an app's description into a short term/phrase introducing the app:
+<EXTRACTED_APP'S_DESCRIPTION>
+$extracted_text
+</EXTRACTED_APP'S_DESCRIPTION>
+ 
+The output should include only a short term/phrase introducing the app.
+",KITE Digital Educational Solutions: Comprehensive E-Learning Platform for Philippine Institutions,0.6,0.4444444444444445,0.6,Welcome to the KITE Digital Educational Solutions learning platform! This platform offers holistic end-to-end solutions for your e-learning needs. It covers various tools and the latest innovations in education for Philippine academic institutions.,Welcome to the KITE Digital Educational Solutions learning platform!
+9,1,Welcome to the KITE Digital Educational Solutions learning platform! This platform offers holistic end-to-end solutions for your e-learning needs. It covers various tools and the latest innovations in education for Philippine academic institutions.,"Summarize the following extracted text from an app's description into a short term/phrase introducing the app. If the beginning of the extracted text contains a name/title, feature description, or purpose statement/overview, prioritize using it in the summary:
+
+<EXTRACTED_APP'S_DESCRIPTION>
+$extracted_text
+</EXTRACTED_APP'S_DESCRIPTION>
+
+The output should include only a short term/phrase introducing the app.",KITE Digital Educational Solutions: Comprehensive E-Learning Platform for Philippine Institutions,0.6,0.4444444444444445,0.6
+9,2,Welcome to the KITE Digital Educational Solutions learning platform! This platform offers holistic end-to-end solutions for your e-learning needs. It covers various tools and the latest innovations in education for Philippine academic institutions.,"Summarize the following extracted text from an app's description into a short term/phrase introducing the app. If the beginning of the extracted text contains a name/title, feature description, purpose statement, or overview, prioritize using it exactly as it appears in the summary:
+
+<EXTRACTED_APP'S_DESCRIPTION>
+$extracted_text
+</EXTRACTED_APP'S_DESCRIPTION>
+
+The output should include only a short term/phrase introducing the app.",KITE Digital Educational Solutions Learning Platform,0.8,0.7692307692307693,0.8
+10,0,"Satyamev News is India's First Free Mobile News TV app, providing 24x7 updates on breaking news, political news, business news, and infotainment programs. The app aims to make common people aware of important happenings, raise awareness for fundamental rights, maintain high journalistic standards, and improve moral values to contribute to a better nation. Satyamev News encourages viewer participation by allowing them to share local news, ensuring that every viewer is valued.","
+Summarize the following extracted text from an app's description into a short term/phrase introducing the app:
+<EXTRACTED_APP'S_DESCRIPTION>
+$extracted_text
+</EXTRACTED_APP'S_DESCRIPTION>
+ 
+The output should include only a short term/phrase introducing the app.
+",Satyamev News: Your Free 24/7 Mobile News TV App,0.608695652173913,0.380952380952381,0.608695652173913,"India's First free exclusive mobile news TV app , Hindi News App, Breaking news, Bulletins , special stories, infotainment based programs.Satyamev News is India's First Free Mobile News TV to provide you 24x7 latest update round the clock and  dedicated to :- 1. Make common people aware with every important happenings around them 2. Raise the voice for basic fundamental rights and facilities for Indian citizens,. 3. Maintain  the standard of real journalism . 4. Improve the moral values of  life to make nation batter.Satyamev news is delivering breaking news , political news, business news, news bulletins, infotainment programs based on reliable sources and information of current affairs,  Satyamev news is focused to give importance to our each viewer and involve them to send their local news by providing a strong platform.",Satyamev News is India's First free exclusive Hindi Mobile news TV app.
+10,1,"Satyamev News is India's First Free Mobile News TV app, providing 24x7 updates on breaking news, political news, business news, and infotainment programs. The app aims to make common people aware of important happenings, raise awareness for fundamental rights, maintain high journalistic standards, and improve moral values to contribute to a better nation. Satyamev News encourages viewer participation by allowing them to share local news, ensuring that every viewer is valued.","Summarize the following extracted text from an app's description into a short term/phrase introducing the app. Prioritize using any existing name/title, feature description, or purpose statement if present in the beginning of the extracted text:
+
+<EXTRACTED_APP'S_DESCRIPTION>
+$extracted_text
+</EXTRACTED_APP'S_DESCRIPTION>
+
+The output should include only a short term/phrase introducing the app.",Satyamev News: India's First Free Mobile News TV App for 24x7 Updates and Viewer Participation,0.6896551724137931,0.5185185185185186,0.6896551724137931
+10,2,"Satyamev News is India's First Free Mobile News TV app, providing 24x7 updates on breaking news, political news, business news, and infotainment programs. The app aims to make common people aware of important happenings, raise awareness for fundamental rights, maintain high journalistic standards, and improve moral values to contribute to a better nation. Satyamev News encourages viewer participation by allowing them to share local news, ensuring that every viewer is valued.","Summarize the following extracted text from an app's description into a short term/phrase introducing the app. Prioritize using any existing name/title, feature description, or purpose statement if present at the beginning of the extracted text. If the exact ground truth description is present, prioritize using it as the output:
+
+<EXTRACTED_APP'S_DESCRIPTION>
+$extracted_text
+</EXTRACTED_APP'S_DESCRIPTION>
+
+The output should include only a short term/phrase introducing the app.",Satyamev News: India's First Free Mobile News TV App for 24x7 Updates,0.7692307692307693,0.5833333333333334,0.7692307692307693
+11,0,"Banner King app helps you to create HD Marathi Birthday Banner Flex and Hoarding. Just select from available backgrounds or upload, add pictures and stickers, and your birthday banner is ready within a few clicks! You can also edit images, apply filters, and crop images to make more attractive banners. It's a complete set of photo editing tools for customizing banners. The app is designed to work with both Marathi and English languages. Stickers will add more beauty to your banner. Create as many banners as you want to make your friends' birthdays more memorable and share them easily. Unleash your creativity with Banner King - Marathi Birthday maker app. This app gives you everything you need to create flex banners and hoardings.","
+Summarize the following extracted text from an app's description into a short term/phrase introducing the app:
+<EXTRACTED_APP'S_DESCRIPTION>
+$extracted_text
+</EXTRACTED_APP'S_DESCRIPTION>
+ 
+The output should include only a short term/phrase introducing the app.
+","""Banner King: Create Stunning Marathi Birthday Banners""",0.5263157894736842,0.3529411764705882,0.5263157894736842,"Banner King app helps you to create HD Marathi Birthday Banner Flex and Hoarding. Just Select from available background or upload, add pictures and Stickers and thats it. Your Birthday banner is ready within few clicks!You can also edit images, apply filters , crop images to make more attractive banners. Its complete set of photo editor toolset from which you can customise banners.Banner King app is designed to work with Marathi as well as English language. The app design is so awesome you will fall in love with app once users use it. Stickers will add more beauty to your Banner.To make your friends Birthday more memorable, Create  Banners as many as you want, share it across with your friends.So Unleash your creativity with Banner King - Marathi Birthday maker app. This App give you everything you need to create flex banner and Hoardings.",Banner King - Make HD Marathi Birthday Banner easily with Banner editing tools.
+11,1,"Banner King app helps you to create HD Marathi Birthday Banner Flex and Hoarding. Just select from available backgrounds or upload, add pictures and stickers, and your birthday banner is ready within a few clicks! You can also edit images, apply filters, and crop images to make more attractive banners. It's a complete set of photo editing tools for customizing banners. The app is designed to work with both Marathi and English languages. Stickers will add more beauty to your banner. Create as many banners as you want to make your friends' birthdays more memorable and share them easily. Unleash your creativity with Banner King - Marathi Birthday maker app. This app gives you everything you need to create flex banners and hoardings.","Summarize the following extracted text from an app's description into a short term/phrase introducing the app. If the extracted text contains a name/title, feature description, purpose statement, or overview that aligns closely with the initial part of the description, prioritize using it in the summary.
+
+<EXTRACTED_APP'S_DESCRIPTION>
+$extracted_text
+</EXTRACTED_APP'S_DESCRIPTION>
+
+The output should include only a short term/phrase introducing the app.",Banner King - Marathi Birthday Banner Maker,0.5555555555555556,0.37499999999999994,0.5555555555555556
+11,2,"Banner King app helps you to create HD Marathi Birthday Banner Flex and Hoarding. Just select from available backgrounds or upload, add pictures and stickers, and your birthday banner is ready within a few clicks! You can also edit images, apply filters, and crop images to make more attractive banners. It's a complete set of photo editing tools for customizing banners. The app is designed to work with both Marathi and English languages. Stickers will add more beauty to your banner. Create as many banners as you want to make your friends' birthdays more memorable and share them easily. Unleash your creativity with Banner King - Marathi Birthday maker app. This app gives you everything you need to create flex banners and hoardings.","Summarize the following extracted text from an app's description into a concise term/phrase introducing the app. If the extracted text contains a name/title, feature description, purpose statement, or overview that closely matches the beginning of the description, prioritize using it in the summary. Ensure the summary reflects the app's key features and purpose, focusing on its language support and editing capabilities.
+
+<EXTRACTED_APP'S_DESCRIPTION>
+$extracted_text
+</EXTRACTED_APP'S_DESCRIPTION>
+
+The output should include only a concise term/phrase introducing the app.",Banner King - Marathi Birthday Banner Maker and Photo Editor,0.4761904761904762,0.3157894736842105,0.4761904761904762
+11,3,"Banner King app helps you to create HD Marathi Birthday Banner Flex and Hoarding. Just select from available backgrounds or upload, add pictures and stickers, and your birthday banner is ready within a few clicks! You can also edit images, apply filters, and crop images to make more attractive banners. It's a complete set of photo editing tools for customizing banners. The app is designed to work with both Marathi and English languages. Stickers will add more beauty to your banner. Create as many banners as you want to make your friends' birthdays more memorable and share them easily. Unleash your creativity with Banner King - Marathi Birthday maker app. This app gives you everything you need to create flex banners and hoardings.","Summarize the following extracted text from an app's description into a concise term/phrase introducing the app. If the extracted text contains a name/title, feature description, purpose statement, or overview that closely matches the beginning of the description, prioritize using it in the summary. Ensure the summary reflects the app's key features and purpose, focusing on its language support, editing capabilities, and specific use for creating Marathi Birthday Banners.
+
+<EXTRACTED_APP'S_DESCRIPTION>
+$extracted_text
+</EXTRACTED_APP'S_DESCRIPTION>
+
+The output should include only a concise term/phrase introducing the app.",Banner King - Marathi Birthday Banner Maker,0.5555555555555556,0.37499999999999994,0.5555555555555556
+11,4,"Banner King app helps you to create HD Marathi Birthday Banner Flex and Hoarding. Just select from available backgrounds or upload, add pictures and stickers, and your birthday banner is ready within a few clicks! You can also edit images, apply filters, and crop images to make more attractive banners. It's a complete set of photo editing tools for customizing banners. The app is designed to work with both Marathi and English languages. Stickers will add more beauty to your banner. Create as many banners as you want to make your friends' birthdays more memorable and share them easily. Unleash your creativity with Banner King - Marathi Birthday maker app. This app gives you everything you need to create flex banners and hoardings.","Summarize the following extracted text from an app's description into a concise term/phrase introducing the app. If the extracted text contains a name/title, feature description, purpose statement, or overview that matches or closely matches the beginning of the description, prioritize using it in the summary. Ensure the summary reflects the app's key features and purpose, focusing on its language support, editing capabilities, and specific use for creating HD Marathi Birthday Banners, including any tools or options for customization.
+
+<EXTRACTED_APP'S_DESCRIPTION>
+$extracted_text
+</EXTRACTED_APP'S_DESCRIPTION>
+
+The output should include only a concise term/phrase introducing the app.",Banner King - HD Marathi Birthday Banner Maker,0.631578947368421,0.4705882352941177,0.631578947368421
+11,5,"Banner King app helps you to create HD Marathi Birthday Banner Flex and Hoarding. Just select from available backgrounds or upload, add pictures and stickers, and your birthday banner is ready within a few clicks! You can also edit images, apply filters, and crop images to make more attractive banners. It's a complete set of photo editing tools for customizing banners. The app is designed to work with both Marathi and English languages. Stickers will add more beauty to your banner. Create as many banners as you want to make your friends' birthdays more memorable and share them easily. Unleash your creativity with Banner King - Marathi Birthday maker app. This app gives you everything you need to create flex banners and hoardings.","Summarize the following extracted text from an app's description into a concise term/phrase introducing the app. If the extracted text contains a name/title, feature description, purpose statement, or overview that matches or closely matches the beginning of the description, prioritize using it in the summary. Ensure the summary reflects the app's key features and purpose, focusing on its language support, editing capabilities, and specific use for creating HD Marathi Birthday Banners, including any tools or options for customization. Ensure the name/title from the extracted text is at the beginning of the summary, if applicable.
+
+<EXTRACTED_APP'S_DESCRIPTION>
+$extracted_text
+</EXTRACTED_APP'S_DESCRIPTION>
+
+The output should include only a concise term/phrase introducing the app.",Banner King - HD Marathi Birthday Banner Maker with Customization Tools,0.7272727272727272,0.39999999999999997,0.7272727272727272
+12,0,Access and interact with Tautulli on the go with the official app from the Tautulli team.,"
+Summarize the following extracted text from an app's description into a short term/phrase introducing the app:
+<EXTRACTED_APP'S_DESCRIPTION>
+$extracted_text
+</EXTRACTED_APP'S_DESCRIPTION>
+ 
+The output should include only a short term/phrase introducing the app.
+",Tautulli Mobile App,0.7499999999999999,0.6666666666666666,0.7499999999999999,Access and interact with Tautulli on the go with the official app from the Tautulli team.,The official Tautulli mobile app.
+13,0,"Blog Earning A to Z Guide is a complete solution for earning money through blogging. It provides a simple tutorial for those who want to learn how to earn from their blogs. Key features include real-time database updates, super fast load times, easy-to-follow steps, daily updates, blogging tips and tricks, and basic blogging tips for beginners. This app is designed for educational purposes.","
+Summarize the following extracted text from an app's description into a short term/phrase introducing the app:
+<EXTRACTED_APP'S_DESCRIPTION>
+$extracted_text
+</EXTRACTED_APP'S_DESCRIPTION>
+ 
+The output should include only a short term/phrase introducing the app.
+","""Comprehensive Blogging Income Guide""",0.25,0.0,0.25,Blog Earning A to Z Guide is a complete solution for earning. If you seriously want to earn money then follow all step. Various way you earn from your blog.Some feature of Blog Earning A to Z Guide:--Real time database update.-Super fast load time-All step easy way to learn-Day by day update-Every new update coming real time.-Blogging tips and tricks-Basic blogging tips for beginnerBlog Earning A to Z Guide is a very simple earning tutorial.Note - Some content collect from some site. If any problem just mail us! Blog Earning A to Z Guide is a educational purpose.,Blog Earning A to Z Guide is a complete solution for earning.
+13,1,"Blog Earning A to Z Guide is a complete solution for earning money through blogging. It provides a simple tutorial for those who want to learn how to earn from their blogs. Key features include real-time database updates, super fast load times, easy-to-follow steps, daily updates, blogging tips and tricks, and basic blogging tips for beginners. This app is designed for educational purposes.","Summarize the following extracted text from an app's description into a short term/phrase introducing the app, prioritizing any existing name/title, feature description, or purpose statement/overview present in the beginning of the text:
+
+<EXTRACTED_APP'S_DESCRIPTION>
+$extracted_text
+</EXTRACTED_APP'S_DESCRIPTION>
+
+The output should include only a short term/phrase introducing the app.",Blog Earning A to Z Guide: Your Complete Solution for Monetizing Blogs,0.75,0.6363636363636364,0.75
+14,0,"Anime Golf Simulator
+
+Features:
+- 18 Holes Full Golf Course
+- Ami Anime Character
+- Easy to Use Controls
+- Three different Power Hits","
+Summarize the following extracted text from an app's description into a short term/phrase introducing the app:
+<EXTRACTED_APP'S_DESCRIPTION>
+$extracted_text
+</EXTRACTED_APP'S_DESCRIPTION>
+ 
+The output should include only a short term/phrase introducing the app.
+",Anime Golf Simulator: Play Golf with Anime Characters!,0.5454545454545454,0.4444444444444445,0.5454545454545454,Anime Golf SimulatorFeatures:-18 Holes Full Golf Course-Ami Anime Character-Easy to Use Controls-Three different Power Hits,Anime Golf Simulator
+14,1,"Anime Golf Simulator
+
+Features:
+- 18 Holes Full Golf Course
+- Ami Anime Character
+- Easy to Use Controls
+- Three different Power Hits","Summarize the following extracted text from an app's description into a short term/phrase introducing the app. If the extracted text includes a clear name or title of the app, prioritize using it in the summary:
+
+<EXTRACTED_APP'S_DESCRIPTION>
+$extracted_text
+</EXTRACTED_APP'S_DESCRIPTION>
+
+The output should include only a short term/phrase introducing the app.",Anime Golf Simulator: Play Golf with Anime Characters!,0.5454545454545454,0.4444444444444445,0.5454545454545454
+14,2,"Anime Golf Simulator
+
+Features:
+- 18 Holes Full Golf Course
+- Ami Anime Character
+- Easy to Use Controls
+- Three different Power Hits","Summarize the following extracted text from an app's description into a short term/phrase introducing the app. If the extracted text includes a clear name or title of the app, prioritize using it exactly as it appears in the summary:
+
+<EXTRACTED_APP'S_DESCRIPTION>
+$extracted_text
+</EXTRACTED_APP'S_DESCRIPTION>
+
+The output should include only a short term/phrase introducing the app.",Anime Golf Simulator: Play Golf with Ami Anime Characters!,0.5,0.4,0.5
+14,3,"Anime Golf Simulator
+
+Features:
+- 18 Holes Full Golf Course
+- Ami Anime Character
+- Easy to Use Controls
+- Three different Power Hits","Summarize the following extracted text from an app's description into a short term/phrase introducing the app. If the extracted text includes a clear name or title of the app, prioritize using it exactly as it appears in the summary. Avoid adding additional details or embellishments beyond the app's name/title:
+
+<EXTRACTED_APP'S_DESCRIPTION>
+$extracted_text
+</EXTRACTED_APP'S_DESCRIPTION>
+
+The output should include only a short term/phrase introducing the app.",Anime Golf Simulator,1.0,1.0,1.0
+15,0,"Diamond Live Wallpaper is a beautiful free Android live wallpaper that simulates a water ripple effect with water drops. Tap the screen to enjoy live water drops and waves on your home screen. You can select ripple size, background image, and enable/disable the accelerometer. The wallpaper app will sleep when your device is inactive to conserve battery. Our live wallpapers are created with quality HD images and 3D backgrounds, fully supporting horizontal orientation and looking perfect on mobile phones and tablet devices.","
+Summarize the following extracted text from an app's description into a short term/phrase introducing the app:
+<EXTRACTED_APP'S_DESCRIPTION>
+$extracted_text
+</EXTRACTED_APP'S_DESCRIPTION>
+ 
+The output should include only a short term/phrase introducing the app.
+","""Dynamic Diamond Live Wallpaper with Water Ripple Effects""",0.7777777777777777,0.75,0.7777777777777777,"Diamond Live Wallpaper – beautiful free android live wallpaper that simulates water ripple effect (water drops effect).Tap the screen to enjoy live water drops and waves on your home screen.You can select ripple size, background image and enable/disable accelerometer.The wallpaper app will sleep when your device is inactive and will not drain your battery.Our live wallpapers are created with quality HD images and 3D backgrounds.Fully supports horizontal orientation and looks perfect on mobile phones and tablet devices.To develop more free great live wallpapers, we have implemented ads in settings.Advertisement can support our develop more free great live wallpapers.",Diamond Live Wallpaper with water ripple effect (water drops effect).
+16,0,"Jung Jaehyun Wallpaper Application
+
+Greetings, KPOP fans! We present the results of the team's hard work to make the Jung Jaehyun wallpaper application for all of you fans. Hopefully, you are happy with the application and appreciate our hard work. Thank you.","
+Summarize the following extracted text from an app's description into a short term/phrase introducing the app:
+<EXTRACTED_APP'S_DESCRIPTION>
+$extracted_text
+</EXTRACTED_APP'S_DESCRIPTION>
+ 
+The output should include only a short term/phrase introducing the app.
+",Jung Jaehyun KPOP Wallpaper App,0.4,0.15384615384615383,0.4,"Greetings, KPOP fansWe present the results of the team's hard work to make the Jung jaehyun wallpaper application for all of you fans.Hopefully you are happy with the application and appreciate our hard work, thank you.",The Jung jaehyun Wallpaper application we provide for its fans
+16,1,"Jung Jaehyun Wallpaper Application
+
+Greetings, KPOP fans! We present the results of the team's hard work to make the Jung Jaehyun wallpaper application for all of you fans. Hopefully, you are happy with the application and appreciate our hard work. Thank you.","Summarize the following extracted text from an app's description into a short term/phrase introducing the app. Prioritize using any existing name/title or purpose statement if present in the text:  
+<EXTRACTED_APP'S_DESCRIPTION>  
+$extracted_text  
+</EXTRACTED_APP'S_DESCRIPTION>  
+
+The output should include only a short term/phrase introducing the app.",Jung Jaehyun Wallpaper App for KPOP Fans,0.588235294117647,0.26666666666666666,0.588235294117647
+16,2,"Jung Jaehyun Wallpaper Application
+
+Greetings, KPOP fans! We present the results of the team's hard work to make the Jung Jaehyun wallpaper application for all of you fans. Hopefully, you are happy with the application and appreciate our hard work. Thank you.","Summarize the following extracted text from an app's description into a short term/phrase introducing the app. Prioritize using any existing name/title, feature description, or purpose statement if present in the text. If the ground truth description appears within the extracted text, prioritize its use:  
+<EXTRACTED_APP'S_DESCRIPTION>  
+$extracted_text  
+</EXTRACTED_APP'S_DESCRIPTION>  
+
+The output should include only a short term/phrase introducing the app.",Jung Jaehyun Wallpaper Application for KPOP Fans,0.7058823529411764,0.4,0.7058823529411764
+,,,,,,,,,,"Summarize the following extracted text from an app's description into a short term/phrase introducing the app. Prioritize using any existing name/title, feature description, or purpose statement if present at the beginning of the extracted text. If the beginning contains a name/title, feature description, or purpose statement that matches or closely matches the extracted text's content, use it exactly as it appears in the summary. Ensure the output reflects the app's key features and purpose, focusing on its unique offerings or commitments.
+
+<EXTRACTED_APP'S_DESCRIPTION>
+$extracted_text
+</EXTRACTED_APP'S_DESCRIPTION>
+
+The output should include only a short term/phrase introducing the app."
