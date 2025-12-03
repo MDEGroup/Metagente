@@ -1,0 +1,51 @@
+OPTIMIZED_SUMMARIZER_PROMPT = """"Summarize the following extracted text from an app's description into a short term/phrase introducing the app and its main functionality or key features. Prioritize using any existing name, title, feature description, or purpose statement if present in the extracted text.
+
+<EXTRACTED_APP'S_DESCRIPTION>
+$extracted_text
+</EXTRACTED_APP'S_DESCRIPTION>
+
+The output should include only a short term/phrase introducing the app.""" ver 1
+
+OPTIMIZED_SUMMARIZER_PROMPT = """"Summarize the following extracted text from an app's description into a short, descriptive phrase introducing the app. Prioritize using the app's name or title if mentioned, and include key features, purpose, or primary functionality. If the name or title is not present, focus on capturing the main concept or idea of the app. The output should be a concise term or phrase that highlights the app's primary purpose and is relevant for users searching for it.
+
+<EXTRACTED_APP'S_DESCRIPTION>
+$extracted_text
+</EXTRACTED_APP'S_DESCRIPTION>"""  ver 2
+
+OPTIMIZED_SUMMARIZER_PROMPT = """"Summarize the provided $extracted_text into a short and concise term/phrase that introduces the app, focusing on its primary purpose or name. Prioritize using any existing names, titles, main features, or overviews present in the text. If these elements are not available, emphasize key features or functions of the app.""" ver 3
+
+OPTIMIZED_SUMMARIZER_PROMPT = """"Summarize the following extracted text from an app's description into a short term/phrase introducing the app. Prioritize using any existing name, title, or key concept that describes the app. If no clear name or title is present, emphasize the main feature or purpose of the app as concisely as possible.
+
+<EXTRACTED_APP'S_DESCRIPTION>
+$extracted_text
+</EXTRACTED_APP'S_DESCRIPTION>
+
+The output should include only a short term/phrase introducing the app.""" ver 1 1.0
+
+OPTIMIZED_SUMMARIZER_PROMPT = """"Summarize the following extracted text from an app's description into a short term/phrase introducing the app. Prioritize using any prominent name, title, or feature if present in the description. If not, create a phrase that accurately reflects the app's main function or purpose as mentioned in the text. The output should include only a short term/phrase introducing the app. 
+
+<EXTRACTED_APP'S_DESCRIPTION> $extracted_text </EXTRACTED_APP'S_DESCRIPTION>""" ver 2 1.0
+
+OPTIMIZED_SUMMARIZER_PROMPT = """"Summarize the following extracted text from an app's description into a concise and informative term/phrase that introduces the app. Focus on the main concept or primary feature, and if the app's name, title, or any significant feature is mentioned, prioritize using it. Avoid including unnecessary details unless they are integral to the app's core function or identity.
+
+<EXTRACTED_APP'S_DESCRIPTION>
+$extracted_text
+</EXTRACTED_APP'S_DESCRIPTION>""" ver 3 1.0
+
+OPTIMIZED_SUMMARIZER_PROMPT = """"Summarize the following extracted text from an app's description into a short term/phrase that introduces the app. Prioritize using any existing name, title, or key feature mentioned in the text, as these elements are likely to provide the most accurate introduction.
+
+<EXTRACTED_APP'S_DESCRIPTION>
+$extracted_text
+</EXTRACTED_APP'S_DESCRIPTION>""" ver 1 0.3
+
+OPTIMIZED_SUMMARIZER_PROMPT = """"Summarize the following extracted text from an app's description into a short term/phrase that clearly introduces the app, its main concept, and features if applicable. Prioritize using any existing name, title, or feature descriptions found in the text, especially if they accurately describe the app's purpose or overview.
+
+<EXTRACTED_APP'S_DESCRIPTION>
+$extracted_text
+</EXTRACTED_APP'S_DESCRIPTION>""" ver 2 0.3
+
+OPTIMIZED_SUMMARIZER_PROMPT = """"Summarize the following extracted text from an app's description into a short term/phrase introducing the app. Prioritize using the app's name/title, feature description, or purpose statement if present in the text. Use existing phrases that accurately represent the app if they are present. The output should include only a short term/phrase introducing the app.
+
+<EXTRACTED_APP'S_DESCRIPTION>
+$extracted_text
+</EXTRACTED_APP'S_DESCRIPTION>""" ver 3 0.3

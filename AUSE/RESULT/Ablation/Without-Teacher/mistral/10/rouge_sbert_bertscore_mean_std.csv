@@ -1,0 +1,5 @@
+file,ref_col,pred_col,n_pairs,ROUGE-1,ROUGE-2,ROUGE-L,SBERT,BERTScore_P,BERTScore_R,BERTScore_F1
+/Users/Yuki/Prj_multi_agent_git/Metagente-ollama/METAGENTE/result/parallel/10/Mistral_1_10.csv,description_short,generated_about,600,0.370 ± 0.177,0.140 ± 0.166,0.314 ± 0.167,0.648 ± 0.149,0.626 ± 0.098,0.592 ± 0.095,0.607 ± 0.090
+/Users/Yuki/Prj_multi_agent_git/Metagente-ollama/METAGENTE/result/parallel/10/Mistral_2_10.csv,description_short,generated_about,600,0.370 ± 0.177,0.140 ± 0.160,0.310 ± 0.165,0.648 ± 0.152,0.628 ± 0.097,0.596 ± 0.092,0.610 ± 0.089
+/Users/Yuki/Prj_multi_agent_git/Metagente-ollama/METAGENTE/result/parallel/10/Mistral_3_10.csv,description_short,generated_about,600,0.372 ± 0.151,0.137 ± 0.134,0.306 ± 0.140,0.660 ± 0.137,0.618 ± 0.077,0.654 ± 0.093,0.634 ± 0.079
+MACRO across files,-,-,1800,0.370 ± 0.001,0.139 ± 0.002,0.310 ± 0.004,0.652 ± 0.007,0.624 ± 0.005,0.614 ± 0.035,0.617 ± 0.015
