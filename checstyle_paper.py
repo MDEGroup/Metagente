@@ -16,7 +16,7 @@ for index, row in df.iterrows():
     print(f"Owner: {owner}, Project: {project}")
     url = f"https://api.github.com/repos/{owner}/{project}/actions/workflows"
     headers = {
-        "Authorization": "token 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"
+        "Authorization": "token {YOUR_GITHUB_TOKEN_HERE}"
     }
 
     response = requests.get(url, headers=headers)
