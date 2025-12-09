@@ -1,0 +1,22 @@
+# """"Summarize the following extracted text from an app's description into a short term/phrase introducing the app. Prioritize using any existing name/title, feature description, purpose statement, or overview that appears at the beginning of the extracted text. Ensure the output remains closely aligned with the original phrasing and content, highlighting key features or unique aspects if applicable:
+
+# <EXTRACTED_APP'S_DESCRIPTION>
+# $extracted_text
+# </EXTRACTED_APP'S_DESCRIPTION>
+
+# The output should include only a short term/phrase introducing the app.""" ver 2
+
+# """"Summarize the following extracted text from an app's description into a short term/phrase introducing the app. Prioritize using any existing name/title, feature description, or purpose statement that appears at the beginning of the extracted text. Ensure to capture the key concept or idea, emphasizing unique features or categories mentioned:
+
+# <EXTRACTED_APP'S_DESCRIPTION>
+# $extracted_text
+# </EXTRACTED_APP'S_DESCRIPTION>
+
+# The output should include only a short term/phrase introducing the app.""" ver 1
+""""Summarize the following extracted text from an app's description into a short term/phrase introducing the app. Prioritize using any existing name/title, feature description, or purpose statement if present at the beginning of the extracted text. If the beginning contains a name/title, feature description, or purpose statement that matches or closely matches the extracted text's content, use it exactly as it appears in the summary. Ensure the output reflects the app's key features and purpose, focusing on its unique offerings or commitments.
+
+<EXTRACTED_APP'S_DESCRIPTION>
+$extracted_text
+</EXTRACTED_APP'S_DESCRIPTION>
+
+The output should include only a short term/phrase introducing the app.""" ver 3
