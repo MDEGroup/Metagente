@@ -55,4 +55,37 @@ This folder contains the Python scripts used to run the experiments and generate
 - **GITSUM.py**: Script for running the GITSUM model on the datasets.  
 - **LLAMA_SUMMARY.py**: Script for processing and summarizing results from the LLAMA model.  
 
+# How to cite
+If you use the tool or the dataset in your research, please cite our work using the following BibTex entries:
+
+```
+@inbook{10.1145/3696630.3728511,
+   author = {Nguyen, Duc S. H. and Truong, Bach G. and Nguyen, Phuong T. and {Di Rocco}, Juri and {Di Ruscio}, Davide},
+   title = {Teamwork makes the dream work: LLMs-Based Agents for GitHub README.MD Summarization},
+   year = {2025},
+   isbn = {9798400712760},
+   publisher = {Association for Computing Machinery},
+   address = {New York, NY, USA},
+   url = {https://doi.org/10.1145/3696630.3728511},
+   abstract = {The proliferation of Large Language Models (LLMs) in recent years has realized many applications in various domains. Being trained with a huge of amount of data coming from    various sources, LLMs can be deployed to solve different tasks, including those in Software Engineering (SE). Though they have been widely adopted, the potential of using LLMs cooperatively has not been thoroughly investigated.In this paper, we proposed Metagente as a novel approach to amplify the synergy of various LLMs. Metagente is a Multi-Agent framework based on a series of LLMs to self-optimize the system through evaluation, feedback, and cooperation among specialized agents. Such a framework creates an environment where multiple agents iteratively refine and optimize prompts from various perspectives. The results of these explorations are then reviewed and aggregated by a teacher agent. To study its performance, we evaluated Metagente with an SE task, i.e., summarization of README.MD files, and compared it with three well-established baselines, i.e., GitSum, LLaMA-2, and GPT-4o. The results show that our proposed approach works efficiently and effectively, consuming a small amount of data for fine-tuning but still getting a high accuracy, thus substantially outperforming the baselines. The performance gain compared to GitSum, the most relevant benchmark, ranges from 27.63\% to 60.43\%. More importantly, compared to using only one LLM, Metagente boots up the accuracy to multiple folds.},
+   booktitle = {Proceedings of the 33rd ACM International Conference on the Foundations of Software Engineering},
+   pages = {621–625},
+   numpages = {5}
+}
+
+```
+and
+```
+@article{Nguyen:2026:AUSE:Metagente,
+   doi = {10.1007/s10515-025-00588-4},
+   url = {https://doi.org/10.1007/s10515-025-00588-4},
+   year = 2026,
+   month = {feb},
+   publisher = {Springer Science and Business Media {LLC}},
+   author = {Nguyen, Duc S. H. and Nguyen, Minh T. and Nguyen, Phuong T. and {Di Rocco}, Juri and {Di Ruscio}, Davide},
+   title = {Automated summarization of software documents: an LLM-based multi-agent approach},
+   journal = {Automated Software Engineering}
+}
+
+```
 
